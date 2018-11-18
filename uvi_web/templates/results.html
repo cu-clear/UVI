@@ -1,0 +1,111 @@
+{% extends 'bootstrap_base_iframe.html' %}
+{% block title %} Search Results {% endblock %}
+{% block body %}
+
+
+{% if null_results %}
+No Results Found
+{% else %}
+
+{# {{ form.crsf_token }} #}
+
+
+<!-- <div class='container' id='results_tab_pane'> -->
+<div class='row' id='results_tab_pane'>
+    <div class='col-3'>
+        <ul class='nav nav-tabs' id='resultTab' role='tablist'>
+          {% for key in matched_ids.keys() %}
+          <!--Matched Elements is a dictionary with keys 'VerbNet', 'FrameNet', 'PropBank'...
+              The first tab, whichever is returned by the results, should be active-->
+          {% if loop.first %}
+          <li class='nav-item'>
+              <a class='nav-link active' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab'>{{ key }}</a></li>
+          <!--Other tabs inactive-->
+          {% else %}
+          <li class='nav-item'>
+              <a class='nav-link' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab' >{{ key }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+
+        <div class='tab-content' id='resultTabContent'>
+        {% for key in matched_ids.keys() %}
+        {% if key == 'VerbNet' %}
+        {% set vn_elements = matched_ids['VerbNet'] %}
+        <div id='{{key}}_tab_pane' class='tab-pane fade show active' role='tabpanel'">
+            {% if not vn_elements %}
+            <br />No results found for query: <br />
+            "{{query_string}}"
+            {% else %}
+            <br />{{ matched_ids['VerbNet'] | length }} result(s) matching query (click to view): <br />
+
+            <hr />
+            
+            {% for vn_element in vn_elements %}
+            <!--BEGIN FORM:
+                On Submit, this form posts to route "_filtered_results" (see "uvi_flask.py"), which renders
+                "render_verbnet.html" (see "uvi_flask.py") in target <iframe id="filtered_results_panel"> in 
+                "search.html"-->
+            <form action='/_display_element' id='vn_filtered_elements' method='post' target='filtered_results_pane'>
+                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
+                <input name="resource_key" type="hidden" value="VerbNet">
+                <input name="vn_class_id" type="hidden" value={{vn_element}}>
+                <input class='results_tab_element' type='submit' value={{vn_element}}>
+            </form>
+            <!--END FORM-->
+            {% endfor %}
+            {% endif %}
+        </div>
+
+        {% elif key == 'FrameNet' %}
+        {% set fn_elements = matched_ids['FrameNet'] %}
+        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'">
+            {% if not fn_elements %}
+            <br />No results found for query: <br />
+            "{{query_string}}"
+            {% else %}
+            <br />{{ matched_ids['FrameNet'] | length }} result(s) matching query <br />
+            
+            {% for fn_element in fn_elements %}
+            <form action='/_display_element' id='fn_filtered_elements' method='post' target='filtered_results_pane'>
+                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
+                <input name="resource_key" type="hidden" value="FrameNet">
+                <input name="fn_name" type="hidden" value={{fn_element}}>
+                <input class='results_tab_element' type='submit' value={{fn_element}}>
+            </form>
+            {% endfor %}
+
+            {% endif %}
+        </div>
+
+        {% elif key == 'PropBank' %}
+        {% set pb_elements = matched_ids['PropBank'] %}
+        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'">
+            {% if not pb_elements %}
+            <br />No results found for query: <br />
+            "{{query_string}}"
+            {% else %}
+            <br />{{ matched_ids['PropBank'] | length }} result(s) matching query <br />
+
+            {% for pb_element in pb_elements %}
+            <form action='/_display_element' id='pb_filtered_elements' method='post' target='filtered_results_pane'>
+                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
+                <input name="resource_key" type="hidden" value="PropBank">
+                <input name="pb_lemma" type="hidden" value={{pb_element}}>
+                <input class='results_tab_element' type='submit' value={{pb_element}}>
+            </form>
+            {% endfor %}
+            {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+        <br />
+        </div>
+    </div>
+
+    <div class='col-9' id='filtered_results'>
+        <iframe class='frame' frameborder="0" name="filtered_results_pane" id="filtered_results_pane"></iframe>
+    </div>
+</div>
+{% endif %}
+{% endblock %}

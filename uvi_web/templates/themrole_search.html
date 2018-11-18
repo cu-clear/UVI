@@ -1,0 +1,18 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+
+<div class='container'>
+    <h5>VerbNet classes containing themrole:</h5>
+    <h5 style="color:red;">{{ themrole }}</h5>
+    <!--BEGIN QUERY RESULTS CHECKBOX FORM
+        Contents populated by results of POSTing <form id='query_form'> above-->
+        {% include 'results.html' %}
+    <!--END QUERY RESULTS CHECKBOX FORM-->
+</div>
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

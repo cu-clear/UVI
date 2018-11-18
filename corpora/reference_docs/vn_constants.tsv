@@ -1,0 +1,14 @@
+Constant name	Definition	Arguments	Comments
+abstract	An event is abstract/metaphorical.	Manner(E, Manner/Agent, Participant)	Only appears in vn_schema-3.
+ch_of_loc	An entity changes location from an Initial_location to a Destination.	part of path_rel	(Maybe incomplete) list in Jena's classes spreadsheet.
+ch_of_poss	An Undergoer changes possession.	part of path_rel	(Maybe incomplete) list in Jena's classes spreadsheet.
+ch_of_state	An Undergoer goes from an Initial_State to a Result.	part of path_rel	(Maybe incomplete) list in Jena's classes spreadsheet.
+ch_on_scale	An entity's value changes on a scale.	part of path_rel	(Maybe incomplete) list in Jena's classes spreadsheet.
+deceptive	An Agent behaves in a deceptive manner to complete an event.	Manner(E, Manner/Agent, Participant)	Appears in trick-59.2.
+directedmotion	A motion event is completed in a specific direction.	Manner(E, Manner/Agent, Participant)	Appears in bump-18.4, hit-18.1, poke-19, spank-18.3, and swat-18.2.
+forceful	An Agent completes an action by using/applying force.	Manner(E, Manner/Agent, Participant)	Appears in bump-18.4, hit-18.1, poke-19, spank-18.3, and swat-18.2.
+hostile	An Agent or Agents behave in an aggressive manner.	Manner(E, Manner/Agent, Participant)	Appears in battle-36.4, bully-59.5.
+illegal	An event is completed by illegal means.	Manner(E, Manner/Agent, Participant)	Appears in steal-10.5.
+physical	An event is concrete/physical.	Manner(E, Manner/Agent, Participant)	Only appears in vn_schema-3.
+toward	An object in motion is moving toward some Destination/Goal.	Direction(E, toward, Undergoer, Destination)	Appears in animal_sounds-38, bring-11.3, carry-11.4, slide-11.2, put_direction9.4, and send-11.1.
+tr_of_info	Information is transferred from a Source to a Goal.	part of path_rel	(Maybe incomplete) list in Jena's classes spreadsheet.

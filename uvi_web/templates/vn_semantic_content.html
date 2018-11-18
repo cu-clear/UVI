@@ -1,0 +1,146 @@
+{% set pred_id = unique_id() %}
+
+{% for pred in semantics %}
+{% set pred_popover_id = pred_id ~ loop.index0 %}
+<div id={{pred_popover_id}} style='display:none;'>
+	<div class='popover-body'>
+		{% set pred_fields = get_pred_fields(pred['predicate']) %}
+		<span style='font-weight:bold'>Definition:</span><br />
+		{{ pred_fields['def'] }}
+		<br />
+		<span style='font-weight:bold'>Arguments:</span><br />
+		{{ pred_fields['args'] }}
+	</div>
+</div>
+
+{% if pred['bool'] == '!' %}
+¬
+{% endif %}
+<a href={{url_for('process_query',pred=pred['predicate'])}} target='_blank'>
+<span style="color:#bf616a; text-transform:uppercase" data-toggle="popover" data-popover-content="#{{pred_popover_id}}" data-placement='bottom'>{{ pred['predicate'] }}(</span>
+</a>
+{% set semantic_arg_id = unique_id() %}
+
+	{% for arg in pred['args'] %}
+	{% set arg_popover_id = semantic_arg_id ~ loop.index0 %}
+
+	{% if arg['arg_type'] == 'ThemRole' %}
+	<div id={{arg_popover_id}} style='display:none;'>
+		<div class='popover-body'> 
+		{% if get_themrole_fields(vn_class_json['class_id'], frame_desc_primary, frame_desc_secondary, arg['value']) is not none %} 
+			{% set themrole_fields = get_themrole_fields(vn_class_json['class_id'], frame_desc_primary, frame_desc_secondary, arg['value'])['themrole_fields'] %}
+			<span style='font-weight:bold'>Definition:</span><br />
+			{{ themrole_fields['themrole_desc'] }}<br />
+
+			<span style='font-weight:bold'>Example:</span><br />
+			{{ themrole_fields['themrole_example'] }}
+			<br />
+			
+				{% set selrestr_list = themrole_fields['selrestr_list'] %}
+				{% set selrestr_logic = themrole_fields['selrestr_logic'] %}
+				{% if selrestr_list is not none %}
+				<span style='color:#bf616a; font-weight:bold'>Selectional Restrictions:</span><br />
+				{% for selrestr in selrestr_list %}
+					{% if loop.last %}
+					<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='class')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a>
+					{% else %}
+					<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'], level='class')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a> {{ selrestr_logic }}
+					{% endif %}
+				{% endfor %}
+				<br />
+				{% endif %}
+
+				{% set synrestr_list = themrole_fields['synrestr_list'] %}
+				{% set synrestr_logic = themrole_fields['synrestr_logic'] %}
+				{% if synrestr_list is not none %}
+				<span style='color:DarkCyan; font-weight:bold'>Syntactic Restrictions:</span><br />
+				{% for synrestr in synrestr_list %}
+					{% if loop.last %}
+					<a href={{url_for('process_query',synrestr=synrestr['type'],synrestr_val=synrestr['value'])}} target='_blank'>{{ synrestr['value'] }}{{ synrestr['type'] }}</a>
+					{% else %}
+					<a href={{url_for('process_query',synrestr=synrestr['type'],synrestr_val=synrestr['value'])}} target='_blank'>{{ synrestr['value'] }}{{ synrestr['type'] }}</a> {{ synrestr_logic }}
+					{% endif %}
+				{% endfor %}
+				<br />
+				{% endif %}
+
+
+				{% set frame_selrestr_list = themrole_fields['frame_level_selrestrs_list'] %}
+				{% set frame_selrestr_logic = themrole_fields['frame_level_selrestrs_logic'] %}
+				{% if frame_selrestr_list is not none %}
+				<span style='color:MediumPurple; font-weight:bold'>Frame-Level Selectional Restrictions:</span><br />
+				{% for selrestr in frame_selrestr_list %}
+					{% if loop.last %}
+					<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='frame')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a>
+					{% else %}
+					<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='frame')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a> {{ frame_selrestr_logic }}
+					{% endif %}
+				{% endfor %}
+				{% endif %}
+			{% else %}
+			<!--THIS SECTION IS A TEMPORARY FIX FOR ERRORS IN THE XML BACKEND -->
+			{% set themrole_entry = get_themrole_fields_undefined(arg['value']) %}
+			<span style='font-weight:bold'>Definition:</span><br />
+			{{ themrole_entry['themrole_desc'] }}<br />
+
+			<span style='font-weight:bold'>Example:</span><br />
+			{{ themrole_entry['themrole_example'] }}
+			<br />
+
+		{% endif %}
+
+		</div>
+	</div>
+	<a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'>
+	<span style="color:#5e81ac;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>
+	{{ arg['value'] }}
+	</span>
+	</a>
+
+
+	{% elif arg['arg_type'] == 'Event' %}
+	{{ arg['value'] }}
+
+
+	{% elif arg['arg_type'] == 'Constant' %}
+	<div id={{arg_popover_id}} style='display:none;'>
+		<div class='popover-body'>
+			{% set constant_fields = get_constant_fields(arg['value']) %}
+			<span style='font-weight:bold'>Definition:</span><br />
+			{{ constant_fields['def'] }}
+			<br />
+			<span style='font-weight:bold'>Arguments:</span><br />
+			{{ constant_fields['args'] }}
+		</div>
+	</div>
+	<a href={{url_for('process_query',const=arg['value'])}} target='_blank'>
+	<span style="color:#a3be8c; text-transform:capitalize" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>{{ arg['value'] }}</span>
+	</a>
+
+	{% elif arg['arg_type'] == 'VerbSpecific' %}
+	<div id={{arg_popover_id}} style='display:none;'>
+		<div class='popover-body'>
+			{% set verb_specific_fields = get_verb_specific_fields(arg['value']) %}
+			<span style='font-weight:bold'>Definition:</span><br />
+			{{ verb_specific_fields['def'] }}
+			<br />
+			<span style='font-weight:bold'>Arguments:</span><br />
+			{{ verb_specific_fields['args'] }}
+		</div>
+	</div>
+	<a href={{url_for('process_query',verb_specific_arg=arg['value'])}} target='_blank'>
+	<span style="color:#b48ead; text-transform:capitalize;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>{{ arg['value'] }}</span>
+	</a>
+	
+
+	{% else %}
+	{{ arg['arg_type'] }}{{ arg['value'] }}
+
+	{% endif %}
+
+	{% if not loop.last %} , {% endif %}
+	{% endfor %}
+
+<span style="color:#bf616a;">)</span>
+<br />
+{% endfor %}

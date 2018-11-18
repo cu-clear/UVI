@@ -1,0 +1,203 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+<!--Begin Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+  <a class="navbar-brand" href={{ url_for('index') }}>Unified Verb Index</a>
+  <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('contact_us') }}>Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
+      </li>
+    </ul>
+</nav>
+<br /><br />
+<!--End Navbar-->
+
+<div class="row" id="RefPageContent">
+  <div class="col-sm-3" id="spy">
+    <ul class="nav nav-pills flex-column">
+      <li class="nav-item"><a class="nav-link active" href="#scroll1">Reference Page Info</a></li>
+      <li class="nav-item"><a class="nav-link" href="#scroll2">Genral Thematic Roles</a></li>
+      <!-- <li class="nav-item"><a class="nav-link" href="#scroll3">NP Thematic Roles</a></li> -->
+      <li class="nav-item"><a class="nav-link" href="#scroll4">Predicates</a></li>
+      <li class="nav-item"><a class="nav-link" href="#scroll5">Verb-Specific Features</a></li>
+      <li class="nav-item"><a class="nav-link" href="#scroll6">Selectional Restrictions</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-8 scrollspy-example" data-spy="scroll" data-target="#spy">
+    <div id="scroll1">
+      <h2>Reference Page Info: </h2>
+      <h4><u>Frame Types:</u> </h4>
+      <p style="font-size:16px;">
+        Primary frame names are flat phrase-structure representations of the frames, intended to be generalizable across classes. Some of the names include dot-extensions that indicate a thematic role type or underscore-extensions that indicate a complement type. These extensions can be used to subdivide frame types or ignored to use more general frame types. The names are a revision of the previous naming system, in which frames had both descriptive primary names and more specific secondary names that subdivided the frame types. The downloadable .xml files of the classes include the old primary and secondary names in the "secondary" feature, for those who still wish to use the information. The web pages do not display them, but they are included here for reference.
+      </p>
+    </div>
+    <div id="scroll2">
+      <h2>General Thematic Roles: </h2>
+      <h5>
+        {% for themrole, them_val in gen_themroles.items()|sort %}
+        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
+          <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+        </button>
+        <div class="collapse" id="{{themrole}}">
+          <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+            <div class="card-header">
+              <p>
+                {{themrole}}<br><br>
+                Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
+              </p>
+            </div>
+            <div class="card card-body">
+              <h5>
+                {% for vn_mem in them_val['vn_class_members'] %}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                </button>
+                {% endfor %}
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </h5>
+    </div>
+    <div id="scroll4">
+      <h2>Predicates: </h2>
+      <h5>
+        {% for pred, pred_val in predicates.items()|sort %}
+        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#pr-{{pred}}" aria-expanded="false" aria-controls="#pr-{{pred}}">
+          <span style="font-weight:bold; text-transform:uppercase;">{{ pred+' ('+pred_val['count']|string+')' }}</span>
+        </button>
+        <div class="collapse" id="pr-{{pred}}">
+          <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+            <div class="card-header">
+              <p>
+                Predicate: {{pred}}<br><br>
+                Classes containing <span style="text-transform: uppercase;">{{pred}}: </span>{{ pred_val['vn_class_members']|length }}<br>
+              </p>
+            </div>
+            <div class="card card-body">
+              <h5>
+                {% for vn_mem in pred_val['vn_class_members'] %}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                </button>
+                {% endfor %}
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </h5>
+    </div>
+    <div id="scroll5">
+      <h2>Verb Specific Features: </h2>
+      <h5>
+        {% for vs_feat, vs_val in vs_features.items()|sort %}
+        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vs-{{vs_feat[1:]}}" aria-expanded="false" aria-controls="#vs-{{vs_feat[1:]}}">
+          <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat+' ('+vs_val['count']|string+')' }}</span>
+        </button>
+        <div class="collapse" id="vs-{{vs_feat[1:]}}">
+          <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+            <div class="card-header">
+              <p>
+                Frames containing <span style="text-transform: uppercase;">{{vs_feat}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
+              </p>
+            </div>
+            <div class="card card-body">
+              <h5>
+                {% for vn_mem in vs_val['vn_class_mem'] %}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                </button>
+                {% endfor %}
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </h5>
+    </div>
+    <div id="scroll6">
+      <h2>Selectional Restrictions: </h2>
+      <h5>
+        {% for sr_feat, sr_val in sel_res.items()|sort%}
+        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#sr-{{sr_feat}}" aria-expanded="false" aria-controls="#sr-{{sr_feat}}">
+          <span style="font-weight:bold; text-transform:uppercase;">{{ sr_feat }}</span>
+        </button>
+        <div class="collapse" id="sr-{{sr_feat}}">
+          {% for sel_type,sel_mem in sr_val.items() %}
+            {% for pol, val in sr_val[sel_type].items()%}
+            <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+              <div class="card-header">
+                <p>
+                  {{sel_type}} containing <span style="text-transform: uppercase;">{{pol}}{{sr_feat}}: </span><br>
+                  Count: {{ val['count'] }} <br>
+                </p>
+              </div>
+              <div class="card card-body">
+                <h5>
+                {% for vn_mem in val['vn_mem'] %}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                </button>
+                {% endfor %}
+                </h5>
+              </div>
+            </div>
+            {% endfor%}
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </h5>
+    </div>
+  </div>
+</div>
+
+<style>
+  .scrollspy-example {
+      position: relative;
+      overflow: auto;
+    }
+</style>
+
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}
+
+
+    <!-- <div id="scroll3">
+      <h2>NP Thematic Roles: </h2>
+      <h5>
+        {% for np_them, np_them_val in np_themroles.items() %}
+        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#np-{{np_them}}" aria-expanded="false" aria-controls="#{tab_id}">
+          <span style="font-weight:bold; text-transform:uppercase;">{{ np_them+' ('+np_them_val['count']|string+')' }}</span>
+        </button>
+        <div class="collapse" id="np-{{np_them}}">
+          <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+            <div class="card-header">
+              <p>
+                {{np_them}}<br><br>
+                Description: <br><br>Example: <br>
+              </p>
+            </div>
+            <div class="card card-body">
+              <h5>
+                {% for vn_mem in np_them_val['vn_class_members'] %}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                </button>
+                {% endfor %}
+              </h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </h5>
+    </div> -->

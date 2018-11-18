@@ -1,0 +1,42 @@
+{% set fn_listgroup_id = unique_id() %}
+{% set examples = roleset['examples'] %}
+
+<div class='row'>
+  <div class='col-4'>
+    <div class='list-group' id='list-tab{{fn_listgroup_id}}' role='tablist'>
+      {% for example in examples %}
+      {% if loop.first %}
+      <a class='list-group-item list-group-item-action active' id='list-{{loop.index0}}-list{{fn_listgroup_id}}' data-toggle='list' href='#list-{{loop.index0}}{{fn_listgroup_id}}' role='tab'>{{ example['example_name'] }}</a>
+      {% else %}
+      <a class='list-group-item list-group-item-action' id='list-{{loop.index0}}-list{{fn_listgroup_id}}' data-toggle='list' href='#list-{{loop.index0}}{{fn_listgroup_id}}' role='tab'>{{ example['example_name'] }}</a>
+      {% endif %}
+      {% endfor %}
+      <br />
+    </div>
+  </div>
+  <div class='col-8'>
+    <div class='tab-content' id='nav-tabContent{{fn_listgroup_id}}'>
+      {% for example in examples %}
+      {% set example = colored_pb_example(example) %}
+      {% if loop.first %}
+      <div class='tab-pane fade show active' id='list-{{loop.index0}}{{fn_listgroup_id}}' role='tabpanel'>
+      {{ example['example_text'] | safe }} <br />
+      <strong>REL:</strong> {{ example['rel']['rel_text'] | safe }} <br />
+      {% for arg in example['args'] %}
+        <strong>Arg<span style="font-weight:bold; text-transform:uppercase;">{{ arg['n'] }}{% if arg['f'] %}-{{ arg['f']}}{% endif %}</span>:</strong> {{ arg['arg_text'] | safe }}<br />
+      {% endfor %}
+      </div>
+      {% else %}
+
+      <div class='tab-pane fade' id='list-{{loop.index0}}{{fn_listgroup_id}}' role='tabpanel'>
+      {{ example['example_text'] | safe }} <br />
+      <strong>REL:</strong> {{ example['rel']['rel_text'] | safe }} <br />
+      {% for arg in example['args'] %}
+        <strong>Arg<span style="font-weight:bold; text-transform:uppercase;">{{ arg['n'] }}{% if arg['f'] %}-{{ arg['f']}}{% endif %}</span>:</strong> {{ arg['arg_text'] | safe }}<br />
+      {% endfor %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

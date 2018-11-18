@@ -1,0 +1,85 @@
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.2/materia/bootstrap.min.css" crossorigin='anonymous'>
+
+    {% block head_scripts %}{% endblock %}
+
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+  {% set accordion_id = unique_id() %}
+  <div id={{accordion_id}}>
+    {% set id = frame_json['_id']~accordion_id %}
+    <div class="card">
+      <div class="card-header" id="heading_{{id}}">
+          <h3>{{ frame_json['name'] }} 
+            <a class='btn btn-outline-primary' href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{frame_json['name']}}" target='_blank'>
+            Open Full Frame on FrameNet<span class="glyphicon glyphicon-new-window"></span>
+            </a></h3>
+      </div>
+      <div class="card-body">
+      	<h5>Definition</h5>
+      	{{ formatted_def(frame_json, frame_json['definition']['def_text_markup'], popover=True) | safe}}
+      	<br /><br />
+      	
+        <ol>
+        <h6>Examples</h6>
+      	{% for example in frame_json['definition']['examples_markup'] %}
+      	<li>
+      	{{ formatted_def(frame_json, example) | safe }}
+        </li>
+      	{% endfor %}
+        </ol>
+        
+
+
+        <br />
+
+	      <h5>Lexical Units</h5>
+	      <h7>Hover to view definition; Click to view annotations on FrameNet:</h7><br />
+	      {% for lexical_unit in frame_json['lexical_units'] %}
+	      {% set popover_id = id~loop.index0 %}
+	      <div id={{popover_id}} style='display:none;'>
+	      	<div class='popover-heading'>Definition</div>
+	      	<div class='popover-body'>{{ lexical_unit['lu_def'] }}</div>
+	      </div>
+        <a href={{lexical_unit['url']}} target='_blank'>
+          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+          data-popover-content="#{{popover_id}}"
+          data-trigger='hover focus'>
+          <span style="font-weight:bold; text-transform:uppercase;">{{ lexical_unit['lu_name'] }}</span>
+          </button>
+        </a>
+		      {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <!--https://gist.github.com/ImLiam/5e64bc4b2cea6b19f95ecc67602aa363-->
+  <script>
+  $(function(){
+      $("[data-toggle=popover]").popover({
+          html : true,
+          content: function() {
+              var content = $(this).attr("data-popover-content");
+              return $(content).children(".popover-body").html();
+          },
+          title: function() {
+              var title = $(this).attr("data-popover-content");
+              return $(title).children(".popover-heading").html();
+          }
+      });
+  });
+  </script>
+</body>

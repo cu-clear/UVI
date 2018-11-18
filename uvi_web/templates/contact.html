@@ -1,0 +1,80 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+<!--Begin Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+  <a class="navbar-brand" href={{ url_for('index') }}>Unified Verb Index</a>
+  <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('contact_us') }}>Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
+      </li>
+    </ul>
+</nav>
+<br /><br />
+<!--End Navbar-->
+
+
+<div class='container'>
+	<div class='row'>
+		<div class="col-xl-8 offset-xl-2 py-5">
+			<h2>Contact form</h2>
+            <form action='/contact_us' id="contact_form" method='POST'> 
+
+			    <div class="controls">
+
+			        <div class="row">
+			            <div class="col-md-12">
+			                <div class="form-group">
+			                    <label for="form_name">Name</label>
+			                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Name is required.">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-md-12">
+			                <div class="form-group">
+			                    <label for="form_email">Email</label>
+			                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-md-12">
+			                <div class="form-group">
+			                    <label for="form_subject">Subject</label>
+			                    <input id="form_subject" type="subject" name="subject" class="form-control" required="required" data-error="Subject required">
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-md-12">
+			                <div class="form-group">
+			                    <label for="form_message">Message</label>
+			                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+			                    <div class="help-block with-errors"></div>
+			                </div>
+			            </div>
+			            <div class="col-md-12">
+			                <input type="submit" class="btn btn-success btn-send" value="Send message">
+			            </div>
+			        </div>
+			        
+			    </div>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

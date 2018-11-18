@@ -1,0 +1,67 @@
+{% set accordion_id_rolesets = unique_id() %}
+<div id={{accordion_id_rolesets}}>
+  {% for roleset in predicate['rolesets'] %}
+  {% set id = unique_id() %}
+  <div class="card">
+    <div class="card-header" id="heading_{{id}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}">
+          <h5>Roleset ID: {{ roleset['roleset_id'] }}</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id_rolesets}}">
+      <div class="card-body">
+          <h5>Role Description:</h5>
+          {{ roleset['roleset_name'] }} <br /><br />
+
+          <h5>Aliases:</h5>
+          {% for alias in roleset['aliases'] %}
+          	{% set popover_id = id~loop.index0 %}
+          	<div id={{popover_id}} style='display:none;'>
+              {% set alias_vn = alias['vn'] %}
+              {% set alias_fn = alias['fn'] %}
+              {% if alias_vn == '' %}
+                {% set alias_vn = 'None' %}
+              {% endif %}
+              {% if alias_fn == '' %}
+                {% set alias_fn = 'None' %}
+              {% endif %}
+
+          		<div class='popover-body'><strong>POS:</strong> <span style="text-transform:uppercase">{{alias['pos']}}</span><br /><strong>VN:</strong> {{alias_vn}} <br /><strong>FN: </strong>{{alias_fn}} </div>
+              }
+          	</div>
+          	<button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+          	  data-popover-content="#{{popover_id}}"
+          	  data-trigger='hover focus'>
+          	  <span style="font-weight:bold; text-transform:uppercase;">{{ alias['alias_name'] }}</span>
+          	</button>
+          {% endfor %}
+          <br /><br />
+
+          <h5>Roles:</h5>
+          {% for role in roleset['roles'] %}
+          <strong>Arg{{ role['n'] }}-<span style="font-weight:bold; text-transform:uppercase;">{{ role['f'] }}</span>:</strong> {{ role['descr'] }}
+          {% if role['vnroles'] is not none %}
+            <em>(VN Roles: </em>
+            {% for vnrole in role['vnroles'] %}
+              {% if not loop.last %}
+              {{ vnrole }}, 
+              {% else %}
+              {{ vnrole }})
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          <br />
+          {% endfor %} <br />
+
+
+          <h5>Examples:</h5>
+          <!--TODO: render examples -->
+          {% include 'render_propbank_examples.html' %}
+
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

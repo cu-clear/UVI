@@ -1,0 +1,20 @@
+{% set accordion_id_preds = unique_id() %}
+<div id={{accordion_id_preds}}>
+  {% for predicate in frame_json['predicates'] %}
+  {% set id = unique_id() %}
+  <div class="card">
+    <div class="card-header" id="heading_{{id}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}">
+          <h5>lemma: {{ predicate['lemma'] }}</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id_preds}}">
+      <div class="card-body">
+        {% include 'render_propbank_rolesets.html' %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

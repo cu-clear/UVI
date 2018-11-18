@@ -1,0 +1,14 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+<div class='container'>
+    <h5>VerbNet classes containing predicate:</h5>
+    <h5 style="color:red;">{{ predicate }}</h5>
+    {% include 'results.html' %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

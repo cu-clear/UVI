@@ -1,0 +1,178 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+
+<script>
+//Example adapted from: https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+    // document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.height = "0px";
+  } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
+    // document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.height = "150px";
+  }
+}
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $("#fade_welcome_button").click(function(){
+        $("#fade_welcome_div").hide();
+        $("#show_div").show();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#query_form").submit(function(){
+        $("#results_pane_div").show();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#attribute_query_form").submit(function(){
+        $("#results_pane_div").show();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#close_button").click(function(){
+        $("#results_pane_div").hide();
+    });
+});
+</script>
+
+
+
+<!--Begin Navbar-->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
+  <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
+  <a class="navbar-brand" href={{ url_for('index') }}>
+    <img src="/static/images/clear_orig.png" height="150px" id="logo">
+    Unified Verb Index
+  </a>
+  <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('contact_us') }}>Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Tutorial</a>
+      </li>
+    </ul>
+</nav>
+<!--End Navbar-->
+<div id='home_span' style="margin-top:190px;">
+
+    <div id='fade_welcome_div'>
+        {% include 'welcome_frame.html' %}
+    </div>
+
+    <!-- <div class='container' id='show_div' style="display:none"> -->
+    <div id='show_div' style="display:none; position:absolute;">
+        <div class='row'>
+            <!--BEGIN SIDE COLUMN LEFT-->
+            <div class='col-3'>
+                <div class='row' id="query_form_div">
+                <!--BEGIN FORM:
+                    On Submit, this form posts to route "_process_query" (see "uvi_flask.py"), which
+                    calls "find_matching_elements()" (see "methods.py") on the user's query and renders
+                    "results.html" in target <iframe id="results_panel"> -->
+                <form action='/_process_query' id="query_form" method='post' target='results_pane'>
+                    <label for="search_box"><b><h4>Search by Verb Lemmas</h4></b></label>
+                    <input id='search_box' type="text" name="lemma_query_string" placeholder="e.g. run go go_on"><br />
+                    <input class='btn btn-primary btn-dark' type="submit" value='Submit'>
+                    <br /><br />
+
+                    <span><b>Logical Behavior:</b></span>
+                    <br />
+                    <input type="radio" id="logical_and_radio" name='logic' value='and' checked />
+                    <label for="logical_and_radio">AND (Default)</label>
+                    <br />
+                    <input type="radio" id="logical_or_radio" name='logic' value='or'/>
+                    <label for="logical_or_radio">OR</label>
+
+                    <br />
+
+                    <span><b>Sorting Behavior:</b></span>
+                    <br />
+                    <input type="radio" id="sort_alpha" name='sort_behavior' value='alpha' checked />
+                    <label for="sort_alpha">Alphabetical</label>
+                    <br />
+                    <input type="radio" id="sort_num" name='sort_behavior' value='num'/>
+                    <label for="sort_num">Numerical</label>
+
+                    <br />
+
+                    <span><b>Include Resources:</b></span>
+                    <br />
+                    <input type='checkbox' name='incl_vn' checked>
+                    <label for='incl_vn'>VerbNet</label><br />
+                    <input type='checkbox' name='incl_fn' checked>
+                    <label for='incl_vn'>FrameNet</label><br />
+                    <input type='checkbox' name="incl_pb" checked>
+                    <label for='incl_vn'>PropBank</label><br />
+                    <input type='checkbox' name="incl_wn" checked>
+                    <label for='incl_vn'>OntoNotes</label><br />
+                </form>
+                </div>
+                <!--END FORM-->
+            </div>
+
+            <div class='col-4'>
+                <div class='row' id="attribute_query_form_div">
+                
+                <form action='/_process_query' id="attribute_query_form" method='post' target='results_pane'>
+                    <label for="search_box"><b><h4>Search by VerbNet Attribute</h4></b></label>
+                    <input id='search_box' type="text" name="attribute_query_string"><br />
+                    <input class='btn btn-primary btn-dark' type="submit" value='Submit'>
+                    <br /><br />
+
+                    <span><b>Attribute Type:</b></span>
+                    <br />
+                    <input type='radio' name='vn_attribute' value='themrole' checked />
+                    <label for='vn_attribute'>Thematic Role</label><br />
+                    <input type='radio' name='vn_attribute' value='predicate'/>
+                    <label for='vn_attribute'>Predicate</label><br />
+                    <input type='radio' name="vn_attribute" value='vs_feature' />
+                    <label for='vn_attribute'>Verb-Specific Feature</label><br />
+                    <input type='radio' name="vn_attribute" value='selrestr' />
+                    <label for='vn_attribute'>Selectional Restriction</label><br />
+                    <input type='radio' name="vn_attribute" value='synrestr' />
+                    <label for='vn_attribute'>Syntactic Restriction</label><br />
+                </form>
+                </div>
+                <!--END FORM-->
+            </div>
+
+            <hr>
+            <!--END SIDE COLUMN LEFT-->
+        </div>
+    </div>
+
+    <div id='results_pane_div' style="display:none; position: absolute;">
+        <button type="button" id='close_button'>&times;</button>
+        <iframe class='frame' frameborder="0" name="results_pane" id="results_pane">
+        </iframe>
+    </div>
+
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

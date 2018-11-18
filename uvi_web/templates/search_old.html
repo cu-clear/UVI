@@ -1,0 +1,72 @@
+<div class='row'>
+        <!--BEGIN SIDE COLUMN LEFT-->
+        <div class='col-3'>
+            <div class='row' id="query_form_div">
+            <!--BEGIN FORM:
+                On Submit, this form posts to route "_process_query" (see "uvi_flask.py"), which
+                calls "find_matching_elements()" (see "methods.py") on the user's query and renders
+                "results.html" in target <iframe id="results_panel"> -->
+            <form action='/_process_query' id="query_form" method='post' target='results_pane'>
+                <span>Search by Verb Lemmas</span><br />
+                <input type="text" name="query_string" placeholder="e.g. run go go_on"><br /><br />
+                <input type="submit" value='Submit'>
+
+                <br /><br />
+
+                <span>Logical Behavior: </span>
+                <br />
+                <input type="radio" id="logical_and_radio" name='logic' value='and' checked />
+                <label for="logical_and_radio">AND (Default)</label>
+                <br />
+                <input type="radio" id="logical_or_radio" name='logic' value='or'/>
+                <label for="logical_or_radio">OR</label>
+
+                <br />
+
+                <span>Sorting Behavior: </span>
+                <br />
+                <input type="radio" id="sort_alpha" name='sort_behavior' value='alpha' checked />
+                <label for="sort_alpha">Alphabetical</label>
+                <br />
+                <input type="radio" id="sort_num" name='sort_behavior' value='num'/>
+                <label for="sort_num">Numerical</label>
+
+                <br />
+
+                <span>Include Resources: </span>
+                <br />
+                <input type='checkbox' name='incl_vn' checked>
+                <label for='incl_vn'>VerbNet</label><br />
+                <input type='checkbox' name='incl_fn' checked>
+                <label for='incl_vn'>FrameNet</label><br />
+                <input type='checkbox' name="incl_pb" checked>
+                <label for='incl_vn'>PropBank</label><br />
+                <input type='checkbox' name="incl_wn" checked>
+                <label for='incl_vn'>OntoNotes</label><br />
+            </form>
+            </div>
+            <!--END FORM-->
+
+            <!--BEGIN QUERY RESULTS CHECKBOX FORM
+                Contents populated by results of POSTing <form id='query_form'> above-->
+            <div class='row' id='query_results'>
+                <iframe class='frame' frameborder="0" name="results_pane" id="results_pane"></iframe>
+                <!-- <iframe width='100%' frameborder="0" name="results_pane" id="results_pane"></iframe> -->
+<!--                 <iframe width='100%' frameborder="0" scrolling="no" name="results_pane" id="results_pane" onload="resizeIframe(this)"></iframe> -->
+            </div>
+            <!--END QUERY RESULTS CHECKBOX FORM-->
+        </div>
+
+        <hr>
+        <!--END SIDE COLUMN LEFT-->
+
+        <!--BEGIN MAIN CONTENT COLUMN RIGHT -->
+        <div class='col-9'>
+            <div class='row' id='filtered_results'>
+                <iframe class='frame' frameborder="0" name="filtered_results_pane" id="filtered_results_pane"></iframe>
+                <!-- <iframe width='100%' frameborder="0" scrolling="no" name="filtered_results_pane" id="filtered_results_pane")" onload="resizeIframe(this)"></iframe> -->
+            </div>
+        </div>
+        <!--END MAIN CONTENT COLUMN RIGHT-->
+        
+    </div>

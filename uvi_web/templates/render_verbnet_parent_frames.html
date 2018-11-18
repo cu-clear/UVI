@@ -1,0 +1,32 @@
+{% set id = unique_id() %}
+{% set frames = vn_parent_json['frames'] %}
+
+<div class='row'>
+  <div class='col-4'>
+    <div class='list-group' id='list-tab{{id}}' role='tablist'>
+      {% for frame in frames %}
+      {% if loop.first %}
+      <a class='list-group-item list-group-item-action active' id='list-{{loop.index0}}-list{{id}}' data-toggle='list' href='#list-{{loop.index0}}{{id}}' role='tab'>{{ frame['description']['primary'] }}</a>
+      {% else %}
+      <a class='list-group-item list-group-item-action' id='list-{{loop.index0}}-list{{id}}' data-toggle='list' href='#list-{{loop.index0}}{{id}}' role='tab'>{{ frame['description']['primary'] }}</a>
+      {% endif %}
+      {% endfor %}
+      <br />
+    </div>
+  </div>
+  <div class='col-8'>
+    <div class='tab-content' id='nav-tabContent{{id}}'>
+      {% for frame in frames %}
+      {% if loop.first %}
+      <div class='tab-pane fade show active' id='list-{{loop.index0}}{{id}}' role='tabpanel'>
+      {% include 'vn_frame_content.html' %}
+      </div>
+      {% else %}
+      <div class='tab-pane fade' id='list-{{loop.index0}}{{id}}' role='tabpanel'>
+      {% include 'vn_frame_content.html' %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

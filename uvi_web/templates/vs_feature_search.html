@@ -1,0 +1,52 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+<!--Begin Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+  <a class="navbar-brand" href="#">Unified Verb Index</a>
+  <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Reference Pages</a>
+      </li>
+    </ul>
+</nav>
+<br /><br />
+<!--End Navbar-->
+
+<div class='container'>
+    <div class='row'>
+        <!--BEGIN SIDE COLUMN LEFT-->
+        <div class='col-3'>
+            <h5>VerbNet classes containing verb-specific feature:</h5>
+            <h5 style="color:red;">{{ vs_feature }}</h5>
+            <!--BEGIN QUERY RESULTS CHECKBOX FORM
+                Contents populated by results of POSTing <form id='query_form'> above-->
+            <div class='row' id='query_results'>
+                {% include 'results.html' %}
+            </div>
+            <!--END QUERY RESULTS CHECKBOX FORM-->
+        </div>
+
+        <hr>
+        <!--END SIDE COLUMN LEFT-->
+
+        <!--BEGIN MAIN CONTENT COLUMN RIGHT -->
+        <div class='col-9'>
+            <div class='row' id='filtered_results'>
+                <iframe width='100%' height='1440' frameborder="0" name="filtered_results_pane" id="filtered_results_pane"></iframe>
+            </div>
+        </div>
+        <!--END MAIN CONTENT COLUMN RIGHT-->
+        
+    </div>
+    
+</div>
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

@@ -1,0 +1,80 @@
+<body>
+  {% set accordion_id = unique_id() %}
+  <div id={{accordion_id}}>
+
+    {% for vn_parent_json in vn_parent_elements %}
+    {% set id = vn_parent_json['_id']~accordion_id %}
+    <div class="card">
+      <div class="card-header" id="heading_{{id}}">
+        <h5 class="m-auto p-0">
+          {% if parent_subclasses == true %}
+          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}">
+          {% else %}
+          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_{{id}}">
+          {% endif %}
+          <h5>{{ vn_parent_json['class_id'] }}</h5>
+          </button>
+        </h5>
+      </div>
+
+      <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id}}">
+        <div class="card-body">
+          <h7 class="card-title">Member Verb Lemmas:</h7>
+            <h5 class="card-text">
+              {% for member in vn_parent_json['members'] %}
+              {% set popover_id = id~member['name'] %}
+              <div id={{popover_id}} style='display:none;'>
+                <div class='popover-body'>
+                  <b>Verb Features:</b><br />
+                  {% set features = member['vs_features'] %}
+                  {% if features == none %}
+                  None <br />
+                  {% else %}
+                  {% for vs_feature in features %}
+                  <a href={{url_for('process_query',verb_specific_feature=vs_feature)}} target='_blank'>{{ vs_feature }}</a> <br />
+                  {% endfor %}
+                  {% endif %}
+
+                  <b>WordNet:</b><br />
+                  {% set wn = member['wn'] %}
+                  {% if wn == none %}
+                  None <br />
+                  {% else %}
+                  {% for synset in wn %}
+                  {% set wn_lemma = synset.split('%')[0] %}
+                  <a href="http://wordnetweb.princeton.edu/perl/webwn?s={{wn_lemma}}&o6=1" target="_blank">{{ synset }}</a> <br />
+                  {% endfor %}
+                  {% endif %}
+
+                  <b>Groupings:</b><br />
+                  {% set groupings = member['grouping'] %}
+                  {% if groupings == none %}
+                  None <br />
+                  {% else %}
+                  {% for grouping in groupings %}
+                  {% set grouping_id = grouping.split('.')[0]~'-v.html' %}
+                  <a href="http://verbs.colorado.edu/html_groupings/{{grouping_id}}" target="_blank">{{ grouping }}</a> <br />
+                  {% endfor %}
+                  {% endif %}
+                </div>
+              </div>
+              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+                data-popover-content="#{{popover_id}}"
+                data-trigger='click hover focus'>
+                <span style="font-weight:bold; text-transform:uppercase;">{{ member['name'] }}</span>
+              </button>
+
+              {% endfor %}
+            </h5>
+          {% include 'render_verbnet_parent_frames.html' %}
+          {% if vn_parent_json['subclasses'] is not none %}
+          {% set parent_subclasses = true %}
+          {% set vn_parent_elements = vn_parent_json['subclasses'] %}
+          {% include 'render_verbnet_parent.html' %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</body>

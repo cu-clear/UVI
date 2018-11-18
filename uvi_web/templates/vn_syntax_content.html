@@ -1,0 +1,109 @@
+{% set syntax_arg_id = unique_id() %}
+{% for arg in syntax %}
+	{% set popover_id = syntax_arg_id ~ loop.index0 %}
+	{% if arg['arg_type'] == 'NP' %}
+	<div id={{popover_id}} style='display:none;'>
+		<div class='popover-body'>
+		{% if get_themrole_fields(vn_class_json['class_id'], frame_desc_primary, frame_desc_secondary, arg['value']) is not none %} 
+			{% set themrole_fields = get_themrole_fields(vn_class_json['class_id'], frame_desc_primary, frame_desc_secondary, arg['value'])['themrole_fields'] %}
+			<span style='font-weight:bold'>Definition:</span><br />
+			{{ themrole_fields['themrole_desc'] }}<br />
+
+			<span style='font-weight:bold'>Example:</span><br />
+			{{ themrole_fields['themrole_example'] }}
+			<br />
+			
+			{% set selrestr_list = themrole_fields['selrestr_list'] %}
+			{% set selrestr_logic = themrole_fields['selrestr_logic'] %}
+			{% if selrestr_list is not none %}
+			<span style='color:#bf616a; font-weight:bold'>Selectional Restrictions:</span><br />
+			{% for selrestr in selrestr_list %}
+				{% if loop.last %}
+				<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='class')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a>
+				{% else %}
+				<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'], level='class')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a> {{ selrestr_logic }}
+				{% endif %}
+			{% endfor %}
+			<br />
+			{% endif %}
+
+			{% set synrestr_list = themrole_fields['synrestr_list'] %}
+			{% set synrestr_logic = themrole_fields['synrestr_logic'] %}
+			{% if synrestr_list is not none %}
+			<span style='color:DarkCyan; font-weight:bold'>Syntactic Restrictions:</span><br />
+			{% for synrestr in synrestr_list %}
+				{% if loop.last %}
+				<a href={{url_for('process_query',synrestr=synrestr['type'],synrestr_val=synrestr['value'])}} target='_blank'>{{ synrestr['value'] }}{{ synrestr['type'] }}</a>
+				{% else %}
+				<a href={{url_for('process_query',synrestr=synrestr['type'],synrestr_val=synrestr['value'])}} target='_blank'>{{ synrestr['value'] }}{{ synrestr['type'] }}</a> {{ synrestr_logic }}
+				{% endif %}
+			{% endfor %}
+			<br />
+			{% endif %}
+
+
+			{% set frame_selrestr_list = themrole_fields['frame_level_selrestrs_list'] %}
+			{% set frame_selrestr_logic = themrole_fields['frame_level_selrestrs_logic'] %}
+			{% if frame_selrestr_list is not none %}
+			<span style='color:MediumPurple; font-weight:bold'>Frame-Level Selectional Restrictions:</span><br />
+			{% for selrestr in frame_selrestr_list %}
+				{% if loop.last %}
+				<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='frame')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a>
+				{% else %}
+				<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='frame')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a> {{ frame_selrestr_logic }}
+				{% endif %}
+			{% endfor %}
+			{% endif %}
+		{% else %}
+			<!--THIS SECTION IS A TEMPORARY FIX FOR ERRORS IN THE XML BACKEND -->
+			{% set themrole_entry = get_themrole_fields_undefined(arg['value']) %}
+			<span style='font-weight:bold'>Definition:</span><br />
+			{{ themrole_entry['themrole_desc'] }}<br />
+
+			<span style='font-weight:bold'>Example:</span><br />
+			{{ themrole_entry['themrole_example'] }}
+			<br />
+		{% endif %}
+
+		</div>
+	</div>
+	<a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'><span style="color:#5e81ac;" data-toggle="popover" data-popover-content="#{{popover_id}}" data-placement='bottom'>
+	{{ arg['value'] }}
+	</span></a>
+
+
+	{% elif arg['arg_type'] == 'VERB' %}
+	<span style="color:#bf616a;">VERB</span>
+
+	{% elif arg['arg_type'] == 'PREP' %}
+	<div id={{popover_id}} style='display:none;'>
+		<div class='popover-body'>
+			{% set selrestr_list = arg['selrestrs']['selrestr_list'] %}
+			{% set selrestr_logic = arg['selrestrs']['selrestr_logic'] %}
+			<span style='color:#bf616a; font-weight:bold'>Selectional Restrictions:</span><br />
+			{% if selrestr_list is not none %}
+			{% for selrestr in selrestr_list %}
+				{% if loop.last %}
+				{{ selrestr['value'] }}{{ selrestr['type'] }}
+				{% else %}
+				{{ selrestr['value'] }}{{ selrestr['type'] }} {{ selrestr_logic }}
+				{% endif %}
+			{% endfor %}
+			{% else %}
+			None
+			{% endif %}
+		</div>
+	</div>
+	<span data-toggle="popover" data-popover-content="#{{popover_id}}" data-placement='bottom'>{ {{ arg['value'] }} }</span>
+
+	{% elif arg['arg_type'] == 'LEX' %}
+	<span style="color:#a3be8c;">({{ arg['value'] }})</span>
+
+	{% elif arg['arg_type'] == 'ADV' %}
+	ADV
+
+	{% elif arg['arg_type'] == 'ADJ' %}
+	ADJ
+
+	{% endif %}
+{% endfor %}

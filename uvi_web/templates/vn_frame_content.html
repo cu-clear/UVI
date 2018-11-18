@@ -1,0 +1,39 @@
+{% set example_text = frame['examples'][0]['example_text'] %}
+{% set example_svg = frame['examples'][0]['svg'] %}
+{% set syntax = frame['syntax'] %}
+{% set semantics = frame['semantics'] %}
+{% set frame_id = loop.index0 ~ id %}
+
+<h6>EXAMPLE:</h6>
+<span style="font-size:18px">
+{{example_text}}
+<br />
+<button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#{{frame_id}}_svg_modal">Show Dependency Parse Tree</button>
+
+<div class="modal fade bd-example-modal-lg" id='{{frame_id}}_svg_modal' tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <img src='data:image/svg+xml;utf8,{{example_svg}}' class='img-fluid rounded'>
+    </div>
+  </div>
+</div>
+</span>
+<br />
+<br />
+
+{% set frame_desc_primary = frame['description']['primary'] %}
+{% set frame_desc_secondary = frame['description']['secondary'] %}
+<h6>SYNTAX:</h6>
+<span style="font-size:18px">
+<!-- {{ syntax }}		
+ -->
+{% include 'vn_syntax_content.html' %}
+
+</span>
+<br />
+<br />
+
+<h6>SEMANTICS:</h6>
+<span style="font-size:18px">
+{% include 'vn_semantic_content.html' %}
+</span>

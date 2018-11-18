@@ -1,0 +1,24 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+<div class='container'>
+    {% if level is not none %}
+    {% if level == 'class' %}
+    <h5>VerbNet classes containing class-level selectional restriction:</h5>
+    {% elif level == 'frame' %}
+    <h5>VerbNet classes containing frame-level selectional restriction:</h5>
+    {% endif %}
+
+    {% else %}
+    <h5>VerbNet classes containing selectional restriction:</h5>
+    {% endif %}
+
+    <h5 style="color:red;">{{ selrestr }}</h5>
+        {% include 'results.html' %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

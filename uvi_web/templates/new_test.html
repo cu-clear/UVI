@@ -1,0 +1,64 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} UVI Search {% endblock %}
+{% block body %}
+<div class='container'>
+
+	<div class='row'>
+
+    	<div class='col-4'>
+
+            <form action='/_process_query' id="query_form" method='post' target='results_pane'>
+                <span>Search by Verb Lemmas</span>
+                <input type="text" name="query_string" placeholder="e.g. run go go_on"><br /><br />
+                <input type="submit" value='Submit'>
+
+                <br /><br />
+
+                <span>Logical Behavior: </span>
+                <br />
+                <input type="radio" id="logical_and_radio" name='logic' value='and' checked />
+                <label for="logical_and_radio">AND (Default)</label>
+                <br />
+                <input type="radio" id="logical_or_radio" name='logic' value='or'/>
+                <label for="logical_or_radio">OR</label>
+
+                <br />
+
+                <span>Include Resources: </span>
+                <br />
+                <input type='checkbox' name='incl_vn' checked>
+                <label for='incl_vn'>VerbNet</label><br />
+                <input type='checkbox' name='incl_fn' checked>
+                <label for='incl_vn'>FrameNet</label><br />
+                <input type='checkbox' name="incl_pb" checked>
+                <label for='incl_vn'>PropBank</label><br />
+                <input type='checkbox' name="incl_wn" checked>
+                <label for='incl_vn'>WordNet</label><br />
+            </form>
+
+            <div class='row' id='query_results'>
+                <iframe width='100%' height='1024' frameborder="0" name="results_pane" id="results_pane"></iframe>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class='col-8'>
+
+            <div class='row' id='filtered_results'>
+            	<iframe width='100%' height='1440' frameborder="0" name="filtered_results_pane" id="filtered_results_pane"></iframe>
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+{% endblock %}

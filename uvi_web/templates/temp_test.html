@@ -1,0 +1,106 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} Search Results {% endblock %}
+{% block body %}
+
+{% if null_results %}
+No Results Found
+{% else %}
+
+
+{# {{ form.crsf_token }} #}
+
+<div class='container'>
+  <ul class='nav nav-tabs' id='resultTab' role='tablist'>
+    {% for key in matched_elements.keys() %}
+    {% if loop.first %}
+    <li class='nav-item'>
+        <a class='nav-link active' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab' aria-controls={{key}}_tab_pane aria-selected='true'>{{ key }}</a></li>
+    {% else %}
+    <li class='nav-item'>
+        <a class='nav-link' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab' aria-controls={{key}}_tab_pane aria-selected='false'>{{ key }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+
+  <div class='tab-content' id=resultTabContent>
+    {% for key in matched_elements.keys() %}
+    {% if loop.first %}
+    <div id='{{key}}_tab_pane' class='tab-pane fade show active' role='tabpanel' aria-labelledby="{{key}}-tab">
+        {% if key == 'VerbNet' %}
+        {% set vn_elements = matched_elements['VerbNet'] %}
+
+        <script language="JavaScript">
+        function toggle(source) {
+          checkboxes = document.getElementsByName('vn_class_checkbox');
+          for(var i=0, n=checkboxes.length;i<n;i++) {
+            checkboxes[i].checked = source.checked;
+          }
+        }
+        </script>
+
+        <br />
+        <input type="checkbox" onClick="toggle(this)" /> Select/Deselect All
+
+        <hr />
+
+        <form action='/_filtered_results' id='vn_filtered_elements' method='post' target='filtered_results_pane'>
+
+	        {% for vn_element in vn_elements %}
+	        <input type='checkbox' value={{ vn_element['class_id'] }} name='vn_class_checkbox'>
+	        <label for=name={{ vn_element['class_id'] }}>{{ vn_element['class_id'] }}</label><br />
+	        {% endfor %}
+
+	        <input type='submit' value='Show Results'>
+	    </form>
+
+
+        {% elif key == 'FrameNet' %}
+        {% set fn_elements = matched_elements['FrameNet'] %}
+
+        {% elif key == 'PropBank' %}
+        {% set pb_elements = matched_elements['PropBank'] %}
+        
+        {% elif key == 'WordNet' %}
+        {{key}}{{loop.index0}}
+        {% endif %}
+    </div>
+    {% else %}
+    <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel' aria-labelledby="{{key}}-tab">
+        {% if key == 'VerbNet' %}
+        {% set vn_elements = matched_elements['VerbNet'] %}
+        <script language="JavaScript">
+        function toggle(source) {
+          checkboxes = document.getElementsByName('vn_class_checkbox');
+          for(var i=0, n=checkboxes.length;i<n;i++) {
+            checkboxes[i].checked = source.checked;
+          }
+        }
+        </script>
+
+        <input type="checkbox" onClick="toggle(this)" />Select/Deselect All
+
+        <hr />
+
+        {% for vn_element in vn_elements %}
+        <input type='checkbox' value={{ vn_element['class_id'] }} name='vn_class_checkbox'~{{vn_element['class_id']}}>
+        <label for=name={{ vn_element['class_id'] }}>{{ vn_element['class_id'] }}</label><br />
+        {% endfor %}
+
+        {% elif key == 'FrameNet' %}
+        {% set fn_elements = matched_elements['FrameNet'] %}
+
+        {% elif key == 'PropBank' %}
+        {% set pb_elements = matched_elements['PropBank'] %}
+
+        {% elif key == 'WordNet' %}
+        {{key}}{{loop.index0}}
+        {% endif %}
+    </div>
+    {% endif %}
+
+
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+{% endblock %}
