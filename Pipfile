@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nltk = "*"
+pymongo = "*"
+xmljson = "*"
+ipykernel = "*"
+numpy = "*"
+lxml = "*"
+flask = "*"
+flask-wtf = "*"
+spacy = "*"
+randomcolor = "*"
+"beautifulsoup4" = "*"
+jupyter = "*"
+flask-pymongo = "==0.5.2"
+flask-mail = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
