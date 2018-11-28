@@ -159,7 +159,7 @@ def ref_to_db():
 
 	### Get general themroles
 	themroles_dict = {}
-	with open('../themrole_defs.json') as td:
+	with open('../corpora/reference_docs/themrole_defs.json') as td:
 		themrole_defs = json.load(td)
 
 	for themrole_list in db.verbnet.find({}, {'themroles.themrole':1, 'class_id':1, '_id':0}):

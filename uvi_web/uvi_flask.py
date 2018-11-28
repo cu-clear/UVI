@@ -62,7 +62,12 @@ def contact_us():
 
 @app.route('/references_page', methods=['GET'])
 def references_page():
-	return render_template('references.html')
+    ## All Page details are returned by get_ref_page in a dictioanry format
+    return render_template('references.html', gen_themroles=list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), \
+        predicates=list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})),\
+        vs_features=list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), \
+        syn_res=list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), \
+        sel_res=list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
 
 @app.route('/_process_query', methods=['GET','POST'])
 def process_query():
