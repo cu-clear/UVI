@@ -233,16 +233,16 @@ def build_verbnet_collection():
 	 'vn_constants.tsv']]
 
 	def add_predicate_defs(predicate_definition_file, mongo_collection):
-	    with open(predicate_definition_file, 'r') as definition_tsv:
-	        #skip first line (tsv heading)
-	        next(definition_tsv)
-	        for line in definition_tsv:
-	            pred_fields = line.split('\t')
-	            pred_name = pred_fields[0].split('(')[0].strip()
-	            pred_def = pred_fields[1]
-	            pred_args = pred_fields[2]
-	            pred_dict = {'name':pred_name, 'def':pred_def, 'args':pred_args}
-	            mongo_collection.insert_one(pred_dict)
+		with open(predicate_definition_file, 'r') as definition_tsv:
+			#skip first line (tsv heading)
+			next(definition_tsv)
+			for line in definition_tsv:
+				pred_fields = line.split('\t')
+				pred_name = pred_fields[0].split('(')[0].strip()
+				pred_def = pred_fields[1]
+				pred_args = pred_fields[2]
+				pred_dict = {'name':pred_name, 'def':pred_def, 'args':pred_args}
+				mongo_collection.insert_one(pred_dict)
 
 	db.drop_collection('vn_predicates')
 	vn_pred_collection = db['vn_predicates']
@@ -262,23 +262,23 @@ def build_verbnet_collection():
 	themrole_defs = []
 
 	for html_file in html_files:
-	    html_doc = open(html_file,'r')
-	    soup = BeautifulSoup(html_doc, 'html.parser')
-	    h3_tags = [t.get_text() for t in soup.find_all('h3')]
-	    
-	    themrole = str(soup.h2).split(':')[1].split('<')[0].strip()
-	    description = 'No description found'
-	    example = 'No examples found'
-	    
-	    for tag in h3_tags:
-	        tag_fields = tag.split(':')
-	        if tag_fields[0].strip() == 'Description':
-	            description = tag_fields[1].strip()
-	        elif tag_fields[0].strip() == 'Example':
-	            example = tag_fields[1].strip()
-	    
-	    themrole_dict = {'name':themrole, 'description':description, 'example':example}
-	    themrole_defs.append(themrole_dict)
+		html_doc = open(html_file,'r')
+		soup = BeautifulSoup(html_doc, 'html.parser')
+		h3_tags = [t.get_text() for t in soup.find_all('h3')]
+		
+		themrole = str(soup.h2).split(':')[1].split('<')[0].strip()
+		description = 'No description found'
+		example = 'No examples found'
+		
+		for tag in h3_tags:
+			tag_fields = tag.split(':')
+			if tag_fields[0].strip() == 'Description':
+				description = tag_fields[1].strip()
+			elif tag_fields[0].strip() == 'Example':
+				example = tag_fields[1].strip()
+		
+		themrole_dict = {'name':themrole, 'description':description, 'example':example}
+		themrole_defs.append(themrole_dict)
 
 	db.drop_collection('vn_themroles')
 	vn_themroles_db = db['vn_themroles']
@@ -286,76 +286,75 @@ def build_verbnet_collection():
 
 
 	def get_themrole_fields(class_id, frame_json, themrole_name):
-	    #Get Class ID's for parent classes of current class (returned list includes the original class)
-	    themrole_name_stripped = themrole_name.strip('?').strip('_i').strip('_j').strip('Co-')
-	    
-	    #Edge case: Co-Patient not defined; use attributes for Patient
+		#Get Class ID's for parent classes of current class (returned list includes the original class)
+		themrole_name_stripped = themrole_name.strip('?').strip('_i').strip('_j').strip('Co-')
+		
+		#Edge case: Co-Patient not defined; use attributes for Patient
 	#     if themrole_name_stripped == 'Co-Patient': 
 	#         themrole_name_stripped = 'Patient'
 
-	    selrestr_list = None
-	    selrestr_logic = None
-	    
-	    #Get the list of parent class id's (up to & including current class_id) from which this class would inherit semantic restrictions (if any)
-	    parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
-	    for parent_class_id in parents:
-	        selrestr_fields = db['verbnet'].find_one({ 'class_id': parent_class_id, 'themroles.themrole':themrole_name_stripped}, {'themroles.themrole.$':1})
-	        if selrestr_fields:
-	            selrestr_list = selrestr_fields['themroles'][0]['selrestrs']['selrestrs_list']
-	            selrestr_logic = selrestr_fields['themroles'][0]['selrestrs']['selrestr_logic']
-	    
-	    themrole_entry = db['vn_themroles'].find_one({'name':themrole_name_stripped})
+		selrestr_list = None
+		selrestr_logic = None
+		
+		#Get the list of parent class id's (up to & including current class_id) from which this class would inherit semantic restrictions (if any)
+		parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
+		for parent_class_id in parents:
+			selrestr_fields = db['verbnet'].find_one({ 'class_id': parent_class_id, 'themroles.themrole':themrole_name_stripped}, {'themroles.themrole.$':1})
+			if selrestr_fields:
+				selrestr_list = selrestr_fields['themroles'][0]['selrestrs']['selrestrs_list']
+				selrestr_logic = selrestr_fields['themroles'][0]['selrestrs']['selrestr_logic']
+		
+		themrole_entry = db['vn_themroles'].find_one({'name':themrole_name_stripped})
 
-	    if themrole_entry:
-	        themrole_desc = themrole_entry['description']
-	        themrole_example = themrole_entry['example']
-	    else:
-	        themrole_desc = 'no entry found'
-	        themrole_example = 'no entry found'
-	        
-	    frame_syntax = frame_json['syntax']
-	    synrestrs = [arg['synrestrs'] for arg in frame_syntax if arg['value'] == themrole_name_stripped]
-	    if synrestrs == []:
-	        synrestr_list = None
-	        synrestr_logic = None
-	    else:
-	        synrestr_list = synrestrs[0]['synrestr_list']
-	        synrestr_logic = synrestrs[0]['synrestr_logic']
-	    
-	    frame_level_selrestrs = [arg['selrestrs'] for arg in frame_syntax if arg['value'] == themrole_name_stripped]
-	    if frame_level_selrestrs == []:
-	        frame_level_selrestr_list = None
-	        frame_level_selrestr_logic = None
-	    else:
-	        frame_level_selrestr_list = frame_level_selrestrs[0]['selrestr_list']
-	        frame_level_selrestr_logic = frame_level_selrestrs[0]['selrestr_logic']
+		if themrole_entry:
+			themrole_desc = themrole_entry['description']
+			themrole_example = themrole_entry['example']
+		else:
+			themrole_desc = 'no entry found'
+			themrole_example = 'no entry found'
+			
+		frame_syntax = frame_json['syntax']
+		synrestrs = [arg['synrestrs'] for arg in frame_syntax if arg['value'] == themrole_name_stripped]
+		if synrestrs == []:
+			synrestr_list = None
+			synrestr_logic = None
+		else:
+			synrestr_list = synrestrs[0]['synrestr_list']
+			synrestr_logic = synrestrs[0]['synrestr_logic']
+		
+		frame_level_selrestrs = [arg['selrestrs'] for arg in frame_syntax if arg['value'] == themrole_name_stripped]
+		if frame_level_selrestrs == []:
+			frame_level_selrestr_list = None
+			frame_level_selrestr_logic = None
+		else:
+			frame_level_selrestr_list = frame_level_selrestrs[0]['selrestr_list']
+			frame_level_selrestr_logic = frame_level_selrestrs[0]['selrestr_logic']
 
-	    return {'selrestr_list':selrestr_list, 'selrestr_logic':selrestr_logic, 'synrestr_list':synrestr_list, 
-	    'synrestr_logic':synrestr_logic, 'themrole_desc':themrole_desc, 'themrole_example':themrole_example,
-	    'frame_level_selrestrs_list':frame_level_selrestr_list, 'frame_level_selrestrs_logic': frame_level_selrestr_logic}
+		return {'selrestr_list':selrestr_list, 'selrestr_logic':selrestr_logic, 'synrestr_list':synrestr_list, 
+		'synrestr_logic':synrestr_logic, 'themrole_desc':themrole_desc, 'themrole_example':themrole_example,
+		'frame_level_selrestrs_list':frame_level_selrestr_list, 'frame_level_selrestrs_logic': frame_level_selrestr_logic}
 
 	def aggregate_themrole_list(class_id):
-	    parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
-	    themroles = []
-	    for parent_class_id in parents:
-	        parent_themroles = [themrole['themrole'] for themrole in db['verbnet'].find_one({'class_id': parent_class_id}, {'themroles.themrole':1})['themroles']]
-	        themroles.extend(parent_themroles)
-	    return list(set(themroles))
+		parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
+		themroles = []
+		for parent_class_id in parents:
+			parent_themroles = [themrole['themrole'] for themrole in db['verbnet'].find_one({'class_id': parent_class_id}, {'themroles.themrole':1})['themroles']]
+			themroles.extend(parent_themroles)
+		return list(set(themroles))
 
 	db.drop_collection('vn_themrole_fields')
 	vn_themrole_fields = db['vn_themrole_fields']
 
 	vn_class_ids = [class_id['class_id'] for class_id in list(db.verbnet.find({},{'class_id':1, '_id':0}))]
 	for class_id in vn_class_ids:
-	    class_frames = db.verbnet.find_one({'class_id':class_id}, {'frames.examples.svg':0})['frames']
-	    class_themrole_names = aggregate_themrole_list(class_id)
-	    for frame_json in class_frames:
-	        frame_desc = frame_json['description']['primary']
-	        for themrole_name in class_themrole_names:
-	            themrole_fields = get_themrole_fields(class_id, frame_json, themrole_name)
-	            vn_themrole_fields.insert_one({'class_id': class_id, 'frame_desc': frame_desc, 'themrole_name': themrole_name, 'themrole_fields': themrole_fields})
-
-    print("Finished building VN Collections.")
+		class_frames = db.verbnet.find_one({'class_id':class_id}, {'frames.examples.svg':0})['frames']
+		class_themrole_names = aggregate_themrole_list(class_id)
+		for frame_json in class_frames:
+			frame_desc = frame_json['description']['primary']
+			for themrole_name in class_themrole_names:
+				themrole_fields = get_themrole_fields(class_id, frame_json, themrole_name)
+				vn_themrole_fields.insert_one({'class_id': class_id, 'frame_desc': frame_desc, 'themrole_name': themrole_name, 'themrole_fields': themrole_fields})
+	print("Finished building VN Collections.")
 
 
 #FRAMENET
@@ -363,27 +362,27 @@ def build_framenet_collection():
 	print("Building FrameNet Collections...")
 
 	def parse_fn_def(definition_markup):
-	    def_split = definition_markup.split('<ex>')
-	    def_text_markup = def_split[0].strip()
-	    examples_markup = [ex.replace('<ex>','').replace('</ex>','').strip() for ex in def_split[1:]]
-	    return {'def_text_markup': def_text_markup, 'examples_markup': examples_markup}
-	    
+		def_split = definition_markup.split('<ex>')
+		def_text_markup = def_split[0].strip()
+		examples_markup = [ex.replace('<ex>','').replace('</ex>','').strip() for ex in def_split[1:]]
+		return {'def_text_markup': def_text_markup, 'examples_markup': examples_markup}
+		
 	def parse_frame_element(frame_element):
-	    def_markup = frame_element['definitionMarkup'].replace('<def-root>','').replace('</def-root>','').strip()
-	    return {'fe_name': frame_element['name'], 'core_type': frame_element['coreType'], 'abbrev': frame_element['abbrev'], 'def_markup': def_markup}
+		def_markup = frame_element['definitionMarkup'].replace('<def-root>','').replace('</def-root>','').strip()
+		return {'fe_name': frame_element['name'], 'core_type': frame_element['coreType'], 'abbrev': frame_element['abbrev'], 'def_markup': def_markup}
 
 	def parse_lexical_unit(lexical_unit):
-	    lu_name = ('_').join(lexical_unit['name'].split(' '))
-	    return {'lu_name': lu_name, 'lu_def': lexical_unit['definition'], 'url': lexical_unit['URL']}
+		lu_name = ('_').join(lexical_unit['name'].split(' '))
+		return {'lu_name': lu_name, 'lu_def': lexical_unit['definition'], 'url': lexical_unit['URL']}
 
 	from nltk.corpus.reader.framenet import FramenetCorpusReader
 
 	def fn_to_mongo(frame):
-	    frame_definition = parse_fn_def(frame['definitionMarkup'])
-	    frame_elements = [parse_frame_element(frame['FE'][fe]) for fe in frame['FE'].keys()]
-	    lexical_units = [parse_lexical_unit(frame['lexUnit'][lu]) for lu in frame['lexUnit'].keys()]
-	    fn_frame = {'name': frame['name'], 'definition': frame_definition, 'elements': frame_elements, 'lexical_units': lexical_units, 'url': frame['URL'], 'resource_type': 'fn'}
-	    return fn_frame
+		frame_definition = parse_fn_def(frame['definitionMarkup'])
+		frame_elements = [parse_frame_element(frame['FE'][fe]) for fe in frame['FE'].keys()]
+		lexical_units = [parse_lexical_unit(frame['lexUnit'][lu]) for lu in frame['lexUnit'].keys()]
+		fn_frame = {'name': frame['name'], 'definition': frame_definition, 'elements': frame_elements, 'lexical_units': lexical_units, 'url': frame['URL'], 'resource_type': 'fn'}
+		return fn_frame
 
 	fn = FramenetCorpusReader(path_framenet, [f for f in path_framenet if f.endswith('.xml')])
 	frames = fn.frames()
@@ -401,88 +400,88 @@ def build_framenet_collection():
 def build_propbank_collection():
 	print("Building PropBank Collections...")
 	def parse_predicate(predicate):
-	    def parse_roleset(roleset):
-	        def parse_aliases(aliases):
-	            alias_list = []
-	            for alias in aliases:
-	                alias_name = alias.text
-	                pos = alias.get('pos')
-	                fn = alias.get('framenet').split(' ') if alias.get('framenet') else ''
-	                vn = alias.get('verbnet').split(' ') if alias.get('verbnet') else ''
-	                alias_list.append({'alias_name': alias_name, 'pos': pos, 'fn': fn, 'vn': vn})
-	            return alias_list
-	        
-	        def parse_roles(roles):
-	            role_list = []
-	            for role in roles:
-	                descr = role.get('descr')
-	                f = role.get('f')
-	                n = role.get('n')
-	                
-	                vnroles_found = role.findall('vnrole')
-	                if vnroles_found:
-	                    vnroles = [vnrole.get('vncls')+'-'+vnrole.get('vntheta').lower() for vnrole in vnroles_found]
-	                    
-	                else:
-	                    vnroles = None
-	                role_list.append({'descr':descr, 'f': f, 'n': n, 'vnroles': vnroles})
-	            return role_list
-	        
-	        def parse_examples(examples):
-	            def parse_ex_args(args):
-	                args_list = []
-	                for arg in args:
-	                    arg_text = arg.text
-	                    f = arg.get('f')
-	                    n = arg.get('n')
-	                    args_list.append({'arg_text': arg_text, 'f':f, 'n':n})
-	                return args_list
-	            
-	            def parse_ex_rel(rel):
-	                if rel != None:
-	                    rel_text = rel.text
-	                    f = rel.get('f')
-	                else:
-	                    rel_text = ''
-	                    f = ''
-	                return {'rel_text': rel_text, 'f': f}
+		def parse_roleset(roleset):
+			def parse_aliases(aliases):
+				alias_list = []
+				for alias in aliases:
+					alias_name = alias.text
+					pos = alias.get('pos')
+					fn = alias.get('framenet').split(' ') if alias.get('framenet') else ''
+					vn = alias.get('verbnet').split(' ') if alias.get('verbnet') else ''
+					alias_list.append({'alias_name': alias_name, 'pos': pos, 'fn': fn, 'vn': vn})
+				return alias_list
+			
+			def parse_roles(roles):
+				role_list = []
+				for role in roles:
+					descr = role.get('descr')
+					f = role.get('f')
+					n = role.get('n')
+					
+					vnroles_found = role.findall('vnrole')
+					if vnroles_found:
+						vnroles = [vnrole.get('vncls')+'-'+vnrole.get('vntheta').lower() for vnrole in vnroles_found]
+						
+					else:
+						vnroles = None
+					role_list.append({'descr':descr, 'f': f, 'n': n, 'vnroles': vnroles})
+				return role_list
+			
+			def parse_examples(examples):
+				def parse_ex_args(args):
+					args_list = []
+					for arg in args:
+						arg_text = arg.text
+						f = arg.get('f')
+						n = arg.get('n')
+						args_list.append({'arg_text': arg_text, 'f':f, 'n':n})
+					return args_list
+				
+				def parse_ex_rel(rel):
+					if rel != None:
+						rel_text = rel.text
+						f = rel.get('f')
+					else:
+						rel_text = ''
+						f = ''
+					return {'rel_text': rel_text, 'f': f}
 
-	            example_list = []
-	            for example in examples:
-	                example_name = example.get('name')
-	                example_text = example.find('text').text
-	                args = parse_ex_args(example.findall('arg'))
-	                rel = parse_ex_rel(example.find('rel'))
-	                
-	                
-	                example_list.append({'example_name': example_name, 'example_text': example_text, 'args': args, 'rel': rel})
-	            
-	            return example_list
-	                    
-	        roleset_id = roleset.get('id')
-	        roleset_name = roleset.get('name')
-	        aliases = parse_aliases(roleset.find('aliases'))
-	        roles = parse_roles(roleset.find('roles'))
-	        examples = parse_examples(roleset.findall('example'))
-	        
-	        return {'roleset_id': roleset_id, 'roleset_name': roleset_name, 'aliases': aliases, 'roles': roles, 'examples': examples}
+				example_list = []
+				for example in examples:
+					example_name = example.get('name')
+					example_text = example.find('text').text
+					args = parse_ex_args(example.findall('arg'))
+					rel = parse_ex_rel(example.find('rel'))
+					
+					
+					example_list.append({'example_name': example_name, 'example_text': example_text, 'args': args, 'rel': rel})
+				
+				return example_list
+						
+			roleset_id = roleset.get('id')
+			roleset_name = roleset.get('name')
+			aliases = parse_aliases(roleset.find('aliases'))
+			roles = parse_roles(roleset.find('roles'))
+			examples = parse_examples(roleset.findall('example'))
+			
+			return {'roleset_id': roleset_id, 'roleset_name': roleset_name, 'aliases': aliases, 'roles': roles, 'examples': examples}
 
-	    lemma = predicate.get('lemma')
-	    rolesets = [parse_roleset(r) for r in predicate.findall('roleset')]
-	    
-	    return {'lemma': lemma, 'rolesets': rolesets}
+		lemma = predicate.get('lemma')
+		rolesets = [parse_roleset(r) for r in predicate.findall('roleset')]
+		
+		return {'lemma': lemma, 'rolesets': rolesets}
 
 	def parse_pb_frame(pb_frame):
-	    predicates = [parse_predicate(p) for p in pb_frame.findall('predicate')]
-	    return {'predicates':predicates, 'resource_type': 'pb'}
+		predicates = [parse_predicate(p) for p in pb_frame.findall('predicate')]
+		return {'predicates':predicates, 'resource_type': 'pb'}
 
 	def pb_to_mongo(file):
-	    with open(path_propbank+file,'r') as xml_file:
-	        root = etree.parse(xml_file).getroot()
-	        pb_frame = parse_pb_frame(root)
-	        pb_frame['frameset_id'] = file[:-4]
-	        return pb_frame
-	    
+		with open(path_propbank+file,'r') as xml_file:
+			root = etree.parse(xml_file).getroot()
+			pb_frame = parse_pb_frame(root)
+			pb_frame['frameset_id'] = file[:-4]
+			return pb_frame
+		
 	propbank_xml = [f for f in os.listdir(path_propbank) if f.endswith('.xml')]
 	propbank_mongo = [pb_to_mongo(f) for f in propbank_xml]
 
