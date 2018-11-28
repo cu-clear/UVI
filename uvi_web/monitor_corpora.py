@@ -93,6 +93,4 @@ wdd_fn = watch_manager.add_watch('../corpora/framenet', pyinotify.ALL_EVENTS)
 handler = EventHandler()
 notifier = pyinotify.Notifier(watch_manager, handler)
 
-with open('log.txt', 'w') as logfile:
-    sys.stdout = logfile
-    notifier_loop(notifier)
+notifier_loop(notifier)
