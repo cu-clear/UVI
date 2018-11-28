@@ -1,11 +1,6 @@
 import pyinotify
 import build_mongo_collections
-
-build_mongo_collections.build_verbnet_collection()
-build_mongo_collections.build_propbank_collection()
-build_mongo_collections.build_framenet_collection()
-
-watch_manager = pyinotify.WatchManager()
+import datetime
 
 class EventHandler(pyinotify.ProcessEvent):
     def process_IN_MODIFY(self, event):
@@ -68,8 +63,24 @@ class EventHandler(pyinotify.ProcessEvent):
             build_mongo_collections.build_framenet_collection()
             print("Rebuild complete.")
 
-handler = EventHandler()
-notifier = pyinotify.Notifier(watch_manager, handler)
+
+def notifier_loop(notifier):
+    print('Monitoring corpora for changes...')
+    try:
+        notifier.loop()
+    except Exception as err:
+        print('Uh oh, error while rebuilding MongoDB collections from corpora:')
+        print(err)
+        print('Continuing monitoring operations...')
+        notifier_loop(notifier)
+
+#Rebuild all collections once on start
+build_mongo_collections.build_verbnet_collection()
+build_mongo_collections.build_propbank_collection()
+build_mongo_collections.build_framenet_collection()
+
+
+watch_manager = pyinotify.WatchManager()
 
 wdd_vn = watch_manager.add_watch('../corpora/verbnet', pyinotify.ALL_EVENTS)
 wdd_vn_refs = watch_manager.add_watch('../reference_docs', pyinotify.ALL_EVENTS)
@@ -77,5 +88,12 @@ wdd_pb = watch_manager.add_watch('../corpora/propbank/frames', pyinotify.ALL_EVE
 wdd_fn = watch_manager.add_watch('../corpora/framenet', pyinotify.ALL_EVENTS)
 #wdd_on = watch_manager.add_watch('../corpora/ontonotes', pyinotify.ALL_EVENTS)
 
-print('Monitoring corpora for changes...')
-notifier.loop()
+handler = EventHandler()
+notifier = pyinotify.Notifier(watch_manager, handler)
+
+notifier_loop(notifier)
+
+
+
+# cur_time_str = datetime.datetime.now().isoformat()
+# with open('logs/corpus_change_detection_'+cur_time_str, 'w') as logfile:
