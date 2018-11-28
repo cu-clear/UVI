@@ -355,10 +355,13 @@ def build_verbnet_collection():
 	            themrole_fields = get_themrole_fields(class_id, frame_json, themrole_name)
 	            vn_themrole_fields.insert_one({'class_id': class_id, 'frame_desc': frame_desc, 'themrole_name': themrole_name, 'themrole_fields': themrole_fields})
 
+    print("Finished building VN Collections.")
 
 
 #FRAMENET
 def build_framenet_collection():
+	print("Building FrameNet Collections...")
+
 	def parse_fn_def(definition_markup):
 	    def_split = definition_markup.split('<ex>')
 	    def_text_markup = def_split[0].strip()
@@ -390,10 +393,13 @@ def build_framenet_collection():
 	fn_collection = db['framenet']
 	fn_collection.insert_many(framenet_mongo)
 
+	print("Finished building FrameNet Collections.")
+
 
 
 #PROPBANK
 def build_propbank_collection():
+	print("Building PropBank Collections...")
 	def parse_predicate(predicate):
 	    def parse_roleset(roleset):
 	        def parse_aliases(aliases):
@@ -483,3 +489,5 @@ def build_propbank_collection():
 	db.drop_collection('propbank')
 	pb_collection = db['propbank']
 	pb_collection.insert_many(propbank_mongo)
+
+	print("Finished building PropBank Collections.")
