@@ -1,7 +1,8 @@
 #!/bin/bash
 export FLASK_APP=uvi_flask.py
-export FLASK_DEBUG=1
+export FLASK_DEBUG=0
 
 nohup python monitor_corpora.py &
+echo $! > "monitor_script_PID"
 
 exec flask run
