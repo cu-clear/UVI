@@ -97,6 +97,27 @@ No Results Found
             {% endfor %}
             {% endif %}
         </div>
+
+        {% elif key == 'OntoNotes' %}
+        {% set on_elements = matched_ids['OntoNotes'] %}
+        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'">
+            {% if not on_elements %}
+            <br />No results found for query: <br />
+            "{{query_string}}"
+            {% else %}
+            <br />{{ matched_ids['OntoNotes'] | length }} result(s) matching query <br />
+
+            {% for on_element in on_elements %}
+            <form action='/_display_element' id='pb_filtered_elements' method='post' target='filtered_results_pane'>
+                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
+                <input name="resource_key" type="hidden" value="OntoNotes">
+                <input name="on_lemma" type="hidden" value={{on_element}}>
+                <input class='results_tab_element' type='submit' value={{on_element}}>
+            </form>
+            {% endfor %}
+            {% endif %}
+        </div>
+
         {% endif %}
         {% endfor %}
         <br />

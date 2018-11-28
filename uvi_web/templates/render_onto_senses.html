@@ -1,0 +1,61 @@
+{% set accordion_id_preds = unique_id() %}
+<div id={{accordion_id_preds}}>
+  {% for sense in frame_json['senses'] %}
+  {% set id = unique_id() %}
+  <div class="card">
+    <div class="card-header" id="heading_{{id}}">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}">
+          <h5>Sense: {{ sense['num'] }}</h5>
+        </button>
+      </h5>
+    </div>
+    <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id_preds}}">
+      <div class="card-body">
+        <font color="8B0000">
+          <h3>{{sense['name']}} </h3>
+        </font>
+        {% if sense.comments %}
+          <p style="font-size: 16; color: 8B0000;">COMMENTARY: </p>
+          <p style="font-size: 16; color: 33066;">
+            {% for line in sense['comments'] %} 
+              {{line}}<br>
+            {% endfor %}
+          </p>
+        {% endif %}
+        {% if sense.examples %}
+          <p style="font-size: 16; color: 8B0000;">EXAMPLES: </p>
+          <p style="font-size: 16; color: 33066;">
+            {% for ex in sense['examples'] %} 
+            {{ex}}<br>
+            {% endfor %}
+          </p>
+        {% endif %}
+        {% if sense.mappings %}
+          <p style="font-size: 16; color: 8B0000;">MAPPINGS: </p>
+          <p style="font-size: 16; color: 008000;">VerbNet: 
+            {% for vn_mem in sense.mappings.vn %}
+            <button tabindex='0' role="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+              <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+            </button>
+            {% endfor %}
+          </p>
+          <p style="font-size: 16; color: 008000;">FrameNet: 
+            <strong>{% for fn_mem in sense.mappings.fn %} {{ fn_mem }}{{ ", " if not loop.last }}{% endfor %}</strong>
+          </p>
+          <p style="font-size: 16; color: 008000;">PropBank: 
+            <strong>{% for pb_mem in sense.mappings.pb %} {{ pb_mem }}{{ ", " if not loop.last }}{% endfor %}</strong>
+          </p>
+          <p style="font-size: 16; color: 008000;">WordNet: 
+            {% for sense in sense.mappings.wn %}
+            Version: {{sense.Version}}
+            {% if sense.Lemma %}, Lemma: <strong>{{sense.Lemma}}</strong>{% endif %}, 
+            Senses: <strong>{% for el in sense.Senses %}{{el}}{{ ", " if not loop.last }}{% endfor %}</strong><br>
+            {% endfor %}
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

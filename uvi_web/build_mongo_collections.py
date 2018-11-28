@@ -5,16 +5,285 @@ import nltk
 from lxml import etree
 import re
 from bs4 import BeautifulSoup
+from nltk import word_tokenize as tokenizer
 
 path_framenet = '../corpora/framenet/'
 path_propbank = '../corpora/propbank/frames/'
 path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
+path_ontonotes = '../corpora/ontonotes/sense-inventories/'
 
 from pymongo import MongoClient
 
 mongo_client = MongoClient()
 db = mongo_client['uvi_corpora']
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+#VERBNET REFERENCES ONLY
+def parse_sense(sense):
+	def parse_examples(examples):
+		if examples is not None:
+			ex_list = examples.text
+			if ex_list:
+				split_list = ex_list.split('\n')
+				leading_space_stripped = [my_str.strip() for my_str in split_list]
+				single_str = ''
+				for line in leading_space_stripped:
+					if line:
+						if line[-1] in [r'.', r'?', r'!', r')']: single_str += line+'\n'
+						else: single_str += line
+				lines_out = single_str.split('\n')
+				return lines_out
+			return ''
+		return ''
+	
+	def parse_mappings(mappings):
+		vn = []
+		pb = []
+		fn = []
+		wn = []
+		vn_map = mappings.find('vn')
+		if vn_map is not None:
+			if vn_map.text:
+				vn = vn_map.text.split(',')
+		pb_map = mappings.find('pb')
+		if pb_map is not None:
+			if pb_map.text:
+				pb = pb_map.text.split(',')
+		fn_map = mappings.find('fn')
+		if fn_map is not None:
+			if fn_map.text:
+				fn = fn_map.text.split(',')
+		wn_list = mappings.findall('wn')
+		for wn_el in wn_list:
+			senses = []
+			lemma = wn_el.get('lemma')
+			version = wn_el.get("version")
+			senses_list = wn_el.text
+			if senses_list:
+				senses = senses_list.split(',')
+			if lemma or version or senses_list:
+				wn.append({"Lemma":lemma, "Version": version, "Senses":senses})
+		return {'vn': vn, 'pb': pb, 'fn': fn, 'wn': wn}
+	
+	def parse_comments(comments):
+		lines_final = []
+		syn = ['Syntax', 'SYNTAX']
+		others = ['NOTE', 'Note', 'Comments']
+		if comments is not None:
+			comm_list = comments.text
+			if comm_list:
+				split_list = comm_list.split('\n')
+				leading_space_stripped = [my_str.strip() for my_str in split_list]
+				for line in leading_space_stripped:
+					if line:
+						is_syn_struct = False
+						is_split = False
+						tokens = tokenizer(line)
+						if tokens[0] in syn:
+							is_syn_struct = True
+							is_split = True
+						elif tokens[0] in others:
+							is_syn_struct = False
+							is_split = True
+						elif is_syn_struct:
+							is_split = True
+						if is_split: lines_final.append(line)
+						elif not lines_final: lines_final.append(line)
+						else: lines_final[-1]+= ' ' + line
+				return lines_final
+			return ''
+		return ''
+	
+	group = sense.get('group')
+	sense_num = sense.get('n')
+	name = sense.get('name')
+	examples_list = parse_examples(sense.find('examples'))
+	mappings = parse_mappings(sense.find('mappings'))
+	line_sep_comments = parse_comments(sense.find('commentary')) #Comments are split to list by line
+	return {'num': sense_num, 'group': group, 'name': name, 
+			'examples': examples_list, 'mappings': mappings,
+			'comments': line_sep_comments}
+
+def parse_on_frame(on_frame, file_name):
+	lemma = on_frame.get('lemma')
+	senses = [parse_sense(s) for s in on_frame.findall('sense')]
+	return {'lemma':lemma, 'predicate': lemma[:-2] ,'senses': senses, 'resource_type': 'on'}
+
+def on_to_mongo(file, path_ontonotes):
+	with open(path_ontonotes+file,'r') as xml_file:
+		root = etree.parse(xml_file).getroot()
+		on_frame = parse_on_frame(root, file)
+		return on_frame
+	
+def add_onto_to_db():
+	print('Building ON collection... ')
+	onto_xml = [f for f in os.listdir(path_ontonotes) if f.endswith('.xml')]
+	ontonotes_mongo = [on_to_mongo(f, path_ontonotes) for f in onto_xml]    
+	db.drop_collection('ontonotes')
+	on_collection = db['ontonotes']
+	on_collection.insert_many(ontonotes_mongo)
+	print("ON Done")
+
+def add_predicate_defs(predicate_definition_file, mongo_collection):
+    '''Get definitions and args for vn elements'''
+    with open(predicate_definition_file, 'r') as definition_tsv:
+        #skip first line (tsv heading)
+        next(definition_tsv)
+        for line in definition_tsv:
+            pred_fields = line.split('\t')
+            pred_name = pred_fields[0].split('(')[0].strip()
+            pred_def = pred_fields[1]
+            pred_args = pred_fields[2]
+            pred_dict = {'name':pred_name, 'def':pred_def, 'args':pred_args}
+            mongo_collection.insert_one(pred_dict)
+
+def ref_to_db():
+	''' Adds all the reference info into the existing verbnet collection by creating a doc 'reference' 
+	and then adding further fields.'''
+
+	# Put all additional info about themroles, predicates, etc into db.
+	db.drop_collection('vn_predicates')
+	vn_pred_collection = db['vn_predicates']
+	add_predicate_defs('../corpora/reference_docs/vn_semantic_predicates.tsv', vn_pred_collection)
+
+	db.drop_collection('vn_constants')
+	vn_constant_collection = db['vn_constants']
+	add_predicate_defs('../corpora/reference_docs/vn_constants.tsv', vn_constant_collection)
+
+	db.drop_collection('vn_verb_specific')
+	vn_verb_specific_collection = db['vn_verb_specific']
+	add_predicate_defs('../corpora/reference_docs/vn_verb_specific_predicates.tsv', vn_verb_specific_collection)
+
+	### Get general themroles
+	themroles_dict = {}
+	with open('../themrole_defs.json') as td:
+		themrole_defs = json.load(td)
+
+	for themrole_list in db.verbnet.find({}, {'themroles.themrole':1, 'class_id':1, '_id':0}):
+		for tr in themrole_list['themroles']:
+			if tr['themrole'] not in themroles_dict:
+				themroles_dict[tr['themrole']] = {'count':1, 'vn_class_members':set([themrole_list['class_id']])}
+				role_index = next((index for (index, d) in enumerate(themrole_defs) if d["name"] == "Patient"), None)
+				themroles_dict[tr['themrole']]['description'] = themrole_defs[role_index]['description']
+				themroles_dict[tr['themrole']]['example'] = themrole_defs[role_index]['example']            
+			else:
+				themroles_dict[tr['themrole']]['count']+=1
+				themroles_dict[tr['themrole']]['vn_class_members'].add(themrole_list['class_id'])
+				
+	## Insert to db element-wise. Convert set of vn class members to list because mongo 
+	## does not accept sets as data members
+
+	db.drop_collection('verbnet.references.gen_themroles')
+	gen_themroles = db['verbnet']['references']['gen_themroles']
+	for key, val in themroles_dict.items():
+		val['vn_class_members'] = list(val['vn_class_members'])
+		gen_themroles.insert_one({key: val})
+
+	
+	### Get Predicates
+
+	predicates_dict = {}
+	for doc in list(db.verbnet.find({}, {'frames.semantics.predicate':1, 'class_id':1, '_id':0})):
+		for frame in doc['frames']:
+			for pr in frame['semantics']:
+				if pr['predicate'] not in predicates_dict:
+					predicates_dict[pr['predicate']] = {'count':1, 'vn_class_members':set([doc['class_id']])}
+					predicates_dict[pr['predicate']]['description'] = 'No description found'
+					description = vn_pred_collection.find_one({'name': pr['predicate']}, {'$exists': 'true', 'def': 1, '_id': 0})
+					if description is not None:
+						predicates_dict[pr['predicate']]['description'] = description['def']
+				else:
+					predicates_dict[pr['predicate']]['count']+=1
+					predicates_dict[pr['predicate']]['vn_class_members'].add(doc['class_id'])
+					
+	db.drop_collection('verbnet.references.predicates')
+	predicates = db['verbnet']['references']['predicates']
+	for key, val in predicates_dict.items():
+		val['vn_class_members'] = list(val['vn_class_members'])
+		predicates.insert_one({key: val})
+
+	### Get Verb-Specific Features
+	#Can't simply match on cases where vs_features is not None, so instead we match cases where the datatype is a list (mongodb array) 
+	vs_features_count_dict = {}
+	for doc in list(db.verbnet.find({'members.vs_features': {'$type': 'array'}}, {'members.vs_features':1, 'class_id':1, '_id':0})):
+		for vs_features_dict in doc['members']:
+			if vs_features_dict['vs_features'] is not None:
+				for vs in vs_features_dict['vs_features']:
+					if vs not in vs_features_count_dict:
+						vs_features_count_dict[vs]={'count':1,
+													'vn_class_mem':set([doc['class_id']])}
+					else:
+						vs_features_count_dict[vs]['count'] += 1
+						vs_features_count_dict[vs]['vn_class_mem'].add(doc['class_id'])
+
+	db.drop_collection('verbnet.references.vs_features')
+	vs_features = db['verbnet']['references']['vs_features']
+	for key, val in vs_features_count_dict.items():
+		val['vn_class_mem'] = list(val['vn_class_mem'])
+		vs_features.insert_one({key: val})
+
+	### Get syntactic restrictions
+	sr_dict = {}
+	for vn_class in list(db.verbnet.find({'frames.syntax.synrestrs.synrestr_list.type': {'$exists':1}}, {'frames.syntax.synrestrs.synrestr_list':1, 'class_id':1, '_id':0})):
+		for syn in vn_class['frames']:
+			for el in syn['syntax']:
+				if el['synrestrs']['synrestr_list']:
+					for sr_el in el['synrestrs']['synrestr_list']:
+						if sr_el['type'] not in sr_dict:
+							sr_dict[sr_el['type']] = {sr_el['value']:{'count':1,
+																	'vn_mem':set([vn_class['class_id']])}}
+						else:
+							if sr_el['value'] not in sr_dict[sr_el['type']]:
+								sr_dict[sr_el['type']][sr_el['value']] = {'count':1,
+																					 'vn_mem': set([vn_class['class_id']])}                          
+							else:
+								sr_dict[sr_el['type']][sr_el['value']]['count'] +=1
+								sr_dict[sr_el['type']][sr_el['value']]['vn_mem'].add(vn_class['class_id'])
+
+	## Add syntactic restrictions to db
+	db.drop_collection('verbnet.references.syn_restrs')
+	syn_restrs = db['verbnet']['references']['syn_restrs']
+	for key, val in sr_dict.items():
+		for _, inner_dict in val.items():
+			inner_dict['vn_mem'] = list(inner_dict['vn_mem'])
+		syn_restrs.insert_one({key: val})
+
+
+	### Get selectional restrictions
+	### This script finds selectional restrictions on themroles
+	# TODO: FInd selectional restrictions at class level
+
+
+	sel_res_dict = {}
+	for vn_class in list(db.verbnet.find({}, {'themroles.selrestrs.selrestrs_list':1, 'class_id':1, '_id':0})):
+		for selres in vn_class['themroles']:
+			if isinstance(selres['selrestrs']['selrestrs_list'], list):
+				for sel_elem in selres['selrestrs']['selrestrs_list']:
+					if sel_elem['type']:
+						if sel_elem['type'] not in sel_res_dict:
+							sel_res_dict[sel_elem['type']] = {'Themroles': {sel_elem['value']:{'count':1, 
+																	'vn_mem': set([vn_class['class_id']])}}}
+						else:
+							if sel_elem['value'] not in sel_res_dict[sel_elem['type']]['Themroles']:
+								sel_res_dict[sel_elem['type']]['Themroles'][sel_elem['value']] = {'count':1,'vn_mem': set([vn_class['class_id']])}
+							else:
+								sel_res_dict[sel_elem['type']]['Themroles'][sel_elem['value']]['count'] +=1
+								sel_res_dict[sel_elem['type']]['Themroles'][sel_elem['value']]['vn_mem'].add(vn_class['class_id'])
+
+	## Add selectional restrictions to db
+	db.drop_collection('verbnet.references.sel_restrs')
+	sel_restrs = db['verbnet']['references']['sel_restrs']
+	for key, val in sel_res_dict.items():
+		for _, inner_dict in val['Themroles'].items():
+			inner_dict['vn_mem'] = list(inner_dict['vn_mem'])
+		sel_restrs.insert_one({key: val})
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
 
 
 #VERBNET
@@ -354,9 +623,14 @@ def build_verbnet_collection():
 			for themrole_name in class_themrole_names:
 				themrole_fields = get_themrole_fields(class_id, frame_json, themrole_name)
 				vn_themrole_fields.insert_one({'class_id': class_id, 'frame_desc': frame_desc, 'themrole_name': themrole_name, 'themrole_fields': themrole_fields})
+	
+	ref_to_db()
+
 	print("Finished building VN Collections.")
 
-
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
 #FRAMENET
 def build_framenet_collection():
 	print("Building FrameNet Collections...")
@@ -393,9 +667,15 @@ def build_framenet_collection():
 	fn_collection.insert_many(framenet_mongo)
 
 	print("Finished building FrameNet Collections.")
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
 
 
 
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
 #PROPBANK
 def build_propbank_collection():
 	print("Building PropBank Collections...")
@@ -490,3 +770,6 @@ def build_propbank_collection():
 	pb_collection.insert_many(propbank_mongo)
 
 	print("Finished building PropBank Collections.")
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################

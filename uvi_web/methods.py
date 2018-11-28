@@ -73,7 +73,7 @@ def remove_object_ids(matched_vn):
 			remove_object_ids(doc['subclasses'])
 	return matched_vn
 
-def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, multiword_behavior, sort_behavior):
+def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_on, multiword_behavior, sort_behavior):
 	def sort_matched_ids(matched_ids):
 		if sort_behavior == 'alpha':
 			for resource in matched_ids:
@@ -93,8 +93,8 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, multiword_beha
 			matched_ids['FrameNet'] = [frame['name'] for frame in db.framenet.find({'lexical_units.lu_name': {'$all': [lemma+'.v' for lemma in lemmas]}}, {'name':1})]
 		if incl_pb:
 			matched_ids['PropBank'] = [pb_frame['frameset_id'] for pb_frame in db.propbank.find({'predicates.lemma': {'$all': [lemma for lemma in lemmas]}}, {'frameset_id':1})]
-		# if incl_wn:
-		#   pass
+		if incl_on:
+			matched_ids['OntoNotes'] = [on_frame['lemma'] for on_frame in db.ontonotes.find({'predicate': {'$all': [lemma for lemma in lemmas]}}, {'lemma':1})]
 		return sort_matched_ids(matched_ids)
 
 	elif multiword_behavior == 'or':
@@ -104,12 +104,12 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, multiword_beha
 			matched_ids['FrameNet'] = [frame['name'] for frame in db.framenet.find({'lexical_units.lu_name': {'$in': [lemma+'.v' for lemma in lemmas]}}, {'name':1})]
 		if incl_pb:
 			matched_ids['PropBank'] = [pb_frame['frameset_id'] for pb_frame in db.propbank.find({'predicates.lemma': {'$in': [lemma for lemma in lemmas]}}, {'frameset_id':1})]
-		# if incl_wn:
-		#   pass
+		if incl_on:
+			matched_ids['OntoNotes'] = [on_frame['lemma'] for on_frame in db.ontonotes.find({'predicate': {'$in': [lemma for lemma in lemmas]}}, {'lemma':1})]
 		return sort_matched_ids(matched_ids)
 
 
-def find_matching_elements(mongo, lemmas, themrole, pred, const, verb_specific, incl_vn, incl_fn, incl_pb, incl_wn, multiword_behavior):
+def find_matching_elements(mongo, lemmas, themrole, pred, const, verb_specific, incl_vn, incl_fn, incl_pb, incl_on, multiword_behavior):
 	matched_elements = {}
 	if lemmas:
 		if multiword_behavior == 'and':
@@ -119,8 +119,8 @@ def find_matching_elements(mongo, lemmas, themrole, pred, const, verb_specific, 
 				matched_elements['FrameNet'] = list(mongo.db.framenet.find({'lexical_units.lu_name': {'$all': [lemma+'.v' for lemma in lemmas]}}))
 			if incl_pb:
 				matched_elements['PropBank'] = list(mongo.db.propbank.find({'predicates.lemma': {'$all': [lemma for lemma in lemmas]}}))
-			# if incl_wn:
-			#   pass
+			if incl_on:
+				matched_elements['OntoNotes'] = list(mongo.db.ontonotes.find({'predicate': {'$all': [lemma for lemma in lemmas]}}))
 			return matched_elements
 
 		elif multiword_behavior == 'or':
@@ -130,8 +130,8 @@ def find_matching_elements(mongo, lemmas, themrole, pred, const, verb_specific, 
 				matched_elements['FrameNet'] = list(mongo.db.framenet.find({'lexical_units.lu_name': {'$in': [lemma+'.v' for lemma in lemmas]}}))
 			if incl_pb:
 				matched_elements['PropBank'] = list(mongo.db.propbank.find({'predicates.lemma': {'$in': [lemma for lemma in lemmas]}}))
-			# if incl_wn:
-			#   pass
+			if incl_on:
+				matched_elements['OntoNotes'] = list(mongo.db.ontonotes.find({'predicate': {'$in': [lemma for lemma in lemmas]}}))
 			return matched_elements
 
 	elif themrole:

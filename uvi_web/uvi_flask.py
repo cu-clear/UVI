@@ -16,8 +16,8 @@ mail_settings = {
 	"MAIL_USE_TLS": False,
 	"MAIL_USE_SSL": True,
 	# Set environment variables for more security
-	"MAIL_USERNAME": 'testing.uvi@gmail.com', #os.environ.get('MAIL_USERNAME')
-	"MAIL_PASSWORD": 'asdf#3456' #os.environ.get('MAIL_PASSWORD')
+	"MAIL_USERNAME": os.environ.get('MAIL_USERNAME'),
+	"MAIL_PASSWORD": os.environ.get('MAIL_PASSWORD')
 }
 
 app = Flask(__name__)
@@ -35,9 +35,9 @@ def context_methods():
 
 @app.route('/download_json')
 def download_json():
-    returned_json = json.dumps(request.args.get('elements'))
-    generator = (cell for row in returned_json for cell in row)
-    return Response(generator, mimetype='application/json', headers={'Content-Disposition':'attachment;filename=uvi_export.json'})
+	returned_json = json.dumps(request.args.get('elements'))
+	generator = (cell for row in returned_json for cell in row)
+	return Response(generator, mimetype='application/json', headers={'Content-Disposition':'attachment;filename=uvi_export.json'})
 
 @app.route('/', methods=['GET','POST'])
 def index():
@@ -209,6 +209,11 @@ def display_element():
 		pb_lemma = request.form['pb_lemma']
 		matched_element = mongo.db.propbank.find_one({'predicates.lemma': pb_lemma})
 		return render_template('render_propbank.html', frame_json = matched_element)
+
+	elif request.form.get('resource_key') == 'OntoNotes':
+		on_lemma = request.form['on_lemma']
+		matched_element = mongo.db.ontonotes.find_one({'lemma': on_lemma})
+		return render_template('render_ontonotes.html', frame_json = matched_element)
 
 @app.route('/verbnet/<vn_class_id>')
 def render_vn_class(vn_class_id):
