@@ -1,0 +1,139 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="drag-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pull, move or force something" type="">  
+      <commentary>
+       Syntax Is:
+        NP1[dragger] DRAG NP2[dragged] (PP[direction])
+
+        Includes: DRAG DOWN, DRAG IN
+      </commentary>
+      <examples>
+        He dragged the big suitcase behind him.
+        She dragged the canoe down to the water.
+        She had to drag her child away from the toy shop.
+        I really had to drag myself out of bed this morning.
+        She's always dragging her financial situation into the conversation.
+        Don't drag me into this. I already said, I don't wanna do it.
+        Drag this icon to the lower right hand corner of your screen.
+        I'm sorry to drag you away from your work.
+        I was so tired that I could scarcely drag myself up the stairs.
+        The boy dragged his feet as he walked accross the room. (compare this to 2)
+        They'll drag you down to their level and beat you to death with experience! 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,7,10</wn>   
+         <wn lemma="drag_down" version="3.0">1</wn>
+         <wn lemma="drag_in" version="3.0">1</wn>
+         <omega/><pb>drag.01</pb>
+         <vn>carry-11.4</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move slowly, linger, loiter, or lag" type="">
+      <commentary>
+       Syntax Is: 
+        NP1[patient] DRAG (ONE'S FEET/HEELS) (PP[temporal])
+
+        Includes: DRAG ON, DRAG ONE'S FEET/HEELS, DRAG OUT
+      </commentary>
+      <examples>
+        The afternoon was beginning to drag.
+        But in so many other areas we are still dragging.
+        We urged him to stop dragging his feet and get something done. (compare this to 1)
+        The ordeal for him and his family has dragged on for over three decades.
+        The convention might only last a week, but the debate could drag out for years.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,8,11</wn>
+         <wn lemma="drag_on" version="3.0">1,2</wn>
+         <wn lemma="drag_one's_heels" version="3.0">1</wn>
+         <wn lemma="drag_one's_feet" version="3.0">1</wn>
+         <wn lemma="drag_out" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="search along the bottom of river or lake" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DRAG NP2[body of water] (PP[purpose])
+      </commentary>
+      <examples>
+        They found the man's body after dragging the canal.
+        One day the police dragged the lake for the missing body.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>search-35.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="DRAG IN-inhale; suck in or take in (air or smoke)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She dragged in smoke again, then let the smoke out as she spoke.
+        He dragged in a breath of crisp air and glanced at the cabin. 
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Ingest_substance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="DRAG A BUNT-hit a ball to make it go a short distance" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Johnson dragged a bunt toward first, and Vidro advanced.
+      </examples>
+      <mappings>
+         <wn lemma="drag_a_bunt" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="DRAG DOWN-damage; make something bad or ill " type="">
+      <commentary>
+      </commentary>
+      <examples>
+        With a small company, one person can drag you down.
+        They must not drag the company down by their poor health lifestyle habits.
+        All that stress at work had begun to drag him down.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="DRAG UP-bring up, bring to mind" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Mom is afraid that this will just drag up old hurts.
+        I only meant drag up old discussions to keep discussing.
+        I just wrote about something on another list that dragged up anger bigtime.
+      </examples>
+      <mappings>
+         <wn lemma="drag_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="DRAG THROUGH MUD/MIRE-badmouth, harm reputation" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She just doesn't care who's name she drags through the mud! 
+        Who would blame him with the way the media has dragged him through the mire.
+        Every article about people criticising him drags them through the mud.
+      </examples>
+      <mappings>
+         <wn lemma="drag_through_the_mud" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

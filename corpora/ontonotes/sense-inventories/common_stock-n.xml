@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="common_stock-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="corporate shares which are not guaranteed to pay dividends" type="">
+        <commentary>
+            COMMON_STOCK[+asset][+portion][+ownership][+of_corporation][+dividend_producing][-guaranteed]
+        </commentary>
+        <examples>
+            He owns 100,000 shares of common stock in the company.
+            The company had a bad year and only holders of preferred stock, not common stock, received dividends.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

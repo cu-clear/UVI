@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dance-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Perform movements to music or as if to music." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[human]] DANCE NP2[patient] 
+      </commentary>
+      <examples>
+      I danced an Irish Jig.
+      My husband and I like to dance at home to the radio.
+      I could have danced for joy.
+      Dance all night and sleep all day!
+      The young girl danced into the room. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dance.01</pb>
+         <vn>performance-26.7-1-1,waltz-51.5</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Skip, leap, or move up and down or sideways
+         as a manner of motion." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent] DANCE (PP[directional])
+      NP1[agent] DANCE ADVP[manner] 
+      NP1[theme] DANCE  (PP[directional])
+      NP1[theme] DANCE ADVP[manner]
+      Note: Compare to Sense 1; in Sense 2, NP1 MAY NOT BE [human].
+      </commentary>
+      <examples>
+      The flames danced in the fireplace.
+      The dog dances when he is about to be fed.
+      The leaves danced across the parking lot.
+      The squirrel danced across the lawn, tail flailing everywhere.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>modes_of_being_with_motion-47.3</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="DANCE OFF: Participate in a dancing
+         competition, formal or informal." type="">
+      <commentary>
+      Is: DANCE OFF
+      </commentary>
+      <examples>
+      The two girls danced off to see who was better.
+      Let's dance off! 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dance.01</pb>
+         <vn>NM</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

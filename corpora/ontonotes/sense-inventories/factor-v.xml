@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="factor-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Resolve into factors via mathematical operation." type="">  
+      <commentary>
+      Includes: FACTOR OUT, FACTOR IN
+      </commentary>
+      <examples>
+      A quantum computer can factor the number 15.
+      Factor out the problem before proceeding to the next step. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="factor_in" version="3.0">2</wn>
+         <wn lemma="factor_out" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>multiply-108-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) be (considered) a part or
+         property of something, possibly with the intent of setting it
+         aside or apart." type="">
+      <commentary>
+      Includes: FACTOR OUT, FACTOR IN, FACTOR INTO 
+      </commentary>
+      <examples>
+      Many things factor into a company's profitability.
+      The adjustment probably didn't factor out all of the wide-ranging
+      surge in defense orders.
+      You must factor in the recent developments in your analysis.
+      Lower feed prices may help animals eat more cheaply, but humans have
+      to factor in an expensive middleman: the processor. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="factor_in" version="3.0">1</wn>
+         <wn lemma="factor_out" version="3.0">1</wn>
+         <omega></omega><pb>factor.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="FACTOR ANALYZE: perform factor analysis, as
+         in statistics." type="">
+      <commentary>
+      Is: FACTOR ANALYZE
+      </commentary>
+      <examples>
+      Factor analyze the data.
+      Sometime it's difficult to get students to factor analyze.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="factor_analyze" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="triumph-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="win" type="">  
+      <commentary>
+      NOTE: includes 'triumph over', refering to the act of winning
+      NOTE: POS error, noun: Her triumph was uncontested.
+      </commentary>
+      <examples>
+        Humans haven't triumphed evolutionarily just because of brains.
+        You've managed to triumph over evil and reach your dreams. 
+        Had the Series started in Denver, the Rockies would have triumphed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>triumph.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exult" type="">
+      <commentary>
+      NOTE: to rejoice in success, not to achieve it; archaic, mostly
+      biblical
+      </commentary>
+      <examples>
+        Let us rejoice and triumph and give Him the glory.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>marvel-31.3-8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="dehart,greenlm" sample_score="-"/>  
+</inventory>

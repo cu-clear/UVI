@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="exchange-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="changing one thing for another" type="Event">
+        <commentary>
+	    EXCHANGE[+event]
+	    The act of giving something in return for something received.  The 'thing received' can be stated or implied.
+	    </commentary>
+        <examples>
+            There was an exchange of prisoners.
+            Adam was promised immortality in exchange for his disobedience.
+            Deductible losses on sales or exchanges of property are allowable.
+            After a furious exchange of blows, both fighters collapsed to the mat.
+            I exchanged all my Canadian dollars for Hong Kong dollars.
+            There's an ion exchange in this reaction that produces hydrogen gas.
+            The endgame began after an exchange of queens.
+        </examples>
+        <mappings>
+            <wn version="2.0">1,3,4,9,10,11</wn>
+            <omega/><pb>exchange.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a mutual expression of views" type="Event">
+        <commentary>
+	    EXCHANGE[+event]
+	    Usually refers to a discourse, usually an unpleasant one.
+	    </commentary>
+        <examples>
+            They had a bitter exchange.
+            Our rare exchanges usually led to more arguments.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/><pb>exchange.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="marketplace" type="Place">
+        <commentary>
+            Place where things are bought and sold.  Usually refers to a stock exchange.
+        </commentary>
+        <examples>
+            The New York Stock Exchange has been buzzing with activity.
+            The floor of the exchange was a madhouse today.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/><pb>exchange.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="telecommunications facility" type="Place">
+        <commentary>
+            Place where communications lines (usually phone lines) are connected.
+        </commentary>
+        <examples>
+            Do you think the operators at the exchange are listening to your phone calls?
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="changing money, collectively" type="Event">
+        <commentary>
+            The act of changing money in a general sense.  Individual transactions are not included here.
+        </commentary>
+        <examples>
+            The rate of exchange is quite favorable right now.
+            He earns his living from the exchange of currency.
+        </examples>
+        <mappings>
+            <wn version="2.0">8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a rally" type="Event">
+        <commentary>
+            A series of strokes.  Probably only tennis or ping-pong.
+        </commentary>
+        <examples>
+            After a short exchange, Connors won the point.  
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

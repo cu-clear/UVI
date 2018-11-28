@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tax-n">
+    <commentary>
+        7Jan08 updated to wn2.1, added a sense and features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="taxation" type="">
+        <commentary>
+            TAX[+quantity][+money][+levy][+government]
+            revenue enhancement
+            charge against a citizen's person or property or activity for the
+            support of government
+        </commentary>
+        <examples>
+            The President promised not to raise taxes.
+            In New Jersey there is no sales tax on food or clothing.
+            The IRS will fine you if you don't pay your taxes on time.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a heavy strain or burden" type="">
+        <commentary>
+            TAX[+state][+situation][+burdensome]
+            Note: a figurative extension of sense 1
+        </commentary>
+        <examples>
+            The children's constant interruption is  a tax on her concentration.
+            The footnotes and commentary were a heavy tax on the reader's attention to the main text.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

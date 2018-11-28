@@ -1,0 +1,175 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="round-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="ammunition" type="">
+        <commentary>
+            unit of ammunition, one shot - 
+            a charge of ammunition or a single shot
+        </commentary>
+        <examples>
+            John left the shooting range when he used all of his rounds.
+            If you run out of rounds before the monster dies then the game is over.
+            He emptied a round into the target.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="cycle" type="Event">
+        <commentary>
+	    ROUND[+event]
+	    rhythm, beat, daily round -
+	    an interval during which a recurring sequence of events occurs
+	    </commentary>
+        <examples>
+            John made his rounds to all the nearby vending machines each morning.
+            The never-ending round of the seasons.
+            The doctor's rounds begin every morning at 7:00.
+            The postman's rounds take all day.
+            We enjoyed our round of the local bars.
+            In the old days a policeman walked rounds and knew all his people by name.
+            The story is going the rounds in Washington.
+            They'll be singing rounds in music class today.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 3 4 6 8 11</wn>
+            <omega/>
+            <pb>round.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="sports" type="">
+        <commentary>
+	    ROUND[+event]
+	    turn, bout -
+	    a period of play during a sporting event
+	    </commentary>
+        <examples>
+            The fourth period should be over before bedtime.
+            That first period lasted way too long.
+            She made a fantastic goal in the third period.
+            John dropped his soda all over his lap in the first period.
+            Fido sat beside John throughout the second period in hopes that he'd drop something else.
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="golf" type="Event">
+        <commentary>
+	    ROUND[+event]
+	    round of golf -
+	    the activity of playing 18 holes of golf
+	    </commentary>
+        <examples>
+            A round of golf takes about 4 hours.
+            This round of golf was especially short.
+            Our round is supposed to begin at 7:00.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/>
+            <pb>round.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="servings(drinks)" type="">
+        <commentary>
+            round of drinks - 
+            a serving to each of a group (usually alcoholic)
+        </commentary>
+        <examples>
+            After the first round, John puked all over the bar.
+            He ordered the second round.
+            The first round is on me.
+            A round on the house.
+        </examples>
+        <mappings>
+            <wn version="2.0">9</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="meat" type="">
+        <commentary>
+            a cut of beef between the rump and the lower leg
+        </commentary>
+        <examples>
+            The round of beef had freezer burn.
+            She'll serve the whole round for dinner, tonight.
+        </examples>
+        <mappings>
+            <wn version="2.0">10</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="applause" type="Event">
+        <commentary>
+	    ROUND[+event]
+	    an outburst of applause
+	    </commentary>
+        <examples>
+            There was a round of applause.
+            C'mon folks, give us a round of applause.
+            That round of applause could be heard all the way down the street.
+        </examples>
+        <mappings>
+            <wn version="2.0">12</wn>
+            <omega/>
+            <pb>round.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="chair rung" type="">
+        <commentary>
+            rung, stave - 
+            a crosspiece between the legs of a chair
+        </commentary>
+        <examples>
+            She broke the chair round with her foot the other day.
+            Mom will glue the round back together.
+        </examples>
+        <mappings>
+            <wn version="2.0">13</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="circle" type="">
+        <commentary>
+            any circular or rotating mechanism
+        </commentary>
+        <examples>
+            The machine punched out metal circles.
+        </examples>
+        <mappings>
+            <wn version="2.0">14</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="impact-n">
+    <commentary>
+        24oct06 update to wn2.1 added features. ahouston
+        24oct06 deactivated Sense 3 - realigned wn senses, (1,4) (2,3) ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="Physical collision, striking contact of two bodies" type="Event">
+        <commentary>
+            IMPACT[+event][+physical][+collision][+forceful]
+            The striking of one body against another.  A physical event.
+        </commentary>
+        <examples>
+            The impact threw me from the car because I wasn't wearing a seatbelt.
+            The impact of the meteor left a gigantic crater.
+            Five seconds until impact, sir!
+            John lay unconscious on the floor, and Mary's fist stung from the impact.
+            There was the sound of a third impact.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="An effect or consequence, an alteration" type="Event">
+        <commentary>
+            IMPACT[+state][+alteration][+consequence][+significant]
+            The consequence or effect of something 
+        </commentary>
+        <examples>
+            The book had an important impact on my thinking.
+            The psychological impact of the war deeply affected the soldiers.
+            A child's first moments of life leave an impact that will change his or her life.
+            The product will have more impact if you color it bright red.
+            They tried to prevent the impact of American values on European culture.
+            These policies have had no impact on reducing unemployment.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+	    IMPACT[+event]
+	    
+	    </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

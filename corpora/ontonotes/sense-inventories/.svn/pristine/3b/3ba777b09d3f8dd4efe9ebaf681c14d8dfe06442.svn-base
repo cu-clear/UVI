@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fake-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make some product that is counterfeit or
+   altered in order to falsify." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] FAKE NP2[patient]  
+      </commentary>
+      <examples>
+      Joan faked data that supported her conclusions.
+      He faked the signature on the check.
+      The forger admitted to taking and selling other paintings.
+      Their accountants faked the figures.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fake.01</pb>
+         <vn>NP</vn><fn>Forging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Perform an action with an intent to deceive." type="">
+      <commentary>
+      Note: Compare to Sense 1; Sense 2 does not produce a [concrete]
+      product of any kind.
+      </commentary>
+      <examples>
+      The politician was not well prepared for the debate and faked it.
+      How can I tell if my wife is faking it?
+      I tend to fake an understanding of the material until I can read the
+      text myself. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Feigning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

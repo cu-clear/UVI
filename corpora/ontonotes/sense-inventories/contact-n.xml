@@ -1,0 +1,130 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="contact-n">
+    <commentary>
+        11AUG08 combined senses 3,4, added features ahouston
+        26sep06 added dummy sense 4. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="touching" type="Event">
+        <commentary>
+            CONTACT[+event][+physical][+touching]
+            the physical coming together of two or more things
+        </commentary>
+        <examples>
+            Her fingers came in contact with the light switch.
+            Litmus paper turns red on contact with an acid.
+            Contact with the pier was at 5:00pm.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="middleman" type="">
+        <commentary>
+            CONTACT[+person][+middleman][+informer/+facilitator] 
+            a person who is in a position to give you special assistance or
+            communication channel with someone else
+        </commentary>
+        <examples>
+            He used his business contacts to get an introduction to the governor.
+            He was a contact for the guerrillas.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="communicating with, interacting with" type="Event">
+        <commentary>
+            CONTACT[+event][+communication]
+            close interaction - 
+            a communicative interaction
+        </commentary>
+        <examples>
+            They kept in daily contact.
+            They claimed that they had been in contact with extraterrestrial beings.
+            I maintain contact with all my college friends.
+            Air traffic control lost contact with the pilot.
+            Their first contact with European settlers was in the 16th century.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="contact lens" type="">
+        <commentary>
+            CONTACT[+artifact][+lens][+corrective][+adhering][+eye]
+            a thin curved glass or plastic lens designed to fit over the cornea in
+            order to correct vision or to deliver medication
+        </commentary>
+        <examples>
+            These new colored contacts make my eyes look green.
+            I'm blind without my contacts.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="junction" type="Electronics">
+        <commentary>
+            CONTACT[+structure][+junction][+electrical]
+            a junction where things (as two electrical conductors) touch or are in
+            physical contact
+        </commentary>
+        <examples>
+            They forgot to solder the contacts.
+            Sometimes you just have to clean the contacts to get old machines to work.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="7" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

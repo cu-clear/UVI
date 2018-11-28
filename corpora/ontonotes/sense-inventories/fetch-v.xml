@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fetch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="go and get somebody or something" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[actor] FETCH (NP2[recipient]) NP3[theme]
+        NP1[actor] FETCH NP2[theme] (PP{for NP3[recipient]})
+      </commentary>
+      <examples>
+        When each file must be fetched over the Internet, the benefits of reuse might be overridden.
+        Darren polled and fetched us the result.
+        If you're gonna wake me up so rudely, you could at least fetch me a coffee.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>fetch.01</pb>
+         <vn>get-13.5.1-1</vn><fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be sold for a certain price" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[theme] FETCH (NP2[recipient]) NP3[patient]
+        NP1[theme] FETCH NP2[patient] (for NP3[recipient])
+      </commentary>
+      <examples>
+        Antiquorum's spring auction fetched over 18 million dollars.
+        This item fetched US$214 from an internet auction in February 2001.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>fetch.01</pb>
+         <vn>get-13.5.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="finally do or be something" type="">
+      <commentary>
+        Is: FETCH UP
+        Note: rare usage?--only examples found refer to ending up at a location
+        NOTE: compare carefully to sense 1, use of &quot;fetch&quot; + preposition &quot;up&quot;
+      </commentary>
+      <examples>
+        After leaving Cambridge, he finally fetched up in Los Angeles.
+        Twice he changed cabs, and eventually fetched up at the night office of a detective agency.
+        They did a fancy tango on ice and fetched up with Lexi jammed against the door.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="fetch_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

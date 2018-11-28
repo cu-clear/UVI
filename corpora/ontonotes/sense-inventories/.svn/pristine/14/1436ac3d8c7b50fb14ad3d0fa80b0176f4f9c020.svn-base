@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stream-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move in large numbers." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      People were streaming out of the theater.
+      The boys and the mob streamed together behind the two poor
+      journeymen.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>appear-48.1.1</vn><fn>Mass_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Flow freely and abundantly. Includes
+         metaphorical extensions." type="">
+      <commentary>
+      INCLUDES: STREAM OUT, STREAM DOWN 
+      Syntax includes: NP1[theme] STREAM PP
+      </commentary>
+      <examples>
+      Tears streamed down her face.
+      Rain streamed down outside.
+      About $60 million streamed out last week alone.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Fluidic_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Transmit live or continuously, as over the Internet." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Apple could sell more Apple TVs if they streamed Steve Jobs' keynotes
+      live.
+      The movie streamed to thousands of computers before its official
+      release in theaters.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Extend, wave, or float outward, as if in
+         the wind." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Their manes streamed like still black pennants in the wind.
+      The sails streamed out and up, catching the breeze.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Exude profusely." type="">
+      <commentary>
+      Syntax is: NP1[source] STREAM NP2[product]
+      </commentary>
+      <examples>
+      She was streaming with sweat.
+      His nose streamed blood. 
+      After Mary hit him, John's eyes streamed tears. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stream.01</pb>
+         <vn>substance_emission-43.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

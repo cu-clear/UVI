@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="trial-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="event of testing" type="Event">
+        <commentary>
+	    TRIAL[+event]
+	    test, run -
+	    the act of testing something or undergoing testing
+	    </commentary>
+        <examples>
+            In the experimental trials the amount of carbon was measured separately.
+            He called each flip of the coin a new trial.
+            He survived the great test of battle.
+            Candidates must compete in a trial of skill.
+            A sample of ten days free trial.
+            A trial of progesterone failed to relieve the pain.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 5 7</wn>
+            <omega/>
+            <pb>trial.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="tribulation" type="Event">
+        <commentary>
+	    TRIAL[+event]
+	    visitation -
+	    an annoying or frustrating or catastrophic event
+	    </commentary>
+        <examples>
+            His mother-in-law's visits were a great trial for him.
+            Life is full of trials and tribulations.
+            The trials of parenthood are overwhelming.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="law: legal proceedings" type="Event">
+        <commentary>
+	    TRIAL[+event]
+	    (law) legal proceedings consisting of the judicial examination of
+	    issues by a competent tribunal
+	    </commentary>
+        <examples>
+            His trial lasted almost a whole month.
+            Most of these complaints are settled before they go to trial.
+            He had a fair trial and the jury found him guilty.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 4</wn>
+            <omega/>
+            <pb>trial.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="sports: competition" type="Event">
+        <commentary>
+	    TRIAL[+event]
+	    (sports) a preliminary competition to determine qualifications
+	    </commentary>
+        <examples>
+            The trials for the semifinals began yesterday.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

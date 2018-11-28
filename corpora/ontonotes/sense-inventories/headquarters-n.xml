@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="headquarters-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the main office, or home office, of a civilian enterprise" type="">
+        <commentary>
+            HEADQUARTERS[+office][+primary][+administrative][+enterprise][+civilian][+business/+nonprofit/+political]
+            Note: refers to an administrative hub for a civilian enterprise
+            Note: usually (not always) implies the office is a permanent, non-mobile setup.
+        </commentary>
+        <examples>
+            The headquarters of that manufacturing firm is located in Buffalo, NY.
+            John decided to switch jobs when his company moved their headquarters to Atlanta.
+            Sally's video game startup is setting up temporary headquarters in her garage.
+            The headquarters of the United Nations is in New York City. (administrative civilian offices)
+            Pete was a volunteer at the Chicago headquarters of a small political party.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the command post for a given non-civilian organization" type="">
+        <commentary>
+            HEADQUARTERS[+center][+command][+organization][-civilian][+military/+police/+espionage]
+            Note: refers to a center for dispatching non-civilian orders to enlisted personnel
+            Note: the center is often (not always) temporary or also can be mobile.
+        </commentary>
+        <examples>
+            The generals plotted their military campaign at the supreme headquarters in Berlin.
+            Several of his headquarters staff were killed when the plane hit the Pentagon.
+            The U.N. troops set up temporary headquarters in a large downtown hotel.
+            They took the suspect down to police headquarters for questioning.
+            He worked for years as a field officer at the headquarters for British Intelligence. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,125 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hit-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a play in baseball in which the player gets on base" type="">
+        <commentary>
+            HIT[+event][+play][+game][+baseball][+getting_on_base]
+        </commentary>
+        <examples>
+            At the end of the 4th inning our team had 3 hits, 2 runs and no errors.
+            Smith smashes the ball into left center field for a base hit.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>hit.04</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a striking contact, or collision, between objects" type="Event">
+        <commentary>
+            HIT[+event][+collision][+between_objects]
+        </commentary>
+        <examples>
+            The moon's surface is pocked with thousands of hits from meteors in outer space.
+            The boxer took another hit on the chin from his opponent.
+            He drove the ball over the fence with a hit of his tennis racket.
+            The missile made a direct hit on its target.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>hit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a venture which is a huge success" type="">
+        <commentary>
+            HIT[+state][+success][+major][+of_venture]
+        </commentary>
+        <examples>
+            The musical is the current hit on Broadway.
+            It's an album of the singer's greatest hits.	
+            John was a hit with the children when he performed magic tricks for them.  (Note: although it seems 'John' is the hit, it's really shorthand for his performance)
+            The venture capitalist said he has one hit, two maybes and one failure in his current portfolio of companies.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a dose of substance, often a narcotic" type="Event">
+        <commentary>
+            HIT[+quantity][+dose][+of_substance][+narcotic]
+        </commentary>
+        <examples>
+            She took another hit off a joint of marijuana.
+            He bought three hits of crack from a street vendor.
+            I took a hit from John's water bottle. (extension to ordinary substances)
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="murder contracted by the underworld" type="Event">
+        <commentary>
+            HIT[+event][+murder][+contracted][+by_underworld]
+        </commentary>
+        <examples>
+            They've ordered a hit on the witness who testified against the mob leader.
+            The police said the murder had all the indications of a professional hit.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>hit.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="retrieved data that match search criteria in a computerized search" type="">
+        <commentary>
+            HIT[+entity][+symbolic][+data][+retrieved][+matching][+criteria][+search]
+        </commentary>
+        <examples>
+            My query 'hawaii hotels' returned hundreds of hits.
+            The number of accurate hits returned by a search engine is a measure of its precision.
+            There were no hits in the corporate database for an employee named 'John Doe'.
+        </examples>
+        <mappings>
+            <wn version="MAC">2d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a  visit to a website" type="Event">
+        <commentary>
+            HIT[+event][+visit][+electronic][+to_website]
+        </commentary>
+        <examples>
+            The ad claims its methods can increase hits to your website.
+            The log shows an increase in hits to my website on the weekends.
+            The enormous frequency of hits from one IP address to the corporate website suggests a denial of service attack.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

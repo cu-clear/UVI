@@ -1,0 +1,183 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="job-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="paid position" type="Abstraction">
+        <commentary>
+            A regular position that usually earns money.  A career.
+            Does not refer to actual work or responsibility, only a position.
+        </commentary>
+        <examples>
+            John had trouble finding a job after he graduated with a Linguistics major.
+            My summer job as a lifeguard was a real pain in the butt.
+            When the economy goes sour, lots of people can lose their jobs.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="task" type="Activity">
+        <commentary>
+            The actual work that a person does.  Refers to an activity, not a position.
+            Can be a regular activity or a specific piece of work; either paid or unpaid.
+        </commentary>
+        <examples>
+            When I worked as a lifeguard, my job was to watch the pool.
+            He came to work and did his job every day.
+            It's a tough job, but somebody's got to do it.
+            You did a good job on that midterm.
+            This looks like a job for Superman!
+            Painting the barn is going to be a huge job.
+            I brought my wife to the job site (the site where the task takes place).
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4 2 3
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="being at work" type="">
+        <commentary>
+	    JOB[+event]
+	    The state of being at work.  Probably only used in the expression &quot;on the job&quot;.
+	    </commentary>
+        <examples>
+            Intelli-Soft has had a record number of on-the-job accidents this month.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="object being worked on" type="Entity">
+        <commentary>
+            Probably a rare usage; an object that is the subject of a job.
+        </commentary>
+        <examples>
+            I held the job in my left hand and worked on it with my left.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                6
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="5" name="a difficulty" type="Abstraction">
+        <commentary>
+            A general way of referring to something difficult or problematic.
+        </commentary>
+        <examples>
+            It's always a job to contact him when he's eating.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                7
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="destruction" type="">
+        <commentary>
+	    JOB[+event]
+	    An act of destruction.  Probably only used in the expression &quot;do a job on&quot;.  This is a specific kind of task.
+	    </commentary>
+        <examples>
+            That barber really did a job on your hair, John.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                8  
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="robbery" type="">
+        <commentary>
+	    JOB[+event]
+	    The act of robbing or burglarizing; pulling off a caper.  This is a specific kind of task.
+	    </commentary>
+        <examples>
+            The gang pulled off a bank job in St. Louis.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                9
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="8" name="Biblical figure" type="Entity">
+        <commentary>
+            A character in the Old Testament who suffers a lot.  Also used in a metaphoric way for other long-suffering people.
+        </commentary>
+        <examples>
+            And Job did sacrifice three oxen to the Lord, though the Lord did afflict him with boils.
+            The prisoner, unjustly convicted of murder, was a patient and Job-like figure.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                10 11
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="9" name="Biblical book" type="Abstraction">
+        <commentary>
+            Part of the title of a book in the Bible.  Though the title is named after the character Job, this sense does not refer to him.
+            Used frequently as a shorthand for quotations.
+        </commentary>
+        <examples>
+            &quot;All the days of my appointed time shall I wait, till my change come,&quot; (Job 14:14).
+            John entertained his little brother by reading aloud from the Book of Job.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                13
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="computer program" type="Abstraction">
+        <commentary>
+            In computer science, a program application that may consist of several steps but is a single logical unit.
+        </commentary>
+        <examples>
+            I wrote a nifty job for Windows that automatically emails itself to everyone in your address book.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                12
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="minute-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="60 seconds, or else a very short period of time" type="">
+        <commentary>
+            MINUTE[+measure][+time][+small][+unit/+estimate]
+            Note: a span or extend of time,  not just a single point (sense 2)
+        </commentary>
+        <examples>
+            You should bake the pudding for 50 minutes at 325 Fahrenheit.
+            The cat will snatch that fish off the table in a New York minute.
+            Just wait a minute and I'll go with you for coffee.
+            The sky looks ready to open up any minute now. (soon)
+            My watch is running three minutes fast.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a single point in time" type="">
+        <commentary>
+            MINUTE[+event][+punctual][+temporal]
+            Note: focus is on a starting point or a juncture, not a span or extent of time (sense 1)
+        </commentary>
+        <examples>
+            I'll let you know the minute he gets here.
+            From the minute Sally got home until bedtime the children didn't stop quarreling. 
+            She had been laughing one minute and crying the next.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a measure of angular distance" type="">
+        <commentary>
+            MINUTE[+measure][+distance][+angular]
+            Note: a measurement of arcs and angles
+        </commentary>
+        <examples>
+            This angle measures 32 degrees, nine minutes and twelve seconds.
+            These two stars are calculated to be one arc minute apart.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="memoranda, records of a meeting" type="">
+        <commentary>
+            MINUTE[+document][+memorandum][+meeting]
+        </commentary>
+        <examples>
+            Mary read through issues from the last meeting in the minute book.
+            Who will keep the minutes for our meeting today?
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a linear distance expressed in time" type="">
+        <commentary>
+            MINUTE[+measure][+distance][+calculation][+temporal]
+            Note: talking about a linear distance in terms of how long it takes to get there
+        </commentary>
+        <examples>
+            The hotel is situated only ten minutes from the beach.
+            The bus stop is only a three-minute walk from here.
+            We're still about forty minutes outside New York. (flying to NYC)
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

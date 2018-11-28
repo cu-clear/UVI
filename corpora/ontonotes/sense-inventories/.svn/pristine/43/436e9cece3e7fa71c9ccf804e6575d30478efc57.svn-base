@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="insurance-n">
+    <commentary>
+        8Jan08 update to wn2.1, added sense 3, modified definitions and examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a contractual arrangement providing financial protection against some type of risk" type="">
+        <commentary>
+            INSURANCE[+entity][+abstract][+contract][+protection][+financial][+against_risk]
+            the legal contract that provides financial coverage against various types of risk
+        </commentary>
+        <examples>
+            John's auto insurance went up last year after his car  accident.
+            The insurance will pick up all surgical costs except for cosmetic surgery.
+            The insurance policies are kept in our safe deposit box.
+            The insurance company is refusing to pay more than half of Sally's dental bill.
+            When will we be able to collect the insurance on our damaged roof?
+            Bob took out a million dollars in life insurance.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="" n="2" name="to protect oneself against a possible future adversity" type="">
+        <commentary>
+            INSURANCE[+relation][+role][+protection][+against_adversity]
+            Refers to anything which serves as a protection against a possible adversity
+            Note: an extension of Sense 1, but has NO implications of a  written legal policy issued by an insurer.
+        </commentary>
+        <examples>
+            They are seeking ties with other-oil producing nations as insurance against disruption in the Middle East.
+            Having children may not be an insurance against loneliness in old age.
+            The addition of bonds in your portfolio could serve as insurance against a down-turning stock market. (a counterbalance)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="" n="3" name="the industry that sells financial policies against risk" type="">
+        <commentary>
+            INSURANCE[+entity][+organization][+industry][+seller][+of_risk_policy]
+            refers to the industry as a group, the companies that issue the contracts of Sense 1
+        </commentary>
+        <examples>
+            Insurance and pharmaceuticals are both promising sectors according to stock analysts.
+            Mergers are now starting to occur even in health insurance. (companies in that industry are merging)
+            The candidate advocated more deregulation of insurance and utilities. . (refers to ow the businesses are regulated)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

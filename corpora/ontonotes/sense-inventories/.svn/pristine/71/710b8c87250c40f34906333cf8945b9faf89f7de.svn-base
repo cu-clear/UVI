@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="emit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Expel gas, light, heat, vapor, or some
+   other natural product from an entity." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Distant solar systems emitted light billions of years ago, rays that
+      we're just now seeing.
+      The ozone blocks some of the harmful rays that the sun emits.
+      John emits a foul odor.
+      Certain elements emit radiation.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>emit.01</pb>
+         <vn>NP</vn><fn>Emitting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Express audibly; utter sounds (not
+         necessarily words); indicate." type="">
+      <commentary>
+      Syntax Includes: 
+      NP1[agent] EMIT NP2[proposition]
+      NP1[topic] EMIT NP2[proposition]
+      </commentary>
+      <examples>
+      She emitted a big heavy sigh.
+      Stocks emitted ominous signals today. 
+      He emitted strange sounds that nobody could understand.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>emit.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

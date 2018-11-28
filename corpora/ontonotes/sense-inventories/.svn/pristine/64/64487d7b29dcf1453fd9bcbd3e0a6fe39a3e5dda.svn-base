@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sew-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Fasten with needle and thread; do needlework
+   without creating a new item." type="">  
+      <commentary>
+      Includes: SEW TOGETHER 
+      </commentary>
+      <examples>
+      John sewed the button onto his shirt.
+      It's not hard to sew together two pieces of fabric.
+      Mary wanted to sew John's mouth shut.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="sew_together" version="3.0">1</wn>
+         <omega></omega><pb>sew.01</pb>
+         <vn>shake-22.3-2,spray-9.7-1</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Create (clothes) with cloth or some other
+         item." type="">
+      <commentary>
+      INCLUDES: SEW TOGETHER 
+      Syntax Is: NP1[agent] SEW NP2[product[concrete]]
+      </commentary>
+      <examples>
+      Can she sew me a new suit by next week?
+      We need to sew some new pillowcases for the bed.
+      Designers sewed the dress out of pieces of plastic.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sew.02</pb>
+         <vn>build-26.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Create or secure a process or product in
+         business or finance." type="">
+      <commentary>
+      Includes: SEW TOGETHER, SEW UP
+      Syntax Is: NP1[agent] SEW NP2[patient[abstract]] 
+      </commentary>
+      <examples>
+      We really need to sew up the deal by Saturday.
+      I'm hoping to sew together a new contract before the next
+      teleconference.
+      Help me sew a relationship between our companies. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

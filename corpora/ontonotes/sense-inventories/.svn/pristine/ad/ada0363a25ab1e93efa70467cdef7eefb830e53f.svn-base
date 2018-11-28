@@ -1,0 +1,162 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="link-n">
+    <commentary>
+        15Mar07 updated to wn2.1, added features. ahouston
+        15Mar07 - merged Sense 8 into Sense 5 .ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="nexus, the place of connection" type="">
+        <commentary>
+            LINK[+relation][+role][+nexus]
+            connection, connexion - 
+        </commentary>
+        <examples>
+            The esophagogastric junction is the link between the esophagus and the stomach epithelium.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="fasteners or connectors" type="">
+        <commentary>
+            LINK[+entity][+artifact][+fastener]
+            a fastener that serves to join or link
+        </commentary>
+        <examples>
+            The walls are held together with metal links placed in the wet mortar during construction.
+            John has lost his best cuff links.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="being connected, having a significant association" type="State">
+        <commentary>
+            LINK[+relation][+association][+significant]
+        </commentary>
+        <examples>
+            The link between church and state is inescapable.
+            There's a strong link between that boy and his dog.
+            Have they found a link between smoking and lung cancer?
+            This fossil is the missing link in the evolution of that species.
+            She has a lot of personal links to the media.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a channel of social communication" type="">
+        <commentary>
+            LINK[+relation][+role][+communication][+channel]
+            contact, inter-group communication - 
+            a channel for communication between groups
+        </commentary>
+        <examples>
+            He provided a liason with the guerrillas.
+            The weekly mail was her only link to the outside world, beyond the  
+            remote jungle village.
+            The blog provided a nice link to current events in the physics  
+            community.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="two way communication via electronics" type="">
+        <commentary>
+            LINK[+entity][+artifact][+device][+electronics][+communication][+2_way]
+            a two-way communication system 
+        </commentary>
+        <examples>
+            Grown-ups call thier walkie-talkies &quot;links&quot;.
+            Their lab has a data link to several earth-orbiting satellites. 
+        </examples>
+        <mappings>
+            <wn version="3.0">8,9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="unit of length" type="">
+        <commentary>
+            LINK[+quantity][+measure][+unit][+length]
+            a unit of length equal to 1/100 of a chain
+        </commentary>
+        <examples>
+            It's only about 5 links long.
+            Mary gave her dog a link of sausage.  (probably extended usage)
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="computer instruction" type="Computing">
+        <commentary>
+            LINK[+entity][+symbolic][+instruction][+computer][+connecting]
+            an instruction that connects one part of a program or an element on a
+            list to another program or list
+        </commentary>
+        <examples>
+            If you write a link to the other list the program will run more quickly.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="connecting span of railway" type="">
+        <commentary>
+            LINK[+entity][+structure][+construction][+railway][+segment]
+        </commentary>
+        <examples>
+            They just put in a new rail link between the Cape and Boston.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

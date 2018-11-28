@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="determine-v">
+   <commentary>
+     Only tag verbs, not adjectives. Adjectival use: John was determined to finish.
+     If DETERMINE can be modified with VERY, it's an adjective.
+   </commentary>
+   <sense group="1" n="1" name="find out, learn, ascertain" type="">
+      <commentary>
+       Syntax: NP1[agent[+animate]] DETERMINE (NP2) (SCOMP)
+      </commentary>
+      <examples>
+	Physicists haven't yet determined what dark matter is.
+        He is trying to determine why his air-conditioner stopped working.
+        Did you determine whether she is John's new wife?
+        Will we ever determine the meaning of life?
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,8</wn>
+	 <omega/><pb>determine.01</pb>
+         <vn>conjecture-29.5-1,discover-84</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="decide, settle, fix definitely" type="">
+      <commentary>
+       Syntax: NP1[agent[+animate]] DETERMINE (NP2) (SCOMP)
+      </commentary>
+      <examples>
+        The town determined that the dog park should include a pond.
+        They determined to risk the consequences.
+        We determined to raise a party of not less than thirty individuals.
+	He is still determining whether or not to apply to law school.
+        John and Mary have determined to get a divorce.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3,4,5,7</wn>
+	 <omega/><pb>determine.01</pb>
+         <vn>NM</vn><fn>Coming_to_believe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="be the deciding factor in, fix in scope" type="">
+      <commentary>
+       Syntax: NP1[theme[-animate]] DETERMINE NP2
+      </commentary>
+      <examples>
+        That fence determines the boundary between our property and theirs.
+        What determines species diversity?
+        The distribution of shortening through a pie crust determines how flaky it is.
+        How you light a room will largely determine its mood.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2,6</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Contingency</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+</inventory>

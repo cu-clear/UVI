@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="clack-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a rattling sound" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] CLACK NP2[location]
+      NP1[agent] CLACK NP2[theme] (PP[location])
+      </commentary>
+      <examples>
+      Myron's footsteps clacked and reverberated in the still room.
+      Her shoes clacked on deep gray tile.
+      The branches clacked together in the wind like the bones of the dead.
+      She clacked her castanets.
+      The Ghost laughed and clacked the keys.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clack.01</pb>
+         <vn>sound_emission-43.2</vn><fn>Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a clucking sound, like a hen" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] CLACK (NP2[recipient])
+      </commentary>
+      <examples>
+      The Yuzzem gibbered and clacked at him, but finally moved away.
+      A cage, in which a startled hen clacked, dangled from his hand.
+      The motherly hen clacked round with her vagrant brood.
+      Occasionally a marsh-hen clacked overhead.
+      The guinea-hens were clacking.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clack.02</pb>
+         <vn>NM</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="prattle on rapidly and incessantly" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] CLACK
+      NP1[agent[animate]] CLACK NP2[topic]
+      NP1[agent[animate]] CLACK NP2[theme] (PP[topic])
+      </commentary>
+      <examples>
+      Tongues are already clacking, and they're not being real flattering to you.
+      The many what-if scenarios have set Wall Street tongues clacking about the Peacock and GE's future.
+      I gazed at the fine ladies clacking away with such wild, joyous abandon.
+      Are the ladies clacking about your trolls or their trolls?
+      I just get these doe-eyed old ladies clacking about how hard my life must have been.
+      The press gallery members have been clacking their tongues over this "scandal".
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clack.03</pb>
+         <vn>NM</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tune-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Adjust for better functioning." type="">  
+      <commentary>
+      INCLUDES: TUNE UP 
+      Syntax includes: NP1[animate] TUNE (UP) NP2[concrete]
+      </commentary>
+      <examples>
+      The mechanic tuned the engine.
+      Custom programs tune server performance.
+      Getting your car tuned up is an important step in any maintenance program.  
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="tune_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Adjust the pitches of a musical instrument." type="">
+      <commentary>
+      Includes: TUNE UP
+      Syntax includes: (NP1[animate]) TUNE (UP) NP2[instrument)
+      </commentary>
+      <examples>
+      My piano needs to be tuned up.
+      The orchestra members expertly tuned their instruments.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="tune_up" version="3.0">2</wn>
+         <omega/><pb>tune.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Regulate a device to receive or block a program." type="">
+      <commentary>
+      Includes: TUNE IN, TUNE OUT
+      Note: can be used metaphorically.
+      Syntax includes: NP1[human] TUNE (PP) NP2  
+      </commentary>
+      <examples>
+      Millions of people tune in to the program each week.
+      I tuned the television to Channel 5.
+      No matter how attentive your kids are, they always tune out at least
+      half of the instructions.
+      The CEO needs to tune into reality.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="tune_in" version="3.0">1</wn>
+         <omega/><pb>tune.02,tune.03</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

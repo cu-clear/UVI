@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="drink-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a serving of a beverage" type="">
+        <commentary>
+            DRINK[+artifact][+beverage][+serving]
+        </commentary>
+        <examples>
+            The waitress brought us our drinks first.
+            The banquet table was laden with food and drink.  
+            We had a couple of drinks at the lakeside bar.
+            They only served non-alcoholic drinks at the picnic.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the excessive imbibing of alcohol" type="">
+        <commentary>
+            DRINK[+activity][+excessive][+imbibing][+of_alcohol]
+        </commentary>
+        <examples>
+            Many alcoholics first take to drink as teenagers.
+            Drink was his downfall.
+            It was a face worn with years of drink and debauchery.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of swallowing liquid" type="Event">
+        <commentary>
+            DRINK[+event][+swallowing][+liquid]
+        </commentary>
+        <examples>
+            The baby wanted another drink of juice from his bottle.
+            The horse took a long drink of water at the trough.
+            He took a drink from the whiskey bottle and passed it around.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>drink.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="large deep body of water, e.g, the sea" type="">
+        <commentary>
+            DRINK[+location][+geographical][+water][+deep][+large_body]
+        </commentary>
+        <examples>
+            If you fall into the drink you may drown.
+            She stood on deck and threw the necklace overboard into the drink.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

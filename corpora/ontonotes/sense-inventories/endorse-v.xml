@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="endorse-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="approve and support" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This practice is not endorsed by headquarters.
+        We endorse the project without reservation as being a good example of the simulation studies.
+        It was just a matter of time before the mayor endorsed the candidate.
+        They decided to endorse the mayor as a candidate for higher office.
+        Pop-up advertisements falsely suggested that Microsoft endorsed the product.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <omega/><pb>endorse.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="promote a product through public (advertising) appearance" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They paid $2 million to the world champion to endorse their new aftershave.
+        You will buy the product just because your favorite football player endorses it on TV?
+        A popular actor endorsed the pain reliever. 
+        My cell phone plan is from a company endorsed by Catherine Zeta Jones.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>endorse.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="sign on a document/check to give it permission" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        If you are depositing checks, you will need to endorse the back of the check. 
+        If your name is written on the check incorrectly, you should endorse the check twice.
+        Date and endorse the back exactly as written upon the face of the certificate.
+        The fitness report had been endorsed on the back by its recipient.
+        Endorse the receipt and return it to the responsible person.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>endorse.02</pb>
+         <vn>illustrate-25.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

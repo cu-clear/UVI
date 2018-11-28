@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="convert-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="change from one form or function to another; alter; exchange for an equivalent" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] CONVERT NP2[material] to/into NP3[product]
+        NP1[material] CONVERT to/into NP2[product]
+      </commentary>
+      <examples>
+        I thought alchemists could convert iron into gold.
+        Could we convert the small bedroom into a second bathroom?     
+        The rebels converted hotels into jails.
+        Selenium exhibits photovoltaic action, where light is converted directly into electricity.
+        Scientists have discovered how to convert pig manure into crude oil.
+         The Jason Bourne series is to be converted into multi-platform games.
+         Many of these abstract ideas were converted into genuine working computer programs.
+         We convert imagination into reality! 
+         Could you convert my dollars into pounds?
+         He converted his holdings into shares.
+         He could have converted his sentence to community service.
+         They converted my campaign slogan from 'You know he's right' to 'You know he's nuts.'
+         We converted the text into cryptorunes, with each rune standing for an English letter.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,10,11</wn>
+         <omega/><pb>convert.01</pb>
+         <vn>turn-26.6.1-1</vn><fn>Exchange_currency,Cause_change</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="(cause to) adopt a different system, value, or viewpoint" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] CONVERT
+        NP1[agent] CONVERT NP2[patient[human]]
+      </commentary>
+      <examples>
+        She converted to Buddhism.
+        Nudie Cohn converted from Judaism to Christianity.
+        I brought my friends who are not vegetarian and have converted them to tofu-lovers!
+        I converted to pharmacology.
+        He converted me to pharmacology.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5,9</wn>
+         <omega/><pb>convert.01</pb>
+         <vn>convert-26.6.2-1,turn-26.6.1-1</vn><fn>Cause_change</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="SPORTS-score points" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         They are otherwise good shooters, but for some reason they cannot convert from the free throw line.
+         Each time Chicago was able to convert key free throws on the other end.
+         The Stampeders would only be able to convert a field goal out of the opportunity.
+         It is very difficult to convert into a spare in candlepin bowling.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7,8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,brownsw" sample_score="-"/>
+</inventory>

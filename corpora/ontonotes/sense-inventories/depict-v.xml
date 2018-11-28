@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="depict-v">
+   <commentary>
+     The first version of this grouping is biased towards
+     FrameNet, creating a separate sense for &quot;depict as 
+     member of a category&quot; (sense 1)
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="portray as a type; render or show." type="">
+      <commentary>
+      Note:  emphasizes categorical description of the depicted object
+      Syntax Is:
+       NP1[agent] DEPICT NP2[theme] as ADJP
+       NP1[agent] DEPICT NP2[theme] as NP[attribute]
+      </commentary>
+      <examples>
+        Some episodes of the television series have depicted them as being inseparable.
+        Philip Jose Farmer depicted the Shadow as part of his Wold Newton family of fictional characters.
+        Given the events of her life and career, historians have depicted her in different ways.
+        This scene depicts country life.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>depict.01</pb>
+         <vn>characterize-29.2</vn><fn>Communicate_categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="paint, make a portrait of" type="">
+      <commentary>
+     Syntax Is:
+      NP1[agent] DEPICT NP2[theme]
+      Note: The subject in Sense 2 IS agentive. Compare to Sense 1.
+      </commentary>
+      <examples>
+        Goya wanted to depict his mistress, the Duchess of Alba.
+        Has the artist depicted a landscape, still life, portrait, or figurative subject?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey,greenlm" sample_score="-"/>
+</inventory>

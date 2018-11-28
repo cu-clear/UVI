@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="question-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="ask for information, inquire formally" type="">  
+      <commentary>
+        NOTE: Please compare to sense 2 carefully, particularly in examples of 
+        &quot;question why, whether, how&quot; etc.  Both senses can be used in this
+        frame. It is up to the tagger to look at the context and use
+        intuition to decide if information is being sought (sense 1) or if
+        doubt and challenge are involved  (sense 2).
+      </commentary>
+      <examples>
+        They questioned him for about 20 minutes in his office.
+        I often questioned her as to this after we became friends.
+        Several men were questioned by police yesterday about the burglary.
+        68% of those questioned in the poll thought noise levels had increased.
+        He questioned whether we would hold a Board meeting next month.
+        Another member questioned how a student would know of changes being made.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>   
+         <omega/><pb>question.01</pb>
+         <vn>interrogate-37.1.3</vn>
+         <fn>Questioning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="challenge accuracy, raise doubt about truth or usefulness" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Yes, I do question your judgement.
+        I questioned the wisdom of taking so many pills.
+        Our results question whether early treatment with the drug really improved survival.
+        The panel questioned why ISP traffic could not be considered as two calls.
+        They questioned whether the situation was really as desperate as described.
+        The committee questioned whether a representative sample of subjects could be obtained.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5</wn>
+         <omega/><pb>question.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

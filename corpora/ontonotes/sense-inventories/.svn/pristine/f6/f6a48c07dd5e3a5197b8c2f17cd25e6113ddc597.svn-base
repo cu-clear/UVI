@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="experiment-n">
+    <commentary>
+        13sep06 updated to WN2.1, added features, broadened example base. ahouston
+        13sep06 moved wn sense 2 to Group 2 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="Scientific test" type="Event">
+        <commentary>
+	    EXPERIMENT[+event][+activity][+observation][+controlled][+hypothesis_driven]
+	    A part of the scientific process.
+	    A way to test a hypothesis that produces quantifiable results in a controlled environment.
+	    </commentary>
+        <examples>
+            They conducted an international field experiment to study climate forcing by aerosols.
+            John's psychology class reproduced the results of the 1971 Zimbardo Prison Experiment.
+            Pete's experiments with rocket fuel on the kitchen stove created stress for his mother.
+            Such an experiment with high energy particles would require a particle accelerator that doesn't currently exist.
+            Try the following experiment on yourself: observe how you react to people based on the deepness of their voice.
+            The book describes some of Einstein's most famous thought experiments.
+            What is the probability of a coin landing heads up in 100 experiments?  (tosses)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>experiment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Something new, a novel undertaking" type="Event">
+        <commentary>
+	    EXPERIMENT[+event]ATION[+activity][+undertaking][+novel]
+	    The act of trying something that has not been tried in the past.
+	    Generally non-scientific; non-quantifiable.
+	    </commentary>
+        <examples>
+            The book is a literary experiment.
+            I decided to grow my beard long as an experiment.
+            John conducted a culinary experiment with the leftovers in the refrigerator.
+            The Soviet Union was a social experiment that went horribly wrong.
+            It was an experiment in communal living.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

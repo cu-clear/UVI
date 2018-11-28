@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="airport-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="an airfield with tower and passenger, cargo facilities" type="">
+        <commentary>
+            AIRPORT[+location][+artifact][+airfield][+control_tower][+with_facilities]
+        </commentary>
+        <examples>
+            You should get to the airport at least an hour before your departure.
+            Many airports had flights cancelled because of the weather.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

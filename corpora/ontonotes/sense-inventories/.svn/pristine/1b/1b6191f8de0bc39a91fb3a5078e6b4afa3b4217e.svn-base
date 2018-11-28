@@ -1,0 +1,111 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shoot-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="propel a projectile, hit with a projectile" type="">
+      <commentary>
+        Syntax is: NP1[agent] SHOOT (NP2[+concrete])
+                   NP1[agent] SHOOT (NP2[-concrete])
+
+        NOTE: includes metaphorical examples.
+      </commentary>
+      <examples>
+        He was shot in the head.
+        Stop shooting me with those rubberbands!
+        He shot 3 innocent bystanders before being apprehended.
+        They shot down several enemy aircraft.
+        She shot down my proposal.
+        Don't shoot until you see the whites of their eyes.
+        The ballistic missiles were shot at noon.
+        I wonder what they shot at?
+        You can't go around shooting off your mouth.
+        Martine shot back an answer.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,17</wn>
+         <wn lemma="shoot_down" version="3.0">2,3</wn>
+         <omega/><pb>shoot.01,shoot.02</pb>
+         <vn>get-13.5.1,poison-42.2</vn><fn>Hit_target,Shoot_projectiles,Use_firearm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) move suddenly and swiftly in a particular direction" type="">
+      <commentary>
+        Note: Can be figurative.
+      </commentary>
+      <examples>
+        He shot into the street to grab his daughter.
+        The star shot through the sky.
+        The dragon shot flames out of his mouth.
+        The pain shot up her leg.
+        Shoot the dice.
+        I shot him a glance.
+        The cloth was shot through with metallic thread.
+        Prices shot up overnight.
+        The motorcycle shot down the street.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,7,8,10,11,13,14,15,19</wn>
+         <wn lemma="shoot_up" version="3.0">1</wn>
+         <wn lemma="shoot_down" version="3.0">1</wn>
+         <omega/><pb>shoot.06</pb>
+         <vn>throw-17.1-1</vn><fn>Shoot_projectiles</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make a film or picture" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He shot the movie in black and white.
+        She shot over 200 photos at the wedding.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>shoot.03</pb>
+         <vn>NM</vn><fn>Behind_the_scenes</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="inject" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We shot glucose into the patient's veins.
+        They shot hydrogen into the balloon.
+        He shoots up every chance he gets.
+      </examples>
+      <mappings>
+         <wn version="3.0">12,20</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Ingest_substance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="score in or play a game" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He shot a 3-point basket to win the game.
+        My uncle loves to shoot craps.
+        She shot a hole-in-one!
+      </examples>
+      <mappings>
+         <wn version="3.0">16</wn>
+         <wn lemma="shoot_craps" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="measure the altitude by using a sextant" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The astronomer shot the star Sirius. 
+      </examples>
+      <mappings>
+         <wn version="3.0">18</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="glare-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Look at with a fixed gaze." type="">  
+      <commentary>
+      Includes: GLARE AT
+      Syntax Is: NP1[agent[animate]] GLARE (AT NP2[patient]) 
+      </commentary>
+      <examples>
+      She glared at the man who tried to make a pass at her.
+      He sat there and glared. 
+      I find it hard not to glare at her everytime I see her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>glare.01</pb>
+         <vn>nonverbal_expression-40.2,peer-30.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Shine intensely, either directly or by reflection." type="">
+      <commentary>
+      Syntax Is: NP1[agent] GLARE PP[directional]
+      </commentary>
+      <examples>
+      The moon glared back at itself from the lake's surface.
+      The sun glared down on us.
+      The windows winked and the flight of stone steps glared in the sunlight. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>light_emission-43.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

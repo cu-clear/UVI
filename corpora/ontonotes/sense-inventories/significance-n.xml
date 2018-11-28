@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="significance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the quality of being important, worthy of attention" type="">
+        <commentary>
+            SIGNIFICANCE[+quality][+worthy][+of_attention]
+            Note: refers to the importance of something, not what it stands for.
+        </commentary>
+        <examples>
+            Health insurance has become a social issue of some significance.
+            The significance of the composer's works was not fully appreciated in his lifetime. 
+            The environmentalists did not understand the significance of nuclear power.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the meaning or implication of something" type="">
+        <commentary>
+            SIGNIFICANCE[+entity][+abstract][+information][+meaning]
+            Note: refers to what something means or signifies, what it symbolizes.
+        </commentary>
+        <examples>
+            What is the significance of the men removing their hats?
+            The significance of his remarks was intentionally ambiguous.
+            The significance of a given color is not the same across different cultures.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="degree of a result's deviation from a random distribution" type="">
+        <commentary>
+            SIGNIFICANCE[+quantity][+degree][+deviation][+of_result][+from_distribution][+random]
+            Note: a statistical usage
+        </commentary>
+        <examples>
+            The significance of these tests is only at the .05 level.
+            We could find no statistical significance in these results.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

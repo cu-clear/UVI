@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="attempt-v">    
+   <commentary>
+	No VPCs to include
+   </commentary>
+   <sense group="1" n="1" name="try to do something" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] ATTEMPT [goal]
+      </commentary>
+      <examples>
+	The police attempted to stop the thief before he got away.
+	The man has attempted suicide three times.
+	The Fed is attempting to stimulate the economy by lowering interest rates.
+	They are attempting to increase their market share overseas.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>attempt.01</pb>
+         <vn>try-61</vn><fn>Attempt</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="the act of surmounting, climbing, descending" type="">
+      <commentary>
+	Syntax Is: NP1[agent] ATTEMPT NP2
+      </commentary>
+      <examples>
+	They attempted Everest last year after the storms.
+	We'll attempt the mountain from the north face.
+	Don't attempt a depth below 130 feet on a non-decompression dive.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

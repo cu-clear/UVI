@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="history-n">
+    <commentary>
+        7nov06 update to wn 2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the past, the continuum of events aggregating over time" type="">
+        <commentary>
+            HISTORY[+expanse][+temporal][+continuum][+event][+past]
+            the aggregate of past events
+            Note: does not imply the existence of a specific document or account, just the events themselves.
+        </commentary>
+        <examples>
+            The patient has no medical history of fainting spells.
+            It was a turning point in the history of the American people.
+            The history of the universe may have begun with a big bang.
+            The Smiths have a family history of alcoholism.
+            There have been wars throughout human history.
+            The fossil record may not reveal the very earliest history of life on earth.
+            The Red Sox defeated the Yankees four in a row and the rest is history. (more famous past events that followed defeating Yankees - winning World Series)
+            Henry Ford said that history is bunk.  
+            Those who ignore history are condemned to repeat it.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4,5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a narrative of the past, a record" type="">
+        <commentary>
+            HISTORY[+entity][+artifact][+repository][+information][+past][+written/+spoken]
+            Note: implies the existence of a particular account, chronicle or record of something.
+            account, chronicle - 
+            a record or narrative description of past events
+            Note: often a document of some type
+        </commentary>
+        <examples>
+            He wrote the definitive history of the Roman Empire.
+            These stories have been passed down through the oral history of the tribe.
+            John is reading one of Shakespeare's histories, I believe, Richard III.
+            The lawyer had his assistant review the case histories. (dossiers on individuals)
+            Critics say this new history is full of factual error and poor scholarship.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a discipline, a branch of knowledge" type="">
+        <commentary>
+            HISTORY[+entity][+symbolic][+knowledge][+discipline][+scholarly]
+            [+activity][+pursuit][+scholarly][+knowledge][+event][+past]
+            the scholarly discipline that records and interprets past events involving human
+            beings 
+        </commentary>
+        <examples>
+            He teaches medieval history at the local college.
+            Zoology is a branch of natural history.
+            Mary is enjoying her art history class.
+            History is a discipline that requires careful examination of primary sources and records.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="finished, irrelevant" type="Slang">
+        <commentary>
+            HISTORY[+state][+completed][-relevant]
+            Note: a specialized, figurative usage of Sense 1
+            slang term meaning done or finished, part of history now
+        </commentary>
+        <examples>
+            That guy is history.
+            After that incident, the two of them are history.
+            When I finished level two of the video game all those monsters were history.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

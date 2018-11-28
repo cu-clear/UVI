@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reaction-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="(chemistry) a process in which one or more substances are changed into others." type="Event">
+        <commentary>
+        REACTION[+event][+chemistry]
+        </commentary>
+        <examples>
+        There was a chemical reaction of the lime with the water.
+        The reaction caused an explosion.  
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="An intellectual or emotional response to a stimulus." type="Event">
+        <commentary>
+        REACTION[+mental][+event]
+        Note: may include additional physical responses, but must include
+        an element of judgement.
+        </commentary>
+        <examples>
+        His reaction to the news was to make a plan. 
+        He was please by the audience's reaction.
+        John feared his mother's reaction to the broken lamp. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="3" name="A bodily process occurring due to the effect of some antecedent stimulus or agent." type="Event">
+        <commentary>
+        REACTION[+physical][+event]
+        </commentary>
+        <examples>
+        He had a bad reaction to the medicine.
+        His reactions have slowed with age. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="4" name="(mechanics) the equal and opposite force that is produced when any force is applied to a body." type="">
+        <commentary>
+        REACTION[+mechanics]
+        </commentary>
+        <examples>
+        Every action has an equal and opposite reaction.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="Something done in opposition to something else (policially or socially)." type="Event">
+        <commentary>
+        REACTION[+opposite][+event]
+        </commentary>
+        <examples>
+        His style of painting was a reaction against cubism. 
+        The forces of reaction carried the election. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6,7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

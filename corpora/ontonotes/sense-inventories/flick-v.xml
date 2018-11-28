@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flick-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Flash intermittently; shine unsteadily" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The lights flicked on and off.
+      The power flicked on and off in the restrooms.
+      The candle flicked in the darkness.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flick.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Look quickly through a book or other
+         written material." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He flicked through the report.
+      She flicked through the volume.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Move oneself/itself with a quick motion,
+         possibly producing a sound." type="">
+      <commentary>
+      Syntax is: NP1[topic] FLICK
+      </commentary>
+      <examples>
+      Greg's eyes flicked up from his instrument panel.
+      The paper flicked on the table from the air of the fan.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flick.01</pb>
+         <vn>crane-40.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Cause to move with a touch or blow; remove
+         or toss an object, possibly producing a sound; cause light emission." type="">
+      <commentary>
+      Syntax Is: NP1[agent] FLICK NP2[patient]
+      </commentary>
+      <examples>
+      He flicked his bic.
+      She flicked him with her hand.
+      There was a sound like the one you produce when you flick a
+      watermelon with your finger.
+      He flicked the paper across the table.
+      She flicked her fingers together.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4,8,9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flick.02</pb>
+         <vn>throw-17.1-1,crane-40.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="FLICK OFF: Gesture at as an insult." type="">
+      <commentary>
+      Is: FLICK OFF 
+      </commentary>
+      <examples>
+      She flicked off the rude cab driver.
+      He flicked his wife off and stormed out the door.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

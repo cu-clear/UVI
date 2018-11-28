@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="file-v">    
+   <commentary>
+	Includes VPC file_away, file_in, file_out
+   </commentary>
+   <sense group="1" n="1" name="officially register something, as a document or claim" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[agent] FILE NP2[patient]
+        NP1[agent] FILE (PP{P NP})
+      </commentary>
+      <examples> 
+	Tom and Mary have filed for divorce.
+	They are not going to file charges against the tire manufacturer.
+	We filed our taxes early this year.
+	The neighbors filed a complaint about the loud parties next door.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>file.01,file.02</pb>
+         <vn>NM</vn><fn>Submitting_documents</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="smooth a surface with an instrument" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FILE NP2[patient] (PP{P NP[instrument]})
+      </commentary>
+      <examples>
+	Sally filed her fingernails with an emory board.
+	He filed the edges smooth on the metal bar.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>wipe_instr-10.4.2,carve-21.2-2,braid-41.2.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="proceed in a line" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[topic] FILE PP
+        NP1[topic] FILE ADVP 
+	Note: intransitive usage 
+	Includes: FILE IN, FILE OUT
+      </commentary>
+      <examples> 
+	The protesters filed peacefully down Main Street.
+	The parents watched their children file in wearing costumes.
+	The ballet troupe filed out, each one bowing as they exited the stage.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="file_in" version="3.0">1</wn>
+         <wn lemma="file_out" version="3.0">1</wn>
+         <omega/><pb>file.03</pb>
+         <vn>escape-51.1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="place or store according to a systematic scheme" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FILE NP2[patient] (PP)
+	Note: What is filed is usually paperwork, but could be a hobbyist's
+	collection, mental representation, etc.
+	Includes: FILE AWAY
+      </commentary>
+      <examples> 
+	File these papers.
+	I need a new folder to file these bills.
+	File these specimens in the second drawer.
+	John files away the theater bills from every Broadway show.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="file_away" version="3.0">1,2</wn>
+         <omega/><pb>file.01</pb>
+         <vn>pocket-9.10</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

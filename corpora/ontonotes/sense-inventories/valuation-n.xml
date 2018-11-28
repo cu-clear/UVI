@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="valuation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an appraisal or assessment of the value of something" type="">
+        <commentary>
+            VALUATION[+action][+appraisal][+value]
+            Note: refers to the act of appraising, not the resulting price obtained (Sense 2)
+            Note: implies an actor/agent performs the appraisal
+        </commentary>
+        <examples>
+            The assessor will need additional information to perform a valuation of your home.
+            They decided to obtain an independent valuation of the antique credenza. 
+            His valuation of friendship does not seem to be very high.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the price or value of something" type="">
+        <commentary>
+            VALUATION[+quantity][+sum][+money][+price]
+            Note: refers to a price or quantity, not an act of appraising (Sense 1)
+        </commentary>
+        <examples>
+            The valuation of this property is much too high.
+            The valuation of their home increased fifty percent in only three years.
+            John thinks the valuation of this stock is somewhat deflated.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

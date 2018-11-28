@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="establish-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="found or institute something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] ESTABLISH NP2
+        Note: NP2 is a (somewhat) permanent institution, process, or rule
+      </commentary>
+      <examples>
+         He established a food bank in his town.
+         The university is going to establish a department of interactive media.
+         Let's establish some ground rules before we begin.
+         Critical limits must be established for each CCP identified in the hazard analysis.
+         It is incumbent upon libraries to understand the rules, establish internal mechanisms for compliance, and monitor these activities.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>
+         <omega/><pb>establish.01</pb>
+         <vn>establish-55.5-1</vn><fn>Intentionally_create</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="prove, justify or demonstrate the validity of something" type="">
+      <commentary>
+        Syntax Is: NP1 ESTABLISH NP2[abstract]
+      </commentary>
+      <examples>
+         Researchers haven't yet established a cause-effect link.
+         This cancelled check establishes the fact that she did pay that bill.
+         This theory of global warming is established only on data from the past ten years.
+         His reputation as a brilliant doctor has been established by his patients' survival rates.
+         His work for the magazine established him as one of the greatest photographers of the decade.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,8,7</wn>
+         <omega/><pb>establish.01</pb>
+         <vn>base-97.1,indicate-78-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="bring about an effect" type="">
+      <commentary>
+        Syntax Is: NP1 ESTABLISH NP2
+        Note: NP2 is a feature or effect
+      </commentary>
+      <examples>
+         Our centralized grid system and the environmental consequences of fossil fuel production have established a ripple effect.
+         The trompe l'oeil-illusion establishes depth.
+         Using cream in the sauce will establish a smooth texture.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>establish.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="to install or set up in a place or situation" type="">
+      <commentary>
+        Syntax Is: NP1 ESTABLISH NP2
+        Note: NP2 is generally reflexive. 
+        Note: NP2 has been already instituted or already exists. All NP1 is doing is
+        locating or installing into NP2.
+      </commentary>
+      <examples>
+         Economic exiles from expensive Aspen are establishing themselves in Basalt, Colo.
+         Widespread pests quickly establish themselves in ecologically disturbed communities.
+         Paige Rowland has established herself in the industry as an intelligent and hard-working performer.
+         We finally got established at our new digs after the long flight.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>establish.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw,hwangd" sample_score="-"/>
+</inventory>

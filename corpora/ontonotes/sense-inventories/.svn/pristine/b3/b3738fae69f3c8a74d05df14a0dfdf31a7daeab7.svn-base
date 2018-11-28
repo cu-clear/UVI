@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="navigator-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="officer of a ship or aircraft responsible for setting its course" type="">
+        <commentary>
+            NAVIGATOR[+person][+guide][+direction]
+            [+role][+officer][+guide][+direction][+ship/+aircraft]
+        </commentary>
+        <examples>
+            John's father served as navigator on a B-24 during World War II.
+            We got to meet the ship's navigator on a tour of the cruise ship.
+            The navigators on ships during past centuries guarded their knowledge carefully.
+            The pilot had to fly using dead reckoning after his navigator became incapacitated. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a person who explores the world traveling by sea" type="">
+        <commentary>
+            NAVIGATOR[+person][+explorer][+sea]
+            Note: usually refers to individuals from past centuries
+            Note: implies the navigator was also captain of the ship, thus differing from Sense 1 above
+        </commentary>
+        <examples>
+            Henry Hudson was an early English navigator of North America.
+            The 15th and 16th century Portuguese navigators explored much of the world by sea.
+            That boy is the youngest navigator to sail around the globe single-handedly.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a device that aids course setting, navigation" type="">
+        <commentary>
+            NAVIGATOR[+device][+finder][+location]
+        </commentary>
+        <examples>
+            Bob uses a GPS as the onboard navigator of his 50-foot sailboat.
+            That marine store carries several brands of electronic navigators.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

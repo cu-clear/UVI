@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="war-n">
+    <commentary>28Jan09 - added features, examples, modified definitions. ahouston</commentary>
+    <sense group="1" n="1" name="fighting, combat, armed conflict between social groups" type="Event">
+        <commentary>WAR[+event][+conflict][+armed][+between_groups][+social]</commentary><examples>Thousands of people were killed in the war.
+            They are concerned about the threat of a nuclear war.
+            The gang wars that erupted in the city last month were related to drug trafficking.
+            Their country is on the verge of a civil war.
+            The general discussed the unique challenges of waging war against terrorists.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>war.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="an official state of hostility declared by a sovereign nation" type="">
+        <commentary>WAR[+state][+declared][+officially][+of_hostility][+by_nation]
+            Note: the state of declaring hostility need not coincide with the onset of actual events of armed conflict.
+        </commentary>
+        <examples>War was declared in November but actual fighting did not begin until the following spring.
+            The treaty prohibits any member nation from declaring war on any other member nation.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb>war.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a contentious competition to gain a goal" type="Event">
+        <commentary>WAR[+event_set][+competition][+contentious][+to_gain][+goal]</commentary><examples>This game is a war of wits that is fun for the whole family.
+            The protectionist bill passed in congress may start a trade war.
+            Consumer electronics have been marked down because of the price war going on between the discount chains.
+            The town is growing weary of the war of words between the mayor and the town councilor.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="an official campaign against a perceived societal harm" type="Event">
+        <commentary>WAR[+event_set][+campaign][+official][+against][+societal_harm][+perceived]</commentary><examples>President Johnson is remembered for his large-scale war on poverty.
+            Skeptics argue that the war on drugs has largely failed to reach any of its goals.
+            The new homeland security measures are one component of the war on terrorism.  (Note: in this context, no actual combat is referenced, it's a campaign to prevent certain acts from occurring.) 
+            Mary has waged a one-woman war on litterbugs in her town.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb>war.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

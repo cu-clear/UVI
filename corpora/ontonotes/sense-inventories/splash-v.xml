@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="splash-v">    
+   <commentary>
+   Contains duplicate WN mappings 1,5. 
+   </commentary>
+   <sense group="1" n="1" name="Cause a liquid to spatter about, perhaps
+   producing a sound; mark or overlay as with a liquid." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Water was splashing on the floor.
+      Rain splashed over the awnings. 
+      The mother splashed the baby's face with water.
+      Snow patches splashed the side of the mountain. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>splash.01</pb>
+         <vn>spray-9.7-1,sound_emission-43.2</vn><fn>Filling,Fluidic_motion,Cause_fluidic_motion,Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Move around inside a liquid; traverse a
+         liquid/something liquid-like, perhaps producing a sound." type="">
+      <commentary> 
+      Includes: SPLASH AROUND
+      </commentary>
+      <examples>
+      We had to splash across the wet meadow.
+      The boys splashed around in the pool.
+      We splashed in the surf.
+      She splashed the water around her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5,7</wn>
+         <wn lemma="splash_around" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>sound_emission-43.2</vn><fn>Motion_noise,Filling_Fluidic_motion,Cause_fluidic_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Apply something abstract as if by spattering." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He splashed the information on handbills that he distributed around town.
+      I splashed a few final phrases on the page and handed in the exam.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

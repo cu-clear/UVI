@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="excuse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Rationalize; make allowances for; accept." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        Please excuse the mess.
+        Your good grades do not excuse your drinking.
+        You must excuse my husband, he doesn't speak English.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>excuse.01</pb>
+         <vn>judgement-33</vn><fn>Forgiveness</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Ask for permission to be released from an
+         engagement or situation, perhaps as a courtesy." type="">
+      <commentary>
+        NOTE: This is a subsense of sense 1 where the NP being excused is
+        leaving a room or disappearing from an area.
+        Syntax Is: NP1 EXCUSE NP2[human]
+      </commentary>
+      <examples>
+        I asked the teacher if I could be excused to make a phone call.
+        Monroe had to be excused from the meeting for excessive coughing.
+        Excuse me!
+        "Excuse me, madame," he said.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

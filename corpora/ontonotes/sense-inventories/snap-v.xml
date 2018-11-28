@@ -1,0 +1,145 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="snap-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) break or separate abruptly" type="">
+      <commentary>
+        Syntax is: NP1 SNAP NP2
+        NOTE: Includes metaphorical uses.
+      </commentary>
+      <examples>
+        The rope snapped, and the crate plummeted to the ground.
+        He could snap your neck in two.
+        Snap off a square of that chocolate for me.
+        The victory also snapped a three-game losing streak against the Earthquakes.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="snap_off" version="3.0">1</wn>
+         <omega/><pb>snap.05,snap.06</pb>
+         <vn>break-45.1,split-23.2</vn><fn>Cause_to_fragment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) move abruptly, often making a short, sharp sound" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The door of the trap snapped shut, with the rat securely inside.
+        Once he lined it up correctly, it snapped into place.
+        The flag snapped in the breeze.
+        I snapped on the light.
+        She always snaps her phone shut one-handed.
+        The police snapped the handcuffs around her wrists.
+        Marla snapped around, a look of fury on her face.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,7</wn>
+         <omega/><pb>snap.07</pb>
+         <vn>sound-emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make a short, sharp sound" type="">
+      <commentary>
+        NOTE: Compare to sense 4. This sense DOES NOT include any sound
+        made with the fingers.
+      </commentary>
+      <examples>
+        Rice Crispies: they Snap, Crackle and Pop!
+        The fire snapped and crackled cheerfully on the hearth.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>snap.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="use the fingers of one hand to make a snapping sound" type="">
+      <commentary>
+        NOTE: Compare to sense 3. This sense only involves making a sound
+        with the fingers.
+      </commentary>
+      <examples>
+        I didn't learn to snap until I was seven.
+        They all snapped in time with the music.
+        Kat snapped and everyone in the room jumped.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>snap.03</pb>
+         <vn>crane-40.3.2,sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="utter in a sharp and angry tone" type="">
+      <commentary>
+        NOTE: When following or preceding a direct quote, always use this sense. (As in
+        example 2).
+      </commentary>
+      <examples>
+        He snapped back a reply, annoyed that she had asked.
+        'Just give me the check,' she snapped.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>snap.01</pb>
+         <vn>manner_speaking-37.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="seize; grasp at something" type="">
+      <commentary>
+        Synax is: NP1[animate] SNAP NP2
+        INCLUDES: SNAP UP
+      </commentary>
+      <examples>
+        The fish snapped at the bait.
+        He snapped at any chance he could get to be near her.
+        She snapped up all the good bargains.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="snap_at" version="3.0">1</wn>
+         <wn lemma="snap_up" version="3.0">1</wn>
+         <omega/><pb>snap.08</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="undergo an abrupt change in mental condition" type="">
+      <commentary>
+        Syntax is: NP1[animate] SNAP
+        NOTE: Compare to Senses 1 and 2: Sense 7 is intransitive. 
+      </commentary>
+      <examples>
+        She snapped awake at the sound.
+        Will you snap out of it?!
+        When his daughter died, he just snapped.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="take a photograph" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She snapped a picture of the senator as he left the restaurant.
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="SPORTS: put the ball into play or execute a          play." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        A moment after he snapped the ball, Miller was hit by a linebacker.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,corvey" sample_score="-"/>
+</inventory>

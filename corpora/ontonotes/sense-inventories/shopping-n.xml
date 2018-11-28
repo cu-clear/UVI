@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shopping-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="The act of searching for or buying goods or services." type="Event">
+        <commentary>
+        SHOPPING[+event]
+        </commentary>
+        <examples>
+        We went shopping yesterday for birthday presents.
+        She does all her shopping at the mall.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>shopping.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The commodities purchased from stores." type="">
+        <commentary>
+        SHOPPING[+artifact]
+        </commentary>
+        <examples>
+        She loaded her shopping into the car.
+        Women carrying home shopping didn't give me a second glance.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

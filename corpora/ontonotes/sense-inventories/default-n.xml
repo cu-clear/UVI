@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="default-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="Loss due to not showing up." type="">
+        <commentary>
+        DEFAULT[+absence]
+        </commentary>
+        <examples>
+        He lost the game by default.
+        We forfeited all our matches by default. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>default.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The act of failing to meet a financial obligation." type="Event">
+        <commentary>
+        DEFAULT[+finance][+event]
+        </commentary>
+        <examples>
+        I am in default on the loan.
+        She will be in default on her payments if she doesn't find a job. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>default.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="3" name="Loss resulting from failure of a debt to be paid." type="">
+        <commentary>
+        DEFAULT[+finance]
+        </commentary>
+        <examples>
+        The default on the loan is hefty. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>default.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="4" name="An option that is selected unless an alternative is specified." type="">
+        <commentary>
+        DEFAULT[+choice]
+        </commentary>
+        <examples>
+        The default would be to deny the loan.
+        By default we do not allow weekend rentals.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>default.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

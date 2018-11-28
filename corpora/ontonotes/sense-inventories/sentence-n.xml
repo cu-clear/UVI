@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sentence-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="A string of words satisfying the grammatical rules of a language." type="">
+        <commentary>
+        SENTENCE[+linguistic]
+        </commentary>
+        <examples>
+        The child made several sentences that day.
+        Only certain strings qualify as sentences.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>sentence.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="(criminal law) the period of time a prisoner is (set to be) imprisoned." type="Event">
+        <commentary>
+        SENTENCE[+event][+criminal_law]
+        </commentary>
+        <examples>
+        The jury handed down a sentence within hours.
+        His sentence was 5 to 10 years.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>sentence.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

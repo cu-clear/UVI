@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="utter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="articulate; express in speech" type="">  
+      <commentary>
+        NOTE: This sense applies to someone producing words only.  If it is
+        unclear whether words are produced, use sense 2. If it is just that
+        the exact words are not identified in the text, use sense 1. 
+      </commentary>
+      <examples> 
+        Gonzales uttered the phrase: 'I don't recall' and its variant: 'I
+        have no recollection.' 
+        Who uttered the famous words, 'Ask not what your country can do for
+        you. Ask what can you do for your country'?
+        The criminal uttered a terrible threat.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>utter.01</pb>
+         <vn>say-37.7-1</vn><fn>Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="express audibly (as a sound)" type="">
+      <commentary>
+        NOTE: This sense refers only to noises, not words.
+        Incomprehensible words are included here as well.
+      </commentary>
+      <examples>
+        He uttered a sound much like a bull dog swallowing a pork chop
+        whose dimensions it has underestimated. 
+        The muse uttered some incomprehensible words of a language no one
+        spoke.
+        She uttered a sound of dismay.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>utter.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="put into circulation" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He was the person who uttered the check, so his knowledge of the forgery was inferred.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

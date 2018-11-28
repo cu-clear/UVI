@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="gurgle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move along a path while producing a
+   bubbling noise, as of liquids." type="">  
+      <commentary>
+      Syntax Is:
+      NP1[theme] GURGLE PP[directional] 
+      </commentary>
+      <examples> 
+      The stream gurgled from town to town.
+      Water gurgled from the bottle as he drank.
+      Fluid gurgles from my engine block whenever I start the car.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>sound_emission-43.2</vn><fn>Motion_noise,Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Produce sounds or utterances reminiscent of
+         a bubbling noise of liquids." type="">
+      <commentary>
+      Note: In Sense 2, the noise is not a result of motion along a path. 
+      </commentary>
+      <examples>
+      The baby gurgled with satisfaction when the mother tickled it.
+      The stabbing victim gurgled for help.
+      Stop gurgling and answer the question!
+      The machine finally gurgled on.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>sound_emission-43.2,manner_speaking-37.3</vn><fn>Make_noise,Motion_noise,Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

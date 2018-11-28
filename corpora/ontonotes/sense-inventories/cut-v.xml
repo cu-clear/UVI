@@ -1,0 +1,298 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cut-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make an incision or separation" type="">
+      <commentary>
+        Note: differs from sense #2 because in this sense you are not reducing or diminishing
+              You are separating or inserting or removing. 
+       Syntax Is:
+        NP1 CUT NP2[patient[concrete]]
+       Includes: CUT AWAY, CUT BACK, CUT DOWN, CUT IN, CUT INTO, CUT OFF,
+              CUT UP, CUT TO RIBBONS
+       Note that the CUT OFF instances that fit in this sense MUST be
+              prepositional. The object MUST come before the word "off." E.g.: "He cut the branch off the tree," NOT
+              "They cut off their son" (This is sense 6).
+      </commentary>
+      <examples>
+        He cut the rope in half.
+        The surgeon cut cleanly with the scalpel.
+        The new knives cut beautifully.
+        They cut the grain during the fine fall weather.
+        He cut his finger on the broken glass.
+        Cut the deck.
+        Cut away the branch.
+        They cut down the trees behind their house.
+        The shovel cut right into the rich soil.
+        Van Gogh cut off his own ear.
+        Father cut up the ham.
+        She cut her nails short.
+        I really need to get my hair cut.
+        The gardener cut back the bushes.
+        He cut the dead branches from the tree.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,24,25,26,28,29,30,32,41</wn>
+         <wn lemma="cut_away" version="3.0">2</wn>
+         <wn lemma="cut_back" version="3.0">3</wn>
+         <wn lemma="cut_down" version="3.0">2,4,5,6</wn>
+         <wn lemma="cut_in" version="3.0">1,5</wn>
+         <wn lemma="cut_into" version="3.0">1</wn>
+         <wn lemma="cut_off" version="3.0">3,5,6</wn>
+         <wn lemma="cut_up" version="3.0">1,2,3,4</wn>
+         <wn lemma="cut_to_ribbons" version="3.0">1</wn>
+         <omega/><pb>cut.01,cut.04,cut.08</pb>
+         <vn>braid-41.2.2,cut-21.1-1,hurt-40.8.3-2,split-23.2</vn><fn>Cause_harm,Cutting,Experience_bodily_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reduce, dilute, possibly to the point of elimination" type="">
+      <commentary>
+       Syntax Is:
+        NP1 CUT NP2
+        NOTE: careful!  The phrase &quot;cut short&quot; is in sense 5,
+              referring to &quot;cease, stop, put an end to&quot;
+        Includes: CUT DOWN, CUT BACK
+      </commentary>
+      <examples>
+        You need to cut calories if you want to lose weight.
+        The company wants to cut back on health benefits.
+        The editor recommended cutting several chapters from the manuscript.
+        Cut the whiskey with water.
+        The coach cut two players from the team.
+        You need to cut back on your drinking.
+        They cut down on expenses.
+        Cut out the extra text.
+        The cream cuts the sweet richness of the pie a touch.
+        Use the soap. It will cut the grease.
+        The government cut the budget.
+        Please cut out the extra text.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,33,34,37,38</wn>
+         <wn lemma="cut_back" version="3.0">2,4</wn>
+         <wn lemma="cut_down" version="3.0">1</wn>
+         <wn lemma="cut_out" version="3.0">1</wn>
+         <omega/><pb>cut.02,cut.05,cut.06</pb>
+         <vn>caused_calibratable_cos-45.6.2</vn><fn>Cause_change_of_position_on_a_scale,Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make or form (as if) by incision or grinding" type="">
+      <commentary>
+       Syntax Is:
+        NP1 CUT NP2[patient]
+      NOTE: NP2 is the thing formed or made.
+      NOTE: The &quot;cutting&quot; is the act of creating/forming NP2; you
+        should be able to paraphrase with "create" or "form" instead of
+        "cut." Remember that cutting hair is sense 1 (even when "creating"
+        a new style).
+      </commentary>
+      <examples>
+        He learned to cut diamonds from a master.
+        She cut paper dolls all morning.
+        They cut the trenches in a matter of hours.
+        He cut the dress in the latest fashion.
+        Richards cut the film in 12 days, and we released it on time.
+        She cut all her major titles again.
+        It's my dream to cut a record.
+        Would you cut me a CD of that?
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7,10,18,19,20,21,22</wn>
+         <wn lemma="cut_out" version="3.0">2</wn>
+         <omega/><pb>cut.01,cut.03</pb>
+         <vn>build-26.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="turn abruptly or travel in a certain direction" type="">
+      <commentary>
+       Syntax Includes:
+        NP1 CUT ADVP
+        NP1 CUT PP
+        Includes: CUT ACROSS, CUT AWAY, CUT BACK, CUT IN, CUT INTO, CUT
+        OUT, CUT THROUGH, CUT TO
+      </commentary>
+      <examples>
+        The car cut to the left at the intersection.
+        We cut through the neighbor's yard to get home sooner.
+        They cut across the platform and behind the curtain.
+        Opinions on the bombing cut across party lines.
+        The boxer cut upward toward his chin.
+        It cuts abruptly from one scene to the next.
+        The cameraman cut away from the departing train to focus on the heroine.
+        The film cut back to an earlier event in the story.
+        Did you see him cut in front of me?
+        The boat cut through the water.
+        The river cuts through the valley.
+        He cut into traffic on the highway.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,14,15,16,17</wn>
+         <wn lemma="cut_across" version="3.0">1,2,3</wn>
+         <wn lemma="cut_away" version="3.0">1</wn>
+         <wn lemma="cut_back" version="3.0">1</wn>
+         <wn lemma="cut_in" version="3.0">2,3</wn>
+         <wn lemma="cut_out" version="3.0">3,5</wn>
+         <wn lemma="cut_through" version="3.0">1</wn>
+         <wn lemma="cut_to" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>escape-51.1,meander-47.7</vn><fn>Change_direction,Intentional_traversing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="stop, cease, turn off (function/action)" type="">
+      <commentary>
+       Note: Compare CUT OFF instances to sense 1. This sense includes verb
+       particle construction
+       uses where the object is an ongoing process: e.g.: "They cut off
+       humanitarian aid."  
+      </commentary>
+      <examples>
+        Would you cut all that racket!
+        You should always cut the engine when you refuel.
+        The director shouted to cut the scene.
+        He was cut off right near the end of his speech.
+        The motor cut out at the most inopportune time.
+        They cut out supply lines.
+      </examples>
+      <mappings>
+         <wn version="3.0">11,27,31,36</wn>
+         <wn lemma="cut_off" version="3.0">1,2</wn>
+         <wn lemma="cut_out" version="3.0">6</wn>
+         <wn lemma="cut_short" version="3.0">1</wn>
+         <omega/><pb>cut.03,cut.06</pb>
+         <vn>stop-55.4</vn><fn>Change_operational_state</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="sever contact with; isolate" type="">
+      <commentary>
+        Includes: CUT OFF
+        Note: Compare to senses 1 and 5. In this sense, CUT OFF involves
+        verb particle constructions only, where the object is not a
+        process, but is an (abstract or concrete) entity.
+      </commentary>
+      <examples>
+        They cut their son off without a penny.
+        The town was cut off from civilization during the snowstorm.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>remove-10.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="grow through the gums" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The baby is cutting a new tooth.
+        The new tooth is cutting.
+      </examples>
+      <mappings>
+         <wn version="3.0">39,40</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="do, manage successfully" type="">
+      <commentary>
+        Note: Usually in the negative.
+      </commentary>
+      <examples>
+        The new player just cannot cut it.
+        He could not cut the long hours and decided to quit.
+        So you think you can cut it?
+        You will have your work cut out for you.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cut.03,cut.09</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="have a certain appearance" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He cuts a nice figure.
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="frolic" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        When he heard the good news, he cut a caper, grabbed her hands and spun her around.
+        Do you ever cut loose and have a good time?
+      </examples>
+      <mappings>
+         <wn version="3.0">23</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cut.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="hurt someone's feelings" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        What you said really cut me to the core.
+        His criticism cut me deeply.
+      </examples>
+      <mappings>
+         <wn version="3.0">NM</wn>
+         <omega/><pb>cut.01</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/> 
+   </sense>
+   <sense group="1" n="12" name="cause change of direction of an object"
+         type="">
+     <commentary>
+     </commentary>
+     <examples>
+       He cut the car to some open space and the three of them fled the
+       scene.
+       The way he cuts the ping-pong ball puts a nasty spin on it. 
+     </examples>
+     <mappings>
+       <wn version="3.0">8</wn>
+       <wn lemma="" version="3.0"/>
+       <omega/><pb>NM</pb>
+       <vn>NM</vn><fn>Change_direction</fn>
+     </mappings><SENSE_META clarity=""/> 
+   </sense>
+   <sense group="1" n="13" name="MWEs and vpcs" type="">
+      <commentary>
+        Includes: CUT CLASS, CUT CORNERS, CUT (A) CHECK, CUT DEAD, CUT IN,
+        CUT INTO, CUT OFF, CUT SHORT
+      </commentary>
+      <examples>
+        She was cut down in her prime.
+        You can tell he cut corners because the quality is lower than
+        usual.
+        She cut him dead at the meeting.
+        We had to cut our conversation short.
+        She cut a check for the full amount.
+        He cut class and met his girlfriend.
+        This cuts into my earnings.
+        She was cut off at the turn.
+        If you want to dance with her, why not just cut in?
+      </examples>
+      <mappings>
+        <wn version="3.0">9,11,31,35</wn>
+        <wn lemma="cut_corners" version="3.0">1</wn>
+        <wn lemma="cut_down" version="3.0">3</wn>
+        <wn lemma="cut_in" version="3.0">4</wn>
+        <wn lemma="cut_off" version="3.0">4</wn>
+        <wn lemma="cut_short" version="3.0">1</wn>    
+        <omega/><pb>cut.03</pb>
+        <vn>NM</vn><fn>Change_event_duration</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="brownsw,duffielc,vieweg" sample_score="-"/>
+</inventory>

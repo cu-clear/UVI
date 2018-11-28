@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="staff-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide with staff" type="">  
+      <commentary>
+        NP1[+agent/+organization] STAFF NP2
+      </commentary>
+      <examples>
+        The states have not yet fully staffed the project.
+        He staffed the committee with civil rights advocates.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>staff.01</pb>
+         <vn>fill-9.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="serve on the staff of" type="">
+      <commentary>
+        NP1[+agent] STAFF NP2
+      </commentary>
+      <examples>
+        They staff the reception desk 24 hours a day each day of the year.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>fill-9.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

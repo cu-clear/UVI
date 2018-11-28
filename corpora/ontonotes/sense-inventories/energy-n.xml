@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="energy-n">
+    <commentary>
+        27Oct08 added features, examples, rephrased definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the capacity or manifestation of performing work" type="Science">
+        <commentary>
+            ENERGY[+force][+capacity][+to_perform][+work]
+            (physics) the capacity of a physical system to do work; 
+            example units of energy are joules or ergs
+        </commentary>
+        <examples>
+            The famous equation E=Mc2 asserts an equivalence between an amount of energy and amount of mass.
+            The rock's potential energy was converted to kinetic energy when it fell off the cliff.
+            His company is developing alternative energies for heating and transportation.
+            The investor recommended stocks in the energy and pharmaceutical sectors.
+            What is the cost of these various energies per hour of usage?
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the quality of acting with vigor and vitality" type="">
+        <commentary>
+            ENERGY[+quality][+behavioral][+vitality]
+            vigor, vigour, vim, vitality - 
+            a healthy capacity for vigorous activity
+        </commentary>
+        <examples>
+            Jogging works off my excess energy.
+            His writing conveys great energy.
+            John seems to have no energy these days.
+            Her staff put enormous energy into the project.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 3 4 5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Dept of Energy" type="">
+        <commentary>
+            ENERGY[+organization][+department][+government][+of_fuel]
+            Department of Energy, Energy Department, Energy, DOE - 
+            the federal department responsible for maintaining a national 
+            energy policy of the United States
+        </commentary>
+        <examples>
+            Energy issued a statement urging people in California to decrease electricity consumption during peak hours.
+            The Department of Energy was created in 1977.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

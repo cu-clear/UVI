@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="correspond-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="match, equate, represent" type="">  
+      <commentary>
+      Syntax Is:
+       NP1 CORRESPOND PP NP2
+      </commentary>
+      <examples>
+        This solar hibernation corresponded with a period of bitter cold.
+        Molecular weight of this band corresponded to about 33 kDa.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>correspond.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exchange messages" type="">
+      <commentary>
+      Is: CORRESPOND WITH 
+       Syntax Is:
+        NP1[actor] CORRESPOND WITH NP2[actor]
+      </commentary>
+      <examples>
+        Kalamazoo pastor corresponded with notorious killer John List for
+        18 years.
+        Mr. Hutchins may have corresponded with female Jr. High students
+        through Myspace.com.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>correspond.01</pb>
+         <vn>battle-36.4-1,correspond-36.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

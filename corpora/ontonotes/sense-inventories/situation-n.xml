@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="situation-n">
+    <commentary>
+        Groups, definitions, commentary and examples revised by ahouston.
+    </commentary>
+    <sense group="1" n="1" name="the state of affairs in a given context" type="Abstract">
+        <commentary>
+            SITUATION[+state][+status][+context]
+            Note: can be negative or positive
+            Note: the context is often explicit, as a preceding adjective, 'romantic situation', as a following COMP, 'situation trying to help Mary move', or as a deictic to broader discourse context 'this situation'. 
+        </commentary>
+        <examples>
+            The political situation in the Middle East has taken many twists and turns of late.
+            When you're in a social situation, be sure to stand up straight.
+            Their company was in a tough financial situation.
+            We cannot escape our human situation.
+            John was depressed for years about his romantic situation.
+            The military is trying to back out of this situation.
+            I got myself into quite a situation trying to help Mary move.
+            The network decided to pull two situation comedies last season.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="employment, job" type="Abstract">
+        <commentary>
+            SITUATION[+status][+employment]
+            Note: this is a specialized sub-sense of Sense 1
+        </commentary>
+        <examples>
+            Being director of the labs will be a very visible situation for her.
+            Bill hated his situation as foreman at the old paper mill.
+            Just what is his situation at that company?
+            John's new situation at his firm entailed a big raise in his salary.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="physical location or site" type="Concrete">
+        <commentary>
+            SITUATION[+location][+spatial]
+            Where/how something is physically situated.  
+        </commentary>
+        <examples>
+            If we change the situation of the sofa, the room will look more spacious.
+            There's always a right angle at the situation of two perpendicular lines.
+            The situation, or site, of the receptor is determined by a sequence of nucleotides.
+            The situation of the moon and sun at the center top of the painting is quite symbolic.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

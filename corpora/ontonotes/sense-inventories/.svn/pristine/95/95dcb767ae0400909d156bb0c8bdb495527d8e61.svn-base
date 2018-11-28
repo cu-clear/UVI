@@ -1,0 +1,132 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="school-n">
+    <commentary>
+        In many cases with this word, expect more than one sense to apply
+        e.g.
+        1+2: &quot;I'm going to school, be back later.&quot;
+        2+3: &quot;Our school raised $2 million for a new gymnasium.&quot;
+        14Feb08 update to wn2.1, added features. ahouston
+        14Feb08 added a sense. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a building which houses educational activities" type="">
+        <commentary>
+            SCHOOL[+entity][+physical][+structure][+building][+instructional]
+            Refers to the physical building(s) where instruction takes place
+        </commentary>
+        <examples>
+            The school door couldn't open due to three feet of snow.
+            The new industrial design school is located at the corner of Walnut and Main.
+            The school caught fire last night and burned to the ground.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a social institution whose function is education" type="">
+        <commentary>
+            SCHOOL[+entity][+social][+institution][+educational]
+        </commentary>
+        <examples>
+            The candidate claimed the schools were not doing their job of teaching children to read.
+            The children in these undeveloped parts of the world have never gone to school.
+            The auditions for that ballet school are very difficult.
+            Some of the students will go to trade schools rather than to universities.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the students and faculty themselves" type="">
+        <commentary>
+            SCHOOL[+entity][+person][+participant][+educational]
+            Refers to the people, the students, teachers, administrators in the institution
+        </commentary>
+        <examples>
+            The whole school was in the auditorium when the fire alarm went off.
+            The school keeps the parents informed of events and activities. 
+            The school is very supportive of their football team.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="an individual's process of being formally educated" type="">
+        <commentary>
+            SCHOOL[+activity][+intellectual][+individual][+learning][+formal]
+            Refers to an individual obtaining a formal education
+        </commentary>
+        <examples>
+            I have three years of school left.
+            what will you do when you finish school?
+            His father didn't even finish high school. (a level of education)
+            John said he learned nothing useful in school, only in the real world.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a distinct artistic or intellectual style, movement" type="">
+        <commentary>
+            SCHOOL[+activity][+intellectual][+group][+movement][+creative][+distinctive]
+            Note: implies many people participating
+        </commentary>
+        <examples>
+            This artist is among the most influential of the Venetian school of painting.
+            He is definitely old school when it comes to management style. (metaphoric extension)
+            Mary had been reading works from the logical positivist school of analytic philosophy.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a formation of same-species fish moving together" type="">
+        <commentary>
+            SCHOOL[+entity][+group][+formation][+fish][+same_species]
+        </commentary>
+        <examples>
+            There were schools of beautiful small fish swimming along the coral reef.
+            The school of minnows darted suddenly to the left.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a period of the day for instruction" type="">
+        <commentary>
+            SCHOOL[+quantity][+time][+hours][+period][+instructional]
+            Refers to the hours of instruction during a typical day
+        </commentary>
+        <examples>
+            School starts at 7 am. 
+            The children went for ice cream sodas after school yesterday.
+            Mary missed four days of school last week because of illness.
+            School lets out this year on June 7th. (last day of instructional period)
+            There is no school next Monday due to the holiday.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

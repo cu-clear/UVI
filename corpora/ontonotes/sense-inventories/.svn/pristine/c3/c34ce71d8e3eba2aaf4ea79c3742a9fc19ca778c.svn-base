@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="push-vpc-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="attempt to move something in a particular direction through force" type="">
+      <commentary>
+        Includes: PUSH AWAY, PUSH BACK, PUSH DOWN, PUSH UP
+      </commentary>
+      <examples>
+        She pushed him away and said, "Leave me alone."
+        They pushed back the opposing forces.
+        I pushed him down as the bullets sailed over our heads.
+        They pushed up on the hatch until it popped open.
+      </examples>
+      <mappings>
+         <gr_sense>1</gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="push_away" version="3.0">1</wn>
+         <wn lemma="push_back" version="3.0">1</wn>
+         <wn lemma="push_down" version="3.0">1</wn>
+         <wn lemma="push_up" version="3.0">1,2</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="erupt, obtrude" type="">
+      <commentary>
+        Includes: PUSH OUT, PUSH THROUGH
+      </commentary>
+      <examples>
+        His hair pushed out from under his hat.
+        The tooth finally pushed through the gums.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="push_out" version="3.0">1</wn>
+         <wn lemma="push_through" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move oneself forward" type="">
+      <commentary>
+        Includes: PUSH FORWARD, PUSH ON
+      </commentary>
+      <examples>
+        She pushed forward until she was at the front of the crowd.
+        "Goodbye," said Pooh and Piglet for the last time, and they pushed on to Owl's house.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="push_forward" version="3.0">1</wn>
+         <wn lemma="push_on" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="PUSH AROUND--bully, boss around" type="">
+      <commentary>
+      Is: PUSH AROUND
+      </commentary>
+      <examples>
+        Her brother was always pushing her around.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="push_around" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="PUSH ASIDE--dismiss, bar from attention" type="">
+      <commentary>
+      Is: PUSH ASIDE
+      </commentary>
+      <examples>
+        Physics is too important to be pushed aside.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="push_aside" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

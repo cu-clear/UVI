@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="plan-n">
+    <commentary>
+        examples and definitions revised, comments added. ahouston
+        21aug07 - modified features, added to commentary ahouston
+        23Apr08 - revised features and commentary, Sense 2., added sense 4 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an objective or goal" type="">
+        <commentary>
+            PLAN[+state][+mental][+intention][+goal]
+            Note: refers to an intention or goal, without implying a specific strategy or policy to achieve it.
+            Note: refers to intentions of an agent/actor 'X's plans'  'John's plan'
+            Note: 'X has plans'  means the same as 'X's plans' where X is agent/actor
+        </commentary>
+        <examples>
+            Bill's father has plans to retire in another year.  (he intends to do so)
+            We have no plans for the weekend.
+            Her plan to become a vegetarian dissolved at the sight of the juicy steak.
+            The playboy's plans did not include marrying any of the women he was dating.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>plan.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a strategy, proposed sequence of steps to attain a goal" type="">
+        <commentary>
+            PLAN[+procedure][+strategy][+proposal][+for_attainment][+of_goal]
+            Note: refers to a set of specified steps and actions to accomplish a goal, not just the intention 
+        </commentary>
+        <examples>
+            They have come up with a peace plan that looks promising.
+            The candidate hired Phil to work out the master plan for his presidential campaign.
+            The sales team has drawn up a battle plan for going after those new accounts. (figurative)
+            Her mother's micro-managing of the wedding plans was driving everyone crazy.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>plan.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a schematic, e.g., blueprint" type="Architectural">
+        <commentary>
+            PLAN[+entity][+concrete][+artifact][+drawing][+schematic]
+            a schematic, a diagram
+        </commentary>
+        <examples>
+            The plans for City Hall were on file.
+            Have you seen the floor plan of our new house?
+            This plan appears not to be drawn to scale.
+            Several architectural plans are currently being reviewed for the proposed new library.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a contract, often involving regular monetary contributions to some end" type="">
+        <commentary>
+            PLAN[+artifact][+contract][+legal][+payment][+for_benefit]
+        </commentary>
+        <examples>
+            Our company has a 401k plan but no pension plan.
+            The bank is restructuring their payment plan in order to avoid foreclosure.
+            They paid for the American plan at that resort because it includes a big breakfast.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

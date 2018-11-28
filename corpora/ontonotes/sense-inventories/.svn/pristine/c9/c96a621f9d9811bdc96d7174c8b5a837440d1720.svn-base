@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rage-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be or behave violently" type="">  
+      <commentary>
+        Syntax Is: NP1 RAGE
+      </commentary>
+      <examples>
+        Huge forest fires raged through Northern Ontario and Western
+        Canada.
+        She raged at medical officials about what she claimed are needless vaccinations.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>rage.01,rage.02</pb>
+         <vn>entity_specific_modes_being-47.2,manner_speaking-37.3,marvel-31.3-1,marvel-31.3-2,marvel-31.3-8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="feel intense anger" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He raged against modernist tendencies.
+        He raged with fury against the fates that had destroyed his adored.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>marvel-31.3-1,marvel-31.3-2,marvel-31.3-8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

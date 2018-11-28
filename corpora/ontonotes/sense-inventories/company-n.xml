@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="company-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="institution or enterprise" type="">
+        <commentary>
+            COMPANY[+abstract][+commerce]
+            implies a legal entity
+        </commentary>
+        <examples>
+            These companies are all startups.
+            He worked for that company for twenty years.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="group of people defined by a specific profession" type="">
+        <commentary>
+            COMPANY[+vocation]
+            +POSS/+DEF ARTICLE/+INDEF ARTICLE COMPANY{+plurality}
+            implies a group of people
+        </commentary>
+        <examples>
+            Mary just joined a new dance company.
+            His company was ambushed in the jungle.
+            They encountered a company of bandits in the mountains.
+            This company of firefighters serves the east side of town.
+            The ship's entire company was lost at sea.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,2,7,9,8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="friendship or fellowship" type="">
+        <commentary>
+            COMPANY[+social]
+            (+POSS/+DEF ARTICLE) COMPANY
+            implies either an individual or a group of people.
+        </commentary>
+        <examples>
+            She misses her brother's company.
+            He found solace in the company of strangers.
+            Company is coming for dinner.
+            We are allowed to have company until ten PM.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,6,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

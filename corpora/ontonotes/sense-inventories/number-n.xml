@@ -1,0 +1,259 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="number-n">
+    <commentary>
+        15nov06 update to wn2.1, added examples and features. ahouston
+        17nov06 split sense 1 (added wn2 to sense 2). ahouston
+        17nov06 merged sense 6 with sense 3, split wn7 out of sense 3 into sense 10. ahouston
+        17nov06 - added idiomatic senses 12,1,3,14. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="The count of entities, an enumeration of items" type="">
+        <commentary>
+            NUMBER[+quantity][+count]
+        </commentary>
+        <examples>
+            He had a number of chores to do.
+            The number of parameters is small.
+            There was a large number of students in attendance at the football game. 
+            We had a huge rise in the number of phone calls since the advertisement was aired.
+            There are a number of misconceptions about AI.
+            There are any number of ways to prove this theorem.
+            The skies were filled with migrating birds without number. (not countable)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a mathematical entity" type="">
+        <commentary>
+            NUMBER[+entity][+member][+set][+mathematical]
+        </commentary>
+        <examples>
+            Suzy wrote the number 7 on top of all of her papers for luck.
+            George learned to write his numbers in the first grade.
+            'i' belongs to the set of imaginary numbers.
+            The Romans used different notation to represent their numbers.
+            I'm thinking of an even number between 1 and 100.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="alphanumeric sequence used for identification" type="">
+        <commentary>
+            NUMBER[+entity][+symbolic][+alphanumeric][+sequence][+identification][+phone/+social_security/+credit_card]
+            A numeral or string of numerals that is used for identification
+        </commentary>
+        <examples>
+            She refused to give them her Social Security number.
+            I can never remember my student ID number.
+            John is good at remembering friends' phone numbers.
+            Suzy never givers her credit card number over the telephone.
+            Please enter your Personal Identification Number when prompted.
+            Each prisoner in the camp had a number tattooed on the arm.
+            Flight number 744 to Miami has been delayed.
+            That number on the bottle is the expiration date, I believe.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Item of merchandise" type="">
+        <commentary>
+            NUMBER[+entity][+artifact][+merchandise]
+            Note: informal usage
+        </commentary>
+        <examples>
+            I need a dress and I like that little red number in the window.
+            Look at that girl, what a hot little number. (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="Performance, routine" type="Theatrical">
+        <commentary>
+            NUMBER[+activity][+performance][+theatrical][+routine]
+            A piece of music or a dance routine
+        </commentary>
+        <examples>
+            She played a catchy little number on the piano for us.
+            They used an old number from Vaudeville for the opening act.
+            She really did a number on him. (metaphoric, slangy extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="Placeholder: Do Not Choose" type="Telephone">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="Grammatical Plurality" type="Grammar">
+        <commentary>
+            NUMBER[+relation][+role][+marker][+grammatical][+plural/+singular]
+            The grammatical category for the forms of words that are used
+            depending on the number of entities involved.
+        </commentary>
+        <examples>
+            In English the subject and the verb must agree in number.
+            Those languages don't mark number morphologically, plurality is determined from other words.
+            John had trouble assigning the correct case, gender and number to German pronouns.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="A measurement" type="Clothing">
+        <commentary>
+            NUMBER[+system][+classification][+measurement]
+            A clothing measurement
+        </commentary>
+        <examples>
+            Look for a number 9 shoe in black for me, please.
+            The numbers on these dresses are for Women's sizes, not Misses.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="a group or collection" type="Phrasal">
+        <commentary>
+            NUMBER[+entity][+group][+people]
+        </commentary>
+        <examples>
+            There were some distinguished names among our number at the dinner last night.
+            Some of their number were jumping overboard and trying to swim to shore.
+            There is safety in numbers. (groups of people)
+            The weight of numbers turned the battle against them. (many soldiers)
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="a specific issue of a periodical" type="">
+        <commentary>
+            NUMBER[+entity][+document][+periodical][+issue][+sequenced]
+        </commentary>
+        <examples>
+            Mary has misplaced her October number of Travel magazine.
+            Two numbers are missing from this otherwise complete collection of 1922 fashion magazines.
+        </examples>
+        <mappings>
+            <wn version="">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="11" name="lottery games, gambling" type="">
+        <commentary>
+            NUMBER[+activity][+game][+lottery]
+            Note: occurs in the plural
+        </commentary>
+        <examples>
+            His brother lost a lot of money on the numbers.
+            The police broke up a numbers racket in Newark.
+        </examples>
+        <mappings>
+            <wn version="MW online">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="12" name="follow standard operating procedure" type="">
+        <commentary>
+            Idiom: by_the_numbers
+        </commentary>
+        <examples>
+            They were told to execute the operation by the numbers.
+            He's the risk-adverse type who manages by the numbers.
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom_1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="13" name="understand the motives, purposes" type="">
+        <commentary>
+            Idiom: have_one's_number
+        </commentary>
+        <examples>
+            They've got your number so you'd best give up the whole effort.
+            John warned Bob that he had his number.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom_2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="14" name="the time or reckoning" type="">
+        <commentary>
+            Idiom: someone's_number_is_up
+        </commentary>
+        <examples>
+            I guess he just figured his number was up, and he quit trying to fight the illness.
+            Our number's not up yet, we still have a shot at the championship.
+        </examples>
+        <mappings>
+            <wn version="">Idiom_3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

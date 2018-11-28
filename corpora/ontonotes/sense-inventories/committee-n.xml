@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="committee-n">
+    <commentary>
+        14Feb08 added sense 2, added features update to wn2.1 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="special group" type="">
+        <commentary>
+            COMMITTEE[+entity][+person][+group][+organization][+with_special_function]
+            commission - 
+            a special group organized to consider some matter
+        </commentary>
+        <examples>
+            &quot;A committee is a group that keeps minutes and loses hours.&quot; - Milton Berle
+            The committee will meet on Tuesday at five.
+            They formed a committee to clean up the school after the flood.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a dysfunctional person legally committed to the care of another" type="">
+        <commentary>
+            COMMITTEE[+entity][+person][+individual][+dysfunctional][+supervised][+by_caregiver][+legally_appointed]
+        </commentary>
+        <examples>
+            Because of the man's insanity, the judge decreed he would become the committee of his uncle.
+            These retarded orphans will be committees of the state for the rest of their lives.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

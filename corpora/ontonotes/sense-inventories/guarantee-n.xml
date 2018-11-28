@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="guarantee-n">
+    <commentary>
+        14Apr08 - added sense 4  ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a product warranty, documented assurance of quality" type="Event">
+        <commentary>
+            GUARANTEE[+entity][+artifact][+document][+legal][+warranty][+product]
+        </commentary>
+        <examples>
+            We offer a ten-year guarantee against rusting.
+            They are only offering a one-year guarantee on the disk drive without insurance.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>guarantee.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of absolute certainty" type="Event">
+        <commentary>
+            GUARANTEE[+state][+certainty][+absolute]
+        </commentary>
+        <examples>
+            In life, there are no guarantees.
+            There is no guarantee that they are not deceiving us.
+            The weatherman said there was a guarantee of no rain for tomorrow.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>guarantee.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a documented promise of giving collateral for failure to meet a debt" type="">
+        <commentary>
+            GUARANTEE[+entity][+artifact][+document][+legal][+obligation][+compensation][+debt]	
+        </commentary>
+        <examples>
+            John signed a guarantee that will transfer ownership of his home for failure to meet the payments on his business loan.
+            There were several bonds and two signed guarantees in the safe deposit box.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>guarantee.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of promising something" type="Event">
+        <commentary>
+            GUARANTEE[+event][+speech_act][+promise]	
+        </commentary>
+        <examples>
+            He could not give us a guarantee that he would be on time for the meeting.
+            The diamond merchant's word of guarantee was good enough for the jeweler.
+            Mary's daughter made a guarantee that she'd clean her room before going to the beach.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>guarantee.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

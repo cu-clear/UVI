@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="news-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="information, usually new" type="Abstraction">
+        <commentary>
+            A piece or pieces of information, usually timely and specific.  Often something reported in newspapers or newscasts.
+        </commentary>
+        <examples>
+            They awaited news of the outcome.
+            No news is good news, I guess.
+            We received news that the enemy is planning a surprise attack!
+            News of my death was greatly exaggerated.
+            Have you heard the news?
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 4
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="information someone has never heard" type="Discourse">
+        <commentary>
+            Used in specific expressions.  Something can come as news to a person, meaning that they've never heard it before.
+            The phrasal &quot;news to&quot; is probably the only way this sense appears.
+        </commentary>
+        <examples>
+            This is news to me.
+            Is this coming as news to you?
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="media devoted to news" type="Entity">
+        <commentary>
+            Programs, papers, etc. that communicate timely information.  Usually used with &quot;the&quot;
+        </commentary>
+        <examples>
+            There was a story on the news about a car accident down the road.
+            I read the news today, oh boy.
+            My mother's name appeared in the news.
+            We watch the news at seven o'clock every night.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="having notability" type="">
+        <commentary>
+	    NEWS[+event]
+	    Describes something or somebody that is news-worthy or interesting.
+	    </commentary>
+        <examples>
+            He is no longer news in the fashion world.
+            &quot;Dog bites man&quot; is nothing, but &quot;man bites dog&quot; is news!
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

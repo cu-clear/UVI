@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="connect or fasten into a chain by linking" type="">  
+      <commentary>
+        NP1 CHAIN NP2
+      </commentary>
+      <examples>
+        With a medium blue fabric, single chain the edges together.
+        The molecules are chained together into chains through the NH N
+        hydrogen bonds.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fasten or secure with chains" type="">
+      <commentary>
+        Includes: CHAIN UP
+        Syntax is: NP1[agent] CHAIN (up) NP2[patient]
+      </commentary>
+      <examples>
+        Hocque was chained up with the other galley prisoners.
+        They had bound and chained the victim to a wall in a basement.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="chain_up" version="3.0">1</wn>
+         <omega></omega><pb>chain.01</pb>
+         <vn>tape-22.4</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

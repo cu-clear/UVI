@@ -1,0 +1,112 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bite-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="grip, penetrate or tear off with or as if with the teeth or jaws" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[animate]] BITE (NP2[patient])
+        Includes metaphorical uses.
+      </commentary>
+      <examples>
+        The dog bit him!
+        Once bitten, twice shy.        
+        She bites her lip when she's anxious.
+        He bit out a piece and found that it was meat.
+        The mosquitos are really biting today.
+        Police had to shoot a crocodile at a zoo after it bit off a
+        veterinarian's arm.
+        On New Year's eve 2000, people were waiting for the Y2K bug to bite.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="bite_off" version="3.0">1</wn>
+         <omega/><pb>bite.01</pb>
+         <vn>hurt-40.8.3-2,swat-18.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="penetrate or cut with a sharp instrument" type="">
+      <commentary>
+      Syntax Is:  NP1[instrument] BITE (NP2)
+      </commentary>
+      <examples>
+        The first slice was very aggressive, and the knife bit in cleanly.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>swat-18.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause stinging pain to" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[inanimate]] BITE (NP2)
+      </commentary>
+      <examples>
+        The wind bit through my gloves and chilled my hands.
+        The mailbox, if you approach it without proper authorisation, will bite you!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="utter sharply and tersely" type="">
+      <commentary>
+        Is: BITE OUT
+      </commentary>
+      <examples>
+        She bit out a curse.
+        &quot;Next time,&quot; he bit out, &quot;send word!&quot;
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="bite_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="accept bait or an offer" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Are the fish biting today?
+        I asked him who he would like to see as his successor in 2010, but he didn't bite.
+        I tried to convince the trooper that it was a fish-for-free day, but he didn't bite.
+        Unfortunately, Mike didn't bite when we offered him the chair of the clean-up committee.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="BITE IDIOMS" type="">  
+      <commentary>
+         Includes: BITE THE DUST
+                   BITE THE BULLET
+                   BITE THE BIG APPLE 
+                   BITE ONE'S TONGUE
+      </commentary>
+      <examples>
+        I'm waiting for my grandfather to bite the dust so that I can have
+        my inheritance.
+        Our poor dog Posey bit the bullet last night in our garage.
+        Should Dick Clark happen to bite the big apple while broadcasting live you don't want to miss it. 
+        Bite your tongue and don't say anything nasty!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,greenlm" sample_score="-"/>
+</inventory>

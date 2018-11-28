@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="reside-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Live in a certain place; make one's home,
+   be a native to a place, be inherent." type="">  
+      <commentary>
+      Syntax Is: NP1 RESIDE PP{P NP[location]}
+      Note: Second NP may be in NP2 position if a deictic pronoun, like
+      'here' or 'there.'
+      </commentary>
+      <examples>
+      My parents reside in Florida.
+      She resides in Princeton.
+      He resides in the two rooms on the top floor.
+      They all reside here, with me.
+      California resides on the West Coast.
+      Trees reside in the field.
+      Wild horses have resided here since time immemorial.
+      The existence of dark energy shows that space does not reside in the
+      lowest of these phases.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>reside.01</pb>
+         <vn>exist-47.1,lodge-46</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

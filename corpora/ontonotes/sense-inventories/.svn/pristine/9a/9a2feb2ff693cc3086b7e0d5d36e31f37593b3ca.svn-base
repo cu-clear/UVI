@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="vow-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="swear; make a solemn and sincere promise" type="">
+      <commentary>
+        Syntax is: NP VOW COMP
+      </commentary>
+      <examples>
+        They vowed they'd go after him.
+        Candidates each vowed to strictly enforce drunken-driving laws.
+        Amanda has vowed to never be a victim again.
+        He vowed to never tell a lie, to never deceive.
+        The vassal vowed to his lord that he would love what the landlord loved.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>vow.01</pb>
+         <vn>NP</vn><fn>Commitment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="dedicate to a diety" type="">
+      <commentary>
+        Syntax is: NP1 VOW NP2
+        Note: often seen in passives and reduced relative clauses
+      </commentary>
+      <examples>
+        A thing or person thus vowed to the deity became holy and sanctified to God.
+        The offering vowed to the Lord is an animal that may be sacrificed.
+        His mother vowed him to the said saint.
+        I was an old soldier for the Confederation, who was baptized and vowed to the Deity.
+        He became aware that his parents had vowed him to the service of Blessed Mary and mended his ways.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

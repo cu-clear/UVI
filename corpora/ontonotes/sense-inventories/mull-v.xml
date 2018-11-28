@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mull-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="think over, consider" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He mulled over the possibilities.
+        Sybase CEO says he mulled buying Openwave.
+        She mulled retirement, but decided to stay on a few more years.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="mull_over" version="3.0">1</wn>
+         <omega></omega><pb>mull.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="simmer with spices" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Never mull the wine in an aluminium pot.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>mull.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

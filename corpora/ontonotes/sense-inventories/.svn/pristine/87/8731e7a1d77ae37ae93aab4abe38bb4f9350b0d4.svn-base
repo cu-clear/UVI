@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="undertake-v">    
+   <commentary>
+	Note: No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="set about doing, initiate something, attempt something" type="">  
+      <commentary>
+	Syntax is: NP[agent] UNDERTAKE[durative]  NP[goal]
+	Note: the undertaking is not a single speech act of consent, but an ongoing complex activity.
+      </commentary>
+      <examples> 
+	John is undertaking a sailing trip around the world, single-handed.
+	Sally undertakes a lot of projects but never seems to finish any of them.
+	The Allies undertook a daring and momentous operation on D-Day.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>undertake.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="accept responsibility, consent or promise to do something" type="">  
+      <commentary>
+	Syntax is: NP[agent] UNDERTAKE[punctual] to VP
+	Note: the consent occurs punctually, the state of obligation thereafter may endure.
+      </commentary>
+      <examples>
+        In the 1960s the CSIR undertook to build a multi-purpose conference centre.
+        The IT manager undertook to produce a draft statement of the policy.
+        The British Library undertook to support libraries and other organisations.
+        The makers of our Constitution undertook to secure conditions favorable to the pursuit of happiness.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>undertake.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

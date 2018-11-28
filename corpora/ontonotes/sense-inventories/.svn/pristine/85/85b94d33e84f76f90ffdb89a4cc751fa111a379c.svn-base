@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="increment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a process of graduated growth or increase" type="">
+        <commentary>
+            INCREMENT[+activity][+growth][+graduated]
+            Note: refers to a trend, a directed change, without denoting a specific interval, amount
+        </commentary>
+        <examples>
+            Mary noticed the increment of weeds in the garden after the rain.
+            Drug dealers may be responsible for the recent increment in crime in the city.
+            The ban on new building here may cause an increment in the prices of the existing homes.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an interval of changed amount, either positive or negative" type="">
+        <commentary>
+            INCREMENT[+quantity][+interval][+specified][+positive/+negative]
+        </commentary>
+        <examples>
+            The loop in the computer program sets the value of i higher each time by an increment of 1.
+            Labor has proposed an increment of 10 percent to the current base pay scale.
+            The child counted to 100 in increments of five.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

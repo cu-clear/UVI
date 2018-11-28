@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="thanks-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a speech act of acknowledging gratitude for something" type="Event">
+        <commentary>
+            THANKS[+event][+communication][+speech_act][+acknowledgment][+of_gratitude]
+            Note: implies a verbal act of expressing gratitude.
+        </commentary>
+        <examples>
+            At every dinner, the family held hands and gave thanks for the food they were about to receive.
+            You should give thanks to Bob for securing us another week to prepare the demo.
+            I wrote them a letter of thanks for their financial contribution.
+            He never gave them a word of thanks for all they did for him.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>thanks.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an emotional state of feeling gratitude" type="Event">
+        <commentary>
+            THANKS[+state][+emotional][+gratitude]
+            Note: refers to a feeling which may be expressed in various ways, including non-verbal
+        </commentary>
+        <examples>
+            She sent us a box of cookies as an expression of her thanks for taking care of her cats.
+            The children showed their thanks by giving us big hugs.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>thanks.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="with the help of, owing to" type="">
+        <commentary>
+            THANKS[+cause][+assisting][+help]
+        </commentary>
+        <examples>
+            Thanks to the umbrella we managed not to get wet.
+            With no thanks to John they still managed to win the game.
+            Thanks to everyone's hard work, the conference was a success.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

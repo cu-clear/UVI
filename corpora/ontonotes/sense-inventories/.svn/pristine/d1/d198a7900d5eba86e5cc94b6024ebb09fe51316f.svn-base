@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stand-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) assume upright position or be in
+a location" type="">
+      <commentary>
+        Note: Includes concrete uses.
+        Syntax includes: NP1 STAND (ADV[orientation])
+                         NP1 STAND PP[location or quantifier]
+        Includes: STAND UP
+        Note: The VN mapping spatial_configuration is concrete, but there
+        are abstract examples in this sense and in sense 2. Those abstract examples have a different meaning.
+      </commentary>
+      <examples>
+        We had to stand for the entire performance.
+        When it stood upright, it was about twice the height of an elephant.
+        It stood on its hind legs, and belted out the British national anthem.
+        When we are standing, the spine naturally curves both inwards and outwards.
+        Can you stand the bookshelf up?
+        Stand the tamales up in a large steamer or colander with the pinched end up.
+        The dog's hair stood up on end as he growled at us.
+        I want to stand as close to the edge as I can without going over.
+        Stand the bookshelf in the corner.
+        The castle stands on a hill.
+        We stand on the shoulders of giants.
+        We stand at the intersection of computers and humanism.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,7,10</wn>
+         <wn lemma="stand_up" version="3.0">1,3,4,7</wn>
+         <wn lemma="stand_still" version="3.0">1</wn>
+         <omega></omega><pb>stand.01,stand.04,stand.07</pb>
+         <vn>put_spatial-9.2-1,spatial_configuration-47.6,assuming_position-50</vn><fn>Being_located,Placing,Posture,Change_posture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="maintain a value" type="">
+      <commentary>
+        Note that the abstract example also maps to spatial_configuration,
+        but means something different.
+      </commentary>
+      <examples>
+        She stands 6 feet.
+        Trade deficit with India stands at $10 million.
+        The score stands at 20 to 1.
+        Germany's unemployment rate stands at 5%.
+        Where do you stand on the issue?
+      </examples>
+      <mappings>
+         <wn version="3.0">3,9</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>stand.04,stand.07</pb>
+         <vn>register-54.1,spatial_configuration-47.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="have a particular attribute or feature; be in a particular state" type="">
+      <commentary>
+        NP1 STAND ADJ[state, feature, attribute]
+      </commentary>
+      <examples>
+        I stand corrected.
+        The house stood empty for years.
+        You stand accused of murder, how do you plead?
+        Whether you like it or not, the rule stands. 
+      </examples>
+      <mappings>
+         <wn version="3.0">2,8</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>stand.04</pb>
+         <vn>exist-47.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="endure, withstand or tolerate" type="">
+      <commentary>
+        Includes: STAND UP (PP)
+      </commentary>
+      <examples>
+        Supermarkets stand the test of time.
+        This love won't stand the test of time.
+        This novel will stand the test of time. 
+        If you can't stand the heat, get out of the kitchen.
+        Those shoes really stand up to a lot of wear and tear.
+        Our football team has stood up to adversity a lot this season.
+        He stood up to the racial taunts.
+        It's time he stood up for his friends.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,11</wn>
+         <wn lemma="stand_up" version="3.0">2,5,6</wn>
+         <omega></omega><pb>stand.03</pb>
+         <vn>admire-31.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="male domestic animals such as stallions serve selected females" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Muscles Yankee will retire from racing to stand stud at Perretti Farms in Cream Ridge.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="be in a position to do something" type="">
+      <commentary>
+       Note: This sense includes colloquial uses.
+      </commentary>
+      <examples>
+        I could stand to lose a few more pounds.
+        If rates rise, you stand to receive less than you paid.
+        Everyone could stand to conserve energy. 
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>stand.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="Verb particle constructions and multi-word expressions" type="vpc">
+      <commentary>
+        includes the following expressions:
+        STAND_BACK
+        STAND_BY
+        STAND_FAST
+        STAND_FIRM
+        STAND_FOR
+        STAND_GUARD
+        STAND_IN
+        STAND_OUT
+        STAND_PAT
+        STAND_SENTINEL
+        STAND_UP (NOTE: separate use from "stand up" in groups 1 and 3)
+        STAND_WATCH
+      </commentary>
+      <examples>
+        STAND BACK
+         Stand back, I am armed to the teeth!
+         You can't stand back and watch.
+        STAND BY
+         He just stood by while the police beat up the demonstrators.
+         She stood by her husband through thick and thin.
+         Stand by for further instructions.
+        STAND FAST
+         Iran's president stood fast Saturday behind his decision.
+        STAND FIRM
+         Prime Minister Tony Blair stood firm on his plan to introduce legislation.
+         Selbekk had initially stood firm in the face of death threats.
+        STAND FOR
+         What does the Statue of Liberty stand for?
+         Because of the sound changes in the course of history, an 'h' in Greek stands for an 's' in Latin.
+         I won't stand for this kind of behavior!
+        STAND GUARD
+         A Mexican Marine stood guard near the grounded container ship.
+        STAND IN
+         The young teacher had to stand in for the sick colleague.
+        STAND ONE'S GROUND
+         I'm standing my ground and won't give in!
+        STAND OUT
+         Jaramogi stood out as a lone voice for the poor.
+         It's about time we stood out!
+         Cheney stood out in a sea of black-coated world leaders because he was wearing an olive drab parka with a fur-trimmed hood.
+         In school Milko stood out in math and sciences.
+        STAND PAT
+         The US Federal Reserve is expected to stand pat on interest rates.
+        STAND SENTINEL
+         We must stand sentinel to protect ourselves.
+        STAND UP
+         He stood up for his beliefs.
+        STAND WATCH
+         I work four hours and stand watch again from eight to twelve at night.
+      </examples>
+      <mappings>
+         <wn version="">4</wn>
+         <wn lemma="stand_back" version="3.0">1,2</wn>
+         <wn lemma="stand_by" version="3.0">1,2,3</wn>
+         <wn lemma="stand_fast" version="3.0">1</wn>
+         <wn lemma="stand_firm" version="3.0">1,2</wn>
+         <wn lemma="stand_for" version="3.0">1,2,3,4</wn>
+         <wn lemma="stand_guard" version="3.0">1</wn>
+         <wn lemma="stand_in" version="3.0">1</wn>
+         <wn lemma="stand_out" version="3.0">1,2,3,4</wn>
+         <wn lemma="stand_pat" version="3.0">1</wn>
+         <wn lemma="stand_sentinel" version="3.0">1</wn>
+         <wn lemma="stand_up" version="3.0">5</wn>
+         <wn lemma="stand_watch" version="3.0">1</wn>
+         <omega></omega><pb>stand.05,stand.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,vieweg,hwangd,greenlm" sample_score="-"/>
+</inventory>

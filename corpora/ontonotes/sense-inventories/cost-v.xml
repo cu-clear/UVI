@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cost-v">    
+   <commentary>
+     Propbank cost.01 only accounts for the financial aspect of 
+     sense 1
+   </commentary>
+   <sense group="1" n="1" name="have a particular price or cause to pay a price" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        This shirt costs 80 dollars!
+        I want to buy a pack of gum that costs fifty-five cents.
+        It costs more to live in a city.
+        Atomic energy costs a lot.
+        That costs.
+        Participating in the strike cost me my job.
+        My dumb mistake cost her forty hours of extra work.
+        It didn't cost me a penny.
+        The red flag cost him millions of dollars.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>cost.01</pb>
+         <vn>cost-54.2</vn><fn>Expensiveness</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="COSTED - to estimate or determine cost of" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] COSTED NP2[patient]
+        NP1[patient] COSTED 
+      </commentary>
+      <examples>
+        Operations must be fully costed.
+        The accountants costed out our expenses.
+        These budgets have not costed the time of people who will attend.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

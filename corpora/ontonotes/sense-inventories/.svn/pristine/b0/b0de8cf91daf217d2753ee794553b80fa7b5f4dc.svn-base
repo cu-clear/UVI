@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wire-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide with electrical circuits" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        We wired the guest bedroom according to the newest regulations.
+        Paul wires appliances for a living.
+        Geno wired the system so that the thermostat regulated temperature efficiently.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wire.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="attach or fasten with/on a wire" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The worker wired the fence posts together.
+        Mr. Green wired beads to sell at the local craft fairs. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wire.01</pb>
+         <vn>tape-22.4</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="send money or a message as telegram (electronically)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She wired her son twenty dollars so that he could get home.
+        Marsha wired him to come home immediately.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wire.01</pb>
+         <vn>instr_communication-37.4,send-11.1-1</vn><fn>Communication_means,Sending</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

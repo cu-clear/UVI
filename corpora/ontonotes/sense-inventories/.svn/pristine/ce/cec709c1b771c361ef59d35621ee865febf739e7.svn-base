@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="interview-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="questioning for information" type="Event">
+        <commentary>
+	    INTERVIEW[+event]
+	    The formal process of asking someone questions, usually with a journalistic intent.  Can also apply to jobs.
+	    This will be the most common sense.
+	    </commentary>
+        <examples>
+            I conducted an exclusive interview with Michael Jackson for Time Magazine.
+            John's job interview took a turn for the worse when he mentioned his felony convictions.
+            The interview lasted for three hours.
+            The auditions and interviews took place in the high school gym.
+            You can listen to the interview with the President if you watch the news tonight.
+            The transcript of the interview is on page 97.
+            We asked the King for an interview, but he refused to grant it.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/><pb>interview.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="private conversation" type="Event">
+        <commentary>
+	    INTERVIEW[+event]
+	    A private conversation.  Not specifically concerned with asking questions and gaining information.
+	    </commentary>
+        <examples>
+            After a brief interview with my lawyer, I've decided to plead guilty to the charges.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/><pb>interview.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="written document" type="Entity">
+        <commentary>
+            Refers clearly to words on paper; usually the transcript of a &quot;question and answer&quot; interview.  A physical document.
+        </commentary>
+        <examples>
+            I handed a copy of the interview to my editor, and he agreed to publish it the next day.
+            The interview is on page 97.
+        </examples>
+        <mappings>
+            <wn version="2.0">-</wn>
+            <omega/><pb>interview.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

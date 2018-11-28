@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stampede-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause an animal to) run in panic or to run away." type="">  
+      <commentary>
+        Syntax is: NP1[theme[animate]] STAMPEDE (PP)(NP2)
+                   NP1[agent] STAMPEDE NP2
+      </commentary>
+      <examples>
+        With the elephant in the lead, they all stampeded away from the
+        frightening voice in the cave.
+        A big woolly animal stampeded about 100 cattle.
+        They stampeded the herd of horses.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) act hurriedly" type="">
+      <commentary>
+        syntax is: NP1[agent] STAMPEDE (NP2)
+        Note: NP1 will ALWAYS be a person or a collection of people.
+      </commentary>
+      <examples>
+        Having misled the American people and stampeded them to war, this
+        Administration must now attempt to sustain a policy predicated on
+        falsehoods.
+        Companies will now stampede to release their latest software.
+        Upon hearing of the sale, they stampeded to the store.     
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stampede.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm,corvey" sample_score="-"/>  
+</inventory>

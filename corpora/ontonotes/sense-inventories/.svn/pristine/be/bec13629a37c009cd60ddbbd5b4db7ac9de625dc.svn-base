@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="avoid-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="keep away, prevent from happening, or not do something" type="">
+      <commentary>
+     Syntax Is:  NP1[agent] AVOID NP2[patient]
+                 NP1[agent] AVOID NP2[theme]
+      Note:  Includes both:
+        1. Keeping away physically from something
+        2. Prevent from something undesireable from happening
+      </commentary>
+      <examples>
+        Do you think he's avoiding me?
+        I try to avoid supermarkets on Saturdays.
+        I tried to avoid chocolate, but it didn't go so well.
+        The plane narrowly avoided disaster when one of the engines cut out.
+        I left the pub to avoid a fight.
+        Unnecessary paperwork should be avoided.
+        I narrowly avoided colliding with it.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4</wn>
+         <omega/><pb>avoid.01</pb>
+         <vn>avoid-52</vn><fn>Avoiding,Preventing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="LAW- annul, make void, make invalid" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        How can these grants of the king be avoided?
+        The terms of the written contract could be avoided and nullified.
+        If the &quot;VOID&quot; box is marked that shall avoid the National Lotto Game Selection.
+        Zimmer also filed a bankruptcy lawsuit to avoid the lien and deed.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>void-106</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

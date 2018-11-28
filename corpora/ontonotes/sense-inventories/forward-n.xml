@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="forward-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="person who plays an offense role on a sports team" type="">
+        <commentary>
+            FORWARD[+person][+role][+offense][+in_game][+sports]
+        </commentary>
+        <examples>
+            John is the best forward on the basketball team.
+            The hockey forwards were all large, tall guys.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an offense position in a sports game" type="">
+        <commentary>
+            FORWARD[+location][+position][+offense][+in_game][+sports]
+        </commentary>
+        <examples>
+            He usually plays forward in soccer.
+            The coach pulled John from forward and assigned Bill to it.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an obligatory financial contract with settlement on a specified future date" type="">
+        <commentary>
+            FORWARD[+state][+contract][+financial][+obligation][+with_settlement][+on_future_date]
+        </commentary>
+        <examples>
+            The investor bought some forwards as a cover for his future contracts.
+            A forward is an obligatory contract that must be exercised, unlike an option.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

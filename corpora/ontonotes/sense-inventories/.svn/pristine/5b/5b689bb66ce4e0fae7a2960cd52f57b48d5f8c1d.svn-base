@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="document-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="pieces of paper with written information" type="">
+        <commentary>
+            DOCUMENT[+artifact][+paper][+with_writing]
+        </commentary>
+        <examples>
+            There were important scientific documents in that briefcase.
+            Our boater's log is a document of all the sailing trips we've taken.
+            The letters and documents of the deceased author are now the property of his wife.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="official validation, e.g., of identity or ownership" type="">
+        <commentary>
+            DOCUMENT[+artifact][+paper][+with_writing][+validation][+official]
+            Note: a narrow usage, a subset of Sense 1
+        </commentary>
+        <examples>
+            Bob keeps the documents for his car in the glove compartment.
+            We'll need to show our documents to the immigration official.
+            The documents for our pet are all up-to-date.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="computer text files" type="">
+        <commentary>
+            DOCUMENT[+artifact][+electronic][+digital][+text_file]
+        </commentary>
+        <examples>
+            The search engine has indexed billions of online documents.
+            Mary copied the document to a different directory on her laptop.
+            I accidentally deleted my latest version of the document.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

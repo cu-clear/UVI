@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="confine-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="restrict or limit the range of" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] CONFINE NP2[abstract] (to NP3[extent])
+      </commentary>
+      <examples>
+        Please confine your essay to 2,000 words.
+        The experiement was confined to 3 hours.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>confine.01</pb>
+         <vn>limit-76</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="close within bounds; deprive of freedom"
+         type="">
+      <commentary>
+      Syntax Is: 
+       NP1[agent[concrete]] CONFINE NP2[patient[animate]
+      </commentary>
+      <examples>
+        This prison mainly confined the prisoners of war.
+        The owner can take animal from the person who confined it.
+        An opening was made in the lower end of the glen that confined the
+        water.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">3,4,5,6</wn>
+         <omega></omega><pb>confine.01</pb>
+         <vn>confine-92-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>
+</inventory>

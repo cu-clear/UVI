@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="intercept-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Seize on its way." type="">  
+      <commentary>
+      NOTE: Object intercepted must be CONCRETE.
+      </commentary>
+      <examples>
+      The fighters were ordered to intercept all enemy aircraft.
+      FBI agents intercepted millions in stolen cocaine.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>intercept.01</pb>
+         <vn>NP</vn><fn>Intercepting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Tap a telephone or telegraph wire to get information." type="">
+      <commentary>
+      NOTE: Object intercepted must be ABSTRACT.
+      </commentary>
+      <examples>
+      CIA agents intercepted information from the phone line of a suspected
+      spy.
+      Allies intercepted secret Japanese communications.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Intercepted</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

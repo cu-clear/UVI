@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="vote-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="officially express a preference for a candidate, measure, resolution, etc." type="">
+      <commentary>
+        Note: involves a formal process of selection
+      </commentary>
+      <examples>
+        He voted for the motion.
+        None of the Democrats voted last night.
+        My point was, I voted party lines regardless of who the candidate was.
+        A United States Senator, at some personal and political price to himself, voted his conscience.
+        Some of your &quot;old timers&quot; stood firm and voted his beliefs and that of his constituents.
+        For 100 years people in the south voted democrat.
+        They thought Kellie Pickler would be voted the next American Idol.
+        After the crucial challenge defeat, the La Mina tribe voted the Retired Astronaut, Dan Barry, off Survivor Panama.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>
+         <omega/><pb>vote.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="express an opinion" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I vote that we all go home.
+        She voted for eating at the Chinese restaurant.
+        Rather than managing for the chaotic, I vote that we manage for the complex.
+        I vote that we immediately change seamonkey.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="succeed in electing" type="">
+      <commentary>
+        Includes: VOTE IN
+      </commentary>
+      <examples>
+        They voted in Clinton.
+        Taiwan voted in a new Democratic Progressive Party for the first time in half a millennium.
+        Actor and film-maker Tom Hanks was voted in as vice-president of the Academy of Motion Pictures and Sciences.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="vote_in" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="thwart from passage or remove from office" type="">
+      <commentary>
+        Includes: VOTE DOWN, VOTE OUT
+      </commentary>
+      <examples>
+       The bill was just voted out of a committee and heads to the California Assembly for a full vote.
+       ust like the Germans last fall, Canadians voted out a government whose leaders made clear their opposition to President Bush.
+       Former Blue star Antony Costa has become the next person to be voted out.
+       Christina School District residents voted down a property tax hike to pay for initiatives.
+       Republicans in Congress voted down Democratic amendments to increase fuel-efficiency standards.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="vote_down" version="3.0">1</wn>
+         <wn lemma="vote_out" version="3.0">1</wn>
+         <omega/><pb>vote.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="bring into existence or make available by vote" type="">
+      <commentary>
+        Syntax is: NP1 VOTE NP2
+      </commentary>
+      <examples>
+        They voted aid for the underdeveloped countries in Asia.
+        The electors voted aid to the extent of $50000 in bonds of the city.
+        Achaeans were divided, some wishing to vote an alliance with Philip and some with the Romans. 
+        Eventually, they voted assistance to the latter.
+        United's directors voted themselves lifetime access to free first-class travel and $20,000 a year for life as well.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>vote.02</pb>
+         <vn>future_having-13.3,get-13.5.1,dub-29.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

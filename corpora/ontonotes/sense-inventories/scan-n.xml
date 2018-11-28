@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="scan-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a systematic visual inspection or examination" type="Event">
+        <commentary>
+            SCAN[+event][+examination][+systematic][+visual]
+        </commentary>
+        <examples>
+            John made a quick scan of the sports pages to find the results.
+            The military scout made a scan of the entire beach through his binoculars.
+            The yoga instructor told the class to make an internal scan of their bodes during the meditation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a digital image assembled by an electronic machine" type="">
+        <commentary>
+            SCAN[+artifact][+image][+digital][+assembled][+by_machine][+electronic]
+        </commentary>
+        <examples>
+            The doctor scheduled a CAT scan of the patient's abdomen.
+            The brain scan revealed a small tumor near the corpus callosum.
+            The scan of this document is of rather poor resolution.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

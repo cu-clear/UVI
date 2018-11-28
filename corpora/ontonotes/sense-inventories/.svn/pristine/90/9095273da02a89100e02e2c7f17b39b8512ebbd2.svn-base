@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="travel-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a journey or trip" type="Event">
+        <commentary>
+            TRAVEL[+event][+journey]
+            Note: focus is on destination, rather than mode of transportation
+        </commentary>
+        <examples>
+            Bob's job as a sales representative involves a lot of travel.
+            We enjoyed hearing about Mary's travels through southeast asia.
+            She works in the travel industry.
+            The spacecraft's travel to the moon took six days.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>travel.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a means or manner of transportation" type="Event">
+        <commentary>
+            TRAVEL[+manner][+means][+of_transportation]
+            Note: focus is on how something moves, rather than a destination
+        </commentary>
+        <examples>
+            In the 18th century, travel by water was often easier and safer than travel by road.
+            Many science fiction stories explore the concept of time travel.
+            We are finding air travel increasingly stressful.
+            The missile has sophisticated electronics on board to guide it's travel over the terrain.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>travel.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

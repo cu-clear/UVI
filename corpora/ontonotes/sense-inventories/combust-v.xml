@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="combust-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="burst into flames (telic)" type="">  
+      <commentary>
+      Notes: may be used metaphorically
+      Sytax includes:
+      NP1[patient] COMBUST (PP[product]) (PP[cause])
+      NP1[agent] COMBUST NP2[patient]
+      </commentary>
+      <examples>
+      The oily rags combusted spontaneously.
+      The ivory wand was raised, and Kamahl focused on that as he willed the magical tool to combust.
+      I feel like I'm gonna spontaneously combust.
+      Long, blonde strands combusted at her touch.
+      She combusted into a ball of light, lightning bright.
+      One time this guy looked him in his eyes and Chuck Norris spontaneously combusted him.
+      Poverty, crime and segregation can combust into the kind of violence that erupted in Benton Harbor.
+      By the time the tension combusted into rioting, Asian youth had been worked into a frenzy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>combust.01</pb>
+         <vn>other_cos-45.4</vn><fn>Setting_fire</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to undergo burning (atelic)" type="">
+      <commentary>
+      Sytax includes:
+      NP1[agent|cause] COMBUST NP2[patient] (PP[instrument])
+      NP1[patient] COMBUST
+      </commentary>
+      <examples>
+      We combust coal and other fossil fuels.
+      If this were the old firestone, all the sea air would have combusted it long ago.
+      When biomass is combusted, all of those elements are oxidized.
+      Whatever fuel was combusting on the ridge had to have been gathered specially for the purpose.
+      Most fossil fuels are combusted with ambient air.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>combust.01</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause to erupt into strong emotion, usually rage" type="">
+      <commentary>
+      Sytax includes:
+      NP1[experiencer[animate|organization]] COMBUST (PP[cause]) (PP[end_state])
+      NP1[cause] COMBUST NP2[experiencer[animate|organization]]
+      </commentary>
+      <examples>
+      The professor combusted when the student didn't know the answer to a very elementary question.
+      Riots combusted Pakistan after the U.S. air attacks on Afghanistan.
+      She combusted into tears as she slapped him across the face with as much disgust as she could muster.
+      This driver's rage has combusted him.
+      Suddenly she combusted into a jingle of laughter.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>combust.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

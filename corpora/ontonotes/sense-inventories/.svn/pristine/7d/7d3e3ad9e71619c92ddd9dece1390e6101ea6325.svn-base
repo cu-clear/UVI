@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="success-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="something that attains victory" type="">
+        <commentary>
+	    SUCCESS[+event]
+	    An event that accomplishes its intended purposes.  Refers to the event itself, not the act of making it successful.
+	    </commentary>
+        <examples>
+            The election was a success for Republicans.
+            He enjoyed a string of successes after being promoted to CEO.
+            Was the expedition a success?
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/><pb>success.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="attaining victory" type="Event">
+        <commentary>
+	    SUCCESS[+event]
+	    The reaching of a successful state.  Does not refer to the successful event, but the act of making it successful.
+	    This is probably the most common sense.
+	    </commentary>
+        <examples>
+            Success in lowering the bridge would allow the army to cross the river.
+            My success in the marathon came after months of hard training.
+            The success or failure of this field goal will determine the game for us.
+            The general always takes credit for his army's success.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/><pb>success.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="being successful" type="">
+        <commentary>
+	    SUCCESS[+event]
+	    The state of being successful.  A lifestyle, or a quality that successful people have.
+	    </commentary>
+        <examples>
+            He does not consider wealth to be synonymous with success.
+            He is enjoying great success.
+            I wish you success for the rest of your life.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/><pb>success.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a successful person" type="Entity">
+        <commentary>
+            A person with a record of successes.  
+        </commentary>
+        <examples>
+            The executive became an overnight success.
+            You'll never be the success that your father was.
+            If you want to be a success, you have to dress like a success.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/><pb>success.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

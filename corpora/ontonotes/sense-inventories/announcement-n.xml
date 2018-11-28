@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="announcement-n">
+    <commentary>
+        18Feb08 update to wn2.1, added sense 2, added features, refined definistions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an official public statement, either written or broadcast" type="Event">
+        <commentary>
+            ANNOUNCEMENT[+event][+speech_act][+statement][+public][+official]
+        </commentary>
+        <examples>
+            The government made an announcement about the terror alert being heightened again.
+            Announcements of local births, deaths and weddings can be found in the daily newspaper.
+            The principal of the high school makes daily announcements each morning over the public address system.
+            The announcements plastered on the walls of buildings described a political rally to be held on Saturday.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>announcement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the act of making an individual utterance, declaration" type="Event">
+        <commentary>
+            ANNOUNCEMENT[+event][+speech_act][+statement][+utterance][+individual]
+            Note: a nominalization: X's announcement of Y -&gt; X announced Y
+        </commentary>
+        <examples>
+            Mary's announcement of her pregnancy at the dinner table shocked her parents.
+            John's announcement that he had given up smoking was met with disbelief by his roommates.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/>
+            <pb>announcement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

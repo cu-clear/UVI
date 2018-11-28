@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="steal-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="take possession without consent or right" type="">  
+      <commentary>
+        Syntax is: NP1 STEAL (NP2)
+        Note: Please compare this sense carefully with sense 2, before proceeding.
+      </commentary>
+      <examples>
+        Someone stole my wallet on the train.
+        The number of cars which are stolen every year has risen.
+        They were so poor they had to steal in order to eat.
+        This author stole entire paragraphs from my dissertation.
+        It destroys its victim's memory and steals the ability to communicate.
+        This picture steals my heart everytime.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>steal.01</pb>
+         <vn>get-13.5.1-1,steal-10.5-1</vn><fn>Theft</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="do or achieve something surreptitiously or stealthily" type="">
+      <commentary>
+        Syntax includes: NP1 STEAL NP2
+                         NP1 STEAL AWAY/OUT PP
+        Note: In this sense, STEAL usually is accompanied by a nominalized verb (verb-made-noun).
+        Also note that the NP2 (what is stolen) cannot come into existence before the action of
+        stealing (as opposed to things like wallets, hearts, or memories that exist even before
+        the actual act of stealing).
+        Note: The last two examples in this set specifically means &quot;to move or carry stealthily&quot;.
+      </commentary>
+      <examples>
+        I leaned close and stole a kiss.
+        She stole a glance at her watch.
+        I stole a bite off the one burger, before giving him all the rest of it.
+        If everyone stole a ride, there would be no more public transportation.
+        He stole out of the room while noone was looking.
+        During the night, she stole away from the hateful place.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="steal_away" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>appear-48.1.1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="draw attention or have successful performance; outdo or win" type="">
+      <commentary>
+        Note: It seems that this form of STEAL usually surfaces with the word 'show'.
+      </commentary>
+      <examples>
+        He stole the show with his offbeat puns and no fear analogies.
+        The child with the dog stole the show.
+        He stole the show away from Paul Walker for sure.
+        Yanks steal finale from Braves.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="BASEBALL-gain base without hit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He might be the last person in baseball you'd expect to steal a base.
+        Ty Cobb stole second base, third base, and home plate during the same inning.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

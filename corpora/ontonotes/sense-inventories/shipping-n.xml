@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shipping-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="enterprise" type="">
+        <commentary>
+            transportation, transport -
+            the commercial enterprise of transporting goods and materials
+        </commentary>
+        <examples>
+            He works in shipping.
+            I had to pay for shipping and handling.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="movement" type="Event">
+        <commentary>
+	    SHIPPING[+event]
+	    cargo ships, merchant marine, merchant vessels -
+	    conveyance provided by the ships belonging to one country or industry
+	    </commentary>
+        <examples>
+            Shipping of the last load took almost three weeks.
+            He says the shipping of cars is not profitable.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>shipping.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

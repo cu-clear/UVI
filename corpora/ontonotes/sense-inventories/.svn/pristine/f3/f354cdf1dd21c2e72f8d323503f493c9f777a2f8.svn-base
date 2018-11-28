@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="trainer-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a person who instructs, coaches others" type="">
+        <commentary>
+            TRAINER[+entity][+person][+instructor]
+        </commentary>
+        <examples>
+            They took a picture of the championship horse with his jockey and his trainer.
+            Mary hired a personal trainer at the gym to work with her three days a week.
+            John is attending a week-long conference to become a trainer for the sales force.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a simulator, machine that instructs or teaches a skill" type="">
+        <commentary>
+            TRAINER[+entity][+artifact][+machine][+simulator][+instructional]
+        </commentary>
+        <examples>
+            The airline charges $1500/hour for use of it's flight trainers.
+            The astronauts practiced hundreds of hours in their trainers before the actual mission.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="person that treats sports teams for minor injuries" type="">
+        <commentary>
+            TRAINER[+entity][+person][+assistant][+medical][+sports_team]
+        </commentary>
+        <examples>
+            The trainer looked at the player's hand after it was struck by the baseball.
+            The trainer told the basketball coach that the star player needed to rest his ankle.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="sneaker, athletic shoe" type="">
+        <commentary>
+            TRAINER[+entity][+artifact][+apparel][+shoe][+sneaker]
+            Note: chiefly British usage.
+        </commentary>
+        <examples>
+            I bought some new trainers for the marathon. 
+            These trainers are good for walking, but not really suitable for running.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

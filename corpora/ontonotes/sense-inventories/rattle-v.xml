@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rattle-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="emit short successive sounds by shaking" type="">
+      <commentary>
+        Syntax Is: NP1[theme] RATTLE
+      </commentary>
+      <examples>
+        This beautiful snake rattled instead of striking me. 
+        The curtain rod rattled angrily in response.
+        The sun shade holder over the beer garden was rattling all night just below my window.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>rattle.02</pb>
+         <vn>animal_sounds-38,sound_emission-43.2</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="shake up, impact" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[theme] RATTLE PP[location]
+        NP1[agent] RATTLE NP2[theme[concrete]]
+      </commentary>
+      <examples>
+        Only the butts of all muskets rattled angrily against the ground.
+        The train lurched and rattled its way through the night winding its way through the forest.
+        We rattled down the hill toward the village and its black castle of a colliery.
+        The violent explosion rattled the windows.
+        The prisoner rattled the bars of the cell.
+        Engineers and researchers jolted, shook and rattled the house in a series of tests.
+        We had an earthquake this weekend that rattled the whole house in Hollywood pretty well.
+        When you rattled angrily at the door-knob she said very sharply, 'Who is that?'
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>rattle.01</pb>
+         <vn>NM</vn><fn>Cause_impact,Impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="disconcert, disturb" type="">
+      <commentary>
+        Syntax is: NP1[agent] RATTLE NP2[theme[abstract]]
+      </commentary>
+      <examples>
+        And you shook me, rattled me right down to my soul.
+        The book has rattled her enough to prompt further inquiry.
+        The ascendant blogosphere has rattled the news media with its tough critiques and nonstop scrutiny.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>rattle.01</pb>
+         <vn>NM</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="talk incessently" type="">
+      <commentary>
+        Includes: RATTLE DOWN, RATTLE OFF, RATTLE ON
+      </commentary>
+      <examples>
+        Our guide rattled down the names of all the kings, gods, temples and deities as we went along.
+        He then rattled off a long list of the miracles the machine could achieve.
+        Except for one parent who rattled on nonstop, the rest were really nice.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="rattle_down" version="3.0">1</wn>
+         <wn lemma="rattle_off" version="3.0">1</wn>
+         <wn lemma="rattle_on" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dull-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) become lusterless in appearance." type="">  
+      <commentary>
+       Syntax Is:
+        NP1[concrete] DULL
+        NP1[agent] DULL NP2[patient[concrete]]
+        NP1[theme] DULL NP2[patient[concrete]]
+        Note: Compare to Sense 3; in Sense 1, NP2 must always be CONCRETE.
+      </commentary>
+      <examples>
+        Age has dulled the surface of this table.
+        You will dull bright colors if you wash them in hot water.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dull.01</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Deaden a noise." type="">
+      <commentary>
+        My headphones dulled the sound of the baby screaming.
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Cause to) become numb, insensitive or less intense" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[theme[abstract]] DULL
+        NP1[agent] DULL NP2[patient[abstract]]
+        NP1[theme] DULL NP2[patient[abstract]]
+        Note: Compare to Sense 1; in Sense 3, NP2 must always be ABSTRACT.
+      </commentary>
+      <examples>
+        They dulled the joy of many pleasure-seekers yesterday.
+        Canadian monetary policy has dulled the effect of changing exchange rates.        
+        The drugs have dulled the pain. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dull.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(Cause to) become less sharp as a cutting instrument." type="">
+      <commentary>
+       Syntax Includes:
+        NP1[theme] DULL
+        NP1[agent] DULL NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        If you use scissors to cut tin foil, you'll dull them quickly.
+        These knives have dulled with use.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_to_be_sharp</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="(Cause to) become less interesting, attractive or vigorous." type="">
+      <commentary>
+       Syntax Includes:
+        NP1[theme[animate]] DULL
+        NP1[theme] DULL NP2[patient[animate]]
+      </commentary>
+      <examples>
+        You sure have dulled over the years.
+        The monotonous assembly line job has really dulled Marty.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dull.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

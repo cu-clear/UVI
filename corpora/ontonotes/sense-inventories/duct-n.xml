@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="duct-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an enclosed man-made passage that conducts a substance such as air, water" type="">
+        <commentary>
+            DUCT[+structure][+conduit][+tube][-animate][+passage][+substance][+air/+water/+electricity]
+        </commentary>
+        <examples>
+            The air ducts in that building did not pass the building codes inspection.
+            John sealed his windows with duct tape. (tape for securing duct work together)
+            These metal ducts carry water around the machinery to cool it.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a vessel in a living being that conducts fluids, e.g., lymph, tears, sap" type="">
+        <commentary>
+            DUCT[+structure][+conduit][+tube][+animate][+vessel][+fluid][+lymph/+bile/+sap/+tears]
+        </commentary>
+        <examples>
+            This disease chokes off the tree's ducts so that sap cannot flow through it.
+            Chewing food stimulates the salivary ducts in the mouth.
+            The cancer had apparently spread via the lymphatic ducts in his armpits.
+            The bile duct passes bile from the liver or gallbladder to the duodenum. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="unusual environmental condition that restricts the path of radio or acoustic waves" type="">
+        <commentary>
+            DUCT[+structure][+conduit][+layer][+environmental][+propagation][+wave][+radio/+acoustic/+microwave]
+            Note: can be present in atmosphere or ocean
+        </commentary>
+        <examples>
+            Radio waves tend to follow the curvature of the earth within an atmospheric duct.
+            The study compares four evaporation duct models of the oceans.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

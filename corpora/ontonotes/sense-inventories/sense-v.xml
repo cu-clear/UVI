@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sense-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="perceive through the senses" type="">
+      <commentary>
+        NP1[+animate] SENSE NP2[sensation]
+        NOTE: If you cannot figure out which sense is doing the sensing
+        (smell, feel, sound etc.) tag the instance as sense 2.
+      </commentary>
+      <examples>
+        I sensed the insect land lightly on my ear.
+        They were so close, they could sense each other's breaths.
+        From time to time I sensed the sound of water cascading over rocks.
+        They are instructed to state the first thing that comes into their
+        mind after sensing the odor.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>sense.01</pb>
+         <vn>see-30.1-1</vn><fn>Perception_experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="detect a circumstance or situation automatically" type="">
+      <commentary>
+        NP1[-animate] SENSE NP2
+      </commentary>
+      <examples>
+        An apparatus for switching connectivity of fans to be sensed includes a primary control board.
+        The LM35 sensed the temperature of the resistor.
+        A flexible electronic skin that can sense when something is too hot to handle.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>sense.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="feel or become aware of by intuition" type="">
+      <commentary>
+        NP1[+experiencer,human] SENSE NP2[-concrete]
+      </commentary>
+      <examples>
+        An interesting theory that is emerging is that the animals sensed
+        the tsunami much in advance.
+        He felt around the walls, and sensed that magic had been used or was present there.
+        I think I just sensed the Collective IQ of the internet go up by a few points.
+        I sensed the industry was being taken for a big PR and FUD ride.
+        Infants and toddlers can sense when there is excitement, sadness,
+        or anxiety in the home.
+        Max sensed that his beliefs had been correct all along.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>sense.01</pb>
+         <vn>see-30.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,clarklm" sample_score="-"/>
+</inventory>

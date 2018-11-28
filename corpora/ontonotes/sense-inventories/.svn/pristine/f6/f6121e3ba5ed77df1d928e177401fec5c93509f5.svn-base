@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="declare-v">
+   <commentary>
+    one VPC included, actually a reflexive
+   </commentary>
+   <sense group="1" n="1" name="state, assert or announce">
+      <commentary>
+       Includes: DECLARE ONESELF
+      </commentary>
+      <examples>
+        Bob has declared his intention to pay for the damages.
+        Although he declared he was innocent, no one believed it.
+        During the last play of the bridge game, John declared hearts.
+        We had nothing to declare going through customs.
+        The minister declared them husband and wife.
+        The company is declaring dividends on their preferred stock.
+        The soldiers didn't know that a cease-fire had been declared.
+        The space shuttle was declared fit for launch on Tuesday.
+        The man was declared legally dead upon arrival.
+        Mary declares these seedlings ready for planting.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,5,6,7,8</wn>
+         <wn lemma="declare_oneself" version="3.0">1</wn>
+         <omega/><pb>declare.01,declare.02</pb>
+         <vn>declare-29.4-1-1-1,reflexive_appearance-48.1.2,say-37.7-1-1</vn>
+         <fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="propose marriage">
+      <commentary>
+        Includes: DECLARE ONESELF
+      </commentary>
+      <examples>
+        The wealthy bachelor declared himself to Sally, but she declined his offer of marriage.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="declare_oneself" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+       </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+</inventory>

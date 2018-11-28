@@ -1,0 +1,133 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="end-n">
+    <commentary>11Jul08 added features, revised examples and definitions, added sense 9. ahouston
+        24Nov08 - further revisions to defs, features, examples. ahouston
+    </commentary>
+    <sense group="1" n="1" name="a spatial terminus or farthest boundary of something" type="physical">
+        <commentary>END[+location][+spatial][+boundary][+terminus]
+            Note: core sense is physical, but can be extended to quantitative scales
+        </commentary>
+        <examples>They walked to the end of the pier.
+            The person who picked up the phone at the other end was Mary.
+            There is a junk yard at the far end of town.
+            Sally cut the ends off the green beans.
+            I held the carpet by one end and pulled it across the floor.
+            They are struggling at the lower end of the socioeconomic scale.  (figurative extension to an abstract ranking)
+            Houses in this neighborhood sell at the top end of the market.  (extenstion to an abstract ranking)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,7,10,9</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="cessation of existence, destruction of something" type="Event">
+        <commentary>END[+event][+cessation][+of_existence]
+            Note: Often a negative cessation, but can be positive.
+        </commentary>
+        <examples>A collision with a comet would likely mean the end of the world.
+            The end came quickly for Peter after his diagnosis of late-stage pancreatic cancer.
+            The blue ceramic vase came to an unfortunate end when the cat knocked it off the table.
+            If she's caught stealing again, it will be the end of her career.
+            They have demanded an end to the violence.  (violence should no longer exist)
+            Mary's sharp retort put an end to John's sarcastic remarks.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn><omega/>
+            <pb>end.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a final state for a characterized activity or time span" type="Event">
+        <commentary>END[+state][+final][+of_period][+time][+characterized]
+            Note: refers to a temporal point along a time line.
+        </commentary>
+        <examples>In the end, we decided to go to a Vietnamese restaurant.
+            By winter's end last year we had more than 30 inches of snow.
+            Tonight's performance marked the end of the symphony's 2001 season.
+            There seemed to be no end to the tricks he'll use to get his way. (a continuous procession of them)
+            The report must be completed by the end of next month.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="the concluding section of a communication" type="abstract">
+        <commentary>END[+artifact][+document][+section][+concluding]
+            [+event][+speech_act][+concluding]
+            Note: this restricted sense refers to structural final parts of communication artifacts, either spoken, visual or written.
+        </commentary>
+        <examples>I didn't get to see the end of the play.
+            They shot the end of the film on location in the Mojave Desert.
+            Read chapter four and do the problems at the end of it.
+            The explanation of black body radiation is at the end of chapter two.
+            At the end of the lecture he told a funny joke.
+            They all signed their names at the end of the letter to the president.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5,12</wn><omega/>
+            <pb>end.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="position on line of scrimmage in American football" type="">
+        <commentary>END[+location][+spatial][+position][+football][+on_line_of_scrimmage]</commentary><examples>The football fell past the end and out of bounds.
+            No players were guarding the end.
+        </examples>
+        <mappings>
+            <wn version="3.0">14</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="intended goal, purpose" type="">
+        <commentary>END[+state][+goal][+intended]
+            Note: refers to an agent's aim, purpose
+        </commentary>
+        <examples>Did the end justify the means?
+            They are using each other to further their own ends.
+            To this end, schools were set up for the village women.  (for some goal)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="obligation to fulfill" type="">
+        <commentary>END[+state][+social][+obligation][+to_fulfill]
+            Note: refers to an agent's obligation or duty
+        </commentary>
+        <examples>He kept his end of the bargain.
+            I hope they will honor their end of the deal and settle the debt.
+            They are holding up their end of the arrangement fairly well.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="scrap or remnant piece of material left over from a bolt of fabric." type="">
+        <commentary>END[+artifact][+scrap][+leftover][+of_fabric]</commentary><examples>Jane used the various fabric ends to make a patchwork quilt.
+            I sorted through a bin of ends at the fabric store, looking for blue and brown velvet.
+        </examples>
+        <mappings>
+            <wn version="3.0">13</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="role of a football player" type="">
+        <commentary>END[+person][+role][+player][+football][+positioned][+at_line_of_scrimmage]</commentary><examples>The quarterback threw the ball to his end.
+            The end for their team weighs over two hundred and fifty pounds.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

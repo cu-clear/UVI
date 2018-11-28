@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="exist-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be" type="">
+      <commentary>
+        Syntax Is: NP1 EXIST (PP)
+      </commentary>
+      <examples>
+        What was there before the universe existed?
+        Mary's romantic interest in John existed only in his mind.
+        Crime simply does not exist in their small society.
+        This law exists to protect consumers against fraud.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>exist.01</pb>
+         <vn>exist-47.1-1</vn><fn>Existence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="subsist, survive" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] EXIST ADVP[manner]
+      </commentary>
+      <examples>
+        They existed on only nuts and wild berries for two weeks in the mountains.
+        They can't exist in New York City on a dollar a day!
+        Many people manage to exist without a cellphone or computer.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>exist-47.1-1,gorge-39.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

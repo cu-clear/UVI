@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sell-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="trade, deal, or execute a commercial transaction" type="">
+      <commentary>
+        NP SELL[+punctual] NP[+count]
+        NP[+count] SELL[+punctual] ADV/PP
+        NP[+agent] SELL[+continuative] NP[+plural/+mass]
+      </commentary>
+      <examples>
+	He sold the house in January.
+        Harry Potter books have been selling like hotcakes.
+        Movies usually help to sell the video games that are based on them.
+        His uncle sells produce.
+        She didn't want to sell shoes the rest of her life.
+        They are selling oil illegally.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,2,4,7</wn>
+	 <omega/><pb>sell.01</pb>
+         <vn>give-13.1-1</vn><fn>Commerce_sell</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="persuade or achieve acceptance" type="">
+      <commentary>
+       Implies causing a belief or attitude, not a monetary transaction
+      </commentary>
+      <examples>
+        The idea of gun control doesn't sell well in rural areas.
+        She has sold them on the idea of redecorating their home.
+        She has sold the idea of redecorating to them.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="relinquish,surrender (usually pejorative)" type="">
+      <commentary>
+       NP{+agent] SELL NP
+       Includes: SELL OUT
+      </commentary>
+      <examples>
+        She sold her principles for a successful career.
+        Judas sold Jesus.
+        You sold her out to the wolves.
+      </examples>
+      <mappings>
+	 <wn version="3.0">5,8</wn>
+         <wn lemma="sell_out" version="3.0">2</wn>
+         <omega/><pb>sell.02</pb>
+         <vn>NM</vn><fn>NM</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>  
+   <sense group="1" n="4" name="underestimate the real value or ability of" type="">
+      <commentary>
+        Includes: SELL SHORT
+      </commentary>
+      <examples>
+        Don't sell yourself short in college admission essays.
+      </examples>
+      <mappings>
+         <wn lemma="sell_short" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="get rid of one's goods or possessions" type="">
+      <commentary>
+       Includes: SELL OUT, SELL UP, SELL OFF
+      </commentary>
+      <examples>
+        They sold off their property before they moved.
+        At what price do we sell out out souls?
+        I was fed up with this city, so I sold up all my personal property and moved.
+      </examples>
+      <mappings>
+         <wn lemma="sell_off" version="3.0">1</wn>
+         <wn lemma="sell_out" version="3.0">1</wn>
+         <wn lemma="sell_up" version="3.0">1</wn>
+         <omega/><pb>sell.03,sell.04</pb>
+         <vn>NM</vn><fn>NM</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>   
+   <sense group="1" n="6" name="selling of securities or commodities at advantageous terms" type="">
+      <commentary>
+       SELL SHORT:
+       Method of profiting from a declining stock price by borrowing 
+       shares of the stock, selling them at the market price, and then 
+       repurchasing the same number of shares at a future date 
+       (and at a lower price, if you're lucky) 
+       to return them to the original lender.
+      </commentary>
+      <examples>
+        Investors who sell short believe the price of the stock will fall.
+        So you have sold short 100 shares at $90 each.
+      </examples>
+      <mappings>
+         <wn lemma="sell_short" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

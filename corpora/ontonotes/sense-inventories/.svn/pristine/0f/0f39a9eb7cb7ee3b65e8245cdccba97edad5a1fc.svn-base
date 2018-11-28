@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="redo-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="do over, make new" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] REDO NP2
+      </commentary>
+      <examples>
+        Do you think she redid her image just to appeal to those big haired
+        Republicans?
+        When they redid the rooms, they could have either replaced the
+        doors or painted them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>redo.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

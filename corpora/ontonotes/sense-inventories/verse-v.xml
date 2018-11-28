@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="verse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="familiarize with" type="">  
+      <commentary>
+        NP1[+agent] VERSE (in/with) NP2
+      </commentary>
+      <examples>
+        She versed herself in Roman archeology.
+        She versed herself with the grading machine.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>verse.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="compose or put into verses" type="">
+      <commentary>
+        NP1[+agent] VERSE NP2
+      </commentary>
+      <examples>
+        He versed the ancient saga.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="institution-n">
+    <commentary>
+        6sep06 updated to WN2.1, added features, added examples. ahouston
+        6spe06 removed the funny unnumbered sense, annotators are allowed to choose more than one sense.
+        ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="An established organization, e.g., corporation, government" type="">
+        <commentary>
+            INSTITUTION[+entity][+social][+group][+organization][+established]
+        </commentary>
+        <examples>
+            The World Charity Foundation is a non-profit institution.
+            John's religion is an institution devoted to belief in a divine power.
+            Yale University is an educational institution of some regard.
+            She received a diploma from an accredited institution.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="A building or group of buildings" type="Concrete">
+        <commentary>
+            INSTITUTION[+entity][+structure][+building]
+            Refers specifically to a physical establishment
+        </commentary>
+        <examples>
+            The Institution for Research in the Cognitive Sciences is located at 3401 Walnut Street.
+            He has spent much of his life in institutions.  (elliptical for 'mental institution')
+            That building used to be an institution for the severally handicapped.
+            The island housed a penal institution, from which escape was believed impossible.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="A custom" type="">
+        <commentary>
+            INSTITUTION[+state][+social][+long_standing][+custom]
+            A custom, usually very old, that is an important part of some group or society.
+        </commentary>
+        <examples>
+            For many years, slavery was America's &quot;peculiar institution&quot;.
+            The institution of marriage is constantly being threatened.
+            After running for ten years, &quot;Cats&quot; had become a Broadway institution.
+            Private property and public elections are institutions of democratic societies.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="initiation, founding, introduction of something" type="Event">
+        <commentary>
+	    INSTITUTION[+event][+action][+initiate][+undertaking]
+	    Something begun, organized, or introduced.
+	    </commentary>
+        <examples>
+            The institution of a new scientific society was a cause for celebration.
+            Senator John pushed for the re-institution of capital punishment.
+            There was a delay in the institution of the legal proceedings.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

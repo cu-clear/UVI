@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="exterminate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="destroy, kill in masse" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] EXTERMINATE NP2[patient]
+      </commentary>
+      <examples>
+        Hitler wanted to exterminate the Jews and the gypsies.
+        I'm sure that Kibaki would like to be remembered as the president
+        who exterminated corruption.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>destroy-44</vn><fn>Killing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

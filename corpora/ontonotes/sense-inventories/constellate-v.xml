@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="constellate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="scatter or intersperse like dots or studs" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] CONSTELLATE NP2[location]
+      </commentary>
+      <examples>
+      The hills were constellated with lights.
+      This is the time when the Paris theaters are constellated with electroliers and blossoming with lamps.
+      The ancient mirrors were constellated with bullet holes.
+      Stars constellated the black water beneath.
+      The roses constellated the dark green of their tangled leaves.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>constellate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="form a constellation or cluster" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] CONSTELLATE NP2[theme] (PP[destination]) (PP[predicate])
+      NP1[theme] CONSTELLATE (PP[location|destination])
+      </commentary>
+      <examples>
+      The poets constellate in this town every summer.
+      You'll get into another relationship all right, but the same issues will constellate.
+      D has a certain feeling because of the way the other chords constellate around it.
+      Werthheimer discussed our innate tendency to constellate, to see as "belonging together" elements that look alike.
+      Kemper watched cliques constellate and dissolve.
+      In quasi-ritual actions he constellated symbolic objects and worked with substances.
+      Pixels constellated as an image of printed text.
+      They can be constellated as a single discursive body only because I've read them in a certain way.
+      The ego is the sum of our habits constellated into a cohesive entity.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>constellate.02</pb>
+         <vn>classify-29.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

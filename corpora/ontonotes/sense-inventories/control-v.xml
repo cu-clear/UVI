@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="control-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="exercise power or influence over; hold within limits" type="">
+      <commentary>
+     Syntax Is:
+      NP1 CONTROL NP2
+      </commentary>
+      <examples>
+         Some of those operations are now controlled by Homeland Security.
+         That teacher knows how to control a rowdy class.
+         Are you doing all you can to control your sodium intake? 
+         The skater was having trouble controlling his spins during the competition.
+         He couldn't control his drinking on the job.
+         The child needs to learn to control her temper.         
+         We controlled the fire by dousing it with water.
+         The weather controls what we do, what we eat, and what we wear.
+         How do these laws control drugs and poisons?
+         The company is controlled largely by foreign interests.
+         Can you control the tiller while I go forward to untangle the jib?
+         I love that I can finally control my Pocket PC from my desktop.
+         On the inside, a control panel can be used to control the lights in the apartment.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,8</wn>
+         <omega/><pb>control.01</pb>
+         <vn>enforce-63</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="verify something by comparing to a standard" type="">
+      <commentary>
+      Note:  SCIENCE-Verify by conducting a parallel experiment or comparing with a set standard.
+      Note:  FINANCE-Verify by using a duplicate register for comparison.
+      </commentary>
+      <examples>
+         Are you controlling for temperature in this experiment?
+         Effluents should be controlled for pH by neutralization. 
+         The auditor controlled the physical count of inventories performed by the manager.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,brownsw" sample_score="-"/>
+</inventory>

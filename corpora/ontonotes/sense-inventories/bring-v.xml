@@ -1,0 +1,241 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bring-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="take something or somebody with oneself somewhere " type="">
+      <commentary>
+       NOTE: Concrete uses only.
+        NP[+agent] BRING NP[+patient] (NP[+recipient]--see example 2)
+        includes the following vpc/multi-word expressions:
+          BRING ABOUT 
+          BRING BACK
+          BRING DOWN
+          BRING FORWARD
+          BRING OUT
+          BRING UP
+          BRING IN
+      </commentary>
+      <examples>
+         Remember to bring your passport.
+         Please bring your husband to the party.
+         I'm bringing John a birthday cake.
+         Can we bring the dog to the picnic?
+         We brought the umbrella back to the store because it was broken.
+         Massive, nonviolent civil disobedience brought down the Berlin Wall.
+         Local government elections have been brought forward to Thursday May 5.
+         They have chairs were you can sit while they bring out your shoes.
+         Can you bring the boxes up from the basement?
+         The microphone brought in the sounds from the room next to mine. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,6</wn>
+         <wn lemma="bring_about" version="3.0">1</wn>
+         <wn lemma="bring_back" version="3.0">1</wn>
+         <wn lemma="bring_down" version="3.0">1,4</wn>
+         <wn lemma="bring_forward" version="3.0">1</wn>
+         <wn lemma="bring_out" version="3.0">7</wn>
+         <wn lemma="bring_up" version="3.0">4</wn>
+         <wn lemma="bring_in" version="3.0">5</wn> 
+         <omega/>
+         <pb>bring.01,bring.02,bring.03,bring.04</pb>
+         <vn>bring-11.3-1</vn><fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to come into a particular state or condition" type="">
+      <commentary>
+       Note: Abstract uses only. 
+        Syntax Inlcudes:
+
+        NP1[agent] BRING NP2 PP{P NP[location]}
+        NP1[agent] BRING NP2 PP[temporal]
+        NP1[source] BRING NP2 PP{P NP[location]}
+        NP1[source] BRING NP2 PP[temporal]
+        NP1[agent,source] BRING NP2 TO BEAR
+                
+       Includes: 
+        BRING ABOUT
+        BRING AROUND
+        BRING BACK
+        BRING DOWN
+        BRING FORWARD
+        BRING IN
+        BRING ON
+        BRING ROUND
+        BRING THROUGH
+        BRING TO
+        BRING OUT 
+        BRING UP  
+        BRING DOWN
+        BRING FORTH
+        BRING ON
+        BRING TO BEAR
+        BRING HOME
+      </commentary>
+      <examples>
+         The new President must bring about a change in the health care system.
+         His urgent letter finally brought me around to give money to the school.
+         He was groggy at this point, but fear brought him around pretty quick. 
+         The employees brought down the company when they went on strike.
+         After this, DC tried to bring back superheroes and they were a success.
+         The band brought down the house.
+         Legislation will be brought forward in the 2002 Finance Bill.
+         He brought in a new judge.
+         He believes it is his faith that has brought him through many ordeals in
+         his life.
+         That dress brings out the blue in her eyes.
+         Don't bring the cream to a boil, just simmer it.
+         This brings us to the conclusion. 
+         The sound of gunfire brought him to a heightened state of awareness.
+         That business venture is bringing them to financial ruin.
+         They gave him a little whisky to bring him to.
+         He was brought up to the major leagues.
+         Age brings wisdom in time.
+         Pastel colors will bring a feeling of calm and serenity to a room.
+         His vast experience brings credibility to the project.
+         My state of inattention brought down impositions upon me.
+         The earth brought forth grass, herbs yielding seed after their
+         kind, and trees bearing fruit.
+         Exercise is shown to reverse brain deterioration brought on by
+         aging.
+         BBC's global news resources are brought swiftly to bear when big
+         stories happen.
+         This brings home my point.
+         The jury brought in the verdict.
+         Charges were brought against the defendant. 
+      </examples>
+      <mappings>
+      <wn version="3.0">2,3,5,7,8,10</wn>
+         <wn lemma="bring_about" version="3.0">2</wn>
+         <wn lemma="bring_around" version="3.0">1,2,3</wn>
+         <wn lemma="bring_back" version="3.0">2</wn>
+         <wn lemma="bring_down" version="3.0">2,3,5,6</wn>
+         <wn lemma="bring_forward" version="3.0">2</wn>
+         <wn lemma="bring_in" version="3.0">1,4</wn>
+         <wn lemma="bring_on" version="3.0">1,2,3</wn>
+         <wn lemma="bring_round" version="3.0">1,2</wn>
+         <wn lemma="bring_through" version="3.0">1</wn>
+         <wn lemma="bring_to" version="3.0">1</wn>
+         <wn lemma="bring_out" version="3.0">2,4</wn>
+         <wn lemma="bring_up" version="3.0">3</wn>
+         <wn lemma="bring_down" version="3.0">3</wn>
+         <wn lemma="bring_forth" version="3.0">1,3,4</wn>
+         <wn lemma="bring_on" version="3.0">1</wn>
+         <wn lemma="bring_to_bear" version="3.0">1</wn>
+         <wn lemma="bring_home" version="3.0">1</wn>
+         <omega/>
+         <pb>bring.02,bring.03,bring.04,bring.05,bring.06,bring.07</pb>
+         <vn>engender-27,establish-55.5-1</vn><fn>Causation,Accomplishment,Cause_to_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="earn on some commerical or business transaction" type="">
+      <commentary>
+       NOTE: Includes 
+             BRING IN
+             BRING HOME
+      </commentary>
+      <examples>
+         The merger brought in millions of dollars.
+         She brings home over a hundred thousand dollars a year as a doctor.  
+         Our Breckenridge painting brought 55,000 dollars. 
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="bring_in" version="3.0">2,3</wn>
+         <wn lemma="bring_home" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>earn-54.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cause to develop, emerge" type="">
+      <commentary>
+       Includes: BRING OUT 
+          Note: compare to senses 1 and 3
+      </commentary>
+      <examples>
+        The teacher tried to bring out the shy boy.
+        You bring out the patient side of me.
+        It is very important for a therapist to bring out the patient's independence.
+      </examples>
+      <mappings>
+         <wn lemma="bring_out" version="3.0">6</wn>
+         <omega/><pb>bring.01</pb>
+         <vn>remedy-45.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="persuade to act" type="">
+      <commentary>
+       NP1[instrumental] BRING NP2[agent] to [predicate]
+        Includes: BRING ONESELF
+      </commentary>
+      <examples>
+        The confession of one of the accused brought the others to admit to the crime.
+        He could not bring himself to call his parents.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <wn lemma="bring_oneself" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>urge-58.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="6" name="raise or rear offspring" type="">
+      <commentary>
+        Includes: BRING UP
+      </commentary>
+      <examples>
+        This is a great neighborhood in which to bring up a family.
+        She was brought up by her aunt.
+      </examples>
+      <mappings>
+         <wn lemma="bring_up" version="3.0">2</wn>
+         <omega/><pb>bring.02</pb>
+         <vn>remedy-45.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="succeed through a plan of action" type="">
+      <commentary>
+      Note:  official, formal usage
+        Includes: BRING OFF
+      </commentary>
+      <examples>
+        The veteran Irish stylist brought off one of the biggest literary coups.
+        After only eight minutes Attard's keeper Mizzi brought off a fine save.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="bring_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>complete-55.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="cause an operating system to load" type="">
+      <commentary>
+        Includes: BRING UP
+      </commentary>
+      <examples>
+        On the website I am building I have links to bring up Windows Media and Winamp.
+        Pressing F8 when booting will bring up Windows 95 boot menu. 
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="bring_up" version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="cause to come to a sudden stop" type="">
+      <commentary>
+        Includes: BRING UP
+      </commentary>
+      <examples>
+        Bracebridge had brought up the horse on which he had been riding to a stand.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="bring_up" version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

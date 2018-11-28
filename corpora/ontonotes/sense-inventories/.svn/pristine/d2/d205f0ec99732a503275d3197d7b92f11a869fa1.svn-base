@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="scratch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cut into a surface by scraping and causing friction" type="">  
+      <commentary>
+        Includes: SCRATCH UP
+        Note: includes abstract uses.
+      </commentary>
+      <examples>
+        We have just scratched the surface of the Cuneiform study.
+        They found many PS2 consoles which scratched the game discs.
+        Siddhartha scratched the boulder and the frogs.
+        The carpet scratched up the CD and now it skips when we try to play it.
+        Don't scratch your mosquito bites!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,7</wn>   
+         <wn lemma="scratch_up" version="3.0">1</wn>
+         <omega></omega><pb>scratch.01</pb>
+         <vn>cut-21.1-1,hurt-40.8.3-2,swat-18.2,wipe_manner-10.4.1-1</vn><fn>Damaging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove something (as if) by erasing" type="">
+      <commentary>
+        Includes: SCRATCH OUT
+      </commentary>
+      <examples>
+        Scratch that last remark, I was mistaken.
+        Scratch the meeting tomorrow, the chair had to leave for a family
+        emergency.
+        We don't need lemons any more, you can scratch that off the list.
+        He scratched out that last sentence, it was all wrong.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="scratch_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="collect or obtain items over time with difficulty" type="">
+      <commentary>  
+        Includes: SCRATCH ALONG, SCRATCH OUT
+      </commentary>
+      <examples>
+        We can bearly scratch together enough wheat for bread.
+        The company can't scratch much profit out of their already
+        exhausted stock.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="scratch_along" version="3.0">1</wn>
+         <omega></omega><pb>scratch.01</pb>
+         <vn>rummage-35.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="write down quickly" type="">
+      <commentary>
+        Includes SCRATCH OFF, SCRATCH DOWN
+      </commentary>
+      <examples>
+        The boss scratched off a quick note to say he'll be right back.
+        The bartender scratched down her phone number.      
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="scratch_off" version="3.0">1</wn>
+         <omega></omega><pb>scratch.03</pb>
+         <vn>scribble-25.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="5" name="SCRATCH AROUND: search, rummage" type="">
+      <commentary>
+        Is: SCRATCH AROUND
+      </commentary>
+      <examples>
+        The chickens scratched around the coop for seeds.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>scratch.04</pb>
+         <vn>rummage-35.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

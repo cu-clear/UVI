@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="season-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Lend flavor to something, perhaps metaphorically." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Season the chicken breast after roasting it.
+      You should season that dish more.
+      Emeril likes to season everything.
+      He seasoned the story with a good dose of gossip.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>season.01</pb>
+         <vn>fill-9.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make physically fit." type="">
+      <commentary>
+      Syntax Is: NP1[agent] SEASON NP2[patient[animate]]
+      </commentary>
+      <examples>
+      This trip will season even the hardiest traveller.
+      The coach seasoned the players during Spring Training.
+      We have to season our soldiers for the horrors of war.
+      It takes years to season a horse for the Triple Crown.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Make more temperate, acceptable, or suitable." type="">
+      <commentary>
+      Syntax Is: NP1[agent] SEASON NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      She seasoned her methods of criticism over years of conference
+      attendance.
+      He seasoned his management style during his time with the company.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="4" name="Oil cure cast iron in preparation for use." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Season the pan before using it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

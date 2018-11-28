@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ruffle-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="disturb; stir up; shuffle" type="">
+      <commentary>
+        Includes: RUFFLE UP
+
+        NP1[+agent] RUFFLE (UP) NP2[-animate, +concrete]
+      </commentary>
+      <examples>
+        Frantically, she ruffled through the papers.
+        The chicken ruffled its feathers when the fox ran by.
+        If you ruffle the surface of the water, you'll scare the fish.
+        She turned the TV off and ruffled up the bed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5,6,7,8</wn>
+         <wn lemma="ruffle_up" version="3.0">1</wn>
+         <omega></omega><pb>ruffle.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="upset; trouble; discompose" type="">
+      <commentary>
+        Includes: RUFFLE FEATHERS (metaphorical usage), RUFFLE UP
+
+        NP1[+theme/+agent] RUFFLE (PP) NP2[+human]
+      </commentary>
+      <examples>
+        This play will ruffle the upper class.
+        She has a way of ruffling feathers around the office.
+        Lady Macky ruffles easily because of her delicate sensibilities.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ruffle.01</pb>
+         <vn>amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="strut around usu. to impress someone" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He ruffled around the party looking like a peacock.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="gather into pleats" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        To make a good curtain, you have to ruffle it at the top.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>
+</inventory>

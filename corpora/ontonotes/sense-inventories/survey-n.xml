@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="survey-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="study" type="Event">
+        <commentary>
+	    SURVEY[+event]
+	    A scientific study that usually involves asking the opinions of many people.
+	    Can also refer to the results of such a study.
+	    </commentary>
+        <examples>
+            A survey of the consumers revealed that our new product tastes terrible.
+            Hello, I'm conducting a telephone survey about your favorite toothpaste brands.
+            Bush's popularity plummets, survey says.
+            Reading the Zagat Survey is a trusted method of finding new Italian places in Philadelphia.
+            The British government has launched a new survey of its voters.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>survey.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="piece of paper" type="Entity">
+        <commentary>
+            The physical document that a scientific study uses to collect opinions.  The paper that asks the questions.
+            Only use this sense when the physical document is clearly being referred to.
+        </commentary>
+        <examples>
+            I handed him a short survey, and he filled it out with a red pen.
+            Have we collected all the surveys from the participants?
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="summary" type="Abstraction">
+        <commentary>
+            A short, descriptive summary of events or information; a metaphoric way of looking something over.  
+            Often used to refer to introductory academic classes.
+        </commentary>
+        <examples>
+            I'm in a survey course that covers all the basics.
+            He wrote a short survey of his idea.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="seeing" type="Event">
+        <commentary>
+	    SURVEY[+event]
+	    The act of looking at something.  Often used scientifically to refer to the exploration and mapping of new areas.
+	    </commentary>
+        <examples>
+            My initial survey of the patient gave me an idea of his injuries.
+            His survey of the battlefield was limited.
+            NASA is going to use an airplane for its next Mars survey.
+            The Geologic Survey Team met disaster when exploring the volcano.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega/><pb>survey.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

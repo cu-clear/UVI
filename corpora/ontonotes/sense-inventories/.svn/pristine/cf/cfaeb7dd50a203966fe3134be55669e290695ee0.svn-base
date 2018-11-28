@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="worship-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="idolize/show devotion to" type="">  
+      <commentary>
+        NP1 WORSHIP NP2
+      </commentary>
+      <examples>
+        Many teenagers worshiped the Beatles.
+        Many Hindus worship Shiva.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>admire-31.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="attend religious services" type="">
+      <commentary>
+        NP1 WORSHIP
+      </commentary>
+      <examples>
+        They worship in the traditional manner.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

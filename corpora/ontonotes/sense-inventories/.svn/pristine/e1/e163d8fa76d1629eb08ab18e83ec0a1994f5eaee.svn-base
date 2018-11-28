@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pluck-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pick or pull out sharply to gather or remove" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] PLUCK NP2[patient[concrete]] (PP[locative])
+      </commentary>
+      <examples>
+        She plucked flowers in the garden.
+        Please pluck the chickens for dinner tonight.
+        The teacher plucked a pen from the case and started writing
+        frantically.
+        The hawk plucked the field mouse from the road.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pluck.01</pb>
+         <vn>braid-41.2.2,get-13.5.1,wipe_manner-10.4.1-1</vn><fn>Removing,Grooming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="pull lightly as strings on an instrument" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PLUCK NP2[patient[concrete]]
+        Includes: PLUCK AT
+        NOTE: Compare to sense 1. In this sense, the NP2 (thing being
+        plucked) does not get removed from it's location.
+      </commentary>
+      <examples>
+        The musician plucked the strings of his mandolin.
+        Arrie plucked at the loose threads on her dress. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="pluck_at" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="buy or sell in an underhanded manner; overprice; rip off" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Mark was a salesman who plucked you for all you had.
+        The dealer plucked these designer bags off the streets of Prague.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

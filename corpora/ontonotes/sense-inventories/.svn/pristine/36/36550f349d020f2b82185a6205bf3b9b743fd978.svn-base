@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pound-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a measurement of weight" type="">
+        <commentary>
+            POUND[+quantity][+measure][+weight]
+        </commentary>
+        <examples>
+            John gained ten pounds over the holidays.
+            Marathon runners can lose pounds during a 26-mile race.
+            I bought a ten-pound bag of flour.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a measure of force" type="">
+        <commentary>
+            POUND[+quantity][+measure][+force]
+        </commentary>
+        <examples>
+            This recipe says to have the pressure cooker at twelve pounds of pressure.
+            A filled scuba tank has about 3000 pounds per square inch of pressure.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="unit of currency, e.g., British, Egyptian" type="">
+        <commentary>
+            POUND[+entity][+currency][+unit]
+        </commentary>
+        <examples>
+            An Egyptian pound is worth about 6 euros.
+            It cost twelve British pounds sterling.
+            100 piasters make up a Lebanese pound.
+            We changed our pounds to euros at a bank.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4,5,6,7,8,9</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="a public enclosure for animals, as dogs" type="">
+        <commentary>
+            POUND[+enclosure][+animal]
+        </commentary>
+        <examples>
+            We picked Fido up at the pound.
+            This domestic salmon was raised in a fish pound.
+            Dogs without current licenses will be taken to the pound.
+        </examples>
+        <mappings>
+            <wn version="3.0">13</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="5" name="the physical act of striking or hammering" type="">
+        <commentary>
+            POUND[+action][+physical][+striking]
+        </commentary>
+        <examples>
+            We heard the pound of the surf from our balcony.
+            The fighter couldn't take the pounds from the heavyweight champion.
+            The pound of horses hooves filled the cobblestone streets.
+        </examples>
+        <mappings>
+            <wn version="3.0">14</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

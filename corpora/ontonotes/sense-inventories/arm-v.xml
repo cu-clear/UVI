@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="arm-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="equip, provide with weapons" type="">  
+      <commentary>
+      Sytnax Is:  NP1[agent] ARM NP2[recipient] (PP[patient[weapon]])
+       Note: NP2 recipient may be reflexive
+      </commentary>
+      <examples>
+        She armed the others and told them to stand by.
+        He said it was time we armed the National Guard on the border patrol with real bullets.
+        They armed themselves with bows and spears, snatching guns when they could. 
+        They have armed themselves with a long-term strategy for running their finances.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>arm.01</pb>
+         <vn>equip-13.4.2-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="activate, make ready" type="">
+      <commentary>
+        NP1[agent] ARM NP2[theme[inanimate]]
+      </commentary>
+      <examples>
+        About that time, we armed the automatic system.
+        He armed the BFGs and pointed them at the cottage.
+        She armed the door and sat down on her jumpseat opposite my row.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>arm.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>  
+</inventory>

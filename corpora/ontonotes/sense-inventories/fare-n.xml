@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fare-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a sum charged for using public or commercial transportation" type="">
+        <commentary>
+            FARE[+quantity][+money][+fee][+transportation]
+        </commentary>
+        <examples>
+            Mary gave her son some money for bus fare.
+            Subway fares are going up next month.
+            John found a cheap one-way fare on Delta to Miami.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a paying passenger" type="">
+        <commentary>
+            FARE[+entity][+person][+passenger][+paying]
+        </commentary>
+        <examples>
+            The cabby told me I was his last fare for the evening.
+            He's on his way to pick up a fare on South Broadway.
+            THe drivers' have complained that their fares don't tip very much.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="something offered as sustenance, usually food" type="">
+        <commentary>
+            FARE[+entity][+substance][+sustenance][+physical[+food]/+informational[+entertainment/+news]]
+        </commentary>
+        <examples>
+            The daily fare of these villagers is some boiled rice and a small piece of fish.
+            That restaurant specializes in Mediterranean and North African fare.
+            Critics described the film as conventional Hollywood fare. 
+            The bill of fare tonight includes comedy skits by our own Bob Brown!
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="substitute-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put one thing in the place of another" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SUBSTITUTE NP2[theme] (FOR/INTO NP3[theme].)
+        Note: An agent manipulates a theme.
+      </commentary>
+      <examples>
+       I've noticed that my local paper has substituted the word 'pot' for marijuana.
+       You can substitute broiled fish for the beef if you prefer.
+       The transmission improved when he substituted a steel wire for the brass one.
+       I substituted several players in the first quarter. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>substitute.01</pb>
+         <vn>exchange-13.6-1-1</vn><fn>Replacing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take the place of; replace; fill in for a social functional role" type="">
+      <commentary>
+        Syntax is: NP1[theme] SUBSTITUTE NP2[theme].
+        Note: An agent in this case (see final example) is also the theme of the argument (the thing substituting).
+      </commentary>
+      <examples>
+        A wild substitutes for any other symbol to complete winning combinations.
+        Greeting cards substitute for direct communication.
+        A portfolio substitutes for two writing seminars in your last year.
+        Missing motherly love can never be substituted by anything else during childhood.
+        I substituted for the preacher often during his wife's pregnancy.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>substitute.01</pb>
+         <vn>NM</vn><fn>Take_place_of</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="fill in for a teacher"
+         type="">
+      <commentary>
+        Includes: SUBSTITUTE TEACH
+        Note: Compare to Sense 2: Sense 3 has same syntactic structure but is
+        specific to teaching.
+    </commentary>
+      <examples>
+        I substitute for the Longmont School District.
+        To substitute teach in this school district, you need to have hours of community service.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

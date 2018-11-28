@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="see-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="perceive/view by sight" type="">
+      <commentary>
+         Note: This refers to input (as if) through the eyes.
+      </commentary>
+      <examples>
+         Can you see the bird in that tree?
+         His fumbling the ball was seen on TV by millions of viewers.
+         The camera saw the burglary and recorded it.
+         I must see your passport before you can enter the country.
+         Don't drive after taking the medication. It will make you see
+         double.
+         They are planning to see two museums tomorrow.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7,13,19,20</wn>
+         <wn lemma="see_double" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>see-30.1-1-1</vn><fn>Perception_experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="perceive or understand mentally" type="">
+      <commentary>
+        Note: Includes perceiving through imagination, experiencing, observing.
+      </commentary>
+      <examples>
+         I just can't see your point.
+         They saw a risk in his strategy.
+         I am not seeing this situation as hopeless.
+         I see what you mean.
+         Did you see any encouragement from him?
+         You'll see a lot of cheating in this school.
+         He saw action in Vietnam.
+         I see that you have been promoted.
+         I saw Berlin before the Wall came down.
+         1960 saw the rebellion of the younger generation against
+         established traditions.
+         As an artist, you must learn to see.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,6,13,17,21,24</wn>
+         <omega/><pb>see.01</pb>
+         <vn>characterize-29.2-1,consider-29.9-1-1,see-30.1-1-1</vn><fn>Grasp,Categorization,Perception_experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="verify, prove, check or insure by actively examining (evidence)" type="">
+      <commentary>
+        NP[agent] SEE (SCOMP)
+      </commentary>
+      <examples>
+         He's going to see whether the train will leave on time.
+         See whether you can come tomorrow.
+         He went to see if the valves were indeed closed.
+         Let's see.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,10,18</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="take care of, take responsilibity, escort" type="">
+      <commentary>
+        NP1[agent] SEE PP
+      </commentary>
+      <examples>
+         Can you see about this matter at once?
+         Jeff's job is to see to it that the visitors get the proper reception.
+         Jeeves will see you to the door.
+         The sponsor has promised us to see the project to completion.
+         See to it!
+      </examples>
+      <mappings>
+         <wn version="3.0">14,22</wn>
+         <wn lemma="see_to_it" version="3.0">1</wn>
+         <omega/><pb>see.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="meet or encounter socially or professionally" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         How nice to see you again!
+         He's been seeing a therapist for two years.
+         She hasn't seen her mother in six months.
+         The doctor will see you now.
+         His wife thinks he's seeing another woman.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,11,12,15,16</wn>
+         <omega/><pb>see.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="match as in poker game" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         I'll see you and raise you ten.
+      </examples>
+      <mappings>
+         <wn version="3.0">23</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="multi-word expressions" type="">
+      <commentary>
+        Includes: SEE RED, SEE THE LIGHT, SEE EYE TO EYE
+        Note: This sense includes multi-word expressions and not phrasal
+        verbs. These are colloquial.
+      </commentary>
+      <examples>
+        When I saw that man hit my mother, I saw red.
+        The lazy student finally saw the light.
+        We never saw eye to eye on this question.
+      </examples>
+      <mappings>
+         <wn lemma="see_red" version="3.0">1</wn>
+         <wn lemma="see_the_light" version="3.0">1</wn>
+         <wn lemma="see_eye_to_eye" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

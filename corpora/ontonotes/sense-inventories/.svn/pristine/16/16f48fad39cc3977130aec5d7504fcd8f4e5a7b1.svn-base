@@ -1,0 +1,32 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="debut-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="The act of beginning something new." type="Event">
+        <commentary>
+        DEBUT[+event]
+        </commentary>
+        <examples>
+        They looked forward to the debut of the new product line.
+        The film has its debut this Friday. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>debut.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The presentation of a debutante in society." type="Event">
+        <commentary>
+        DEBUT[+event][+human]
+        </commentary>
+        <examples>
+        She made her debut yesterday at the ball.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

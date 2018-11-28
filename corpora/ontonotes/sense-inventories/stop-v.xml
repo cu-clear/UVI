@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stop-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="halt, quit, discontinue something" type="">
+      <commentary>
+       Note: this involves stopping an action/event that has already begun.
+      </commentary>
+      <examples>
+       The car stopped at the red light.
+       Stop worrying so much!
+       I couldn't stop the baby's crying.
+       They stopped production of the new drug after three patients using it died.
+       The committee will stop at noon for a two-hour lunch break.
+       The sexual revolution of the 1960s has been stopped dead in its tracks by the AIDS epidemic.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5,6,11</wn>
+         <omega/><pb>stop.01</pb>
+         <vn>stop-55.4-1</vn><fn>Halt,Activity_stop,Process_stop</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="check, contain or prevent something" type="">
+      <commentary>
+        Syntax is: NP1[agent] STOP NP2
+        Note: This involves preventing an action/event from beginning.
+      </commentary>
+      <examples>
+       These measures may stop a new flu epidemic, should one arise.
+       They hope this will stop interest rates from rising further.
+       She doesn't believe the new policies have stopped the spread of terrorism.
+       The fighter jets stopped the intruding aircraft before it reached the capitol.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,7,8</wn>
+         <omega/><pb>stop.03</pb>
+         <vn>forbid-67-1</vn><fn>Preventing,Thwarting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="visit or travel to" type="">
+      <commentary>
+       Syntax is: NP1 STOP PP[locative]
+       Includes: STOP OVER
+      </commentary>
+      <examples>
+        On all those trips, he never managed to stop in Japan.
+        Will you be stopping at the club this evening?
+        That train stops in Denver but not in Phoenix.
+        Let's stop at Aunt Jane's house on Halloween.
+        We had to stop over in Venezuela on our flight back from Brazil.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="stop_over" version="3.0">1,2</wn>
+         <omega/><pb>stop.01,stop.02</pb>
+         <vn>lodge-46</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="have a boundary or terminating point" type="">
+      <commentary>
+        NP1[agent] STOP PP[attribute of NP1]
+      </commentary>
+      <examples>
+        His property stops at the fence.
+        The countryside stopped abruptly at the edge of the large chemical plant. 
+        Their guilt doesn't stop with just the intent to commit fraud, they actually committed it.
+        The second momement stops on a bright E-major chord.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>terminus-47.9</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="barricade, block up, plug" type="">
+      <commentary>
+       Includes: STOP UP
+      </commentary>
+      <examples>
+         The police stopped the bus road leading out of town.
+         He stopped up the broken window with his gloves.
+         He stopped up the chimney and the smoke thickened.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="stop_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>fill-9.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

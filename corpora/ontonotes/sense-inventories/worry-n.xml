@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="worry-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a cause or source of anxiety, concern" type="">
+        <commentary>
+            WORRY[+cause][+effective][+anxiety]
+            Note: refers to an external cause of concern, not an internal emotion
+            Note: of the form X BE worry
+        </commentary>
+        <examples>
+            Her son has been a constant source of worry for her.
+            One of their biggest worries at the event will be crowd control.
+            Inflation remains a worry for the economy. ('remain' implies 'be')
+            Terrorists are a continuing worry to the airline industry. (Note difference in structure here from related sentence in Sense 2)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an emotional state of anxiety" type="">
+        <commentary>
+            WORRY[+state][+emotional][+anxiety]
+            Note: refers to an internal emotional state of anxiety
+            Note: of the form X's worry, or 'there is worry THAT S' (a proposition)
+        </commentary>
+        <examples>
+            John's worries about money kept him awake at night.
+            I could see the worry in her face.
+            There is some worry that terrorists could jam satellite communications. (implies a proposition, which is a belief/concern held by someone)
+            Bob's worry is that he may get laid off next month.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

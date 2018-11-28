@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="beat-vpc-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="BEAT OUT--come out better in a competition" type="1">
+      <commentary>
+      Syntax Is:  NP1 BEAT OUT NP2
+      </commentary>
+      <examples>
+        Steve beat out his brothers for a spot on the team.
+      </examples>
+      <mappings>
+         <gr_sense>1</gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_out" version="3.0">1</wn>
+         <omega></omega><pb>beat.03,beat.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="BEAT OUT--create by tapping" type="2">
+      <commentary>
+      Syntax Is:  NP1 BEAT OUT NP2
+      </commentary>
+      <examples>
+        The instructor beat out the rhythm for the dancers.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause to move through force" type="2">
+      <commentary>
+        Includes: BEAT BACK; BEAT DOWN
+      </commentary>
+      <examples>
+        We beat back our attackers with a volley of snowballs.
+        She beat him down to a better price.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_back" version="3.0">1</wn>
+         <wn lemma="beat_down" version="3.0">1</wn>
+         <omega></omega><pb>beat.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="BEAT UP--give a beating to" type="3">
+      <commentary>
+      Syntax Is:  NP1[agent] BEAT UP NP2[patient]
+      </commentary>
+      <examples>
+        He beat up that guy who was kissing his girlfriend.
+      </examples>
+      <mappings>
+         <gr_sense>2</gr_sense> 
+         <wn version="3.0"></wn>
+         <wn lemma="beat_up" version="3.0">1</wn>
+         <omega></omega><pb>beat.05</pb>
+         <vn>NM</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="BEAT UP--drum up, rally" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] BEAT UP NP2
+      </commentary>
+      <examples>
+        The beat up support for the candidate.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_up" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="BEAT IN--teach by drills" type="">
+      <commentary>
+        BEAT IN
+      </commentary>
+      <examples>
+        My mother beat in the multiplication facts when I was little.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_in" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="BEAT ABOUT--search" type="">
+      <commentary>
+        Is: BEAT ABOUT
+      </commentary>
+      <examples>
+        He beat about for a solution to the problem.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_about" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="multiword expressions" type="">
+      <commentary>
+        Includes: BEAT A RETREAT; BEAT AROUND THE BUSH
+      </commentary>
+      <examples>
+        When he saw Sam coming, he beat a hasty retreat.
+        Stop beating around the bush and just tell me what you think.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="beat_a_retreat" version="3.0">1</wn>
+         <wn lemma="beat_around_the_bush" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

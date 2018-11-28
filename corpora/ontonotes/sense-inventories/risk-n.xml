@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="risk-n">
+    <commentary>Included the idiom at_risk
+        11dec08 merged S2 with S3. Revised features and commentary. ahouston
+    </commentary>
+    <sense group="1" n="1" name="a source or agent of harm, a threat" type="">
+        <commentary>RISK[+role][+agent][+cause][+of_harm][+threat]
+            Note: Choose this sense if 'menace' or 'threat' can be substituted for 'risk'
+        </commentary>
+        <examples>The high-speed traffic on that road is a risk to the wildlife that cross it.
+            Nuclear waste could present a contamination risk for the water supply.
+            This medication may pose risks for pregnant women.
+            All this dry underbrush is creating a serious fire risk.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="Do Not Choose: Placeholder Sense" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="the probability or likelihood of a bad outcome" type="">
+        <commentary>RISK[+quantity][+measure][+probability][+of_outcome][+bad]
+            Note: Choose this sense if 'risk' can be easily replaced with 'probability' or 'chance'
+        </commentary>
+        <examples>This insurance policy explicitly does not cover flood risk.
+            The risk of a heart attack is greater for smokers than for non-smokers.
+            He was considered a poor risk for that new surgical procedure. (low probability of success)
+            Junkies and prostitutes engage in behavior that is high risk. (implies high probability of something bad)
+            This drug has only a low risk of side effects.
+            There is more risk capital available than before for startups. (capital for funding endeavors with uncertain outcomes)
+            The NASA director chatted about the risks and rewards of overseeing a planetary launch. 
+            Navigating the two nations towards a peace settlement is not without risk. 
+            Clean your wound every day to reduce the risk of infection.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,4</wn><omega/>
+            <pb>risk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="vulnerable to a specific harm or peril" type="">
+        <commentary>Idiom: at risk</commentary><examples>These children are considered to be the most at risk for dropping out of school.
+            With its stock plummeting, that company may be at risk for a hostile takeover.
+            Why put yourself at risk unnecessarily, get your flu vaccination today.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">idiom</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

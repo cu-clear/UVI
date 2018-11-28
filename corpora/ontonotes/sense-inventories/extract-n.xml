@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="extract-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an excerpted passage of a document or discourse" type="">
+        <commentary>
+            EXTRACT[+artifact][+document][+passage][+selected]
+            [+information][+subset][+of_discourse]
+        </commentary>
+        <examples>
+            The paper reprinted several extracts from his speech.
+            The professor had the class read extracts from Hume's philosophical writings.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a liquid solution with a concentration of an active ingredient" type="">
+        <commentary>
+            EXTRACT[+artifact][+preparation][+liquid][+with_concentration][+of_ingredient][+active]
+        </commentary>
+        <examples>
+            The recipe calls for a teaspoon of vanilla extract.
+            Angostora bitters is a special formula with herbal and citrus extracts.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

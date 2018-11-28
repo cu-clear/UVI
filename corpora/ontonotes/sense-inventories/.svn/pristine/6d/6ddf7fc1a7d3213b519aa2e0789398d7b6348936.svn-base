@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="undertaking-n">
+    <commentary>
+        12sep06 added senses 3,4, added features, examples.update to WN1.2 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="A project" type="">
+        <commentary>
+	    UNDERTAKING[+event][+activity][+ongoing][+project]
+	    Refers to the project or ongoing effort.
+	    </commentary>
+        <examples>
+            The construction of the the Hoover Dam was a massive undertaking for the U.S. government.
+            Designing these protocols shouldn't be a huge undertaking.
+            It was a massive military undertaking involving 100,000 troops.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>undertaking.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Funeral direction" type="Activity">
+        <commentary>
+            UNDERTAKING[+activity][+ongoing][+livelihood][+management][+funeral]
+            The trade of a funeral director; what an undertaker does every day.  
+        </commentary>
+        <examples>
+            Bob's father does undertaking for a living.
+            Sally found several funeral parlors in the phone book under the heading of 'undertaking'.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a formal pledge, a speech act" type="Activity">
+        <commentary>
+            UNDERTAKING[+action][+speech_act][+pledge][+formal]
+        </commentary>
+        <examples>
+            He gave an undertaking that they would proceed with the legislation.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="initiation of an effort or commitment to something" type="Event">
+        <commentary>
+            UNDERTAKING[+action][+punctual][+initiation][+commitment]
+            Note: nominalization of the form 'undertaking of X', refers to the commencement of a project, not the project itself over its duration (see Sense 1)
+        </commentary>
+        <examples>
+            The court concluded that Pete had engaged in a knowing undertaking of the obligation.
+            The surgeons were hesitant in their undertaking of the new surgical procedure on the child.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>undertaking.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

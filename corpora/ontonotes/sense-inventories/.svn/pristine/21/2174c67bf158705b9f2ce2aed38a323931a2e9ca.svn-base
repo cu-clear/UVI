@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="payment-n">
+    <commentary>
+        Added examples and commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="cash, a financial sum" type="">
+        <commentary>
+            PAYMENT[+quantity][+sum][+money]
+            a sum of money paid
+        </commentary>
+        <examples>
+            His payment was in the briefcase shackled to his wrist.
+            The down payment is $10,000.
+            I'll take my payment in French pastries. (extension)
+            Your payment should arrive tomorrow in the mail.
+            She received no disability payments after her spinal injury.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>payment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="act of paying, compensating or settling" type="Event">
+        <commentary>
+            PAYMENT[+event][+settlement][+financial]
+            the act of paying money
+            Note: doesn't normally occur in the plural.
+        </commentary>
+        <examples>
+            Payment after the lawsuit took almost six months.
+            The regular payment of credit card bills will keep you from incurring late fees.
+            The payment of Third World debt will be discussed at the upcoming economic summit.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>payment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

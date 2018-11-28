@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="disappearance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="something in a state of unknown location" type="">
+        <commentary>
+            DISAPPEARANCE[+state][+location][+unknown]
+            Note: implies the object is not visible, it's whereabouts are unknown, but it is assumed to exist somewhere.
+        </commentary>
+        <examples>
+            The police are investigating the woman's disappearance.
+            The museum is offering a reward for any information regarding the disappearance of their Piero della Francesca pieces.
+            The cat showed up at its home after a four-day disappearance.
+            The disappearance of the rabbit down a hole intrigued Alice.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of no longer existing" type="">
+        <commentary>
+            DISAPPEARANCE[+state][-existence]
+            Note: implies the object no longer exists.
+        </commentary>
+        <examples>
+            He regretted the disappearance of Greek from school curricula.
+            They are concerned about the disappearance of much of the rain forest.
+            Mary marveled at the disappearance of the stain from the white fabric.
+            The new treatment resulted in a total disappearance of the tumor.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sieve-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Distinguish, sort, or separate out." type="">  
+      <commentary>
+      Includes: SIEVE OUT
+      Note: May be metaphorical 
+      </commentary>
+      <examples>
+      The company sieved the job applicants.
+      Sieve out those samples from the bad ones.
+      The customer sieved through the selection.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="sieve_out" version="3.0">1</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Separate by passing through a straining device." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Sieve the flour before mixing.
+      We should sieve the mud from the dig site.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>disassemble-23.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

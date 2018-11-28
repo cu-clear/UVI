@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pad-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Add (false or superfluous) information to." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] PAD NP2[patient] (PP{with NP[material[abstract]]})
+      Note: The 'with' NP is always [abstract], unlike in Sense 3. See examples below. 
+      </commentary>
+      <examples>
+      He padded the novel (with character descriptions).
+      She padded her report (with made-up statistics).
+      I always pad my emails (with distracting information so my boss ignores my mistakes).
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pad.01</pb>
+         <vn>fill-9.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Walk heavily and firmly (like a cat) as when weary or
+         over soft terrain." type="">
+      <commentary>
+      Syntax Is: NP1[agent] PAD PP[directional]
+      </commentary>
+      <examples>
+      The tiger padded around its cage.
+      Mules padded in a circle around a grindstone.
+      Jan padded up to the grave and stared down in remorse.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>run-51.3.2-1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Line or stuff with soft material." type="">
+      <commentary>
+      Syntax Is: NP1[agent] PAD NP2[patient] (PP{with NP[material[concrete]]})
+      Note: The 'with' NP is always [concrete], unlike in Sense 1. See
+      examples below.
+      </commentary>
+      <examples>
+      Companies pad bras with all sorts of things.
+      Pad the seat of that chair before we try to sell it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>fill-9.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="PAD ONE'S WALLET/PURSE/COFFER: Steal money,
+         as from a company, transaction, or campaign." type="">
+      <commentary>
+      Is: PAD ONE'S WALLET, PAD ONE'S PURSE, PAD ONE'S COFFER(S)
+      </commentary>
+      <examples>
+      She has no problem scrapping civil liberties in order to pad her
+      purse.
+      My lawyer's been padding his wallet since day one.
+      Candidates pad their coffers all the time; politics is truly a business.   
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>fill-9.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

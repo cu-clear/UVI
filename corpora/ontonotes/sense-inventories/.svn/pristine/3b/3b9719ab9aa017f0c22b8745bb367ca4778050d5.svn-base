@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Change direction." type="">  
+      <commentary>
+    Syntax Is: NP1 [theme[concrete]] BEND 
+      NOTE: Always intransitive
+      </commentary>
+      <examples>
+      The road bends ahead.
+      The Monaco racecourse bends wildly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bend.01</pb>
+         <vn>meander-47.7</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Bend one's back forward from the waist on down." type="">
+      <commentary>
+      INCLUDES: BEND DOWN
+      </commentary>
+      <examples>
+      The kind gentleman bent to pick up the girl's purse.
+      I bent down to inspect the rock.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>assuming_position-50</vn><fn>Posture,Body_movement,Change_posture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Cause to) turn from a straight course,
+         fixed direction, or line of interest; cause to bend or give way." type="">
+      <commentary>
+      NOTE: Entity bent must be abstract.
+      NOTE: Compare to Sense 4; in Sense 3, there is no intent to falsify. 
+      </commentary>
+      <examples>
+      It is unlikely that presidential pleas will lead House Democrats to
+      bend.
+      I will not bend or break.
+      The author bent the story to an unpredictable, incredible conclusion.
+      Furthermore, it is also likely to encourage those on Capitol Hill
+      asking for cuts in the assistance to El Salvador if President
+      Cristiani does not bend to demands of the Marxist guerrillas. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bend.01,bend.02</pb>
+         <vn>NM</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Distort or modify with the intent to
+         falsify or make subjective." type="">
+      <commentary>
+      NOTE: Entity bent must be abstract.
+      </commentary>
+      <examples>
+      Reporters must strive never to bend the truth in order to make a more
+      interesting story.
+      Pressure was put on him to bend the report in a certain direction.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Bend a joint." type="">
+      <commentary>
+      NOTE: Body part must be specified.
+      </commentary>
+      <examples>
+      He painfully bent his elbow for the doctor, revealing the extent of
+      his injury.
+      I bent my knees.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>bend-45.2,spatial_configuration-47.6</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Cause to assume a crooked, angular, or
+         twisted form; (cause to) form a curve." type="">
+      <commentary>
+      NP1 [agent] BEND NP2 [patient,+concrete]
+      </commentary>
+      <examples>
+      The weightlifter could bend the metal rods without trouble.
+      The stick did not bend.
+      The last time I baked, I tried to bend the dough into a braid.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>bend-45.2,knead-26.5,spatial_configuration-47.6</vn><fn>Reshaping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="7" name="BEND OVER BACKWARD(S): try very hard to please
+         someone." type="">
+      <commentary>
+      IS: BEND OVER BACKWARD(S)
+      </commentary>
+      <examples>
+      She bends over backwards when she sees her mother in law.
+      He bent over backward to please her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bend_over_backwards" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

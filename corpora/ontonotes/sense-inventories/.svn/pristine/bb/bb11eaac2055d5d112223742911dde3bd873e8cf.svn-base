@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="guard-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="protect from danger or loss through vigilance" type="">
+      <commentary> 
+        Includes: GUARD AGAINST
+        Syntax Is: NP1[agent] GUARD NP2[patient[concrete]] (PP{against NP})
+        Note: NP2 can sometimes be a location, but it still needs to be
+        [+concrete] and when you use GUARD AGAINST, the third NP must be a threat
+        that is [+concrete]. When NP2 is a location, this sense applies to
+        BOTH keeping things in and keeping them out.    
+      </commentary>
+      <examples>
+        He is the hundred-headed dragon that guarded the Garden.
+        The school is being guarded by the prison guards of Azkaban.
+        Guard Your Exits!
+        Above all else guard your heart for it is the wellspring of life.
+        Does the public need to be guarded against us?
+        Then I guarded the prisoner in an interview room while the detectives put
+        their case together.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>guard.01</pb>
+         <vn>defend-72.2,captain-29.8-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="keep under control" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[animate]] GUARD NP2[patient[abstract]]
+        NP1[agent[human]] GUARD NP2[patient[human]] (use this structure only for the
+        basketball or other sports references.)
+        Note: includes basketball terminology
+        Note: Compare to sense 1.  NP2 is never a location but always an
+        inanimate entity which would be a danger and/or detrimental if was
+        allowed release.
+      </commentary>
+      <examples>
+        Anderson went from guarding players 3-4 inches shorter than him to guarding players 2 to 3 inches taller.
+        Guard your tongue in youth, and in age you may be of service to your people.
+        She asked Papa why he brought the pistol, and she cautioned him to guard his temper.
+        I will guard my thoughts, striving to maintain a pure and blameless mind.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>guard.01</pb>
+         <vn>defend-72.2,captain-29.8-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="GUARD AGAINST: take precautions, avoid a course of action" type="">
+      <commentary>
+        Is: GUARD AGAINST
+        Syntax Includes:
+        NP1[agent] GUARD AGAINST NP2[patient]
+        NP1[agent] GUARD AGAINST NP2[predicate]
+      </commentary>
+      <examples>
+        Here's eight ways for you to guard against identity theft.
+        Guard against becoming too friendly with the staff.
+        But one must guard against overestimating its importance.
+        When setting up a CSIRC, guard against adopting overly ambitious objectives at the beginning.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,corvey,clarklm" sample_score="-"/>
+</inventory>

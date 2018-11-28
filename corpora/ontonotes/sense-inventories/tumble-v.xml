@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tumble-v">    
+   <commentary>
+	Includes: VPC tumble dry
+   </commentary>
+
+   <sense group="1" n="1" name="fall or cause to fall" type="">  
+      <commentary>
+	Syntax includes: NP1[topic] TUMBLE PP[temporal]
+                         NP1[topic] TUMBLE PP[locative]
+	                 NP1[agent] TUMBLE NP2[patient] PP[instrument]
+	Note: implies moving to a lower position, physically or abstractly
+      </commentary>
+      <examples>
+	The buildings tumbled to the ground from the force of the earthquake.
+	The child tumbled the tower of blocks with his hand.
+	Their hopes for peace tumbled when the new government announced its intentions.
+	Energy stocks tumbled today in heavy trading.
+	His album has recently tumbled on the charts.
+	Their team has tumbled from first place after this loss.
+	I tumbled out of bed at five this morning. (figurative)
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5,8,10</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tumble.01</pb>
+         <vn>calibratable_cos-45.6-1,escape-51.1</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="whirl something about, roll over and over" type="">
+      <commentary>
+	Syntax includes: NP1[instrument] TUMBLE (DRY) NP2[patient]
+	                 NP1[topic] TUMBLE PP[locative]
+	Includes: TUMBLE DRY
+	Note: implies a repeated turning motion
+      </commentary>
+      <examples>
+	We are tumbling these rocks in order to polish them.
+	This fabric should be tumbled at low heat in the dryer.
+	I'll just tumble the towels dry.
+	The little boy kicked the stone and watched it tumble along the street.
+	He admitted to having tumbled her sister. (have sex, figurative use)
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,9</wn>
+         <wn lemma="tumble_dry" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>escape-51.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+     <sense group="1" n="3" name="toss together, jumble" type="">  
+      <commentary>
+	Syntax is: NP1[agent] TUMBLE NP2[patient] PP
+      </commentary>
+      <examples>
+	John tumbled some eggs and spices in a skillet and made an omelet. 
+	They tumbled the teams with no apparent pattern.
+	The bedclothes were tumbled in a heap.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>mix-22.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="understand, get wise to" type="">
+      <commentary>
+	Syntax is: NP1[animate] TUMBLE TO NP2[state]
+      </commentary>
+      <examples>
+	They don't tumble to the seriousness of this problem.
+	I think she's tumbled to our little joke.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+    <sense group="1" n="5" name="perform gymnastics" type="">  
+      <commentary>
+	Syntax is: NP1[topic] TUMBLE
+	Note: implies a purposeful, practiced activity.
+      </commentary>
+      <examples>
+	The girls are tumbling in the gym.
+	Sam broke his wrist while tumbling.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

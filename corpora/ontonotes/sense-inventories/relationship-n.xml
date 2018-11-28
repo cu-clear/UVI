@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="relationship-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="connection" type="Event">
+        <commentary>
+            Used interchangeably with 'relation'.  Refers to any connection between two things, including people.  
+            The bond between two things, treated as an abstract entity.
+        </commentary>
+        <examples>
+            I see no relationship between your words and your actions.
+            The two variables have an inverse relationship.
+            The Wall Street Journal published an article on the relationship between unemployment and inflation.
+            The relationship between a mother and her daughter is the strongest imaginable.
+            First cousins have a relationship by blood.
+            Unfortunately, John had no business relationships in South America.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 4
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="being emotionally connected" type="">
+        <commentary>
+	    RELATIONSHIP[+event]
+	    The quality of having an emotional connection, very often of the romantic variety.
+	    Does not refer to the connection itself.
+	    </commentary>
+        <examples>
+            John's wife found out about his adulterous relationship.
+            Are you in a long-term relationship right now?
+            We ended our relationship three years ago.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="being non-emotionally connected" type="Event">
+        <commentary>
+	    RELATIONSHIP[+event]
+	    The quality of having a connection, but not an emotional one.  Often used with business and international relations.
+	    Does not refer to the connection itself.
+	    </commentary>
+        <examples>
+            Intelli-Corp's friendly relationship with Microsoft was a huge asset.
+            A diplomatic relationship with China resumed in the 1970s.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

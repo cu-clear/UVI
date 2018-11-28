@@ -1,0 +1,105 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="copy-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="reproduction of a document" type="">
+        <commentary>
+            COPY[+artifact][+reproduction][+of_document]
+        </commentary>
+        <examples>
+            John had his secretary run off fifty copies of the report before the board meeting.
+            The author's most recent book has sold over 1 million copies.
+            Mary made a copy of her thesis on a CD and sent it to Bob.
+            My printer can only make black-and-white copies of these color prints.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>copy.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an imitation of an original artifact" type="">
+        <commentary>
+            COPY[+artifact][+imitation][+of_original]
+        </commentary>
+        <examples>
+            These handbags are fairly good copies of Gucci originals.
+            The painting turned out to be a copy of the masterpiece.
+            That video game is basically a copy of an earlier one, only with better graphics.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>copy.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="textual material that is scheduled to be printed" type="">
+        <commentary>
+            COPY[+artifact][+text][+scheduled][+for_printing]
+        </commentary>
+        <examples>
+            Copy for the next issue must be submitted to the editorial office by Tuesday.
+            The editor proofread the copy for John's latest magazine article.
+            She writes ad copy for a firm in New York.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="newsworthy content or information suitable for the media" type="">
+        <commentary>
+            COPY[+information][+content][+newsworthy][+for_media]
+        </commentary>
+        <examples>
+            It's an unfortunate truth that bad news makes good copy for the media.
+            Mary thought the copy of that television news magazine was too salacious for children.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a biological structure that is a replica" type="">
+        <commentary>
+            COPY[+structure][+biological][+replica]
+        </commentary>
+        <examples>
+            DNA replication produces a second new copy of double-stranded DNA from one original double strand of it.
+            Exposure to such toxins results in copies of skin cells that contain mutations.
+        </examples>
+        <mappings>
+            <wn version="Ann">-</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the act of replicating a biological component" type="">
+        <commentary>
+            COPY[+event][+reproduction][+of_component][+biological]
+        </commentary>
+        <examples>
+            The mechanism of copy as RNA transcription versus DNA replication has fewer proofreading mechanisms and is a process of somewhat lower fidelity.
+        </examples>
+        <mappings>
+            <wn version="Ann">-</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

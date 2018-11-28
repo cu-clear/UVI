@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pretend-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="behave unnaturally (to deceive), claim,
+   feign or act." type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] PRETEND TO NP2
+        NP1[agent] PRETEND (that) NP2
+        NP1[agent] PRETEND NP2
+      </commentary>
+      <examples>
+        Should Hillary pretend to be a flight attendant?
+        I'm pretending to be a tiger! Rawr!
+        Bogus calls pretend to be the police.
+        Pretend (that) the world has ended.
+        Let's pretend!
+        Never pretend to a love which you do not feel.
+        He pretended the title of King.
+        Melody pretended the role of predator in The Black Forest.
+        I cannot pretend to know the truth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4,5,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pretend.01</pb>
+         <vn>NP</vn><fn>Feigning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

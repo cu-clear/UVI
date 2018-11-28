@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recover-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="regain, get, acquire" type="">
+      <commentary>
+        Syntax Is: NP1[recipient] RECOVER NP2[patient]
+      </commentary>
+      <examples>
+	She managed to recover her voice and continue speaking.
+        I recovered my glasses at the restaurant.
+        Were their bodies recovered by the rescue divers?
+        John said he is recovering most of his financial losses from last year.
+        You can easily recover files that were accidently deleted under Windows.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,4</wn>
+	 <omega/><pb>recover.02</pb>
+         <vn>obtain-13.5.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="return to a previous, better state" type="">
+      <commentary>
+        Syntax Is: NP1 RECOVER[intransitive] (ADVP)(PP)
+      </commentary>
+      <examples>
+        Rarely do these patients fully recover so they can communicate.
+        The child is slowly recovering from the accident.
+        The town recovered quickly from the hurricane.
+        Stocks may not recover this year.
+        He still can't recover from the shock of his brother's death.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2,3</wn>
+	 <omega/><pb>recover.01</pb>
+         <vn>NM</vn><fn>Recovery</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+    <sense group="1" n="3" name="restore, reclaim" type="">
+      <commentary>
+       Syntax Is: NP1[agent] RECOVER NP2[patient[concrete]] PP[locative]
+      </commentary>
+      <examples>
+	They are recovering phosphates from that sewage.
+        He recovered the original finish on that antique table by stripping it
+        The town will begin to recover toxic waste from the old mine.
+      </examples>
+      <mappings>
+	 <wn version="3.0">5</wn>
+	 <omega/><pb>recover.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="physically cover" type="">
+      <commentary>
+        Syntax Is: NP1[agent] RECOVER NP2[patient[concrete]] ADVP[manner]
+      </commentary>
+      <examples>
+        She is recovering her dining chairs in green silk.
+        I want to recover the porch with a lighter stain.
+      </examples>
+      <mappings>
+	 <wn version="3.0">6</wn>
+	 <omega/><pb>recover.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

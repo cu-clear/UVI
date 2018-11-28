@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="test-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="undergo or cause to undergo assessment" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I'm testing a new recipe.
+        The teacher tests us every week.
+        She tested high on the LSAT and was admitted to all the good law schools.
+        She doesn't test well.
+        We tested the last three generations of titanium drivers.
+        Pilot Scott Crossfield tested the sky's--and the body's--limits.
+        Have your baby's hearing tested, the earlier the better.
+        We tested the effect of testosterone on such attention-related tasks.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5,7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>test.01</pb>
+         <vn>investigate-35.4</vn><fn>Examination</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="examine or be examined for properties or characteristics" type="">
+      <commentary>
+        Syntax is: NP1 TEST NP2 for NP3
+      </commentary>
+      <examples>
+        He tested positive for HIV.
+        We tested the mutants for basal slowing.
+        We tested the cells for the presence of active caspase-3.
+        The boy tested negative for avian influenza.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>test.01</pb>
+         <vn>investigate-35.4</vn><fn>Operational_testing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

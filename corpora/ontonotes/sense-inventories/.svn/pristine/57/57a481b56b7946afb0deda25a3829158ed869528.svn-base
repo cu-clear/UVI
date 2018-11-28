@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="negotiation-n">
+    <commentary>
+        22Feb08 update to wn2.1, added sense 2, added features ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="official discussion aimed at reaching an agreement" type="Event">
+        <commentary>
+            NEGOTIATION[+event][+speech_act][+discussion][+official][+goal_oriented][+attain_agreement]
+            dialogue, talks -
+            a discussion intended to produce an agreement
+        </commentary>
+        <examples>
+            The buyout negotiation lasted several days.
+            The diplomats attempted to keep the negotiations proceeding, despite the incident.
+            Negotiations between labor and management have resulted in a new contract.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the act of successful maneuvering" type="Event">
+        <commentary>
+            NEGOTIATION[+event][+completion][+successful][+of_maneuver]
+        </commentary>
+        <examples>
+            John's negotiation of a paid 3-month sabbatical for himself caused envy and awe in his coworkers.
+            The skater's negotiation of the ice was spectacular.
+            The negotiation of an ordinary car around these turns at high speed would be very difficult.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- there was a separate sense listed in wordnet that was not an "event"
+   but I don't think annotators can effectively distinguish between them. -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

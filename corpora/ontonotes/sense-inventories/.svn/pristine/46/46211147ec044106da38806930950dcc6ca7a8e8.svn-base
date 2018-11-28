@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="study-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="ponder, consider, observe carefully" type="">
+      <commentary>
+       Syntax is: NP1[agent] STUDY NP2[count]
+       Note: NP2 always a direct object, not a PP
+      </commentary>
+      <examples>
+       The hunter studied the animal tracks in the snow.
+       Physicists have been studying this problem for decades.
+       Study the dancer's hands as she moves into the arabesque.
+       He has been studying the movement of oil prices for six months.
+       The professor studied the exam carefully for signs of cheating.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,6</wn>
+         <omega/><pb>study.01</pb>
+         <vn>assessment-34.1,discover-84-1-1,learn-14-1</vn><fn>Scrutiny</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="learn, assimilate a body of knowledge" type="">
+      <commentary>
+       Syntax is: NP1[agent] STUDY NP2[concrete]
+                  NP1[agent] STUDY Prep(usually 'for') NP2[goal]
+      </commentary>
+      <examples>
+       I just started studying Russian.
+       John must study for his exam tomorrow.
+       They won't study anatomy next semester. 
+       Mary studied finance in college.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5</wn>
+         <omega/><pb>study.02</pb>
+         <vn>learn-14-1</vn><fn>Studying,Education_teaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

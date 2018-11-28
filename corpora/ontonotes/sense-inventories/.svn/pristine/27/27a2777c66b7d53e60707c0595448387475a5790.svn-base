@@ -1,0 +1,100 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hope-n">
+    <commentary>
+        28Mar07 - updated to wn2.1, added features. ahouston
+        28Mar07 - merged Senses 1,2, modified examples, added commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="belief or expectation in a desired future outcome" type="">
+        <commentary>
+            HOPE[+state][+belief][+expectation][+outcome][+future][+desired]
+            Note: implies a specific subject(s) who believes a future outcome.
+            Note: Unlike Sense 3, substituting 'evidence' or 'grounds' does not preserve the meaning.
+            Note: often occurs in phrases 'in the hope(s)', 'X has/doesn't have hope'
+        </commentary>
+        <examples>
+            We returned to the restaurant in the hopes of finding Jane's purse.
+            These students have great hopes of doing good in the world, of making a difference.
+            Three Christian virtues are faith, hope, and charity.
+            Mary is holding on to her technology stocks in the hopes that their prices will rise. (her belief)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,6</wn>
+            <omega/>
+            <pb>hope.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            .
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="evidence supporting the likelihood of desired future outcome" type="">
+        <commentary>
+            HOPE[+relation][+role][+evidence][+outcome][+future][+desired]
+            Note: refers to the -grounds, evidence- for believing a desired future outcome	
+            Note: the word' grounds' or 'evidence' can be substituted without loss of meaning.
+            Note: often occurs in phrases such as 'X gave/provided HOPE'
+        </commentary>
+        <examples>
+            These test results provide hope that the patient may recover fully.
+            Is there any hope that John will arrive on time just once?
+            Economists say there is hope that the economy could recover in the next quarter.
+            He maintained there was still hope for a peace settlement, despite the recent setbacks.
+            There is little hope they will find any survivors after so many days.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>hope.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="someone or something that is the agent of fulfilling desired expectations" type="">
+        <commentary>
+            HOPE[+relation][+role][+agent][+fulfillment][+expectation][+desired]
+            Note: links 'hope' to a person or action, e.g. 'X BE HOPE', the hope is equated to something
+        </commentary>
+        <examples>
+            Their young pitchers are their best hope for winning the championship this year.
+            This candidate is the hope of the Democratic Party.
+            After the anchor broke, heading out to open sea was their only hope of surviving the hurricane.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>hope.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            Proper Name: do not use
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="trigger-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a lever that activates a firing mechanism, especially with a firearm" type="">
+        <commentary>
+            TRIGGER[+artifact][+device][+lever][+activator][+of_mechanism][+firing]
+        </commentary>
+        <examples>
+            There were not eyewitnesses who saw him pull the trigger of the gun.
+            When you release the trigger on this glue gun, it dispenses glue.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an act that sets in motion a course of events" type="Event">
+        <commentary>
+            TRIGGER[+role][+event][+catalyst][+for_course_of_events]
+        </commentary>
+        <examples>
+            The assassination of the Archduke was the trigger that set of World War I.
+            The dry brush acted like a trigger for the forest fire.
+            The bank defaults were the initial trigger of the short-term credit crunch.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>trigger.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

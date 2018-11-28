@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="market-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="promote something for the purpose of sale" type="">  
+      <commentary>
+        Syntax Is: NP1 MARKET (NP2)
+        Note: This includes the idea of offering something for sale as well as
+        advertizing and using promotional techniques to attract buyers.
+      </commentary>
+      <examples>
+        If this is marketed in the right way, it'll sell very well.
+        Their products are very cleverly marketed.
+        New chocolate was marketed as heart healthy.
+        They market for small companies.
+        THey market everything they can carry.         
+        We market a wide range of products.
+        What if Microsoft marketed the iPod?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>   
+         <omega/><pb>market.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to shop" type="">
+      <commentary>
+        Syntax Is: NP1 MARKET[intransitive]
+      </commentary>
+      <examples>
+        We go marketing every Saturday.
+        We marketed for a special Sunday dinner.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

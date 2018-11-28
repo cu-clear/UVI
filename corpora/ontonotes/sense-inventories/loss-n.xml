@@ -1,0 +1,132 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="loss-n">
+    <commentary>
+        12Jun08 added senses, revised examples, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="act of unintentionally relinquishing something" type="Event">
+        <commentary>
+            LOSS[+event][+elimination][+relinquishment][-intentional]
+            Note: the term 'elimination' can reasonably be 
+        </commentary>
+        <examples>
+            Bob does backups every day to ensure against loss of data from a computer crash.
+            Our team's loss in the finals came as a surprise.
+            The loss of time due to the traffic jam made us miss our flight.
+            The actor was frustrated by his loss of popularity over the years.
+            Carl's leaving is no great loss for the organization.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>loss.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a measure of reduction" type="Event">
+        <commentary>
+	    LOSS[+event][+quantity][+amount][+reduction]
+	    Note: the term 'reduction' can reasonably be substituted in this context
+	    </commentary>
+        <examples>
+            The loss of livestock left the rancher bankrupt.
+            Her fifty pound weight loss took over two years.
+            The bypass has resulted in a loss of business for the small town.    
+            The patient was unconscious from blood loss.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/>
+            <pb>loss.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="financial decline" type="Business:">
+        <commentary>
+            LOSS[+quantity][+money][+earnings][+negative]
+            the amount by which the cost of a business exceeds its revenue
+        </commentary>
+        <examples>
+            The railroad is running at a loss.
+            The industry has largely recouped its losses over the past decade. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>loss.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="personnel casualty" type="">
+        <commentary>
+            LOSS[+entity][+person][+personnel][+military][+casualty]
+            military personnel lost by death or capture
+            Note: usually in the plural
+        </commentary>
+        <examples>
+            The rebels suffered serious losses in the last battle.
+            Although many of our troops were killed in the invasion, the loss to the enemy was far greater.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb>loss.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="loved one's death" type="Event">
+        <commentary>
+            LOSS[+event][+death][+of_loved_one]
+            the experience of losing a loved one
+        </commentary>
+        <examples>
+            The loss of their cat occurred at seven this morning.
+            He sympathized with them over the loss of their grandfather.
+            Lincoln's death was a great loss to the nation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>loss.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a grieving feeling of deprivation" type="">
+        <commentary>
+            LOSS[+state][+mental][+emotion][+deprivation][+grieving]
+        </commentary>
+        <examples>
+            He discussed his feelings of loss with the therapist.
+            They could not dispel the sense of loss over the missed opportunity.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="puzzlement, feeling uncertain" type="">
+        <commentary>
+            Idiom: to be puzzled or uncertain, 'at a loss'
+        </commentary>
+        <examples>
+            He was at a loss for words.
+            She became popular with younger audiences and was at a loss to explain why.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

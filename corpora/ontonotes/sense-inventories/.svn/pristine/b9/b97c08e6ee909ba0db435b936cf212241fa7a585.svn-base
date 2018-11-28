@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bless-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="render holy; consecrate; give benediction to" type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] BLESS NP2[patient]
+
+        NOTE: the NP2 is gaining the property 'holy or sacred' but no other
+        attributes or qualities are transfered onto NP2. Unless, like in
+        the last example, the NP1 is merely granting permission to something. 
+      </commentary>
+      <examples>
+        The priest blessed the newborn baby with holy water.
+        The ancient Romans would bless a boundary around a new city to keep
+        evil spirits out.
+        I bless this church in the name of the Father...
+        Every day the priests blessed the water to make it holy.
+        She won't do anything new unless her father blesses the activity.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bless.01</pb>
+         <vn>judgement-33.1-1</vn><fn>Rite</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="confer a possession or attribute to" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] BLESS NP2[patient[animate]] WITH NP3[instrument/attribute]
+
+        NOTE: often used in the passive construction: 
+          NP1[animate] BE BLESSED WITH NP2[quality/possession]
+      </commentary>
+      <examples>
+        Apparently you weren't blessed with an over-abundance of intelligence.
+        May was blessed with a beautiful voice.
+        God blessed her with five beautiful children.
+        My father blessed me with a good sense of self worth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bless.01</pb>
+         <vn>judgement-33.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

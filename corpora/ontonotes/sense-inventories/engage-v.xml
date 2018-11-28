@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="engage-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) participate in an activity, occupy, absorb" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent[animate]] ENGAGE [predicate]
+        NP1[agent[animate]] ENGAGE NP2[patient] 
+        NP1[topic] ENGAGE NP2
+        NP1[stimulus] ENGAGE NP
+      </commentary>   
+      <examples>
+        We quickly engaged in a heated discussion.
+        The noble knight engaged in a battle against the evil dragon.
+        The children engaged in a tug-of-war.
+        Can you engage every child in the game?
+        She engaged the shy newcomer in the conversation.
+        We have engaged the enemy.
+        The armies engaged at dawn.
+        Enemy planes engaged the troops as they advanced into the mountains.
+        Her interest in buterflies engaged her hours at a time.
+        His smile engages everyone he meets.
+        Studying engages most of my time.
+        This book did not engage my interest.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,7</wn>   
+         <omega/><pb>engage.01</pb>
+         <vn>amuse-31.1</vn><fn>Intentionally_act,Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="employ, hire, reserve, obtain use or the service of" type="">
+      <commentary>
+        Syntax Is: NP1[agent] ENGAGE NP2
+      </commentary>
+      <examples>
+        I engaged a carpenter for the remodeling task.
+        The accused engaged a lawyer for the trial.
+        An accountant was engaged to examine the ledger. 
+        Let's engage a tour guide when we visit Rome.
+        We engaged a room for our conference.
+        I engaged a car and a driver for your trip.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,8,9</wn>
+         <omega/><pb>NM</pb>
+         <vn>hire-13.5.3,involve-107</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="pledge or promise" type="">
+      <commentary>
+        Note: Especially in marriage.
+      </commentary>
+      <examples>
+        We are engaged to be married this November.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>amalgamate-22.2-3-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="operate, mesh or get caught as in gears" type="">
+      <commentary>
+        Note: May be either transitive or intransitive.
+      </commentary>
+      <examples>
+        The gears engaged, and I was moving!
+        Engage the clutch gradually.
+        When the large cog wheel engages, the mill stone will start to go round.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,10</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

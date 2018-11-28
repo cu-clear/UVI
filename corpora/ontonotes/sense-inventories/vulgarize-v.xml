@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="vulgarize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="bring into general popular/common use" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]|cause] VULGARIZE NP2[theme]
+      NP1[cause] VULGARIZE
+      </commentary>
+      <examples>
+      Relativity Theory was vulgarized by these authors.
+      The free use of slang always vulgarizes.
+      The South Pole has been vulgarized thoroughly, as more and more people are able to travel there.
+      He vulgarized ritualism in the true sense of the word; he gave it to the common crowd.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>vulgarize.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="debase and make vulgar" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent|cause] VULGARIZE NP2[theme]
+      </commentary>
+      <examples>
+      The Press has vulgarized Love and Marriage.
+      The superficial diffusion of knowledge will vulgarize rather than raise the thought of a nation.
+      She is talked about in a way that is certain to vulgarize her name.
+      The formal lines of telephone poles and wires have vulgarized our beautiful roads.
+      Pilgrims have vulgarized the Holy Sepulchre into a Bartholomew Fair.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>vulgarize.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="act in a vulgar manner" type="">
+      <commentary>
+      Note: only 1 example found.
+      Syntax includes:
+      NP1[agent[animate] VULGARIZE
+      </commentary>
+      <examples>
+      The drunkard tends to vulgarize.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>vulgarize.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

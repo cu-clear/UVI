@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dissent-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a judge's nonconforming legal opinion to a majority ruling" type="">
+        <commentary>
+            DISSENT[+action][+verbal][+nonconforming][+judge][+ruling][+majority]
+            [+entity][+artifact][+document][+legal][+opinion][+nonconforming]
+            Note: always refers to legal statements written by justices 
+        </commentary>
+        <examples>
+            Justice Barker wrote the dissents for two rulings last week.
+            The dissent of the three justices related to the interpretation of the Fifth Amendment.
+            The law students studied the dissents as well as the rulings for these Supreme Court decisions.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>dissent.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a disagreement, difference in opinion" type="">
+        <commentary>
+            DISSENT[+action][+verbal][+disagreement]
+            [+state][+social][+opinion][+difference]
+            Note: implies a general disagreement on an issue, but not a legal statement (Sense 1)
+        </commentary>
+        <examples>
+            I heard no voices of dissent at town meeting last night over the new dog park.
+            The only dissent came from John who wanted Thai food for dinner instead of Italian.
+            He doesn't remember much dissent in his family, growing up.
+            The question of gay marriage has caused a major dissent in the Episcopalian church.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>dissent.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="public protest or resistance" type="">
+        <commentary>
+            DISSENT[+activity][+public][+protest]
+            Note: implies a civic protest involving a group, sometimes organized
+        </commentary>
+        <examples>
+            There was dissent in the streets over the hyper-inflation of the currency.
+            Anti-war protesters organized a peaceful dissent in front of the White House.
+            It's a dangerous country these days with street violence and ongoing civic dissent.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>dissent.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

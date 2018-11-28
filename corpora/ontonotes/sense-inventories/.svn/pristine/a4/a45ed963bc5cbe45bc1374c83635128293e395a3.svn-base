@@ -1,0 +1,150 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="account-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="business deal" type="Abstraction">
+        <commentary>
+            A formal relationship, usually business-related, that provides regular services.
+        </commentary>
+        <examples>
+            I'm putting John in charge of the Smith account.
+            The stockbroker hadn't had a profitable account in several years.
+            I've decided to close my bank account.
+            We've started a new services account at Intelli-Soft.
+            He doesn't even have an email account.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="telling of a report" type="Event">
+        <commentary>
+	    ACCOUNT[+event]
+	    The act of giving a report.  The act of informing verbally.
+	    Use this sense only when it is clear that the report is being given verbally.
+	    </commentary>
+        <examples>
+            John's exciting account of the car crash had his listeners on the edges of their seats!
+            Give me a brief account of what you've been doing.
+            I'm sorry, sir, but I think that the account of my activities would take all night.
+            The moon, by my account, was full and bright that night.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2 6
+            </wn>
+            <omega/><pb>account.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the report itself" type="Event">
+        <commentary>
+            A record or a description.  Does not refer to the event of verbally giving the report.  Not bounded by time in any way.
+            If you are unclear about whether a report is a verbal event or not, you should probably select this sense.
+        </commentary>
+        <examples>
+            The official account of the crash omitted a number of details.
+            For a historical account of the Battle of Waterloo, check your textbook.
+            A short news account contained a transcript of the senator's speech.
+            Unfortunately, the two witnesses had conflicting accounts of the crime.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3 4
+            </wn>
+            <omega/><pb>account.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a bill" type="Entity">
+        <commentary>
+            A piece of paper that contains a monetary balance; a statement of what is owed.  A physical object.
+        </commentary>
+        <examples>
+            Please send me an account of what I owe.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5 7
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="grounds" type="Abstraction">
+        <commentary>
+            The grounds, or the reason for something.
+            Can be used in specific phrases; &quot;on my account&quot; means &quot;because of me&quot;, and &quot;on that account&quot; means &quot;with regard to that&quot;.
+        </commentary>
+        <examples>
+            The paper was rejected on account of its excessive length.
+            He tried to blame the victim, but his success on that account was doubtful.
+            Don't do it on my account!
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                8
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="importance" type="Abstraction">
+        <commentary>
+            The quality of importance or value, which can apply to a person, a thing, or an event.  Usually attached to a modifier.
+        </commentary>
+        <examples>
+            He's a person of good account.
+            Well, it's of small account now.
+            You no-account, good-for-nothing fool!
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                9
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="state of being used" type="">
+        <commentary>
+            The state of being put to use, or being taken advantage of.  Usually attached to a modifier.
+        </commentary>
+        <examples>
+            She put her skills to good account when she applied for the job.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                10
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="recycle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="use again after processing" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        As paper fibers are recycled the fibers get shorter.
+        I recycled the bottles at the local supermarket.
+        EcoWear recycles old tires and makes shoes from them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>recycle.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="repeat a cycle" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Please recycle the clothes in the washer, they didn't get clean.
+        When a particle is recycled 27 times the uncertainty of the surface
+        increases.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

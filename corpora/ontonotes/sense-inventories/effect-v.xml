@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="effect-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause an effect" type="">  
+      <commentary>
+        Syntax Is: NP1 EFFECT NP2
+      </commentary>
+      <examples>
+        The scientists effected a cure for the disease.
+        The scientists effected a shockwave.
+        She effected a change in their attitudes toward whether women
+        should have executive positions in the corporation.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>effect.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="leadership-n">
+    <commentary>
+        Revised PENN file
+        27sep06. update to WN2.1, added features. ahouston
+        27sep06 Merged senses 1 and 4, added examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of leading or guiding others" type="Event">
+        <commentary>
+	    LEADERSHIP[+event][+activity][+guiding][+follower]
+	    the activity of leading or guiding others
+	    </commentary>
+        <examples>
+            His leadership inspired the team.
+            The two presidents had different styles of leadership.
+            John believes that leadership can be taught.  (how to guide others)
+            He displayed great leadership during the crisis. (he acted with effective guidance)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="people who lead" type="">
+        <commentary>
+            LEADERSHIP[+entity][+group][+people][+principal][+organization]
+            the body of people who lead a group
+        </commentary>
+        <examples>
+            The national leadership adopted his plan.
+            The congregation will take this issue up with the church leadership.
+            The election brought a change of leadership to the White House.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="having authority or decision_making status" type="Event">
+        <commentary>
+            LEADERSHIP[+state][+social][+authoritative][+guidance]
+            the status of a leader
+            Note: describes a status assigned to an individual or group
+        </commentary>
+        <examples>
+            She assumed leadership of the minority party in congress.
+            Some members do not want Bob to be given leadership of their union.
+            He had taken on the leadership of a Fortune 500 company by the time he was thirty-two.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

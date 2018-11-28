@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="accept-v">
+   <commentary>
+   </commentary>  
+   <sense group="1" n="1" name="(agree to) receive" type="">
+      <commentary>
+       Syntax includes: NP1[agent] ACCEPT NP2  
+      </commentary>
+      <examples>
+          She is accepting an offer from IBM.
+          Please accept my present.
+          Harvard accepted her brother for next year.
+          The company is not accepting anymore interns.           
+          We couldn't accept another invitation this month.
+          Don't accept packages from strangers.
+          Female dogs will only accept males when they are in heat. 
+      </examples>
+      <mappings>
+	 <wn version="3.0">2,3,5,11</wn>
+	 <omega/><pb>accept.01</pb>
+         <vn>obtain-13.5.2</vn><fn>Receiving,Respond_to_proposal</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="believe, hold as true; tolerate" type="">
+      <commentary>
+       Note: NP1[agent] ACCEPT NP2[theme]
+             NP1[agent] ACCEPT SCOMP[finite]
+             No authority is needed for this type of acceptance; usually
+             refers to accepting situations or ideas.
+      </commentary>
+      <examples>
+       People did not accept atonal music at that time.
+       He has gradually been accepting his loss of mobility from the disease.
+       Do you think she'll accept our style of office humor?
+       At first Einstein didn't accept that the universe could be
+       expanding.
+       To accept both p and not p is a contradiction. 
+       The Creationists don't accept Darwinian evolution. 
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,4,7</wn>
+	 <omega/><pb>NM</pb>
+         <vn>accept-77,characterize-29.2-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="recognize or take on" type="">
+      <commentary>
+      </commentary>
+      <examples>
+	I'll accept the charges.
+        She accepted the responsibility.
+        Boxers accept the risks whenever they step into the ring to fight. 
+      </examples>
+      <mappings>
+	 <wn version="3.0">6,9,10</wn>
+	 <omega/><pb>NM</pb>
+         <vn>obtain-13.5.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+    <sense group="1" n="4" name="physically retain or hold" type="">
+      <commentary>
+        NP1[theme[inanimate]] ACCEPT NP2[theme[attribute]]
+      </commentary>
+      <examples>
+         The spackle on the wall won't accept paint without a coat of primer.
+         They need an additive for the cloth to accept the dye.
+      </examples>
+      <mappings>
+	 <wn version="3.0">8</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,duffielc,vieweg,brownsw" sample_score="-"/>
+</inventory>

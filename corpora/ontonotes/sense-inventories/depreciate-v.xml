@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="depreciate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Belittle (someone)." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The teacher should not depreciate his student's efforts.
+      Don't depreciate the work of others.      
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) lose financial value." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The Fed depreciated the dollar once again.
+      The dollar depreciated yesterday.
+      We cannot constantly depreciate currency.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>depreciate.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

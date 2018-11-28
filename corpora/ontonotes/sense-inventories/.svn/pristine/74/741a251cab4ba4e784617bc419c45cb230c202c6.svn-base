@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lie-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an intentionally false statement" type="Event">
+        <commentary>
+            LIE[+event][+speech_act][+statement][+false][+intentionally]
+        </commentary>
+        <examples>
+            It is perjury to tell a lie under oath in a courtroom.
+            The public now views everything the governor said as a pack of lies.
+            She actually believed she'd seen John there, so her statement was not a lie.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>lie.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the orientation or position of an object" type="Event">
+        <commentary>
+            LIE[+location][+position][+orientation][+of_object]
+        </commentary>
+        <examples>
+            The golfer's ball had a good lie in relation to the putting green of the 16th hole.
+            The stylist combed the woman's hair so the lie of the strands was puffed back and up. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an ongoing situation of deceptive behavior" type="">
+        <commentary>
+            LIE[+state][+social][+ongoing][+behavior][+deceptive]
+            Note: is related to sense 1, but includes ongoing complexes of behavior and situations, not just verbal statements.
+        </commentary>
+        <examples>
+            Bob came to the realization that he had been living a lie all through his marriage.
+            Mary was soon to learn that the clique's apparent acceptance of her was really a lie.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

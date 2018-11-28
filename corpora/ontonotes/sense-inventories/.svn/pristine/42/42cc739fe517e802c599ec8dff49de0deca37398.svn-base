@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="offering-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="something available for sale or patronage" type="Event">
+        <commentary>
+            OFFERING[+artifact][+role][+product][+for_purchase]
+            Note: refers to a product, artifact, not the event of making a proposal (Sense 3)
+        </commentary>
+        <examples>
+            That company's offering of a fixed 30-year mortgage at 4 percent was unbeatable.
+            Mary looked over the new course offerings in European literature.
+            These recent offerings by Wall Street firms are a new type of futures derivatives. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>offering.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a gift or donation made on behalf of a religion" type="">
+        <commentary>
+            OFFERING[+artifact][+gift][+religious]
+        </commentary>
+        <examples>
+            Volunteers of the church collect the offerings each week during the service.
+            Mary put an offering of flowers on the alter.
+            The cult made burnt offerings to their deities.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the event of proposing or volunteering something" type="Event">
+        <commentary>
+            OFFERING[+event][+speech_act][+proposal]
+            Note: X's offering of Y  -&gt;  X offered to do Y
+        </commentary>
+        <examples>
+            His offering of help in the kitchen was most appreciated.
+            Critics wonder whether the offering of disarmament is sincere.
+            The offering made by their attorney in regards to this matter is not acceptable.
+            Bill's offering to buy the old house was made on Tuesday. (the act of proposing it)
+            Bill's offering for the old house was less than the owners had hoped for. (proposal of X dollars)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

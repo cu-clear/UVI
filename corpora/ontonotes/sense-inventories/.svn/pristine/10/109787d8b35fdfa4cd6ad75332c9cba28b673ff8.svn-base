@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="digest-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="convert into absorbable substances, (as if) with heat or chemical process" type="">  
+      <commentary>
+      Syntax Is:  
+       NP1[agent] DIGEST NP2
+      </commentary>
+      <examples>
+        The amoeba digested the starch granules quickly.
+        How are parasites able to live in the intestinal juices without
+        being digested?
+        Softer treats are more easiliy broken down and digested by the dog.      
+        Some people can't digest carbohydrates well.
+        The company chewed up and digested its recent acquisition.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,6,8</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>digest.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="assimilate into the mind or a situation" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DIGEST NP2[topic[abstract]]
+        NOTE: Compare to Sense 3; in Sense 2, THE AGENT MUST BE HUMAN or an 
+        entity/organization composed of humans.
+      </commentary>
+      <examples>
+        It took me a while to digest the dark truth.
+        Residents can't digest the planned Vancouver beach bistro.
+        The company digested the new information.
+        After the merger, the big network easily digested its former competitor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="systematize by automatic or machine processing" type="">
+      <commentary>
+       Syntax Is:
+        NP1[instrument[animate]] DIGEST NP2
+      </commentary>
+      <examples>
+        The new design has digested the bulk of the conversion issues and the new
+        software runs wonderfully.
+        If this data is to be digested, the digest processing must be known
+        in advance. 
+        The market digested the new funds in a matter of hours. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey,dehart" sample_score="-"/>  
+</inventory>

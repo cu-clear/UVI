@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="repeat-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a recurring event" type="Event">
+        <commentary>
+            REPEAT[+event][+recurrence]
+        </commentary>
+        <examples>
+            This television episode is a repeat from last season.
+            John wants to avoid a repeat of his argument with Mary yesterday.
+            The student's repeat of the English class was necessary because he'd flunked it the first time.
+            The disc jockey played Oldies for two hours without any repeats.
+            We're having a repeat of last night's dinner - beer and pizza.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a musical passage that is meant to be played again" type="Event">
+        <commentary>
+            REPEAT[+form][+musical][+passage][+recurring]
+        </commentary>
+        <examples>
+            The score indicates a repeat of the last four measures.
+            The repeat of that motif in the opera is symbolic of death.
+        </examples>
+        <mappings>
+            <wn version="MAC">1f</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a recurring decorative design" type="Event">
+        <commentary>
+            REPEAT[+form][+design][+decorative][+recurring]
+        </commentary>
+        <examples>
+            Mary thinks the wall paper's repeat of floral leaves and vines is too busy looking.
+            The necklace's symmetry was achieved through a repeat of intricate patterns.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

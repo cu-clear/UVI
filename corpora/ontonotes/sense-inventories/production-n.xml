@@ -1,0 +1,111 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="production-n">
+    <commentary>
+        10Jul08 - added features, revised definitions and examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a yield or output produced in some timeframe" type="">
+        <commentary>
+            PRODUCTION[+artifact][+collection][+yield][+periodic]
+        </commentary>
+        <examples>
+            These coins are a limited production form the Franklin Mint.
+            That nation's major agricultural production is wheat.
+            The country was able to increase its oil production by ten percent last quarter.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="natural process of formation of something" type="Event">
+        <commentary>
+            PRODUCTION[+event][+formation][+natural][+of_something]
+        </commentary>
+        <examples>
+            The production of white blood cells is what we're studying in biology.
+            The condition is caused when there is excess production of insulin by the pancreas.
+            Erosion of the limestone by water leads to the production of stalactites and stalagmites.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="theatrical or artistic performance" type="Event">
+        <commentary>
+            PRODUCTION[+event][+performance][+theatrical]
+        </commentary>
+        <examples>
+            Have you seen the new production of Hamlet?
+            He is working on the film production of a Harry Potter book.
+            Critics have described the album's production as gloriously open and rich.  (the sound of the performance on the record)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="an exaggerated reaction or display of behavior" type="">
+        <commentary>
+            PRODUCTION[+event][+reaction][+exaggerated][+of_behavior]
+            A display that is exaggerated or unduly complicated
+        </commentary>
+        <examples>
+            John made such a production over Bob borrowing his coffee cup at work.
+            She's trying keep her dinner parties from being such big productions. 
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="exhibiting legally relevant information" type="Event">
+        <commentary>
+            PRODUCTION[+event][+exhibition][+of_information][+legally_relevant]
+            The act of exhibiting something in a court of law
+        </commentary>
+        <examples>
+            The appellate court demanded the production of all documents.
+            The prosecution's production of an eye witness was a startling twist in the case.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="the act of creating artifacts, often manufacturing" type="Event">
+        <commentary>
+            PRODUCTION[+event][+creation][+of_artifacts]
+        </commentary>
+        <examples>
+            He introduced more efficient methods of circuit board production.
+            Shakespeare's production of poetry was enormous.
+            This model of car is no longer in production.
+            The film is still in production at the time of this writing. (in the act of creation)
+        </examples>
+        <mappings>
+            <wn version="3.0">6,8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

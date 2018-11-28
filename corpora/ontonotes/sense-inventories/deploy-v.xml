@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="deploy-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Place troops or weapons in battle formation." type="">  
+      <commentary>
+        Syntax Is:
+         NP1[agent] DEPLOY NP2 [patient[instrument[human]]]
+      </commentary>
+      <examples>
+      The U.S. deploys its weapons in the Middle East.
+      The Army deployed today in Afghanistan. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deploy.01</pb>
+         <vn>NP</vn><fn>Arranging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Distribute systematically or strategically;
+         initiate." type="">
+      <commentary>
+      NOTE: Do not use for military frame. 
+     Syntax Includes:
+      NP1[agent] DEPLOY NP2[theme]
+      NP1[agent] DEPLOY NP2[instrument]
+      </commentary>
+      <examples>
+      The FED deployed new interest rates today.
+      The company plans to deploy new software in the coming year.
+      NASA deployed research tools to scour the surface of Mars. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deploy.01</pb>
+         <vn>NP</vn><fn>Arranging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

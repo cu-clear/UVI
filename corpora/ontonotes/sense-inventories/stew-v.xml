@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stew-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="brood, be sullen, bear a grudge" type="">  
+      <commentary>
+        Syntax Includes:
+      </commentary>
+      <examples>
+        He stewed about his chaotic life all day.
+        She stewed over her lost wallet.
+        Jen stewed about her recent betrayal.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0">1,2</wn>
+         <omega></omega><pb>stew.02</pb>
+         <vn>NP</vn><fn>Emotion_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cook slowly for a long time in liquid" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The cook stewed the tough meat until it was tender.
+        The root vegetables stewed for hours.
+        Mom will stew the roast for dinner.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">3</wn>
+         <omega></omega><pb>stew.01</pb>
+         <vn>cooking-45.3</vn><fn>Absorb_heat,Apply_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

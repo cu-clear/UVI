@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="village-n">
+    <commentary>6Mar07 updated to wn2.1, added features, changed examples. ahouston
+        6Mar07 - removed Sense 4 - it is a proper name. ahouston
+    </commentary>
+    <sense group="1" n="1" name="the inhabitants or people of a small community" type="">
+        <commentary>VILLAGE[+collection][+social][+people][+inhabitants][+of_town][+small]
+            Note: implies agentive and volitional powers associated with people.
+            Note: Pick this sense only when the verb associated with 'village' implies an agent that is animate, volitional.
+        </commentary>
+        <examples>The village was scandalized by the couple's public behavior.
+            These villages are mostly against the new proposed farming bill.
+            We enjoyed village gossip over a cup of tea.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a location, a collection of buildings that form a small settlement" type="">
+        <commentary>VILLAGE[+location][+of_collection][+building][+town][+small]
+            Note: Pick this sense when location or material attributes of buildings are implied.
+            Note: This is probably more common than Sense 1, but may depend on the corpus.
+        </commentary>
+        <examples>The invaders burned the village to the ground.
+            These villages were entirely built from local stone and timber.
+            They are building it along the lines of an Olympic-style village.
+            The village was located on a bend in the river.
+            The orchard began at the edge of the village.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="both people and the dwellings" type="Shish kabob">
+        <commentary>VILLAGE[+collection][+social][+people][+inhabitants][+of_town][+small]
+            [+location][+of_collection][+building][+town][+small]
+            Note: Pick this sense ONLY when both people and location/buildings are implied.
+        </commentary>
+        <examples>Their village was established in 1642.
+            The building of the factory had big impacts on the nearby village.
+            Village life appealed to them.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="Placeholder: Do Not Choose" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

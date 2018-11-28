@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pump-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move a handle, lever, or other device up and down" type="">  
+      <commentary>
+        Syntax is: NP1[agent] PUMP NP2[instrument]
+        
+        Note: This sense is strictly for moving something with the motion of up and down. 
+      </commentary>
+      <examples>
+        Pump the pedals faster! 
+        The athlete pumps weights in the gym.
+        She pumped the cow's tail, and nothing happened. &quot;I can't get any milk out,&quot; she said.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,6</wn>
+         <omega/><pb>pump.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="force to flow or move" type="">
+      <commentary>
+        Syntax is: NP1[agent] PUMP NP2 PP[directional]
+        NP1[agent] PUNP NP2[container] (for NP3)
+      </commentary>
+      <examples>
+        Our latest machine can pump a hundred gallons a minute.
+        I pumped gas into my car this morning.
+        They pumped water out of the flooded basement.
+        My father pumped the cow a pail of water and she drank it up fast.
+        The heart pumps blood through the arteries.
+        I pumped the music through my surround system.
+        Despite the melancholy lyrics, the band pumped energy into the crowd.
+        Taxpayers have pumped money into the countryside.
+        They pumped the well dry.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,7</wn>
+         <omega/><pb>pump.01,pump.03</pb>
+         <vn>spray-9.7-1</vn><fn>Cause_fluidic_motion,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="increase or make bigger" type="">
+      <commentary>
+        Syntax is: NP1[agent] PUMP NP2
+      </commentary>
+      <examples>
+        Will you pump a balloon for me?
+        It also pumped up the price of an HP Pavilion 8766C Minitower by $200.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>pump.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="question someone persistently" type="">
+      <commentary>
+        Syntax is: NP1[agent] PUMP NP2[human]
+      </commentary>
+      <examples>
+        She pumped the witnesses for information.
+        She was pumping me for details of the new project.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="make someone excited or enthusiastic" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The team was really pumped for the game.
+        Students left the speech pumped up for a full day of workshops.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>pump.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,brownsw" sample_score="-"/>  
+</inventory>

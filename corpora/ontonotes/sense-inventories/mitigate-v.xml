@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mitigate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="reduce the impact of" type="">  
+      <commentary>
+        Syntax Is: NP1 MITIGATE NP2
+      </commentary>
+      <examples>
+        Recent remediation efforts taken by company appear to have
+        partially mitigated the risk.
+        It didn't keep him from detention, but mitigated the circumstances
+        enough for the US to help secure his release.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mitigate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

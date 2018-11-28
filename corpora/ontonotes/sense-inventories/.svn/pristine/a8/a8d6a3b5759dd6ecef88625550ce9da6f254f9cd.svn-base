@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="faction-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a small divisive group within a larger organization" type="">
+        <commentary>
+            FACTION[+organization][+subdivision][+small][+divisive]
+            Note: often refers to political forces within a larger political entity
+        </commentary>
+        <examples>
+            The most left-wing faction of the Democratic party does not endorse this candidate.
+            Certain factions within the neo-conservative movement are breaking rank with the president.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of conflict or dissension within a group" type="">
+        <commentary>
+            FACTION[+state][+dissension][+ideological]
+            Note: refers to a divisive state of affairs, rather than identifying a specific subgroup.
+        </commentary>
+        <examples>
+            Members of the leadership are hoping to avoid a faction by this compromise.
+            The power vacuum led to a faction among the revolutionary elite.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="whistle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="communicate or produce music by whistling" type="">  
+      <commentary>
+        Syntax is: NP1[animate] WHISTLE (PP NP2[animate])
+        NP1[animate] WHISTLE NP2
+      </commentary>
+      <examples>
+        My grandfather always used to whistle songs off key while reading the paper.
+        The birds whistled to each other across the pond.
+        Havah whistled because she believed music could bring back the past.
+        Mrs. Doubletree whistled for the butler.
+        He whistled and sang 'till the green woods rang.
+        The Grinch whistled for his dog Max.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whistle.01</pb>
+         <vn>animal_sounds-38,manner_speaking-37.3,nonverbal_expression-40.2,performance-26.7-1-1</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="produce a sound similar to whistling" type="">
+      <commentary>
+        Syntax is: NP1[animate] WHISTLE (PP (NP2))
+        NOTE: Compare sentence 4 to sense 1 above. No intent to communicate
+        or sing is present in the whistling activity. 
+      </commentary>
+      <examples>
+        The tea kettle will whistle when the water begins to boil.
+        The bullet whistled past John's ear.
+        The wind whistled through the dark trees.
+        Pappa would lay there at night snoring and whistling.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whistle.01</pb>
+         <vn>sound_emission-43.2</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move, bring, or send as if by whistling" type="">
+      <commentary>
+        Includes: WHISTLE AWAY
+
+        Syntax is: NP1[abstract] WHISTLE (AWAY) NP2[abstract]
+ 
+        NOTE: This is a metaphorical extention of senses 1 and 2.
+      </commentary>
+      <examples>
+        Her optimism whistled away his worries.
+        The King Alfred's victory over the Danes whistled in a new era.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

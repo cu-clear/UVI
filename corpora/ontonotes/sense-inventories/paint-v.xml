@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="paint-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make a painting (of) in an artistic way." type="">  
+      <commentary>
+        NOTE: This verb is prone to ambiguous sentences like 'I am going to
+        go paint.' where no other information is given so it could be
+        tagged at sense 1 or sense 2. If you come across an instance that
+        is TRULY ambiguous, please tag it a both sense 1 and sense
+        2. However, if you believe an instance fits better in one sense than
+        another (as in examples 1 and 3 in this sense) please choose the
+        most likely sense. 
+      </commentary>
+      <examples>
+      He painted all day in the garden.
+      He painted a painting of the garden.
+      He painted his mistress many times.
+      For art class, I painted a chair.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>paint.01,paint.02</pb>
+         <vn>braid-41.2.2,coloring-24,image_impression-25.1,performance-26.7-2-1,scribble-25.2-1</vn><fn>Create_physical_artwork,Create_representation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Coat with paint or other liquid in a non-artistic fashion." type="">
+      <commentary>
+        NOTE: This sense also could have some ambiguity as in example 2.
+        If there is no more context for example 2, it potentially could be ambiguous.
+      </commentary>
+      <examples>
+      We painted the rooms yellow.
+      It took all day to paint the ceiling.
+      We painted the trim white. 
+      The worker painted the gutters with linseed oil.
+      The dentist painted his teeth with a brightening agent.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>paint.01</pb>
+         <vn>butter-9.9,coloring-24</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="PAINT A PICTURE: Call to mind." type="">
+      <commentary>
+      Syntax Is: NP1 PAINT A PICTURE of NP2[patient[abstract]]
+      NOTE: Only metaphorical uses, so the sentence 'Paint a picture of
+      that chair.' would be in sense 1.
+      </commentary>
+      <examples>
+      His story painted a picture of a sad childhood.  
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="paint_a_picture" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Create_representation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="PAINT THE LILY: Adorn unnecessarily." type="">
+      <commentary>
+      IS: PAINT THE LILY
+      </commentary>
+      <examples>
+      Don't paint the lily.
+      To paint the lily...is wasteful and ridiculous excess. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="paint_the_lily" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Characterize." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He painted him as being smart.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>paint.03</pb>
+         <vn>characterize-29.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,brownsw,clarklm" sample_score="-"/>  
+</inventory>

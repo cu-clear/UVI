@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="help-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="assist someone, improve a condition, or contribute to a goal" type="">
+      <commentary>
+        Includes: HELP OUT
+      </commentary>
+      <examples>
+	Please help me carry the groceries in.
+        The children helped around the house.
+        The police are helping to locate the bodies.
+        More lighting would help people see the steps.
+        Those pills haven't helped John get well.
+        This money is to help orphans get an education.
+        Repainting the room white helped it to look bigger.
+        This will help to prevent accidents.
+        The protests actually helped increase sales.
+        Using the learning objectives helped clarify the goals of the task.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,3,2,6,8</wn>
+	 <wn lemma="help_out" version="3.0">1</wn>
+         <omega/><pb>help.01</pb>
+         <vn>help-72.1-1-1</vn><fn>Assistance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="avail of, supply" type="">
+      <commentary>
+        Note: usually with reflexive
+        Includes: HELP ONESELF
+      </commentary>
+      <examples>
+        She is helping herself to more potatoes.
+        The waiter offered to help him to another slice of pie.
+        He told me to help myself to the office supplies.
+      </examples>
+      <mappings>
+	 <wn version="3.0">5,7</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="refrain from doing" type="">
+      <commentary>
+       Includes: HELP ONESELF
+       Note: almost always used in the negative
+      </commentary>
+      <examples>
+       They could not help watching the burning building.
+       I couldn't help myself from eating another chocolate.
+       Do you think she could help being a brat if she tried?
+      </examples>
+      <mappings>
+	 <wn version="3.0">4</wn>
+         <wn lemma="help_oneself" version="3.0">1</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+</inventory>

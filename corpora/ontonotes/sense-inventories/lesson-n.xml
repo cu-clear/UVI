@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lesson-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="class" type="Event">
+        <commentary>
+	    LESSON[+event]
+	    a unit of instruction
+	    </commentary>
+        <examples>
+            He took driving lessons.
+            My dance lesson lasts an hour.
+            Mary's violin lesson was cancelled because of the snow.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>lesson.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="task" type="">
+        <commentary>
+            a task assigned for individual study
+        </commentary>
+        <examples>
+            He did the lesson for today.
+            You should be able to do today's lesson in just a few minutes.
+            He crumpled up his spelling lesson and put it in his pocket.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>lesson.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="deterrent example" type="">
+        <commentary>
+            example, object lesson - 
+            punishment intended as a warning to others
+        </commentary>
+        <examples>
+            They decided to make a lesson of him.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="moral" type="">
+        <commentary>
+            the significance of a story or event
+        </commentary>
+        <examples>
+            The lesson of the story is to love thy neighbor.
+            You will usually find a lesson for the reader in her stories. 
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>lesson.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

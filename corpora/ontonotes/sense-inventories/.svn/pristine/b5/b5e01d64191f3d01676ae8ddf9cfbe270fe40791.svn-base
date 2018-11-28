@@ -1,0 +1,146 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="start-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="have an initial point with some characteristic" type="">
+      <commentary>
+        Note: There is NO AGENT and NO verb immediately following START 
+       Syntax is: NP1[patient] START PP/ADVP[attribute]
+        Includes: verb particle START OUT
+        Note: implies an attribute of the subject NP, not an action undertaken.
+      </commentary>
+      <examples>
+         Prices for these homes start at $250,000.
+         The novel starts with a murder.
+         The forest starts just outside of town.
+         Classes this fall start a week later than last year.
+         When does the meeting start?
+         The competition started with only three participants.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,6,12</wn>
+         <wn lemma="start_out" version="3.0">1</wn>
+         <omega/><pb>start.01</pb>
+         <vn>NM</vn><fn>Process_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="begin an event, action, or effect" type="">
+      <commentary>
+      NOTE: Unlike CO1, all of these uses are temporal, and the object of
+      start is usually an activity, which is often expressed by an
+      infinitive or a participle.  
+     </commentary>
+      <examples>
+         I started to laugh.
+         Once he starts smoking, he can't stop.
+         Taiwan plans to start making Tamiflu.
+         The ball started to roll toward the street.
+         The music is starting to upset me.
+         The labor pains started coming with increased intensity.
+         The child started violin lessons at age four.
+         She starts her new job on Monday.
+         He started the gathering with a prayer.
+         Mary started the soup while John made the salad. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,6,9,10,13</wn>
+         <wn lemma="start_up" version="3.0">2</wn>
+         <omega/><pb>start.01,start.04</pb>
+         <vn>begin-55.1-1</vn><fn>Activity_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to cause to come into being" type="">
+      <commentary>
+        Syntax is: NP1[agent] START NP2[topic]
+        Note: The agent causes the entity to exist.
+        Includes: START UP
+      </commentary>
+      <examples>
+         He started a new company last year.
+         The refinery started up a new facility last week.
+         Iraq started a war when they invaded Kuwait.
+         Why did you start that nasty rumor?
+         The Girl Scouts learned how to start a fire at their first campout.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,6</wn>
+         <wn lemma="start_up" version="3.0">2</wn>
+         <omega/><pb>start.01</pb>
+         <vn>begin-55.1-1</vn><fn>Setting_fire</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(cause to) begin to function or operate" type="">
+      <commentary>
+        Note: Never used with another verb following (e.g., started debating, start to run)
+        Syntax includes: NP1[agent] START NP2[patient]
+                         NP1[patient] START 
+        Includes: START UP
+        Note: implies the patient changes state. 
+      </commentary>
+      <examples>
+         My car wouldn't start this morning.
+         I could not start the car.
+         She started up the computer.
+         The turbines started up.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="start_up" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>begin-55.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="begin a journey, depart" type="">
+      <commentary>
+        Note: The activity being started is understood (NOT 'start to drive', 'start our journey')
+        Syntax includes: NP1[agent] START[intransitive] PP[destination]
+                         NP1[agent] START NP2[patient] PP[locative]
+        Includes: START OUT
+      </commentary>
+      <examples>
+         They started for California yesterday.
+         We threw in an extra day of food and started out for our high camp.
+         The soldiers will start for the front at daybreak.
+         She is starting down the road to recovery.
+         Critics believe their opponents will start the country down the wrong path again.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="start_out" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>begin-55.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="(cause to) play in the starting lineup" type="">
+      <commentary>
+	Syntax is: NP1[agent] START (NP2[patient]) (PP[activity])
+         Note: this is a narrow sense confined to placement of sports players.
+      </commentary>
+      <examples>
+         The coach had trouble deciding which players to start.
+         Jones started in only two games last season.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="startle, jump, bulge, pop" type="">
+      <commentary>
+        NP1[agent] START[intransitive] ADVP
+        Note: implies the subject has a quick physical reaction to the environment.
+      </commentary>
+      <examples>
+         She started when I snuck up behind her.      
+         She started in surprise at my jesting tone. 
+         He started in surprise, eyes wide.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,14</wn>
+         <omega/><pb>NM</pb>
+         <vn>marvel-31.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,ahouston,thomasmf,brownsw" sample_score="-"/>
+</inventory>

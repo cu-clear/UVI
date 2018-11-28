@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="erase-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove from memory or existence" type="">
+      <commentary>
+         Syntax Is: NP1 ERASE NP2[abstract]
+         NOTE: compare carefully to sense 2; in this sense, the erased object
+               and its original location cannot be interchanged.
+               EX: &quot;I erased him from my life.&quot;
+                   *&quot;I erased my life.&quot;
+      </commentary>
+      <examples>
+        You've erased the link to the stylesheet in your header.
+        The Turks erased the Armenians in 1915.
+        The suspect might have denied me access and had time to erase the evidence.
+        I deleted him from my cell phone, like erasing him from my life.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>erase.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove objects, make an area clean" type="">
+      <commentary>
+        Syntax Is:
+        NP1 ERASE NP2[patient[concrete]] (PP[location]) 
+      </commentary>
+      <examples>
+        I completley erased my iPod and restored it to factory conditions.
+        How do I stop iTunes from erasing audio files from my iPod? 
+        If you asked him to erase the board, the eraser will be flying around the room.
+        They asked him to erase the circle from the board.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>erase.01</pb>
+         <vn>wipe_manner-10.4.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

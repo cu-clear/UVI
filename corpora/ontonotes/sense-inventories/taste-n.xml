@@ -1,0 +1,126 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="taste-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the flavor quality of something" type="">
+        <commentary>
+            TASTE[+quality][+feature][+flavor]
+        </commentary>
+        <examples>
+            John likes the sour taste of lemons.
+            The melon has a sweet, delicious taste.
+            The wine has a big nose and a complex, fruity taste with notes of leather.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>taste.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a habitual preference, liking" type="">
+        <commentary>
+            TASTE[+state][+mental][+preference][+habitual]
+        </commentary>
+        <examples>
+            Sally's taste in films leans more towards noir and mystery.
+            The competitiveness of this business was not to John's taste.
+            Europeans often find American desserts too sweet for their taste.
+            The biker lost his taste for barroom brawls when he got older.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a learned or acquired ability of aesthetic discernment" type="">
+        <commentary>
+            TASTE[+quality][+ability][+acquired][+discernment][+aesthetic]
+            Note: related to Sense 2, but implies there is a general measure of standard, not just anything goes
+        </commentary>
+        <examples>
+            She tried unsuccessfully to copy Mary's exquisite taste in decorating.
+            The music appreciation class was intended to develop the students' taste in music.
+            Sally thought the loud colors and cheap sequins on the gowns exhibited no taste. (implies the designer of the gowns had no taste)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a brief experience or exposure to something, a sampling" type="Event">
+        <commentary>
+            TASTE[+event][+experience][+brief][+sampling]
+        </commentary>
+        <examples>
+            The soldiers got their first taste of combat during the mission.
+            The dog got a taste of freedom running on the beach without his leash.
+            Passengers enjoy a taste of luxury in our spacious staterooms with ocean-view balconies.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="small amount of ingested food or drink" type="Event">
+        <commentary>
+            TASTE[+quantity][+amount][+small][+of_ingestible]
+        </commentary>
+        <examples>
+            Bob gave me a taste of his roast beef sandwich.
+            The child got a taste of wine from his mother's glass.
+            Try a taste of this cheese, I think you'll like it.
+            The chef took a taste of sauce and corrected the seasonings.
+        </examples>
+        <mappings>
+            <wn version="3.0">5,7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="innate sense faculty of flavor discernment" type="">
+        <commentary>
+            TASTE[+quality][+ability][+innate][+faculty][+sense][+discernment][+of_flavor]
+        </commentary>
+        <examples>
+            John read that birds do not have a highly developed sense of taste.
+            The sense of taste diminishes with age for some people.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a measure of conformity to proper social etiquette" type="">
+        <commentary>
+            TASTE[+quality][+measure][+of_conformity][+to_etiquette][+social]
+        </commentary>
+        <examples>
+            The joke at dinner about squirrel guts was in very poor taste.
+            The themes of the play were in good taste for a young audience.
+        </examples>
+        <mappings>
+            <wn version="MAC">2d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

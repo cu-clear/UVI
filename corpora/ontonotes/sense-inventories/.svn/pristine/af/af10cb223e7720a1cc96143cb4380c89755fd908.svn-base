@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="thrust-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Push forcefully, make a thrusting forward,
+   upward, or outward motion." type="">  
+      <commentary>
+      INCLUDES: THRUST UP, THRUST OUT, THRUST FORWARD, THRUST OPEN
+      Syntax includes: NP1(theme) THRUST[intransitive]
+                       NP1(agent) THRUST NP2
+      </commentary>
+      <examples>
+      He thrust his chin forward.
+      The move thrust the company into unknown territory.
+      The front of the trains that had collided head-on thrust up into the air.
+      He thrust out into the morning air.
+      She thrust the window open.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,7</wn>   
+         <wn lemma="thrust_out" version="3.0">1</wn>
+         <omega></omega><pb>thrust.01</pb>
+         <vn>carry-11.4-1-1,push-12-1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Press or force, impose; place or put with
+         great energy." type="">
+      <commentary>
+      INCLUDES: THRUST INTO, THRUST ON
+      Syntax is: NP1(agent) THRUST NP2(patient) (into) NP3(recipient)  
+      </commentary>
+      <examples>
+      She thrust the letter into his hand.
+      He thrust the money into the hands of a beggar.
+      She thrust her diet on him. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4,8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thrust.01</pb>
+         <vn>carry-11.4-1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Penetrate or cut through (as if) with a
+         sharp instrument; push one's way (through)." type="">
+      <commentary>
+      Includes: THRUST THROUGH
+      </commentary>
+      <examples>
+      She thrust her way into the meeting room.
+      The blade thrust through his flesh.
+      He thrust through the crowd as quick as he could. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>push-12-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Force (molten rock) into pre-existing rock." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Volcanic rock thrust into the Earth's crust. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

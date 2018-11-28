@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cook-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make food ready for consumption (by applying heat)" type="">  
+      <commentary>
+        Includes: COOK OUT, COOK UP
+        Note: Includes only concrete uses.
+      </commentary>
+      <examples>
+        I can never cook burgers the way I want.
+        I cooked the meal by stirring it into boiling water.
+        Cook up the vegebles in the same pot as the noodles.
+        We cooked out in the woods while camping. (Meaning 'to barbecue')
+        Onions cook faster than carrots in stir-fry.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="cook_out" version="3.0">1</wn>
+         <wn lemma="cook_up" version="3.0">1</wn>
+         <omega></omega><pb>cook.01</pb>
+         <vn>build-26.1,cooking-45.3,preparing-26.3-1</vn><fn>Apply_heat,Cooking_creation,Absorb_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="transform or destroy non-food items by heating" type="">
+      <commentary>
+        NOTE: Includes abstract uses.
+      </commentary>
+      <examples>
+        Cocaine cooked his brain.
+        My brother cooked the laptop we gave him for Christmas.
+        Some food packaging can be dangerous if cooked.
+        The sun is cooking me. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>build-26.1,preparing-26.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="create something artificial (with the purpose of deception)" type="">
+      <commentary>
+        Includes: COOK THE BOOKS, COOK UP.
+      </commentary>
+      <examples>
+        How did Cheney cook the intelligence on Iran?
+        The President cooked up a secret mission to give thanks to his
+        troops.
+        Dell admits that they cooked the books on their quarterly sales.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="cook_up" version="3.0">2</wn>
+         <omega></omega><pb>cook.03,cook.02</pb>
+         <vn>NM</vn><fn>Invention</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

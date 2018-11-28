@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="colony-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="settlement of people distant from their homeland" type="">
+        <commentary>
+            COLONY[+entity][+group][+person][+settlement][+isolated][+governed][+remotely]
+        </commentary>
+        <examples>
+            The colony resented taxation without representation.
+            He grew tired of socializing with the American colony in Paris.
+            The colonies could not initially agree on the wording of their declaration to the king.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="localized population of organisms living together" type="">
+        <commentary>
+            COLONY[+entity][+group][+organism][+population][+localized]
+        </commentary>
+        <examples>
+            The biologist has studied various ant colonies for many years.
+            The island supports a healthy colony of seals.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="settlement of people with a common circumstance" type="">
+        <commentary>
+            COLONY[+entity][+group][+person][+settlement][+circumstances][+shared]
+        </commentary>
+        <examples>
+            Mary lived in an artists colony during her early twenties.
+            It was a famous leper colony of the sixteenth century.
+            The novel is set in a penal colony in Siberia.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="geographic region governed politically by a distant nation" type="">
+        <commentary>
+            COLONY[+location][+region][+geographical][+governed][+remotely]
+        </commentary>
+        <examples>
+            The region between those two rivers was a former French colony in the 19th century.
+            Their new world colonies were rich in natural resources such as gold, timber and coal.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="group of organisms grown from a single parent cell" type="">
+        <commentary>
+            COLONY[+entity][+group][+organism][+generated][+parent][+single]
+            Note: either single cells or single spores
+        </commentary>
+        <examples>
+            Under the microscope, the slide revealed a colony of bacteria.
+            Antibiotics attack the friendly colonies of bacteria in the intestines.
+            A colony of mushrooms sprang up overnight under the tree in the back yard.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

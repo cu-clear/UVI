@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="zip-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="close with a zipper" type="">  
+      <commentary>
+        Note: Includes ZIP UP
+        Syntax is: NP1[agent] ZIP NP2
+      </commentary>
+      <examples>
+        There, mom unzipped his coat, hung the basket over the hanger, and
+        zipped up the coat and attached a note.   
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="zip_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>tape-22.4</vn><fn>Closure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move fast" type="">
+      <commentary>
+        Note: Includes ZIP BY
+        Syntax includes: NP1 ZIP
+      </commentary>
+      <examples>
+        Fedex and UPS trucks zipped past us.
+        A silver Honda Civic zipped down Kansas Highway 10.
+        The cars zipped by endlessly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="zip_by" version="3.0">1</wn>
+         <omega></omega><pb>zip.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="dillk" sample_score="-"/>  
+</inventory>

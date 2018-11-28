@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="convey-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="express, symbolize, mean; be a medium of
+expression or transmission" type="">
+      <commentary>
+        NOTE: compare carefully to sense 3; in this sense, the transmitted
+              thing cannot be clearly said to leave the possession or
+              location of NP1 (if you transfer a message or an idea, do you
+              no longer have that information?--it's unclear and up for
+              philosophical debate!)
+      </commentary>
+      <examples>
+        The visits have conveyed the message to Central Africans that they are not abandoned.
+        There was an atmosphere of excitement, which conveyed the impression that we would not have long to wait.
+        Topped off with a messy ponytail, this look conveyed the cool of a New York girl.
+        That one look conveyed unspoken words; words that frightened me to the core.
+        Critics charge the EPA has downplayed risks and conveyed false assurances.
+        Hypertension in renal allograft recipients may be conveyed by cadaveric kidneys.
+        As a cartoonist, he conveyed the newspaper's political opinions to a wide audience.
+        He called a press conference at which he conveyed the government's decision to repeal the law.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,5</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>convey.01</pb>
+         <vn>say-37.7-1</vn><fn>Successfully_communicate_message</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="transfer location or possession" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] CONVEY NP2 PP{P NP[location]}
+        NP1[agent] CONVEY NP2 PP{P NP[recipient]}
+        NOTE: compare carefully to sense 1; in this sense
+              the conveyed object leaves the location
+              or possession of NP1
+        NOTE: includes legal transmission of a title or property
+      </commentary>
+      <examples>
+        The wooden plow was equipped with a seed hopper and a tube that conveyed the seed.
+        Are souls conveyed thither immediately after death?
+        In 1992, Patrick and his wife Joann conveyed the parcel to the defendants.
+        In April of 1999, the appellant conveyed the property to the appellee.
+        John de Vaux conveyed the manor to his brother Oliver.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,6,7</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>convey.01</pb>
+         <vn>send-11.1</vn><fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey" sample_score="-"/>
+</inventory>

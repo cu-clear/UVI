@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="decompress-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="return to an uncompressed state (like data files)" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] DECOMPRESS NP2[patient] (PP[instrument])
+      NP1[patient] DECOMPRESS (PP[instrument])
+      </commentary>
+      <examples>
+      When used in a program, the image is decompressed so that it can be displayed.
+      He decompressed the file and a picture appeared.
+      Well, I have a Mac and when I expand bigdump it decompresses with Adobe GoLive.
+      The script now properly downloads and decompresses the update zip file.
+      I decompressed the system database files for both the mdf and ldf files.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>decompress.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reduce the pressure in something" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] DECOMPRESS NP2[patient[concrete]] (PP[instrument])
+      NP1[patient] DECOMPRESS
+      NP1[cause] DECOMPRESS NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      May I never be on an airplane that decompresses.
+      Submersible hyperbaric chambers allow divers to decompress by maintaining the diver's pressure.
+      My ear just vented and decompressed.
+      As traction is broken, the tire decompresses.
+      Two tubular tire sidewall gashes abruptly decompressed the tire.
+      He decompressed the skull successfully with a carpenter's rusty drill and a wooden brace.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>decompress.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="relax" type="">
+      <commentary>
+      Syntax includes:
+      NP1[experiencer] DECOMPRESS (PP[stimulus[affliction]])
+      </commentary>
+      <examples>
+      The long drive would give her time to decompress and begin a period of rest and relaxation.
+      Our thank-you for this is Rough Rider, which will be baked as soon as Adam decompresses.
+      She decompresses just the same way I do.
+      I spent the afternoon decompressing from yesterday's big-fat-Italian wedding!
+      Decompressing from a year of intense coaching is itself tiring.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>decompress.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

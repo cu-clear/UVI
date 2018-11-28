@@ -1,0 +1,136 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="escape-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="release from confinement" type="Event">
+        <commentary>
+            ESCAPE[+event][+release][+from_confinement]
+        </commentary>
+        <examples>
+            The prisoners' daring escape was described in the newspaper.
+            The horse made an easy escape by jumping the fence.
+            He said there was no escape from this world except death.  (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>escape.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a  diversion from some unpleasant reality" type="Event">
+        <commentary>
+            ESCAPE[+activity][+diversion][+temporary][+from_reality]
+        </commentary>
+        <examples>
+            Her main escape was watching daily soap operas.
+            The vacation was to be an escape from his dreary, monotonous office job.
+            Work became his only escape from worry and depression.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>escape.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the leakage of a substance" type="Event">
+        <commentary>
+            ESCAPE[+event][+leakage][+of_substance][+from_container]
+        </commentary>
+        <examples>
+            The explosion was caused by the escape of flammable gas from a broken pipe.
+            John poured the freshly brewed coffee into a thermos to prevent the escape of the volatile flavors.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="mechanism that is a safety valve" type="">
+        <commentary>
+            ESCAPE[+artifact][+mechanism][+valve][+safety]
+        </commentary>
+        <examples>
+            The steam boiler has an escape that opens automatically when the pressure builds to a certain level.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the avoidance of some adversity, danger or unpleasantness" type="Event">
+        <commentary>
+            ESCAPE[+event][+avoidance][+of_adversity]
+        </commentary>
+        <examples>
+            The couple had a narrow escape from injury.
+            There is no escape at this point from filling out the tedious tax returns. (can no longer avoid it)
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb>escape.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="location serving the role of an exit" type="">
+        <commentary>
+            ESCAPE[+location][+role][+exit]
+        </commentary>
+        <examples>
+            The fire code requires that the room have two routes of escape from it.
+            The burglar climbed up the fire escape.
+            The underground tunnel was a secret escape for the royal family.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>escape.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a cultivated plant that is now growing wild" type="">
+        <commentary>
+            ESCAPE[+entity][+organism][+plant][+cultivated][+growing_wild]
+        </commentary>
+        <examples>
+            The white flowers along the road here are probably escapes from the botanical garden.
+            The untended pineapple escapes were small and bug-infested. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="an interrupter key on a computer keyboard" type="">
+        <commentary>
+            ESCAPE[+artifact][+key][+function][+interrupter][+on_keyboard][+computer]
+        </commentary>
+        <examples>
+            Hit escape to stop the application.
+            Where is the escape key located on your keyboard?
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

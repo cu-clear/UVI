@@ -1,0 +1,144 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="way-n">
+    <commentary>23Apr08 added features, update to wn2.1,  modify definitions, added examples. ahouston
+        28Jan09 - merged, S1,S2, revised S4 definition. ahouston
+    </commentary>
+    <sense group="1" n="1" name="a characterized method or manner" type="Abstraction">
+        <commentary>WAY[+event_set][+behavior][+procedural][+characteristic]</commentary><examples>She has a way with horses.
+            I did it my way.
+            There's no way to carry a refrigerator up these stairs!
+            The way to succeed in business is to study linguistics.
+            The way I learned to swim was through trial and error.
+            Mary picked up her French ways living in Paris for five years.
+            You can prove the theorem either way, but this one requires fewer steps.
+            He had a quiet way about him.
+            It's not their way to complain openly to the boss.
+            There are no two ways about it.  (only one manner or method)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,10</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="" n="2" name="Placeholder: Do Not Choose" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="">Placeholder Sense</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a state of affairs, situation, circumstance" type="">
+        <commentary>
+	    WAY[+event][+state][+condition][+general][+situation]
+	    The general state of something.
+	    </commentary>
+        <examples>That's just the way things are.
+            I felt the same way.
+            It must be a lonely way of life.
+            She wants to have it both ways, and that's not fair.
+            Being in a family way is a euphemism for being pregnant.
+            If I had my way, we'd leave the papers behind.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a general course of action" type="">
+        <commentary>
+	    WAY[+event][+event_set][+course_of_action]
+	    Note: refers to an abstract journey, a course of action that is followed
+	    </commentary>
+        <examples>The way out of this crisis is to reduce the debt and strengthen the currency.
+            We must all find our own ways in life.
+            The way back from drug addiction was a long and arduous process for him.
+            The old styles must give way for the new.
+            This piece of legislation has cleared the way for a more comprehensive set of policies.
+            This company has led the way in terms of innovative consumer electronics.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="a direction or orientation" type="Abstraction">
+        <commentary>WAY[+location][+orientation][+direction]
+            A direction or orientation
+        </commentary>
+        <examples>Look both ways before you cross the street.
+            The wind scattered the leaves every which way.
+            He turned onto a one-way street.
+            The boy said the thief ran that way.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="any physical path or route" type="Entity">
+        <commentary>WAY[+location][+physical][+path]
+            The actual pathway connecting one place to another.  
+            Note: can be man-made or a natural route
+        </commentary>
+        <examples>The river was the only way to get to the tiny settlement in the jungle.
+            Make way for the king!
+            She led the way to our seats in the balcony.
+            John has discovered a new way to get from his house to work. (a different route)
+            I met him on the way to Toledo.
+            The way to school took three hours in each direction.
+            We flew to Los Angeles by way of Denver.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="a measure of distance" type="Abstraction">
+        <commentary>WAY[+quantity][+measure][+distance]
+            A measure of physical distance, but can be used metaphorically also
+        </commentary>
+        <examples>It's a long way to Moscow.
+            It's only a short way to the market.
+            We came a long way before we saw any sign of civilization.
+            You've come a long way, baby!  (metaphoric usage - implies moving a social distance)
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="with respect to, concerning" type="Discourse">
+        <commentary>WAY[+relation][+relevance][+to_something]
+            Expression meaning &quot;with regard to&quot;, &quot;concerning&quot;
+        </commentary>
+        <examples>We didn't have much in the way of clothing.
+            Do you have anything by way of a screwdriver?
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="divisions or portions of a whole thing" type="Abstraction">
+        <commentary>WAY[+quantity][+portion][+of_whole]
+            Refers to the number of &quot;ways&quot; that something is divided 
+            Note: occurs in the plural only
+        </commentary>
+        <examples>We split the loot three ways.
+            I can split each cookie two ways, s
+        </examples>
+        <mappings>
+            <wn version="3.0">12</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

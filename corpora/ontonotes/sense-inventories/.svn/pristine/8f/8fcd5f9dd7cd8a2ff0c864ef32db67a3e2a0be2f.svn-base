@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sale-n">
+    <commentary>
+        14Apr08 added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="activity of selling" type="Event">
+        <commentary>
+            SALE[+event][+transaction][+commercial][+transfer][+property]
+            the general activity of selling
+        </commentary>
+        <examples>
+            They tried to boost sales.
+            Laws limit the sale of handguns.
+            He has just made his first sale.
+            They had to complete the sale before the banks closed.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>sale.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="availability for purchase" type="">
+        <commentary>
+            SALE[+state][+availability][+for_purchase]
+            the state of being purchasable; offered or exhibited for selling
+        </commentary>
+        <examples>
+            You'll find vitamin C for sale at most pharmacies.
+            The new line of cars won't be for sale until next month.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="occasion or event  to buy discounted merchandise" type="Event">
+        <commentary>
+            SALE[+event][+occasion][+opportunity][+for_buying][+merchandise][+discounted]
+            cut-rate sale, sales event - 
+            an occasion (usually brief) for buying at specially reduced prices
+        </commentary>
+        <examples>
+            They held a sale to reduce their inventory.
+            I got some great bargains at their annual sale.
+            Women's shoes are on sale at Macy's tomorrow and Wednesday.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="written contract, official sales agreement" type="">
+        <commentary>
+            SALE[+entity][+artifact][+document][+contract][+transfer][+of_property]
+            an agreement (or contract) in which property is transferred from the
+            seller (vendor) to the buyer (vendee) for a fixed price in money (paid
+            or agreed to be paid by the buyer)
+        </commentary>
+        <examples>
+            The salesman faxed the sale to his home office, to show his wife.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>sale.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

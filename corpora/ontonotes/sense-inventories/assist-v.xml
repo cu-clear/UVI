@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assist-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="help, aid" type="">  
+      <commentary>
+      Syntax Includes: NP1[agent] ASSIST NP2
+       Note: NP1 can be animate or an organization
+      </commentary>
+      <examples>
+        She never assists her mother with housework.
+        Can you assist me in carrying this table?
+        The committee assisted the Elections Committee in promoting and explaining SAC representative voting procedures.
+        The nurse assisted the physician and respiratory therapist during the intubation.
+        Is a salesperson assisting you?
+        The minister assisted the king for many years.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <omega/><pb>assist.01</pb>
+         <vn>help-72.1-1-1</vn><fn>Assistance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be beneficial or helpful to" type="">
+      <commentary>
+        NP1[agent,-human] ASSIST NP2
+      </commentary>
+      <examples>
+        Whilst lower prices assisted industrial competitiveness and consumer welfare, they did not incentivise end users to be more energy efficient.
+        It contains far too few maps, which could have greatly assisted the reader in understanding the issues being negotiated.
+        The Crime Victims Fund assisted the family with $500 toward his burial expenses.
+        Unseasonably warm weather assisted maturation of crops.
+        The strong economy assisted the boating industry in 2004.
+        Scattered rain assisted the firemen in dousing blazes.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="mullinsm,duffielc,brownsw" sample_score="-"/>  
+</inventory>

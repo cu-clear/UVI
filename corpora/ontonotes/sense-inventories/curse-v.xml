@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="curse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Utter profanities (at)." type="">  
+      <commentary>
+      Note: This sense MUST INCLUDE linguistic content. If there is nothing
+      'said,' use Sense 2.  
+      Includes: CURSE OUT
+      </commentary>
+      <examples>
+      The drunken men were cursing loudly in the street.
+      Mary cursed out her husband.
+      The taxi driver cursed at the passenger when he didn't pay. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>curse.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Wish harm upon; invoke evil upon, possibly
+         by excluding from a religious community." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The bad witch cursed the child.
+      The church cursed the teens and sent them away.
+      Curse you!
+      Mary cursed her husband, wishing him to die. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>judgement-33</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="water-v">    
+   <commentary>
+   Another possible sense: 'The herd watered.' This was suggested in tagger
+   feedback but seems to be just a reflexive version of sense 1.
+   </commentary>
+   <sense group="1" n="1" name="provide or supply with water" type="">  
+      <commentary>
+        Syntax includes: NP1[agent] WATER NP2[patient]
+                         NP1[agent] WATER NP2[concrete]
+
+        NOTE: Compare to sense 3. The NP being watered does NOT experience
+        a change of state. Also the NP2 does not need to be explicitly
+        stated as being living (as in example 2) but a living thing always
+        occurs as a result (i.e. the field contains living plants).
+      </commentary>
+      <examples>
+        I watered the garden today and the strawberry patch.
+        Farmers watered the fields every week.
+        They watered the grass until it was an emerald green. 
+        Make sure to water the horses after every ride. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>water.01</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="secrete or form water" type="">
+      <commentary>
+        Syntax includes: NP1[inanimate] WATER (PP)
+                         NP1[concrete] WATER (PP)
+
+      </commentary>
+      <examples>
+        My mouth watered at the smell of garlic cooking.
+        Cutting onions makes my eyes water.
+        Her eyes watered when he told her that she was ugly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="WATER DOWN: make less strong or thinner by adding water" type="">
+      <commentary>
+        Syntax is: NP1[agent] WATER DOWN NP2[concrete]
+                   NP1[agent] WATER DOWN NP2[abstract]
+
+        Is: WATER DOWN
+
+        Note: Includes metaphorical examples. Compare to sense 1. In this
+        sense the NP being watered down experiences a change of state. 
+      </commentary>
+      <examples>
+        Mike doesn't like ice in his drinks because it waters them down.
+        Water down the scotch to make it drinkable.
+        The U.S. wants to water down the climate statement.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="water_down" version="3.0">1,2</wn>
+         <omega></omega><pb>water.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

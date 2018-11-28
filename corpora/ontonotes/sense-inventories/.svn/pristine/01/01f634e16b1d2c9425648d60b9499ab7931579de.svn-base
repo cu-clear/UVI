@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="treatment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="administering of medical care for injury or disease" type="">
+        <commentary>
+            TREATMENT[+activity][+procedure][+therapeutic][+medical]
+            Note: a narrow, medical usage of Sense 2
+            Note: implies an agent administering medical care to a recipient/patient
+        </commentary>
+        <examples>
+            His medical insurance won't cover that type of treatment.
+            The patient is scheduled to have three treatments of radiation.
+            It's an exciting new treatment for pancreatic cancer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>treatment.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="manner of handling, managing someone or something" type="">
+        <commentary>
+            TREATMENT[+activity][+conduct][+managing][+manner]
+            Note: implies an actor/agent handling a recipient/patient
+        </commentary>
+        <examples>
+            They are concerned about the treatment of the prisoners. 
+            Mary gave John the silent treatment at dinner last night.
+            The film star always received special treatment at the restaurant.
+            The harbor is much cleaner since the inception of sewage treatment there.
+            The treatment of hazardous wastes is usually expensive.
+            These hardy shrubs don't require any special treatment.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>treatment.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a critique or presentation of something, e.g.,discussion" type="">
+        <commentary>
+            TREATMENT[+activity][+communication][+critique][+verbal/+artistic]
+            Note: implies an intention to communicate an idea 
+        </commentary>
+        <examples>
+            The candidate's treatment of foreign policy issues struck the audience as naive.
+            The film's treatment of this war-torn village was quite moving.
+            The middle portion of the book is an extensive treatment of Napoleon's early military campaigns.
+            This painter's treatment of light and shadow is reminiscent of the Dutch Masters.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb>treatment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

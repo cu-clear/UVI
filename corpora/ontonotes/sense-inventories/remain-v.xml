@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="remain-v">    
+   <commentary>
+     Includes VPC remain_firm, remain_down
+     Includes duplicate mappings of WordNet sense 3.
+   </commentary>
+   <sense group="1" n="1" name="remain in a certain state" type="">  
+      <commentary>
+        Note: This sense includes abstract uses.
+        Syntax Includes:
+        NP1 REMAIN ADJ/ADVP[manner]
+        Includes: REMAIN FIRM, REMAIN DOWN
+      </commentary>
+      <examples> 
+        The President is expected to remain firm on his veto of the bill.
+        In this game you must remain down to the count of ten.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="remain_firm" version="3.0">1</wn>
+         <wn lemma="remain_down" version="3.0">1</wn>
+         <omega/><pb>remain.01</pb>
+         <vn>seem-109-1-1</vn><fn>State_continue</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be left; stay behind; continue in a place,
+   position, or situation" type="">  
+      <commentary>
+        Note: This sense includes concrete uses.
+	Syntax Is: NP1[topic] REMAIN[stative] SCOMP
+      </commentary>
+      <examples>
+        The fog and rain remained with us for a week.
+        She remained with the child until he fell asleep.
+        Although I washed the walls, a faint smell of cigarette smoke remains.
+       	What remains of the ancient city are just foundations of houses.
+	He remains the only President whose administration was not involved in a war.
+	If you subtract ten from twelve, two remain.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>remain.01</pb>
+         <vn>exist-47.1</vn><fn>Existence,Remainder</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be left to do" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[topic] REMAIN TO+VERB
+      </commentary>
+      <examples>
+        It remains to be seen whether China will cooperate.
+        Much remains to be done before the deadline.
+        Three cars remain to be fixed.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>remain.01</pb>
+         <vn>exist-47.1</vn><fn>Left_to_do</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

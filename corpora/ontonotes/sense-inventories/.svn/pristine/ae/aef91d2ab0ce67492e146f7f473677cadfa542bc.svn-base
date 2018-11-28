@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="zoom-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move (usu. in a positive direction) quickly" type="">  
+      <commentary>
+        Includes: ZOOM ALONG
+      </commentary>
+      <examples>
+        The cars zoomed down the highway.
+        We were zooming along on this assignment, when the power went out.
+        The subway zoomed past us as we stood on the deck.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="zoom_along" version="3.0">1</wn>
+         <omega></omega><pb>zoom.01</pb>
+         <vn>run-51.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ZOOM IN: examine closely; focus attention on" type="">
+      <commentary>
+        Is: ZOOM IN
+      </commentary>
+      <examples>
+        Zoom in on the person in the picture, I want to see his face.
+        It's easier to color small areas on Photoshop if you zoom in to 500x.
+        If you zoom in with the lens, you'll get sharper details.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="zoom_in" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

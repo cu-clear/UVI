@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bat-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hit at (as if) with a bat; beat" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        My kitten likes to bat at the blind cords.
+        She bat at the fly that was buzzing around her head.
+        The gangsters batted him until he was unconscious.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>throw-17.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="BASEBALL: have a turn at bat" type="">
+      <commentary>
+        Includes: BAT IN
+
+        NOTE: This is a subsense of sense 1. Use for all references to the
+        sport of baseball.
+      </commentary>
+      <examples>
+        Micah batted at  .359 in the last two seasons.
+        Who's batting next?
+        Dan Davis bats first, followed by Babe Ruth.
+        I didn't get to bat at all in the last two games! 
+        He batted in all five games against the Cubs.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bat.02,bat.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="wink briefly" type="">
+      <commentary>
+        Includes: BAT ONE'S EYELASHES
+      </commentary>
+      <examples>
+        She batted her long eyelashes at the clerk.
+        I batted my eyelashes slowly and deliberately.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bat.01</pb>
+         <vn>crane-40.3.2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

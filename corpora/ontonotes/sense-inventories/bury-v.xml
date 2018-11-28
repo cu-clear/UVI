@@ -1,0 +1,105 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bury-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="enclose or cover completely" type="">  
+      <commentary>
+     Syntax Is:  NP1[agent] BURY NP2[concrete] (PP NP[location]) 
+       Note: the object being buried is completely surrounded by NP (which
+       does not consitute a space with internal structure but a substance) 
+       disappears from sight.
+      </commentary>
+      <examples>
+        There are many clues that the Vikings buried the treasure here.
+        The growing city of Worcester buried the majority of the Blackstone
+        Canal.
+        The Day They Buried The Lone Ranger was a sad one.
+        The engineers buried the pipes at depths of three to twelve feet.
+        Mount Vesuvius erupted and buried the towns of Pompeii and Herculaneum.
+        Mac buried himself in his covers, hugging his teddy bear. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>bury.01</pb>
+         <vn>put-9.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="embed deeply" type="">
+      <commentary>
+      Syntax Is:  NP1[animate] BURY NP2[concrete] IN NP3
+        Note: Compare to sense 1. The object being buried in this sense is
+        NOT competely covered by a substance NP3 therefore, it may not
+        disappear from sight; NP3 may be a space or a substance.  
+     </commentary>
+      <examples>
+        I sat down by the body and buried my face in my hands.
+        The youth's friend lay down, buried his face in his arms and fell asleep.
+        The archer buried the arrow in the bullseye.
+        The hidden gold was buried deep in the cavern (where the gold is not under the rock). 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>put-9.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="dismiss from mind; consign to obscurity; burden with an undesirable situation; resign to ineffectiveness." type="">
+      <commentary>
+      Syntax Is:  NP1[agent] BURY NP2[abstract]
+        This sense requires an abstract patient. 
+      </commentary>
+      <examples>
+        Not wanting to hurt anyone, he buried the thought that came to him.
+        They buried the N word today.
+        I buried the devil that has been sitting on my shoulder.
+        They buried the American dream today.
+        Secrets buried deep in time are hard to unveil.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Burden with an undesirable situation; resign to ineffectiveness." type="">
+      <commentary>
+       NP1[agent] BURY NP2[concrete] PP{P NP[abstract]}
+       This sense requires an abstract location/instrument.
+      </commentary>
+      <examples>
+       He buried the company in debt.
+       Williams was buried deep in the tournament rankings. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>bury.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="immerse oneself in" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Grant buried himself in his new job.
+        Doran is a man who has seemingly buried himself in a slacker
+        lifestyle.
+        Paul Flemming buried himself in books.
+        Emma buried herself in her fantasies and dreamed of living in Paris.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>bury.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

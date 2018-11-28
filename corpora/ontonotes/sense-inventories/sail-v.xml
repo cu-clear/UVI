@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sail-v">    
+   <commentary>
+    Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="travel on a body of water (propelled by wind)" type="">  
+      <commentary>
+         NP1[+agent] SAIL NP2[+concrete]
+
+         NOTE: Includes metaphorical uses. The NP2 does not need to be
+         specified, but it does need to be implied as in the last example.
+      </commentary>
+      <examples>
+        Charles Darwin sailed on the Beagle.
+        I love sailing the open sea.
+        Who 'really' sailed the Ocean Blue in 1492?
+        Can a kitten sail a ship?
+        There was a lady who sailed my soul.
+        We sailed (the ocean) through the night.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sail.01</pb>
+         <vn>nonvehicle-51.4.2</vn><fn>Ride_vehicle,Operate_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move with sweeping, effortless gliding motions" type="">
+      <commentary>
+        NP1[+agent] SAIL PP[path] NP3
+      </commentary>
+      <examples>
+        Jeanette sailed into the ballroom with a grin.
+        The paper airplane sailed through the air.
+        The glider sailed down to a perfect landing.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="SAIL THROUGH: succeed at easily or finish quickly" type="">
+      <commentary>
+        Is: SAIL THROUGH
+
+        NOTE: is only metaporical uses NOT involving water or a vehicle.
+      </commentary>
+      <examples>
+        I'm sailing through my Linguistics class.
+        Does he expect to sail through his entire college carreer? 
+        The market researcher sailed through the 100 question survey.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="sail_through" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

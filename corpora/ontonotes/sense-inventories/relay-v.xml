@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="relay-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass along" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] RELAY NP2[topic] PP{to NP[recipient]}
+      </commentary>
+      <examples>
+        She relayed the message to the housekeeping executive and expressed
+        her concern.
+        Carter relayed the message in a speech in Jerusalem after meeting
+        last week with top Hamas leaders in Syria.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>relay.01</pb>
+         <vn>instr_communication-37.4,transfer_mesg-37.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="control or operate by relay" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

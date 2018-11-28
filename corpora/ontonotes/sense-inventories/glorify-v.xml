@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="glorify-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Praise, glorify, or honor, possibly as a
+   matter of overstatement." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] GLORIFY NP2[patient]
+      NP1[theme] GLORIFY NP2[patient]
+      </commentary>
+      <examples>
+      It's easy to glorify one's spouse's cooking when in love.
+      The concept of nationalism glorifies the territorial state.
+      The victory over the enemy glorified the Republic.
+      You're glorifying a rather mediocre building.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>glorify.01</pb>
+         <vn>judgement-33,overstate-37.12</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Elevate or idealize, in allusion to
+         Christ's transfiguration." type="">
+      <commentary>
+      Syntax Is: NP1 GLORIFY NP2
+      Note: NP2 is reflexive.
+      </commentary>
+      <examples>
+      We glorify ourselves with our submission.
+      He glorified himself through his humility.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

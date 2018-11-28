@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="use-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="apply or employ something for a purpose" type="">
+      <commentary>
+       Syntax is: NP[agent] USE NP[instrument] PP[purpose]
+      </commentary>
+      <examples>
+       Don't use a natural bristle brush with latex paint.
+       He used Sally to land that job.
+       The defense will use the argument of self defense.
+       Mary uses her pawns well in chess offense strategies.
+       Options can be used as a hedge against unfavorable stock price movements.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5</wn>
+         <omega/><pb>use.01</pb>
+         <vn>fit-54.3,use-105.1</vn><fn>Using,Intentionally_affect</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="consume or ingest,usually habitually" type="">
+      <commentary>
+       Syntax is: NP1 USE NP2 
+      </commentary>
+      <examples>
+       John used cocaine on the job.
+       Can those athletes use steroids legally?
+       Mary is using birth control pills.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>use.01</pb>
+         <vn>eat-39.1-3</vn><fn>Ingest_substance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="expend a quantity" type="">
+      <commentary>
+        Syntax is: NP USE (ADJ)[quant] NOUN
+        Note: implies NOUN decreases, disappears over time.
+        Includes: USE UP
+      </commentary>
+      <examples>
+       Please don't use all the toothpaste.
+       The commitee used all their time discussing the rezoning issue, and nothing else.
+       That rocket will use more oxygen during liftoff than you'll breathe in a lifetime.
+       As the battery is used up, its output voltage falls.
+       Those meetings used up three hours of my time.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="use_up" version="3.0">1,2</wn>
+         <omega/><pb>use.01</pb>
+         <vn>consume-66</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="act customarily or regularly" type="">
+      <commentary>
+        Syntax is: NP1 USED to V1 NP2
+      </commentary>
+      <examples>
+       We used to surf in Santa Cruz.
+       He used to have a drinking problem.
+       Her cat used to scratch the draperies.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>use.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

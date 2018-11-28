@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="raise-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an increase in salary" type="Event">
+        <commentary>
+            RAISE[+quantity][+increase][+money][+salary]
+        </commentary>
+        <examples>
+            The best employees received a ten percent raise last year.
+            John went to his boss and asked for a raise.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an upward slope or rise" type="Event">
+        <commentary>
+            RAISE[+form][+slope][+upward]
+        </commentary>
+        <examples>
+            The road's steep raise made it strenuous to go uphill on a bicycle.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an increase in a bet or bid" type="">
+        <commentary>
+            RAISE[+quantity][+increase][+bet][+game]
+            Note: can refer to money (as in poker) but to cards (in bridge)
+        </commentary>
+        <examples>
+            I'll see your raise and double it.
+            Mary was surprised at her bridge partner's  raise to eight clubs.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of lifting something" type="Event">
+        <commentary>
+            RAISE[+event][+physical][+lifting]
+        </commentary>
+        <examples>
+            He questioned her remark with a raise of his eyebrow.
+            The athlete demonstrated some bent-over raises of free weights.
+            The sailors' raise of the spinnaker was done skillfully.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

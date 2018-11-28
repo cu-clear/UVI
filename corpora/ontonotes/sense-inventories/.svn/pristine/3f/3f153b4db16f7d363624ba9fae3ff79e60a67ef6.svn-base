@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="regret-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="feel sad about, without accepting responsibility" type="">
+      <commentary>
+        Note: The experiencer feels bad about something that was outside the experiencer's control.
+      </commentary>
+      <examples>
+        Prosecutors regretted the court's decision and planned to appeal it to the High Court.
+        The Swiss representative said that his country regretted the nuclear test conducted by China.
+        I regret that I must refuse your kind invitation.
+        We regret to inform you that your manuscript does not meed our needs at the moment.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>regret.01</pb>
+         <vn>admire-31.2-1</vn>
+         <fn>Experiencer_focus</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="feel remorse for, feel guilty about, entails resposibility for action/situation" type="">
+      <commentary>
+        Note: The experiencer feels regret about something the experiencer had control over.
+      </commentary>
+      <examples>
+        I've regretted my decision from the day I made it.
+        We regret any inconvenience this may have caused you.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>regret.01</pb>
+         <vn>admire-31.2-1</vn>
+         <fn>Experiencer_focus</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,trevorjb" sample_score="-"/>
+</inventory>

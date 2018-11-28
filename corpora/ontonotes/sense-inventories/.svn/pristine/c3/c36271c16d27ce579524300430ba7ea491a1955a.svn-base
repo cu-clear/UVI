@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="wish-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="express a desire for something uncertain" type="">
+      <commentary>
+        NOTE: has the strong feeling that the desired item or situation is unlikely
+              or uncertain
+        Syntax is: NP1 WISH NP2 would/could V
+                   NP1 WISH (for) NP2
+      </commentary>
+      <examples>
+        I wish I'd never met him.
+        Fox News host Bill O'Reilly publicly wished that Hurricane Katrina had flooded the United Nations building.
+        I wish you had been there.
+        She wished she could say the same for herself.
+        She wished she could turn the clock back three weeks, at least.
+        He wished he would be gone and take his evil-eyed companion away with him.
+        Tom never told anyone what he wished for.
+        Be careful what you wish for!
+        Mostly everyone wished for no more wars, more peace, an end to violence, no pollution, etc.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>wish.01</pb>
+         <vn>long-32.2-1</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="formal or literary term for 'want'" type="">
+      <commentary>
+        NOTE: a somewhat formal usage
+            WANT can subsstitute WISH (but not WISH FOR)
+        Syntax is: NP1 WISH TO V2 (infinitival)
+      </commentary>
+      <examples>
+        Do you wish to tell me something?
+        I wish you to leave now.
+        Do you wish milk with your lunch today?
+        I went to the woods because I wished to live deliberately.
+        I wished to write a story to share my experiences.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>wish.01</pb>
+         <vn>wish-62,long-32.2-1</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="3" name="bid, invoke upon" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        You can say I wished him good morning and good evening.
+        I walked away and managed to form a smile through my sadness as I wished her goodbye.
+        Before you could even say something in response she would have wished you a nice evening and have hung up.
+        I wish you well and so I take my leave.
+        I wish you joy in all your days.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="wish_well" version="3.0">1</wn>
+         <omega/><pb>wish.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,vieweg,brownsw,hwangd,greenlm" sample_score="-"/>
+</inventory>

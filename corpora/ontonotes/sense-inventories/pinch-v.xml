@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pinch-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="squeeze tightly between or as if between the fingers" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PINCH NP2
+      </commentary>
+      <examples>
+        Edmund pinched the bridge of his nose.
+        Before speaking he pinched the raven, which squawked angrily.
+        The doctors thought for the longest time that I had just pinched the nerve.
+        During the body work, that repair man had pinched the line.
+        Our parents could really pinch a penny.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pinch.01</pb>
+         <vn>touch-20-1</vn>
+         <fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="constrict or exert pressure on" type="">
+      <commentary>
+        Syntax Is: NP1[topic] PINCH NP2
+        Note:  compare to Sense 1 where NP1 is [agent]
+      </commentary>
+      <examples>
+        These shoes pinch my feet.
+        Demographic trends will pinch government budgets.
+        The strike has pinched spending in Topeka.
+        The embargo pinches at the very heart of this country's economy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <omega></omega><pb>pinch.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="steal" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Who pinched the toilet paper?
+        I think he pinched that hat from the wardrobe department.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>pinch.02</pb>
+         <vn>steal-10.5</vn>
+         <fn>Theft</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="prune" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        You should pinch the plants back to create more branching and more flowers.
+        But the asters are newer to me, and I've been wondering if I should pinch.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

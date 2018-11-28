@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rob-v">
+   <commentary>
+   Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="forcibly take away" type="">
+      <commentary>
+        NOTE: compare carefully to sense 2; this is a more general sense,
+              and includes abstract usages
+      </commentary>
+      <examples>
+        He robbed us of some big goals in big moments.
+        He robbed me of the little space I stole.
+        He robbed me of my courage, my trust in others, confidence in my own judgment.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>rob.01</pb>
+         <vn>cheat-10.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="commit robbery" type="">
+      <commentary>
+        NOTE: compare carefully to sense 1; this is a subset of sense 1,
+              specific to a criminal act; the objects stolen are usually not stated.
+      </commentary>
+      <examples>
+        We were robbed!
+        Seventeen percent reported their customers being robbed.
+        I was robbed at gunpoint during my first job.
+        He robbed me of a wallet. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>rob.01</pb>
+         <vn>cheat-10.6</vn><fn>Robbery</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

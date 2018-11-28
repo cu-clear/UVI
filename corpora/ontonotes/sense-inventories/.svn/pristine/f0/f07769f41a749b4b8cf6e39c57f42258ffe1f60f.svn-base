@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="disorder-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="abnormal medical condition" type="">
+        <commentary>
+            DISORDER[+state][+physiological][+condition][+abnormal]
+        </commentary>
+        <examples>
+            It's a rare form of personality disorder.
+            The child has been diagnosed with a mild learning disorder.
+            She takes medication for a metabolic disorder.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="unorganized, messy, disarray" type="">
+        <commentary>
+            DISORDER[+state][-organized][+messy]
+            Note: implies either physical or abstract organizational mess
+        </commentary>
+        <examples>
+            The house is in such disorder that I don't know where to start cleaning up.
+            After the talented manager quit, his department fell into a state of disorder and confusion.
+            The girl's clothes lay in disorder all over the bedroom floor.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="civic unrest, disturbing the peace" type="">
+        <commentary>
+            DISORDER[+state][+unrest][+civic]
+            Note: implies protest, unlawful conduct, violence
+        </commentary>
+        <examples>
+            Widespread social disorder has resulted from the currency collapse.
+            The police reported a disorder last night in front of Rosie's bar.
+            Recurrent food shortages led to outbreaks of disorder in the city.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

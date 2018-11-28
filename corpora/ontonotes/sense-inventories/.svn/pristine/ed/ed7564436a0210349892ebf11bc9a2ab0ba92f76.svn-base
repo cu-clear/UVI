@@ -1,0 +1,139 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="review-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the activity of examining or assessing something" type="Event">
+        <commentary>
+            REVIEW[+activity][+examination][+medical/+critical/+financial/+judicial]
+            Note: does not imply a pre-existing interpretation, but ongoing evaluation
+        </commentary>
+        <examples>
+            Congress is initiating a comprehensive review of defense policy.
+            All areas of the company's finances are currently under review.
+            The new doctor made an extensive review of the patient's medical history.
+            This study conducted a thorough review of the subjects' overall health ten years later.
+            It is not certain that the higher court will undertake a review of the case.
+            His case comes up for review in January.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3,4,8</wn>
+            <omega/><pb>review.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a critical interpretation of  something, written or spoken" type="Event">
+        <commentary>
+            REVIEW[+document][+published][+article][+critique]
+            [+activity][+interpretation][+critique]
+            Note: implies the explicit view or interpretation of a single person on a narrow topic
+        </commentary>
+        <examples>
+            There was a scathing political review of that candidate in today's paper.
+            He writes reviews for the New York Times.
+            I haven't seen any reviews yet of last night's performance of La Traviata.
+            The radio commentator gave that movie a favorable review.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>review.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a survey or summary of past events, activities" type="Event">
+        <commentary>
+            REVIEW[+document][+summary]
+            [+activity][+speech][+summation]
+            Note: does not focus on critical interpretation (see Sense 2)
+            Note: focus is on an aggregation or survey of information
+        </commentary>
+        <examples>
+            The CEO gave a year-end review of the company's revenues and achievements.
+            This chart provides a chronological review of the main events leading up to the invasion.
+            This book provides a good review of the history of computing over the past twenty-five years.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>review.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a practice or brush-up of skills or knowledge" type="">
+        <commentary>
+            REVIEW[+activity][+practice][+skill/+knowledge]
+            Note: implies participation of others in a learning context
+            Note: does not imply participants are seeking to make a decision or conclusion (see Sense 1)
+        </commentary>
+        <examples>
+            The teaching assistant will have a special review session next week with practice problems.
+            John decided to take a review course on advanced open water diving.
+            You should work through the review questions in preparation for the exam.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="variety show, entertainment" type="">
+        <commentary>
+            REVIEW[+event][+display][+entertainment]
+            [+form][+theatrical][+show][+variety]
+            Note: also has alternate spelling 'revue'
+        </commentary>
+        <examples>
+            It's a dance review that includes skits, songs and dance ensembles.
+            They are auditioning dancers and singers for a new Las Vegas review.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a published scholarly journal or periodical" type="">
+        <commentary>
+            REVIEW[+journal][+published][+scholarly]
+            Note: implies a whole magazine or periodical, not a single article (see Sense 2)
+        </commentary>
+        <examples>
+            John subscribes to a two foreign policy reviews.
+            Her findings will be published next month in a major biochemistry review.
+            It's a quarterly review about computational linguistics.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a ceremonial display, usually military" type="">
+        <commentary>
+            REVIEW[+event][+display][+ceremonial][+military/+parade]
+        </commentary>
+        <examples>
+            The general rode a white horse at the head of the military review.
+            Invited dignitaries watched the troops on review march in lockstep in dress uniform.
+            The parade review passed right under the balcony of our hotel room.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb>review.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

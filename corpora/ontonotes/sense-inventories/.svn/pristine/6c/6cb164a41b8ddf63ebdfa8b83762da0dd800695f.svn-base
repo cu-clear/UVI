@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="faculty-n">
+    <commentary>
+        22jan07 - modified features of Senses 2 and 3 to clarify the distinction. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an innate ability, mental or physical" type="">
+        <commentary>
+            FACULTY[+quality][+ability][+innate][+physical/+mental]
+        </commentary>
+        <examples>
+            The author has possesses a great faculty for philosophical analysis.
+            Her grandmother's mental faculties have not diminished with age.
+            John has a faculty for saying the wrong thing at the wrong time.
+            The faculty of smell is much more developed in dogs than in humans.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="professors in an academic institution" type="">
+        <commentary>
+            FACULTY[+entity][+social][+group][+people][+teacher][+school][+university/+high_school]
+            Note: refers to -people-, not to institutions (see Sense 3)
+        </commentary>
+        <examples>
+            He's on the faculty at Princeton.
+            There were few tenured women on the faculty during that era.
+            Many of the faculty and students have signed the petition.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a branch of a university" type="">
+        <commentary>
+            FACULTY[+entity][+social][+institution][+educational][+department][+academic]
+            Note: refers to a department, part of an academic institution, -not- the teachers (see Sense 2)
+            Note: almost always of the form 'faculty of X' where X is an institution.
+        </commentary>
+        <examples>
+            John is the dean of the faculty of arts and sciences at a major university.
+            Mary received her diploma from the faculty of engineering.
+        </examples>
+        <mappings>
+            <wn version="MAC">2b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="power or authority that is conferred" type="">
+        <commentary>
+            FACULTY[+state][+authority][+conferred]
+            Note: often refers to an authorization given by a religious group.
+        </commentary>
+        <examples>
+            The church granted him the faculty to perform an exorcism on the child. 
+            They stripped him of the faculty to perform mass.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

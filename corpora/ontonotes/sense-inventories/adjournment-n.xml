@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="adjournment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the termination, ending of a meeting" type="Event">
+        <commentary>
+            ADJOURNMENT[+event][+social][+termination][+of_meeting]
+            Note: implies the termination of a current meeting, it is completed.
+        </commentary>
+        <examples>
+            John's motion for the adjournment of the meeting was seconded by Sally.
+            The bill passed before the adjournment of Congress for the summer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>adjournment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the postponement of an activity" type="Event">
+        <commentary>
+            ADJOURNMENT[+event][+social][+postponement][+of_activity]
+            Note: implies a delay, that an activity may resume in the future
+        </commentary>
+        <examples>
+            The judge has declared an adjournment of the trial until October.
+            The whole department was frustrated upon hearing of the adjournment of the new project until funding came through.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>adjournment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stream-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="A flow of fluid." type="Event">
+        <commentary> 
+        STREAM[+fluid]
+        </commentary>
+        <examples>
+        He felt a stream of urine flow against his will.
+        The hose ejected a stream of water.
+        Walk down to the stream and gather some water.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/><pb>stream.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The dominant course of events or ideas." type="">
+        <commentary>
+        STEAM[+abstract]
+        </commentary>
+        <examples>
+        Two steams of development run through American history.
+        The poem was a stream of consciousness.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="The act of flowing or streaming as if one were water." type="Event">
+        <commentary>
+        STREAM[+event][+group]
+        </commentary>
+        <examples>
+        A steam of people emptied from the terminal.
+        The children made a stream through the museum.
+        The theater planned carefully for the continuous stream of visitors.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb>stream.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="watch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="look at or observe something or someone" type="">  
+      <commentary>
+        Syntax is: NP1 WATCH (NP2)
+
+        Note: Compare this group to the group 3. In this group, the watcher cannot exert control over the patient.
+        Physical and metaphorical act of looking and paying attention.
+      </commentary>
+      <examples>
+        Are you coming to watch the game?
+        I watched him as he walked off down the street.
+        I wasn't watching for him. 
+        I got the feeling I was being watched.
+        They won't let me watch tv tonight.
+        Watch how the dog chases the cat away.
+        I watch the market every day.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,6,7</wn>   
+         <omega/><pb>watch.01</pb>
+         <vn>assessment-34.1</vn>
+         <fn>Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be alert for an anticipated/possible event" type="">
+      <commentary>
+        Syntax includes: NP1 WATCH[intransitive] (out) PP(for + event)
+        Note: Keep attention or monitor in order to accomplish or prevent something.
+        Doesn't necessarily have to do with the act of physically looking.
+        Includes: WATCH OUT
+      </commentary>
+      <examples>
+        Watch out for the pickpockets!
+        Your job is to watch for anyone coming.
+        Please watch for the opportunity to volunteer for this group.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="watch_out" version="3.0">1</wn>
+         <omega/><pb>watch.01, watch.02</pb>
+         <vn>search-35.2,assessment-34.1</vn>
+         <fn>Seeking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>                                                                     
+   <sense group="1" n="3" name="monitor closely with authority and control" type="">
+      <commentary>
+        Syntax is: NP1 WATCH NP2
+        Attention for control or protective measure.
+        NOTE: NP1 has implied control over NP2, but unlike sense 4,
+        there is observation, and not necessarily action taken
+        Includes: WATCH OVER
+      </commentary>
+      <examples>
+        Can you watch the baby while I go upstairs?
+        The shepherd watched the flock white llamas.
+        He watched the prisoner all day.
+        It's your turn to watch the camp tonight.
+        Please watch over my stuff while I go to the restroom.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="watch_over" version="3.0">1</wn>
+         <omega/><pb>watch.01</pb>
+         <vn>assessment-34.1</vn>
+         <fn>Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="actively control, manage" type="">
+      <commentary>
+        Syntax is: NP1[agent] WATCH NP2
+        Note: To exert control by taking care of or keeping mindful of something.
+      </commentary>
+      <examples>
+        Watch your language!
+        Watch where you are going!
+        I need to watch my weight.
+        Watch what you are doing with your knife.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>watch.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg,duffielc" sample_score="-"/>  
+</inventory>

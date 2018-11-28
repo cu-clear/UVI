@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="doubt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be uncertain or not confident about something" type="">  
+      <commentary>
+      Syntax Is:
+       NP1[agent] DOUBT NP2
+      </commentary>
+      <examples>
+        I doubt whether I can finish the work on time.
+        They had begun to doubt that it could be completed in time.
+        He may come back tomorrow with the money, but I very much doubt it.
+        I don't doubt his abilities.
+        We doubted the leader could maintain his place.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>doubt.01</pb>
+         <vn>conjecture-29.5-1</vn><fn>Certainty</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="lack trust or belief in someone" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DOUBT NP2[patient[human]]
+      </commentary>
+      <examples>
+        He's never lied to me before, so I have no reason to doubt his word.
+        What puzzels me is why the case woker doubted her.
+        Certainly a lot of people are doubting me again, but I think I'll be fine.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>doubt.01</pb>
+         <vn>judgement-33</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

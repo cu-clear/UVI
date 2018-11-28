@@ -1,0 +1,104 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="advance-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move or cause to move ahead or forward" type="">  
+      <commentary>
+      Note:  physical or metaphorical move in space or time
+        NOTE: implies a quantitative change in the position of 
+        the object, not of the object itself (compare to sense 4)...
+        (yes, the 'time' example is tricky if we get too philosophical!)
+      </commentary>
+      <examples>
+        The horse advanced towards the finish line.
+        Advance your chess piece, already!
+        Time advances too quickly.
+        We have to advance our watches when we travel eastward.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,6,11</wn>   
+         <omega/><pb>advance.01</pb>
+         <vn>escape-51.1</vn><fn>Self_motion,Progress</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="rise in amount" type="">
+      <commentary>
+       Note: rise in rate, price, or amount of something
+      </commentary>
+      <examples>
+        The stock market advanced 24 points today.
+        The prices advance significantly under strong buying pressure.
+        Over the next eight minutes, they advanced the speed to ten miles an hour.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,12</wn>
+         <omega/><pb>advance.01</pb>
+         <vn>NM</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make progress, contribute to progress" type="">
+      <commentary>
+        NOTE: implies a qualitative change in state (technology is getting better,
+        plans are becoming more complex, causes can become more widespread and well-known)
+      </commentary>
+      <examples>
+        People in a variety of fields have advanced the cause of human rights.
+        His proactive approach to problems and reform advanced the labor movement.
+        Carl Wunderlich of Leipzig in 1868 advanced the use of thermometry in medicine.
+        It advanced the cause of freedom.
+        We are advancing technology everyday.
+        Our plans are steadily advancing.
+        They advanced a novel theory during the seminar.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,7,8</wn>
+         <omega/><pb>advance.01</pb>
+         <vn>other_cos-45.4,promote-102</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="upgrade, (cause to) rise in status" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He advanced to a higher pay scale and was awarded a new title.
+        From this position, I was advanced to an assistant behind the sales.
+        I was only 14 but, after being tested, I was advanced to the 11th grade.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>advance.01</pb>
+         <vn>promote-102</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="lend or give money or goods" type="">
+      <commentary>
+       Note: Usually referring to the supply of money, goods, and loans.
+        Sometimes done ahead of time and/or supplied on credit.
+      </commentary>
+      <examples>
+        I had to advance my paycheck and borrow money to afford it.
+        Can you advance me some money?
+        How do I advance money from my line of credit?
+        You should advance money prior to the start of a project.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>advance.01</pb>
+         <vn>future_having-13.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="make something happen earlier than expected" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I believe we can advance the deadline by one week.
+        If mutually suitable, we can advance the meeting time to immediately after Forum.
+        The date of the event event was advanced by one day, since it fell on a Sunday.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>advance.01</pb>
+         <vn>NM</vn><fn>Change_event_time</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

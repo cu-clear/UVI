@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="erosion-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the gradual process of removing material from a surface" type="">
+        <commentary>
+            EROSION[+activity][+process][+gradual][+physical][+removal][+material]
+            Note: refers to an ongoing process, not the physical structure (Sense 3)
+        </commentary>
+        <examples>
+            The farmers terraced their land to help prevent soil erosion.
+            Bacteria can cause erosion of tooth enamel. 
+            The road surfaces are subject to erosion and must be repaired regularly.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="gradual decline or diminution of something" type="">
+        <commentary>
+            EROSION[+activity][+process][+gradual][+social][+diminution]
+            Note: a figurative extension of Sense 1
+            Note: implies social, or otherwise abstract deterioration
+        </commentary>
+        <examples>
+            The erosion of public support of current foreign policy has been noticeable.
+            They view these trends as evidence of the continuing erosion of moral values.
+            The industry's poor performance this past quarter has caused an erosion of confidence among investors.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the resulting state of having removed material from a surface" type="">
+        <commentary>
+            EROSION[+state][+result][+diminished]
+            [+entity][+structure][+damaged][+material]
+            Note: refers to the resulting structure or state, not an activity (Sense 1)
+            Note: you can point to the structure
+        </commentary>
+        <examples>
+            The geologist pointed out the erosion of the sandstone cliffs to the students.
+            These erosions of the limestone were caused by water, not by wind.
+            The surgery revealed areas of gastric erosions in the patient's small intestine.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

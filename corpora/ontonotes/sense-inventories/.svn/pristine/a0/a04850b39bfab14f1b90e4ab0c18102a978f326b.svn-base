@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="doom-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make certain the failure or destruction of; destine" type="">
+      <commentary>
+        Syntax Includes: 
+         NP1[agent] DOOM NP2
+         NP1[theme] DOOM NP2
+      </commentary>
+      <examples>
+        Procrastination will doom the project.
+        Ross Perot has doomed the Democrats' presidential bid.
+        Extreme shyness doomed him to a life of lonliness.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>doom.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="condemn; make judgment on" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DOOM NP2[patient]
+      </commentary>
+      <examples>
+        It was for this that the gods doomed him, and doomed him justly,
+        to meet his death at the hands of women.
+        They will never do anything clever enough to save him compared
+        to the way they cleverly doomed him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>doom.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm,corvey" sample_score="-"/>
+</inventory>

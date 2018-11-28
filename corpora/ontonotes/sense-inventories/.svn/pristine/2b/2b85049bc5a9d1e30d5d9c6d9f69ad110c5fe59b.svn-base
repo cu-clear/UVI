@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ship-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="transport" type="">
+      <commentary>
+        Note: alternations in examples 1,2 and 3;
+        all should be grouped into this sense
+      </commentary>
+      <examples>
+        They shipped the wrong parts to me.
+        They shipped me the wrong parts.
+        I was shipped the wrong parts.
+        Then if that's not busy enough, we shipped, shipped and shipped meat!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>ship.01</pb>
+         <vn>send-11.1-1</vn><fn>Sending</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+                                                                                                                                    <sense group="1" n="2" name="depart, or send off" type="">
+      <commentary>
+        Syntax is: NP1[human] SHIP
+                   NP1[human] SHIP NP2[human]
+      </commentary>
+      <examples>
+        I shipped to basic training at Fort Benning on July 29th.
+        So I had a five day leave and then I shipped to Maryland.
+        Every summer they ship the kids off to summer camp.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>ship.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="go on or be placed on a ship" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        (no examples available)
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

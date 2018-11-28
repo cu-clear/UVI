@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="revolve-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) turn or rotate around an axis or center" type="">  
+      <commentary>
+        Syntax Is: NP1[theme[concrete]] REVOLVE (PP{around NP[theme[concrete]])
+        Includes: REVOLVE AROUND, REVOLVE ABOUT
+      </commentary>
+      <examples>
+        The Planets revolve around the Sun.
+        The giant gear revolved slowly. 
+        The principal states that one object revolves about another.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="revolve_around" version="3.0">2</wn>
+         <omega></omega><pb>revolve.01</pb>
+         <vn>modes_of_being_with_motion-47.3,roll-51.3.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="focus on, center on, concentrate on,
+         usually important" type="">
+      <commentary>
+        Syntax Includes: NP1[theme[abstract]] REVOLVE (PP)
+        Includes: REVOLVE AROUND, REVOLVE ABOUT
+        NOTE: This is a metaphorical subsense of sense 1.
+      </commentary>
+      <examples>
+        The '08 race revolves around power rhetoric.
+        She thinks the world revolves around her.
+        Your social network revolves around your neighborhood.
+        The plot of Hamlet revolves about the initial apparition of the Ghost.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="revolve_around" version="3.0">1</wn>
+         <wn lemma="revolve_about" version="3.0">1</wn>
+         <omega></omega><pb>revolve.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

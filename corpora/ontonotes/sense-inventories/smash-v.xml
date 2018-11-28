@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="smash-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hit hard or violently often breaking (into pieces)" type="">  
+      <commentary>
+        Includes: SMASH UP
+        Syntax is: NP1[agent] SMASH NP2[concrete]
+                   NP1[concrete] SMASH (PP)
+      </commentary>
+      <examples>
+        I accidentally smashed the end of my finger with a hammer.
+        English thugs just smashed the windows of a shop near me.
+        Michael had smashed me in the eye. 
+        The motorcycle smashed into the guard rail.
+        The window smashed.      
+        Hulk smash!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4,6,8,10</wn>   
+         <wn lemma="smash_up" version="3.0">1</wn>
+         <omega></omega><pb>smash.01,smash.02</pb>
+         <vn>break-45.1,bump-18.4-1,crave-21.2-1,hit-18.1-1,throw-17.1-1</vn><fn>Cause_harm,Impact,Cause_to_fragment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reduce to bankruptcy" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His daughter's wedding smashed his bank account.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="depress completely" type="">
+      <commentary>
+        Syntax is: NP1[inanimate] SMASH NP2[animate]
+      </commentary>
+      <examples>
+        The death of her son smashed her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="overthrow or destroy" type="">
+      <commentary>
+        Syntax is: NP1[agent] SMASH NP2
+      </commentary>
+      <examples>
+        How did Rumsfeld smash the National Guard?
+        Four thousand Mexican soldiers smashed the French.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="5" name="surpass" type="">
+      <commentary>
+        Syntax is: NP1[agent] SMASH NP2[inanimate]
+      </commentary>
+      <examples>
+        A team of scientists smashed the network speed record this year.
+        Olympic medallist Ian Wynne smashed the world record for crossing
+        the channel in a kayak.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

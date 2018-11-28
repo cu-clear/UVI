@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="individual-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="one person, one human being" type="">
+        <commentary>
+            INDIVIDUAL[+person][+lone]
+        </commentary>
+        <examples>
+            The cruise ship has staterooms available for families as well as individuals.
+            Bob is one of the most peculiar individuals I've ever known.
+            She is a hardy individual, living in a cabin at the mountain summit.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a single living organism, plant or animal" type="">
+        <commentary>
+            INDIVIDUAL[+organism][+single][+animal/+plant/+bacterium]
+        </commentary>
+        <examples>
+            These are herd animals that live in groups rather than as individuals.
+            The scientists can monitor these trees down to each individual in the forest.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

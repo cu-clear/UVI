@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="repeat-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="say, write, perform, or do things again, happen again" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1 REPEAT NP2
+        NP1 REPEAT COMP
+        NOTE: compare to sense 3; in THIS sense, the same agent is doing the same
+        thing that s/he did previously. In sense 3, the agent is copying what SOMEONE 
+        ELSE has said.
+      </commentary>
+      <examples>
+        Can you repeat what you just said?
+        She kept on repeating her request.
+        She repeated the exercises every day.
+        This stanza repeats after the third stanza.
+        The plot repeats itself. Always the same good and evil plot!
+        History repeats itself, doesn't it?
+        The second movement repeats some of the elements from the first movement.
+        He would never repeat the same magic trick again.
+        The artist repeats the process to apply beautiful veneer to the surface of the piece.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,6</wn>
+         <omega/><pb>repeat.01</pb>
+         <vn>rehearse-26.8,say-37.7-1,stop-55.4</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <sense group="1" n="2" name="echo someone's words, actions or ideas" type="">
+      <commentary>
+        NOTE: compare carefully to sense 1; THIS sense refers to imitation of 
+        another's actions; sense 1 refers to the same agent doing the same action
+        again and again
+      </commentary>
+      <examples>
+        When it doubt, just repeat after me: it's only a book!
+        Don't repeat what I told you to anyone, you hear?
+        That kid won't stop repeating every word I say.
+        He isn't original. He just repeats everything his friends say.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>repeat.01</pb>
+         <vn>say-37.7-1</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

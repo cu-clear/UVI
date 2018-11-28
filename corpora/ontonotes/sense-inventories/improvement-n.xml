@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="improvement-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="act of improving" type="Event">
+        <commentary>
+	    IMPROVEMENT[+event]
+	    the act of improving something
+	    </commentary>
+        <examples>
+            Their improvements increased the value of the property.
+            The improvements took place in July.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>improvement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the change" type="Event">
+        <commentary>
+            betterment, advance, melioration - 
+            a condition superior to an earlier condition
+        </commentary>
+        <examples>
+            The new school represents a great improvement.
+            The improvements on the house were beautiful.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 3</wn>
+            <omega/>
+            <pb>improvement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

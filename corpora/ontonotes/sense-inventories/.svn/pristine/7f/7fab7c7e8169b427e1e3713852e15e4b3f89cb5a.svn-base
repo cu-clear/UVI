@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="inflate-v">
+   <commentary>
+      Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name=" (cause to) increase in size by filling with gas or liquid" type="">
+      <commentary>
+        NOTE: includes metaphorical and abstract usages
+        Syntax Includes:
+        NP1[agent] INFLATE NP2[patient]
+        NP1[instrument] INFLATE NP2[patient]
+        NP2[patient] INFLATE
+      </commentary>
+      <examples>
+        We only partly inflated the balloon. 
+        That is how counterfeit agents inflated the housing bubble.
+        I guess in an effort to show how much Bruce Lee looks like himslef,
+        the design team inflated his head.
+        Booting around Wall Street types as state attorney general
+        apparently has inflated his ego to preposterous proportions.
+        One fan inflated the base while another inflated the bubble and circulated air.
+        Once fully inflated, the first chamber 21 is maintained in an inflated state for a period of fifteen minutes.
+        To stay inflated, the eye constantly makes fluid which circulates inside the front of the eye.
+        When the bladder is first placed around the arm and not inflated, the artery beneath the bladder functions normally.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>inflate.01</pb>
+         <vn>other_cos-45.4</vn><fn>Expansion,Cause_expansion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) increase in size or number;          amplify or exaggerate" type="">
+      <commentary>
+        NOTE: compare carefully to sense 1; although both can be quantitative,
+              this sense does not include &quot;filling.&quot; This sense also
+              applies to a misrepresentation of the object inflated and
+              involves an intent to deceive. Also, compare to
+              sense 4; this sense does not apply to any instances of price
+              or curreny inflation. 
+        NOTE: includes metaphorical and abstract usages      
+        Syntax Is: NP1[agent] INFLATE NP2[abstract]
+      </commentary>
+      <examples>
+        Griffis inflated his regular annual salary by $206433 over his last three years.
+        He has allowed a run in five of his last nine outings, which has inflated his ERA to 3.57.
+        I inflated the area that's clickable for the link and especially
+        the icon.
+        His wooing of her only inflated her disdain.
+        They dramatically inflated the proportion of users and
+        abusers.
+        It is too bad that he inflated the statistics pertaining to this
+        situation.
+        This type of prohibition is unfair if the misstatement clearly
+        inflated the purchase price.
+        A man accused of conspiring to pervert justice falsely inflated his
+        role in the murder case.
+        How can graduate schools and potential employers distinguish
+        students when grades have been inflated across the board?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>inflate.01</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause prices, stocks, currency, or the economy to undergo inflation" type="">
+      <commentary>
+        NOTE: Involves an entire monetary system, usually the entire currency of an
+              economy. Cannot involve only an individual transaction or set of
+              transactions. This sense does not involve a
+              misrepresentation of an object inflated or an increase in
+              size/number.
+        Syntax Includes:
+        NP1[agent] INFLATE NP2[patient[abstract]]
+        NP1[instrument] INFLATE NP2[patient[abstract]]
+        NP2[patient[abstract]] INFLATE
+      </commentary>
+      <examples>
+        The war inflated the economy.
+        Now that they are twice as much, it's like the economy inflated by 50 percent.
+        As expected, the US government inflated the currency, as governments are prone to do.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>inflate.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey,clarklm,greenlm" sample_score="-"/>
+</inventory>

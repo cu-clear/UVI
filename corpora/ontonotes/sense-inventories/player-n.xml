@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="player-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a contender in a game, e.g., sports, cards" type="">
+        <commentary>
+            PLAYER[+person][+contender][+game][+sport/+card/+quiz]
+            [+role][+contender]
+        </commentary>
+        <examples>
+            She became a professional tennis player at age sixteen.
+            John is an excellent poker player.
+            Mary's boyfriend is a decent billiards player.
+            We got to meet the baseball players before the game.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a performer in a theatrical or musical production" type="">
+        <commentary>
+            PLAYER[+person][+performer][+arts][+actor/+musician]
+            [+role][+performer]
+        </commentary>
+        <examples>
+            He had a long career on Broadway as a role player.
+            The bass player in that band also sings backup vocals.
+            The players who make up the cast are mostly British-trained actors.
+            The players of a string quartet perform without a conductor.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a participant, decision maker" type="">
+        <commentary>
+            PLAYER[+person][+participant][+decision]
+            [+group][+participant][+decision]
+            [+role][+participant]
+            Note: can be a person, organization or nation
+        </commentary>
+        <examples>
+            Bob wants to be a player on Wall Street.  (a major participant)
+            Their nation has been only a secondary player in Middle East negotiations.
+            Our firm is considered one of the primary players in the industry.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a playback device for audio or video recordings" type="">
+        <commentary>
+            PLAYER[+device][+playback][+audio/+video]
+        </commentary>
+        <examples>
+            The price of DVD players has gone down a lot in recent years.
+            My old cassette player finally gave out.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="takeover-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="change in control" type="Event">
+        <commentary>
+	    TAKEOVER[+event]
+	    A change in who rules a thing or place.  Usually refers to governments.
+	    </commentary>
+        <examples>
+            The military takeover of the Peruvian government left a lot of people unhappy.
+            Johnny and I pulled off a takeover of Sally's snow fort.
+            The takeover occurred, as do most coup d'etats, with massive bloodshed and destruction.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>takeover.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="corporate change in control" type="Event">
+        <commentary>
+	    TAKEOVER[+event]
+	    Specifically refers to corporations.  Change by sale or merger in a company's controlling interest.
+	    </commentary>
+        <examples>
+            Wal-Mart's takeover of the Lone Star General Store occurred last year.
+            Intelli-Soft attempted a takeover of Microsoft, but it went horribly wrong.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>takeover.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

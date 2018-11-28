@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="deposit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Physically place on object in a location." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Deposit the suitcase on the bench and leave.
+      Eggs are deposited first and then Salmon sperm soon follows. 
+      I have deposited everything I own of my grandmother's in a box in the bank.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Put money specifically into a bank account." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      I wish to deposit this check in my account.
+      She deposits her paycheck every month.
+      He deposited all of the mob cash in foreign bank accounts.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deposit.01</pb>
+         <vn>put-9.1-1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

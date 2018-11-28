@@ -1,0 +1,132 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="education-n">
+    <commentary>
+        6Mar07 - updated to wn2.1,  added features. ahouston.
+        6Mar07 - merged senses 1,4; merged senses 3,4 ahouston
+        6Mar07 - omitted sense 6 - a proper name. ahouston
+        6Mar07 - added sense 7 - eventive ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="activity of teaching or instructing someone" type="Event">
+        <commentary>
+	    EDUCATION[+event][+activity][+teaching][+training/+understanding]
+	    instruction, pedagogy
+	    the act of teaching
+	    Note: the phrase 'X's education' implies that X is a teacher (agent) -not a student (see Sense 2)
+	    </commentary>
+        <examples>
+            The butler's education of his staff in the specific protocols of the new house took many months. (-butler- is teacher)
+            Mary's daughter went into the field of education. (the profession of being a -teacher-)
+            He received little formal education from the teachers in his small village.  (favors sense 1, but could include sense 2)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the activity of learning or being trained" type="Event">
+        <commentary>
+	    EDUCATION[+event][+activity][+learning][+personal][+knowledge][+training/+understanding]
+	    the process of learning, being trained
+	    Note: the phrase 'X's education' implies that X is the student (patient) -not- the teacher (see Sense 1)
+	    </commentary>
+        <examples>
+            Bob's education was paid for by his parents. (Bob is learning, -not- teaching)
+            The nuns attended to the children's religious education. (children are recipients, they are learning)
+            Her retired parents are now pursuing an education in art history.  :(favors sense 2, but could include sense 1)
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="acquired knowledge, a mental quality of having knowledge" type="">
+        <commentary>
+            EDUCATION[+quality][+mental][+knowledge][+acquired]
+            Note: refers to an acquired state of believing and knowing facts, propositions, procedures
+            Note: refers to the acquired -result- not the ongoing -activity- of learning
+        </commentary>
+        <examples>
+            John's education is encyclopedic and eclectic.
+            Her math education was not sufficient for the advanced course in quantum mechanics.
+            The intern relied on his medical education to treat the injured man by the roadside.
+            Education is an attribute of a learned person.  (knowledge they possess)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            This usage is a proper name which we are not coding, e.g., Department of Education
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a personal experience or occasion that is enlightening" type="Event">
+        <commentary>
+            EDUCATION[+event][+experience][+personal][+enlightening]
+            Note: a specialized, figurative usage - always refers to a specific situation, event, in which something was learned.
+        </commentary>
+        <examples>
+            Hearing Mary's objections at the meeting today was quite an education for Bob.
+            The workmanship exhibited in these beautiful suits is an education in quality.
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

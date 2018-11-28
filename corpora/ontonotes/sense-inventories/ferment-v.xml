@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ferment-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) undergo fermentation" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FERMENT NP2
+        NP1 FERMENT
+      </commentary>
+      <examples>
+        We fermented the grapes in stainless steel tanks at a very cool
+        temperature to retain the fresh fruit aromas.
+        The milk fermented and was transformed into a mass of
+        micro-organisms that looked like tapioca but was actually kefir grains.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ferment.01</pb>
+         <vn>entity_specific_cos-45.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) be agitated or excited" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1[agent] FERMENT NP2
+        NP1 FERMENT
+      </commentary>
+      <examples>
+        Her mind ferments.
+        Islam is fermenting Africa.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

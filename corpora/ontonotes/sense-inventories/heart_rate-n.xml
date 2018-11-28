@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="heart_rate-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="how fast a heart beats per time unit, pulse" type="">
+        <commentary>
+            HEART_RATE[+quantity][+measure][+heartbeats][+per_time_unit]
+        </commentary>
+        <examples>
+            A machine constantly monitor's the patient's heart rate during surgery.
+            Aerobic exercise can lower your heart rate by making the heart more efficient.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

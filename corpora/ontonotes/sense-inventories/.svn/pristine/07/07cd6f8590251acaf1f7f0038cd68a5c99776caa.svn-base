@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="focus-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="converge, configure or align (physically or figuratively)" type="">
+      <commentary>
+       Syntax Includes:
+       NP1 FOCUS NP2
+       NP1[topic[inanimate]] FOCUS PP
+       NP1[material[abstract]] FOCUS INTO NP2[product] 
+      </commentary>
+      <examples>
+         Her eyes focused on the painting across the room.
+         Their common experience has focused into a sense of shared destiny.
+         Suddenly the blurred faces focused into a sharp picture.
+         The shoreline focused the wave into a towering wall of water.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5</wn>
+         <omega/><pb>focus.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="concentrate, direct attention towards" type="">
+      <commentary>
+       Syntax Is: NP1[agent[animate]] FOCUS PP
+       Note: NP1 may be an individual or an organization.
+      </commentary>
+      <examples>
+         Her mind focused on the painting across the room.
+         A lot of anger and attention were focused on the town's new leash law.
+         Stay focused during your performance.
+         The museum is focusing on their Pre-Colombian collection.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>focus.01</pb>
+         <vn>focus-87.1</vn><fn>Place_weight_on</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

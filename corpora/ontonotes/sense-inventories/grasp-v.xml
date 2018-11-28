@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="grasp-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Physically hold firmly." type="">  
+      <commentary>
+      Includes: GRASP AT
+      </commentary>
+      <examples>
+      The baby grasped at its bottle.
+      It was hard to grasp my pencil after the accident.
+      He grasped his mother's hand.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>grasp.01</pb>
+         <vn>hold-15.1-1,touch-20-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Understand the meaning of something." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Do you grasp the meaning of this letter?
+      I can't grasp his newest novel.
+      She can't quite grasp why someone would have made the choices I've made.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>grasp.01</pb>
+         <vn>comprehend-87.2-1</vn><fn>Grasp</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

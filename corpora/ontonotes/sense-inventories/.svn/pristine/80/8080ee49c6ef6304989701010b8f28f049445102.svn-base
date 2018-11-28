@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="explain-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="clarify, make comprehensible, describe" type="">
+      <commentary>
+	Syntax Is: NP1[agent] EXPLAIN [topic]
+	Note: the agent is NOT the cause of the phenomenon, but the communicator of it (differs from Sense 2)
+      </commentary>
+      <examples>
+        He explained the laws of physics to his students.
+        The committee explained their plan for fund-raising to the Dean.
+        She explained that she was doing a piece on Susan Clancy's new book on UFO abductions.
+        She explained that Islam was brought to various parts of the world with previously existing cultures.
+        Both a science and an art book, Colorworm explains the electromagnetic spectrum and visible light.
+        The surgeon explained how to make the incision to the 1st-year medical students.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>explain.01</pb>
+         <fn>Explaining_the_facts</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="be a reason, cause, or justification of" type="">
+      <commentary>
+	Syntax Is: NP1[agent] EXPLAIN NP2[patient]
+	Note: the subject NP -is- presented as the cause of the object (event, situation) (differs from Sense 1)
+      </commentary>
+      <examples>
+       	Her recent divorce may explain her reluctance to date again.
+       	Oh! Well, that explains it.
+       	This explains why Donald Rumsfeld so strongly opposed the reforms recommended by the 9/11 commission.
+       	The purpose of these analyses was to test the hypothesis that IQ explains socioeconomic differentials.
+	All his conduct cannot be explained away as an innocent misunderstanding.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <fn>Explaining_the_facts,Justifying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

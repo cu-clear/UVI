@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="aim-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="goal or objective" type="Event">
+        <commentary>
+            A non-physical goal; an anticipated outcome that guides a person's actions.  
+            Usually refers to a sentence- or a verb-clause.
+        </commentary>
+        <examples>
+            My aim is to have the report finished by tomorrow.
+            My aim is that I'll finish the report tomorrow.
+            It was created with the conscious aim of meeting immediate needs.
+            Even a person with good aims can do harm.
+            John made no secret of his personal aim: to get the high score on Pac Man.
+            The aim of chess is to checkmate the opposing king.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 2 
+            </wn>
+            <omega/><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="goal, as physical location" type="Entity">
+        <commentary>
+            The physical thing or location that an object is heading towards.  Can also be the general direction of movement.
+        </commentary>
+        <examples>
+            When I set out on my trip, my original aim was Seattle.
+            Captain, set our aim for the west.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega/><pb>aim.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="pointing at a target" type="Event">
+        <commentary>
+	    AIM[+event]
+	    The act of pointing or directing an object at something.
+	    </commentary>
+        <examples>
+            He took aim and fired.
+            I saw that the gun's aim was directed at my head.
+            Your aim is a little off.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega/><pb>aim.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="ability to aim" type="Abstraction">
+        <commentary>
+            The ability to aim something.  A quality that a person has.  Does not refer to any instance of aiming.
+        </commentary>
+        <examples>
+            John always had terrible aim.
+            Three years in the army has given me good aim.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

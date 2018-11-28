@@ -1,0 +1,147 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lose-v">
+   <commentary>
+     Note: Contains duplicate WordNet mappings.
+   </commentary>
+   <sense group="1" n="1" name="fail to win" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We lost the battle but won the war.
+        The Red Sox have lost the last five games.
+        He lost custody of his son.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>lose.03</pb>
+         <vn>succeed-74.3</vn><fn>Finish_competition</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fail to keep or misplace" type="">
+      <commentary>
+        Includes: concrete
+        Note: Compare to sense 4. This sense includes concrete loss.
+      </commentary>
+      <examples>
+        I've lost my glasses again!
+        She lost her purse when she left it unattended on her seat.
+        He loses his keys every day.
+        I've lost all my possessions. Apparently people have been hiding them.
+        The detective lost the man he was shadowing after he had to stop at a red light.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lose.02</pb>
+         <vn>misplace-100.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="get rid of (idiomatic)" type="">
+      <commentary>
+        Note: intentional losing.
+      </commentary>
+      <examples>
+        It's so much better when you lose the crowd.
+        Lose your parents, and we will go to the game.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="lose_weight" version="3.0">1</wn>
+         <omega/><pb>lose.02</pb>
+         <vn>remove-10.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="suffer or experience the loss of; no longer have possession of" type="">
+      <commentary>
+        NOTE: Includes both permanent and loss.
+              Includes LOSE ONE'S TEMPER, LOSE IT (as in losing control), LOSE SLEEP
+        Note: Compare to sense 2. This sense includes abstract loss.
+      </commentary>
+      <examples>
+        She lost her son's respect by lying to him.
+        The couple that wanted to adopt the child lost her when the biological parents claimed her.
+        I lost my appetite.
+        She lost her voice after getting a cold.
+        Jack lost weight for the big cruise.
+        He lost a finger in the boating accident.
+        We lose tradition to marketing.
+        The painting loses something in this light.
+        Your pestering is making me lose my temper!
+        All of the pressure made him lose it the other day.  
+        She lost sleep over the upcoming test.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,10</wn>
+         <wn lemma="lose_one's_temper" version="3.0">1</wn>
+         <wn lemma="lose_it" version="3.0">1</wn>
+         <omega/><pb>lose.02</pb>
+         <vn>misplace-100.2,marvel-31.3-1,marvel-31.3-2,marvel-31.3-8,remove-10.1</vn><fn>Emotion_active,Losing_it</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="suffer or experience the loss of (through death)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She lost her husband in the war.
+        On this spot, on this night of 31 October 1981, Lily and James
+        Potter lost their lives.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>lose.03</pb>
+         <vn>misplace-100.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="fail to get or profit" type="">
+      <commentary>
+        Includes abstract.
+        Includes both permanent and temporary abstract loss.
+        Includes: LOSE OUT
+      </commentary>
+      <examples>
+        I lost thousands of dollars on that bad investment!
+        I lost the opportunity to spend the year abroad.
+        She missed her chance and lost out on her dream home.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <omega/><pb>lose.02,lose.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="7" name="withdraw; give oneself over" type="">
+      <commentary>
+        Includes abstract.
+      </commentary>
+      <examples>
+         He lost himself in his music.
+         I lost myself in my work.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>lose.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="fail to perceive or catch (communication)" type="">
+      <commentary>
+        NOTE: Includes the idomatic expression LOSE THE FOREST FOR THE TREES
+      </commentary>
+      <examples>
+        We lost part of what he said.
+        I am losing you with this bad connection.
+        I lost that remark.
+        She lost the point.
+        They didn't lose touch with the U.S. issuers.
+        The concept was lost on him. 
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lose.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>  
+      </sense>
+      <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>
+

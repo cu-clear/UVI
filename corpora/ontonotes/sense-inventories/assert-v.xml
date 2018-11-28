@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assert-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="express and maintain that a claim is true" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        He asserted his innocence to the gathered crowd.
+        She asserted that she had never seen the man before.
+        He asserts that she stole money from him.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>   
+         <omega/><pb>assert.03</pb>
+         <vn>conjecture-29.5-2</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exercise that which is in one's right or power to do" type="">
+      <commentary>
+        Includes: ASSERT ONESELF
+      Syntax Is:  NP1 ASSERT NP2
+      </commentary>
+      <examples>
+        He asserted his Fifth Amendment rights and refused to testify.
+        During Cold War, the Allies asserted their right to move freely between the two Berlins.
+        She very rarely asserts her authority over the children.
+        The new management quickly began to assert itself after the takeover.
+        I really must assert myself more in meetings.
+        The relationship went well until their age difference began to assert itself.
+        Another seemingly impossible problem asserted itself here.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="assert_oneself" version="3.0">1</wn>
+         <omega/><pb>assert.01</pb>
+         <vn>reflexive_appearance-48.1.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="say - as in a dialogue" type="">
+      <commentary>
+      Note: Use: Quotative (e.g.: she said, 'X'; 'X,' she continued; 'X,' he whispered)
+      </commentary>
+      <examples>
+        The boy asserted, &quot;We are supposed to help, not hurt!&quot;
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>assert.02</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="forfeiture-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an asset or property surrendered as punishment" type="">
+        <commentary>
+            FORFEITURE[+entity][+asset][+surrendered]
+            Note: you can point at it (or compute it).
+        </commentary>
+        <examples>
+            Bob's new sailboat is actually a forfeiture related to a narcotics bust.
+            When John declared bankruptcy, his house was one of the forfeitures.
+            The team incurred a two point forfeiture for the foul. (you can count the points)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the legal state of being liable for a penalty" type="">
+        <commentary>
+            FORFEITURE[+state][+social][+legal][+obligation][+penalty]
+        </commentary>
+        <examples>
+            The contract clearly specifies forfeiture of payment for work not completed on time.
+            He didn't fully comprehend the forfeiture of intellectual property implied in the contract he signed as an employee.
+            Note: usually refers to a stated legal obligation on a written contract
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of surrendering an asset" type="">
+        <commentary>
+            FORFEITURE[+action][+surrender][+asset][+property/+right/+advantage]
+            Note: a nominalization, describing an act of losing something
+            Note: often in the form X's{+subject} forfeiture of Y{+asset}
+        </commentary>
+        <examples>
+            Their candidate supports the temporary forfeiture of voting rights of prisoners.
+            Their forfeiture of the game was the result of the star player being expelled during the second half.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

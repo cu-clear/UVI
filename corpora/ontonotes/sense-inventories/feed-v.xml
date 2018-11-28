@@ -1,0 +1,147 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="feed-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give food or nourishment" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1[agent] FEED NP2[recipient[animate]] (NP2[patient])
+        NP1[agent] FEED NP2[patient] (PP{to NP[recipient[animate]]})
+      </commentary>
+      <examples>
+        Do you feed your chicken corn?
+        We feed the guests a full 5 course meal with 2 side salads in our tradition.
+        Please do not feed nuts to the animals.
+        Let's feed the kids first and have our dinner after.
+        Don't forget to feed the tomatoes.
+        If agriculture were given priority, the country would easily be able to feed itself.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,11</wn>
+         <omega/><pb>feed.01</pb>
+         <vn>feeding-39.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="put in or give to something for consumption or use" type="">
+      <commentary>
+        Note: The thing consumed is not edible or being used as food.
+        Includes: FEED INTO
+      </commentary>
+      <examples>
+        The images are fed over satellite networks to broadcasters throughout the world
+        A staff member has been secretly feeding information to the newspaper.
+        I fed carrots into a food processor.
+        Could you feed some logs to the fire?
+        Feed new data into a computer before running the program.
+        My job is to feed lines to the actors.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="feed_in" version="3.0">1</wn>
+         <omega/><pb>feed.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="support, provide for, minister to, or encourage" type="">
+      <commentary>
+        Syntax Is: NP1 FEED NP2[beneficiary[animate]]
+      </commentary>
+      <examples>
+        This dish will feed six persons.
+        Melting snow feeds the reservoirs.
+        Her easy success truly feeds her vanity.
+        The movie fed their appetite for the morbid. 
+        His unexplained absences fed our suspicions.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,7</wn>
+         <omega/><pb>feed.02</pb>
+         <vn>fit-54.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="4" name="gratify" type="">
+      <commentary>
+        Syntax Is: NP1[agent] FEED NP2[patient]
+      </commentary>
+      <examples>
+        Feed your eyes with endless stretches of sky.
+        Feed your senses and your soul.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>feed.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="eat, be sustained on" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FEED 
+        NP1[agent] FEED PP{P NP[patient]} 
+        Includes: FEED ON, FEED OFF, FEED UPON
+      </commentary>
+      <examples>
+        The dog feeds once a day.
+        How could this dog not feed on chicken meat?
+        The larvae fed on all of the listed plants except leaves of Melilotus indicus.
+        Pigs fed at a trough.
+        Spyware feeds on fear of computers.
+        Ego feeds on flattery.
+        He fed on the great ideas of her mentor.
+        Fascism feeds off poverty.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,9</wn>
+         <wn lemma="feed_on" version="3.0">1</wn>
+         <wn lemma="feed_upon" version="3.0">1</wn>
+         <omega/><pb>feed.01</pb>
+         <vn>gorge-39.6</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="6" name="channel or flow into" type="">
+      <commentary>
+        Syntax Is: NP1 FEED INTO NP2
+        Includes: FEED INTO
+      </commentary>
+      <examples>
+        The Flat River feeds into Lake Michie 
+        This road feeds into the freeway.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>feed.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="7" name="take an output or response as input for further output" type="">
+      <commentary>
+        Syntax Is: NP1 FEED BACK NP2
+        Includes: FEED BACK
+      </commentary>
+      <examples>
+        The user choice is fed back into our learning module.
+        It all feeds back on itself in a vicious circle of unearned profits
+        We've been successful in feeding back that information to the individual hospitals.
+      </examples>
+      <mappings>
+         <wn lemma="feed_back" version="3.0">1,2</wn>
+         <omega/><pb>feed.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="be or become exasperated" type="">
+      <commentary>
+        Includes: FED UP
+      </commentary>
+      <examples>
+        I am also fed up by an interminable, deeply tragic conflict between these two peoples.
+        Expecting nice gestures from this place is kind of what eventually fed me up with it.
+        The EU and the Euro have fed me up since they got introduced.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>feed.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="suffering-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of physical pain or malady" type="">
+        <commentary>
+            SUFFERING[+state][+physical][+malady][+painful]
+            Note: implies physical hurt of an individual
+        </commentary>
+        <examples>
+            John experienced a lot of suffering after his tooth was extracted.
+            This ointment helps reduce the suffering from the inflammation.
+            Shingles caused Bob's grandfather great suffering.
+            The patient was treated for suffering from frostbite.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a general circumstance of misery, hardship" type="">
+        <commentary>
+            SUFFERING[+state][+circumstance][+hardship]
+            Note: implies ongoing or widespread situation of hardship
+        </commentary>
+        <examples>
+            The suffering of the Iraqi people has been enormous.
+            Their company is experiencing some pain and suffering through this economic downturn.
+            The book described the sufferings of the lives of the saints.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>suffering.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="emotional state of unhappiness" type="">
+        <commentary>
+            SUFFERING[+state][+emotional][+unhappiness]
+            Note: implies an unhappy emotional state of an individual
+            Note: need -not- imply a physical ailment or pain (Sense 1)
+        </commentary>
+        <examples>
+            The constant ridicule at school caused the boy a lot of suffering.
+            His suffering knew no bounds at the death of his wife.
+            Mary's suffering over her bad haircut seemed a bit excessive to Sally.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb>suffering.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

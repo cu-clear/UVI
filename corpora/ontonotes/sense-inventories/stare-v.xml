@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stare-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="look intently" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        The woman in the painting stared at her, watching in silent
+        assessment.
+        He stared at her blankly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stare.01</pb>
+         <vn>peer-30.3</vn><fn>Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="intimidate by staring" type="">
+      <commentary>
+        IS: STARE DOWN
+      </commentary>
+      <examples>
+        Aragorn stared him down.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="stare_down" version="3.0">1</wn>
+         <omega></omega><pb>stare.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

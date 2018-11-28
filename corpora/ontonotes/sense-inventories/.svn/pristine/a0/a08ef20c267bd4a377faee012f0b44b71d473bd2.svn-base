@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stem-v">    
+   <commentary>
+	Note: No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="originate from, rise out of" type="">  
+      <commentary>
+	Syntax is: NP1 STEM PP[cause]
+      </commentary>
+      <examples>
+	Their animosity stems from hundreds of years of warfare between the two peoples.
+	Some of their current problems have stemmed from their rapid expansion into new markets.
+	This stew stems from simple one-pot meals made by French peasants.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>stem.01</pb>
+         <vn>appear-48.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="physically orient, as inwards" type="">
+      <commentary>
+	Syntax is: NP1[agent] STEM [patient][object]
+      </commentary>
+      <examples>
+	Stem your skies with the heels outward to stop yourself.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="hold back, prevent" type="">  
+      <commentary>
+	Syntax is: NP1[instrument] STEM [result]
+      </commentary>
+      <examples>
+	Pressing hard on the wound will stem the flow of blood.
+	Bob is learning to stem his anger before he speaks.
+	The cost-cutting measures have not been unable to stem the flow of red ink for several quarters.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>stem.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="remove pieces from, as a fruit" type="">
+      <commentary>
+	Syntax is:NP1[agent] STEM NP2[patient][inanimate]
+      </commentary>
+      <examples>
+	Mary stemmed the grapes before serving them in a bowl to guests.
+	My program stems the nouns and verbs to display the roots. 
+	First you have to stem the fruit, then core and peel it.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>pit-10.7</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="make headway against, counter something" type="">  
+      <commentary>
+	Syntax is: NP1[topic] STEM NP2[obstacle]
+      </commentary>
+      <examples>
+	With good seamanship, Ted's boat was able to stem the outgoing tide.
+	He stemmed the currents of public opinion and followed his convictions.
+      </examples>
+      <mappings>
+         <wn version="MAC">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

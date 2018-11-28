@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="even-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become even or level" type="">  
+      <commentary>
+        Includes: EVEN OUT
+      </commentary>
+      <examples>
+        The crew evened the ground and put together form work in
+        preparation for a large slab for delivery trucks.
+        The painters evened out the surface to create impenetrable
+        foundations on which colours retained their richness and glow.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="even_out" version="3.0">2,3,4</wn>
+         <omega></omega><pb>even.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="adjust for, compensate" type="">
+      <commentary>
+        Includes: EVEN OFF, EVEN OUT, EVEN UP
+      </commentary>
+      <examples>
+        Engineers will work to even off the effects or air resistance.
+        I'm thinking blocking will even out most, if not all, of my inconsistencies.
+        The coaches will even things up by adding extra players.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="even_off" version="3.0">1</wn>
+         <wn lemma="even_out" version="3.0">1</wn>
+         <wn lemma="even_up" version="3.0">1</wn>
+         <omega></omega><pb>even.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="even up the edges of a stack of paper" type="">
+      <commentary>
+        IS: EVEN UP
+      </commentary>
+      <examples>
+        There was something schoolgirlish about the way she evened up the
+        stack of paper before putting it away.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="even_up" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

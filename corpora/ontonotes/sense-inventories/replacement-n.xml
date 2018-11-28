@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="replacement-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of substituting one thing for another" type="Event">
+        <commentary>
+            REPLACEMENT[+event][+substitution]
+            Note: implies X is substituted for Y
+        </commentary>
+        <examples>
+            John's mother is having a hip replacement.
+            What is the replacement cost of this window?
+            The replacement of religious dogma by scientific methods was a hallmark of the Enlightenment.
+            Many chefs ordered a replacement of spinach with other greens after the recent scare.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>replacement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of replenishing or refilling a depleted resource" type="Event">
+        <commentary>
+            REPLACEMENT[+action][+replenish]
+            Note: implies a replenishing -not- a switch (Sense 1)
+        </commentary>
+        <examples>
+            The regular replacement of fluids in the body is essential to life.
+            The bank dropped charges after the replacement of the stolen funds.
+            We carefully watched the magician's replacement of the cup onto the table.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/><pb>replacement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a person or thing substituting for another person or thing" type="">
+        <commentary>
+            REPLACEMENT[+relation][+role][+substitute][+entity]
+            Note: refers to a thing or person that -is- the substitute or surrogate
+        </commentary>
+        <examples>
+            Who is Mary's replacement in marketing while she is on vacation?
+            There is no replacement for really good dark chocolate.
+            These replacement parts from the factory seem of poorer quality.
+            Mary ordered replacements of her flatware on the Internet.
+            The sommelier actually tried to convince us that the '87 Syrah was a reasonable replacement for the '82 Margaux!
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4,6</wn>
+            <omega/><pb>replacement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="order-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give a command to someone" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] ORDER NP2[patient[animate]] [predicate]
+        where NP1 has some authority over NP2
+      </commentary>
+      <examples>
+        She ordered him to do the shopping.
+        He had been ordered to appear at Korumburra Magistrates Court.
+        Ferretti ordered her to continue taking her medication while in jail.
+        Then he appointed a commander for each division and ordered them to surround the city.
+        The victim says that the owner ordered the dogs to attack.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>order.01</pb>
+         <vn>order-60-1</vn><fn>Sentencing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="request something to be made, supplied, or delivered" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] ORDER NP2
+        Note: may also follow syntactic frame of sense 1, as in &quot;massage therapist&quot; example below--
+              but this is obviously a request for a service, not a command!
+      </commentary>
+      <examples>
+        Germania, a charter airline, ordered three 737-300s, doubling its fleet.
+        I just ordered pizza from panhandle pizza.
+        You can order flowers online 24 hours a day.
+        And I have ordered a massage therapist to give you a special rub down with sun screen.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>order.02</pb>
+         <vn>get-13.5.1</vn><fn>Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="organize" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I then realized that I'd ordered the files incorrectly in my guesses.
+        I ordered the papers before the meeting, but forgot to bring them.
+        This version has re-ordered the guidelines in a more logical way.
+        We have conceptualized and ordered the world in a certain way.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,8,9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="appoint to clerical posts" type="">
+      <commentary>
+        meaning &quot;ordain, consecrate, ordinate&quot; as in belonging to a religious order
+      </commentary>
+      <examples>
+        *No examples found. 
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd" sample_score="-"/>
+</inventory>

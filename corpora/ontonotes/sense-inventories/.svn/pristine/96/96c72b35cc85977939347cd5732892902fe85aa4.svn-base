@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fear-n">
+    <commentary>
+        27Mar07 revised examples, added to commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an emotional state of fright, terror, being afraid" type="Event">
+        <commentary>
+            FEAR[+state][+response][+emotional][+fright]
+            Note: focus is on an immediate emotional state or response to something
+        </commentary>
+        <examples>
+            As the explosions continued, he saw real fear in the faces of the children.
+            Some people have an irrational fear of snakes or spiders.
+            The condemned man walked, without apparent fear, to the front of the firing squad.
+            The animals ran in fear ahead of the forest fire.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>fear.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a contemplative state of ongoing concern" type="Event">
+        <commentary>
+            FEAR[+state][+contemplation][+concern]
+            Note: implies an ongoing consideration, not an immediate response (Sense 1)
+            Note: implies the specific persons with the fear (different from Sense 4)
+            Note: may occur in the plural (unlike Sense 4)
+        </commentary>
+        <examples>
+            The police launched a search for the family amid fears for their safety.
+            Fears of rising unemployment have kept consumer spending down.
+            Mary lay awake at night pondering her fears and anxieties.
+            Their firm's latest fear is being undercut in pricing by overseas competitors. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>fear.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an attitude of reverence or awe towards something" type="Event">
+        <commentary>
+            FEAR[+state][+attitude][+reverential]
+            Note: does NOT imply a desire to avoid the feared object (differs from Senses 1 and 2)
+        </commentary>
+        <examples>
+            These fundamentalists want to restore a fear of God in everyone. 
+            Experienced surfers have a healthy fear of the big waves at Oahu. (but they love to ride them)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>fear.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the likelihood of a possible unpleasant event occuring" type="Event">
+        <commentary>
+            FEAR[+quantity][+probability][+event][-desirable]
+            Note: does not imply the fear of a specific person or people,  it is presented as an abstraction.
+            Note: often occurs with quantifiers, such as 'much' 'no' 'some'
+            Note: always occurs in the singular, often in phrases 'there is fear of X' where X is a possible event or state of affairs.
+        </commentary>
+        <examples>
+            The doctors say there isn't much fear of a recurrence of this type of tumor.
+            There is some fear of the old dam breaking from these heavy rains.
+            Has the fear of a nuclear war lessened with the end of the Cold War?
+            The moonless night enabled the soldiers to sneak into the compound without fear of being seen.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/><pb>fear.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

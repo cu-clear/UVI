@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="carve-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="engrave, shape or cut by chipping away at the surface" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] CARVE NP2[product[concrete]] (PP {P NP3[substance]}) 
+      </commentary>
+      <examples>
+      Helen carves toys for a living.
+      Carve a flower from the ice.
+      He carved his name into the bark.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>carve.02</pb>
+         <vn>build-26.1-1,carve-21.2-2,disassemble-23.3,scribble-25.2</vn><fn>Create_representation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cut to pieces" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] CARVE (UP) NP2[theme[concrete]] (PP{INTO NP3[concrete]})
+        Includes: CARVE UP
+      </commentary>
+      <examples>
+      He carved the turkey.
+      Father carved the tree into firewood.
+      Ancient man used stone tools to carve up the animals that they killed.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="carve_up" version="3.0">1</wn>
+         <omega/><pb>carve.01</pb>
+         <vn>NM</vn><fn>Cutting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="create a variant" type="">
+      <commentary>
+     Syntax Is:  NP1[agent] CARVE (OUT/UP) NP2[patient[abstract]] PP{P NP3[abstract]}
+      Includes: CARVE OUT, CARVE UP
+      </commentary>
+      <examples>
+      The company carved out a niche in a competetive market.
+      She carved out a role for herself in the organization.
+      It's amazing how the Inuits are able to carve an existence from this place. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"></wn>
+         <wn lemma="carve_out" version="3.0">1</wn>
+         <omega/><pb>carve.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

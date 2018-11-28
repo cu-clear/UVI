@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="base-v">
+   <commentary>
+   </commentary>  
+   <sense group="1" n="1" name="establish, ground" type="">
+      <commentary>
+     Syntax Is:  NP1 BASE NP2[abstract] PP[attribute]
+      </commentary>
+      <examples>
+	He is basing his hypothesis on only one set of data.
+        The chef based the recipe on a hundred year old French version.
+        He bases many claims in the assumption of an objective reality.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1</wn>
+	 <omega/><pb>base.02</pb>
+         <vn>base-97.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="process" type="">
+      <commentary>
+      Syntax Is:  NP1 BASE NP2[substance]
+      </commentary>
+      <examples>
+        His hair caught fire while he was basing some cocaine.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="situate,station or place" type="">
+      <commentary>
+     Syntax Is:  NP1{agent] BASE NP2[patient[concrete]] PP[locative]
+      </commentary>
+      <examples>
+        The company is basing its headquarters in Miami.
+        The President based the troops in Kuwait.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2</wn>
+	 <omega/><pb>base.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,corvey" sample_score="-"/>
+</inventory>

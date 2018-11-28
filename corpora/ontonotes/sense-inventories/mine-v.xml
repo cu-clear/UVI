@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mine-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="get from the earth by excavation" type="">  
+      <commentary>
+        NP1[agent] MINE NP2[patient]
+      </commentary>
+      <examples>
+        Instead of automatically shipping the unwanted items off to a
+        landfill, the company mines valuable metals and other materials
+        from them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mine.01</pb>
+         <vn>hunt-35.1,mine-10.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="lay mines" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The Vietnamese mined Cambodia.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="district-n">
+    <commentary>
+        20Feb08 updated to wn2.1, added features, added Sense 2. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="administrative region or sector" type="">
+        <commentary>
+            DISTRICT[+location][+region][+administrative][+of_community]
+            a region defined or demarcated by government or administrative purposes
+        </commentary>
+        <examples>
+            Their street is not in our school district.
+            Volunteers are canvassing voters in each of the districts of the city.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="community or region with a characteristic activity associated with it" type="">
+        <commentary>
+            DISTRICT[+location][+region][+characterized][+by_activity]
+            Regions of a country or city with distinct characteristic activities associated with them.
+        </commentary>
+        <examples>
+            We perused several large fabric stores in the garment district of New York.
+            These old mining districts of the south have experienced economic blight for decades.
+            The brochure mentions fancy new shopping districts near the hotels and beaches.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

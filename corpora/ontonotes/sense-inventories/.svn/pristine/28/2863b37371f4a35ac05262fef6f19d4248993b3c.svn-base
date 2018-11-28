@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="recite-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Narrate or perform, possibly from memory." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      She recited a poem.
+      The pupil recited his lesson for the day.
+      They recited the pardon written for the occasion.
+      The father recited the story to his child.
+      The police asked the witnesses to recite the occurances of the
+      previous evening. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>recite.01</pb>
+         <vn>performance-26.7-1-1,transfer_mesg-37.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Specify in list form, not as a narrative." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She recited the many criminal offenses she had committed on her job application.
+      The doctor recited the list of possible side effects of the drug.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

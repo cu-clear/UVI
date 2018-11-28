@@ -1,0 +1,138 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="smoke-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="hot vapor that results from combustion" type="">
+        <commentary>
+            SMOKE[+substance][+chemical][+vapor][+hot][+from_combustion]
+        </commentary>
+        <examples>
+            Several people were treated for inhalation of smoke, after the nightclub fire.
+            A black plume of smoke could be seen rising from the building.
+            Where there's smoke, there's fire.
+            When John accelerated, a puff of smoke came out the tailpipe of his car.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="fog produced from water vapor and glycol-based fluid" type="">
+        <commentary>
+            SMOKE[+substance][+chemical][+fog][+of_particles][+fine]
+            Note: not a hot vapor from burning (Sense 1)
+        </commentary>
+        <examples>
+            Theatrical smoke drifted across the stage to produce the effect of fog.
+            Sally wants a smoke machine at her wedding to make her grand appearance.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="anything illusory, not concrete or real" type="">
+        <commentary>
+            SMOKE[+quality][+illusory][-concrete]
+        </commentary>
+        <examples>
+            His dreams of starting a business turned into smoke.
+            The whole argument is nothing but smoke and mirrors.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a rolled up form containing tobacco" type="">
+        <commentary>
+            SMOKE[+artifact][+roll][+small][+of_tobacco]
+        </commentary>
+        <examples>
+            John bummed a smoke off Sally.
+            The carpenter left his smokes on the back porch.
+            She offered him one of her smokes.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the act of smoking" type="Event">
+        <commentary>
+            SMOKE[+event][+inhalation][+intentional][+of_vapor][+burning]
+        </commentary>
+        <examples>
+            The two employees stood outside in the rain having a smoke.
+            John was dying for a smoke.
+            Her son hasn't had a smoke in six months.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>smoke.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="data which provides evidence for a hidden or covert activity" type="">
+        <commentary>
+            SMOKE[+relation][+role][+data][+evidence][+of_activity][+covert]
+            Note: a metaphoric, idiomatic usage of Sense 1
+        </commentary>
+        <examples>
+            Where there is smoke, there's fire.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="street name for marijuana" type="">
+        <commentary>
+            SMOKE[+substance][+narcotic][+marijuana]
+        </commentary>
+        <examples>
+            The drug dealer sells smoke and pills to high school students.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a very fast-pitched baseball" type="">
+        <commentary>
+            SMOKE[+event][+pitch][+baseball][+fast][+extremely]
+        </commentary>
+        <examples>
+            The pitcher threw nothing but smokes the first inning.
+            The smoke went over the plate just above the batter's knees.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

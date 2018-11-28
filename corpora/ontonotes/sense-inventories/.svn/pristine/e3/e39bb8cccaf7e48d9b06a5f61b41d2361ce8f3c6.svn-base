@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="painting-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="artistic composition done with paints" type="">
+        <commentary>
+            PAINTING[+entity][+artifact][+representation][+visual][+flat][+composition][+painted]
+        </commentary>
+        <examples>
+            Mary paid $20,000 for that abstract oil painting.
+            John bought the Picasso painting as an investment.
+            A painting of their grandfather as a young man hangs in the library.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>painting.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the techniques and principles of artistic composition using paints" type="">
+        <commentary>
+            PAINTING[+entity][+abstract][+information][+principles][+composition][+with_paint]
+            [+activity][+extended][+practice][+technique][+artistic][+using_paint]
+        </commentary>
+        <examples>
+            He studied painting in Paris.
+            This style of painting is much earlier than what came to be known as Impressionism.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>painting.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of applying paint to a surface" type="Event">
+        <commentary>
+            PAINTING[+event][+action][+application][+paint][+to_surface]	
+        </commentary>
+        <examples>
+            The painting of the dining room took two weeks to finish.
+            Don't start the painting until you have sanded and cleaned the wall to a smooth surface.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>painting.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the occupation of painting homes and offices" type="">
+        <commentary>
+            PAINTING[+activity][+extended][+occupation][+housepainter]	
+        </commentary>
+        <examples>
+            He did painting for a living, mostly home exteriors.
+            Painting often requires putting long hours in outdoors and getting up on ladders.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>painting.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

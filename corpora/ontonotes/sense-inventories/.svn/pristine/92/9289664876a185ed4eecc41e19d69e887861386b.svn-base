@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="advise-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="offer counsel or advice, suggest a plan of action" type="">  
+      <commentary>
+       Syntax Is: NP1[agent] ADVISE NP2
+                  NP1[agent] ADVISE COMP
+       Note: Offer or take personal opinion as an advice to a plan of action.
+      </commentary>
+      <examples>
+        I won't choose until somebody can advise me.
+        She advised with her associates.
+        She advises the President on African policy.
+        We were advised by our teacher.
+        We were advised against staying longer.
+        I think I'd advise him to leave the company.
+        His doctor advised him against smoking.
+        They're advising that children be kept out of the sun altogether.
+        I'd advise waiting until tomorrow.
+        She advised us when to come.
+        She advises the President on African policy.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>advise.01</pb>
+         <vn>say-37.7-1,advise-37.9-1</vn><fn>Telling,Attempt_suasion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="offer information" type="">
+      <commentary>
+       Syntax Is: NP1 ADVISE[intransitive]
+      </commentary>
+      <examples>
+        I advised him that the rent was due.
+        They were advised of their rights.
+        Our solicitors have advised that the costs could be enormous.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>advise.01</pb>
+         <vn>say-37.7-1,advise-37.9-1</vn><fn>Telling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

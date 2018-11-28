@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="incident-n">
+    <commentary>
+        4oct06 update to wn.2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a distinct happening, an instance of an event, occurrence" type="">
+        <commentary>
+            INCIDENT[+event][+happening][+distinct][+instance]
+            a single distinct event
+            Note: does not imply a negative or disruptive occurrence (Sense 2)
+        </commentary>
+        <examples>
+            At dinner he related some amusing incidents from his trip to London.
+            In five years there was only one incident when John was late to an appointment.
+            I can't recall any other incidents of seeing that man in front of our house.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a public disturbance, an upheaval" type="">
+        <commentary>
+            INCIDENT[+event][+happening][+social][+disturbance][+public]
+            Note: always implies a grave, violent or otherwise disruptive, event.
+            Note: a restricted usage of Sense 1, always with a negative implication
+        </commentary>
+        <examples>
+            The plane lost power in one engine, but returned to the airport without incident.
+            The police investigated a stabbing incident at the bus station.
+            There have been several incidents of joggers being mugged in the park.
+            The shooting of patrol guard constituted a serious border incident between the countries.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

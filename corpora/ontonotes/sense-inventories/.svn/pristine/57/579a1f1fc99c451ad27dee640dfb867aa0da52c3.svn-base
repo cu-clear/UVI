@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dawn-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="become clear to one" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] DAWN PP{P NP[experiencer]}
+      Includes: DAWN ON
+      </commentary>
+      <examples>
+      It dawned on him that she had betrayed him.
+      The truth finally dawned on us.
+      It dawned on me that Ripley wouldn't be appearing.
+      It just dawned on me that you really don't care about buying that new house.
+      It just dawned on me how ridiculously short life really is.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dawn.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="emmerge, as the sun over the horizon" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme] DAWN (PP{P NP[theme]})
+      Note: May be metaphorical.
+      </commentary>
+      <examples>
+      The age of computers had dawned.
+      It started to dawn, and we had to get up.
+      A new day dawned on the sport of Golf.
+      A new era of brotherhood and patriotism has dawned.
+      Monday dawned warm and rainless.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dawn.02</pb>
+         <vn>appear-48.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

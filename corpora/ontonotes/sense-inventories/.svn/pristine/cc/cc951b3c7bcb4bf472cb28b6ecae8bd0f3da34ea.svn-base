@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="work-n">
+    <commentary>11Aug08 - added senses, updated to WordNet 2.1 ahouston
+        26Jan09 - removed S4,S5 - S3 is a shishkebob. ahouston
+    </commentary>
+    <sense group="1" n="1" name="human endeavor or activity to accomplish a goal, a task" type="Event">
+        <commentary>WORK[+event][+activity][+effort][+directed]
+            Human endeavor or activity to accomplish some end.
+            Note: implies the existence of some specific task or job.
+        </commentary>
+        <examples>The porch will need further work to repair the damage.
+            The teacher indicated paragraphs in John's essay that needed more work.
+            Mastering a second language requires a lot of work.
+            The city decided it would be too much work to put in sprinkler systems in all the municipal parks.
+            How much work have they completed on the new bridge?
+            We divided up the work to make it go faster.
+            His life's work was administering medical care in the poorest nations.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>work.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="artifacts, opuses which are the result of effort" type="">
+        <commentary>WORK[+artifact][+opus]
+            A product produced or accomplished through the effort or activity or agency of a person (or thing, with metaphoric usage)
+            Note: refers to things, results, not an activity or task (Sense 1)
+        </commentary>
+        <examples>The library has all the classical works on Western philosophy.
+            The symphony was hailed as the composer's most brilliant work.
+            Picasso's work can be divided into periods.
+            John bought a volume of the collected works of a famous Chinese poet.
+            That flooded, deforested pond is the work of beavers.  (result of an animal's effort)
+            These sculpted sandstone forms are the work of wind and erosion over millions of years.  (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>work.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="employment as a profession, livelihood" type="General">
+        <commentary>WORK[+profession][+employment]</commentary><examples>Everybody at work is so annoying.
+            Mary found it difficult to juggle work and family in a balanced way.
+            The factory has announced it will initiate a ten-percent work reduction next week.
+            He is looking for work.
+            It seems that everyone is out of work these days.
+            The new hires are to report to work at 8 a.m. tomorrow morning.
+            The laborer was injured at work on an assembly line.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="">Placeholder Sense</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="" n="5" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="">Placeholder Sense</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="" n="6" name="physical force, work = force x distance" type="Physics">
+        <commentary>WORK[+force][+physical][+energy][+expended]
+            a manifestation of energy; the transfer of energy from one physical system to another expressed as the product of a force and the distance through which it moves a body in the direction of that force
+        </commentary>
+        <examples>Work equals force times distance.
+            How much work is required to lift a 100 pound block 10 feet?
+            Energy is required to do work.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

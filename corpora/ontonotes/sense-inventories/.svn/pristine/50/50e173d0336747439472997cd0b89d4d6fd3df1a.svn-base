@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="peck-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Hit lightly with a picking motion." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      He pecked the side of the building with a chisel.
+      We pecked at the lawnmover engine until it started.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>swat-18.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Kiss lightly." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He pecked her cheek sweetly. 
+      She pecks him quickly before her father walks in.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>swat-18.2,touch-20</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Eat with a pecking motion, perhaps selectively." type="">
+      <commentary>
+      Includes: PECK AT
+      </commentary>
+      <examples>
+      The anorexic girl just pecks at her food.
+      The bird pecked at the worm.
+      I pecked at the chicken but didn't eat much.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="peck_at" version="3.0">1</wn>
+         <omega></omega><pb>peck.01,peck.02</pb>
+         <vn>chew-39.2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Bother persistently with trivial complaints." type="">
+      <commentary>
+      Includes: PECK AT 
+      </commentary>
+      <examples>
+      He pecks at his wife with constant complaints.
+      Stop pecking your boss for a raise.
+      She pecks her husband all day long.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

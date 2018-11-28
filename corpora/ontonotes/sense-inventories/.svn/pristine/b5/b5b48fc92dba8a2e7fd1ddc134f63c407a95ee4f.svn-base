@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="weave-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="interlace (as if) by weaving" type="">  
+      <commentary>
+        Syntax is: NP1[agent] WEAVE NP2[+plural/first component] (IN/INTO/WITH NP3[second component])
+
+        NOTE: Compare to sense 2. This sense involves two or more items
+        being weaved together (and the method), the end product is not the
+        focus nor does it need to be stated. As in the 2nd sentence, the 'ribbon' is the
+        patient, the basket is the object.
+      </commentary>
+      <examples>
+        The artist weaved bright colors with minimalistic designs.
+        Juli weaved the ribbon tightly (creating a basket).
+        I loved the way you weaved the movie into your talk.
+        Mattson wove his fingers together in thought.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>weave.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create (a textile) by interlacing strands" type="">
+      <commentary>
+        Syntax is: NP1[agent] WEAVE NP2[product] (PP {P NP3[material]})
+
+        NOTE: Includes metaphorical examples. Compare to sense 1. This
+        sense focuses on the finished product and the components need not
+        be stated.
+      </commentary>
+      <examples>
+        Tears weaved the bond of friendship.
+        Oh what a tangled web we weaved.
+        My mother wove this blanket when she was young. 
+        The craftsman wove the placemat with wicker strips.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>weave.01</pb>
+         <vn>build-26.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move or sway in a sinuous fashion" type="">
+      <commentary>
+        Syntax includes: NP1[theme] WEAVE (THROUGH) NP2[location]
+        Inxludes: WEAVE THROUGH
+        NOTE: Compare to senses 1 and 2. This sense does not include
+        creating a textile or interlacing strands.
+      </commentary>
+      <examples>
+        Juan weaved through the heavy traffic as the truck chased him.
+        Local artists weaved through the line bobbing surreal effigies of madonnas.
+        The river wove through the countryside. 
+        No one blinked as we wove through the maze of baggage conveyor belts.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>weave.02</pb>
+         <vn>meander-47.7,run-51.3.2</vn><fn>Motion,Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

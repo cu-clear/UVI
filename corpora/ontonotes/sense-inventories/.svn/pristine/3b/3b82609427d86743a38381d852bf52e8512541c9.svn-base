@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ignite-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) burn" type="">  
+      <commentary>
+        Syntax Is: NP1 IGNITE NP2
+        NOTE: Includes metaphorical uses.
+      </commentary>
+      <examples>
+        Brush Fires Ignited Across Lebanon.
+        He ignited his match across the rough sandpaper of his hand.
+        He ignited a firestorm of protest.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ignite.01</pb>
+         <vn>other_cos-45.4</vn><fn>Setting_fire</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="arouse feelings and passions" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He wondered if age and a need for both to find a companion in life
+        ignited old feelings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tick-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a ticking sound" type="">
+      <commentary>
+      Syntax is: NP1 TICK (PP)
+      </commentary>
+      <examples>
+        The clock ticked quietly in the corner.
+        That package is ticking! Call the bomb squad!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <omega></omega><pb>tick.01</pb>
+         <vn>sound_emission-43.2</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="check off; enumerate or keep track of" type="">
+      <commentary>
+        Includes: TICK OFF, TICK AWAY
+        Syntax includes: NP1 TICK (off) NP2
+                         NP1 TICK (away) NP2
+     </commentary>
+      <examples>
+        I always have to stop and tick off the words on my fingers. 
+        Why don't we make a list and tick off the items as we finish them?
+        Get in the cab--the meter is already ticking up the fare.
+        The clock is ticking away the seconds until we can leave.
+        Maybe she ticked the "unsuitable parent" box.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="tick_off" version="3.0">1</wn>
+         <omega></omega><pb>tick.03</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make angry" type="">
+      <commentary>
+        Includes: TICK OFF
+      </commentary>
+      <examples>
+        She really ticked me off with that comment about my dirty windows.
+        Boy, did he tick off the wrong person!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>tick.02</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="run, function" type="">
+      <commentary>
+        Includes: TICK OVER
+      </commentary>
+      <examples>
+        The vehicle appeared to be generally in good condition, and the engine was ticking over fine.
+        While the restaurant was ticking over nicely, the downstairs wine bar was empty.
+        I wonder what makes him tick.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="tick_over" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="sew (as of a mattress)" type="">
+      <commentary>
+        Note: No examples found.
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

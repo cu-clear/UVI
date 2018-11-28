@@ -1,0 +1,235 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="call-v">
+   <commentary>
+     Includes: CALL DOWN; CALL OFF; CALL OUT
+   </commentary>
+
+   <sense group="1" n="1" name="communicate orally, usually in a loud,
+distinct tone!" type="">
+   <commentary>
+     Syntax: NP1[+animate] CALL NP2 
+   </commentary>
+   <examples>
+     The bluejays called to each other.
+     She called out in pain.
+     Someone just called my name.
+     The teacher called roll.
+     I love when Henry calls the square dance; he calls off all the best
+     moves.
+     The hunters called the ducks.
+     She called down her son for disobedience.
+   </examples>
+   <mappings>
+     <wn version="3.0">4,8,10,16,22,25</wn>
+     <wn lemma="call_down" version="3.0">2</wn>
+     <wn lemma="call_off" version="3.0">2</wn>
+     <wn lemma="call_out" version="3.0">1,2</wn>
+     <omega/><pb>call.07</pb>
+     <vn>animal_sounds-38,manner_speaking-37.3</vn><fn>Referring_by_name</fn>   
+   </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="summon" type="">
+      <commentary>
+        Includes: CALL BACK; CALL DOWN; CALL FOR; CALL FORTH; CALL IN; CALL OUT; CALL UP
+      </commentary>
+      <examples>
+        The boss called him into her office.
+        The Yei Peace Conference was called in July to address the underlying tension.
+        I was called for jury duty last month.
+        Employees in the Reserve who are called up for active duty will continue to receive their regular pay.
+        He called forth demons from the underworld.
+        Aaron Burr called out Alexander Hamilton.
+        Wilson was called in from the mound in the sixth inning.
+        The nurse called in the next patient.
+        The ambassador was called back to attend the state funeral.
+        The accident called back a lot of bad memories.
+        You will call down the wrath of the gods!
+        The case was called up in court.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,7,23,24,28</wn>
+         <wn lemma="call_back" version="3.0">2,4</wn>
+         <wn lemma="call_down" version="3.0">1</wn>
+         <wn lemma="call_for" version="3.0">1,3</wn>
+         <wn lemma="call_forth" version="3.0">1,2</wn>
+         <wn lemma="call_in" version="3.0">1,2,4</wn>
+         <wn lemma="call_out" version="3.0">3</wn>
+         <wn lemma="call_up" version="3.0">1,3,4</wn>
+         <omega/><pb>call.02,call.04,call.08</pb>
+         <vn>get-13.5.1</vn><fn>Contacting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="order or require" type="">
+      <commentary>
+        Includes: CALL FOR
+      </commentary>
+      <examples>
+        If their terms aren't met, the union will call a strike.
+        This job calls for someone with great communication skills.
+        A wonderful dinner like this calls for a fabulous dessert!
+      </examples>
+      <mappings>
+         <wn version="3.0">23</wn>
+         <wn lemma="call_for" version="3.0">2</wn>
+         <omega/><pb>call.03</pb>
+         <vn>get-13.5.1</vn><fn>Deserving,Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="communicate by telephone or similar device" type="">
+      <commentary>
+        Includes: CALL BACK; CALL IN; CALL UP
+      </commentary>
+      <examples>
+        I called him last night, but he didn't pick up.
+        Can I call you back in an hour?
+        Those telemarketers call you up at all hours!
+        My doctor will call in the perscription.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,9</wn>
+         <wn lemma="call_back" version="3.0">3</wn>
+         <wn lemma="call_in" version="3.0">5</wn>
+         <wn lemma="call_up" version="3.0">2</wn>
+         <omega/><pb>call.04,call.08</pb>
+         <vn>NM</vn><fn>Contacting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="label with a name or quality" type="">
+      <commentary>
+        Note: Includes sports sense.
+      </commentary>
+      <examples>
+        They called their son Jimmy.
+        Please call me Mister.
+        Don't call me an idiot!
+        I wouldn't exactly call her beautiful.
+        The umpire called two strikes, then four balls in a row.
+        He called the runner out at second.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,12,18,21,27</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>call.01</pb>
+         <vn>dub-29.3</vn><fn>Being_named,Labeling,Simple_naming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="request or demand a response from someone; challenge someone" type="">
+      <commentary>
+        Includes: CALL ON
+        NP1[agent[human]] CALL (ON) NP2[patient[human]] (PP[on X])
+        NP1[agent[human]] CALL (NP2)
+        Note: Not always transitive. Includes card games/show of hands.
+      </commentary>
+      <examples>
+        Why does the teacher always call on me in math class?
+        He lied about being sick, and his boss called him on it.
+        I'm hoping someone will call him on the fact that his position is outside the judicial mainstream.
+        She called on her sister for help.
+        He called his trump.
+      </examples>
+      <mappings>
+         <wn version="3.0">15,20,26</wn>
+         <wn lemma="call_on" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="visit; stop off at" type="">
+      <commentary>
+        Includes: CALL AT; CALL IN; CALL FOR
+      </commentary>
+      <examples>
+        The mayor likes to call on some prominent citizens.
+        Who has come to call?
+        The ship will call in Honolulu tomorrow.
+        I'll call at your office on Friday for the boxes.
+        He called for Mary at precisely 7pm, corsage in hand.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,13</wn>
+         <wn lemma="call_at" version="3.0">1</wn>
+         <wn lemma="call_in" version="3.0">3</wn>
+         <wn lemma="call_for" version="3.0">4</wn>
+         <omega/><pb>call.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="predict" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They got divorced! Did I call it or what?
+        Several media outlets called Florida for Gore before the polls were closed. 
+      </examples>
+      <mappings>
+         <wn version="3.0">18</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>call.10</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="demand the return of or payment on" type="">
+      <commentary>
+        Includes: CALL BACK; CALL IN
+      </commentary>
+      <examples>
+        The bank called the loan in August 2004.
+        In general, the firm will call the bond when its yields are sufficiently lower than its coupon rate.
+        Hilltop Farm called back its packaged spinach when it was found to be contaminated with e coli.
+        Ford called in that model to replace a defective part.
+      </examples>
+      <mappings>
+         <wn version="3.0">14,19</wn>
+         <wn lemma="call_back" version="3.0">1</wn>
+         <wn lemma="call_in" version="3.0">6,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="halt or cancel an event or activity" type="">
+      <commentary>
+        Includes: CALL IT A DAY; CALL IT QUITS; CALL OFF
+      </commentary>
+      <examples>
+        The game was called because of the storm.
+        We're going to have to call off the party.
+        Shall we call it quits and start again tomorrow?
+        Let's call it a day.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <wn lemma="call_it_a_day" version="3.0">1</wn>
+         <wn lemma="call_it_quits" version="3.0">1</wn>
+         <wn lemma="call_off" version="3.0">1</wn>
+         <omega/><pb>call.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="miscellaneous idioms" type="">
+      <commentary>
+        Includes: CALL INTO QUESTION; CALL ON THE CARPET; CALL ONE'S BLUFF; CALL THE SHOTS;
+                  CALL THE TUNE; CALL TO ORDER
+      </commentary>
+      <examples>
+        Mental Health Month calls attention to ADHD.
+        Rob's recent blunder calls into question his suitability for the job.
+        She was called on the carpet for her mishandling of the case.
+        I would call his bluff, because I don't believe for a second that he would go to court.
+        He calls all the shots around here.
+        If you let the kids call the tune, you're in for trouble.
+        Let's call this meeting to order.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="call_attention" version="3.0">1</wn>
+         <wn lemma="call_into_question" version="3.0">1</wn>
+         <wn lemma="call_on_the_carpet" version="3.0">1</wn>
+         <wn lemma="call_one's_bluff" version="3.0">1</wn>
+         <wn lemma="call_the_shots" version="3.0">1</wn>
+         <wn lemma="call_the_tune" version="3.0">1</wn>
+         <wn lemma="call_to_order" version="3.0">1</wn>
+         <omega/><pb>call.09,call.11</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

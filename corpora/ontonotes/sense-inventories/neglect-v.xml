@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="neglect-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="leave undone or leave out" type="">
+      <commentary>
+         Syntax Is: NP1 NEGLECT [predicate]
+      </commentary>
+      <examples>
+        She neglected to say what it was for.
+        They neglected to get our oil supplies and our submarines.
+        They will rue the day they neglected to read my mail.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>neglect-75-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="disregard, fail to attend to" type="">
+      <commentary>
+         Syntax Is: NP1 NEGLECT NP2
+      </commentary>
+      <examples>
+        He neglected his health for years.
+        He neglects the prayer which is the pillar of religion.
+        I would never neglect my children!
+        If they neglected their duty, they were severely punished.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>neglect.01</pb>
+         <vn>neglect-75-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

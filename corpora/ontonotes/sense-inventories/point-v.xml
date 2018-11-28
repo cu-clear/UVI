@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="point-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="indicate or draw attention to something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] POINT PP
+        Includes: POINT OUT, POINT THE WAY
+      </commentary>
+      <examples>
+         They pointed to the gun lying on the ground.
+         Watch where I'm pointing! 
+         The growing deficit was pointed out by the senator.
+         Shortness of breath may point to a more serious underlying ailment.
+         The sign pointed the way to London.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5</wn>
+         <wn lemma="point_out" version="3.0">1,2,3</wn>
+         <wn lemma="point_the_way" version="3.0">1</wn>
+         <omega/>
+         <pb>point.01</pb>
+         <vn>wink-40.3.1-1</vn><fn>Adducing,Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) orient or aim (something)" type="">
+      <commentary>
+       Syntax Is: NP1[+/-agent] POINT (NP2)
+      </commentary>
+      <examples>
+         She pointed her dart carefully at the opposite wall.
+         He pointed his horse towards the setting sun and galloped away.
+         Tighten the jib sheet if you plan to point the ship this close into the wind.
+         That sailboat stalled because it was pointing too close into the wind.
+         The gun points with ease.
+         Please point your mouth at me when you speak.
+         His criticism was pointed only at her acting ability.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,6,10,11</wn>
+         <omega/>
+         <pb>point.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="tag or mark texts to supply additional information" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Which scholar pointed these texts?
+      </examples>
+      <mappings>
+         <wn version="3.0">7,8,9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="shape something into a point" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The artist pointed the tip of his brush by carefully swirling it.
+         That ballerina can really point her toes!
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="repair bricks on a structure" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         We paid a lot to have them point our chimney and exterior walls.
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,107 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="save-v">    
+   <commentary>
+	Includes VPC save_up
+	Includes idiom: save_it
+   </commentary>
+
+   <sense group="1" n="1" name="rescue, redeem, deliver from harm or danger" type="">  
+      <commentary>
+	NP1[instrument,agent] SAVE NP2[patient] (from NP[peril/hazard])
+
+        NOTE: 'save' meaning except for or but from sentences such as 
+        'The found all the lost documents SAVE one.' or
+        'I have no real answer SAVE that we should consider opinion from outside.'
+        is -NOT- a verb.
+      </commentary>
+      <examples>
+	This policy may have saved the economy from recession.
+	A seat belt can save your life in an accident.
+	The dog saved the drowning boy's life.
+	Mary told the two evangelists that she didn't want them to save her.
+	The king saved two of the prisoners from execution.
+	They are trying to save these old growth trees from clear cutting.
+	God save the Queen!
+        The former tennis champion was now serving to save the match.
+	I don't think these soggy manuscripts can be saved.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,7,8</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>save.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="keep or preserve something for use in the future" type="">
+      <commentary>
+	NP[+topic] SAVE NP[+resource] (PP[+goal/+purpose])
+	NP[+topic] SAVE UP (NP[+resource]) PP[+goal/+purpose]
+
+	Includes: SAVE UP
+
+        NOTE: 'save' meaning except for or but from sentences such as
+        'The found all the lost documents SAVE one.' or
+        'I have no real answer SAVE that we should consider opinion from outside.'
+        is -NOT- a verb.
+      </commentary>
+      <examples>
+	She has been saving these ruby earrings for her granddaughter.
+	I'll save your place in line if you'll get us some coffee.
+	They are saving a slot for Bob on the management team.
+	We need to save our strength for the climb to the summit tomorrow.
+	John forgot to save his files and lost two days of work on the computer.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>save.03,save.04</pb>
+         <vn>get-13.5.1-1</vn ><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="prevent resources from being wasted or spent" type="">  
+      <commentary>
+	NP[+instrument] SAVE (NP[+recipient]) NP[+overhead/+cost]
+	NP[+agent] SAVE NP[+object] from NP[+goal]
+
+        NOTE: 'save' meaning except for or but from sentences such as
+        'The found all the lost documents SAVE one.' or
+        'I have no real answer SAVE that we should consider opinion from outside.'
+        is -NOT- a verb.
+      </commentary>
+      <examples>
+        They are saving to buy a house.
+        Bill is saving up for retirement.
+        Tom's been saving his pocket money every week.
+	I saved the sales tax by buying this out of state.
+	Buying tickets online will save you a service charge.
+	John knows a short cut that will save an hour of driving to the beach.
+	Pilots are helping the airlines explore ways to save on fuel.
+	The ploy was meant to save the government some embarrassment.
+	This cleaning product will save you time and effort.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,6,9</wn>   
+         <wn lemma="save_up" version="3.0">1</wn>
+         <omega/><pb>save.01,save.04</pb>
+         <vn>bill-54.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="(order to) stop talking" type="">  
+      <commentary>
+	Slang: SAVE IT
+      </commentary>
+      <examples>
+	Just save it, okay?
+	He told them to save it and walked out of the room.
+      </examples>
+      <mappings>
+         <wn version=""/>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

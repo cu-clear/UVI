@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="equip-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide with tools or items for a specific purpose" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] EQUIP NP2[recipient] PP{P NP[theme]}
+        NP1[agent] EQUIP NP2[recipient] [predicate] 
+      </commentary>
+      <examples>
+        She equipped her school with pianos, globes, magazines, and books.
+        The Curtiss Aeroplane and Motor Company equipped the Standard J-1s with its own engine.
+        We hired these two men and equipped them with crossbow and sword. 
+        She gave land to the ex-slaves who had stayed with her, and equipped them to be independent farmers. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>equip.01</pb>
+         <vn>equip-13.4.2-1</vn><fn>Supply</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give rise to abilities, skill or understanding" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1[source] EQUIP NP2[beneficiary] PP{P NP[theme]} 
+        NP1[source] EQUIP NP2[beneficiary] [predicate]      
+      </commentary>
+      <examples>
+        She evaluated how well new employees' education equipped them with these skills.
+        Years of experience have equipped her to be a very successful entrepreneur.
+        As it turned out, his mental/psychological make-up equipped him to be a fine teacher.
+        He said that when God comforted him, it equipped him to be able to minister to others.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>equip.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

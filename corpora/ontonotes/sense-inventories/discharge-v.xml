@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="discharge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="get rid of; empty; cause to expel" type="">  
+      <commentary>
+       Syntax Is: 
+        NOTE: Can be concrete or abstract.
+        NP1[agent] DISCHARGE[punctual] NP2[-animate,+/-concrete])
+        NP1[theme,+concrete] DISCHARGE
+      </commentary>
+      <examples>
+        Isn't it great that my loan was discharged?!
+        They discharged the stolen cargo in New York.
+        Tommy allegedly discharged the spray near a bathroom.
+        The prior proceedings discharged the Eastern pilot's claims against Continental.
+        The liquor is discharged and the dyeing is rinsed with fresh cold water.
+        The gun discharged.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4,5,7,8,9,11</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>discharge.01</pb>
+         <vn>remove-10.1</vn><fn>Use_firearm,Emitting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="free from obligations, service or confinement" type="">
+      <commentary>
+        NOTE: This sense includes the frames of military and medical
+        facilities care.
+       Syntax Is: 
+        NP1[agent] DISCHARGE[punctual] NP2[human] (from NP3[location,duty])
+      </commentary>
+      <examples>
+        The fate of patients discharged the day following surgery has not been reported.
+        The children were discharged early from school on Friday.
+        They discharged the following members from serving on the Standing Committee.
+        The court discharged the useless jury.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>free-80</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="complete or carry out" type="">
+      <commentary>
+      Syntax Is: 
+       NP1[agent[human]] DISCHARGE[durative] NP2[attribute[abstract]]
+      </commentary>
+      <examples>
+        Discharge your chores quickly and you can play.
+        The applicant has faithfully discharged the trust reposed in her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="pronounce not guilty of a criminal charge" type="">
+      <commentary>
+        NOTE: This is a subsense of sense 2 referring specifically to a
+        defendant being relieved of criminal charges. 
+      </commentary>
+      <examples>
+        A Dhaka court yesterday discharged the editor and the publisher of
+        the daily Prothom Alo from a defamation case.
+        The judge discharged the defendant of the murder charge.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

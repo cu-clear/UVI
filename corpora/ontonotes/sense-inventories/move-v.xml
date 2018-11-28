@@ -1,0 +1,147 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="move-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) change position" type="">
+      <commentary>
+       Syntax Includes: NP1 MOVE (PP) (NP2)
+      </commentary>
+      <examples>
+         Can you help me move these boxes to the other wall?
+         He moved his hand to his brow, as if dizzy.
+         I want to move all my accounts offshore.
+         The stock market hasn't moved much this week.
+         Earnings have been moving lower in the last quarter.
+         Messages must move through the proper channels.
+         Over the years, his music has gradually moved from folk to blues.
+         The company is moving towards more outsourcing of their manufacturing.
+         Have any mandolin players moved on to fiddle?
+         Move out, troops!
+         Hey, move over and give me some room.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,7,13</wn>
+         <wn lemma="move_around" version="3.0">1</wn>
+         <wn lemma="move_back" version="3.0">1</wn>
+         <wn lemma="move_back_and_forth" version="3.0">1</wn>
+         <wn lemma="move_in" version="3.0">1,2</wn>
+         <wn lemma="move_into" version="3.0">1</wn>
+         <wn lemma="move_involuntarily" version="3.0">1</wn>
+         <wn lemma="move_on" version="3.0">1</wn>
+         <wn lemma="move_out" version="3.0">1</wn>
+         <wn lemma="move_over" version="3.0">1</wn>
+         <wn lemma="move_reflexively" version="3.0">1</wn>
+         <wn lemma="move_through" version="3.0">1</wn>
+         <wn lemma="move_up" version="3.0">2</wn>
+         <omega/><pb>move.01</pb>
+         <vn>calibratable_cos-45.6-1,roll-51.3.1</vn><fn>Cause_change_of_position_on_a_scale,Cause_motion,Change_position_on_a_scale,Motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="intentionally act, decide" type="">
+      <commentary>
+       Note: Only intransitive.
+       Syntax Is: NP1[agent[animate]] MOVE (PP)
+      </commentary>
+      <examples>
+         She is really moving on this project.
+         We moved quickly on the buyer's offer.
+         White moves first in chess.
+         God moves in mysterious ways.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,8,15</wn>
+         <omega/><pb>move.02</pb>
+         <vn>act-55.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="propose formally, in a debate or meeting" type="">
+      <commentary>
+        Note: Only intransitive.
+        Syntax Is: NP1[agent[animate]] MOVE TO VP
+      </commentary>
+      <examples>
+        They moved to adjourn until tomorrow.
+      </examples>
+      <mappings>
+         <wn version="3.0">16</wn>
+         <omega/><pb>move.02</pb>
+         <vn>dub-29.3</vn><fn>NM</fn>
+      </mappings>
+   </sense>
+   <sense group="1" n="4" name="inspire to act; emotionally impact" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Brahms' music moves her deeply.
+         Having a heart attack has moved him to make some lifestyle changes.
+         The pictures of the starving children moved us all.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,10,11</wn>
+         <omega/><pb>move.03</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="change residence, affiliation, or place of employment" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         We moved from Idaho to Nebraska.
+         Corporate headquarters will move to Miami next year.
+         When I moved to Acme Toys, my salary almost doubled.
+         I'm moving to the Republican Party.
+         My father was in the military, and we moved around a lot.
+         Let's move in together.
+         They moved out of their condo and into a house.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="move_around" version="3.0">2</wn>
+         <wn lemma="move_in" version="3.0">3</wn>
+         <wn lemma="move_out" version="3.0">2</wn>
+         <omega/><pb>move.01</pb>
+         <vn>slide-11.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="sell, dispose of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         They are really trying to move last year's models now.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/><pb>move.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="socially or professionally interact" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She moves in the highest circles in Washington.
+         He is moving with a tough crowd these days.
+         He's really moving up in the world.
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <wn lemma="move_up" version="3.0">1</wn>
+         <omega/><pb>move.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="make intrusive or aggressive advances on" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Don't move in on my girlfriend!
+        Canadian police moved in on terror suspects.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="move_in_on" version="3.0">1,2</wn>
+         <omega/><pb>move.04</pb>
+         <vn>confront-98</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,brownsw,greenlm" sample_score="-"/>
+</inventory>

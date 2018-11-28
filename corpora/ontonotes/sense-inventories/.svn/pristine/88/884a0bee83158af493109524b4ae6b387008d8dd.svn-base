@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="priority-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="anything which is ranked as very important" type="">
+        <commentary>
+            PRIORITY[+entity][+ranked][+important][+highly]
+            Note: can occur in the plural
+            Note: refers to the thing itself, not a status or attribute assigned to is. (Sense 2)
+        </commentary>
+        <examples>
+            Repairing the roof is on our list of priorities.
+            Reduced spending was not a priority of their administration.
+            Her children are her top priority.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the state of having important status" type="">
+        <commentary>
+            PRIORITY[+state][+status][+ranked][+important]
+            Note: refers to a quality assigned to something, not the thing explicitly (see Sense 1)
+        </commentary>
+        <examples>
+            The safety of the passengers takes priority over ease of travel.
+            Priority will be given to those with press passes. 
+            Clear the left lane for only the traffic with priority. (ambulances, etc.)
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="being earlier in time, occurring before something else" type="">
+        <commentary>
+            PRIORITY[+quality][+temporal][+precedence]
+        </commentary>
+        <examples>
+            John was credited with the idea because his paper had priority over the others. (was published earlier)
+            No one knows which society had priority in the invention of writing. (was historically the first)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

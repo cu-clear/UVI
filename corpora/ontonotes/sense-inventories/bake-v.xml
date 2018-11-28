@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bake-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cook and make edible by putting in a hot oven" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+       Xavier baked a cake in the oven.
+       Julie baked muffins for the president.
+       Steve loves to bake in his kitchen.     
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bake.01</pb>
+         <vn>build-26.1,cooking-45.3,preparing-26.3-1</vn><fn>Cooking_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) be hot due to a natural force" type="">
+      <commentary>
+       INCLUDES:  NP1[-animate] BAKE NP2 (PP)
+                  NP1 BAKE PP(P NP[-animate])
+      </commentary>
+      <examples>
+       The sun bakes the valley in the summer.
+       The heat of the humid, hazy afternoon baked the churchgoers.
+       The town was baking in the sun.
+       My fair, Irish skin will surely bake if I don't use SPF 90!
+       The churchgoers baked in the heat of the humid, hazy afternoon.
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Apply_heat,Absorb_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="gouldk " sample_score="-"/>  
+</inventory>

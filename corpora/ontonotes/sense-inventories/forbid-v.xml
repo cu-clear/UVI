@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="forbid-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="command against or prohibit something" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] FORBID NP2[patient[animate]] (PP{P NP[predicate]})
+        NP1[agent[human]] FORBID NP2[patient[inanimate]] 
+        NOTE: [human] also includes collectives of human entities such as
+        commitees, church, lawmakers etc.
+      </commentary>
+      <examples>
+        The church forbade the bishops from giving the emperors the title
+        'holy.'
+         Marcus Aurelius forbade the condemnation of criminals to be gladiators.
+         Italy forbids the sale of soft drinks in elementary schools.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>forbid.01</pb>
+         <vn>forbid-67-1</vn><fn>Prohibiting,Deny_permission</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hinder or make impossible" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[abstract]] FORBID NP2[patient[animate]] (PP{P NP[predicate]})
+        NP1[agent[abstract]] FORBID NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+        Justice absolutely forbade the killing of anything that had life.
+        Canon 7 forbids the exaction of a sum of money for the burial of
+        the dead.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>forbid-67-1</vn><fn>Prohibiting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

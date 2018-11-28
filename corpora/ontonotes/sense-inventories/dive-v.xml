@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dive-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Drop steeply" type="">  
+      <commentary>
+       Syntax Includes: 
+        NP1[patient] DIVE (ADVP)
+        NP1[patient] DIVE (PP)
+      </commentary>
+      <examples>
+        The stock market dove over the trading day.
+        Her performance on tests dove when she started high school.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>dive.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Plunge into a location (usu. water)" type="">
+      <commentary>
+        Syntax Is:
+         NP1[concrete] DIVE (PP{P NP[location]})
+        NOTE: If a location is not mentioned, movement into a location should still be implied.
+      </commentary>
+      <examples>
+        The road dove off the mountain.
+        The teens dove from the cliff to the water below.  
+        I lost heart, turned round and dove into the subway.
+        Bakke again dove into the end zone for a touchdown early into the third quarter.
+        He dove for the ball.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>dive.01</pb>
+         <vn>meander-47.7,search-35.2</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="swim underwater" type="">
+      <commentary>
+        NOTE: This sense covers scuba diving. Also, it applies to what's
+        occuring while the agent is already in the water. It doesn't apply
+        to actions that get the agent from a point TO the water.
+      </commentary>
+      <examples>
+        The children dove to look for shells.
+        Fishermen dive for conch each day along the reef. 
+        After completing the course, you may continue to dive with an instructor for half-price.
+        We dove with rented equipment.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>search-35.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="DIVE IN/INTO: enthusiastically begin an activity" type="">
+      <commentary>
+        Is: DIVE IN/INTO
+        NOTE: The activity may be implied, such as eating in ex.2
+      </commentary>
+      <examples>
+        I dove into the adstoo project with as much enthusiasm as I could muster.
+        The kids dove into the pizza.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,brownsw" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fumble-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move ungracefully" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] FUMBLE NP2[theme]
+      NP1[agent[animate]] FUMBLE (PP{P NP[goal]})
+      Note: May be used metaphorically.
+      </commentary>
+      <examples>
+      He fumbled towards the door.
+      The fingers fumbled across his face until he touched his mouth.
+      Hoag stretched his left hand to the wall and fumbled for the switch.
+      She fumbled in her purse for the keys.
+      He fumbled his way through the crowded room.
+      What defensive lineman fumbled the ball on the one yard line in the Super Bowl against Buffalo?
+      Anne was not exiled to France because she fumbled her attempt to seduce Henry.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fumble.01</pb>
+         <vn>rummage-35.5</vn><fn>Bungling,Manipulation,Seeking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

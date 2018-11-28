@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="disapprove-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="consider bad, wrong, or inappropriate" type="">
+      <commentary>
+      Syntax Is:  
+       NP1[experiencer] DISAPPROVE (PP{of NP})
+      </commentary>
+      <examples>
+        Her mother disapproved of her new job.
+        I disapprove of her child-rearing methods.
+        A majority of the respondents said they disapproved of the performance of the Democratic-lead Congress.
+        You are seeing a married man?  I disapprove.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>disapprove.01</pb>
+         <vn>marvel-31.3-6</vn><fn>Judgment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="refuse to approve" type="">
+      <commentary>
+        Syntax Is:
+         NP1[agent] DISAPPROVE NP2
+      </commentary>
+      <examples>
+        They disapproved my extension.  What do I do now?
+        The shareholders disapproved the acquisition of the company by Acme Inc. for $27 a share.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>disapprove.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

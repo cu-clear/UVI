@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="coverage-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="amount covered" type="Event">
+        <commentary>
+            The extent or degree to which something is covered or dealt with.  Generally does not refer to news presentation.
+            Often associated with phone networks and magazine or newspaper circulation.
+        </commentary>
+        <examples>
+            Our magazine has achieved coverage of the entire Tri-State area.
+            The dictionary's coverage of standard English is excellent.
+            The blanket's incomplete coverage of the bed caused John's feet to stick out.
+            The cell phone company offers complete national coverage.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="insurance" type="Abstraction">
+        <commentary>
+            The protection offered by insurance, or the amount that is covered by insurance.  
+            The total amount or type of insurance carried.
+        </commentary>
+        <examples>
+            Do you have insurance coverage?
+            Does your plan offer dental coverage?
+            I need the national statistics on Medicare coverage.
+            My medical coverage won't pay for my kidney operation.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="presentation of news" type="Event">
+        <commentary>
+	    COVERAGE[+event]
+	    An act of presenting the news.  Usually anything dealing with news reporting will fit into this sense.
+	    </commentary>
+        <examples>
+            For complete coverage of the event, tune in to Channel Six News.
+            They accused the paper of biased coverage of race relations.
+            During an election year, political coverage can dominate the news.
+            We provide coverage of the NBA Draft.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

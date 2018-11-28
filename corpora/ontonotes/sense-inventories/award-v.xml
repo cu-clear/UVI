@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="award-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="grant money, prize, or priviledge following an official decision." type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] AWARD NP2[theme] (TO NP3[beneficiary])
+                  NP1[agent] AWARD NP2[beneficiary] NP3[theme]
+      </commentary>
+      <examples>
+        The teacher awarded the prize to the whole class.
+        Carlos was awarded first prize in the essay competition.
+        The jury awarded a million dollars to the defendant.
+        The university has awarded her a $500 travel grant.
+        The referee awarded a free kick to the team.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>award.01</pb>
+         <vn>future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

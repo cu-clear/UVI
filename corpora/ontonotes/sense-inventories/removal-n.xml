@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="removal-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of discarding something unwanted" type="Event">
+        <commentary>
+            REMOVAL[+event][+discarding][+entity][-desirable]
+        </commentary>
+        <examples>
+            The surgeon's removal of the brain tumor took six hours of surgery.
+            The play's tempo could be tightened up by the removal of the entire second scene in Act III.
+            The removal of preconceived intuitions about time and space is necessary in  order to understand general relativity.
+            Fluids help in the removal of toxins and waste from the body.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>removal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the abolishment of a legal barrier" type="Event">
+        <commentary>
+            REMOVAL[+event][+abolishment][+barrier][+legal]
+        </commentary>
+        <examples>
+            The removal of this trade barrier will increase commerce between the member nations.
+            His proposal for the removal of the ban on homosexuality in the military was controversial.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>removal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a person's dismissal from office" type="Event">
+        <commentary>
+            REMOVAL[+event][+dismissal][+from_office]
+            Note: always refers to a person's dismissal
+        </commentary>
+        <examples>
+            Anti-war activists called for the president's removal during their recent protest march.
+            The scandal resulted in the removal of several officers of the company, including the CEO.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>removal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

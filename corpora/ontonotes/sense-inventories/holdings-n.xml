@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="holdings-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="act of keeping" type="Event">
+        <commentary>
+	    HOLDINGS[+event]
+	    retention, keeping, holding -
+	    the act of keeping in your possession
+	    </commentary>
+        <examples>
+            His holding of the pictures left them crumpled and sticky.
+            The holding of the candies for too long will melt them.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="thing kept" type="Entity">
+        <commentary>
+            property, belongings, holding, material possession - 
+            something owned; any tangible or intangible possession that is owned
+            by someone
+        </commentary>
+        <examples>
+            His holdings at this bank add up to several million dollars.
+            He gave all of his land holdings to his eldest son.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

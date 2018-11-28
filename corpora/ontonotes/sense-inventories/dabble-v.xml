@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dabble-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="play or dip in water" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        He dabbled his feet in water to cool down.
+        After Lukas dabbled in the water we went and rode on some rides.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be involved superficially" type="">
+      <commentary>
+       Is: DABBLE IN
+        Syntax Is:  
+        NP1[agent[animate]] DABBLE in NP2
+      </commentary>
+      <examples>
+        She dabbled in amateur theatricals.
+        He dabbled in Jewelry, he dabbled in stonework, and he dabbled in
+        pottery.
+        He dabbled in astronomy, in mathematics, and in psychology.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dabble.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="swim, bob forward and under" type="">
+      <commentary>
+        NP1[[agent[animate]] DABBLE
+      </commentary>
+      <examples>
+        Gradually the ducks, presumably a pair, dabbled their way to within
+        range.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

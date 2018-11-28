@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hijack-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="take by force" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] HIJACK NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        A man holding a knife hijacked the plane.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>force-59-1</vn><fn>Piracy</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="seize control of" type="">
+      <commentary>
+        Syntax Is: NP1[agent] HIJACK NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        A small minority of senators have now hijacked the judicial
+        confirmation process and abused Senate rules.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

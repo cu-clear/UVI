@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="toss-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of flipping an object into the air" type="Event">
+        <commentary>
+            TOSS[+event][+flipping][+object][+into_air]
+        </commentary>
+        <examples>
+            With fifty tosses of a coin, how many are likely to come up heads?
+            The chef's toss of the pizza dough helps him pull it out into a circle.
+            Mary said it takes about ten tosses of the salad to distribute the olive oil evenly.
+            The students celebrated their graduation with a toss of their caps.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>toss.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the intentional determination of a consequence by a random coin toss" type="Event">
+        <commentary>
+            TOSS[+event][+random][+coin_flip][+determination][+of_consequence]
+            Note: a narrow specialization of Sense 1
+        </commentary>
+        <examples>
+            Our team won the toss so we got to keep the ball.
+            The soldiers had a toss to decide which of them would do reconnaissance on the enemy.
+            The football referee will make the toss.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of passing a ball to a teammate" type="Event">
+        <commentary>
+            TOSS[+event][+pass][+ball][+to_teammate]
+        </commentary>
+        <examples>
+            The quarterback's toss was intercepted.
+            The toss was fumbled.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a sudden anatomical gesture" type="Event">
+        <commentary>
+            TOSS[+event][+abrupt][+gesture][+anatomical]
+        </commentary>
+        <examples>
+            With a toss of her head, she walked away in anger.
+            The horse swatted at flies with tosses of its tail.
+            He gave a toss of his shoulders to indicate ignorance of the whole matter.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

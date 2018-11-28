@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="form-v">
+   <commentary>
+    Note: Duplicate WN mappings (4 in both sense 1 and sense 2).
+   </commentary>
+   <sense group="1" n="1" name="cause to (physically) shape" type="">
+      <commentary>
+       Syntax: NP1[+/-agent] FORM NP2[+concrete]
+       Note: Includes concrete uses.
+      </commentary>
+      <examples>
+         Form a ball with the pie dough.
+         We watched a glass blower forming a large blue vase.
+         The children formed a circle around the tree.
+         A lava flow probably formed these twisted rock formations.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>form.01</pb>
+         <vn>create-26.4</vn><fn>Creating,Reshaping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create, establish (as an abstract entity)" type="">
+      <commentary>
+       Syntax: NP1[+agent] FORM NP2[+abstract]
+       Note: Includes abstract uses.
+      </commentary>
+      <examples>
+         Let's form a start-up!
+         He wanted to form a chess club at school.
+         The stray dogs formed a pack.
+         John formed a dislike of tuna fish after getting food poisoning.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>form.01</pb>
+         <vn>create-26.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make, constitute, take shape, develop" type="">
+      <commentary>
+       NP1[+theme] FORM (PP[+location]) (NP2)
+       Note: Includes concrete and abstract forming (inchoative).
+      </commentary>
+      <examples>
+         The rocks come together at the top to form an archway.
+         These two manuscripts form the entire surviving work of that poet.
+         A canvas and paint by themselves don't form a masterpiece.
+         The water formed little beads.
+         Tiny ice crystals formed on the outside of the window.
+         The idea for a computer game had long been forming in her mind.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,7</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>form.02</pb>
+         <vn>appear-48.1.1,reflexive_appearance-48.1.2</vn><fn>Reshaping,Coming_to_be</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

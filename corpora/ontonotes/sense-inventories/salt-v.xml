@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="salt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="add salt to" type="">  
+      <commentary>
+      Notes: may be metaphorical
+      Syntax includes:
+      NP1[agent[animate]] SALT NP2[theme]
+      NP1[agent[animate]] SALT NP2[theme] PP[instrument]
+      </commentary>
+      <examples>
+      Once my mother warned that she had accidentally over salted a dish.
+      I salted this dish with lavender salt.
+      The rebels had salted the fields with mines and traps.
+      She salts her lectures with jokes.
+      He salts his faith with desperation.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>salt.01</pb>
+         <vn>butter-9.9</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="preserve with salt" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] SALT NP2[theme]
+      </commentary>
+      <examples>
+      People used to salt meats on ships.
+      There were also large ships that would salt their cod while still wet.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Preserving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="salt_away: store" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] SALT away NP2[theme] (PP[location])
+      NP1[agent[animate]] SALT NP2[theme] away (PP[location])
+      </commentary>
+      <examples>
+      She salted away a lot of food.
+      She salted the money away in a secret account.
+      He salted away most of his earnings in a bank account.
+      GE Energy Financial salts away natural gas.
+      She's making a lot of money, but salts it away rather than spending it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="salt_away" version="3.0">1</wn>
+         <omega></omega><pb>salt.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="separate by adding salt to a solution" type="">
+      <commentary>
+      Notes: most often used nominally or adjectivally.
+      Syntax includes:
+      NP1 SALT out NP2[patient] PP[instrument]
+      </commentary>
+      <examples>
+      He salted out the freebase with warm vinegar.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

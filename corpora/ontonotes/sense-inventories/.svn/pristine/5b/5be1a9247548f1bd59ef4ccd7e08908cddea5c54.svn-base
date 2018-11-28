@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ease-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) lessen in intensity, difficulty, or pain" type="">
+      <commentary>
+        Syntax Includes:
+         NP[agent] EASE NP[patient]
+         NP[patient] EASE
+        Includes: EASE UP, EASE OFF
+      </commentary>
+      <examples>
+        She eased the process of change by taking small steps that supported her needs.
+        You ease your conscience with recycled toilet paper once in a while.
+        Good conscience demands action to ease poverty.
+        Glucosamine consistently improved joint function and eased pain.
+
+        Under Bush, mine-safety enforcement eased.
+        I am really getting ahead in some projects and I feel the work load easing up.
+        We should ease up a bit on this issue because i think it is costing us elections.
+        Ease off the gas pedal!
+        It makes sense to ease off and back down. Conflicts not are worth the wasted time.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="ease_up" version="3.0">2,3</wn>
+         <wn lemma="ease_off" version="3.0">1,2</wn>
+         <omega/><pb>ease.02,ease.04</pb>
+         <vn>cheat-10.6-1,other_cos-45.4</vn><fn>Cure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="decrease in quantitative value" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Figures eased again, with average readings back to where they were last year.
+        Yoghurt prices eased a fraction in November but were still 1.5% higher than a year ago.
+        US dollars eased from 1.73 per cent on April 29 to 1.58 per cent on May 6.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>ease.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) move smoothly without hinderance or objection" type="">
+      <commentary>
+       Syntax Includes:
+        NP1 EASE PP{P NP2[location]}
+        NP1 EASE ONESELF PP{P NP[location]}
+      </commentary>
+      <examples>
+        She eased the key into the lock, anxious not to wake anyone.
+        He eased out the chair.
+        Chinese team eased into the quarter-finals of women's soccer.
+        We eased into position on the northern edge of the group and set the baits.
+        The ship steadily eased into the water and out of the outer harbor.
+        I found it very sad when Latin was gradually eased out of the school curriculum.
+        I pulled away and eased into the outer lane, swung around and pointed home.
+        The goblin story of his childhood eased into the back of his mind, ready to be retold.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>ease.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,vieweg,hwangd" sample_score="-"/>
+</inventory>

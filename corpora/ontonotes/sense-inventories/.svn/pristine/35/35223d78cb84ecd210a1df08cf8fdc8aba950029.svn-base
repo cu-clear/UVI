@@ -1,0 +1,131 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="press-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="apply pressure or force on, over, or through something" type="">  
+      <commentary>
+        Note: Includes only concrete uses including lifting weight.
+        Includes: PRESS OUT                  
+      </commentary>
+      <examples>
+        Press the button to start the machine.
+        He pressed his face against the window.
+        Can you press a bit harder on my shoulders, please?
+        The crowd pressed against the locked doors trying to get into the building.
+        Press down firmly on the lever.
+        The children pressed holes into the clay.
+        Try not to press the pen too hard on the paper.
+        As she said it she pressed the flowers into my hand.
+        Then, exert pressure downward to press the baby out of the uterus.
+        I also pressed the liquid out of the spinach before adding to mix.
+        The snow pressed down on the roof.
+        We pressed the grapes and then bottled wine.   
+        This guy can press 300 pounds!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5,6,7,11,13</wn>   
+         <wn lemma="press_down" version="3.0">1</wn>
+         <wn lemma="press_down_on" version="3.0">1</wn>
+         <wn lemma="press_out" version="3.0">1,2</wn>
+         <omega/><pb>press.01</pb>
+         <vn>push-12-1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="persuade or force someone into doing something" type="">
+      <commentary>
+        Includes: abstract uses only
+                   PRESS HOME, PRESS ON
+      </commentary>
+      <examples>
+        Don't press her to talk about it, and avoid triggering her further.
+        It pressed hard in the early 1990s to negotiate the UNFA.
+        The committee pressed him to reveal more information.
+        Can I press you further on.
+        All the children had sweets and presents pressed on them by the visitors.
+        He's been pressed to marry Carla.
+        They also pressed home the need for more commercial flexibility for farms.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,9,14</wn>
+         <wn lemma="press_home" version="3.0">1</wn>
+         <omega/><pb>press.01</pb>
+         <vn>force-59,urge-58.1</vn><fn>Attempt_suasion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="continue or move on; persevere on" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They pressed on, despite their severe exhaustion.
+        The government pressed ahead with its controversial overhaul of
+        mental health law.
+      </examples>
+      <mappings>
+         <wn lemma="press_on" version="3.0">1</wn>
+         <omega/><pb>press.02</pb>
+         <vn>NM</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(cause to) be a current burden or oppression" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Please consider the problem pressed on us.
+        The challenge pressed heavily on my conscience.
+        His failure pressed heavily on his mind as he stared at the river dejectedly. 
+        And then another reflection pressed on her mind sorely. 
+      </examples>
+      <mappings>
+         <wn version="3.0">3,8</wn>
+         <omega/><pb>press.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="bring petition, charges, or lawsuit for/against" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Advocates who pressed the suit declared victory Wednesday.
+        The family have decided not to press charges against him.
+        Once again he tried to press his case for promotion.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="make a record or CD" type="">
+      <commentary>
+        Includes: PRESS OUT
+      </commentary>
+      <examples>
+        Over 3000 copies of the CD were pressed and sent some out to college radio stations.
+        So the publishers pressed unreadable sectors onto their CDs. 
+        And with things like they are, many releases don't get pressed over 1000 copies.
+        This band has pressed two records out in five years.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="press_out" version="3.0">2</wn>
+         <omega/><pb>press.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="iron; make flat by applying pressure" type="">
+      <commentary>
+        Note: This is a specific meaning. This sense entails a resulting flatness
+        of the pressed item.
+      </commentary>
+      <examples>
+        We came back from our walk, and I pressed the flowers I collected.
+        Press your shirt! A wrinkled shirt will make a $1000 suit look like a $50 rag.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,12</wn>
+         <omega/><pb>press.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

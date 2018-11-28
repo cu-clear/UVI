@@ -1,0 +1,114 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fact-n">
+    <commentary>
+        12Jun08 - merged senses 1 and 3, revised features, examples, defs. ahouston
+        Includes idioms in_fact, facts_of_life
+    </commentary>
+    
+    <sense group="1" n="1" name="empirical data, information, relevant to a context" type="">
+        <commentary>
+            FACT[+information][+data][+evidence][+empirical]
+        </commentary>
+        <examples>
+            The architect gave us the facts and figures on the plans for the new library.
+            The tabloids contain many alleged facts about the romantic lives of movie stars.
+            The lawyers have been reviewing the facts of the case for weeks now.
+            The facts don't support John's belief in a perpetual motion machine.
+            This account of the general's life is not based on fact, but only conjecture and hearsay.
+            The fact that the earth goes around the sun was controversial in earlier times.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of reality versus fantasy or fiction" type="">
+        <commentary>
+            FACT[+state][+circumstance][+reality][-fictional]
+            Note: refers to a whole situation or state that is real, not a collection of supporting information (Sense 1)
+        </commentary>
+        <examples>
+            Space exploration is now a fact.
+            High infant mortality was a fact of life in medieval times.
+            He lacks the experience for the job and that's a fact. 
+            The fact that there will be layoffs next month has caused a lot of anxiety at work. (future state of affairs assumed to be certain to come about)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="DO NOT CHOOSE" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of a crime" type="">
+        <commentary>
+            FACT[+event][+crime]
+            Note: usage in police and legal investigations
+        </commentary>
+        <examples>
+            The prosecutor argued that the murderer had dragged the body into the kitchen after the fact.
+            She was considered an accessory after the fact.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="in truth" type="">
+        <commentary>
+            Idiom in_fact (a discourse parenthetical)
+        </commentary>
+        <examples>
+            In fact, John doesn't have any real friends.
+            The dissidents were, in fact, trying to overthrow their government.
+            Well, in fact, I was thinking exactly the same thing!
+            In point of fact, Mary wasn't his real aunt but just a close friend of the family.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="sexual reproduction" type="">
+        <commentary>
+            Idiom: sexual reproduction
+            Note: idiom is always in the plural
+        </commentary>
+        <examples>
+            Mary is trying to figure out when to tell her children the facts of life.
+            They are so sheltered that no one ever teaches them the facts of life.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="brokerage-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a firm engaged in negotiating contracts, as stocks or marriage" type="">
+        <commentary>
+            BROKERAGE[+enterprise][+business][+negotiator][+contract]
+            an intermediary
+            Note: can occur in the plural
+        </commentary>
+        <examples>
+            Bob worked for several different brokerage firms on Wall Street.
+            You'll need $50,000 to open a brokerage account with that house.
+            The two biggest commodity brokerages are merging into a single institution.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="the activity of negotiating contracts, acting as an intermediary" type="">
+        <commentary>
+            BROKERAGE[+activity][+business][+negotiation][+contract]
+            Note: does not occur naturally in the plural
+        </commentary>
+        <examples>
+            Their brokerage business slumped significantly during the recession.
+            That lady does a lot of marriage brokerage for young foreign professionals.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="the fee charged for negotiating a contract" type="">
+        <commentary>
+            BROKERAGE[+quantity][+fee][+service]
+        </commentary>
+        <examples>
+            The no-load funds have much smaller brokerage fees.
+            You will pay high brokerage fees at that full service firm.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="the workplace where brokering occurs" type="">
+        <commentary>
+            BROKERAGE[+relation][+role][+workplace]
+            Note: the focus is on the physical locale, rather than the activity or the legal status as an enterprise
+        </commentary>
+        <examples>
+            The brokerage was only six blocks from Mary's Manhattan apartment.
+            Several employees were injured when a bomb went off at a Chicago brokerage.
+            Bill enjoys walking into the beautiful foyer of his brokerage each morning.	
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

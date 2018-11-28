@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="worker-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="individual who does specific work" type="">
+        <commentary>
+            WORKER[+human][+specific]
+            of NP{+superordinate}/{+material}/{+activity}
+        </commentary>
+        <examples>
+            He is an amazing worker of glass.
+            The auto workers have gone on strike.
+            The company laid off ten steel workers yesterday.
+            The workers of John's painting business put in long hours in the summer.
+            Who is the hardest worker of our group?
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="generic member of a social class" type="">
+        <commentary>
+            WORKER[+human][+generic] 
+            of NP{+locative/+temporal}
+            usually appears in the plural form, does not reference a specific individual
+        </commentary>
+        <examples>
+            Workers of the world unite! 
+            She feels that workers in our society are exploited.
+            The modern worker has shorter hours and safer working conditions.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="sterile colony insect that cares for the young" type="">
+        <commentary>
+            WORKER[+insect][-fertile]
+        </commentary>
+        <examples>
+            The workers of that bee colony take honey to the larvae.
+            The lives of the workers will be sacrificed to save the queen bee.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

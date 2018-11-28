@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="collaborate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="work together on a common enterprise" type="">
+      <commentary>
+       Syntax Is:
+        NP1[actor] COLLABORATE NP2[actor] 
+        Includes: COLLABORATE ON
+      </commentary>
+      <examples>
+        She collaborated with the Welsh illustrator Llewellyn on her last children's book.
+        Students often collaborated on projects outside the classroom.
+        They collaborated on their first song in 1978.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>collaborate.01</pb>
+         <vn>correspond-36.1,cooperate-73-1</vn>
+         <fn>Collaboration</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cooperate as a traitor" type="">
+      <commentary>
+       Syntax Is: 
+        NP1[actor] COLLABORATE NP2[actor]
+       Includes: COLLABORATE WITH
+      </commentary>
+      <examples>
+        He refused to say whether he had collaborated with the communist-era secret services.
+        Vichy actively collaborated with the Nazis.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>conspire-71</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

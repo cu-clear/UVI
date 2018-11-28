@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="twang-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause taut strings to make a twanging sound and motion" type="">  
+      <commentary>
+      Includes TWANG_OUT, TWANG_OFF, and TWANG_AWAY
+      Syntax includes:
+      NP1[agent[animate]] TWANG NP2[theme] (PP[instrument])
+      NP1[agent[animate]] TWANG PP[theme] (PP[instrument])
+      NP1[theme] TWANG
+      NP1[agent[animate]] TWANG (AWAY) PP[theme]
+      NP1[agent[animate]] TWANG (OUT) PP[theme|topic]
+      NP1[agent[animate]] TWANG (OFF) PP[theme|topic]
+      </commentary>
+      <examples>
+      He twanged the guitar string.
+      He twanged his bow.
+      Hooker's first instrument was an old inner tube hooked over a door frame, which he twanged on.
+      Johnson's playing sounded as if he was twanging barbed wire with a six-inch nail.
+      The bowstring was twanging.
+      The Turanian bow twanged.
+      He twanged away on his vast assortment of Gretsch guitars.
+      He twanged off a lay.
+      He twanged out the number's sturdy riff.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>twang.01,twang.02</pb>
+         <vn>sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="produce a twanging sound (something other than a taut string)" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] TWANG NP2[theme] (PP[location])
+      NP1[theme] TWANG (PP[location])
+      </commentary>
+      <examples>
+      Sir Humphrey's younger brother twanged an arrow through the window.
+      A bullet twanged through the air just inches from his head.
+      Bard's black arrow twanged through the air.
+      Suddenly a bee twanged through the air to a snowdrop on the south side of the Red Brick House.
+      The steel blade, glowing a faint blue, twanged through the air as Lyon brought it upwards.
+      Sweet docile music in Hindi tinkled and twanged through the air above us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>twang.02</pb>
+         <vn>sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="twitch or throb with pain" type="">
+      <commentary>
+      Syntax includes:
+      NP1[experiencer] TWANG NP2[patient[body_part|reflexive]]
+      NP2[patient[body_part]] TWANG (PP[cause])
+      NP1[cause] TWANG NP2[patient[body_part]]
+      </commentary>
+      <examples>
+      He twanged his calf a couple games ago.
+      My own calf muscle twanged a few weeks ago.
+      Every muscle twanged brutally as she shifted.
+      She had twanged a muscle turning over in bed.
+      Suddenly, misgivings twanged her stomach.
+      My stomach twanged with the unfamiliar weight of the chicken dinner.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>twang.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="pronounce with a nasal twang" type="">
+      <commentary>
+      Includes TWANG_OUT
+      Syntax includes:
+      NP1[agent[animate]] TWANG 
+      NP1[agent[animate]] TWANG NP2[topic] (PP[recipient])
+      NP1[agent[animate]] TWANG NP2[theme]
+      </commentary>
+      <examples>
+      Bush twangs while New Orleans sinks.
+      In his best western accent he twanged the words to the song.
+      He twanged out some trivial expressions.
+      He twanged out thoughts and music in a singing-song East Texas accent.
+      She was twanging a Swedish patois.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>twang.04</pb>
+         <vn>manner_speaking-37.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

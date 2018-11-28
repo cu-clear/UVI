@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="shine-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Emit light; be bright, as of the sun or a
+   light; touch with light." type="">  
+      <commentary>
+      Syntax is: NP1 (Source) SHINE (PP)
+      </commentary>
+      <examples>
+      The sun shone bright that day.
+      Light shone on her face.
+      The sun shone on the fields.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,8</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shine.01</pb>
+         <vn>light_emission-43.1</vn><fn>Light_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be shiny, as if wet; be bright by
+         reflecting or casting light; be distinguished or obvious, as if bright." type="">
+      <commentary>
+      Syntax is: NP1 (Source) SHINE 
+      INCLUDES: SHINE THROUGH
+      </commentary>
+      <examples>
+      His eyes were shining.
+      His talent shines.
+      He shines as an example.
+      His wife made him shine in the gossip columns with her profligate
+      spending habits.
+      While the merits of diversification shine through when times are
+      tough, there's also a price to pay.
+      Her face shown when she came out of the sauna. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4,5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shine.01,shine.02</pb>
+         <vn>light_emission-43.1</vn><fn>Location_of_light</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Throw or flash the light of (a lamp)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Shine the light on that window, please.
+      We have to shine a bright light on politicians these days.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shine.01</pb>
+         <vn>NM</vn><fn>Light_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Experience a feeling of well-being or
+         happiness, as from good health or an intense emotion." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She was shining with joy.
+      Her face shown with happiness.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Make a surface shine." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Shine the silver, please.
+      Shine my shoes!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="SHINE AT: Be good at." type="">
+      <commentary>
+      IS: SHINE AT
+      </commentary>
+      <examples>
+      She shines at math.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="shine_at" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="SHINE UP: Ingratiate oneself to, often with
+         insincere behavior." type="">
+      <commentary>
+      IS: SHINE UP
+      </commentary>
+      <examples>
+      She is shining up to the chairman.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="shine_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

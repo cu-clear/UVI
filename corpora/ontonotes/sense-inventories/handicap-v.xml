@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="handicap-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="injure permanently" type="">  
+      <commentary>
+        Syntax Is: NP1 HANDICAP NP2
+      </commentary>
+      <examples>
+        He was handicapped in a car accident.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hamper" type="">
+      <commentary>
+        Syntax Is: NP1 HANDICAP NP2
+      </commentary>
+      <examples>
+        Richardson felt Diem's loyalty to family was handicapping him.
+        It certainly looked as though a thumb injury was handicapping him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>handicap.01</pb>
+         <vn>NP</vn><fn>Hindering</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="attempt to forecast the winner (especially of a horse race)" type="">
+      <commentary>
+        Syntax Is: NP1 HANDICAP NP2
+      </commentary>
+      <examples>
+        There are no inherently "correct" ways to handicap horses.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

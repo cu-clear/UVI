@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="evoke-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Call forth or call to mind; provoke or summon" type="">  
+      <commentary>
+      Syntax Is: NP1 EVOKE NP2
+      </commentary>
+      <examples>
+      His remarks evoked sympathy for the administration.
+      Grandmother's stories always evoke a kind of sadness.
+      His tale evoked the image of Paul Bunyan standing among the trees. 
+      Future Presidents will be more hesitant to evoke a principle of
+      prerogative like executive privilege.
+      Evoke the deity who you wish to work with, and petition him or her
+      with your need.
+      England attempted to evoke its own Golden Age.
+      Phosphorylation-dependent and -independent functions of p130
+      cooperate to evoke a sustained G1 block.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>evoke.01</pb>
+         <vn>NP</vn><fn>Evoking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Deduce a principle or construe a meaning." type="">
+      <commentary>
+      INCLUDES: EVOKE FROM
+      Syntax Includes: NP1 EVOKE FROM NP2
+      </commentary>
+      <examples>
+      This model addresses the experiences older adults evoke from their
+      social world by considering age variability in the types of
+      relationships people have.
+      I evoked a degree of clarity from the text toward the end of the novel.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

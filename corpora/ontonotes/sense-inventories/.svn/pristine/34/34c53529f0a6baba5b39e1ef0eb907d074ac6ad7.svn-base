@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cup-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Form into the shape of a cup." type="">  
+      <commentary>
+      Syntax Includes: 
+      NP1[agent[animate]] CUP NP2[patient]
+      NP1[agent[animate]] CUP NP2[theme]
+      </commentary>
+      <examples>
+      He cupped his hands.
+      The monkey cups her hands. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cup.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Put into an object the shape of a cup." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He cupped her jaw, his thumb tracing her cheek.
+      Cup some orange juice for the children.
+      When he cupped his bad ear, he could hear better.
+      She cupped the puppy in her hands.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cup.02</pb>
+         <vn>pocket-9.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Use evacuated cups for medical purposes." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Doctors often cup celebrities as a form of detoxification.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

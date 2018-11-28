@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="swim-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Travel (as if) through water." type="">  
+      <commentary>
+        Syntax is: NP1[animate] SWIM PP[direction] NP2
+                   NP1[animate] SWIM PP[location] NP2
+        NOTE: Includes metaphorical uses where the 'liquid' is [abstract]
+        a mass noun that's not a liquid (as in example 3 and 4).
+      </commentary>
+      <examples>
+      He swam to the island.
+      We had to swim for twenty minutes to reach the shore. 
+      A big fish was swimming in the tank.
+      We were swimming through mounds of paperwork.
+      She was swimming in admiration. 
+      The bacteria swim through the blood stream and eventually reach the heart.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>swim.01</pb>
+         <vn>run-51.3.2-1,swarm-47.5.1-1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be afloat, stay on or in a liquid surface." type="">
+      <commentary>
+      Syntax is: NP1[inamimate] SWIM (PP NP2[concrete])
+                 NP1[theme} SWIM (PP NP2[concrete])
+      NOTE: Includes metaphorical uses.
+      NOTE: Object swimming is inanimate.
+      </commentary>
+      <examples>
+      Who knows whether the plan will sink or swim.
+      Ice cubes swim on the surface of water. 
+      Metal pieces were swimming around in my drink. 
+      The steak was swimming in thick brown gravy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="Feel dizzy or be confused; have confused, rapid thoughts." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      My head was swimming from the booze.
+      His head was swimming with new ideas. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>swim.02</pb>
+         <vn>tingle-40.8.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

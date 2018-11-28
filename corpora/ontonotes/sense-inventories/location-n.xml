@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="location-n">
+    <commentary>
+        9nov06 update to wn2.1, added features, changed examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a spot, a point or region in space" type="">
+        <commentary>
+            LOCATION[+extent][+spatial][+point/+region]
+            a point or extent in space
+        </commentary>
+        <examples>
+            Two electrons cannot be in the same location at the same time.
+            Across from the bank would be a good location for our store.
+            The movie was filmed entirely on location. 
+            The restaurant probably closed because it was not in a convenient location.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the action of placing or situating an object" type="">
+        <commentary>
+            LOCATION[+action][+situate][+object]
+            locating, position, positioning, emplacement -
+            the act of putting something in a certain place or location
+            Note: implies an agent or actor determines where the object goes, does not just discover where the object is - see Sense 3 for that meaning.
+        </commentary>
+        <examples>
+            THeir location of the new housing next to the library annoyed many townspeople.
+            Mary's location of the shelves next to the window blocks out too much light.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the act of determining or discovering the position of an object" type="">
+        <commentary>
+            LOCATION[+action][+discover][+coordinates][+spatial][+object]
+            a determination of the location of something
+            Note: implies the object is already at a location, not put there - see Sense 2 for that meaning
+        </commentary>
+        <examples>
+            He got a good location on the target.
+            Their location of the signal indicates that it comes from deep space, not our galaxy.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="partition-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="office divider" type="">
+        <commentary>
+            partition divider - 
+            a vertical structure that divides or separates
+        </commentary>
+        <examples>
+            Suzy tripped and knocked over all the partitions like dominoes.
+            George had to stand on his desk to see over the partition.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="dividing" type="Event">
+        <commentary>
+	    PARTITION[+event]
+	    division, partition, partitioning, segmentation, sectionalization,
+	    sectionalisation -
+	    the act of dividing or partitioning; separation by the creation of a
+	    boundary that divides or keeps apart
+	    </commentary>
+        <examples>
+            The partition of the office was done over the weekend.
+            The partition of the bedroom kept the roommates from fighting.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="piece of hard disk" type="Computer Science">
+        <commentary>
+            the part of a hard disk that is dedicated to a particular operating 
+            system or application and accessed as a single unit
+        </commentary>
+        <examples>
+            The other partition has the file you're looking for.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

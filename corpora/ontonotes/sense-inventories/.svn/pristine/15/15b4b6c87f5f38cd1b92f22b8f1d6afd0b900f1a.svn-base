@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="enjoy-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="relish, savor, delight in" type="">  
+      <commentary>
+	Syntax Is: NP1[experiencer] ENJOY NP2[stimulus]
+	Note: subject is a sentient being, ??the lawn chairs don't enjoy being left out in the rain?? (very metaphoric)
+      </commentary>
+      <examples> 
+	The dogs enjoyed running along the beach.
+	Who enjoys hanging around airports?
+	John enjoys a glass of wine with dinner.
+	The country enjoyed watching its athletes win medals.
+	We didn't enjoy the movie last night.
+	Those engineers enjoy a good challenge.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>enjoy.01</pb>
+         <vn>admire-31.2-1</vn><fn>Experiencer_subj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="derive benefit from" type="">  
+      <commentary>
+	Syntax Is: NP1[beneficiary] ENJOY NP2
+	Note: The subject need not be sentient, 'enjoy' is not an experience but a state of affairs
+      </commentary>
+      <examples>
+	The nation has enjoyed low inflation for many years.
+	These industries may no longer enjoy such high profit margins as before.
+	Mary will no longer enjoy special privileges at the science museum.
+	My manual gear shift did not enjoy my teenaged son's rough handling.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>enjoy.01</pb>
+         <vn>want-32.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

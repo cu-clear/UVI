@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="injury-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="physical harm, damage, a wound" type="Event">
+        <commentary>
+            INJURY[+state][+physical][+damage][+bodily]
+            Note: refers to harm of a living being, not an inanimate object
+        </commentary>
+        <examples>
+            They escaped the car crash without injury.
+            These medical units can treat injuries right on the battlefield.
+            Mary got an injury to her back when she fell on the ice.
+            The horse was treated for an injury to its hind leg.
+            This law firm deals with personal injury in the workplace. (physical harm)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,3</wn>
+            <omega/><pb>injury.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of harming or hurting someone" type="Event">
+        <commentary>
+            INJURY[+event][+act][+harmful]
+            Note: X's injury of Y -&gt; X injured Y (nominalization)
+        </commentary>
+        <examples>
+            John's injury of her feelings by that remark was not intentional.
+            The boxer's injury of his opponent ended the match.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>injury.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the violation of one's rights for which there is legal recourse" type="Event">
+        <commentary>
+            INJURY[+event][+outcome][+violation][+of_rights][+with_recourse][+legal]
+        </commentary>
+        <examples>
+            He is suing his former company for injuries related to patent infringements.
+            This law can only partially make up for the injuries done to their rights as citizens.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

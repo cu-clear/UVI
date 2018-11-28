@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wail-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Emit cries as a communicative effort." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[animate]] WAIL (NP2[topic])
+      </commentary>
+      <examples>
+      My friends all wailed in self-pity.
+      I wailed with sorrow.
+      The dog wailed.
+      The representative wailed about the regulations.
+      She wailed with pain.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wail.01</pb>
+         <vn>animal_sounds-38,manner_speaking-37.3,sound_emission-43.2</vn><fn>Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make noise." type="">
+      <commentary>
+      Syntax Is: NP1[agent[inanimate]] WAIL
+      </commentary>
+      <examples>
+      The car wailed as the ignition finally kicked in.
+      The washing machine wails continuously.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>sound_emission-43.2</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

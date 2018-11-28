@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="train-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a set of connected railroad cars" type="">
+        <commentary>
+            TRAIN[+collection][+artifact][+railcars][+connected]
+        </commentary>
+        <examples>
+            We had to wait for a slow freight train at the crossing.
+            Mary took the train to New York.
+            The trains are on strike today in Italy.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a sequence of events" type="Event">
+        <commentary>
+            TRAIN[+event][+collection][+sequenced]
+        </commentary>
+        <examples>
+            They had a train of disasters at the factory last month.
+            His train of thought led him to the conclusion that black holes have entropy.
+            I lost my train of thought when the phone rang.
+            You may be setting in motion a train of events that will cause harm to the negotiations.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a moving line of transport animals, a caravan" type="">
+        <commentary>
+            TRAIN[+collection][+animal][+transporting][+moving][+caravan]
+        </commentary>
+        <examples>
+            They shipped the borax out of the desert by mule train.
+            Trains of camels and horses carried products of trade all along the ancient Silk Road.
+            The wagon train formed a circle at night, for protection.  (animals pulling wagons)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a long trailing piece of fabric attached to a gown" type="">
+        <commentary>
+            TRAIN[+entity][+artifact][+fabric][+long][+trailing][+attached][+to_gown]
+        </commentary>
+        <examples>
+            The bride's gown had a 20-foot train of pure silk.
+            The princess picked up the train of her gown in one hand and rushed down the stairs.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="set of rotating gears that transmit force" type="">
+        <commentary>
+            TRAIN[+collection][+artifact][+gear][+rotating][+for_transmission][+of_force]
+        </commentary>
+        <examples>
+            The mechanic examined the machine's train of gears for damage.
+            The assistant caught his long hair in the gear train. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a retinue of attendants to an important person" type="">
+        <commentary>
+            TRAIN[+collection][+people][+attendant][+retinue]
+        </commentary>
+        <examples>
+            The queen was followed by a train of ladies in waiting.
+            A train of lackeys rushed about, readying the room for the emperor's appearance.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

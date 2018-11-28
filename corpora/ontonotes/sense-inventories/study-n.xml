@@ -1,0 +1,138 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="study-n">
+    <commentary>
+        Revisions of examples, definitions, commentary by ahouston.
+    </commentary>
+    <sense group="1" n="1" name="a specific inquiry or investigation" type="Event">
+        <commentary>
+	    STUDY[+event][+activity][+inquiry][+specific]
+	    A specific inquiry, often with a time duration local to the present.
+	    Note: usually (always?) in the singular, plural sounds marked.
+	    </commentary>
+        <examples>
+            Detective John's study of the crime scene revealed no important clues.
+            After a quick study of her test results, the doctor determined that Sally was anemic.
+            Their accident report will require a careful study of the aircraft's  maintenance history.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>study.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the acquisition of knowledge" type="">
+        <commentary>
+	    STUDY[+event][+activity][+acquisition][+knowledge]
+	    The act of acquiring knowledge through directed mental effort, reading, analyzing, writing
+	    </commentary>
+        <examples>
+            Mastering a second language requires a lot of study.
+            John needs to improve his study habits to get through all the material in that biochemistry course.
+            I hope your studies at school are going well.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>study.02,study.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="finding or set of results, often published and scholarly" type="Event">
+        <commentary>
+            STUDY[+finding][+scholarly][+report/+experiment/+article]
+            A finding, often written, that describes the results of some inquiry, e.g. scientific or medical.
+            Note: occurs unmarked in both singular and plural
+        </commentary>
+        <examples>
+            My data is consistent with the 1998 study by Hill that documented drug abuse in minors.
+            That new study on the health benefits of seaweed is not yet published.
+            His studies of cold fusion could not be replicated by other scientists.
+            Studies show that eating chocolate and drinking wine are good for you.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>study.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="contemplation, deliberation" type="Event">
+        <commentary>
+            STUDY[+activity][+contemplation][+reflection]
+            Cogitation, deep thought, or meditation.  
+            Note: only occurs in the singular
+            Note: differs from Sense 1, no search to an unknown, but an assessment of what is right before one.
+        </commentary>
+        <examples>
+            Mary's face indicated her deep study of the Rembrandt painting in front of her.
+            Give this proposal some study tonight and get back to me tomorrow.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="a room for literary or scholarly pursuits" type="Entity">
+        <commentary>
+            STUDY[+building][+room][+scholarly]
+            A room typically used for reading, writing, and studying.
+        </commentary>
+        <examples>
+            Professor Plum was murdered in the study-- but who murdered him, and with what weapon?
+            I knocked lightly on the door of the study.
+            The walls of his study are lined with bookshelves. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="the general pursuit of a discipline or body of knowledge" type="Event">
+        <commentary>
+            STUDY[+inquiry][+general][+domain][+knowledge]
+            Note: unmarked is the singular, rare (never?) occurs in the plural
+            Note: Does -NOT- imply a specific time duration of the inquiry, this is different from Sense 1
+        </commentary>
+        <examples>
+            Anthropology is the study of human beings.
+            Teachers should be highly knowledgeable in their field of study.
+            The study of how cancer cells metastasize has been evolving radically in recent years. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>study.02,study.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="artistic practice in the form of a sketch, drawing or musical composition" type="Abstraction">
+        <commentary>
+            STUDY[+composition][+artistic][+practice]
+            Note: occurs unmarked (naturally) in the plural and singular
+        </commentary>
+        <examples>
+            I love these early pencil studies of Van Gogh.
+            The sculptor made several studies in clay before casting the form in bronze.
+            He wrote a beautiful little Baroque counterpoint study.
+        </examples>
+        <mappings>
+            <wn version="3.0">7,10</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="a person who memorizes or learns quickly" type="Abstraction">
+        <commentary>
+            STUDY[+person][+learner][+rapid]
+        </commentary>
+        <examples>
+            Management has been observing what a quick study Bill is on the new project.
+            Bob really puts time in on his drama roles, because he is not a quick study.
+            You need to be a quick study with that orchestra because they play new repertoire on short notice.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

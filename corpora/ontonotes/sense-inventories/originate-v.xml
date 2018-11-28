@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="originate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="come into existence; begin" type="">
+      <commentary>
+        Syntax Is: NP1 ORIGINATE (PP)
+      </commentary>
+      <examples>
+        All one need know about this article is that it originated with the Weekly World News.
+        Where did the game of chess originate?
+        The river originates in Minnesota and eventually joins the Mississippi.
+        My flight originates in Cleveland.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="originate_in" version="3.0">1</wn>
+         <omega/><pb>originate.01</pb>
+         <vn>NP</vn>
+         <fn>Origin</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to come into existence; create" type="">
+      <commentary>
+      Syntax Is: NP1[agent] ORIGINATE NP2[patient] 
+      </commentary>
+      <examples>
+        She originated and spearheaded a successful campaign.
+        MRP Capital announced that it originated a 2m dollar loan for the 
+           acquisition of Crystal River Restaurant.
+        She originated the part of Callie in the world premiere of Tracey.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <omega/><pb>originate.01</pb>
+         <vn>NP</vn>
+         <fn>Achieving_first</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

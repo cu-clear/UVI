@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cloister-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Surround a garden." type="">  
+      <commentary>
+      Note: Thing surrounded must be a garden.
+      </commentary>
+      <examples>
+      We should cloister the garden.
+      Monks cloistered the gardens.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>concealment-16,pocket-9.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Seclude from the world." type="">
+      <commentary>
+      Note: Thing secluded is often a person.
+      </commentary>
+      <examples>
+      She cloistered herself in the office.
+      He cloisters his daughter from unworthy men.
+      He cloistered himself from all experience.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cloister.01</pb>
+         <vn>concealment-16,pocket-9.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

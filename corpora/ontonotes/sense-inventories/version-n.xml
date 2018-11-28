@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="version-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an interpretation, an account or reading of an event or situation" type="">
+        <commentary>
+            VERSION[+activity][+statement][+interpretation]
+            Note: in the context of art, implies same language, same art form, but different style
+            Note: does not imply the existence of a sequence of variants (see Sense 2)
+        </commentary>
+        <examples>
+            He told the police his version of what happened that night.
+            Their two versions of the accident don't seem to match up very well.
+            Have you ever heard Jimi Hendrix's version of the Star-Spangled Banner? (figurative extension)
+            Mary dislikes that stage director's post-modern versions of Shakespeare's plays. (interpretation)
+            John did his version of a used car salesman for us at the party.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="variant or variation of something" type="">
+        <commentary>
+            VERSION[+opus][+variant][+sequenced]
+            Note: often implies a sequence of such incremental variants, modified over time.
+        </commentary>
+        <examples>
+            I was able to retrieve an earlier version of my file from a backup tape.
+            CVS is a software tool that helps maintain version control of files in a distributed environment.
+            In one version of that joke, the three guys in the bar are a musician, a doctor and a minister.
+            You need to download a newer version of your browser.
+            This is a condensed version of the original full length novel.  (same opus just shortened)
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an adaptation of an opus to a different form" type="">
+        <commentary>
+            VERSION[+opus][+adaptation][+form][+art]
+            Note: implies the source and target are different art forms.
+        </commentary>
+        <examples>
+            The film version of that bestseller didn't do well at the box office.
+            Tchaikovsky's Swan Lake is a ballet version of a classic fairy tale.
+            It would be very difficult to do a video game version of that movie.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the translation of an opus from one language to another" type="">
+        <commentary>
+            VERSION[+opus][+translation][+linguistic]
+            Note: implies a source language and a target language into which the opus was translated
+            Note: implies both source and target are the same art form, different from Sense 3
+        </commentary>
+        <examples>
+            An English version of this Russian novel will be available next year.
+            Does this version of the Japanese film have English subtitles or dubbing?
+            Many critics think this is the best English version of the Iliad.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the state of having one's organ in an abnormal position" type="">
+        <commentary>
+            VERSION[+state][+abnormal][+position][+organ]
+            Note: usually refers to the position of the uterus.
+        </commentary>
+        <examples>
+            The doctor determined that the woman had a version of the uterus.
+        </examples>
+        <mappings>
+            <wn version="MW online">4a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the medical procedure of manually turning the uterus" type="">
+        <commentary>
+            VERSION[+activity][+physical][+procedure][+medical][+turning][+uterus]
+        </commentary>
+        <examples>
+            External cephalic version is a method to turn an embryo from a breech to a normal position in utero. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

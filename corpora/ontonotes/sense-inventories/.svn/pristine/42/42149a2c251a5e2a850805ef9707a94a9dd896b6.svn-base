@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="specify-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="clarify or state something in detail" type="">  
+      <commentary>
+        Syntax is: NP1 SPECIFY NP2
+      </commentary>
+      <examples>
+        The peace treaty clearly specifies the terms for the withdrawal of troops.
+        He said we should meet but didn't specify a time.
+        Could you please specify your criticism of my paper?
+        The rules specify that pets cannot be kept here.
+        The newspaper report did not specify how the men were killed.
+        My contract specifies that I must give a month's notice if I leave my job.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,5,7</wn>
+         <omega/><pb>specify.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause or bring about" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This gene specifies the synthesis of a single protein.
+        The equations specify the processes used in the metric setting.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <omega/><pb>specify.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

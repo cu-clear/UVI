@@ -1,0 +1,412 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="go-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) move, travel, proceed; depart" type="">
+      <commentary>
+        Note: Compare to sense 2. This sense can include agents as
+        subjects, while the subject in sense 2 cannot be an agent.
+        Syntax Includes:
+        NP1[+agent|+theme] GO (COMP[non-finite]) (ADVP) (PP)
+        Includes: GO ACROSS, GO AGAINST, GO AFTER, GO AHEAD, GO ALONG, GO A
+        LONG WAY, GO AROUND, GO AWAY, GO BACK, GO BY, GO DOWN ON, GO FAR, GO FOR, GO FORTH, GO FORWARD, GO HOME, GO IN, GO INTO, GO OFF, GO ON, GO OVER, GO PAST, GO PLACES, GO THROUGH, GO TO BED, GO TO WAR, GO UNDER, GO UP
+      </commentary>
+      <examples>
+         I went to Oslo via Frankfurt.
+         Go to their website to register for that conference.
+         The train was going over seventy mph when it jumped the track.
+         I couldn't go any further with that concept.
+         Don't go against our customs.
+         Are we going to war?
+         Is it my turn to go?
+         You have to go after your dreams.
+         You have to go for your dreams.
+         Go ahead with your plans.
+         He went along with the burglars for the moment.
+         Could you go back to that last example?
+         She went under a couple of times before the lifeguard pulled her
+         out of the water.
+         Keep trying, and you'll go a long way.
+         That goes a long way to explaining his strange behavior this week.
+         I think it's fair to say that he's going places as an architect.
+         The old woman went over the side without a sound.
+         Tomorrow, I have to go at 7 a.m. or I'll miss my train.
+         Go away before I start to cry.
+         The regiment went forth at dawn.
+         He went off with his best friend's wife.
+         She went out of the room.  
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,14,16,20,21,25</wn>
+         <wn lemma="go_across" version="3.0">1</wn>
+         <wn lemma="go_against" version="3.0">1,2,3</wn>
+         <wn lemma="go_after" version="3.0">1,2</wn>
+         <wn lemma="go_ahead" version="3.0">1</wn>
+         <wn lemma="go_along" version="3.0">1,2,3</wn>
+         <wn lemma="go_a_long_way" version="3.0">1</wn>
+         <wn lemma="go_around" version="3.0">3,5</wn>
+         <wn lemma="go_away" version="3.0">1,2,3,4</wn>
+         <wn lemma="go_back" version="3.0">2,3</wn>
+         <wn lemma="go_by" version="3.0">1,2</wn>
+         <wn lemma="go_deep" version="3.0">1</wn>
+         <wn lemma="go_down_on" version="3.0">1</wn>
+         <wn lemma="go_far" version="3.0">1,2</wn>
+         <wn lemma="go_for" version="3.0">3,4,5</wn>
+         <wn lemma="go_forth" version="3.0">1,2</wn> 
+         <wn lemma="go_forward" version="3.0">1</wn>
+         <wn lemma="go_home" version="3.0">1</wn>
+         <wn lemma="go_in" version="3.0">1</wn>
+         <wn lemma="go_into" version="3.0">1,2</wn>
+         <wn lemma="go_off" version="3.0">1</wn> 
+         <wn lemma="go_on" version="3.0">3</wn>
+         <wn lemma="go_out" version="3.0">1,2,3,5</wn>
+         <wn lemma="go_over" version="3.0">4</wn>
+         <wn lemma="go_past" version="3.0">1,2</wn>
+         <wn lemma="go_to_bed" version="3.0">1</wn>
+         <wn lemma="go_to_war" version="3.0">1</wn>
+         <wn lemma="go_under" version="3.0">1,2</wn>
+         <wn lemma="go_up" version="3.0">1,2,3,5,7</wn>
+         <omega/><pb>go.01,go.02,go.06,go.15,go.17</pb>
+         <vn>escape-51.1</vn><fn>Motion,Process_continue</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="depart" type="">
+      <commentary>
+        Note: Concrete or abstract.
+        Syntax Includes: NP1[+theme] GO (PP[concrete|abstract])
+        Includes: GO AROUND, GO BACK, GO DEEP, GO DOWN, GO OUT, GO UP
+      </commentary>
+      <examples>
+         These ugly billboards have to go!
+         My respect for you went long ago.
+         Her free time went to fixing up the house.
+         All my money went for food and rent.         
+         Go-go boots went out of style in the 1960s.
+         All his plans just went up in smoke.
+         This road went through Mitford Lake.
+         A terrible thought went through his mind.
+         His speech went through five drafts before he gave it.
+         That rumor has been going around the office for days.
+         His accomplishments go deep.
+         The temperature is going down.
+         The outskirts of town now go well beyond the main highway.
+         The records went back to 1922.
+         This belt doesn't go around my waist.
+         Do we have enough pie to go around?
+     </examples>
+      <mappings>
+         <wn version="3.0">5,7,9,13,25,28</wn>
+         <wn lemma="go_around" version="3.0">1,2,4</wn>
+         <wn lemma="go_back" version="3.0">1</wn>
+         <wn lemma="go_deep" version="3.0">1</wn>
+         <wn lemma="go_down" version="3.0">1,2,3,7</wn>  
+         <wn lemma="go_out" version="3.0">5</wn>
+         <wn lemma="go_up" version="3.0">6</wn>
+         <omega/><pb>go.01</pb>
+         <vn>meander-47.7</vn><fn>Motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="die, cease to function" type="">
+      <commentary>
+        Includes: GO DOWN, GO OFF, GO OUT
+      </commentary>
+      <examples>
+         He went peacefully in his sleep.
+         My old Volvo is going.
+         The system goes down at least once a week.
+         The power went off around midnight, and all the lights went out.      
+      </examples>
+      <mappings>
+         <wn version="3.0">17,30</wn>
+         <wn lemma="go_down" version="3.0">8</wn>
+         <wn lemma="go_off" version="3.0">4</wn>
+         <wn lemma="go_out" version="3.0">4</wn>
+         <omega/><pb>go.18</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="change to or continue in a certain state" type="">
+      <commentary>
+        Includes: GO BAD, GO BALLISTIC, GO BY, GO TO BED, GO TO
+        PIECES, GO TO POT, GO TO SLEEP, GO TO THE DOGS, GO WRONG
+      </commentary>
+      <examples>
+         His face went red at the remark.
+         What went wrong?
+         That meat has gone bad.
+         Their children are going hungry.
+         He always went barefoot in the summer.
+         How long can a person go without water?
+         This violinist is as good as Juillard-trained violinists go.
+         She goes by her maiden name since she got divorced.
+         She goes under the alias 'Elizabeth Windisch'.
+         Everything started out so well, but then it all went wrong!
+         Spam makes me go ballistic.
+         When her husband died, she just went to pieces.
+         He's really gone to pot: gotten fat, doesn't shave, and his
+         clothes are a mess.
+         This restaurant used to be so good, but now it's really gone to
+         the dogs.
+         At the end of some days, I can't wait to go to sleep.
+         I usually go to bed a midnight.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,10,15,17,19,30</wn>
+         <wn lemma="go_bad" version="3.0">1,2</wn>
+         <wn lemma="go_ballistic" version="3.0">1</wn>
+         <wn lemma="go_by" version="3.0">3,4</wn>
+         <wn lemma="go_to_bed" version="3.0">1</wn>
+         <wn lemma="go_to_pieces" version="3.0">1</wn>
+         <wn lemma="go_to_pot" version="3.0">1</wn>
+         <wn lemma="go_to_sleep" version="3.0">1</wn>
+         <wn lemma="go_to_the_dogs" version="3.0">1</wn>
+         <wn lemma="go_wrong" version="3.0">1</wn>
+         <omega/><pb>go.08</pb>
+         <vn>become-109.1</vn><fn>Becoming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="happen" type="">
+      <commentary>
+        Includes: GO OFF, GO ON, GO OVER
+      </commentary>
+      <examples>
+         The interview went well.
+         How is it going?
+         What is going on?
+         How did your speech go off?
+         How did your talk go over?
+      </examples>
+      <mappings>
+         <wn version="3.0">8,16</wn>
+         <wn lemma="go_off" version="3.0">5</wn>
+         <wn lemma="go_on" version="3.0">2</wn>
+         <wn lemma="go_over" version="3.0">2</wn>
+         <omega/><pb>go.15,go.30</pb>
+         <vn>occurrence-48.3.1-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="say or have the (sound) sequence of" type="">
+      <commentary>
+        Includes: GO ON, LIKE
+      </commentary>
+      <examples>
+         The train goes 'toot toot' and the car goes 'beep beep.'
+         Then he goes 'oh yeah?' and I go 'yeah.'
+         How does that saying go?
+         So my plan goes like this: First, you run around back. . . .
+         Sorry I interupted; please go on.
+         He murdered his wife, as the story goes.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,11,23</wn>
+         <wn lemma="go_on" version="3.0">4</wn>
+         <omega/><pb>go.23,go.25</pb>
+         <vn>say-37.7</vn><fn>Speak_on_topic</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="be on the point of; be intending to" type="">
+      <commentary>
+        Syntax Is: NP1 GO COMP[-finite]
+        Note: Acts much like an auxiliary verb expressing future tense.
+      </commentary>
+      <examples>
+        It's going to rain.
+        I'm going to read that book on vacation.
+        Your invention is going to change the way we heat our homes.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>go.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="belong, fit" type="">
+      <commentary>
+        Includes: GO IN
+      </commentary>
+      <examples>
+         These dishes go in the butler's pantry.
+         That film should go in the top ten films of all time.
+         My feet won't go in these boots.
+         How many times does 18 go into 54?         
+      </examples>
+      <mappings>
+         <wn version="3.0">18,22,26</wn>
+         <omega/><pb>NM</pb>
+         <vn>fit-54.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="attend" type="">
+      <commentary>
+        Includes: GO TO
+      </commentary>
+      <examples>
+        She went to the University of Michigan back in fifties.
+        He goes to the Baptist church.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="go_to" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>attend-107.3-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="function, operate" type="">
+      <commentary>
+        Includes: GO ON
+      </commentary>
+      <examples>
+         My old Volvo is still going.
+         I can't get the dishwasher to go.
+         For some reason the radio went on all by itself.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <wn lemma="go_on" version="3.0">5</wn>
+         <omega/><pb>go.09</pb>
+         <vn>function-105.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="rifle, search through" type="">
+      <commentary>
+         Includes: GO THROUGH
+      </commentary>
+      <examples>
+         When he was thirty years old his mother still went through his drawers.
+         Someone has been going through the papers on my desk.
+         The police are going through their list of suspects.
+      </examples>
+      <mappings>
+         <wn version="3.0">27</wn>
+         <omega/><pb>go.03</pb>
+         <vn>rummage-35.5</vn><fn>Scrutiny</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="give support to" type="">
+      <commentary>
+        Includes: GO FOR, GO WITH
+      </commentary>
+      <examples>
+         He's going for the underdog in this fight.
+         I'm going with the candidate who's most likely to win.
+      </examples>
+      <mappings>
+         <wn version="3.0">29</wn>
+         <wn lemma="go_for" version="3.0">2</wn>
+         <wn lemma="go_with" version="3.0">1</wn>
+         <omega/><pb>go.21</pb>
+         <vn>help-72-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="13" name="choose, desire to have" type="">
+      <commentary>
+        Includes: GO FOR, GO WITH
+      </commentary>
+      <examples>
+        I went with the beef wellington.
+        She went for the same pair of shoes that you did at the Sneaker King.
+      </examples>
+      <mappings>
+        <wn version="3.0">29</wn>
+        <wn lemma="go_for" version="3.0">3</wn>
+        <omega/><pb>NM</pb>
+        <vn>obtain-13.5.2</vn><fn>NM</fn>  
+      </mappings><SENSE_META clarity=""/>  
+   </sense> 
+   <sense group="1" n="14" name="harmonize" type="">
+      <commentary>
+        Includes: GO WITH
+      </commentary>
+      <examples>
+        Those colors don't go well with the dining room.
+        A strong red wine can go with spicy food.
+        Blue and grey go well together.
+      </examples>
+      <mappings>
+        <wn version="3.0">24</wn>
+        <wn lemma="go_with" version="3.0">1,2</wn>
+        <omega/><pb>NM</pb>
+        <vn>harmonize-22.6</vn><fn>Compatibility</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="15" name="LIGHT VERB usage" type="">
+      <commentary>
+       Syntax Is:
+       NP1[agent] GO NP2[predicate] (PP)
+       NP1[agent] GO NP2[predicate] (SCOMP) 
+       Note: To qualify as a light verb usage, one should be able to paraphrase the
+             the sentence using NP2 as a verb. (So the verb &quot;go&quot; does not really
+             contribute meaning to the sentence.)
+             EX:  &quot;She went jogging&quot; can be paraphrased
+                  as &quot;She jogged.&quot; 
+      </commentary>
+      <examples>
+        I always go running first thing in the morning.
+        They went ballooning on their last vacation.
+        Do you ever go skiing while you're in Colorado?
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>go.LV</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="16" name="miscellaneous idioms" type="">
+      <commentary>
+        Includes: GO ABOUT, GO ALL OUT, GO BACK ON, GO DOWN
+                  GO DOWN ON, GO DUTCH, GO FOR, GO FOR BROKE, GO OFF, GO OFF AT HALF COCK,
+                  GO OFF HALF-COCKED, GO OUT; GO STEADY, GO THROUGH, GO THROUGH WITH,
+                  GO THROUGH THE MOTIONS, GO UP
+      </commentary>
+      <examples>
+        That goes a long way to explaining his strange behavior this week.
+        Did he go through with the treatment?
+        How do I go about changing his mind?
+        She won the race because she went all out.
+        They went back on their promise.
+        That quarterback likes to go deep with every throw.
+        He will go down as the best chief justice this country has ever had.
+        This wine sure goes down well.
+        If America goes down, the rest of the free world will, too.
+        She went down on him in the back of the car.
+        I don't want you paying for the whole evening--let's go dutch.
+        No jumping on the bed--and that goes for your friend too.
+        Who cares about the risk?  Roll the dice and go for broke!
+        The bomb is about to go off!
+        Calm down. Don't go off at half cock.
+        We almost never go out since we had children.
+        They've been going out for years.
+        After Jim and I went steady for a year, we got engaged.
+        He can go through an entire gallon of ice cream in one sitting.
+        He's just going through the motions until its time to retire.
+        When her husband died, she just went to pieces.
+        He's really gone to pot: gotten fat, doesn't shave, and his clothes are a mess.
+        At the end of some days, I can't wait to go to sleep.
+        This restaurant used to be so good, but now it's really gone to the dogs.
+        That new building went up in only 2 months.  How could they build it so fast? 
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="go_about" version="3.0">1</wn>
+         <wn lemma="go_all_out" version="3.0">1</wn>
+         <wn lemma="go_back_on" version="3.0">1</wn>
+         <wn lemma="go_deep" version="3.0">1</wn>
+         <wn lemma="go_down" version="3.0">4,5,6</wn>
+         <wn lemma="go_down_on" version="3.0">1</wn>
+         <wn lemma="go_dutch" version="3.0">1</wn>
+         <wn lemma="go_for" version="3.0">1</wn>
+         <wn lemma="go_for_broke" version="3.0">1</wn>
+         <wn lemma="go_off" version="3.0">2,3,5,6</wn>
+         <wn lemma="go_off_at_half-cock" version="3.0">1</wn>
+         <wn lemma="go_off_half-cocked" version="3.0">1</wn>
+         <wn lemma="go_out" version="3.0">6</wn>
+         <wn lemma="go_steady" version="3.0">1</wn>
+         <wn lemma="go_through" version="3.0">1,2,3</wn>
+         <wn lemma="go_through_the_motions" version="3.0">1</wn>
+         <wn lemma="go_up" version="3.0">4</wn>
+         <omega/><pb>go.11,go.16,go.20,go.27</pb>
+         <vn>confront-98,marvel-31.3-1,marvel-31.3-2,marvel-31.3-8</vn><fn>Losing_it</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,brownsw" sample_score="-"/>
+</inventory>

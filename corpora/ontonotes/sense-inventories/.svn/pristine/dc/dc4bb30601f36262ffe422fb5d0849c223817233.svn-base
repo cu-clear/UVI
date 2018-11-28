@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dispute-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="difference of opinion" type="Event">
+        <commentary>
+	    DISPUTE[+event]
+	    A conflict, disagreement, or argument.
+	    </commentary>
+        <examples>
+            The dispute between John and Mary lasted three weeks.
+            The issue of gun control initiated an ongoing dispute between the parties.
+            He had a minor dispute with his wife.
+            I took the dispute to court.
+        </examples>
+        <mappings>
+            <wn version="2.0">1,2</wn>
+            <omega/><pb>dispute.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="being in dispute" type="">
+        <commentary>
+	    DISPUTE[+event]
+	    The quality of being disputed.  Used mainly in the expression &quot;in dispute&quot;.
+	    </commentary>
+        <examples>
+            The only issue in dispute is where John should go to school.
+        </examples>
+        <mappings>
+            <wn version="2.0">-</wn>
+            <omega/><pb>dispute.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

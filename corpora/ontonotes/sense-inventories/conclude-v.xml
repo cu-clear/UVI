@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="conclude-v">
+   <commentary>
+     No Verb Particle Constructions for this verb
+   </commentary>
+   <sense group="1" n="1" name="finish or end something" type="">
+      <commentary>
+       Syntax Is:
+        (NP1[agent]) CONCLUDE NP2[patient]
+      </commentary>
+      <examples>
+        We concluded the meeting with coffee and dessert.
+        They are just now concluding their performance of Aida.
+        This concludes our nightly broadcast.
+        Boeing has concluded a series of wind tunnel tests on a modified 747.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>conclude.02</pb>
+         <vn>stop-55.4-1</vn><fn>Activity_finish,Activity_stop,Process_end</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+<sense group="1" n="2" name="resolve or agree upon" type="">
+      <commentary>
+      Syntax Is: 
+       NP1[agent] CONCLUDE NP2[goal[abstract]]
+        NOTE: this does NOT mean for two or more people to agree
+        on something reasoned or deduced, as in, &quot;They concluded 
+        that the drug was safe and effective.&quot;  Such examples should
+        be in sense 3.
+      </commentary>
+      <examples>
+        After weeks of negotiation the governments have concluded a viable trade agreement.
+        We were unable to conclude a good deal for our firm's IPO.
+        The two firms concluded a strategic alliance.
+        We have concluded a covenant with death.
+        Submit your notification immediately after you have concluded a guarantee agreement.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5</wn>
+         <omega/><pb>conclude.02</pb>
+         <vn>stop-55.4-1</vn><fn>Activity_finish,Activity_stop</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+  <sense group="1" n="3" name="reason or deduce" type="">
+      <commentary>
+      Syntax Is:
+       NP1[agent[human]] CONCLUDE [topic]
+      </commentary>
+      <examples>
+        Given 'if P then Q' and 'P',  must you conclude 'Q'?
+        The police concluded John committed the murder, based on DNA evidence.
+        On what basis did the ancients conclude that the sun revolved around the earth?
+        Mary is concluding that John is a boor, based on his table manners.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>conclude.01</pb>
+         <vn>deduce-97.2</vn><fn>Coming_to_believe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="4" name="say (used as a quotative)" type="">
+      <commentary>
+       Syntax Is:
+        NP1 CONCLUDE [topic]
+      </commentary>
+      <examples>
+        &quot;The negative use of taxing authority is poor public policy,&quot; the report concluded.
+        &quot;You put your foot out in that street and you'll be arrested,&quot; he concluded.
+        &quot;Married people can specialize,&quot; she concluded.        
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+</inventory>

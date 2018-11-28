@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stall-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="delay, cease or slow motion" type="">
+      <commentary>
+      Syntax is: NP1[agent] STALL NP2[patient]
+      Includes: STALL OUT
+     </commentary>
+      <examples>
+        He wasn't ready to get engaged so he stalled by buying her a 'promise ring'.
+        If she'd stalled him with a court order, she could still buy the boys' time.
+        He stalled the convertible letting out the clutch.
+        I was parking my truck when it stalled and died in reverse.
+        I have a 1990 plymouth sundance that stalled out yesterday.
+        The Safe Motherhood Initiative: why has it stalled?
+        The car stalled out soon after starting.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stall.01,stall.02</pb>
+         <vn>linger-53.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) lose lift because of interrupted airflow" type="">
+      <commentary>
+      INCLUDES: STALL OUT
+      </commentary>
+      <examples>
+        Mann apparently stalled the plane as he tried to return to the field.
+        At approximately 45 degrees through the turn, the plane stalled out.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5,6</wn>
+         <omega></omega><pb>stall.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="put into or keep in a stall" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The rider noticed swelling in the right hind leg and promptly stalled the horse.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey,clarklm" sample_score="-"/>
+</inventory>

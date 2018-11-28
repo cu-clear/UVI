@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="master-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="become skilled at or understand thoroughly" type="">
+      <commentary>
+      Syntax Is: 
+      NP1[agent] MASTER NP2[topic] 
+      Note: NP2 in this sense is NOT AFFECTED by NP1's domination of NP2.
+      </commentary>
+      <examples>
+        The tech giant has mastered the art of acquisitions.
+        Have you mastered the essentials of e-mail security?
+        He has mastered the language of love.
+        She finally mastered Chinese after years of study.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>master.01</pb>
+         <vn>NP</vn>
+         <fn>Education_teaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become master of, overcome, dominate" type="">
+      <commentary>
+      Syntax Is:
+      NP1[agent] MASTER NP2[patient]
+      Note: NP2 in this sense IS AFFECTED by NP1's domination of NP2, if
+      only in a metaphorical sense.
+      </commentary>
+      <examples>
+        They mastered the Germans and repulsed their Pierce counterattacks.
+        I believe her mare has mastered her.
+        Read how one woman successfully mastered her addiction.
+        With that realization, fatigue mastered him.
+        You must master your fate!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <omega></omega><pb>master.01</pb>
+         <vn>NP</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

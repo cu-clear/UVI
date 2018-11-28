@@ -1,0 +1,189 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="term-n">
+    <commentary>
+        Added idioms, regrouped senses, added senses, modified examples and commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="unit of meaning or expression, as in language or mathematics" type="">
+        <commentary>
+            TERM[+abstract][+unit][+meaning][+linguistic/+logical/+mathematical]
+            a word or symbolic expression that designates a concept, sometimes a quantitative concept
+        </commentary>
+        <examples>
+            He learned many medical terms.
+            What is another term for 'pursue'?
+            What is the minor term of this syllogism?
+            This term drops out of the equation.
+            These are polynomial terms.
+            Sally uses too many slang terms.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4,5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="specified length of time" type="">
+        <commentary>
+	    TERM[+event][+quantity][+temporal][+specified]
+	    a limited period of time
+	    </commentary>
+        <examples>
+            He has served two terms in the Senate.
+            The fourth term of this school year will end on June 15th.
+            The billing term is thirty days.
+            Bob's brother is serving a prison term for armed robbery.
+            In the long term, the sun will become a red giant.  
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a condition or stipulation" type="">
+        <commentary>
+            TERM[+relation][+condition][+specified][+contract/+settlement]
+            (usually plural) a statement of what is required as part of an agreement
+        </commentary>
+        <examples>
+            The contract set out the terms for the lease.
+            The terms of the treaty were generous.
+            What are the terms of this return policy?
+            We didn't like the terms of the settlement.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="an endpoint in time" type="">
+        <commentary>
+            TERM[+position][+temporal][+endpoint]
+            an endpoint, usually of gestation
+        </commentary>
+        <examples>
+            She had her baby before full term.
+            The infant had low birth weight at term.
+            How much will this bond be worth when it comes to term?
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a description or account of something" type="">
+        <commentary>
+            TERM[+expression][+description]
+            Note: always occurs in the plural, unlike sense 1
+        </commentary>
+        <examples>
+            He described the experience in glowing terms.
+            There are no terms to express our gratitude for your help.
+            I objected to it in the strongest possible terms.
+        </examples>
+        <mappings>
+            <wn version="MW online">4b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a state of social reciprocity" type="">
+        <commentary>
+            TERM[+state][+social][+reciprocity]
+            Note: always occurs in the plural
+        </commentary>
+        <examples>
+            The two nations are not on good terms with each other.
+            He and I have been on excellent terms for years.
+        </examples>
+        <mappings>
+            <wn version="MW online">4b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="boundary figure on statuary" type="Architecture">
+        <commentary>
+            TERM[+physical][+figure][+boundary][+statuary]
+            terminus, terminal figure - 
+            (architecture) a statue or a human bust or an animal carved out of the top of a square pillar
+        </commentary>
+        <examples>
+            Terms were originally used as a boundary marker in ancient Rome.
+            The new building had a beautifully carved term on each column.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="resolve or acknowledge something" type="Idiom">
+        <commentary>
+            Idiom: come_to_terms
+        </commentary>
+        <examples>
+            Mary finally came to terms with her illness.
+            The warlords have resisted coming to terms with the central government.
+            The two parties are expected to come to terms outside the courtroom.
+        </examples>
+        <mappings>
+            <wn version="MAC online">4b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="with respect to, in relation to" type="Idiom">
+        <commentary>
+            Idiom: in_terms_of
+            Note:  in terms of X -&gt; in X terms  'in terms of housing' -&gt; 'in housing terms'
+        </commentary>
+        <examples>
+            Ted always thinks in terms of money when planning his vacations.
+            Teenagers today are a big marketing segment in terms of buying power.
+            The party has lost momentum in political terms. (with respect to politics)
+        </examples>
+        <mappings>
+            <wn version="MW online">in_terms_of</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="according to one's wishes" type="Idiom">
+        <commentary>
+            Idiom: on_one's_own_terms
+        </commentary>
+        <examples>
+            The young entrepreneur is now able to negotiate on his own terms.
+            Those nations must reach a peace settlement on their own terms, not through outside mediation.
+        </examples>
+        <mappings>
+            <wn version="MW online">on_one's_own_terms</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

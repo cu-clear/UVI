@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="retain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="continue to physically contain or hold something" type="">  
+      <commentary>
+        NP1[-agent](container) RETAIN NP2
+      </commentary>
+      <examples>
+        The sea retains the sun's warmth longer than the land.
+        This soil retains water.
+        The cells retained the drug for a long time.
+        The city's water supply is retained in a reservoir. 
+        When adults retain too much water we can treat them by restricting fluid intake.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>retain.01</pb>
+         <vn>NP</vn><fn>Memory</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="maintain posession of" type="">
+      <commentary>
+        NP1[+agent] RETAIN NP2[+/-concrete](possession, attribute, etc)
+        may be used metaphorically
+      </commentary>
+      <examples>
+        I can't retain all that information!
+        We were asked to retain a little over than 600 words.
+        Despite losing the court case he retains all rights to the magazine article.
+        We retain the copyright to the poem.
+        The company retained a collateral interest in each policy.
+        She has lost her battle to retain control of the company. 
+        He managed to retain his dignity throughout the performance.
+        They wanted us to retain the original styling of the 1940's era.
+        The athlete retained the lead througout the competion.
+        I would rather live in a cow-town and retain our way of life.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>retain.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="hire, keep in one's pay or services" type="">
+      <commentary>
+        NP1[+human] RETAIN NP2
+      </commentary>
+      <examples>
+        As the family fortune waned, they could not retain their household staff.
+        It is wise to retain a lawyer who knows the local court procedures.
+        Effective training helps retain employees.        
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>retain.01</pb>
+         <vn>NP</vn><fn>Hiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

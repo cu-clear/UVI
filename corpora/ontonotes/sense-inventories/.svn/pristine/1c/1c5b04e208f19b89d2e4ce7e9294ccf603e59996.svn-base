@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="desire-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="strongly want or wish for" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[experiencer] DESIRE NP2[theme]
+        NP1[experiencer] DESIRE NP2 to [predicate]
+      </commentary>
+      <examples>
+        Whats-his-name desired a ham sandwich.
+        An advanced degree (MS, PhD) in relevant field is desired.
+        If desired, a recommended caulk can be used to fill the gap for appearance.
+        He desired her to divert herself in his absence, to send for her friends and acquaintances.
+        Amalickiah desired him to come down with his army.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>desire.01</pb>
+         <vn>want-32.1, want-32.1-1-1</vn><fn>Experiencer_subj,Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="have a strong sexual attraction to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She always wanted him to tell her how beautiful she was and how much he desired her.
+        Katie, Is it wrong to desire you?
+        Here are the top 27 Valentine's Day tips to make your man desire you more.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>desire.01</pb>
+         <vn>want-32.1</vn><fn>Experiencer_subj,Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="formally express a request" type="">
+      <commentary>
+       Note:  Rather rare usage
+        Syntax Is:
+         NP1[agent] DESIRE NP2 to [predicate]
+      </commentary>
+      <examples>
+        I desire you to accept my acknowledgments for your laudable endeavours 
+                to render men sober, honest, and good citizens. (George Washington)
+        Therefore I desire you to grant this petition.
+        As the pass through the Blue Ridge may be disputed by two columns,  
+                he desires you to approach it with great caution.
+        He again called up to look into his waistcoat pocket; she did, it was not there;
+                she told him so, and he desired her to look into his jacket pocket.
+        He desired her to read the label, which she accordingly did.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>want-32.1-1-1</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

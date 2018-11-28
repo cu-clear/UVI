@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stalk-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="follow stealthily, hunt" type="">  
+      <commentary>
+        Syntax is: NP1[agent] STALK (NP2) (FOR) NP3
+      </commentary>
+      <examples>
+        He stalked the family before entering the house in mid-May 2005.
+        He knew Dee Borah would track him down like a cat stalking the
+        wilds for food.
+        The girl said he stalked her for years with sexually violent
+        messages before pushing his way into her house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stalk.02</pb>
+         <vn>stalk-35.3</vn><fn>Cotheme</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="walk stiffly" type="">
+      <commentary>
+        Syntax is: NP1[agent] STALK PP
+      </commentary>
+      <examples>
+        So again he stalked away, neither staying nor caring for responses.
+        Richard saw her smile, her bright eyes, the instant he stalked in.
+        He stalked through the sitting room, smiling with false affability
+        at his guests and scarcely noticing that they cowered when he spoke
+        to them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stalk.01</pb>
+         <vn>NM</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fund-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="finance, invest in, commit to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         How much foreign money is funding the deficit?
+         Can that town fund such a project with its current junk bond ratings?
+         He said I should be funding T-bills as part of my portfolio.
+         &quot;The bridge will be funded by taxpayer dollars.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,6</wn>
+         <omega/><pb>fund.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="store, accumulate usually money" type="">
+      <commentary>
+        Includes: FUND RAISE
+      </commentary>
+      <examples>
+         The parents want to fund a college savings account for their son.
+         There are enough employees now to fund the more comprehensive
+         medical insurance plan.
+         We are fund raising for the local orphanage.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="fund_raise" version="3.0">1</wn>
+         <omega/><pb>fund.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

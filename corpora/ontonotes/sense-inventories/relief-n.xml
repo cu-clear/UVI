@@ -1,0 +1,163 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="relief-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the alleviation of distress" type="Event">
+        <commentary>
+            RELIEF[+state][+alleviation][+distress]
+            Note: refers to the state of alleviation, or something which causes this state.
+            Note: refers specifically to the recipient of the relief
+        </commentary>
+        <examples>
+            Much to her relief, he picked up the phone on the first ring.
+            It was a relief to the nervous passengers when the plane finally touched down.
+            The new medication gave Bob some relief from his back pains.
+            The rains brought relief to the parched crops. 
+            He said John's relief of anxiety can be brought about by meditation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,7,9</wn>
+            <omega/><pb>relief.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="legal redress or remedy" type="Event">
+        <commentary>
+            RELIEF[+event][+legal][+redress][+court/+taxation]
+        </commentary>
+        <examples>
+            The court awarded him a generous relief as compensation for past injury.
+            The president has promised tax relief for the middle class.
+            Sally got a tax relief from her big charitable donations last year.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>relief.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="someone or something in the role of a substitute" type="">
+        <commentary>
+            RELIEF[+relation][+role][+substitute][+entity]
+            Note: implies one entity/person can replace the function of another
+        </commentary>
+        <examples>
+            The relief nurse was late for her shift last night.
+            He is one of the best relief pitchers in the American League.
+            Mary can be the relief at the registration desk while you go for a lunch break.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of providing aid or assistance" type="Event">
+        <commentary>
+            RELIEF[+action][+assistance][+material]
+            Note: refers to a concrete action by an agent to assist, not the internal state of relief of the recipient (Sense 1)
+        </commentary>
+        <examples>
+            The famine relief supplied to the region was not nearly enough.
+            John took his wife on a cruise as a relief from all her pressures at work.
+            Relief workers are sifting through mountains of rubble looking for survivors.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>relief.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a pause or respite from something" type="Event">
+        <commentary>
+            RELIEF[+event][+cessation][+pause]
+        </commentary>
+        <examples>
+            We ran back to the house during the short relief from the downpour.
+            Jack's character provides a bit of comic relief in the otherwise tedious movie.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>relief.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="ongoing government welfare" type="">
+        <commentary>
+            RELIEF[+activity][+ongoing][+aid][+welfare][+government]
+            Note: occurs in the phrase 'on relief'
+        </commentary>
+        <examples>
+            He's been on government relief ever since his back injury kept him from working.
+            They receive relief checks once a month.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb>relief.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="sculpture style where carving is raised from a surface" type="">
+        <commentary>
+            RELIEF[+quality][+style][+sculpture][+raised][+surface]
+        </commentary>
+        <examples>
+            These Greek sculptors were masters of high relief.
+            We studied bas relief in our art history class.
+            We looked at the relief map of the national park. (represents elevations)
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="military liberation of a city or town" type="Event">
+        <commentary>
+            RELIEF[+action][+liberation][+military]
+        </commentary>
+        <examples>
+            His battalion was involved in the relief of Mafeking.
+            Her grandfather lived to see the relief of his concentration camp during World War II.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="9" name="a sharply contrastive quality" type="">
+        <commentary>
+            RELIEF[+quality][+contrastive][+sharply]
+        </commentary>
+        <examples>
+            Mary  liked the photo depicting the red-tiled roof in sharp relief against the sky.
+            The book puts the two opposing theories into bold relief.
+            The setting sun threw the snow-covered peaks into relief.
+        </examples>
+        <mappings>
+            <wn version="MW online">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

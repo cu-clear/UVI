@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hearing-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="legal or official proceedings where testimony is given" type="Event">
+        <commentary>
+            HEARING[+event][+social][+legal][+proceeding][+testimony]
+        </commentary>
+        <examples>
+            The hearing will go before a grand jury. 
+            The Senate will hold closed hearings on the matter next week.
+            Two witnesses gave conflicting testimony at the recent hearings in Chicago.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb>hearing.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an opportunity to make a pitch, present one's case" type="Event">
+        <commentary>
+            HEARING[+event][+social][+opportunity][+presentation]
+        </commentary>
+        <examples>
+            The club manager has agreed to give John's band a hearing on Monday night.
+            Did Mary feel her proposal got a good hearing at the last meeting?
+            The investment firm gave an initial ten-minute hearing to each entrepreneur.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a distance that is within earshot" type="">
+        <commentary>
+            HEARING[+quantity][+measure][+distance][+earshot]
+        </commentary>
+        <examples>
+            The children were told to stay within hearing of their teacher.
+            They ducked into Bob's office to be out of hearing of the department secretary.
+            She had moved out of hearing and could not heed our warning shouts.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the faculty of being able to perceive sound" type="Event">
+        <commentary>
+            HEARING[+quality][+faculty][+perception][+sound]
+        </commentary>
+        <examples>
+            He lost his hearing in a mining accident.
+            Her grandmother has only recently become hard of hearing.
+            Dogs' hearing extends into higher frequency ranges than that of humans.
+            Our hearing of the thunder caused us to turn the boat homeward. (we perceived it)
+            Her hearing of his advice was a bit different from mine. (includes 'understanding')
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>hearing.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

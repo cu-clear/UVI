@@ -1,0 +1,151 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sink-v">    
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) go down below the surface or to bottom of liquid" type="">
+      <commentary>
+        Syntax is: NP1[agent] SINK NP2[patient]
+                   NP1[patient] SINK
+        NOTE: This may be seen as a sub-sense of sense 2, with the
+                   understanding of going down in a liquid.
+      </commentary>
+      <examples>
+        We think the ship was sunk by a freak wave.
+        Britain sank warships as a gesture of disarmament.
+        Four years ago, the canoe sank before it embarked on its maiden voyage.
+        The Titanic was a passenger ship which sank (to the bottom of the ocean) in 1912.
+        Enemy aircraft sank two battleships.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>sink.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) fall or subside to a lower place, level, or value" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SINK NP2[patient] PP[locative/temporal]
+                   NP1[patient] SINK PP[locative/temporal]
+        NOTE: may be used metaphorically; often has negative connotations
+      </commentary>
+      <examples>
+        The water in the lake sank several feet during the long, dry summer.
+        Sink the bucket into the well and draw water.
+        The wounded soldier sank to his knees.
+        The exhausted runner sank to the ground.
+        The sun glowed red as it sank slowly below the horizon.
+        Student numbers have sunk considerably this year.
+        Voice sank into a whisper.
+        The wind sank toward the evening.
+        The dollar sank again yesterday.
+        He looked at the huge pile of work on his desk and his heart sank.
+        He sank into deep despair when he lost his job.
+        The family sank into a state of disgrace.
+        The patient is sinking fast.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,6,7,8</wn>   
+         <omega/><pb>sink.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) pass into a specific state or condition" type="">
+      <commentary>
+        Syntax is: NP1[actor] SINK PP[state/condition]
+        Note: Unlike sense 3, this does NOT imply deterioration of the state of NP1. 
+              Note: There is not a strong negative feeling to this sense.
+      </commentary>
+      <examples>
+        He sank into Nirvana.
+        He sank into a deep sleep, and dreamed no more.
+        Once home to an estimated 20000 people, Petra eventually sank into obscurity.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>sink.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(cause to) descend into a softer substance" type="">
+      <commentary>
+        Syntax is: NP1[agent] SINK NP2[patient] PP
+        NP1[patient] SINK PP
+      </commentary>
+      <examples>
+        The legs of the garden chair sank into the soft ground.
+        That part of the building has been sinking into the ground for a while now.
+        The dog sank her teeth into the ball and ran off with it.
+        She sank back into her large cushion.
+        I will sink into my bed and sleep for a few hours before going back to work.
+        I sank fingers into soft sand.
+        A big dog sank its fangs into the thigh of one of Gary's soldiers.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,8,9</wn>
+         <omega/><pb>sink.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="(cause to) seep into something" type="">
+      <commentary>
+        Syntax is: NP1 SINK PP[locative]
+        NP1 SINK IN PP[locative]
+        Metaphorical: absorb meaning, make an impression, become felt or understood
+      </commentary>
+      <examples>
+        The water is sinking slowly into the ground.
+        Smear a little oil on the surface and leave it to sink in.
+        Borman gulped as the implications of Putnam's words sank in.
+      </examples>
+      <mappings>
+         <wn lemma="sink_in" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="(cause to) invest, put money or resource into something" type="">
+      <commentary>
+        Syntax is: NP1[agent] SINK NP2 PP
+      </commentary>
+      <examples>
+        On his advise, we sank money into a new housing project.
+        He must have sunk millions into these theaters.
+        The Senate recently sank efforts to raise fuel efficiency standards.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>sink.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="dig or force into ground" type="">
+      <commentary>
+        Syntax is: NP1[agent] SINK NP2 PP
+      </commentary>
+      <examples>
+        Sinking more wells is the best way of obtaining more clean drinking water.
+        The first stage of building the fence is sinking the posts into the ground.
+        To construct a cofferdam you need to sink pilings into the seabed.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>sink.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="sports term: cause a ball to reach the 'goal'" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He sank the putt to force the second playoff hole.
+        Chetri flicked the ball to Hossain, who sank the ball in the right corner of the goal.
+        He sank the ball, threw a very good changeup and he had his best breaking ball ever.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>sink.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg,duffielc" sample_score="-"/>  
+</inventory>

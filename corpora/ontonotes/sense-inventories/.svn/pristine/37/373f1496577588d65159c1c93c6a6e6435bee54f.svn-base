@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="boil-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) come to the boiling point and change from liquid to vapor." type="">  
+      <commentary>
+      NOTE: PATIENT must be a liquid. 
+      </commentary>
+      <examples>
+      Water boils at 100 degrees Celcius.
+      The sauce should boil down to one cup.
+      The chef boiled down the sauce by cooking it for a long time.
+      I boiled the water to purify it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="boil_down" version="3.0">2,3</wn>
+         <omega></omega><pb>boil.01</pb>
+         <vn>cooking-45.3</vn><fn>Apply_Heat,Absorb_Heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Immerse or be immersed in a boiling liquid,
+ for purposes of cooking or processing." type="">
+      <commentary>
+      NOTE: PATIENT must NOT be a liquid. Compare to Sense 1.
+      </commentary>
+      <examples>
+      The chef boiled the potatoes. 
+      Factory workers boil the wool in preparation for drying and spinning.
+      They extracted confessions by boiling prisoners alive.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>cooking-45.3,preparing-26.3-2</vn><fn>Cause_harm,Absorb_heat,Apply_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Be agitated." type="">
+      <commentary>
+      NOTE: Do note use for emotional states; this sense refers only to
+      physical agitation.
+      </commentary>
+      <examples>
+      The sea boiled in the storm.
+      The skies boiled with dark, swirling clouds. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Be agitated in an emotional state." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The customer was boiling with anger.
+      Anger boiled inside the customer.
+      </examples>     
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Emotion_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="BOIL DOWN: be the essential element" type="">
+      <commentary>
+      IS: BOIL DOWN
+      </commentary>
+      <examples>
+      The proposal boils down to a compromise.
+      The whole novel boils down to an insecure, highschool fantasy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="boil_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="BOIL OVER: (cause to) overflow while boiling." type="">
+      <commentary>
+      NOTE: entity that boils over must either be a liquid or imply the
+      presence of a liquid.
+      </commentary>
+      <examples>
+      The milk is boiling over.
+      Charles' negligence caused the rice to boil over. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="boil_over" version="3.0">1</wn>
+         <omega></omega><pb>boil.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="BOIL OVER: (Cause) an emotional state to
+         become apparent or acted upon; (cause) a situation to change state
+         or status by (emotional) will." type="">
+      <commentary>
+      IS: BOIL OVER
+      </commentary>
+      <examples>
+      His anger boiled over and he began to beat his opponent.
+      A long-running controversy over the publication of caricatures of the
+      Prophet Muhammad by a Danish newspaper boiled over in the past few
+      days.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

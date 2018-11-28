@@ -1,0 +1,105 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cut at (as if) with a hacking tool (into pieces)." type="">  
+      <commentary>
+      INCLUDES: CHOP UP, CHOP AWAY, CHOP AWAY AT, CHOP THROUGH
+      NOTE: Includes metaphorical uses.
+      </commentary>
+      <examples>
+      He chopped the wood into logs for the fire.
+      John chopped up his dissertation.
+      The chef chopped the meat into small cubes for the stew.
+      Bush vows to chop away at logging legislation.
+      The killer chopped at his body with a hatchet.
+      Our boat chopped through the swells at top speed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="chop_up" version="3.0">1</wn>
+         <omega></omega><pb>chop.01,chop.03</pb>
+         <vn>carve-21.2-2,cut-21.1-1,swat-18.2</vn><fn>Cutting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="CHOP DOWN: Cut down." type="">
+      <commentary>
+      IS: CHOP DOWN
+      </commentary>
+      <examples>
+      George chopped down the cherry tree.
+      Land owners began to chop down large acreages of forest.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="chop_down" version="3.0">1</wn>
+         <omega></omega><pb>chop.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="CHOP OFF: Remove by or as if by cutting." type="">
+      <commentary>
+      IS: CHOP OFF
+      </commentary>
+      <examples>
+      Van Gogh chopped off his own ear.
+      The gardener chopped off the dead branch.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="cut_off" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Strike or hit sharply, perhaps as in sport." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He chopped his opponent ruthlessly.
+      When the player chopped his opponent, the team received a five yard penalty.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Form or shape by chopping." type="">
+      <commentary>
+      NOTE: For this sense, the action must produce a resultant shape or form. 
+      </commentary>
+      <examples>
+      The children chopped a hole in the backyard.
+      The bullet chopped a large hold in his skull.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Move suddenly." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      His hand chopped quickly to the right, completing the card trick.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tariff-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="government tax imposed on some imports and exports" type="">
+        <commentary>
+            TARIFF[+quantity][+money][+tax][+import_export]
+        </commentary>
+        <examples>
+            Higher tariffs between these nations may result in a trade war.
+            How much is the tariff on that luxury import sportscar?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>tariff.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a list or schedule of government import/export taxes" type="">
+        <commentary>
+            TARIFF[+entity][+document][+schedule][+tax][+import_export]
+        </commentary>
+        <examples>
+            The declaration form explains the tariff on different amounts and types of goods.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a table of charges at a hotel or restaurant" type="">
+        <commentary>
+            TARIFF[+entity][+document][+table][+charge][+business]
+        </commentary>
+        <examples>
+            The tariff on the hotel room was listed in small print at the bottom of the form.
+            The menu indicated the tariff and gratuity that is automatically factored in.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

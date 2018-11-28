@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recommend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="endorse or suggest, express approval or support" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RECOMMEND NP2
+        NP1[agent] RECOMMEND COMP
+        NP1[agent] RECOMMEND PP
+      </commentary>
+      <examples>
+        I can recommend the chicken in mushroom sauce - it's delicious.
+        She has been recommended for promotion.
+        We will recommend your proposal to the school authorities.
+        The doctor recommended (that) I take more exercise.
+        I recommend writing your feelings down on paper.
+        They recommended against signing international agreement.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>recommend.01</pb>
+         <vn>judgment-33.1-1,reflexive_appearance-48.1.2,say-37.7-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make attractive, appealing or worthy" type="">
+      <commentary>
+        Syntax Is: NP1 RECOMMEND NP2
+      </commentary>
+      <examples>
+        The city has much to recommend it.
+        Honesty recommends anyone.
+        Since the legislation has little to recommend it, it is unlikely to pass.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="entrust someone to the care of another" type="">
+      <commentary>
+        Syntax Is: NP1[agent] RECOMMEND NP2
+      </commentary>
+      <examples>
+        She was recommended to our care until her family returned.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

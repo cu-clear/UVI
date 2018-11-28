@@ -1,0 +1,100 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fight-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a brief physical exchange of blows between people" type="Event">
+        <commentary>
+            FIGHT[+activity][+brief][+physical][+exchange][+blows]
+            Note: refers to brief, isolated cases of physical confrontation between individuals.
+        </commentary>
+        <examples>
+            A fight broke out in the stadium after a bad call by the umpire.
+            The children were having a pillow fight.
+            John had to break up a dog fight in the park.
+            The boys got into a fist fight at school.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>fight.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a battle, an ongoing struggle" type="Event">
+        <commentary>
+            FIGHT[+activity][+ongoing][+struggle][+physical][+military]
+            FIGHT[+activity][+ongoing][+struggle][+physical][+illness]
+            FIGHT[+activity][+ongoing][+struggle][+social][+campaign]
+            Note: implies a long-term struggle, involving physical actions and/or social ones.
+        </commentary>
+        <examples>
+            The fight for the city lasted three days with 10,000 dead or wounded.
+            The custody fight over the children became nasty.
+            Sadly, Betty's mother lost her fight against ovarian cancer.
+            He has led many fights for social justice during his life.
+            It is a fight for the very survival of that nation.
+            There is expected to be a long and bitter fight in congress over this bill. (Also Sense 3)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>fight.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an intense emotional argument" type="Event">
+        <commentary>
+            FIGHT[+activity][+argument][+emotional][+intense]
+            Note: implies heated verbal exchanges, not physical blows
+        </commentary>
+        <examples>
+            She wanted to avoid a fight with the other board directors concerning the new policy.
+            Mary and her sister had a big fight last night about who should host Thanksgiving this year.
+            The child's fights with his parents in public usually ended with him getting his way.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>fight.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a sporting match, boxing" type="">
+        <commentary>
+            FIGHT[+event][+public][+sports][+match][+boxing]
+        </commentary>
+        <examples>
+            We watched the fight on television between the heavyweight champion and his contender.
+            John and Bob got ringside seats to the fight at Madison Square Garden.
+            This boxer has won about 70 percent of his fights.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="aggressive willingness to battle, pugnaciousness" type="">
+        <commentary>
+            FIGHT[+quality][+disposition][+pugnacious]
+            Note: describes the willingness of someone to engage in battle, not the battle itself
+        </commentary>
+        <examples>
+            They still have a lot of fight in them despite losing the game today.
+            Cindy felt the fight drain out of her by the end of the day.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

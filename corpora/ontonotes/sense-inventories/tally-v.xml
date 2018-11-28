@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tally-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="gain points in a game; add up (numbers)" type="">  
+      <commentary>
+        Syntax includes: NP1[agent] TALLY (up) NP2
+ 
+        Includes: TALLY UP
+
+        NOTE: The numeric value of NP2 is usually implied as in Examples
+        1, 2 and 4: goal, votes, list of guests and not obviously stated as
+        in Example 3: values.
+      </commentary>
+      <examples>
+        Blake Gallagher tallied the only goal of the second period.
+        I tallied the complete list of party guests.
+        Tally up all the values in Column A.
+        After the city tallies up the votes, the announcement is made.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>   
+         <omega></omega><pb>tally.01</pb>
+         <vn>multiply-108,transcribe-25.4</vn><fn>Adding_up</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be compatible, similar or consistent" type="">
+      <commentary>
+        Syntax is: NP1[theme{plural}] TALLY
+                   NP1[theme] TALLY with NP2[theme]
+      </commentary>
+      <examples>
+        These two stories don't seem to tally.
+        The fingerprints on the gun tally with those of the suspect.
+        This OS does not tally with the newest World of Warcraft version.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

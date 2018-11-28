@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="quote-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="punctuation marks that indicate citation" type="">
+        <commentary>
+            QUOTE[+artifact][+symbolic][+notation][+punctuation][+indicator][+citation]
+        </commentary>
+        <examples>
+            The dialogue in your story should be placed between quotes.
+            Mary described John's contribution with scare quotes.
+            The medical terms that were mentioned were placed in single quotes.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a famous statement, a citation" type="Event">
+        <commentary>
+            QUOTE[+artifact][+symbolic][+statement][+famous][+citation]
+        </commentary>
+        <examples>
+            The minister gave quotes from the Old Testament during his sermon.
+            The magazine has curmudgeon quotes from famous film stars and directors.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>quote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of reciting a famous statement, citation" type="Event">
+        <commentary>
+            QUOTE[+event][+speech_act][+recitation][+of_citation]
+        </commentary>
+        <examples>
+            John's quote of 'Rime of the Ancient Mariner' in its entirety was quite impressive.
+            The reporter's quote of his speech was inaccurate.
+        </examples>
+        <mappings>
+            <wn version="Ann">-</wn>
+            <omega/><pb>quote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="estimate cost for a service" type="">
+        <commentary>
+            QUOTE[+quantity][+money][+price][+estimate][+for_service]
+        </commentary>
+        <examples>
+            Did the mechanic give you a quote for repairing the engine?
+            Sally wants to get several quotes before she decides which house painter to go with.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>quote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="current price of a stock" type="">
+        <commentary>
+            QUOTE[+quantity][+money][+price][+stock][+current]
+        </commentary>
+        <examples>
+            According to the latest quotes, the stock has risen 80 cents a share today.
+            The trader stared at the quotes for futures contracts on his computer screen.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb>quote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

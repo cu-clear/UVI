@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="blame-v">    
+   <commentary>
+	No VPCs to add.
+   </commentary>
+   <sense group="1" n="1" name="accuse; name a cause for a specific event/result" type="">  
+      <commentary>
+	NP[+accuser] BLAME NP[+causer] (PP[+outcome])
+	NP[+accuser] BLAME NP[+outcome] PP[+causer]
+
+        NOTE: The cause/blamed is not necessarily responsible for the outcome. The accuser
+        assigns this responsibilty (probably based on circumstance or evidence). Note that unlike
+        in sense 2, negation will take away the cause:
+        &quot;I didn't blame the mess in the kitchen on John.&quot;  = John did not make the mess.
+      </commentary>
+      <examples>
+	They blamed the accident on the icy road.
+	They blamed the icy road for the accident.
+	Mary blamed John for the mess in the kitchen.
+	Analysts are blaming the overheated economy for the current rise in inflation.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>blame.01</pb>
+         <vn>judgement-33</vn><fn>Judgement_communication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="find fault with; criticize a particular feature or action" type="">
+      <commentary>
+	NP[+agent] BLAME NP[+recipient] PP[+attribute/action]
+        NOTE: unlike sense 1, a specific cause may not be given here
+        NOTE: Although it is often used in the negative, it is clear that the recipient
+        possesses or shows the attribute.  Unlike in sense 1, negating the sentence does
+        not take away the attribute:
+        &quot;I don't blame Sally for being mad,&quot; does not mean that she isn't mad.  She is. 
+      </commentary>
+      <examples>
+	The critics blamed the film for being violent.
+	I don't blame Sally for being mad about this.
+	Can you blame them for being suspicious?
+	Bob often gets blamed for speaking too loudly.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>blame.01</pb>
+         <vn>judgement-33</vn><fn>Judgment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>  
+</inventory>

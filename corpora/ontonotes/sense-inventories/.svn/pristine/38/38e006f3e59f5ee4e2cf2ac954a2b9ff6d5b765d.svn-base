@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="oppose-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be against, resist" type="">
+      <commentary>
+        Syntax Is: NP1 OPPOSE (NP2[patient[abstract]])
+      </commentary>
+      <examples>
+        The senator said he would oppose the bill.
+        The board opposed his motion.
+        A letter by author CS Lewis has shown he opposed the idea of a screen version of his Narnia books.        
+        He opposed the British, he opposed the Hindu that were victims of the past, he opposed even Gandhiji, he opposed the Government of free India.
+        Singapore opposed the call for a moratorium on death-penalty.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>oppose.01</pb>
+         <vn>NM</vn><fn>Taking_sides</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="match, play against, compare" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1 OPPOSE NP2 and/against NP3
+        NP1 OPPOSE NP2 
+        Note: as in a sporting match
+      </commentary>
+      <examples>
+        Let them oppose their best athletes against ours.
+        Our current series will oppose the teams ranked 14 vs 19.
+        This effectively opposes people against each other, which to me goes against spiritual common sense.
+        This is often seen in a competitively fearful framework that opposes individual and group against each other.
+        Delone Catholic will oppose Columbia in the opening round at 6 pm Tuesday.
+        They deliberately use synthetic / chemical materials which they frequently oppose with 'natural' materials.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>amalgamate-22.2-3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="oppose with equal weight or force" type="">
+      <commentary>
+        Syntax Is: NP1[actor[concrete]] OPPOSE NP2[actor[concrete]]
+      </commentary>
+      <examples>
+        The force of static friction will only oppose a push up to a point.
+        Can two flat objects be electromagnetized so that they oppose each other?
+        Frictional forces that oppose the motion of moving objects are due to kinetic friction.
+        Luke did not immediately die, and we know that Jedi have the power to oppose gravity with the force.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

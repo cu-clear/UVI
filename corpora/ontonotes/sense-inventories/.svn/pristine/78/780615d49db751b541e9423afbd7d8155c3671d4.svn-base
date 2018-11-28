@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="revenue-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="gross income before deductions" type="">
+        <commentary>
+            REVENUE[+income][-tax]
+        </commentary>
+        <examples>
+            The iPod has generated a lot of revenue for Apple.
+            We receive revenue each month from our rental properties.
+            The revenue Mary is receiving from her small bakery is not enough to offset expenses.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="income collected as tax by a government" type="">
+        <commentary>
+            REVENUE[+income][+tax]
+        </commentary>
+        <examples>
+            The government gained revenue last year by raising the capital gains tax.
+            The black market doesn't generate much revenue for the government.
+            Many different streams of revenue fund the various government agencies.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a government department concerned with collecting tax revenue" type="">
+        <commentary>
+            REVENUE[+organization][+department]
+        </commentary>
+        <examples>
+            John worked at Revenue for twelve years.
+            Neither GOA or Revenue was made aware of this issue.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

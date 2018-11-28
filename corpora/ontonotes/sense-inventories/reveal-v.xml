@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="reveal-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="uncover, make visible, show" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He pulled the cloth away to reveal a rabbit in his hat.
+         The inspection revealed that the fuselage had a large crack.
+         The twinkle in her eye revealed a sense of humor.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>NM</pb>
+         <vn>indicate-78-1-1,reflexive_appearance-48.1.2</vn>
+         <fn>Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="disclose, make known" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The actess won't reveal how old she is.
+         The names of the victims were revealed after the families were contacted.
+         The collector will not reveal what he paid for the Van Gogh.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>reveal.01</pb>
+         <vn>say-37.7-1,confess-37.10,characterize-29.2-1-2</vn> 
+         <fn>Reveal_secret</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

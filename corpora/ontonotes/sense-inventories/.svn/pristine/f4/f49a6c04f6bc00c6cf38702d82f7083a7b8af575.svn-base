@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="beckon-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Signal, summon, or gesture at." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] BECKON NP2[patient]
+      NP1[agent] BECKON PP{to NP[patient]}
+      Note: This sense must feature an AGENT doing the signaling.
+      </commentary>
+      <examples>
+      She beckoned to her friends.
+      When you reach the site, beckon so that we might follow.
+      My friend beckoned me to continue on into the forest.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>beckon.01</pb>
+         <vn>wink-40.3.1-1</vn><fn>Gesture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Appear inviting." type="">
+      <commentary>
+      Syntax Includes: 
+      NP1[theme] BECKON (NP2[patient])
+      NP1[theme] BECKON PP{ to NP[patient]}
+      </commentary>
+      <examples>
+      Her eyes beckoned to me.
+      Wind and spray beckon sailors.
+      The shop window decorations beckoned. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>beckon.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

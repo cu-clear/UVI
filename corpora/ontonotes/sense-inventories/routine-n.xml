@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="routine-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="regular method or procedure of doing something" type="">
+        <commentary>
+            ROUTINE[+activity][+procedure][+regular]
+        </commentary>
+        <examples>
+            Mary's daily routine includes an hour at the gym, and lunch at her desk.
+            The young men became bored with the weary routine of factory work.
+            Their routine is to drink beer and shoot some pool after work on Fridays.
+            He hasn't followed the usual routine of a freshman congressman in Washington.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a short performance, often theatrical" type="">
+        <commentary>
+            ROUTINE[+event][+performance][+brief][+theatrical/+competitive]
+        </commentary>
+        <examples>
+            That's an old song-and-dance routine from vaudeville. 
+            Each dance couple performs three routines during the competition.
+            The judges were impressed by the young Romanian's gymnastics routine.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a sequence of logic steps in a computer program" type="">
+        <commentary>
+            ROUTINE[+entity][+symbolic][+sequence][+logic][+program][+computer]
+        </commentary>
+        <examples>
+            John wrote a recursive pattern-matching routine for his computer science project.
+            This manual describes a bunch of utility routines for UNIX. 
+            I had to write a routine to create graphical output of the test results.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

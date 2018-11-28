@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="repository-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a storage facility where things can be deposited" type="">
+        <commentary>
+            REPOSITORY[+entity][+physical][+structure][+container][+storage][+accruing][+artifacts]
+        </commentary>
+        <examples>
+            They have built a repository for nuclear waste.
+            The grocery store has separate repositories for cans and glass bottles.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="someone to whom a secret is entrusted" type="">
+        <commentary>
+            REPOSITORY[+entity][+person][+confidante]
+        </commentary>
+        <examples>
+            The priest was the confessor's only repository.
+            Jane was the frequent repository of her sister's schemes and secrets.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="burial vault for prominent person" type="">
+        <commentary>
+            REPOSITORY[+entity][+physical][+structure][+container][+storage][+vault][+burial]
+        </commentary>
+        <examples>
+            The body of the king is apparently no longer housed in this repository.
+            The repository for the 14th-century knights is beneath the floor of this church.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="amount of accumulated natural resource" type="">
+        <commentary>
+            REPOSITORY[+quantity][+resource][+natural][+accumulated]
+            [+entity][+physical][+substance][+aggregated]
+        </commentary>
+        <examples>
+            This land does not have access to sufficient repositories of water for irrigation.
+            That nation has abundant repositories of oil and natural gas.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="source of information or knowledge" type="">
+        <commentary>
+            REPOSITORY[+relation][+role][+resource][+supplier][+information]
+            [+entity][+abstract][+symbolic][+information][+aggregation]
+        </commentary>
+        <examples>
+            John's mind is a rich repository of baseball lore and statistics.
+            Libraries have served as great repositories of knowledge for centuries.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="burst-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) break apart suddenly; issue forth forcibly." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[patient[concrete]] BURST
+      NP1[theme[concrete]] BURST PP[directional]
+      NP1[agent] BURST NP2[patient]
+    
+      NOTE: Compare to sense 2. This sense implies a container that is
+      bursting or something bursting OUT of a container. Can include
+      metaphorical instances if a container is somehow implied. Also refers
+      to being in a state close to bursting.  Includes transitive usages,
+      (i.e., "Don't burst my bubble, seriously.)   
+      </commentary>
+      <examples>
+      The bubbles burst.
+      The champagne bottle burst.
+      The ice burst the pipes in the basement.
+      Despite all efforts, the dam burst.   
+      Don't burst my bubble, seriously.
+      The Jack burst from the box.
+      The dinner was bursting with flavor.
+      Don was bursting at every seam with his own importance.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,7,8</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>burst.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Force out suddenly, emerge" type="">
+      <commentary>
+      Syntax Includes:
+      NP1 BURST ADJP[manner]
+
+      NOTE: Could imply an emotional outburst. Compare to Sense 1: in Sense
+      2, there is no container implied. Involves perception, not
+      movement. This sense involves a change of state or emotion.     
+      </commentary>
+      <examples>
+      Little children make her burst with joy!
+      She was so overcome that she burst into tears.
+      Katie was bursting with excitement to tell her brother.
+      The trees burst into striking fall color.
+      I threw the book onto the fire and it burst into flames.
+      The crowd burst into chatter.
+      Nadya spontaneously burst into song.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>burst.01</pb>
+         <vn>appear-48.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Move energetically or violently." type="">
+      <commentary>
+      Syntax Includes:
+      NP1 BURST PP[directional]
+      </commentary>
+      <examples>
+      The stock burst upward following the news.
+      As Icarus burst through the clouds, the sun began to melt his wings
+      of wax.
+      Vice President Cheney burst into the press room, growling.
+      He burst out of the house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>burst.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm,greenlm,gouldk" sample_score="-"/>  
+</inventory>

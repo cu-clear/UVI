@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="inject-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to force fluid into by piercing" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] INJECT NP2[patient[concrete]] (PP{IN/INTO NP[location[concrete]]})
+      </commentary>
+      <examples>
+        The hospital mistakenly injected the blood into the wrong patient.
+        The researchers injected the nanorods into mice.
+        When hexane is injected, the hexane rises to the top and vaporizes.
+        We had to inject nutrients into my diabetic cat twice a day.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3,4,5</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>inject.01</pb>
+         <vn>fill-9.8</vn><fn>Injest_substance,Filling,Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to introduce an element" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INJECT NP2[patient[abstract]] (PP{IN/INTO NP})
+      </commentary>
+      <examples>
+        Surely it could have injected some humor into the plot.
+        I injected myself into the conversation whenever possible.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>inject.01</pb>
+         <vn>NM</vn><fn>Filling,Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

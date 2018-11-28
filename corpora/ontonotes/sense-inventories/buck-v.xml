@@ -1,0 +1,83 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="buck-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="oppose, resist" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He bucked the conventional wisdom and took political risks.
+        He bucked the Democratic establishment and declined to support the party's candidate.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>buck.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="jump or move violently or jerkily" type="">
+      <commentary>
+      Note:  Intransitive.
+      Syntax Is:  NP[agent] BUCK
+      </commentary>
+      <examples>
+        The longer you rode that horse, the harder he bucked.
+        I let up on the gas and the car bucked.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>body_internal_motion-49</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to strive with determination" type="">
+      <commentary>
+      Syntax Is: NP[agent] BUCK for NP2[goal]
+      Is: BUCK FOR
+      </commentary>
+      <examples>
+        She's bucking for a promotion.
+        He's bucking for the dean's list.
+        The UNICEF director is bucking for more U.S. aid for the world's children.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>buck.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="throw off" type="">
+      <commentary>
+        NP1[agent] BUCK NP2[patient]
+      </commentary>
+      <examples>
+        The horse bucked me off twice in one lesson!        
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="BUCK UP: take courage" type="">
+      <commentary>
+        Is: BUCK UP
+      </commentary>
+      <examples>
+        Buck up, sweetheart. We'll be home soon.
+        It really bucked me up to have you there.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="buck_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

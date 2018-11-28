@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recovery-n">
+    <commentary>
+        9nov06 update to wn 2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="recuperation of health, healing" type="Event">
+        <commentary>
+            RECOVERY[+event][+return][+gradual][+health]
+            Note: implies return of biological health of specific organisms
+        </commentary>
+        <examples>
+            My recovery from the flu took about a week.  
+            He underwent a number of surgeries but never made a full recovery.
+            The process of recovery is more difficult for older dogs than for puppies.
+            His mind suffered a trauma from which there was no recovery.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>recovery.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the act of retrieval, regaining something lost" type="Event">
+        <commentary>
+	    RECOVERY[+event][+action][+retrieval][+possession]
+	    The act of regaining or saving something lost
+	    </commentary>
+        <examples>
+            The recovery of the stolen files became the CIA's primary objective.
+            After I accidentally deleted my thesis, I used a data-recovery system to get it back.
+            The deep-sea divers attempted a recovery of the sunken treasure.
+            The quarterback made a nice recovery of the ball.
+            The simple operation resulted in the recovery of his sight. (it was lost, now regained)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>recovery.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="return to a prior state" type="Event">
+        <commentary>
+	    RECOVERY[+event][+activity][+return][+prior][+state]
+	    The return to a prior state.
+	    Note: does not refer to the health of specific individual organisms. (Sense 1)
+	    </commentary>
+        <examples>
+            The National Wildlife Foundation was thrilled by the recovery of the bald eagle population. (implies the number of birds increased to previous levels)
+            The recovery of the forest after the fire was surprisingly rapid.
+            He argued that tax cuts were largely responsible for the economic recovery.
+            The rower has improved his recovery after each stroke of the oar. (original position)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

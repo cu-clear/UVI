@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hoard-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="amassed material goods, e.g., coins" type="">
+        <commentary>
+            HOARD[+entity][+goods][+material][+amassed]
+            [+quantity][+amount][+goods][+amassed]
+            Note: usually, but not always, occurs with a qualifier X, 'hoard of X'
+        </commentary>
+        <examples>
+            Mary keeps a small hoard of jelly beans in her top drawer.
+            Someone stole some pieces from Betty's hoard of gold coins.
+            The old miser gloated over his hoards. (no qualifier)
+            The rationing was intended to keep people from accumulating hoards of coffee and sugar.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an amassed body of information, knowledge" type="">
+        <commentary>
+            HOARD[+entity][+symbolic][+information][+amassed]
+            Note: always occurs with a qualifier X in the form 'hoard of X' (unlike sense 1)
+        </commentary>
+        <examples>
+            They have pulled together hoards of incriminating evidence against him.
+            You won't find a hoard of information on that topic anywhere.
+            We wanted to preserve my grandfather's hoard of knowledge about farming in Kentucky during the Depression.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

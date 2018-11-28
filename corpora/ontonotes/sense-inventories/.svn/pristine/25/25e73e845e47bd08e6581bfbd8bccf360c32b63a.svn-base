@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wrench-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="suddenly twist and pull something, as if to remove it" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] WRENCH NP2[theme] (PP[source])
+      NP1[agent] WRENCH NP2[theme] (PP[destination])
+      </commentary>
+      <examples>
+      He wrenched the window off its hinges.
+      She wrenched herself free from his grip.
+      A deep sigh was wrenched from his chest.
+      You have just wrenched from the Germans one of their best and richest colonies.
+      Danny wrenched her arm up behind her back.
+      Red Spring chirped as she wrenched her arm free.
+      Quit Wrenching The Steering Wheel.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wrench.01</pb>
+         <vn>remove-10.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="wring, as one's hands" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] WRENCH NP2[theme[body_part]] (PP[cause])
+      </commentary>
+      <examples>
+      He was wrenching his hands, rubbing his hands on his legs, and he was sweating.
+      She has started wrenching her hands together continuously.
+      She was actually smiling all over her face, wrenching her hands in excitement.
+      The Queen was wrenching her hands in despair.
+      She paced up and down nervously near the window, wrenching her hands in utter misery.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wrench.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="twist a body part suddenly so as to sprain" type="">
+      <commentary>
+      Syntax includes:
+      NP1[experiencer] WRENCH NP2[patient[body_part]]
+      </commentary>
+      <examples>
+      Before Kyle could react, his ankle wrenched.
+      She wrenched her knee while getting to her seat.
+      Claimant spun sideways, wrenching his back.
+      Gaborik did not practice Sunday after wrenching his neck in a mid-ice collision.
+      He wrenched himself out of alignment.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wrench.03</pb>
+         <vn>hurt-40.8.3-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="feel a wrenching emotion" type="">
+      <commentary>
+      Syntax includes:
+      NP1[patient[body_part]] WRENCH (PP[cause])
+      NP1[cause] WRENCH NP2[patient[body_part]]
+      NP1[cause] WRENCH NP2[experiencer]
+      </commentary>
+      <examples>
+      It wrenched her to watch them go.
+      She could not deny herself the inner turmoil that so wrenched her stomach.
+      Dry heaves wrenched her stomach.
+      Her stomach wrenched with dread.
+      Her stomach wrenched.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wrench.01</pb>
+         <vn>pain-40.8.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

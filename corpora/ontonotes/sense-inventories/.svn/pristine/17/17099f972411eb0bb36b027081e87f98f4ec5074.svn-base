@@ -1,0 +1,164 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bond-n">
+    <commentary>
+        WordNet senses 8 and 9 refer to proper names and are not included in groups below.
+        15Mar07 - revised features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="adhesive force between physical entities" type="">
+        <commentary>
+            BOND[+force][+physical][+adhesive]
+        </commentary>
+        <examples>
+            How strong is the bond between hydrogen and oxygen atoms in water molecules?
+            The two components used in Crazyglue will form quite a strong bond when combined.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,10</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="attachment, restraint or shackle between physical entities" type="">
+        <commentary>
+            BOND[+entity][+artifact][+device][+attachment][+restraint]
+        </commentary>
+        <examples>
+            The bonds that hold my old suitcase together are becoming frayed.
+            The prisoner managed to break the bonds around his ankles.
+        </examples>
+        <mappings>
+            <wn version="3.0">5,6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="interest-bearing financial certificate" type="">
+        <commentary>
+            BOND[+entity][+artifact][+document][+certificate][+debt]
+            [+relation][+obligation][+financial][+repayment]
+        </commentary>
+        <examples>
+            The town is issuing bonds to build the new stadium.
+            John has put a third of his assets into blue chip bonds.
+            She bought a savings bond for her granddaughter.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="social allegiance" type="">
+        <commentary>
+            BOND[+state][+social][+allegiance] 
+        </commentary>
+        <examples>
+            They formed a lifelong bond from their shared wartime experiences.
+            The bond between the two nations was strained by disagreements in foreign policy.
+            There are strong family bonds between John and his cousins in Oregon.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>bond.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="bail or surety made against an alleged criminal charge" type="">
+        <commentary>
+            BOND[+relation][+obligation][+financial][+insurance]
+            [+quantity][+amount][+money][+bail]
+        </commentary>
+        <examples>
+            The judge has posted his bond at 1 million dollars.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="type of manufactured paper" type="">
+        <commentary>
+            BOND[+entity][+artifact][+material][+manufactured][+paper]
+        </commentary>
+        <examples>
+            Don't use such heavy bond in the printer or it may jam.
+            We picked out a pale ecru bond for our music programs.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="specific arrangement of brick in a wall" type="">
+        <commentary>
+            BOND[+entity][+artifact][+construction][+masonry]
+        </commentary>
+        <examples>
+            Notice the skillful bond on that 19th-century townhouse.
+        </examples>
+        <mappings>
+            <wn version="Merriam_Webster online">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="goods in a state of government control until duties are paid on them" type="">
+        <commentary>
+            BOND[+entity][+artifact][+merchandise][+warehoused][-taxed]
+        </commentary>
+        <examples>
+            All these warehouses in the port contain bond destined for Europe and North America.
+        </examples>
+        <mappings>
+            <wn version="Merriam_Webster online">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="9" name="whiskey stored 4 years before bottling, under state control" type="">
+        <commentary>
+            BOND[+entity][+substance][+drinkable][+alcoholic][+distilled][+whiskey]
+        </commentary>
+        <examples>
+            The labels got washed off John's best bond in the basement, when it flooded.
+        </examples>
+        <mappings>
+            <wn version="Merriam_Webster online">8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="10" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

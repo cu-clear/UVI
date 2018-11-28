@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cubicle-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a small enclosed room, often used for sleeping" type="">
+        <commentary>
+            CUBICLE[+structure][+small][+walled][+enclosed][+room]
+        </commentary>
+        <examples>
+            The prisoners were locked in cubicles with iron doors and no windows.
+            Each monk at the monastery had his own cubicle with a small bed, table and chair.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a small partitioned area where one studies or works" type="">
+        <commentary>
+            CUBICLE[+structure][+small][+walled][+partitioned][+stall]
+            Note: implies a partitioned, walled area, but not an enclosed room with a door (Sense 1)
+        </commentary>
+        <examples>
+            Students can reserve study cubicles in the library.
+            Mary has the only office, all the other employees just have cubicles to work in.
+            John was distracted by the noise coming from his neighbor's cubicle at work.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

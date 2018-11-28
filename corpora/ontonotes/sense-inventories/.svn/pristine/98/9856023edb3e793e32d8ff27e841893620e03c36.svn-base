@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chance-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Occur or be the case by circumstance." type="">  
+      <commentary>
+      Syntax Includes: NP1 CHANCE COMP
+      </commentary>
+      <examples>
+      I chanced to meet my old friend on the street.
+      We chanced to arrive in time for happy hour.
+      He chanced to see his ex wife at the bar. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>occurrence-48.3.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Risk or gamble (something)." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He chances too much!
+      When you buy these stocks, you are chancing your money.
+      Please chance me for the new company position.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>chance.01</pb>
+         <vn>risk-94-1</vn><fn>Daring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Find an object or abstract entity." type="">
+      <commentary>
+      Includes: CHANCE ON, CHANCE UPON, CHANCE ACROSS
+      </commentary>
+      <examples>
+      Diggers chanced upon an ancient tomb.
+      She chanced on a goldmine.
+      He chanced on a rare kind of mushroom.
+      We chance across opportunities every so often.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="chance_on" version="3.0">1</wn>
+         <wn lemma="chance_upon" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>discover-84</vn><fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

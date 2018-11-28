@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stoppage-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of halted activity, deactivation" type="Event">
+        <commentary>
+            STOPPAGE[+state][+halted][+of_activity]
+        </commentary>
+        <examples>
+            There has been a work stoppage at the mill for two weeks while the new contract is being negotiated.
+            The earthquake has resulted in a general stoppage of basic services to the community.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a physical obstruction to a passage, blockage" type="">
+        <commentary>
+            STOPPAGE[+form][+physical][+obstruction][+of_passage]
+        </commentary>
+        <examples>
+            This fluid is good for clearing out stoppages in your drains.
+            The doctor suspects a stoppage in the patient's upper GI tract.
+            Silt has effectively created a stoppage at the mouth of the river.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an instance of halting some motion" type="Event">
+        <commentary>
+            STOPPAGE[+event][+instance][+halting][+motion]
+        </commentary>
+        <examples>
+            The stoppage of the ball was achieved by a lineman who tackled the quarterback.
+            The terrible noise was the stoppage of our rotary engine.
+            The outfielder's stoppage of the ball prevented a home run.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a knockout in boxing" type="Event">
+        <commentary>
+            STOPPAGE[+event][+knockout][+boxing]
+        </commentary>
+        <examples>
+            The heavyweight's stoppage of his opponent occurred in just three rounds.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

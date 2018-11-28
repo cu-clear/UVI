@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="slump-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a trend of lower performance or activity" type="">
+        <commentary>
+            SLUMP[+activity][+performance][+specific][+decreased]
+            Note: refers to decreases in performance or activity of itemized entities.
+        </commentary>
+        <examples>
+            The team's two best batters have had a slump so far this season.
+            There has been a slump in attendance at ballet performances this year.
+            John's been in a real slump ever since he broke up with Mary.
+            Stocks in the energy sector have rebounded after their recent slump.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a period of economic downturn" type="">
+        <commentary>
+            SLUMP[+state][+economic][+general][+downturn]
+            Note: refers to a general state of economic downturn, not itemized entities
+        </commentary>
+        <examples>
+            During the housing slump these properties lost a third of their value. (Note: the slump refers to a general, widespread housing downturn, not just 'these properties'
+            There are signs that Germany may be coming out of its long economic slump.
+            Economists describe it as a post-election slump.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a downward slide of land or rock" type="">
+        <commentary>
+            SLUMP[+form][+geological][+slide][+downward][+land]
+        </commentary>
+        <examples>
+            The geologist pointed out a large slump of sandstone.
+            Water ran down the slump, causing erosion of the limestone.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

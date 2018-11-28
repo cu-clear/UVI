@@ -1,0 +1,207 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ride-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move, continue, or travel somewhere" type="">  
+      <commentary>
+        Syntax Includes: 
+        NP1[rider/mover] RIDE (ADVP) (PP[directional])
+        NP1[agent] RIDE NP2[patient] (ADVP) (PP[directional])
+        Includes: RIDE AWAY, RIDE HORSEBACK, RIDE OFF
+       </commentary>
+      <examples>
+        The boy rode on the donkey and the old psychologist walked.
+        We rode the train from Sydney to Perth.
+        She loves to ride her new motorcycle through the town.
+        Others rode to freedom on trucks and in cars.
+        Together they mounted the laird's good mare and rode away/off into the night.
+        By 17, Thompson had ridden horseback from central New Mexico to Calgary.
+        Let it ride for now.
+        The train rode.
+        The ambassador rode on and on till he came at the very last to the house.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,10</wn>   
+         <wn lemma="ride_horseback" version="3.0">1</wn>
+         <omega/><pb>ride.01</pb>
+         <vn>nonvehicle-51.4.2</vn><fn>Ride_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to travel or move somewhere" type="">
+      <commentary>
+        Syntax Is: NP1[agent] RIDE NP2[patient] PP[directional]
+        Note: includes abstract uses.
+       </commentary>
+      <examples>
+        I think you'd better ride me over to the hospital.
+        My father put me on his old bicycle and rode me to the wedding banquet.
+        She really rode me to realize my full potential.
+        I am asking myself which devil rode me to plan and push this project.
+        Gambling quickly rode him to poverty.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Operate_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move, travel, or slide along some path, body, state, or support" type="">
+      <commentary>
+        Syntax Is: NP1[agent] RIDE NP2[patient]
+        Includes: RIDE UP, RIDE ON
+        Note: Metaphorically (and also literally, in some cases) this sense entails moving
+        along a body for the benefit of something. In case of birds example, the current
+        of air helps themp lift up. In case of Prime Minister example, he benefits from
+        popularity.
+      </commentary>
+      <examples>
+        In 2003, at a spot on Maui called Jaws, a surfer rode the largest wave so far.
+        In the end we just rode the freeway and enjoyed the 2 meters of lane to ourselves.
+        The inner lining rides up my legs and becomes very uncomfortable if I run in them.
+        The ship rode at a high angle over the crest of the wave and down the other side.
+        The birds will catch the front end of a wave and ride the current of air.
+        The Prime Minister is riding on a wave of popularity.
+        If Mondale can ride a tide of sympathy votes, he might get to keep his job.
+        Ride the boat at a constant 1/4 throttle opening for about 1 minute.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,11,12</wn>
+         <omega/><pb>ride.01</pb>
+         <vn>nonvehicle-51.4.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="RIDE ON-be contingent on success or viability of something" type="">
+      <commentary>
+        Syntax Is: NP1[topic] RIDE ON NP2
+        Is: RIDE ON
+      </commentary>
+      <examples>
+        Most of the weight rides on the central shaft.
+        The future of the company now rides on the new managing director.
+        I have a lot of money riding on that horse.
+        Your grade will ride on your homework, attendance, and participation.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="RIDE OUT-endure through a trial of endurance" type="\">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RIDE OUT NP2[actor]
+        NP1[agent] RIDE OUT NP2[topic]
+      </commentary>
+      <examples>
+        Many companies did not manage to ride out the recession.
+        The ship managed to ride out the storm.
+      </examples>
+      <mappings>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>ride.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="apply pressure, control, or criticism" type="">
+      <commentary>
+        Syntax Is: NP1[agent] RIDE NP2[patient] (PP)
+        Includes: RIDE THE HERD ON
+      </commentary>
+      <examples>
+        Don't rest foot on clutch pedal while driving or ride the clutch for long periods.
+        I have promised not to ride him so hard in my responses to his posts.
+        Your boss is riding you much too hard at the moment.
+        He was riding me about my English grammar constantly.
+        Adams wanted the national bank to ride the herd on issuing too many notes.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,13</wn>
+         <wn lemma="ride_herd" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="(cause to) anchor in a particular place" type="">
+      <commentary>
+       Note: may include metaphorical anchoring.
+      </commentary>
+      <examples>
+        The ship rode at anchor in Eniwetok until 17 July when she returned to sea.
+        The moon rode high in the night sky.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="function in a particular manner when moving" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        By 1600, the weather was improving and the ship rode better.
+        This new model supposed to ride well over rough terrain.
+        My new truck rides smoothly.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="copulate with" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The bull rode the cow.
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="drive horse or cattle while accompanying them" type="">
+      <commentary>
+        Includes: RIDE THE HERD
+      </commentary>
+      <examples>
+        These weeks are spent riding the herd and moving cattle to fresh grass and water.
+      </examples>
+      <mappings>
+         <wn lemma="ride_herd" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="RIDE ROUGHSHOD OVER-treat harshly without consideration" type="">
+      <commentary>
+      Is: RIDE ROUGHSHOD OVER
+      </commentary>
+      <examples>
+        They accused the government of riding roughshod over parliamentary procedure.
+        Insurance companies have rode roughshod over what doctors could prescribe for patients.
+      </examples>
+      <mappings>
+         <wn lemma="ride_roughshod" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="RIDE BENCH-be out of the game" type="">
+      <commentary>
+      Is: RIDE (THE) BENCH
+      </commentary>
+      <examples>
+        She played in 24 games and rode the bench completely for seven.
+      </examples>
+      <mappings>
+         <wn lemma="ride_the_bench" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

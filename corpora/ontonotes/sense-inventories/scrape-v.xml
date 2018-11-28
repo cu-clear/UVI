@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="scrape-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="injure, scratch the surface" type="">  
+      <commentary>
+        NP1[agent] SCRAPE NP2
+      </commentary>
+      <examples>
+        He had scraped his knees.
+        Scrape the wallpaper off before painting the wall.
+        She scraped her fingernails down the chalkboard.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>scrape.01</pb>
+         <vn>cut-21.1-1,wipe_manner-10.4.1-1</vn><fn>Friction,Make_noise,Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make by scraping" type="">
+      <commentary>
+        NP1[agent] SCRAPE NP2 PP NP3[location]
+       
+        NOTE: Compare carefully to sense 1. Unlike sense 1, this sense
+        involves creating an object (NP2) by scraping.
+      </commentary>
+      <examples>
+        She scraped a letter into the stone.
+        He scraped their names on the tree.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="gather; manage with difficulty" type="">
+      <commentary>
+        NOTE: Includes SCRAPE UP
+      </commentary>
+      <examples>
+        They managed to scrape together some cash.
+        For every big earner, there were hundreds more just scraping along.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="scrape_up" version="3.0">1</wn>
+         <omega></omega><pb>scrape.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="bend the knees and bow" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="comprise-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="include or be composed of, parts are the object, general to specific" type="">
+      <commentary>
+       Syntax Is:
+        NP1[product] COMPRISE NP2[attribute([plural])]
+       Note: Watch for passives in both sense 1 and sense 2!
+      </commentary>
+      <examples>
+        EnCore currently comprises three major components.
+        The land he conquered comprised several provinces.
+        A totally new idea is comprised in this paper.
+        The film is comprised of four violent action scenes tied together by nearly 50 minutes of filler.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>comprise.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="form or compose, the whole is the object, specific to general" type="">
+      <commentary>
+       Syntax Is:
+         NP1[attribute([plural])] COMPRISE NP2[product]
+      </commentary>
+      <examples>
+        These components comprise the communications system.
+        These few men comprise his entire army.
+        Liberals comprise the majority of the blogosphere.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>comprise.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

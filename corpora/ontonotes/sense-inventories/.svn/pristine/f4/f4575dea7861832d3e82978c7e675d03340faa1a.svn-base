@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="greet-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="receive or welcome in a certain manner" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] GREET NP2[patient] (ADVP[manner])
+        NOTE: This sense applies specifically to the act of saying 'Hi,
+        Hello' etc. If you are unsure whether an actual salutation occured,
+        choose sense 2. 
+      </commentary>
+      <examples>
+        Each immigration and customs official he passed simply greeted him.
+        We could have cordially greeted them as friends.
+        I recognized her at once when I greeted her for her initial visit.
+        Once at the hotel, the doorman greeted me by name.
+        The cow greeted her host with a low moo.
+        The President was greeted with catcalls.
+        The supporters greeted the news by handing out sweets and setting
+        off fireworks.
+        Activists greeted the news with cautious optimism.
+        She was greeted by strongest applause of the day. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>greet.01</pb>
+         <vn>judgement-33</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be perceived by someone" type="">
+      <commentary>
+        Syntax Is: NP1[stimulus[inanimate]] GREET NP2[experiencer[animate]]
+      </commentary>
+      <examples>
+        The smell of a cake baking greeted them.
+        Loud music greeted him when he entered the apartment.
+        She was greeted by the Christmas tree, all dried and shriveled.
+        The smell of baking bread greets you as you enter the kitchen. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,clarklm,corvey" sample_score="-"/>
+</inventory>

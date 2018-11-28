@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="welcome-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="gladly accept or approve" type="">  
+      <commentary>
+        Syntax is: NP1[agent] WELCOME NP2
+      </commentary>
+      <examples>
+        She welcomed serious discussion of literature and science.
+        I welcome your proposals.
+        Pets are welcomed at the Chippewa Moraine State Recreation Area.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>welcome.01</pb>
+         <vn>judgment-33.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="to greet upon arrival, to receive someone" type="">  
+      <commentary>
+        Syntax is: NP1[human] WELCOME NP2[human]
+                   NP1[animate] WELCOME NP2[human]
+                   NP1[human] WELCOME NP2[animate]
+                   NP1[animate] WELCOME NP2[animate]
+      </commentary>
+      <examples>
+        He welcomed the new students into the department.
+        Welcome to my world!
+        A Navy petty officer is enthusiastically welcomed by his dog after returning home.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <omega/><pb>welcome.01</pb>
+         <vn>admit-65</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

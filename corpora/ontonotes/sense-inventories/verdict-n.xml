@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="verdict-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a ruling or finding by a jury" type="">
+        <commentary>
+            VERDICT[+event][+speech_act][+decision][+finding][+legal][+by_jury]
+        </commentary>
+        <examples>
+            The jury has returned a verdict of 'not guilty'  in the case of Jones vs. Utah.
+            The jury is still deliberating and has not reached a verdict.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a personal opinion" type="">
+        <commentary>
+            VERDICT[+event][+speech_act][+opinion][+personal]
+            [+state][+mental][+judgment]
+        </commentary>
+        <examples>
+            So what's your verdict on my new hairdo? 
+            John's verdict of Mary's culinary skills was fairly harsh.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

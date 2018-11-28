@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="progress-v">    
+   <commentary>
+   INCLUDES: PROGRESS TO
+   </commentary>
+   <sense n="1" type="" name="to develop or advance without explicitly
+   reaching a certain level" group="1">  
+      <commentary>
+	Syntax Includes: 
+        NP1[topic] PROGRESS[incompletive] PP
+        NP1[topic] PROGRESS[incompletive] ADVP
+        NP1[topic] PROGRESS[motion] PP[locative]
+        NP1[topic] PROGRESS[motion] ADVP
+        NOTE: compare carefully to sense 2; sense 1 does not imply attaining a goal, or
+        stepping up to a specific, defined level; sense 1 does not require
+        an agentive subject, but sense 2 does require an agentive subject
+      </commentary>
+      <examples> 
+	John has progressed tremendously this past year with his violin.
+	These nations have not progressed economically in decades.
+	Management should address this issue before it progresses further.
+        Time progressed as an endless parade of cold gray days.
+        The old steam engine progressed slowly up the twisting tracks.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>progress.01</pb>
+         <vn>NP</vn><fn>Progress</fn>  
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense n="2" type="" name="reach an objective, attain a benchmark or goal" group="1">  
+      <commentary>
+	IS: PROGRESS TO
+	Syntax Is: NP1[agent] PROGRESS TO NP2[goal]
+      </commentary>
+      <examples>
+        John has progressed to an advanced level within this year of violin playing.
+	You have to kill both green and blue monsters to progress to the next level.
+	They are worried their child will not progress to second grade next year.
+	Our team is progressing to the finals.
+        The enemy has progressed to the outskirts of the city!
+        The embryo had progressed only to a clump of eight identical cells.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="progress_to" version="3.0">1</wn>
+         <omega></omega><pb>progress.01</pb>
+         <vn>NP</vn><fn>Progress</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,vieweg,duffielc,corvey,dehart" sample_score="-"/>  
+</inventory>

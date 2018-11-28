@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="waver-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="falter, hesitate" type="">  
+      <commentary>
+        Syntax is: NP1 WAVER
+      </commentary>
+      <examples>
+        She never wavered in her faith.
+        I'm sure Mary's enthusiasm hasn't wavered in her 28 years with the
+        district.
+        The authorities never wavered in defining martial law as essential
+        for national security.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>waver.01</pb>
+         <vn>NM</vn><fn>Waver_between_options</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fluctuate, move back and forth" type="">
+      <commentary>
+        Syntax is: NP1[inanimate] WAVER
+      </commentary>
+      <examples>
+        The candle flame wavered for a second as if a breeze stirred the
+        air though all windows where closed.
+        International market conditions wavered in 1997 and 1998.
+        Flickers of sunlight wavered through the green depths and marked
+        the rippled sand beneath him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>modes_of_being_with_motion-47.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="emit unsteady sounds" type="">
+      <commentary>
+        Syntax is: NP1[theme] WAVER
+      </commentary>
+      <examples>
+        From the backseat of a tuk-tuk, his voice barely wavered from its
+        matter-of-fact tone.
+        The band's basic sound never wavered.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

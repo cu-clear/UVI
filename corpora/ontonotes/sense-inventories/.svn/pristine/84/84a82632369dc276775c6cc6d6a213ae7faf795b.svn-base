@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mess-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="create a mess or disorder" type="">  
+      <commentary>
+        Includes: MESS UP
+      </commentary>
+      <examples>
+        I think he messed up badly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="mess_up" version="3.0">1,2,3</wn>
+         <omega></omega><pb>mess.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="eat in a mess hall" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We all messed together in the Sanderses' cabin.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="spend time idly; be about" type="">
+      <commentary>
+        Is: MESS ABOUT, MESS AROUND
+      </commentary>
+      <examples>
+        I messed about near home.
+        The old lady is usually messing around in her little house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="mess_about" version="3.0">1</wn>
+         <wn lemma="mess_around" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="intervene, meddle" type="">
+      <commentary>
+        Includes: MESS WITH
+      </commentary>
+      <examples>
+        Stop messing with fancy salon hair products.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mess.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="unlock-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="open the lock of; return from a locked state" type="">  
+      <commentary>
+        Syntax includes: NP1[instrument] UNLOCK NP2[concrete]
+                         NP1[agent] UNLOCK NP2[concrete]
+      </commentary>
+      <examples>
+        She unlocked the window and opened it.
+        Unlock the door so Byron can come in.
+        If you buy a used cell phone, make sure the seller unlocks it
+        first.
+        You need your PIN number to unlock your account. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>unlock.01</pb>
+         <vn>disassemble-23.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="set free or release" type="">
+      <commentary>
+        syntax includes: NP1[concrete] UNLOCK NP2[abstract]
+                         NP1[abstract] UNLOCK NP2[abstract]
+      </commentary>
+      <examples>
+        His voice unlocked her hidden feelings. 
+        A desire was unlocked in her after the encounter.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="circularize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="publicize, cause to become widely known
+   throug circulation" type="">  
+      <commentary>
+Syntax includes:
+NP1[agent] CIRCULARIZE NP2[Theme]
+      </commentary>
+      <examples>
+He circularizes his trade, sends mailings to advertisers when requested.
+They published it for about two years, circularizing the profession.
+During the trial she circularized a fantasy to prove the carpenter innocent.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>circularize.01</pb>
+         <vn>contribute-13.2-1-1</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="canvass, poll for opinions, support" type="">
+      <commentary>
+Syntax includes: 
+NP1[agent] CIRCULARIZE NP2[patient] PP {for NP}
+Note: Preposition often indicates desired information or purpose of
+circularizing. 
+      </commentary>
+      <examples>
+They circularized for information. 
+They circularized all households within easy walking distance. 
+They circularized 30000 of the medical profession, inviting them to reply.
+The Executive Board was circularized four times on the following matters...
+He circularizes the owners of receivers he made several years back.
+In 1922 she circularized medical schools about their teaching of birth control.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>circularize.02</pb>
+         <vn>nm</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="Distribute circulars: often
+         advertisements or questionaires" type="">
+      <commentary>
+Syntax includes: 
+NP1[agent] CIRCULARIZE NP2[recipient] PP{with NP[theme]}
+Note: thing distributed is often oblique and distributed-to is syntactic
+object. 
+      </commentary>
+      <examples>
+He circularizes these customers at intervals with letters and circulars.
+They circularized all their members with a new list of prices.
+They circularized all units with a reminder to send in regular returns.
+They circularized 100000 discount tickets. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>circularize.02</pb>
+         <vn>nm</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="cause to be circular in shape" type="">
+      <commentary>
+      </commentary>
+      <examples>
+They circularized the orbit of their spacecraft.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>np</pb>
+         <vn>nm</vn><fn>nm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

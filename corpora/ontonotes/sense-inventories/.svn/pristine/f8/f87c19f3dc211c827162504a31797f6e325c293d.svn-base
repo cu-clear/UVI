@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="drape-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="An agent places itself somewhere." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] DRAPE 
+      </commentary>
+      <examples>
+      The cat draped herself on the sofa.
+      The woman practically draped herself on her husband. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>drape.01</pb>
+         <vn>spray-9.7-2</vn><fn>Placing,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) be covered with something." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The mountain was draped by tropical trees.
+      Drape the patient prior to examination.
+      We should drape the statue with a sheet.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>drape.01</pb>
+         <vn>spray-9.7-2</vn><fn>Placing,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,183 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rip-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="separate violently; split or tear violently" type="">
+      <commentary>
+        Includes: RIP UP, RIP INTO, RIP FROM, RIP AWAY, RIP APART
+        
+        NOTE: may include metaphorical usages
+        
+        NOTE: please compare carefully to sense 6, meaning &quot;to open&quot;. Also
+        compare carefully to sense 4 - if the metaphorical RIP INTO/RIP TO
+        PIECES/RIP APART can be construed in any way to mean 'to criticize'
+        tag as sense 4.
+          
+        Syntax Is: NP1 RIP NP2
+      </commentary>
+      <examples>
+        The pen ripped the paper.
+        He winced as his sleeve caught on a splinter and the cloth ripped. 
+        Skewers of white-hot metal from the explosion had ripped into the Stryker. 
+        Dozens of bullets ripped into the creature's Armani suit and it finally fell to the ground.
+        This was the economic change that ripped into the fabric of American society.
+        Soon after, winds up to 200 mph ripped the roof from the school as the twister struck.
+        The different forces acting on its two constituent bodies would have ripped them apart.
+        His cherished base of operations is ripped from his grasp by the cold-eyed French bean-counters.
+        So, I am not the only person to have my heart ripped out of my chest and presented to me on a canoe polo paddle.
+        It seems to have to be ripped from my cold, dead fingers.
+        I'm sorry all your dreams for me have all been ripped away.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="rip_up" version="3.0">1</wn>
+         <omega/><pb>rip.01,rip.03</pb>
+         <vn>break-45.1,cut-21.1-1,split-23.2</vn><fn>Cause_to_fragment,Damaging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move quickly and violently" type="">
+      <commentary>
+        NOTE: This implies that the NP is moving along a path. 
+        Compare to sense 1, material isn't being torn apart. In
+        this sense, NP2 must be a location.
+
+        Syntax Includes:
+        NP1 RIP {PP NP[location]}
+        NP1 RIP {PP[directional]}
+      </commentary>
+      <examples>
+        The tornado ripped along the coast.
+        She hurled herself to the side as a bolt of lightning ripped into the ground.
+        The staccato of the coaxial machine gun ripped into the night.
+        A turquoise Iroc with the t-top popped ripped into the teachers' parking lot.
+        Deadly Hurricane Ivan ripped into Jamaica with powerful winds, torrential rains and huge waves today.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>rip.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="RIP OFF: deceive or cheat someone; steal" type="">
+      <commentary>
+       IS: RIP OFF
+
+       Syntax Is: NP1[agent] RIP OFF NP2
+      </commentary>
+      <examples>
+        I can almost guarantee you that the people that ripped her off do not own property.
+        They even ripped off the documentation, copying this bit of text directly from the documentation.
+        Also his mechanics ripped him off for the time they said it took.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="rip_off" version="3.0">1</wn>
+         <omega/><pb>rip.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="RIP INTO: criticize or verbally abuse" type="">
+      <commentary>
+        NOTE: Compare to senses 1 and 6. This sense does not include
+        physically ripping or ripping open.
+        Includes: RIP INTO
+        Syntax Is: NP1[agent[human]] RIP (INTO) NP2[patient[human]]
+      </commentary>
+      <examples>
+        The father ripped into the teachers for teaching the kids lies.
+        He ripped into the White House throughout the article.
+        The Senator ripped into the President's plans for personal savings accounts.
+        He also wrote, produced and directed his own film, which critics ripped into like ravenous monkeys in a banana patch. 
+        The press ripped the senator apart in light of the recent scandal.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="intensely or violently initiate activity" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] RIP NP2[patient[abstract]]
+        Includes: RIP OUT, RIP INTO
+
+        NOTE: compare carefully to sense 6; the objects and surrounding 
+              context for this sense imply activity; in sense 6, the same
+              nouns in a different context may imply the contents of a
+              container; compare also to sense 2 where the beginning of the
+              process is not emphasized.
+      </commentary>
+      <examples>
+        He ripped into the opener and the crowd started screaming.
+        Then they ripped into the song faultlessly.
+        We had dinner and ripped into the present exchange. (note: it is the 'exchange'--an activity--being 'ripped into,' not the presents.)
+        He ripped out a vicious oath.
+        I haven't ripped into the project yet, so I do not know what is under the present deck. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="rip_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="tear open, break into a container" type="">
+      <commentary>
+        Includes: RIP INTO
+
+        NOTE: Compare to sense 1. This sense only includes opening, while
+        sense 1 includes separating or splitting.
+
+        Syntax Is: NP1[agent] RIP INTO NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        I still haven't ripped into the macbook, this is big for me.
+        And they weren't let down when i finally got home an ripped into my new toy.
+        After she got home she ripped into the packages and started to eat. (note: initiation of eating is not implied by the verb phrase containing 'rip,' but by the second verb phrase, 'started to eat.')
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="cut wood along the grain" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I ripped the pieces to the correct width, then cross cut them to the right.
+        To start, I ripped the workpiece down the middle, parallel to the face grain. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="import an audio file directly from CD" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I ripped the same John Coltrane album to MP3.
+        You can carry your collection with you once you've ripped the files from the discs with iTunes.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey,clarklm,greenlm" sample_score="-"/>
+</inventory>

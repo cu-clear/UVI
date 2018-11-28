@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mix-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="commercially prepared dry food mixture" type="">
+        <commentary>
+            MIX[+artifact][+food][+dry][+prepared][+commercially][+mixture]
+            Note: a special, narrow usage of Sense 2.
+        </commentary>
+        <examples>
+            Betty said the cake was made from a mix.
+            I like to keep biscuit and muffin mixes in the pantry.
+            You only add eggs and butter to this brownie mix.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a blended substance from separate components" type="">
+        <commentary>
+            MIX[+substance][+blended][+from_components][+separate]
+        </commentary>
+        <examples>
+            This green pigment is a mix of blue and yellow.
+            The forecast for tomorrow is a wintry mix.  (combination of snow, rain and ice)
+            Mary's homemade party mix is salted cashews, pretzels, and buttered wheat chex. 
+            The bartender uses his own secret mix to make a whiskey sour.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="proportions of different constituents forming a whole" type="">
+        <commentary>
+            MIX[+collection][+subsets][+proportions][+of_whole]
+        </commentary>
+        <examples>
+            Their school has a good social mix of students.
+            Sally's parties usually have an interesting mix of writers, painters and actors.
+            The manager wants a mix of both full-time and part-time staff in her department.
+            The movie's plot offers a good mix of romance and suspense. 
+            The hotel's decor is a strange mix of antique and modern furnishings.
+            This city is a fascinating mix of cultures and different languages.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of combining, blending, integrating" type="Event">
+        <commentary>
+            MIX[+event][+combining][+blending]
+        </commentary>
+        <examples>
+            The bartender's mix of the martini took less than a minute.
+            The mix of cooler water into the warmer water causes an upwelling of nutrients in the ocean.
+            The student's thoughtless mix of the two chemicals caused an explosion in the lab.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="combined audio tracks in a recording" type="Event">
+        <commentary>
+            MIX[+artifact][+media][+audio][+combined_tracks]
+        </commentary>
+        <examples>
+            The senior sound engineer approved the final mix of the recording.
+            The rock singer didn't care for the dance mix of his most famous hit.
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

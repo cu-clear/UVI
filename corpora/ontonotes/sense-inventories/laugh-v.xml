@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="laugh-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="produce laughter" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        I haven't laughed out loud at a comic in quite awhile.
+        I thought he was joking so I laughed loudly in his face.
+        Jenna blushed and laughed softly as she noticed that he was looking at her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="">1</wn>   
+         <wn lemma="laugh_loudly" version="">1</wn>
+         <wn lemma="laugh_softly" version="">1</wn>
+         <omega></omega><pb>laugh.01</pb>
+         <vn>nonverbal_expression-40.2</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="speak in a laughing manner" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He laughed that at 102, he doesn't have many friends his own age.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <omega></omega><pb>laugh.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="dismiss a problem by laughing or pretending to be amused" type="">
+      <commentary>
+        Is: LAUGH OFF, LAUGH AWAY
+      </commentary>
+      <examples>
+        There's something about the eeriness of this episode that you can't laugh off.
+        But he laughed away their warnings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="laugh_away" version="">1</wn>
+         <wn lemma="laugh_off" version="">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="LAUGH AT: ridicule" type="">
+      <commentary>
+        Is: LAUGH AT
+      </commentary>
+      <examples>
+        After all, the experts laughed at the Wright Brothers too!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="laugh_at" version="">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>  
+</inventory>

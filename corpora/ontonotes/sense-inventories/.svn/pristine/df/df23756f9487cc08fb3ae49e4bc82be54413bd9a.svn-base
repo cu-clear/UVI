@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="disturbance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the interference or disruption of a state or process" type="">
+        <commentary>
+            DISTURBANCE[+activity][+interruption]
+            Note: implies an agent interrupts a prior state or activity in some way.
+            Note: usually implies the interrupted state/activity of a living being.
+        </commentary>
+        <examples>
+            The child's constant disturbance of Mary's concentration made it impossible for her to get any work done.
+            That fence along the beach is to prevent the disturbance of nesting birds in the vicinity.
+            Mary's late night phone calls were a disturbance to John's sleep.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,5</wn>
+            <omega/><pb>disturbance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an outburst, commotion" type="">
+        <commentary>
+            DISTURBANCE[+activity][+outburst][+fight/+commotion]
+            Note: implies noise, ruckus, commotion
+            Note: does not imply widespread social unrest or violence on large scale (Sense 5)
+        </commentary>
+        <examples>
+            The police log reported several disturbances last week at a local tavern.
+            The loud drunk men created a disturbance as they walked along the otherwise quiet street.
+            Residents worry that the new runway will create additional disturbance from overflying aircraft.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb>disturbance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a medical disorder, abnormal functioning" type="">
+        <commentary>
+            DISTURBANCE[+state][+physiological][+condition][+abnormal]
+        </commentary>
+        <examples>
+            The child's emotional disturbance can be treated with medication.
+            These patients all suffer from severe mental disturbances.
+            Epilepsy is caused by electrical disturbances in the brain.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an environmental perturbation, e.g., meteorological" type="">
+        <commentary>
+            DISTURBANCE[+activity][+perturbation][+environmental]
+            Note: does not interrupt the state or activity of living beings (Sense 1)
+        </commentary>
+        <examples>
+            Electrical disturbances caused by sun spots knocked out communications for a few minutes.
+            This instrument can measure even a very slight seismic disturbance along the fault.
+            The big storm waves caused a disturbance of the sandy bottom of the lagoon.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>disturbance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="social upheaval, civic unrest" type="">
+        <commentary>
+            DISTURBANCE[+state][+social][+unrest][+civic]
+            Note: implies widespread tumult, large-scale violence
+        </commentary>
+        <examples>
+            There are reports of new disturbances along the border between the countries.
+            The disturbance started when a leader of their community was sentenced to life in prison.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>disturbance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

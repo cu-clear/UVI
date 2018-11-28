@@ -1,0 +1,98 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="chance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an opportunity" type="">
+        <commentary>
+            CHANCE[+state][+situation][+opportunity]
+            Note: implies a situation where one can achieve a goal
+            Note: does not imply the situation arose randomly, different from Sense 2
+        </commentary>
+        <examples>
+            They never gave him a chance to explain what happened.
+            This turn of events presents a chance for peace negotiations to go forward.
+            She had many chances to apologize but never did.
+            This program aims to give poor children a fair chance of getting an education.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="events without apparent cause, random occurrence, luck" type="">
+        <commentary>
+            CHANCE[+event][+random][+apparently]
+            Note: emphasis is on a specific event which has no apparent cause
+            Note: does not imply an undesirable outcome, different from Sense 3
+        </commentary>
+        <examples>
+            By chance I found Jane's watch under the car seat.
+            The staff left nothing to chance when preparing the president's trip abroad.
+            Black jack is supposed to be a game of chance.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="risk, potential bad outcome" type="">
+        <commentary>
+            CHANCE[+state][+potential][-desirable]
+            Note: entails a notion of likelihood, but the focus is on the avoidance of a negative outcome
+            Note: a restricted, negative usage of Sense 4, emphasizing avoidance, not the abstract measurement of probability.
+        </commentary>
+        <examples>
+            John is taking too many chances on the stock market with his portfolio.
+            This is a chance we'll have to take. (implies we'd prefer -not- to take it)
+            They fenced their yard to avoid the chance of having the children run into the street.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a measure of the likelihood or probability of an event" type="">
+        <commentary>
+            CHANCE[+quantity][+measure][+likelihood] 
+            Note: emphasis is on the amount of likelihood of some situation, not the situation itself.
+        </commentary>
+        <examples>
+            Is there any chance of him taking that job in London?
+            What are the chances of rolling ten sixes in a row?
+            Our team doesn't stand a chance to win the championship. (the odds are against us)
+            Fat chance!  (slang meaning almost no likelihood)
+            There's a slim chance it will rain tonight.
+            Chances are they are sitting on a beach somewhere with a cold drink in hand.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

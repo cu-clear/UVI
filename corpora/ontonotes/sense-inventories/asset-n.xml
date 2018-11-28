@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="asset-n">
+    <commentary>
+        8Jan08 updated to wn 2.1, added 2 senses, modified definition, added examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a useful  trait or quality relative to some context" type="">
+        <commentary>
+            ASSET[+quality][+trait][+advantageous][+contextually]
+            something that is useful or valuable in a context
+        </commentary>
+        <examples>
+            I think that her positive attitude will be an asset to the project.
+            Quick reflexes are his chief asset as a ball player.
+            The thriving art community has become an asset for the city.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="property owned by individual or company" type="">
+        <commentary>
+            Property that has value, which is owned by an individual or company
+            ASSET[+entity][+aggregate][+property][+with_value][+owned]
+        </commentary>
+        <examples>
+            The company must sell off some assets to finance their debt.
+            Assets and debits should be equal on a balance sheet.
+            They assumed that the successful entrepreneur's assets were substantial. (he is wealthy)
+        </examples>
+        <mappings>
+            <wn version="MCAC">1b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="military equipment and big weapons" type="">
+        <commentary>
+            ASSET[+entity][+artifact][+equipment][+military]
+            military equipment and large weaponry used in battle
+        </commentary>
+        <examples>
+            The big transport planes deliver assets such as tanks to the front line.
+            Air strikes have destroyed or damaged most of the enemy's land-based assets.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

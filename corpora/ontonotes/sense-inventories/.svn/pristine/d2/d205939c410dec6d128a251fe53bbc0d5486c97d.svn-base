@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="oil-n">
+    <commentary>
+        11Jun08 - split out senses 3,4,5 from sense 1 added features, update wn2.1 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="liquid hydrocarbon substance used as fuel, petroleum" type="Entity">
+        <commentary>
+            OIL[+substance][+natural][+processed][+hydrocarbon][+fuel]
+        </commentary>
+        <examples>
+            Oil is $53.21 a barrel.
+            What type of oil does that engine use, gasoline or diesel?	
+            This is an old fashioned lamp that burns oil.
+            How often should you change the oil in your car?  (derived from petroleum, used as lubricant)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="oil companies, collectively" type="Abstraction">
+        <commentary>
+            OIL[+entity][+organization][+industry][+petroleum]
+            Refers to the petroleum industry  in general
+        </commentary>
+        <examples>
+            The President is taking contributions from big oil.
+            The oil lobby has lot of power in the government.
+            I invested my IRA in oil!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a lubricant substance that protects or seals a surface" type="">
+        <commentary>
+            OIL[+substance][+natural][+processed][+lubricant][+protective]
+        </commentary>
+        <examples>
+            John rubbed the wood with linseed oil.
+            The masseur offered his client a selection of scented oils for the massage.
+            This moisturizer replenishes the natural oils of the skin.
+            Mary applied a liberal dose of suntan oil before going to the beach.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="edible fatty acids derived from plants" type="">
+        <commentary>
+            OIL[+substance][+natural][+processed][+fatty_acid][+edible]
+        </commentary>
+        <examples>
+            Safflower oil is less saturated than coconut oil.
+            This diet recommends lowering your intake of fats and oils.
+            I fried the fish in vegetable oil.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="pigments used in art, painting" type="">
+        <commentary>
+            OIL[+substance][+natural][+processed][+pigment][+painting]
+        </commentary>
+        <examples>
+            This seascape was painted in oil, and that one was painted in acrylics.
+            The artist said she works mostly in oils.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

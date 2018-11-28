@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="people-n">
+    <commentary>
+        Added senses, modified definitions, added examples and comments. ahouston.
+    </commentary>
+    <sense group="1" n="1" name="a general reference to any group of humans" type="">
+        <commentary>
+            PEOPLE[+human][+group][+general]
+            Note: refers to either general group or a group identified by a trait, e.g., business, wealth, misfortune, etc.
+            Note: the traits in sense 1 are less intrinsic than is the case for sense 2 (class), and sense 4 (ethnicity)
+        </commentary>
+        <examples>
+            Over 600 people gathered at the firehouse on Sunday.
+            Hardly any people attended the lecture.
+            Wild animals are generally afraid of people.
+            Only wealthy people can afford to live in that town anymore.
+            It's a weekly round table for business people.
+            Some crazy people are threatening to blow up Brooklyn Bridge.
+            Those poor people stood in the rain three hours to get tickets to the rock concert.
+            Savvy people compare prices before buying a big ticket item.
+            Bobby asked his mother if there were people on Mars. (extension of earth-centric concept)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="ordinary citizenry without special rank or status" type="">
+        <commentary>
+            PEOPLE[+group][+political][+governed][-rank]
+            Focuses on a specific socio-economic class of citizen, references a political entity
+        </commentary>
+        <examples>
+            The people are losing confidence in their government.
+            Power to the people!
+            He lived like a king while the people starved.
+            Who said that paying taxes was only for the little people?
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="family line, relatives" type="">
+        <commentary>
+            PEOPLE[+group][+family][+relative]
+            &quot;Your people&quot; can mean your ancestors or members of your family line.
+        </commentary>
+        <examples>
+            Mary met some of her husband's people at last summer's family reunion.
+            Are your people still living in Kentucky?
+            Out west they didn't care who your people were.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="subordinate work associates" type="">
+        <commentary>
+            PEOPLE[+group][+associate][+subordinate]
+        </commentary>
+        <examples>
+            Have your people call my people.
+            Is she one of David's people in marketing?
+            The President's people are very loyal to him.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="specific ethnic groups" type="">
+        <commentary>
+            PEOPLE(S)[+group][+ethnic]
+            Note: frequently occurs in the plural
+            Note: in contrast to sense 2, focuses on a geographic or ethnic trait, rather than a socioeconomic one.
+        </commentary>
+        <examples>
+            We are studying the peoples of sub-Saharan Africa in my cultural anthropology class.
+            There are many peoples and languages coexisting in India.
+            Many of the former boat people are now homeowners and have good jobs.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="state prosecution in a trial" type="">
+        <commentary>
+            PEOPLE[+role][+legal][+prosecution]
+        </commentary>
+        <examples>
+            There is a precedent for this case in the People vs. Jones.
+            Those were pretrial statements made by the People's witnesses.
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

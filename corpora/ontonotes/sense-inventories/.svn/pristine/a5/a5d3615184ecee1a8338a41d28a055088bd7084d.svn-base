@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mask-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to disguise or conceal" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MASK NP2
+      </commentary>
+      <examples>
+        He masked his depression all too well.
+        She masked her insecurity with a veneer of arrogance.
+        He masked himself and took along a firearm that he had bought many years before.
+        You should at least mask the smell with an air freshener before they get here.
+        Why did he try to mask his voice with that ridiculous accent?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mask.01</pb>
+         <vn>fill-9.8</vn><fn>Hiding_objects</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make unrecognizable or undetectable" type="">
+      <commentary>
+        Syntax Is: NP1[theme] MASK NP2
+      </commentary>
+      <examples>
+        The dizzying escalation in home prices masked the shaky underpinnings of this empire.
+        Unfortunately, the media storm masked the real message of the speech.
+        Some of the trace elements masked the toxic action of methanol.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>mask.01</pb>
+         <vn>NM</vn><fn>Eclipse</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="shield with a covering" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I masked the strip of blue to separate the two areas as I painted.
+        After this had dried for about a week, I masked the jacket and sprayed the front of the cab.
+        As usual a pair of sunglasses masked his yellow eyes from the light. 
+        After bisque firing, the areas that we want to be blackened are masked off.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <omega></omega><pb>mask.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

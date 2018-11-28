@@ -1,0 +1,122 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="program-n">
+    <commentary>
+        Added examples, commentary, split one group into two, revised definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="goal or strategy expressed in a formulated agenda" type="">
+        <commentary>
+            PROGRAM[+goal][+agenda][+formulated]
+            a series of steps to be carried out to accomplish a goal
+        </commentary>
+        <examples>
+            Their party is advocating a program for energy independence by 2020.
+            The book offers a twelve-step program for fast weight loss in two months.
+            The candidate described his energy and tax programs during his speech.
+            John needs to get with the program!  (figurative)
+            Bob follows a daily program of rising at six, running four miles, eating breakfast over email, then driving to his office by eight.
+            The incentive program at our company has really motivated the guys in sales.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a performance, either broadcast or staged" type="">
+        <commentary>
+            PROGRAM[+event][+performance][+broadcast/+staged]
+            a radio or television show, or public, performance (entertainment)
+        </commentary>
+        <examples>
+            The program was an odd mixture of Stravinsky, Schoenberg and Scriabin.
+            The program lasted more than two hours.
+            The network has decided to cancel those two programs next season.
+            Grandma gets up at 11:00 every day to watch her favorite programs.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a funded or sponsored public project or service" type="">
+        <commentary>
+            PROGRAM[+project][+public][+funded]
+        </commentary>
+        <examples>
+            They worry there will be less money for the space program in coming years.
+            Those children have benefited from several after-school programs.
+            That church has a cradle-care program for infants during its Sunday services.
+            Working mothers rely on the daycare program.
+            The TVA was one of many government programs initiated during the Depression.
+            Our rowing club is sponsoring a learn-to-row program this summer on the river.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a body of courses, curriculum of study" type="">
+        <commentary>
+            PROGRAM[+curriculum][+scholarly/+vocational]
+        </commentary>
+        <examples>
+            The university is offering a new program in institutional economics.
+            John's son enrolled in a vocational program at a local tech institute. 
+            Bob is finding his premed program of study to be difficult.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a descriptive brochure handed out at performances" type="">
+        <commentary>
+            PROGRAM[+document][+brochure][+announcement][+theater/+sports/+music]
+            an announcement of the events that will occur as part of a theatrical
+            or sporting event
+        </commentary>
+        <examples>
+            The program has a brief biography about each football player.
+            The program says there will be an intermission in an hour.
+            Mary couldn't read the program notes very well in the dark theater.
+            Let's pick up an extra program for Sally.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a code, a sequence of instructions" type="Computer Science">
+        <commentary>
+            PROGRAM[+code][+instruction][+sequence][+computer/+DNA]
+            a sequence of instructions that, e.g.,  a computer, can interpret and execute
+        </commentary>
+        <examples>
+            John is rewriting all these old C programs into Java.
+            Nasdaq stopped its program trading yesterday when the markets dropped over 200 points.
+            The body's cells produce proteins according to the genetic program of DNA.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

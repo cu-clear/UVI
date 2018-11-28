@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="function-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a mathematical relation which is a well-defined mapping between two sets" type="">
+        <commentary>
+            FUNCTION[+relation][+mathematical][+mapping][+rigorous][+between_sets]
+        </commentary>
+        <examples>
+            This math course will cover probability density functions and cumulative dsitribution functions.
+            A set of values where each value is mapped to itself is the identity function.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a dependancy between phenomena" type="">
+        <commentary>
+            FUNCTION[+relation][+dependancy][+approximate][+between_entities]
+            Note: this sense is related to Sense 1, but is usually not as quantitatively rigorous, more of
+            an approximation based on empirical sampling.
+        </commentary>
+        <examples>
+            These diseases are largely a function of stress.
+            Height is a function of age.
+            The sociologist said that class shame was a function of social power.
+            Mary's mood swings seem to be a function of how much sleep she gets.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the purpose or utility of something" type="">
+        <commentary>
+            FUNCTION[+relation][+role][+utility][+purpose]
+        </commentary>
+        <examples>
+            The function of a hammer is to drive nails.
+            At some basic level, the function of a bridge and a tunnel are the same.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the essential duty or responsibility of an occupation" type="">
+        <commentary>
+            FUNCTION[+relation][+role][+duty][+essential][+of_occupation]
+        </commentary>
+        <examples>
+            The function of a good drill sergeant is to turn recruits into soldiers ready for combat.
+            Providing the guiding vision of a company is the function of the CEO.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a social occasion, often official or formal" type="">
+        <commentary>
+            FUNCTION[+event][+social][+occasion][+official]
+        </commentary>
+        <examples>
+            John is taking Sally to some black-tie function on Saturday night.
+            It was just a boring corporate function with people standing around trying to network.
+        </examples>
+        <mappings>
+            <wn version="3.0">5,6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the processing or operation of something" type="Event">
+        <commentary>
+            FUNCTION[+event][+operation][+processing][+of_entity]
+        </commentary>
+        <examples>
+            Vitamin A is required for normal eye function.
+            A computer performed the function of calculating the rocket's orbit.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

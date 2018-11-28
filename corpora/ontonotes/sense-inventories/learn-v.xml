@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="learn-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="acquire/gain knowledge, ability, or skill" type="">
+      <commentary>
+       Syntax Includes:
+       NP1 LEARN NP2
+       NP1 LEARN COMP[nonfinite]
+       NP1 LEARN PP{P NP[instrument]}
+       NP1 LEARN PP{P NP[location]}
+       Note: Includes: 
+       -committing to memory through reading and repetition.
+       -begin to understand that one must change the way one behaves.          
+      </commentary>
+      <examples>
+         I learned to play chess from my brother.
+         He learned the language at school.
+         I  don't know how actors manage to learn all those lines.
+         She is trying to learn everything in chapter three for the exam tomorrow.
+         She'll have to learn that she can't have everything she wants.
+         He's not afraid to learn from his mistakes.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>
+         <omega/>
+         <pb>learn.01</pb>
+         <vn>learn-14-1</vn><fn>Coming_to_believe,Memorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="find out or be informed of a new information, understand or realize" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1 LEARN SCOMP[finite]
+        NP1 LEARN (ADVP) PP{P NP[topic]}
+      </commentary>
+      <examples>
+         I learned that he grew up in the same town I did.
+         He learned where you can buy the best tomatoes in town.
+         They have learned nothing about their daughter's whereabouts.
+         We learned of our mistake only yesterday.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6</wn>
+         <omega/>
+         <pb>learn.01</pb>
+         <vn>learn-14-2-1</vn><fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="teach" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She learned them their letters and basic arithmetic.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/>
+         <pb>learn.01</pb>
+         <vn>NM</vn><fn>Education_teaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

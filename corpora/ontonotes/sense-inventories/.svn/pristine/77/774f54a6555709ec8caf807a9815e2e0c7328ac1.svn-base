@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="danger-n">
+    <commentary>
+        27Mar07 - modified features and definition of Sense 3. ahouston
+        27Mar07 - modified commentary on senses. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="something exposed to harm or unpleasantness" type="">
+        <commentary>
+            DANGER[+state][+exposure][+harm]
+            Note: the subject is the recipient of harm, -not- the cause of it (Sense 2)
+            Note: occurs in prepositional phrases: in/out_of danger
+        </commentary>
+        <examples>
+            It's a blocked off street where the children can play without danger.
+            The doctor believes the patient is now out of danger. 
+            We are in no danger from the hurricane, as it has moved out to sea. (Note: although the hurricane is the danger, the sentence here is describing the -state- of the -subject- when using the term 'danger', thus Sense 1 applies, -not- Sense 2)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a cause or source of harm" type="">
+        <commentary>
+            DANGER[+cause][+harm]
+            [+relation][+role][+agent][+harm]
+            Note: occurs in expressions 'X BE DANGER&quot;, the danger IS the subject/agent
+        </commentary>
+        <examples>
+            These mental patients are a danger to themselves and to others.
+            Brush fires are a regular danger here during the dry season.
+            Collapsing tunnels are one of the real dangers of coal mining.
+            The TV news filled their minds with many imagined dangers of air travel.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the chance or possibility of a bad outcome" type="">
+        <commentary>
+            HARM[+event][+outcome][+possible][-desirable]
+            Note: refers to a possibility, a chance of something bad
+            Note: the word 'chance' can be substituted for 'danger'
+        </commentary>
+        <examples>
+            There is some danger (chance) that Bob will jump ship and join our competition.
+            There was no danger of the champagne running out at Bob's party. 
+            There's always the danger that your new business venture can fail.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

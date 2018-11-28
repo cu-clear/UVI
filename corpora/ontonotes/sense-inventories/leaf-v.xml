@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="leaf-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="flip through pages" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] LEAF PP[location] (PP[theme])
+      </commentary>
+      <examples>
+      Barbara pulled open the first drawer and began leafing through the files. 
+      Placido Geist was leafing through a mental catalog.
+      The angry cop began leafing through her IDs and credit cards as if they were junk mail.
+      What a dumb book, he decided, leafing from one sheet to the next till he reached the back cover.
+      He leafed through the Playbill for that show. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>leaf.01</pb>
+         <vn>rummage-35.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="grow leaves" type="">
+      <commentary>
+      Includes LEAF_OUT
+      Often occurs adjectivally, and occasionally metaphorically.
+      Syntax includes:
+      NP1[material] LEAF (OUT) (PP[product])
+      </commentary>
+      <examples>
+      The source remained hidden by bushes just leafing with the spring.
+      The damage of the winter past was evident in trees leafing only above the reach of deer.
+      Begin this lesson before the deciduous trees in your area have begun to leaf out.
+      Christ's cross, which still bears his wounded body, has branched and leafed into a tree.
+      The tree in her yard had leafed into a pale green globe.
+      The olive trees are beginning to leaf out into bright green shapes.
+      Lieutenant Minver, two hundred yards away, would see the huge door leafing open.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>leaf.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

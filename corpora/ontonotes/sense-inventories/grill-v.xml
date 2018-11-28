@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="grill-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cook over a grill" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] GRILL NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+        He grilled steaks for us over old grape vine cuttings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>cooking-45.3,preparing-26.3-2</vn><fn>Apply_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="examine thoroughly" type="">
+      <commentary>
+        Syntax Is: NP1[agent] GRILL NP2[patient[animate]]
+      </commentary>
+      <examples>
+        The student was grilled for two hours on the subject of phonology.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>Questioning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

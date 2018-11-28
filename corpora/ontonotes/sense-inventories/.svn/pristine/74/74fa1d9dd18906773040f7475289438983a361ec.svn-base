@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="strip-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove or take away contents, covering, possessions, privileges, or honor" type="">
+      <commentary>
+        Syntax is: NP1 STRIP NP2
+      </commentary>
+      <examples>
+        Vandals also stripped the house of its Italian marble mantels and cypress paneling.
+        Winter has stripped the garden down to its bones.
+        Strip the tobacco leaves and separate them into &quot;marketable&quot; and &quot;unmarketable&quot; piles.
+        If you strip a mine of its minerals, the minerals don't re-spawn instantly.
+        Scientific American quickly stripped him of his title of Research Leader of the Year.
+        Native Americans were successively stripped of their lands and removed to the West.
+        It has stripped the country of schools, hospitals, roads and livelihoods.
+        Because of the pollution, the trees are almost completely stripped of bark.
+        She stripped and refinished the old chest of drawers.
+        He stripped off his socks and threw them in the hamper.
+        Moore's task is to strip away comforting illusions.
+        The IOC executive board stripped Mr. Kim of all his Olympic duties. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5,6,7,8</wn>
+         <wn lemma="strip_mine" version="3.0">1</wn>
+         <omega/><pb>strip.01</pb>
+         <vn>cheat-10.6,dress-41.1.1,wipe_manner-10.4.1-1</vn><fn>Emptying,Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cut, rip, or pull apart into strips or smaller parts" type="">
+      <commentary>
+        Syntax is: NP1 STRIP NP2[patient]
+        Note: Includes STRIP DOWN, when NP2 is -human
+      </commentary>
+      <examples>
+        We then stripped the pink wallpaper into shreds.
+        I've decided to strip down my motorbike and rebuild it.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>NM</pb>
+         <vn>wipe_manner-10.4.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="take off clothing; do a striptease" type="">
+      <commentary>
+        Syntax is: NP1 STRIP
+                   NP1 STRIP NP2[human] 
+        Note: The clothing being stripped off is understood--it is not overtly mentioned
+        Note: Includes STRIP DOWN
+      </commentary>
+      <examples>
+        Suddenly he stripped off and ran into the sea.
+        He stripped down to the waist.
+        The Nurse quickly and efficiently stripped Melody as bare naked as the day she was born.
+        She only strips to support her family.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,13</wn>
+         <wn lemma="strip_down" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>cheat-10.6,dress-41.1.1,wipe_manner-10.4.1-1</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="remove substances from a liquid or solution" type="">
+      <commentary>
+        Syntax is: NP1 STRIP NP2[liquid] OF NP3
+      </commentary>
+      <examples>
+        It stripped the water of 95 percent of its total phosphorus.
+        Mechanical homogenization process strips the milk of its buffers.
+        Water in your skin strips the acid of hydrogen atoms, producing enough heat to burn.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,10</wn>
+         <omega/><pb>strip.01</pb>
+         <vn>cheat-10.6,wipe_manner-10.4.1-1</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="damage the threads of a part or fitting" type="">
+      <commentary>
+        Syntax is: NP1 STRIP NP2
+      </commentary>
+      <examples>
+        I am sorry that the wrenches that you have stripped the bolts.
+        And if you do manage to strip the screws completely, you won't be able to remove them.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>strip.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="press the last drops of milk (from cow or goat)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Do not strip the cow until the calf is weaned.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/><pb>strip.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg, brownsw" sample_score="-"/>  
+</inventory>

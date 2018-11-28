@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="restore-v">    
+   <commentary>
+	No VPCS for this verb
+   </commentary>
+   <sense group="1" n="1" name="renew a quality or reestablish a previous state" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+	Reducing acid rain will help restore the health of the forests.
+	Mary asked how much it would cost to restore her antique chairs.
+	A weekend at the spa restored our spirits greatly.
+        The government is trying to restore public confidence in its management of the economy.
+	The country restored democracy after ten years of an intervening monarchy.
+        Some people are in favour of restoring capital punishment for murderers.
+	The prince was restored to the throne after living in exile. 
+	The utility companies are working around the clock to restore service.
+        The House Appropriations Committee voted to restore the funds in the EWR Appropriations bill.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>restore.01,restore.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="give something lost or stolen back to the owner or guardian" type="">
+      <commentary>
+	Syntax Is: NP1[agent] RESTORE NP2[patient] PP{to NP[recipient]}
+      </commentary>
+      <examples>
+	The museum has restored the painting to its rightful owner.
+	The lost child was restored to his mother at the information desk.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>restore.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,hwangd,brownsw" sample_score="-"/>  
+</inventory>

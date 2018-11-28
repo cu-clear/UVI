@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tool-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="travel leisurely in or as an automobile" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] TOOL NP2[theme] PP[direction]
+      NP1[agent] TOOL (around) PP[direction|location]
+      </commentary>
+      <examples>
+      We tooled down the street.
+      The silver gypsy cab tooled past once more.
+      Then I'd catch sight of the RV in which Hull tooled around the state.
+      On the lam from the law, they tooled around in a big black 1983 GMC Vandura piloted by Mr.T.
+      LeRoy stoked up on crullers with sprinkles, then tooled directly to Rossier's place.
+      He tooled the car along the treacherous path.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="tool_around" version="3.0">1</wn>
+         <omega></omega><pb>tool.01</pb>
+         <vn>drive-11.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="furnish with tools" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] TOOL NP2[destination] (PP[theme]) (PP[purpose])
+      </commentary>
+      <examples>
+      Our machinist has tooled the shop with jigs and fixtures that allow modifications.
+      They tooled the shop to be ready for production as soon as the proto is done.
+      The owners were groping for a variant of the design for which they had tooled the factory.
+      They accepted the device design and tooled the factory for mass production.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tool.02</pb>
+         <vn>fill-9.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="equip oneself (with tools) for something" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] TOOL_UP (PP[purpose])
+      NP1[agent[animate]] TOOL_UP NP2[recipient] (PP[theme]) (PP[purpose])
+      </commentary>
+      <examples>
+      We were missing some stuff back at the truck, when we tooled up.
+      They tooled up for their encounter with the rival gang.
+      Their early MySpace page was tooled up for Western fans.
+      Sonic is now tooled up for the battle between messaging, integration and vendors.
+      The churches are tooling up their ministries with new-therapeutic technologies.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tool.04</pb>
+         <vn>carve-21.2-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="work material with a tool" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] TOOL NP2[patient|destination] (PP[theme])
+      NP1[agent] TOOL NP2[theme] PP[destination] 
+      NP1[agent] TOOL NP2[material] PP[product]
+      </commentary>
+      <examples>
+      The leather was intricately tooled into a lacelike design as a border.
+      The saddle was tooled and worked with silver and dyed a deep blue.
+      I had sewed it, backed it, bound and tooled it.
+      He tooled the patterns on each sheath by hand.
+      I hand tooled the leather with an arrow angled basket-weave pattern.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tool.03</pb>
+         <vn>image_impression-25.1,carve-21.2-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

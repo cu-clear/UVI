@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="signal-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a nonverbal communication gesture" type="Event">
+        <commentary>
+            SIGNAL[+event][+gesture][+communication][+nonverbal]
+        </commentary>
+        <examples>
+            When the commander gives the signal, the soldiers will charge the hill.
+            John wasn't sure whether the woman at the next table was giving him signals or not.
+            The diver's signal for being out of air is a finger drawn across the throat.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>signal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an indication or evidence for a state of affairs, situation" type="Event">
+        <commentary>
+            SIGNAL[+information][+role][+evidence][+for_state_of_affairs]
+        </commentary>
+        <examples>
+            The weak credit markets were another signal of the troubled economy.
+            These yellow needles on your hemlock tree are a signal of stress.
+            The data give confusing signals about a discernible trend in temperature change.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an electromagnetic pulse or wave" type="">
+        <commentary>
+            SIGNAL[+event][+pulse][+electromagnetic]
+        </commentary>
+        <examples>
+            Radio signals travel at the speed of light.
+            The signal from the T.V. station is coming in loud and clear.
+            These relays boost the signal as it is carried over hundreds of miles.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a semaphore apparatus, a traffic light" type="">
+        <commentary>
+            SIGNAL[+artifact][+apparatus][+light][+traffic]
+        </commentary>
+        <examples>
+            John braked at the intersection as the traffic signal turned red.
+            The engineer saw the green signal ahead on the tracks, indicating it was safe to go.
+            Trains were delayed due to a malfunctioning signal along the commuter tracks.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

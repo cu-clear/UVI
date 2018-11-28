@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="arrest-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="apprehension into custody by law enforcement" type="Event">
+        <commentary>
+            ARREST[+event][+apprehension][+into_custody][+by_law_enforcement]
+        </commentary>
+        <examples>
+            They have placed her under arrest.
+            There were five arrests made at the nightclub last night.
+            The arrest of the wrong man caused an uproar in the neighborhood.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>arrest.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="stoppage of activity" type="Event">
+        <commentary>
+            ARREST[+event][+stoppage][+of_activity]
+        </commentary>
+        <examples>
+            The patient was experiencing cardiac arrest.
+            The medication is very effective in the arrest of the disease's progress.
+            The violence has put the negotiations in arrest.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>arrest.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

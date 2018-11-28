@@ -1,0 +1,131 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sit-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) assume or be in a seated position" type="">
+      <commentary>
+        Note: The entity sitting must be animate. 
+        Syntax includes: NP1[animate] SIT (PP)
+                         NP1[animate] SIT NP2[animate] PP
+
+        Includes: SIT BACK, SIT DOWN, SIT UP
+      </commentary>
+      <examples>
+        We are training our dog to sit.
+        He came and sat next to me.
+        Marilyn sat on the shore for hours, wondering what to do next.
+        I would like the visiting salespeople to sit at the head table.
+        How many times do I have to tell you to sit up straight!
+        The child's father sat her down on a chair.
+        The host sat me next to my friend.
+        He sat back in his chair at first, and spoke like a weary man. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,9</wn>
+         <wn lemma="sit_back" version="3.0">1</wn>
+         <wn lemma="sit_down" version="3.0">1,2,3</wn>
+         <wn lemma="sit_up" version="3.0">1</wn>
+         <wn lemma="sit_around" version="3.0">1</wn>
+         <omega></omega><pb>sit.01,sit.02,sit.03</pb>
+         <vn>assuming_position-50,put_spatial-9.2-1,spatial_configuration-47.6</vn><fn>Change_posture,Placing,Posture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be located; occupy a particular location" type="">
+      <commentary>
+        Note:Compare to sense 1, in which the entity "sitting" must be animate.
+        Syntax is: NP1[inanimate] SIT (PP)
+      </commentary>
+      <examples>
+        The encyclopedia sits on my shelf at home, gathering dust.
+        The village sits at the bottom of the valley.
+        The coat sits very well on you.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sit.01</pb>
+        <vn>put_spatial-9.2-1,spatial_configuration-47.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be inactive or indifferent; wait out" type="">
+      <commentary>
+        Includes: SIT BACK, SIT BY, SIT OUT, SIT TIGHT
+      </commentary>
+      <examples>
+        You can't just sit back and wait for job offers to come to you.
+        Don't just sit by while your rights are violated!
+        Sometimes I just sit back and let the world write itself.
+        He sat out the game with an undisclosed injury.
+        The government is prepared to sit out the strike rather than agree to union demands.
+        You'd better sit tight, and I'll call the doctor.
+      </examples>
+      <mappings>
+         <wn lemma="sit_back" version="3.0">2</wn>
+         <wn lemma="sit_by" version="3.0">1</wn>
+         <wn lemma="sit_out" version="3.0">1,2</wn>
+         <wn lemma="sit_tight" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="participate in a session, event, or activity" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The court will sit tomorrow morning.
+        She sat for the artist many times.   
+        Can I sit in on your class?     
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,10</wn>
+         <wn lemma="sit_in" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="stay awake (usually through the night)" type="">
+      <commentary>
+        Includes: SIT UP
+      </commentary>
+      <examples>
+        The book was so interesting that I sat up all night reading it.
+        I'll be late tonight, so don't sit up to wait for me.
+      </examples>
+      <mappings>
+         <wn lemma="sit_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="ride an animal" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        You've never sat a horse?
+        Being able to sit a horse at a canter takes patience.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="babysit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        There's no way they'd trust them to baby-sit their children.
+        Ms. Davidson has someone sitting her kids a lot of Saturday nights.
+        She offered to sit my dog while I was away.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hug-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="embrace" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] HUG (NP2[patient])
+      </commentary>
+      <examples>
+        He hugged her tightly.
+        Takako ran to her friend and they hugged.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hug.01</pb>
+         <vn>marry-36.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fit closely or tightly" type="">
+      <commentary>
+        Syntax Is: NP1[theme[inanimate]] HUG NP2
+      </commentary>
+      <examples>
+        The dress hugged her curves perfectly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>contiguous_location-47.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

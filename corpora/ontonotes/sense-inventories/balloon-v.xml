@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="balloon-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="physically inflate" type="">  
+      <commentary>
+      Syntax Includes: 
+        NP[patient] BALLOON[physical] (PP[Extent])
+        NP1[agent] BALLOON[physical] NP2[patient] (PP[Extent])
+      </commentary>
+      <examples>
+        The sails ballooned.
+        The wind ballooned the sails.  
+        He was wearing the world's vastest battle shorts, shorts that ballooned around his thighs like twin yurts.
+        The 5-foot-7 comedienne, who loves to gorge on bagels smothered in cream cheese, has ballooned to 200 pounds.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>balloon.02</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="expand, grow, become inflated" type="">  
+      <commentary>
+       Syntax Includes:
+        NP[patient] BALLOON[abstract] (PP[Extent])
+        NP1[agent/cause] BALLOON[physical] NP2[patient] (PP[Extent])
+      </commentary>
+      <examples>
+        Soon after her score ballooned to 12-over on the par-72 course, her parents began consulting with each other.
+        Compensation claims over a bothched Customs Service project have ballooned to 12.3 million dollars.
+        It has also ballooned the warfare state and the military-industrial complex.
+        He ballooned the bank's staff from 1574 to 5201. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>balloon.02</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="ride in a hot-air balloon" type="">
+      <commentary>
+        may be used metaphorically describing manner of motion (see strange 'screaming girls' example)
+      </commentary>
+      <examples>
+        And he's already sailed and ballooned around the world in the last few years.
+        He tried to balloon around the earth but storms forced him to land in China.
+        Sounds of guitars, drums, and screaming girls ballooned around him.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>balloon.01</pb>
+         <vn>vehicle-51.4.1</vn><fn>Operate_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

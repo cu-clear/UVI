@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="share-v">    
+   <commentary>
+     No VPCs to add for this verb
+   </commentary>
+   <sense group="1" n="1" name="to have (state or attribute) in common with others" type="">  
+      <commentary>
+        NP1[+patient] SHARE[+stative] NP2[+attribute/+state] 
+        Note: NP1 and NP2 have something in common with each other, they are in a state of being similar
+      </commentary>
+      <examples>
+        The mechanics may share the same grievances as the pilots' union.
+        We share a common grandmother.
+        What is this dislike of Americans shared by so many around the world?
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>share.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to use or partake of something with other users" type="">  
+      <commentary>
+	NP1 SHARE NP2 (PP)
+        Note: NP1 isn't already in possession of NP2, the sharing is mutual, not distributive as in sense 3
+      </commentary>
+      <examples>
+        We shared a toast to the success of John's new venture.
+        We shared a seat on the bus for the whole ride.
+        The two firms will be sharing the new chip fabrication facility.
+        The child won't share his favorite toy with his little sister.
+        Bill doesn't like to share the limelight with anyone.
+        We shared a sandwich at the cafe.
+        The three partners are sharing the costs of the new venture.
+        These small nations would like to share in the current economic prosperity.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>share.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="to distribute something to others" type="">  
+      <commentary>
+       NP1[+agent] SHARE[+completive] NP2 (PP[+recipient])
+       Note: information can be what is distributed
+       Note: NP1 is in possession of NP2, and is sharing NP2 with recipient(s)
+      </commentary>
+      <examples>
+         The firm has decided to share this year's profits as dividends.
+         At the dinner he shared stories of his childhood.
+         Let me share a very funny joke with you.
+         We each shared our concerns about my present situation.
+         He shared his time, his energy and his retirement years.
+         Wilbur shared his lunch, shared his candy and shared his cupcakes with all his friends.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>share.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="ahouston,duffielc,vieweg" sample_score="-"/>  
+</inventory>

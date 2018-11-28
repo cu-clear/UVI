@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="code-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make into code, encrypt" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] CODE NP2
+      </commentary>
+      <examples>
+        Code the pieces with numbers so that you can identify them later.
+        Coders coded the message as a whole.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>code.01</pb>
+         <vn>classify-29.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="write software" type="">
+      <commentary>
+        Syntax Is: NP1[agent] CODE NP2
+      </commentary>
+      <examples>
+        John coded an artificial intelligence over lunch, but forgot to
+        save the program.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>code.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

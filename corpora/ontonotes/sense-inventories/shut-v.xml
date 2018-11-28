@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shut-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move a lid/door as to block an opening" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Please shut the gate.
+        This window won't shut. It's jammed.
+        I've got a surprise for you! Shut your eyes tightly and hold out your hand.
+        Mary shut her book and put it down on the table.
+        When you have done so, shut the top valve so no air can enter.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>shut.01</pb>
+         <vn>other_cos-45.4</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="stop the supply, flow, or passage" type="">
+      <commentary>
+        Includes: SHUT OFF
+      </commentary>
+      <examples>
+        Did you remember to shut off the water and gas before you left the house?
+        Oil supplies have been shut off.
+        Shut off the light before you leave the room.
+        Rotate either of them in a clock-wise direction to shut the flow of water. 
+        I have shut the stream down and bypassed it with pipe between the filter and stream.
+      </examples>
+      <mappings>
+         <wn lemma="shut_off" version="3.0">1,3</wn>
+         <omega/><pb>shut.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="confine or lock someone or something away" type="">
+      <commentary>
+        Includes: SHUT AWAY, SHUT IN, SHUT OUT, SHUT UP
+        Note: is physical, includes a location, even if only implied.
+      </commentary>
+      <examples>
+        He was ten years old when he was shut away in an asylum for stealing an apple.
+        They took him away and shut him in a prison.
+        He was so upset that he shut himself in his bedroom and refused to
+        come out.
+        Don't forget to shut the cat out when you leave for work.
+        Nero Caesar seized him and shut him up in prison.
+      </examples>
+      <mappings>
+         <wn lemma="shut_away" version="3.0">1</wn>
+         <wn lemma="shut_in" version="3.0">1</wn>
+         <wn lemma="shut_up" version="3.0">2</wn>
+         <wn lemma="shut_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>subjugate-42.3</vn><fn>Cause_confinement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="exclude, push away, isolate, or keep something out" type="">
+      <commentary>
+        Includes: SHUT OFF, SHUT OUT
+        Note: includes metaphorical, emotional, and noise senses.
+      </commentary>
+      <examples>
+        She was shut off from her friends.
+        When her husband died she seemed to shut herself off from her friends and family.
+        She finds it impossible to shut out the memory of the accident.
+        The double glazing shuts out most of the traffic noise.
+        Anna felt shut out of the conversation.
+      </examples>
+      <mappings>
+         <wn lemma="shut_off" version="3.0">2</wn>
+         <wn lemma="shut_out" version="3.0">1</wn>
+         <omega/><pb>shut.02,shut.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="(cause to) end or stop operating" type="">
+      <commentary>
+        Includes: SHUT DOWN
+      </commentary>
+      <examples>
+        Another factory shut because it was losing money.
+        The owner decided to move and shut down the factory.
+        This computer is stuck. It won't shut down.
+      </examples>
+      <mappings>
+         <wn lemma="shut_down" version="3.0">1</wn>
+         <omega/><pb>shut.01,shut.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="(cause to) stop speaking or bring about silence" type="">
+      <commentary>
+        Includes: SHUT UP, SHUT ONE'S MOUTH
+      </commentary>
+      <examples>
+        The children shut up when their father approached.
+        Everyone just shut up!
+       </examples>
+      <mappings>
+         <wn lemma="shut_up" version="3.0">1,3</wn>
+         <wn lemma="shut_one's_mouth" version="3.0">1</wn>
+         <omega/><pb>shut.06</pb>
+         <vn>NM</vn><fn>Become_silent,Silencing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

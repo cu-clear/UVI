@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="promise-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a declaration that is a binding commitment, an oath" type="Event">
+        <commentary>
+            PROMISE[+event][+speech_act][+declaration][+commitment][+binding]
+            Note: implies a person/agent verbally placing themselves under an obligation to do something.
+        </commentary>
+        <examples>
+            He has broken his promise to the American people not to raise taxes.
+            She left the meeting early with a promise to send us the drawings tomorrow.
+            Their promises of support never materialized.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>promise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an indication of a future desirable outcome" type="Event">
+        <commentary>
+            PROMISE[+entity][+symbolic][+information][+evidence][+outcome][+future][+desirable]
+        </commentary>
+        <examples>
+            After a two-month drought, the skies finally held the promise of rain.
+            He shows great promise as a theoretical physicist. 
+            After this event there is little promise of a peace accord.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

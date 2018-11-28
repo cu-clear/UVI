@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="time-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="measure the time or duration of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Longines timed the World Downhill Skiing Championships in Wengen, Switzerland.
+        I timed the intervals between successive 'hics' in the thirtieth hour of the attack.
+        I timed her dogwalk in this video and it was 1.88 sec. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>time.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to occur or procede at the desired time or rate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She timed her walk so that she would arrive at the park at 8 a.m.
+        He timed his flight to arrive around the same time as us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,5</wn>
+         <omega></omega><pb>time.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="regulate or set the time of (a clock)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        In this experiment, after we had timed the clock, we observed the sugar in the water.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="TIME OUT: end a process when a certain amount of time has passed" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Local RAS lines will time out after six hours of no activity.
+        Send operations time out if confirmation is not received within 1000 milliseconds.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

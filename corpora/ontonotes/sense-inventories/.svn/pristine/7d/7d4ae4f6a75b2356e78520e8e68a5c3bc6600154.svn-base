@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="exaggerate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="overstate" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] EXAGGERATE NP2
+      </commentary>
+      <examples>
+        He exaggerated Iraq's nuclear threat in making his case for
+        pre-emptive war.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>exaggerate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="overdo" type="">
+      <commentary>
+        Syntax Is: NP1[agent] EXAGGERATE
+      </commentary>
+      <examples>
+        He exaggerated last night when he did 100 pushups.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

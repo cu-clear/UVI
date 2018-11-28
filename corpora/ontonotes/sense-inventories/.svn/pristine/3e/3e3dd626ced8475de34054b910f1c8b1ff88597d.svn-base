@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="endorsement-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of expressing approval, support of something" type="Event">
+        <commentary>
+            ENDORSEMENT[+event][+communication][+gesture][+approval]
+        </commentary>
+        <examples>
+            The trade union has given its endorsement to the Democratic candidate.
+            John was pleased with our endorsement of his suggestion to meet at a pub after work.
+            The review is a real endorsement of the film. 
+            Mary went ahead with the project without securing any endorsement from her boss.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,3</wn>
+            <omega/><pb>endorsement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a paid product recommendation" type="Event">
+        <commentary>
+            ENDORSEMENT[+event][+communication][+recommendation][+paid][+of_product]
+            [+state][+legal][+contractual][+recommendation][+paid][+of_product]
+        </commentary>
+        <examples>
+            The basketball star made millions of dollars from endorsements of athletic shoes.
+            The celebrity ended her endorsement of the cosmetic line.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>endorsement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a validating signature on a check" type="Event">
+        <commentary>
+            ENDORSEMENT[+event][+signature][+validating][+on_check]
+        </commentary>
+        <examples>
+            Your endorsement is required before the bank can deposit this check.
+            The endorsement appeared to be a forgery according to the handwriting expert.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="clause on insurance policy that specifies provisions that can modify the policy" type="">
+        <commentary>
+            ENDORSEMENT[+entity][+document][+contract][+policy][+insurance][+clause][+provision][+for_modification]
+        </commentary>
+        <examples>
+            Endorsements can also be added to your home owner insurance policy.
+            This endorsement will allow your insurance company to automatically change your policy limit during the policy period.
+        </examples>
+        <mappings>
+            <wn version="MW">2b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

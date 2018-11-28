@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="single-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a unit measure of one" type="">
+        <commentary>
+            SINGLE[+quantity][+unit][+of_one]
+        </commentary>
+        <examples>
+            Mary ordered a double espresso and John ordered a single.
+            Do you have any singles in your pocket to pay the bellboy?  (single dollar bills)
+            A single in this hotel will cost $200 a night, and a double will cost $275. (single room)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="unmarried or romantically unattached person" type="">
+        <commentary>
+            SINGLE[+entity][+person][+status][+unattached][+romantically]
+        </commentary>
+        <examples>
+            The bar is mostly frequented by singles and 20-somethings.
+            Bob is the only single Mary knows among her male friends.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="short musical recording with one song" type="">
+        <commentary>
+            SINGLE[+artifact][+recording][+musical][+one_song] 
+        </commentary>
+        <examples>
+            The old vinyl 78 singles had one song on each side.
+            You can download MP3 singles from your favorite rock groups from this website.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="baseball play where player makes one base safely" type="Event">
+        <commentary>
+            SINGLE[+event][+play][+baseball][+arrival][+safe][+one_base][+by_player]
+        </commentary>
+        <examples>
+            Jones struck out in the first, hit a single in the fourth, and hit a home run in the ninth.
+            The hit should have only been a single except for an outfield error.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="sports competition played between individuals, not teams" type="">
+        <commentary>
+            SINGLE[+event][+competition][+sports][+between_individuals]
+        </commentary>
+        <examples>
+            He is one of the top players in the world today, in men's singles.
+            She played badminton singles in college.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="salute-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="compliment or honor the efforts of" type="">  
+      <commentary>  
+        NP1[+animate] SALUTE [+/-animate]
+      </commentary>
+      <examples>
+        We salute the workers in the labor movement for their hard work.
+        Let's all salute the birthday girl!
+        The Allies saluted the Turkish flag and vice versa.
+        Father saluted my courage that day.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>salute.01</pb>
+         <vn>judgement-33</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="greet" type="">
+      <commentary>
+        NP1[+animate] SALUTE [+animate]
+
+        NOTE: This sense involves communication between two people (note
+        this specifically in the 2nd sentence).
+      </commentary>
+      <examples>
+        Every day on my way to work, the old man salutes me.
+        Sir John saluted the Admiral with eleven guns, he answered with 9. 
+        Privates, salute your captain!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>salute.01</pb>
+         <vn>curtsey-40.3.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="become noticable" type="">
+      <commentary>
+        NP1[-animate] SALUTE NP2
+      </commentary>
+      <examples>
+        An odd smell saluted our nostrils.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

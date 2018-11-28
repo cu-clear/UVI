@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="forecast-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="calculate,reckon" type="">
+      <commentary>
+        NP1[agent] FORECAST NP2
+	Note: Implies a probable event based on data, not something inevitable.
+      </commentary>
+      <examples>
+	The hurricane was forecast to hit Florida by nightfall.
+        The government is forecasting an economic upturn, based on these data.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,2</wn>
+	 <omega/><pb>forecast.01</pb>
+         <vn>NP</vn><fn>Predicting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="indicate,portend" type="">
+      <commentary>
+       Syntax Is: NP1[topic] FORECAST NP2
+       Note: Suggests the event is inevitable, predestined to occur.
+      </commentary>
+      <examples>
+	The cards forecast death to Carmen in the second act of the opera.
+        Pre-election polls in El Salvador consistently forecasted a Handal defeat.
+        Price increases forecast inflation.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

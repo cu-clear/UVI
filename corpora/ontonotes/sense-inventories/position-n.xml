@@ -1,0 +1,137 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="position-n">
+    <commentary>
+        Added sense for financial market holdings, added features, added example, modified definitions. ahouston
+    </commentary>
+    <sense group="1" n="1" name="spatial location or placement of something/someone" type="">
+        <commentary>
+            POSITION[+location][+physical][+region][+coordinates]
+        </commentary>
+        <examples>
+            That chair is in a position where I trip on it frequently.
+            The enemy took up a position on our right flank.
+            The guns were shelling the Germans' positions.
+            The race horses took their positions at the start.
+            I don't like the position of that lamp against the wall.
+            What is the angular position of Venus to the horizon?
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,7,8,10</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="opinion, attitude, stance, point of view, assumption" type="">
+        <commentary>
+            POSITION[+state][+mental][+attitude][+stance/+opinion/+assumption/+viewpoint]
+            Note; implies a cognitive actor who holds the attitude.
+        </commentary>
+        <examples>
+            She has a rather Kantian position on ethics.
+            Their position on gun control didn't convince the senator.
+            That position on the structure of the solar system was disproved long ago. (someone believed it once)
+            Let's take the position that interest rates could be higher next year.
+            John wrote the company's position paper on open source software.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,12,13,16</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="context, situation or circumstance" type="Abstract">
+        <commentary>
+            POSITION[+state][+social][+context][+situation/+predicament/+circumstance]
+            Note: focus is on abstract context, not physical context (see Sense 1)
+        </commentary>
+        <examples>
+            We found ourselves in a very attractive position
+            Raising three kids alone, that's a tough position to be in.
+            He felt he was not in a position to judge the merits of the case.
+            The company's financial position is grim.
+            Try to put yourself in their position with a civil war about to break out.
+            Their firm is in a favorable position to expand operations in China and Thailand.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="financial holdings of an investor, a financial market commitment" type="">
+        <commentary>
+            POSITION[+holdings][+financial][+stock/+futures]
+            [+commitment][+market][+financial][+long/+short]
+        </commentary>
+        <examples>
+            Traders were having to cover their short positions during the sell off.
+            John holds a long position in energy stocks.
+        </examples>
+        <mappings>
+            <wn version="MAC">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="profession, job, function includes position in team sports)" type="">
+        <commentary>
+            POSITION[+role][+job][+professional/+plater]
+            Note: implies a specific job or duty of some kind, not a rank compared to others (see Sense 6)
+        </commentary>
+        <examples>
+            He has a position with the National Security Agency.
+            John will assume my position in the office while I'm away.
+            What position did you play in college basketball?
+        </examples>
+        <mappings>
+            <wn version="3.0">6,9,15</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="rank in a sequence, standing in relation to others" type="">
+        <commentary>
+            POSITION[+relation][+rank][+sequence][+social/+competitive/+commercial]
+            [+quantity][+number][+ordinal]
+            Note: focus is on the pecking order or standing, not a specific duty or job (see Sense 5)
+        </commentary>
+        <examples>
+            The book moved up two positions on the best-sellers list.
+            She is currently in first position in the figure skating championship.
+            He batted in the seventh position in last night's game.
+            Their family enjoyed a high social position in the town for generations.
+            Several of his would-be successors are already jockeying for position. (where they go in pecking order)
+            The evidence is pointing to the highest positions in the government. (top dogs)
+            He came from a lower socioeconomic position in society than his wife.
+            They were taught to always know their position in life. (their status, not their employment)
+        </examples>
+        <mappings>
+            <wn version="3.0">5,14</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a posture or arrangement, usually intentional" type="">
+        <commentary>
+            POSITION[+state][+physical][+posture]
+        </commentary>
+        <examples>
+            He assumed the Lotus position.
+            The position of the hands on the clock indicates it is nine thirty.
+            The teacher showed the student the correct position to hold the violin.
+            Can you show me the fourth position in ballet?
+            The position of this major chord is C, E and G.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

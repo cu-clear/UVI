@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rinse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="wash off, clean" type="">  
+      <commentary>
+        Includes: RINSE OFF
+        Syntax Is:  NP1[agent] RINSE (off) NP2[patient] (PP)
+      </commentary>
+      <examples>
+        Rudy rinsed off his hands.
+        Remember to wash and rinse the dish with soap.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="rinse_off" version="3.0">1</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>braid-41.2.2,wipe_manner-10.4.1-1</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="rinse one's mouth with mouthwash, gargle" type="">
+      <commentary>
+        Syntax Is: NP1[agent] RINSE NP2[patient]
+      </commentary>
+      <examples>
+        When I got home, I rinsed my mouth with the antiseptic mouthwash.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>braid-41.2.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

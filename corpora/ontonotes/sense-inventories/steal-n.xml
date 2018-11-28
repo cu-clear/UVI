@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="steal-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a bargain" type="">
+        <commentary>
+            STEAL[+artifact][+purchase][+role][+bargain]
+        </commentary>
+        <examples>
+            At ten dollars each, these Italian handbags are a steal!
+            The stock of this company is a steal at its current price.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an act of theft" type="Event">
+        <commentary>
+            STEAL[+event][+theft][+of_valuable]
+        </commentary>
+        <examples>
+            It is New York's biggest art steal in fifty years.
+            The author claims the film's storyline was a blatant steel of his screenplay.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a stolen base in baseball" type="Event">
+        <commentary>
+            STEAL[+event][+play][+sports][+baseball][+base][+stolen]
+        </commentary>
+        <examples>
+            That player has made nine successful steals this season.
+            The runner tried for a steal to third, but got tagged out.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

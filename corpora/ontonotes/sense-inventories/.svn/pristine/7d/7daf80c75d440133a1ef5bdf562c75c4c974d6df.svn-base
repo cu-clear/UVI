@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="law_firm-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="a private practice corporation of lawyers" type="">
+        <commentary>
+            LEGAL_FIRM[+organization][+corporation][+private_practice][+legal]
+        </commentary>
+        <examples>
+            The law student is joining a prestigious New York legal firm.
+            These legal firms represent some rather unsavory individuals.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

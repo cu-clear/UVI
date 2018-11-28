@@ -1,0 +1,133 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="judgment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a reasoned opinion or decision" type="Event">
+        <commentary>
+            JUDGMENT[+state][+mental][+opinion][+reasoned]
+            Note: refers to a specific state of belief arrived at by someone.
+        </commentary>
+        <examples>
+            In their judgment he is the best person for the job.
+            People tend to make subjective judgments about their children's skills.
+            That is not, in my judgment, the end of this matter by any means.
+            Who is Sally to sit in judgment of how we landscape our yard?
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb>judgment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of appraising, critiquing something" type="Event">
+        <commentary>
+            JUDGMENT[+action][+appraisal]
+            Note: refers to ongoing appraisal or reasoning whose end result would be Sense 1
+            Note: nominalization - parallels verbal phrases, 'he judged her performance' 'his judgement of her performance'
+        </commentary>
+        <examples>
+            The judgment of whether to pull out the troops or not is a difficult one.
+            They felt her judgment of his performance could not be unbiased.
+            I'm going to reserve judgment of the candidates until I hear the debate on Tuesday.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>judgment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="legal decision reached by a court of law" type="Event">
+        <commentary>
+            JUDGMENT[+event][+ruling][+legal]
+        </commentary>
+        <examples>
+            Has the jury reached a judgment on the charges against the defendant? 
+            The judgment of the lower court is being appealed.
+            He passed judgment on the accused.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>judgment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="legal document describing a legal ruling" type="">
+        <commentary>
+            JUDGMENT[+entity][+artifact][+document][+legal][+ruling]
+            Note: refers to the document that describes the decision of Sense 3
+        </commentary>
+        <examples>
+            Justice Brown wrote the judgment for this landmark case.
+            The law students were perusing judgments in tort law for their exam.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>judgment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="quality of sound reasoning, sagacity" type="">
+        <commentary>
+            JUDGMENT[+quality][+capability][+cognitive][+sagacity]
+            Note: refers to an inherent capability to form sound opinions, decisions.
+            Note: does not refer to a specific opinion about something (Sense 1)
+        </commentary>
+        <examples>
+            This physician's judgment is highly respected by other doctors.
+            The boys showed poor judgment in playing on the thin ice of the lake.
+            Alcohol can affect your judgment.
+            We went along with John's proposal, against our better judgment.
+            The brain damage has largely destroyed his faculties of reason and judgment.
+        </examples>
+        <mappings>
+            <wn version="3.0">6,7</wn>
+            <omega/><pb>judgment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a legal debt obligation" type="">
+        <commentary>
+            JUDGMENT[+state][+social][+legal][+obligation][+debt][+repayment]
+        </commentary>
+        <examples>
+            There is a $100,000 judgment against this property.
+            We did a title search to determine whether there were any outstanding liens or judgments.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb>judgment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="punishment or retribution," type="Event">
+        <commentary>
+            JUDGMENT[+event][+consequence][+punishment][+divine]
+            Note: often refers to a divine punishment
+        </commentary>
+        <examples>
+            Bob argued that a day of judgment would be coming with respect to global warming.
+            He felt the illness was a judgment for his reckless youth.
+            The villagers thought the earthquake was a judgment from god.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>judgement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

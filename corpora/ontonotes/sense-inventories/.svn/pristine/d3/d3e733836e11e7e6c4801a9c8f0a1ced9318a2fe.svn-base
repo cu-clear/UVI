@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="live-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="exist in a certain manner, mode, or style;
+endure, survive" type="">
+      <commentary>
+         Note: Could be either a general mode of living or a specific set of experiences.
+         Syntax Includes:
+         NP1 LIVE (ADVP) (PP) (NP2)
+         NP1[agent[animate]] LIVE (PP)
+         Note: location, as in "He lived a thrilling life at sea,"
+         can be omitted without changing the meaning.
+         Includes: LIVE ON
+      </commentary>
+      <examples>
+         We had to live frugally after the war.
+         Many people in the world have to live on $1 a day.
+         She lived lavishly on her inheritence.
+         He said Italians really know how to live.
+         I lived through two divorces
+         The holocaust survivors have lived a nightmare.
+         He lived a thrilling life at sea.
+         She lived a boring existence at the private school.
+         The legend of Elvis lives on.
+         These superstitions live in the backwaters of America.
+         We lived without food and water for three days.
+         He went without food for days, but still he lived on.
+         My grandfather lived until the end of the war.
+         Tiny mammals lived during the age of dinosaurs.
+         The terminally ill patient wished he could live to see his grandchild.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,6,7</wn>
+         <wn lemma="live_on" version="3.0">1</wn>
+         <omega/><pb>live.01,live.02,live.03</pb>
+         <vn>exist-47.1,exist-47.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="inhabit, dwell" type="">
+      <commentary>
+         Syntax Is: NP1 LIVE PP{P NP[location]}
+         Note: location cannot be omitted.
+      </commentary>
+      <examples>
+         She lived in New Jersey all her life.
+         For many years only a few people lived on that island.
+         I live in a 220 year old house.
+         The Anazazi Indians lived in cliffs above the desert floor.
+         Who knows what evil lives in the hearts of men?
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>live.01</pb>
+         <vn>exist-47.1-1</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+      <sense group="1" n="3" name="multi-word and verb particle constructions" type="vpc">
+      <commentary>
+       Choose this tag for the following constructions:
+         live_down
+         live_in
+         live_it_up
+         live_out
+         live_over
+         live_up_to
+         live_with
+      </commentary>
+      <examples>
+         live_down
+         Would I ever be able to live down the embarrassment?
+         live_in
+         Our babysitter lives in, as it is too far to commute for her.
+         live_it_up
+         It's your birthday, so let's live it up!
+         live_out 
+         He lived out the rest of his life in peace.
+         Our cook lives out; he can easily commute from his home.
+         live_over
+         Every week they would go to the opera then live the experience over again by discussing it for hours.
+         live_up_to
+         He lives up to his reputation as a responsible member of the community by volunteering one day a week.
+         live_with
+         She has learned to live with her husband's little quirks.
+     </examples>
+      <mappings>
+         <wn lemma="live_down" version="3.0">1</wn>
+         <wn lemma="live_in" version="3.0">1</wn>
+         <wn lemma="live_it_up" version="3.0">1</wn>
+         <wn lemma="live_out" version="3.0">1,2</wn>
+         <wn lemma="live_over" version="3.0">1</wn>
+         <wn lemma="live_up_to" version="3.0">1</wn>
+         <wn lemma="live_with" version="3.0">1</wn>
+         <omega></omega><pb>live.04,live.05,live.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

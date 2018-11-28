@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="unravel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become undone by separating parts of" type="">  
+      <commentary>
+       syntax is: NP1[concrete] UNRAVEL NP2[concrete]
+      </commentary>
+      <examples>
+      The cat unraveled the thread.
+      The sweater unraveled.
+      I unraveled the rope and wounded it around a peg.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>unravel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="resolve the intricacy of; come out of obscurity" type="">
+      <commentary>
+        Syntax includes: NP1[human] UNRAVEL NP2
+                         NP1[agent] UNRAVEL NP2
+                         NP1[abstract] UNRAVEL PP
+        Note: Object is not destroyed (compare to Senses 1 and 3)
+      </commentary>
+      <examples>
+      Can you unravel the mystery?
+      A war is unravelling in Africa and no one cares.
+      I had nothing of substance to unravel our case unless I outed the murderer.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="reverse, undo, become undone, destroy" type="">
+      <commentary>
+       Syntax includes: NP1[theme] UNRAVEL
+                        NP1[theme] UNRAVEL NP2[abstract]
+      </commentary>
+      <examples>
+      Most companies would have unraveled by now.
+      Launching a full-fledged bid could unravel the GM-Jaguar talks.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>unravel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

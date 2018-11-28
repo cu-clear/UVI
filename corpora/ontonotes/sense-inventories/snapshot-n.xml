@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="snapshot-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an informal photograph taken with a camera" type="">
+        <commentary>
+            SNAPSHOT[+entity][+artifact][+reproduction][+visual][+by_camera][+casual]
+        </commentary>
+        <examples>
+            Here is a snapshot of Mary and John taken on their honeymoon.
+            We sorted through boxes of old snapshots of family vacations.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a brief summary or depiction of something" type="">
+        <commentary>
+            SNAPSHOT[+entity][+abstract][+information][+summary][+brief]
+            Note: can refer to a spoken, written or visual summation or depiction.
+        </commentary>
+        <examples>
+            The collection of stories provided snapshot of life in rural China.
+            His lecture could only give a snapshot of such a complex industry.	
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a dated fixed state repository of computer data" type="">
+        <commentary>
+            SNAPSHOT[+entity][+artifact][+repository][+data][+computer][+time_stamped]	
+        </commentary>
+        <examples>
+            This automatic backup program will create a daily snapshot of your hard disk drive.
+            John was able to fix the bug by rolling back to an earlier snapshot of the application software. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

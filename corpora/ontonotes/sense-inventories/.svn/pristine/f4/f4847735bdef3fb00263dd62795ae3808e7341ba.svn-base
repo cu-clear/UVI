@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="harness-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Attach a harness to, as of a horse." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] HARNESS NP2[patient[animate]]
+      </commentary>
+      <examples>
+      I harnessed the horse before putting on the saddle.
+      There are men who think it's right to harness their wives and lead
+      them around like cattle.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>butter-9.9,tape-22.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Control and direct, possibly with the
+         intent to exploit; keep in check." type="">
+      <commentary>
+      Syntax Is: NP1[agent] HARNESS NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      China's program has harnessed some of the economic gains of the past
+      quarter.
+      You must harnass your temper for good, not evil.
+      America must harnass its natural resources more effectively.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>harness.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

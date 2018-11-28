@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="factor-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a cause" type="">
+        <commentary>
+	    FACTOR[+event]
+	    Anything that causes a result to happen, or could potentially cause a result to happen.  This is the most common usage.
+	    </commentary>
+        <examples>
+            A number of factors determined the outcome of the game.
+            There's one factor you forgot to take into account, Dr. Watson!
+            Our company is going to implement several new Success Factors to meet our revenue goals.
+            Direct marketers have to understand the gender factor when designing their campaigns.
+            The pH factor of a liquid is an indicator of how acidic or basic it is.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="component part" type="Abstraction">
+        <commentary>
+            A part of something.  
+        </commentary>
+        <examples>
+            Fear, surprise, and ruthless efficiency are three factors of a good military campaign.
+            Humor is an effective factor of any speech.
+            I broke the sentence down into its grammatical factors.
+            A key factor of her success was her willingness to endure rejection.
+            The market researchers used factor analysis to determine that young people were more likely to purchase CDs.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2 6
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="numbers that form a product" type="Mathematics">
+        <commentary>
+            Two or more numbers that can be divided into another number.
+        </commentary>
+        <examples>
+            The number 6 has 4 integer factors: 1, 2, 3, and 6.
+            The problem becomes much easier when you break it into its algebraic factors.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3 4
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="business agent or broker" type="Entity">
+        <commentary>
+            A businessperson who buys and sells on behalf of another person.  Usually called a 'broker' or 'agent'.
+        </commentary>
+        <examples>
+            Mr. Percy will be my factor in these negotiations.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="gene" type="Biology">
+        <commentary>
+            An old-fashioned way of referring to a piece of genetic information.
+        </commentary>
+        <examples>
+            Genes were originally called factors.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                7
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

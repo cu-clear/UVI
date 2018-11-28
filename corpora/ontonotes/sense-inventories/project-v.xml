@@ -1,0 +1,101 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="project-v">    
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="convey or communicate effectively" type="">  
+      <commentary>
+        Syntax Is: NP1 PROJECT NP2
+      </commentary>
+      <examples>
+        You know, a person with good posture projects poise, confidence and dignity.
+        He projects himself as a confident speaker.
+        Recently the president has sought to project a much tougher image.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="stick out, jut out, protrude" type="">
+      <commentary>
+        Syntax Is: NP1 PROJECT (NP2)
+      </commentary>
+      <examples>
+        The hotel dining room projects out over the water.
+        The balcony projected several feet.
+        The boy projected his jaw in defiance.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>project.01</pb>
+         <vn>spatial_configuration-47.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="send off, cast forward" type="">
+      <commentary>
+        Syntax Is: NP1 PROJECT (NP2)
+      </commentary>
+      <examples>
+        How does a cannon project a missile?
+        His voice projects well.
+        She had trouble projecting her voice to the back of the auditorium.
+        She projected a light beam into the dark corner.                                                  
+      </examples>
+      <mappings>
+         <wn version="3.0">5,10,11</wn>
+         <omega/><pb>project.01</pb>
+         <vn>spatial_configuration-47.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="transfer an image or feeling onto something else" type="">
+      <commentary>
+        Syntax Is: NP1 PROJECT NP2[patient[abstract]] ONTO NP3
+        Note: 
+        -Psychology: imagining or ascribing one's own feeling or thought on someone else.
+        -Math: transform a geometric figure into another by drawing straight lines
+         through every point of the figure to another plane.
+      </commentary>
+      <examples>
+        The teacher projected the photograph onto a screen.
+        Please project the color onto the surface.
+        The instrument intercepted the rays of the sun and projected a shadow upon a disc.
+        He had projected his fear of heights onto her.
+        I suspect he's projecting his anxieties onto you.
+        It can be used as a rotation matrix to project the shape onto the principal component axes.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,6,12</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="estimate, propose plan" type="">
+      <commentary>
+        Syntax Is: NP1 PROJECT NP2
+      </commentary>
+      <examples>
+        Government spending is projected to rise by 3% next year.
+        They project an increase of $6 million dollar for maintenance.
+        The managers project an extended tour next year.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,8,9</wn>
+         <omega/><pb>project.02</pb>
+         <vn>estimate-34.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="imagine, envision or visualize" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She projected herself back into her past.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

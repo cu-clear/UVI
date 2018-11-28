@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="party-n">
+    <commentary>
+        15sep06 updated to WN2.1, modified definitions, added features, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="festive social event, celebration" type="">
+        <commentary>
+            PARTY[+event][+social][+festivity]
+            a occasion on which people can assemble for social interaction and
+            entertainment. 
+        </commentary>
+        <examples>
+            He planned a party to celebrate Bastille Day.
+            We are throwing a bachelor party for Fred.
+            Sally's daughter had fifteen guests at her slumber party.
+            Mary is such a party girl.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>party.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a band of people participating together" type="Animate">
+        <commentary>
+            PARTY[+entity][+group][+people][+participating]
+            company - 
+            a band of people associated temporarily in some activity
+        </commentary>
+        <examples>
+            They have organized a search party to look for the children.
+            The tribe organized a war party to avenge the slaying of its chief.
+            The three women in pale blue gowns are part of the wedding party.
+            They only have patio tables for parties of two at the moment.
+            It's unclear whether or not he was a party to the slayings. (participant)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="political organization" type="Politics">
+        <commentary>
+            PARTY[+entity][+group][+organization][+political]
+            an organization to gain political power
+        </commentary>
+        <examples>
+            In 1992 Perot tired to organize a third party at the national level.
+            She is the leader of the minority party in congress.
+            He was a big party boss in Chicago for twenty years.
+            Several Republican senators have broken with the party line on this issue.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="one person, individual" type="">
+        <commentary>
+            PARTY[+entity][+individual][+person]
+            used as a substitute for person, often in legal proceedings
+        </commentary>
+        <examples>
+            The party of the first part claims innocence.
+            The injured party is suing for 3 million dollars.
+            Mr. Jones please meet your party at the White Courtesy Desk.
+            Could you please help the party on Line 2?
+            Each party must sign copies of both forms.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

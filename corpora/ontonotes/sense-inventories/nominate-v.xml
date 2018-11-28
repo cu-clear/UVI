@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="nominate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put for or propose as a candidate" type="">
+      <commentary>
+        Syntax Is: NP1[agent] NOMINATE NP2[theme] PP{for NP[attribute]}
+      </commentary>
+      <examples>
+        Who was the only actor to be nominated twice for an Oscar for the same performance? 
+        Three students have been nominated for the scholarship.
+        But members of the Swiss parliament have nominated him for the peace prize. 
+        It was a close election, but in the end Jane was nominated
+        president.
+        The President must now nominate three Supreme Court judges.
+        In 1805 Napoleon nominated him to the See of Acqui, Italy, and in
+        1807 to Ghent, Belgium.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>nominate.01</pb>
+         <vn>appoint-29.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="jennifed,duffielc,corvey,clarklm" sample_score="-"/>
+</inventory>

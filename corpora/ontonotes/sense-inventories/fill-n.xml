@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fill-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a quantity sufficient for satisfaction" type="">
+        <commentary>
+            FILL[+quantity][+amount][+sufficient][+for_satisfaction]
+        </commentary>
+        <examples>
+            The children ate their fill of candy on Halloween.
+            We could never get our fill of diving in the warm clear waters.
+            John said he's had his fill of surprised for one day. (ironic intent)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="any substance used to fill a space or container" type="">
+        <commentary>
+            FILL[+entity][+substance][+filler]
+        </commentary>
+        <examples>
+            You need more potting fill for this window box.
+            The fill in these pillows is some type of polyester.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of shading in color into an area" type="Event">
+        <commentary>
+            FILL[+event][+shading_in][+color][+in_region]
+        </commentary>
+        <examples>
+            The artist's fill of the background with purple hues created a brooding effect.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a short musical phrase performed by an instrument in a popular song" type="">
+        <commentary>
+            FILL[+form][+musical][+phrase][+short][+of_instrument]
+        </commentary>
+        <examples>
+            I like the saxophone fill on that song between the verses.
+            He performed the piece with a drum fill at the end of the song.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cheat-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="deprive someone of ownership" type="">
+      <commentary>
+        Syntax Is:
+        NP1[agent] CHEAT NP2[patient] PP{out of NP}
+        NOTE: The possession being taken away MUST be explicitly stated. 
+      </commentary>
+      <examples>
+       The Depression cheated her out of a happy childhood.
+       The slick insurance salesman is cheating old people out of their savings.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>cheat.01</pb>
+         <vn>cheat-10.6</vn><fn>Manipulate_into_doing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="practice trickery or deceitful behavior" type="">
+      <commentary>
+       Syntax Includes:
+       NP1[agent[human]] CHEAT PP{P NP}
+       NP1[agent[human]] CHEAT ON NP2[patient]
+       NOTE: use this sense for any ambiguous examples of cheat where a
+       possession is not overtly expressed. 
+       Includes: CHEAT ON
+      </commentary>
+      <examples>
+       Mary says John cheats at cards.
+       Some of the children cheated on the test.
+       IS Sally cheating on her husband?
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="cheat_on" version="3.0">1</wn>
+         <omega/><pb>cheat.02</pb>
+         <vn>force-59-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,clarklm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="condemn-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="judge or show someone to be guilty; express disapproval" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] CONDEMN NP2[theme] PP{OF NP[attribute]}
+        NP1[agent[human]] CONDEMN NP2[theme] FOR [attribute]
+        NP1[agentt[human]] CONDEMN NP2[patient]
+      </commentary>
+      <examples>
+        When he could not do so, those gathered condemned him of discourtesy.
+        I believe he would have found it amusing that society condemned him of gross indecency.
+        In 1876 a Massachusetts judge condemned a manufacturer for violating the ten-hour law.
+        We condemn the racism in South Africa.
+        An outraged judge condemned prosecutors for not charging a councillor who killed a man.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>condemn.01</pb>
+         <vn>judgement-33,suspect-81</vn><fn>Judgment_communication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="force into a state or punishment" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] CONDEMN NP2[theme] to NP3[goal]
+         NOTE: compare to sense 1; these senses are related, but
+              the NP2 in this sense may not necessarily be guilty
+              but may be a victim of circumstance. Also the state/punisment
+              NP is required for a sentence to fit into this sense.
+      </commentary>
+      <examples>
+        His devotion to his sick wife condemned him to a lonely existence.
+        Emperor Charles V condemned him to death as a convicted rebel.
+        He was condemned to twelve years in prison on charges of attempted murder.
+        Acid mutilates and maims the victim, condemning her to lifelong isolation and emotional anguish.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>condemn.01</pb>
+         <vn>suspect-81</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="declare unfit or unsafe" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They have not yet made a final decision whether to condemn the property.
+        The city building official issued an order condemning the premises for habitation.
+        On December 15, 1997, the building was condemned because it had no heat.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,clarklm,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="parallel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be parallel to; equal" type="">  
+      <commentary>
+        Syntax Is: NP1 PARALLEL NP2 (to) (NP3)
+      </commentary>
+      <examples>
+        They paralleled the ditch to the highway.
+        Their roles are paralleled by ours.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>parallel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="duplicate, match" type="">
+      <commentary>
+        Syntax Is: NP1 PARALLEL NP2
+      </commentary>
+      <examples>
+        The white canvas paralleled his pale appearance.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

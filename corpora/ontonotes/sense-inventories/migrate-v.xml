@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="migrate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move from one physical location to another." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[animate]] MIGRATE (PP{P NP[location]})
+      </commentary>
+      <examples>
+      Cattle migrate from one end of the field to the other each day.
+      Many Germans migrated to South America in the mid-19th century.
+      The tribe migrated many times over the centuries.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>migrate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) change location or state." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Much of the 800 service will migrate to 900 next year.
+      We are trying to migrate our applications to Vista.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>migrate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

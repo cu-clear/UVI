@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="access-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Obtain from a storage device, as of
+   information on a computer." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] ACCESS NP2[patient] (PP{P NP[location]})
+      </commentary>
+      <examples>
+      I can't access the data on my hard drive.
+      Disk drives allow computers to access their memory.
+      I can't seem to access the data I need - I've been asking the
+      university for permissions on the server.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>access.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Physically reach a location, without
+         necessarily the intent to retrieve anything." type="">
+      <commentary>
+      Syntax Is: NP1[agent] ACCESS NP2[location]
+      </commentary>
+      <examples>
+      How does one access the attic in this house?
+      I cannot access the T.V. antenna.
+      You can access the roof via the stairs.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>access.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

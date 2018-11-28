@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="abortion-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="intentional termination of a human pregnancy" type="Event">
+        <commentary>
+            ABORTION[+event][+termination][+pregnancy][+intentional]
+        </commentary>
+        <examples>
+            It is illegal to have an abortion in that country.
+            Their candidate is a strong advocate for abortion rights for women.
+            They argued over the ban on partial abortions.
+            The article identified some possible risks associated with abortion pills.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="unintentional termination of a pregnancy" type="Event">
+        <commentary>
+            ABORTION[+event][+termination][+pregnancy][-intentional]
+        </commentary>
+        <examples>
+            The doctor is trying to determine why the woman had a spontaneous abortion.
+            A new infection is causing contagious abortions among dairy cattle.
+            The herbicide causes an abortion of the seeds in those plants.
+        </examples>
+        <mappings>
+            <wn version="MW online">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a failed plan or endeavor" type="Event">
+        <commentary>
+            ABORTION[+state][+failure][+plan]
+        </commentary>
+        <examples>
+            There was an abortion of the air strike because of a big sandstorm. 
+            The reviews of his new comedy as a total abortion of wit have devastated the playwright.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

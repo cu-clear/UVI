@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="flood-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fill or cover with" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FLOOD NP2[location] PP{with NP[theme]}
+        NP1[theme] FLOOD NP2[location]
+      </commentary>
+      <examples>
+        He did not know the basement flooded when he purchased the house.
+        The smell of gasoline vapors after a failed start may mean you have flooded the engine. 
+        In the microcosms flooded with saline media, the initially present members of the N. oligotropha lineage were replaced.
+        Jack stood up to reach for the tool catalog when suddenly the room flooded with fluorescent light.
+        He was about to sit down on the floor when the room flooded with Enya.
+        Thoughts of Keilan flooded to the front of her mind and she clenched her jaw.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>flood.01</pb>
+         <vn>fill-9.8,other_cos-45.4</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="supply with an excess of" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FLOOD NP2[patient[abstract]] PP{with NP[theme]}
+        NP1[theme] FLOOD NP2[patient[abstract]]
+        NP1[theme] FLOOD NP2[location[abstract]]
+        Note: while the agent may not be explicitly stated in all utterances, an agent is understood
+             (Tennis shoes can't flood the market without a supplier!)
+      </commentary>
+      <examples>
+        Publishers flooded the market with books that matched this formula, giving readers more and more of what they demanded.
+        Those of you that flooded the Montana Park system with calls and emails please know that you did make a difference!
+        They spent roughly 5 million dollars on an aggressive campaign that flooded the airwaves with attacks against Senator.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>flood.01</pb>
+         <vn>fill-9.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="arrive in great numbers" type="">  
+      <commentary>
+        Is: FLOOD IN
+      </commentary>
+      <examples>
+        Afterwards, hundreds of letters flooded in to the radio station.
+        Hundreds of stories flooded in, everything from standard computer failures to tales of blue smoke and fire.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>   
+         <wn lemma="flood_in" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Mass_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="charge someone with too many tasks" type="">
+      <commentary>
+        Is: FLOOD OUT
+      </commentary>
+      <examples>
+        He was flooded out with too many questions to solve to allow him the time to disentangle them.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="flood_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>  
+</inventory>

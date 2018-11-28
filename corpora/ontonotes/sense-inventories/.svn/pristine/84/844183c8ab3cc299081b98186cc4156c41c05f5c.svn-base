@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="label-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="refer to as, give a designation, distinguish" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] LABEL NP2[theme] NP3[attribute]
+        NP1[agent] LABEL NP2[theme] PP{P NP[attribute]}
+        NP1[attribute] LABEL NP2[theme] as NP3[attribute]
+      </commentary>
+      <examples>
+        However, I would be very, VERY wary about who was labeling a blind child M.R.
+        The FBI labeled him as a subversive.
+        His most recent jobs have clearly labeled him as one of the few men trusted with power.
+        The direction of the deflecting electric field E and its gradient will be labeled the z-axis.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3,4,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>label.01</pb>
+         <vn>dub-29.3</vn><fn>Labeling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="physically put a tag/marker/label on something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] LABEL NP2[theme]
+      </commentary>
+      <examples>
+        Please label those bottles.
+        I carefully labeled the major regions of wine and cheese production.
+        The main molecular features were clearly labeled.
+        My next temp job was labeling and moving office furniture.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>label.01</pb>
+         <vn>butter-9.9,illustrate-25.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

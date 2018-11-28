@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="consume-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="eat or drink, esp. in large amounts; ingest" type="">
+      <commentary>
+       NOTE: Compare to sense 2. Only food items go under this sense. Any non-food items or
+       abstract items go in sense 2.
+      </commentary>
+      <examples>
+        She consumes 2 cups of sugar a day.
+        Total cholesterol, LDL cholesterol and apoB were lower when women consumed
+          the HUFA diet than when they consumed the other two diets.
+        My cows consume more hay than my neighbor's.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>consume.01</pb>
+         <vn>devour-39.4</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="use resources or materials" type="">
+      <commentary>
+        NOTE: This sense does not include food items of any kind.
+     </commentary>
+      <examples>
+        Motorcycles consume less gas than cars do.
+        We consumed our entire savings in less than a month.
+        The horrific slaughter consumed 63% of the airtime.
+        Americans consume more information from the internet than any other nation.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5</wn>
+         <omega/><pb>consume.01</pb>
+         <vn>consume-66</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="do away with; destroy" type="">
+      <commentary>
+        Syntax Is: NP1[inanimate] CONSUME NP2
+        NOTE: In this sense the NP that is consumed is destroyed fully.
+      </commentary>
+      <examples>
+        The fire consumed the building.
+        He discussed how commerce consumed the commons.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="engage" type="">
+      <commentary>
+        NOTE: The thing being consumed is not used up or gone. Most
+        examples of this are in the passive, but not all. And not all
+        passives fit in this sense, read the sentence carefully.
+        Syntax Is: NP1[agent[abstract]] CONSUME NP2
+      </commentary>
+      <examples>
+        He was an artist whose heart was consumed by passion.
+        He is consumed by a desire to be great.
+        They were consumed with grief after the death of their child.
+        After her breakup, depression consumed her.
+        Our country is consumed by war.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="copy-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="replicate in writing or a written document" type="">  
+      <commentary>
+        Includes COPY OUT, COPY DOWN
+        NOTE: Includes 'send a copy (of a written document to)' as in an
+        email or a memo. See sentence 5.
+      </commentary>
+      <examples>
+      The students were made to copy the alphabet over and over again.
+      Copy the notes on the board. 
+      Copy the information in the cell.
+      He copied the classified documents word for word.
+      Will you copy me on your response to the boss about annoying e-memos?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="23.0">1,3</wn>   
+         <wn lemma="copy_out" version="3.0">1</wn>
+         <omega></omega><pb>copy.01,copy.02</pb>
+         <vn>scribble-25.2,transcribe-25.4</vn><fn>Duplication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="replicate an item or one's behavior/looks." type="">
+      <commentary>
+        NOTE: Replicating ANY written document does not go in this
+        sense. Tag as sense 1.
+      </commentary>
+      <examples>
+      She's copying me!
+      The mime copied the passers-by.
+      Children often copy their parents or older siblings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>copy.01</pb>
+         <vn>scribble-25.2</vn><fn>Imitating,Duplication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,107 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="squeeze-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="exert pressure or influence on something" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SQUEEZE NP2[squeezed]
+        Includes: SQUEEZE FOR
+        NOTE: compare carefully to sense three; this sense does not refer
+        to causing a change in location, but it can refer to a change in state due to direct pressure
+      </commentary>
+      <examples>
+        Squeeze the lemon and add a couple tablespoons along with some broth.
+        He then squeezed my hand in a gesture of solidarity and affirmation.
+        He reloaded the gun, took aim and then squeezed the trigger.
+        Small businesses are being squeezed by heavy taxation.
+        It's dangerous because the feds want to squeeze him for information.
+        To have squeezed the universe into a ball.
+        His eyes, seemingly squeezed upward into slits, narrowed still further.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,7,8,9</wn>   
+         <wn lemma="squeeze_for" version="3.0">1</wn>
+         <omega/><pb>squeeze.01</pb>
+         <vn>knead-26.5,touch-20-1,wipe_manner-10.4.1-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="extract by exerting pressure or influence" type="">
+      <commentary>
+        Syntax is: NP1[agent] SQUEEZE NP2[purpose] from/out of NP3[squeezed]
+        Includes: SQUEEZE OUT
+      </commentary>
+      <examples>
+        Squeeze some juice from the lemon.
+        After cleaning the floor, he squeezed the dirty water from her cloth.
+        The studio is using marketing tricks to squeeze profit from the movie.
+        They managed to squeeze confession from suspect.
+        We have an excellent travel agent who can squeeze a deal out of a stone.
+        He managed to squeeze out a timid &quot;thank you&quot; (of himself).
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="squeeze_out" version="3.0">3</wn>
+         <omega/><pb>squeeze.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="push or cram something/someone into something" type="">
+      <commentary>
+        Syntax is: NP1[agent] SQUEEZE NP2 (PP[concrete, temporal, locative])
+                   NP1[agent] SQUEEZE PP[locative]
+        includes: SQUEEZE IN
+      </commentary>
+      <examples>
+        The boy squeezed between the boxes and closed his eyes.
+        The car's quite full, but we could manage to squeeze another person.
+        I must have put on a lot of weight. I can't squeeze into my favorite jeans.
+        While we're in Australia, we're hoping to squeeze in a trip to the Barrier Reef.
+        I'm very busy this week but I could squeeze you in at 2.30 on Tuesday.
+        Conversation? Funny. You listen and squeeze a word or two in every five minutes.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>funnel-9.3-1-1,push-12-1-1</vn><fn>Cause_to_move_in_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="barely manage or succeed in doing or surviving something" type="">
+      <commentary>
+        Syntax includes: NP1 SQUEEZE PP 
+
+        Includes: SQUEEZE BY, SQUEEZE THROUGH, SQUEEZE OUT
+      </commentary>
+      <examples>
+        I barely managed to squeeze through the exam with a D.
+        Can you squeeze by on 40 dollars a day?
+        She squeezed through the crowd and found a seat at the front.
+        They managed to squeeze under the fence and get into the festival without paying.
+      </examples>
+      <mappings>
+         <wn lemma="squeeze_by" version="3.0">1</wn>
+         <wn lemma="squeeze_out" version="3.0">2,4,5,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="exclude" type="">
+      <commentary>
+        Syntax is: NP1[agent] SQUEEZE NP2 (OUT) PP
+
+        Includes: SQUEEZE OUT
+      </commentary>
+      <examples>
+        The company squeezed them out by means of aggressive marketing.
+        The show has been squeezed out of prime time slot.
+        Some employees were squeezed out by the recent budget cuts.
+        People within this income group are being squeezed out of their tenure and home of choice.
+        Justice has been squeezed out of the criminal justice system, as wrongful convictions are at a high rate.
+      </examples>
+      <mappings>
+         <wn lemma="squeeze_out" version="3.0">1</wn>
+         <omega/><pb>squeeze.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

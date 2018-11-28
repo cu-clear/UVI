@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shake-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move or cause to shudder or vibrate" type="">
+      <commentary>
+        includes resultative constructions; see examples
+      </commentary>
+      <examples>
+        The chemist shook the flask vigorously.
+        His hands couldn't stop shaking.
+        He was shaken from his dreams.
+        Shake the salt out of the salt shaker.
+        He shook off his water logged boots.
+        I shook my piggy bank but all that came out was a paper clip.
+        The 6.2 magnitude quake shook the densely populated province.
+        A child 's brain and body can be injured when he or she is shaken.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,8</wn>
+         <wn lemma="shake_up" version="3.0">3,6</wn>
+         <omega/><pb>shake.01</pb>
+         <vn>body_internal_states-40.6,crane-40.3.2,funnel-9.3-1-1,knead-26.5,modes_of_being_with_motion-47.3,shake-22.3-2</vn><fn>Body_movement,Cause_to_move_in_place,Moving_in_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="make unstable, undermine, cause to waver, challenge" type="">
+      <commentary>
+        Includes: SHAKE UP
+      </commentary>
+      <examples>
+        My faith has been shaken.
+        The bad news shook her hopes.
+        The civil war shook the country.
+        I'm all shook up!
+        The sinister and surreal events of the night shook him up so badly that he resigned.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6</wn>
+         <wn lemma="shake_up" version="3.0">1,4,5</wn>
+         <omega/><pb>shake.03</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="make a communicative gesture" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She shook her finger at the naughty students.
+        Teach your horse to shake his head yes and no.
+        They ought not shake hands with people while they are infected.
+        Don't shake your fist at me.
+        Shake, shake, shake, shake your booty.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="shake_hands" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>crane-40.3.2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="get rid of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I couldn't shake the feeling that I was being watched.
+        He tried to shake the car that was following him.
+        He shook off his image as one of international football's conservatives.
+        Daughter Barbara shook off her Secret Service escort.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="shake_off" version="3.0">1,2</wn>
+         <omega/><pb>shake.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="shuffle and reorganize" type="">
+      <commentary>
+        Includes: SHAKE UP (specific. general sense of challenge or undermine is sense 2)
+      </commentary>
+      <examples>
+        The corporation shook up its financial staff after the buyout.
+        As rumored , Microsoft shook up Windows development by putting Steven Sinofsky in charge.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="shake_up" version="3.0">2</wn>
+         <omega/><pb>shake.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd" sample_score="-"/>
+</inventory>

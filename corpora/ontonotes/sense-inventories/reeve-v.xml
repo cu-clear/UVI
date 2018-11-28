@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="reeve-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="thread a rope through an opening" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] REEVE NP2[patient1] PP[patient2]
+      NP1[agent] REEVE NP2[patient]
+      </commentary>
+      <examples>
+      He reeved the end of the rope through the pulley block, and we attached the end to No.2 oar.
+      He saw that the rope was worn when he reeved the rope through.
+      An eye was made at one end, and through this the other end was reeved, so that a running noose was obtained.
+      It was reeved through a limber hole in the side of the ship, and attached to a snatch block.
+      I was reeved down a line in the center of a long high line across the falls.
+      The rope reeved through these sheaves.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>reeve.01</pb>
+         <vn>tape-22.4-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fasten by passing a rope through or around something" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] REEVE NP2[patient1] (PP[patient2])
+      NP1[agent] REEVE NP2[instrument]
+      </commentary>
+      <examples>
+      The rope was fairly reeved, and the tackle sound.
+      Some Hessian soldiers were reeving ropes over the arm of the tree.
+      The rope was reeved round a pair of large blocks.
+      Instead, the membrane was reeved with nonresorbable sutures to achieve straightening.
+      One end of the rope was reeved through the chain of the shark-hook and the other end fastened to a tree.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>reeve.01</pb>
+         <vn>tape-22.4-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

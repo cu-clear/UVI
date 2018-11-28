@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="enlist-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hire for work or assistance" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[theme] ENLIST (PP)
+        NP1[agent] ENLIST NP2[theme] (PP)
+      </commentary>
+      <examples>
+        Drug-sniffing dogs were enlisted to expose the smuggling ring.
+        A new technology has been enlisted in the search for life on mars.
+        NOAA enlisted amateurs in a search for new planets.
+        I enlisted in the company for the experience.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>enlist.01</pb>
+         <vn>hire-13.5.3</vn><fn>Becoming_a_member</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) join the military" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] ENLIST 
+        NOTE: This is a subsense of sense 1 that applies only to the
+        'military' frame.
+      </commentary>
+      <examples>
+        He enlisted when he was only 18.
+        My daughter enlisted in the Air Force in North Carolina.
+        John Cambpell enlisted in 1918 but never saw service.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>enlist.01</pb>
+         <vn>hire-13.5.3</vn><fn>Becoming_a_member</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,163 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="space-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the physical expanse of the universe" type="">
+        <commentary>
+            SPACE[+form][+physical][+expanse][+universe]
+            Note: focus is on apparently unbounded physical space
+            Note: does not imply a demarcation or allotment, based on a function (see Sense 2)
+        </commentary>
+        <examples>
+            The astronaut performed a space walk in order to fix the orbiting telescope.
+            The space of our universe may include more than the three dimensions we perceive.
+            The space age is less than a hundred years old.
+            Einstein proved that matter curves space and space dictates how matter moves.
+            Space travel to distant galaxies is still a thing of science fiction.
+            Bob thinks Tina is a space cadet. (figurative, from outer space, distant)
+            In visual space, parallel lines converge at the horizon. (extension of core meaning)
+            The colors in this room create a cold emotional space. (extension of core meaning)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>space.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="size or extent of an area or location, bounded or demarcated" type="">
+        <commentary>
+            SPACE[+quantity][+amount][+extent]
+            Note: focus is on the size or allotment of the area.
+            Note: measures size or area, not time (see Sense 6)
+        </commentary>
+        <examples>
+            The car won't fit into such a tight parking space.
+            We found a wide open space to fly the kites.
+            The town has designated these conservation areas as open spaces for perpetuity. 
+            She is wearing braces to close the space between her front teeth.
+            This home has two thousand square feet of living space.
+            The mouse made a nest in a small space between the walls.
+            The stores are not allotting much shelf space to these new products.
+            There's no more space on this bus, we'll have to take the next one.
+            How much swap space does this computer program use?
+            Do you have enough disk space for this download?
+            There is still available space for rent in the new office complex.
+            Their firm pays for 4 inches of space each week in three national newspapers.
+            They warmed their rooms in the winter with a space heater. (heater for a sized area)
+            John cut out two sentences because he was over the space limit for the abstract.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>space.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="mathematical dimensionality, geometry" type="">
+        <commentary>
+            SPACE[+form][+dimensionality][+mathematical][+geometric]
+            Note: does not refer directly to physical reality (see Sense 1)
+        </commentary>
+        <examples>
+            A sphere would appear as a circle in two-dimensional space.
+            A cube defines a 3-D space, and a hyper-cube defines a 4-D space.
+            Calabi-Yau spaces are mathematical constructs applied to string theory.
+        </examples>
+        <mappings>
+            <wn version="MAC">2c</wn>
+            <omega/><pb>space.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="small purposefully blank regions in documents" type="">
+        <commentary>
+            SPACE[+document][+area][+empty][+purposeful]
+        </commentary>
+        <examples>
+            John signed the agreement in the space provided at the bottom of the page.
+            Each staff of music is composed of lines and spaces.
+            Fill out your name, address and occupation in the spaces provided.
+        </examples>
+        <mappings>
+            <wn version="3.0">7,8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="unrestricted assertion of personal identity" type="">
+        <commentary>
+            SPACE[+state][+assertion][-restricted][+identity][+personal]
+        </commentary>
+        <examples>
+            John broke up with his girlfriend because she wouldn't give him enough space.
+            Sally is a loner because she says she needs her space. 
+            Mary advised her friend to give her teen-aged son more space. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1h</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="an amount or interval of time" type="">
+        <commentary>
+            SPACE[+quantity][+time][+interval]
+            Note: measures time, not distance or size (see Sense 2)
+        </commentary>
+        <examples>
+            Both their cars were stolen in the space of three days.
+            The entire novel takes place in the space of one day.
+            In the space of a second the cat had caught the bug between its paws.
+            Several companies have reserved 30-second spaces for advertising during the broadcast.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>space.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a notation, a single blank between letters" type="">
+        <commentary>
+            SPACE[+notation][+character][+blank]
+        </commentary>
+        <examples>
+            The space bar on a computer introduces a space into the line of typing.
+            I think you need a space between these two words.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="block of typeset with no raised letters" type="">
+        <commentary>
+            SPACE[+device][+block][+printing][+letter][-raised]
+        </commentary>
+        <examples>
+            The typesetter used spaces to separate the blocks of type.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

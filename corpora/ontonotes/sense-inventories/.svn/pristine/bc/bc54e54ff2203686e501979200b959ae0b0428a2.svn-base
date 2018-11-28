@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tramp-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Travel on foot." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      We tramped about the state of Colorado.
+      Mules tramped in a circle.
+      Gypsies tramped the countryside.
+      They tramp from town to town.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tramp.01</pb>
+         <vn>run-51.3.2-1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Flatten or crush by walking on." type="">
+      <commentary>
+      Includes: TRAMP DOWN
+      </commentary>
+      <examples>
+      Cattle tramped down the grass.
+      I accidentely tramped the flowers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="tramp_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

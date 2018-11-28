@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="smell-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the scent or odor of something" type="Event">
+        <commentary>
+            SMELL[+quality][+property][+odor]
+        </commentary>
+        <examples>
+            We awoke to the smell of hot coffee and frying bacon.
+            He liked the lingering smell of her hair on his pillow.
+            These dogs are trained to identify different chemical smells.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>smell.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a bad or unpleasant odor" type="">
+        <commentary>
+            SMELL[+quality][+property][+odor][+bad]
+            Note: a narrow, pejorative usage of Sense 1
+        </commentary>
+        <examples>
+            Twenty seven cats lived in the apartment, so you can imagine the smell.
+            They left the hotel after one night because of the smells.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="general atmosphere of a situation" type="Event">
+        <commentary>
+            SMELL[+quality][+atmosphere][+of_situation]
+        </commentary>
+        <examples>
+            The whole business proposition has a funny smell about it.
+            The act has the smell of treason.
+            Mary's life has the smell of excitement.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the sense faculty of odor detection" type="">
+        <commentary>
+            SMELL[+quality][+faculty][+sense][+scent_detection]
+        </commentary>
+        <examples>
+            Dogs have a far better sense of smell than humans do.
+            The sharks find the bloody chum by smell.
+            The spray confuses the insects' smell sensors.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the act of perceiving a scent" type="Event">
+        <commentary>
+            SMELL[+event][+perceptual][+detection][+of_scent]
+        </commentary>
+        <examples>
+            Mary bent over the rose bush to have a smell.
+            The head chef took a smell of the sauce and corrected the seasoning.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

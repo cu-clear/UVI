@@ -1,0 +1,200 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="issue-n">
+    <commentary>
+        1AUG06 - added examples, modified definitions, added features. ahouston
+        23Apr08 - changed features and commentary, Senses 4 and 7. ahouston
+        15May08 - added a separate sense (10) for stocks and bonds meaning. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="topic or concern, subject matter" type="">
+        <commentary>
+            ISSUE[+state][+focus][+topic][+dispute/+subject/+concern]
+            subject matter, matter -
+            an important question or some situation or event
+            Note: often implies a dispute
+        </commentary>
+        <examples>
+            Mary is having issues with her daughter.
+            Politicians never discuss the real issues.
+            Money was not the issue in John deciding to switch jobs.
+            He had been thinking about the issue for several years.
+            The debate club took up the issue of global warming.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="consequence or outcome" type="">
+        <commentary>
+            ISSUE[+state][+outcome]
+            consequence, effect, outcome, result, event, upshot 
+            Note: somewhat dated usage
+        </commentary>
+        <examples>
+            The chance of carrying out such a scheme to successful issue is small.
+            We hoped his enterprise would have a prosperous issue.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a periodical, e.g., journal or magazine" type="">
+        <commentary>
+            ISSUE[+document][+periodical][+magazine/+journal]
+            [+quantity][+series][+numbered][+member][+single]
+            one of a series published periodically
+        </commentary>
+        <examples>
+            She found an old issue of the magazine in her dentist's waitingroom.
+            Did you see the December issue of Sky and Telescope?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="act of supplying, distributing" type="Event">
+        <commentary>
+            ISSUE[+event][+supplying]
+            Note: refers to the act, event of someone distributing something
+            Note: does not refer to artifacts which are the things being distributed (Sense 5)
+            Note: X's issue of Y -&gt; X issued Y
+        </commentary>
+        <examples>
+            There will be an issue of new stamps next month by the post office.
+            There was an issue of supplies by the quartermaster to the crew.
+            The firm's first issue of common stocks occurred on Friday.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>issue.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="supplies" type="">
+        <commentary>
+            ISSUE[+artifact][+supplies][+official][+military/+government/+commercial]
+            military issue, government issue, 
+            supplies such as food or clothing or ammunition, issued by the government
+        </commentary>
+        <examples>
+            These rifles are government issue.
+            This emergency kit is standard issue for each soldier.
+            This issue of a US half dollar is more valuable than those.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="offspring, progeny" type="Archaic">
+        <commentary>
+            ISSUE[+person][+offspring]
+            offspring, progeny -
+            the immediate descendants of a person
+        </commentary>
+        <examples>
+            Her issue consisted of two daughters and a son.
+            He died without issue. (no children)
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <!-- I don't know if this actually is archaic, but I've never heard it-->
+    
+    
+    <sense group="1" n="7" name="the value of something in money" type="Money">
+        <commentary>
+            ISSUE[+quantity][+amount][+money][+value][+of_something]
+            Note: refers to an amount of money something is valued at
+        </commentary>
+        <examples>
+            The issue from his personal estate was about three million dollars.
+            The issue on those bonds is about 4 percent.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="emergence, coming forth" type="Event">
+        <commentary>
+	    ISSUE[+event][+action][+appearing][+emergence]
+	    emergence, egress -
+	    becoming visible
+	    </commentary>
+        <examples>
+            She can't wait for the issue of the tulip buds in early spring.
+            The doctor noted the issue of pus from the wound.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="exit, escape passage" type="">
+        <commentary>
+            ISSUE[+structure][+opening][+exit]
+            exit, outlet, way out -
+            an opening that permits escape or release
+        </commentary>
+        <examples>
+            The only apparent issue from the palace was blocked by guards.
+            The canyon had only one issue.
+            There are two issues at the back of the theater and two at the sides.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="stocks or bonds sold by corporation or government at a particular time" type="">
+        <commentary>
+            ISSUE[+artifact][+document][+financial][+security][+sellable][+dated]
+        </commentary>
+        <examples>
+            These OTC issues have lost 8 percent of their value this quarter.
+            What is the current yield on this 91-day U.S. Treasury issue?
+        </examples>
+        <mappings>
+            <wn version="DictionaryFinance">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    
+    <!-- The event and the object will be difficult to distinguish, how important is it to
+   differentiate between events and objects.-->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="park-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a large natural preserve, e.g., with wildlife" type="">
+        <commentary>
+            PARK[+location][+outdoor][+property][+public][+natural][+preserve]
+        </commentary>
+        <examples>
+            Wolves have been reintroduced to a number of national parks.
+            The park ranger told the tourists not to feed the black bears. 
+            John and Mary went on safari in a large African game park.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an open public green area for recreational use" type="">
+        <commentary>
+            PARK[+location][+outdoor][+property][+public][+landscaped][+recreational]
+        </commentary>
+        <examples>
+            During the summer the town holds outdoor concerts in the park in the evening.
+            At lunch we walked around the small park across from the town library.
+            Bob likes to feed pigeons in the park.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="sports arena for baseball" type="">
+        <commentary>
+            PARK[+entity][+structure][+arena][+sports][+baseball]
+        </commentary>
+        <examples>
+            The city has decided to build a new park for their ball club.
+            John believes Fenway is the oldest baseball park in the country.
+            The slugger hit one out of the park and the crown went wild. (home run over the wall)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="lot or storage area for vehicles, livestock, material" type="">
+        <commentary>
+            PARK[+location][+lot][+storage][+vehicle/+livestock/+material]
+        </commentary>
+        <examples>
+            This car park has meters that take only quarters and dimes.
+            The cattle were huddled in a feed park before being loaded onto trains.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a transmission gear position" type="">
+        <commentary>
+            PARK[+state][+gear][+locked]
+            [+location][+position][+gear][+transmission]
+        </commentary>
+        <examples>
+            The driving instructor told the student to put the car into park.
+            Don't forget to put the car in park on this steep hill.
+            Is the clutch in park?
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="land designated for use by a facility" type="">
+        <commentary>
+            PARK[+location][+land][+designated][+use][+facility]
+        </commentary>
+        <examples>
+            Their firm is located in a large industrial park just outside Raleigh.
+            The tornado hit two trailer parks on the edge of town.
+            They are building a new theme park in Florida.
+            We took the children to a water park last Saturday.
+            The old amusement park by the beach finally closed down.
+        </examples>
+        <mappings>
+            <wn version="MW online">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tide-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="sea movement" type="">
+        <commentary>
+	    TIDE[+event]
+	    the periodic rise and fall of the sea level under the gravitational
+	    pull of the moon
+	    </commentary>
+        <examples>
+            She planned her beachcombing day around the tides.
+            The sharks come and go with the tides.
+            The children aren't allowed to go swimming until low tide.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="other rising and falling" type="Metaphoric:">
+        <commentary>
+            something that may increase or decrease (like the tides of the sea)
+        </commentary>
+        <examples>
+            A rising tide of popular interest made the venture successful.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="lunar time period" type="">
+        <commentary>
+	    TIDE[+event]
+	    lunar time period
+	    </commentary>
+        <examples>
+            There are usually two high tides and two low tides each day.
+            They high tide will be in the morning.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="become-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="change state, transform, turn" type="">
+      <commentary>
+       Syntax Is:  NP BECOME PREDICATE
+         (implies the thing had prior existence before altering, or changing its state)
+      </commentary>
+      <examples>
+         Her face became pale with fear.
+         The water gradually became ice as the temperature dropped.
+         Her former friend became her worst enemy.
+         As the sun rose, the landscape before us became clear.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>become.01</pb>
+         <vn>become-109.1-1</vn><fn>Becoming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="come into existence" type="">
+      <commentary>
+       Note: (takes no predicate or object)
+       Syntax Is:  NP BECOME
+      </commentary>
+      <examples>
+        What becomes has duration.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="suit, enhance the appearance of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         That shade of red doesn't become her.
+         Screaming in public does not become you.
+         Mourning becomes Electra.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>become.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

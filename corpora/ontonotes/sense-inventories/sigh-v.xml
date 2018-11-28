@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sigh-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="heave a sigh" type="">  
+      <commentary>
+        NP1[+agent] SIGH
+      </commentary>
+      <examples>
+        She sighed and shook her head.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sigh.02</pb>
+         <vn>nonverbal_expression-40.2</vn><fn>Breathing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="utter with a sigh" type="">
+      <commentary>
+        NP1[+agent] SIGH
+      </commentary>
+      <examples>
+        "Alright," he sighed," Thanks for telling us."
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sigh.01</pb>
+         <vn>manner-speaking-37.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

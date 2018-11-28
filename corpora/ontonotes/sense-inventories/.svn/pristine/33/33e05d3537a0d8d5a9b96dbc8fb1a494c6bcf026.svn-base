@@ -1,0 +1,143 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="buy-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="use something to acquire goods; obtain through trade or transaction" type="">
+      <commentary>
+      Syntax Includes: 
+        NP1[agent] BUY NP2
+        NP1[theme] BUY NP2
+         Includes: BUY BACK
+          Note: may include abstract possessions
+      </commentary>
+      <examples>
+        The family bought a new car..
+        According to his official biography, he bought his first bison in 1976.
+        Should I fire him because he bought his degree from the internet instead of attending a regular university?
+        She wanted to buy his love with her dedication to him and his work.
+        Money can't buy me love.
+        My mom's boyfriend would try to buy my trust by taking us out to eat.
+        Novell, under pressure, will buy back its stock.
+        I think my used car was bought back once by the manufacturer and the dealer didn't tell me when I bought it.
+        Businessmen opposed to the Vietnam war tried to buy time for anti-war spots on a radio station.
+        A New Hampshire Poll and Two Dollars Will Buy You a Cup of Coffee.
+        No amount of money can buy you safety.
+        The insurance premium you forego will buy you a pretty good road bike.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,3</wn>
+         <wn lemma="buy_back" version="3.0">1</wn>
+         <omega/><pb>buy.01</pb>
+         <vn>get-13.5.1</vn><fn>Commerce_buy</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="bribe, make payments to in exchange for benefits" type="">
+      <commentary>
+      Syntax Is: NP1[patient[human]] BUY NP2[agent[human]]
+        Includes: BUY OFF
+      </commentary>
+      <examples>
+        He can be bought off, but only on his terms.
+        So why not buy off the IRA by sacrificing the Royal Ulster Constabulary?
+        This judge can be bought.
+        If you don't like the lectures, you can always try to buy off the professor.
+        Offering money to buy off our enemies would just create an incentive for others to become our enemies.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="buy_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="accept as true" type="">
+      <commentary>
+        Includes: BUY INTO
+      </commentary>
+      <examples>
+        Don't buy into wrong ideas about oil!
+        And if you buy that, I've got a bridge to sell you.
+        I can't buy that Marlena is so weak and stupid that she thinks it's not even worth some effort to escape to reunite with her family.
+        I could not believe he bought my story!
+        You think he bought the line about the sick roommate?
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="buy_into" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>                                                                                                                                                             
+   <sense group="1" n="4" name="invest" type="">
+      <commentary>
+        Includes: BUY INTO
+      </commentary>
+      <examples>
+        He bought into several companies with the money he had inherited.
+        More and more foreign firms are buying into China.
+        For investors who bought into it in September 1991, the stock had suffered a value erosion of 66 per cent in value by September 2001.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="buy_into" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="be killed; die" type="">
+      <commentary>
+        Includes: BUY IT, BUY THE FARM
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="buy_it" version="3.0">1</wn>
+         <wn lemma="buy_the_farm" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+
+  <sense group="1" n="6" name="take over ownership of" type="">
+      <commentary>
+       Includes: BUY OUT, BUY UP
+      </commentary>
+      <examples>
+        German car giant Volkswagen plans to buy out its Chinese partners.
+        It is believed that in a major shift in strategy, HDFC may buy out Tata Sons.
+        Foreign central banks are buying up ever more of America Reuters.
+        The developer plans to buy up golf course for homes.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="buy_out" version="3.0">1</wn>
+         <wn lemma="buy_up" version="3.0">1</wn>
+         <omega/><pb>buy.02,buy.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="7" name="stall, delay" type="">
+      <commentary>
+        Includes: BUY TIME
+       Note:  act so as to delay an event or action in order to gain an advantage
+      </commentary>
+      <examples>
+        A provisional patent is primarily viewed as a mechanism to buy time.
+        Insulin pumps can buy time until transplant therapy arrives.
+        Time spent on process now will buy you time as the semester unfolds.
+        During the final weeks of her life we tried to buy time with her by making her get out of bed and walk around the house.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="buy_time" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

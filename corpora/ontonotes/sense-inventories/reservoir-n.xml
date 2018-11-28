@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reservoir-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a supply or source, a collection of something" type="">
+        <commentary>
+            RESERVOIR[+quantity][+supply][+resource]
+        </commentary>
+        <examples>
+            The small company had depleted its reservoirs of cash within six months.
+            The Internet has become a huge reservoir of information.
+            Oil pooled in reservoirs between the layers of sedimentary rock.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an artificial lake" type="">
+        <commentary>
+            RESERVOIR[+entity][+structure][+lake][+artificial]
+        </commentary>
+        <examples>
+            Swimming and boating isn't allowed at the town reservoir.
+            They built a dam and flooded the valley to make a new reservoir.
+            This reservoir provides water to much of the northern part of the state.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a storage tank for substances such as water, oil" type="">
+        <commentary>
+            RESERVOIR[+entity][+artifact][+container][+tank][+storage][+water/+oil]
+        </commentary>
+        <examples>
+            A mysterious blast destroyed two petrochemical reservoirs near the harbor.
+            The tall, brightly painted reservoirs could be seen from our airplane.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a host site for an infectious agent" type="">
+        <commentary>
+            RESERVOIR[+location][+site][+host][+agent][+infectious]
+        </commentary>
+        <examples>
+            This species of bird serves as a reservoir for the virus.
+            Epidemiologists are trying to determine what the reservoirs for this pathogen are.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

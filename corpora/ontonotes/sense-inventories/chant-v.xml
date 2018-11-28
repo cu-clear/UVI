@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chant-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="recite as a chant, intone" type="">  
+      <commentary>
+        NP1[agent] CHANT NP2[patient]
+      </commentary>
+      <examples>
+        The priest chanted a prayer.
+        They chanted the lines of the play, the stress following the chant
+        monotonously.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>chant.01</pb>
+         <vn>manner_speaking-37.3,performance-26.7-1</vn><fn>Communication_manner</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="purify-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove impurities from" type="">  
+      <commentary>
+        Syntax Is: NP1 PURIFY NP2
+      </commentary>
+      <examples>
+        Elisha purified the water at Jericho.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>purify.01</pb>
+         <vn>cheat-10.6,other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make pure or free from sin" type="">
+      <commentary>
+        Syntax Is: NP1 PURIFY (NP2)
+      </commentary>
+      <examples>
+        The hippies came to the ashram in order to purify.
+        He had been purified in the furnace of suffering.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>purify.01</pb>
+         <vn>cheat-10.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

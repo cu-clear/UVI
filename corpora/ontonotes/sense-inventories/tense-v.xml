@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tense-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) increase in manual tension." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      He tensed his muscles for the fight.
+      The rope tensed as more weight was added.
+      Tense the fibers manually.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tense.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) increase in anxiety." type="">
+      <commentary>
+      Includes: TENSE UP
+      </commentary>
+      <examples>
+      He tensed up when he saw his opponent.
+      The phone call really tensed him up.
+      I tensed upon hearing the verdict. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="tense_up" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

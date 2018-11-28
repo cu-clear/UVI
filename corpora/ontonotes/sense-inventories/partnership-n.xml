@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="partnership-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="members of a business or firm, contractually bound together" type="">
+        <commentary>
+            PARTNERSHIP[+organization][+business]
+            [+relation][+legal][+contractual]
+            Note: implies a legal, binding contract among members
+        </commentary>
+        <examples>
+            He joined that legal partnership in 1995.
+            Several successful entrepreneurs formed a partnership to provide seed money to promising biotech start-ups.
+            That California winery now has partnerships with two Italian and two French winemakers.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="people or organizations in cooperative relationships" type="">
+        <commentary>
+            PARTNERSHIP[+relation][-legal][+cooperative]
+            [+activity][+collaboration]
+            Note: generally implies an informal, non-binding, cooperative relationship
+        </commentary>
+        <examples>
+            These volunteer groups work in partnership with local law enforcement agencies.
+            The director of that film developed a close partnership with the screen writer during the shoot.
+            There is no longer the partnership between parents and teachers that once existed.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

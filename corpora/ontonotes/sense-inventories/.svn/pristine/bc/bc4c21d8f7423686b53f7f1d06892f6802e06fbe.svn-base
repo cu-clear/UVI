@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="butt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to border, to be positioned end to end" type="">  
+      <commentary>
+       Syntax includes: NP1 BUTT NP2
+                        NP1 BUTT PP
+       Includes: butt on, butt against, butt up, butt up against
+       Note: this is the intransitive sense.
+      </commentary>
+      <examples>
+       The property butts Escanaba Paper land.
+       My lawn butts Charles Street.
+       The land marches with the plaintiff's land, butts and bounds on it.
+       The Fairmont property butts against the TPC Scottsdale course.
+       Our shabby lawn butts up to his!
+       A private lawn butts up against a runway safety area.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="butt_against" version="3.0">1</wn>
+         <wn lemma="butt_on" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="strike or hit against" type="">
+      <commentary>
+       Syntax includes: NP1[agent] BUTT NP2[patient]
+                        NP1[agent] BUTT NP2[instrument] PP {against NP[patient]}
+       Includes: butt against
+       Note: transitive or ditransitive striking sense.
+      </commentary>
+      <examples>
+       He butted her with such force that over she went!
+       He butted her and stamped his hooves whenever she came near him.
+       He butt his head against the carport.
+       He had to butt his hard head against many brick walls.
+       She would butt her head against yours.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="butt_against" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>bump-18.4-1, hit-18.1-1</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="place end to end without overlap" type="">
+      <commentary>
+       Syntax includes: NP1[agent] BUTT NP2[theme]
+                        NP1[agent] BUTT NP2[theme 1] PP {NP[theme 2]}
+       Note: this sense seems to be restricted to the domain of wood-working.
+      </commentary>
+      <examples>
+       Butt the frame pieces together as shown in the Elevation Drawing.
+       I can butt the frame right up to the hearth.
+       So, either butt the frame to the CMU, or separate the frame from the wall.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="interfere in others' affairs" type="">
+      <commentary>
+       Synax includes: NP1[agent] BUTT_IN 
+                       NP1[agent] BUTT_IN PP {on NP[patient]}
+       Is: butt in 
+      </commentary>
+      <examples>
+       She seems concerned, but she never butts in. 
+       Mom is always butting in on our conversations.
+       Allentown man butts in on judge at sentencing.
+       Kathie Lee Butts in on Zac Efron's Today Show Interview.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="butt_in" version="3.0">1</wn>
+         <omega></omega><pb>butt.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="5" name="remove one's self from others' affairs" type="">
+      <commentary>
+       Syntax includes: NP1[agent] BUTT_OUT
+                        NP1[agent] BUTT_OUT PP {of NP[patient]}
+       Is: butt out
+      </commentary>
+      <examples>
+       She really needs to butt out. 
+       I told my mom to butt out!
+       I wish they would butt out of our national conversation. 
+       The city should butt out of Wal-Mart's biz. 
+       Congress should butt out on steroids. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

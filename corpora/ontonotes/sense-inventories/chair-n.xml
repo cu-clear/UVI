@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="chair-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a structure designed for sitting" type="">
+        <commentary>
+            CHAIR[+physical][+standalone_object]
+        </commentary>
+        <examples>
+            She bought a set of Queen Anne chairs.
+            He'll get the chair for murdering his wife.
+            Let's play 'Musical Chairs'.
+            We can use these crates as chairs.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a social position within an organization" type="">
+        <commentary>
+            CHAIR[+abstract][+positional]
+        </commentary>
+        <examples>
+            John is the chair of our department.
+            The chair of the board sent out this memo.
+            Mary longed to be first chair of the violins.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a device which supports something" type="">
+        <commentary>
+            CHAIR[+physical] 
+            (integral component of a larger structure)
+        </commentary>
+        <examples>
+            The chairs situated on railroad ties spread the load across the rails.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster Online">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

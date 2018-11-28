@@ -1,0 +1,125 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="movement-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="position or location change" type="Event">
+        <commentary>
+	    MOVEMENT[+event]
+	    motion, movement, move, motility, apparent movement -
+	    the act of changing the location of something; or the apparent act of
+	    changing location
+	    </commentary>
+        <examples>
+            The reflex motion of his eyebrows revealed his surprise.
+            Movement is a sign of life.
+            An impatient move of his hand... 
+            Gastrointestinal motility...
+            The movement of Earth along it's orbit...
+            Police controlled the movement of the crowd.
+            The movement of people from the farms to the cities...
+            His move put him directly in my path.
+            The movement of cargo onto the vessel.
+            The cinema relies on apparent motion.
+            The succession of flashing lights create an illusion of movement.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 2 3 7 11</wn>
+            <omega/>
+            <pb>movement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="trend" type="Event">
+        <commentary>
+	    MOVEMENT[+event]
+	    drift, movement, tendency -
+	    a general tendency to change (as of opinion)
+	    </commentary>
+        <examples>
+            Not openly liberal but that is the movement of the book.
+            A broad movement  of the electorate to the right.
+        </examples>
+        <mappings>
+            <wn version="2.0">9</wn>
+            <omega/>
+            <pb>movement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="social movement" type="Event">
+        <commentary>
+	    MOVEMENT[+event]
+	    front, campaign, cause, crusade, drive, effort -
+	    a group of people or a series of actions advancing a principle or
+	    tending toward a particular end
+	    </commentary>
+        <examples>
+            He was a charter member of the movement.
+            Politicians have to respect a mass movement.
+            He led the national liberation movement.
+            He supported populist movements.
+            They worked in the movement of world peace.
+            The team was ready for a movement toward the pennant.
+            The movement to end slavery...
+        </examples>
+        <mappings>
+            <wn version="2.0">4 6</wn>
+            <omega/>
+            <pb>movement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="music:part of a symphony" type="">
+        <commentary>
+	    MOVEMENT[+event]
+	    a major self-contained part of a symphony or sonata
+	    </commentary>
+        <examples>
+            The second movement is slow and melodic.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="piece of a watch" type="">
+        <commentary>
+            the driving and regulating parts of a mechanism (as of a watch or clock)
+        </commentary>
+        <examples>
+            It was an expensive watch with a diamond movement.
+        </examples>
+        <mappings>
+            <wn version="2.0">10</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="BM" type="Event">
+        <commentary>
+	    MOVEMENT[+event]
+	    bowel movement, movement -
+	    a euphemism for defecation
+	    </commentary>
+        <examples>
+            He had a bowel movement.
+        </examples>
+        <mappings>
+            <wn version="2.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

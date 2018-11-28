@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dose-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Treat a substance with some agent; add an
+   agent to." type="">  
+      <commentary> 
+      Syntax Is: NP1 DOSE NP2[patient[inanimate]]
+      Note: Patient may be abstract.
+      </commentary>
+      <examples>
+      The ray dosed the paint.
+      We dosed the market with a hefty stimulus package.
+      The grapes are dosed with sugar before fermentation.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Administer a drug to." type="">
+      <commentary>
+      Syntax Is: NP1[agent] DOSE NP2[patient[animate]]
+      </commentary>
+      <examples>
+      They dosed the kidnapped tourist with some sort of sedative.
+      We have to dose patients very carefully.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,118 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="follow-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="pursue, travel behind, travel along a path" type="">
+      <commentary>
+        Syntax Is: NP1 FOLLOW NP2 (PP[directional])
+        Note: may be used metaphorically
+      </commentary>
+      <examples>
+         The ducklings followed their mother around the pond.
+         He wished his reputation as a hothead would stop following him wherever he lived.
+         The charismatic guru had thousands following him.
+         He couldn't see well enough in the dark to follow the curves in the road
+         We were having trouble following his complex argument.
+         I couldn't follow the conductor's erratic tempos.
+         The FBI was not following the man who actually planted the bomb.
+         The police car followed the suspected attacker.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,12,15,21,23</wn>
+         <omega/><pb>follow.01</pb>
+         <vn>chase-51.6,comprehend-87.2-1,contiguous_location-47.8</vn><fn>Cotheme</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="come after (in time)" type="">
+      <commentary>
+        Syntax includes: NP1[theme/agent] FOLLOW (NP2) 
+        Includes: FOLLOW UP
+      </commentary>
+      <examples>
+         Tuesday always follows Monday.
+         A terrible tsunami followed the earthquake.
+         We'll be following the meal with a short speech by John.
+         Pay close attention to what follows.
+         Understanding usually follows experience.
+         The doctor followed up the surgery with a hefty dose of pain medication.
+         Her bad deed followed her. 
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6,8,10,14,17,22</wn>
+         <wn lemma="follow_up" version="3.0">2</wn>
+         <omega/><pb>follow.01</pb>
+         <vn>temporal_configuration-48.3.2-1</vn><fn>Relative_time</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="comply, abide by, adopt" type="">
+      <commentary>
+       Note: stick to or stick with something
+       Includes: FOLLOW SUIT
+       Note: No examples found for WordNet sense 20
+      </commentary>
+      <examples>
+         Follow these simple rules.
+         He is trying to follow her example.
+         She is following the Atkins diet.
+         He is following a curriculum in the life sciences.
+         She followed a life of piety and abstinence.
+         John doesn't follow the strict practices of his religious upbringing.
+         I'd follow my instincts on that one, if I were you.
+         Everyone tends to follow suit.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,7,9,11,18,19,20,24</wn>
+         <wn lemma="follow_suit" version="3.0">1</wn>
+         <omega/><pb>follow.02,follow.06</pb>
+         <vn>adopt-93</vn><fn>Compliance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="take in, observe, watch" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He has been following the war from a hotel in Baghdad.
+         The dog followed her with his big brown eyes.
+         Have you been following the Red Sox this season?
+      </examples>
+      <mappings>
+         <wn version="3.0">13,16</wn>
+         <omega/><pb>NM</pb>
+         <vn>assessment-34.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="come as a logical consequence, be inferred" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Does it follow that virtue is a product of belief in God?
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>follow.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="carry further/advance (to completion)" type="">
+      <commentary>
+        Includes: FOLLOW UP, FOLLOW UP ON, FOLLOW THROUGH, FOLLOW OUT
+      </commentary>
+      <examples>
+        After surgery, the doctor called me to follow up.
+        Will you follow up with Andrews on the Mcnair report?
+        He swung at the ball and followed through nicely.
+        If you promise me something, you'd better follow through.
+        She followed out the advice of a man named Cook.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="follow_up" version="3.0">1</wn>
+         <wn lemma="follow_through" version="3.0">1,2</wn>
+         <wn lemma="follow_up_on" version="3.0">1</wn>
+         <wn lemma="follow_out" version="3.0">1</wn>
+         <omega/><pb>follow.07,follow.03</pb>
+         <vn>interact-36.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="ahouston,vieweg,duffielc,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="customize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="adapt for a specific purpose/person" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] CUSTOMIZE NP2[patient]
+      </commentary>
+      <examples>
+        Jeremey customized the car so it was like a cottage inside.
+        My program was customized for me by my advisor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>customize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="holding-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="assets or property owned, e.g., land, money, stocks" type="">
+        <commentary>
+            HOLDING[+property][+owned][+land/+money]
+            Note: usually occurs in the plural
+        </commentary>
+        <examples>
+            The bank's holdings exceed ten billion dollars nationwide.
+            John is reviewing his financial holdings with his accountant next week.
+            The farmers have leased their holdings from the duke for ten years. 
+            I have another holding at that bank in the form of a nine-month CD.
+            The analyst is researching the holding company of those three firms.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>holding.01,holding.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="the state of being retained" type="">
+        <commentary>
+            HOLDING[+state][+retention]
+        </commentary>
+        <examples>
+            Most new cars have several holding devices for drinks.
+            The goats are in their holding pen for the night.
+            The defendant has been kept in a holding cell during the trial.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>holding.13</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="illegal retention of the ball in sports" type="">
+        <commentary>
+            HOLDING[+action][+retention][+illegal][+ball][+sports]
+        </commentary>
+        <examples>
+            The player was penalized for holding.
+            The coach disputed that his player had been holding the ball.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb>holding.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="a legal ruling by a court" type="">
+        <commentary>
+            HOLDING[+ruling][+legal]
+        </commentary>
+        <examples>
+            The court's holding was that this instance was a case of unlawful seizure.
+            The attorneys are reviewing several past holdings of the circuit court that could bear on their case.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/><pb>holding.14</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tend-v">    
+   <commentary>
+	Note: no VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="have a disposition or inclination towards" type="">  
+      <commentary>
+	Syntax is: NP1[topic] TEND[transitive] V2[ADV[attribute]] 
+      </commentary>
+      <examples>
+	They tend to get overly emotional at weddings.
+	Her hair tends to fall over her eyes.
+	Written language tends to be more formal than spoken language.
+	It is hard to tell where society is tending.
+	His work tends towards excessive hyperbole.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tend.02</pb>
+         <vn>NP</vn><fn>Likelihood</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="manage or look after" type="">
+      <commentary>
+	Syntax is: NP1[agent] TEND[transitive] NP2/PP[patient]
+                   NP1[agent] TEND[transitive] NP2/PP[recipient]
+                   NP1[agent] TEND[transitive] NP2/PP[target]
+
+      </commentary>
+      <examples>
+	Who is tending the cats while they are away?
+	John tends the store when the manager is out.
+	Mary is tending bar at the airport lounge.
+	They need to settle down and tend to business.
+	You should tend to your own affairs.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tend.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="3" name="approach a limit" type="">  
+      <commentary>
+	Syntax is: NP1[topic] TEND PP
+      </commentary>
+      <examples>
+	The Fourier coefficients tend to zero.
+      </examples>
+      <mappings>
+         <wn version="MAC"/>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="be physically oriented" type="">
+      <commentary>
+	Syntax is: NP1[theme] TEND[teansitive] NP2/PP[direction]
+      </commentary>
+      <examples>
+	The river tends south after it passes through the city.
+	They reported an unidentified aircraft tending due east from Los Angeles.
+      </examples>
+      <mappings>
+         <wn version="MAC"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tend.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

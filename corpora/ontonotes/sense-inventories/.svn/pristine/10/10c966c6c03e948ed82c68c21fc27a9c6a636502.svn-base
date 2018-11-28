@@ -1,0 +1,98 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="question-n">
+    <commentary>
+        Regrouped WordNet sense 1 to group3, added commentary, modified examples and definitions. ahouston.
+    </commentary>
+    
+    <sense group="1" n="1" name="a specific inquiry directed at someone, a linguistic interrogative expression" type="Event">
+        <commentary>
+	    QUESTION[+event][+expression][+linguistic][+sentence][+interrogative]
+	    [+action][+utterance][+inquiry]
+	    Note: the focus is on the linguistic form, the interrogative expression
+	    Note: implies that the speech act is being directed specifically to someone by someone.
+	    </commentary>
+        <examples>
+            In English, questions are often indicated by rising intonation at the end of the sentence.
+            At the end of each talk there will be five minutes for questions from the audience.
+            Johnny couldn't answer the teacher's question because he wasn't paying attention in class.
+            The bill was passed without a single question being asked from the floor. (implies question directed to someone)
+            The defense objected to a leading question to a witness made by the prosecution.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an issue, problem  or matter posed generally" type="Abstraction">
+        <commentary>
+            QUESTION[+abstract][+content][+issue]
+            Note: does not imply a question directed to any specific person (Sense 1) 
+            Note: implies an issue that is posed generally or at large.
+        </commentary>
+        <examples>
+            The question of disease merits serious discussion.
+            Let us return to the question of charitable donations.
+            'To be or not to be, that is the question'  Hamlet  (asking himself, but presenting an issue relevant for all)
+            Prestige in their society is not only a question of social class, but also of age.
+            Making money in the markets is a question of timing.
+            Whether or not we are now seeing effects from human-caused climate change is a question being hotly debated.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a state of uncertainty, doubt" type="Abstraction">
+        <commentary>
+            QUESTION[+state][-certainty]
+            Note:  Does not make an inquiry, asserts a state of certainty or uncertainty.
+        </commentary>
+        <examples>
+            There is some question as to whether the Senate will pass this bill.
+            His integrity is beyond question.  (no doubt exists)
+            We have assumed, without question, that he is competent to run this company.
+            Mary said it was out of the question for her twelve-year-old to travel alone to Paris.  (no likelihood at all)
+            There was no question that the prisoners would be executed.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="formal motion" type="Abstraction">
+        <commentary>
+            QUESTION[+action][+utterance][+protocol][+meeting]
+            A formal proposal for action, usually a vote, made to a deliberative body.
+        </commentary>
+        <examples>
+            She called for the Congressional question at the end of the debate.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="marriage proposal" type="Abstraction">
+        <commentary>
+            QUESTION[+action][+proposal][+marriage]
+            Used only in the expression &quot;pop the question&quot;, which means asking to marry someone.
+        </commentary>
+        <examples>
+            Tonight I was at dinner with John, and he popped the question!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

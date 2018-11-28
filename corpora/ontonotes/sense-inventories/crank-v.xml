@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="crank-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="use a hand tool to start, rotate or fasten" type="">  
+      <commentary>
+        Includes: CRANK UP
+
+        NOTE: The hand tool is called a 'crank'.
+      </commentary>
+      <examples>
+        We need to crank up the engine.
+        When the old Magneto telephone is cranked, the relay closes.
+        I cranked the press down onto the sandpaper.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>   
+         <wn lemma="crank_up" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="travel in or be shaped like a zigzag " type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Suddenly the road cranked left.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="CRANK OUT: produce in a routine and monotonous manner" type="">
+      <commentary>
+        Is: CRANK OUT
+      </commentary>
+      <examples>
+        This printing press cranks out 10,000 pages a day.
+        I really have to crank out my homework if I'm to make the due date.
+        Bollywood cranks out twice as many movies as Hollywood each year.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="crank_out" version="3.0">1</wn>
+         <omega></omega><pb>crank.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="increase intensity of" type="">
+      <commentary>
+        Includes: CRANK UP
+
+        NOTE: This is a metaphorical subsense of 1, no actual 'crank' is
+        used here.
+      </commentary>
+      <examples>
+        Come on man, crank the music!
+        You really have to crank up the volume on this old TV.
+        The police really need to crank up their investigation of the
+        smugglers ring.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>crank.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

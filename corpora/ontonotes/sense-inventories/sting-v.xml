@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sting-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause a sharp or stinging pain to" type="">
+      <commentary>
+        Syntax is: NP1[concrete] STING NP2[concrete]
+      </commentary>
+      <examples>
+        Smoke stung his eyes and he blinked away the tears.
+        The peppers stung her mouth and nose.
+        My sunburn stings dreadfully.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>sting.01</pb>
+         <vn>touch-20-1,tingle-40.8.2</vn>
+         <fn>Cause_harm,Perception_body</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="deliver a sting to, pierce" type="">
+      <commentary>
+       Syntax includes: NP1[concrete] STING NP2[concrete]
+                        NP1[agent] STING NP2[concrete]
+      </commentary>
+      <examples>
+        A bee stung my arm yesterday.
+        The poisonous dart stung the deer as it fled through the bushes.
+        Tiny shards of flying glass stung his face.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>sting.01</pb>
+         <vn>touch-20-1</vn>
+         <fn>Perception_body</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="affect the emotional state of" type="">
+      <commentary>
+       NOTE: the effect is usually negative, but not always.
+       NOTE: Use this sense for individuals or groups of individuals spoken
+             of as social groups, not for corporations or organizations.
+       Syntax is: NP1[abstract] STING NP2[human] 
+      </commentary>
+      <examples>
+        Consumers are stung by the desire to buy more pizza.
+        His remarks stung her.
+        He was stung by shame.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>sting.01</pb>
+         <vn>amuse-31.1</vn>
+         <fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="saddle with something unpleasant; affect in a          negative way" type="">
+      <commentary>
+        Syntax is: NP1[abstract] STING NP2[inanimate]
+        NOTE: In this sense [+animate] also refers to companies,
+        corporations and institutions and other groups populated by a collection
+        of people whose individual emotions are not indexed.  
+      </commentary>
+      <examples>
+        The electronics retailer was stung with a $9 million piracy fine.
+        Stung by the negative ads, the company decided to publish some of
+        their own.
+        The recent scandal stung the new candiate's campaign.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>sting.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,corvey" sample_score="-"/>
+</inventory>

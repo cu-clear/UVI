@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cultivate-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="encourage or foster the growth of something" type="">  
+      <commentary>
+	Syntax Is:
+         NP1[agent] CULTIVATE NP2[patient]
+        NOTE: cultivate the veggies, NOT the land!
+        NOTE: Different from sense 3 because the entity is being cultivated or affected, NOT an attribute or skill
+        NOTE: For example: the arts, tomatoes, the mind, lobbyists and friends are being cultivated in this group.
+      </commentary>
+      <examples> 
+	Their organization is a non-profit whose mission is to cultivate the arts.
+	You can't cultivate good tomatoes without a lot of direct sun.
+	These seminars are intended to cultivate the mind.
+	This industry has been cultivating lobbyists in Washington for years.
+	Mary cultivates friends easily.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cultivate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="physically prepare crop land for growing a crop" type="">  
+      <commentary>
+	Syntax Is:
+         NP1[agent] CULTIVATE NP2[location]
+        NOTE: cultivate the land, NOT the veggies!
+      </commentary>
+      <examples>
+       	The heavy clay soil was difficult to cultivate with a wooden plough.
+	This land must be heavily cultivated before you can plant a crop on it.
+	If you cultivate land without conservation measures, the soil may erode quickly.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cultivate.01</pb>
+         <vn>preparing-26.3-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="3" name="train, tutor or polish social behavior, taste, judgement" type="">  
+      <commentary>
+	Syntax Is:
+         NP1[agent] CULTIVATE NP2 
+        Note: NP2 may belong to an NP listed or be possessed as part of an NP (ex: table manners of those children, puppy's habits). 
+	Note: NP2 is an attribute of NP1; NP2 is what is cultivated, this is different from Sense 1, where the entity itself, not the                attribute is being cultivated.  
+        Note: For example: palette, habits, manners and speech are being cultivated in this group.
+      </commentary>
+      <examples> 
+	John has been cultivating his palette at various wine tastings. 
+	She has been cultivating her puppy's habits at obedience school.
+	The table manners of those children need some cultivating.
+	In Pygmalion, the professor attempts to cultivate the speech and style of Eliza Doolittle.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cultivate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="adapt, domesticate or tame a wild plant specimen" type="">  
+      <commentary>
+      Syntax Is:	
+       NP1[agent] CULTIVATE NP2[patient]
+      </commentary>
+      <examples>
+       	No one has succeeded in cultivating truffles, they only grow wild.
+	There is some controversy about the new hybrid grains that are being cultivated.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cultivate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,duffielc,vieweg,corvey" sample_score="-"/>  
+</inventory>

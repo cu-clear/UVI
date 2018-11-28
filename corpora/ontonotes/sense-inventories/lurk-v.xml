@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lurk-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Hang around, perhaps secretively, perhaps
+   with the intent to attack or frighten." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] LURK
+      Note: NP1 does not have to be [animate] but must be construed as an
+      agent or actor. See example 4. 
+      </commentary>
+      <examples>
+      High school students like to lurk around in Central Square.
+      Who is this man lurking around the department?
+      John lurks in dark corners, hoping to frighten Mary.
+      The wolves lurked everywhere in the dark, waiting to attack us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lurk.01</pb>
+         <vn>exist-47.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Exist in a present state or a certain position." type="">
+      <commentary>
+      Syntax Is: NP1[theme] LURK
+      Note: NP1 is often abstract.
+      Note: NP1 cannot be an agent; in example 2 below, for instance,
+      stocks do not move of their own accord.  
+      </commentary>
+      <examples>
+      Fear lurks at the back of my mind.
+      Stocks lurk in retreat today from previous levels. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

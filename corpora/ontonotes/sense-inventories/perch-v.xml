@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="perch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="sit, come to rest" type="">  
+      <commentary>
+        Syntax Includes:
+      </commentary>
+      <examples>
+        The birds perched on the tree.
+        Misfortune perched upon him.
+        A raven perched high in the pine.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>perch.01</pb>
+         <vn>assuming_position-50,put_spatial-9.2-1,spatial_configuration-47.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to sit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She perched her hat on her head.
+        The child perched the glass on the edge of the table.
+        John perched his books next to his computer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>put_spatial-9.2-1,spatial_configuration-47.6</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

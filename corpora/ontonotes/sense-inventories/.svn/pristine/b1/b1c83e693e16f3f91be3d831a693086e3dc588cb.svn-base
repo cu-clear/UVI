@@ -1,0 +1,108 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stay-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remain in a certain state or location" type="">
+      <commentary>
+        Syntax is: NP1 STAY [location]
+                   NP1 STAY [attribute]
+      </commentary>
+      <examples>
+        The original blade has stayed sharp for hundreds of cuts.
+        The dress stayed wet after repeated attempts to dry it.
+        We are staying in Detroit; we are not moving to Cincinnati.
+        You can stay with me while you are in town.
+        After graduation, she stayed in Cambridge as a student adviser.
+        I had to stay at home and watch the children.
+        I stayed with him even when it was obvious that it was not a good relationship.
+        The statistician who went to UK says he stayed his own man.
+        This is how cougar stayed his natural color.
+        They made up after the fight, but the hostility stayed.
+        The perfume stayed long after she had left.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,5,7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>stay.01</pb>
+         <vn>exist-47.1-1,lodge-46</vn><fn>State_continue,Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="stop or halt" type="">
+      <commentary>
+        Syntax is: NP1 STAY NP2
+      </commentary>
+      <examples>
+        Please stay the bloodshed.
+        He has stayed his golden-yoked chariot and horses.
+        It was pity that stayed his hand.
+        The judge stayed the execution order.
+        The egg stayed my hunger, but it wasn't enough.
+        By a brook the weary hero stayed his path and bathed in the clean water, and there he laid his head to sleep.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,9,11</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>stay.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="continue on a course of action" type="">
+      <commentary>
+        Note: usually used in the idiom &quot;stay one's course&quot; or &quot;stay one's path&quot;
+      </commentary>
+      <examples>
+        On foreign policy, too, Reagan stayed his course despite heavy pressure.
+        Whether or not he stayed his course is a matter to consider as he grew and evolved musically.
+        Young, clear-eyed, true of Heart and true of path; he stayed his path strait and pure for decades.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="fasten with stays" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        (no examples or information available)
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="VERB PARTICLE CONSTRUCTION OR MULTI-WORD EXPRESSION" type="vpc">
+      <commentary>
+        Includes: STAY AWAY, STAY OFF, STAY ON, STAY OVER, STAY PUT, STAY UP
+      </commentary>
+      <examples>
+        STAY AWAY
+         Stay away from this man!
+        STAY OFF
+         Stay off the premises.
+        STAY ON
+         Had I stayed on for another 10 to 15 overs more, it would have been a totally different situation.
+        STAY OVER
+         The boy's friends were allowed to stay over after the birthday party.
+        STAY PUT
+         Stay put in the corner here!
+        STAY UP
+         Don't stay up so late.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="stay_away" version="3.0">1</wn>
+         <wn lemma="stay_off" version="3.0">1</wn>
+         <wn lemma="stay_on" version="3.0">1</wn>
+         <wn lemma="stay_over" version="3.0">1</wn>
+         <wn lemma="stay_put" version="3.0">1</wn>
+         <wn lemma="stay_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>lodge-46</vn><fn>Avoiding,Residence,State_continue</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

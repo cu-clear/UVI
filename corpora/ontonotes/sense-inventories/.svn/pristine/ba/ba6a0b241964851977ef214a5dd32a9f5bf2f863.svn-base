@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="try-v">
+   <commentary>
+     includes TRY FOR and TRY OUT
+   </commentary>
+   <sense group="1" n="1" name="attempt, make an effort" type="">
+      <commentary>
+       NP1[+agent] TRY[-complete] NP/SCOMP{+goal]
+       Note: 'try' by itself never implies the goal was attained.
+      </commentary>
+      <examples>
+       The outfielder tried to catch the fly ball.
+       They are trying to buy out that company.
+       He will definitely try for the gold.
+       Mary tried out for the musical but they didn't cast her.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="try_for" version="3.0">1</wn>
+         <wn lemma="try_out" version="3.0">3</wn>
+         <omega/><pb>try.01,try.04,try.03</pb>
+         <vn>try-61</vn><fn>Attempt</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="test, experiment, sample" type="">
+      <commentary>
+       NP1[+agent] TRY NP2[+object]
+       includes TRY ON and TRY OUT 
+      </commentary>
+      <examples>
+        This drug hasn't been tried on humans yet.
+        Would you like to try my soup?
+        John tried several techniques of applying the paint.
+        She tried on six pairs of shoes.
+        I'd like to try out that new Mercedes.
+        It's a new approach that hasn't been tried out before.
+        We are going to try out the new French restaurant.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,9</wn>
+         <wn lemma="try_on" version="3.0">1</wn>
+         <wn lemma="try_out" version="3.0">1,2,4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="put on trial" type="">
+      <commentary>
+       NP1[+agent] TRY NP2[+patient]
+      </commentary>
+      <examples>
+       You cannot be tried twice for the same crime.
+       They will try this case in New Jersey.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5</wn>
+         <omega/><pb>try.02</pb>
+         <vn>NM</vn><fn>Try_defendant</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="strain, burden, cause to suffer" type="">
+      <commentary>
+       NP1[+instrument] TRY NP2[+patient]
+      </commentary>
+      <examples>
+       Mary was tried by the baby's constant crying.
+       These are times that try men's souls.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>     
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="melt or render" type="">
+      <commentary>
+       NP1{+agent] TRY[+concrete] NP2[+substance]
+      </commentary>
+      <examples>
+       You must first try the butter, then add it to the batter.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

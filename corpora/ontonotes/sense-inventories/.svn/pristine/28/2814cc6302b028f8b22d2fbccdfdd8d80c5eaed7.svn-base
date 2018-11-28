@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="discourse-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="extended verbal structures" type="">
+        <commentary>
+            DISCOURSE[+entity][+symbolic][+structure][+verbal][+expression][+extended][+written/+spoken]
+            Note: linguistic structures that are larger than a sentence or utterance
+            Note: refers to such structures, not the activity of creating them (Sense 2)
+        </commentary>
+        <examples>
+            She is a linguist known for her work on discourse analysis. 
+            Pronominal references can extend beyond a single sentence to a whole discourse.
+            John's linguistic model describes several hierarchical discourse units. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a conversation between people" type="">
+        <commentary>
+            DISCOURSE[+activity][+communication][+verbal][+conversation]
+            Note: refers to the activity of conversing, implies more than one speaker.
+        </commentary>
+        <examples>
+            The story is an imagined discourse between two people traveling through France.
+            Mary had a pleasant discourse with her neighbor while waiting for the bus.
+            To date there has been little apparent discourse in Washington on this issue.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a verbal presentation or analysis of a subject matter" type="">
+        <commentary>
+            DISCOURSE[+activity][+communication][+verbal][+presentation][+analysis]
+            Note: refers to a presentation on a specific topic.
+            Note: implies one speaker/writer presenting, not a conversation between speakers (Sense 2)
+        </commentary>
+        <examples>
+            Bob could not follow the technical discourse of encryption algorithms presented in the paper.
+            The minister's discourse last Sunday focused on the modern preoccupation with consumerism.
+            It's his collected philosophical discourses on consciousness, belief and certainty.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the class of entities included as part of the subject at hand" type="">
+        <commentary>
+            Idiom: universe_of_discourse
+        </commentary>
+        <examples>
+            Quantum theory lies outside the universe of discourse for today's lecture.
+            The universe of discourse for the debate will include taxes, foreign policy and health care.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

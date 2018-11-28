@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="advisor-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an expert or professional consultant" type="">
+        <commentary>
+            ADVISOR[+person][+professional][+career]
+            [+role][+consultant][+expert][+political/+financial/+military]
+            Note: implies the consultant has less power than the person who hires them, differs from Sense 2
+        </commentary>
+        <examples>
+            The general fired two of his military advisors.
+            John hired a financial advisor to help him put his portfolio together.
+            The candidate's political advisors want to emphasize his voting record on taxes.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an academic mentor" type="">
+        <commentary>
+            ADVISOR[+academician][+professor]
+            [+role][+mentor][+intellectual]
+            Note: a narrow sense of Sense 1, related to just the academic world
+            Note: also implies a different direction in the power relationship: the professor has more power than the student, this direction is different than for Sense 1
+        </commentary>
+        <examples>
+            Mary got Professor Jones to be her thesis advisor.
+            The students published a paper with their advisor.
+            The new grad student is meeting with his advisor to decide on his curriculum for this year.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

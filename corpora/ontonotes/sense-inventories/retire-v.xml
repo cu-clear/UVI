@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="retire-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+
+   <sense group="1" n="1" name="stop working, leave one's profession" type="">  
+      <commentary>
+        Syntax Includes: 
+	NP1[agent[animate]] RETIRE PP{from NP}	
+	NP1[agent] RETIRE NP2[patient[animate]] PP{from NP}
+      </commentary>
+      <examples>
+	He retired from the Navy in 1987.
+	Mary is retiring from competitive skating next year.
+	Bob retired from chess after losing to the grand master.
+	The board made him retire as CEO because of the financial scandal during his watch.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>retire.01</pb>
+         <vn>resign-10.11,withdraw-82-3</vn><fn>Quitting</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="retreat or move from a position, relocate" type="">
+      <commentary>
+        Syntax Includes:
+	NP1[topic] RETIRE PP[locative]
+	NP1[agent] RETIRE NP2[patient] PP[locative]
+	Note: implies a physical movement en masse
+      </commentary>
+      <examples>
+	The troops retired to their trenches under heavy mortar fire.
+	The general had the army retire to the cliffs above the city.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="remove from circulation, dispose of" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] RETIRE[transitive] NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+	These old dollar bills are being retired from circulation.
+	Bob has retired his cross-country skis to the basement for another season.
+	I think you should retire that frayed jacket and buy yourself a new one.
+	That cosmetic firm is retiring two older lines of foundation.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,7</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="cause an out in a ball game" type="">
+      <commentary>
+	Syntax Is: NP1[agent] RETIRE[transitive] NP2[patient]
+      </commentary>
+      <examples>
+	The pitcher slid one over the outside corner for a strike to retire the side.
+	The hitter was retired at first with a pop-up to center field.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="withdraw from social participation, excuse
+   oneself,lose interest" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1[topic] RETIRE[intransitive] ADVP
+        NP1[topic] RETIRE[intransitive] PP[locative]
+	NP1[agent] RETIRE[transitive] NP2[patient]
+	Note: often implies a specific occasion or context.
+      </commentary>
+      <examples>
+	They retired from the party to the library in order to have a private conversation.
+	After the bad car accident, John seems to have retired from his social life.
+	Mary wanted to retire to the bath with a good book and a glass of wine.
+	The jury retired from the courtroom to discuss the case.
+	The player injured his ankle and was retired to the bench for the rest of the game.
+	Bob said he was retiring early tonight, but encouraged us to continue the festivities without him.
+        He retired from life when his wife died.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,11</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="6" name="pay off or cancel, as a debt" type="">
+      <commentary>
+	Syntax Is: NP1[agent] RETIRE[transitive] NP2[patient[abstract]]
+      </commentary>
+      <examples>
+	The debt is to be retired from state gaming tax receipts.
+	The nations agreed to retire a substantial portion of third-world debt.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>retire.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

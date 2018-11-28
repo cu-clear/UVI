@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="moil-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="work hard" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] MOIL (PP[theme])
+      NP1[agent[animate]] MOIL (PP[goal]) 
+      </commentary>
+      <examples>
+      There are strange things done in the midnight sun by the men who moil for gold.
+      A whole nation of "artistes" moiled nightly for Harrasford.
+      She moiled for them to get them bread. 
+      Beneath the joyous heavens men moiled and sweated at the task of slaying.
+      Unless one moils like a beast of burden, one cannot even live simply.
+      He moiled for the poor people.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>moil.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become agitated; churn" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme] MOIL PP[location|destination]
+      </commentary>
+      <examples>
+      Sluggish thoughts moiled around in the murky depths.
+      People moiled around her, sticking microphones in her face.
+      The waves moiled over and about the stones.
+      A band of clouds was moiling toward the horizon as steadily as a conveyor belt.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>moil.02</pb>
+         <vn>entity_specific_modes_being-47.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="moisten or soil" type="">
+      <commentary>
+      Syntax includes:
+      </commentary>
+      <examples>
+      Her tears moiled the letter.
+      They were moiled with dirt and mire by reason of the deepness of the rotten way.
+      At first happy news came, in gay letters moiled With my kisses.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

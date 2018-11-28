@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="venture-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="embark, hazard, put at risk " type="">  
+      <commentary>
+        Syntax is: NP1[agent] VENTURE PP/NP2
+      </commentary>
+      <examples>
+        So the little penguin ventured out on her own and waddled as far as
+        she could.
+        In 1997, Albus Dumbledore and Harry Potter ventured to the seaside
+        cave where Voldemort had hidden his locket.
+        The truth of the story I mean you shall hear, how she ventured her
+        life for the sake of her dear.
+        She ventured a shy glance of timid admiration.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>venture.01</pb>
+         <vn>risk-94</vn><fn>Self_motion,Daring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="put forward, guess" type="">
+      <commentary>
+        Syntax is: NP1[agent] VENTURE (NP2)
+      </commentary>
+      <examples>
+        'They're probably predominantly Shiite,' he ventured.
+        He ventured that the possible source might be a radical, hightech,
+        breakaway band of Indians.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>venture.02</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cause-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="any agent or effective force that generates a consequence or result" type="">
+        <commentary>
+            CAUSE[+relation][+role][+force][+effective]
+            Note: implies a prior force resulted in a later state
+        </commentary>
+        <examples>
+            The coroner has not yet determined the cause of death.
+            Faulty wiring was the cause of the fire.
+            They are debating the causes and effects of global warming.
+            The mystic said that god is the first cause.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the justification or grounds for something, rationale" type="">
+        <commentary>
+            CAUSE[+relation][+justification]
+            Note: refers to a person's reasons, defense for doing or believing something.
+            Note: X{+person} has cause for Y
+            Note: X is not the agent of Y (Sense 1)
+        </commentary>
+        <examples>
+            This airline has given me great cause to complain.
+            His illness has given us cause for concern.
+            We all have good cause to avoid a nuclear war.
+            The judge determined there was probable cause to search the house.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a movement, campaign or effort on behalf of something" type="">
+        <commentary>
+            CAUSE[+activity][+social][+undertaking][+movement][+political/+ideological/+military]
+        </commentary>
+        <examples>
+            John supported many causes when he was in college.
+            She devoted her life to the cause of deaf people.
+            The money is for a good cause.
+            Moderate liberals have made common cause with moderate conservatives.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="lawsuit, a legal proceeding" type="">
+        <commentary>
+            CAUSE[+event][+proceeding][+legal][+lawsuit]
+        </commentary>
+        <examples>
+            The landlord brought cause against the tenant for not paying his rent.
+            This cause will be referred to a higher court.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

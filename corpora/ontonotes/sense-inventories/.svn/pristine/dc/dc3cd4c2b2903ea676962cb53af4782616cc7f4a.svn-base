@@ -1,0 +1,114 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rise-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="lift, go up (concrete)" type="">
+      <commentary>
+         Includes: RISE UP
+         Note: includes concrete uses only.
+      </commentary>
+      <examples>
+         We saw smoke rising in the distance.
+         The building rose before them.
+         When the water boils, bubbles will rise to the surface.
+         They believed the sun would rise in another hour.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5,16</wn>
+         <wn lemma="rise_up" version="3.0">1</wn>
+         <omega/><pb>rise.01</pb>
+         <vn>assuming_position-50,escape-51.1,meander-47.7,spatial_configuration-47.6</vn><fn>Path_shape,Sidereal_appearance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="increase, advance (abstract)" type="">
+      <commentary>
+       Note: includes abstract uses only.
+      </commentary>
+      <examples>
+         The value of our house rose sharply last year.
+         Tensions were rising at that meeting.
+         The thermometer is rising.
+         He has risen through the ranks to become a director at his firm.
+         Demand for oil has been rising steadily during the last decade.
+         His second album rose to number three on the charts in just two weeks.
+         A glass of good wine will make your spirits rise!
+      </examples>
+      <mappings>
+         <wn version="3.0">2,9,7,8,11,12</wn>
+         <omega/><pb>rise.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="change posture" type="">
+      <commentary>
+         Includes: RISE UP
+      </commentary>
+      <examples>
+         We rose to our feet and applauded as she came onstage.
+         He rises before dawn every day to work out at the gym.
+         Try rising from a sitting position without using your arms.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,10</wn>
+         <wn lemma="rise_up" version="3.0">3</wn>
+         <omega/><pb>rise.01</pb>
+         <vn>assuming_position-50,escape-51.1</vn><fn>Change_posture,Getting_up,Motion_directional</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="expand physically" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The dough will rise more quickly in a warm, dark place.
+         The souffle didn't seem to rise very much in the oven.
+      </examples>
+      <mappings>
+         <wn version="3.0">15</wn>
+         <omega/><pb>rise.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Dough_rising</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="act, confront" type="">
+      <commentary>
+         Syntax Is: NP1[agent] RISE (UP) PP
+         Includes: RISE UP
+      </commentary>
+      <examples>
+         John was able to rise to the new challenges facing him.
+         The peasants rose against the evil king.
+      </examples>
+      <mappings>
+         <wn version="3.0">13,14</wn>
+         <wn lemma="rise_up" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Rising_to_a_challenge</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="originate, develop" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The theme of that play rose from his wartime experiences.
+         A sense of dread began to rise in his heart.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>appear-48.1.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="return" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The Phoenix rose from his ashes.
+         The South shall rise again!
+         Christ has risen!
+      </examples>
+      <mappings>
+         <wn version="3.0">17</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Resurrection</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

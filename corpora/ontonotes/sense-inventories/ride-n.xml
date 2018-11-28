@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ride-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="A journey in a vehicle, usually an automobile." type="Event">
+        <commentary>
+        RIDE[+event][+human][+vehicle][+motion]
+        </commentary>
+        <examples>
+        He took the family for a ride in his new car.
+        He took the Motorcycle for a test ride before buying it.
+        Howzabout a ride downtown in a police car, you little thief?! 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>ride.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="A mechanical device or amusement that you ride for excitement." type="Event">
+        <commentary>
+        RIDE[+event][+human][+machine][+feeling_of_amusement]
+        </commentary>
+        <examples>
+        My family pooled their money to buy me a ride in an acrobatic plane for my birthday.
+        We took a ride on The Cyclone and it shook us so hard we nearly puked.
+        Take a ride on The Water Luge, Germany's premier water-coaster.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>ride.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="browneal" sample_score="-"/>
+</inventory>

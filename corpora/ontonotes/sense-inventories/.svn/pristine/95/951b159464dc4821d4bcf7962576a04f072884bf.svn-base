@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="slosh-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Walk through mud or mire." type="">  
+      <commentary>
+      Includes: SLOSH AROUND
+      </commentary>
+      <examples>
+      We had to slosh across the wet meadow.
+      They sloshed through the puddles.
+      Don't slosh around in the rain!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) spill or splash around." type="">
+      <commentary>
+      Includes: SLOSH AROUND
+      </commentary>
+      <examples>
+      They sloshed paint all over the walls.
+      Water sloshed around on the floor.
+      I sloshed ink on the page.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="slosh_around" version="3.0">1</wn>
+         <omega></omega><pb>slosh.01</pb>
+         <vn>pour-9.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

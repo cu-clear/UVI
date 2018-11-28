@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="chew-v">
+   <commentary>
+     WN's definition of chew up is to reprimand, so I included that wn sense in sense group 2,
+     along with 'chew out'.  But I can find no examples of that sense.  
+   </commentary>
+   <sense group="1" n="1" name="masticate" type="">
+      <commentary>
+        Includes figurative uses.
+      </commentary>
+      <examples>
+        Always chew your food 30 times before swallowing.
+        This meat is hard to chew.
+        He's so tough he chews nails.
+        It's sad that he's totally under the thumb of Katie, who will chew him up and spit him out.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>chew.01</pb>
+         <vn>chew-39.2-1</vn><fn>Grinding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reprimand" type="">
+      <commentary>
+        Includes: CHEW OUT. 
+      </commentary>
+      <examples>
+        Josh was chewed out by his teacher for passing notes in class.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="chew_out" version="3.0">1</wn>
+         <wn lemma="chew_up" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="think over and discuss" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The idea of involving a better representation of society was chewed over.
+        For too long scholars have chewed over the wrong question.
+        The case will be chewed over by television pundits for days.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="chew_over" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="chew the fat: chit-chat" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Those old men could chew the fat for hours.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="chew_the_fat" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

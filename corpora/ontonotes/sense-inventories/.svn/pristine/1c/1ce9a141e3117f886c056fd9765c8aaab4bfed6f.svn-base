@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="smother-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Envelop completely; form a cover over." type="">  
+      <commentary>
+        Syntax is: NP1[inanimate] SMOTHER NP2
+      </commentary>
+      <examples>
+      Smother the meat in gravy.
+      The butter cream smothered the cake.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>fill-9.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Deprive of oxygen or air, possibly metaphorcally." type="">
+      <commentary>
+        Syntax is: NP1 SMOTHER NP2
+        NOTE: NP1 is usually animate. If NP2 is metaphorically deprived
+        of air, NP1 may be inanimate.
+      </commentary>
+      <examples>
+      The child smothered herself in a plastic bag.
+      Othello smothered Desdemona with a pillow.
+      Smother the fire.
+      He said the company couldn't be smothered by market pressures.
+      Don't smother the boy, now.                 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>smother.01</pb>
+         <vn>poison-42.2,subjugate-42.3</vn><fn>Killing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Conceal or hide." type="">
+      <commentary>
+        Syntax is: NP1[agent] SMOTHER NP2
+      </commentary>
+      <examples>
+      He smothered a yawn.
+      She smothered her anger.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>
+

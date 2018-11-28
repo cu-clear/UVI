@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="clash-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a loud noise" type="Event">
+        <commentary>
+            CLASH[+event][+acoustic][+noise][+loud]
+            Note: implies the event of hearing a sound
+        </commentary>
+        <examples>
+            The clash of the symbols could be heard above the rest of the orchestra.
+            There was a great clash of thunder.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>clash.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="state of disagreement" type="Event">
+        <commentary>
+            CLASH[+state][+social][+disagreement]
+            Note: does not imply physical fighting (Sense 4)
+        </commentary>
+        <examples>
+            There was a bitter clash in the senate over the proposed health care bill.
+            Their marriage was strained by their clash of religious viewpoints.
+            The clash of their personalities made working together difficult.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>clash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a mismatch, usually aesthetic" type="Event">
+        <commentary>
+            CLASH[+state][+mismatch]
+            Note: refers to unpleasing or conflicting colors, patterns, forms
+        </commentary>
+        <examples>
+            The clash between John's plaid pants and paisley shirt was unflattering.
+            The yellow drapes created a clash with the softer neutral tones of the room. 
+            A clash in everyone's schedules prevented setting up a meeting this week. (mismatch)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>clash.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a physical fight, skirmish" type="Event">
+        <commentary>
+            CLASH[+event][+confrontation][+fight]
+            Note: refers to a physical confrontation
+        </commentary>
+        <examples>
+            His paintings depict the clash of great armies on battlefields.
+            The clashes between the two drug gangs have resulted in several deaths.
+            There were reports of minor clashes with security forces.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

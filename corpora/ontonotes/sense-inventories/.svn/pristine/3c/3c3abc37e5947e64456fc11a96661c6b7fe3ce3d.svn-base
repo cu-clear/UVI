@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="siphon-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="transfer from one container to another" type="">
+      <commentary>
+        Note: usually refers to liquids, moving as if through a siphon
+        Syntax is: NP1[agent] SIPHON[concrete] NP2[theme] (PP[source])(PP[destination])
+      </commentary>
+      <examples>
+        Siphon gas into the tank.
+        Remaining oil has been siphoned off from sunken tanker in Guimaras.
+        For seven weeks I lived on the chief's beach and siphoned my water from a river.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="siphon_off" version="3.0">1</wn>
+         <omega/><pb>siphon.01,siphon.02</pb>
+         <vn>funnel-9.3,wipe_instr-10.4.2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="tap funds or resources" type="">
+      <commentary>
+        Syntax is: NP1[agent] SIPHON[abstract] NP2[theme] (PP[source])(PP[destination])
+      </commentary>
+      <examples>
+        A further $3.4bn has since been siphoned off to finance 'security'.
+        The donated food was mostly siphoned off and sold, while the needy got nothing.
+        Lykos fed off the life energies of other mutants, and he siphoned energy from Alex.
+        This season latched onto me like some befouled remora, started sucking and it didn't stop until it had siphoned my soul.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="siphon_off" version="3.0">1</wn>
+         <omega/><pb>siphon.01,siphon.02</pb>
+         <vn>wipe_instr-10.4.2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

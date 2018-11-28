@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="degrade-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="disgrace,cheapen/reduce worth" type="">  
+      <commentary>
+       Syntax Is: 
+       NP1[agent] DEGRADE NP2
+      </commentary>
+      <examples>
+        She degraded Giuseppe every chance she got.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reduce the level of land, as by erosion" type="">
+      <commentary>
+        Syntax Is: 
+        NP1 DEGRADE NP2
+      </commentary>
+      <examples>
+        Acidification and the production of acid leachates have severely
+        degraded the land within the drained area.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

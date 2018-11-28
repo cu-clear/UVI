@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="penetrate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass into or through, often by overcoming resistance" type="">
+      <commentary>
+      NOTE: Compare carefully to Sense 4: Sense 1 involves penetration inward
+      at a single point or along a single path.
+      Syntax Includes:
+      NP1[instrument] PENETRATE NP2[patient[concrete]]
+      NP1[agent] PENETRATE NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        The bullet penetrated 14 inches into the steel. 
+        The hikers did not manage to penetrate the dense forest.
+        Groundwater penetrated a spot in the shale beneath our backyard.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,5,6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>penetrate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="infiltrate; sneak in" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PENETRATE NP2[patient[abstract]] 
+      </commentary>
+      <examples>
+        A computer hacker penetrated the Pentagon's email system on Thursday.
+        KGB records show how spies penetrated the heart of India.
+        The committee explained how the tobacco industry penetrated the World Health Organization.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <omega/><pb>penetrate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="understand" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I couldn't penetrate his confused and tortured prose.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="permeate" type="">
+      <commentary>
+      NOTE: Compare carefully to Sense 1: Sense 4 involves penetration over an
+      area (may be concrete or abstract).
+      Syntax Is: NP1[agent] PENETRATE NP2
+      </commentary>
+      <examples>
+        Their greatest innovation was tissue paper penetrated with softening lotion.
+        A minimum of 85 percent of the sapwood must be penetrated with preservative.      
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">7</wn>
+         <omega/><pb>penetrate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="enter one's emotions or consciousness" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        An eerie sense of sorrow penetrated my core.
+        Thoughts of anger penetrated my mind.
+        It speaks of union beyond simple intimacy, of being penetrated with joy and abandon.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <omega/><pb>penetrate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey,clarklm" sample_score="-"/>
+</inventory>

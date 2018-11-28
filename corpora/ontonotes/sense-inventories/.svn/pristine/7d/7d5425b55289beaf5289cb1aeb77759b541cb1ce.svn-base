@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="menace-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="present a threat to" type="">  
+      <commentary>
+        Syntax Includes:
+      </commentary>
+      <examples>
+        The pollution is menacing the crops.
+        The toddler menaced the shop full of crystal.
+        The wildfire menaced the forest.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0">1</wn>
+         <omega></omega><pb>menace.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="express a threat, act threateningly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The robber menaced the bank manager with a stick.
+        The bully menaced the nerd after class.
+        The army menaced their enemies with yells and whoops.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">2,3</wn>
+         <omega></omega><pb>menace.01</pb>
+         <vn>amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

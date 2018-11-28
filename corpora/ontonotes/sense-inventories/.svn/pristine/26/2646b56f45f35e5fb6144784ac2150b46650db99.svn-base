@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="alcoholize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Imbibe alcohol." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[animate]] ALCOHOLIZE
+      </commentary>
+      <examples>
+      We alcoholized over the course of dinner.
+      Teens often alcoholize on the weekends.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Absorb alcohol." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[theme] ALCOHOLIZE
+      NP1[agent] ALCOHOLIZE NP2[patient]
+      </commentary>
+      <examples>
+      Alcoholize the fruit and let them sit in the refrigerator.
+      It can be difficult to alcoholize prunes. 
+      Our attempts to alcoholize the watermelon failed.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>alcoholize.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cry-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a loud cry" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He cried with pain when the doctor inserted the needle.
+        The dog raised its head and cried once again.
+        The kitten was crying all night.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,6</wn>
+         <omega></omega><pb>cry.01</pb>
+         <vn>nonverbal_expression-40.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="utter loudly; exclaim" type="">
+      <commentary>
+        Includes: CRY OUT
+      </commentary>
+      <examples>
+        'I'm dying!' he cried.
+        I cried her name from the window, but she didn't hear me.
+        They cried out for forgiveness.
+        Before we had newspapers, a town crier would cry the news.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="cry_out" version="3.0">1</wn>
+         <omega></omega><pb>cry.03</pb>
+         <vn>manner_speaking-37.3</vn><fn>Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="weep" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I was so hurt that I cried myself to sleep.
+        Does he still love you if he cried when you met again?
+        Babies will cry when they are lonely.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,7</wn>
+         <omega></omega><pb>cry.02</pb>
+         <vn>breathe-40.1.2-1,marvel-31.3-3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="need badly or desperately" type="">
+      <commentary>
+        Includes: CRY FOR and CRY OUT FOR
+      </commentary>
+      <examples>
+        Congo cries out for international action.
+        Our countryside is crying for investment.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="cry_for" version="3.0">1</wn>
+         <wn lemma="cry_out_for" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

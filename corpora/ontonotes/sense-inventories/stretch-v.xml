@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stretch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="exist in a long configuration" type="">
+      <commentary>
+        Syntax includes: NP1[patient] STRETCH PP[directional] 
+                         NP1[patient] STRETCH PP[locational]
+        Includes: STRETCH ALONG
+      </commentary>
+      <examples>
+        The park stretched beneath the train line.
+        A huge cloud of dense smoke stretched across the horizon.
+        The Andes stretch for 7250 km along the west coast of South America.
+        The refugee camps stretch as far as the eye can see.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="stretch_along" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>meander-47.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="lengthen, widen, or extend, esp. by pulling" type="">
+      <commentary>
+        Note: Metaphorical Use: Increase capacity
+        Includes: STRETCH FORTH, STRETCH OUT
+      </commentary>
+      <examples>
+        The cat woke up, yawned, and stretched.
+        Stretch out your legs if you have to sit for long periods.
+        She stretched forth her hand and helped him from his chair.
+        That elastic band will snap if you stretch it too far.
+        The polyester fabric stretches in both directions to hold wraps securely in place.
+        Dear God, please do help me to stretch my patience.
+        National law is a great incentive for a plaintiff or a defendant to try and stretch the rules in his favour.
+        White grapes were required in the blend, which were used to stretch the wine.
+        The sleeves of this sweater have stretched.
+        Many families' budgets are already stretched to breaking point.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,7,8,9,10,11</wn>
+         <wn lemma="stretch_forth" version="3.0">1</wn>
+         <wn lemma="stretch_out" version="3.0">1,3,4,5</wn>
+         <omega/><pb>stretch.01,stretch.02</pb>
+         <vn>crane-40.3.2,bend-45.2</vn><fn>Expansion,Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="lie down comfortably" type="">
+      <commentary>
+        Includes: STRETCH OUT
+      </commentary>
+      <examples>
+        The cat stretched by the fire.
+        To enjoy the picnic, we stretched out on the grass.
+        I can picture it. Your greyhound stretched out on the couch with no room for you.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="stretch_out" version="3.0">2</wn>
+         <omega/><pb>stretch.01</pb>
+         <vn>NM</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="leave-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of permitted absence" type="">
+        <commentary>
+            LEAVE[+state][+absence][+permitted]
+        </commentary>
+        <examples>
+            Professor Smith is on leave this semester.
+            The soldier has applied for a two-week leave to visit his ill wife.
+            The employee took leave without pay.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="permission to do something" type="Event">
+        <commentary>
+            LEAVE[+event][+speech_act][+permission]
+        </commentary>
+        <examples>
+            He is seeking leave to appeal the injunction.
+            With your leave, I will give him your home address. (with your permission)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="saying goodbye, departing a social scene" type="Event">
+        <commentary>
+            LEAVE[+event][+speech_act][+farewell]
+        </commentary>
+        <examples>
+            As the hour was late we took leave of our hostess.
+            The character makes his leave in Act III after a dramatic speech.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    
+    <sense group="1" n="4" name="configuration of balls in billiards or pool after a shot" type="">
+        <commentary>
+            LEAVE[+state][+configuration][+of_balls][+billiard][+after_shot]
+        </commentary>
+        <examples>
+            John's opponent left him a very difficult leave after his last shot.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="become irrational" type="Event">
+        <commentary>
+            IDIOM: take_leave_of_one's_senses
+        </commentary>
+        <examples>
+            Mary thought John had taken leave of his senses when he bought a mating pair of ferrets.
+        </examples>
+        <mappings>
+            <wn version="MAC">IDIOM</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

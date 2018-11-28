@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bidding-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a directive, command, authoritative instruction" type="Event">
+        <commentary>
+            BIDDING[+event][+speech_act][+directive][+command]
+        </commentary>
+        <examples>
+            The dog would not heed any bidding from the strange man.
+            We came at his bidding.
+            The clandestine association acted at their bidding.
+            Johnny needed several biddings to get up from the television and sit down to dinner.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>bidding.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the contracts in bridge that a player intends to make" type="Event">
+        <commentary>
+            BIDDING[+quantity][+contract][+declared][+bridge][+card_game]
+            [+event][+speech_act][+declaration][+of_contract][+bridge][+card_game]
+        </commentary>
+        <examples>
+            What was the bidding in the last hand of bridge?
+            Mary thought John's bidding of six contracts was too aggressive.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>bidding.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an offering price, as in an auction" type="Event">
+        <commentary>
+            BIDDING[+event][+speech_act][+offering][+price]
+            [+quantity][+price][+offering]
+        </commentary>
+        <examples>
+            His bidding on that house resulted on higher counteroffers by several other parties.
+            Other companies in the bidding for the small firm include General Electric.
+            The bidding soared above $1000 last night at the silent auction.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>bidding.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,164 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="toss-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="throw lightly or carelessly; send as if thrown in this way" type="">
+      <commentary>
+        Syntax is: NP1[animate] TOSS NP2[concrete] PP
+
+        NOTE: Compare to sense 2. The PP doesn't have to be specified as in example 1, but it
+        does have to be implied. 
+        NOTE: Compare to sense 3. Any sentence involving the discarding of
+        an object should not be marked at this sense. 
+      </commentary>
+      <examples>
+        Hey, toss me the ball!
+        One sun-drenched July day I tossed in the last load of wash and headed out to the beach.
+        He got tossed in the slammer for throwing knives at his audiences.
+        Animal activists were tossed out of the Cloverdale Rodeo Sunday after they ran into the competition ring.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>toss.01</pb>
+         <vn>throw-17.1-1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) move or turn about violently or suddenly" type="">
+      <commentary>
+        Includes: TOSS BACK
+        Note: Includes metaphorical uses.
+        Syntax includes: NP1[animate] TOSS (back) NP2[concrete]
+                         NP1[animate] TOSS NP2[abstract] 
+
+        NOTE: Compare to sense 1. The path/endpoint/direction can be stated
+        but is not obligatory. Also, the verb is iterative in this sense,
+        implying more than one instant of movement.
+      </commentary>
+      <examples>
+        She tossed and turned all night long.
+        One kid got tossed by the surf and ended up very close to the leeward break-wall.
+        She tossed back her head and laughed.
+        The number that everyone's been tossing around lately is 1.3
+        million dollars.       
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="toss_back" version="3.0">1</wn>
+         <omega/><pb>toss.01</pb>
+         <vn>crane-40.3.2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="throw away; discard" type="">
+      <commentary>
+        Includes: TOSS AWAY, TOSS OUT
+        Syntax is: NP1[animate] TOSS NP2[inanimate]
+
+        NOTE: Compare to sense 1. This sense only includes sentence where
+        tne NP2 (whether it's metaphorical or physical) is being treated as
+        trash. Even if sense 1 could apply to a sentence of this sort, use
+        this sense instead.
+      </commentary>
+      <examples>
+        Just toss those paper plates when you're done with them.
+        He tossed out his now-useless plans.
+        Why would you toss away perfectly good twist ties?
+        Last year, the Third District Court of Appeal tossed out the verdict.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <wn lemma="toss_away" version="3.0">1</wn>
+         <wn lemma="toss_out" version="3.0">1</wn>
+         <omega/><pb>toss.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="lightly flip a coin to see which side comes          up, usu. to decide an issue" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Consider a coin-tossing experiment in which you tossed a coin 12 times and recorded the number of heads.
+        Then right at the beginning, they tossed a coin. &quot;Heads he's poor, tails he's rich.&quot;
+        &quot;It's worth about 2 million dollars,&quot; she said.  &quot;I'll toss you for it,&quot; he replied.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>toss.01</pb>
+         <vn>throw-17.1-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="TOSS IN: add casually or without ceremony" type="">
+      <commentary>
+        Synax is: NP1[animate] TOSS IN NP2[concrete]
+                  NP1[animate] TOSS IN NP2[abstract]
+        NOTE: Implies that there is a container into which NP2 is tossed. 
+        Is: TOSS IN
+      </commentary>
+      <examples>
+        Marty was quieter, but he tossed in a quip or two when he could manage to get a word in edgewise. 
+        He tossed in a few of the trumpetlike improvisatory lines of a sonero.
+        This means he tossed in some Greek, which I simply don't want to cope with in an HTML document. 
+        Many florists will toss in boutonnieres for free.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="toss_in" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="COOKING: mix lightly, usually to coat with something" type="">
+      <commentary>
+        Syntax is: NP1[animate] TOSS NP2[concrete] (IN NP3[material])
+      </commentary>
+      <examples>
+        She tossed the salad and placed it on the table.
+        Toss the oiled potatoes in the herbs, then place on a baking sheet.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>preparing-26.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="TOSS OFF: speak or act without regard for the implications" type="">
+      <commentary>
+        Is: TOSS OFF
+      </commentary>
+      <examples>
+        Here's a little song I tossed off while on holiday.
+        He simply tossed off a comment about what women want and it got him into a lot of trouble.
+        Rosie O'Donnell has tossed off countless one-liners and quips in her career.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="toss_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="drink quickly and completely" type="">
+      <commentary>
+        Is: TOSS OFF, TOSS BACK
+      </commentary>
+      <examples>
+        No sooner had they tossed off their glasses then, so the story goes, they fell down senseless, one and all.--Thomas Hardy
+        Let's toss back a few after work today.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="toss_off" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,greenlm" sample_score="-"/>
+</inventory>

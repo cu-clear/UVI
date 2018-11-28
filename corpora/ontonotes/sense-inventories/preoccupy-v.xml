@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="preoccupy-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="engage interest or attention" type="">  
+      <commentary>
+        Syntax Is: NP1 PREOCCUPY NP2[experiencer]
+      </commentary>
+      <examples>
+        The topic was one that increasingly preoccupied her: death.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>preoccupy.01</pb>
+         <vn>amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="occupy or take possession of in advance" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PREOCCUPY NP2
+        Note: [agent] may be an organization
+      </commentary>
+      <examples>
+        The army preoccupied the hills.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

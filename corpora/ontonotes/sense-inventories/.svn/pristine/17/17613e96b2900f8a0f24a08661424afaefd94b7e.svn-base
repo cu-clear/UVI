@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="curve-v">    
+   <commentary>
+   Contains duplicate WN mappings (Sense 4)
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) turn along a path." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[theme] CURVE ADVP[directional]
+      NP1[theme] CURVE PP[directional]
+      NP1[agent] CURVE NP2[theme] PP[directional]
+      </commentary>
+      <examples>
+      The car curved to the left at the intersection.
+      The motorbike curved right and left.
+      He curved the limo to the right so we could exit. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>curve.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="A path or object naturally turns or bends
+         in a  direction." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[theme] CURVE ADVP[manner]
+      NP1[theme] CURVE ADVP[directional]  
+      NP1[theme] CURVE PP[directional]
+      Note: Includes perceptual uses of 'path', such as moving one's eyes
+      over something.
+      </commentary>
+      <examples>
+      The road curved sharply.
+      The path curved to the right.
+      Her hips curve nicely.
+      The road curves around the lake. 
+      The smoke curved around in the air.
+      His fingers curved upward in a grotesque fashion.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>curve.01</pb>
+         <vn>knead-26.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Manipulate an object to form a bent shape." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent] CURVE NP2[patient] PP
+      NP1[attribute] CURVE PP
+      </commentary>
+      <examples>
+      Mark curved his hands around the steering wheel.
+      His fingers curved around the ball. 
+      She curved her fingers into a fist. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>curve.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

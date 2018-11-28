@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="own-v">    
+   <commentary>
+	Includes VPC own_up, own_to
+   </commentary>
+   <sense group="1" n="1" name="have, possess or control something" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] OWN NP2[patient]
+      </commentary>
+      <examples> 
+	Bob owns a house on the Cape.
+	The French conglomerate owns a controlling share of that manufacturing firm.
+	The critics say that this young soprano could own Verdi in a few more years.
+	The hermit owns nothing but the clothes on his back.
+	As manager Mary now owns all the problems of her predecessor. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>own.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="admit or acknowledge" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] OWN SCOMP
+	Includes: OWN UP, OWN TO
+      </commentary>
+      <examples>
+	He owned to having stolen the teacher's watch.
+	They won't own up to having participated in insider trading.
+	The commissioner finally owned that there would be fees associated with using the new park.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="own_up" version="3.0">1</wn>
+         <omega/><pb>own.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="instill-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Physically add something to another substance." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] INSTILL NP2[patient[concrete]] PP{P NP[location]}  
+      NP1[agent] INSTILL NP2[patient[concrete]] PP{P NP[recipient]}
+      </commentary>
+      <examples>
+      Instill 5 drops in the eye every 4-6 hours.
+      The gas guzzling cars instilled the air with increasing levels of
+      carbon monoxide. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>instill.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Transmit knowledge or emotion to another." type="">
+      <commentary>
+      Syntax Is:
+      NP1[agent] INSTILL NP2[patient] PP{P NP[recipient]} 
+      </commentary>
+      <examples>
+      She hoped to instill certain virtues in the children.
+      Her presence instilled faith in the congregation.
+      The teacher instilled a love of music in the children. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>instill.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

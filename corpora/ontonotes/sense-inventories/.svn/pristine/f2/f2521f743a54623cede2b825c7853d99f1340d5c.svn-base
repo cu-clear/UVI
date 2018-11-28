@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="grumble-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="show one's unhappiness; complain" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] GRUMBLE (NP2[topic])
+        NP1[agent[human]] GRUMBLE PP
+        NP1[agent[human]] GRUMBLE ADVP    
+      </commentary>
+      <examples>
+        She grumbles more than anyone I know. 
+        'Oh, quit grumbling, we'll be there soon.'
+        'Yes!' He grumbled, 'I'll give you a damn cookie.'
+        Marge grumbled a response to Homer.
+        The sportscaster grumbled that the game wasn't going well.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>grumble.01</pb>
+         <vn>complain-37.8,manner_speaking-37.3</vn><fn>Complaining</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="utter or emit low rumbling sounds" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 GRUMBLE PP[directional]
+        NP1[agent] GRUMBLE NP2[proposition]
+        NOTE: In rare cases NP1 can be [human] but there must be no
+        mention or implication that NP1 is unhappy. This is shown in
+        sentence 4 where it's a MANNER of speaking (like whisper, ask etc).
+      </commentary>
+      <examples>
+        The stones grumbled down the hill.
+        My cat's stomach grumbles a lot, maybe I should feed her more.
+        The clouds grumbled and rumbled.
+        The giant grumbled 'Fe Fi Fo Fum'. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>manner_speaking-37.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

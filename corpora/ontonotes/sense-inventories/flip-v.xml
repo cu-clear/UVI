@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flip-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="throw or move so as to turn over (an item)" type="">  
+      <commentary>
+        Includes: FLIP OVER
+        Note: This sense refers to an item that is independantly separated
+        from all other items like a coin or a pork chop. Can include a path
+        of motion where NP2 moves from one point to another.
+        Syntax Is: NP1[agent] FLIP NP2[concrete] PP[directional]
+      </commentary>
+      <examples>
+        He flips burgers for a living.
+        Flip a coin to see who does the dishes.
+        The diver flipped expertly off the diving board.
+        I flipped the image to get a mirror effect.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,6,7,8</wn>   
+         <wn lemma="flip_over" version="3.0">1</wn>
+         <omega></omega><pb>flip.01</pb>
+         <vn>throw-17.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to move with a flick or as if with a flick" type="">
+      <commentary>
+        NOTE: This sense refers to items that are attached to a larger mass
+        like a light switch or a page in a book. Can include an implied
+        path of motion (as in turning pages in a book) but the location of
+        NP2 does not fundamentally change.
+        Syntax Is: NP1[agent] FLIP NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        The monkey flipped the switch, shutting power off to all districts.
+        She flipped through the magazine, pondering her day.
+        Randy flipped back the lid of his zippo and lit a cigarette in one
+        smooth motion.
+        She flips the channels so fast you can't even tell what's on.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="react in an excited/surprized way; go crazy" type="">
+      <commentary>
+        Includes: FLIP OUT, FLIP ONE'S LID, FLIP ONE'S WIG
+      </commentary>
+      <examples>
+        'Oh my gosh! Your mom's going to flip when she sees this!'
+        I once had a ninja P.E. teacher, but then he flipped out and kicked half my class.
+        Oh boy! Britney Spears has flipped out again!
+        Has dad flipped his lid?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">9,10</wn>
+         <wn lemma="flip_out" version="3.0">1,2</wn>
+         <wn lemma="flip_one's_lid" version="3.0">1</wn>
+         <wn lemma="flip_one's_wig" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Losing_it</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="reverse a direction, attitude or course of
+         action, perhaps perceptually." type="">
+      <commentary>
+        Note: NP2 can be [+concrete] only if it's reversing direction not
+        'turning over'. Also NOTE: FLIP-FLOP should be tagged as NOA
+        because it is related to the verb 'flop' NOT 'flip.'         
+        Syntax Includes: NP1[agent] FLIP NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        I flipped the car around and chased the taxi.
+        He has totally thrown all sense of fairness to the winds and
+        flipped his opinion.
+        The small rodent flipped in and out of Derek's field of vision.
+        Some say Kerry flipped around a lot in the debates.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="FLIP THE SWITCH: terminate an operation or group" type="">
+      <commentary>
+        Is: FLIP THE SWITCH
+      </commentary>
+      <examples>
+        The Fed flipped the switch on the cocain smuggling ring.
+        Management just flipped the switch on our office renovation project.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="FLIP THE BIRD: give someone the 'middle finger'" type="">
+      <commentary>
+        Is: FLIP THE BIRD
+      </commentary>
+      <examples>
+        I can't believe that those punk teens just flipped the bird at us!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="buy a rundown structure, fix up and sell for a higher price" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He flips houses for a living.
+        When you flip cars you are almost breaking the law.
+        Hey, we should buy this old house and flip it! 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="shadow-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="follow" type="">  
+      <commentary>
+        NP1[+agent] SHADOW NP2
+      </commentary>
+      <examples>
+        The detective shadowed the suspect to see what he was up to.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shadow.01</pb>
+         <vn>chase-51.6</vn><fn>Cotheme</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cast a shadow over" type="">
+      <commentary>
+        NP1 SHADOW NP2
+      </commentary>
+      <examples>
+        Danae is shadowed by a cypress tree.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="overshadow, dwarf" type="">
+      <commentary>
+        NP1 SHADOW NP2
+      </commentary>
+      <examples>
+        This year's debt shadows that of last year.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

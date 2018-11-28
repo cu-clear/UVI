@@ -1,0 +1,112 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="value-n">
+    <commentary>
+        11Jun08 - split sense 2 into sense 2 and sense 6, added features. examples ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="measure of usefulness, desirability" type="Subjective">
+        <commentary>
+            VALUE[+quality][+usefulness][+desirability]
+            The quality that renders something desirable or useful or important
+        </commentary>
+        <examples>
+            His knowledge of systems engineering will be of great value to this project.
+            George makes rude comments for shock value.
+            There is no value in getting to the airport three hours early.
+            These shoppers are looking for value but don't want to pay premium prices.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="price or financial worth of something" type="Objective">
+        <commentary>
+            VALUE[+quantity][+money][+price][+market]
+        </commentary>
+        <examples>
+            Homes have lost 10 percent of their value in the past year.
+            The land increased in value as the urban center expanded.
+            What is the value of their company's stock today?
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="moral principal" type="">
+        <commentary>
+            VALUE[+information][+principles][+social][+ethical]
+            An ideal accepted by some individual or group
+        </commentary>
+        <examples>
+            He has old fashioned values.
+            The candidates all claim to endorse family values.
+            Personal liberty is a fundamental value of democracies.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="duration of a musical note" type="Music">
+        <commentary>
+            VALUE[+quantity][+duration][+auditory][+note][+musical]
+            The relative duration of a musical note, time value, note value
+        </commentary>
+        <examples>
+            A dotted eighth note has a greater time value than a simple eighth note.
+            Triplets take up the same space as two notes of that value.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="relative darkness of a color" type="Color">
+        <commentary>
+            VALUE[+quantity][+measure][+of_darkness][+color]
+            Relative darkness or lightness of a color
+        </commentary>
+        <examples>
+            I establish the colors and principal values by organizing the painting
+            into three values - dark, medium... and light&quot;- Joe Hing Lowe
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="mathematical magnitude, computed result" type="">
+        <commentary>
+            VALUE[+quantity][+magnitude][+calculated]
+        </commentary>
+        <examples>
+            The physicist calculated an accurate value for the mass of Jupiter.
+            What is the mean value of x for this set of data points?
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pipe-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="utter a cry" type="">  
+      <commentary>
+        Includes: PIPE UP
+        Syntax Is: NP1[agent[animate]] PIPE (UP)
+      </commentary>
+      <examples>
+        He piped in a voice like an old woman's.
+        She piped up with her suggestion.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="pipe_up" version="3.0">1,2</wn>
+         <omega></omega><pb>pipe.02</pb>
+         <vn>animal_sounds-38,sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="transport by pipe" type="">
+      <commentary>
+        Includes: PIPE IN/INTO
+        Syntax Is: NP1[agent] PIPE (IN) NP2[patient] (PP[directional])
+      </commentary>
+      <examples>
+        He piped in a water supply from a spring three miles away.
+        He piped hot water through a coil and used a small fan to
+        distribute heat through the house to save coal.
+        He piped clean water into Indian villages.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="pipe_in" version="3.0">1,2</wn>
+         <omega></omega><pb>pipe.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="play on a pipe" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PIPE (PP NP2)
+      </commentary>
+      <examples>
+        Tricia piped a tune on a party blower.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="pipe_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="trim with piping" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="become quiet" type="">
+      <commentary>
+        Includes: PIPE DOWN
+        Syntax Is:  NP1[agent] PIPE DOWN
+      </commentary>
+      <examples>
+        Hey, will you pipe down?
+        He soon piped down when it was pointed out to him that he had been
+        arrested by a Chief Superintendent and an Inspector.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="pipe_down" version="3.0">1</wn>
+         <omega></omega><pb>pipe.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

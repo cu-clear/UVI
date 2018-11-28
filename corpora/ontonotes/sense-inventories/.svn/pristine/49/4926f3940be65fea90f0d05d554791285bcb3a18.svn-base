@@ -1,0 +1,173 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shift-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a displacement, a change in location" type="Event">
+        <commentary>
+            SHIFT[+event][+change][+location][+displacement]
+        </commentary>
+        <examples>
+            This dance requires a shift to the left two steps, then a shift to the right two steps.
+            The shift of wavelengths towards longer frequencies in the spectral lines of the distant galaxy is evidence that it is moving away from us.
+            The computer does multiplication through a series of shifts in its memory registers.
+            The standing attendant made frequent shifts of his weight from one leg to the other.
+            We trimmed the sails again to account for the wind shift. (wind is from new direction)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/><pb>shift.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a qualitative transformation" type="Event">
+        <commentary>
+            SHIFT[+event_set][+transformation][+qualitative]
+        </commentary>
+        <examples>
+            A shift in power occurred in Europe after the defeat of the Spanish Armada.
+            The shift away from fossil fuels to other forms of energy will take many decades.
+            Recently there has been a shift in the restaurant industry towards offering a homier, more casual dining experience. 
+            Mary told the vet there were no noticeable shifts in her pet's grooming or eating habits.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>shift.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a change in viewpoint or opinion" type="Event">
+        <commentary>
+            SHIFT[+event][+change][+opinion]
+        </commentary>
+        <examples>
+            His constant shifts on foreign policy and taxes are hurting the candidate's image.
+            The shift in public opinion about the war has gone against the president.
+            Mary saw a dramatic shifts in her son's interest in school this year.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a regular, scheduled period of work" type="">
+        <commentary>
+            SHIFT[+span][+temporal][+period][+scheduled][+of_work]
+        </commentary>
+        <examples>
+            John is working the graveyard shift at the steel plant.
+            The nurse stayed on through part of the second shift to help with the workload.
+            Mary and her sister took shifts to help the neighbor during her home convalescence after surgery.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a geological fault, fissure" type="">
+        <commentary>
+            SHIFT[+form][+geological][+fault]
+        </commentary>
+        <examples>
+            The shift runs for two hundred miles along the desert floor.
+            The geologist measured the shift's movement after the last earthquake.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a work crew" type="">
+        <commentary>
+            SHIFT[+group][+person][+role][+crew][+of_workers]
+        </commentary>
+        <examples>
+            Tom was told he could go home when the third shift came on.  (people who work then)
+            She's part of the night shift in an urban hospital emergency room.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="keyboard key that switches upper and lower case" type="">
+        <commentary>
+            SHIFT[+artifact][+key][+on_keyboard][+switch][+uppercase_lowercase]
+        </commentary>
+        <examples>
+            Hit shift then 'c' to type a capital 'C'.
+            What does holding down the shift, alt and del keys do?
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="loose-fiiting sleeveless women's dress" type="">
+        <commentary>
+            SHIFT[+artifact][+garment][+womens][+sleeveless][+dress][+loose_fitting]
+        </commentary>
+        <examples>
+            They have summer shifts on sale in the women's department.
+            Betty wore a white shift and red sandals to the patio party.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="9" name="women's sleeveless undergarment" type="">
+        <commentary>
+            SHIFT[+artifact][+garment][+womens][+sleeveless][+underwear]
+            Note: historical, dated usage
+        </commentary>
+        <examples>
+            John bought Mary a sexy black satin shift to wear under her evening gown.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="10" name="gear controller in a motor vehicle" type="">
+        <commentary>
+            SHIFT[+artifact][+mechanism][+gear_controller][+in_vehicle][+motor]
+        </commentary>
+        <examples>
+            Bob hit the shift with his knee accidentally.
+            She drives a stick shift. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

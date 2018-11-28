@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="manufacture-v">    
+   <commentary>
+   </commentary>
+   <sense n="1" type="" name="make or produce products in quantity, perhaps
+   in a mechanical way." group="1">  
+      <commentary>
+	Syntax Is: NP1[agent] MANUFACTURE NP2[product[concrete]]
+      </commentary>
+      <examples> 
+	Most memory chips are now manufactured overseas.
+	The costs of manufacturing clothing domestically have gone up in recent years.
+	That firm manufactures about a dozen brands of cereal.
+	The Hollywood writers seem to manufacture the scripts for these sitcoms. (metaphoric extension)
+        This novelist has been manufacturing his books following his
+	initial success.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>manufacture.01</pb>
+         <vn>create-26.4</vn><fn>Manufacturing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense n="2" type="" name="think up a falsehood, concoct a lie" group="1">  
+      <commentary>
+	Syntax Is: NP1[agent]  MANUFACTURE NP2[patient[abstract]]
+      </commentary>
+      <examples>
+       	They claim the teenager manufactured the story just to get attention.
+	The state-controlled press manufactures far-fetched justifications for the dictator's atrocities.
+	The scientist confessed that he had manufactured most of the results in his experiments.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>manufacture.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Produce naturally." type="">  
+      <commentary>
+      Syntax Is: NP1[topic] MANUFACTURE NP2
+      </commentary>
+      <examples>
+      This gland manufactures a specific substance only.
+      Maple trees manufacture delicious sap.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>  
+</inventory>

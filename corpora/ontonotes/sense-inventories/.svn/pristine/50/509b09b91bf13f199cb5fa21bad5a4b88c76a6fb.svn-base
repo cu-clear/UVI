@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="omit-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="leave out, exclude" type="">
+      <commentary>
+        Syntax Is: NP1[agent] OMIT NP2[patient] (PP[locative])
+      </commentary>
+      <examples>
+        She told me the most unfortunate vicissitudes of her life, not omitting a single detail.
+        I have omitted some variables altogether from the original.
+        The final version of the memorandum omitted the language regarding extreme pressure.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>omit.01</pb>
+         <vn>remove-10.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="neglect, fail to do" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] OMIT [predicate]
+        NP1[agent] OMIT NP2[patient]
+      </commentary>
+      <examples>
+        The article omitted to mention victims of left wing revolutionary politics. 
+        They specifically omitted to protect the privacy of the commercial airline that assisted in this study.
+        Don't omit to have your address either written or printed on the corner of every envelope.
+        You omitted the duties of the package owner.
+        Remember the need to take the medication as it is ordered, not omitting a single dose. (to take a single dose)
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>neglect-75-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

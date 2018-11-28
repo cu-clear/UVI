@@ -1,0 +1,137 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="defense-n">
+    <commentary>
+        31JUL06  added example to Sense 5. ahouston
+    </commentary>
+    <sense group="1" n="1" name="an argument that gives grounds or justification for a position" type="">
+        <commentary>
+            DEFENSE[+action][+declaration][+justification]
+        </commentary>
+        <examples>
+            He gave an unconvincing defense of the current energy policy.
+            She gave a brilliant speech in defense of evolutionary theory.
+            John's defense will rest largely on the new evidence uncovered yesterday.
+        </examples>
+        <mappings>
+            <wn version="3.0">8,4,11</wn>
+            <omega/><pb>defense.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="action serving a protective function, often military" type="">
+        <commentary>
+            DEFENSE[+action][+protection]
+        </commentary>
+        <examples>
+            Regular brushing is a good defense against tooth decay.
+            The defense of Stalingrad cost many Russian lives.
+            The current defense policy costs billions of dollars to maintain.
+            She claimed to have killed him in self defense.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,1</wn>
+            <omega/><pb>defense.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a sports team in the role of preventing scoring by the opponent" type="">
+        <commentary>
+            DEFENSE[+team][+sports][+role][-scoring]
+        </commentary>
+        <examples>
+            The defense for New England did not give up many yards this season.
+            John played for the defense in college football.
+            The defense recovered the ball during the last play.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="a legal team serving the client against the prosecution" type="">
+        <commentary>
+            DEFENSE[+team][+legal][+role][-prosecution]
+        </commentary>
+        <examples>
+            The defense accused the prosecutor of leading the witness.
+            The defense team for the oil corporation includes a stellar legal mind from Harvard.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="5" name="a structure to withstand attack" type="">
+        <commentary>
+            DEFENSE[+structure][+protective][+physical/+psychological]
+            Note: can be physical or psychological
+        </commentary>
+        <examples>
+            The bombing missions were targeting the enemy's defense equipment installed around the city.
+            Rest and a good diet helped her body's natural defenses fight the disease.
+            Abused children build psychological defenses for their survival.
+            The enemy army was destroying the city's defenses with heavy artillery.
+            Black broke through white's defense with a daring queen sacrifice.  (chess)
+        </examples>
+        <mappings>
+            <wn version="3.0">10,5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="6" name="organization of defenders, as military units" type="">
+        <commentary>
+            DEFENSE[+organization][+government][+protection]
+        </commentary>
+        <examples>
+            Pete has joined the local air defense of his town.
+            The defense forces were amassed on the eastern bank of the river.
+            The Strategic Air Command was the first line of defense during the Cold War.
+            Police forces are the major line of defense against crime.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="7" name="business enterprises that build, develop military weaponry" type="">
+        <commentary>
+            DEFENSE[+organization][+business][+producer][+arms]
+        </commentary>
+        <examples>
+            He is a major spokesman for the defense industry.
+            John was a defense contractor at a major aerospace firm.
+            Reduced contracts led to a slump in the defense industry during that decade.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="8" name="a federal department responsible for safeguarding national security" type="">
+        <commentary>
+            DEFENSE[+organization][+government][+federal][+department][+administration]
+        </commentary>
+        <examples>
+            They applied for a grant through the Department of Defense.
+            There have been some recent reorganizations within the Defense Department.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

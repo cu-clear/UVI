@@ -1,0 +1,123 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="argument-n">
+    <commentary>
+        1Feb07 - merged Sense-3 with Sense-1, modified Sense-1 features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an assertion offered as evidence, a line of reasoning" type="">
+        <commentary>
+            ARGUMENT[+action][+verbal][+assertion][+rationale][+evidence/+logic]
+            Note: refers to a verbally (written/spoken) presented rationale, defense of something
+        </commentary>
+        <examples>
+            Is there o strong argument for going ahead with such an energy regulation?
+            She rejected the argument that a tax cut would lead to a greater deficit.
+            The jury heard the closing arguments for the defense. (implies there also were those for the prosecution)
+            The arguments over the bill went late into the night in the Senate chamber.
+            Each candidate will be given 5 minutes for his or her opening argument. (context is many viewpoints)
+            Forthcoming data from the new Hadron Collider may finally resolve this argument in physics. (the major known viewpoints)
+            That argument weakly supports his hypothesis about cognitive dissonance. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a verbal quarrel, usually impromptu and emotional" type="">
+        <commentary>
+            ARGUMENT[+activity][+quarrel][+impromptu][+intense]
+        </commentary>
+        <examples>
+            We overheard a heated argument going on in the parking lot.
+            Mary got tired of her neighbor's nightly arguments with his wife.
+            Let's try to avoid an argument with Bob about the name of the new project.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>argument.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a written summary of a literary work" type="">
+        <commentary>
+            ARGUMENT[+entity][+symbolic][+writing][+summary][+literary]
+        </commentary>
+        <examples>
+            The editor added an argument to the poem.
+            The student only read the arguments to the two plays, and not the works themselves.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="parameters, variables, passed in logical or mathematical expressions" type="">
+        <commentary>
+            ARGUMENT[+form][+logical][+expression][+term][+parameter]
+            Note: these parameters, variables determine the values of other variables.
+        </commentary>
+        <examples>
+            In the expressions, f(x) = y, 'x' is the argument to the function 'f'.
+            This program passes two arguments of type 'integer' to the sorting function.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="grammatical nominal roles associated with specific verbs" type="">
+        <commentary>
+            ARGUMENT[+form][+grammatical][+role][+noun][+association][+verb][+specific]
+        </commentary>
+        <examples>
+            The verb 'give' takes three main arguments: subject, object and indirect object.
+            Verbs of motion in English don't have direct objects as arguments.
+        </examples>
+        <mappings>
+            <wn version="MAC">3b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

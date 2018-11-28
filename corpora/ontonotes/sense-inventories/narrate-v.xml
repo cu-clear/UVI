@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="narrate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide commentary (for example, for a film)" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        Orson Welles narrated trailers for the film and ate two sound
+        engineers in the process.
+        Both authors provide narration and historical commentary for the
+        film.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>narrate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give a detailed account of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He narrated his story of Islam.
+        The father narrated the story of his child.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>transfer_mesg-37.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,98 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="prove-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="establish or test the truth of" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] PROVE NP2 (NP3)
+        NP1[agent] PROVE NP3 NP2
+        NP1[patient] PROVE (NP2)
+      </commentary>
+      <examples>
+        Prove it.
+        The theory was proved by the scientists. 
+        That theory was proved false.
+        He's so aggressive - it's as if he's always trying to prove something.
+        I have no idea how to prove this mathematically.
+        I haven't been proven guilty yet!
+        They proved him innocent.
+        That just goes to prove what an idiot I am.
+        We proved them wrong!
+        He proved himself a fighter, and we are very proud of him.
+        He really proved himself an idiot during his first term.
+        I will prove to myself that I'm still alive.
+        My predictions proved.
+        The operation proved a complete success.
+        The dispute over the song rights proved impossible to resolve.
+        The new treatment has proved to be a disaster.
+        He proved to be the worst singer in the world.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,5</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>prove.01</pb>
+         <vn>declare-29.4-1-1,deduce-97.2,indicate-78-1-1</vn><fn>Evidence,Reasoning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="show oneself to be competent or worthy" type="">
+      <commentary>
+        Is: PROVE ONESELF
+        Syntax Is: NP1 PROVE ONESELF
+      </commentary>
+      <examples>
+        He had a chance to prove himself.
+        You do have to prove yourself to get ahead.
+        Prove yourself to me.
+      </examples>
+      <mappings>
+         <wn lemma="prove_oneself" version="3.0">1</wn>
+         <omega/><pb>prove.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="establish as authentic (law)" type="">
+      <commentary>
+        Note: Related to legal documents, especially testament or will.
+      </commentary>
+      <examples>
+        The will was proved on 29th January.
+        They might have the will proved.
+        The will proved. 
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(cause to) rise, as in baking" type="">
+      <commentary>
+        Note: Usually refers to the process of letting dough rise before being baked.
+      </commentary>
+      <examples>
+        Cover again with a cloth and prove the dough for another hour or so.
+        This pizza dough proved rather quickly.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Dough_rising</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="make a test impression (printing arts)" type="">
+      <commentary>
+        Note: Take a test impression of a negative, etching, or type.
+      </commentary>
+      <examples>
+        *No examples found.*
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

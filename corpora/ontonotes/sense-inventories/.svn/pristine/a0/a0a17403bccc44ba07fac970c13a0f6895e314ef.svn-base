@@ -1,0 +1,151 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="do-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="act, engage in, undertake, execute, cause, make" type="">
+      <commentary>
+        Includes: DO DRUGS, DO IT (meaning to have sex), DO THE DISHES, DO
+        THE HONORS, DO WORK, DO ONE'S BEST, DO RIGHT BY
+      </commentary>
+      <examples>
+         She does research in early child development.
+         I did the washing and my sister did the cooking.
+         Just do your job.
+         Who did the damage to your car?
+         Her husband does law.
+         He did drugs in college.
+         I'd like to do the dining room in apricot.
+         Don't do me like that!
+         She hates the way he did her hair.
+         I can't believe Amanda and Martin did it! 
+         Martin did Amanda behind the school.
+         Can you please do the dishes after dinner?
+         'Father, will you do the honors of cutting the turkey?'
+         I never did any work in that class!
+         The architect did his best on the building, but it wasn't enough
+         to keep it from collapsing.
+         Do right by those you love.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,6,8,9,12</wn>
+         <wn lemma="do_drugs" version="3.0">1</wn>
+         <wn lemma="do_it" version="3.0">1</wn>
+         <wn lemma="do_the_dishes" version="3.0">1</wn>
+         <wn lemma="do_the_honors" version="3.0">1</wn>
+         <wn lemma="do_work" version="3.0">1</wn>
+         <wn lemma="do_one's_best" version="3.0">1</wn>
+         <wn lemma="do_by" version="3.0">1</wn>         
+         <omega/><pb>do.02</pb>
+         <vn>NP</vn><fn>Intentionally_act,Intentionally_affect,Ingest_substance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fare, get along" type="">
+      <commentary>
+      Syntax Is: 
+       NP1 DO ADVP 
+      Note: no Direct Object
+      </commentary>
+      <examples>
+         How are you doing these days?
+         He's doing great as our new CTO.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>do.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="suffice or satisfy" type="">
+      <commentary>
+        Includes: DO (ONE) GOOD, DO WELL
+       Syntax Is:  NP1 AUX DO
+      </commentary>
+      <examples>
+         A simple 'thank you' will do.
+         This arrangement of the furniture just won't do.
+         A good nap will do you good.
+         You will do well to arrive on time to the ball.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="do_good" version="3.0">1</wn>
+         <wn lemma="do_well" version="3.0">1</wn>
+         <omega/><pb>do.04</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="serve time (usually in prison)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He did ten years in San Quentin.
+         She did two years in the Peace Corps before college.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="manage, carry on" type="">
+      <commentary>
+       Note: occurs with modal, e.g. COULD, MAY HAVE TO
+      </commentary>
+      <examples>
+         We may do without running water next week.
+         This class could have done with a bit more studying and less talking.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="travel or go" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The soldiers did 20 miles a day over the rough terrain.
+         This old car will probably not do over 60 miles per hour.
+         We did Paris in a day.
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="destroy, damage or eliminate" type="">
+      <commentary>
+        Includes: DO IN, DO AWAY WITH, DO A JOB ON
+      </commentary>
+      <examples>
+        'I gotta do in Marty for the boss.'
+        Do away with these ugly curtains!
+        That dog sure did a job on your face. 
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="do_in" version="3.0">1</wn>
+         <wn lemma="do_away_with" version="3.0">1</wn>
+         <wn lemma="do_a_job_on" version="3.0">1</wn>
+         <omega/><pb>do.03,do.05</pb>
+         <vn>NP</vn><fn>Intentionally_affect</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="DO UP: make pretty, make up" type="">
+      <commentary>
+        Is: DO UP
+      </commentary>
+      <examples>
+        The clerk did up the package with a big pink bow.
+        She did herself up for her blind date.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="do_up" version="3.0">1,2</wn>
+         <omega/><pb>do.03,do.05</pb>
+         <vn>NP</vn><fn>Intentionally_affect</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,clarklm,greenlm" sample_score="-"/>
+</inventory>

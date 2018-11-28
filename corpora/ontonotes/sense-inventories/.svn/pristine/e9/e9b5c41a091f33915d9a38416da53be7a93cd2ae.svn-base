@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mount-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a riding horse" type="">
+        <commentary>
+            MOUNT[+entity][+animal][+horse][+riding]
+        </commentary>
+        <examples>
+            The cavalry train their mounts to charge in to battle.
+            Mary will ride three different mounts in the horse show.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of climbing up something" type="Event">
+        <commentary>
+            MOUNT[+event][+climbing_upon]
+        </commentary>
+        <examples>
+            They continued their slow mount of the northern face of the hill.
+            Just contemplating the mount of the 300 stairs up the lighthouse made Bob tired.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a mountain, hill, peak" type="">
+        <commentary>
+            MOUNT[+form][+natural][+land][+mountain]
+            Note: somewhat dated usage except in a proper name, e.g, Mount Everest
+        </commentary>
+        <examples>
+            It's one of the tallest mounts in that range.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a backing or setting on which to display an object" type="">
+        <commentary>
+            MOUNT[+entity][+artifact][+component][+backing][+for_displayed_object]
+        </commentary>
+        <examples>
+            Sally is having the silver mount of her diamond ring replaced with a gold one.
+            The biologist prepared several mounts with specimens and examined them under a microscope.
+            He used a simple cardboard mount to back the picture in the frame.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a support for a device such as a camera or telescope" type="">
+        <commentary>
+            MOUNT[+entity][+artifact][+component][+support][+for_device]
+        </commentary>
+        <examples>
+            They put the camera on a special mount in order to follow the race car at close proximity.
+            This telescope has a motorized mount to compensate for the earth's rotation.
+            These iron attachments on the old fort are probably gun mounts.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="an opportunity to ride a racehorse in a race" type="">
+        <commentary>
+            MOUNT[+state][+opportunity][+to_ride][+racehorse]
+        </commentary>
+        <examples>
+            The jockey's injuries forced him to give up the coveted mount on Sea Biscuit.
+        </examples>
+        <mappings>
+            <wn version="MAC">3a</wn>
+            <omega/><pb>NP</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="accord-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Go together; fulfill the characteristics of." type="">  
+      <commentary>
+     Syntax Is: NP1[cotheme] ACCORD (PP{P NP[cotheme]}) 
+      </commentary>
+      <examples>
+      All proceedings accorded with the stated mission of the organization.
+      Our ideas accorded and the meeting was adjourned.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Compatability</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Allow to have; assign." type="">
+      <commentary>
+     Syntax Includes: NP1[agent] ACCORD NP2[patient]
+                      NP1[agent] ACCORD NP2[recipient] 
+      </commentary>
+      <examples>
+      The government accorded full rights and privileges to the new
+      citizens.
+      The FDA accords the label to drugs believed effective but previously
+      untested.
+      The company accords new employees the best health coverage in the industry.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>accord.01</pb>
+         <vn>future_having-13.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

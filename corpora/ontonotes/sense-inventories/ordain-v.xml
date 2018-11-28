@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ordain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="decree, issue an order" type="">  
+      <commentary>
+        Syntax Is: NP1 ORDAIN (THAT) NP2
+      </commentary>
+      <examples>
+        The king ordained that henceforth in his kingdom all feline
+        creatures were to be herded together and tied up on the day the
+        grand feast.
+        The King ordained the day on which it would please him to hear the sermons.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ordain.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="appoint, invest with authority" type="">
+      <commentary>
+        Syntax Is: NP1 ORDAIN NP2
+      </commentary>
+      <examples>
+        He was ordained in the Church of England in 1994.
+        He was ordained priest only in 1519.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>appoint-29.1</vn><fn>Rite</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

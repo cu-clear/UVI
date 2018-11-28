@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="help-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of providing assistance, giving aid" type="Event">
+        <commentary>
+            HELP[+event][+assisting][+aiding]
+            Note: implies an agent giving aid or assistance to a recipient
+        </commentary>
+        <examples>
+            They told the injured man that help was on the way.
+            The elderly woman accepted my help in crossing the street.
+            That type of flare from a ship is a signal for help. (asking for help)
+            Those nations have received economic help from the World Bank.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>help.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a person hired to give assistance of some kind" type="">
+        <commentary>
+            HELP[+entity][+person][+assistant][+hired]
+        </commentary>
+        <examples>
+            The sign on that store says 'help wanted'.
+            This table is where the kitchen help eat their dinner.
+            Many of the domestic help serving that affluent community are illegal immigrants.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an artifact that provides aid or assistance somehow" type="">
+        <commentary>
+            HELP[+entity][+artifact][+tool][+aid]
+            [+relation][+role][+resource][+assisting]
+        </commentary>
+        <examples>
+            The magnifying glass was a big help in reading the fine print.
+            These exercises are supposed to be helps for improved memory.
+            Try reading the online help to see if it explains how to create a backup disk.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>help.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a state of remedy or relief" type="">
+        <commentary>
+            HELP[+state][+result][+remedy]
+            Note: often in the phrase 'there is/was no help for X'
+        </commentary>
+        <examples>
+            There is just no help for a broken heart.
+            There was no help from the scorching days and becalmed seas for the sailors.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>help.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

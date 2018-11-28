@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="project-n">
+    <commentary>13sep06 - updated to WN2.1, added 2 senses (2 and 3), added features, examples. ahouston.
+        17Dec08 - revised definitions and features. ahouston
+    </commentary>
+    <sense group="1" n="1" name="An official task or undertaking, usually funded" type="">
+        <commentary>PROJECT[+activity][+undertaking][+official][+funded]</commentary>
+        <examples>The project to map the human genome took many years and many researchers.
+            The funding agency has decided to go ahead with the pilot project on alternative fuel engines.
+            During the Depression, the public works projects gave work to many unemployed people.
+            John has not yet picked a research project for his senior thesis.  (an official stated problem or theme)
+            The town did not have enough left in this year's budget for the downtown beautification project.
+            The agent was assigned to a special project for which he had to go undercover. 
+            These town projects are largely operated by unpaid volunteers.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a hobby, homemaking crafts and repairs" type="">
+        <commentary>PROJECT[+activity][+homemaking][+hobby][+craft_or_repair][</commentary>
+        <examples>The magazine describes several Halloween projects to do with children.
+            Putting up the Christmas decorations will be a fun project to do when John and Mary arrive.
+            Sally wants her husband to finish a few of the home improvement projects he started last fall.
+        </examples>
+        <mappings>
+            <wn version="MW online">3c</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a low-income, public housing development" type="">
+        <commentary>PROJECT[+collection][+artifact][+building][+housing][+public][+low_income]</commentary>
+        <examples>Bob grew up in the projects on the south side.
+            No neighborhood seems to want the low-cost housing project in their vicinity.
+            Urban renewal tore down 19th-century houses and apartment buildings and built enormous projects in their place.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

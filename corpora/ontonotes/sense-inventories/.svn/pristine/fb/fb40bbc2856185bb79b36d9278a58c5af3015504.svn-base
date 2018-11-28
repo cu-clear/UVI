@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="observe-v">    
+   <commentary>
+     No VPC for this verb
+   </commentary>
+   <sense group="1" n="1" name="pay close attention to (as if by watching)" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] OBSERVE NP2[patient]
+      </commentary>
+      <examples> 
+	Observe the pose of the figures in the foreground of this painting.
+	We couldn't observe the eclipse because of the overcast skies.
+	No one observed the crime being committed.
+	The chorus didn't appear to observe the conductor's tempo and got ahead of him.
+	Wall Street has been observing the process of this merger with some interest.
+        I observed a woman meowing into her cell phone yesterday.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,7,8</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>observe.01</pb>
+         <vn>investigate-35.4,sight-30.2</vn><fn>Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="adhere to or engage in a practice" type="">  
+      <commentary>
+	Syntax Is: NP1 OBSERVE NP2
+	Note: often respectful actions towards a tradition or religious
+	practice. Also includes following through on appointments,
+	promises, etc.
+      </commentary>
+      <examples>
+	When did the country start observing Martin Luther King day?
+       	John's family observes the Sabbath.
+	They are claiming that they intend to observe the conditions of the contract.
+        The team observed a moment of silence in Ms. Weber's memory.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>observe.01</pb>
+         <vn>NM</vn><fn>Compliance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="discover or detect" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1 OBSERVE[punctual] (NP2) (SCOMP)
+      </commentary>
+      <examples> 
+	I observed a definite change in Jane's behavior at work last week.
+	Scientists have observed a sharp drop in vulture populations in India recently.
+	Analysts have observed that China's energy demands have grown in recent years.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>conjecture-29.5-2,sight-30.2</vn><fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="state, remark or mention" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] OBSERVE NP2
+      </commentary>
+      <examples>
+       	&quot;Mary is always late for dinner,&quot; observed John, glancing at his watch.
+	She observed to the other session members that they should disable their cellphones.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>observe.02</pb>
+         <vn>say-37.7-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+       <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="application-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="the act of putting something to use." type="Event">
+        <commentary>
+        APPLICATION[+event]
+        </commentary>
+        <examples>
+        He advocated the application of statistics to the problem.
+        It was a novel application of electronics to healthcare.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a verbal or written request for access to something." type="Event">
+        <commentary>
+        APPLICATION[+proposal]
+        </commentary>
+        <examples>
+        December 31 is the deadline for applications.
+        His application for a loan was denied.
+        The application for admission  
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="3" name="the act of putting a preparation on something." type="Event">
+        <commentary>
+        APPLICATION[+event][+concrete]
+        </commentary>
+        <examples>
+        The doctor prescribed a topical application of iodine.
+        A complete bleach requires several applications.
+        It is an application for dry skin.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="4" name="a diligent effort." type="Event">
+        <commentary>
+        APPLICATION[+agent]
+        </commentary>
+        <examples>
+        It is a job requiring serious application.
+        His application to the task was sincere.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="5" name="a computer program." type="">
+        <commentary>
+        APPLICATION[+computer]
+        </commentary>
+        <examples>
+        The team built an application to play chess.
+        He has tried several applications for word processing.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

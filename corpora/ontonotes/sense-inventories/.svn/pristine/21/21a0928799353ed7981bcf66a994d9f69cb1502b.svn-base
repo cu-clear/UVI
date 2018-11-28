@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="halt-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the event of coming to a stop, ending something" type="">
+        <commentary>
+            HALT[+event][+transition][+to_stoppage][+complete]
+            Note: refers to the transition of stopping, not the ongoing state of inactivity
+        </commentary>
+        <examples>
+            The bus came to a halt just before going over the cliff.
+            Everything came to a complete halt in John's life after his accident. (figurative extension)
+            The machine came to a halt when the plug came out of the wall.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>halt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an ongoing state of stoppage, inactivity" type="Event">
+        <commentary>
+            HALT[+state][+ongoing][+stoppage][+of_activity]
+            Note: implies the span of inactivity, not the transitional moment to it. (Sense 1)
+        </commentary>
+        <examples>
+            This halt in the negotiating process is hurting both sides.
+            The halt in the arms race of the past decade may be in jeopardy.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb>halt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="to order, demand" type="Event">
+        <commentary>
+            IDIOM: call_a_halt_to
+        </commentary>
+        <examples>
+            He has called a halt to any further shipments of oil to that nation.
+            The community has called for a halt to the drug dealers infestation of their neighborhood.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

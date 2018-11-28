@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="officer-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="military commander of some rank" type="">
+        <commentary>
+            OFFICER[+authority][+military]
+        </commentary>
+        <examples>
+            He was the commanding office of that platoon.
+            The officers on the destroyer all went down with their ship.
+            She is facing court martial for striking an officer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="someone elected or appointed to an office" type="">
+        <commentary>
+            OFFICER[+trustee][+elected/+appointed]
+        </commentary>
+        <examples>
+            Two bank officers have been indicted for fraud.
+            Our club has elected its officers for the coming year.
+            John is an officer of the court.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a member of a police force" type="">
+        <commentary>
+            OFFICER[+authority][+civilian]
+        </commentary>
+        <examples>
+            The officer gave Mary a speeding ticket for going 40 in a school zone.
+            The officers used their night sticks to control the thrashing assailant.
+            Bill is an officer with the NYPD.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="auction-n">
+    <commentary>
+        4oct06 - modified commentary, changed examples. ahouston
+    </commentary>
+    <sense group="1" n="1" name="an event, a public sale done by bidding" type="Event">
+        <commentary>
+            AUCTION[+event][+social][+public][+sale]
+            Note: Refers to specific sales event, not the generic bidding activity. (Sense 3)
+        </commentary>
+        <examples>
+            Mary took John to an art auction in New York.
+            Their firm buys government notes at the monthly auction of the Treasury Department.
+            They passed around dessert and champagne during the silent auction.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a card game in which players bid suits" type="">
+        <commentary>
+            AUCTION[+event][+social][+game][+card]
+        </commentary>
+        <examples>
+            Sally is teaching us to play auction Bridge.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a bidding process" type="Event">
+        <commentary>
+            AUCTION[+activity][+purchasing][+bidding]
+            Note: refers to the bidding act in general, not a specific sales event (sense 1)
+        </commentary>
+        <examples>
+            These paintings will be sold by auction. (the process of bidding)
+            They have put their house up for auction. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

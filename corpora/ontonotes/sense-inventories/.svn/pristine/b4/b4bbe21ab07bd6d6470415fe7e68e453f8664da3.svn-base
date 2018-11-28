@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="poise-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be motionless or suspended in balance" type="">
+      <commentary>
+         Note: Watch for participial adjectives, e.g., Shana was poised at the edge of the pool.
+           These should be tagged X. 
+      </commentary>
+      <examples>
+        The elephant poised in mid stride.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>poise.01</pb>
+         <vn>NP</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="prepare" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] POISE NP2
+        NP1[cause] POISE NP2
+        Note: Watch for participial adjectives, e.g., The administration is poised to take action.
+           These should be tagged X. 
+      </commentary>
+      <examples>
+        The brothers poised the company to take advantage of the larger tonnage structural steel jobs to come.
+        Training in SAP PLM will poise you for big opportunities as SAP PLM demand grows.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>poise.01</pb>
+         <vn>NP</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="hold or place in equilibrium" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] POISE NP2
+        NP1[cause] POISE NP2
+      </commentary>
+      <examples>
+        Yale's full back poised the ball on a heap of dirt.
+        She held her cigarette between her first two fingers and poised her thumb on her temple.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>poise.01</pb>
+         <vn>NP</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

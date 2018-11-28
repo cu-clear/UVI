@@ -1,0 +1,93 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="choice-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="something that is picked or selected" type="">
+        <commentary>
+            CHOICE[+entity][+member][+selected][+set][+option]
+            Note: refers to the thing that was selected
+        </commentary>
+        <examples>
+            He was the party's first choice to run for governor.
+            This white Toyota is Mary's second choice for a new car.
+            This new Vietnamese restaurant was an excellent choice for dinner!
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb>choice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of selecting or picking something" type="">
+        <commentary>
+            CHOICE[+action][+selecting][+option]
+            Note: refers to the activity of choosing, not the -thing- selected (Sense 1)
+        </commentary>
+        <examples>
+            His skillful choice of words probably contributed to the measure's passing.
+            Her unfortunate choice of expression angered Sally visibly.
+            The Nazi soldier had forced her to make a choice between her two children.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>choice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the state of having options, alternatives" type="">
+        <commentary>
+            CHOICE[+state][+possible][+optional]
+            Note: refers to a possibility than can (or must) be chosen at some point.
+        </commentary>
+        <examples>
+            The only dinner choice left is between Chinese take-out or frozen pizza.
+            The pilot had no choice but to land the plane on the highway.
+            They felt trapped by poverty without choices or opportunity.
+            Their only real choice is to apologize and carry on.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an assortment of alternatives, taken together" type="">
+        <commentary>
+            CHOICE[+quantity][+assortment]
+            Note: refers to the whole set of alternative things from which to choose.
+            Note: does -not- imply a specific one has been selected (Sense 1)
+        </commentary>
+        <examples>
+            They have a choice of over fifty colors of Dupioni silk fabrics.
+            He offered us quite a choice among different investment plans.
+            There were not many choices of style in the stereo speakers.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/><pb>choice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

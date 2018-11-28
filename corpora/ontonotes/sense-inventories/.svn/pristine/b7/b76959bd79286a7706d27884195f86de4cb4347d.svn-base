@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="regret-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a feeling of disappointment or remorse over past circumstances" type="Event">
+        <commentary>
+            REGRET[+state][+emotional][+disappointment][+remorse][+about_circumstances][+past]
+        </commentary>
+        <examples>
+            John has no regrets about leaving academia and starting his own company.
+            To her regret, the opera singer had to decline the engagement because of illness.
+            She had few regrets selling the old house.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>regret.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a polite declining of an invitation" type="">
+        <commentary>
+            REGRET[+event][+speech_act][+declining][+polite][+of_invitation]
+            Note: usually in the plural
+        </commentary>
+        <examples>
+            Mary sends her regrets that she cannot attend today's meeting.
+            Please give your grandmother my regrets.
+            So far we have forty-two acceptances and six regrets for the wedding reception.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

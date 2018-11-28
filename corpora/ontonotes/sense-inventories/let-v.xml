@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="let-v"> 
+   <commentary>
+     The VPC for this verb are not included here
+   </commentary>
+   <sense group="1" n="1" name="allow or cause to happen" type="">  
+      <commentary>
+       Syntax Is:  NP1 LET SCOMP
+      </commentary>
+      <examples>
+        The double-paned windows won't let cold air from outside chill the room.
+        She lets her dogs do as they please on their daily walk.
+        Raising the interest rates will let the economy stave off inflation. (economy=metaphorical &quot;actor&quot;)
+        Let the evacuees of New Orleans take the lead in determining reconstruction procedures.
+        The firm let it be known that they would fight a hostile takeover.
+        Gently, the assailant let the knife slip between the man's ribs.
+        I think marketing is the group that let the ball drop on that deal. (metaphoric)
+        Let him know that in leaving for another job that he will need to train his replacement.
+        Let him have it!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>let.01</pb>
+         <vn>NP</vn><fn>Grant_permission</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="rent or lease something" type="">  
+      <commentary>
+         Syntax Is: NP1[agent] LET NP2[location]
+      </commentary>
+      <examples>
+        We've decided to let our summer cottage this year as we need the money.
+        I found a number of nice apartments to let listed in the Sunday paper.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="ahouston,duffielc,vieweg" sample_score="-"/>  
+</inventory>

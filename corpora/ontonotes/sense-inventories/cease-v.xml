@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cease-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put an end to a state or activity" type="">
+      <commentary>
+        NP1[agent] CEASE NP2
+        Note: The subject in Sense 1 deliberately ends NP2. Compare to Sense 2 where the subject is the thing ended.
+      </commentary>
+      <examples>
+        I demand that you immediately cease the use and distribution of all programs.
+        Microsoft will cease support for the Mac version of Internet Explorer from December 31.
+        The company will officially cease operations at midnight.
+        We call on the Japanese government to cease all executions.
+        "I'll cease from wandering," I vowed to her.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>cease.01</pb>
+         <vn>stop-55.4-1</vn><fn>Activity_stop</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to (naturally) have an end, come to a stop" type="">
+      <commentary>
+        NP1[theme] CEASE[intransitive]
+      </commentary>
+      <examples>
+        Hatred does not cease through hatred at any time.
+        Wonders never cease.
+        The rain ceased as if a faucet had been turned off.
+        I'm afraid this process won't cease anytime soon.
+        It never ceases to amaze me.
+        Workplace nurseries will cease to be liable for tax.
+        Whether the protests will cease remains to be seen.
+       </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Process_stop</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,corvey" sample_score="-"/>
+</inventory>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="balance-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="bring into or maintain a physically stable position" type="">
+      <commentary>
+       Syntax Includes: 
+        NP1[agent] BALANCE[concrete] NP2
+        NP1[agent] BALANCE[concrete] NP2 and NP3
+        NP1[theme] BALANCE[concrete]
+        NP1[theme] BALANCE[concrete] NP2[theme]
+
+         NOTE: things being balanced must be concrete
+      </commentary>
+      <examples>
+        She balanced the tray on one wide fat palm.
+        Not having a tripod, he balanced the camera on his car.
+        Doggie sat still while the treat balanced on her nose.
+        He balanced on one foot.
+        Weights were placed on the arm until the weights balanced the thing being weighed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>balance.01</pb>
+         <vn>other_cos-45.4,spatial_configuration-47.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bring into or maintain equilibrium or harmony" type="">
+      <commentary>
+      Syntax Includes: 
+        NP1[agent] BALANCE[abstract] NP2
+        NP1[agent] BALANCE[abstract] NP2 and NP3
+        NP1[theme] BALANCE[abstract]
+        NP1[theme] BALANCE[abstract] NP2[theme]
+      </commentary>
+      <examples>
+        The decrease in development time at the higher temperature balanced the increase in growth rate.
+        In addition, they have not balanced the increase in the students and teachers.
+        Balance Your Roles: Partners vs. Parents
+        How would you describe how you balance your passion for surfing and music in your life?
+        You will learn to use this method to balance your life.
+        Balance your spirit and shed off the unnecessary elements in your world.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>balance.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="manage accounts" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] BALANCE NP2[theme]
+        NOTE: compare to senses 1 and 2; this sense does not allow more than one theme,
+              nor does it allow themes to balance each other
+              EX: *He balanced his checkbook and his accounts. (cannot mean that they 
+                                   are in equilibrium with respect to each other)
+                  *The checkbook balanced the accounts.
+      </commentary>
+      <examples>
+        Not one Republican president has balanced the budget in 34 years in this country.
+        It plans your schedule, balances your checkbook, and figures out your taxes.
+        Merchants balanced the accounts from the preceding month on the first of each month.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

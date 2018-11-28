@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="grip-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hold tight" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        He gripped Pat's old gun with one hand in his pocket.
+        The wrestlers gripped each other around the waist at the back, with
+        the right hand under the opponent's left arm and the chin resting
+        on the opposite right.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>grip.01</pb>
+         <vn>hold-15.1-1,touch-20-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="transfix, reder motionless" type="">
+      <commentary>
+        Note: Compare to sense 1. Sense 2 does not include physically gripping.
+      </commentary>
+      <examples>
+        Last week iPhone mania gripped Silicon Valley gadget heads.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>grip.01</pb>
+         <vn>touch-20-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

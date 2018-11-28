@@ -1,0 +1,132 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="think-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="judge, believe" type="">
+      <commentary>
+         Syntax is: NP1 THINK NP2
+      </commentary>
+      <examples>
+         She thinks he is the best student in the class.
+         They thought he was down at the pool parlor.
+         You don't really think I took the money do you?
+         He's probably thinking evil thoughts about me.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,10,11</wn>
+         <omega/><pb>think.01</pb>
+         <vn>consider-29.9-2</vn><fn>Opinion,Regard</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cerebrate, cogitate, reason" type="">
+      <commentary>
+         Syntax is: NP1 THINK (PP)
+      </commentary>
+      <examples>
+         I've been thinking for days about this math puzzle.
+         It made her sad to think how much those people had suffered.
+         'I'm trying to think but nothing happens!' (Curly, The Three Stooges)
+         Is man the only creature that thinks?
+         What was I thinking?
+         Don't think yourself into a funk over this.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,8,9,12,13</wn>
+         <omega/><pb>think.01</pb>
+         <vn>NM</vn><fn>Awareness,Cogitation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="recall, remember" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Please try to think where you left the keys.
+         She thought of her deceased brother every day.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="visualize, focus" type="">
+      <commentary>
+         Note: Usually as an imperative
+      </commentary>
+      <examples>
+         Think how great we'll look in our new bathing suits.
+         Think big and you will accomplish more.
+         Try to think of how the others will feel.
+         They were thinking in terms of lives saved, not dollars spent.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,13</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="intend" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She didn't think to upset him.
+         We thought to return early that night
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>NM</pb>
+         <vn>wish-62</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="verb particle constructions/multi-word expressions" type="vpc">
+      <commentary>
+        NOTE: Use this for ALL VPCs/MWEs even if they could fit into the
+        senses above.
+        Verb Particle Constructions:
+        THINK ABOUT
+        THINK BACK
+        THINK OF
+        THINK OUT
+        THINK OVER
+        THINK UP
+        Idiomatic Expressions:
+        THINK THE WORLD OF
+        THINK TWICE
+      </commentary>
+      <examples>
+        THINK ABOUT
+          Geeze man, think about the children!
+          I thought about travelling to France.
+        THINK BACK
+          Grandpa would think back to his childhood with tears in his eyes.
+        THINK OF
+          Quick, think of a plan!
+          John thinks of himself as a brilliant scientist.
+          I think of good food when you say 'Italy'.
+          No one had ever thought of such a clever video game as Rock Band.
+        THINK OUT
+          When you plan a robbery, think out every detail.
+        THINK OVER
+          Sienna thought over her retirement plan for a long time.
+        THINK UP
+          The salesman thought up a plan to get rich quickly!
+        THINK THE WORLD OF
+          Grandparents always think the world of their grandchildren.
+        THINK TWICE
+          Think twice before getting married too young.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="think_back" version="3.0">1</wn>
+         <wn lemma="think_about" version="3.0">1,2</wn>
+         <wn lemma="think_out" version="3.0">1</wn>
+         <wn lemma="think_over" version="3.0">1</wn>
+         <wn lemma="think_up" version="3.0">1</wn>
+         <wn lemma="think_the_world_of" version="3.0">1</wn>
+         <wn lemma="think_twice" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Invention</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="worry-v">
+   <commentary>
+     No VPC for this verb 
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be anxious or preoccupied" type="">
+      <commentary>
+       Syntax includes: NP1[agent] WORRY PP{P NP[topic]}
+                        NP1[theme] WORRY (Argument for the entity worried is not
+                        present)
+                        NP1[theme] WORRY NP2[patient]   
+       NOTE: Preposition is usually 'about'
+      </commentary>
+      <examples>
+       Mary has been worrying about her weight.
+       There is nothing to worry about.
+       John is paid to worry about market share.
+       The Fed is worried about inflation. (Note: 'Fed' implies sentient beings who comprise the group)
+       The opinion polls don't seem to worry the President.
+       His mother's dizzy spells have worried John.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4</wn>
+         <omega/><pb>worry.01,worry.02</pb>
+         <vn>amuse-31.1,care-88.1-1,marvel-31.3-2,marvel-31.3-8</vn><fn>Emotion_active,Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="repeatedly handle or manipulate something physically" type="">
+      <commentary>
+       Syntax is: NP1[agent] WORRY NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+       Don't worry that tooth loose.
+       The old man worried his beads, while the dog worried his bone.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>      
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,corvey,greenlm" sample_score="-"/>
+</inventory>

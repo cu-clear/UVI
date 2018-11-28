@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="watch-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a portable timepiece" type="">
+        <commentary>
+            WATCH[+artifact][+tool][+timepiece][+portable]
+        </commentary>
+        <examples>
+            The salesclerk showed Sally several styles of women's watches.
+            The man wore a watch on a gold chain clipped to his vest pocket.
+            John replaced the battery in his watch.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a fixed period of duty, usually on a ship" type="">
+        <commentary>
+            WATCH[+span][+temporal][+period][+fixed][+of_duty]
+        </commentary>
+        <examples>
+            We sailed around the clock, each taking a three-hour watch while the others rested.
+            The ship's log recorded no incidents during the second watch of the night.
+            He didn't want such a failure to happen on his watch. (metaphoric extension to a job for which one is responsible)
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="surveillance, close observation" type="Event">
+        <commentary>
+            WATCH[+event][+observation][+surveillance]
+        </commentary>
+        <examples>
+            The FBI is keeping a close watch on two suspected terrorists.
+            The government kept a close watch on the man's overseas business transactions.
+            You need to keep a careful watch on the engine temperature because it might overheat.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>watch.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="care-taking vigil" type="Event">
+        <commentary>
+            WATCH[+event][+observation][+vigil][+care_taking]
+        </commentary>
+        <examples>
+            The shepherds kept watch over their flocks by night.
+            Who is keeping a watch over the baby while Mary is out?
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>watch.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="someone doing lookout or surveillance" type="">
+        <commentary>
+            WATCH[+entity][+person][+lookout]
+        </commentary>
+        <examples>
+            He worked as a watch for the mob, tracking events from his front room window.
+            The soldiers sent a boy to be the watch, having him climb a tree and hide among the branches.
+            John worked the midnight shift as a watch on the factory grounds.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="crew or officers of a ship on a duty period" type="">
+        <commentary>
+            WATCH[+group][+people][+military][+on_duty][+for_period][+fixed]
+        </commentary>
+        <examples>
+            The sailor was a member of the starboard watch on the battleship.
+            The first watch reported sighting enemy ships directly north of the vessel.
+        </examples>
+        <mappings>
+            <wn version="MAC">2c</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cooperation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a joint operation" type="Event">
+        <commentary>
+	    COOPERATION[+event]
+	    A specific action or operation involving more than one entity.
+	    <!--Wordnet has the first sense reduced to either activity or event, and the second to only activity.  I decided to simplify, and divide the event and the activity.  Therefore my senses don't quite match with Wordnet's.-->
+        </commentary>
+        <examples>
+            Thanks for your cooperation in this matter.
+            Their cooperation with us was essential for the success of the mission.
+            The cooperation of Dyna-Corp and Intelli-Corp produced a revolutionary software system.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the practice of working together" type="Abstraction">
+        <commentary>
+            A long-term policy or general concept.
+        </commentary>
+        <examples>
+            The two nations agreed on a policy of cooperation.
+            It's important that children learn cooperation.
+            Economic cooperation, not isolation, is the way of the future.
+            On the basketball court, our teamwork and cooperation were the keys to our success.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

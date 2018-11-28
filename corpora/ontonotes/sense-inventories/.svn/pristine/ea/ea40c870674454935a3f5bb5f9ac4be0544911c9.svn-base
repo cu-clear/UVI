@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="name-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="assign or give a personal name to someone, something" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] NAME NP2[recipient] NP3[attribute]
+	Note: implies a permanent attribute is being assigned.
+	Note: an agent assigns an attribute (the name) to the recipient
+	Note: implies the entity did not have this name prior to the assignment
+	Note: implies a change of (social) state for the recipient (it now has a name it did not have before)
+      </commentary>
+      <examples>
+        We named our dog Fido.
+        They named their son David.
+        The new school was named after the famous Civil Rights leader.
+        Berkeley named several plant species in their honour.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>name.02</pb>
+         <vn>appoint-29.1,dub-29.3</vn><fn>Name_conferral</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="identify or pick out someone or something" type="">
+      <commentary>
+	Syntax Is: NP1[actor] NAME NP2[target] (PP[goal])
+	Note: implies the name was already associated with the entity (unlike Sense 1)
+      </commentary>
+      <examples>
+        Many senators were named in connection with the scandal.
+        Name your accomplices!
+        I can name every state west of Mississippi.
+        Name your price.
+        The pair has named a date for their big day.
+        Mary has named three possible times for our meeting next week.  
+        Name the place of our duel.
+        In most instances the supplier will have named a price that they consider negotiable.
+        Try to deflect questions about salary until the employer names a figure. 
+        John's doctors have been unable to name the underlying cause of his inflammation. 
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,6,7,8,9</wn>
+         <omega/><pb>name.01</pb>
+         <vn>NM</vn><fn>Adducing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="appoint to a particular office or honor, assign to a role" type="">
+      <commentary>
+	Syntax Is: NP1[agent] NAME NP2[patient] NP3[attribute]
+	Note: does not imply the role is a permanent attribute (unlike Sense 1)
+	Note:assigns a role to a person, not an appellation (unlike Sense 1)
+      </commentary>
+      <examples>
+        She was named Head of the Committee.
+        They haven't yet named her successor.
+        He has named a committee to seek his successor.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>name.01</pb>
+         <vn>dub-29.3</vn><fn>Change_of_leadership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, ahouston" sample_score="-"/>  
+</inventory>

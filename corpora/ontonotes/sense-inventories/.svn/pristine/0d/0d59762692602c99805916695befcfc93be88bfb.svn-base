@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="praise-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a statement of approval, commendation" type="Event">
+        <commentary>
+            PRAISE[+event][+speech_act][+approval][+commendation]
+        </commentary>
+        <examples>
+            The child received a lot of praise from his parents.
+            The critics were full of praise for the director's new film.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>praise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a worshipful homage, as to a deity" type="Event">
+        <commentary>
+            PRAISE[+event][+speech_act][+homage][+worshipful]
+        </commentary>
+        <examples>
+            They congregation sang a hymn of praise to God.
+            These rituals were how the ancients offered praise to their deities.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

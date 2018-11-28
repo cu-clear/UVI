@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pierce-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Penetrate, cut, or bore a hole through,
+   possibly with the intent to enter the opening." type="">  
+      <commentary>
+        Note: Compare carefully to senses 2 and 3, in sense 1 NP1 is not a
+        sound, and is not abstract. A concrete NP1 must pierce NP2.
+      </commentary>
+      <examples>
+      His knife pierced the flesh.
+      The path pierced the jungle.
+      Light pierced through the forest.
+      It was pierced by a wagon gate built of two wings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pierce.01</pb>
+         <vn>poke-19</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Move of affect a person's emotions or
+         bodily feelings deeply or sharply." type="">
+      <commentary>
+      Syntax Is:
+      NP1[topic[abstract]] PIERCE NP2[patient]
+      </commentary>
+      <examples>
+      The cold pierced her bones.
+      Her words pierced the students.
+      The whole situation pierced her psyche.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Sound sharply or shrilly, as if stabbing." type="">
+      <commentary>
+      Note: Thing piercing must be a noise. This is a subsense of Sense 1.
+      </commentary>
+      <examples>
+      The scream pierced the night.
+      The music pierced the fog bank, sending Brahms into the port..
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

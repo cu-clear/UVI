@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="food-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a nutrient, any nourishing substance" type="">
+        <commentary>
+            FOOD[+substance][+physical][+nutrient]
+        </commentary>
+        <examples>
+            The fast food industry is under pressure to eliminate trans-fats from their products.	
+            Plants use sunlight to make their own food.
+            The government has modified the food pyramid in recent years.
+            The food critics are raving about the new French-Cuban restaurant.
+            The chef's duck confit with burgundy sauce and truffles is food for the gods!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="nutrient in a solid form" type="">
+        <commentary>
+            FOOD[+substance][+physical][+nutrient][+solid]
+            Note: the emphasis of this sense is on the solidity, in contrast to a liquid
+        </commentary>
+        <examples>
+            Will they serve us food and drink on the patio?
+            John is tired of his liquid diet and wants some real food.
+            The airlines are charging for food on board nowadays, but juice and soda are still free.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="anything that challenges or sustains contemplation" type="">
+        <commentary>
+            FOOD[+abstract][+content]
+        </commentary>
+        <examples>
+            His lecture on the future of cloning contained much food for thought.
+            Poetry is food for the soul.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="courier-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a transporter of information (messenger) and/or goods" type="">
+        <commentary>
+            COURIER[+person][+transporter][+information][+messenger][+diplomatic/+espionage]
+            [+goods][+military/+contraband]
+            Note: references a person, not an organization
+        </commentary>
+        <examples>
+            Sally worked as a courier on a bicycle in New York City.
+            The medication was hand-delivered by courier at 3 AM. (a person dropped it off)
+            He served as a courier to the American Embassy in Kenya.
+            The novel is about a double agent during the Cold War who was a courier for the KGB.
+            The drug cartels have couriers on commercial flights transporting cocaine.
+            Army couriers risked their lives delivering medicines and other supplies to the front.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a business that transports small parcels, e.g., documents" type="">
+        <commentary>
+            COURIER[+organization][+business][+transporter][+parcel][+small][+document/+medicine]
+            Note: references a business, not a person
+        </commentary>
+        <examples>
+            That firm is an overnight courier of documents and small packages.
+            Packages transported by companies that qualify as trusted couriers are not inspected.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a paid tour guide" type="">
+        <commentary>
+            COURIER[+person][+guide][+tour]
+        </commentary>
+        <examples>
+            The courier waited by the bus while the tourists explored the shops.
+            Our Italian courier pointed out interesting architectural details at Pompeii.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

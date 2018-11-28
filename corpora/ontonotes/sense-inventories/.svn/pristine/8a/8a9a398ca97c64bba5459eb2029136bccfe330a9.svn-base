@@ -1,0 +1,92 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="building-n">
+    <commentary>
+        Added commentary, modified and added examples, modified definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="edifice" type="">
+        <commentary>
+            a structure that has a roof and walls and stands more less permanently
+            in one place
+        </commentary>
+        <examples>
+            There was a three-story building on the corner.
+            Those are luxury apartment buildings.
+            You can park in the lower level of that building complex.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="occupants" type="">
+        <commentary>
+            the occupants of a building
+        </commentary>
+        <examples>
+            The entire building complained about the noise.
+            My building meets in the common room for a weekly game of scrabble.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="act of constructing" type="Event">
+        <commentary>
+	    BUILDING[+event]
+	    the activity of constructing or building something
+	    </commentary>
+        <examples>
+            The building of the skyscraper took three months.
+            During the building we had to take a detour.
+            His hobby was boat building.
+            The architect did not comply with certain building codes.
+            Protein is a major building block of our bodies.
+            You'll need a building permit to put up a greenhouse in your backyard.
+            The building materials we'll need for our patio include sand, bricks, and wood.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>building.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="an enterprise or business engaged in construction" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            Building and steel have both lost workers in the last several years. (the industry as a whole)
+            They now run a major building firm in Ohio.
+            Workers in the building trades have rough hands.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>building.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

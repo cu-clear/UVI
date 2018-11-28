@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="explode-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="detonate, set off, destroy by blowing to pieces" type="">
+      <commentary>
+        Syntax Is: NP1 EXPLODE NP2[concrete]
+
+        NOTE: Compared to sense 3 the exploded object must be concrete.  
+      </commentary>
+      <examples>
+        India has exploded a nuclear bomb and Israel is widely considered to have a number of them.
+        Fireworks exploded about 2 feet above the ground and ignited other pyrotechnics.
+        The building exploded and I jumped in a river that was close and held my breath.
+        They exploded the port-a-potty one more time using a candle as the pre-lit ignition source.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,5,9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>explode.01</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ruin, refute, make obsolete" type="">
+      <commentary>
+        Syntax Is: NP1 EXPLODE NP2[abstract]
+      </commentary>
+      <examples>
+        The argument collapsed, they exploded his latest theory.
+        Science has exploded the widely accepted theory that chastity
+        was incompatible with health.
+        Einstein, of course, had exploded Newton's idea of an absolute
+        time or standard of motion.
+        Above all, Singer exploded humankind's central claim to a special,
+        distinctive status.
+        They exploded the belief that periods of bad business were caused
+        by general overproduction.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">7,8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="burst forth, emit, overflow, rapidly and uncontrollably increase" type="">  
+      <commentary>
+        NOTE: May include bursts of energy, sound, and emotion.  May
+        include metaphorical usages. May include a collection of entities
+        (example: population).  Compare carefully to sense 1: This sense
+        does not include detonating, or destroying/blowing to pieces.
+
+        Syntax Includes:
+         NP1 EXPLODE IN NP2[abstract]
+         NP1[abstract] EXPLODE (PP) (ADVP)
+      </commentary>
+      <examples>
+        We popped the cork and champagne exploded out of the bottle.
+        She looks like a box of crayons exploded all over her.
+        Cheers exploded throughout the auditorium.
+        The boss exploded when he heard of the resignation of the secretary.
+        Revolutionary advances in medicine were one of the reasons why population exploded.
+        Production exploded as the consumption of livestock and poultry products climbed.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3,4,6,10</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>explode.02,explode.03</pb>
+         <vn>calibratable_cos-45.6-1,sound_emission-43.2</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="EXPLODE A BOMBSHELL: cause surprise by doing something          unexpected." type="">
+      <commentary>
+        Is: EXPLODE A BOMBSHELL
+      </commentary>
+      <examples>
+        Father exploded a bombshell when he forbade us to go to the prom.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="explode_a_bombshell" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey,clarklm,greenlm,dillk" sample_score="-"/>  
+</inventory>

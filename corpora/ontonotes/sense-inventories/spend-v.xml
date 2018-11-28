@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="spend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass time in a particular place or way" type="">  
+      <commentary>
+        Syntax is: NP1 SPEND NP2[temporal]
+      </commentary>
+      <examples>
+        I spent my vacation in Hawaii.
+        How do animals spend winter?
+        She spends an hour everday in the gym.
+        He spent a lot of time thinking about it.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>spend.02</pb>
+         <vn>consume-66-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="use money, pay" type="">
+      <commentary>
+        Syntax is: NP1 SPEND NP2[concrete]
+      </commentary>
+      <examples>
+        They plan to spend millions of dollars on disabled citizens.
+        How do you spend your allowance?
+        They spend 2 dollars and make one dollar in return.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <omega/><pb>spend.01</pb>
+         <vn>pay-68</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="use, devote effort, sacrifice" type="">
+      <commentary>
+        Syntax is: NP1 SPEND NP2
+      </commentary>
+      <examples>
+        Stupidly, I spent all my energy trying to make you happy!
+        They spent their their lives working for the reform.
+        He spent his youth in search of knowledge and truth.
+        For those curious as to what I spent a headache over, go here.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>spend.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="wear out, exhaust" type="">
+      <commentary>
+        Syntax is: NP1 SPEND [intransitive]
+                   NP1 SPEND self
+      </commentary>
+      <examples>
+        It's been a rough day, and I am completely spent.
+        The storm finally spent itself.
+        I think she spent herself and drover herself crazy.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="BRITISH IDIOM - go to toilet" type="">
+      <commentary>
+        includes: SPEND-A-PENNY
+      </commentary>
+      <examples>
+        Latrine-loving Londoners spend a penny.
+        'I want to spend a penny,' said Peggy, her face uneasy.
+      </examples>
+      <mappings>
+         <wn lemma="spend_a_penny" version="3.0">1</wn>
+         <omega/><pb/>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

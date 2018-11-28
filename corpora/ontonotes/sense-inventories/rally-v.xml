@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rally-v">    
+   <commentary>
+   </commentary>
+
+   <sense group="1" n="1" name="gather, mobilize, bring together" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+	The students are rallying against the war in front of the student union.
+	The general rallied his troops the night before the big battle.
+	They have rallied to the president's defense.
+	The team rallied in the final inning to win the game 7-5.
+	Mary rallied her courage to dial John's phone number.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>rally.01</pb>
+         <vn>NM</vn><fn>Activity_prepare</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="recover, return to better condition" type="">
+      <commentary>
+	Syntax Includes:
+        NP1[topic] RALLY PP
+        NP1[topic] RALLY PP[temporal]
+        NP1[topic] RALLY ADVP
+      </commentary>
+      <examples>
+	Stocks rallied on the news of the peace accord.
+	He is rallying surprisingly well after the surgery.
+	The rosebush seem to rally after the hard winter, but later died.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>rally.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="tease or taunt" type="">
+      <commentary>
+	Syntax Is: NP1[agent] RALLY NP2[patient]
+      </commentary>
+      <examples>
+	The bully rallied the shy new student in the hall.
+	They rally their boss in a good-natured, fun-loving way.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

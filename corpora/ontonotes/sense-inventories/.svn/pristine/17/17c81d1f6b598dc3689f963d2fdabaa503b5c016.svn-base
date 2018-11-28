@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="benefit-n">
+    <commentary>
+        26Feb08 update to wn2.1, added features, augmented definitions, examples. ahouston
+        26Feb08 added idiom Sense 4 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="something which gives advantage, or profit, to someone" type="">
+        <commentary>
+            BENEFIT[+state][+resulting][+advantage][+gained]
+            Anything which results in gained advantage for someone, it is more general than financial gain
+        </commentary>
+        <examples>
+            It's easy to see one's mistakes with the benefit of hindsight.
+            Is there any benefit in pre-soaking these towels, or will they come out just as clean without doing it?
+            The new conservation area is intended for the benefit of all, not just for the local townspeople. 
+            Criticism that is not constructive will be of no benefit to these students.
+            She grew up with all the benefits of a wealthy family.  (financial and otherwise)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>benefit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="charity event" type="">
+        <commentary>
+            BENEFIT[+event][+social][+fundraising][+charity]
+            a performance to raise money for a charitable cause
+        </commentary>
+        <examples>
+            The benefit was to raise money for the American Cancer Society.
+            She went to a benefit dinner on Tuesday.
+            We attended a black tie benefit with a silent auction.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="entitlements provided by employer, government or private agency" type="">
+        <commentary>
+            BENEFIT[+quantity][+money][+entitlement][+payment][+by_agency][+to_recipient]
+            supplemental entitlements given by an organization to someone, e.g., employer, government agency
+        </commentary>
+        <examples>
+            The law doesn't require them to pay benefits to half-time or temporary employees.
+            These women receive additional welfare benefits for each child they have.
+            Their company offers extensive benefits covering disability, life, health and dental insurance.
+            John listed his wages and benefits on the income tax form.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a concession that someone must be assumed correct until proven wrong" type="">
+        <commentary>
+            Idiom: the_benefit_of_the_doubt
+        </commentary>
+        <examples>
+            We should give Mary the benefit of the doubt unless John's story is substantially different.
+            He wouldn't give his little brother the benefit of the doubt as to whether the act was deliberate.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom-</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

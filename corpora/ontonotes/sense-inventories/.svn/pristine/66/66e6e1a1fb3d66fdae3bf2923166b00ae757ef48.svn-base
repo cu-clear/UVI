@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="launch-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an open motorboat used for transport" type="">
+        <commentary>
+            LAUNCH[+artifact][+motorboat][+open][+for_transport]
+        </commentary>
+        <examples>
+            The marina has two launches to ferry people out to the moorings and back.
+            John's son is driving a launch this summer at a yacht club.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the forceful propulsion of an object" type="Event">
+        <commentary>
+            LAUNCH[+event][+physical][+propulsion][+forceful][+of_object]
+        </commentary>
+        <examples>
+            The launch of the Mars rocket is scheduled for next Tuesday.
+            We drove down to Cape Canaveral to watch the launch of the space shuttle.
+            Johnny's launch of a Roman candle in his backyard attracted attention from the neighbors.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>launch.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="promotional campaign for new product or idea" type="Event">
+        <commentary>
+            LAUNCH[+event_set][+social][+campaign][+promotion][+new]
+        </commentary>
+        <examples>
+            The launch of their new product will occur tomorrow at events in New York, Los Angeles and Chicago.
+            She has helped organize the launch of a new campaign against using cellphones while driving.
+            The author will be signing copies at the launch of his new book.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>launch.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

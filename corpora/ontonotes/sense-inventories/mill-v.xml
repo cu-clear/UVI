@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mill-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move about in a confused or purposeless manner." type="">  
+      <commentary>
+      Includes: MILL AROUND, MILL ABOUT  
+      </commentary>
+      <examples>
+      The children milled about in the parking lot.
+      Who is that man milling around the building?
+      Don't mill around in college, but seek to learn. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="mill_about" version="3.0">1,2</wn>
+         <wn lemma="mill_around" version="3.0">1,2</wn>
+         <omega></omega><pb>mill.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Grind with a mill (or some other implement)." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      We mill the flour very fine for cake batters.
+      This is a place to mill grain.  
+      Mill the silicon to a fine dust. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mill.02</pb>
+         <vn>NM</vn><fn>Grinding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Manipulate metal, possibly to produce currency." type="">
+      <commentary>
+      Note: production method is by rolling or pressing flat.
+      </commentary>
+      <examples>
+      The department mills many coins.
+      We milled foil for the exterior cover.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>carve-21.2-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

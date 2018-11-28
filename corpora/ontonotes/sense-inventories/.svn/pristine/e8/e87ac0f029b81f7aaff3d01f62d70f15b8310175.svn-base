@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rent-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="grant temporary use of, for money" type="">  
+      <commentary>
+        NOTE: this is the 'lend' sense of rent
+        Includes: RENT OUT
+      </commentary>
+      <examples>
+        She rented her Oxford house to three tenants who destroyed the property.
+        We custom made the Sgt. Pepper's outfits and rented them to four blokes.
+        The company rents out fake wedding cakes.
+        Before, large landowners rented land out to poorer tenants.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="rent_out" version="3.0">1</wn>
+         <omega/><pb>rent.02</pb>
+         <vn>give-13.1-1</vn><fn>Commerce_sell</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="use teporarily, by payment" type="">
+      <commentary>
+        NOTE: this is the 'borrow' sense of rent
+      </commentary>
+      <examples>
+        It was the student that rented the car.
+        She rented the costume from a little dive downtown.
+        I've rented 'The Secret of NIMH' to help me prepare to be a research participant.
+        We rented the cutest little bungalow on the beach!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>rent.01</pb>
+         <vn>get-13.5.1</vn><fn>Commerce_buy</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

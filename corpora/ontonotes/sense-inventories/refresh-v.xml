@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="refresh-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="review" type="">  
+      <commentary>
+        Syntax Is: NP1 REFRESH NP2
+      </commentary>
+      <examples>
+        Jigen refreshed Lupin's memory as to their mission and the
+        collection of valuable paintings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="freshen, to make fresh; refreshen" type="">
+      <commentary>
+        Syntax Is: NP1 REFRESH (NP2)
+      </commentary>
+      <examples>
+        The cool breeze refreshed us as we climbed up the ghats to
+        Valparai.
+        She refreshed herself by drinking a lot of ice water.
+        She refreshed and geared up to play again at 2am.
+        The ritual refreshed the body and spirit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>refresh.01</pb>
+         <vn>amuse-31.1</vn><fn>Rejuvenation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

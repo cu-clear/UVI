@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="concur-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to be in accord or agreement" type="">  
+      <commentary>
+        NP1[agent] CONCUR (with) (NP2)
+      </commentary>
+      <examples>
+        He concurred with staff's recommendation.
+        They concurred that parking is not an issue.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>concur.01</pb>
+         <vn>correspond-36.1,settle-89</vn><fn>Be_in_agreement_on_assessment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to happen simultaneously" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The event concurred with calving season and many ranching
+        operations were affected by the power outage.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

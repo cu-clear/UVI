@@ -1,0 +1,110 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="champion-n">
+    <commentary>
+        12jan07 updated to WordNet 2.1. ahouston
+        12jan07 merged senses 1,2; merged senses 3,4, added sense 5, added examples, features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="title-holder, winner of a competition, a hotshot who excels" type="">
+        <commentary>
+            CHAMPION[+entity][+animal][+contestant][+winner][+human/+livestock/+racehorse/+show]
+        </commentary>
+        <examples>
+            He was the heavyweight champion of the world for five years.
+            John's champion bull took a blue ribbon at the county fair.
+            That stallion looks like a true champion.
+            Our team is the champion of our regional division this year.
+            Sally has bred a number of dogs who were champions at international shows.
+            Little Johnny was the champion of the national spelling bee.
+            She finished her routine like a true champion, even after falling down on the ice.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            Merged into Sense 1
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="supporter, advocate of something or someone" type="">
+        <commentary>
+            CHAMPION[+entity][+human][+supporter][+advocate]
+            Note: refers to one who advocates or helps a cause or person
+        </commentary>
+        <examples>
+            He has always been a champion of women's rights.
+            One of the original champions of civil rights died today at the age of 92.
+            We need to find a champion for our cause within the town council.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            Merged with Sense 3
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a great warrior, fighter who defends someone" type="">
+        <commentary>
+            CHAMPION[+entity][+person][+defender][+warrior]
+            Note: implies a heroic warrior who defends or fights on behalf of someone/something.
+            Note: a specific and limited use of Sense 3
+            Note: somewhat rare and old-fashioned usage
+        </commentary>
+        <examples>
+            The bold young knight was the princess's champion and rescued her from the dragon.
+            The boy loved reading the old folk tales and legends of the great Norse champions who fought battles with monsters and trolls.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

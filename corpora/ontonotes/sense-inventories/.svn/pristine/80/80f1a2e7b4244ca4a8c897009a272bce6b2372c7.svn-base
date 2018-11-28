@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="err-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a mistake" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] ERR
+      </commentary>
+      <examples>
+        We erred in our editorial judgment.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>err.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="wander" type="">
+      <commentary>
+        Syntax Is: NP1[agent] ERR (PP[location])
+        Note: Location may be metaphorical.  
+      </commentary>
+      <examples>
+        They have erred from the faith, and pierced themselves through with
+        many sorrows.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

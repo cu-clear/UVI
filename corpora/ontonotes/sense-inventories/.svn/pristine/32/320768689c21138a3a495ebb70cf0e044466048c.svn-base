@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reward-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="payment or compensation in return for service" type="">
+        <commentary>
+            REWARD[+quantity][+payment][+remuneration/+offer]
+            Note: implies the payment is always given for work completed.
+        </commentary>
+        <examples>
+            The salesman received a $50,000 bonus as his reward for exceeding his annual target.
+            Another reward of this company is six weeks of paid vacation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a reinforcement stimulus to guide behavior" type="">
+        <commentary>
+            REWARD[+action][+response][+reinforcement]
+        </commentary>
+        <examples>
+            The rats receive a reward of a food pellet each time they strike the bar.
+            His reward for making such an impudent remark was a slap on the cheek.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an offer for delivering or returning something" type="">
+        <commentary>
+            REWARD[+quantity][+payment][+offer/+remuneration]
+            Note: does not imply the payment is always given, different from sense 1
+        </commentary>
+        <examples>
+            There is a $100,000 reward on his head, dead or alive.
+            She is offering a reward for the return of her diamond ring.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a benefit or advantage gained" type="">
+        <commentary>
+            REWARD[+state][+benefit]
+            Note: value or benefit broadly defined, not just financial
+        </commentary>
+        <examples>
+            Mary is enjoying the rewards of motherhood.
+            He has decided to pursue the greater risks and rewards of being an entrepreneur.
+            Pete finds no reward in playing one-upmanship at work.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

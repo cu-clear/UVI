@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="disclosure-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of revealing formerly secret information" type="Event">
+        <commentary>
+            DISCLOSURE[+event][+communication][+speech_act][+revealing][+information][+secret]
+            Note: implies an agent in the act of communicating
+            Note: the DISCLOSURE of Y -&gt; X DISCLOSES Y
+        </commentary>
+        <examples>
+            The judge ordered the disclosure of the government documents.
+            The disclosure of a terrorist plot by a man in custody has led to several more arrests.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>disclosure.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="information content that was secret, but now revealed" type="Event">
+        <commentary>
+            DISCLOSURE[+entity][+symbolic][+information][+secret][+revealed]
+            Note: refers to the content of the information, not the act of communicating by an agent
+        </commentary>
+        <examples>
+            These shocking disclosures of infidelity in the papers are ruining the politician's career.	Among the stolen documents may have been disclosures of new weapon technology.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

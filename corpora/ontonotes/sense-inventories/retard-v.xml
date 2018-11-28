@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="retard-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make slow, delay" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] RETARD NP2[patient]
+      </commentary>
+      <examples>
+        This drug will retard your heart rate.
+        The brain damage will retard the child's language development.
+        The progress of the car retarded.
+        The war and war prices have greatly retarded our plans.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>retard.01</pb>
+         <vn>NP</vn><fn>Hindering</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

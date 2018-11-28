@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="jail-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="place of confinement, prison" type="">
+        <commentary>
+            JAIL[+entity][+artifact][+building][+incarceration]
+        </commentary>
+        <examples>
+            Mary went down to the county jail to pay John's bail for his release.
+            The film describes the harsh living conditions in a Mexican jail.
+            The town jail has a general holding cell and four private cells.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="state of confinement, imprisonment" type="">
+        <commentary>
+            JAIL[+state][+physical][+confinement][+punishment][+official]
+            Note: entails being in a Sense 1 jail, but refers to the state of confinement of an individual, rather than
+            the building itself.
+        </commentary>
+        <examples>
+            She was sentenced to three months' jail.
+            The judge sentenced him to jail without parole.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="weight-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="burden" type="">  
+      <commentary>
+        Includes: WEIGHT DOWN
+        
+        NP1 WEIGHT (DOWN) NP2
+      </commentary>
+      <examples>
+        The weight of the ice cap has weighted Greenland down below sea
+        level!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="weight_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>equip-13.4.2-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="present with a bias" type="">
+      <commentary>
+        NP1[+agent] WEIGHT NP2
+      </commentary>
+      <examples>
+        He weighted his arguments in favor of the country.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>weight.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

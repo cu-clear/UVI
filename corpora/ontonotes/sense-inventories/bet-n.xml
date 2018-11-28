@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bet-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a sum of money gambled" type="Event">
+        <commentary>
+            BET[+quantity][+sum][+money][+gambled]
+        </commentary>
+        <examples>
+            The bookies are taking bets for the next horse race.
+            He placed a bet on red on the roulette wheel.
+            This table has a minimum bet of $100.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>bet.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of gambling, making a wager" type="Event">
+        <commentary>
+            BET[+event][+undertaking_risk][+high][+for_reward]
+            Note: often implies a monetary reward, but can be extended to include other risk/reward situations.
+        </commentary>
+        <examples>
+            He ate ten hot dogs on a bet.
+            She is too young to make a bet in the casino.
+            The bet of starting his own Internet game company finally paid off.
+            The general couldn't make such a bet with the lives of so many troops at stake.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>bet.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a choice, a course of action" type="">
+        <commentary>
+            BET[+event][+choice][+of_action]
+        </commentary>
+        <examples>
+            Your best bet would be to call a professional exterminator.
+            It seemed like a better bet to drive to the cape after the rush hour traffic.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a personal opinion" type="">
+        <commentary>
+            BET[+state][+mental][+opinion]
+        </commentary>
+        <examples>
+            My bet is that the president will veto the bill.
+            What's your best bet as to how long this project will take?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="Idiom" type="">
+        <commentary>
+            ALL_BETS_ARE_OFF (an unpredictable outcome)
+        </commentary>
+        <examples>
+            At this point all bets are off as to who will win the playoffs.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

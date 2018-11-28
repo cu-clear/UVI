@@ -1,0 +1,111 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="identification-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act or event of positively recognizing an entity" type="Event">
+        <commentary>
+            IDENTIFICATION[+event][+cognition][+recognition][+of_object]
+        </commentary>
+        <examples>
+            It may be impossible for relatives to make positive identifications of the victims.
+            Each infant wears a bracelet for identification. (for the -act- of identifying the infant)	
+            Accurate identification of that rare bird species is difficult because it looks similar to this bird.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="documentation that establishes proof of identity" type="">
+        <commentary>
+            IDENTIFICATION[+entity][+artifact][+document][+proof][+of_identity]
+            Note: This is a narrow, widely-used sub-sense of Sense 3, it always implies documents.
+        </commentary>
+        <examples>
+            The police pulled John over and asked to see some identification.
+            You cannot get through airport security lines without proper identification.
+            The man's identification may have been forged.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="something which serves the role of establishing identity" type="">
+        <commentary>
+            IDENTIFICATION[+relation][+role][+establisher][+of_identity]
+            Note: implies a trait, or situation that serves as proof of something.
+        </commentary>
+        <examples>
+            Dental records served as identification of the badly decomposed body.
+            In nature, right vivid colors are a common identification of poisonous creatures.
+            Tracks in cloud chambers are a key identification of sub-atomic particle collisions.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of designating a role to someone" type="Event">
+        <commentary>
+            IDENTIFICATION[+event][+social][+selection][+designation][+of_role]
+            Note: implies that an agent(s) selects or designates someone to play a role.
+        </commentary>
+        <examples>
+            The identification of a new CEO for their company will take some time.
+            The identification of who the next president would be had to wait for a recount of the votes.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="attributing characteristics of another to oneself, strong empathy" type="Event">
+        <commentary>
+            IDENTIFICATION[+state][+mental][+attribution][+characteristic][+of_other][+to_self]
+            Note: always implies a subject's personal empathy with something
+        </commentary>
+        <examples>
+            Children often have a strong identification with the characters in storybooks.
+            The therapist helped the patient see his identification with his over-bearing mother. 
+            Sally did not share her mother's identification with radical feminists. 
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="making an association or link between things" type="Event">
+        <commentary>
+            IDENTIFICATION[+state][+mental][+association][+link][+between_entities]
+            Note: does not imply the link is between the subject and something, (Sense 5)  but between two external things
+        </commentary>
+        <examples>
+            It was the traditional Russian identification of democracy with anarchy.
+            John doesn't like polo shirts because of his identification of them with stodgy middle-aged med
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

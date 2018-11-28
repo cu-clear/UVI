@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="commute-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Exchange one item for another of similar
+   type or category." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      These operators commute with each other.
+      Could you commute my dollars into pounds?
+      I commuted my holdings into shares.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Travel back and forth regularly, usually to work." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He commuted 100 miles each day just to get to work.
+      Thousands of people commute to the city each day. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>commute.01</pb>
+         <vn>NP</vn><fn>Travel</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Exchange a penalty for a less severe one." type="">
+      <commentary>
+      Note: Could be considered a subsense of Sense 1; use this sense for
+      legal frames.
+      </commentary>
+      <examples>
+      The judge commuted Mary's sentence for killing John to time served.
+      My decision to commute his prison sentence leaves in place a harsh punishment for Mr. Libby.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>commute.02</pb>
+         <vn>NP</vn><fn>Commutation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

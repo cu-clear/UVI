@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="prevail-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="win, emerge as dominant" type="">
+      <commentary>
+        Syntax Is: NP1 PREVAIL[transitive] (OVER NP2)
+        NOTE: in this sense, NP2 may be omitted. To test this sense, try to add &quot;over NP&quot;
+              to the sentence.  If it is acceptable/natural/wouldn't make you cringe 
+              if you heard it, then use this sense.
+              EXAMPLE:
+              okay: He has said he is confident that democracy will prevail (over other forms of government.) 
+              not okay/weird: *Sunny skies will prevail (over cloudy skies.)
+        NOTE: if the context is too ambiguous to determine the existence of NP2, choose sense 2.
+      </commentary>
+      <examples>
+        The champion prevailed, even though it was a hard fight.
+        The heroes prevailed against the enemy.
+        I am sure that justice and common sense will prevail in the end.
+        And did reason prevail over emotion?
+        This technology will prevail over competing methods.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>prevail.01</pb>
+         <vn>NM</vn><fn>Finish_competition</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exist" type="">
+      <commentary>
+        Syntax Is: NP1 PREVAIL[intransitive]
+        Note: suggests that NP is prevalent, and therefore may have some influence
+              in a given context, but not that it necessarily defeats opposing forces
+        NOTE: if unsure of the inference of victory, choose this sense (see last example)
+      </commentary>
+      <examples>
+        This is a region where snow and ice prevail.
+        Sunny skies prevail across the northeast.
+        The old customs still prevail in some parts of the country.
+        This attitude still prevails among the middle classes.
+        Fond memories will prevail for the team.
+        This technology will prevail.  (in a context too ambiguous to determine if competing technologies are present)
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <omega/><pb>prevail.02</pb>
+         <vn>exist-47.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="persuade or be persuaded" type="">
+      <commentary>
+        Includes: PREVAIL UPON,  PREVAIL ON
+      </commentary>
+      <examples>
+        He prevailed upon her to visit his parents.
+        He was eventually prevailed upon to accept the appointment.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb></pb>
+         <vn>NM</vn><fn>Attempt_suasion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg,duffielc" sample_score="-"/>  
+</inventory>

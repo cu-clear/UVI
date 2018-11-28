@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="imply-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="entail; require by logical necessity" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1 IMPLY NP2
+        NP1 IMPLY SCOMP  
+      </commentary>
+      <examples>
+        Decision implies the end of deliberation and the beginning of action.
+        Life implies growth and death.
+        The very name &quot;selection&quot; implies that you're choosing between two or more variants.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,5</wn>
+         <omega/><pb>imply.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="connote; suggest indirectly" type="">  
+      <commentary>
+       Syntax Includes:
+       NP1 IMPLY NP2
+       NP1 IMPLY SCOMP
+      </commentary>
+      <examples>
+        Such impressive exam results imply good teaching and study methods.
+        Are you implying that I'm fat?
+        The report implies that more charter schools would increase the chances for broader, systemic reform.
+        I didn't mean to imply that you were emotionally unstable.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <omega/><pb>imply.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

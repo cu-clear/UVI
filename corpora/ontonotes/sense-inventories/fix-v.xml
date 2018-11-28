@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fix-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="repair, mend" type="">
+      <commentary>
+       Syntax: NP1[agent] FIX NP2
+      </commentary>
+      <examples>
+         They charged a lot to fix my car.
+         I'm fixing that tear in your jacket.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>fix.02</pb>
+         <vn>NM</vn><fn>Resolve_problem</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) fasten, secure" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The cat got out when the latch to the back door wasn't fixed.
+         Let's fix the picture to the frame
+         As he was fixing his hand on her shoulder, she turned at him with an icy glare.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,8,11</wn>
+         <omega/><pb>NM</pb>
+         <vn>shake-22.3-2</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="specify" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         See what you get when this variable is fixed to a higher value.
+         We haven't fixed the date for our wedding yet.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <omega/><pb>fix.03</pb>
+         <vn>price-54.4</vn><fn>Bail_setting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="prepare, make, get ready" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She was fixing dinner when the phone rang.
+         Can you fix these samples and send them over to pathology?
+         I was fixing to leave town after I paid the hotel bill.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,7,12</wn>
+         <omega/><pb>fix.01</pb>
+         <vn>preparing-26.3-1</vn><fn>Activity_prepare</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="take revenge on" type="">
+      <commentary>
+       Note: This sense is colloquial.
+      </commentary>
+      <examples>
+         Just wait, I'll fix you!
+         That'll fix him!
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="sterilize" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She's going to get her two cats fixed next week.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="7" name="FIX UP:find something/someone or make arrangements for" type="">
+      <commentary>
+        Is: FIX UP
+      </commentary>
+      <examples>
+        I'll fix you up with a nice girl.
+        The car salesman fixed me up with a sweet deal.
+        Can you fix up a meeting with the president?
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="fix_up" version="3.0">1,2</wn>
+         <omega/><pb>fix.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

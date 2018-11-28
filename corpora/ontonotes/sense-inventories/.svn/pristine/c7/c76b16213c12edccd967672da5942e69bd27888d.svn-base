@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="move-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="residence change" type="Event">
+        <commentary>
+	    MOVE[+event]
+	    the act of changing your residence or place of business
+	    </commentary>
+        <examples>
+            The move is on April 7th.
+            Our move took only three hours because we were so organized.
+            They say that three moves equal one fire.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>move.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="action" type="Event">
+        <commentary>
+            the act of deciding to do something
+        </commentary>
+        <examples>
+            He didn't make a move to help.
+            His first move was to hire a lawyer.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>move.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Game:a turn" type="Event">
+        <commentary>
+	    MOVE[+event]
+	    (game) a player's turn to move a piece or take some other
+	    permitted action
+	    </commentary>
+        <examples>
+            It's your move, pay attention.
+            Sally, Would you get me a drink after your move?
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="other moves" type="Event">
+        <commentary>
+	    MOVE[+event]
+	    motion, movement, move, motility -
+	    a change of position; or the act of changing location
+	    </commentary>
+        <examples>
+            The reflex moves of his eyebrows revealed his surprise.
+            An impatient move of his hand gave him away.
+            Gastrointestinal motility...
+            Police controlled the move of the crowd.
+            The move of people from the farms to the cities...
+            His move put him directly in my path.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="effuse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give out, diffuse" type="">  
+      <commentary>
+Syntax includes: 
+NP1[source] EFFUSE NP2[theme]
+NP1[agent] EFFUSE NP2[theme] PP{P NP[goal]}
+      </commentary>
+      <examples>
+The more dense the gas is, the slower it effuses.
+The small colorful circle between her eyes was effusing radiance. 
+Her face was effusing occasional smiles.
+He was effusing the water on my hot shoulders and my steaming back.
+Jack was effusing his charm quite vigorously at that time. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>effuse.01</pb>
+         <vn>np</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Speak enthusiastically" type="">
+      <commentary>
+Syntax includes: 
+NP1[agent] EFFUSE PP{P NP[topic]}
+NP1[agent] EFFUSE NP2[topic]
+      </commentary>
+      <examples>
+He was effusing about what a great job the filmmakers have done. 
+Meanwhile, my companion was effusing over his Bistro-special Fried Sole.
+She effused about how she had been skating from the heart. 
+Instead, she effused: That woman who played Mrs. Bennet was hilarious!
+"I wish I was that together," she effused. 
+She effused that she is "so happy doing everything I love to do."  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>effuse.02</pb>
+         <vn>np</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cripple-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="injure badly, disable" type="">  
+      <commentary>
+        Syntax Is: NP1 CRIPPLE NP2
+      </commentary>
+      <examples>
+        The accident crippled him for life.
+        He remembers that he crippled himself.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cripple.01</pb>
+         <vn>orphan-29.7</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="deprive of strength/make useless" type="">
+      <commentary>
+        Syntax Is: NP1 CRIPPLE NP2
+      </commentary>
+      <examples>
+        It has seriously crippled our efforts to spread democracy in a less
+        aggressive fashion that eschews military pre-emption.
+        I'm convinced the left leaning media would have crippled our
+        efforts in WWII.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

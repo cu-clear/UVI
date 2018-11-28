@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="percentage-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a proportion measured in 100ths" type="">
+        <commentary>
+            PERCENTAGE[+quantity][+proportion]
+        </commentary>
+        <examples>
+            The Fed may raise the rates by another quarter percentage point.
+            What percentage of Americans do not own a microwave oven?
+            I'll take those percentages any day. (odds, probability as a percentage measure)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a share of assets" type="">
+        <commentary>
+            PERCENTAGE[+quantity][+share][+asset]
+        </commentary>
+        <examples>
+            The house takes a percentage of each poker hand.
+            Bob is selling his percentage of the company to the other partners.
+            I have only a small percentage of my long term savings in bonds.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

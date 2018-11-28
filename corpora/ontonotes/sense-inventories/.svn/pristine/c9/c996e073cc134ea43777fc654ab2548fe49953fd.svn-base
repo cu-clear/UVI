@@ -1,0 +1,22 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="entrust-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="give control over to, commit to" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] ENTRUST NP2[patient] PP{to NP[recipient]}
+      </commentary>
+      <examples>
+ 	They are entrusting too much of their savings to that real estate deal.
+	The cats have been entrusted to Sally while we are away on vacation.
+	Can we really entrust John with the key to the liquor cabinet?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>entrust.01</pb>
+         <vn>fulfilling-13.4.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

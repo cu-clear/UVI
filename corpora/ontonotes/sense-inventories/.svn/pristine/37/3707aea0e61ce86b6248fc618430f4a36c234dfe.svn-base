@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sneak-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="enter, exit, advance or move stealthily" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SNEAK PP (NP3[location]) 
+        Includes: SNEAK AWAY, SNEAK IN, SNEAK OFF, SNEAK OUT, SNEAK UP
+        NOTE: Always involves an agent moving from point A to point
+        B. Motion and/or location are often coded with a preposition.
+      </commentary>
+      <examples>
+        Don't sneak away, mister, you still have to do the dishes.
+        He sneaked in from behind and jumped out at me.
+        After Mark yelled at him, Fido snuck off to the closet to hide.
+        Why do teenagers find it fun to sneak out at night and go cruising?
+        My boyfriend snuck up on me and surprised me with flowers.
+        They snuck around the flower garden and approached the manor from the rear.
+        Mr. Handley keeps seeing people sneaking around his property.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="sneak_away" version="3.0">1</wn>
+         <wn lemma="sneak_in" version="3.0">1</wn>
+         <wn lemma="sneak_off" version="3.0">1</wn>
+         <wn lemma="sneak_out" version="3.0">1</wn>
+         <wn lemma="sneak_up" version="3.0">1</wn>        
+         <omega></omega><pb>sneak.01</pb>
+         <vn>run-51.3.2-2</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give, include or take surreptitiously" type="">
+      <commentary>
+        Syntax includes: NP1[agent] SNEAK (PP) NP2[object] (PP)
+        Includes: SNEAK IN, SNEAK OFF WITH
+        NOTE: Includes the subsense 'to steal'. The PP always occurs, but
+        can occur before or after NP2 and usually doesn't encode motion in
+        the way it does in sense 1. The emphasis is on NP2 not the
+        motion of NP1 or 2.
+      </commentary>
+      <examples>
+        The editor snuck several racist comments into the column.
+        Dave snuck the keys to me under the table. 
+        'Shh! We snuck in all of Mary's birthday gifts last night!'
+        'Hey! That little girl just snuck off with my wallet!'
+        I paid the man to sneak the cat into the apartment.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="sneak_in" version="3.0">2</wn>
+         <omega></omega><pb>sneak.02</pb>
+         <vn>send-11.1-1,steal-10.5-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

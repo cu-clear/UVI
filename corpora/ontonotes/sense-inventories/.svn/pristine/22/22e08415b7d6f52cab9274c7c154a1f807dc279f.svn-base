@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fluctuate-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="move along a scale" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[theme[abstract]] FLUCTUATE
+        NP1[agent] FLUCTUATE NP2[patient[abstract]]
+        Note: scale may be numerical or not; any movement within
+              a specified range should be included in this sense.
+              'Scale' may not be explicitly mentioned, but understood
+      </commentary>
+      <examples>
+        The market fluctuates.
+        The color on the disc fluctuates back and forth from sharp to pale.
+        The tempo fluctuates back and forth enough to make you dizzy.
+        Of course, climate fluctuated in the past, yet species adapted and flourished.
+        The system, which was on all the time, fluctuated the output too widely.
+        Brennan then fluctuated the adult's food supply to prove the wagging signal was a call for a meal.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>fluctuate.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move back and forth" type="">
+      <commentary>
+        Syntax Is: NP1[theme[concrete]] FLUCTUATE
+        Note: Rare usage, but note that it should imply moving in a 
+         wavelike manner, with no implicit scale.
+      </commentary>
+      <examples>
+        I still can hear the clammer of the chain as it fluctuated in the wind.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

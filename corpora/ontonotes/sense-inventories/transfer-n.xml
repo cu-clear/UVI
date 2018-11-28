@@ -1,0 +1,155 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transfer-n">
+    <commentary>
+        12jan07  updated to wn 2.1, added features. ahouston
+        23jan07 - combined senses 1,3. ahouston
+        23jan07 - added senses 7,8, added examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the relocation or conveyance of someone/something" type="Event">
+        <commentary>
+	    TRANSFER[+event][+action][+movement][+relocation][+entity][+concrete/+abstract]
+	    the act of transporting something from one location to another
+	    </commentary>
+        <examples>
+            A patient had died after transfer from the County Hospital to Saint Mary's.
+            This trade policy will help expedite the transfer of wealth to poorer nations.  (ongoing process)
+            John performs a nightly transfer of all his files to a backup tape.
+            The transfer of the music from vinyl record to magnetic tape eliminated much of the background noise.
+            Mary asked her boss for a transfer to the west coast. (the act of relocating her there)
+            That football player's transfer to the Rangers cost a million dollars. (trading the player implies relocating him)
+            The banker transferred some of his investment earnings to a secret offshore account.  (relocated the asset)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/>
+            <pb>transfer.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="person" type="">
+        <commentary>
+            TRANSFER[+entity][+person][+vocational][+relocation][+employment/+studies]
+            someone who transfers or is transferred from one position to another
+        </commentary>
+        <examples>
+            The best student was a transfer from LSU.
+            The number of transfers from the community colleges to state universities is up this year.
+            Bob is a transfer in sales from our Dallas office.
+            These soldiers are transfers from the 82 Airborne. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+	    TRANSFER[+event]
+	    
+	    </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="ticket" type="">
+        <commentary>
+            TRANSFER[+entity][+artifact][+document][+ticket][+transportation][+change]
+            a ticket that allows a passenger to change conveyance
+        </commentary>
+        <examples>
+            I've lost my transfer somewhere in my briefcase.
+            You'll need a transfer to change to the 79 bus.
+            That stack of pink tickets are commuter train transfers.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="carry-over skill, a generalization of knowledge" type="Event">
+        <commentary>
+	    TRANSFER[+event][+process][+cognitive][+generalization]
+	    application of a skill learned in one situation to a different but similar situation
+	    </commentary>
+        <examples>
+            The transfer of her receptionist skills to waitressing went smoothly.
+            Previous experience with a microphone led to negative transfer for the young singer studying operatic techniques. (note: implies an impedance to acquiring the new skills)
+            The therapist helped John to explore the transfer of his self-doubts to his ways of interacting with other people.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="conferral of property, financial or legal transaction" type="Event">
+        <commentary>
+            TRANSFER[+event][+transaction][+legal][+conferral][+authority/+ownership]
+            changing ownership
+            Note: refers to a legal event of bestowing ownership or authority, not a -relocation- of an asset (Sense 1)
+        </commentary>
+        <examples>
+            It took several weeks for the transfer of the title of the house to be completed.
+            The transfer of power usually occurs peacefully in democracies. (a legal right conferred on a new person)
+            The lawyer set up the transfer of power of attorney from Bob to Bob's brother.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="graphic image that can be rubbed off on fabric" type="">
+        <commentary>
+            TRANSFER[+entity][+artifact][+image][+graphics][+applicable]
+            Note: refers to physical appliques or paper designs.
+        </commentary>
+        <examples>
+            The tourist shops sell T-shirts with iron-on transfers.
+            The children applied decorative paper transfers to the colored Easter eggs.
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="location where someone or something changes mode, e.g., transportation" type="">
+        <commentary>
+            TRANSFER[+location][+point][+exchange][+transportation[+passenger]/+conversion/[+power]]
+        </commentary>
+        <examples>
+            During rush hour, the central transfer station processes thousands of rail commuters.
+            The rebels succeeded in blowing up an important transfer point for the electricity grid of the city.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!--  -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

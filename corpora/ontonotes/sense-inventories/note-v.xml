@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="note-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="observe, perceive" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         They noted that it was a fine day to go sailing.
+         She noted that someone was following her.
+         Take note of this chemical reaction.
+         He noted a small opening in the wall where light shone through.
+         Please note that tomorrow you must use the back entrance to the building.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <omega/><pb>note.02</pb>
+         <vn>sight-30.2</vn>
+         <fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a written note of something" type="">
+      <commentary>
+        Note: CAREFUL:
+        The text must indicate in some way that writing is involved
+        in order for you to select this sense! Ex: &quot;She noted everything he said,&quot; should 
+        be tagged as sense 1; &quot;She noted everything he said *in her diary*&quot; would be 
+        tagged as sense 2.
+      </commentary>
+      <examples>
+         She noted everything he said in her small diary.
+         You'd better note this down unless your memory is really good!
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>note.01</pb>
+         <vn>say-37.7-1</vn>
+         <fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

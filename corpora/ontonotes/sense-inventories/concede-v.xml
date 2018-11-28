@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="concede-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="admit or acknowledge a proposition" type="">  
+      <commentary>
+       Syntax Is:
+        NP1[agent] CONCEDE NP2
+         Note: usually implies a spoken or written statement by the subject.
+      </commentary>
+      <examples>
+	He has conceded that his suspicions have proved groundless.
+	She wouldn't concede a single point during the debate.
+	Bill conceded he had taken on more than he could deliver.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>concede.01</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="surrender or relinquish something" type="">
+      <commentary>
+       Syntax Includes:	
+        NP1[agent] CONCEDE NP2[goal] (PP{P NP[recipient]})
+        NP1[agent] CONCEDE NP2[goal] (PP{P NP[instrument]})
+        NP1[agent] CONCEDE NP2[patient] (PP{P NP[recipient]})
+        NP1[agent] CONCEDE NP2[patient] (PP{P NP[instrument]})
+      </commentary>
+      <examples>
+	The populace has conceded yet more rights under the dictatorial regime.
+	He has just conceded the governor's race to his opponent.
+	John had to swerve his bicycle into the ditch because the car wouldn't concede an inch of the road.
+	The coach conceded three safeties rather than kick into the wind. (football)
+	Over the past three years the firm has conceded a lot of ground to its competitors.
+	He was forced to concede the gold medal when the committee determined he had used drugs.
+	Management is hoping that labor will concede a shorter work week in the negotiations.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>future_having-13.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

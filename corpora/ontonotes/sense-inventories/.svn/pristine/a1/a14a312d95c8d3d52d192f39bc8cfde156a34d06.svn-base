@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chafe-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become warm, sore or irritated by rubbing" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[theme[inanimate]] CHAFE (NP2[patient[concrete]])
+        NP1[agent[animate]] CHAFE NP2[patient[concrete]] (example 3)
+      </commentary>
+      <examples>
+        Make sure your dress isn't beaded under your arms or it will chafe.
+        Her rings chafed her skin.
+        He chafed his hands before the fire.
+        Dom hated wearing jockstraps because of how much they chafed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>chafe.01</pb>
+         <vn>hurt-40.8.3,marvel-31.3-1,marvel-31.3-8,touch-20-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) become annoyed, disturbed or angry" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[stimulus] CHAFE NP2[experiencer]
+        NOTE: This is a metaphorical subsense of sense 1.
+      </commentary>
+      <examples>
+        The new guy really chafes me the wrong way.
+        The constant buzzing of the flies chafed at everyone in the party.
+        The teasing chafed his younger brother Gangguan.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>chafe.01</pb>
+         <vn>marvel-31.3-1,marvel-31.3-8</vn><fn>Emotion_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

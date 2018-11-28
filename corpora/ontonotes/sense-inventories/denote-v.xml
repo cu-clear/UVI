@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="denote-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be a sign or indication of; have as a meaning." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The gene sequences denote the lineage of the breed.
+      Her smile denoted that she agreed.
+      'multi-' denotes 'many.'
+      In semiotics, the lingustic sign is meant to denote. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>denote.01</pb>
+         <vn>indicate-78</vn><fn>Linguistic_meaning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make known; make an announcement." type="">
+      <commentary>
+      Syntax Is: NP1[agent[animate]] DENOTE NP2[proposition] 
+      </commentary>
+      <examples>
+      She denoted her feelings clearly.
+      The rabbit denoted her satisfaction with soft grunts.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

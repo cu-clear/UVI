@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="feel-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="experience, sense, emote" type="">
+      <commentary>
+         Syntax Includes:
+         NP1[experiencer] FEEL NP2[stimulus]
+         NP1[experiencer] FEEL ADVP 
+         Includes: FEEL FOR, FEEL LIKE, FEEL LIKE A MILLION (DOLLARS)
+      </commentary>
+      <examples>
+         She felt resentful.
+         He felt the wind in his face.
+         Are you feeling better today?
+         She felt small and insignificant.
+         They never seemed to feel the effects of inflation.
+         The sheets feel soft.
+         He wasn't feeling comfortable in his new job.
+         It feels wonderful to be on vacation!
+         She really feels for stray animals.
+         I feel like a cold beer now.
+         After that nap, I felt like a million dollars!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5,6,7,12</wn>
+         <wn lemma="feel_for" version="3.0">1</wn>
+         <wn lemma="feel_like" version="3.0">1</wn>
+         <wn lemma="feel_like_a_million" version="3.0">1</wn>
+         <wn lemma="feel_like_a_million_dollars" version="3.0">1</wn>
+         <omega/><pb>feel.01</pb>
+         <vn>marvel-31.3-3,see-30.1-1,stimulus_subject-30.4</vn><fn>Perception_experience,Feeling,Appearance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="touch,grope" type="">
+      <commentary>
+         Syntax Includes:
+         NP1[agent] FEEL NP2[patient]
+         NP1[agent] FEEL PP{P NP[location]} (PP{for NP[patient]})  
+         Includes: FEEL UP
+      </commentary>
+      <examples>
+         She felt under her chair for the earring.
+         I like the way this cashmere feels to the touch.
+         The runner felt her pulse.
+         He couldn't feel his way very well through the dark unfamiliar room.
+         He got arrested for feeling up girls in the theater.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,9,10,11,13</wn>
+         <omega/><pb>feel.03,feel.04</pb>
+         <vn>hunt-35.1,see-30.1-1</vn><fn>Seeking,Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="find, conclude" type="">
+      <commentary>
+         Syntax Is: NP1 FEEL SCOMP
+      </commentary>
+      <examples>
+         I felt the movie did a bad job of developing the storyline.
+         She is feeling that her son is too young to play football.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>feel.02,feel.05</pb>
+         <vn>conjecture-29.5-1,consider-29.9-2</vn><fn>Opinion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="FEEL OUT: try to learn someone's intentions" type="">
+      <commentary>
+         Is: FEEL OUT
+         Syntax Is: NP1[agent] FEEL OUT NP2[patient]
+      </commentary>
+      <examples>
+        We need to feel out the new CEO to see if he's on the laborers' side.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="feel_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,clarklm" sample_score="-"/>
+</inventory>

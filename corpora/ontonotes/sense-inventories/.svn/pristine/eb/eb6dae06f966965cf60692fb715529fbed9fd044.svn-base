@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="occasion-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a specific time period, happening" type="">
+        <commentary>
+            OCCASION[+time][+period][+specific]
+            Note: refers to some point in time
+        </commentary>
+        <examples>
+            On at least one occasion we worked all night to finish a project on time.
+            The company gave him a gold watch on the occasion of his retirement. (a specific date, perhaps also Sense 2, if a party is implied)
+            During the crisis John rose to the occasion and took a leadership role.
+            On occasion the state was asked to intervene.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a social affair or function" type="">
+        <commentary>
+            OCCASION[+event][+social][+function]
+            Note: usually implies multiple participants at a social event
+        </commentary>
+        <examples>
+            The drugstore sells cards for all occasions.
+            Mary wore her black cocktail dress on special occasions.
+            These formal occasions tend to go on too long.
+            His funeral will be a somber occasion.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an opportunity to do something" type="">
+        <commentary>
+            OCCASION[+state][+situation][+opportunity][+action]
+            Note: occasion is -not- a cause, but a chance to do something
+            Note: no agent/actor supplies a cause
+        </commentary>
+        <examples>
+            There was never an occasion to talk to him in person.
+            Elections are an occasion for registering one's protest vote. 
+            You may not get another occasion to see such a spectacular meteor shower.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the cause or reason of something, inciting event" type="">
+        <commentary>
+            OCCASION[+relation][+role][+cause]
+            [+state][+inciting]
+            Note: 'occasion' serves as a cause leading to a consequence
+            Note: Agent/Actor give/have OCCASION{+cause} (INFINITIVE NP){+consequence}
+        </commentary>
+        <examples>
+            I've never had occasion to complain about their service until now.
+            The insulting remark gave the ambassador occasion to slap the man's cheek.
+            The servant never provided them with an occasion to distrust him.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

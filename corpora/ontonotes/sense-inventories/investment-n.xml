@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="investment-n">
+    <commentary>
+        23Apr08 added features. updated to wn2.1, added sense, modified definitions, examples  ahouston
+    </commentary>
+    <sense group="1" n="1" name="things purchased which are considered to have lasting value" type="">
+        <commentary>
+            INVESTMENT[+artifact][+purchased][+with_value][+lasting]
+            Note: refers to the thing bought, not the activity of spending money
+            Note: X's investment BE Y
+        </commentary>
+        <examples>
+            A used car is rarely a good investment.
+            A couple of beautiful well-made pieces are a sound investment  for any woman's wardrobe.
+            His obscure art collection has become a lucrative investment after all these years.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the act of devoting time and energy to something" type="Event">
+        <commentary>
+            INVESTMENT[+event][+commitment][+of_effort][+for_objective]
+        </commentary>
+        <examples>
+            Providing our children with solid education is a meaningful investment in their future.
+            Mary's investment of time and energy on behalf of the town's conservation areas is admirable.
+            John quit the club because it became too much of investment of his leisure time.
+            The city is planning a major investment in the repair and improvement of infrastructure.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the activity of investing money for profit" type="Event">
+        <commentary>
+            INVESTMENT[+event][+commitment][+of_money][+for_profit]
+            [+quantity][+money][+committed]
+            Note: X's investment of Y for Z   -&gt; X invested Y to buy Z
+        </commentary>
+        <examples>
+            He has made a lot of money through his investments in overseas hedge funds.
+            Investment in the high tech sector right now could be risky with the state of the economy.
+            They lost a $50,000 investment in that real estate deal.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>investment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

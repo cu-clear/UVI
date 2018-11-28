@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stake-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Put at risk." type="">  
+      <commentary>
+        Syntax Is: NP1 STAKE NP2 on NP3
+      </commentary>
+      <examples>
+        He staked his eternal destiny solely on the right-standing with God
+        that Jesus offers everyone.
+        He staked his reputation on school finance reform.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stake.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Place a bet." type="">
+      <commentary>
+        Syntax Is: NP1 STAKE on NP2
+      </commentary>
+      <examples>
+        Those people who exaggerate all this fuss are staking on the lame
+        horse.
+        He lost his money, which he staked on a horse race.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stake.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Mark (as if) with a stake; make a claim to." type="">
+      <commentary>
+        Includes: STAKE OUT
+        Syntax Includes: NP1[agent] STAKE out NP2[patient[inanimate]]
+                         NP1[agent] STAKE NP2
+      </commentary>
+      <examples>
+        Griffey has staked out his own path.
+        Beenie Man has staked out his territory.
+        He staked a claim to his father's fortune.
+        Microsoft has staked a major claim in the video gaming industry.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stake.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Physically fasten to a stake." type="">
+      <commentary>
+        NP1[agent[human]] STAKE NP2[animate]
+      </commentary>
+      <examples>
+        Lewis Kirk staked the Mountain Goat.
+        A farmer staked his goat at the corner of the barn.
+        He staked the child to the ground.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Impale; kill with a stake." type="">
+      <commentary>
+        NP1[agent] STAKE NP2[patient]
+      </commentary>
+      <examples>
+        She did a back flip and staked an unsuspecting vampire.
+        We've shot him, stabbed him, clubbed him, sprayed him with holy
+        water, staked him through the heart, and STILL he lives!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm,corvey" sample_score="-"/>  
+</inventory>

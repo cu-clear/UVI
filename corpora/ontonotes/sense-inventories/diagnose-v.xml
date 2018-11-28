@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="diagnose-v">    
+   <commentary>
+   Duplicate sense assignments for WN sense 1  
+   </commentary>
+   <sense group="1" n="1" name="Determine the nature of a non-medical problem." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] DIAGNOSE NP2[patient[inanimate]]
+      NP1[agent] DIAGNOSE NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      We must diagnose the situation carefully or there will be political
+      fallout.
+      He diagnosed the computer problem correctly.
+      Don't diagnose blame without looking at the evidence! 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Determine the nature of a medical or
+         psychological  problem." type="">
+      <commentary>
+      Syntax Is: NP1[agent] DIAGNOSE NP2[patient[animate]]
+      </commentary>
+      <examples>
+      John diagnosed Mary with acute violent tendencies.
+      The vet diagnosed the dog with cancer.
+      It's hard to diagnose a patient presenting these symptoms.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>diagnose.01</pb>
+         <vn>characterize-29.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

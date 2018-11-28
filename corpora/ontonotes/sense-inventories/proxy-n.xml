@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="proxy-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a person authorized to represent another, a stand_in" type="">
+        <commentary>
+            PROXY[+person][+representative][+authorized][+personal]
+            [+relation][+role][+stand_in][+person]
+        </commentary>
+        <examples>
+            John will be a proxy for several shareholders at the next meeting.
+            I designated Mary as my proxy at the homeowners meeting last fall.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a document authorizing another to vote on one's behalf" type="">
+        <commentary>
+            PROXY[+document][+authorization][+vote][+stand_in]
+        </commentary>
+        <examples>
+            The proxies must be sent in by Friday in order to be valid.
+            Sally explained the wording on the proxy to her mother.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="having power-of-attorney to do something" type="">
+        <commentary>
+            PROXY[+state][+authority][+power_of_attorney]
+        </commentary>
+        <examples>
+            These voters will register by proxy.
+            Mary voted by proxy at her condominium because she was out of town then.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a quantity that is a stand_in value for another value" type="">
+        <commentary>
+            PROXY[+relation][+role][+stand_in][+value][+quantity]
+        </commentary>
+        <examples>
+            The study used a U.S. measure of wealth as a proxy for a worldwide measure of it.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

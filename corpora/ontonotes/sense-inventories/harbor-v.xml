@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="harbor-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="maintain a theory, thoughts or feelings" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[human]] HARBOR NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        Somewhere he must always have harbored the hope that he would
+        hear from her.
+        I harbored a lot of resentment as a teenager and as a young adult.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>harbor.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(secretly) give shelter to; contain" type="">
+      <commentary>
+        Syntax Is: NP1[agent[concrete]] HARBOR NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        Researchers have found the human gut to be a major reservoir
+        harboring the HIV virus.
+        Did you know that you are harboring fugitives?
+        Any rental tenant who is harboring a household pet must pay a 300
+        dollar deposit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>harbor.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

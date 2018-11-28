@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="thrill-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="personal sensation of intense, pleasurable excitement" type="Event">
+        <commentary>
+            THRILL[+state][+personal][+sensation][+excitement][+intense][+pleasurable]
+            Note: refers to the personal sensations of an individual - X[+recipient] HAS THRILL
+        </commentary>
+        <examples>
+            A thrill of excitement rushed through him as he took the controls of the fighter jet.
+            The film describes a woman who gets her thrills from dating potentially dangerous strangers.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>thrill.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an external event which is exhilarating" type="Event">
+        <commentary>
+            THRILL[+event][+external][+experience][+exhilarating]
+            Note: refers to event causing sensation - X{+agent} BE THRILL (for Y{+recipient})
+        </commentary>
+        <examples>
+            The astronaut said the thrills of space travel far outweighed the risks.
+            I don't think the roller coaster will be enough of a thrill for these teenagers. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>thrill.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a cardiac resonance detected via a stethoscope" type="">
+        <commentary>
+            THRILL[+event][+physiological][+cardiac][+resonance][+detected][+by_stethoscope]
+            Note: medical usage
+        </commentary>
+        <examples>
+            A thrill is a palpable vibration that is associated with a hear murmur.
+            The thrill is communicated through the chest wall.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

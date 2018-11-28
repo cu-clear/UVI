@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="boost-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="providing encouragement, positive feedback" type="">
+        <commentary>
+            BOOST[+role][+event][+aid][+encouragement]
+        </commentary>
+        <examples>
+            Getting the promotion has given John a real boost.
+            The tax cut gave the economy an additional boost.
+            We needed a boost from the long, gray dreary winter. (something cheerful)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a rise or increase, e.g., in cost or production" type="Event">
+        <commentary>
+            BOOST[+quantity][+increase][+rise]
+        </commentary>
+        <examples>
+            The boost in prices at the gas pump has been keenly felt by consumers.
+            New farming techniques have led to a boost in agricultural output in recent decades.
+            The movie prompted a sudden boost in the sale of pinot noir.
+            The candidate got a boost in the polls last week after the debate.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>boost.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="push something or somebody up" type="Event">
+        <commentary>
+            BOOST[+event][+physical][+push]
+        </commentary>
+        <examples>
+            The second-stage rocket gave the spaceship a boost out of earth's gravity.
+            John gave Mary a boost over the fence.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>boost.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>boost.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

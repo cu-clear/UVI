@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="drift-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be carried along by a current (as if) by air or water" type="">
+      <commentary>
+        NOTE: Includes metaphorical uses where NP1 is [abstract] and NP2
+        is [location AND abstract] as in sentences 3 and 5.
+       Syntax Includes: 
+        NP1[agent] DRIFT PP (NP2[location])
+        NP1[theme] DRIFT PP (NP2[location])
+        NP1[agent] DRIFT NP2 (PP NP[location])
+      </commentary>
+      <examples>
+        The boat drifted into the shallows where they were attacked and killed.
+        WED scientists expressed some surprise that live pollen drifted as far as it did.
+        The soft strains of taps drifted among the thousands of glistening headstones.
+        The main chore was to drift the logs down river a dozen or two at a
+        time.
+        A new idea drifted in from nowhere.
+        He drifted the cattle slowly up the long hill to the top of the
+        divide.
+        They drifted the boats downstream.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,7,8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>modes_of_being_with_motion-47.3,roll-51.3.1,run-51.3.2</vn>
+         <fn>Motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move randomly or without guidance; be
+         subject to fluctuations, as in finance." type="">
+      <commentary>
+        NOTE: The location can be metaphorical.
+       Syntax Includes:
+        NP1[patient[animate]] DRIFT PP NP2[location] 
+        NP1[patient] DRIFT PP NP2[location]
+      </commentary>
+      <examples>
+        He drifted across the country in the early '60s before ending up in the hills of North Carolina.
+        Friday arrivals drifted among old friends.
+        He drifted farther and farther from his familial and cultural roots.
+        Oil and gasoline futures prices drifted in a narrow range on Tuesday in lethargic trading.
+        Stocks drifted under previous levels. 
+        From there our conversation drifted to contemporary pop music and lyrics.
+        Schools have drifted away from original values.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4,5,6,9</wn>
+         <omega></omega><pb>drift.01</pb>
+         <vn>modes_of_being_with_motion-47.3,roll-51.3.1,run-51.3.2</vn>
+         <fn>Motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be piled up in banks or heaps by the force of wind or a current" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The snow drifted ever higher.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="lose personal contact over time, two entities moving apart" type="">
+      <commentary>
+        Includes: DRIFT APART; DRIFT AWAY
+      </commentary>
+      <examples>
+        Have your old friends drifted away?
+        The team drifted apart after graduation.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="drift_apart" version="3.0">1</wn>
+         <wn lemma="drift_away" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="DRIFT OFF: fall asleep" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He usually drifts off during the sermon.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="drift_off" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>change_bodily_state-40.8.4</vn>
+         <fn>Fall_asleep</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,trevorjb,clarklm,corvey" sample_score="-"/>
+</inventory>

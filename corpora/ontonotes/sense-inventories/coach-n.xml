@@ -1,0 +1,123 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="coach-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a trainer for an athletic team" type="">
+        <commentary>
+            COACH[+person][+trainer][+team][+sports]
+            Note: implies the coach assists a group of players, as a team
+        </commentary>
+        <examples>
+            The basketball coach at the high school also teaches algebra.
+            They replaced their head coach this season after losing the playoffs last year.
+            When he retired from professional baseball he became a pitching coach for the Cardinals.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a trainer or tutor for an individual" type="">
+        <commentary>
+            COACH[+person][+trainer][+individual][+school/+arts/+sports]
+            Note: implies a one-on-one tutoring in different endeavors, not just sports.
+        </commentary>
+        <examples>
+            The director decided that the actress needed a drama coach.
+            Most Broadway singers work with vocal coaches to develop their voices and repertoire. 
+            Johnny's reading coach has really helped him advance his literary skills.
+            Mary has started dating her tennis coach at the country club.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a railway car that carries passengers" type="">
+        <commentary>
+            COACH[+vehicle][+passenger][+railway]
+        </commentary>
+        <examples>
+            Wealthy people traveled by private rail coach in the 1920s.
+            The coach cars don't provide beds on trains, only the sleeping cars have those.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a horse-drawn closed passenger carriage" type="">
+        <commentary>
+            COACH[+vehicle][+passenger][+carriage][+horse]
+        </commentary>
+        <examples>
+            Cinderella had to leave the ball before her coach turned back into a pumpkin.
+            This road is an old stage coach route used during the early nineteenth century.
+            The Queen's coach was drawn by four prancing chestnut horses.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a large passenger bus, often used for long distances" type="">
+        <commentary>
+            COACH[+vehicle][+passenger][+bus]
+        </commentary>
+        <examples>
+            The tourists traveled to the ruins by motor coach. 
+            It's not a second-class transit bus, it's a first-class coach with air conditioning. 
+            The bus company provides a coach service between the two cities. 
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="regular class of travel, not first class" type="">
+        <commentary>
+            COACH[+quality][+travel][+status][+ordinary]
+        </commentary>
+        <examples>
+            The passengers in coach are to use the lavatories at the back of the plane.
+            Mary got an upgrade from coach to business on her last flight from Tokyo.
+            Coach fares are going up this summer.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

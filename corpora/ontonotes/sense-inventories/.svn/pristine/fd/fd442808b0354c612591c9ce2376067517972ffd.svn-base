@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recall-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="request by a manufacturer for the return of defective merchandise" type="Event">
+        <commentary>
+            RECALL[+event][+speech_act][+request][+by_manufacturer][+for_return][+of_merchandise][+defective]
+        </commentary>
+        <examples>
+            The tire company is issuing a recall on three types of radial tires made last year.
+            There was a recall of canned pet food made in China.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>recall.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the ordered withdrawal of personnel by an authority" type="Event">
+        <commentary>
+            RECALL[+event][+speech_act][+order][+by_authority][+for_withdrawal][+of_personnel]
+        </commentary>
+        <examples>
+            The recall of all diplomats from their embassy came as a surprise.
+            The minister has advised a recall of our ambassador in protest of this incident.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a bugle signal for troops to return to base" type="Event">
+        <commentary>
+            RECALL[+event][+speech_act][+order][+bugle_signal][+for_troops][+to_return][+to_base]
+        </commentary>
+        <examples>
+            The bugler sounded the recall and the cavalry turned around and headed back to the fort.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="mental recollection, ability to remember" type="Event">
+        <commentary>
+            RECALL[+state][+mental][+recollection]
+        </commentary>
+        <examples>
+            The recall of names of places and people is difficult for these stroke patients.
+            John claims he has no recall of the events at the party last night.
+            She has amazing recall when it comes to facts and figures.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>recall.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the legal removal of an official by petition" type="Event">
+        <commentary>
+            RECALL[+event][+removal][+legal][+from_office][+by_petition]
+        </commentary>
+        <examples>
+            He signed the petition for the recall of the state's governor.
+            The scandal resulted in the recall of the town's mayor and treasurer.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the proportion of all relevant documents that are actually returned by a given query" type="Event">
+        <commentary>
+            RECALL[+quantity][+measure][+proportion][+documents][+relevant][+retrieved][+by_query]
+        </commentary>
+        <examples>
+            The recall of our information retrieval system on this data source was about 80 percent.
+            Although recall was improved by John's refinement of the retrieval algorithm, the precision was slightly degraded.
+        </examples>
+        <mappings>
+            <wn version="MAC">2b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

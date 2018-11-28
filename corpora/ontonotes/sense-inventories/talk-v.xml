@@ -1,0 +1,157 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="talk-v">    
+   <commentary>
+        Includes: VPC and idioms for talk.
+        Note: VPC talk_back does not map to a WordNet sense.
+   </commentary>
+   <sense group="1" n="1" name="to converse, speak, or use language" type="">  
+      <commentary>
+	Includes: talk_about, talk_back, talk_of, talk_over, talk_shop,
+	talk_turkey 
+      </commentary>
+      <examples> 
+        They are talking to several investment firms.
+        We need to talk.
+        The children were told not to talk to each other during the test.
+        We cannot talk about that classified information to anyone without a security clearance.
+        I've never heard him talk about the details of his divorce.
+	They talked about Dante's Inferno in class today.
+        Before long, your computer will be able to talk back to you.
+        If you're in a fantasy world as a preschooler, everything would talk back to you.
+	They talked of the old days back in Ireland.
+	Let's sit down and talk over how we are going to approach this issue.
+	John and Bill never stop talking shop!
+	Bob sat down with his team to talk turkey about missing the deadline.
+        Mary's baby hasn't started talking yet.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="talk_about" version="3.0">1,2</wn>
+         <wn lemma="talk_of" version="3.0">1</wn>
+         <wn lemma="talk_over" version="3.0">1</wn>
+         <wn lemma="talk_shop" version="3.0">1</wn>
+         <wn lemma="talk_turkey" version="3.0">1</wn>
+         <omega/><pb>talk.01</pb>
+         <vn>talk-37.5</vn>
+         <fn>Chatting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to spill the beans" type="">  
+      <commentary>
+        Syntax is: NP1[agent] TALK (PP) (PP[recipient])
+        includes TALK ABOUT (when not refering to a specific conversation, discourse, or lecture)
+        Note: it implies a subject matter or information that was disclosed to someone.
+        Note: differs from sense 4 in that it can be brief, informal, secretive
+      </commentary>
+      <examples>
+        Be careful what you say around here because the secretary does talk. 
+        The mob put a hit out on the bookie for talking to the police.
+        There are speculations that Johnny may sign a 3-year contract with the Mets, but so far he's not talking.
+       </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <omega/><pb>talk.01</pb>
+         <vn>talk-37.5</vn>
+         <fn>Chatting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to lecture formally to an audience" type="">  
+      <commentary>
+        Syntax is: NP1[agent] TALK[duration] (PP) (PP[recipient])
+        Note: differs from sense 2 because implies a formal public discourse of some length.
+      </commentary>
+      <examples>
+        John will talk about recent theories of dark energy at the Physics Symposium.
+        Bob gets nervous when talking in front of a large audience.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>talk.01</pb>
+         <vn>lecture-37.11-1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="to persuade, convince or influence someone" type="">  
+      <commentary>
+        Includes: talk_into, talk_out_of
+        Syntax is: NP1[agent] TALK NP2[patient] INTO/OUT_OF NP[goal]
+      </commentary>
+      <examples>
+        John talked me into joining his crew for the Bermuda race.
+        We couldn't talk them out of painting their house bright orange.
+        They are trying to talk him out of resigning his post.
+        I was excited for the bike ride, but the stormy weather talked me out of it.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="talk_into" version="3.0">1</wn>
+         <wn lemma="talk_out_of" version="3.0">1</wn>
+         <omega/><pb>talk.02</pb>
+         <vn>NM</vn>
+         <fn>Talking_into</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="to belittle or condescend towards" type="">  
+      <commentary>
+       	Syntax is: NP1[agent] TALK_DOWN PP[recipient]
+      </commentary>
+      <examples>
+        Don't talk down to the cleaning lady.
+	The students dislike the way the professor talks down to them.
+	She didn't mean to talk down to them.
+      </examples>
+      <mappings>
+         <wn lemma="talk_down" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="to answer impertinently" type="">
+      <commentary>
+        Syntax is: NP1[agent] TALK_BACK PP[recipient]
+        NOTE: this sense does not refer to simple responses (see sense 3);
+        if an example is ambiguous, and you are not confident that the specific
+        inferences of rebellion and rudeness are there, tag it with sense 3.
+      </commentary>
+      <examples>
+        It's dishonorable to talk back to a cop.
+        Don't talk back to your mother!
+        Donny Darko is a smartass high school student with a tendency to talk back to his teachers.
+        In a totalitarian system, you aren't allowed to talk back to the government.
+      </examples>
+      <mappings>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="direct or control to the ground" type="">  
+      <commentary>
+       	Syntax is: NP1[agent] TALK_DOWN NP2[patient]
+      </commentary>
+      <examples>
+        Air traffic control had to talk the plane down through the fog during an emergency landing.
+	The control tower talked down the plane whose pilot had fallen ill.
+      </examples>
+      <mappings>
+         <wn lemma="talk_down" version="3.0">3</wn>
+         <omega/><pb>talk.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="8" name="negotiate the terms of an agreement" type="">  
+      <commentary>
+       	Syntax is: NP1[actor] TALK_TERMS (PP)[goal]
+      </commentary>
+      <examples>
+        Are they talking terms about this house?
+	The two sides are expected to talk terms tomorrow about a settlement.
+      </examples>
+      <mappings>
+         <wn lemma="talk_terms" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+       <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>  
+</inventory>

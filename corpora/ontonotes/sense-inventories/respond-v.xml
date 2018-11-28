@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="respond-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="act or do something in reaction to something" type="">  
+      <commentary>
+        Note: Non verbal/oral reaction to something. Exhibit reaction, change in behavior
+      </commentary>
+      <examples>
+        The press responded with fierce professionalism. 
+        Many nonprofit organizations responded to the disaster.
+        How did she respond to the news?
+        The patient has responded rapid to the treatment.
+        It remains to be seen whether the cancer will respond to treatment.
+        He responded by marching off and slamming the door behind him. 
+        The board has ten business days to respond.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>   
+         <omega/><pb>respond.01</pb>
+         <fn>Response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="say or write something in reply" type="">
+      <commentary>
+        Note: Verbal/oral response to something. Includes quotative response.
+        NOTE: This is a subset of sense 1, with the specific inference
+        of speech or writing. If ambiguous (could be speech/writing, or not), put in
+        sense 1 (see last example of sense 1).
+      </commentary>
+      <examples>
+        Well Jack has responded to that letter with two letters of his own.
+        I asked her what the time was, but she didn't respond.
+        This software reduces the time callers spend waiting for someone to respond to them.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>respond.01</pb>
+         <fn>Communication_response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg, duffielc,brownsw" sample_score="-"/>  
+</inventory>

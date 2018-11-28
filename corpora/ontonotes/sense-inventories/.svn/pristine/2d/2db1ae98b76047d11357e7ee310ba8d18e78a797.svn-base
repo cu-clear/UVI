@@ -1,0 +1,101 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="protection-n">
+    <commentary>
+        regrouped the original senses, added examples, commentary, revised definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="shelter, covering or safeguard" type="Event">
+        <commentary>
+            PROTECTION[+entity][+shelter][+covering/+safeguard]
+            Note: occurs naturally in the plural.
+        </commentary>
+        <examples>
+            Wax provided protection for the floors.
+            This product provides excellent protection from sunburn.
+            Bob told his son to use protection during sex.
+            Insurance provided protection against loss of wages due to illness.
+            Banks use hedge funds and other derivatives as protections against their exposure in stocks and bonds.
+            The umbrella gave them protection from the downpour.
+            The backing on this dog bed will give your pet a sense of protection.
+        </examples>
+        <mappings>
+            <wn version="2.0">2,3,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="act of guarding, defending or securing" type="Event">
+        <commentary>
+	    PROTECTION[+event][+activity][+guarding]
+	    Note: There is an implied agent of this nominalization of the verb 'protect'
+	    Note: does not normally occur in the plural
+	    </commentary>
+        <examples>
+            The witnesses demanded police protection.
+            The protection of its young is a basic instinct of animals.
+            The celebrity is only seeking protection of his privacy.
+            The mob gave him protection in exchange for a cut of his drug trade profits.
+            The Bill of Rights was created for the protection of our civil liberties.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="guidance, sponsorship or endorsement" type="Event">
+        <commentary>
+            PROTECTION[+state][+sponsorship]
+        </commentary>
+        <examples>
+            The young violinist's talent blossomed under the protection of his devoted teacher.
+            The town's conservation lands are well-maintained through the protection of several local garden clubs.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a system of tariffs advantageous to domestic producers" type="Event">
+        <commentary>
+            PROTECTION[+barrier][+trade][+tariff/+quota]
+        </commentary>
+        <examples>
+            He made trade protection a plank in the party platform.
+            These protections of the domestic steel industry may result in a trade war.
+            Their agricultural protections were viewed as unfair in many parts of the world.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="extorted money" type="">
+        <commentary>
+            PROTECTION[+tribute][+extortion][+fee]
+            tribute - 
+            payment extorted by gangsters on the threat of violence
+        </commentary>
+        <examples>
+            Every store in the neighborhood had to pay him protection.
+            They smashed up Joe's liquor store because he refused to pay protection to the mob.
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett hertlerb" sample_score=""/>
+</inventory>

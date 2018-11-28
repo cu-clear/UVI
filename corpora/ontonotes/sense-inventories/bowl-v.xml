@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bowl-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="engage in the sport of bowling" type="">
+      <commentary>
+      Syntax Is:  NP1 BOWL
+      </commentary>
+      <examples>
+        My parents love to bowl.
+        Ray bowls left-handed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>bowl.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="score or roll a ball as part of a game" type="">
+      <commentary>
+        NP1[agent] BOWL NP2
+      </commentary>
+      <examples>
+        Richie bowled a 165 last Friday.
+        Wilson bowled his stock leg break the entire game.
+        He bowled 34 overs in the cricket match.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="knock over" type="">
+      <commentary>
+        Is: BOWL OVER
+      </commentary>
+      <examples>
+        An ancient impact may have bowled the moon over.
+        He came running around the corner and bowled an old lady right over.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bowl_over" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>run-51.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="astonish" type="">
+      <commentary>
+        Is: BOWL OVER
+      </commentary>
+      <examples>
+        The change in her just bowled me over!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bowl_over" version="3.0">2</wn>
+         <omega></omega><pb>bowl.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

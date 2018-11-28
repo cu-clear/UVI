@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hive-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="store in a hive like bees" type="">  
+      <commentary>
+Includes the VPC hive away, hive up
+      </commentary>
+      <examples>
+The bees hived up that honey.
+I had hived away a collection of empty plastic water bottles. 
+Always check your air cleaner if it's been hived away.
+The recordings are hived away for improper use.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="hive_away" version="3.0">1</wn>
+         <wn lemma="hive_up" version="3.0">1</wn>
+         <omega></omega><pb>hive.01</pb>
+         <vn>np</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move or gather in a hive" type="">
+      <commentary>
+Includes the VPC hive off
+Syntax includes:
+NP1[agent] HIVE NP2[theme]
+NP1[theme] HIVE
+      </commentary>
+      <examples>
+They hived off to form their own covens.
+They hived them as two colonies.
+They hived off key assets, such as the lease-car business.
+At least 50000 bees hived within the walls of one of our rooms.
+Honey bees hived in a prototypic pollination unit.
+If you moved them when you hived the first swarm, they'll swarm again. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="hive_off" version="3.0">1,2</wn>
+         <omega></omega><pb>hive.02</pb>
+         <vn>nm</vn><fn>nm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

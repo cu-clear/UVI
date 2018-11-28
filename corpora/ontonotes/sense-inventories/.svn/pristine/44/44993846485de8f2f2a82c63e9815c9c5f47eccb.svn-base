@@ -1,0 +1,112 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="frost-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="decorate with frosting" type="">  
+      <commentary>
+   	  Syntax includes:
+      NP1[agent] FROST NP2[destination] (PP[theme])
+      </commentary>
+      <examples>
+      I frosted the birthday cake.
+      We carried off to the woodpile a cake which the cook had just frosted.
+      The man himself ate a cupcake frosted by Goldie the MakerBot with a frostruding attachment.
+      He frosted the cake with an easy marshmallow frosting.
+      I frosted the cookies with Nutella.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>frost.02</pb>
+         <vn>butter-9.9, other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="provide with a whitish, semi-opaque, rough and/or speckled surface" type="">
+      <commentary>
+   	  Syntax includes:
+      NP1[agent[animate]] FROST NP2[destination] (PP[theme]) (PP[instrument])
+      </commentary>
+      <examples>
+      She frosts her hair.
+      The sapphire tiara on his head sat askew amid tufts of silver-frosted hair.
+      I frosted the window on our front door.
+      I lightly frosted the glass with a sand blaster.
+      Poly put on a show as he frosted the glass with cinnamon.
+      Previously, I had frosted the glass into a flame pattern with a sand blaster.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>frost.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cover with icy frost" type="">
+      <commentary>
+      Includes: FROST_UP
+   	  Syntax includes:
+      NP1[agent|cause] FROST (up) NP2[destination] (PP[theme])
+      NP1[destination] FROST (up) (PP[theme])
+      NP1[theme] FROST (up) NP2[destination]
+      NP1[destination] FROST (over) (PP[theme])
+      </commentary>
+      <examples>
+      A record breaking low of -16 deg C frosted the grass blades along this partially frozen creek.
+      Freezing fog frosted the trees with a delicate layer of white.
+      We girls frosted the window with our breath.
+      We frosted up the big windows with some very hot words.
+      The trees frosted on Saturday night, leaving them postcard-perfect.
+      Part of the canal has frosted up with a layer of ice.
+      Ice crystals frosted the glass.
+      She heard him mutter angrily as his breath frosted up the window.
+      He leaned against the window until the glass frosted over with condensation from his breath.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="frost_over" version="3.0">1</wn>
+         <omega></omega><pb>frost.01,frost.03,frost.04</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="damage via icy frost" type="">
+      <commentary>
+   	  Syntax includes:
+      NP1[cause[force]] FROST NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      The icy precipitation frosted the flowers and they turned brown.
+      A freezing rain badly frosted the tomato plants.
+      The blooms are what turn into the fruit if they don't get frosted.
+      We had an immature crop that was frosted before it was mature.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>frost.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="frosty weather condition" type="">
+      <commentary>
+   	  Syntax includes:
+      FROST
+      </commentary>
+      <examples>
+      Do bees die when it frosts?
+      When it frosts outside at night a wet spot appears on my ceiling.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>frost.01</pb>
+         <vn>weather-57</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

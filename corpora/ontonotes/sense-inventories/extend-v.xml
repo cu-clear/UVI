@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="extend-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) lengthen or stretch out in space" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       He extended one foot into the water.
+       Let's extend our right arms over our heads.
+       Would you mind extending the TV antenna?
+       I can't seem to extend the legs of this folding table.
+       The train service doesn't yet extend to the outer suburbs.
+       His property extends to the stone wall over there.
+       The epidemic currently extends from Malyasia to Singapore.
+       We saw the rock that was extending in the river just before we collided with it.
+       The emperor has been extending his empire to the west.
+       The civil war extended into the neighboring province.
+       Mosquitos have extended malaria onto the islands off the mainland.
+       We can extend the stew by adding some more potatoes and carrots.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,6,8,11,16,17</wn>
+         <omega/><pb>extend.01</pb>
+         <vn>exist-47.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) lengthen or expand in time or some abstract realm" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       I'll need to extend my stay for two more days.
+       They suggested that the existing freeze be lifted and the period extended from one year to 15 months.
+       Deregulation is also a megatrend that will probably extend into the twenty-first century. 
+       The full destructive impact of the war extended to Iraqi civil infrastructure. 
+       That tax law was extended to now include S corporations as well.
+       The governor is attempting to extend his influence as far as possible.
+       Travelling to Asia extended John's horizons.
+       The military's goal of morale through knowledge of the facts extended into army hospitals.
+       The investor has extended his offer of $20 a share until midnight tomorrow.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,9,10,15</wn>
+         <omega/><pb>extend.01</pb>
+         <vn>exist-47.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="3" name="offer or make available" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] EXTEND NP2[recipient] NP3[patient]
+        NP1[agent] EXTEND NP2[patient] PP{to NP[recipient]}
+      </commentary>
+      <examples>
+       The bank has extended him credit to start his company.
+       I would like to extend my congratulations to you.
+       Are they extending an apology to her?
+      </examples>
+      <mappings>
+         <wn version="3.0">4,7</wn>
+         <omega/><pb>extend.02</pb>
+         <vn>contribute-13.2-2,future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="exert something" type="">
+      <commentary>
+       Includes: EXTEND ONESELF
+      </commentary>
+      <examples>
+       He told the jockey to go ahead and extend the colt on the back stretch.
+       Mary really extended herself to pass the advanced class in quantum mechanics.
+      </examples>
+      <mappings>
+         <wn version="3.0">12,14</wn>
+         <wn lemma="extend_oneself" version="3.0">1</wn>
+         <omega/><pb>extend.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston, duffielc,brownsw" sample_score="-"/>
+</inventory>

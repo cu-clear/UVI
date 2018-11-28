@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="view-v">
+   <commentary>
+    Includes VIEW AS
+   </commentary>
+   <sense group="1" n="1" name="regard, consider, analyze" type="">
+      <commentary>
+       Syntax is: NP1[agent] VIEW[abstract] NP2[abstract]
+      </commentary>
+      <examples>
+       He views the situation as hopeless.
+       Now let's view this problem from an algebraic perspectve.
+       Until recently gold wasn't viewed as a good investment.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="view_as" version="3.0">1</wn>
+         <omega/><pb>view.02</pb>
+         <vn>characterize-29.2-1,consider-29.9-1</vn><fn>Categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="watch, see" type="">
+      <commentary>
+       Syntax is: NP1[agent] VIEW NP2[concrete]
+      </commentary>
+      <examples>
+       The Olympics was viewed by millions all over the world.
+       Would you like to view my home movies tonight?
+       They tried not to view the hungry children in the streets.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>view.01</pb>
+         <vn>sight-30.2</vn><fn>Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="devolve-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass something on to a successor" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent|source] DEVOLVE NP2[theme] (PP[recipient])
+      NP1[theme] DEVOLVE PP[recipient]
+      </commentary>
+      <examples>
+      The representative devolved his duties to his aides while he was in the hospital.
+      The estate devolved to an heir that everybody had assumed to be dead.
+      The Vatican is in no hurry to devolve power.
+      The government will devolve powers to AGMA on a "voluntary and tailored basis".
+      Certain powers were devolved from central government in London to other parts of the UK.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>devolve.01</pb>
+         <vn>future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="grow worse" type="">
+      <commentary>
+      Syntax includes:
+      NP1[patient] DEVOLVE (PP[material]) PP[product]
+      </commentary>
+      <examples>
+      These debates often devolve into shouting interuptions and name calling.
+      I think it much more likely that Europe will devolve into outright police-state fascism.
+      I've seen one too many angry blog discussions devolve into "You're calling me racist!"
+      I enjoy a good discussion that doesn't devolve into a flamewar.
+      The species concept debate has devolved from an empirical discussion into a philosophical one.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>devolve.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

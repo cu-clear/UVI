@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="investigation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a legal inquiry into possible criminal activity" type="">
+        <commentary>
+            INVESTIGATION[+inquiry][+legal][+criminality][+possible]
+            Note: often implies an inquiry into possible criminal behavior of an individual
+            Note: Sense 1 is a specialized, narrow sense of Sense 2
+            Note: implies a legal proceeding
+        </commentary>
+        <examples>
+            He is under investigation for possible money laundering activities.
+            There is certain to be a full investigation by the FAA following this near mid-air collision.
+            There was never a police investigation of the curious events surrounding the man's death.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a general systematic study or exploration of a topic" type="">
+        <commentary>
+            INVESTIGATION[+systematic][+exploration][+topic]
+            Note: does not imply inquiry into alleged criminal or negligent behavior
+            Note: implies a general intellectual pursuit of a topic.
+            Note: does -not- imply a legal proceeding
+        </commentary>
+        <examples>
+            Her thesis topic is an investigation of possible effects of increased carbon dioxide in the ocean.
+            Wittgenstein's later work was an investigation of deep philosophical issues related to language 
+            and logic.
+            My investigation of the backyard revealed that raccoons had been digging for grubs in the garden.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

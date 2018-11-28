@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hallway-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a corridor or narrow passageway" type="">
+        <commentary>
+            HALLWAY[+structure][+architectural][+corridor]
+            Note: implies a connection between other areas, but is not a room itself.
+        </commentary>
+        <examples>
+            Our hotel room was on the third floor at the end of the hallway.
+            Mary was chatting with Bob in the hallway about the new project.
+            Sally tripped over a slick spot while running down the hallway.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an entrance room to a building" type="">
+        <commentary>
+            HALLWAY[+structure][+architectural][+room][+entrance][+building]
+            Note: implies an open area by the entrance to a building
+        </commentary>
+        <examples>
+            The visitor stood in the hallway while the butler announced his presence. 
+            The front doors of the manor opened onto a marble entrance hallway.
+            We left our shoes on the mat in the front hallway.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

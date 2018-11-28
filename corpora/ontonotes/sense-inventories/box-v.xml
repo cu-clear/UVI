@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="box-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Put into a box; enclose or confine as if in
+   a box." type="">  
+      <commentary>
+      Includes: BOX IN, BOX UP
+      </commentary>
+      <examples>
+      Box the gift, please.
+      Don't box me in here!
+      We need to box up the rest of the chocolates before closing.
+      The other drivers boxed in the 11 car. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="box_in" version="3.0">1</wn>
+         <wn lemma="box_up" version="3.0">1</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>pocket-9.10</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Hit with the fist, possibly as in a boxing match." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She really knows how to box.
+      I'll box your ears!
+      He boxed for hours that day after work. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>meet-36.3-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="BOX OUT: deny access to something." type="">
+      <commentary>
+      Is: BOX OUT
+      Note: Source domain is in basketball but may be used metaphorically.
+      </commentary>
+      <examples>
+      She boxed out her opponent, one of the most imposing guards in the
+      WNBA.
+      Don't box me out of this deal!
+      They boxed him out of their interaction. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

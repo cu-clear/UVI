@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="battle-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a large military fight, by land, sea or air" type="Event">
+        <commentary>
+            BATTLE[+event][+fight][+large][+military][+land/+air/+sea]
+        </commentary>
+        <examples>
+            The Battle of Midway is one of the most famous naval battles in history.
+            They fought a pitched battle with hand-to-hand combat and bayonets. 
+            The young soldier wondered whether he would be brave on the field of battle.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>battle.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an ongoing attempt to overcome an adversity" type="Event">
+        <commentary>
+            BATTLE[+attempt][+ongoing][+overpower][+adversity][+disease/+poverty/+prejudice/+fear]
+            Note: focus is on an individual or group changing their own state of affairs, different from Sense 3
+        </commentary>
+        <examples>
+            She finally lost her battle against breast cancer.
+            Alcoholics Anonymous helps people fight their personal battles with alcoholism.
+            No one realized the battles John was having with his personal demons. (anxieties, fears)
+            These people have fought a long hard battle for their civil rights.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>battle.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an ongoing attempt to prevail in a contest" type="Event">
+        <commentary>
+            BATTLE[+attempt][+ongoing][+prevail][+contest][+ideological][+cultural][+financial][+political][+will]
+            Note: is an abstract extension of Sense 1, but is not military in nature
+            Note: focus is on two contesting groups trying to prevail over the other, not over an adversity in themselves.
+        </commentary>
+        <examples>
+            That game show is a battle of wits.
+            Bob and Betty are in a fierce custody battle over their two small children.
+            Sara had many battles with her mother as a teenager.
+            The lines of battle have been drawn on the issue of the town's tax override. (figurative extension)
+            It's an ideological battle being waged in classrooms across the country. 
+            The marketing department is formulating their battle plan for the new product launch.  (beat the competition)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>battle.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="prepare-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to put together, assemble, concoct" type="">
+      <commentary>
+        Syntax Is: NP1 PREPARE NP2
+      </commentary>
+      <examples>
+         He is going to prepare breakfast for the whole crowd.
+         I haven't prepared my speech yet.
+         It turns out the minister had been preparing the king's overthrow for years.
+         She prepared the navy beans by first soaking them in water overnight.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4</wn>
+         <omega/><pb>prepare.01</pb>
+         <vn>establish-55.5-1,preparing-26.3-1</vn><fn>Activity_prepare,Cooking_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to make ready, fit out" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 PREPARE[instransitive]
+        NP1 PREPARE NP2[transitive] 
+        NP1 PREPARE SCOMP 
+      </commentary>
+      <examples>
+         I will prepare Mary for the worst.
+         She prepared the children for school every morning.
+         They are preparing him for the diplomatic core.
+         The ship is prepared to sail at dawn.
+         John hasn't prepared adequately for the bar exam.
+         The king prepared his son to take over the rule of the kingdom.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,7,8</wn>
+         <omega/><pb>prepare.02</pb>
+         <vn>NM</vn><fn>Activity_prepare</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

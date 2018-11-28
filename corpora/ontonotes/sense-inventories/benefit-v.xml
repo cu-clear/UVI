@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="benefit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="help (or be helped by) someone or something" type="">  
+      <commentary>
+      Syntax Includes: 
+        NP[agent] BENEFIT NP[recipient]
+        NP[recipient] BENEFIT PP
+      </commentary>
+      <examples>
+        I have benefited greatly from her wisdom.
+        Your organization will benefit from a few of the many ways it pays to recycle.
+        How can we benefit those who need our help?
+        He says that the peace accord will benefit his country.
+        The research would benefit from an injection of new ideas.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>benefit.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="financially fund" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The series will benefit a Dance Scholarship Fund.
+        The party will benefit a dance center and a music school.
+        Your purchase will benefit a charity.
+        He asked for a small contribution to benefit a banquet fundraiser.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

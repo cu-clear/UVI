@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="quiet-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make calm or less noisy" type="">
+      <commentary>
+        Syntax is: NP1[agent] QUIET NP2[patient]
+      </commentary>
+      <examples>
+        Around nine o'clock Suzanne quieted the music and spoke to the attendees.
+        Finally he raised his arms, quieted the crowd and shouted to them.
+        Still, the silent beauty of the Apalachicola waters quieted my fears.
+        All these findings quieted the skeptical executives.
+        Narcotics were applied for many months, and ultimately quieted the pains.
+        The Iranians quieted down the crowd.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="quiet_down" version="3.0">1</wn>
+         <omega/><pb>quiet.01,quiet.02</pb>
+         <vn>other_cos-45.4</vn><fn>Silencing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become calm or quiet" type="">
+      <commentary>
+        Syntax is: NP1[patient] QUIET
+      </commentary>
+      <examples>
+        All of the children quieted down to listen to what she had to say.
+        A moment later we were rocked by her wake, and Zee and I hung on until the waters quieted.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="quiet_down" version="3.0">1</wn>
+         <omega/><pb>quiet.01,quiet.02</pb>
+         <vn>other_cos-45.4</vn><fn>Become_silent</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deficit-n">
+    <commentary>
+        
+    </commentary>
+    <sense group="1" n="1" name="a shortage of a requirement or asset" type="">
+        <commentary>
+            DEFICIT[+quantity][+amount][+shortage][+asset/+requirement/+score]
+        </commentary>
+        <examples>
+            The US trade deficit widened last month.
+            The government used deficit spending to stimulate the economy.
+            The drought has resulted in a deficit of grain production this year.
+            Federal deficits can cause inflation.
+            Their team came back from a three-game deficit to win the play-offs.
+            The runner apparently collapsed from an oxygen deficit.
+            That airline has been operating at a deficit for years. (more cost than revenue)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="an impairment of function or ability" type="">
+        <commentary>
+            DEFICIT[+state][+impairment][+physical/+mental]
+        </commentary>
+        <examples>
+            Jane is studying attention deficit disorder.
+            Their child apparently has some linguistic deficits.
+            Since the car accident, the man has exhibited extensive memory deficit.
+            Forrest Gump overcame his learning deficit through hard work and perseverance. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

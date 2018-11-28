@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bid-n">
+    <commentary>
+        18Feb08 Added a sense, modified features, definitions ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a formal price offer to buy something" type="Event">
+        <commentary>
+            BID[+event][+speech_act][+offer][+price][+official][+to_buy]
+            Note: implies an intention to pay a price for something, contrast with (Sense 5)
+        </commentary>
+        <examples>
+            We've put a bid in on that house.
+            Mary has just bid ten thousand for the sapphire earrings.
+            Did you make a bid at the silent auction?
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>bid.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an attempt or effort to achieve a goal" type="Event">
+        <commentary>
+            BID[+process][+attempt][+attainment][+of_goal]
+            Note: refers to an ongoing, complex effort to achieve some goal
+        </commentary>
+        <examples>
+            Will he make a bid for the Presidency in 2008?
+            John is making a bid for Mary's hand in marriage.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>bid.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="authoritative command or instruction" type="Event">
+        <commentary>
+            BID[+event][+speech_act][+command][+authoritative]
+            Note: implies the speaker is wielding authority in issuing the command
+        </commentary>
+        <examples>
+            The courtesans did the Sultan's bid.
+            The children ignored my bid to sit down and be quiet.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>bid.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a declaration of playing a suit in bridge" type="Event">
+        <commentary>
+            BID[+event][+speech_act][+declaration][+game_play][+cards][+bridge]
+        </commentary>
+        <examples>
+            I didn't pay attention to Mary's bid in the last bridge game.
+            John's bid was eight hearts, wasn't it?
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>bid.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an official offer to provide a service or good at a specific cost" type="Event">
+        <commentary>
+            BID[+event][+speech_act][+offer][+price][+official][+to_perform_service]
+            Note: refers to an offer by a provider to complete work at a price. (Contrast this sense with Sense 1)
+        </commentary>
+        <examples>
+            We thought the bid from the second landscaping firm was too high.
+            The town has received bids from four contractors to build the new library.
+            It was a conflict of interest for his firm to bid on those defense contracts.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>bid.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

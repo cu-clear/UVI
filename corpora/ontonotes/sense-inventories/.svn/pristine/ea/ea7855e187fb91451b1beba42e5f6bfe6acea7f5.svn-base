@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="march-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="walk or stride; move or proceed" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 MARCH PP[directional]
+        NP1 MARCH ADVP
+        Note: may be used metaphorically
+        NOTE: there is a publicizable purpose for the act of marching, then
+        consider sense 3. Funeral, band, holiday or other similar processions
+        goes here, UNLESS there is a reason/cause behind such procession that
+        needs to be brought to public awareness.
+      </commentary>
+      <examples>
+        He marched into the classroom and announced the exam.
+        The soldiers marched across the border.
+        As he marched into Egypt, Antiochus was successful with his armies.
+        He felt like he had marched into a huge solar oven.
+        The people lined the street and watched as the procession marched by.
+        Time marches on.
+        When communism collapsed, the World Bank marched into the Former Soviet Union with privatization agenda in hand.
+        Quantum cryptography has marched from theory to laboratory to real products.
+        Safety Index has marched steadily down toward our goal of zero accidents.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="march_on" version="3.0">1</wn>
+         <wn lemma="march_out" version="3.0">1</wn>
+         <omega/><pb>march.01</pb>
+         <vn>run-51.3.2-2-1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="force or cause someone/thing to move or walk" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MARCH[causative] NP2[patient]
+      </commentary>
+      <examples>
+        The Japanese marched their prisoners through Manchuria.
+        He marched her in to try it on and reveled in the beauty she was.
+        They marched the mules into the desert.
+        She took hold of my arm and marched me off to the headmaster's office.
+        The police marched a gang of youths out of the building.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>march.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="walk in a group publicly in support or disapproval" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MARCH PP
+        NOTE: this sense can be used metaphorically, to indicate protesting 
+        or supporting with no actual walking involved. 
+        NOTE: this sense must clearly include 
+        (1) public act with the intent to publicize,
+        (2) purpose that is to be made public 
+        NOTE: just the simple act of marching in a large group does not
+        qualify under this group.  Funeral, band, holiday or other similar 
+        processions ONLY falls here if there is a reason/cause behind such 
+        procession that needs to be brought to public awareness.
+      </commentary>
+      <examples>
+        Advocates will march for better immigration bill.
+        He has marched for breast cancer awareness and for the March of Dimes. 
+        This weekend I marched in Washington DC with as many as 500,000 people.
+        The King would not have marched against gay marriage.
+        Women marched to protest an anti-pornography bill that could impose jail terms for kissing.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""></wn>
+         <omega/><pb>march.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="lie adjacent to, share a boundary" type="">
+      <commentary>
+        Note: rare usage?
+      </commentary>
+      <examples>
+        England marches with Scotland.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,hwangd" sample_score="-"/>
+</inventory>

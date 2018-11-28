@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transfer-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to move from one location, context, or situation to another" type="">
+      <commentary>
+        Syntax is: NP1[agent] TRANSFER NP2[target]  PP[location]
+      </commentary>
+      <examples>
+         He transferred the money from his trousers pocket to his jacket pocket.
+         Please transfer the data from the mainframe to this laptop computer.
+         She transferred the plants from breakable pots to plastic containers.
+         The themes transferred from classic myth to future settings are always the psychological ones. (context)
+         Outside calls may be transferred to someone else within our system. 
+         When your child reaches the age of maturity, control of the account is transferred to him or her.
+         The political power in their country was peacefully transferred from a monarchy to a parliamentary democracy.
+         The Harper Court Foundation transferred ownership of its 40-year-old shopping center to another non-profit in December.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,2,3,5,7,9</wn>
+         <omega/><pb>transfer.01</pb>
+         <vn>contribute-13.2-2,send-11.1</vn><fn>Tranfer</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="relocate oneself or something to a different institution" type="">
+      <commentary>
+        Syntax is: NP1[agent] TRANSFER NP2[human] PP
+                   NP1[human] TRANSFER PP (PP[location])
+        Note: the focus is on switching institutions, which also entails
+                   changing physical location, but the institutiional
+                   switch is the core implication of this sense.  
+      </commentary>
+      <examples>
+        He transferred the children to a private school.
+        I was transferred to headquarters in Houston.
+        The murder case was transferred to the Illinois State Police.
+        The US Army abandoned Fort Lyon in 1897 and its troops were transferred elsewhere.
+        I transferred to Boston College in the fall of 2003.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,8</wn>
+         <omega/><pb>transfer.01</pb>
+         <vn>NM</vn><fn>Change_tool</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="make a scheduled change in transportation lines or vehicle" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The luggage was there when we transferred planes in Newark. (from one plane to another)
+         Then I transferred in Tokyo for another long flight to Bangkok.
+         We transferred trains with five minutes to spare.
+         If your flight transferred in New York, did you have to transfer from Kennedy to La Guardia or Newa
+rk?
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc, ahouston, brownsw" sample_score="-"/>
+</inventory>

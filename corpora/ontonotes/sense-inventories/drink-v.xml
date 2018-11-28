@@ -1,0 +1,92 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="drink-v">
+   <commentary>
+   </commentary>
+
+   <sense n="1" type="" name="take in a liquid orally" group="1">
+      <commentary>
+        NOTE: while alcohol is a liquid, there is a specific
+             sense for consumption of alcoholic beverages; see sense 2
+      </commentary>
+      <examples>
+     	Drink lots of water on a hot day.
+	At the picnic the children drank lemonade.
+	The colt drank its milk thirstily.
+	The cut roses are drinking their water nicely. (figurative extension)
+	Bob drank three glasses of orange juice.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega></omega><pb>drink.01</pb>
+         <vn>eat-39.1-2</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+
+   <sense n="2" type="" name="intake alcohol" group="1">
+      <commentary>
+        NOTE: this is a subsense of sense 1; the "alcohol" is often omitted from 
+              the sentence, but is inferred
+        NOTE: compare carefully to sense 4
+      </commentary>
+      <examples>
+	His father drank himself to death.
+     	His religion forbids him to drink or smoke.
+	The two sailors drank themselves into a stupor in one of the little bars along the docks.
+	The woman drinks and beats her kids.
+        I have stopped drinking for lent.
+        I don't smoke, I drink occasionally.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega></omega><pb>drink.01</pb>
+         <vn>eat-39.1-2</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+
+   <sense n="3" type="" name="complete mental immersion or fascination with something" group="1">
+      <commentary>
+	Note: implies a sentient being 
+      </commentary>
+      <examples>
+     	We stood on the cliffs, drinking in the view of the Pacific Ocean.
+	He drank in her words of love.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+
+   <sense n="4" type="" name="a toast" group="1">
+      <commentary>
+        NOTE: examples in this sense may be subsets of sense 2
+              if drinking alcohol is done for a toast, choose this sense
+      </commentary>
+      <examples>
+     	I'll drink to that!
+	Let's drink to the happiness of the bride and groom.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>drink.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+
+    <sense n="5" type="" name="a quality of taste, as with wine" group="1">
+      <commentary>
+	Note: describes how something tastes to someone
+      </commentary>
+      <examples>
+     	This 1985 Cabernet drinks beautifully!
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+
+   <WORD_META authors="ahouston, vieweg,duffielc" sample_score="-"/>
+</inventory>

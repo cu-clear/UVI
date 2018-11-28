@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shout-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="speak loudly; utter a sharp cry; state (as if) shouting" type="">
+      <commentary>
+        Includes: SHOUT OUT.
+        NOTE: Includes implications, but not actual realizations, of
+        shouting as in the last example.
+      </commentary>
+      <examples>
+        My grandmother is hard of hearing--you'll have to shout.
+        'Oh, your baby boy is here,' her sister shouted out as she opened the door.
+        Blaine shouted in pain as scalding hot antifreeze dripped onto his foot.
+        The pirate shouted in agony as he fell to the ground, bleeding.
+        Martini shouted out as the pump truck kicked back into motion and a
+        river of concrete rushed out.
+        If the employees shout enough, maybe we'll get a new copier.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="shout_out" version="3.0">1,2</wn>
+         <omega/><pb>shout.01</pb>
+         <vn>manner_speaking-37.3</vn><fn>Communication_manner</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reprimand" type="">
+      <commentary>
+        Syntax is: NP1 SHOUT at NP2
+        NOTE: Even if the reprimand is spoken loudly, tag it as this sense.
+      </commentary>
+      <examples>
+        The angry mother shouted at the teacher.
+        The actress shouted at the policeman who gave her a parking ticket.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>shout.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="silence or overwhelm" type="">
+      <commentary>
+        includes: SHOUT DOWN
+      </commentary>
+      <examples>
+        The mayor was also shouted down by the protesters for the homeless.
+        The shareholders listened at first, then heckled him, hooted him, finally shouted him down.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="shout_down" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,clarklm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="administer-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="manage or oversee; supervise" type="">  
+      <commentary>
+       Syntax Is: NP1[agent[human]] ADMINISTER NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        Under one condition, graduate clinicians administered the test.
+        Your estate will be administered privately.
+        He administered the technical publication series.
+        It's fine to institute these new policies, but who will administer them?
+        They should find a new manager to administer these funds.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>administer.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="dispense, mete out" type="">
+      <commentary>
+       Syntax Is: NP1[animate] ADMINISTER NP2[patient[concrete]] (PP{to NP[recipient]})
+        NOTE: NP3 is not always stated but is always implied, if you can
+        add 'to NP3' to an instance (only ones that have [concrete]NP2s),
+        tag it as sense 2.
+      </commentary>
+      <examples>
+        These respondents were administered the same instrument as those initially interviewed.
+        The veterinarian administered the first dose of the vaccine.
+        If symptoms of heat exhaustion appear, administer lots of water.
+        He said he would not have administered first aid.
+        I don't feel comfortable having to administer the rebuke to the
+        board of directors.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>administer.01</pb>
+         <vn>contribute-13.2-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="perform or supervise a ritual" type="">
+      <commentary>
+       Syntax Is: NP1[agent[human]] ADMINISTER NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        Immediately prior to being administered the oath, each applicant shall fill out the forms.
+        In the primitive Church, simple priests sometimes administered the sacrament.
+        We asked Father Murphy to administer last rites.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>administer.01</pb>
+         <vn>contribute-13.2-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,greenlm" sample_score="-"/>  
+</inventory>

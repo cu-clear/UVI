@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="crop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cut or othewise remove pieces off of" type="">  
+      <commentary>
+        NOTE: Includes metaphorical uses.
+      </commentary>
+      <examples>
+        Proserpina had not yet cropped the yellow hair from her head.
+        Crop the image to make it a square, 3x3 inches.
+        The sheep cropped the grass in our lawn.
+        You must crop the ever-budding herb.
+        Some dogs have their tails cropped because people think it looks better.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>crop.01</pb>
+         <vn>carve-21.2-2,braid-41.2.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="prepare land for or yield crops" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This land crops well.
+        My soil will be cropped for potatoes this year. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="CROP UP/CROP OUT: appear suddenly (at the surface)" type="">
+      <commentary>
+        Is: CROP UP, CROP OUT
+      </commentary>
+      <examples> 
+        Some new reports cropped up so I couldn't come to the party.
+        After they fired the secretary, all sorts of problems cropped up.
+        A vein of ore cropped out.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="crop_up" version="3.0">1</wn>
+         <wn lemma="crop_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

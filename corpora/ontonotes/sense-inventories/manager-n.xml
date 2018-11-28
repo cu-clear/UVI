@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="manager-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="administrator, one who controls resources" type="">
+        <commentary>
+            MANAGER[+agent] 
+            of NP{+abstract}/NP{+subordinate}
+        </commentary>
+        <examples>
+            They are replacing the manager of the Miami office.
+            Jane is the manager of three people in my company.
+            John's manager is on vacation.
+            Who is the general manager of this football franchise?
+            They are training her to be the manager of software products.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="trainer, usually in sports" type="">
+        <commentary>
+            MANAGER[+agent] 
+            of NP{+athlete}
+        </commentary>
+        <examples>
+            The heavyweight champion's manager decided to decline that fight.
+            The new manager makes the team practice an hour more each day.
+            I've hired a Brazilian manager to train my racehorse.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

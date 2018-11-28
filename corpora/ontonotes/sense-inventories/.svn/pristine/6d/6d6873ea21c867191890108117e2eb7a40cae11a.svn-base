@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="kill-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of terminating a life" type="Event">
+        <commentary>
+            KILL[+event][+termination][+of_life]
+        </commentary>
+        <examples>
+            The mob ordered a hit man from Florida to make the kill.
+            The shrieking noises were probably a raccoon in the midst of a kill.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>kill.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the destruction of enemy during combat" type="Event">
+        <commentary>
+            KILL[+event][+destruction][+of_enemy][+during_combat]
+        </commentary>
+        <examples>
+            The pilot scored three kills during the aerial combat training session.
+            Johnny shot his laser at the monster for another kill in the video game.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>kill.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a slain animal hunted and caught by another" type="">
+        <commentary>
+            KILL[+entity][+animal][+hunted][+slain]
+        </commentary>
+        <examples>
+            The lions hunched around the kill, a young zebra, and devoured the flesh.
+            My cat brought her latest kill into the living room and presented it to me.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a decisive shot in sports that cannot be returned by the opponent" type="Event">
+        <commentary>
+            KILL[+event][+play][+sports][-returnable][+by_opponent]
+        </commentary>
+        <examples>
+            The tennis star made another kill as he smashed the ball just over the net.
+            Our volleyball team made a great kill that ended the last volley.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="benefit from the successful conclusion of an enterprise" type="">
+        <commentary>
+            IDIOM: be_in_on_the_kill
+        </commentary>
+        <examples>
+            The two brothers were in on the kill from the bank robbery. (got some money)
+            Mary is a founder and was in on the kill when their stock went public.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="make a decisive, concluding action" type="">
+        <commentary>
+            IDIOM: close_in_for_the_kill
+        </commentary>
+        <examples>
+            The chess master closed in for the kill by moving his queen to check the king.
+            John noted the fallacy of the debater's argument and proceeded to close in for the kill with his rebuttal.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

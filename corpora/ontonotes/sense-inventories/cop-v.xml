@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="steal" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] COP NP2
+      </commentary>
+      <examples>
+        At the height of the subprime scam, in 2006, he copped $41 million.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>steal-10.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="arrest" type="">
+      <commentary>
+        Syntax Is: NP1[agent] COP NP2
+      </commentary>
+      <examples>
+        The police copped the dangerous criminal right at the crime scene.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>Arrest</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="choose not to do something" type="">
+      <commentary>
+        IS: COP OUT
+      </commentary>
+      <examples>
+        She copped out towards the end.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="cop_out" version="3.0">1</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

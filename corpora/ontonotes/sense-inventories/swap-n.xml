@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="swap-n">
+    <commentary/>
+    <sense group="1" n="1" name="the act of trading or exchanging things of value between parties" type="Event">
+        <commentary>SWAP[+event][+exchange][+trade][+of_assets][+between_parties]</commentary><examples>The professor did a swap of his home in Boston for a colleague's  in Paris during his year on sabbatical.
+            The store gave Mary a swap for the oversized sweater for one that fit.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="" n="2" name="a financial exchange of liabilities between borrowers" type="Event">
+        <commentary>SWAP[+event][+exchange][+financial][+of_liabilities][+between_borrowers]
+            Note: a specific and widespread usage of Sense 1 that applies in the financial markets.
+        </commentary>
+        <examples>The two banks had arranged a currency swap.
+            This type of swap involves exchanging a fixed interest rate for a floating rate.
+            Chapter three of the book on portfolio theory describes bond swaps.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score=""/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="diffuse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move outward with volition." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] DIFFUSE
+      </commentary>
+      <examples>
+      The soldier diffused over the battle field.
+      We diffused throughout the crowd.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) become widely distributed." type="">
+      <commentary>
+      Syntax Includes: 
+      NP1[agent] DIFFUSE NP2[patient]
+      NP1[theme] DIFFUSE
+      </commentary>
+      <examples>
+      My opponent has diffused false accusations about me.
+      The media diffused a vile rumor.
+      Particles diffused throughout the air.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>diffuse.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

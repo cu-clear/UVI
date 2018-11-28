@@ -1,0 +1,151 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pack-v">    
+   <commentary>
+   </commentary>
+ <sense group="1" n="1" name="arrange or compress tigthly into a container" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PACK (NP2[patient[concrete]]) (PP[goal])
+        Includes PACK TOGETHER, PACK UP, PACK IN.
+
+        NOTE: At least either NP2 or NP3 is required but both can be included.
+        Compare to Sense 2: in Sense 1, objects are packed into a space by
+        some outside agent(s).
+        THIS SENSE INCLUDES THE 'MOVING' SENSE OF PACK_UP; SEE EXAMPLE 7.
+      </commentary>
+      <examples>
+        Who Packed the Suitcase?
+        Billy had carefully packed the maps. 
+        Taverns were called clubs and owners packed the cheese in crocks.
+        The tighter a substance is packed, the denser it is.
+        We packed the clay and straw into bricks.
+        Heavy clouds packed together, signalling rain.
+        I packed up my stuff and moved across town.
+        This writer just packs in the metaphors, paragraph by paragraph. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3,9,6</wn>
+         <wn lemma="pack_together" version="3.0">1</wn>
+         <omega/><pb>pack.01,pack.02</pb>
+         <vn>spray-9.7-1-1</vn><fn>Filling,Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) congregate tightly in a area" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] PACK NP2[location]
+
+        Includes PACK TOGETHER
+
+        NOTE: Compare to Sense 1: in Sense 2 the objects are packing themselves
+        together WITHOUT an outside agent.     
+      </commentary>
+      <examples>
+        Devotees packed the convention center for &quot;Date With a Princess.&quot;
+        A crowd of thousands packed the streets to celebrate this year's Onion Fayre.
+        The huge crowd in Italy packed together and pushed toward a the fireworks show.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,7</wn>
+         <wn lemma="pack_together" version="3.0">1</wn>
+         <omega/><pb>pack.01</pb>
+         <vn>spray-9.7-1-1</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="carry a gun" type="">  
+      <commentary>
+        NOTE: Compare carefully to sense 1. You cannot add a location to
+        these sentences.
+      </commentary>
+      <examples>
+        A robber who was packing a pellet gun lost out today to a motel guest
+        packing a real firearm.        
+        You packing your gun?
+        She's the kind of feisty woman who packs a gun for emergencies.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">6</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>pack.01</pb>
+         <vn>NM</vn><fn>Bearing_arms</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="set up a legislative body with one's own supporters" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        It is claimed that the sheriff packed the jury in the interest of
+        appellees.
+        The ruling party had packed the committee with loyalists.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <sense group="1" n="5" name="carry as a backpack, go backpacking" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,8,12</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="seal, insulate or protect" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The best thing is to pack the faucet base with plumber's putty.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">10,13</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="have the property of compacting neatly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Silk shirts don't pack well, they get too wrinkled.
+        Cups don't pack well and take up space. 
+        Snowshoe tails pack easily and can be attched quickly in the field.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="gain weight" type="">
+      <commentary>
+        Includes: PACK ON
+      </commentary>
+      <examples>
+        Teenage tyrannosaurs packed on the pounds.
+        401(k) accounts have packed on some muscle. 
+        Bob has really been packing on the pounds lately.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="pack_on" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

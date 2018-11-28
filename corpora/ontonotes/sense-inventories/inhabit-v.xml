@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="inhabit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) physically be in or be a
+   resident of, for any length of time." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[concrete]] INHABIT (NP2[location])
+      </commentary>
+      <examples>
+      The people inhabited the islands that are now deserted.
+      Deer inhabit these woods.
+      Lobbyists inhabit the halls of the White House.
+      You don't even contribute to anything, Tom, you just inhabit!  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>inhabit.01</pb>
+         <vn>NP</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) be present or exist in a space
+         as an abstract object." type="">
+      <commentary>
+      Syntax Is: NP1[agent[abstract]] INHABIT NP2[location]
+      </commentary>
+      <examples>
+      Strange notions inhabited her mind.
+      Sweet memories inhabit this house.
+      Fear inhabits our hearts.    
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

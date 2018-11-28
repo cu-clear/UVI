@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="utterance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="making statements or assertions" type="">
+        <commentary>
+            UTTERANCE[+action][+communication][+speech_act][+spoken]
+            Note: refers to propositions, statements, not the linguistic forms, per se.
+        </commentary>
+        <examples>
+            His summary amounted to the utterance of a few platitudes and nothing more.
+            Her essay is an utterance of outrage at the political situation there.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="linguistic units of expression" type="">
+        <commentary>
+            UTTERANCE[+entity][+symbolic][+unit][+linguistic][+speech]
+            Note: refers to the linguistic forms themselves, not the propositions they denote.
+        </commentary>
+        <examples>
+            This tape contains utterances from speakers of a now-dead Celtic language. 
+            You can hear the difference in the two dialects in the utterance of 'a' between voiced stops such as 'bad' and 'glad'
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

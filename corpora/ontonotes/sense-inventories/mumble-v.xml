@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mumble-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="talk indistinctly" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] MUMBLE NP2
+      </commentary>
+      <examples>
+        Paramedics carted him away while he mumbled incoherently.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mumble.01</pb>
+         <vn>manner_speaking-37.3</vn><fn>Communication_manner</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="chew without teeth" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MUMBLE ON NP2
+        Is: MUMBLE ON
+      </commentary>
+      <examples>
+        He mumbled on his food.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

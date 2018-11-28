@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="patent-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="obtain a patent for" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] PATENT NP2[theme]
+      </commentary>
+      <examples>
+        He decided he should patent his invention.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>patent.01</pb>
+         <vn>patent-101</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="grant a patent for" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PATENT NP2[theme]
+      </commentary>
+      <examples>
+        The method was patented by the inventor's company Promessa Organic AB.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make open to sight or notice" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His behavior has patented an embarrassing fact about him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

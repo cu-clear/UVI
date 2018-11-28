@@ -1,0 +1,108 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="float-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be suspended in/on a gas or liquid without sinking or falling" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 FLOAT PP
+        NP1 FLOAT ADVP
+        NP1 FLOAT COMP 
+        NP1 FLOAT NP2
+        Note: Concrete uses only; no metaphors
+      </commentary>
+      <examples>
+        An empty bottle will float.
+        We spent a lazy afternoon floating down the river.
+        Fluffy white clouds were floating across the sky.
+        Men and equipment actually floated around in the weightless conditions of space.
+        The children enjoy floating their boats on the pond in the park. 
+        America has floated warships through the straits more than once.
+        He floated the logs the two miles to the mill.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6</wn>
+         <omega/><pb>float.01</pb>
+         <vn>modes_of_being_with_motion-47.3,roll-51.3.1,run-51.3.2-2,slide-11.2-1</vn><fn>Motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="suggest, consider, or discuss tentatively" type="">
+      <commentary>
+        Syntax Is:  NP1[agent] FLOAT NP2[patient[concrete]]
+        Note: NP2 isn't concrete - an idea, theory, etc.
+      </commentary>
+      <examples>
+        Ian has floated the idea that we should think about expanding into Europe next year.
+        Asked what might be on the table in restructuring talks, Young floated a few ideas.
+        Mark has floated some new possible ways of approaching these proposals.
+        Did you know there is a new theory that is being floated around?
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>float.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move or act as if floating, i.e., gracefully, aimlessly, etc." type="">
+      <commentary>
+        Syntax Is: NP1 FLOAT PP[directional]
+        Note: NP1 NOT in liquid (as opposed to sense #1)
+      </commentary>
+      <examples>
+        She floats across the stage speaking only in her language of hands.
+        She floated around the room, like a ballet dancer.
+        Miss Golightly [...] floated round in their arms light as a scarf. (Truman Capote)
+        Lauren floated through dismal dreams, apathetically observing the somber scenes.
+        Since he lost his job, he's just floated about doing nothing.
+        A tiny diary that floated around the globe on a 500-day sojourn in the hands of travellers.
+        I floated from job to job until 1994, when I went back to school.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>float.01</pb>
+         <vn>roll-51.3.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="allow the value of something to fluctuate according to market forces; offer for sale in the financial market" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The government has decided to float the dollar.
+        They would float the currency and remove the remaining capital controls.
+        Czech pharmaceuticals company Zentiva floated Dollars 225m of shares.
+        The company said Friday that some of its shareholders had decided to float up to 10% of the company's common shares. 
+        Symbian shareholders have now decided to float the joint venture on the stock market.
+        Some companies have floated junk bonds. 
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>float.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="make the surface level or smooth" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Be ready to float the plaster wall out afterward to achieve a smooth finish.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="convert from a fixed point to a floating point notation" type="">
+      <commentary>
+        Note: Do not mark adjectival uses.
+      </commentary>
+      <examples>
+        (Could not find any examples.)
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg, brownsw" sample_score="-"/>  
+</inventory>

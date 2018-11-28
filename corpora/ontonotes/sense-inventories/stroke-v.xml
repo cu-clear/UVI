@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stroke-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="touch lightly and repeatedly" type="">  
+      <commentary>
+        NP1[+agent] STROKE NP2[+/-instrument]
+      </commentary>
+      <examples>
+        He stroked his beard and looked wise.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stroke.01</pb>
+         <vn>touch-20-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="treat gingerly or carefully" type="">
+      <commentary>
+        NP1 STROKE NP2
+      </commentary>
+      <examples>
+        You have to stroke the boss carefully.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="row at a steady pace" type="">
+      <commentary>
+        NP1[+agent] STROKE (NP2)
+      </commentary>
+      <examples>
+        They stroked their paddles at one stroke every second and achieved
+        a six mile an hour speed or so.
+        They were stroking in almost perfect unison and the boat was
+        running well.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="strike a ball with a smooth blow" type="">
+      <commentary>
+        NP1[+agent] STROKE NP2
+      </commentary>
+      <examples>
+        Bouazza stroked the ball home after the keeper had saved.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

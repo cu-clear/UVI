@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="swell-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) increase in size, number, intensity" type="">
+      <commentary>
+        Syntax includes: NP1 SWELL (up)
+                   NP1 SWELL NP2
+        NOTE: the &quot;swelling&quot; NPs may vary, being the actual objects
+        that are swelling, or representations of the object (as in &quot;music&quot;
+        represented by &quot;orchestra&quot;, or &quot;the number of laborers/people&quot; 
+        represented by &quot;labor/population&quot;)
+        Includes: SWELL UP
+      </commentary>
+      <examples>
+        Wind swelled the sails.
+        This repatriated labor has swelled the skilled workforce.
+        Free trade has swelled the ranks of independent businessmen.
+        The crowd swells at the Rainbow Family gathering.
+        The US foreign-born population swelled in the 1990s.
+        Arcturus is old and has swelled into a red giant type star.
+        The orchestra swells into a cheerful, sweeping sound.
+        Her throat swelled shut as a result of the peanut allergy.
+        She said her eyes swelled so fast her contacts popped out.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>swell.01</pb>
+         <vn>calibratable_cos-45.6-1,entity_specific_cos-45.5</vn><fn>Cause_change_of_position_on_a_scale,Cause_expansion,Change_position_on_a_scale,Expansion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fill with emotion" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His heart swelled, and the tears gathered in his eyes, as they rested on the baby.
+        He swelled with holy anger at the disloyalty of those around him.
+        A mighty rage shook him, he swelled and choked with resentment.
+        She swelled at the memory; she loved her son more purely than the others she loved.
+        Downtown Mexico City swelled Saturday with the accumulated frustration and rage of the poor.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>swell.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="come up, as of liquid or gas" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Thick columns of smoke swelled into the sky as heavy winds fanned the fire.
+        She went a bit deep and the water swelled into her boot.
+        The heady brew of sanitary chemicals and bean curries swelled up into the air.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>swell.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="final-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="academic test" type="">
+        <commentary>
+	    FINAL[+event]
+	    The last exam that is administered in an academic term.
+	    </commentary>
+        <examples>
+            I studied all night for my Linguistics final.
+            It's almost finals time.
+            The final begins at noon and ends at six-thirty.
+            John failed his final because he'd been studying the wrong subject.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="last round in a tournament" type="">
+        <commentary>
+	    FINAL[+event]
+	    In an elimination tournament, the match between the winners of all the previous matches.  The game or match that finalists play.
+	    </commentary>
+        <examples>
+            Our team made it to the finals!
+            The final is going to be played on Saturday at ten o'clock in the morning.
+            We lost the final and went home.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="physical test" type="Entity">
+        <commentary>
+            The actual exam, as a piece of paper, that students write on at the end of an academic term.
+            Use this sense only when it is very clear that a physical object is being referred to.
+        </commentary>
+        <examples>
+            John spilled coffee all over his final.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

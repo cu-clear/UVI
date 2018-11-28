@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="glaze-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="coat with a glaze" type="">  
+      <commentary>
+        Syntax Includes:
+      </commentary>
+      <examples>
+       The potter glazed the dishes.
+       Julia glazed the test cup with sample colors.
+       Krispy Kreme glazes their doughnuts right in front of the customers.
+       I will glaze the pound cake once it cools.
+       Marty glazed the cupcakes with potter's glaze by mistake.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0">1,4</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>butter-9.9,coloring-24</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become glassy" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       The student's eyes glazed over during the extremely boring lecture.
+       People glaze over when they feel overwhelmed.
+       He is completely glazed over from lack of interest.
+       Ira's eyes glazed over after the first half hour of knitting club.
+       Children glaze over when dragged to adult functions.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">2</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

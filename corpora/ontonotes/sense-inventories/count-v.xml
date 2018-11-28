@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="count-v">    
+   <commentary>
+	Includes VPCs count_down, count_off, count_on, count_out
+	Includes idiom: count_one_in
+   </commentary>
+
+   <sense group="1" n="1" name="enumerate, determine a quantity" type="">  
+      <commentary>
+	NP1[+agent] COUNT  NP2[topic]
+	Includes: COUNT DOWN, COUNT OFF, COUNT UP
+      </commentary>
+      <examples>
+	The teacher counted noses once the children were seated on the bus.
+	Her baby brother can count to ten.
+	The clerk counted off four yards of material from the bolt of fabric.
+	They are counting down again at t minus 40 seconds.
+	Mary counted up the receipts for the day.
+	How do I love thee, let me count the ways.
+	We couldn't count all the stars in the sky.
+	Don't count your chickens before they hatch.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="count_down" version="3.0">1</wn>
+	 <wn lemma="count_off" version="3.0">1</wn>
+         <omega/><pb>count.01</pb>
+        <vn>estimate-34.2,multiply-108</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="2" name="matter; have a value or importance" type="">  
+      <commentary>
+        Syntax: NP1[theme] COUNT
+        Includes: COUNT FOR
+      </commentary>
+      <examples>
+        Let your employees know that their suggestions count.
+	What really counts in life is that you love your work.
+        These practical walking shoes don't count for much in terms of style.
+        My opinion doesn't count for anything around here.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>count.04</pb>
+         <vn>matter-91</vn><fn>Importance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) classify, consider as, include as if by counting" type="">
+      <commentary>
+        Syntax: NP1[+/-agent] COUNT NP2 (as) (NP3)
+        Includes: COUNT ONE IN, COUNT ONE OUT, COUNT FOR
+      </commentary>
+      <examples>
+	Our department has ten staff members if you count the summer interns.
+        That bag of potato chips hardly counts as a meal.
+        The fact that it's his third offense will count against the defendant.
+	Count me in for the company picnic next weekend.
+        Definitely count me out if we have to bike to those far places.
+	He counts himself lucky to have survived the accident.
+	These nations had always been counted as allies in previous crises. 
+	The rebate will count as taxable income.
+        The professor told the students that the final exam counted for half their grade.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,6</wn>
+         <omega/><pb>count.02</pb>
+         <vn>characterize-29.2,masquerade-29.6,multiply-108</vn><fn>Being_in_category,Categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="4" name="depend on, expect" type="">  
+      <commentary>
+        Includes: COUNT ON
+      </commentary>
+      <examples>
+	Mary knew she could always count on John.
+	In New England you can count on a lousy spring.
+	Sally's cousin is counting heavily on getting into Harvard.
+	I wouldn't count on there still being cheap seats on that flight.
+	Their crops count on seasonal flooding of the river.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,9</wn>   
+         <wn lemma="count_on" version="3.0">1</wn>
+         <omega/><pb>count.03</pb>
+         <vn>rely-70</vn><fn>Reliance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

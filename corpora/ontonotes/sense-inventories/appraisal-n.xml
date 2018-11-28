@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="appraisal-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="evaluation" type="Event">
+        <commentary>
+	    APPRAISAL[+event]
+	    The act of assessing the value or the worth of something.
+	    </commentary>
+        <examples>
+            He looked my car up and down, giving it his appraisal.
+            I'm scheduled for an appraisal on Tuesday.
+            The antique experts had a harsh appraisal of the value of my lunchbox collection.
+            I contacted a real estate appraisal institute when I wanted to sell my house.
+            John was looking for an honest appraisal of his skills.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/><pb>appraisal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="physical document" type="Entity">
+        <commentary>
+            The pieces of paper that show the results of an evaluation.
+        </commentary>
+        <examples>
+            At the end of the inspection, the car dealer handed me the appraisal.  
+            I stuck the appraisal in my pocket and walked out.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

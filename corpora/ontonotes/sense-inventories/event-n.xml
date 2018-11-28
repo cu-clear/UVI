@@ -1,0 +1,104 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="event-n">
+    <commentary>
+        7nov06 - update to wn2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a recognized social, purposeful gathering" type="">
+        <commentary>
+	    EVENT[+event][+activity][+demarcated][+temporally][+social][+gathering][+purposeful][+celebration/+competition/+entertainment]
+	    </commentary>
+        <examples>
+            The event is open to the public.
+            Her holiday open house is always -the- event of the season.
+            Parking for this event will cost $20.
+            John is competing in two different events in the nationals.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a happening or incident of human significance" type="">
+        <commentary>
+	    EVENT[+event][+occurrence][+incident][+meaningful][+social]
+	    happenings, incidents revolving around humans, having social significance
+	    </commentary>
+        <examples>
+            Events developed rapidly in the days following the president's admission of guilt.
+            This latest event in the Middle East has eclipsed the developing story in North Korea.
+            That unfortunate event at work was caused largely by John's inability to be discreet.
+            The years in France had included many of the happiest events of her life.
+            The CEO's sudden death from a heart attack was an unforeseen event.
+            These safety measures have reduced the incident of such events in the work place.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="any physical occurrence perceived by an observer" type="">
+        <commentary>
+	    EVENT[+event][+occurrence][+physical][+perceived]
+	    Note: these events do not revolve around human activity
+	    </commentary>
+        <examples>
+            The coin was tossed thirty times and 19 of the events were heads up.
+            This study reports on metabolic events in synchronized cell cultures of Acer pseudoplatanus L.
+            The event horizon defines a boundary surrounding a black hole past which no information can be accessed by an outside observer.
+            One consequence of special relativity is that two events appearing as simultaneous to one observer may appear at different times to another observer.
+            These tracks indicate events of high energy particles colliding with other particles.
+            Some significant geological event of the past caused the upthrust of this mountain chain.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="in case of" type="">
+        <commentary>
+            idiomatic usage
+            Note: functions as a quantifier adjunct to a noun
+        </commentary>
+        <examples>
+            In the event of fire, do not use the elevator.
+            The picnic will be postponed to next week in the event of rain.
+            In the event that an attack is launched, the defenders will have been significantly weakened by preceding air attacks. 
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="consequently" type="">
+        <commentary>
+            idiomatic usage
+            Note: functions as an adverbial phrase
+        </commentary>
+        <examples>
+            In any event, be sure to call us when you get there.
+            At all events, they decided to anchor the boat and wait out the storm.
+            In that event, the U.S. would incline towards a lifting of the arms embargo.  
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

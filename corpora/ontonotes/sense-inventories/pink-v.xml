@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pink-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make light tapping noises" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] PINK
+      </commentary>
+      <examples>
+      The car pinked when the ignition was too far retarded.
+      On road test, the engine pinked noticeably and lacked power going uphill.
+      Walsh's Vincent pinked audibly as he restarted after his fuel stop.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pink.01</pb>
+         <vn>sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cut in a zigzag pattern using pinking shears" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] PINK NP2[patient] (PP[instrument])
+      Often used adjectivally.      
+      </commentary>
+      <examples>
+      Seams of fine serge, broadcloth or smooth surface materials may be pinked on the edges.
+      A flannel lining with a pinked-out edge completed what had once been a lovely cover for baby.
+      Stitch the seam allowance YA" (6.4 mm) from the edge, then pink the edge.
+      Pink the edge of the extension if cloth does not fray.
+      Pink the edge with a pinking shears.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>pink.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="puncture with small holes" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PINK NP2[patient] (PP[instrument])
+      NP1[instrument] PINK NP2[patient]
+      NP1[agent] PINK NP2[theme] PP[location]
+      </commentary>
+      <examples>
+      I will pink your flesh full of holes with my rapier for this.
+      Who pinked the Dutchman in Utrecht?
+      4 small holes were pinked on the cup's bottom for gas exchange.
+      Has any gentleman present not pinked or been pinked on that debatable land?
+      She pinked the fencer.
+      I shouldn't be none s'prised if my bullet pinked him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pink.03</pb>
+         <vn>carve-21.2-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

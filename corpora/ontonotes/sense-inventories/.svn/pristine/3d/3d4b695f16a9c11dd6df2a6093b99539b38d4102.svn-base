@@ -1,0 +1,112 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="clear-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="remove block, impediments, or impurities to make unblocked or clean" type="">  
+      <commentary>
+        Note: This sense is broad, so please read the examples to get a sense of the range.
+        Syntax Includes: NP1 CLEAR NP2[patient]
+                         NP1[topic] CLEAR
+        Includes: CLEAR AWAY, CLEAR OFF, CLEAR OUT, CLEAR THE THROAT, CLEAR UP
+      </commentary>
+      <examples>
+        It took several hours to clear the road after the accident.
+        I'll make the coffee if you clear the table.
+        If you use nasal spray, your nose should clear a bit.
+        If you press this key, the computer screen will clear.
+        Are you sure you want to clear out your entire inbox?
+        On average it needed to lower prices to clear the overstock.
+        The suspect was cleared of the murder charges.
+        Sky cleared up after the storm.
+        The wind cleared the dusty road.
+        The skin will clear in a couple days.
+        Sam cleared his throat before speaking up.
+        Taking a walk around the park helps me clear my head.
+        I need to clear my name of this appalling and baseless slur.
+        I'll clear us a way through the crowd.
+        I spent the entire morning clearing the leaves from the front yard.
+        Is there anything that can be done to clear my name off this mortgage?
+        We have several solutions that will consolidate and clear your debts.
+        We cleared away the remaining last scrapts of rubbish on the floor.
+        Clear off or I'll go to the police!
+        She asked her husband to clear out of the apartment.  
+        The unidentified vessel suddenly cleared off from the radar.
+        Clear the way for the sea turtles on the beach!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,8,12,16,18,19,20,21,22,23,24</wn>   
+         <wn lemma="clear_away" version="3.0">1</wn>
+         <wn lemma="clear_off" version="3.0">1</wn>
+         <wn lemma="clear_out" version="3.0">1,2,3</wn>
+         <wn lemma="clear_the_throat" version="3.0">1</wn>
+         <wn lemma="clear_up" version="3.0">2,3,4</wn>
+         <omega/><pb>clear.01,clear.04</pb>
+         <vn>clear-10.3-1,free-80-1,other_cos-45.4,preparing-26.3-1,weather-57</vn><fn>Emptying,Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove confusion, ambiguities, or negative emotions" type="">
+      <commentary>
+        Includes: CLEAR THE AIR, CLEAR UP
+      </commentary>
+      <examples>
+        I know you only wanted to clear up your argument, but you started a whole new debate.
+        It made me feel honored that you took time to clear your point up.
+        The group called a meeting to finally clear the air.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="clear_the_air" version="3.0">1</wn>
+         <wn lemma="clear_up" version="3.0">1,2,5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="receive or satisfy official approval or authorization" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Content of the agenda for each meeting should be cleared by the chairman.
+        We have been cleared to take off, and we'll do so momentarily.
+        I don't know if I can get the car tonight. I'll have to clear it with Mom.
+        Make sure you really intend to cross over the border before you clear the customs.
+        The bill cleared the House without much opposition.
+        The check should clear in 2 business days.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,6,7,11,17</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>clear.02</pb>
+         <vn>NM</vn><fn>Verdict</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="move without touching or making contact" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The horse cleared over the fence with few inches to spare.
+        The pilot poured the coals to his charge and the plane cleared the trees.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="make profit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The company cleared their 1 million dollar mark, yesterday.
+        It cleared a profit of 2500 pounds per year.
+        With this side job, I can easily clear $5000 each month.
+      </examples>
+      <mappings>
+         <wn version="3.0">13,14,15</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+      </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

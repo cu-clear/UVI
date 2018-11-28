@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="impeach-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="try elected official for a crime, remove
+   official; accuse and try for a crime" type="">  
+      <commentary>
+        Syntax Is: NP1 IMPEACH NP2 (PP{of NP})
+      </commentary>
+      <examples>
+        They wanted to impeach the President for negotiating with
+        terrorists.
+        Yifang went ahead and impeached the corrupt official.
+        He was impeached of treason at the parliament.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>impeach.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="challenge the honesty or veracity of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The appellant's lawyer attempted to impeach the credibility of this evidence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>judgement-33</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

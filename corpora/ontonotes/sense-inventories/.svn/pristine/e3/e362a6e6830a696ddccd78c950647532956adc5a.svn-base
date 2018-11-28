@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rating-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="position" type="Event">
+        <commentary>
+            standing or position on a scale
+        </commentary>
+        <examples>
+            He gave Pizza Plus a rating of second best.
+            On a scale of 1 to 10, Fido earned a rating of eleven for squirrel chasing.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>rating.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="evaluation" type="Event">
+        <commentary>
+	    RATING[+event]
+	    act of ascertaining or fixing the value or worth of something
+	    </commentary>
+        <examples>
+            His rating of the local pizza shops took only two minutes.
+            The rating of the children in terms of smelliness took Fido only 3 minutes.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>rating.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="valuation" type="Event">
+        <commentary>
+            evaluation - 
+            an appraisal of the value of something
+        </commentary>
+        <examples>
+            He set a high rating on friendship.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="rank" type="Military">
+        <commentary>
+            pay grade - 
+            rank in a military organization
+        </commentary>
+        <examples>
+            Chris's rank was only that of flag officer.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

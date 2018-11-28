@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="commence-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) start" type="">  
+      <commentary>
+        Syntax Is: NP1 COMMENCE (NP2)
+      </commentary>
+      <examples>
+        They commenced as early as possible.
+        They commenced their work at dawn.
+        The U.S. commenced a war in the Middle East.
+        The afternoon session commences at 4 p.m.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>commence.01</pb>
+         <vn>begin-55.1-1</vn><fn>Process_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

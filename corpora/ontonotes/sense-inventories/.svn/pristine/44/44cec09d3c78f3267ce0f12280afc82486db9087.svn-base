@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="spell-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a mental state of being mesmerized, enchanted by something" type="">
+        <commentary>
+            SPELL[+state][+psychological][+mesmerized]
+        </commentary>
+        <examples>
+            The singer had the audience under her spell as she delivered the sultry tunes.
+            I was still under the spell of the film's breathtaking ending as I left the theater.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a magical incantation believed to have powers" type="">
+        <commentary>
+            SPELL[+event][+speech_act][+incantation][+with_power][+magical]
+        </commentary>
+        <examples>
+            The sorcerer cast a spell over the princess and turned her into a swan.
+            The witch gave him an amulet to ward off evil spells.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an indefinite span of time of some activity" type="">
+        <commentary>
+            SPELL[+span][+temporal][+indeterminate]
+        </commentary>
+        <examples>
+            They sat for a spell on the front porch and smoked their pipes.
+            We had a spell of bad weather last month.
+            Mary's recent spells of gardening have really improved the looks of her yard.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an attack of a medical affliction" type="">
+        <commentary>
+            SPELL[+event][+attack][+of_affliction][+medical]
+            Note: a narrow medical usage of Sense 3
+        </commentary>
+        <examples>
+            Grandma is having one of her spells again, better call the doctor.
+            The patient described his spells of dizziness.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

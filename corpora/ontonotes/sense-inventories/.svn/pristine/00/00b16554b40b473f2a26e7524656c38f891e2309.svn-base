@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="gentle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pacify, make gentle, soothe" type="">  
+      <commentary>
+Syntax includes:
+NP1[agent] GENTLE NP2[patient]
+NP1[patient] GENTLE
+      </commentary>
+      <examples>
+The alley cats turned out to be valuable purebreds once he gentled them.
+He gentled horses rather than breaking them by force.
+He gentled his tone and touched her face. 
+She gentled immediately and was willing right away to learn new stuff. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>gentle.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ennoble, give a title to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+* No examples found
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

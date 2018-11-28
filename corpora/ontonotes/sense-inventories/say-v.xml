@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="say-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="an agent expresses or communicates a concept through words" type="">
+      <commentary>
+         NP {+agent] SAY SComp/MP
+      </commentary>
+      <examples>
+         He said that he wanted to marry her.
+         He says he is innocent.
+         I say we forget the whole thing.
+         I said to forget the whole thing.
+         She said 'no' and left us standing there.
+         The teacher said the student had to go to the principal's office.
+         Will you please say grace for us?
+         We said farewell to our family and friends as we embarked on our mission.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,9,8,5,10</wn>
+         <wn lemma="say_farewell" version="3.0">1</wn>
+         <omega/><pb>say.01</pb>
+         <vn>say-37.7-1-1</vn>
+         <fn>Statement,Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to indicate something through a physical, non-verbal medium" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Jackson Pollock's paintings say nothing to me.
+         The clock said noon when they arrived at the inn.
+         Does the fuel gauge say empty?
+         His eyes said farewell.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,11</wn>
+         <wn lemma="say_farewell" version="3.0">1</wn>
+         <omega/><pb>say.01</pb>
+         <vn>indicate-78-1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="express a supposition; usually occurs with the expression 'let us'" type="">
+      <commentary>
+        (LET US) SAY SComp
+      </commentary>
+      <examples>
+         Let's say you had a lot of money--what would you do?
+         Let us say that Colonel Mustard committed the murder in the library with the candlestick.
+         Say you had a free ticket to Europe. Where would you go?
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>say.01</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="a written document's specific wording" type="">
+      <commentary>
+         NP [-animate] SAY NP/SComp
+      </commentary>
+      <examples>
+         Does that statute say anything about what constitutes malpractice?
+         The poker handbook says a flush beats a full house.
+         The article says the following about diving on Grand Cayman.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>say.01</pb>
+         <vn>NM</vn>
+         <fn>Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="physical act of articulating or pronouncing speech sounds" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         I can't say Danish vowels very well.
+         Try to say 'she sells sea shells by the sea shore' fast, three times.
+         Can that child say two-syllable words yet?
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>say.01</pb>
+         <vn>NM</vn><fn>Spelling_and_pronouncing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="out-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="reveal, be (made) known" type="">  
+      <commentary>
+        Syntax Is: NP1 OUT (NP2)
+      </commentary>
+      <examples>
+        Valerie Plame was outed by the Bush Administration as a CIA agent.
+        The truth will out!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>out.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="state publicly one's homosexuality" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The actor outed last year.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="enter a harbor" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The ship outed in Athens.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="out_in" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

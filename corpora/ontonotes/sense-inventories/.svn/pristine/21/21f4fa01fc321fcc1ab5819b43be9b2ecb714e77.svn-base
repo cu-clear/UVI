@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="struggle-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="strenuous effort in pursuit of a goal" type="">
+        <commentary>
+            STRUGGLE[+activity][+effort][+strenuous][+pursue][+goal]
+            Note: refers to a goal state, does -not- imply a zero-sum outcome (Sense 3)
+        </commentary>
+        <examples>
+            The book describes their arduous struggle for freedom from slavery.
+            It was a struggle to make oneself heard above all the noise.
+            Her struggles to become a ballerina did not succeed. 
+            The struggle to overcome AIDS and malaria will be a long one.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb>struggle.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a physical tussle" type="">
+        <commentary>
+            STRUGGLE[+activity][+fight][+physical][+tussle]
+            Note: refers to instance of a physical fight or tussle
+        </commentary>
+        <examples>
+            The gun must have gone off during their struggle.
+            The children's quarrel over the toy ended in a struggle on the floor.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>struggle.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="fierce contest, rivalry" type="">
+        <commentary>
+            STRUGGLE[+contest][+zero_sum][+fierce]
+            Note: implies winners and losers in the outcome (different from Sense 1)
+        </commentary>
+        <examples>
+            A power struggle was going on among the highest-ranking political appointees.
+            How many people did he step on in his struggle up the corporate ladder?
+            The history of evolution is a struggle for survival of the fittest.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

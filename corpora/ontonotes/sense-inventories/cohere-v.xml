@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cohere-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Literally stick together." type="">  
+      <commentary>
+      Syntax Includes: NP1[theme[concrete]] COHERE
+      </commentary>
+      <examples>
+      The sushi rice grains cohere.
+      The fabric coheres together into a single piece.
+      All of the granules cohere to form a blob. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Form an aesthetic or conceptual whole." type="">
+      <commentary>
+      Syntax Includes: NP1[theme[abstract]] COHERE
+      </commentary>
+      <examples>
+      There are principles by which society coheres.
+      Religion can cohere social groups.
+      As fashion, that outfit really coheres.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cohere.01</pb>
+         <vn>settle-89</vn><fn>Compatibility</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

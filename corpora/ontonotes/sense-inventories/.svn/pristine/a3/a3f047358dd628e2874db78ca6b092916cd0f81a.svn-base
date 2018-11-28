@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rebound-v">    
+   <commentary>
+	No VPCS for verb
+   </commentary>
+   <sense group="1" n="1" name="bounce, recoil" type="">  
+      <commentary>
+	Syntax Is: NP1[topic] REBOUND PP[locative]
+      </commentary>
+      <examples>
+	The basketball rebounded from the rim of the hoop.
+	His strong-arm tactics have rebounded on him. (figurative, backfired)
+	He hit a long drive out to center field, it hit the wall and rebounded for a double.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>rebound.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="recover, return to former state" type="">
+      <commentary>
+	Syntax Is: NP1[topic] REBOUND PP
+      </commentary>
+      <examples>
+	Stocks rebounded on strong earnings reports today.
+	John hasn't fully rebounded from his breakup with Betty.
+	The child rebounded quickly after his surgery.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>rebound.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

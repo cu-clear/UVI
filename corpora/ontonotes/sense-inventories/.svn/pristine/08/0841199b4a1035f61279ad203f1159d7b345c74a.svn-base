@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="deflate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="collapse by releasing air from" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] DEFLATE NP2[patient[concrete]]
+        NP1[patient[concrete]] DEFLATE
+      </commentary>
+      <examples>
+        Please deflate the air mattress for me.
+        Some punk kid deflated all my tires!
+        The balloon deflated.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deflate.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reduce the size or importance of" type="">
+      <commentary>
+        Syntax Is:
+        NP1 DEFLATE NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        Maybe that bad review will deflate his ego.
+        Has the president deflated the outrage?
+        All the bullying in elementary school deflated her self-confidence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deflate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause or produce deflation" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The new measures deflated the economy.
+        Bankruptcy deflated the market that Eurokot was formed to fill.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deflate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

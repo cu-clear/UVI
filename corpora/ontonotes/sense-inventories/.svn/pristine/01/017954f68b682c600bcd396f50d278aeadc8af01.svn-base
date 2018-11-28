@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="involve-v">
+   <commentary>
+   </commentary> 
+   <sense group="1" n="1" name="engage,cause participation with" type="">
+      <commentary>
+       Syntax Is: NP1[agent] INVOLVE NP2[patient]
+      </commentary>
+      <examples>
+        That ruling involved the company in years of litigation.
+	Don't involve me in your family affairs.
+        His story completely involved me during the entire afternoon.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,2,6</wn>
+	 <omega/><pb>NM</pb>
+         <vn>involve-107</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="include,entail" type="">
+      <commentary>
+        Syntax Is: NP1[topic] INVOLVE NP2[attribute]
+      </commentary>
+      <examples>
+        This decision involves many changes.
+        Success usually involves hard work.
+        Dinner at Mary's slways involved cocktails before and brandy and cigars afterwards.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3,4,5</wn>
+	 <omega/><pb>involve.01</pb>
+         <vn>require-103,relate-86.2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,clarklm,corvey,greenlm" sample_score="-"/>
+</inventory>

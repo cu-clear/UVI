@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="will-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Desire to have something
+   done, with or without the authority to order it done." type="">  
+      <commentary>
+        Syntax is: NP1[agent] WILL [goal]
+      </commentary>
+      <examples>
+        I willed it to be done.
+        King Henry willed it that those decorations should be splendid that year.
+        We willed the sun to come out.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>will.02</pb>
+         <vn>NM</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Leave to someone after one's death." type="">
+      <commentary>
+        Syntax is: NP1[agent[human]] WILL NP2[patient[concrete]] PP{to NP[recipient]}
+                   NP1[agent[human]] WILL NP3[recipient] NP2[patient[concrete]] 
+      </commentary>
+      <examples>
+        Will daughters have equal rights if father willed the property to sons?
+        Mrs. Crane willed her estate to the city.
+        My grandfather willed all his art to me.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>will.01</pb>
+         <vn>future_having-13.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

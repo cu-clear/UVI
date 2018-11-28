@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="volunteer-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give or do freely and willingly" type="">
+      <commentary>
+        NOTE: compare carefully to sense 2; in this sense, the things
+              being given or action being done MUST be stated except in
+              reference to a quotation as in the last sentence of this
+              sense. The quotation can also be implied as in sentence 5.
+        NOTE: Includes volunteering information.
+      </commentary>
+      <examples>
+        He volunteered his time to translate these papers into French/Francais. 
+        You can use our services without having to volunteer any information about yourself.
+        WOAI caught recruiters volunteering to help recruits ace the drug test at home.
+        Just because we volunteered for the military doesn't mean we volunteered to put our lives in unnecessary harm.
+        They volunteered that the queen would really like cake.
+        'I know who drove their car into your flowerbed, Mr. Beatty,' Jimmy volunteered.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>volunteer.01</pb>
+         <vn>captain-29.8,say-37.7-1,say-37.7-1-1</vn><fn>Commitment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="work in charity" type="">
+      <commentary>
+        NOTE: This is general volunteering as an activity; no activity or gift is mentioned.
+      </commentary>
+      <examples>
+        I volunteer on the weekends.
+        She often volunteers at the hospital.
+        I've been volunteering for many years - I started as a way to help with my shyness.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>volunteer.01</pb>
+         <vn>captain-29.8</vn><fn>Commitment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="nominate someone for a task" type="">
+      <commentary>
+        Syntax is: NP1[agent] VOLUNTEER NP2[human] (PP)
+      </commentary>
+      <examples>
+        He wasn't happy when Major Sheppard volunteered him to help the Hoffans without asking him first.
+        Steve's colleagues unanimously volunteered him and he didn't duck.
+        Jackie volunteered her secretary to help call students. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>volunteer-95.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,corvey" sample_score="-"/>
+</inventory>

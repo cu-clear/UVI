@@ -1,0 +1,114 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transport-n">
+    <commentary>
+        22jan07. update to wn2.1, added features. ahouston
+        22jan07 separated wn 3 from Sense 1 and created Sense 5. ahouston
+        22jan07  added Sense 6. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="act of moving or conveying something" type="Event">
+        <commentary>
+	    TRANSPORT[+event][+action][+movement][+transferral][+delivery]
+	    Refers to the act of moving something from one place to another.
+	    Note: nominalization; the transfer of X{+patient} by Y{agent}
+	    </commentary>
+        <examples>
+            The transport of goods between our cities has gone uninterrupted for centuries.
+            His transport to the hospital via helicopter cost several thousand dollars.
+            The membrane wall allows active transport of chemical substances into the cell nucleus.
+            The treaty guarantees free and unhindered transport of crude oil from the region.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="vehicle, apparatus or instrument of conveyance" type="Entity">
+        <commentary>
+            TRANSPORT[+entity][+artifact][+conveyance][+vehicle]
+            Something that serves as a means of transportation.
+            Note: refers to an object that carries something from one place to another.
+        </commentary>
+        <examples>
+            The Americans built a fleet of transports to move their marines and tanks across the ocean.
+            The Concorde was a supersonic transport.
+            The rebels attacked a column of transport trucks.
+            Her usual transport to the campus was an old red bicycle.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="State of happiness" type="">
+        <commentary>
+            TRANSPORT[+state][+emotional][+happiness][+extreme]
+            An old-fashioned way of describing an overwhelming positive emotion.
+        </commentary>
+        <examples>
+            Listening to the music put young Oliver into transports of joy.  
+            The magician's tricks sent the children into transports of delight.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Tape player part" type="Entity">
+        <commentary>
+            TRANSPORT[+entity][+artifact][+drive][+tape][+magnetic]
+            A mechanism that transports magnetic tape across the read/write heads of a tape playback/recorder.
+        </commentary>
+        <examples>
+            John snapped the transport and disabled the whole tape player!
+            The transport feeds the magnetic tape through the read/write head.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a system, method or enterprise that provides conveyance" type="">
+        <commentary>
+            TRANSPORT[+system][+technology][+transportation]
+            Note: refers to the system at large, not a particular vehicle (Sense 2) or act of transport (Sense 1)
+        </commentary>
+        <examples>
+            London has undergone renovations on its underground transport system. 
+            John worked in the transport industry after graduating with a Linguistics degree
+            You'll need your own means of transport to get to this job. (some method, system)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="convicts in transit" type="">
+        <commentary>
+            TRANSPORT[+entity][+person][+convict][+transiting]
+            Note: refers to a person who is a prisoner, convict
+        </commentary>
+        <examples>
+            These transports are being shipped to a maximum security prison outside Tulsa.
+            A convict escaped while being a transport en route to a federal prison.
+        </examples>
+        <mappings>
+            <wn version="MW online">
+                4
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

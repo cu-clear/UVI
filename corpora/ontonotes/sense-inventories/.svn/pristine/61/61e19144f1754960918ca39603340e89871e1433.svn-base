@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="broadcast-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="transmission of a signal from a point source to a sourrounding radius" type="Event">
+        <commentary>
+            BROADCAST[+event][+communication][+transmission][+of_signal][+from_point_source][+to_surrounding_radius]
+        </commentary>
+        <examples>
+            This communication technology relies on polling from client nodes, rather than a broadcast from a central hub.
+            Sally's broadcast of Jane's office romance with John caused a major stir.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>broadcast.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="program content that is electronically transmitted" type="Event">
+        <commentary>
+            BROADCAST[+information][+content][+program][+transmitted][+electronically]
+        </commentary>
+        <examples>
+            Few people heard his news broadcast last night.
+            The broadcast is being cancelled after only one season because of low ratings.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>broadcast.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

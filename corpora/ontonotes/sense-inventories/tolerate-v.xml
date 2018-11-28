@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tolerate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put up with something or someone (unpleasant)" type="">  
+      <commentary>
+        Syntax is: NP1[agent] TOLERATE NP2[concrete]
+                   NP1[agent] TOLERATE NP2[abstract]
+      </commentary>
+      <examples>
+        I will not tolerate acting out in this classroom!
+        Shiloh could not tolerate high heels.
+        He tolerated her bad jokes because she was smart.
+        The president could barely tolerate the people's ignorance.
+        My grandmother tolerates the high HOA fees for the beautiful neighborhood.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tolerate.01</pb>
+         <vn>admire-31.2, allow-64</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="recognize and respect rights and beliefs" type="">
+      <commentary>
+        Syntax is: NP1[agent] TOLERATE NP2[abstract]
+        NOTE: Compare to sense 1. In this sense the NP2 is not an
+        inherantly unpleasant activity.
+      </commentary>
+      <examples>
+        We must tolerate all religious beliefs.
+        This school tolerates all races, genders and creeds.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

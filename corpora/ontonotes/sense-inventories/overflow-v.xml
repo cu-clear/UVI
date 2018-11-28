@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="overflow-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="brim over" type="">  
+      <commentary>
+        Syntax Is: NP1[inanimate] OVERFLOW (with) (NP2)
+      </commentary>
+      <examples>
+        Booths overflowed with Teddy bears, dolls, and music boxes.
+        The trash can overflowed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>overflow.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bubble over with a certain feeling" type="">
+      <commentary>
+        Syntax Is: NP1[experiencer] OVERFLOW WITH NP2
+      </commentary>
+      <examples>
+        His heart overflowed with kindness.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

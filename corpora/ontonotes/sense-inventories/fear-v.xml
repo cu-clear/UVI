@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fear-v">    
+   <commentary>
+	No VPCs to add
+        Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="feel scared, in danger, or frightened" type="">  
+      <commentary>
+	Syntax Is: NP1[experiencer] FEAR NP2[stimulus]
+        Note: This sense implies a more specific version of sense 2. That is, one who is 
+        scared or frightened will most likely also be anxious, uneasy or apprehensive about 
+        the very thing they fear. But this sense implies feeling scared and in danger, 
+        which second sense lacks.
+      </commentary>
+      <examples>
+	That child greatly fears dogs.
+	Do you think the suicide bomber feared her death?
+	Bob has always feared his mother's alcoholic rages.
+        We huddled together, fearing we might be killed.
+       </examples>    
+       <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>fear.01</pb>
+         <vn>admire-31.2-1</vn><fn>Experiencer_subj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="feel anxious, concerned, uneasy, or apprehensive about" type="">
+      <commentary>
+	Syntax Is: NP1[experiencer] FEAR [stimulus]
+	Note: implies an ongoing low-grade contemplative anxiety. See note in sense 1.
+      </commentary>
+      <examples>
+	She fears her son is not doing his assignments on time.
+	Some fear that a sharp decline in real estate prices is coming.
+	John fears his roof may not last another winter.
+	These companies fear increased competition from overseas.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>
+         <omega/><pb>fear.01</pb>
+         <vn>admire-31.2-1,marvel-31.3-3</vn><fn>Experiencer_subj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="regard with feelings of reverence or respect" type="">
+      <commentary>
+        Note: Use: Generally this sense is used in relation to a deity or a position of power/honor.
+      </commentary>
+      <examples>
+        She was taught by her grandmother to fear the kitchen god.
+        The men quickly learned to fear the King, for they saw in him god's own wisdom and judgement.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>fear.01</pb>
+         <vn>admire-31.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="be sorry about or regret" type="">  
+      <commentary>
+	Syntax Is: NP1[experiencer] FEAR [stimulus]
+	Note: an expression of regret or apology.
+      </commentary>
+      <examples>
+	I fear I left my passport in the top drawer of my desk.
+	I'll buy her book, but I fear it won't be the hardback version.
+	Mary said she feared all there was to serve us were some cold leftovers.
+	I fear my favorite old shoes have finally worn out.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>  
+</inventory>

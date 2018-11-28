@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="yaw-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be wide open; gape" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] YAW (PP[location])
+      NP1[agent] YAW NP2[patient] PP[location]
+      </commentary>
+      <examples>
+      A canyon yawed between myself and the two.
+      The black hole yawed before me and I sank ever deeper into the abyss.
+      He had the persistent sense that a vast chasm was yawing just past his toes.
+      I may have foolishly yawed the chasm between us even further.
+      That old horse's mouth yawed open before him again.
+      The younger man's mouth yawed grotesquely wide.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>yaw.01</pb>
+         <vn>spatial_configuration-47.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="swerve off course" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme]
+      </commentary>
+      <examples>
+      The ship yawed when the huge waves hit it.
+      They were heading north on Thornton, approaching a curve, when the car began to yaw.
+      Edwards' crew chief Bob Osborne was yawing the car out to the right.
+      The broom stumbled and pitched, rolled and yawed.
+      The Drakon yawed as the seawater pounded into the stern, lifting the nose.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>yaw.02</pb>
+         <vn>run-51.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

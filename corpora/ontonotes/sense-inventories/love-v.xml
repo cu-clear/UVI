@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="love-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="have a great affection, liking, or desire for" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] LOVE NP2
+        NP1[agent[human]] LOVE COMP
+      </commentary>
+      <examples>
+        I love you.
+        Last night he told me he loved me.
+        I'm sure he loves his kids.
+        She loves animals.
+        I absolutely love chocolate.
+        He really loves his job.
+        I love cooking.
+        I'd love a cup of coffee if you're making one.
+        I'd love for you to come to dinner tonight.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <omega/><pb>love.01,love.02</pb>
+         <vn>admire-31.2-1</vn><fn>Experiencer_subj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="thrive on, tend to, have the need" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 LOVE NP2
+        NP1 LOVE COMP
+        Note: NP1 is non-human.
+      </commentary>
+      <examples>
+        The cactus loves hot, dry air.
+        My car absolutely loves highways.
+        This insect loves hiding in dark places.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="have sexual intercourse with" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Lord, we loved all night the day before he left for Vietnam. 
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

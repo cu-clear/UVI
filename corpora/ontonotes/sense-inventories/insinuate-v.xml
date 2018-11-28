@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="insinuate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="introduce or become involved covertly" type="">  
+      <commentary>
+        Syntax Is: NP1[theme] INSINUATE INTO NP2[location]
+      </commentary>
+      <examples>
+        He insinuated himself into the conversation.
+        The doctors were insinuated into each resident's continuity clinic.
+        The government insinuated spies into the factory.
+        The new drug law was insinuated into the legislative process.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hint at slyly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I insinuated that I wasn't ready to move in with my boyfriend.
+        Martin insinuated that he didn't like my cat.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>insinuate.01</pb>
+         <vn>say-37.7</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

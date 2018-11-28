@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wed-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="take in marriage; perform a marriage ceremony" type="">  
+      <commentary>
+        NP1[+agent] WED NP2 (to) (NP3)
+      </commentary>
+      <examples>
+        They were wed in the Chapel Royal.
+        Mary wedded John last week.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wed.01</pb>
+         <vn>amalgamate-22.2-3-1-1</vn><fn>Forming_relationships</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="unite things" type="">
+      <commentary>
+        Note: Compare to Sense 1. This sense includes metaphorical uses only.
+      </commentary>
+      <examples>
+        Both guests seemed wedded to the ideas they had prior to the
+        speech.
+        He wedded the ideas of classical physics with the new Darwinian
+        history of nature.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

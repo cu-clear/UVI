@@ -1,0 +1,119 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="year-n">
+    <commentary>10dec08 added 6 additional senses, teased apart S1, added features. ahouston
+        7Jan09 - merged S2 with S1. ahouston
+    </commentary>
+    <sense group="1" n="1" name="a cyclical span of time defined by a calendar system" type="">
+        <commentary>YEAR[+span][+temporal][+cycle][+demarcated][+by_calendar]
+            Note: refers to any calendar date system, including those of different cultures and religions.
+        </commentary>
+        <examples>2009 is not a leap year.
+            A man first walked on the moon in the year 1968.
+            Pete replaced his car battery every three years.  (three consecutive calendar years)
+            What year were you born?
+            There is free bus service on campus during the school year, but not during the summer recess.
+            Our company's fiscal year ends in June.  (bookkeeping activity)
+            Political passions run high during an election year.
+            The Chinese new year begins on a different day than the new year on the Gregorian calendar.
+            John made a lot of money last year.
+            It's the fourth year in a row they've won the tournament.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="Placeholder: Do Not Choose" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="">Placeholder Sense</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="time for one full rotation of planet around a sun" type="">
+        <commentary>YEAR[+span][+temporal][+for_rotation][+one][+of_planet][+around_sun]
+            Note: choose this sense when a planet's rotation around a star is referred to.
+        </commentary>
+        <examples>An astronomical earth year is slightly longer than 365 days.	
+            A Martian year takes 687 of our earth days.
+            The sidereal year of earth is 20 minutes longer than the astronomical year because of precession.
+            Once a year the earth passes through the Leonids comet stream which produces a big meteor shower.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a group of students in the same class level" type="">
+        <commentary>YEAR[+collection][+people][+students][+of_same_class_level]</commentary><examples>John and Pete were in the same year at medical school.
+            Johnny is two years ahead of his sister in elementary school.
+            This year's new graduate students are an especially talented group.
+            Bob is a second year at Wharton.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="a temporal identifier of a class of products, often wine" type="">
+        <commentary>YEAR[+information][+temporal][+identifier][+of_class][+of_product]
+            Note: Choose this sense when 'year' identifies a set of products created in that timeframe
+            Note: For phrases such as 'last year, he planted wheat in that field' choose Sense1 because 'year' in this case does not directly modify a product or crop.
+        </commentary>
+        <examples>2005 was an exceptional vintage year for Bordeaux.
+            Last year's models of cars are all on sale now.
+            All the domestic cars from that year were required to have air bags.
+        </examples>
+        <mappings>
+            <wn version="MAC">2b</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="an approximate, informal measure of a long time" type="">
+        <commentary>YEAR[+quantity][+approximate][+time_span][+long]
+            Choose this sense for a vague time span; 'year' will be in the plural and have no specific quantifiers, e.g., 'three' 'one'
+            Choose Sense 1 for phrases such as 'four years ago'  'last year', these use specific quantifiers.
+        </commentary>
+        <examples>The old library burned down years and years ago.
+            It'll take years to dig out of this financial mess.
+            For many years the two brothers were not on speaking terms.
+            Some years ago there was a big fire on Main Street. ('some' 'many' are general, not specific quantifiers on 'year')
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="the age of a person or thing" type="">
+        <commentary>YEAR[+quantity][+age][+of_something]
+            Note: most often occurs in the plural.
+        </commentary>
+        <examples>The boy seemed wise beyond his twelve years.
+            Mary's daughter is three years old.
+            This beauty product will take ten years off your age!  (you will appear to be a younger age)
+            The constant stress of the job had added years to his appearance.  (his apparent age)
+            That house is one hundred years old.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="something done repetitiously or continuously" type="">
+        <commentary>Idiom: year_in_and_year_out</commentary><examples>They rented the same beach cottage year in and year out.
+            Mary was growing tired of the same old routine at work year in and year out.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

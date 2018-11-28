@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="price-n">
+    <commentary>
+        Note: WordNet sense 7 omitted; proper name 'Leontyne Price'
+    </commentary>
+    <sense group="1" n="1" name="cost or monetary value of goods or services" type="">
+        <commentary>
+            +quantity +exchange_value
+            PRICE of NP -&gt; NP's[+good/+service] PRICE[+exchange_value]
+        </commentary>
+        <examples>
+            The price of gasoline has soured in recent months.
+            I don't know the prices of these two fur coats.
+            The museum would not sell its Dutch Masters collection for any price.
+            The cattle thief has a price on his head in three states.
+            They say that every politician has a price.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,1,4,5,6</wn>
+            <omega/><pb>price.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="sacrifice or toll required to achieve something" type="">
+        <commentary>
+            +effort +adverse(usually)
+            PRICE[+effort]  PREP(of/for)/SCOMP NP[+goal/+result]
+        </commentary>
+        <examples>
+            John has paid a high price for his risky life style.
+            The army is paying a significant price in casualties to occupy the city.
+            The price of fame was more than Mary imagined.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>price.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

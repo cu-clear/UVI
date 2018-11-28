@@ -1,0 +1,141 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pull-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of tugging something" type="Event">
+        <commentary>
+            PULL[+event][+physical][+tugging][+intentional]
+            Note: implies an agent connected to a patient and intentionally applying force
+        </commentary>
+        <examples>
+            She grabbed each carrot by its top and gave it a quick pull from the ground.
+            He didn't feel the pull of his molar because of the novocain. 
+            The barge scheduled a pull from the tugboat down harbor.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>pull.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a natural physical force of drawing towards something" type="Event">
+        <commentary>
+            PULL[+force][+physical][+drawing_toward][+natural]
+            Note: does not imply intentionality (Sense 1)
+        </commentary>
+        <examples>
+            The tides are caused by the pull of the moon.
+            The swimmer was carried out to sea by the pull of the strong undertow.
+            That pull you feel to the side is the boat heeling in the strong breeze.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>pull.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="having a strong attraction to something" type="Event">
+        <commentary>
+            PULL[+state][+mental][+attitude][+attraction]
+        </commentary>
+        <examples>
+            One of the pulls of the city for the villagers is the opportunity of finding work.
+            The pull of glamor and danger no longer tempted him as it once had in his youth.
+            He feared she would finally succumb to the pull of her family and traditions and decline his marriage proposal
+        </examples>
+        <mappings>
+            <wn version="MAC">2a,b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="having social clout or influence" type="">
+        <commentary>
+            PULL[+state][+social][+status][+influence][+clout]
+        </commentary>
+        <examples>
+            He has a lot of pull with the Democratic party bosses in Chicago.
+            They cannot succeed without the political pull of the mayor's office.
+            John has some pull in Hollywood and can get you an interview with an agent.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a handle or hold" type="">
+        <commentary>
+            PULL[+artifact][+device][+handle]
+        </commentary>
+        <examples>
+            Mary bought antique wrought-iron drawer pulls for her bedroom set.
+            John wanted a sleek look in his remodeled kitchen, so the cabinets have no pulls.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a painful muscle wrench or twist" type="">
+        <commentary>
+            PULL[+event][+physical][+wrench][+painful][+of_muscle]
+        </commentary>
+        <examples>
+            Bob is taking a painkiller for a pull in his lower back.
+            If you feel a pull in your calf, grab your toes and gently stretch the leg out.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="slow ingestion of liquid or smoke" type="Event">
+        <commentary>
+            PULL[+event][+physical][+ingestion][+slow]
+            Note: can refer to either ingesting smoke or liquid
+        </commentary>
+        <examples>
+            The professor took a long pull from his pipe.
+            The sailor took another pull from the whiskey flask before passing it to the next man.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a sustained effort to do something" type="">
+        <commentary>
+            PULL[+event][+effort][+sustained]
+        </commentary>
+        <examples>
+            It's been a long pull to sell our old house and move into the new one.
+            It's a long pull between Cape May and Block Island, but we sailed it in one stretch.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

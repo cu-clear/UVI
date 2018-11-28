@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="attempt-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of endeavoring to accomplish something" type="">
+        <commentary>
+            ATTEMPT[+activity][+endeavor][-completive]
+            ATTEMPT  VCOMP  (this sense is often followed by a more substantive verbal complement)
+            Note: this sense functions almost like a modal verb, indicating possibility, not certainty
+            Note: the focus is on the process of the endeavor.
+        </commentary>
+        <examples>
+            Their attempts to bring peace to the Middle East have not succeeded.
+            The girl made no attempt to apologize for her rude conduct at the party.
+            Our attempts to grow tomatoes this season resulted in four tiny green balls on one plant.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>attempt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a specific or circumscribed intentional endeavor" type="">
+        <commentary>
+            ATTEMPT[+activity][+endeavor][+completive]
+            Note: the focus is on the completion of a circumscribed act, not the ongoing process of it. 
+            Note: this sense often followed by PP, not a Verbal Complement, as in Sense 1
+        </commentary>
+        <examples>
+            His third attempt of Everest ended in tragedy.
+            Last night an attempt was made on the life of the French ambassador.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>attempt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a tangible work, an opus" type="">
+        <commentary>
+            ATTEMPT[+entity][+tangible][+result][+opus]
+            Note: implies a tangible object, the result of purposeful activity
+        </commentary>
+        <examples>
+            Beethoven discarded many early attempts at his symphonies.
+            This drawing is John's first attempt with pastels.
+            My last attempt at a letter to the senator also ended up in the waste basket.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb>attempt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

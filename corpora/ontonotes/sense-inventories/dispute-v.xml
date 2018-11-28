@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dispute-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="challenge" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DISPUTE NP2[topic]
+      </commentary>
+      <examples>
+        He disputed the argument that some have advanced that search engines benefit from click fraud.
+        Khalid Mahomoud disputed that AK-47 training represented terrorism.
+        She disputed the drainage test done by staff as inadequate.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>dispute.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="argue" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DISPUTE 
+        NP1[agent] (with-PP) DISPUTE PP
+        NP1[agent] DISPUTE NP2[topic]
+      </commentary>
+      <examples>
+        He disputed that the terms and conditions were not sufficiently clear.
+        The soldiers disputed amongst themselves over who was the most courageous.
+        Two birds disputed about a kernel, when a third swooped down and carried it off.
+        Poseidon disputed with Athena for possession of Athenian Acropolis.
+        Defense experts disputed the causes of the child's cognitive and behavioral difficulties.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>dispute.01</pb>
+         <vn>battle-36.4-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="condition-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Establish a conditioned response; train by
+ instruction or practice." type="">  
+      <commentary>
+     Syntax Includes:
+      NP1 CONDITION NP2 to NP3 
+      NP1 CONDITION NP2
+      </commentary>
+      <examples>
+      The store conditioned us to wait in line.
+      Training camp conditioned the athletes for play.
+      Pavlov's experiments conditioned dogs to respond to stimuli.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>condition.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Specify as a requirement of a process, contract or agreement." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The success of the legislation is conditioned by their desire to see
+      it pass.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>condition.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Put into a better state." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Harry conditions old cars. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Apply conditioner to make smooth and shiny." type="">
+      <commentary>
+      NOTE: Specific to hair; for all other uses, use Sense 3.
+      </commentary>
+      <examples>
+      I condition my hair after washing it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>braid-41.2.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

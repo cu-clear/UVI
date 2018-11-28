@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="found-v">    
+   <commentary>
+     No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="create, set up or initiate something" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FOUND NP2[patient]
+      </commentary>
+      <examples> 
+	The charitable organization was founded in 1972.
+	He has founded many after-school programs for children in Detroit.
+	The decision of whether or not to found a new federal department is still under discussion.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>found.01</pb>
+         <vn>establish-55.5-1</vn><fn>Intentionally_create</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="provide grounds or support for" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FOUND NP2[product] ON NP3[material]
+      </commentary>
+      <examples>
+       	This argument is not founded on facts, only opinions.
+	She is founding her decision to demote him based on his last two reviews.
+	The film is founded on a thorough understanding of blue-water sailing on a small craft.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>found.01</pb>
+         <vn>base-97.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="melt metal and pour into a mold" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FOUND NP2[patient]
+      </commentary>
+      <examples>
+       	John has a scar from a burn he got founding copper in an artisan's co-op.
+	When did early civilizations begin founding metals for tools and weaponry?
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

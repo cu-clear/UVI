@@ -1,0 +1,29 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lecture-v">
+   <commentary>
+     Syntax Is: NP1[agent[animate]] LECTURE PP
+   </commentary>
+   <sense group="1" n="1" name="deliver a formal talk or reprimand at length" type="">
+      <commentary>
+         Syntax Is:      
+         NP1[agent[animate]] LECTURE (NP2[patient[animate]]) (PP{P NP[topic]})
+         NOTE:[animate] includes institutions which are presumed to me
+         made up of animate being; Preposition is usually on/about.
+      </commentary>
+      <examples>
+        He lectured to professional groups across Europe.
+        She will be lecturing on differential calculus this semester.
+        He lectured at Purdue University for 34 years.
+        The officer lectured them, then let them go with just a warning.
+        My father lectured me for hours on the dangers of smoking.
+        I've lectured my students on the need to put more effort into these
+        essays.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lecture.01</pb>
+         <vn>lecture-37.11-1</vn><fn>speak_on_topic</fn>
+         </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm" sample_score="-"/>
+</inventory>

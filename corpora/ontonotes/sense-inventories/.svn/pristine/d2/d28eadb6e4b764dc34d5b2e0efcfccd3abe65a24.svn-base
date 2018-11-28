@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cooperate-v">    
+   <commentary>
+	No VPC to add
+	apparently monosemous
+   </commentary>
+   <sense group="1" n="1" name="work with willingly, collaborate" type="">  
+      <commentary>
+     Syntax Is:	
+      NP1[actor] COOPERATE (NP2[actor])
+      NP1[agent] COOPTERATE NP2[benificiary]
+      </commentary>
+      <examples>
+        He cooperated fully with the authorities.
+	The two nations have never been able to cooperate on a border policy.
+	These departments need to cooperate on the war against terrorism.
+	We can't force the parties to cooperate.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>cooperate.01</pb>
+         <vn>correspond-36.1,cooperate-73-1</vn>
+         <fn>Collaboration</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

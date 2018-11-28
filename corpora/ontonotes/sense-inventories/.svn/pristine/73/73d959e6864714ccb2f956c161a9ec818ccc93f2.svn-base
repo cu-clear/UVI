@@ -1,0 +1,143 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="master-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a great artist" type="">
+        <commentary>
+            MASTER[+entity][+person][+artist][+great]
+            Note: a narrow, specific usage of Sense 2
+            Note: refers to great individuals in the arts.
+        </commentary>
+        <examples>
+            The works of the great masters are found in museums around the world.
+            The art students were copying works of the masters.
+            This old master sold at auction for more than ten million dollars. (work of a master)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a highly skilled practitioner of some endeavor" type="">
+        <commentary>
+            MASTER[+entity][+person][+practitioner][+skilled]
+            Note: refers to anyone who is highly skilled or accomplished at something.
+        </commentary>
+        <examples>
+            The chess master played ten simultaneous games against amateurs.
+            This British author is a master of innuendo and suspense.
+            We complimented the master chef on his fabulous seasonal menu.
+            The bank robber was a master of disguise.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a ruler, one who dominates, controls" type="">
+        <commentary>
+            MASTER[+entity][+person][+ruler]
+            Note: implies overall authority, dominance, power of someone
+        </commentary>
+        <examples>
+            The master gave his slaves their freedom.
+            The dog disobeyed his master and chased the cat across the yard.
+            You need to become master of this situation.
+            The British navy was master of the seas in the 19th century.
+            Captain Smith is the master of a merchant vessel. (in command)
+            The young bond traders considered themselves to be masters of the universe.
+            It's a sci-fi film about a master race from Alpha Centauri who colonize Mars.
+            Who is the master of the house? (archaic usage: 'your home is your castle' idea)
+            Each of us should be the master of our own destiny.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="appointed manager or overseer" type="">
+        <commentary>
+            MASTER[+entity][+person][+manager][+appointed]
+            Note: implies appointment to the role, often temporary and/or specific to a task.
+        </commentary>
+        <examples>
+            After twenty years of teaching, Mr. Jones finally became master of the school.
+            The recruits thought their drill master was very tough on them.
+            The sailing master is in charge of the ship's navigation.
+            Who is our master of ceremonies this evening?
+            Pierre is the cellar master for a famous Bordeaux winery.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an academic rank, scholar with this rank" type="">
+        <commentary>
+            MASTER[+relation][+rank][+academic]
+            [+entity][+person][+scholar]
+        </commentary>
+        <examples>
+            Mary is earning her master's in engineering.
+            Bob has a master of science from a prestigious university.
+            They are masters candidates, but are not in the Ph.D program.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="an original form which can be replicated" type="">
+        <commentary>
+            MASTER[+entity][+artifact][+media][+original][+replicable]
+            Note: refers to original media that can be duplicated.
+        </commentary>
+        <examples>
+            The master copy of the film has been destroyed in a fire.
+            I can make you some duplicates from my master.
+            Only 200 prints will be made off the master.
+            John made a second key from his master. (here, it refers to duplicating, not a universal access passkey)
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a controlling device" type="">
+        <commentary>
+            MASTER[+entity][+artifact][+device][+controlling]
+            Note: refers to devices with a primary, controlling or sometimes universal function
+        </commentary>
+        <examples>
+            The janitor has the only master key to the building. (universal access)
+            If we had the master I could unlock this door, but I have only a key to my office.
+            The master cylinder has a crack in it. 
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

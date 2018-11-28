@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="brainwash-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="submit to brainwashing; persuade completely" type="">  
+      <commentary>
+        NP1[+agent] BRAINWAH NP2[+patient]
+      </commentary>
+      <examples>
+        Hitler brainwashed the people into believing his ideas.
+        The defense argued that Malvo did not know right from wrong after
+        Muhammad brainwashed him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>brainwash.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

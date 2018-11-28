@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="oust-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="force to leave a position of power, job, place or competition" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] OUST NP2[patient]
+      </commentary>
+      <examples>
+        The president was ousted in a military coup in January 1987.
+        Police are trying to oust drug dealers from the city centre.
+        The champions were defeated by Arsenal and ousted from the League Cup.
+        The chairman was ousted after he misappropriated funds.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>oust.01</pb>
+         <vn>fire-10.10,remove-10.1</vn><fn>Change_of_leadership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove and replace, take the place of" type="">
+      <commentary>
+        Syntax Is: NP1[theme] OUST NP2[patient]
+      </commentary>
+      <examples>
+        It would seem that the computer has ousted some actual students.
+        The word processor has ousted the typewriter.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

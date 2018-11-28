@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="win-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="" type="Event">
+        <commentary>
+            WIN[+event][+outcome][+triumphant][+of_contest]
+        </commentary>
+        <examples>
+            The race car driver added the Indy 500 to his wins.
+            Our team had four wins and two losses last week.
+            The chess player checkmated the black king for another win.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="" type="Event">
+        <commentary>
+            WIN[+quantity][+money][+gain][+gambling]
+            Note: alternate for 'winnings'
+        </commentary>
+        <examples>
+            His win last year in Las Vegas was more than this year.
+            How much was your win at last night's poker game?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>win.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

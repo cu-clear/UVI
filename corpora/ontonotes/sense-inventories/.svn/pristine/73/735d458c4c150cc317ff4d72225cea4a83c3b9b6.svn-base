@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dialogue-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="conversation" type="Event">
+        <commentary>
+	    DIALOGUE[+event]
+	    a conversation between two persons
+	    </commentary>
+        <examples>
+            They agreed to take the heated dialogue outside.
+            Their dialogue lasted almost two hours.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>dialogue.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="lines of speech" type="">
+        <commentary>
+            the lines spoken by characters in a drama; or a literary composition in
+            the form of a conversation between two people
+        </commentary>
+        <examples>
+            He has read Plato's Dialogues in the original Greek.
+            It took her only three hours to memorize all of the dialogue in the play.
+            He bought a kit designed to help him overcome clumsy dialogue.
+            The convoluted dialogue made the movie difficult to understand.
+        </examples>
+        <mappings>
+            <wn version="2.0">2,3</wn>
+            <omega/>
+            <pb>dialogue.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="negotiations" type="Event">
+        <commentary>
+	    DIALOGUE[+event]
+	    talks -
+	    a discussion intended to produce an agreement
+	    </commentary>
+        <examples>
+            The buyout dialogue lasted several days.
+            They disagreed but kept an open dialogue.
+            Dialogue between Israelis and Palestinians...
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>dialogue.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

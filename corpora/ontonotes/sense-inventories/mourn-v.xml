@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mourn-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="grieve" type="">  
+      <commentary>
+        Syntax includes: 
+        NP1 MOURN NP2
+        NP1 MOURN
+      </commentary>
+      <examples>
+        The residents of the ancestral town have mourned her death.
+        Nobody buried him and few mourned him.
+        They oppressed the poor so severely that they mourned by casting
+        dust on themselves.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mourn.01</pb>
+         <vn>admire-31.2,marvel-31.3-3,marvel-31.3-8</vn><fn>Experiencer_subj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

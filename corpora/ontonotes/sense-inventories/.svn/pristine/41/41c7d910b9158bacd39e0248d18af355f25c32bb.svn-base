@@ -1,0 +1,157 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="connection-n">
+    <commentary>
+        15Mar07 - updated to wn2.1, added features. ahouston
+        15Mar07 split Sense 1 into Sense 1 and Sense 7, ahouston.
+        15Mar07 split Sense 2 into Sense 2 and Sense 8, ahouston.
+        15Mar07 merged Senses 3 and 6, ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a significant link or association between things" type="Event">
+        <commentary>
+            CONNECTION[+relation][+association][+significant]
+            Any relationship or non-physical link between two things.
+            Can refer to electronic signals.
+        </commentary>
+        <examples>
+            The connection between church and state is inescapable.
+            There was a connection between eating that pickle and having that bad dream.
+            What's your connection to John?
+            Only a brilliant detective could find connections among the evidence.    
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Influential person" type="Entity">
+        <commentary>
+            CONNECTION[+entity][+person][+influential]
+            an influential or prominent person
+        </commentary>
+        <examples>
+            I used my connections in Washington to get my son a job.
+            You need connections to break into Hollywood.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Object that connects" type="Entity">
+        <commentary>
+            CONNECTION[+entity][+artifact][+device][+linking]
+            A physical object, often involved in electronic equipment, that is used to connect things.  
+        </commentary>
+        <examples>
+            Your speaker isn't working because you've got a dirty connection.
+            Try re-checking the connections before you call tech support.
+            I snapped a connection and couldn't finish the model airplane.
+            The two wood blocks form an L-connection. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Act of connecting" type="Event">
+        <commentary>
+            CONNECTION[+event][+joining]
+            The act of bringing two or more things together, either physically or non-physically.  
+        </commentary>
+        <examples>
+            Classical conditioning is the process of learning by connection.
+            The connection of the two railroad lines would make transportation much easier.
+            John's first connection to the Internet occurred yesterday at noon.
+            I recall the connection of your fist and my chin as a painful event.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="Travel switch" type="">
+        <commentary>
+            CONNECTION[+event][+transfer][+transportation][+mode]
+            The act of switching from one form of transportation to another.  Most often used when switching air
+            planes.
+        </commentary>
+        <examples>
+            His plane was late and he missed his connection in Atlanta.  
+            I have a very tight connection in Dallas.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="Placeholder: Do Not Choose" type="Entity">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="narcotics supplier" type="Entity">
+        <commentary>
+            CONNECTION[+entity][+person][+supplier][+narcotics]
+        </commentary>
+        <examples>
+            The addict had several shadowy drug connections.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="the state of being in contact" type="Event">
+        <commentary>
+            CONNECTION[+state][+in_contact]
+        </commentary>
+        <examples>
+            I hope to make some personal connections at the meeting.
+            The computer has a mega-fast connection to the Internet.
+            The wire has to be attached to complete the connection and let current flow.
+            There was some static on the phone, and then we lost the connection.
+            I sense that you and I have a strong personal connection.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

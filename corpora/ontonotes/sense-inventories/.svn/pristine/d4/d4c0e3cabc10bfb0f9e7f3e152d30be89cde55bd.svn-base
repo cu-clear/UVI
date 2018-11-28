@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="outlaw-v">
+   <commentary>
+     The FrameNet frame &quot;Prohibiting&quot; specifically states that
+        it is a &quot;state of affairs&quot; and *not* an agent that results in
+        the outlawing (and does not include this verb in &quot;Deny_permission,
+        which does allow for an agent); both VerbNet and PropBank
+        identify an agent participant
+   </commentary>
+   <sense group="1" n="1" name="make illegal" type="">
+      <commentary>
+        Syntax Is: NP1[agent] OUTLAW NP2
+      </commentary>
+      <examples>
+        Over the past four years, we have explicitly outlawed the ad hominem fallacy.
+        The German Constitutional Court has outlawed preventive data screening.
+        The U.S. is virtually alone among developed nations in outlawing marriage among first cousins.
+        The EU has adopted a measure outlawing Holocaust denial.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>outlaw.01</pb>
+         <vn>orphan-29.7</vn><fn>Prohibiting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="evidence-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the basis or proof on which a belief is founded" type="">
+        <commentary>
+            EVIDENCE[+data][+analyzed]
+            [+role][+data][+proof]
+            Note: implies abstract reasoning, deductive or probabilistic. 
+            Note: Unlike Sense 3, the evidence is not subject to legal protocols, only scientific and rational methods.
+        </commentary>
+        <examples>
+            There is no solid evidence that links cell phone usage to brain cancer.
+            The existence of black holes is supported through indirect evidence.
+            There was only circumstantial evidence that caches of weapons had been hidden.
+            There is overwhelming evidence in support of evolutionary change in organisms.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an indication or manifestation of something" type="">
+        <commentary>
+            EVIDENCE[+state][+manifestation]
+            [+role][+data][+indication][+perceptual]
+            Note: implies looking at, perceiving, a physical manifestation of something
+        </commentary>
+        <examples>
+            There is no visible evidence of physical mistreatment on the corpse.
+            Signs of spring are in evidence in the park.
+            For years, Mary has ignored the mounting evidence of her husband's infidelity.
+            Paw prints gave evidence that a small animal had gone through the kitchen.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="legal testimony and exhibits to establish the validity of allegations" type="">
+        <commentary>
+            EVIDENCE[+artifact][+exhibit][+legal]
+            [+action][+statement][+sworn]
+            [+role][+data][+testimony]
+            Note: this is a narrow use of sense 1, always implying legal protocol in the determination of what is valid evidence, this ideally corresponds to sound reasoning, but there are other factors as well, such as whether methods of acquiring the evidence were themselves legal.
+        </commentary>
+        <examples>
+            This evidence may not be used in the case.
+            The evidence provided by the witness proved to be unreliable.
+            That witness reported only hearsay evidence. (statements by someone else not under oath)
+            These allegations are subject to the rule of evidence.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a person who provides legal testimony" type="">
+        <commentary>
+            EVIDENCE[+person][+testifier][+legal]
+            [+role][+testifier][+legal]
+        </commentary>
+        <examples>
+            The gangster turned state's evidence in return for a reduced sentence.
+            She is serving as evidence for the district attorney.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

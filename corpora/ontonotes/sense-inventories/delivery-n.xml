@@ -1,0 +1,121 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="delivery-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="act of conveyance or distribution" type="Event">
+        <commentary>
+            DELIVERY[+action][+duration][+conveyance]
+        </commentary>
+        <examples>
+            Their service makes two scheduled deliveries a day.
+            Allow 5 to 7 days for delivery.
+            They can track the entire process of delivery on computer.
+            They are in charge of the delivery of prisoners to the maximum security prison.
+            I paid extra for overnight delivery.
+            Our condominium association has arranged for delivery of natural gas to the building at a fixed price.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>delivery.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="process of childbirth" type="Event">
+        <commentary>
+            DELIVERY[+action][+duration][+childbirth]
+        </commentary>
+        <examples>
+            Very few forceps deliveries are performed nowadays.
+            Sally had a rough delivery of her twin boys.
+            The obstetrician said it would be a breech delivery.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,7</wn>
+            <omega/><pb>delivery.101</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a performing style, as in speaking or singing" type="Event">
+        <commentary>
+            DELIVERY[+quality][+style][+performing][+speaking/+singing]
+        </commentary>
+        <examples>
+            Her delivery of the speech was cool and confident.
+            The diva's rendition of Donizetti arias had almost a folk singer's casual delivery.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of legal transfer, as of a deed" type="Event">
+        <commentary>
+            DELIVERY[+event][+punctual][+transfer][+legal]
+        </commentary>
+        <examples>
+            We are still waiting for delivery of the title to that property.
+            John bought corn futures for delivery in June. (ownership) the corn is not brought to your house - yet!)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the act of throwing a baseball" type="Event">
+        <commentary>
+            DELIVERY[+event][+punctual][+physical][+throw]
+        </commentary>
+        <examples>
+            The batter positions himself and waits for the delivery.
+            The pitcher's delivery was just over the inside corner for a strike.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the rescue or release of someone, something" type="Event">
+        <commentary>
+            DELIVERY[+state][+change][+rescued]
+        </commentary>
+        <examples>
+            The phone call was Mary's delivery from the long, boring meeting.
+            The rains finally came, bringing delivery to the parched crops.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="parcels or packages that are conveyed" type="">
+        <commentary>
+            DELIVERY[+artifact][+parcel][+conveyed]
+        </commentary>
+        <examples>
+            They will not handle deliveries that weigh more than forty pounds.
+            I noticed a delivery on your porch this morning.
+            Don't accept or open deliveries from unknown persons.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>delivery.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

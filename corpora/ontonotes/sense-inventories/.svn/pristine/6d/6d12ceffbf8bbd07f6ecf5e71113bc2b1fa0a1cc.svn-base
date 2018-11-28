@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="outlay-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="money spent, expenditures" type="">
+        <commentary>
+            OUTLAY[+quantity][+sum][+money][+expenditure]
+            Note: refers to an amount of money, a quantity, not an act of spending (Sense 2)
+        </commentary>
+        <examples>
+            The outlays for national defense increased 10 percent last year.
+            John keeps track of each outlay for his new business.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of spending, disbursing funds" type="">
+        <commentary>
+            OUTLAY[+action][+spending][+money]
+            Note: refers to someone's activity of spending, rather than a quantity (Sense 1)
+        </commentary>
+        <examples>
+            Bob couldn't continue the outlay of maintaining a summer home.
+            At some point the outlay for this research project will exhaust our funds.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

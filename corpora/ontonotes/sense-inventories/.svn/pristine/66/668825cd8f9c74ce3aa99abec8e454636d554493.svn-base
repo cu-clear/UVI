@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="confess-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="admit to wrongdoing with expectation of punishment" type="">
+      <commentary>
+       NOTE: Compare to sense 3. In this sense the thing being confessed is
+       always a negative idea or action that could have some type of repercussion
+      </commentary>
+      <examples>
+        A Michigan man accused of murdering his wife confessed to the crime.
+        The suspect has confessed to planting the bomb on a German train.
+        The students confessed to eating the last cookie.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>confess.01</pb>
+         <vn>confess-37.10,say-37.7-1</vn><fn>Reveal_secret</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="unburden sins to God or a priest" type="">
+      <commentary>
+        NOTE: This sense may be seen as a subset of sense 1
+        NOTE: Usage is specific to a religious domain
+      </commentary>
+      <examples>
+        Do I need to confess confessed sins?
+        Placing his hands upon the scapegoat, he confessed over him all these sins.
+        David had some serious sins that he confessed to the Lord in the Psalms.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>confess.01</pb>
+         <vn>confess-37.10</vn><fn>Reveal_secret</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="acknowledge or express, usually reluctantly" type="">
+      <commentary>
+        NOTE: Compare to sense 1. This sense DOES NOT apply to wrong
+        actions, but rather lack of knowledge or reluctance to admit.
+      </commentary>
+      <examples>
+        I have to confess that I've always been skeptical of his plan.
+        From the TV, I have to confess Germany is an open country.
+        She confessed that, although her husband rides the bus, she doesn't know much about the bus route.
+        One day, a clerk earnestly confessed how much he enjoyed my columns.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>confess.01</pb>
+         <vn>say-37.7-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,clarklm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="practise-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="rehearse, learn by repetition" type="">  
+      <commentary>
+        Syntax Is: NP1 PRACTISE NP2
+      </commentary>
+      <examples>
+        She practises Iaido, a Japanese martial art which uses the sword.
+        Pianists practice scales.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>practise.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="carry out or do (a job)" type="">
+      <commentary>
+        Syntax Is: NP1 PRACTISE NP2
+      </commentary>
+      <examples>
+        He practises medicine independently.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>practise.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

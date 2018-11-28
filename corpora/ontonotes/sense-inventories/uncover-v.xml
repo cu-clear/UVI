@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="uncover-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="discover something previously unknown" type="">
+      <commentary>
+        NOTE: Compare to sense 2. The thing being uncovered in this sense
+        was not previously known by the agent.
+      </commentary>
+      <examples>
+        I uncovered the whole truth about my cousin.
+        The journalist uncovered the vast scientific evidence on this
+        subject.
+        The researchers uncovered the vulnerability while studying the
+        instruments.      
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega></omega><pb>uncover.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make something visible" type="">
+     <commentary>
+       NOTE: Compare to sense 1. In this sense, the thing being uncovered
+       is already known to exist by the agent.    
+     </commentary>
+     <examples>
+       She uncovered the meat for dinner.
+       He uncovered the mouthpiece to speak over the intercom.
+       The doctor uncovered the patient's broken arm.       
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0">2</wn>
+        <wn lemma="" version="3.0"/>
+        <omega></omega><pb>NM</pb>
+        <vn>NP</vn><fn>NP</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>
+</inventory>

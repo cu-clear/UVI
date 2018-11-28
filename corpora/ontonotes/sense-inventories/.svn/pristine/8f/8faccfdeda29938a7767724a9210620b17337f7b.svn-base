@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pare-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cut small bits from (the edge) to make smaller" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] PARE NP2[patient[concrete]]
+        Includes: PARE DOWN
+        NOTE: A cutting implement is ALWAYS implied.
+      </commentary>
+      <examples>
+        'Winston, please pare the hedges.'
+        I need to pare my fingernails, they're getting too long.
+        Pare down the pumpkin for the stew.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>   
+         <wn lemma="pare_down" version="3.0">1</wn>
+         <omega></omega><pb>pare.01,pare.03</pb>
+         <vn>disassemble-23.3</vn><fn>Cutting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="decrease in size; lessen" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PARE NP2[patient[abstract]]
+        Includes: PARE DOWN
+      </commentary>
+      <examples>
+        The company has pared its high-yield bond holdings from 890 million
+        dollars to about 500 million.
+        Sherwood chair Ron Sherwood says the group pared down its members
+        who were unable to attend regular meetings.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="pare_down" version="3.0">1</wn>
+         <omega></omega><pb>pare.02,pare.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

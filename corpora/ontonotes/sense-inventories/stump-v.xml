@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stump-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cause to be perplexed or mentally confounded." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The third problem really stumped her.
+      I'm stumped!
+      The new riddle stumps me.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stump.01</pb>
+         <vn>amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Travel through an area, (as if) by walking heavily." type="">
+      <commentary>
+      Includes: STUMP ALONG
+      Syntax Includes:
+      NP1[agent] STUMP NP2[location]
+      NP1[agent] STUMP (PP{P NP[location]}) 
+      </commentary>
+      <examples>
+      He stumped along the highroad that lead to Madrid.
+      The men stumped through the snow looking for their lost friend.
+      The candidate stumped the Northeast in search of support.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>run-51.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Remove tree stumps from an area." type="">
+      <commentary>
+      Syntax Is: NP1[agent] STUMP NP2[patient[location]]
+      </commentary>
+      <examples>
+      Stump that field before the day's done.
+      I paid the men to stump my yard.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="health-n">
+    <commentary>
+        26Feb08 modified definitions, features, examples. ahouston
+    </commentary>
+    <sense group="1" n="1" name="the state or degree of well_being of a living organism" type="">
+        <commentary>
+            HEALTH[+state][+physiological][+well_being][+of_organism]
+            Note: refers to the well-being, soundness of a living organism, or part of it
+            Note: the degree of well_being can be greater or lesser
+        </commentary>
+        <examples>
+            These substances may be hazardous to your health.
+            Mary doesn't consider potato chips to be a health food.
+            The restaurant was fined for violating several health codes.
+            The strapping young athlete was a picture of health.
+            Some of the forests are in poor health from acid rain. (refers to groups of living organisms in this case)
+            These patients all have mental health problems. ('mental' is included in the broader 'physiological' notion)
+            The costs of health care are going up.
+            Brushing and flossing are good for the health of the teeth and gums. (refers to a specific body area in this case)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a general condition of soundness of a system or machine" type="">
+        <commentary>
+            HEALTH[+state][+condition][+soundness][+relative]
+            Note: health can be good or bad
+            Note: A metaphoric extension of Sense 1, but refers to abstract systems or machines, not biological organisms
+        </commentary>
+        <examples>
+            A regular tune-up and oil change is good for the health of your car.
+            The rust belt states experienced years of poor economic health.
+            Analysts believe the health of Japan's banking system is improving.
+            The health of the economy has suffered from the crisis in housing loans.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a drinking toast" type="">
+        <commentary>
+            HEALTH[+event][+speech_act][+toast][+drinking]
+            Note: in the expression 'to X's health'
+        </commentary>
+        <examples>
+            We raised our glasses and drank to John's health.
+            To your health!
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

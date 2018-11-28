@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="balance_sheet-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="a financial document detailing assets, liability and capital at a given point in time, for an organization" type="">
+        <commentary>
+            BALANCE_SHEET[+artifact][+document][+financial][+summary][+snapshot][+temporal][+of_assets][+of_liabilities][+of_capital][+owned][+by_organization]
+        </commentary>
+        <examples>
+            The liabilities and assets don't correspond correctly on this balance sheet.
+            The company's balance sheet for last month showed a net liability.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

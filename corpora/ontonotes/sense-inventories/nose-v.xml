@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="nose-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="search or inquire in a meddlesome way" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] NOSE NP2[theme] (PP[source|location])
+      NP1[agent[animate]] NOSE PP[location] (PP[theme])
+      </commentary>
+      <examples>
+      This guy is always nosing around the office.
+      I was nosing around the kitchen for something to make for my son's lunch.
+      Bobby was nosing about neighboring slabs and thorn bushes.
+      The police are nosing about to see if they can find anything against the gang.
+      She was always nosing about the kitchen, looking in all the cupboards.
+      Did you nose it out of her?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>nose.01</pb>
+         <vn>ferret-35.6</vn><fn>Seeking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="advance the forward part of with caution" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] NOSE NP2[theme] PP[direction]
+      NP1[theme] NOSE PP[direction]
+      </commentary>
+      <examples>
+      She nosed the car into the left lane.
+      Two ships nosed toward an unexplored region near the Barrow Strait in the Arctic.
+      Conklin nosed our squad car onto the lawn of a smoldering house.
+      Moving up the valley, hugging the sinuous banks of the river, a train nosed its impudent way.
+      The helicopter nosed forward.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>roll-51.3.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="catch the scent of; get wind of" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] NOSE NP2[theme] (PP[location])
+      NP1[agent[animate]] NOSE NP2[location] (PP[theme])
+      </commentary>
+      <examples>
+      They went for him like a pack of hounds that have just nosed the scent.
+      She popped the pot top and nosed the scent of the imbrowning oil.
+      'Twas fortunate we nosed the scent of this French sailor, and traced him here.
+      I nosed the air for any unusual scent.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>search-35.2</vn><fn>Seeking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="push or move with the nose" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] NOSE NP2[theme] (PP[direction|predication])
+      </commentary>
+      <examples>
+      The dog would have to nose the ball out of the way to get to the food.
+      The red ball popped free and the dog nosed it back into the cradle of its paws.
+      The cat nosed her kittens.
+      The cat nosed her kitten out of the corner.
+      The Cat nosed the family room side door open.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="rub noses" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] NOSE NP2[patient[animate]]
+      </commentary>
+      <examples>
+      They nosed each other with deeper affection.
+      The horses drew in the water, and nosed each other.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="defeat by a narrow margin" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] NOSE (NP2[theme[animate|organization]])
+      </commentary>
+      <examples>
+      Griffin nosed ahead on lap 10, with Baggett reassuming the lead the next lap.
+      Stephen F. Austin nosed out UGA's Timber Dawgs for second by a single point.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="detect by smelling" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] NOSE (out) NP2[theme]
+      </commentary>
+      <examples>
+      The dog nosed out the drugs.
+      He was spending his time nosing out small evil-smelling scandals.
+      The cops nosed out the thieves' hiding place.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="nose_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="" sample_score="-"/>  
+</inventory>

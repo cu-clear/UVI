@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="reproduce-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="procreate, multiply" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] REPRODUCE
+      </commentary>
+      <examples>
+        Rabbits reproduced faster that farmers could kill them with
+        pitchforks.
+        When the animal reproduced, the DNA would be transmitted to some
+        fraction of its progeny.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>birth-28.2,other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a copy, recreate, repeat" type="">
+      <commentary>
+        Syntax Is: NP1[agent] REPRODUCE NP2
+      </commentary>
+      <examples>
+        He reproduced the works of the Dutch masters, in particular the
+        portraits of Rubens, Hals, Van Dyke, and his master Soutman.
+        On May 30, he reproduced and posted on his blog a Xinhua news
+        story.
+        He reproduced the antique vestiges of powerful Rome and was one of
+        the most authoritative archeologists of his time.
+        In 2005 he reproduced and expanded the collection.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>reproduce.01</pb>
+         <vn>NM</vn><fn>Duplication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

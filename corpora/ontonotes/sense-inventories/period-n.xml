@@ -1,0 +1,170 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="period-n">
+    <commentary>
+        Merged sense 6 with sense 2, new sense 6 separated out from sense 1, senses 7 and 8 added
+        Changed examples and definitions, added differentiae  ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a continuous span of time, a" type="">
+        <commentary>
+            PERIOD[+quantity][+span][+time][+continuous] 
+            Note: focus is on amount of time, measured in units of time (unlike sense 6, which is identified by a trait)
+            Note: does not imply a regular repeating amount of time. (that is what sense 7 does)
+        </commentary>
+        <examples>
+            A period of 30 years passed before they met again.
+            For some period now Mary hasn't been returning my phone calls.
+            This gift certificate has no limit on the time period it is valid for.
+            Our vacation seemed to last such a short period.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="2" name="a full stop, as a punctuation mark" type="">
+        <commentary>
+            PERIOD[+form][+symbolic][+notation][+punctuation]
+        </commentary>
+        <examples>
+            You should place a period at the end of this sentence.
+            In England they call a 'period' a 'stop'.
+            Death put a period to his endeavors.  (figurative)
+            He just won't do it. Period. (figurative)
+        </examples>
+        <mappings>
+            <wn version="3.0">7,5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a cycle, a regular and repeating event" type="">
+        <commentary>
+            PERIOD[+event][+cyclic]
+            The interval taken to complete one cycle of a regularly repeating phenomenon
+            Note: focus is on the repeating nature of the event, not how many minutes or hours it took.
+            Note: implies the event repeats on some regular basis
+        </commentary>
+        <examples>
+            Seven periods of day and night constitute a week.
+            She is studying the up and down periods of a manic depressive. (regular, repeating intervals of behavior)
+            We are not currently in a period of high solar activity.
+            Investors take more chances during boom periods.
+            Those bushes were in a period of dormancy through the winter.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a regular biological process, menstruation" type="">
+        <commentary>
+            PERIOD[+process][+biological][+regular][+menstruation]
+            The monthly discharge of blood from the uterus of nonpregnant women
+            from puberty to menopause
+        </commentary>
+        <examples>
+            Stress and illness can both cause a woman's period to be late.
+            Girls in her family start their periods earlier than average.
+            Sally worried when she missed her period.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="an allotted portion of time, stipulated by some convention" type="">
+        <commentary>
+            PERIOD[+time][+demarcated][+allotted][+game/+school/+business]
+            A portion of the total allotted time for an activity, e.g., sports game (hockey) or academic class
+            Note: the allotment is set by convention, this is not true for sense 6 below, which describes external empirical factors.
+        </commentary>
+        <examples>
+            The other team caught up two minutes into the period.
+            Suzy has study hall during third period.
+            The company has just entered its quiet period before the IPO. (legally defined number of weeks)
+            Their academic day consists of seven periods, including lunch.
+            My team got fifteen goals before the second period.
+            They are inviting beta testers to use the product for a trial period.
+            They managed to tie up the game before the end of the period.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a demarcated, named span of time, characterized by some salient feature" type="">
+        <commentary>
+            PERIOD[+time][+span][+demarcated][+named][+historical/+geological/+personal]
+            Note: focus is on a defining trait of the time span, not the number of hours, minutes (this is sense 1)
+        </commentary>
+        <examples>
+            A geological period is a subset of an era which is a subset of an eon.
+            The Romantic era was a period of rapid development in musical styles.
+            This is a novel from the Victorian period.
+            Mary likes Picasso's blue period the best. 
+            His teenaged daughter has passed from her punk to her Goth period.
+            The Jurassic is the second period of the Mesozoic Era.
+            This style of statue is not characteristic of the later periods of Greek culture.
+            Their country is entering a period of unrest and possible civil war.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a repeating numerical value" type="">
+        <commentary>
+            PERIOD[+quantity][+value][+numeric][+repeating]
+            Note: a single numeric value that repeats in a predictable way.
+        </commentary>
+        <examples>
+            The period of this sine function is 2 pi.
+            There exists no period P for an aperiodic function. 
+            Astronomers have determined that the period of that planet around its star is only four days.
+            The waves in that ocean swell have a period of about 14 seconds.
+        </examples>
+        <mappings>
+            <wn version="MAC">3b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="an arranged pattern, a unit of composition" type="">
+        <commentary>
+            PERIOD[+form][+symbolic][+pattern][+arranged]
+            A meaningful component of a larger scheme.
+        </commentary>
+        <examples>
+            Each row in the periodic table of elements is called a period.
+            Cicero was a master of the rhetorical period, a sentence composed of phrases that build one upon the next.
+            A rhythmical unit of Greek verse composed of cola is called a period.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

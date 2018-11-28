@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="border-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be contiguous to or on the border of" type="">
+      <commentary>
+      NOTE: Use for senses where two objects are contiguous but one object
+      does not surround the other.  
+      </commentary>
+      <examples>
+        To the south, it borders Andalusia.
+        Coyoacan, a long-standing Nahua town, borders the lake.
+        Rest areas and information kiosks will border these important arterials.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5</wn>
+         <omega></omega><pb>border.01</pb>
+         <vn>contiguous_location-47.8</vn><fn>Locative_relation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create an edge or border" type="">
+      <commentary>
+      NOTE: Use for senses where one object surrounds the other.
+      </commentary>
+      <examples>
+        She bordered the edges in garter stitch to keep them from rolling up.
+        This cotton edging bordered the sides of the flag.
+        Tulips bordered the front yard.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="verge on, approach" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        That suggestion borders on lunacy!
+        Her lines were cheesy, but she bordered on funny.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="border_on" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

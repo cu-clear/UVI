@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="meet-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="become acquainted with, get to know" type="">
+      <commentary>
+       Syntax Is: NP1[agent[human]] MEET NP2[patient[human]]
+       Note: Most often in the past tense form 'met'.
+       Note: Implies a general state, not a specific time or set of times.
+      </commentary>
+      <examples>
+         The police speculated he met Sam earlier than their most recent collaboration.
+         I met him only after the war.
+         She's the most honest person I'll ever meet.
+         We met during the years in Oklahoma.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7</wn>
+         <omega/>
+         <pb>meet.02</pb>
+         <vn>meet-36.3-1</vn><fn>Make_acquaintance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="get together" type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent[animate]] MEET PP{P NP[location]}
+      NP1[agent[animate]] MEET PP[temporal]
+      NP1[actor[animate]] MEET NP2[actor[animate]]
+      Note: implies countable events, not a general state.
+      Includes: MEET UP WITH
+      </commentary>
+      <examples>
+         I met them for dinner at the restaurant but only stayed a moment.
+         The rottweilers met the robber at the door.
+         The memo says to meet in the conference room in five minutes.
+         We have to stop meeting like this!
+         The diplomats met for days to discuss the crisis.
+         We plan to meet up with my folks this Saturday noon for lunch.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,8,9</wn>
+         <wn lemma="meet_up_with" version="3.0">1</wn>
+         <omega/>
+         <pb>meet.03</pb>
+         <vn>meet-36.3-1</vn><fn>Congregating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="converge or touch" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Make a dot where the lines meet on the page.
+         This is where the rubber meets the road.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,13</wn>
+         <omega/>
+         <pb>meet.01</pb>
+         <vn>contiguous_location-47.8-1</vn><fn>Congregating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="fulfill, satisfy" type="">
+      <commentary>
+      </commentary>
+       <examples>
+         They met their goal of winning the championship.
+         His night club doesn't meet the fire codes.
+         This vacation is just not meeting my expectations, somehow.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,6</wn>
+         <omega/>
+         <pb>meet.01</pb>
+         <vn>sastisfy-55.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="experience; undergo, suffer" type="">
+      <commentary>
+       Syntax Is: NP1[patient] MEET NP2[abstract]
+      </commentary>
+      <examples>
+         My proposal will probably meet a lot of opposition at the town meeting.
+         He met an untimely death at sea.
+         She was met with a big round of applause.
+         We met an example of this in yesterday's lesson.
+      </examples>
+      <mappings>
+         <wn version="3.0">11,12</wn>
+         <omega/>
+         <pb>meet.02</pb>
+         <vn>encounter-30.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="take on, play" type="">
+      <commentary>
+       Syntax Is: NP1[agent] MEET NP2
+      </commentary>
+      <examples>
+         Who will our team meet at the semi-finals?
+         The great race horse finally met his match.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/>
+         <pb>meet.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

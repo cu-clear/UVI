@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="outweigh-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be (physically) heavier than." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Your dog outweighs mine by 30 lbs.
+      The new model outweighs current GMC trucks. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>exceed-90-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Weigh more heavily, as in deciding a matter." type="">
+      <commentary>
+      Syntax Is: NP1[abstract] OUTWEIGH
+      </commentary>
+      <examples>
+      I doubt that the public interest in scholarship could outweigh the sanctity
+      of copyright.
+      Seafood benefits outweigh the risks.
+      Chiropractic: Does the Bad Outweigh the Good?  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>outweigh.01</pb>
+         <vn>exceed-90-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

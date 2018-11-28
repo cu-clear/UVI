@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="visualize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="imagine; form a mental picture of something" type="">  
+      <commentary>
+        NOTE: Compare to sense 2. In this sense the thing being visualized
+        does not actually exist in concrete form in the same place as the visualizer.
+      </commentary>
+      <examples>
+        Visualize a nice meadow by a babbling brook, it helps relieve stress.
+        I can visualize my daughter as the president of the US someday.
+        Visualize your way to health and a new life.
+        The psychic had a talent to visualize events before they happened.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>visualize.01</pb>
+         <vn>characterize-29.2-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="MEDICAL: make visible with the help of machinery" type="">
+      <commentary>
+        NOTE: Compare to sense 1. In this sense the thing being visualized
+        is a concrete object somewhere near the visualizer. 
+      </commentary>
+      <examples>
+        The radiologist can visualize the cancerous liver in the X-rays.
+        This machine visualizes ultrasound.
+        We visualized the density of the distribution of C2.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

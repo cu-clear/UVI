@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lean-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="incline from a vertical position" type="">
+      <commentary>
+        Includes: LEAN AGAINST; LEAN BACK; LEAN ON
+        Syntax Is: NP1 LEAN (PP{P NP[location]})
+      </commentary>
+      <examples>
+        She leaned over the banister.
+        The ladder is leaning against the north wall.
+        He leaned back in his chair and sighed.
+        Don't lean on that bookcase!
+        That picture seems to lean a little to the right.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="lean_against" version="3.0">1</wn>
+         <wn lemma="lean_back" version="3.0">1</wn>
+         <wn lemma="lean_on" version="3.0">1</wn>
+         <omega/><pb>lean.01</pb> 
+        <vn>assuming_position-50,spatial_configuration-47.6</vn>
+         <fn>Posture,Change_posture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to incline" type="">
+      <commentary>
+        Syntax Is: NP1[agent] LEAN NP2[theme] (PP)
+      </commentary>
+      <examples>
+        She leaned the pitch fork against the wall.
+        What happened when you leaned the bike a little to the left?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,5</wn>
+         <omega/><pb>lean.01</pb>
+         <vn>put_spatial-9.2-1</vn>
+         <fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="have a tendency or disposition to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        It's unclear which way he leans on this issue.
+        My preference has always leaned more to the male singers than the famale.
+        Although she's not a registered Democrat, she definitely leans left.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lean.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="rely on" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] LEAN on NP2[patient[human]]
+      </commentary>
+      <examples>
+        When things have got you down, you can always lean on me.
+        He's the kind of man you can lean on.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Pressure or intimidate to do or be something." type="">
+      <commentary>
+       Syntax Is: NP1[agent[human]] LEAN on NP2[patient[human]] (to [predicate])
+       Note: Either NP could be an individual or a collection of people.
+      </commentary>
+      <examples>
+      Congress leaned on the President to enact the ruling.
+      I can lean on my coworkers to stop pestering Sheila.
+      Arthur leaned on his weaker teammate.  
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

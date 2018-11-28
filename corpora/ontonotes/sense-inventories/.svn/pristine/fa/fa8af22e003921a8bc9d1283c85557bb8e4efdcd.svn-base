@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fortify-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="add strengthening ingredients" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] FORTIFY NP2[patient[concrete]] (PP[instrument[concrete]])
+      NP1[instrument[concrete]] FORTIFY NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      What herb can be taken to fortify the body against meningitis?
+      The Season's Best range has been fortified with vitamin A, C, E and calcium.
+      I've had port fortified with brandy and with grain alcohol.
+      Why are so many cereals and infant formulas fortified with iron?
+      She had felt compelled to fortify him with strong coffee.
+      Added vitamins fortify foods.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fortify.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="turn into a fort" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] FORTIFY NP2[patient[concrete]] (PP[instrument[concrete]])
+      </commentary>
+      <examples>
+      The children fortified the couch using the cushions, a mop and some blankets.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fortify.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="gird against military confrontation" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] FORTIFY NP2[recipient[animate|organization]] (PP[theme])
+      NP1[theme] FORTIFY NP2[recipient[animate|organization]]
+      NP1[agent[animate|organization]] FORTIFY
+      </commentary>
+      <examples>
+      As before, they fortified against the attack.
+      The Soviets closed and fortified the borders and refugees stopped moving.
+      At this Cardinal della Rovere flung away to his Castle of Ostia to fortify.
+      He fortified the town with a fence and ditch.
+      How will you fortify the camp?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fortify.01</pb>
+         <vn>equip-13.4.2-1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="strengthen" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] FORTIFY NP2[patient] (PP[instrument])
+      NP1[instrument] FORTIFY NP2[patient]
+      </commentary>
+      <examples>
+      Potenza fortified relations between senior researchers and regional experts.
+      The two countries fortified relations by signing agreements relating to nuclear cooperation.
+      No recommendation of mine is necessary to fortify or confirm the attachment.
+      A period of enjoyment fortifies the mind.
+      An article in the "Spectator" fortifies this conclusion by a reference to hypnotism.
+      First, the children fortified themselves with cupcakes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fortify.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

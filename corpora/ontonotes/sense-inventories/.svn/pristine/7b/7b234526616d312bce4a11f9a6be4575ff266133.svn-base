@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="review-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="examine, inspect, study or consider critically, again" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] REVIEW NP2
+      </commentary>
+      <examples>
+        The committee is reviewing the current situation.
+        Let's review what has happened so far.
+        He reviewed his options before making a final decision.
+        They need to review their sales strategy.
+        The Queen reviewed the troops on her recent visit.
+        Now that you have reviewed the evidence, take some time to analyze its importance.
+        I reviewed the material before the test.
+        Be sure to review the margin notes and boxed comments for major concepts.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>   
+         <omega/><pb>review.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="apprise critically, give opinion" type="">
+      <commentary>
+        Syntax Is: NP1[agent] REVIEW NP2
+        Note: NP2 is usually a form of media: 
+        play, book, movie, concert, or other public performances.
+      </commentary>
+      <examples>
+        She reviews books for the New York Times
+        He reviews movies for a newspaper.
+        I only go to see films that are reviewed favorably.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>assessment-34.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="look back in retrospect, remember" type="">
+      <commentary>
+        Syntax Is: NP1 REVIEW NP2
+        Note: NP2 is usually refers to history or past events.
+      </commentary>
+      <examples>
+        She's writing an article reviewing the company's history.
+        She reviewed her achievements with pride.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>review.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mow-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cut grass or grain" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] MOW NP2
+      </commentary>
+      <examples>
+        I just mowed the grass, and it is drier than it has been all year
+        in my part of the country.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mow.01</pb>
+         <vn>carve-21.2-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="pout" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MOW
+      </commentary>
+      <examples>
+        The girl mowed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="massacre" type="">
+      <commentary>
+        IS: MOW DOWN
+      </commentary>
+      <examples>
+        The Hutus mowed down the Tutsis in Rwanda.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="mow_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

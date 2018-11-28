@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="trade-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="international transactions of commerce" type="Event">
+        <commentary>
+            TRADE[+event][+transaction][+commercial][+international]
+        </commentary>
+        <examples>
+            Great efforts have been made to improve foreign trade.
+            This city has always been an important center of trade.
+            Their country has a surplus in the balance of trade.
+        </examples>
+        <mappings>
+            <wn version="1.7">1,5,6</wn>
+            <omega/><pb>trade.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the informal exchange of goods between people" type="Event">
+        <commentary>
+            TRADE[+event][+exchange][+personal][+of_goods]
+        </commentary>
+        <examples>
+            I'll make you a trade of my ham sandwich for your candy bar.
+            Boardwalk for the Electric Company is not a fair trade in the game of Monopoly.
+            The couple stayed in a Paris apartment for two weeks as a trade for their summer home in Maine during that time.
+        </examples>
+        <mappings>
+            <wn version="1.7">3</wn>
+            <omega/><pb>trade.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a line of work or business" type="">
+        <commentary>
+            TRADE[+organization][+industry][+genre][+skilled]
+            Reference to a particular kind of work or workers, usually skilled.
+        </commentary>
+        <examples>
+            There's good money in the coffee trade.
+            Nobody knows the tourist trade like the Thais.
+            In the trade this sort of computer is called a client-based system.
+        </examples>
+        <mappings>
+            <wn version="1.7">2,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="trade wind" type="">
+        <commentary>
+            TRADE[+force][+winds][+constant][+blowing][+towards_equator]
+            Steady winds blowing form east to west above and below the equator.
+        </commentary>
+        <examples>
+            They rode the trade winds going west.
+            You can stay on a single tack for days, once you catch the trades.
+        </examples>
+        <mappings>
+            <wn version="1.7">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

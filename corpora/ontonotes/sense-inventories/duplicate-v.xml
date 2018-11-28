@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="duplicate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Replicate or repeat an action." type="">  
+      <commentary>
+      NOTE: Thing duplicated must be an action [+abstract]
+      </commentary>
+      <examples>
+      He could never duplicate his brilliant performance of the magic
+      trick.
+      The company duplicated the research.
+      The disorder was duplicated in mice last year. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>duplicate.01</pb>
+         <vn>NP</vn><fn>Duplication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make a physical copy of or the illusion of
+         a physical copy of something." type="">
+      <commentary>
+      NOTE: Thing duplicated must be an object [+concrete]
+      </commentary>
+      <examples>
+      Could you please duplicate this letter for me?
+      The forger duplicated the painting exactly.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>duplicate.01</pb>
+         <vn>NP</vn><fn>Duplication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

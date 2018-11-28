@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="restriction-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of limitation, as physical or cognitive" type="">
+        <commentary>
+            RESTRICTION[+state][+limitation][+physical/+emotional/+cognitive]
+            Note: implies a natural contingency responsible for the limitation
+            Note: does not imply a general principle, but some specific situation or contingency
+        </commentary>
+        <examples>
+            Bob has experienced some restriction of movement in his left arm after the accident.
+            At one time the Van Allen Belt was believed to pose a restriction to human space travel. (natural hazard)
+            The restrictions of our visual capabilities do not hold for bees, which can also see ultraviolet light.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a regulation, a rule" type="">
+        <commentary>
+            RESTRICTION[+symbolic][+rule][+legal/+linguistic/+combinatoric]
+            Note: implies a general principle that can be stated as a rule
+        </commentary>
+        <examples>
+            The airlines have placed a restriction on the number of carry-on bags per passenger.
+            You must accept the restrictions on the use of this software before purchasing it.
+            Some restrictions apply.
+            Selectional restrictions dictate what sorts of arguments verbs may take, e.g., agent, patient, instrument.
+            Restriction enzymes have advanced molecular biology tremendously because they always cut DNA at identical points along the sequence. (they follow rules)
+            The military curfew has placed restrictions on where civilians may go after dark. (decrees)
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of confining, preventing or blocking something" type="">
+        <commentary>
+            RESTRICTION[+action][+circumscribing][+blocking/+confining/+preventing]
+            Note: implies a specific action undertaken by an intentional agent
+        </commentary>
+        <examples>
+            The doctor advised restriction of activity until the swelling in the ankle goes down.
+            This study examines possible benefits of fasting and calorie restriction for those suffering mental disorders of aging.
+            Raising the interest rates is a move intended to create restrictions on how much money flows into the economy.  (it is an effect or consequence, not a decree)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

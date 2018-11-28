@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="click-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be accompanied by a noise when moving or coming into operation." type="">  
+      <commentary>
+      INCLUDES: CLICK OPEN, CLICK ON, CLICK SHUT
+     Syntax Is:
+      NP1[agent] CLICK NP[patient]
+      NP1[theme] CLICK PP
+
+      NOTE: The clicking sound results as a symptom of turning on or off
+      operation but the emphasis is on the movment or start of operation of
+      the object.
+      </commentary>
+      <examples>
+      He clicked on the light.
+      These keys have clicked open many doors.
+      Harry wave his hand lazily and his record player clicked into action.
+      The door to their bedroom clicked shut behind them.
+      Several times, Chinese guards have pointed their automatic rifles
+      at young children of U.S. diplomats and clicked the trigger. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="click_open" version="3.0">1</wn>
+         <omega></omega><pb>click.01</pb>
+         <vn>sound_emission-43.2,hit-18.1</vn><fn>Motion_noise,Impact,Cause_impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) make a clicking or ticking sound (repeatedly)." type="">
+      <commentary>
+      NP1[theme] CLICK (ADVP)
+      NP1[agent] CLICK NP2[patient[concrete]] (ADVP)
+
+      NOTE: The movment is not what is emphasized in this sense, rather
+        the emphasis is on the noise made.
+      </commentary>
+      <examples>
+      John's alarm clock clicked loudly on his bedside stand.
+      The metronome clicked incessantly.
+      I clicked my fingers to the beat.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>click.01</pb>
+         <vn>sound_emission-43.2,crane-40.3.2</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Produce a phonemic click." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Xhosa speakers click during speech.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Produce a vocalization, characteristic of birds." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      No bird clicked or whistled now.
+      The Bird clicked its laugh. "I have purposes, Garric," it said. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Become clear or enter one's consciousness or emotions." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      It finally clicked for him that college was not as easy as it first appeared.
+      Calculus clicked for me my senior year of college.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Become or be emotionally, positionally, or physically compatible." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      They just clicked.
+      Bryant and Bird clicked on an 18-yard pass play.
+      We finally clicked together in bed last night.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="CLICK OFF: perform or finish an action rapidly." type="">
+      <commentary>
+      IS: CLICK OFF  
+      </commentary>
+      <examples>
+      The game was clicked off in 1:48.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="click_off" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

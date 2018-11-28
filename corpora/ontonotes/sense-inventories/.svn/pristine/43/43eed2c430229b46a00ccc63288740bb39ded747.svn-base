@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="saving-n">
+    <commentary>
+        Modified examples, definition and commentary. ahouston.
+        23jan07 - modified examples, commentary. ahouston
+    </commentary>
+    <sense group="1" n="1" name="a reduction or decrease in the cost of something" type="Event">
+        <commentary>
+            SAVING[+quantity][+difference][+reduction][+cost]
+            Note: refers to the reduction of costs, not accumulated monetary assets (Sense 3)
+        </commentary>
+        <examples>
+            This measure will result in a considerable saving of development costs.
+            The savings of going with the inexpensive vendor are offset by the poorer quality of workmanship.
+            Mary shops at the discount stores because of the savings on most items. (reduction in cost compared to other places)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the act of preserving or protecting something" type="Event">
+        <commentary>
+	    SAVING[+event][+action][+preservation][+protection/+rescue/+recovery]
+	    The act of recovery, or of keeping something from danger.
+	    </commentary>
+        <examples>
+            The doctor was concerned with the saving of lives.
+            John's saving of the glass before it shattered on the floor got him a round of applause.
+            Saving the damsel in distress was the primary goal of Captain Courageous.
+            &quot;My job is the saving of souls,&quot; said the minister.
+            Their organization is devoted to the saving of the rain forests.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="accumulated money" type="Entity">
+        <commentary>
+            SAVING[+entity][+artifact][+money][+accumulated]
+            Note: refers to accumulated money, not a reduction in the cost of something
+            Note: Always occurs in the plural, 'savings'
+        </commentary>
+        <examples>
+            John put his savings in a piggy-bank.
+            John's grandmother bought savings bonds for his future college expenses.
+            After a year of working, I'd accumulated a few thousand dollars in savings.
+            The old couple was swindled out of their entire live savings by that real estate scam.
+            Your savings can earn interest when they're in the bank.  
+            It took billions to bail out the savings and loan bankruptcies of the eighties.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">
+                3a
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

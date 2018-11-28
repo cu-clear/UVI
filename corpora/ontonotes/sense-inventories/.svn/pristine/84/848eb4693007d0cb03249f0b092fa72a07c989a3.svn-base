@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="school-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Educate or teach (about), either by experience or instruction." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] SCHOOL NP2[patient[human]]
+      </commentary>
+      <examples>
+      War schooled them in pain and suffering.
+      Her mother schooled her in poetry and music.
+      He schooled himself in Southern history.
+      The company schooled each of its employees in the art of time
+      management.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>school.01</pb>
+         <vn>NP</vn><fn>Education_teaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Swim in or form a group, as a large group
+         of fish might." type="">
+      <commentary>
+      Includes: SCHOOL TOGETHER
+      Syntax Is: NP1[agent] SCHOOL
+      Note: May be metaphorical.
+      </commentary>
+      <examples>
+      The fish schooled together as the sharks closed in.
+      Preschoolers tend to school together on the playground.
+      Scientists school on topics they don't understand, producing no new
+      research. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Dominate, as in a sporting activity;
+         instruct specifically by trouncing in competition." type="">
+      <commentary>
+      Syntax Is: NP1[agent[human]] SCHOOL NP2[patient[human]]
+      </commentary>
+      <examples>
+      Jordan really schooled an opponent last game.
+      Man, you got schooled! She kicked your butt!
+      Tommy schooled me during one-on-one.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

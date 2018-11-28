@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="abuse-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the maltreatment, mistreatment of an individual" type="Event">
+        <commentary>
+            ABUSE[+event][+maltreatment][+of_individual]
+            Note: refers to mistreatment of a living being by another
+        </commentary>
+        <examples>
+            The court determined it was a clear case of child abuse.
+            These women suffered sexual abuse and other mistreatment during the occupation.
+            The vet determined the horse had not suffered abuse on the racetrack.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>abuse.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="improper usage of something" type="Event">
+        <commentary>
+            ABUSE[+event][+usage][+improper][+of_something]
+        </commentary>
+        <examples>
+            The actor spoke of his years of drug and alcohol abuse.
+            The mayor was indicted for the abuse of public funds.
+            The old car was dented and rusted from years of neglect and abuse.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>abuse.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="blatantly insulting language" type="">
+        <commentary>
+            ABUSE[+event][+speech_act][+insult][+blatant]
+        </commentary>
+        <examples>
+            The drunkard hurled threats and abuses at no one in particular as he lurched down the street.
+            The driver waved his fist and shouted abuses at John who had cut him off in his lane.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

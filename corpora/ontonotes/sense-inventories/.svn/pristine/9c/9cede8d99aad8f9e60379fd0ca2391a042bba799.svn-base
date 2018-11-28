@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="performance-n">
+    <commentary>8Dec08 - definitions and examples revised, added features. ahouston
+        8Dec08 - merged S3, S4  ahouston
+    </commentary>
+    <sense group="1" n="1" name="an entertainment event in its entirety, e.g., a play, a concert, a show" type="Event">
+        <commentary>PERFORMANCE[+event][+entertainment][+spectacle][+entire]
+            A piece of entertainment, usually musical or dramatic.  A show of some sort.
+            Refers to the performance as a unit, not to the act of performing it.
+        </commentary>
+        <examples>I attended ten different performances at the opera house.
+            The play ran for one hundred performances before closing.
+            There were a number of musical performances during the festival.
+            I didn't think this performance was as good as the last one.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn><omega/>
+            <pb>performance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="specific action of a performer within a production or event" type="Event">
+        <commentary>PERFORMANCE[+event][+action][+specific][+of_individual][+performer]
+            Refers to the act of performing, not the performance itself.
+            Note: X's performance of Y -&gt; X performed Y  (nominalization)
+            Note: implies an audience who is the recipient of the performance
+        </commentary>
+        <examples>Julie's performance as Cinderella in the ballet last night was uneven.
+            John gave an inspired performance as Hamlet.
+            The witness had a convincing performance in front of the jury.
+            Do you seriously care so much, or is your emotion just a performance?  (figurative extension)
+            The two violinists' performances of the Tchaikovsky concerto are strikingly different from each other.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn><omega/>
+            <pb>performance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+	    PERFORMANCE[+event]
+	    The execution of an action or duty.  Often refers to a good or flawless execution of an action.
+	    </commentary><examples/>
+        <mappings>
+            <wn version="2.0">Placeholder Sense</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="the manner in which something or someon functions or operates" type="Event">
+        <commentary>PERFORMANCE[+process][+functionality][+operational]</commentary><examples>Your computer's performance may be affected by spyware!
+            They criticized his performance as mayor.
+            Everyone in our department will have a performance review next week.
+            The gymnast's performance of a triple somersault took years of practice to achieve.
+            The athletes enhanced their performance on the track with steroids.
+            They compared the cooking performances of the three ovens.
+            I admire his performance under pressure.
+        </examples>
+        <mappings>
+            <wn version="2.0">2,4,5</wn><omega/>
+            <pb>performance.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

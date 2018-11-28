@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="loosen-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make or become less tight, dense or entangled" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] LOOSEN NP2[theme[concrete]
+        NP1[theme] LOOSEN
+        Includes: LOOSEN UP
+      </commentary>
+      <examples>
+        The victim had loosened the front of two chains that secured the load.
+        We loosened the vertical bolts that tighten the rail and injector stacks a bit.
+        I loosened the roots some, but did not want to be too aggressive.
+        Lloyd loosened his grip on the left arm rest and brought his hand to his damp forehead.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,4,5,6,7</wn>
+         <wn lemma="loosen_up" version="3.0">1</wn>
+         <omega/><pb>loosen.01,loosen.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make or become less strict or severe" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] LOOSEN NP2[theme[abstract]]
+        NP1[theme] LOOSEN
+        NOTE: compare carefully to sense 1; this sense implies a lessening of control
+              and increased freedom
+        Includes: LOOSEN UP, LOOSEN REINS, LOOSEN PURSE STRINGS
+      </commentary>
+      <examples>
+        It was only a matter of time before she loosened the grip that TV had on her.
+        If phone network providers loosened the reins it would stimulate development.
+        As the state's purse strings loosened, the social complexion of science altered.
+        The rules loosened up a good bit but many regulations that seem archaic today hung on.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>loosen.01,loosen.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) relax, be at ease, assume a friendly manner" type="">
+      <commentary>
+        Is: LOOSEN UP
+      </commentary>
+      <examples>
+        Loosen up, will you?
+        Social activities allow people to get to know each other and to loosen up after a long day of work.
+        I think having a band really has revitalized him and loosened him up.
+        He went back to his corner and burst out laughing, and it loosened him up.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="loosen_up" version="3.0">2,4,5</wn>
+         <omega/><pb>loosen.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="become physically limber" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        A massage is a great way to loosen up after a long plane ride.
+        This stretch is good to help loosen up after a long night's sleep and can help prepare you for any sports activity.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="loosen_up" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

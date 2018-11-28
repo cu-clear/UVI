@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="experience-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="wisdom" type="">
+        <commentary>
+            (mass noun) the accumulation of knowledge or skill that results from
+            direct participation in events or activities
+        </commentary>
+        <examples>
+            He is a man of experience.
+            Experience is the best teacher.
+            I've learned the value of honesty through years of experience.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="incident" type="Event">
+        <commentary>
+	    EXPERIENCE[+event]
+	    (count noun) the content of direct observation or participation in an event
+	    </commentary>
+        <examples>
+            He had a religious experience.
+            He recalled the experience vividly.
+            That painful experience certainly got our attention.
+            Fido said, Finding George drinking from his water bowl was a surprising experience.
+            I've learned the value of honesty from my many experiences.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 3</wn>
+            <omega/>
+            <pb>experience.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

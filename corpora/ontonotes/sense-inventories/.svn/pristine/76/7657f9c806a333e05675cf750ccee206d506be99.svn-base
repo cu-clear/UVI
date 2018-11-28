@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="condescend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="behave in a condescending manner" type="">  
+      <commentary>
+      Syntax includes: 
+      NP1 CONDESCEND
+      </commentary>
+      <examples>
+      * No examples found. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="debase oneself, act in an undignified
+         manner or do something that one considers below one's dignity" type="">
+      <commentary>
+      Syntax Includes: 
+      NP1[agent] CONDESCEND COMP
+      NP1[agent] CONDESCEND PP{to NP}
+      </commentary>
+      <examples>
+      I won't condescend to read others' mail.  
+      How could she condescend to his level? 
+      I like him because he condescends to speak to me. 
+      He could not condescend to take any notice of their indiscretion.
+      How could a gentleman condescend to accept anything under three figures?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>condescend.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

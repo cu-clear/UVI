@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="jerk-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) move abruptly; toss or flick" type="">  
+      <commentary>
+        NP1[agent] JERK NP2[patient]
+      </commentary>
+      <examples>
+        Abruptly, he jerked up his right fist and felt it drive into Cort.
+        He jerked the door open.
+        Her eye jerked and she snapped it shut.
+        The machine's powerful magnetic field jerked a metal oxygen tank
+        across the room.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>jerk.01</pb>
+         <vn>push-12-1</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="jump, buck" type="">
+      <commentary>
+        NP1[agent] JERK
+      </commentary>
+      <examples>
+        A small black animal jerked sporadically against a net.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="murder-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="unlawful killing of a person" type="Event">
+        <commentary>
+            MURDER[+event][+killing][+unlawful][+of_person]
+        </commentary>
+        <examples>
+            The papers reported the stabbing murder of the film director.
+            He was convicted of first-degree murder of the elderly couple.
+            Pro-lifers argue that abortion is murder, pro-choicers disagree.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>murder.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a very difficult task or activity" type="">
+        <commentary>
+            MURDER[+event][+task][+difficult][+extremely]
+        </commentary>
+        <examples>
+            His first week in the emergency room was murder for the young intern.
+            It will be murder to remove all the old paint and varnish from the crown moulding of this room.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a cause of adversity" type="">
+        <commentary>
+            MURDER[+role][+event][+cause][+of_adversity]
+        </commentary>
+        <examples>
+            That exercise can be murder on your lower back muscles.
+            The recent inability to correctly assess financial risk has been murder for the stock market.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cater-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="CATER TO: Give what is desired or needed." type="">  
+      <commentary>
+      Is: CATER TO
+      </commentary>
+      <examples>
+      The company caters to the needs of young professionals.
+      The loudest of these reformers are money managers who cater to
+      smaller investors.
+      She caters to his every desire.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cater.01</pb>
+         <vn>NP</vn><fn>Assistance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Supply food ready to eat, as for parties
+         and banquets." type="">
+      <commentary>
+    Syntax Is: NP1[agent] CATER NP2
+      </commentary>
+      <examples>
+      The hostess catered lunch for all the guests.
+      John catered a party for his mother.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cater.01</pb>
+         <vn>NP</vn><fn>Assistance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

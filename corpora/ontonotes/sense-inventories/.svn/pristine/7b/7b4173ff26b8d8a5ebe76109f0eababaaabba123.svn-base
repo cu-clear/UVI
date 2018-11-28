@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="discriminate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="treat differently on the basis of sex or race" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] DISCRIMINATE NP2
+      </commentary>
+      <examples>
+        She was discriminated against when she. was not accommodated for
+        her medical condition and not allowed to work due to her pregnancy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>discriminate.02</pb>
+         <vn>conspire-71</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="recognize a difference, distinguish" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I could not discriminate the different tastes in this complicated
+        dish.
+        Memory measures discriminated the two surgical groups.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>discriminate.01</pb>
+         <vn>NM</vn><fn>Differentiation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

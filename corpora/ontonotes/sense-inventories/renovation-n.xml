@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="renovation-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="improving" type="Event">
+        <commentary>
+	    RENOVATION[+event]
+	    redevelopment -
+	    the act of improving by renewing and restoring
+	    </commentary>
+        <examples>
+            He needs a place to stay because his building is undergoing renovation.
+            The renovation of the house took only two months.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="restored" type="Event">
+        <commentary>
+            restoration, refurbishment -
+            the state of being restored to its former good condition
+        </commentary>
+        <examples>
+            The inn was a renovation of a Colonial house.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="instruction-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a set of steps describing how to do something" type="">
+        <commentary>
+            INSTRUCTION[+entity][+document][+explanation][+stepwise]
+            [+event][+speech_act][+description][+how_to][+stepwise]    
+        </commentary>
+        <examples>
+            The installation instructions for the wireless modem were almost incomprehensible.
+            The instructions say to saute the onions before adding the wine.
+            Mary's job is to translate all the instruction manuals into French.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the activity of teaching, training" type="Event">
+        <commentary>
+            INSTRUCTION[+activity][+communication][+teaching]
+        </commentary>
+        <examples>
+            The students felt they had received excellent instruction from their CPR instructor.
+            That school offers personalized instruction in a variety of fields.
+            The woman could not admit that her retarded child required different instruction than the other students.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="executable command of a compute program" type="">
+        <commentary>
+            INSTRUCTION[+entity][+symbolic][+command][+executable][+computer]
+        </commentary>
+        <examples>
+            The compiler turns high-level human-readable commands into executable instructions.
+            This instruction adds one to that memory register.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a directive, order, command to do something" type="Event">
+        <commentary>
+            INSTRUCTION[+event][+speech_act][+order][+directive]
+        </commentary>
+        <examples>
+            The child was given instructions to never accept a ride from a stranger.
+            The judge issued instructions to the jury before they began deliberations.
+            The man claimed he was acting on his boss's instructions.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="ascend-v">
+   <commentary>
+    No VPC to add 
+   </commentary>
+   <sense group="1" n="1" name="travel or move in an upwards direction" type="">
+      <commentary>
+     Syntax Includes:
+       NP1[agent] ASCEND NP2[goal/location]
+       NP1[theme] ASCEND PP[location]
+      </commentary>
+      <examples>
+       The climbers ascended the mountain slowly.
+       Many exploreres tried to ascend this river to its headwaters.
+       Will the new CEO be able to ascend the many legal and financial obstacles confronting him?
+       See the moon ascending over the far shore of the lake?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,7</wn>
+         <omega/><pb>ascend.01</pb>
+         <vn>escape-51.1-3</vn><fn>Intentional_traversing,Traversing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="go back in time geneologically" type="">
+      <commentary>
+     Syntax Includes:
+       NP1[abstract] ASCEND ADVP
+       NP1[abstract] ASCEND PP[temporal]
+        Note: the PP ADVP are understood as being in a temporal relationship to subject NP  
+      </commentary>
+      <examples>
+       Inheritence may not ascend linearly.
+       Do humans have genes that ascend to the roundish flatworm?
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="enter into or acquire a higher status (social)" type="">
+      <commentary>
+      Syntax Includes:
+       NP1[benefactor] ASCEND NP2
+       NP1[benefactor] ASCEND PP[state]
+      </commentary>
+      <examples>
+       The princess ascended the throne after the prince's demise.
+       In just ten years they have ascended from poverty to great wealth.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,8</wn>
+         <omega/><pb>ascend.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="be oriented or situated with one end higher than the other." type="">
+      <commentary>
+       NP1[topic] ASCEND PP{to NP[location]}
+      </commentary>
+      <examples>
+       The forest path ascends to the top of the hill.
+       The spiral staircase ascended only to the second floor.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>ascend.01</pb>
+         <vn>escape-51.1-3,meander-47.7</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="go toward a river's (or similar) source." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The boat ascended the Delaware.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>ascend.01</pb>
+         <vn>escape-51.1-3</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,clarklm,greenlm" sample_score="-"/>
+</inventory>

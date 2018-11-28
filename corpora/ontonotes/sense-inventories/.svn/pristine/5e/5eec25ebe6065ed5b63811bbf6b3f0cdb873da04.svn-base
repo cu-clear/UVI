@@ -1,0 +1,98 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="item-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a unit or instance of a collection or list" type="">
+        <commentary>
+            ITEM[+relation][+membership][+collection][+element][+abstract][+concrete]
+            [+entity][+whole][+unit]
+            Note: the item belongs to a collection, group, class or list of things.
+            Note: the item is not a part of a structure (Sense 2) but a whole unit unto itself.
+            Note: is not interchangeable with 'detail' (Sense 2)
+        </commentary>
+        <examples>
+            There are several major items on the agenda for tomorrow's meeting.
+            John checked each item off his shopping list as he made his purchases.
+            Many items in the store are on sale today at half price.
+            Some governors can veto line items in their state budgets.
+            An item of men's clothing was found in the women's locker room.
+            The following items may not be carried on board a commercial aircraft.
+            This 18th-century Dutch ceramic is a real collector's item. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a small subordinate component of a larger structure" type="">
+        <commentary>
+            ITEM[+entity][+structure][+component][+subordinate][+small][+detail]
+            Note: refers to a part of an integrated structure, not an independent thing on a list (sense 1) 
+        </commentary>
+        <examples>
+            There is one small item that he forgot to mention in the contract.
+            Her mother managed the wedding arrangements down to the smallest item. (the wedding has overall structure)
+            There are still some troubling unresolved items in the investigation of this murder. (how facts fit together)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a news story, a piece of data" type="">
+        <commentary>
+            ITEM[+entity][+symbolic][+data][+story][+news]
+        </commentary>
+        <examples>
+            It was a small item on last night's 11 o'clock news.
+            There was an item about Bob's new company in today's business section.
+            Some of the most interesting news items are on the back page of the newspaper.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an entry in an accounting ledger" type="">
+        <commentary>
+            ITEM[+entity][+symbolic][+data][+entry][+ledger][+accounting]
+        </commentary>
+        <examples>
+            The items in the left column are liabilities and the items in the right column are assets.
+            The accountant failed to enter several items in the ledger last month.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a romantically entangled couple" type="">
+        <commentary>
+            ITEM[+entity][+group][+couple][+romantic]
+        </commentary>
+        <examples>
+            John and Mary were an item at work last year.
+            The actress and her personal trainer recently became an item according to a gossip columnist.
+        </examples>
+        <mappings>
+            <wn version="MW online">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

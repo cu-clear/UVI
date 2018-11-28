@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="marketing-n">
+    <commentary>
+        Revised PENN file
+        combined senses 1 and 2, added examples and commentary. ahouston
+        26sep06 added dummy sense 2. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="commercial product strategies" type="Event">
+        <commentary>
+	    MARKETING[+event][+activity][+commercial][+product][+strategy]
+	    a strategy for selling products that includes advertisement, promotion, analysis, distribution
+	    </commentary>
+        <examples>
+            The product failed because of poor marketing.
+            They're going to try direct marketing for their line of kitchen utensils.
+            John does marketing research for a firm in New York. 
+            The cellphone makers have succeeded in lowering their marketing costs.
+            That entrepreneur loves inventing things but hates the marketing of them.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>marketing.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+	    MARKETING[+event]
+	    
+	    </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Going to market" type="Event">
+        <commentary>
+	    MARKETING[+event][+activity][+personal][+shopping]
+	    The act of shopping at the market.
+	    </commentary>
+        <examples>
+            John did the weekly marketing at the supermarket.
+            I do my marketing at three different grocery stores.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="People who promote, etc." type="Abstraction">
+        <commentary>
+            MARKETING[+enterprise][+commercial][+department]
+            The people involved in development, promotion, and sales, either as individuals or as a collective.
+        </commentary>
+        <examples>
+            Have you sent the files to Marketing yet?
+            We have a new director of marketing.
+            Marketing doesn't have a good grasp of the technology they are trying to sell.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

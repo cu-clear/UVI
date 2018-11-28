@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="test-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="an empirical procedure designed to measure something" type="">
+        <commentary>
+            TEST[+activity][+procedure][+measuring][+empirical]
+        </commentary>
+        <examples>
+            John's children took an IQ test yesterday.
+            They are designing some sophisticated tests to look for the Hadron particle.
+            They will need to run further tests on this drug before it goes to clinical trial.
+            Police pulled the man over and made him take a sobriety test.
+            This test equipment cost about two million dollars. (equipment for conducting empirical tests)
+            Mary decided to buy the new software after the 10-day test period expired. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5,1</wn>
+            <omega/><pb>test.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="an endeavor or ordeal performed in some social context" type="">
+        <commentary>
+            TEST[+activity][+measuring][+social][+ordeal]
+        </commentary>
+        <examples>
+            The young man did not think he could pass the test of loyalty demanded by the mafia don.
+            These soldiers have survived the test of front-line battle.
+            This old garden hoe has withstood the test of time. (figurative)
+            Turning this bankruptcy around will certainly put the new CEO to the test.
+            This project will be a test of your patience and perseverance.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>test.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a written document which is an exam" type="">
+        <commentary>
+            TEST[+artifact][+document][+exam]
+        </commentary>
+        <examples>
+            The student was suspended for cheating on his calculus test.
+            The test has three sections and you have 45 minutes for each section.
+            The teaching assistant will be handing out the tests tomorrow at 10 am.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="a quantitative or qualitative experimental result" type="">
+        <commentary>
+            TEST[+state][+result][+quantitative/+qualitative]
+        </commentary>
+        <examples>
+            Some blood tests were stolen from the lab last night.
+            John is not confident in these test results.
+            The third batch of tests showed elevated levels of p53.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">2b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="5" name="a hard body covering on certain invertebrates" type="">
+        <commentary>
+            TEST[+natural][+covering][+body][+shell][+invertebrate] 
+        </commentary>
+        <examples>
+            This diagram shows the anatomical parts of mollusks, including the test.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

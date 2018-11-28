@@ -1,0 +1,162 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="run-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="(baseball) a score made by a runner touching all four bases safely." type="Event">
+        <commentary>
+        RUN[+baseball][+event]
+        </commentary>
+        <examples>
+        The Yankees scored 3 runs in the bottom of the 9th.
+        Their first run came in the 3rd inning.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>run.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The act of testing something." type="Event">
+        <commentary>
+        RUN[+experiment][+procedure]
+        </commentary>
+        <examples>
+        In the trials, each run was completed separately.
+        He called each mouse a new run.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>run.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="3" name="The act of physically running (a race)." type="Event">
+        <commentary>
+        RUN[+event][+motion] 
+        </commentary>
+        <examples>
+        She broke the record for the run yesterday.
+        His daily run keeps him fit.
+        He broke into a run.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,7</wn>
+            <omega/><pb>run.06</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="4" name="An unbroken sequence of events." type="Event">
+        <commentary>
+        RUN[+event][+series]
+        </commentary>
+        <examples>
+        We had a run of bad luck.
+        Nicklaus had a run of birdies.
+        The play had a long run on Broadway.
+        The team enjoyed a brief run of victories. 
+        </examples>
+        <mappings>
+            <wn version="3.0">4,15</wn>
+            <omega/><pb>run.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="5" name="(American football) a play in which the player attempts to carry the ball." type="Event">
+        <commentary>
+        RUN[+American_football][+event]
+        </commentary>
+        <examples>
+        The defensive line braced to stop the run. 
+        The coach puts a great emphasis on the run.     
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>run.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="6" name="A trip or jaunt." type="Event">
+        <commentary>
+        RUN[+event][+journey] 
+        </commentary>
+        <examples>
+        We made a short run into town for groceries.
+        The ship made its run in record time.
+        </examples>
+        <mappings>
+            <wn version="3.0">6,16</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="7" name="A continuous period of production." type="Event">
+        <commentary>
+        RUN[+production][+event]
+        </commentary>
+        <examples>
+        The assembly line was on a 12-hour run.
+        AWe had a daily run of 100,000 gallons of paint.  
+        </examples>
+        <mappings>
+            <wn version="3.0">8,10</wn>
+            <omega/><pb>run.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="8" name="Unrestricted freedom to use something." type="">
+        <commentary>
+        RUN[+freedom]
+        </commentary>
+        <examples>
+        He has the run of the house.
+        She basically has the run of the company offices. 
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="9" name="A small stream or pouring forth of a fluid." type="">
+        <commentary>
+        RUN[+liquid] 
+        </commentary>
+        <examples> 
+        Go down to the run and draw some water.
+        The mountain has many small runs.
+        </examples>
+        <mappings>
+            <wn version="3.0">11,14</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="10" name="A race between candidates for elective office." type="Event">
+        <commentary>
+        RUN[+political][+event]
+        </commentary>
+        <examples>
+        I managed his run for governor.
+        He is raising money for a Senate run.
+        </examples>
+        <mappings>
+            <wn version="3.0">12</wn>
+            <omega/><pb>run.07</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="11" name="A row of unravelled stiches." type="">
+        <commentary>
+        RUN[+clothing]
+        </commentary>
+        <examples>
+        The is a run in that sweater.
+        She got a run in her stocking.
+        </examples>
+        <mappings>
+            <wn version="3.0">13</wn>
+            <omega/><pb>run.04</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

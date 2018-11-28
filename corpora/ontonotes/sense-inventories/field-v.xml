@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="field-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Catch or pick up (balls) in baseball or cricket." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] FIELD NP2[patient]
+      Note: Compare to Sense 2; in Sense 1, the object caught or picked up
+      MUST be explicit.
+      Note: NP2 may be fronted.   
+      </commentary>
+      <examples>
+      No one has any interest in any of the baseballs he fielded for the
+      Twins.
+      He successfully fielded a long shot to right field. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Play as a fielder." type="">
+      <commentary>
+      Syntax Is: NP1[agent] FIELD PP
+      Note: Compare to Sense 1; in Sense 2, there is no explicit object.
+      </commentary>
+      <examples>
+      He fielded for the better part of the game.
+      He fielded for Essex versus Surrey at the Oval.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Answer adequately or successfully." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The lawyer fielded all questions from the press.
+      Following on from this, the floor was open to questions, which she
+      fielded for a full hour.
+      Ask Len Traubman how many requests he's fielded for help in starting
+      a dialogue group.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>field.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Successfully put into action, as of
+         selecting (a team or individual player) for a game or a proposal
+         in business or government." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Junior Johnson recalls each of the stock cars he fielded for his
+      sponsors.
+      Lea-Cox has assembled many of the same choral forces he fielded for
+      the St. Ceclilia Ode.
+      Such a proposal was fielded in Parliament in 1988.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>field.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

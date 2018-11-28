@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="branch-n">
+    <commentary>
+        31aug06 added features, updated to WN 2.1 ahouston
+        31aug06 combined senses 1 and 4, added examples, modified defs. ahouston
+        26sep06  added back dummy sense (sense 4) ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="abstract subdivision of a complex body, e.g, organization, knowledge" type="">
+        <commentary>
+            BRANCH[+entity][+structure][+abstract][+subdivision][+body][+complex][+organization/+knowledge/+family]
+        </commentary>
+        <examples>
+            The U.S. Constitution defines three major branches of government.
+            The local branch of my bank is always busy.
+            English belongs to the Germanic branch of the Indo-European language family.
+            Uncle Pete comes from a branch of the family on my mother's side.
+            Pathology is a branch of medicine.
+            John is studying a branch of mathematics known as graph theory.
+            Mary used to work in the Boston branch. (of a firm)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="forked stem of a plant, e.g., tree limb" type="">
+        <commentary>
+            BRANCH[+entity][+structure][+concrete][+anatomical][+plant][+stem][+subdivision]
+            a division of a stem, or secondary stem arising from the main stem of
+            a plant
+        </commentary>
+        <examples>
+            They broke the branch off of the tree and played fetch with it.
+            That nation has not yet extended the olive branch. (figurative usage, offered peace)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="forked form or shape" type="">
+        <commentary>
+            BRANCH[+form][+forked][+extension]
+            a part of a forked or branching shape
+        </commentary>
+        <examples>
+            When they came to a fork in the road they took the left branch.
+            We canoed down a branch of the Columbia River.
+            The hunter admired the many branches of the large deer's antlers.
+            The computer program has a logic branch at this point of execution.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Placeholder sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

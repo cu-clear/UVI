@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="escape-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="break free or leak from captivity or confinement" type="">  
+      <commentary>
+      Note: NP1 leaves captivity or confinement
+      </commentary>
+      <examples>
+        A 500-pound bear escaped from an animal breeder Monday.
+        Two prisoners have escaped the prison.
+        A lion has escaped from its cage.
+        The spacecraft escaped Earth's gravitational field.
+        Gas was escaping from the vent.
+        Word of the secret escaped and drove some people wild.
+        A muffled curse escaped his lips.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7</wn>   
+         <omega/><pb>escape.01</pb>
+         <vn>escape-51.1-1</vn><fn>Escaping,Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="flee; avoid danger, harm, or unpleasant situation" type="">
+      <commentary>
+        Note: NP1 isn't in captivity or confinement - avoids a situation or atmosphere
+        Includes: ESCAPE FROM
+      </commentary>
+      <examples>
+        Most of them escaped the hurricane's fury with only the clothes on their backs.
+        She was lucky to escape serious injury.
+        He narrowly escaped a fine.
+        There's no escaping the fact that the house needs painting.
+        The burglars escaped before the police showed up.
+        Provide a crate or other safe place for him to escape from the noise.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,6</wn>
+         <wn lemma="escape_from" version="3.0">1</wn>
+         <omega/><pb>escape.01</pb>
+         <vn>NM</vn><fn>Avoiding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="get away from the usual environment for pleasure or diversion" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We escaped to our summer house for days.
+        Escape to a vacation spa for relaxation, rejuvenation, and recreation!
+        They escaped to a resort area called Paradise Island and for a few weeks.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>escape.01</pb>
+         <vn>NM</vn><fn>Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="fail to be remembered, noticed, or understood" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I stayed at a little village whose name escapes me for the moment.
+        What you see in him escapes me completely.
+        The book's significance escaped him.
+        Nothing important escapes her attention.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>escape.01</pb>
+         <vn>NM</vn><fn>Elusive_goal</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="click on the key (usually the escape key) to interrupt a process" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Escape to exit the program.
+        Escape from this window and return to the main menu.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

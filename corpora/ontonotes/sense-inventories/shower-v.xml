@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="shower-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Spray or sprinkle with." type="">  
+      <commentary>
+      Syntax is: NP1(agent) SHOWER NP2(patient) PP(recipient/goal)
+                 NP1(agent) SHOWER NP2(patient) PP(with) NP3(instrument) 
+      </commentary>
+      <examples>
+      The guests showered rice on the couple.
+      Campaign organizers showered the crowd with balloons. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shower.01</pb>
+         <vn>pelt-17.2,spray-9.7-1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Expend profusely (on), also used with abstract
+         nouns; provide abundantly with.d" type="">
+      <commentary>
+      NOTE: Compare with Sense 1; Sense 2 is not a literal showering. 
+      </commentary>
+      <examples>
+      He was showered with praise.
+      He showered her with presents.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>spray-9.7-1</vn><fn>Placing,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Take a shower; wash one's body in the shower." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      You should shower after vigorous exercise.
+      John faithfully showers once a month. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>dress-41.1.1</vn><fn>Grooming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Rain abundantly." type="">
+      <commentary>
+      INCLUDES: SHOWER DOWN
+      </commentary>
+      <examples>
+      Meteors showered down over half of Australia.
+      It showered yesterday.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="shower_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>weather-57</vn><fn>Mass_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

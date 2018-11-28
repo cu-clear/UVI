@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="behave-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="act, perform, or conduct oneself in a certain manner, possibly in a socially appropriate manner." type="">
+      <commentary>
+      Syntax Includes: 
+       NP1[agent[animate]] BEHAVE (like) (NP2)
+       NP1[agent] Behave ADVP NP2
+      </commentary>
+      <examples>
+        He behaved like an utter fool.
+        Al Gore behaved like a villainous wrestler.
+        The driver did not have the receipt and behaved very unprofessionally.
+        She's been behaving oddly.
+        He should have behaved like a grown-up with them! 
+        Now, children, behave yourselves.
+        They did not behave, and were asked to leave.
+        And if you don't behave I'll turn you into a goon!
+        She behaved so well, I was so proud of her!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>behave.01</pb>
+         <vn>masquerade-29.6,masquerade-29.6-1</vn><fn>Conduct</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="respond, function, or react" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[Topic[inanimate]] BEHAVE ADVP
+        NP1[Topic[inanimate]] BEHAVE PP
+        NOTE: Compare carefully to sense 1; this sense is for 
+              inanimate objects that cannot be agentive. In sense 1,
+              it may be ambiguous as to whether or not the NP chooses
+              to &quot;act or perform&quot; in a certain manner.  This sense is
+              unambiguous.
+      </commentary>
+      <examples>
+        Prices for cashews behaved erratically.
+        The nailed wood boxes sector has behaved erratically, peaking in 1989.
+        The early universe may have behaved like a liquid.
+        Unexpectedly, the quark gluon plasma behaved like a perfect liquid of quarks.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>behave.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey" sample_score="-"/>
+</inventory>

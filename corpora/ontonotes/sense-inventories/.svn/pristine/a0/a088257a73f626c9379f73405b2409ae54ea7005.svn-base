@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="conduct-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="lead a performance (usually music)" type="">
+      <commentary>
+     Syntax Is:
+      NP1[agent[human]] CONDUCT NP2
+      Note: NP2 is understood to entail humans, even if not referenced explicitly.
+      </commentary>
+      <examples>
+	I heard Berstein conduct Mahler's Ninth in Philadelphia.
+        It is challenging to conduct twelve tone music.
+        The general conducted his troops in battle with brilliant military acumen.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2,6</wn>
+	 <omega/><pb>conduct.01</pb>
+         <vn>NM</vn><fn>Cotheme</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="manage, handle, or control something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] CONDUCT NP[patient] PP
+        Note: often refers to habitual or ongoing events, rather than a single
+        temporally-bounded one.
+      </commentary>
+      <examples>
+        He conducted his business from home for two years.
+        The army is conducting war games in the Indian Ocean.
+        Jane will conduct the surveys for our group.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1</wn>
+	 <omega/><pb>conduct.01</pb>
+         <vn>NM</vn><fn>Cotheme,Intentionally_act</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="behave,act" type="">
+      <commentary>
+      Note: reflexive 
+      </commentary>
+      <examples>
+	Please conduct yourselves as ladies and gentlemen.
+        He is conducting himself bravely through this difficult time.
+        Those children couldn't conduct themselves appropriately in the restaurant.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3</wn>
+	 <omega/><pb>conduct.02</pb>
+         <vn>NM</vn><fn>Conduct</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="carry,transmit,transport" type="">
+      <commentary>
+       Syntax Is:
+        NP1[instrument] CONDUCT NP2
+      </commentary>
+      <examples>
+        Many metals conduct heat.
+        Does water conduct sound waves well?
+        The trucks conducted the wounded to the hospital.
+      </examples>
+      <mappings>
+	 <wn version="3.0">5</wn>
+	 <omega/><pb>NM</pb>
+         <vn>accompany-51.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+    <sense group="1" n="5" name="lead or guide to a location" type="">
+      <commentary>
+      Syntax Includes: (NP[agent]) CONDUCT NP[patient] PP{P NP[location]}
+      Note: usually identifies a specific, temporally bound event.
+      Note: usually physical guidance. 
+      </commentary>
+      <examples>
+        The butler conducted us into the library.
+        That senile man was conducting traffic again on Main Street.
+        The naughty puppy got conducted straight into the back yard.
+      </examples>
+      <mappings>
+	 <wn version="3.0">4</wn>
+	 <omega/><pb>conduct.01</pb>
+         <vn>NM</vn><fn>Cotheme</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

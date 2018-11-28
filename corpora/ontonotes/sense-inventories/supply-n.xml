@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="supply-n">
+    <commentary>
+        31aug06 updated to WN 2.1, added features, examples, modified defs. ahouston
+        31aug06 split sense 1 into sense 1, sense 3. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an available quantity of a resource" type="">
+        <commentary>
+            SUPPLY[+quantity][+amount][+available][+resource]
+            an amount of something available for use
+            Note: the modifier specifies the resource, X supply, supply of X
+        </commentary>
+        <examples>
+            Our supply of toothpaste is running low.
+            Get a free printer with your purchase - while supplies last! (quantity of available printers)
+            Some chemical has contaminated their water supply.
+            John probably has a lifetime supply of paper clips in his desk drawer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>supply.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="act of providing a desired resource" type="Event">
+        <commentary>
+	    SUPPLY[+event][+activity][+providing][+resource][+desired]
+	    the activity of supplying or offering goods and services
+	    </commentary>
+        <examples>
+            This firm is engaged in the supply of raw materials to the steel industry.
+            Economists study the supply of, and demand for, goods and services in a society.
+            It's an argument from supply side economics.
+            The U.N. has criticized that nation for its supply of arms to terrorist organizations.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>supply.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="goods, provisions" type="">
+        <commentary>
+            SUPPLY[+entity][+resource][+desired]
+            Note: often occurs in the plural.
+            Note: refers to stuff, not a quantity of something (see Sense 1)
+            Note: often does not have an accompanying modifier, as Sense 1 usually does
+        </commentary>
+        <examples>
+            Our mini-fridge in the hotel room was stocked with supplies.
+            Each hiker will have to carry their own supplies on their back.
+            Do you need any supplies from the lumber store?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

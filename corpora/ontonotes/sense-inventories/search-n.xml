@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="search-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the process of seeking or looking for something" type="Event">
+        <commentary>
+            SEARCH[+process][+seeking][+for_something]
+        </commentary>
+        <examples>
+            Their search for a new CEO took nine months.
+            The search for an integration of general relativity and quantum mechanics is still underway.
+            After two weeks the coast guard decided to call off the search for the lost vessel.
+            My search ended when I found my ring on the windowsill of the kitchen.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an authorized investigation or inspection" type="Event">
+        <commentary>
+            SEARCH[+process][+authorized][+investigation][+inspection]
+        </commentary>
+        <examples>
+            The judge has ordered a thorough search of the financial records of the firm.
+            The coast guard's  search of each incoming ship will take some time.
+            The police did a quick search over the man's body and found a concealed weapon.
+            The TSA is performing random searches on passengers passing through security.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="information lookup on a computer" type="Event">
+        <commentary>
+            SEARCH[+event][+lookup][+information][+on_computer]
+        </commentary>
+        <examples>
+            Search on the Internet has improved over the years.
+            The program uses a simple keyword search.
+            This system based on natural language does searches that can return related concepts, not just similar word forms.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

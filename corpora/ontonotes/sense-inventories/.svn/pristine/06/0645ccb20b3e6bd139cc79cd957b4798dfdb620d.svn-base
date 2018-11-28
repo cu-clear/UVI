@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tag-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="attach a label, rhyme, nickname or something supplemental" type="">  
+      <commentary>
+        Includes: TAG ON
+
+        Syntax is: NP1[agent] TAG NP2[concrete] PP NP3[attribute]
+      </commentary>
+      <examples>
+        Tag your friends in these photos! 
+        Joyce tagged all the sweaters at 50 percent off.
+        Ever since I was a kid I was tagged 'Carrot Top' because of my red hair.
+        The police have tagged him as the trouble-maker.
+        Why do I have ads tagged on every email message?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,5</wn>   
+         <wn lemma="tag_on" version="3.0">1</wn>
+         <omega></omega><pb>tag.01</pb>
+         <vn>butter-9.9,illustrate-25.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="touch someone (in a game); chase with intent to catch" type="">
+      <commentary>
+        Syntax is: NP1[agent] TAG NP2[patient]
+
+        NOTE: Motion and a path is included in this sense whether it is
+        overtly stated in the example (sentence 3,4) or just implied
+        (sentene 1,2).
+      </commentary>
+      <examples>
+        Tag, you're it!
+        They tagged her in 'Capture the Flag' and put her in jail.
+        Police are hoping to tag the escaped convict later to day.
+        After a long chase, his son finally tagged him 'it'.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="TAG ALONG: come along with, often uninvited" type="">
+      <commentary>
+        Is: TAG ALONG
+      </commentary>
+      <examples>
+        My kid brother always tries to tag along to rated R movies.
+        Mind if I tag along to the supermarket? I need to pick up eggs.
+        
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="tag_along" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="deface property; graffiti" type="">
+      <commentary>
+        NOTE: This is a subsense of sense 1 referring specifically to the
+        act of doing graffiti.
+      </commentary>
+      <examples>
+        I hate that someone tagged that old building.
+        My friends like to tag train cars at night.
+        Don has tagged every fast food joint for 100 miles.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,5</wn>
+         <wn lemma="tag_on" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>butter-9.9,illustrate-25.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

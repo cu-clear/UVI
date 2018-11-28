@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="illuminate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make lighter or brighter" type="">  
+      <commentary>
+        Syntax Is: NP1 ILLUMINATE NP2
+      </commentary>
+      <examples>
+        The light from the lamp illuminated the room.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>illuminate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make clear" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She illuminated her previous remarks.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>illuminate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="add embellishments (to medieval manuscripts)" type="">
+      <commentary>
+        Syntax Is: NP1 ILLUMINATE NP2
+      </commentary>
+      <examples>
+        We lack information about the artist or artists who lavishly
+        illuminated the manuscript.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>illustrate-25.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

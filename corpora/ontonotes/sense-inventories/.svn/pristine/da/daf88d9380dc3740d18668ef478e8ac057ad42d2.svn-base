@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="validate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Confirm the validity of, as of a legal
+   proceeding, scientific experiment, or idea; possibly only perceptually
+   rather than officially." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] VALIDATE NP2[patient[abstract]]
+      Note: The thing validated must be ABSTRACT.
+      </commentary>
+      <examples>
+      The economic downturn validated all of Sir Alan's predictions.
+      His evidence helps to validate my theory.
+      A judge helped to validate the process.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>validate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Validate a document for the purpose of
+         executing a process or receiving compensation." type="">
+      <commentary>
+      Syntax Is: NP1[agent] VALIDATE NP2[patient[concrete]]
+      Note: The thing validated must be CONCRETE.
+      </commentary>
+      <examples>
+      The movie theater validted my parking stub so I didn't have to pay.
+      My supervisor validated my timesheet. 
+      I have to validate these invoices by the end of the day.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>validate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

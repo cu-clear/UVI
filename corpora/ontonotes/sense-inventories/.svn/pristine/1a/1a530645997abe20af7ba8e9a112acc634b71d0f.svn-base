@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ping-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Produce a short high-pitched sound, perhaps
+   by hitting." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The bugs pinged the zapper.
+      The bullets pinged when they struck the car.
+      The monks pinged small meditation bells.
+      The alarm clock pinged at 6AM. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ping.01</pb>
+         <vn>sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Sound like a car engine that is firing too early." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The car pinged when I put in low-octane gasoline.
+      The car pinged when the ignition was too far retarded.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Contact, generally by computer messaging." type="">
+      <commentary>
+      NOTE: Includes pinging IP addresses.
+      </commentary>
+      <examples>
+      I'll ping my accountant - April 15 is nearing.
+      Ping your machine in the office.
+      </examples>   
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,130 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="jump-v">    
+   <commentary>
+	Includes VPC jump_off, jump_on
+   </commentary>
+   <sense group="1" n="1" name="(cause to) move suddenly and abruptly upward and/or forward" type="">  
+      <commentary>
+        Note: Includes figurative uses.
+      </commentary>
+      <examples>
+	The horse easily jumped the five foot fence.
+	The trainer jumped his tigers through flaming hoops.
+	Let's don't jump to the wrong conclusion.
+	Improper alignment of the film in the projector mechanism caused it to jump through frames.
+	John jumped around in the article to see whether he had been cited.
+	Electrons jump from specific energy levels to other levels, rather than continuously.
+	They have been jumping back and forth on this issue for years.
+        We jumped from our seats at the loud thunderbolt.
+	A man was seen jumping off the bridge yesterday.
+	Oil prices jumped sharply overnight.
+	Her new novel has jumped to second place this week on the bestseller list.
+	Sally jumped at the chance to become a shuttle astronaut.
+	The puppy jumped right in with the bigger dogs.
+	We need to jump on this issue right away.
+	Billy has jumped off to a good start at school this year.
+        Jump in the car, let's go!
+	Jump back on a horse right away if you fall off.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,6,7,8,10,11,13,14,15</wn>   
+         <wn lemma="jump_off" version="3.0">1,2</wn>
+         <wn lemma="jump_on" version="3.0">1</wn>
+         <omega/><pb>jump.01,jump.02,jump.03,jump.04</pb>
+         <vn>calibratable_cos-45.6-1,run-51.3.2-2-1</vn><fn>Change_position_on_a_scale,Self_motion,Traversing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="leave the rails or path unexpectedly" type="">
+      <commentary>
+	Includes: JUMP THE TRACK
+      </commentary>
+      <examples>
+	Several people were injured when the train jumped the track.
+        They couldn't decide on the next step and now the whole reorganization plan has jumped the track.
+        Floor-track doors that refuse to budge may have jumped the track. 
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>jump.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="be highly noticeable" type="">
+      <commentary>
+	Includes: JUMP OUT
+      </commentary>
+      <examples>
+	I don't like the way these colors jump out of the wall.
+        The graphics just jump out at you.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="jump_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="assail suddenly and unexpectedly" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] JUMP[transitive] NP2[patient[animate]]
+      </commentary>
+      <examples>
+	Muggers jumped the woman in the fur coat.
+	John turned and was ready before the punks could jump him.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <omega/><pb>jump.08</pb>
+         <vn>NM</vn><fn>Attack</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="cause an engine to start by connecting its battery to another" type="">
+      <commentary>
+	Syntax Is: NP1[agent] JUMP[transitive] NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+	I jumped his Camry from my Civic.
+        They borrowed Bob's cables to jump the car with the dead battery.	
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="6" name="multi-word idioms" type="">
+      <commentary>
+	Includes: jump_bail
+		  jump_ship
+		  jump_the_gun
+		  jump_the_queue
+                  jump_on_the_bandwagon
+                  jump_for_joy
+      </commentary>
+      <examples>
+	jump_bail
+		Debbie's brother jumped bail again after his second DWI charge.
+	jump_ship
+		Their investors are likes rats jumping ship. (figurative)	
+	jump_the_gun
+		Analysts may have jumped the gun in predicting a housing recovery.
+	jump_the_queue
+		That couple appears to have jumped the queue to get tickets.
+        jump_on_the_bandwagon
+                Jenny jumped on the bandwagon for fear of appearing the outcast of the group.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="jump_for_joy" version="3.0">1</wn>
+         <omega/><pb>jump.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>  
+</inventory>

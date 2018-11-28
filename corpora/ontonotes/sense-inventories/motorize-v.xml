@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="motorize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="equip with a motor vehicle" type="">  
+      <commentary>
+        Syntax Includes:
+      </commentary>
+      <examples>
+        The police around here aren't motorized, they ride horses.
+        The pizza delivery company motorized its work force.
+        Oprah motorized her audience.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0">1</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="equip with a motor" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Scooters these days are motorized.
+        Some blinds come with the option to motorize.
+        It's a bad idea to motorize your furniture.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">2</wn>
+         <omega></omega><pb>motorize.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

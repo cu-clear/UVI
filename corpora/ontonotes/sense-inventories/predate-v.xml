@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="predate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="come before temporally" type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[topic] PREDATE NP2[focus]
+      NP1[topic] PREDATE PP[temporal]
+      </commentary>
+      <examples>
+      The Japanese use of Pascal's Triangle predates its discovery by Blaise Pascal.
+      The world's oldest granaries predate agriculture.
+      Edison's first sound recordings were predated by 20 years.
+      Initial diversification of living amphibians predated the breakup of Pangaea.
+      Love predated the invention of language.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>predate.01</pb>
+         <vn>contiguous_location-47.8</vn><fn>Relative_time</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="assign a prior date to" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PREDATE NP2[theme] (PP[temporal])
+      </commentary>
+      <examples>
+      He predated the check by three days.
+      Like Dickinson, he predated his choices back to 1924.
+      He predated his rejection of his heretical ideas to six months before crossing the Pyrenees.
+      He predated his stock options so he could sell early.
+      He predated his paintings to the time before his arrest in order to sell them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>predate.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be a predator of" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PREDATE (NP2[patient[animate]])
+      </commentary>
+      <examples>
+      These mammals predate certain eggs.
+      The whole idea of a bat predating migrant birds might come off as a bit of a shock.
+      Many larvae were heavily predated by cuckoos.
+      It is hoped that the stock of trout will predate sufficiently to minimise the problem.
+      To predate in person, instead of by proxy, is not unnatural.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>predate.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

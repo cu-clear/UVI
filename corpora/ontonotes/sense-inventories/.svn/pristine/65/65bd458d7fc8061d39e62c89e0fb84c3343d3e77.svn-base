@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="protest-n">
+    <commentary/>
+    <sense group="1" n="1" name="an official objection or dissent" type="Event">
+        <commentary>PROTEST[+event][+speech_act][+objection][+official]</commentary><examples>The Hungarian team filed an official protest against the Bulgarian team.
+            Two senior scientists resigned in protest of the new university policy.
+            The sailboat raised a red flag indicating a protest to the committee boat.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>protest.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a public group demonstration of dissent" type="Event">
+        <commentary>PROTEST[+event][+demonstration][+group][+public][+of_dissent]</commentary><examples>There were 25,000 people at the anti-war protest this morning.
+            Activists are organizing a protest next week against the measure.
+            The protest turned violent after someone in the crowd threw a brick.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb>protest.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="an individual expression of disagreemenAgainst John's protests Mary cleaned up his office anyway.  There were no protests to the suggestion of Thai food for lunch.  The child's nightly protest against going to bed is about to begin." type="Event">
+        <commentary>PROTEST[+event][+speech_act][+objection][+personal]</commentary><examples>Against John's protests Mary cleaned up his office anyway.
+            There were no protests to the suggestion of Thai food for lunch.
+            The child's nightly protest against going to bed is about to begin.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb>protest.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a notarized document which is refusal of presented bill" type="">
+        <commentary>PROTEST[+artifact][+document][+notarized][+record][+of_refusal][+of_bill]</commentary><examples>The judge pointed out to the defendant that two protests were now on record for the delinquent bill.</examples>
+        <mappings>
+            <wn version="MAC">2</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score=""/>
+</inventory>

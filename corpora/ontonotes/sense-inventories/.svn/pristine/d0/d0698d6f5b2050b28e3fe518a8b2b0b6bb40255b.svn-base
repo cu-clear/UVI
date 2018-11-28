@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="generate-v">    
+   <commentary>
+	No VPCs to include
+   </commentary>
+   <sense group="1" n="1" name="cause something to exist; create or produce" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] GENERATE NP2[patient]
+      </commentary>
+      <examples>
+	This new movie is generating a lot of excitement.
+	He generated his oldest daughter with his first wife.
+	Was that the assassination that generated hostilities between the countries?
+        The new development will generate 1500 new jobs.
+        These measures will increase the club's ability to generate income.
+        The firm's new line of PDAs is generating about half their revenue this year.
+        This new strain of wheat generates larger crops per acre than older varieties.
+        The latest presidential debate has generated much discussion.
+        The new dam will generate electricity for several towns.
+        The rapid expansion and contraction of air generates sound waves.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>generate.01</pb>
+         <vn>engender-27,grow-26.2</vn><fn>Birth,Intentionally_create,Creating,Cause_to_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="define or construct something abstractly" type="">
+      <commentary>
+	Syntax Is: NP1[agent] GENERATE NP2[product]
+      </commentary>
+      <examples>
+	This set of grammatical rules cannot generate relative clauses.
+	You can generate an ellipse by defining two foci. 
+	A proof for that theorem can be generated along the following lines.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>generate.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

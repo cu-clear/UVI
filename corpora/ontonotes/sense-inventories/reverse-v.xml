@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reverse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="change direction, become undone" type="">  
+      <commentary>
+      Note: Different from sense 3 because there is no exchange of places
+      Note: In this sense, something is being undone, not necessarily exchanged
+      </commentary>
+      <examples>
+        Rising export and import prices in 1987 reversed the trend of recent years.
+        The new manager hoped to reverse the decline in the company's fortunes.
+        The UNDO command can reverse your steps back to the first thing you ever did.
+        Many of the deterimental effects can be reversed by moderate exercise.
+        The Supreme Court reversed, ruling that the video implicated legitimate concerns.
+            (compare carefully to sense 2)
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>reverse.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="formally revoke or overturn previous decision or ruling" type="">
+      <commentary>
+        Note: This is a formal, legal usage.  Please compare carefully to sense 1; the Court can reverse 
+        (change its stance or opinion) in sense 1; sense 2 specifically refers to the ruling or
+        law being revoked or overturned.
+      </commentary>
+      <examples>
+        The Court of Appeal reversed the earlier judgment and set him free.
+        The council reversed their earlier vote.
+        The boy is asking the court to reverse a ruling barring him from karate
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>reverse.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="turn inside out or upside down; make or become opposite" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1 REVERSE
+        NP1 CONJ NP2 REVERSE
+      </commentary>
+      <examples>
+        You can reverse the cloak and wear it with the lining on the outside.
+        Choose any 3 colors to make this hat, and reverse the hat so you have 2 hats.
+        So in some respect, Tim and I have reversed our situations; he stays at home and I work.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>reverse.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="go backwards" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She reversed into the parking space. (UK usage for AM 'backed')
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>  
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

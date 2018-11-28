@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lease-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="rent property from somebody" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        I am leasing a country estate for the year.
+        Should we lease a car for the trip?
+        The company will lease a space by the tower.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>lease.01</pb>
+         <vn>get-13.5.1</vn><fn>Renting</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="rent property to somebody" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We leased our apartment to friends when we were abroad.
+        The estate contains 300 new homes, about a third of which are leased to the council.
+        It was agreed they would lease him the flat.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>lease.02</pb>
+         <vn>give-13.1-1</vn><fn>Renting-out</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

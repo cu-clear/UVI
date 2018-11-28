@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hauler-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a person who contracts to transport by road" type="">
+        <commentary>
+            HAULER[+person][+contractor][+transporter][+road][+material/+goods]
+            Note: references a person, not a business
+        </commentary>
+        <examples>
+            He was an independent hauler with his own rig.
+            Those haulers are going on strike for better wages from their firm.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a business that transports material or goods by road" type="">
+        <commentary>
+            HAULER[+business][+transporter][+road][+material/+goods]
+            Note: references an organization, not a single individual
+        </commentary>
+        <examples>
+            Small local haulers collect the bagged or bundled waste.
+            It's a national hauler that transports a lot of farm produce.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a truck used to transport material or goods via road" type="">
+        <commentary>
+            HAULER[+vehicle][+truck][+transporter][+material/+goods]
+            Note: references a vehicle, a truck
+        </commentary>
+        <examples>
+            There was a line of haulers moving up the road, carrying loads of gravel and sand.
+            A liquid gas hauler jackknifed on the freeway during the ice storm.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="plea-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="request or entreaty to an authority for help" type="Event">
+        <commentary>
+            PLEA[+event][+speech_act][+reequest][+to_authority][+for_help]
+        </commentary>
+        <examples>
+            He made a dramatic plea for disarmament to the delegates.
+            The torturer ignored the prisoner's pleas for mercy.
+            Our pleas for more civil discourse during town meeting were largely ignored.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>plea.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the response of a defendant to a legal charge" type="Event">
+        <commentary>
+            PLEA[+event][+speech_act][+response][+of_defendant][+to_charge][+legal]
+        </commentary>
+        <examples>
+            The defendant changed his plea to guilty prior to appearing in court.
+            She entered a plea of not guilty.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>plea.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an offered allegation in a legal case" type="Event">
+        <commentary>
+            PLEA[+event][+speech_act][+allegation][+offered][+case][+legal]
+        </commentary>
+        <examples>
+            The lawyer may get the sentence reduced on a plea of insanity.
+            Her plea alleges adultery by the petitioner with the named person below.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>plea.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an excuse or justification for something" type="Event">
+        <commentary>
+            PLEA[+event][+speech_act][+justification][+excuse]
+            [+relation][+role][+alibi]
+        </commentary>
+        <examples>
+            Bob declined the dinner invitation with the plea of a headache.
+            John wouldn't listen to her pleas of too much work and whisked her off for a romantic weekend.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

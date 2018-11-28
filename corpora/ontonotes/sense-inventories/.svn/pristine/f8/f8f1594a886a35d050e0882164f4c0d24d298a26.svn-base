@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="wound-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="area of damaged, cut tissue on a living body" type="">
+        <commentary>
+            WOUND[+form][+physical][+area][+damaged][+cut][+of_body][+living]
+        </commentary>
+        <examples>
+            The soldier received a fatal wound on the battlefield.
+            The nurse changed the bandage on the patient's surgical wound.
+            The bullet caused only a flesh wound in his upper shoulder.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of emotional hurt" type="">
+        <commentary>
+            WOUND[+state][+personal][+emotional][+pain]
+            Note: refers to emotional state of a single individual
+        </commentary>
+        <examples>
+            John is still licking his wounds after the verbal thrashing he got from Mary.
+            Sally said that seeing the film opened up some old wounds about her failed marriage.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of injuring, cutting, a living body" type="Event">
+        <commentary>
+            WOUND[+event][+act][+infliction][+of_injury][+to_body]
+        </commentary>
+        <examples>
+            The pirate took a fatal wound from the rapier of the ship's captain.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="social discord or disharmony between groups" type="">
+        <commentary>
+            WOUND[+state][+social][+discord][+between_groups]
+            Note: refers to discord among a group of individuals
+        </commentary>
+        <examples>
+            The candidate's remarks have opened an old wound between factions of the party.
+            But can these old wounds ever heal after 20 years of civil conflict in that nation?
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

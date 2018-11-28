@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="error-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="An instance or action of being incorrect." type="">
+        <commentary>
+        ERROR[+event]
+        </commentary>
+        <examples>
+        He made a grave error.
+        She was quick to point out my errors.
+        The book was full of errors.
+        He made an error an lost her trust.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,3,5,7</wn>
+            <omega/><pb>error.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="(baseball) a failure of a defensive player to make an out when normal play would have sufficed." type="">
+        <commentary>
+         ERROR[+event][+baseball]
+        </commentary>
+        <examples>
+        The fielder made two errors that game.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>error.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="(computer science) the occurence of an incorrect result produced by a computer." type="">
+        <commentary>
+        ERROR[+computer_science][+event]
+        </commentary>
+        <examples>  
+        The program demonstrated many errors.
+        Errors occurred as the program compiled.    
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>error.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

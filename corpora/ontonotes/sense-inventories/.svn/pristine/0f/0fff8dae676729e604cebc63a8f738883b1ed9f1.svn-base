@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="damage-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="impairment or loss of something" type="">
+        <commentary>
+            DAMAGE[+state][+impairment]
+        </commentary>
+        <examples>
+            The damage caused by the hurricane was severe.
+            They fear the damage caused by the scandal can not be undone.
+            Her damage to John's psyche may be exaggerated by him.
+            Can these damages to my carpet be fixed?
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="price or cost" type="">
+        <commentary>
+            DAMAGE[+quantity][+cost]
+            Note: slang, used as a metaphor of sense 1
+        </commentary>
+        <examples>
+            &quot;What's the damage?&quot; asked John, picking up his bar tab.
+            The damage for this vacation was more than I realized.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="legally mandated compensation for loss or injury" type="">
+        <commentary>
+            DAMAGE[+quantity][+cost][+legal]
+            Note: occurs in the plural, damages.
+        </commentary>
+        <examples>
+            They'll have to pay significant damages if they lose this case.
+            They lost in criminal court but went ahead and sued for damages.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

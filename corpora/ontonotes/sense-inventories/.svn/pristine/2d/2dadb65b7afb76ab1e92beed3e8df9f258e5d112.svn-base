@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="correct-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="rectify, remedy, remove mistakes or errors" type="">  
+      <commentary>
+      Syntax Is:
+       NP1 CORRECT NP2[topic]
+      </commentary>
+      <examples>
+        Students said it was helpful if the teacher corrected their pronunciation.
+        How do you correct the wrongs done to victims of the Holocaust?
+        Correct the alignment of the front wheels.
+        These glasses hopefully will correct his myopia.
+        I bought a chair to help me correct by posture.
+        You need to correct your attitude, young man.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,7,8</wn>
+         <omega/><pb>correct.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="grade or mark" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I've got thirty exam papers to correct.
+        The homework will be corrected, graded, and returned as soon as possible.
+        I spent all night correcting your quizzes.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="punish, scold or discipline" type="">
+      <commentary>
+      Syntax Is:
+       NP1[agent] CORRECT NP2[patient]
+      </commentary>
+      <examples>
+        He was severely corrected by his superiors for the mistake.
+        She corrected him for his insesitive remarks by grounding him for a week.
+        The teacher corrects his students rather frequently.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5</wn>
+         <omega/><pb>correct.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="go down in value" type="">
+      <commentary>
+        NOTE: This sense only used for frames of stock and money/prices.
+      </commentary>
+      <examples>
+        The stock market corrected last week.
+        Prices have corrected all throughout the nation.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg,duffielc" sample_score="-"/>  
+</inventory>

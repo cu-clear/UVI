@@ -1,0 +1,143 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="love-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="strong feeling of affection for someone or something, but not a romantic feeling" type="Event">
+        <commentary>
+            LOVE[+state][+emotion][+strong][+affection][-romantic]
+        </commentary>
+        <examples>
+            Their love for their children was unconditional.
+            Mary's love for her pets made John a little jealous.
+            The soldiers felt a deep love for their country. 
+            The minister spoke to them about God's love for all his creatures.
+            There is certainly no love lost between those two rivals. (they don't like each other)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>love.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="feeling a keen interest and enjoyment in something" type="Event">
+        <commentary>
+            LOVE[+state][+interest][+enjoyment][+keen][+in_activity]
+            Note: refers to some activity or event that is of interest
+        </commentary>
+        <examples>
+            Bob remembers his grandfather's love of a good argument about politics at dinner.
+            We share a love of classical music.
+            The actress's only real love was the theater.
+            The accident has dampened his love of skiing.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb>love.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a strong emotion of romantic feelings towards someone" type="">
+        <commentary>
+            LOVE[+state][+emotion][+strong][+affection][+romantic]
+        </commentary>
+        <examples>
+            She said she would only marry for love, and not for money.
+            The love between Romeo and Juliet was tragically doomed.
+            He was a man in love and jealous of any other potential suitors.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>love.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the person who is the object of romantic feelings" type="">
+        <commentary>
+            LOVE[+entity][+person][+role][+beloved][+romantic]
+            Note: related to Sense 3, but refers to the person (object) not the internal feeling.
+        </commentary>
+        <examples>
+            Although he didn't know it at the time, Sally was to be the love of Bob's life.
+            The potion ensured that the first creature the queen observed upon waking would be her true love.
+            The prince picked up his love and carried her to safety away from the sorcerer's lake.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>love.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a score of zero in tennis" type="">
+        <commentary>
+            LOVE[+quantity][+score][+game][+tennis][+of_zero]
+        </commentary>
+        <examples>
+            The score is now forty love.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the act of people having sex" type="">
+        <commentary>
+            LOVE[+event][+having_sex][+between_people]
+        </commentary>
+        <examples>
+            Their love produced a baby.
+            The explicit nude love scenes give the film an X rating.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="an affectionate greeting" type="">
+        <commentary>
+            LOVE[+event][+speech_act][+greeting][+affectionate]
+        </commentary>
+        <examples>
+            Aunt Lilly sends her love to everyone.
+            We all wished John lots of love in his get-well card.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a sweet, adored creature" type="">
+        <commentary>
+            LOVE[+entity][+being][+role][+endearing][-romantic]
+            Note: this does not include a person playing a romantic role, it's -romantic
+        </commentary>
+        <examples>
+            Be a love and fetch me another iced tea.
+            The woman fondled the puppy and said he was a little love.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

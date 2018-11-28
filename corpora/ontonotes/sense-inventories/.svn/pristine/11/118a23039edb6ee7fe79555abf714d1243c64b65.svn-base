@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sow-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="seed, place seeds in the ground" type="">  
+      <commentary>
+        Includes: SOW IN
+        Does not include metaphorical uses.
+      </commentary>
+      <examples>
+        She sowed the sunflower seeds.
+        She sowed the ground with sunflower seeds.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="sow_in" version="3.0">1</wn>
+         <omega></omega><pb>sow.01</pb>
+         <vn>spray-9.7-1</vn><fn>Placing,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="introduce into an environment" type="">
+      <commentary>
+        Includes metaphorical uses.
+      </commentary>
+      <examples>
+        They sowed seeds of doubt.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sow.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="live promiscuously and self-indulgently" type="">
+      <commentary>
+        Includes: SOW ONE'S OATS and SOW ONE'S WILD OATS
+     </commentary>
+      <examples>
+        I never sowed my wild oats and never experimented with anybody or
+        anything.
+        He sowed his oats and he went the pace-he lived like a Fat Man's son.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="sow_one's_oats" version="3.0">1</wn>
+         <wn lemma="sow_one's_wild_oats" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

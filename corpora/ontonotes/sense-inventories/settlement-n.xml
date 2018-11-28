@@ -1,0 +1,155 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="settlement-n">
+    <commentary>
+        27jul06 merged senses 3 and 5, added examples, added features. ahouston
+        27jul06 added 3 new senses from other dictionary sources. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the people who found a community" type="">
+        <commentary>
+            SETTLEMENT[+group][+people][+colonizers]
+            the body of people who settle far from home but maintain ties with
+            their homeland; inhabitants remain nationals of their home state but
+            are not literally under the home state's system of government
+            Note: focus is on the people, not the buildings, infrastructure (Sense 2)
+        </commentary>
+        <examples>
+            The settlement worked hard all year to send money back to their families. 
+            The settlement was wiped out by successive raids of local tribes.
+            They are a religious settlement who do not believe in marriage.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="small town, village" type="">
+        <commentary>
+            village - 
+            SETTLEMENT[+location][+physical][+town][+small]
+            Note: focus is on the locale, the infrastructure of the town
+        </commentary>
+        <examples>
+            The settlement was located in Virginia.
+            There was no school or church in the tiny settlement.
+            Several new settlements have arisen in the past couple of years along the river.
+            It was a fairly large settlement in Queensland for those times.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="resolution of a disagreement" type="Event">
+        <commentary>
+            a conclusive resolution of a matter and disposition of it
+            SETTLEMENT[+event][+resolution][+disagreement]
+        </commentary>
+        <examples>
+            The settlement of the dispute wasn't for several days.
+            They finally reached a pay settlement with the union.
+            The owner reached an out-of-court settlement with the plaintiff.
+            Will there ever be a settlement to the problems in the Middle East?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>settlement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="the activity of colonizing" type="Event">
+        <commentary>
+	    SETTLEMENT[+event][+activity][+colonizing]
+	    colonization
+	    the act of colonizing; the establishment of colonies
+	    </commentary>
+        <examples>
+            The settlement of the New World by Europeans occurred over centuries.
+            Israel's settlement of immigrants in the Gaza strip was controversial.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="the voluntary legal act of bestowing ownership of property" type="Event">
+        <commentary>
+            SETTLEMENT[+activity][+transfer][+legal][+bestowment][+property]
+            Note: implies a choice in the bestowment, unlike Sense 7
+            Note: does not, of itself, imply a dispute (see Sense 3)
+        </commentary>
+        <examples>
+            The settlement of the wealthy actor's estate took several months.
+            There were some challenges by the heirs to the settlement of the family farm.
+        </examples>
+        <mappings>
+            <wn version="MW online">2a</wn>
+            <omega/>
+            <pb>settlement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="the act of liquidation" type="Event">
+        <commentary>
+            SETTLEMENT[+event][+liquidation][+required][+assets]
+            termination of a business operation by using its assets to discharge
+            its liabilities
+        </commentary>
+        <examples>
+            The settlement of the company was on March 1st.
+            They'll be auctioning off the assets as part of the settlement.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="the quantity or amount of bestowed property" type="">
+        <commentary>
+	    SETTLEMENT[+event][+quantity][+amount][+property][+bestowed]
+	    Note: refers to a specific (sometimes unstated) quantity
+	    </commentary>
+        <examples>
+            She received a hefty settlement from her father's estate.
+            The settlement of the younger son was smaller than he had hoped for.
+        </examples>
+        <mappings>
+            <wn version="MW online">2b</wn>
+            <omega/>
+            <pb>settlement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="the subsiding of ground or a structure on it" type="Event">
+        <commentary>
+	    SETTLEMENT[+event][+activity][+physical][+subsidence][+ground]
+	    </commentary>
+        <examples>
+            A boundary wall, which has cracked due to settlement, is to be replaced.
+            You can expect some settlement of your house over the years.
+        </examples>
+        <mappings>
+            <wn version="MAC">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

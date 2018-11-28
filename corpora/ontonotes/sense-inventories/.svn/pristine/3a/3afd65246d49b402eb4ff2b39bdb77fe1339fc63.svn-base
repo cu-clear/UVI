@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="blur-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become less clear or indistinct" type="">  
+      <commentary>
+       Syntax Includes:
+        NP1[agent] BLUR NP2[concrete] (and NP3[concrete])
+        NP1[theme] BLUR NP2[concrete] (and NP3[concrete])
+      </commentary>
+      <examples>
+        The fog blurred the hills.
+        When the rug got wet, the colors blurred.
+        Tears blurred her eyes.
+        The artist blurred blue and white in his painting.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>blur.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) become vague" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[theme] BLUR NP2[abastract]
+        NP1[agent] BLUR NP2[abastract]
+        NP1[abstract/plural] BLUR
+        NOTE: This is a metaphorical usage of sense 1.
+      </commentary>
+      <examples>
+        This is where the distinction between white and black blur.
+        Her lecture all kind of blurred together.
+        The professor blurred the definitions.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>blur.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

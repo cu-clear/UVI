@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="responsibility-n">
+    <commentary>
+        Commentary, examples and definitions revised by ahouston
+        Added a third sense group, not in the original file.
+    </commentary>
+    <sense group="1" n="1" name="duty or obligation to something or someone" type="">
+        <commentary>
+            RESPONSIBILITY[+role][+authority][+duty]
+            Note: can occur in the plural or singular
+            responsibility as/for/of  NP/COMP{+duty}
+        </commentary>
+        <examples>
+            Jane accepts her responsibilities as a mother very seriously.
+            They accused the director of having shirked his responsibilities to the board. 
+            A computer has the responsibility of tracking the missile's course in real time.
+            Management never assigned clear responsibility for the oversight of that product's development.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the quality or trait of being reliable, accountable or trustworthy" type="">
+        <commentary>
+            RESPONSIBILITY[+trait][+reliability]
+            the trait of being trustworthy or dependable
+            Note: 
+        </commentary>
+        <examples>
+            The great heart surgeon exuded an air of responsibility about him.
+            I didn't see a trace of responsibility in the face of that car salesman.
+            Who could doubt the responsibility of that kindly priest?
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a consequence, often negative" type="">
+        <commentary>
+            RESPONSIBILITY[+role][+causal]
+            'take/bear' responsibility means to accept the role as a cause of some possible or actual event or state.
+            responsibility for NP{+consequence}
+            Note: this sense always occurs in the singular.
+        </commentary>
+        <examples>
+            Who should take responsibility for creating this mess?
+            No terrorist groups have yet accepted responsibility for the downed jetliner.
+            She wouldn't accept sole responsibility for saving the children, she said John had helped, too.
+            The sign states that the club does will not bear the responsibility for lost or stolen property.
+        </examples>
+        <mappings>
+            <wn version="American Heritage">??</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

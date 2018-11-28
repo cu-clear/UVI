@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="witness-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="experience sight of an event" type="">
+      <commentary>
+        Syntax is: NP1[experiencer] WITNESS NP2[theme]
+                   NP1[agent] WITNESS NP2[theme]
+      </commentary>
+      <examples>
+        And what happened is 1919 I witnessed the steel strike.
+        She witnessed the destruction of civilian targets almost daily.
+        He also witnessed for Gelmirez a document on October 9, 1138.
+        For witnessing or solemnising a marriage (payable by one of the parties) the fee is forty dollars.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>witness.01</pb>
+         <vn>captain-29.8-1,sight-30.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be contemporaneous with" type="">
+      <commentary>
+        NOTE: usually, but not always takes an inanimate subject
+        Syntax is: NP1[theme] WITNESS NP2[theme]
+      </commentary>
+      <examples>
+        This era witnessed the age of invertebrates, of fish, of tetrapods, and reptiles.
+        The Baroque period witnessed the creation of a number of musical genres.
+        It was here that thousands of doomed species witnessed the collision of the world's continents.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>witness.01</pb>
+         <vn>sight-30.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="testify to religious beliefs" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He started witnessing to anyone and everyone.
+        I went years as a Christian without ever witnessing to anyone.
+        Faye gave us pamphlets with simple directions for witnessing to our families.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="testify in court as a service to the          prosecution or defense." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She witnessed for the defense.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey,greenlm" sample_score="-"/>
+</inventory>

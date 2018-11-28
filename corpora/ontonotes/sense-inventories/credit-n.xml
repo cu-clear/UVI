@@ -1,0 +1,191 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="credit-n">
+    <commentary>
+        11Jan08 update to wn2.1,  split sense 1 ahouston
+        12Jan08 added senses 9,10, added features, examples, modified definitions ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of giving acknowledgment, recognition to someone or something" type="Event">
+        <commentary>
+            CREDIT[+event][+communication][+acknowledgment][+for_achievement]
+            Note: the act of giving recognition, not the published citations themselves (Sense 8)
+            The act of giving recognition, acknowledgment for an achievement
+        </commentary>
+        <examples>
+            The inventor never received real credit for his achievements.
+            We should give her credit for trying.
+            Supporters said the administration should take full credit for the booming economy.
+            John gets credit for identifying the problem, and Bob gets credit for solving it.
+            The editors discovered that the author had taken credit for experimental work he had not actually conducted.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>credit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a measure of personal achievement in some endeavor" type="">
+        <commentary>
+            CREDIT[+quantity][+score][+achievement][+personal]
+            A narrow usage, implying an additional achievement to a list
+            Note: almost always in the phrase 'to X's credit'
+        </commentary>
+        <examples>
+            She already had several performances to her credit.
+            John was pleased to add his summer internship to his credit.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>credit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="money returned to a financial account" type="Event">
+        <commentary>
+            CREDIT[+quantity][+sum][+money][+returned][+to_account]
+            Note: an amount of money returned to a financial account and available for use 
+            Note: implies the client owns the money, it is not additional borrowed funds (Sense 5)
+        </commentary>
+        <examples>
+            The bookstore double-charged me for a book, and the credit for one of them hasn't yet appeared on my statement.
+            The store gave me a credit of $100 dollars after returning my gifts. (funds returned)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>credit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="money available to borrow" type="">
+        <commentary>
+            CREDIT[+quantity][+sum][+money][+available][+for_borrowing]
+            Note: implies money not belonging to a client, but which the client can borrow from another source
+            money available for a client to borrow
+        </commentary>
+        <examples>
+            The bank refused to extend him a line of credit.
+            I've bought all of my furniture on credit.
+            The mortgage companies are lending credit at higher rates now.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a positive financial entry in a record" type="">
+        <commentary>
+            ENTRY[+entity][+symbolic][+entry][+financial][+positive][+in_record][+accounting]
+            an accounting entry acknowledging a received sum of money
+        </commentary>
+        <examples>
+            Credit entries often have a '+' before them, while debit entries have a '-'.
+            These amounts will appear as credits on the balance sheet.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="academic course units" type="College">
+        <commentary>
+            CREDIT[+quantity][+measure][+unit][+academic][+of_achievement][+curriculum]
+            recognition by a college or university that a course of studies has
+            been successfully completed: typically measured in semester hours
+        </commentary>
+        <examples>
+            I'm taking 10 credits this semester.
+            The students who fail this course will receive no credit for it.
+            Mary needs six more credits to complete her double major.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="written or published notification of acknowledgment" type="Event">
+        <commentary>
+            CREDIT[+entity][+symbolic][+notification][+published][+of_acknowledgement]
+            Note: refers to actual published notes of recognition, not the act of acknowledgment (Sense 1)
+            Note: often occurs in the plural form, 'credits'
+        </commentary>
+        <examples>
+            We watched the credits of the film to see who performed the music in it.
+            The author's credits were listed at the end of the article.
+            The student's paper had no citations nor credits to previous work done on this problem.
+        </examples>
+        <mappings>
+            <wn version="3.0">7,8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="a source of merit, distinction" type="">
+        <commentary>
+            CREDIT[+quality][+public][+distinction][+merit]
+            Note: refers to a person or thing which is well regarded
+        </commentary>
+        <examples>
+            The children were a credit to their school during their musical tour of Europe.
+            These people were viewed as the citizens of credit and renown in their community.
+            His credit with his political base has been undermined by these continuous scandals.
+            The idea of intelligent design has little credit among molecular biologists.  (not well-regarded idea)
+        </examples>
+        <mappings>
+            <wn version="MW online">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="reliability of a person to repay borrowed money" type="">
+        <commentary>
+            CREDIT[+quality][+financial][+soundness][+of_customer]
+            Note: refers to the overall trustworthiness or reliability of a potential customer to repay borrowed money.
+        </commentary>
+        <examples>
+            They will run a credit check on every new customer.
+            You generally need to establish a credit history in order to apply for a home mortgage.
+            The proprietress informed John that his credit was no longer good at her shop.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,154 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deal-n">
+    <commentary>
+        11jan08 updated to wn2.1, added features, edited definitions, examples ahouston
+        11Jan08 added idiom sense 8 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a contractual agreement, a trade or negotiation between parties" type="Event">
+        <commentary>
+            DEAL[+event][+contractual][+agreement]
+            Often implies buying and selling, or a swapping transaction
+        </commentary>
+        <examples>
+            He's a master of the business deal.
+            Representatives from Enron and Random House struck a deal yesterday.
+            Chips come free with the salsa, since it's a package deal.
+            John made a deal with the devil: he sold his soul for a cup of coffee.
+            I rose to prominence through a series of shady deals.
+            According to the terms of our deal, you owe me ten million dollars.
+            Do we have a deal, gentlemen?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>deal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a large, unspecified amount of something" type="Abstraction">
+        <commentary>
+            DEAL[+quantity][+amount][+large][+approximate]
+            A certain amount, number, or extent of something-- usually very large.  Typically followed by &quot;of&quot;.  
+        </commentary>
+        <examples>
+            He got in a deal of trouble for forgetting to file his taxes.
+            There was a good deal of water flooding the basement.
+            It matters a great deal to me.
+            The patient has already lost a great deal of blood.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the evaluation of the outcome of a transaction or agreement" type="Abstraction">
+        <commentary>
+            DEAL[+state][+outcome][+evaluated][+of_transaction]
+            The type of treatment that a person receives, especially with regard to an agreement.  
+            Usually requires an adjective.  Can mean &quot;good deal&quot; when no adjective is present.
+            Often refers to financial transactions.
+        </commentary>
+        <examples>
+            I got a good deal on my car.
+            For $1.99, these shoes are a deal!
+            Mary suspected that she was getting a raw deal.
+            It benefits married couples, but singles get a bad deal with this tax.
+            It's hardly a fair deal to leave Mary with all the responsibilities for the annual fund raiser of the club.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="act of distributing" type="Event">
+        <commentary>
+            DEAL[+event][+distribution][+apportionment][+of_goods]
+            The act of apportioning or distributing something.  
+            Usually applies to the act of handing out cards during a card game; probably rare otherwise.
+        </commentary>
+        <examples>
+            The last deal of our poker game was done by Mary. (she distributed the cards)
+            Be careful with a card shark - their deals may not be honest. (the way they distribute cards to players)
+            The captain was entrusted with the deal of provisions.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>deal.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="hand of cards" type="Entity">
+        <commentary>
+            DEAL[+entity][+artifact][+group][+playing_cards][+hand][+in_game]
+            The physical cards in a card game, held by a particular player at a particular time. 
+        </commentary>
+        <examples>
+            I glanced at the deal I'd been handed: a pair of twos, and nothing else.
+            I held a weak deal, so I folded when the betting got high.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="type of wood that is easily cuttable" type="Entity">
+        <commentary>
+            DEAL[+entity][+substance][+wood][+soft][+cuttable]
+            A type of wood that is easy to cut, such as fir.  Probably a rare sense.
+        </commentary>
+        <examples>
+            I cut into the deal with my axe.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="the situation or circumstance, slangily" type="Abstraction">
+        <commentary>
+            DEAL[+state][+situation]
+            The essence of something, or the problem with it.  Used in colloquial speech.
+        </commentary>
+        <examples>
+            What's the deal with our order, why hasn't it shipped yet?
+            &quot;Dude,&quot; John said, &quot;what's your deal, anyway?&quot;
+            John's deal with women seems to be never to make an emotional commitment.
+            The deal with the dryer is this: you have to bang it lightly after you push the start button in order to get it going.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="something significant, substantial, imporant" type="Abstraction">
+        <commentary>
+            Idiom: big_deal
+        </commentary>
+        <examples>
+            Why is it such a big deal to allow customers to have their dogs in restaurants?
+            Mary shouldn't make such a big deal about those little irritations at work.
+            John said winning the student election is a very big deal for him.
+            So he got tickets to the playoffs  - big deal!  (used sarcastically to imply it's opposite)
+        </examples>
+        <mappings>
+            <wn version="MAC">
+                Idiom
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

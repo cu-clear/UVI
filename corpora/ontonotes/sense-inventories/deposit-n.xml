@@ -1,0 +1,143 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deposit-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a quantity of money added to a bank account" type="">
+        <commentary>
+            DEPOSIT[+amount][+money][+addition][+account][+bank]
+        </commentary>
+        <examples>
+            The bank teller took my deposit and handed me a receipt.
+            This deposit of $2000 won't clear until Thursday.
+            These deposits in my checkbook don't correspond to the bank statement. (represent quantities of money)
+            The neighbor's cat left a deposit on my back porch.  (figurative extension, not money)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>deposit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an initial partial payment, e.g., down payment on a car" type="">
+        <commentary>
+            DEPOSIT[+amount][+money][+payment][+partial]
+        </commentary>
+        <examples>
+            John and Mary have saved enough to make a deposit on that beach house they wanted.
+            You'll have to make a deposit of at least 20 percent of the total cost to qualify for a loan.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>deposit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a payment serving to guarantee or underwrite something" type="">
+        <commentary>
+            DEPOSIT[+amount][+money][+guarantee]
+            [+role][+insurance]
+        </commentary>
+        <examples>
+            The students didn't get their security deposit back because the carpet was damaged.
+            Bob had to make a deposit to his margin account when the stock market took a tumble. (a cover payment)
+            They require a non-refundable deposit of $60 for keeping a pet in the cottage.
+            Jane put $50,000 into a certificate of deposit at her bank. (a guarantee by the bank, for borrowing the money)
+        </examples>
+        <mappings>
+            <wn version="3.0">6,7</wn>
+            <omega/><pb>deposit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a large geological formation of sedimentation" type="">
+        <commentary>
+            DEPOSIT[+formation][+geological][+sedimentation][+coal/+mineral/+oil]
+        </commentary>
+        <examples>
+            They have found large deposits of oil in shale rock in Wyoming.
+            There is a fantastic deposit of preCambrian fossils in that limestone outcrop.
+            Those mineral deposits in the desert continue for a hundred miles.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the natural process of laying down sedimentation" type="">
+        <commentary>
+            DEPOSIT[+activity][+process][+natural][+accumulation]
+        </commentary>
+        <examples>
+            It took thousands of years for the deposit of calcium carbonate to form these stalagmites. (process or act)
+            The constant deposit of fertilizer and runoff into the Bay of Florida has damaged its ecology.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="small, usually unwanted, accumulations of substance" type="">
+        <commentary>
+            DEPOSIT[+substance][+accumulation][+small]
+            Note: is -much- smaller scale than deposits of Sense 3
+        </commentary>
+        <examples>
+            John cleaned the salt deposits off the chrome on his vintage Buick.
+            The dentist told Pete that slow brushing would reduce the plaque deposits on his teeth.
+            This shampoo is supposed to remove chemical buildup and deposits from your hair.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="facility for secure storage of things, often money" type="">
+        <commentary>
+            DEPOSIT[+facility][+storage][+secure]
+        </commentary>
+        <examples>
+            After hours, you can drop checks off at the bank's deposit box.
+            Joan slipped the DVDs into the deposit at the video store.
+            Our library has book deposits at the front and back of the building.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="the act of putting something somewhere" type="">
+        <commentary>
+            DEPOSIT[+action][+placement][+designated]
+        </commentary>
+        <examples>
+            I'd like to make a deposit to my checking account. (the act of placing some money there)
+            The deposit of packages in the front hall of this building is not permitted.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

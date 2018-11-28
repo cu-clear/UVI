@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="administration-n">
+    <commentary>
+        27sep06, updated to wn2.1, added features, examples, definitions. ahouston
+        27sep06  split sense 1 into sense1, new sense 4. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a governing organization or entity" type="">
+        <commentary>
+            ADMINISTRATION[+entity][+social][+group][+organization][+governing]
+            The people, groups, or departments that make up a larger governing body
+            Note: refers to the people, not to a time span of management (see Sense 4)
+        </commentary>
+        <examples>
+            All these workers are political appointees of the current administration. 
+            I'm working for the Food and Drug Administration.
+            The university administration is taking their demands seriously.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Overseeing, supervising or management of something" type="Event">
+        <commentary>
+            ADMINISTRATION[+activity][+management][+ongoing]
+            The act of supervising or tending to something.
+        </commentary>
+        <examples>
+            You're in charge of the administration of the entire department.
+            I have a degree in business administration.
+            This banking firm is involved in the administration and regulation of banks.
+            The Systems Administrator is in charge of the administration of our computer network.
+            The island has remained under French administration. (managing is done by the French)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="dispensing, handing out a treatment" type="Event">
+        <commentary>
+	    ADMINISTRATION[+event][+action][+dispensing][+medicine/+justice]
+	    The act of giving something, often medical treatment
+	    </commentary>
+        <examples>
+            The patient fell asleep after the administration of a sedative.
+            The improper administration of drugs can have a harmful effect.
+            Only after a number of administrations of the therapy did doctors see an effect.
+            The torture victim finally talked after the administration of electric shocks.
+            The administration of justice will be swift.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a period of time in office, a tenure" type="">
+        <commentary>
+            ADMINISTRATION[+extent][+temporal][+term][+office][+elected/+appointed]
+            Note: refers to a span of time, not the body of people comprising the office (see Sense 1)
+        </commentary>
+        <examples>
+            During that administration there was a national draft.
+            His administration lasted eight years.
+            Nixon did not complete his second administration.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

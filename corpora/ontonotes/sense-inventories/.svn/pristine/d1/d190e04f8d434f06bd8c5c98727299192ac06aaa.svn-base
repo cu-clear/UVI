@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="expenditure-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="quantity of money spent" type="">
+        <commentary>
+            EXPENDITURE[+quantity][+sum][+money][+spent]
+            Note: refers to the money, not to the activity of spending (Sense 2)
+        </commentary>
+        <examples>
+            John's financial advisor told him that income should always exceed expenditures.
+            Capital expenditures are needed to upgrade the factory's efficiency.
+            Mary had to reduce her expenditures when she lost her job.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="spending money for goods or services" type="">
+        <commentary>
+            EXPENDITURE[+activity][+spending][+money]
+            Note: refers always to an actor/agent disbursing funds for some good or service
+            Note: the actor expends something in exchange for something else.
+        </commentary>
+        <examples>
+            Some people were unhappy at the expenditure of taxpayer's money for this project.
+            The expenditure of club money for a new boat was unanimously agreed upon.
+            Her inheritance was gone through years of reckless expenditures on whimsical luxuries.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="consumption of a resource" type="">
+        <commentary>
+            EXPENDITURE[+activity][+consumption][+resource]
+            Note: refers to a recipient's consumption of a resource, not necessarily money
+            Note: the expenditure of the resource -is- the benefit for the recipient
+        </commentary>
+        <examples>
+            Some environmentalists argue for reducing overall expenditure of hydrocarbons.
+            The nation's expenditure of energy has increased over the decades.
+            His ongoing expenditure of his friends' patience came to an abrupt end.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

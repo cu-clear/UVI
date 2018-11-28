@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fix-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a difficult circumstance or situation" type="">
+        <commentary>
+            FIX[+state][+circumstance][+difficult]
+        </commentary>
+        <examples>
+            Mary is really in a fix today with her car in the shop and a sick child.
+            We'd been in some fixes before at sea, but nothing like this storm.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="something that is craved" type="">
+        <commentary>
+            FIX[+role][+object][+craved]
+        </commentary>
+        <examples>
+            The junkie needed another fix of heroin.
+            John stopped at the coffee shop for his morning fix of caffeine.
+            I need a fix of sunshine and a long sandy beach!
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of repairing something, providing a solution" type="Event">
+        <commentary>
+            FIX[+event][+repair]
+        </commentary>
+        <examples>
+            There will be no quick fix for this economic slump.
+            No further fixes to the roof were required after they repaired the shingles.
+            Using duct tape is a good temporary fix to hold the parts together.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>fix.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="underhanded or illegal arrangements" type="Event">
+        <commentary>
+            FIX[+event][+arrangement][+underhanded]
+        </commentary>
+        <examples>
+            The collusion involved tax fixes for gamblers.
+            His supervisory position on the job was a pretty obvious fix.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="determining the position or coordinates of something" type="Event">
+        <commentary>
+            FIX[+event][+determining][+location][+coordinates][+of_object]
+        </commentary>
+        <examples>
+            The pilot got a fix on his target before deploying the missile.
+            Can you get a fix on that navigational buoy?
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

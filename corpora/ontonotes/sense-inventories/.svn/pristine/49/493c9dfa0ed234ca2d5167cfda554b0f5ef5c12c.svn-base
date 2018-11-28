@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="prohibit-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="forbid, command against" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PROHIBIT NP2
+        Note: implies that NP1 has authority over NP2
+      </commentary>
+      <examples>
+        Junco prohibited his reporters from taking gifts from government officials.
+        The statute prohibited his use of any state facilities or time in completing the work.
+        After beating her, he ordered her to leave, but prohibited her from taking her coat or shoes.
+        Motor vehicles are prohibited from driving in the town centre.
+        The government introduced a law prohibiting tobacco advertisements on TV.
+        Parking is strictly prohibited between these gates.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>prohibit.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="prevent, make impossible" type="">
+      <commentary>
+        NOTE: although NP1 may be agentive, the prohibition is not the result of authoritative command
+        The prohibition is not a form of forbiddance, it blocks something from occuring, but not due to commands or authority
+      </commentary>
+      <examples>
+        He claimed that class discussion of evolution prohibited his children's free exercise of religion.
+        In attempting to prohibit evil thoughts, we've succeeded in prohibiting attempts to really think about evil.
+        The housing development neighbors successfully prohibited the annual event.
+        Major-league baseball has also managed to prohibit fan ownership, though without enacting a formal policy against it.
+        The loudness of the music prohibits serious conversation in most nightclubs.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>prohibit.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc, vieweg" sample_score="-"/>
+</inventory>

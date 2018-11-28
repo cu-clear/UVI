@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="jurisdiction-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of legal authority, power" type="">
+        <commentary>
+            JURISDICTION[+state][+social][+authority][+legal]
+            Note: focus is on the legal authority possessed by an entity.
+        </commentary>
+        <examples>
+            The federal courts have no jurisdiction over this case. (no authority)
+            This will be within the jurisdiction of a military tribunal. (subject to its authority)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the place within which an authority has power" type="">
+        <commentary>
+            JURISDICTION[+location][+region][+authority][+geographical]
+            Note: refers to physical sectors of a community in which some authority is operative.
+        </commentary>
+        <examples>
+            The two schools are not in the same tax jurisdiction. (different tax sectors of a town)
+            In that jurisdiction there is a mandatory death sentence for this type of murder.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

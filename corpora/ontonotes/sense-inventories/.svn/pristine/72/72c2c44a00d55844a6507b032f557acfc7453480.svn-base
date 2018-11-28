@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="defend-v">    
+   <commentary>
+	No VPCs for this verb
+   </commentary>
+   <sense group="1" n="1" name="protect or resist against an physical attack" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[instrument] DEFEND NP2[patient]
+        NP1[actor] DEFEND NP2[actor]
+        Note: a physical gesture of protecting someone or something.
+        Note: IF physical action is not specifically implied or uncertain, 
+        then choose sense 2.
+      </commentary>
+      <examples>
+        The soldiers could not defend the forward line and had to drop back.
+        Their team is not defending the end zone very well today.
+        This medicine will defend against heart worm in your pets.
+        White blood cells help defend the body against infection.
+        Bill had to defend his plate of chocolate cookies from his office mates.
+        I'm going to karate lessons to learn how to defend myself.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>defend.01</pb>
+         <vn>defend-72.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="protect or speak up against criticism or opposition" type="">  
+      <commentary>
+       Syntax Is:	
+        NP1[agent[human]] DEFEND NP2[topic[abstract]]
+	Note: generally implies a verbal endorsement of a process, state or concept
+        Note: includes legal courtroom defense.
+      </commentary>
+      <examples>
+	John defended his thesis brilliantly before the committee. 
+	The administration is defending its economic policies.
+	He hasn't agreed to defend our position at tomorrow's meeting.
+	I won't defend her actions in this matter.
+	Bob defended his little sister against their mother's criticisms.
+        They are fighting to defend their rights.
+        He vigorously defended his point of view.
+        That law firm has a reputation for defending members of the mob.
+        The famous attorney will defend her in the high-profile murder case.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,6,7</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>defend.01</pb>
+         <vn>defend-72.2</vn><fn>Justifying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="compete to retain a title" type="">
+      <commentary>
+      Syntax Is:	
+       NP[actor] DEFEND NP[patient]  (PP{P NP3[actor]})
+      </commentary>
+      <examples>
+	They'll be defending their title this year against the Giants.
+	He has defended his heavyweight title against four contenders.
+	The three-year old colt continues to defend his shot at the Triple Crown with today's win.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>defend.01</pb>
+         <vn>defend-72.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

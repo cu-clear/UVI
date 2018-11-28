@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="possession-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="the act of having and controlling property, the action or fact of holding something, material or immaterial, as one's own or in one's control; anything owned or possessed, a territory that is controlled by a ruling state, or anything that is permanently or temporarily seen as being possessed by or controlled by a person or persons." type="Event">
+        <commentary>
+        POSSESSION[+event][+animate][+thing_owned]
+        </commentary>
+        <examples>
+        Possession is nine-tenths of the law.
+        The possession of drugs or alcohol is prohibited upon these premises.
+        I possessed a strength I never knew existed in that desperate moment.
+        Robert's grandmother's house was his possession until his uncle forceably overtook it after her death.
+        After losing the house, Robert's only possession became the car his grandmother gave him.
+        Since Robert's name was on the title, his uncle could not claim the car as his possession.
+        The Congo was once a territorial possession of France. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="being controlled by passion or the supernatural;a mania restricted to one thing or idea, or any non-tangible spirit or passion that seems in control of a person." type="Event">
+        <commentary>
+        POSSESSION[+event][+human][+spirit_or_idea] 
+        </commentary>
+        <examples>
+        Her possession was all about the arts - it was all she ever thought or talked about. 
+        This is the story of the possession of Emily Rose.
+        Possession is the aim of playing the blues, because until sorrow is felt, it cannot be conveyed. 
+        the brothers were expected to plead insanity, but instead claimed possession by the devil as a cause for the crime.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+ <sense group="1" n="3" name="the trait of resolutely controlling one's own behavior." type="Event">
+        <commentary>
+        POSSESSION[+event][+human][+self-control]  
+        </commentary>
+        <examples>
+        She conducts herself with possession of self, and with much grace.
+        The amount of possession of one's self which it takes to avoid drugs and alcohol while a teenager is overwhelming.
+        Self-possession is the main tenet of the martial arts.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+ <sense group="1" n="4" name="SPORTS - temporary control of the ball, puck, etc., by a particular player or team; a period of such control." type="Event">
+        <commentary>
+        POSSESSION[+event][+human][+game_play][+game_piece_or_object]
+        </commentary>
+        <examples>
+        They took possession of the ball on their own goal line.
+        The game was nothing but possession by Boston the whole way through.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="browneal" sample_score="-"/>
+</inventory>

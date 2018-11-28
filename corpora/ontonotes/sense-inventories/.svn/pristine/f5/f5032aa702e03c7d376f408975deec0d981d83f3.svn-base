@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="frighten-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cause a fearful emotion in." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] FRIGHTEN NP2[experiencer]
+      </commentary>
+      <examples>
+      The stranger who hangs around the building frightens me.
+      Ghosts could never frighten her.
+      You frighten me so! 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>frighten.01</pb>
+         <vn>amuse-31.1,force-59-1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Cause to change location, state, or action through fear." type="">
+      <commentary>
+      Includes: FRIGHTEN OFF, FRIGHTEN AWAY, FRIGHTEN OUT
+      Syntax Includes:
+      NP1[agent] FRIGHTEN OFF/AWAY/OUT NP2[patient]
+      NP1[agent] FRIGHTEN NP2[patient] PP    
+      </commentary>
+      <examples>
+      She frightened him into taking the exam.
+      He frightened the rabbits out of the brush.
+      They frighten off visitors every time.
+      You can't frighten the substance into vaporizing - it's a chemical reaction!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="frighten_away" version="3.0">1</wn>
+         <wn lemma="frighten_off" version="3.0">1</wn>
+         <omega></omega><pb>frighten.02,frighten.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="scold-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="criticize" type="">  
+      <commentary>
+        NP1[+agent] SCOLD (about) NP2[+/-patient]
+      </commentary>
+      <examples>
+        The frustrated customer scolded the Cable Bahamas technical
+        representative.
+        He scolded about anything that he thought was wrong.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>scold.01</pb>
+         <vn>judgement-33.1-1</vn><fn>Judgment_direct_address</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

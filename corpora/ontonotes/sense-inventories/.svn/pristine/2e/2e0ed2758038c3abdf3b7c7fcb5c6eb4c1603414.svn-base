@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="object-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a tangible, visible entity" type="">
+        <commentary>
+            OBJECT[+entity][+tangible][+visible]
+        </commentary>
+        <examples>
+            The picture showed a white object against a black background.
+            Bob spotted a large metal object floating in the water.
+            The philosopher's long-winded musing about the dichotomy between subject and object in existence was both boring and incomprehensible to the students.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an intention, goal, purpose" type="">
+        <commentary>
+            OBJECT[+state][+goal]
+        </commentary>
+        <examples>
+            The object of the game is to checkmate your opponent's king.
+            The object of the president's trip was to secure a trade agreement with that nation.
+            There's no object to having the engagement party now that John and Mary broke up.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the grammatical role of being acted upon" type="">
+        <commentary>
+            OBJECT[+form][+linguistic][+constituent][+role][+acted_upon]
+        </commentary>
+        <examples>
+            In the sentence, &quot;Tom ate the pie&quot;,  'pie' is the grammatical object.	
+            In that language object is determined solely by word order, not by case marking.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="being the focus or target of an event" type="">
+        <commentary>
+            OBJECT[+role][+event][+target][+focus]
+        </commentary>
+        <examples>
+            The senator's wife has been the object of attention in recent weeks.
+            Sally is the object of Pete's desire.
+            The dog was the object of the girl's affections.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="data structure in a high-level programming language" type="">
+        <commentary>
+            OBJECT[+form][+data_structure][+of_language][+programming][+high_level]
+        </commentary>
+        <examples>
+            The objects in Smalltalk have methods which describe the behaviors of those objects.
+            John hated writing assembly code after working with objects and flavors in Lisp.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

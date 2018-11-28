@@ -1,0 +1,239 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="man-n">
+    <commentary>
+        10Jul08 - added features, more senses, idioms; revised definitions and examples. ahouston
+        23Jul08  - revised features and definitions, added examples.
+    </commentary>
+    
+    <sense group="1" n="1" name="an adult male person" type="">
+        <commentary>
+            MALE[+person][+adult][+male]
+            Note: the most general and broad reference to a male human adult.
+        </commentary>
+        <examples>
+            There were two women and six men on the bus.
+            They discovered the body of a dead man floating in the river.
+            He was acting like a crazy man.
+            Sally wants to marry a rich man.  (Not sense 3, because doesn't include women)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="manpower, participant in an activity, e.g., work, warfare or sports" type="">
+        <commentary>
+            MAN[+person][+adult][+male][+role][+participant][+workforce]
+            Note: narrow usage that refers to a specific work role
+        </commentary>
+        <examples>
+            We don't have enough men to crew a ship that big.
+            The coach replaced his forward man with the new player.
+            He's CNN's man in India.
+            The finance men on Wall Street are having a tough day.
+            How many men form a platoon?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a generic reference to any person" type="">
+        <commentary>
+            MAN[+person][+adult][+generic][+human]
+            Note: refers to individuals, not the entire species. (Sense 10)
+            Note: if the referent is a specific man, do not choose this sense.
+        </commentary>
+        <examples>
+            The captain told the passengers that it was now every man for himself.
+            No man is an island.
+            The average man on the street is concerned about the housing market.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="male in a subordinate working role" type="">
+        <commentary>
+            MAN[+person][+adult][+male][+role][+subordinate][+servant]
+            Note: even narrow than Sense 2, refers to one in a subordinate work role
+        </commentary>
+        <examples>
+            The duchess told her butler to have the man bring the car around for her guests.
+            The English lord drove a Rolls Royce and his man drove a Bentley.
+            She fired her yard man for alleged stealing.
+        </examples>
+        <mappings>
+            <wn version="3.0">5,8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="male romantic partner" type="">
+        <commentary>
+            MAN[+person][+adult][+male][+role][+lover]
+        </commentary>
+        <examples>
+            John wishes he could be Mary's man.
+            They lived for several years in Paris as man and wife.
+            This is the perfect gift for the man in your life.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="pieces or tokens of game equipment" type="">
+        <commentary>
+            MAN[+artifact][+equipment][+game][+piece]
+        </commentary>
+        <examples>
+            He taught me to set up the men on the chess board.
+            I rolled the dice and moved my man eight squares on the Monopoly board.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="Isle of Man" type="">
+        <commentary>
+            MAN[+location][+isle][+British][+in_Irish_Sea][+proper_name]
+            one of the British Isles in the Irish Sea
+        </commentary>
+        <examples>
+            I'll be visiting the Isle of Man in the summer.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="role of being a masculine ideal" type="">
+        <commentary>
+            MAN[+person][+adult][+male][+role][+ideal][+masculine]
+        </commentary>
+        <examples>
+            John said his father was a real man's man.
+            Mary didn't think Bob was much of a man.
+            He wanted his 22-year-old son to act more like a man.
+            He spoke of the good old days when men were men and women were women.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="the role of having a specific preference" type="">
+        <commentary>
+            MAN[+person][+adult][+male][+role][+endorser][+of_preference]
+            Note: narrow usage that refers to a specific preference role
+        </commentary>
+        <examples>
+            Pete has been a union man since he first started working for the railroad.
+            When it comes to admiring women's beauty, John is a leg man.
+            Unlike his fraternity brothers, Tom wasn't much of a drinking man.
+            All the males in Sally's family have been Harvard men.
+            This doctrine appeals most deeply to the conservative man of today.
+            Bob is a company man all the way.  
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="the human species, as a group" type="">
+        <commentary>
+            MAN[+group][+species][+human]
+        </commentary>
+        <examples>
+            These stone artifacts are tools made by early man.
+            It was a vast wilderness untouched by man.
+            The leader said that man's destiny was to explore the stars.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="11" name="slang for legal or political authority" type="">
+        <commentary>
+            MAN[+group][+authority][+legal]
+        </commentary>
+        <examples>
+            It was a vicarious way for powerless people to stick it to the Man.
+            The student radicals believed their former ally had copped out and was now working for the Man.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="12" name="Idiomatic Usages" type="">
+        <commentary>
+            Note: the following set of idioms have specialized meanings
+            MAN_OF_THE_HOUSE - head of a household, breadwinner
+            MAN_OF_LETTERS - male scholar or author
+            MAN_OF_THE_CLOTH - clergyman
+            MAN_ABOUT_TOWN - a fashionable male socialite
+            MAN_OF_THE_WORLD - a knowledgeable sophisticated male
+            MAN_OF_HONOR - person with high moral standards
+            MAN_OF_ACTION - person who does things, not just talks about them
+            MEN_IN_WHITE_COATS - psychiatric orderlies
+            MAN'S_BEST_FRIEND - a dog
+        </commentary>
+        <examples>
+            The salesman wants to speak to the man of the house.
+            He was a famous 18th-century man of letters.
+            Her brother became a man of the cloth and ran a mission in Africa.
+            John has become quite the man about town with sports car and Italian suits.
+            The leader was a man of the world who understood the implications of this national threat.
+            He was a man of honor and would never betray his comrades, even under pain of death.
+            Bob's a real man of action and would be an excellent choice to head the new project.
+            Pete needs to calm down before the men in white coats take him away.
+            Our hotel welcomes all the members of your family, including man's best friend.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idioms</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

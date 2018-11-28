@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="smear-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Stain, smudge, soil, or otherwise change
+   the color of physical constitution of, for either positive or negative ends." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] SMEAR NP2[patient[concrete]] PP{with NP[theme]}
+      NP1[theme] SMEAR NP2[patient[concrete]]
+      NP1[theme] SMEAR PP[location]
+      </commentary>
+      <examples>
+      The child smeared the wall with paint.
+      Ink smeared his hands and shirt.
+      Markers smeared over his face and arms.
+      Billy smeared grass all over his jeans.
+      Smear the cieling with serveral coats of plaster before you begin. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>spray-9.7-1</vn><fn>Filling,Placing </fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) sully the good name and reputation of." type="">
+      <commentary>
+       Includes: SMEAR IN THE DIRT, SMEAR IN THE MUD
+       Syntax Includes:
+       NP1[agent] SMEAR NP2[patient[abstract]]
+       NP1[proposition] SMEAR NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      The journalists have all smeared me in the papers.
+      You smeared him in the dirt and left him out to dry.
+      The article in the paper smeared my reputation.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

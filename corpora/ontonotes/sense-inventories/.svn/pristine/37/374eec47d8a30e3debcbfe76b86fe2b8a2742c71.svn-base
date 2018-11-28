@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mould-v">    
+   <commentary>
+   Contains duplicate mappings for WN3
+   </commentary>
+   <sense group="1" n="1" name="Form by hand manipulation or by pouring
+   into a shaped container to harden, perhaps for a specific purpose." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] MOULD NP2[material] (PP{into NP[product]})
+      NP1[agent] MOULD [product] (PP{from NP[material]})
+      </commentary>
+      <examples>
+      Clara moulded a head with clay in art class.
+      The artist moulded a bronze sculpture.
+      She moulded the rice balls carefully.
+      Mould cylinders from the dough.
+      Mould the metal into a sword.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make suitable for a specific role or function." type="">
+      <commentary>
+      Syntax Is: NP1[agent] MOULD NP2[patient[animate]] (PP)
+      </commentary>
+      <examples>
+      He moulds his recruits from Day 1.
+      We must mould our students for the world of commerce. 
+      She moulded the puppy into a wonderful dog.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

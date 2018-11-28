@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bait-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="tease, rag on" type="">  
+      <commentary>
+Syntax includes: NP1[agent] BAIT NP2 [patient]
+      </commentary>
+      <examples>
+Her boss is always baiting defenseless subordinates.
+He baits her by making fun of his own puppy-dog attachment to her.
+She baits him with letting him know what he is doing wrong.
+He baits her about missing their meeting. 
+She was baited by the police, taunted.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bait.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="lure, entrap with bait" type="">
+      <commentary>
+Syntax includes: NP1[agent] BAIT NP2[patient](PP)
+                 NP1[instrument] BAIT NP2[patient] (PP)
+      </commentary>
+      <examples>
+He baits her into killing another vampire.
+He baits her into confessing to Ames's murder.
+She baits men who try to buy sex from her.
+Pay raises bait employees into staying.
+Lollipops and money bait children onto his lap.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bait.02</pb>
+         <vn>force-59-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="Put bait on a hook, trap" type="">
+      <commentary>
+Syntax includes:NP1[agent] BAIT NP2[patient] (PP {with NP[instrument]})
+      </commentary>
+      <examples>
+Fishermen bait hooks with chicken liver.
+How do you bait your squirrel trap? 
+Bait each trap with cull apples, bread crumbs or vegetable scraps.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bait.03</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="attack with dogs" type="">
+      <commentary>
+      </commentary>
+      <examples>
+How many dogs bait the bull at once?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

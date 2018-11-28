@@ -1,0 +1,123 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="last-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="concluding point of an event" type="">
+        <commentary>
+            LAST[+event][+endpoint]
+        </commentary>
+        <examples>
+            They played better during the last of the season.
+            The film was exciting to the last.
+            Monday was the last we saw of the man. (final moment of seeing him)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="moment of death" type="">
+        <commentary>
+            LAST[+event][+endpoint][+death]
+            Note: a narrow special usage of Sense 1, always implying death
+        </commentary>
+        <examples>
+            To the last the caught fish struggled for its life.
+            Hospice workers tend to the terminal patients at home to the last.
+            The tycoon should make a will before he breathes his last.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="final ranking in a sequence" type="">
+        <commentary>
+            LAST[+relation][+ranking][+final][+in_sequence]
+        </commentary>
+        <examples>
+            The runner was in the last of the pack.
+            Bob said he is always the last to know the office gossip.
+            In a family of eight children, Mary was the last.
+            That nation is the last among industrialized countries in terms of export volume.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="remainder of some aggregation" type="">
+        <commentary>
+            LAST[+quantity][+remainder][+of_aggregation]
+        </commentary>
+        <examples>
+            We drank the last of the French wine with dinner last night.
+            Sally said good night to the last of her guests.
+            He is the last of the big spenders. (implies there are none left except for him)
+            They've finally cleaned up the last of the oil spill.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="cobbler's tool for holding a shoe form on" type="">
+        <commentary>
+            LAST[+artifact][+tool][+cobblers][+holder][+for_shoe]
+        </commentary>
+        <examples>
+            The cobbler placed the shoe on a last before repairing the sole.
+            The handcrafted boot shop had several cobblers working with lasts.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="weight measure equal to 4000 pounds" type="">
+        <commentary>
+            LAST[+quantity][+measure][+weight][+4000_pounds]
+        </commentary>
+        <examples>
+            A last of cargo would weigh 4000 pounds.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a volume of grain equal to 80 bushels" type="">
+        <commentary>
+            LAST[+quantity][+measure][+volume][+of_grain][+80_bushels]
+        </commentary>
+        <examples>
+            Each truck carried a last of grain to the refugee camp.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

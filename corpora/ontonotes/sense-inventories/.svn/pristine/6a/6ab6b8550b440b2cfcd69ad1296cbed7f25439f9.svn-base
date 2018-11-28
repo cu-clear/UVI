@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="bestow a particular quality" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1 LEND NP2[attribute] PP{to NP}
+        NP1 LEND NP3 NP2[attribute]
+      </commentary>
+      <examples>
+        Vases of flowers all around the room lent the place a cheerful look.
+        These events lend support to the view that the law is inadequate.
+        Her presence lends a certain cachet to the company.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>NM</pb>
+         <vn>give-13.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give something temporarily expecting it to be returned" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 LEND NP2[patient] (PP{to NP})
+        NP1 LEND (NP3) NP2[patient]
+      </commentary>
+      <examples>
+        She never lends her books.
+        The bank refuses to lend to students.
+        If you need a coat I can lend you one.
+        The bank agreed to lend him $5000.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>lend.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be suitable for a particular purpose or occasion" type="">
+      <commentary>
+        Includes: LEND ONESELF
+      </commentary>
+      <examples>
+        This theory lends (itself) well to our new data.
+        This story would lend (itself) well to serialization on television.
+        The current system lends (itself) to great abuse.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="lend_oneself" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="give aid or assistance" type="">
+      <commentary>
+        Includes: LEND A HAND
+      </commentary>
+      <examples>
+        Students lend a hand to help end cancer.
+        Can any pyChart experts lend a hand?
+        Thanks to all that lent a hand.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

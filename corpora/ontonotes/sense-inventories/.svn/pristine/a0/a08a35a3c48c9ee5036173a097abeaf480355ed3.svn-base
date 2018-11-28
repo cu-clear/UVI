@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="demolish-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Destroy completely, such that an entity is
+   no longer alive or does not exist." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] DEMOLISH NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      The wrecking ball demolished the building.
+      A good warrior demolishes his enemies; he does not simply defeat
+      them. Leave none alive.
+      The army demolished the small village.
+      Program trades argue that the rule would demolish pricing efficiency
+      as we know it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>demolish.01</pb>
+         <vn>destroy-44</vn><fn>Destroying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Humiliate or depress completely." type="">
+      <commentary>
+      </commentary>
+      <examples> 
+      She was demolished by his refusal of her invitation.
+      The death of her son almost demolished her.
+      He was demolished by her rejection. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>demolish.01</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Defeat soundly in a competition (without killing)." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The home team demolished the visitors.
+      The Stars demolished the Lightning last week.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="patch-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="mend or provide with a patch" type="">
+      <commentary>
+        Includes: PATCH UP
+      </commentary>
+      <examples>
+        They patched up the cracks in the sinking ship.
+        So they patched the leak and spray painted the ceiling back to a nice white.
+        One site commented they were patching workstations and Citrix servers on an expedited basis.
+        She patched her clothes as best she could.
+        A Microsoft update will patch a critical flaw in Windows.
+        They patched up his leg following the accident.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>
+         <wn lemma="patch_up" version="3.0">1</wn>
+         <omega></omega><pb>patch.01,patch.02</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="connect (to a communications network)" type="">
+      <commentary>
+      Includes: PATCH OUT
+      </commentary>
+      <examples>
+        In the one phone call we listened to, she patched in two different gang members.
+        He patched me through to the collections department.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="reconcile (emotionally)" type="">
+      <commentary>
+        Includes: PATCH UP
+      </commentary>
+      <examples>
+        She returned home and patched things up with her mother.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="patch_up" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Incorporate an element into a larger entity." type="">
+      <commentary>
+        Is: PATCH IN
+      </commentary>
+      <examples>
+      I think we can patch in that commercial later in the hour.
+      They patched in an additional paragraph describing the project.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Bring elements together, perhaps in a
+         hurried fashion." type="">
+      <commentary>
+        Is: PATCH TOGETHER
+      </commentary>
+      <examples>
+      They finally patched the deal together this afternoon.
+      He patched together an offer letter fifteen minutes before the meeting.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey,greenlm" sample_score="-"/>
+</inventory>

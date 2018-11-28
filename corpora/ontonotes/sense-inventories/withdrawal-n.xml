@@ -1,0 +1,107 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="withdrawal-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="leaving" type="Event">
+        <commentary>
+	    WITHDRAWAL[+event]
+	    secession -
+	    the act of separating
+	    </commentary>
+        <examples>
+            The south's withdrawal caused quite a ruckus.
+            The minutes noted that George's withdrawal from the club was at six o'clock.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 5</wn>
+            <omega/>
+            <pb>withdrawal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="backdown" type="Event">
+        <commentary>
+            climb-down - 
+            a retraction of a previously held position
+        </commentary>
+        <examples>
+            The withdrawal of his accusation was against his better judgement.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>withdrawal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="emotional leaving" type="Event">
+        <commentary>
+            detachment - 
+            avoiding emotional involvement
+        </commentary>
+        <examples>
+            His withdrawal from the group of friends began after his father's death.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="drugs" type="Event">
+        <commentary>
+            drug withdrawal - 
+            the termination of drug taking
+        </commentary>
+        <examples>
+            Her cocaine withdrawal was especially difficult.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb>withdrawal.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="act of removing money" type="Event">
+        <commentary>
+	    WITHDRAWAL[+event]
+	    the act of taking out money or other capital
+	    </commentary>
+        <examples>
+            The large withdrawal was at three o'clock on Tuesday.
+            He couldn't make his withdrawal because the machine was out of money.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>withdrawal.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="the money itself" type="">
+        <commentary>
+            the money taken out when a withdrawal is made
+        </commentary>
+        <examples>
+            He put his withdrawal in his pocket immediately.
+            I spent that whole withdrawal on candy.
+        </examples>
+        <mappings>
+            <wn version="2.0">-</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

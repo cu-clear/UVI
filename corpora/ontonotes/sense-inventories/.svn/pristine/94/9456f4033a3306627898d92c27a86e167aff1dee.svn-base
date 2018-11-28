@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="invalidate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to be/show to be invalid" type="">  
+      <commentary>
+        Syntax Is: NP1 INVALIDATE NP2
+      </commentary>
+      <examples>
+        The contract was invalidated by a rule of English domestic law.
+        Her bank has invalidated the check.
+        The court invalidated the contract.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>invalidate.01</pb>
+         <vn>void-106</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,116 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="serve-v">    
+   <commentary>
+	Includes VPC serve_up serve_well
+   </commentary>
+   <sense group="1" n="1" name="fulfill a function, perform a duty, be used
+   as" type="">  
+      <commentary>
+	NP1[+instrument] SERVE NP2/COMP([+result])/ADVP[+goal]
+        NP1[+agent] SERVE PP/NP[+target] NP is +agent
+        Includes VPC serve_well
+      </commentary>
+      <examples> 
+	This table serves both as a desk and a work bench.
+	That law serves no useful purpose that I can determine.
+	That sewage plant serves the entire coastal community.
+	This example will serve to illustrate the point.
+	He argues that the state-run programs are not serving the public as
+	planned.
+        His remarks served to ignite whole neighborhoods.
+        Bold decisions by their visionary CEO have served the firm well
+	over the past decade.
+        A shot of whiskey served to calm their nerves.
+        Advocates believe the tax cuts will serve to boost economic growth.
+        He served in Congress for two terms.
+        They served their country nobly.
+        The waiter will not serve patrons with no shoes or shirts.
+        John wants to serve in the National Guard.
+        They served in Desert Storm.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,7,8,10,12,13</wn>   
+         <wn lemma="serve_well" version="3.0">1</wn>
+         <omega/><pb>serve.01</pb>
+         <vn>fit-54.3,masquerade-29.6-2</vn><fn>Assistance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>  
+   <sense group="1" n="2" name="dish out, hand out something, often food" type="">  
+      <commentary>
+	NP[+agent] SERVE NP[+object]
+	Includes VPC serve_up
+      </commentary>
+      <examples>
+	They are serving mint juleps on the veranda.
+	Her club serves meals to the homeless on Thursdays.
+	Bob was served a summons to appear in court.
+	The sheriff served him papers at his home.
+	They served up some lively entertainment at the Caberet last night.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,11</wn>
+         <wn lemma="serve_up" version="3.0">1</wn>
+         <omega/><pb>serve.02,serve.03</pb>
+         <vn>fulfilling-13.4.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="spend time in prison" type="">  
+      <commentary>
+	NP[+topic] SERVE NP[+temporal]
+      </commentary>
+      <examples>
+	He served twenty years in prison for armed robbery.
+	The prisoners were released before they had served their full terms.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>spend_time-104</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="mate with, sexual reproduction" type="">  
+      <commentary>
+	NP[+agent] SERVE NP[+patient]
+      </commentary>
+      <examples>
+	This pedigree stallion served three brood mares.
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="5" name="put a ball into play" type="">  
+      <commentary>
+	NP[+agent] SERVE NP[+object][+ball]
+      </commentary>
+      <examples>
+	It was Mary's turn to serve.
+	He served four aces during the first game of the tournament.
+	That tennis star has been serving erratically lately.
+      </examples>
+      <mappings>
+         <wn version="3.0">15</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="6" name="wind protectively with yarn or wire" type="">  
+      <commentary>
+	NP[+agent] SERVE NP[+object][+rope/+stay]
+      </commentary>
+      <examples>
+	She served the forestays with heavy yarn.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston, vieweg" sample_score="-"/>  
+</inventory>

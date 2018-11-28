@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="blind-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Literally cause to become unable to see." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] BLIND NP2[patient[animate]]
+      </commentary>
+      <examples>
+      The government blinded criminals with battery acid and set them to
+      the streets.
+      He blinded himself with pins.
+      The sun blinded him as a child. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>blind.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make unable to perceive something; be
+         unable to view a situation or entity objectively." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Politicians are increasinly blinded by private interests.
+      Rage blinded her to the needs of her family.
+      Ego blinds us to universal truths.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

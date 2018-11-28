@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flake-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="form into, become flakes" type="">  
+      <commentary>
+       Syntax includes: NP1[material] FLAKE (PP {into NP[product]})
+       includes: flake off
+      </commentary>
+      <examples>
+       If paint is too brittle and thin, it flakes within a few years. 
+       It flaked into particles causing inflammation. 
+       It flaked into pieces like a broken leaf
+       All nail polish flakes off and the baby will get it in her mouth.
+       The red paint flakes off and I don't like picking flakes off my face.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="flake_off" version="3.0">1</wn>
+         <omega></omega><pb>flake.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Cause to break down into flakes" type="">
+      <commentary>
+       Syntax includes: NP1[agent] FLAKE NP2[theme] (PP {NP[goal]})
+                        NP1[agent] FLAKE NP2[material] (PP {NP[product]})
+      </commentary>
+      <examples>
+       The chef flakes fish into the breadcrumb mixture and mixes gently.
+       He flaked the flints and put them on the shafts.
+       He flaked the fish into chunks. 
+       She likes to flake her cakes with coconut. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flake.01</pb>
+         <vn>carve-21.2-1</vn><fn>Grinding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="To quit, disappear, fail to do something or show up for something" type="">
+      <commentary>
+       Syntax includes: NP1[agent] FLAKE (PP {on NP})
+       Includes: flake out
+      </commentary>
+      <examples>
+       She wishes she didn't fall for your charm and she flakes. 
+       He flakes on plans more than a few times.
+       Girls love to flake on guys they just met. 
+       Don't take it personally of she doesn't meet with you, if she flakes out.
+       Whenever I try to get close, he flakes out.
+       Dude he totally flaked out on us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="flake_out" version="3.0">1</wn>
+         <omega></omega><pb>flake.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

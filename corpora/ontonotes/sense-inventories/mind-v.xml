@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mind-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="care about, be bothered by, be concerned by" type="">
+      <commentary>
+        NOTE: Be careful about non-verbal uses of NEVERMIND (can be 1 word
+        or 2) as in &quot;Nevermind the pizza, I'll have doughnuts.&quot; or &quot;The
+        executives got massive bonuses, nevermind that 10k employees had
+        been fired.&quot; In these sentences, NEVERMIND is being used as a conjunction. 
+        Syntax Includes:
+        NP1[agent[animate]] MIND NP2[patient[abstract]]
+        NP1[agent[animate]] MIND ADVP
+        NP1[agent[animate]] MIND COMP
+      </commentary>
+      <examples>
+        Do you mind if I smoke?
+        He never minded when she came home late from the office.
+        She doesn't mind that I'm a vegetarian.
+        Never mind.
+        I never mind the long lines at the market.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>mind.01</pb>
+         <vn>marvel-31.3-2,care-88.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take care of; tend" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Will you mind the store while I run out for a minute?
+        She agreed to mind the children if we pay her in pies.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>mind.02</pb>
+         <vn>care-88.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="pay attention to; heed, give consideration to, make a note" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] MIND NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        Mind that first step; it's loose.
+        You should mind your mother.
+        I never wanted a big house, mind you, but my husband insisted.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,6</wn>
+         <omega/><pb>mind.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,trevorjb,clarklm,corvey" sample_score="-"/>
+</inventory>

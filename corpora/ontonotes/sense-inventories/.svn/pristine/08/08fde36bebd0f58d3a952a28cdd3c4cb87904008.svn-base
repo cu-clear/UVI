@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="explosion-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="The act of exploding or bursting, producing noise." type="Event">
+        <commentary>
+         EXPLOSION[+noise][+event]
+        </commentary>
+        <examples>
+        The explosion rocked the city.
+        The explosion at Nagasaki was horrific.
+        Explosions from chemical weapons are small but deadly. 
+        The explosion of the firecrackers awoke the children.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="A sudden great increase in something." type="Event">
+        <commentary>
+        EXPLOSION[+increase][+event]
+        </commentary>
+        <examples>
+        The explosion of the ant population startled farmers.
+        An explosion of information always follows a press release. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="The release of pressure built up during a stop consonant." type="Event">
+        <commentary>
+        EXPLOSION[+speech][+event]
+        </commentary>
+        <examples>
+        The explosion follows a period of constriction.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="A sudden (emotional) outburst." type="Event">
+        <commentary>
+        EXPLOSION[+emotion][+communication][+event]
+        </commentary>
+        <examples>
+        An explosion of laughter erupted in the crowd.
+        The explosion of barks signaled the dog's excitement. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="A golf shot from a bunker that typically move sand as well as the golf ball." type="Event">
+        <commentary>
+         EXPLOSION[+event][+golf]
+        </commentary>
+        <examples>
+         Woods' explosion from the bunker was a disappointment. 
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

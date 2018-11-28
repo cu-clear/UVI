@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="justify-v">    
+   <commentary>
+      FN Frame Deserving vs. Justifying differ only in terms of whether or not an Agent 
+       is held responsible for the act needing justification.  Justifying covers such
+       cases.  Deserving is for cases where the state of affairs thought to warrant
+       an action are part of an external scene.  Most of the senses' examples listed
+       here do not easily distingish between the two, so I included them both.
+   </commentary>
+   <sense group="1" n="1" name="give or be a good reason for something, rationalize" type="">
+      <commentary>
+        Syntax Is: NP1 JUSTIFY NP2
+      </commentary>
+      <examples>
+        Does the end justify the means?
+        Whether or not we think the anger is justified by the action is immaterial.
+        She justified each budgetary expense as necessary.
+        I can't really justify taking another day off work
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>justify.01</pb>
+         <vn>transfer_mesg-37.1.1</vn>
+        <fn>Deserving,Justifying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="LEGAL- demonstrate sufficent legal reason for a legal action" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They have not taken any legal action to justify the discovery of Doe's identity.
+        The action must justify the benefit that one set of creditors receives.
+        You simply need to have enough co-plaintiffs to justify the suit as a class.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>justify.01</pb>
+         <vn>NM</vn>
+         <fn>Deserving,Justifying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="absolve from responsibility, guilt or blame" type="">
+      <commentary>
+        Syntax Is: NP1 JUSTIFY NP2 (PP{FROM NP}) (PP{BY NP})
+        Note: Religious meaning-'absolve from sin'.
+      </commentary>
+      <examples>
+        It does not justify him from him duties.
+        It doesn't justify you from cheating on your wife.
+        The authorities justified him from all the false charges brought against him.
+        God justifies sinners by grace.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>justify.01</pb>
+         <vn>NM</vn>
+         <fn>Deserving,Justifying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="adjust spaces between words to produce even margins" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Justify the paragraph with respect to the graphic.
+        Pressing Ctrl-J on your keyboard justifies the paragraph.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="loan-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="temporary use" type="">
+        <commentary>
+            something given for temporary use, or a temporary provision of money
+        </commentary>
+        <examples>
+            Are you in need of a loan? Our bank has great rates.
+            He offered the loan of his skateboard in exchange for $50.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>loan.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="loanword" type="Linguistics">
+        <commentary>
+            a word borrowed from another language
+        </commentary>
+        <examples>
+            'Blitz' is a German word borrowed into modern English.
+            Japanese has a separate script used for loanwords.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- Does the linguistics loan really justify a seperate sense?? -->
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

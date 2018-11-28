@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="teacher-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a person whose occupation is teaching" type="">
+        <commentary>
+            TEACHER[+entity][+person][+occupation][+teaching]
+        </commentary>
+        <examples>
+            Jane's father is a retired college teacher.
+            The teachers' strike lasted for six weeks.
+            Several of the teachers attended the senior prom as chaperones.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="any personified abstraction with an instructional role" type="">
+        <commentary>
+            TEACHER[+entity][+abstract][-animate][+role][+instructional]
+        </commentary>
+        <examples>
+            Experience is the best teacher.
+            The sea was a cruel teacher for the young sailor.
+            Books were his only teacher during the years of isolation.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a Mormon priesthood ranking higher than a deacon" type="">
+        <commentary>
+            TEACHER[+entity][+person][+priest][+Mormon][+ranked][+above_deacon]
+        </commentary>
+        <examples>
+            He was a deacon in the Mormon church before becoming a teacher.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

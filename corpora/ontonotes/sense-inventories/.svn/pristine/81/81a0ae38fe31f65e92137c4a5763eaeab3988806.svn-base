@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="heel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="tilt to one side" type="">  
+      <commentary>
+      Syntax is:
+      NP1[agent] HEEL NP2[theme] (PP[direction])
+      NP1[theme] HEEL PP[direction] PP[cause]
+      NP1[theme] HEEL (PP[extent]) (PP[direction])
+      </commentary>
+      <examples>
+      The sea gurgled through the scuppers as the ship heeled over to a short puff of wind.
+      The sun had set and the high moon whitened and the ship heeled over to the breeze.
+      The Hansa had already heeled over to such an extent as to render it quite dangerous.
+      So violently had she heeled over that the men in the cabin had been thrown into the lee bunk.
+      The vessel heeled over on her side and lay among the rocks.
+      For several days the ship heeled to and fro.
+      The ship heeled to starboard several degrees.
+      He heeled into the current and began to row.
+      He heeled to 45 degrees or more to avert the collision.
+      An updraft caught the wind-sailor, and he heeled on the starboard tack.
+      At the last second, he heeled the bike over and let the front wheel ride up the dirt.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heel.01</pb>
+         <vn>put_direction-9.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="follow at the heels of a person" type="">
+      <commentary>
+      Syntax is:
+      NP1[agent[animate[animal]]] HEEL NP2[cause|goal[animate[human]]]
+      NP1[agent[animate[animal]]] HEEL (PP2[cause|goal[animate[human]]])
+      </commentary>
+      <examples>
+      Heel!
+      The dog 'heeled' ahead of the handler.
+      The dog heeled beautifully with this leash.
+      When he heeled to me instead of Josh, he was very clearly saying "this is my master now."
+      He heeled him and obeyed him, fawned on him as dogs do their trainers and keepers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heel.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="perform with the heels (of feet or shoes)" type="">
+      <commentary>
+      Syntax is:
+      NP1[agent[animate]] HEEL NP2[theme]
+      When used metaphorically, assigns animacy to the dancer.
+      </commentary>
+      <examples>
+      The music psychedelic, the beats loud, the clouds heeled a dance.
+      The dancers heeled a jig.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heel.03</pb>
+         <vn>performance-26.7-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="strike with the heel of a club (or club-like thing)" type="">
+      <commentary>
+      Syntax is:
+      NP1[agent[animate]] HEEL NP2[patient] (PP[destination|location])
+      </commentary>
+      <examples>
+      He heeled the horse in the ribs and it walked a few steps.
+      Rabah Madjer became a legend when he heeled the ball into the net.
+      It was a normal reaction while getting heeled in the ribs.
+      He heeled the ball past Nick Rimando off a cross from Brian Kamler.
+      He heeled the door shut behind him.
+      He heeled the puck wide.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heel.04</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="put heels on a shoe" type="">
+      <commentary>
+      Syntax is:
+      NP1[agent[animate]] HEEL NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+      He sat there before his last, hammering away at the shoe he was heeling.
+      The cobbler heeled the old shoes.
+      The shoemaker heeled and toed old boots and shoes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heel.05</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

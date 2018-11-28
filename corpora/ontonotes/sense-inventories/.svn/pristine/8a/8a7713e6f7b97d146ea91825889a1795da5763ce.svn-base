@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="decay-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a gradual process of deterioration, ruin" type="">
+        <commentary>
+            DECAY[+process][+gradual][+deterioration][+physical/+social]
+            Note: can be a nominalization - the decay of his teeth -&gt; his teeth decayed
+        </commentary>
+        <examples>
+            Fluoride is supposed to help prevent the decay of teeth. (refers to the process)
+            The preacher warned of the moral decay threatening our youth.
+            The ancient temple was in an advanced state of decay when they discovered it.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="gradual decrease in the strength of a signal" type="">
+        <commentary>
+            DECAY[+process][+gradual][+decrease][+strength][+signal]
+            Note: refers to a dying away of a signal, e.g., acoustic or electromagnetic
+        </commentary>
+        <examples>
+            The decay of acoustic signals is proportional to the inverse of the distance squared.
+            This electric current exhibits an exponential decay.  (decreasing in power)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="organic rot" type="">
+        <commentary>
+            DECAY[+entity][+organic][+rot]
+            Note: refers to actual instance of rotten things, -not- the process of deterioration.
+        </commentary>
+        <examples>
+            The new plants were nourished by the layer of decay on top of them.
+            The dentist removed a pocket of decay from John's molar.
+            The corpses on the battlefield had become a biohazard of decay and disease.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="gradual radioactive disintegration of atomic nuclei" type="">
+        <commentary>
+            DECAY[+process][+gradual][+disintegration][+radioactive]
+        </commentary>
+        <examples>
+            The half-life of carbon-14's decay makes it useful to determine the age of fossils.
+            They detected the emission of alpha particles during radioactive decay of the isotope.
+            The was a beta decay problem on the nuclear engineering midterm exam.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

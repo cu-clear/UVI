@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="boost-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="increase, raise or improve something" type="">
+      <commentary>
+      Syntax Is:  NP1 BOOST NP2
+      </commentary>
+      <examples>
+        She wore platforms that boosted her 4-foot-11-inch frame to over 5 feet.
+        The landlord has boosted the rent.
+        We are taking measures to boost productivity.
+        Some designs boost the voltage to approximately 4.3V.
+        The tax cuts will boost the economy.
+        The bill is intended to boost local charity.
+        He made efforts to boost participation in the program.
+        They boosted their school with rallies and fund drives.
+        It really boosted her confidence.
+        The movie boosted her career when it became a box office hit in Hong Kong.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4</wn>
+         <omega/><pb>boost.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="push something or somebody up" type="">
+      <commentary>
+        Includes: BOOST UP
+      </commentary>
+      <examples>
+        The singer had to be boosted onto the stage by a special contraption.
+        He boosted me up into his gas truck, and we headed out to farms.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="boost_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="steal or pickpocket" type="">
+      <commentary>
+        Usage: slang
+      </commentary>
+      <examples>
+        So I thought about how if a jewel thief boosted a big honkin' diamond.
+        Have you ever boosted a store before?
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

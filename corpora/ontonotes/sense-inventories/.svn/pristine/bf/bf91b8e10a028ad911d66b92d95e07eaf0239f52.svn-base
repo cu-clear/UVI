@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="inform-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="inform or aquaint someone of a certain fact or knowledge" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] INFORM NP2[recipient] PP{P NP[topic]}
+      
+        Note: According to sources, INFORM also has a intransitive usage.
+              Could not find an example of this. But such construction would belong in this sense
+              if semantically related.
+      </commentary>
+      <examples>
+        The police informed us of the accident.
+        I informed my boss that I was going to be away next week.
+        He has informed himself about methods to promote web sites.
+        We were informed by mail of the change in plans. 
+        The name of the dead man will not be released until his relatives have been informed.
+        Walters was not properly informed of the reasons for her arrest.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+          <omega/><pb>inform.01</pb>
+         <vn>advise-37.9,tell-37.2</vn>
+         <fn>Telling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="play an essential part in determining nature, shape, or structure" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INFORM NP1[patient]
+      </commentary>
+      <examples>
+        His religious beliefs inform his entire work.
+        Natural selection continue to inform modern science.
+        He wanted the school to better inform his theories of educational reform.
+        How do ethics inform medical decision making?
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn> 
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="disclose confidential or incriminating information to an authority" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INFORM AGAINST/ON NP2[patient] 
+      </commentary>
+      <examples>
+        The terrorists said that anyone caught informing on them would be killed.
+        How are citizens rewarded for informing against criminals?
+        Lucan actually was informing against his own mother.
+        The defendant informed against the other members of the ring.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>inform.01</pb>
+         <vn>NM</vn>
+         <fn>Reporting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

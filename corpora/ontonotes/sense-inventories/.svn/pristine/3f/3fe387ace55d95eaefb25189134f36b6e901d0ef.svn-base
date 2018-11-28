@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="gain-n">
+    <commentary/>
+    <sense group="1" n="1" name="a measurable increase in quantity of something" type="">
+        <commentary>GAIN[+quantity][+additive]
+            Note: Implies an increase of an amount, not the difference in financial revenue and cost (see Sense 4)
+        </commentary>
+        <examples>Have you noticed a gain in weight over the past two months?
+            The town is unhappy about the recent gains in their property taxes.
+            This stock has been showing a gain in price every 10 minutes.  (a price increase)
+            The software firm has been making gains in market share in both Europe and Asia. 
+            The candidate's gains in the polls last month have been largely eroded.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb>gain.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a state or circumstance of advantage or benefit" type="">
+        <commentary>GAIN[+state][+circumstances][+advantageous]</commentary><examples>We have made only small gains in the battle against malaria.
+            There is much gain in being honest.
+            The gain in being famous is offset by a loss of personal privacy.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="signal power as a ratio of output over input, amplification" type="">
+        <commentary>GAIN[+quantity][+ratio]</commentary><examples>Can you reduce the gain of these stereo speakers?
+            The electrical engineering test had a question about 'gain'.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="financial profit, costs substracted from revenues" type="">
+        <commentary>GAIN[+quantity][+difference]
+            Note:  implies two pre-existing quantities ('cost' and 'revenue') from which the gain is calculated. (in contrast to Sense 1)
+            Note: refers only to FINANCIAL increases, not other types of increases.
+        </commentary>
+        <examples>Mary's mutual funds had a good year and she had to pay capital gains on them.
+            John's company didn't make any gains last year, but saw a net loss.
+            The manufacturing firm showed a gain of ten thousand dollars this month on the balance sheet.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb>gain.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

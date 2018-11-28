@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="palaver-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="speak about unimportant matters rapidly and incessantly" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PALAVER
+      NP1[agent[animate]] PALAVER NP2[theme]
+      </commentary>
+      <examples>
+      I could have palavered a long time, but you don't need a lot of hair-oil talk.
+      I don't see any use in palavering the truth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="coax gently, perhaps using flattery" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PALAVER NP2[patient[animate]] (PP[proposition])
+      NP1[agent[animate]] PALAVER NP2[patient[animate]] (PP[instrument])
+      </commentary>
+      <examples>
+      He palavered her into going along.
+      The druggist palavered him into the purchase of an unwelcome imitation.
+      He palavered her with compliments.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>force-59</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="have a lengthy discussion, usually between people of different backgrounds" type="">
+      <commentary>
+      Syntax includes:
+      NP1[actor1[animate]] PALAVER (PP[actor2[animate]]) (PP[topic])
+      </commentary>
+      <examples>
+      Two of the uakaris palavered softly among themselves.
+      Crewmen and women palavered boisterously as they worked the ship.
+      He palavered with elders of the town.
+      The Kuzaks were palavering with the occupants of two heavily-loaded trader rockets.
+      You certainly won't catch me palavering with Massholes like Burton.
+      The Queen Esther women palavered about the upcoming business of the Bible class.
+      I palavered with him about our imminent outing.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>palaver.01</pb>
+         <vn>chit_chat-37.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="drug-n">
+    <commentary>
+        20nov06 update to wn2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="Medicines" type="Entity">
+        <commentary>
+            DRUG[+entity][+substance][+chemical][+pharmacological][+legal][+medication]
+            A substance that affects the body in some legal, usually-beneficial way.  Does not apply to narcotics.  
+        </commentary>
+        <examples>
+            Our top doctors are discovering new, life-saving drugs as we speak.
+            The Food and Drug Administration approved our new chemical.
+            I go to the pharmacy for all my drugs.
+            I took my drugs today.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Narcotics" type="Entity">
+        <commentary>
+            DRUG[+entity][+substance][+chemical][+pharmacological][-legal][+narcotic]
+            The stuff you shouldn't do.  A substance, usually illegal, that causes bodily pleasure or some other reaction.
+            Has a very negative connotation.
+        </commentary>
+        <examples>
+            I'm not addicted to drugs.  
+            Don't do drugs!
+            Alcohol and caffeine were his drugs of choice.
+            I think he was on drugs when he mugged me.
+            The Drug Enforcement Administration busted the smugglers.
+            I took drugs today.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Senses 1 and 2" type="Shish-Kabob">
+        <commentary>
+            Use this sense when both legal and illegal drugs are being referred to, or when a clear distinction is impossible.
+        </commentary>
+        <examples>
+            Some drugs, both prescription and non-prescription, are frequently abused.  
+            All my drugs are smuggled in from Canada.
+            Some drugs can interact with one another.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

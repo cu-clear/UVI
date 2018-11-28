@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="protocol-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="format and transmission rules for computer communications" type="">
+        <commentary>
+            PROTOCOL[+entity][+symbolic][+rule][+format][+communication][+computer]
+            Technical specifications for how digital information is formatted
+        </commentary>
+        <examples>
+            FTP is a file transfer protocol that enables users to copy files between their local computer and a remote network.
+            HTTP is a protocol that transfers hypertext requests and information between computer servers and browsers.
+            John is an expert on computer network protocols.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="codes of social conduct, rules of etiquette" type="">
+        <commentary>
+            PROTOCOL[+entity][+symbolic][+rule][+convention][+etiquette][+social]
+            Norms of conduct, social behavior
+        </commentary>
+        <examples>
+            Protocol prohibits the Crown Prince from making public statements in his defense.
+            What is the correct protocol at conferences when one's neighbor dozes during a talk?
+            It was certainly a breach of protocol for him to decline acceptance of a Nobel prize.
+            Bob didn't seem to understand the protocols required of a host at a formal dinner party.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="official written record of diplomatic agreements, treaty" type="">
+        <commentary>
+            PROTOCOL[+entity][+artifact][+document][+record][+official][+diplomatic][+agreement]
+        </commentary>
+        <examples>
+            Both nations have agreed to abide by the new protocol.
+            Negotiators are drawing up new protocols that will specify emission standards for the member countries.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="official written record of scientific or medical experiment" type="">
+        <commentary>
+            PROTOCOL[+entity][+artifact][+document][+record][+official][+experimental][+procedure][+medical/+scientific]
+        </commentary>
+        <examples>
+            The protocol specifies the amount of increased dosage of the medication per successive administration of it.
+            The drug manufacturer did not follow the published protocols for this new drug.
+            A review by peer scientists is challenging the protocol described in this experiment.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

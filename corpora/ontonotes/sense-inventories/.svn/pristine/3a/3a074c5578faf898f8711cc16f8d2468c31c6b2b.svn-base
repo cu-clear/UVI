@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fast-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="abstain from eating or from certain foods" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] FAST
+      </commentary>
+      <examples>
+        Christians fasted during Lent in order to prepare spiritually for
+        Easter.
+        I fasted before the appointment so they could do bloodwork.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fast.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="dye with fast colors" type="">
+      <commentary>
+        Is: FAST DYE
+      </commentary>
+      <examples>
+        These shirts should be fast-dyed by factory workers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="fast_dye" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

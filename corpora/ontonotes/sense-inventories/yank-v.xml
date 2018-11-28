@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="yank-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="jerk suddenly" type="">
+      <commentary>
+        Syntax is: NP1[agent] YANK/YANK ON NP2[object]
+        NOTE: there is no direction given here; if a direction/goal/change of location
+              is given (either in the utterance or surrounding context), choose sense 2
+      </commentary>
+      <examples>
+        Her mother yanked her belt robe tight and disappeared into her room.
+        She had no idea who had yanked her. (with no change of location in the given context)
+        Elian yanked his cloak tighter about his shoulders as the cold seeped through the cloth.
+        He yanked his reins and turned his horse around and led the squad at a gallop.
+        Well I wouldda yanked his chain but ya never know where that's been.
+        At least Rambo yanked on his puppet strings.
+        I yanked on it in several directions and I couldn't figure out how to move the thing.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>yank.01</pb>
+         <vn>push-12-1,split-23.2,hold-15.1-1,carry-11.4</vn><fn>Cause_Motion,Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="quickly or sharply pull and move" type="">
+      <commentary>
+        Syntax is: NP1[agent] YANK NP2[object] PP[direction/goal/source]
+        NOTE: May be used with resulting state ('open'), including metaphorical usages
+              ('into submission') 
+      </commentary>
+      <examples>
+        She yanked the door open.
+        He was fishing in Chesapeake Bay when an 18-ft. fish yanked him into the water.
+        Presley reached into the van, grabbed the prisoner's hair and yanked him into submission.
+        Jeanne grabbed both Sue Ann's hands and yanked her off the toilet.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>yank.01</pb>
+         <vn>split-23.2,carry-11.4,hold-15.1-1,push-12-1</vn><fn>Cause_motion,Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="remove, take out (abstract)" type="">
+      <commentary>
+        Syntax is: NP1[agent] YANK NP2[abstract] (PP[source])
+        NOTE: compare carefully to sense 2; in this sense, the source need not be 
+              overtly stated and the meaning of 'remove' will still be understood.
+              This may be considered to be a sub-sense of sense 2.
+      </commentary>
+      <examples>
+       He posted his review, only to find out that Amazon yanked his writing immediately.
+       Quinn was not satisfied at the rate at which he was learning English and she yanked him from class.
+       Detroit went into an uproar, and the local ABC affiliate briefly yanked him from its schedule.
+       This is the third time a broadcast radio or television station has yanked the program. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>yank.01</pb>
+         <vn>carry-11.4,hold-15.1-1,push-12-1,split-23.2</vn><fn>Cause_motion,Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="manufacturer-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="business that produces goods in volume" type="">
+        <commentary>
+            MANUFACTURER[+business][+producer][+goods][+volume]
+            Note: implies that production of goods is done in volume, large quantities
+        </commentary>
+        <examples>
+            That clothing manufacturer has merged with a European conglomerate.
+            Two thousand jobs were lost when the local manufacturer moved operations overseas.
+            This company with two other chip manufacturers are jointly building a new fabrication plant.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="individual owner, manager or employer of a goods-producing business" type="">
+        <commentary>
+            MANUFACTURER[+individual][+producer]
+            [+role][+boss][+business][+production][+goods][+volume]
+        </commentary>
+        <examples>
+            Two manufacturers and three attorneys sat on the left side of the boardroom table.
+            John's father was a successful auto manufacturer.
+            Terrorists are suspected in the recent shooting of a prominent manufacturer.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

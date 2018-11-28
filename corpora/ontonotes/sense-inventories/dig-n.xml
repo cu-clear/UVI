@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dig-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an archeological excavation site" type="">
+        <commentary>
+            DIG[+location][+site][+excavation][+archeological]
+        </commentary>
+        <examples>
+            The archeologists set up their camp near the dig.
+            The dig extends over several acres.
+            It's a famous dinosaur dig from the early 20th century.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>dig.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a hostile or cutting remark" type="Event">
+        <commentary>
+            DIG[+event][+speech_act][+remark][+hostile]
+        </commentary>
+        <examples>
+            Her remark was a cruel dig at John.
+            The speaker ignored the digs from the audience member and continued his explanation.
+            Both candidates managed a few digs at each other during the debate.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>dig.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a gouge or dent in the surface of an object" type="">
+        <commentary>
+            DIG[+form][+flaw][+gouge][+in_surface]
+        </commentary>
+        <examples>
+            The book is in good condition except for a dig in the back cover.
+            Bob sanded the car's body, removing small pits and digs in the finish.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the activity of excavation, uncovering" type="Event">
+        <commentary>
+            DIG[+event][+excavation]
+        </commentary>
+        <examples>
+            The dig through the rubble of the building took weeks.
+            The reporter's thorough dig of the facts surrounding the case has revealed some interesting relationships. (metaphoric extension)
+            The dig at the newly discovered Mayan ruin has only begun in recent months.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>dig.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a sharp jabbing gesture" type="Event">
+        <commentary>
+            DIG[+event][+gesture][+jabbing][+sharp]
+        </commentary>
+        <examples>
+            The boy gave his sister a dig in the ribs when she tickled him.
+            The man shoved through the crowd, administering digs with his elbows to people near him. 
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,123 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="kick-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a blow with the foot" type="Event">
+        <commentary>
+            KICK[+event][+motion][+blow][+with_foot]
+        </commentary>
+        <examples>
+            He got a concussion from a kick in the head from a horse.
+            The soccer player gave the ball a tremendous kick that sent it past the goalie.
+            The showgirls lined up in a row and began their famous kick.
+            The persistent kicks of a child against the back of her seat on the plane annoyed Mary.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>kick.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a force, a jolt of energy" type="Event">
+        <commentary>
+            KICK[+force][+kinetic][+jolt][+sudden]
+        </commentary>
+        <examples>
+            The missile accelerated with a kick.
+            John felt the kick of the rifle as it discharged its bullet.
+            The kick of the engine almost unseated Bob when he revved up the motorcycle.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a sudden physiological stimulation" type="Event">
+        <commentary>
+            KICK[+event][+stimulation][+sudden][+physiological]
+        </commentary>
+        <examples>
+            That double espresso really gave me a kick.
+            The junkie felt the familiar kick of the heroin coursing through his veins.
+            The margaritas tasted smooth but had a powerful kick.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an emotional pleasure or thrill" type="">
+        <commentary>
+            KICK[+state][+emotional][+pleasure][+thrilling]
+        </commentary>
+        <examples>
+            It was a kick for him to see his oldest grandson competing in the tennis tournament.
+            Those kids are doing these crimes just for kicks.
+            John gets his kicks snowboarding.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a widespread interest, a fad" type="">
+        <commentary>
+            KICK[+activity][+widespread][+fad]
+        </commentary>
+        <examples>
+            Mary is always trying the latest dieting kick.
+            He never really got into the jogging kick.
+        </examples>
+        <mappings>
+            <wn version="MAC">2b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a gripe or complaint" type="Event">
+        <commentary>
+            KICK[+event][+speech_act][+complaint]
+        </commentary>
+        <examples>
+            He called the front desk with some kick about the air conditioner not working.
+            What's her kick anyway - she should be happy with these results.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="rhythmical thrusting of the legs in a swim stroke" type="Event">
+        <commentary>
+            KICK[+event][+motion][+thrust][+leg][+rhythmical][+of_stroke][+swim]
+        </commentary>
+        <examples>
+            The instructor taught the children a basic kick in the swimming pool.
+            The coach has helped her improve the efficiency of her side kick.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

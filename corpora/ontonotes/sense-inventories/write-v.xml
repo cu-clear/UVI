@@ -1,0 +1,177 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="write-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="communicate or express in writing, compose a piece of writing (i.e. novel)" type="">
+      <commentary>
+       	Syntax is: NP[agent] WRITE (in) NP[patient] (PP{P NP[recipient]})
+        Includes: WRITE IN
+        </commentary>
+      <examples>
+        Please write to me every week.
+        Write her soon, please!
+        He wrote that he would be coming soon.
+        He wrote a memo to all the employees.
+        Many listeners wrote in after the controversial radio program.
+        The employees were asked not to write personal email messages at work.
+        Sally wrote a scathing letter to the editor.
+        She has written four novels but not yet published any of them.
+        Beethoven wrote nine symphonies.
+        He can help you write your resume.
+        The teacher asked the students to write about their favorite hobby.
+        In that book, the author wrote mostly of the earliest period of Greek civilization.
+        The topic he choose to write on is the history of the electric car.
+        She used to write copy for Harper's Bazaar.
+        Igor Stravinsky and Leonard Bernstein both wrote jazz-inspired pieces.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,5,6</wn>
+         <wn lemma="write_in" version="3.0">2</wn>
+         <omega/><pb>write.01</pb>
+         <vn>lecture-37.11-1,performance-26.7-2-1,transfer_mesg-37.1.1-1-1</vn>
+         <fn>Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+       <sense group="1" n="2" name="the mechanics of forming symbols or alphabetic characters" type="">
+      <commentary>
+        Syntax is: NP[agent] WRITE NP[symbol]
+        NOTE: focus is on the mechanics of writing (characters, spelling, penmanship) -not- the message itself (see Sense 1)
+      </commentary>
+      <examples>
+        The artist wrote Chinese characters on a big piece of white paper.
+        Russian is written with the Cyrillic alphabet.
+        The child doesn't yet know how to write his name.
+        His hands were shaking so hard that he couldn't write.
+        He quickly erased what he had written.
+        Her handwriting is so terrible that I can never read what she has written.
+        Cuneiform refers to the way scribes wrote marks on wet clay.
+        Can you write down your phone number for me?
+        When we were children, we would write in code so that our parents couldn't understand.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,9</wn>
+         <wn lemma="write_down" version="3.0">1</wn>
+         <wn lemma="write_off" version="3.0">2</wn>
+         <wn lemma="write_in_code" version="3.0">1</wn>
+         <omega/><pb>write.03</pb>
+         <vn>scribble-25.2</vn>
+         <fn>Spelling_and_pronouncing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="store or record data on a computer" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The company wrote boot instructions on the disk.
+	I can only write this disk once.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="create code or computer programs" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She writes code faster than anybody else.
+        Some BASIC dialects do not allow programmers to write their own procedures.
+        Programmers can write roughly the same number of lines of code per year regardless of language.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="reduce the estimated value of something" type="">
+      <commentary>
+        Includes: WRITE DOWN, WRITE OFF
+      </commentary>
+      <examples>
+        For tax purposes you can write off the laser printer.
+        In December 2001, we wrote down to its estimated fair value our investment.
+      </examples>
+      <mappings>
+         <wn lemma="write_down" version="3.0">2</wn>
+         <wn lemma="write_off" version="3.0">3,4</wn>
+         <omega/><pb>write.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="6" name="dismiss, concede a loss" type="">
+      <commentary>
+        Includes: WRITE OFF
+      </commentary>
+      <examples>
+        Write it off as a loss.
+        McCain too quickly wrote off the religious right as a constituency he could draw upon.
+        They wrote off any criticism as persecution.
+      </examples>
+      <mappings>
+         <wn lemma="write_off" version="3.0">1</wn>
+         <omega/><pb>write.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="7" name="cast a vote by entering a name on a ballot" type="">
+      <commentary>
+        Includes: WRITE IN
+      </commentary>
+      <examples>
+        Many voters wrote in the names of strangers.
+        Four thousand eight hundred people in Texas wrote in the Green candidates on election day.
+        In Gadsden, some voters wrote in Al Gore instead of checking his name.
+      </examples>
+      <mappings>
+         <wn lemma="write_in" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="8" name="complete or fill in a form" type="">
+      <commentary>
+        Includes: WRITE OUT, WRITE UP
+      </commentary>
+      <examples>
+        Please write the check out to the corporation.
+        He quickly wrote up a contract.
+        I just stood there as the cop wrote out the ticket.
+      </examples>
+      <mappings>
+         <wn lemma="write_out" version="3.0">1,2</wn>
+         <wn lemma="write_up" version="">2</wn>
+         <omega/><pb>write.06</pb>
+         <vn>NM</vn>
+         <fn>Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="9" name="publicly praise or condemn" type="">
+      <commentary>
+        Includes: WRITE UP
+      </commentary>
+      <examples>
+        The New York Times wrote him up last week.
+        Did your boss write you up?
+      </examples>
+      <mappings>
+         <wn lemma="write_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc, ahouston,vieweg" sample_score="-"/>
+</inventory>

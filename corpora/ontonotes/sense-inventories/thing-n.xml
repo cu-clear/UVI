@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="thing-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a referential general term" type="">
+        <commentary>
+            THING[+function][+reference]
+            Note: is coreferential with an implied substantive noun of the same category
+        </commentary>
+        <examples>
+            This thing has got to end. (event)
+            The funniest thing happened yesterday. (event)
+            How could he do such a thing? (action)
+            Let's do our own thing. (action)
+            John wanted to know how the thing worked. (artifact)
+            Mary said the same thing to me yesterday. (statement)
+            One thing I don't like about the room is the wallpaper. (attribute)
+            These issues are things of the heart. (concern)
+            I've got several things to attend to before leaving work today. (concern)
+            The thing is to not get emotional during these negotiations. (objective)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,4,5,7,9,3,6,10</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a physical entity" type="">
+        <commentary>
+            THING[+entity][+physical]
+        </commentary>
+        <examples>
+            The small green thing blinked its eyes and scuttled behind the column.
+            How many things do you see on the table?
+            We were very excited to see the Thing on our night dive.
+        </examples>
+        <mappings>
+            <wn version="3.0">8,12</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a strong emotion, either positive or negative" type="">
+        <commentary>
+            THING[+state][+emotion][+strong]
+            Note: prep 'for' indicates positive feeling, prep 'about' indicates negative feeling.
+        </commentary>
+        <examples>
+            John has a thing about spiders.
+            I've got a terrible thing for chocolate.
+            Mary has a thing for theoretical physicists.
+            Sally has a thing about going to the dentist.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

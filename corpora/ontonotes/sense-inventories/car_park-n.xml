@@ -1,0 +1,24 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="car_park-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="an area allocated for parking cars" type="">
+        <commentary>
+            CAR_PARK[+location][+area][+for_parking][+cars]
+            Note: can be outdoors (lot) or indoors (garage)
+        </commentary>
+        <examples>
+            The restaurant uses valets in their car park.
+            We found a car park in the theater district for only $10 an hour.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

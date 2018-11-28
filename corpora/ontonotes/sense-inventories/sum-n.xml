@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sum-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an amount of money, a price paid or received" type="">
+        <commentary>
+            SUM[+quantity][+amount][+money]
+            Note: always refers to money
+        </commentary>
+        <examples>
+            The interior decorator charged them an enormous sum for redoing just the dining room.
+            There were sums of money involved in that deal.
+            They are buying the small firm for an undisclosed sum.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the resulting quantity of performing the mathematical operation of addition" type="">
+        <commentary>
+            SUM[+quantity][+total][+computation][+addition][+mathematical]
+            Note: refers to the resulting value, not the act of computing (Sense 4)
+        </commentary>
+        <examples>
+            What is the sum of six plus four?
+            The test included some problems requiring you to find vector sums.
+            The sum of these two prime numbers is not itself a prime.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a total aggregation of things" type="">
+        <commentary>
+            SUM[+entity][+group][+aggregation]
+            Note: refers to a bunch of things, parts, stuff, not a number value (Sense 2)
+        </commentary>
+        <examples>
+            What if the sum of human knowledge could be contained on a single microchip?
+            The sum of the team's experience is a formidable asset for the company. 
+            In this case the whole is bigger than the sum of its parts.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the core or essence of something" type="">
+        <commentary>
+            SUM[+quality][+essence]
+            Note: includes the idiom, in_sum, which means 'in summary', a kind of core or essence.
+        </commentary>
+        <examples>
+            The sum of his argument was that pollution is bad and someone should pay for it.
+            The sum of the matter is that we need to hire a lawyer.
+            In sum, this experiment does little to further our understanding of metabolic pathways.
+            And that, in sum, is her view of the world.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the task of performing mathematical addition" type="">
+        <commentary>
+            SUM[+activity][+task][+mathematical][+addition]
+            Note: refers to an actor performing the act of addition, not the resulting number value.
+        </commentary>
+        <examples>
+            The children were doing sums in class today.
+            Let Sally figure the bill, she's good at sums.
+            Little Johnny is better at sums than he as at reading.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

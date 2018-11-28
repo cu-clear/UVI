@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shelter-n">
+    <commentary>
+        17oct06 renumbered sense 5 as sense 4 (earlier typo) ahouston
+        17oct06 changed examples, modified features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a physical structure that covers, protects" type="">
+        <commentary>
+            SHELTER[+entity][+physical][+structure][+covering][+manmade/+natural]
+            [+relation][+role][+protection][+structural]
+            Note: implies that X is a SHELTER, equates two things
+        </commentary>
+        <examples>
+            The London subways were used as bomb shelters during World War II.
+            John's deck shelter is stained redwood. 
+            The overhanging branches of the big maple trees made a nice shelter from the sun.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="being in a protected state or condition" type="">
+        <commentary>
+            SHELTER[+state][+protection][+abstract/+concrete]
+            Note: refers to being in a state of protection, not a physical structure
+            Note: implies someone/something gives SHELTER to Y (not two things equates as in Sense 1)
+        </commentary>
+        <examples>
+            The ship sought shelter from the storm in the protected bay.
+            The farmer gave the wounded soldier shelter from the enemy.
+            He had a happy childhood in the shelter of his parents' love.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="financial arrangement to reduce taxes" type="">
+        <commentary>
+            SHELTER[+system][+arrangement][+financial][+tax][+reduction]
+        </commentary>
+        <examples>
+            He uses the small business as a tax shelter.
+            These types of real estate shelters are no longer legal under the new tax laws.
+            She set up trust funds for her grandchildren as a shelter against inheritance taxes.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="temporary housing for homeless or displaced people, animals" type="">
+        <commentary>
+            SHELTER[+entity][+institution][+housing][+temporary]
+            Note: a specialized, restricted use of Sense 1
+        </commentary>
+        <examples>
+            Bob volunteers in a local homeless shelter for veterans.
+            Mary got her kittens at a local no-kill animal shelter.
+            They set up shelters downtown for the hurricane victims.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

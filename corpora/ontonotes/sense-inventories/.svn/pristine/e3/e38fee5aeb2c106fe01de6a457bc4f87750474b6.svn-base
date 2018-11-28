@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="supervision-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="watching something" type="Event">
+        <commentary>
+	    SUPERVISION[+event]
+	    The act of watching over or supervising something.
+	    </commentary>
+        <examples>
+            John's supervision of the department led to greatly decreased revenues.
+            Government supervision of the industry will begin on January 30th.
+            Without constant supervision, children will choke on their toys and die.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="people who supervise" type="Entity">
+        <commentary>
+            Refers to the people doing the supervising.
+        </commentary>
+        <examples>
+            I hired some supervision for the kids.
+            The store was under new supervision.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

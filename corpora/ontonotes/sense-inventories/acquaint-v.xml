@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="acquaint-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="introduce people" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] ACQUAINT NP2[patient] PP{with NP[patient[animate]]}
+      </commentary>
+      <examples>
+      He addressed her courteously until he acquainted her with himself.
+      Permit me to acquaint you with my son. 
+      They acquainted themselves by rubbing noses. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>acquaint.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make familiar with, inform" type="">
+      <commentary> 
+      Syntax includes:
+      NP1[agent] ACQUAINT NP2[patient]animate] PP{with NP[patient[inanimate]]}
+      NP1[agent] ACQUAINT NP2[[patient]animate] PP{of NP[theme]}
+      </commentary>
+      <examples>
+      They acquainted him with their plan in all its details.
+      They acquainted him with inhaling of gasoline fumes.
+      They acquainted him of the proceedings.
+      They did entreat me to acquaint her of it.
+      There is an opportunity to acquaint her of the benefits. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>acquaint.01</pb>
+         <vn>tell-37.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

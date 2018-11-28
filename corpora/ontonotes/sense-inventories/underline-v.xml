@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="underline-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="emphasize" type="">  
+      <commentary>
+        NP1[+/-agent] UNDERLINE NP2
+      </commentary>
+      <examples>
+        Her gestures underlined her words.
+        He underlined Obama's inexperience and reframed the brilliant
+        orator as not the voice of change but of the Washington insider.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>underline.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="draw a line under" type="">
+      <commentary>
+        NP1[+agent] UNDERLINE NP2
+      </commentary>
+      <examples>
+        He had underlined passages in the Book of Psalms.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>underline.01</pb>
+         <vn>scribble-25.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

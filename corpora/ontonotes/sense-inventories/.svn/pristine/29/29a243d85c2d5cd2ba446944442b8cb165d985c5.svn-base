@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="end-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="stop, finish, terminate (A ends)" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] END PP
+        Note: The NP simply ends, there is no obvious or evident reason or causative for the NP to end
+      </commentary>
+      <examples>
+        The bronchioles end in a capillary bed.
+        My property ends by the bushes.
+        The symphony ends in a pianissimo.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>end.01</pb>
+         <vn>NM</vn><fn>Process_end</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bring to a halt, terminate (A causes B to end)" type="">  
+      <commentary>     
+        Syntax Is: NP1 END NP2
+        Note: There is a causative that acts as the reason for a result, as opposed to sense 1, where there is no 
+              specific causative 
+      </commentary>
+      <examples>
+        Why haven't 1.4 million new jobs ended the jobless recovery.
+        She ended their relationship.
+        The peace treaty ended the war.
+        The terrible news ended our hopes that he had survived.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>end.01</pb>
+         <vn>stop-55.4-1</vn><fn>Cause_to_end</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be the end of, conclude (A is the event at the end of B)" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        Colorful closing ceremonies ended the XX Winter Olympic Games.
+        This sad scene ended the movie.
+        Everyone's laughter at our boss' joke ended the weekly meeting.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>end.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="end up, wind up, finally be or do something" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1 END UP [predicate]
+        NP1 END UP PP
+      </commentary>
+      <examples>
+        &quot;He ended up marrying his highschool sweetheart.
+        &quot;She ended up in some rather bizzare situation.
+      </examples>
+      <mappings>
+         <wn lemma="end_up" version="3.0">1</wn>
+         <omega/><pb>end.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc, vieweg" sample_score="-"/>  
+</inventory>
