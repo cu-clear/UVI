@@ -1,6 +1,4 @@
 #!/bin/bash
-source conda activate
-
 export FLASK_APP=uvi_flask.py
 export FLASK_DEBUG=0
 
