@@ -70,11 +70,12 @@ def notifier_loop(notifier):
         notifier.loop()
     except Exception as err:
         print('Exception encountered while rebuilding MongoDB collections from corpora: '+datetime.datetime.now().isoformat())
-        print('Error Message is as follows:\n'+err)
+        print('Error Message is as follows:\n'+str(err))
         print('\n\nContinuing monitoring operations...')
         notifier_loop(notifier)
 
 #Rebuild all collections once on start
+print("Building all collections and monitoring corpora: "+datetime.datetime.now().isoformat())
 build_mongo_collections.build_verbnet_collection()
 build_mongo_collections.build_propbank_collection()
 build_mongo_collections.build_framenet_collection()
