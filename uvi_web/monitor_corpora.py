@@ -5,61 +5,61 @@ import datetime
 class EventHandler(pyinotify.ProcessEvent):
     def process_IN_MODIFY(self, event):
         if event.wd == 1:
-            print("Modification detected in VerbNet Corpus. Rebuilding MongoDB Collection(s) ['verbnet']...")
+            print("Modification detected in VerbNet Corpus. Rebuilding MongoDB Collection(s) VerbNet...")
             build_mongo_collections.build_verbnet_collection()
             print("Rebuild complete.")
 
         elif event.wd == 2:
-            print("Modification detected in VerbNet References Corpus. Rebuilding MongoDB Collection(s) ['verbnet']...")
+            print("Modification detected in VerbNet References Corpus. Rebuilding MongoDB Collection(s) VerbNet...")
             build_mongo_collections.build_verbnet_collection()
             print("Rebuild complete.")
 
         elif event.wd == 3:
-            print("Modification detected in PropBank Corpus. Rebuilding MongoDB Collection(s) ['propbank']...")
+            print("Modification detected in PropBank Corpus. Rebuilding MongoDB Collection(s) PropBank...")
             build_mongo_collections.build_propbank_collection()
             print("Rebuild complete.")
 
         elif event.wd == 4:
-            print("Modification detected in FrameNet Corpus. Rebuilding MongoDB Collection(s) ['framenet']...")
+            print("Modification detected in FrameNet Corpus. Rebuilding MongoDB Collection(s) FrameNet...")
             build_mongo_collections.build_framenet_collection()
             print("Rebuild complete.")
 
     def process_IN_DELETE(self, event):
         if event.wd == 1:
-            print("Deletion detected in VerbNet Corpus. Rebuilding MongoDB Collection(s) ['verbnet']...")
+            print("Deletion detected in VerbNet Corpus. Rebuilding MongoDB Collection(s) VerbNet...")
             build_mongo_collections.build_verbnet_collection()
             print("Rebuild complete.")
 
         elif event.wd == 2:
-            print("Deletion detected in VerbNet References Corpus. Rebuilding MongoDB Collection(s) ['verbnet']...")
+            print("Deletion detected in VerbNet References Corpus. Rebuilding MongoDB Collection(s) VerbNet...")
             build_mongo_collections.build_verbnet_collection()
             print("Rebuild complete.")
 
         elif event.wd == 3:
-            print("Deletion detected in PropBank Corpus. Rebuilding MongoDB Collection(s) ['propbank']...")
+            print("Deletion detected in PropBank Corpus. Rebuilding MongoDB Collection(s) PropBank...")
             build_mongo_collections.build_propbank_collection()
             print("Rebuild complete.")
 
         elif event.wd == 4:
-            print("Deletion detected in FrameNet Corpus. Rebuilding MongoDB Collection(s) ['framenet']...")
+            print("Deletion detected in FrameNet Corpus. Rebuilding MongoDB Collection(s) FrameNet...")
             build_mongo_collections.build_framenet_collection()
             print("Rebuild complete.")
 
     def process_IN_CREATE(self, event):
         if event.wd == 1:
-            print("New file detected in VerbNet Corpus. Rebuilding MongoDB Collection(s) ['verbnet']...")
+            print("New file detected in VerbNet Corpus. Rebuilding MongoDB Collection(s) VerbNet...")
             build_mongo_collections.build_verbnet_collection()
             print("Rebuild complete.")
         elif event.wd == 2:
-            print("New file detected in VerbNet Referenes Corpus. Rebuilding MongoDB Collection(s) ['verbnet']...")
+            print("New file detected in VerbNet Referenes Corpus. Rebuilding MongoDB Collection(s) VerbNet...")
             build_mongo_collections.build_verbnet_collection()
             print("Rebuild complete.")
         elif event.wd == 3:
-            print("Deletion detected in PropBank Corpus. Rebuilding MongoDB Collection(s) ['propbank']...")
+            print("Deletion detected in PropBank Corpus. Rebuilding MongoDB Collection(s) PropBank...")
             build_mongo_collections.build_propbank_collection()
             print("Rebuild complete.")
         elif event.wd == 4:
-            print("Deletion detected in FrameNet Corpus. Rebuilding MongoDB Collection(s) ['framenet']...")
+            print("Deletion detected in FrameNet Corpus. Rebuilding MongoDB Collection(s) FrameNet...")
             build_mongo_collections.build_framenet_collection()
             print("Rebuild complete.")
 
@@ -83,7 +83,7 @@ build_mongo_collections.build_framenet_collection()
 watch_manager = pyinotify.WatchManager()
 
 wdd_vn = watch_manager.add_watch('../corpora/verbnet', pyinotify.ALL_EVENTS)
-wdd_vn_refs = watch_manager.add_watch('../reference_docs', pyinotify.ALL_EVENTS)
+wdd_vn_refs = watch_manager.add_watch('../corpora/reference_docs', pyinotify.ALL_EVENTS)
 wdd_pb = watch_manager.add_watch('../corpora/propbank/frames', pyinotify.ALL_EVENTS)
 wdd_fn = watch_manager.add_watch('../corpora/framenet', pyinotify.ALL_EVENTS)
 #wdd_on = watch_manager.add_watch('../corpora/ontonotes', pyinotify.ALL_EVENTS)
