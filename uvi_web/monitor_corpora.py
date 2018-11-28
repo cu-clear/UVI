@@ -1,6 +1,7 @@
 import pyinotify
 import build_mongo_collections
 import datetime
+import sys
 
 class EventHandler(pyinotify.ProcessEvent):
     def process_IN_MODIFY(self, event):
@@ -92,4 +93,6 @@ wdd_fn = watch_manager.add_watch('../corpora/framenet', pyinotify.ALL_EVENTS)
 handler = EventHandler()
 notifier = pyinotify.Notifier(watch_manager, handler)
 
-notifier_loop(notifier)
+with open('log.txt', 'w') as logfile:
+    sys.stdout = logfile
+    notifier_loop(notifier)
