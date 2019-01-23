@@ -41,7 +41,11 @@ def download_json():
 
 @app.route('/', methods=['GET','POST'])
 def index():
-	return render_template('search.html')
+	return render_template('search.html', gen_themroles=list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), \
+        predicates=list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})),\
+        vs_features=list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), \
+        syn_res=list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), \
+        sel_res=list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
 
 @app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():

@@ -62,7 +62,7 @@ $(document).ready(function(){
   </a>
   <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href={{ url_for('contact_us') }}>Contact Us</a>
+        <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
@@ -142,15 +142,60 @@ $(document).ready(function(){
                     <span><b>Attribute Type:</b></span>
                     <br />
                     <input type='radio' name='vn_attribute' value='themrole' checked />
-                    <label for='vn_attribute'>Thematic Role</label><br />
+                    <label for='vn_attribute'><div class="hoverWrapper">Thematic Role
+                        <div id="hoverGenThem">
+                            {% for th_el in gen_themroles %}
+                              <span>{% for themrole, them_val in th_el.items() %}
+                               <b>{{themrole}}</b>
+                              {%endfor %}</span>
+                              <span>{{ ", " if not loop.last }}</span>
+                            {% endfor %}
+                        </div>
+                    </div></label><br />
                     <input type='radio' name='vn_attribute' value='predicate'/>
-                    <label for='vn_attribute'>Predicate</label><br />
+                    <label for='vn_attribute'><div class="hoverWrapper">Predicate
+                        <div id="hoverPred">
+                            {% for pr_el in predicates %}
+                              <span>{% for pred, pred_val in pr_el.items() %}
+                               <b>{{pred}}</b>
+                              {%endfor %}</span>
+                              <span>{{ ", " if not loop.last }}</span>
+                            {% endfor %}
+                        </div>
+                    </div></label><br />
                     <input type='radio' name="vn_attribute" value='vs_feature' />
-                    <label for='vn_attribute'>Verb-Specific Feature</label><br />
+                    <label for='vn_attribute'><div class="hoverWrapper">Verb-Specific Feature
+                        <div id="hoverVS">
+                            {% for vs_el in vs_features %}
+                              <span>{% for vs_feat, vs_val in vs_el.items() %}
+                               <b>{{vs_feat}}</b>
+                              {%endfor %}</span>
+                              <span>{{ ", " if not loop.last }}</span>
+                            {% endfor %}
+                        </div>
+                    </div></label><br />
                     <input type='radio' name="vn_attribute" value='selrestr' />
-                    <label for='vn_attribute'>Selectional Restriction</label><br />
+                    <label for='vn_attribute'><div class="hoverWrapper">Selectional Restriction
+                        <div id="hoverSelRes">
+                            {% for sr_el in sel_res %}
+                              <span>{% for sr_feat, sr_val in sr_el.items() %}
+                               <b>{{sr_feat}}</b>
+                              {%endfor %}</span>
+                              <span>{{ ", " if not loop.last }}</span>
+                            {% endfor %}
+                        </div>
+                    </div></label><br />
                     <input type='radio' name="vn_attribute" value='synrestr' />
-                    <label for='vn_attribute'>Syntactic Restriction</label><br />
+                    <label for='vn_attribute'><div class="hoverWrapper">Syntactic Restriction
+                        <div id="hoverSynRes">
+                            {% for syn_el in syn_res %}
+                              <span>{% for synres_feat, synres_val in syn_el.items() %}
+                               <b>{{synres_feat}}</b>
+                              {%endfor %}</span>
+                              <span>{{ ", " if not loop.last }}</span>
+                            {% endfor %}
+                        </div>
+                    </div></label><br />
                 </form>
                 </div>
                 <!--END FORM-->
@@ -159,8 +204,11 @@ $(document).ready(function(){
             <hr>
             <!--END SIDE COLUMN LEFT-->
         </div>
+
     </div>
 
+    
+    
     <div id='results_pane_div' style="display:none; position: absolute;">
         <button type="button" id='close_button'>&times;</button>
         <iframe class='frame' frameborder="0" name="results_pane" id="results_pane">
@@ -170,9 +218,49 @@ $(document).ready(function(){
 
 </div>
 
+<script type="text/javascript">
+
+</script>
+
+<style type="text/css">
+    .hoverWrapper:hover #hoverGenThem {
+ display: block;
+}
+
+.hoverWrapper:hover #hoverPred {
+ display: block;
+}
+
+.hoverWrapper:hover #hoverVS {
+ display: block;
+}
+
+.hoverWrapper:hover #hoverSelRes {
+ display: block;
+}
+
+.hoverWrapper:hover #hoverSynRes {
+ display: block;
+}
+
+#hoverGenThem, #hoverPred, #hoverVS, #hoverSelRes, #hoverSynRes  {
+ display: none;
+ position: absolute;
+ margin: 5px;
+ border-radius: 25px;
+ background-color: rgba(122, 157, 150, .9);
+ width: 650px;
+ height: 600px;
+ left: 105%;
+ top: 0%;
+ padding: 40px 60px;
+ text-align: justify;
+ text-transform: capitalize;
+}
+
+</style>
 {% endblock %}
 
 {% block scripts %}
-
 
 {% endblock %}
