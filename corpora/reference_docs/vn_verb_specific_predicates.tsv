@@ -1,0 +1,12 @@
+VerbSpecific name	Definition	Arguments	Comments
+Direction	The direction an Undergoer moves in during a motion or change of value on a scale event.	change_value(during(E), Direction, Atribute, Patient)	Appears in calibratable_cos-45.6.1.
+Endstate	The Goal/Result/Product that a Participant is in at the end of a change of state event.	Not(State(start(E), Endstate, Material)	Appears in knead-26.5.
+Form	The resulting physical form that an Undergoer is in at the end of an event.	Physical_form(result(E), Form, Patient)	Appears in carve-21.2, cooking-45.3, break-45.1, and break-45.2
+Light	The light that a Theme emits.	Emit(during(E), Theme, Light)	Appears in light_emission-43.1.
+Material	The Material that has been used to change a Patient by the end of an event.	Covered(result(E), Material, Patient)	Appears in coloring-24.
+Motion	Indicates the movement manner of an event.	Manner(during(E), Motion, Agent)	Appears in cut-21.1.
+Odor	The smell that a Theme emits.	Emit(during(E), Theme, Odor)	Appears in smell_emission-43.3.
+Pos	The position that a Participant is in.	Position(end(E)/E, Theme/Agent, Pos)	Appears in spatial_configuration-47.6, put_spatial-9.2, and assuming_position-50.
+Prep	A placeholder for the prepositional direction of a transfer event.	part of path_rel	Includes ch_of_loc, poss, state, ch_on_scale, and tr_of_info
+Prop	A property of a Participant or the event.	Property(Instrument/Theme, Prop) or Adv(Prop)	Appears in carve-21.2, cut-21.2, and coil-9.6.
+Sound	The sound that a Theme emits.	Emit(during(E), Theme/Agent, Sound)	Appears in sound_emission-43.2, animal_sounds-38.

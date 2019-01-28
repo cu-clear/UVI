@@ -1,0 +1,158 @@
+Predicate name	Definition	Arguments	Comments
+Adv (4 uses)	Adverbial. May be used in the middle construction, such as "this knife cuts well."	Prop	What is Prop? Property? Does not appear on reference page. Also a little confusing since we have a Property predicate.
+Pred (50)	Predication, usually a predicate adjective that describes the Result of a Theme.	result(E), Theme	Should all be removed now. Changed to ch_of_state path_rel.
+Prep (33)	path_rel (618)		Should all be removed now. Changed to path_rel/location.
+about (34)	Communication or a social event in relation to a Theme.	E, Theme	Should we stick with this instead of Topic for the Battle class since we wanted to include physical and non-physical battling?
+abstain (3)	An animate Agent or organization abstains from some activity (Theme).	during(E), Agent, Theme	
+adjust (5)	An Agent causes change in a Patient in order to acheive some Goal  	during(E), Patient, Goal	
+admit (3)	An Agent allows an entity Theme to enter a Location.	during(E), Agent, Theme, Location	
+adopt (1)	An Agent or oganization takes on a Theme.	during(E), Agent, Theme	
+agree (6)	An animate Agent or organization concurs with a Co-Agent about a Topic	during(E), Agent, Co-Agent, Topic	
+alive (14)	An animate Patient is alive at the beginning or end of the event.	start(E) OR result(E), Patient	
+allow (9)	An Agent or organization allows a Beneficiary to engage in an activity (Theme).	during(E), Agent, Theme, Beneficiary	
+apart (16)	At the end of an event or as a result of the event, two Patients, or a Patient and Co-Patient, have the property of being apart from each other.	result(E) OR end(E), Patient, Co-Patient	
+appear (8)	A Theme appears during an event in a Location.	during(E), Theme, Location	
+apply_heat (7)	Using an Instrument, heat is applied to a Patient.	during(E), Instrument, Patient	
+apply_material (3)	An Agent applies a Material to a Patient.	during(E), Material, Patient	
+approve (9)	An animate Agent or organization approves a Theme.	during(E), Agent, Theme	
+assess (12)	An animate Agent or organization assesses a Theme to determine its Attribute/Value.	during(E), Agent, Theme, Attribute OR Value	
+attached (15)	An Agent attaches a Patient or Co-Patient using an Instrument.	end(E), Patient/Co-Patient, Instrument	
+attempt (8)	An animate Agent or organization attempts an activity (Theme).	during(E), Agent, Theme	
+authority_relationship (15)	An authority and a subordinate enter into a relationship.	(end(E)), Participant, Participant)	
+avoid (4)	An animate Agent avoids a Theme or Location	during(E), Agent, Theme OR Location	
+base (4)	An Agent uses a Source as a basis for some Theme.	E, Theme, Source	
+begin (9)	A Theme begins.	E, Theme	
+believe (4)	An animate Agent or organization believes a Theme to be in some event or state.	during(E), Agent, Theme, Predicate	
+benefit (25)	A Beneficiary benefits from some event.	E, Beneficiary	
+body_motion (17)	An Agent performs an action or motion with a part of his/her body.	during(E), Undergoer	
+body_process (10)	An animate Agent undergoes a bodily process.	E, Participant	
+body_reflex (4)	An animate Experiencer undergoes a bodily reflex, possibly in response to a Stimulus.	E, Experiencer	
+calculate (4)	An animate Agent or organization uses a plural Theme or a Theme and a Co-Theme to calculate some result.	during(E), Agent, Theme, (Co-Theme)	
+capacity (2)	A Location has a capacity/can contain a certain amount equal to some Value.	E, Location, Value	
+cause (696)	An Affector (Agent, Cause, Stimulus, or Precondition) causes an event.	Affector, E	
+change_value (17)	A Patient moves along a scale in some Direction to attain a new value. 	during(E), Patient, Direction, Attribute	This predicate takes 3 arguments in caused_calibratable_cos-45.6.2, and 4 arguments in calibratable_cos-45.6.1.
+characterize (4)	An animate Agent or organization characterizes a Theme as an Attribute	during(E), Theme, Attribute	Why does the Characterize class include both the Characterize and Describe predicates?
+charge (5)	A human Agent or organization apprehends a human Patient for some crime/Theme.	during(E), Agent, Patient, Theme	
+conclude (4)	An animate Agent or organization concludes an activity/Theme from a Source.	during(E), Agent, Theme, Source	
+confined (2)	A Theme is confined.	result(E), Theme	
+conflict (23)	An Agent or Co-Agent (animate or organization) engage in conflict.	during(E), Agent, Co-Agent	
+confront (2)	An animate Agent or organization confronts a Theme, possibly with an Instrument.	during(E), Agent, Theme, Instrument	
+consider (19)	An animate Agent or ogranization considers a Theme	during(E), Agent, Theme	Attribute isn't included in any of the predicates. Add a new predicate or edit this one?
+conspire (4)	An animate or organizational Agent(s) conspires against a malefactive, possibly with a Co-Agent.	during(E), Agent, (Agent OR Co-Agent), Theme	
+contact (143)	Two participants come into physical contact.	during(E) OR end(E), Participant, Participant	
+contain (1)	A Pivot contains a Theme.	during(E), Pivot, Theme	
+continue (7)	An animate Agent or organization causes a Theme, usually an event or situation, to continue. The Theme may continue as some Attribute.	during(E), (Agent), Theme, (Attribute)	Sustain-55.6 has E, Agent, Theme, Attribute, and continue-55.3 just includes E, Theme. Revise?
+convert (7)	A Patient is converted from a Source to a Goal.	during(E), Patient, Source, Goal	
+cooked (9)	A Patient is cooked into a certain Form.	result(E), Form, Patient	
+cooperate (11)	An animate Agent or organization cooperates with another animate or organizational Agent/Co-Agent on some Theme.	during(E), Agent, Agent OR Co-Agent, Theme	
+cope (3)	An animate Agent or organization copes with a Theme.	E, Agent, Theme	
+correlate (2)	A Theme and Co-Theme correlate or alternate with each other.	E, Theme, Co-Theme	
+cost (12)	The cost of an event or or item is equal to a monetary Asset.	E, Asset	
+covered (3)	An Agent covers a Patient with a Material.	result(E), Material, Patient	
+created_image (12)	An Agent creates an image of some Theme.	result(E), Theme	
+declare (24)	A human or organizational Agent declares an Undergoer (as some Attribute/Result).	during(E), Agent, Undergoer, (Attribute OR Result)	
+dedicate (2)	An animate or organizational Agent dedicates a Theme, often reciprocal, to a Goal.	during(E), Agent, Theme, Goal	
+defend (4)	An animate or organizational Agent defends an animate or organizational Beneficiary against some Theme.	during(E), Agent, Beneficiary, Theme	
+degradation_material_integrity(70)	An Patient or Co-Patient's wholeness is broken down.	result(E), Undergoer	
+delay (1)	An Agent delays a Theme, usually an event.	during(E), Agent, Theme	
+depend (9)	A Theme depends on an Agent or Pivot.	during(E), Agent OR Pivot, Theme	
+describe (9)	An animate or organizational Agent describes a Theme.	during(E), Agent, Theme	Why are both Characterize and Describe predicates in this class? Use only one?
+designated (13)	An Agent designates an Affector or Undergoer as having some Result, Role, or being some Theme.	start(E) OR end(E) OR result(E), Affector OR Undergoer, Result OR Role OR Theme	These are a little inconsistent in the classes they appear in, especially in void-106 compared to the others. Revise? Also, what is "Role" in orphan-29.7?
+desire (22)	A Participant desires a Theme or Stimulus.	result(E) OR E, Pivot OR Patient OR Experiencer, Theme OR Stimulus	addict-96: can we use Stimulus here without an Experiencer?
+destroyed (3)	An Agent destroys a concrete Patient.	result(E), Patient	
+different (6)	A Theme and a Co-Theme are different.	E, Theme, Co-Theme	
+direction (5)	A Theme or Sound moves toward a Destination or Recipient.	during(E), (toward), Theme OR Sound, Location	In all classes except animal_sounds-38, Direction contains "toward." Add it to Direction in this class?
+disappear (2)	A Patient disappears from an Initial Location during an event	during(E), Patient, Initial Location	
+discomfort (5)	A body part Patient experiences discomfort	during(E), Patient	
+discover (20)	An animate Agent or organization learns of a Theme possibly from a source	during(E), Agent, Theme, Source	
+do (27)	A participant engages in an action.	during(E), Agent OR Patient, Predicate OR Result OR Theme	Removed all Do predicates, will change all Agentive Cause predicates to Do instead.
+earn (1)	A Theme earns a value/ asset	E, Theme, Asset	
+emit (38)	Some kind of Theme is emitted from a Participant	during(E), Participant, Theme (some type)	Should Sound, Light, and/or Odor be replaced by Theme, or are they necessary in classes like Animal_sounds, Light_emission and Smell_emission?  Sound/Odor/Light/Theme can be emitted from an Agent, Theme, Source, or Pivot. Edit this predicate, or generalize with Participant in the definition/arguments?
+emotional_state (33)	An Experiencer feels an emotion.	E OR result(E), (Emotion) Experiencer 	Should E be Result(E) in all of these classes? Also why is Emotion missing from empathize-88.2
+end (7)	A Theme ceases.	E, Theme	
+enforce (2)	An Agent enforces a Theme.	during(E), Agent, Theme	
+ensure (4)	A Theme is ensured, possibly for a Beneficiary	Theme, Beneficiary	
+equals (292)	Indicates that two roles are equivalent.	Participant, Participant	
+exceed (3)	A Theme exceeds a Co-Theme in some Attribute (by an Extent)	during(E), Theme, Co-Theme, Attribute, Extent?	Make Exceed's arguments consistent in the top and subclasses?
+exert_force (15)	An Affector exerts force on a Theme	during(E0), Agent or Cause, Theme	possible Direction
+exist (119)	An Undergoer or Place exists at the start, end, or during an event.	start(E) OR during(E) OR end(E) or result(E), Undergoer OR Place	Undergoer or Place may include Asset, Product, Result, or Theme
+experience (9)	An Experiencer perceives some external stimuli.	E, Experiencer	
+express (5)	An Agent communicates/expresses a Theme.	during(E), Agent, Theme	
+filled_with (2)	A Location is filled with a Theme(s).	during(E), Location, Theme	
+financial_interest_in (3)	A Theme or an Asset is placed in a financial interest, or Goal.	Theme, Goal, Asset	
+financial_relationship (2)	An Agent relates financially with a Recipient possibly for an Asset.	E, Agent, Recipient, Asset	
+flinch (2)	An Experiencer flinches	during(E), Experiencer	
+free (4)	A Theme is liberated from a Source.	start(E) OR end(E), Theme, Source	
+function (3)	A Theme fulfills or performs some function.	during(E), Theme	
+future_possession (6)	A Goal gains possession of a Theme.	end(E), Goal, Theme	
+give_birth (1)	An Agent gives birth to a Patient.	end(E), Agent, Patient	
+group (3)	Themes are grouped (into or as some Goal).	during(E), Theme, (Goal)	
+harmed (8)	A body part Patient is harmed.	during(E), Patient	Why does the top class of hurt-40.8.3 not have any frames?
+harmonize (4)	An Theme corresponds or harmonizes with a Co-Theme.	E, Theme, Co-Theme	
+has_possession (25)	A Participant has possession of a Theme or Asset.	E, Agent, Pivot OR Recipient, Theme OR Asset	
+help (11)	An Affector helps a Beneficiary possibly with some project or activity/Theme.	during(E), Agent OR Cause, Beneficiary, (Theme)	Theme is only present in help-72.1, inconsistent. Revise?
+hold (2)	An Agent holds or grips a body part Theme.	during(E), Agent, Theme	Problem with the first frame in hold-15.1: Theme is [+body_part], but the example reads "She held the rail."
+in (1)	An Instrument is in a Patient	end(E), Instrument, Patient	Only one instance of this predicate--should it be changed to Location(end(E), Instrument, Destination), and also add Equals(Destination, Patient)?
+in_reaction_to (54)	A reaction occurs based on a Stimulus or Theme.	E, Stimulus or Theme	
+indicate (10)	A Cause indicates a Topic to a possible Recipient.	during(E), Cause, Recipient, Topic	
+involuntary (5)	A Participant has an involuntary bodily reaction.	E, Agent or Experiencer	
+involve (2)	An Agent involves a Theme in a Goal.	during(E), Agent, Theme, Goal	
+license (1)	A Theme results licensed.	result(E), Theme	
+limit (4)	A Cause limits a Patient, possibly to some Goal.	during(E), Cause, Patient, Goal	
+linger (2)	An Agent lingers possibly involving a Theme.	during(E), Agent, Theme	
+location (56)	A Participant is in a Location.	start(E) OR end(E) OR during(E) OR E OR result(E), Affector OR Undergoer, Location	Categorize Light, Odor, and Sound under Theme and add this to the SRL hierarchy?
+made_of (25)	A Product or Result consists of a Material.	result(E), Product OR Result, Material	Why does create-26.4 include a Result instead of a Product? Are we including the abstract sense in this class?
+manner (109)	One or more Participants contribute to an event in a certain manner.	(E OR end(E) OR during(E)), Manner OR Agent, Participant	Why does the Battle class not have an Event argument, and what can we do about multiple Agents in the Manner predicate in this class? Also, what is the difference between "Aggressive" manner in Battle and "Hostile" manner in Bully? Revise?  In the arguments: Manner includes Aggressive, Hostile, Forceful, Motion, Illegal, and Deceptive. Participants include Agent, Co-Agent, Theme, Intrument
+masquerade (7)	An Agent performs some Role or Attribute.	during(E), Agent, Role OR Attribute	
+meets (6)	Event 0 and Event 1 intersect (temporally).	E0, E1	
+mingled (18)	A Patient and a Co-Patient, or Patients, are physically mixed or together.	result(E), Physical, Patient, Co-Patient	Or Patient_i, Patient_j.  Why is amalgamate-22.2 Physical for examples like "the songs alternated?"
+motion (191)	An Agent or a Theme is in motion.	during(E), Theme OR Agent	
+necessitate (3)	A Pivot requires a Theme of/from some Source.	E, Pivot, Theme, Source	
+neglect (2)	An animate or organizational Agent neglects or disregards a Theme.	E, Agent, Theme	
+nonagentive_cause (3)	An inanimate entity casues an Event	E, Cause	
+occur (7)	An eventive Theme occurs.	during(E) OR end(E), Theme	
+path_rel (618)	Indicates the location or path of an Agent, Theme, or Topic.	start(E) OR during(E) OR end(E), Participant, Place, ch_of_<X>, prep	Participant: Agent, Theme, or Topic.  Place: Initial_location, Source, Trajectory, Destination, or Goal.  VerbSpecific: ch_of_loc, tr_of_info, ch_of_poss, ch_of_state, ch_of_scale
+perceive (15)	A Participant preceives a Stimulus or Theme.	during(E), Agent OR Experiencer, Stimulus OR Theme	
+perform (7)	An Agent gives a performance of some Theme.	during(E), Agent, Theme	
+physical_form (21)	As the Result of an event, an Undergoer has some new physical form.	result(E), Form, Undergoer	
+position (14)	A Participant has a position/is positioned.	E OR end(E) OR start(E), Theme OR Agent, Pos	Pos is position?
+promote (3)	An Agent promotes, boosts, or furthers a Theme.	during(E), Agent, Theme	
+property (15)	An Undergoer or Agent has/exhibits some Circumstance.	Undergoer OR Agent, Attribute OR Prop OR Predicate	Prop does not appear in VerbNet's list of thematic roles. Could it be changed to Predicate?  coil-9.6-1's example is a little vague between directional motion and property. Better example?
+relate (2)	A Theme relates/pertains to a Co-Theme.	E, Theme, Co-Theme	
+require (5)	A Participant requires an Undergoer from a Source or to engage in a Result.	E or during(E), Pivot or Agent, Agent, Place	
+risk (3)	An Agent risks some Theme (event or entity).	during(E), Agent, Theme	
+rotational_motion (4)	A Theme rotates.	during(E), Theme	
+rush (3)	An Agent rushes/hurries (with or through) a Theme.	during(E), Agent, Theme	
+satisfy (2)	An Agent satisfies a Theme, or requirement, with an Instrument.	E, Agent, Theme, Instrument	
+search (19)	An Agent searches a Place for a Theme.	during(E), Agent, Place, Theme	
+seem (4)	A Theme seems to be some Attribute.	E, Theme, Attribute	
+set_member (4)	A Theme is a member of some set Goal/Attribute.	E, Theme OR Attribute, Goal OR Theme	Attribute is a member of a Theme OR Theme is a member of a Goal. Revise in subclass of comprise-107.1?
+signify (2)	A Theme represents a Co-Theme in some Context.	Theme, Co-Theme, Context	
+sleep (2)	An Agent sleeps.	during(E), Agent	Snooze-40.4 does not have Theme anywhere in its semantic representation in the last frame. Revise?
+social_interaction (50)	An Agent and a Co-Agent interact socially	during(E), Agent, Co-Agent	Can include Agent_i, Agent_j.
+spend (5)	An Agent spends an Asset on a Goal	during(E), Agent, Theme OR Asset, (Goal)	Remove Theme, replace with Asset?   Goal only occurs in the consume-66 class for this predicate. Revise?
+state (59)	A Patient or Material is in some Endstate/Result.	start(E) OR result(E), Endstate OR Result, Patient OR Material	Change Endstate to Result?  Should revise all of these to be ch_of_state path_rel.
+subjugated (2)	A Patient is subjugated or repressed.	during(E), Patient	
+successful_in (12)	An Agent succeeds or fails at some activity or Theme.	E, Agent, Theme	
+suffocate (4)	An animate Theme is suffocated.	during(E), Theme	Change Theme to Patient? Done.
+support (2)	An Agent supports, or physically holds up, a Theme with an Instrument.	during(E), Agent, Theme, Instrument	Instrument can be implicit
+suspect (3)	An Agent suspects a Theme of an Attribute.	during(E), Agent, Theme, Attribute	
+take_care_of (13)	An Agent takes care of a Patient or Product.	during(E), Agent, Patient OR Product	Very similar to Tend predicate, especially in rear-26.2.2. Is the distinction that Tend only for animate undergoers, and if so, add selectional retriction in caring-75.2?
+take_in (31)	An Participant takes in an Undergoer	during(E), Agent OR Pivot OR Recipient, Theme OR Patient 	
+tend (3)	An Agent tends (to, for, etc.) a Theme.	E, Agent, Theme	
+think (9)	An Agent thinks (about) a Topic	during(E), Agent, Topic	
+together (54)	Two Undergoers are physically together.	end(E) OR start(E), (Physical) Patient OR Theme, Co-Patient OR Co-Theme	can include Patient_i/Theme_i, Patient_j/Theme_j.
+transfer (167)	A Theme is transferred.	during(E), (Source), (Goal), Theme OR Topic	Why do classes in the 37 group (Tell-37.2) use Transfer and not Transfer_info?  Check these either during or after Path_rel revisions, as another pass. Make sure that no Transfer predicates include Topic, and no Transfer_info predicates include Theme. Also make sure that the argument structure is consistent--Transfer should only include during(E) and Theme.
+transfer_info (112)	An Agent transfers some information/Topic to a Co-Agent or Recipient.	during(E), Agent, Recipient OR Co-Agent, Topic	Getting rid of this predicate, one last class (initiate_communication) contains transfer_info until we decide what to do with Possible().
+understand (10)	An Experiencer understands a Stimulus, possibly as some Attribute.	during(E) OR E, Experiencer, Stimulus, (Attribute)	Remove Attribute in comprehend-87.2, add Property predicate. (Already changed, re-generate UVI).
+urge (10)	An Agent urges a Patient to cause some Result.	during(E), Agent, Patient, Result	Topic is in the last frame of urge-58.1 instead of Result. Change? Or add Topic to roles in subclass? Changed to Result.
+use (8)	An Agent uses a Theme or Instrument.	during(E), Agent, Theme OR Instrument, (Manner OR Predicate)	How are use and utilize different? Use has a Theme and Utilize has an Instrument except for distinguish 23.5, which could be changed to Utilize.    Or change Themes to Instruments and put all into utilize? Add Manner predicate instead of Manner as an argument?   Also, the Trifle class includes the Use predicate for things like "flirt," "fiddle," and "play." Revise? Could change this to Social_interaction and Manner, for example.
+utilize (46)	An Agent uses a Theme or Instrument	during(E), Agent, Instrument OR Theme, (Predicate)	Add Property predicate to use-105.1 and remove Predicate from Utilize?  Change Theme to Instrument in use-105.1 or keep it? This is the only class that includes a Theme in the Utilize predicate.
+value (12)	A Theme or Attribute has some Value/Asset.	result(E) OR E, Theme OR Attribute, Value OR Asset	
+via (4)			Replace these with path_rel predicates? This predicate is now removed.  Missing from Reference page, cannot access through url.
+visible (12)	A Participant is visible.	start(E) OR end(E), Patient OR Agent	
+wear (2)	An Agent wears an item of clothing/Theme	during(E) OR E, Agent, Theme	
+weather (3)	A weather event occurs, possibly precipitating some entity/Theme.	during(E), Weather_type, Theme	
+withdraw (8)	An Agent withdraws from a Source.	during(E), Agent, Source	
+work (10)	An Agent works with/for a Co-Agent on a project/Theme.	Agent, (Co-Agent), Theme	
+yield (3)	An Agent yields to a Co-Agent or Theme.	during(E), Agent, Co-Agent OR Theme	
