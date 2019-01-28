@@ -94,13 +94,13 @@ def process_query():
 		matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
 
 		return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
-	
+
 	elif request.form.get('vn_attribute'):
 		query_string = request.form['attribute_query_string']
 		#if query string is empty, return all possible instances of this attribute
 		#e.g. all predicates, themroles, etc.
 		if query_string == '':
-			return 'Poopity Scoop'
+			return ''
 
 		attribute_type = request.form['vn_attribute']
 		if attribute_type == 'themrole':
@@ -200,6 +200,8 @@ def process_query():
 		frame_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_synrestrs_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
 		matched_ids = {'VerbNet':sorted(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))}
 		return render_template('synrestr_search.html', synrestr = synrestr_val.upper()+synrestr_type.upper(), matched_ids=matched_ids, sort_behavior=sort_behavior)
+	return ''
+
 
 #POST request: <form id='vn_filtered_elements'> in "results.html"
 @app.route('/_display_element', methods=['GET','POST'])

@@ -223,42 +223,28 @@ $(document).ready(function(){
 </script>
 
 <style type="text/css">
-    .hoverWrapper:hover #hoverGenThem {
- display: block;
-}
+    .hoverWrapper:hover #hoverGenThem {display: block;}
+    .hoverWrapper:hover #hoverPred { display: block;}
+    .hoverWrapper:hover #hoverVS { display: block;}
+    .hoverWrapper:hover #hoverSelRes { display: block;}
+    .hoverWrapper:hover #hoverSynRes { display: block;}
 
-.hoverWrapper:hover #hoverPred {
- display: block;
-}
-
-.hoverWrapper:hover #hoverVS {
- display: block;
-}
-
-.hoverWrapper:hover #hoverSelRes {
- display: block;
-}
-
-.hoverWrapper:hover #hoverSynRes {
- display: block;
-}
-
-#hoverGenThem, #hoverPred, #hoverVS, #hoverSelRes, #hoverSynRes  {
- display: none;
- position: absolute;
- margin: 5px;
- border-radius: 25px;
- background-color: rgba(122, 157, 150, .9);
- width: 650px;
- height: 600px;
- left: 105%;
- top: 0%;
- padding: 40px 60px;
- text-align: justify;
- text-transform: capitalize;
-}
-
+    #hoverGenThem, #hoverPred, #hoverVS, #hoverSelRes, #hoverSynRes  {
+     display: none;
+     position: absolute;
+     margin: 5px;
+     border-radius: 25px;
+     background-color: rgba(122, 157, 150, .9);
+     width: 650px;
+     height: -webkit-fit-content;
+     left: 105%;
+     top: 0%;
+     padding: 40px 60px;
+     text-align: justify;
+     text-transform: capitalize;
+    }
 </style>
+
 {% endblock %}
 
 {% block scripts %}

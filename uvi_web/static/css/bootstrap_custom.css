@@ -1,0 +1,211 @@
+/*.btn-vn-cls {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-weight: 400;
+  color: #007bff;
+  background-color: transparent;
+}*/
+/*.btn-link {
+  font-weight: 400;
+  color: #007bff;
+  background-color: gray;
+}*/
+.card-header {
+  padding: 0.0rem 0.0rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.frame {
+  width: 100vw;
+  height: 90vh;
+  max-width: 100%;
+}
+
+.iframe_body {
+  background-color: rgba(202, 228, 219, .96);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.navbar {
+  color: #7a9d96;
+}
+
+.navbar-dark {
+  background-color: #00303f;
+}
+
+.welcome-frame-logo {
+  border-radius: 10px;
+  margin: 5px;
+
+}
+
+.results_tab_element {
+  color: black;
+  font-size: 18px;
+  line-height: 2;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+#close_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.25rem 1.75rem;
+  color: inherit;
+  float: right;
+  font-size: 2.125rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+#fade_welcome_div {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: block;
+  width: 80vw;
+  max-width: 80%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#show_div {
+  
+  width: 95vw;
+  margin: auto;
+  left: 2.5%;
+}
+
+#query_form_div {
+  color: black;
+  background-color: rgba(220, 174, 29, .9);
+  border-radius: 5px 5px 200px 5px;
+  padding: 25px;
+  font-size: 16px;
+  /*margin: 5px; */
+}
+
+#attribute_query_form_div {
+  color: black;
+  background-color: rgba(122, 157, 150, .9);
+  border-radius: 200px 5px 5px 5px;
+  padding: 25px;
+  padding-top:60px;
+  padding-left: 80px;
+  margin-left: 20px;
+  font-size: 16px;
+  /*margin: 5px; */
+}
+
+#results_pane_div {
+/*  background-color: gray;*/
+  margin-top: 30px;
+  width: 95%;
+  height: 90vh;
+  left: 2.5%;
+}
+
+#results_pane {
+/*  background-color: green;*/
+  border-radius: 20px;
+}
+
+#results_tab_pane {
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 16px;
+  height: 100vh;
+}
+
+#welcome {
+  margin-left: 15px;
+}
+
+#welcome_frame {
+  font-size:16px;
+}
+
+#home_span {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  /*background-image: url('../images/3951327510_1c4a85cfaa_o.jpg');*/
+  background-image: url('../images/boulder-1120364_1280.jpg');
+  /*background-image: url('../images/1024px-Hellems_Sunrise_(20633928836).jpg');*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+  background-color: gray;
+  padding-top: 20px;
+}
+
+#search_box {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: white 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #444;
+  background-color: transparent;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+#navbar {
+  overflow: hidden;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  width: 100%;
+  position:fixed;
+  top: 0;  /*At the top */
+  z-index: 99; 
+
+}
+
+#logo {
+  transition: 0.4s;
+  border-radius: 10px;
+}
