@@ -208,13 +208,12 @@ def ref_to_db():
 	### Get Verb-Specific Features
 	#Can't simply match on cases where vs_features is not None, so instead we match cases where the datatype is a list (mongodb array) 
 	vs_features_count_dict = {}
-	for doc in list(db.verbnet.find({'members.vs_features': {'$type': 'array'}}, {'members.vs_features':1, 'class_id':1, '_id':0})):
+	for doc in list(db.verbnet.find({'members.vs_features': {'$exists': 'true'}}, {'members.vs_features':1, 'class_id':1, '_id':0})):
 		for vs_features_dict in doc['members']:
 			if vs_features_dict['vs_features'] is not None:
 				for vs in vs_features_dict['vs_features']:
 					if vs not in vs_features_count_dict:
-						vs_features_count_dict[vs]={'count':1,
-													'vn_class_mem':set([doc['class_id']])}
+						vs_features_count_dict[vs]={'count':1, 'vn_class_mem':set([doc['class_id']])}
 					else:
 						vs_features_count_dict[vs]['count'] += 1
 						vs_features_count_dict[vs]['vn_class_mem'].add(doc['class_id'])
@@ -470,6 +469,7 @@ def build_verbnet_collection():
 		if not subclasses:
 			subclasses = None
 		return {'class_id': class_id, 'num_comparison_id': num_comparison_id, 'members': members, 'themroles': themroles, 'frames': frames, 'subclasses': subclasses, 'resource_type': 'vn'}
+
 
 	def include_subclasses(vn_classes):
 		for vn_class in vn_classes:
