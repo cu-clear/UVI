@@ -19,14 +19,15 @@ mail_settings = {
 	"MAIL_USERNAME": os.environ.get('MAIL_USERNAME'),
 	"MAIL_PASSWORD": os.environ.get('MAIL_PASSWORD')
 }
-
+print("Mail Settings:\n",mail_settings,"\n")
 app = Flask(__name__)
 
 #generate SECRET_KEY randomly on startup
 app.config['SECRET_KEY'] = os.urandom(16)
 app.config['MONGO_DBNAME'] = 'uvi_corpora'
-
+app.config.update(mail_settings)
 mongo = PyMongo(app)
+mail = Mail(app)
 
 
 @app.context_processor
@@ -49,12 +50,13 @@ def index():
 
 @app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():
+	print("\n",app.config.get("MAIL_USERNAME"),"\n\n")
 	if request.method=='POST':
-		print("goes in")
 		reply_to_name = request.form.get('name')
 		reply_to=request.form.get('email')
 		subject = request.form.get('subject')
 		message = request.form.get('message')
+		print(reply_to_name, '\n', reply_to, '\n',subject,'\n',message,'\n\n')
 		msg = Message(subject=subject, 
 						sender=app.config.get("MAIL_USERNAME"), 
 						recipients=["testing.uvi@gmail.com"],
