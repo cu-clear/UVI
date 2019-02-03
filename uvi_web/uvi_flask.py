@@ -11,19 +11,17 @@ import json
 from flask_mail import Mail, Message
 import configparser
 
-admin_mail_configs = configparser.ConfigParser()
-admin_mail_configs.read('configs.ini')
-mail_id = admin_mail_configs['MAIL_SETUP']['MAIL_USERNAME']
-passwd = admin_mail_configs['MAIL_SETUP']['MAIL_PASSWORD']
-print(mail_id, passwd)
+configs = configparser.ConfigParser()
+configs.read('configs.ini')
+
 mail_settings = {
 	"MAIL_SERVER": "smtp.gmail.com",
 	"MAIL_PORT": 465,
 	"MAIL_USE_TLS": False,
 	"MAIL_USE_SSL": True,
 	# Set environment variables for more security
-	"MAIL_USERNAME": mail_id,
-	"MAIL_PASSWORD": passwd
+	"MAIL_USERNAME": configs['MAIL_SETUP']['MAIL_USERNAME'],
+	"MAIL_PASSWORD": configs['MAIL_SETUP']['MAIL_PASSWORD']
 }
 app = Flask(__name__)
 
