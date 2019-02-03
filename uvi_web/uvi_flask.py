@@ -9,15 +9,21 @@ from methods import top_parent_id, find_matching_ids, find_matching_elements, un
 import json
 
 from flask_mail import Mail, Message
+import configparser
 
+admin_mail_configs = configparser.ConfigParser()
+admin_mail_configs.read('configs.ini')
+mail_id = admin_mail_configs['MAIL_SETUP']['MAIL_USERNAME']
+passwd = admin_mail_configs['MAIL_SETUP']['MAIL_PASSWORD']
+print(mail_id, passwd)
 mail_settings = {
 	"MAIL_SERVER": "smtp.gmail.com",
 	"MAIL_PORT": 465,
 	"MAIL_USE_TLS": False,
 	"MAIL_USE_SSL": True,
 	# Set environment variables for more security
-	"MAIL_USERNAME": os.environ.get('MAIL_USERNAME'),
-	"MAIL_PASSWORD": os.environ.get('MAIL_PASSWORD')
+	"MAIL_USERNAME": mail_id,
+	"MAIL_PASSWORD": passwd
 }
 app = Flask(__name__)
 
