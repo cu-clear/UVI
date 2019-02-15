@@ -8,7 +8,7 @@
     {% if them_role['selrestrs']['selrestrs_list'] is not none %}
       <span style="color:red;">[
       {% for selres in them_role['selrestrs']['selrestrs_list']%}
-        <a href={{url_for('process_query',selrestr=selres['type'],selrestr_val=selres['value'],level='frame')}} target='_blank'><span style="color:red;">{{ selres['value'] }}{{ selres['type'] }}</span></a>
+        <a href={{url_for('process_query',selrestr=selres['type'],selrestr_val=selres['value'],level='class')}} target='_blank'><span style="color:red;">{{ selres['value'] }}{{ selres['type'] }}</span></a>
         {{ " "+them_role['selrestrs']['selrestr_logic'] if not loop.last }}
       {% endfor %}
     ]</span>
@@ -17,7 +17,7 @@
     {% if them_role['synrestrs']['synrestr_list'] is not none %}
       <span style="color:maroon;">{
       {% for synres in them_role['synrestrs']['synrestr_list']%}
-        <a href={{url_for('process_query',synrestr=synres['type'],synrestr_val=synres['value'],level='frame')}} target='_blank'><span style="color:maroon;">{{ synres['value'] }}{{ synres['type'] }}</span></a>
+        <a href={{url_for('process_query',synrestr=synres['type'],synrestr_val=synres['value'],level='class')}} target='_blank'><span style="color:maroon;">{{ synres['value'] }}{{ synres['type'] }}</span></a>
         {{ " "+them_role['synrestrs']['synrestr_logic'] if not loop.last }}
       {% endfor %}
     }</span>

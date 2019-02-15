@@ -80,7 +80,7 @@ def references_page():
 @app.route('/_process_query', methods=['GET','POST'])
 def process_query():
 	if request.form.get('lemma_query_string'):
-		print(request.form.get('lemma_query_string')+'POOOOOPPP!!')
+		print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
 		query_string = request.form['lemma_query_string']
 
 		lemmas = query_string.split(' ')
@@ -184,7 +184,6 @@ def process_query():
 		selrestr_val = request.args.get('selrestr_val')
 		level = request.args.get('level')
 		sort_behavior = 'alpha'
-		
 		if level == 'class':
 			class_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.selrestr_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
 			matched_ids = {'VerbNet':sorted(list(class_level_selrestr_ids))}
