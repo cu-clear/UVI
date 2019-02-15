@@ -447,7 +447,8 @@ def build_verbnet_collection():
 		
 		def dependency_tree_svg(example_text):
 			spacy_doc = spacy_nlp(example_text)
-			return displacy.render(spacy_doc,style='dep', options={'compact':True})
+			return displacy.render(spacy_doc,style='dep', options={'compact':True, 'bg': 'white', 'color': 'black', 'arrow_width':2})
+
 		
 		description = parse_description(frame.find('DESCRIPTION'))
 		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text)} for example in frame.find('EXAMPLES')]
