@@ -1,5 +1,5 @@
 {% extends 'bootstrap_base.html' %}
-{% block title %} Contact Us {% endblock %}
+{% block title %} Unified Verb Index {% endblock %}
 {% block body %}
 
 <script>
@@ -17,11 +17,12 @@ function scrollFunction() {
 }
 </script>
 
+
 <script>
 $(document).ready(function(){
     $("#query_form").submit(function(){
-	$("#show_div").hide(); 
-        $("#results_pane_div").show();
+	$("#show_div").hide();        
+	$("#results_pane_div").show();
     });
 });
 </script>
@@ -29,7 +30,7 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
     $("#attribute_query_form").submit(function(){
-	$("#show_div").hide(); 
+	$("#show_div").hide();
         $("#results_pane_div").show();
     });
 });
@@ -43,8 +44,6 @@ $(document).ready(function(){
     });
 });
 </script>
-
-
 <!--Begin Navbar-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
@@ -68,65 +67,12 @@ $(document).ready(function(){
     </ul>
 </nav>
 <!--End Navbar-->
+<div id='home_span' style="margin-top:120px;">
 
-
-<div id ='contact_us_frame' class='container' style='margin-top: 100px'>
-
-	<div class='row'>
-		<div class="col-xl-8 offset-xl-2 py-5">
-			<h2>Contact form</h2>
-            <form action='/contact_us' id="contact_form" method='POST'> 
-
-			    <div class="controls">
-
-			        <div class="row">
-			            <div class="col-md-12">
-			                <div class="form-group">
-			                    <label for="form_name">Name</label>
-			                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Name is required.">
-			                    <div class="help-block with-errors"></div>
-			                </div>
-			            </div>
-			        </div>
-			        <div class="row">
-			            <div class="col-md-12">
-			                <div class="form-group">
-			                    <label for="form_email">Email</label>
-			                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
-			                    <div class="help-block with-errors"></div>
-			                </div>
-			            </div>
-			        </div>
-			        <div class="row">
-			            <div class="col-md-12">
-			                <div class="form-group">
-			                    <label for="form_subject">Subject</label>
-			                    <input id="form_subject" type="subject" name="subject" class="form-control" required="required" data-error="Subject required">
-			                    <div class="help-block with-errors"></div>
-			                </div>
-			            </div>
-			        </div>
-			        <div class="row">
-			            <div class="col-md-12">
-			                <div class="form-group">
-			                    <label for="form_message">Message</label>
-			                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-			                    <div class="help-block with-errors"></div>
-			                </div>
-			            </div>
-			            <div class="col-md-12">
-			                <input type="submit" class="btn btn-success btn-send" value="Send message">
-			            </div>
-			        </div>
-			        
-			    </div>
-			</form>
-		</div>
-	</div>
-</div>
-<div id='home_span' style="margin-top:130px;">
+    
     <!-- <div class='container' id='show_div' style="display:none"> -->
-    <div id='show_div' style="display:none; position:absolute;">
+    <div id='show_div' style="margin-top:80px; position:absolute;">
+
         <div class='row'>
             <!--BEGIN SIDE COLUMN LEFT-->
             <div class='col-3'>
@@ -252,10 +198,7 @@ $(document).ready(function(){
         </div>
 
     </div>
-
-    
-    
-    <div id='results_pane_div' style="display:none; position: absolute;">
+<div id='results_pane_div' style="display:none; position: absolute;">
         <button type="button" id='close_button'>&times;</button>
         <iframe class='frame' frameborder="0" name="results_pane" id="results_pane">
         </iframe>
@@ -263,7 +206,6 @@ $(document).ready(function(){
 
 
 </div>
-
 <script type="text/javascript">
 
 </script>
@@ -291,11 +233,8 @@ $(document).ready(function(){
     }
 </style>
 
-
-
 {% endblock %}
 
 {% block scripts %}
-
 
 {% endblock %}

@@ -9,10 +9,6 @@ from methods import top_parent_id, find_matching_ids, find_matching_elements, un
 import json
 
 from flask_mail import Mail, Message
-import configparser
-
-configs = configparser.ConfigParser()
-configs.read('configs.ini')
 
 mail_settings = {
 	"MAIL_SERVER": "smtp.gmail.com",
@@ -20,23 +16,28 @@ mail_settings = {
 	"MAIL_USE_TLS": False,
 	"MAIL_USE_SSL": True,
 	# Set environment variables for more security
-	"MAIL_USERNAME": configs['MAIL_SETUP']['MAIL_USERNAME'],
-	"MAIL_PASSWORD": configs['MAIL_SETUP']['MAIL_PASSWORD']
+	"MAIL_USERNAME": os.environ.get('MAIL_USERNAME'),
+	"MAIL_PASSWORD": os.environ.get('MAIL_PASSWORD')
 }
+
 app = Flask(__name__)
 
 #generate SECRET_KEY randomly on startup
 app.config['SECRET_KEY'] = os.urandom(16)
 app.config['MONGO_DBNAME'] = 'uvi_corpora'
-app.config.update(mail_settings)
+
 mongo = PyMongo(app)
-mail = Mail(app)
-with open('some_configs.json', 'w') as wf:
-	json.dump(mail_settings, wf)
+
 
 @app.context_processor
 def context_methods():
 	return dict(top_parent_id=top_parent_id, unique_id=unique_id, mongo_to_json=mongo_to_json, formatted_def=formatted_def, full_class_hierarchy_tree=full_class_hierarchy_tree, get_themrole_fields=get_themrole_fields, get_pred_fields=get_pred_fields, get_constant_fields=get_constant_fields, get_verb_specific_fields=get_verb_specific_fields, remove_object_ids=remove_object_ids, colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined)
+
+@app.route('/uvi_search')
+def uvi_search():
+	process_query()	
+	return render_template('uvi_search.html')
+
 
 @app.route('/download_json')
 def download_json():
@@ -55,6 +56,7 @@ def index():
 @app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():
 	if request.method=='POST':
+		print("goes in")
 		reply_to_name = request.form.get('name')
 		reply_to=request.form.get('email')
 		subject = request.form.get('subject')
@@ -80,7 +82,7 @@ def references_page():
 @app.route('/_process_query', methods=['GET','POST'])
 def process_query():
 	if request.form.get('lemma_query_string'):
-		print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
+		print(request.form.get('lemma_query_string')+'POOOOOPPP!!')
 		query_string = request.form['lemma_query_string']
 
 		lemmas = query_string.split(' ')
@@ -117,7 +119,7 @@ def process_query():
 			predicate = query_string.lower()
 			sort_behavior = 'alpha'
 			matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'frames.semantics.predicate':predicate})])}
-			return render_template('predicate_search.html', predicate=predicate.upper(), matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
+			return render_template('predicate_search.html', predicate=predicate.Vbehavior)
 
 		elif attribute_type == 'vs_feature':
 			vs_feature = query_string
@@ -184,6 +186,7 @@ def process_query():
 		selrestr_val = request.args.get('selrestr_val')
 		level = request.args.get('level')
 		sort_behavior = 'alpha'
+		
 		if level == 'class':
 			class_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.selrestr_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
 			matched_ids = {'VerbNet':sorted(list(class_level_selrestr_ids))}

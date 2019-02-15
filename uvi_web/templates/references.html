@@ -8,9 +8,12 @@
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
   <a class="navbar-brand" href={{ url_for('index') }}>
     <img src="/static/images/clear_orig.png" height="80px" id="logo">
-    Unified Verb Index
   </a>
   <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('uvi_search') }} target="_blank"><font size="2.5" color="white">Unified Verb Index</font></a>
+      </li>
+
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
       </li>
@@ -235,24 +238,19 @@
     margin:10px;
     padding:20px;
 }
-
 #optionsBox {
     background:rgba(220, 174, 29, .9);
     font-size: 16px;
 }
-
 #pageInfo {
     background: rgba(122, 157, 150, .9);
     overflow-y:auto;
 }
-
 #wrapper {
     height: 100%;
     margin-left: 20px;
     margin-top: 20px;
 }
-
-
 </style>
 
 {% endblock %}
