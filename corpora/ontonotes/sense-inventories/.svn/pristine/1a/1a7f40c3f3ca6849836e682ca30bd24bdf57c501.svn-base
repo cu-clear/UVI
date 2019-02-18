@@ -1,0 +1,117 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="settle-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) situate, position, come to rest" type="">
+      <commentary>
+         NP1 SETTLE (NP2) PP[locative]
+         includes SETTLE ON, SETTLE DOWN
+      </commentary>
+      <examples>
+         The cat settled into the cushion.
+         The penny rolled down the street and finally settled in the gutter.
+         She settled the tea cart.
+         She settled a silver clasp in her hair.
+         The child has settled himself by the window to watch for his father.
+         Her eyes settled on the boats on the horizon.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,10,11,18</wn>
+         <wn lemma="settle_on" version="3.0">1</wn>
+         <wn lemma="settle_down" version="3.0">1</wn>
+         <omega/><pb>settle.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="resolve or finalize an issue or situation" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         That litigation was settled yesterday.
+         I wish we could settle this once and for all!
+         The two brothers finally settled their differences.
+         She just won't settle for less.
+         We will try to settle with the other party.
+         He made one last payment to settle the debt.
+         It's not worth settling the score with him.
+         They still can't settle on which house to buy.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,5,12,13,14,19,20</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>settle.01,settle.02</pb>
+         <vn>settle-89</vn><fn>Choosing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) reside, inhabit, become established, stabilize" type="">
+      <commentary>
+         NP1[theme/agent] SETTLE (NP2) PP
+         Includes: SETTLE DOWN
+      </commentary>
+      <examples>
+         The immigrants settled in the Midwest.
+         Her grandfather settled this farm 100 years ago.
+         The Swedes settled in Minnesota.
+         The jockey said his horse settled on the backstretch.
+         John is finally settling into responsible fatherhood.
+         The rain settled to a steady patter.
+         Her mood settled into lethargy.
+         George finally settled down with a nice girl.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,7,8,9,21</wn>
+         <wn lemma="settle_down" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>convert-26.6.2,lodge-46</vn><fn>Colonization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="sink or fall" type="">
+      <commentary>
+       Syntax includes: NP1 SETTLE (PP)
+       Notes: sinking of sediment in a liquid such that it becomes clear.
+      </commentary>
+      <examples>
+         I let the old wine settle before drinking it.
+         We had a great dive in the kelp forest once it settled.
+         The bottom will settle when the waves die down after the storm.
+         The feather settled slowly to the ground.
+         Through the clear water they could see the ship settling towards
+         the bottom.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,15,16,17</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="arrive, come" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Night settled over the valley.
+      </examples>
+      <mappings>
+         <wn version="3.0">22</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="calm down, become quiet, settle down" type="">
+      <commentary>
+         NP SETTLE DOWN[intransitive]
+      </commentary>
+      <examples>
+         It took a while after the baby was born for things to settle down again.
+         After the fight, it took a while for the men to settle down.
+         Settle down!
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="settle_down" version="3.0">3</wn>
+         <omega/><pb>settle.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

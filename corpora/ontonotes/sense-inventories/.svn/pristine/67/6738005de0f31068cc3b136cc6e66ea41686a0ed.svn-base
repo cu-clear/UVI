@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="line-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be in a line along; run along" type="">
+      <commentary>
+        Syntax Is: NP1 LINE NP2
+      </commentary>
+      <examples>
+        Various buildings and shops line the street.
+        More than a million people lined the route of the Tour de France.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>line.01</pb>
+         <vn>contiguous_location-47.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="2" name="(cause to) form a line" type="">
+      <commentary>
+        Includes: LINE UP
+        Syntax Includes:
+        NP LINE UP (PP)
+        NP1 LINE UP NP2
+      </commentary>
+      <examples>
+        Gadget freaks lined up in front of stores days before the new phone went on sale.
+        The colonel lined up his troops for inspection.
+        They line up either on the line of scrimmage or one yard behind it.
+        The checkmarks line up about 20 pixels below the Feature description.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="line_up" version="3.0">1,3,4,5,6</wn>
+         <omega/><pb>line.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="3" name="cover the interior of/reinforce" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        If you want privacy, line your lace curtains with muslin.
+        They line all their gloves with cashmere.
+        A mucus membranes lines the uterus.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>line.01</pb>
+         <vn>fill-9.8-1</vn><fn>Adorning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="4" name="draw or mark with lines" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Sorrow had lined his face.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>line.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="5" name="arrange for" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       He asked her mother to line up a sitter.
+       They were lining up a farewell summer of pool parties and sleep-overs before heading off to college.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="line_up" version="3.0">2</wn>
+         <omega/><pb>line.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="6" name="make a lot of money, often dishonestly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The labor leader and state assemblyman lined his pockets with more than $2.2 million by ripping off the state.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="line_one's_pockets" version="3.0">1</wn>
+         <omega/><pb>line.01</pb>
+         <vn>fill-9.8-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

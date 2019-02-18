@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="crowd-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fill to the point of overflowing" type="">  
+      <commentary>
+      Syntax Includes:
+       NP1[actor] CROWD NP2[location]
+       NP1 CROWD
+        NOTE: Compare to sense 2. No motion of the individuals of NP1 is necessary.
+        Includes: CROWD TOGETHER
+      </commentary>
+      <examples>
+        Thousands of spectators crowded the waterfront to see the Queen Mary 2.
+        I missed the saturday dance and heard they crowded the dance floor.
+        People crowded the ballrooms for cookies.
+        Several dogs crowded the lawn to join in the event.
+        We are really crowding the earth.
+        They crowded together for moral support.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>crowd.01</pb>
+         <vn>spray-9.7-1-1</vn><fn>Mass_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Cause to gather together in large numbers" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] CROWD (NP2[patient[concrete]]) (PP NP3[place])
+        NOTE: Compare to sense 1. NP1 is an agent causing the gathering together of the 
+              individuals of NP2, even if the sentence is metaphorical
+        Includes: CROWD TOGETHER
+      </commentary>
+      <examples>
+        Barko, the sheep dog, crowded the flock through the gate.
+        Police crowded the spectators back to the viewing stand.
+        Shakspere has crowded the events together for dramatic effect.
+        He was only 32 when he died, but he had crowded the adventure of
+        many lives into those brief years.        
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="crowd_together" version="3.0">1</wn>
+         <omega></omega><pb>crowd.01</pb>
+         <vn>spray-9.7-1-1</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="get too close to; often forcing one to move" type="">
+      <commentary>
+        Includes: CROWD OUT.
+      </commentary>
+      <examples>
+        Urban sprawl crowded the farmers out of the valley.
+        Please step back, you're crowding me.
+        They crowded me into the stairwell and took my money.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="crowd_out" version="3.0">1</wn>
+         <omega></omega><pb>crowd.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="approach a certain age or speed" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She's crowding 50 and still stuck in the party-hearty '70s.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey,brownsw" sample_score="-"/>  
+</inventory>

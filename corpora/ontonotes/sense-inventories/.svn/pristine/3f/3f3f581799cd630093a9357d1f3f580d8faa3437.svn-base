@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="impact-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Have an effect upon." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Civilians were among those most impacted by the sanctions.
+      12 major diseases have impacted humanity over the last century.
+      Hurricane Katrina impacted hundreds of thousands of families.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>impact.01</pb>
+         <vn>NP</vn><fn>Subjective_influence,Objective_influence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Hit or strike." type="">
+      <commentary>
+      NOTE: Object impacting must be CONCRETE.
+      </commentary>
+      <examples>
+      The slushball impacted John right in the face.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>impact.02</pb>
+         <vn>NP</vn><fn>Impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="Press or wedge together; pack together." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Food particles may become impacted near the root of the tooth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>impact.03</pb>
+         <vn>NP</vn><fn>Subjective_impact,Objective_impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

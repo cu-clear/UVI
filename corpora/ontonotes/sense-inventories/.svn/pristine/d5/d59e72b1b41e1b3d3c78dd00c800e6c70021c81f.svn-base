@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="obscure-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make less or not visible" type="">  
+      <commentary>
+        Syntax Is: NP1[theme[concrete]] OBSCURE NP2[them[concrete]]
+      </commentary>
+      <examples>
+        Clouds obscured the volcano.
+        Smoke from the fire obscured the moon.
+        All the new houses have obscured our view of the mountains.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>obscure.01</pb>
+         <vn>remedy-45.7</vn><fn>Eclipse</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make or become less clear or undecipherable" type="">
+      <commentary>
+        Syntax Is: NP1[topic[abstract]] OBSCURE NP2[topic[abstract]]
+        NOTE: all metaphorical examples are included in this sense. 
+      </commentary>
+      <examples>
+        The message was obscured by static.
+        Christianity is obscured by all the rules.
+        The recent scandal has already obscured his fame.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>obscure.01</pb>
+         <vn>remedy-45.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="reduce a vowel to a neutral one" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The distinction between /a/ and /e/ was obscured.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

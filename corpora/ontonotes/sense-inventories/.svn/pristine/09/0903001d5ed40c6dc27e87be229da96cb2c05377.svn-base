@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="usher-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="escort someone" type="">
+      <commentary>
+        Syntax is: NP1[animate] USHER NP2[animate] (PP[destination])
+      </commentary>
+      <examples>
+        The crowd parted to make way for dog handlers as they ushered in the animals.
+        As a marshal ushered him out, he snarled.
+        Ushering his guests into a room without a table, he handed over the records.
+        Once a student has ushered for six concerts, he or she will be eligible to attend a concert.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="usher_out" version="3.0">1</wn>
+         <omega/><pb>usher.02</pb>
+         <vn>captain-29.8-1</vn><fn>Cotheme</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be a precursor of; introduce" type="">
+      <commentary>
+        Is: USHER IN
+      </commentary>
+      <examples>
+        In 1978 a new electronic toy ushered in the era of computer games.
+        A full schedule of vocal concerts will usher in the holiday season.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="usher_in" version="3.0">1</wn>
+         <omega/><pb>usher.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

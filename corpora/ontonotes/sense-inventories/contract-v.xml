@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="contract-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="undertake, engage in" type="">
+      <commentary>
+        Includes: CONTRACT OUT
+      </commentary>
+      <examples>
+         We contracted to have them paint just the exterior of the building.
+         They have contracted a new pitcher for next season.
+         The firm has contracted out the Bernulli project.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="contract_out" version="3.0">2</wn>
+         <omega/><pb>contract.02,contract.03</pb>
+         <vn>settle-89</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="compact, shrink, reduce" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The body builder contracted his biceps to display his muscles.
+         Wash that fabric before you sew with it, to gauge how much it will contract.
+         The heat caused the wood to contract and split.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,6</wn>
+         <omega/><pb>contract.01</pb>
+         <vn>other_cos-45.4</vn><fn>Expansion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="condense, constrict" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She had to contract her two-week vacation into a long weekend.
+         They will be contracting the large pool of applicants down to three finalists.
+         He contracted his business plan into a concise, 5-page document.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,8,9</wn>
+         <omega/><pb>contract.02</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="sicken" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He contracted malaria in Madagascar.
+         The dog contracted kennel cough at the animal shelter.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>contract.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="consent/refuse to pay money to a trade union for political use" type="">
+      <commentary>
+        Includes: CONTRACT IN,  CONTRACT OUT
+        NOTE: 'contract in' is 'consent to pay' and 'contract out' is
+        'refuse to pay'. 
+      </commentary>
+      <examples>
+        If you contract in, the additional state pension assumes everyone is married.
+        If you contract out via a personal pension, you will enjoy a slightly higher rebate.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="contract_in" version="3.0">1</wn>
+         <wn lemma="contract_out" version="3.0">2</wn>
+         <omega/><pb>contract.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,clarklm" sample_score="-"/>
+</inventory>

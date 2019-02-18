@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="join-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="location where things are connected, fastened" type="">
+        <commentary>
+            JOIN[+location][+spatial][+connection]
+        </commentary>
+        <examples>
+            Sew a seam at the join of the sleeve to the bodice of the blouse.
+            There was a train collision at the join of the north-south track the east-west track.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a set containing all the members of two other sets" type="">
+        <commentary>
+            JOIN[+collection][+set][+union][+mathematical]
+        </commentary>
+        <examples>
+            The join of the employee database table to the manager table will show who manages each employee.
+            The text describes how to perform an outer join.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

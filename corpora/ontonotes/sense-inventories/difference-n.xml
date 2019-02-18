@@ -1,0 +1,92 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="difference-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the quality of dissimilarity" type="">
+        <commentary>
+            DIFFERENCE[+quality][-similarity]
+        </commentary>
+        <examples>
+            We discussed similarities and differences between French and California wines.
+            The jeweler could easily tell the difference between the diamond and the zirconian earrings.
+            There is almost no difference between these two shades of blue.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a degree of variation or variability" type="">
+        <commentary>
+            DIFFERENCE[+quantity][+degree][+variability]
+            Note: implies the existence of a norm around which the values can vary.
+        </commentary>
+        <examples>
+            The differences in the results across ten experiments were quite small.
+            They can't eliminate all differences in color across different dye lots.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a dispute, conflict or disagreement" type="">
+        <commentary>
+            DIFFERENCE[+state][+dispute]
+        </commentary>
+        <examples>
+            The couple put aside their differences and decided not to divorce.
+            These nations' differences may be too deep to hope for a lasting peace.
+            She's a good manager who quickly resolves differences that arise in the workplace. 
+            John and Mary have a major difference of opinion about many political issues. (idiomatic usage)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a state of detectable change" type="">
+        <commentary>
+            DIFFERENCE[+state][+change][+detectable]
+            Note: implies change in a given direction, often stable (not fluctuation around a norm, see sense 2)
+        </commentary>
+        <examples>
+            What a difference a good night's sleep makes!
+            This after-school program has made a difference in the lives of many children.
+            It makes no difference to John what time we go to dinner this evening.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="arithmetic or numerical remainder" type="">
+        <commentary>
+            DIFFERENCE[+quantity][+remainder][+arithmetic]
+        </commentary>
+        <examples>
+            The difference between 10 and 6 is 4.
+            The gross margin is the difference between the selling price and the total cost of producing the goods.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

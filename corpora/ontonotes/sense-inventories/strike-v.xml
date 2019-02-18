@@ -1,0 +1,186 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="strike-v">    
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="hit, collide, or attack" type="">  
+      <commentary>
+        Syntax includes: NP1[actor] STRIKE NP2[actor]
+                         NP1[agent] STRIKE NP2[patient]
+        Includes: STRIKE BACK, STRIKE DOWN
+      </commentary>
+      <examples>
+        He struck the table hard with his fists.
+        Her car went out of control and struck an oncoming vehicle.
+        They took the reed and struck him on his head.
+        In 1979, the killer struck again, killing a couple in the park.
+        Germany struck Poland in 1939 using gliders.
+        The team struck back with vengeance.
+        A strange sound struck my ears.
+        The lightning struck down on the hikers.
+        When he struck the middle C key, we heard 'bonggg' in front of us.
+        Just when I entered, the clock struck midnight.
+        The floods have struck the town on two other occasions.
+        I am struck down with cold and dry cough.
+        A devastating tornado struck the community resulting in the loss of life.
+        A severe economic recession struck the state of Washington.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,1,4,5,6,8,10,16,20</wn>   
+         <wn lemma="strike_hard" version="3.0">1</wn>
+         <wn lemma="strike_back" version="3.0">1</wn>
+         <wn lemma="strike_down" version="3.0">2,3</wn>
+         <omega/><pb>strike.01,strike.08</pb>
+         <vn>amuse-31.1,bump-18.4-1,hit-18.1-1,sound_emission-43.2</vn><fn>Cause_harm,Impact,Cause_impact,Attack</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to think or feel" type="">
+      <commentary>
+        Syntax is: NP1[abstract] STRIKE NP2[concrete]
+      </commentary>
+      <examples>
+        He was fixing his bike when the thought struck him.
+        It just struck me that I still owe you for the concert tickets.
+        It also struck me odd that all itineraries had my new address on them.
+        Doesn't this strike you as weird?
+      </examples>
+      <mappings>
+         <wn version="3.0">2,15</wn>
+         <omega/><pb>strike.04</pb>
+         <vn>hit-18.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="come across something or discover" type="">
+      <commentary>
+        Syntax is: NP1 STRIKE NP2[goal]
+      </commentary>
+      <examples>
+        Have the Mars rovers struck water?
+        The hikers finally struck the main path to the lake.
+        We struck oil in our own back yard!
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <wn lemma="strike_" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="achieve or attain something" type="">
+      <commentary>
+       Syntax is: NP1 STRIKE NP2[result]
+      </commentary>
+      <examples>
+        After 2 failures, he struck success with his 3rd venture.
+        The horse finally struck a pace.
+        We turned to the traffic and struck the pose: right arm out, thumb up.
+        Dell and Google struck a deal today.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,11,17,21</wn>
+         <wn lemma="strike_" version=""/>
+         <omega/><pb>strike.04,strike.05</pb>
+         <vn>sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="stop work" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The workers were striking for a raise of 50 cents per day.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="strike_" version=""/>
+         <omega/><pb>strike.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="remove; make void" type="">
+      <commentary>
+        Includes: STRIKE DOWN, STRIKE OFF, STRIKE OUT
+      </commentary>
+      <examples>
+        Please strike this remark from the record.
+        Please strike my name off your mailing list.
+        Latecomers' names will be struck out from the list.
+        A federal judge in Philadelphia struck down the law in February 1999.
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <wn lemma="strike_down" version="3.0">1</wn>
+         <wn lemma="strike_off" version="3.0">1</wn>
+         <wn lemma="strike_out" version="3.0">1</wn>
+         <omega/><pb>strike.03,strike.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="make by stamping as in a coin" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This coin struck under Tiberius in 15 or 16 CE.
+        The city struck a medal in his honor.
+      </examples>
+      <mappings>
+         <wn version="3.0">18</wn>
+         <wn lemma="strike_" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="start something" type="">
+      <commentary>
+        Includes: STRIKE OUT, STRIKE UP
+      </commentary>
+      <examples>
+        He struck fire from the flintstones.
+        He struck out on his own after becoming frustrated working with the system.
+        The musicians struck up a tune.
+        How do I strike up a conversation with complete strangers?
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <wn lemma="strike_out" version="3.0">6</wn>
+         <wn lemma="strike_up" version="3.0">1,2</wn>
+         <omega/><pb>strike.05,strike.09</pb>
+         <vn>establish-55.5-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="STRIKE OUT-be put out of game or be unsuccessful" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He struck out three batters to close the inning.
+        The candidate struck out with his health care plan.
+      </examples>
+      <mappings>
+         <wn lemma="strike_out" version="3.0">2,3,4,5</wn>
+         <omega/><pb>strike.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="idiomatic expressions" type="">
+      <commentary>
+       Includes: STRIKE A BLOW, STRIKE A CHORD, STRIKE A NOTE, STRIKE HOME,
+                 STRIKE DUMB
+      </commentary>
+      <examples>
+        The court ruling struck a blow at the old segration laws.
+        The story struck a chord with the listeners.
+        Her comments struck a sour note.
+        I hope this message strikes home.
+        The announcements struck us dumb.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="strike_a_blow" version="3.0">1</wn>
+         <wn lemma="strike_a_chord" version="3.0">1,2,3</wn>
+         <wn lemma="strike_a_note" version="3.0">1</wn>
+         <wn lemma="strike_home" version="3.0">1</wn>
+         <wn lemma="strike_dumb" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

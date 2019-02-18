@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="string-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="arrange on a string" type="">
+      <commentary>
+        NOTE: Includes metaphorical uses. Includes STRING UP
+      </commentary>
+      <examples>
+        It's just a bunch of scenes Deaver wanted to write, so he strung
+        them together and called it a book.
+        He strung lights up over the bushes on the left side of the window.
+        Now it's time to string the beads onto an elastic.
+        String ideas together as necessary to support each side. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="string_up" version="3.0">1,2</wn>
+         <wn lemma="string_out" version="3.0">1</wn>
+         <omega></omega><pb>string.01</pb>
+         <vn>pocket-9.10,spray-9.7-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move or stretch like a string" type="">
+      <commentary>
+        NOTE: Includes STRING ALONG
+      </commentary>
+      <examples>
+        Towards the end of the afternoon, it strung along, and strung along.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="string_along" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="string together, fasten" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        String the package tightly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>butter-9.9,tape-22.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="remove stringy parts" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The family strung the beans and laid them on sheets to let them dry.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>pit-10.7</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="provide with strings" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Hendrix actually strung the guitar to be correct for a left-handed guitarist.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

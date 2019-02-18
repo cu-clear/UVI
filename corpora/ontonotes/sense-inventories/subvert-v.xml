@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="subvert-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cause the downfall of; destroy." type="">  
+      <commentary>
+        Syntax is: NP1[agent] SUBVERT NP2[patient[abstract]]
+        NOTE: It is possible for NP2 to be [concrete], but no
+        examples could be found.
+      </commentary>
+      <examples>
+        Did Neoconservatists subvert the Reagan Administration?
+        The monarch has utterly subverted the rule of law and system of
+        justice.
+        I will not allow my rights to be subverted! 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>subvert.01</pb>
+         <vn>NP</vn><fn>Subversion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Corrupt morally." type="">
+      <commentary>
+        Syntax is: NP1[agent] SUBVERT NP2[patient[animate]]
+        NOTE: This sense can apply to [-animate] NP2s only if the NP is
+        perceived to be animate or relates to moralistic behavior as
+        example 2 does. Compare to Sense 1; Sense 2 both implies moral
+        degradation and in general requires an animate NP2. Think of
+        '(cause to) fall from grace' when applying Sense 2. 
+      </commentary>
+      <examples>
+        Do guidence counselors subvert students?
+        Do not separate text from historical background or you will have
+        perverted and subverted the Constitution.
+        My parents claim that my ex-boyfriend has subverted me.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>subvert.01</pb>
+         <vn>NP</vn><fn>Subversion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

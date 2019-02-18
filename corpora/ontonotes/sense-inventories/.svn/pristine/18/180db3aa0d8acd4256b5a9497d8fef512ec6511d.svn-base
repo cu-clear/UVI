@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="radiate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Physically or metaphorically emit rays, as
+   of light or energy." type="">  
+      <commentary>
+      Syntax Is: NP1[source[inanimate]] RADIATE NP2[theme]
+      </commentary>
+      <examples>
+      The sun radiates heat.
+      The sun is radiating.
+      The metal radiated radioactive energy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>radiate.01</pb>
+         <vn>substance_emission-43.4</vn><fn>Emitting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Issue or emerge in rays or waves." type="">
+      <commentary>
+      Syntax Is: NP1[theme] RADIATE (PP{P NP[source]})
+      </commentary>
+      <examples>
+      Heat radiated from the box.
+      The scent radiated from his corner of the room.
+      Light radiated brilliantly. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>radiate.01</pb>
+         <vn>substance_emission-43.4</vn><fn>Emanating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Physically extend or spread outward from a center or
+         focus or inward towards a center; physically spread from a start point." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Spokes radiate from the hub of the wheel.
+      These plants radiate spines in all directions. 
+      The new species radiated from the center of the island outwards.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Have a complexion with a strong bright
+         color; reflect emotion via one's complexion." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[source[animate]] RADIATE PP
+      NP1[source[animate]] RADIATE ADVP[temporal]
+      Note: [animate] here refers both to animate agents ('she') and
+                 features of animate agents ('her face').
+      </commentary>
+      <examples>
+      Her face radiated when she came out of the sauna.
+      She was radiating with joy.
+      Her face radiated with happiness.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>radiate.01</pb>
+         <vn>NM</vn><fn>Emanating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

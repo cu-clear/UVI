@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="retreat-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Pull or move away or backward purposefully." type="">  
+      <commentary>
+       Syntax Is: NP1[agent] RETREAT (PP[directional])
+       NOTE: May include a location retreated to. Includes metaphorical examples.
+      </commentary>
+      <examples>
+      The enemy retreated.
+      Retreat!
+      The press retreated from such zeal.
+      During the battle, Liu Bei suddenly burned his camp and retreated to
+      the south.
+      Congress quietly retreated to the same silk-gloved handling of the
+      CIA and FBI in the name of national security.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>retreat.01</pb>
+         <vn>escape-51.1,withdraw-82-3</vn><fn>Departing,Quitting_a_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Move away, as for privacy" type="">
+      <commentary>
+      INCLUDES: RETREAT TO 
+      Syntax Is: NP1[agent[human]] RETREAT PP[locative]
+
+      NOTE: MUST specify the location retreated to.  Compare to sense 1:
+      this sense implies that NP1 is leaving people behind.
+      </commentary>
+      <examples>
+      The Pope retreates to Castelgondolfo every summer.
+      Gilbert Melendez retreated to his cell, speaking to no one.
+      I skipped breakfast the next day and retreated to the garden with
+      them in hand as soon as I'd dressed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>escape-51.1</vn><fn>Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Move back (without purpose), as from a natural process." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The glacier retreats a little each year.
+      The forenoon tide had just retreated to the sea.
+      After a three-hour intermezzo the cloud retreated.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Make a retreat from an earlier commitment or act." type="">
+     <commentary>
+      Syntax Is: NP1[agent] RETREAT PP {from NP2[theme[abstract]]}
+
+      NOTE: Compare to sense 1: Retreat is from an agent-initiated promise or comment and must
+      be stated in the sentence (usually with 'from').
+     </commentary>
+      <examples>
+      Conservatives have modified or retreated from their former
+      statements of support.
+      McCain retreated only slightly from the enthusiasm he voiced last week.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>withdraw-82-3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="FINANCIAL: Exhibit a quantifiable downward movement." type="">
+      <commentary>
+        Syntax Includes:
+        NP1[topic] RETREAT PP[directional]
+        NP1[topic] RETREAT PP[locative]
+      </commentary>
+      <examples>
+       Company stock retreated a half point to 57 1/2 by closing yesterday.
+       Stocks continue to retreat from session highs.
+       In late afternoon trading, the euro had retreated to $1.4838.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>retreat.02</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

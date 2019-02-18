@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="polish-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make shine" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] POLISH NP2
+      </commentary>
+      <examples>
+        He waxed the shoes, polished the shoes, dyed the sides of the
+        soles, all with the precision and care of a surgeon.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>polish.01</pb>
+         <vn>butter-9.9,wipe_manner-10.4.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="improve or perfect" type="">
+      <commentary>
+        Includes: POLISH UP
+        Syntax Is: NP1 POLISH (UP) NP2
+      </commentary>
+      <examples>
+        He polished up his screenwriting skills before dropping out to
+        concentrate on an acting.
+        She polished her talent for art and for acting.
+        She polished her manners and style.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="polish_up" version="3.0">1</wn>
+         <omega></omega><pb>polish.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="finish" type="">
+      <commentary>
+        Is: POLISH OFF
+      </commentary>
+      <examples>
+        Ned polished off his homework in less than an hour.
+        Shannon and I polished off the potatoes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="polish_off" version="3.0">1,3</wn>
+         <omega></omega><pb>polish.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="kill, remove" type="">
+      <commentary>
+        Is: POLISH OFF
+      </commentary>
+      <examples>
+        The mafia polished off that informant.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="polish_off" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

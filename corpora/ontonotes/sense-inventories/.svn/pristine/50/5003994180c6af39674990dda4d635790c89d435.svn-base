@@ -1,0 +1,182 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sweep-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move over or through something in a sweeping manner" type="">
+      <commentary>
+        Syntax is: NP1[theme] SWEEP NP2[location]
+                   NP1[theme] SWEEP PP[location]
+                   NP1[agent] SWEEP PP[location]
+        Includes: SWEEP OVER, SWEEP THROUGH, SWEEP BY
+
+        NOTE: Compare to senses 2 and 3. This sense describes the manner of motion; there is no
+        effect upon a physical surface and no NPs(entities) are moved by
+        the sweeping motion. Implies a change of location of the subject.
+      </commentary>
+      <examples>
+        They confirmed the rumours that had swept the city a day earlier.
+        The school expanded its program in response to the call that swept the nation for more graduate nurses.
+        Some weeks earlier a hurricane swept across Cuba: again the human toll was minimal.
+        Charlotte swept into the room, commanding the attention of all.
+        It swept easily through its first reading in December, outraging environmental groups.
+        He swept by the crowds and won the marathon. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,9</wn>
+         <wn lemma="sweep_over" version="3.0">1</wn>
+         <wn lemma="sweep_through" version="3.0">1</wn>
+         <omega/><pb>sweep.02</pb>
+         <vn>run-51.3.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="physically move objects (sometimes to affect an area)" type="">
+      <commentary>
+        Syntax is: NP1 SWEEP NP2[theme[concrete]] PP{P NP3[source]}
+                   NP1 SWEEP NP2[theme[concrete]] PP{P NP3[destination]}
+                   NP1 SWEEP NP2[patient[concrete]]
+        
+        NOTE: Compare carefully to sense 1 and 3. If no concrete NP is
+        moved from point A (to point B), use Sense 1 instead. If the object is
+        abstract, use Sense 3.
+
+        Includes: SWEEP AWAY, SWEEP UP, SWEEP CLEAN
+
+      </commentary>
+      <examples>
+        She swept the room clean.
+        She swept the dust from the room.
+        Waves of nausea swept over her as the blackness beckoned.
+        She swept the cracker crumbs under the rug.
+        Two people died today when high waves swept them into the Atlantic Ocean. 
+        Cars were swept away by the waves.
+        Even fish were swept up in the storm. 
+        Sweep the bronzer over cheeks, below your jaw line or anywhere you want to highlight.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="sweep_away" version="3.0">1</wn>
+         <omega/><pb>sweep.01,sweep.04</pb>
+         <vn>funnel-9.3-1-1,wipe_manner-10.4.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="manipulate people; force (a person) into a situation." type="">
+      <commentary>
+        Syntax is: NP1[agent] SWEEP[abstract] NP2[patient[human]]
+        
+        Includes: SWEEP UP, SWEEP AWAY, SWEEP OFF
+
+        Note: compare to senses 1 and 2; in this sense, you cannot have the 
+              NP1[+agent/force] SWEEP NP2[patient]
+              NP1[+theme] SWEEP NP2[location]
+      </commentary>
+      <examples>
+        When this incident was reported, the outrage of helplessness swept the station.
+        Her eyes fluttered closed and she was swept off into a deep sleep that was long overdue.
+        Many of them seem to have directed their attentions to the crisis that swept them out of office.
+        They were swept up by the events.
+        And once they all had finished their dinner, she'd swept the children off to bed.
+        Dreams came and swept them away.
+        The forces of change swept centuries of tradition aside.
+        His despair sapped the joy out of life and swept the family's love of music out of their home.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="sweep_away" version="3.0">2</wn>
+         <wn lemma="sweep_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="embrace as" type="">
+      <commentary>
+      Includes: SWEEP UP
+      </commentary>
+      <examples>
+      Americans have swept labor union songs up as true products of our American oral tradition.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="sweep_up" version="3.0">2</wn>
+         <omega/><pb>sweep.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="span" type="">
+      <commentary>
+        NOTE: There is no movement here.
+      </commentary>
+      <examples>
+        The University Dance Company swept decades and genres in its spring concert.
+        I was entralled by the masterful tale weaved by Anne Rice, a story that swept centuries.
+        Beyond, the wide plain swept for miles, an oasis of spring green illuminated by softest sunlight.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5,8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>meander-47.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="claim an overwhelming victory" type="">
+      <commentary>
+      NOTE: Use for all references to sporting events but not for instances
+      of the actual destruction of an entity.
+      </commentary>
+      <examples>
+        Clarke County swept the Group A team titles for the third consecutive fall.
+        They swept the morning competition and were chosen most outstanding choir of the festival.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="carefully search" type="">
+      <commentary>
+          Syntax is: NP1 SWEEP NP2[location]
+
+          NOTE: Compare to sense 1. This sense does not involve movement of
+          NP1, but rather involves searching.
+      </commentary>
+      <examples>
+        The software simply sweeps a range and plots the resultant data.
+        The Dutch swept the area around the train depot with Geiger counters.
+        He took Johnny's spyglass and carefully swept the horizon, looking for sign of dust or of moving figures.
+        He swept the computer for viruses.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>search-35.2</vn><fn>Scouring,Scrutiny</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="idiom: sweep under the rug" type="">
+      <commentary>
+        Note: To conceal something embarrassing, in hopes of keeping
+        others from discovering it; does not refer to literal sweeping
+        of debris under a carpet.
+        Is: SWEEP UNDER THE RUG
+      </commentary>
+      <examples>
+        The rules committee had merely swept the problem under the rug.
+        The intelligence scandal was swept quietly under the rug.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="sweep_under_the_rug" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,clarklm,corvey,greenlm" sample_score="-"/>
+</inventory>

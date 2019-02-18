@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="snake-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move like a snake" type="">  
+      <commentary>
+        Syntax Includes:
+      </commentary>
+      <examples>
+        She snaked her way through the crowd.
+        They tried to snake the rope along the ledge.
+        Tom snaked along on his stomach, hoping he wouldn't get caught.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0">1</wn>
+         <omega></omega><pb>snake.01</pb>
+         <vn>roll-51.3.1</vn><fn>motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="form or move along a snake-like pattern" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The river snakes through the valley.
+        The army snaked through the jungle.
+        A squiggly line snakes across the video screen.
+        The road snakes amongst the mountains.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">2,3</wn>
+         <omega></omega><pb>snake.01</pb>
+         <vn>meander-47.7</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

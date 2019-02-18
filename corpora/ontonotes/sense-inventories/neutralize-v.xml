@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="neutralize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make an entity politically, militarily, or personally
+   less threatening, possibly by killing." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] NEUTRALIZE NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      The treaty neutralized the small republic.
+      The mafia neutralized the informer.
+      The double agent was neutralized.
+      The army neutralized the warring militias. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make ineffective by counterbalancing the
+         effect of." type="">
+      <commentary> 
+      Syntax Is: NP1 NEUTRALIZE NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      This action will neutralize the effect of my efforts.
+      It is a way of thinking that neutralizes threats to our interests.
+      This will neutralize the foolish actions of my colleagues.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>neutralize.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Make chemically neutral." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She neutralized the solution.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

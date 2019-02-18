@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="consolidate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="centralize; unite or combine into a single unit or system" type="">  
+      <commentary>
+        Note: Includes business jargon; if there is confusion between sense 1 and 3, in which 
+            things may be getting stronger as a result of combining, tag the instance with this sense.
+        Please study examples carefully.
+      </commentary>
+      <examples>
+        The branches of the company were consolidated into one common network for efficiency.
+        Consolidate the two retail quadrants into one combined retail quadrant.
+        The two firms consolidated to form a single company.
+        Sales dropped because the company no longer consolidates is Eastern division.
+          (the above is a specific accounting example referring to combining accounts for reporting purposes)
+        Some analysts point to threats to consolidate the industry over the past two years.
+        This system of records will consolidate the system for all activities.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>   
+         <omega/><pb>consolidate.01</pb>
+         <vn>mix-22.1-1,amalgamate-22.2-1-1,amalgamate-22.2-2-1</vn><fn>Cause_to_amalgamate</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make something stronger and/or firmer" type="">
+      <commentary>
+        Note: NP1 undergoes a physical change
+      </commentary>
+      <examples>
+        The stone was consolidated, cleaned and pointed.
+        The soil consolidated under additional stress.
+        </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <omega/><pb>NM</pb>
+         <vn>amalgamate-22.2-1-1, mix-22.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <sense group="1" n="3" name="make firm or secure/strengthen" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The success of their major product consolidated the firm's position in the market.
+        She hoped that marriage would consolidate their relationship.
+        The party consolidated its hold on power during its term of office.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="hwangd, vieweg,duffielc" sample_score="-"/>  
+</inventory>

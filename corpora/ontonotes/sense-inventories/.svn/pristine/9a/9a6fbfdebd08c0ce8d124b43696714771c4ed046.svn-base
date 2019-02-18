@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="support-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="hold or prop up; bear or endure the weight" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The church dome is supported by marble pillars.
+         Only a nail is supporting that heavy mirror to the wall.
+         The acrobat supported himself on his hands.
+         He could no longer support the heavy burden of guilt that weighed on his conscience.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,11</wn>
+         <omega/><pb>support.01</pb>
+         <vn>admire-31.2,contiguous_location-47.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="endorse or advocate; assist or provide for" type="">
+      <commentary>
+       Syntax is: NP1 SUPPORT NP2 PP[instrument] (PP can be implicit)
+      </commentary>
+      <examples>
+         Who will the swing voters support this year?
+         He supports the idea of tax code reform.
+         She supported the motion to strike.
+         I have supported their efforts for years and believe in their mission.
+         My rich uncle has been supporting the operation of that gallery for years.
+         She supported him during his long illness.
+         The scholarship will support her studies abroad.
+         The USO supports our troops with entertainment.
+         The drug addict had to rob in order to support his habit.
+         He has a wife and four children to support.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6,8,9,10</wn>
+         <omega/><pb>support.01</pb>
+         <vn>admire-31.2,help-72</vn><fn>Taking_sides</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="prove or corroborate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The evidence supports the defendent.
+         These data don't support your theory.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,7</wn>
+         <omega/><pb>support.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="act in a subordinate role" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She will be supporting Mary, who will play the lead role in the new opera.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>support.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

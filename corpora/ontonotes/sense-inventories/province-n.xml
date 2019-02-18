@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="province-n">
+    <commentary>
+        30aug06 added examples, features, modified definitions, upgraded to WN 2.1. ahouston.
+    </commentary>
+    
+    <sense group="1" n="1" name="principal administrative division of a country or empire" type="">
+        <commentary>
+            PROVINCE[+location][+geographical][+territory][+division][+administrative][+principal]
+            The territory occupied by one of the constituent administrative
+            districts of a nation or empire
+        </commentary>
+        <examples>
+            She grew up in a western province of Canada.
+            He'll go to Paris after he's toured all the provinces.
+            In ancient Rome, governors were sent to rule the provinces outside of Italy.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="2" name="scope of interest, responsibility, expertise" type="">
+        <commentary>
+            PROVINCE[+environment][+social][+scope][+responsibility/+interest/+expertise]
+            The proper sphere or extent of your activities, a special interest or
+            responsibility 
+        </commentary>
+        <examples>
+            She knew little about wine, that had been her father's province.
+            It was his province to take care of himself.
+            That question is outside my province.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

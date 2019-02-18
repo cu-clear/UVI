@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sign-vpc-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="resign or transfer ownership of" type="">  
+      <commentary>
+        Includes: SIGN AWAY, SIGN OVER, SIGN OFF
+      </commentary>
+      <examples>
+        The man just brought him in and signed him over to us.
+        Others simply signed themselves over to the care of powerful lords.
+        Ok, so you pretty much signed your life away for the next 30 years.
+        She's pregnant and the father of the child wants to sign off his paternal rights.
+      </examples>
+      <mappings>
+         <wn lemma="sign_away" version="3.0">1</wn>
+         <wn lemma="sign_over" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="register or be registered upon entry or arrival" type="">
+      <commentary>
+        Includes: SIGN IN, SIGN ON
+      </commentary>
+      <examples>
+        When do I need to sign in at the main hospital entrance?
+        I'm signed in Yahoo IM at work and forgot to log out.
+        All visitors must sign in at the reception/security desk.
+        I'm surprised to see only 97 members signed on the chat forum.
+      </examples>
+      <mappings>
+         <wn lemma="sign_in" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="end communication or broadcasting" type="">
+      <commentary>
+        Includes: SIGN OFF, SIGN OUT
+      </commentary>
+      <examples>
+        I was just about to sign off when she messaged me.
+        In one recent e-mail to a journalist friend, she signed off with a casual "good vibes to you."
+        Gregg signed off the video conference with a smile on his face.
+        They sign off by wishing the restaurant luck and success in the cheeseburger world.
+        If you sign out by mistake, just reconnect and sign in under another name.
+      </examples>
+      <mappings>
+         <wn lemma="sign_off" version="3.0">1</wn>
+         <omega></omega><pb></pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="engage in an agreement or contract; join or enroll" type="1">
+      <commentary>
+        Includes: SIGN ON, SIGN UP, SIGN OFF
+      </commentary>
+      <examples>
+        The group manager must sign off on the project priority and estimated completion date.
+        You might be glad to know that she's signed on for the next season.
+        Tedd signed up two new rappers as members of his Mau Mau Camp.
+        There are web-based emails you can sign up for free.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="sign_on" version="3.0">1</wn>
+         <wn lemma="sign_up" version="3.0">1,2</wn>
+         <omega></omega><pb>sign.02,sign.03,sign.04</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

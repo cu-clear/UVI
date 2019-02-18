@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wobble-v">    
+   <commentary>
+   Contains duplicate mappings 
+   </commentary>
+   <sense group="1" n="1" name="Move unsteadily along a path." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The drunk wobbled down the street.
+      The ship wobbled out of control.
+      I wobbled out of the office.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wobble.01</pb>
+         <vn>body_internal_motion-49,modes_of_being_with_motion-47.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Tremble or shake in place." type="">
+      <commentary>
+      Note: may be metaphorical.
+      </commentary>
+      <examples>
+      His voice wobbled with restrained emotion.
+      My knees wobbled and I sat down.
+      He wobbles back and forth as he speaks.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wobble.01</pb>
+         <vn>modes_of_being_with_motion-47.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

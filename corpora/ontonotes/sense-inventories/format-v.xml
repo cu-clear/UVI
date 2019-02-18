@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="format-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Arrange text, data, or other objects in a
+   certain configuration or to certain specifications." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      We have to format the data before we can run the parsing algorithm.
+      Format this memo so it can be printed out.
+      We have to format materials in XML.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>Arranging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Divide a computer disk into marked sectors
+         so that it may store data, consequently erasing old data on the disk." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Please format this disk before entering the data.
+      It used to be that you had format disks before using them on your
+      computer; now you can buy them preformatted.
+      I need to format this disk for Windows. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>Arranging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

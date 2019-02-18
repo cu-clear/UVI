@@ -1,0 +1,110 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="establishment-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="formation" type="Event">
+        <commentary>
+	    ESTABLISHMENT[+event]
+	    constitution, organization, organisation -
+	    the act of forming something
+	    </commentary>
+        <examples>
+            The establishment of a PTA group last year was surprisingly easy.
+            It was the establishment of his reputation.
+            He still remembers the establishment of the club back in 1940.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>establishment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an organization" type="">
+        <commentary>
+            institution - 
+            an organization founded an united for a specific purpose
+        </commentary>
+        <examples>
+            They turned their small company into a large establishment.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="administration" type="">
+        <commentary>
+            governance, governing body, brass, organization, organisation - 
+            the persons (or committees or departments etc.) who make up a body for
+            the purpose of administering something
+        </commentary>
+        <examples>
+            He claims that the present establishment is corrupt.
+            They governance of an establishment is responsible for its members.
+            He quickly became recognized as a member of the establishment.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="building and equipment" type="">
+        <commentary>
+            a public or private structure (business or governmental or
+            educational) including buildings and equipment for business or residence
+        </commentary>
+        <examples>
+            This establishment was built 50 years ago.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="validation" type="Event">
+        <commentary>
+	    ESTABLISHMENT[+event]
+	    the cognitive process of establishing a valid proof
+	    </commentary>
+        <examples>
+            Any information in a paper needs to proper establishment from facts.
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="ecology: move-in" type="Event">
+        <commentary>
+	    ESTABLISHMENT[+event]
+	    the process by which a plant or animal becomes established in a new habitat
+	    </commentary>
+        <examples>
+            We're studying the establishment of sagebrush on mined lands.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

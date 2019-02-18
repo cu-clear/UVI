@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reply-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a verbal answer, written or spoken" type="Event">
+        <commentary>
+            REPLY[+event][+speech_act][+answer][+to_question]
+        </commentary>
+        <examples>
+            John made a sarcastic reply to Mary's question.
+            We received a reply to our letter from the managing director.
+            I am writing in reply to your inquiry about a summer internship.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>reply.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a non-verbal response or gesture to an action" type="Event">
+        <commentary>
+            REPLY[+event][+response][+gesture][+to_action]
+        </commentary>
+        <examples>
+            The chess master's reply to the check with a queen sacrifice surprised his opponent.
+            The soldiers sent a barrage of gunfire in reply to the enemy's offense.
+            He taught that the best reply to anger is compassion. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the legal response of a plaintiff to a defendant's plea" type="Event">
+        <commentary>
+            REPLY[+event][+speech_act][+legal][+response][+of_plaintiff][+to_plea][+of_defendant]
+            Note: a narrow, legal usage of sense 1
+        </commentary>
+        <examples>
+            What will be the plaintiff's reply to this plea of not guilty?
+            Her attorneys are preparing a reply to the defendant's plea.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="adjust-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="reorient, realign or reposition something" type="">
+      <commentary>
+       Note: Transitive.
+      Syntax Is: NP[agent] ADJUST[transitive] NP[target]
+      </commentary>
+      <examples>
+        Adjust the height of your chair so that your wrists can rest comfortably on the keyboard.
+        The dance instructor adjusted her position.
+        If it's too hot under the electric blanket, they can adjust the dial down.
+        Adjust your seat belt so that you are comfortable.
+        Don't forget to adjust the clocks tonight when we go on daylight savings time.
+       Boot camp will adjust your expectations of doing as you please. (figurative extension)
+       Analysts have adjusted their economic outlook based on these new figures. (figurative extension)
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>adjust.01</pb>
+         <vn>NM</vn><fn>Adjusting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="accept, acclimate or adapt to a context, situation" type="">
+      <commentary>
+      Note: Intransitive. The situation being adjusted to is presented in a PP with TO.
+        The TO PP may be omitted. See ex. 4 and 5.
+      Syntax Is: NP[agent] ADJUST[intransitive] to NP
+        Note: implies the subject is changing state
+      </commentary>
+      <examples>
+        Many teens have difficulty adjusting to a new stepparent.
+        The pets who survived the hurricane are adjusting to new homes.
+        Mary and John are adjusting to having a baby in the house.
+        Living in the same house isn't awkward just for me; I'm sure he's adjusting too.
+        If you're not adjusting as well as you'd like, seek help from professional counsellors.
+        The salinity of the water must be lowered gradually to give the fish time to adjust.
+        Some of the workers had difficulty adjusting to the new management.
+        Give your eyes time to adjust to the darkness.
+        Let the engine adjust to the cold temperature before starting it up.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>adjust.01</pb>
+         <vn>adjust-26.9</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="decide the amount to be paid on an insurance claim" type="">
+      <commentary>
+	Note: a narrow specialized sense related to deciding insurance claims.
+      </commentary>
+      <examples>
+        It will be possible to pay the policy limits through dialogue with the insured and without waiting for a site visit 
+to adjust the loss.
+        Many times an insurer will adjust the benefit after receiving additional information that justifies the higher charg
+e.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>adjust.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc, ahouston, brownsw" sample_score="-"/>
+</inventory>

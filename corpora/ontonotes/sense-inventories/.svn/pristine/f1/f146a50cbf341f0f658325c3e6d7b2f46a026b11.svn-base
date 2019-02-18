@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="enlighten-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to understand; make clear" type="">  
+      <commentary>
+        Syntax Is: NP1 ENLIGHTEN NP2
+      </commentary>
+      <examples>
+        He enlightened minds with his presentation at the TED conference
+        last week.
+        He enlightened the question of influence of wind-tunnel type and dimensions.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>enlighten.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give spiritual insight to" type="">
+      <commentary>
+        Syntax Is: NP1 ENLIGHTEN NP2[experiencer]
+      </commentary>
+      <examples>
+        The priest enlightened them.
+        He was enlightened or had attained enlightenment.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>enlighten.01</pb>
+         <vn>amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

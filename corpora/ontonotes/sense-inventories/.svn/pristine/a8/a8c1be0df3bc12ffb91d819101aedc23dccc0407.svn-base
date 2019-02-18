@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="decide-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make a choice" type="">
+      <commentary>
+         Syntax Includes: 
+         NP1[animate] DECIDE 
+         NP1[animate] DECIDE PP{P NP}
+         Note: Compare to Sense 2; in Sense 1, NP1 IS animate. 
+      </commentary>
+      <examples>
+         I can't decide whether to order the apple pie or the peach cobbler.
+         His mother decided that he could go on the trip.
+         Mary has decided on the red leather pumps.
+         The judge decided the case in favor of the plaintiff.
+         The case was decided in the Supreme Court.
+         The conflict ended in the breakout of war, which in effect decided the argument.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <omega/><pb>decide.01</pb>
+         <vn>correspond-36.1,settle-36.1.2-1</vn><fn>Choosing,Deciding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Affect a situation" type="">
+      <commentary>
+        Syntax Is:
+         NP1[theme] DECIDE NP2[patient]
+         Note: Compare to Sense 1; in Sense 2, NP1 is NOT animate.   
+      </commentary>
+      <examples>
+         The vote in New Hampshire often decides the outcome of the Presidential election
+         The UN resolution may decide the fate of that country.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>decide.01</pb>
+         <vn>determine-70.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,vieweg,brownsw,corvey,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="capacitate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make capable, perhaps under the judicial system." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] CAPACITATE NP2[patient[animate]]
+      NP1[cause] CAPACITATE NP2[patient[inanimate]]                
+      </commentary>
+      <examples>
+      They intended to capacitate the prosecutor as a witness.
+      These measures are meant to capacitate the country's agricultural infrastructure. 
+      Our aim is to capacitate the carbon development trading to SMEs.
+      She hopes it will capacitate her to see some more of her boyfriend.
+      This training will capacitate her/him to perform the projects.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>capacitate.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause (spermatozoa) to undergo the physical
+         changes necessary to fertilize an egg" type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Saline does not capacitate sperm.
+      Oviductal fluid (ODF) can capacitate sperm.
+      Many methods to capacitate sperm in vitro have been reported.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

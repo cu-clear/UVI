@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="gamble-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of placing a monetary bet in a game of chance" type="">
+        <commentary>
+            GAMBLE[+action][+betting][+money][+game][+chance]
+            Note: refers specifically to placing money on bets of chance
+        </commentary>
+        <examples>
+            John's gamble on red paid off two-to-one.
+            This blackjack table requires players to make gambles of at least $100.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the undertaking of any risky endeavor" type="">
+        <commentary>
+            GAMBLE[+activity][+undertaking][+risky]
+            Note: a broad extension of the narrower Sense 1
+            Note: does not imply directly betting money
+        </commentary>
+        <examples>
+            Pete took the gamble and dropped out of school to start an Internet company.
+            The senator warned that the war was a huge gamble with uncertain outcome.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>gamble.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

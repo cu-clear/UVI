@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="remembrance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the ability to recall things" type="Event">
+        <commentary>
+            REMEMBRANCE[+quality][+faculty][+recollection]
+            Note: refers to a general cognitive ability to recall, not a specific instance (Sense 4)
+        </commentary>
+        <examples>
+            The remembrance of names and dates becomes more difficult with age.
+            These tests are designed to measure patients' remembrance before and after the brain surgery.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>remembrance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="social commemoration of the deceased" type="Event">
+        <commentary>
+            REMEMBRANCE[+event][+social][+commemoration][+of_deceased]
+        </commentary>
+        <examples>
+            Memorial Day is held in remembrance of soldiers who died serving their country.
+            A statue was built in remembrance of the fallen firefighters.
+            There will be a service tomorrow afternoon in remembrance of John's uncle.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>remembrance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an artifact or token that serves as a reminder" type="">
+        <commentary>
+            REMEMBRANCE[+entity][+artifact][+reminder][+of_something]
+        </commentary>
+        <examples>
+            The guests all received small silver boxes as a remembrance of the wedding.
+            Her only remembrance of him was a lock of his hair.
+        </examples>
+        <mappings>
+            <wn version="MW online">5a</wn>
+            <omega/><pb>remebrance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a specific act of recalling something" type="Event">
+        <commentary>
+            REMEMBRANCE[+event][+mental][+recollection]
+            Note: implies a specific instance of recalling something.
+        </commentary>
+        <examples>
+            A flash of remembrance passed between them at the sound of the siren.
+            We thanked Mary for her remembrance of our passports before we left for the airport.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>remembrance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

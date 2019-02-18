@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="solicit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="request persistently; make a solicitation" type="">  
+      <commentary>
+        Syntax is: NP1[human] SOLICIT NP2 (FROM NP3[human])
+      </commentary>
+      <examples>
+        Chris Pirillo solicited and recorded some reader feedback.
+        He solicited opinions on the new open space laws.
+        She solicited help from the senators.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>solicit.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make amorous or sexual advances toward" type="">
+      <commentary>
+        Syntax is: NP1[human] SOLICIT NP2[human]
+                   NP1[human] SOLICIT NP2[abstract] (FROM NP3[human])
+      </commentary>
+      <examples>
+        Four percent of high school students were solicited for sexual
+        favors.
+        She solicited the callgirls herself.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>solicit.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="incite some act of insubordination" type="">
+      <commentary>
+        Syntax is: NP1[human] SOLICIT NP2[human] TO VP[activity]
+      </commentary>
+      <examples>
+        Jenette solicited Zaffino to murder Jeff Zack.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

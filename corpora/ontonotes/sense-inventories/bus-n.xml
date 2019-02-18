@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bus-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="large public transport vehicle" type="">
+        <commentary>
+            BUS[+entity][+artifact][+vehicle][+transport][+public][+multi_person]
+        </commentary>
+        <examples>
+            Mary took the bus to work while her car was in the shop.
+            There may be a bus strike next week.
+            Many large tour buses were parked outside the pyramids.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="computer component that transfers data along circuits" type="">
+        <commentary>
+            BUS[+entity][+structure][+circuit][+component][+computer][+data_transfer]
+        </commentary>
+        <examples>
+            Their new computer chip has a faster bus than their competitor's chip.
+            Data transfer over the bus is not as fast as in internal memory.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="old, unreliable automobile" type="">
+        <commentary>
+            BUS[+entity][+artifact][+vehicle][+transport][+automobile][+dilapidated]
+        </commentary>
+        <examples>
+            The fenders finally fell off that old bus.
+            John didn't want to pick up his date in his rusty old bus.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="advertising-n">
+    <commentary>
+        6oct06. changed examples, modified definition and features. ahouston
+        17Jun08 - modified Senses and features. ahouston
+    </commentary>
+    <sense group="1" n="1" name="an enterprise engaged in creating promotional material" type="">
+        <commentary>
+            ADVERTISING[+organization][+enterprise][+business][+promotional]
+            Note: refers to the enterprise or business that produces ads, not the content of the ads (Sense 2)
+        </commentary>
+        <examples>
+            Those two men are the top CEOs in advertising.
+            The soft drink maker has hired a new advertising agency.
+            Take these photographs down to advertising on the 2nd floor.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>advertising.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="promotional media or content, e.g., brochure, video, pop-up window, billboard" type="">
+        <commentary>
+            ADVERTISING[+artifact][+medium][+with_content][+promotional]	       
+            Note: refers to the information content in a medium, not the event of disseminating it (Sense 3)
+        </commentary>
+        <examples>
+            I just skip through the advertising in this magazine.
+            Mary uses a program on her browser to block the pop-up windows of advertising.
+            The advertising showing a half-clad girl in jeans on a billboard was controversial.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>advertising.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the event or act of publicizing something" type="Event">
+        <commentary>
+            ADVERTISING[+event][+communication][+publicizing][+of_information]
+            Note: refers to an agent engaged in an activity of publicizing something.
+            Note: 'X's {+agent} advertising of Y {+thing_publicized}'  means 'X advertised Y'
+        </commentary>
+        <examples>
+            The advertising of this conference was not well organized. 
+            John's advertising of his accomplishments at the meeting did not impress anyone.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb>advertising.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

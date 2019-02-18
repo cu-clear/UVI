@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="best-v">    
+   <commentary>
+   FN contains an entry but it is for the modal verb
+   </commentary>
+   <sense group="1" n="1" name="Get the better of; exceed (an opponent)." type="">  
+      <commentary>
+      Syntax is: NP1[agent] BEST NP2[patient] (PP) 
+                 NP1[theme1] BEST [theme2]
+      </commentary>
+      <examples>
+      John bested Mary in a battle of wits.
+      Stocks bested previous performance.
+      Stock pickers have bested a randomly selected portfolio most months
+      this quarter. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>best.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

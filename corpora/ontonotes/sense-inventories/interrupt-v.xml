@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="interrupt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="interfere with someone else's activity" type="">  
+      <commentary>
+      Syntax Is: NP1[agent] INTERRUPT NP2[patient[animate]] (PP)
+      NOTE: NP2 must be affected by the verb; the activity cannot be the
+      core argument affected (the patient). Compare to Sense 2, where the
+      opposite is true.
+      NOTE: Use this sense for interrupted speech, as in conversation.
+      </commentary>
+      <examples>
+        Never interrupt me when I'm trying to interrupt you.
+        When you're father is playing with his trucks, don't interrupt him.
+        I promise never to interrupt you while you're on the phone.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>interrupt.01</pb>
+         <vn>NP</vn><fn>Interrupt_process</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="stop something in the middle" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INTERRUPT NP2[patient]
+        NOTE: The activity interrupted may or may not continue when the
+        interruption is over.
+        NOTE: Compare to Sense 1; in Sense 2, the activity, not the
+        person/group, is directly affected by the verb.
+      </commentary>
+      <examples>
+        The radical activists who interrupted the prayer are an embarrassment.
+        So not only had they interrupted Jenean's  project, they made her
+        late.
+        A woman's voice interrupted her reverie. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>interrupt.01</pb>
+         <vn>NP</vn><fn>Interrupt_process</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

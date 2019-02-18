@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="document-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="record in detail" type="">
+      <commentary>
+      Syntax Is:
+       NP1 DOCUMENT NP2
+      </commentary>
+      <examples>
+        The parents documented every step of their child's development.
+        Please help me document the history of social network sites by adding key dates to this timeline.
+        They documented the purchase of an Australian sheep which was then trussed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>document.01</pb>
+         <vn>transcribe-25.4</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="support with references or evidence" type="">
+      <commentary>
+     Syntax Is:
+      NP1 DOCUMENT NP2(topic)
+      </commentary>
+      <examples>
+        Can you document your claims?
+        Table 12.2 contain a range of simulations which document the assertions in proposition 2.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

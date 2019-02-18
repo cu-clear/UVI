@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="join-v">
+   <commentary>
+      Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="(cause to) connect, link or unite separate things, either physically or abstractly" type="">
+      <commentary>
+         Note: Implies the existence of two things being in contact; the points can be
+         abstract, as of time, or metaphoric.
+      </commentary>
+      <examples>
+         Join the two ends of the tube to make a circle.
+         The two roads join here.
+         He and I have joined paths many times over the years.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5</wn>
+         <omega/><pb>join.01</pb>
+         <vn>mix-22.1-2-1</vn><fn>Cause_to_amalgamate,Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="enlist or accept membership within some group or organization" type="">
+      <commentary>
+         Note: The agent makes a decision to enlist, OR, someone or something is included in a
+         group, unvolutarily, based on some preceived attribute.
+         Includes: JOIN UP          
+      </commentary>
+      <examples>
+         He joined the rank of the homeless.
+         He joined the Communist Party as a young man.
+         She joined the rock band as their lead singer.
+         The two prolific leaders joined up to form a new government.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>join.01</pb>
+         <vn>cooperate-73-1</vn><fn>Becoming_a_member</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="participate with someone else in some event" type="">
+      <commentary>
+        Includes: JOIN (the) BATTLE, JOIN FORCES
+      </commentary>
+      <examples>
+         Please join me in welcoming our esteemed guest.
+         Mark joined the battle to free the wrongly incarcerated man.
+         The president and the prime minster joined forces to legalize abortion.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="join_battle" version="3.0">1</wn>
+         <wn lemma="join_forces" version="3.0">1</wn>
+         <omega/><pb>join.01</pb>
+         <vn>cooperate-73-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="accompany or meet up " type="">
+      <commentary>
+         Note: This implies animate agents coming together at a specific time and place.
+      </commentary>
+      <examples>
+         Please join us for mint juleps on the veranda.
+         A friendly big brown dog joined me on my walk yesterday.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>join.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

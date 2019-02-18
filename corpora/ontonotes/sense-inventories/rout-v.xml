@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rout-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to flee" type="">  
+      <commentary>
+        Includes: ROUT OUT
+      </commentary>
+      <examples>
+        The police officers broke into petitioners' home in the early
+        morning and routed them from bed.
+        The police routed them out of bed at 2 A.M.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="rout_out" version="3.0">2,3</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="gouge, dig with the snout" type="">
+      <commentary>
+        NP1 ROUT (FOR) NP2
+      </commentary>
+      <examples>
+        The pig was routing for truffles.
+        He routed holes that play straight up the hill.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="defeat disastrously" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He routed the competition at the New Mexico pre-primary
+        convention.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="get or find by searching" type="">
+      <commentary>
+        Is ROUT OUT/ROUT UP
+      </commentary>
+      <examples>
+        I luckily routed out an old paper that I wrote twenty years ago.
+        When engaged on the Civil War he routed up a whole shoal of obscure
+        seventeenth-century papers from Yarmouth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="rout_out" version="3.0">1</wn>
+         <wn lemma="rout_up" version="3.0">1</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

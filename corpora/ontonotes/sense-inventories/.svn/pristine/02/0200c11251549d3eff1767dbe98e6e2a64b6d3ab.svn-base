@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lurch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move as if unable to control one's manner
+   or direction of movement." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[animate]] LURCH PP
+      NOTE: Compare to Sense 2; Sense 1 must contain an animate NP (usually
+      an individual or a group of human beings) as its subject.
+      INCLUDES: LURCH IN
+      </commentary>
+      <examples>
+      The drunken man lurched into the room.
+      Pakistan has lurched between weak civilian governments and military
+      rule.
+      He lurched in his seat as the airplane went out of control.
+      The wrestler lurched in for the bodyhold. 
+      The nasty Plimptons lurched in at poor Fergus, their fangs drooling
+      and gleaming, hungry for some tender plumpkin flesh.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lurch.01</pb>
+         <vn>run-51.3.2</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Move abruptly; move slowly and unsteadily
+         as through abrupt, periodic motion." type="">
+      <commentary>
+      Syntax Is: NP1[theme[inanimate]] LURCH PP
+      NOTE: Compare to Sense 1; Sense 2 must contain an inanimate NP as its
+      subject (may be abstract). 
+      </commentary>
+      <examples>
+      The ship suddenly lurched to the left.
+      The truck lurched down the road.
+      The momentum of the whole fight suddenly lurched in the champion's
+      direction.
+      Guardrail posts lurched in the bursts of blue light.
+      The ship lurched in the storm.
+      Political scepticism, however, had not only been defeated by a lurch
+      towards faith. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lurch.01</pb>
+         <vn>run-51.3.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Loiter about, with no apparent aim." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      I caught a quote from him that lurched in my mind.
+      The sullen child lurched in the corner.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Defeat by a lurch." type="">
+      <commentary>
+      NOTE: Does NOT include DEFEAT BY A LURCH PP (see Sense 2)
+      NOTE: Generally restricted to card games, specifically Cribbage.
+      </commentary>
+      <examples>
+      He defeated his Cribbage opponent through a lurch.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

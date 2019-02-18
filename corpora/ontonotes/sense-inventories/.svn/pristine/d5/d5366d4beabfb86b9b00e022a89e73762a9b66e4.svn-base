@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="load-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) fill, assign to or burden, add, intensify" type="">  
+      <commentary>
+        Syntax Is: NP1 LOAD NP2
+        Includes: LOAD UP, LOAD DOWN.
+      </commentary>
+      <examples>
+        We loaded the gear and took off for the northern woods.
+        Abraham loaded the livestock onto the barge.
+        With hands trembling he loaded the wafers in the wafer prober.
+        He loaded the Griffin with the bottles and took to the sky.
+        She loaded up the injured, her son and his nanny, and left Berlin.
+        The girl's mother loaded us down with the wealth of the village.
+        He loaded the gun with silver bullets. Werewolves beware!
+        Her eyes filled up as she loaded the weapon.
+        He loaded the film and began to shoot.
+        John loaded the punch with alcohol.
+        Ezra Pound loaded up each line of poetry with obscure literary
+        references.
+        To load the stakes even more, Jacobs bet his watch and the title
+        to his car.
+        Congress loaded the bill with useless provisions.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4,5</wn>   
+         <wn lemma="load_up" version="3.0">1</wn>
+         <wn lemma="load_down" version="3.0">1</wn>
+         <omega></omega><pb>load.01,load.02</pb>
+         <vn>spray-9.7-2</vn><fn>Filling,Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="2" name="BASEBALL: fill up first, second and third base " type="">
+      <commentary>
+      </commentary>
+      <examples>
+        DeJardin found himself battling his nerves when he loaded the
+        bases. 
+        He loaded the bases again in the fourth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="COMPUTERS: start up a saved program" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He loaded the program again; it took 2 minutes.
+        Once the program has loaded, scroll down a bit and you'll see the link.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey,greenlm" sample_score="-"/>  
+</inventory>

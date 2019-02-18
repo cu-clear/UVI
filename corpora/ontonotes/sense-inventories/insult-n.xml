@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="insult-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="intentionally rude gesture, speech, action" type="Event">
+        <commentary>
+            INSULT[+event][+gesture][+social][+rude][+intentional]
+        </commentary>
+        <examples>
+            The senator ignored the insults shouted from the crowd and continued to speak.
+            That hand gesture is considered an insult in this society.
+            She felt the article was a deliberate insult on her character.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>insult.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of injury to a body, thing" type="">
+        <commentary>
+            INSULT[+state][+physical][+injured][+of_entity]
+            Note: the insult is the injury itself, not the agent that caused it (Sense 3)
+        </commentary>
+        <examples>
+            The ballerina's feet showed the insults of years of dancing on point.
+            The old mill still stood despite the insults of broken windows and graffiti on the brick walls.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a harmful or injurious agent" type="">
+        <commentary>
+            INSULT[+relation][+role][+agent][+harmful][+to_body]
+            Note: the insult is a thing which causes the harm to something
+        </commentary>
+        <examples>
+            Reducing pollution and other environmental insults became a priority for them.
+            These toxins are serious insults to the functioning of red blood cells.
+            He endured the insults of a poverty-striken childhood and rose to prominence.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="anything perceived as worthless, contemptible" type="Event">
+        <commentary>
+            INSULT[+relation][+role][+worthlessness][+of_entity]
+            Note: somewhat softened, metaphoric usage of Sense 1.
+        </commentary>
+        <examples>
+            Their paltry offer for this beautiful house is an insult.
+            The moronic plot of the film was an insult to one's intelligence.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="make a bad situation even worse" type="">
+        <commentary>
+            IDIOM: add_insult_to_injury
+        </commentary>
+        <examples>
+            Mentioning John's new wife to Mary will only add insult to injury.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

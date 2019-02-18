@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="design-v">    
+   <commentary>
+       Syntax Includes:
+        NP1[agent] DESIGN NP2[patient] (PP{P NP[recipient])
+        NP1[agent] DESIGN NP2[patient] (PP{P NP[goal])
+   </commentary>
+   <sense group="1" n="1" name="create or invent, often via models or sketches" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+	Who designed these beautiful couture evening gowns?
+	Their firm designs custom chips for graphics applications.
+	A well-known architect actually designed the addition to their house.
+	Our form of government is designed around three main branches of power.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>design.01</pb>
+         <vn>create-26.4-1</vn><fn>Invention</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="concoct or scheme, contrive a plan" type="">
+      <commentary>
+       Syntax Is:	
+        NP1[agent[human]] DESIGN NP2[patient[abstract]] 
+      </commentary>
+      <examples>
+	He'd better design some excuse for why he is late again!
+	They fear insurgents are designing an overthrow of the king.
+	The child designed a way to sneak through the milk chute and get cookies from the neighbor's apartment.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>design.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="intend or have a purpose" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent[human]] DESIGN NP2[goal]
+	Note: often occurs in the passive with an implied subject.
+      </commentary>
+      <examples>
+	Mary's sister designs to go far in her field of research.
+        John designs to say that...
+        She designs to go down to the village.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,7</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>design.01</pb>
+         <vn>create-26.4-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

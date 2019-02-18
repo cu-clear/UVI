@@ -1,0 +1,112 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="double-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="increase or cause to increase" type="">  
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DOUBLE NP2[patient]
+        NP1[patient] DOUBLE PP
+        NP1[patient] DOUBLE ADVP
+       Includes: DOUBLE_UP
+      </commentary>
+      <examples>
+          That stock has doubled in price over the past six months.
+          They are doubling the security at the plant after last night's break in.
+          We'll have to double our effort to finish this project on time.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="double_up" version="3.0">3</wn>
+         <omega/><pb>double.01</pb>
+         <vn>other_cos-45.4</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="a two-base hit in baseball" type="">  
+      <commentary>
+      Syntax Is:
+       NP1[agent] DOUBLE[intransitive]
+      </commentary>
+      <examples>
+        Johnny doubled on his first time at bat.
+        The runner might have doubled if he hadn't stalled at first base.
+         The runner doubled due to an error by the shortstop. 
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="physically bend over or curl up" type="">  
+      <commentary>
+        Syntax Is:
+         NP1[patient] DOUBLE PP
+        Includes: DOUBLE_OVER, DOUBLE_UP
+      </commentary>
+      <examples>
+        The boy doubled in pain as the bullet struck him.
+        That comedy will have you doubling over with laughter.
+         I had to sort of double up to ride in the back of John's small car.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="double_over" version="3.0">1</wn>
+         <wn lemma="double_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="to function in two different roles or capacities" type="">  
+      <commentary>
+       Syntax Includes:
+        NP1[instrument] DOUBLE NP2[attribute] (and NP3[attribute])
+        NP1[actor[plural]] DOUBLE NP2[attribute] (and NP3[attribute])
+       Includes: DOUBLE_UP
+      </commentary>
+      <examples>
+        Mary doubles as the secretary and the treasurer of our club.
+        This pouch could double as my purse and a small suitcase.
+         Mary and I doubled up in one room because the hotel was already full.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="double_up" version="3.0">2</wn>
+         <omega/><pb>double.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="to make a bid or call in contract bridge" type="">  
+      <commentary>
+      Syntax Is:
+       NP[agent] DOUBLE NP[patient]
+      Note: patient is always cards
+      </commentary>
+      <examples>
+        Mary said 'I double hearts' to the bridge players at her table.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="to replicate or reproduce something" type="">  
+      <commentary>
+       Syntax Is:
+        NP[agent] DOUBLE NP[goal]
+      </commentary>
+      <examples>
+        Who could ever double the fantastic season the Red Sox had in 2004?
+        I've tried to double my grandmother's homemade biscuits, but they just aren't the same.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

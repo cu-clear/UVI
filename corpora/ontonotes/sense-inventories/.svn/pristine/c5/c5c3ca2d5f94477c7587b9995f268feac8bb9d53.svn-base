@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="suffer-v">    
+   <commentary>
+	Note: No VPCs to add to this file
+   </commentary>
+   <sense group="1" n="1" name="endure or experience a painful event" type="">  
+      <commentary>
+	Syntax is: NP1[sentient] SUFFER (NP2[topic]/[entity]) (PP[locative])
+      </commentary>
+      <examples> 
+	He suffered the ridicule of his classmates in junior high.
+	The child suffered a broken arm and a light concussion from the bicycle accident.
+        My mother suffers from arthritis.
+        Mary made Bob suffer through another silly pet film.
+        The team is putting on a brave face, but they are suffering from the defeat.
+        The doctor asked her if she was still suffering in her lower back.
+        Our shaggy dog suffers in the summer heat and humidity.
+       	He suffers from a tendency to criticize everything.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6,7,10,8,9</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>suffer.01</pb>
+         <vn>admire-31.2,marvel-31.3-4</vn><fn>Catastrophe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become worse or decline, show negative effects" type="">  
+      <commentary>
+	Syntax is: NP1[inanimate] SUFFER (PP[cause])
+	Note: the subject is a thing, not a sentinent being; subject cannot feel physical or emotional pain. 
+      </commentary>
+      <examples> 
+	Eating all that chocolate will make your complexion suffer.
+	These Japanese haiku suffer in translation.
+	Their revenues have suffered this past year from increasing competition in their vertical market.
+        The project suffered from lack of personnel resources and from poor timing.
+        The facilities suffered from deferred maintenance and poorly designed modifications.
+	Her designs suffer from too many angular lines.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,11</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>suffer.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="put up with something (unpleasant)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       I cannot suffer his constant criticism.
+       She doesn't suffer fools gladly.
+       He learned to suffer the heat.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>suffer.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

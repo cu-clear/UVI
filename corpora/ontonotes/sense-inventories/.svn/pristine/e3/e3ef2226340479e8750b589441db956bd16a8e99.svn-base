@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="elect-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="vote into an office" type="">  
+      <commentary>
+	Syntax Is:
+         NP[agent[plural]] ELECT NP[patient]
+      </commentary>
+      <examples> 
+	That politician is not likely to get elected next term.
+	They have elected three new members to the board of directors.
+	That country is electing its first president, after centuries of monarchy.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>elect.01</pb>
+         <vn>appoint-29.1</vn><fn>Change_of_leadership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="select or choose something" type="">  
+      <commentary>
+	Syntax Is:
+         NP[agent] ELECT 
+      </commentary>
+      <examples>
+       	You can elect to take that chemistry course either freshman or sophomore year.
+	I have elected not to roll my current CD over into another 13-month CD.
+	His children are electing to sell the family business and take their individual shares as cash.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Choosing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="confront-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Oppose or approach, as in hostility or competition" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] CONFRONT NP2[patient]
+        NP1[actor] CONFRONT NP2{actor}
+       Note: Hostile force may be abstract. 
+      </commentary>
+      <examples>
+     I'm going to have to confront the angry mob alone.
+     You must confront your opponent.
+     Jackson confronted Smith in the boxing ring.
+     The child screamed when confronted by the man in the costume.
+     The overweight man confronted the last donut.
+     </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>confront.01</pb>
+         <vn>confront-98</vn><fn>Confronting_problem,Hostile_encounter</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Approach someone else with an unpleasent issue, usu. to criticize" type="">
+      <commentary>
+       Syntax Is:
+        NP1[actor] CONFRONT NP2[actor] (PP NP3)
+         NOTE: does not imply that either NP is hostile or that a
+        confrontation will take place. 
+      </commentary>
+      <examples>
+      I'm going to have to confront Lucas about stealing my dollar.
+      We confronted him with the evidence.
+      He confronted her with his complaints.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>confront.01</pb>
+         <vn>confront-98</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="deal with something unpleasent head on" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] CONFRONT NP2[topic[abstract]]
+        NOTE: One argument is always abstract. This is a metaphorical usage
+        of sense 1. 
+      </commentary>
+      <examples>
+        We had never been confronted by such beauty.
+        Jara was confronted by complex moral decisions.
+        This is a problem most people hardly expect to confront.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>confront-98</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

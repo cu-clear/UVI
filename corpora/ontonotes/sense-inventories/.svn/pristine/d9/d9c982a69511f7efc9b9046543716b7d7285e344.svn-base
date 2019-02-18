@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="favorite-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="something or someone highly liked, popular" type="">
+        <commentary>
+            FAVORITE[+entity][+liked][+greatly]
+        </commentary>
+        <examples>
+            That tune is an old favorite from the 1930s.
+            Mary would not admit that she had a favorite among her nieces and nephews.
+            This story is one of my favorites by Edgar Allen Poe.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a competitor most likely to win" type="">
+        <commentary>
+            FAVORITE[+entity][+competitor][+winner][+probable]
+        </commentary>
+        <examples>
+            He was the early favorite to win the South Carolina caucuses.
+            The chestnut filly is the favorite to win the 2 and a quarter mile race.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

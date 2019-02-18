@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="notice-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="advance warning or notification of something" type="Event">
+        <commentary>
+            NOTICE[+event][+speech_act][+notification][+advance]
+        </commentary>
+        <examples>
+            Money market rates are subject to fluctuation without notice.
+            The tenant gave a month's notice that he would be moving out.
+            John is giving notice at work tomorrow.
+            The party was impromptu with very little notice given to the guests beforehand.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="observation, paying attention to something" type="Event">
+        <commentary>
+            NOTICE[+event][+perception][+observation][+attention]
+        </commentary>
+        <examples>
+            His sarcastic remarks did not escape our notice.
+            It's come to our notice that Johnny has been absent a lot from school.
+            Take no notice of the man standing behind the stage.
+            Her boss took notice of Sally's hard work on the project.
+            The young singer has attracted notice in places like London and New York.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,6</wn>
+            <omega/><pb>notice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a publicly accessible document that announces or advertises something" type="">
+        <commentary>
+            NOTICE[+artifact][+document][+public][+announcement]
+        </commentary>
+        <examples>
+            There was a notice on the library bulletin board about a poetry reading on Tuesday.
+            She reads the local paper mostly for the notices about upcoming social events.
+            The notice in front of the house indicated it would be up for auction next Saturday.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>notice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a personal document that requests you to fulfill an obligation" type="">
+        <commentary>
+            NOTICE[+artifact][+document][+request][+for_payment]
+        </commentary>
+        <examples>
+            John has received three overdue notices from the library.
+            Mary was surprised to get a notice for payment due from her dentist's office.
+            I got a notice for jury duty in the mail today.  (it's a summons to me)
+            The draft board sent out notices to 18-year-old men, requiring them to register for the draft.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>notice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a short critical review" type="">
+        <commentary>
+            NOTICE[+artifact][+document][+review][+critical][+brief]
+        </commentary>
+        <examples>
+            He only has time to read the notices and book reviews in his science journals.
+            The director received several good notices for his latest film.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

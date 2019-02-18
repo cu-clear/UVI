@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="departure-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="The act of leaving somewhere." type="Event">
+        <commentary>
+        DEPARTURE[+movement][+event]
+        </commentary>
+        <examples>
+        Her departure for Spain baffled us all.
+        I am scheduled for departure tomorrow.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>departure.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="A variation that deviates from the standard or from expectation." type="Event">
+        <commentary>
+        DEPARTURE[+unexpected]
+        </commentary>
+        <examples>
+        His departure from the plan made us all nervous.
+        We felt that any departure from regulations would be risky.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>departure.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="3" name="Euphemistic expression for death." type="Event">
+        <commentary>
+        DEPARTURE[+death]
+        </commentary>
+        <examples>
+        Thousands mourned his departure.
+        The departure of our dog left us grieving and alone.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

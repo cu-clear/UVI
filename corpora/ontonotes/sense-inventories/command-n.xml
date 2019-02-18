@@ -1,0 +1,110 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="command-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a verbal order, authoritative instruction" type="">
+        <commentary>
+            COMMAND[+action][+verbal][+instruction][+authoritative] 
+        </commentary>
+        <examples>
+            The officer gave the command to fire the missiles.
+            Mary's dog knows ten different commands.
+            Your wish is my command.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a functional military unit" type="">
+        <commentary>
+            COMMAND[+entity][+social][+group][+military][+unit]
+            Note: refers to individuals that comprise a group, not a state of authority (see Sense 3)
+        </commentary>
+        <examples>
+            He was part of a command to do reconnaissance in western Afghanistan. 
+            The colonel is greatly admired by the men in his command.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="playing an authoritative role, a state of control" type="">
+        <commentary>
+            COMMAND[+relation][+role][+leadership]
+            [+state][+social][+authority]
+        </commentary>
+        <examples>
+            The general has half a million troops under his command.
+            The soldier was court-martialled for leaving his command post without permission. (he was in charge)
+            The request was sent up the whole chain of command inside the Labor Department.
+            The co-pilot took command of the aircraft from the pilot. 
+            John is assuming command of daily operations in the manufacturing division of our firm.
+            Who is in command here?
+            The senator is trying to take command of the Democrats' political platform.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="mastery, skill, ability" type="">
+        <commentary>
+            COMMAND[+quality][+skill][+mastery]
+        </commentary>
+        <examples>
+            Mary has a good command of French.
+            These glassblowers display an amazing command of their medium.
+            The speaker didn't seem to have a command of his subject matter.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a computer program instruction" type="">
+        <commentary>
+            COMMAND[+entity][+symbolic][+instruction][+computer]
+        </commentary>
+        <examples>
+            John forgot to include commands to open the input and output files in his C program.
+            You can execute this shell script from the command line.
+            Type your login and password at the command prompts.
+            This command will shut down the computer.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

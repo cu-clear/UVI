@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="banking-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="what banks do" type="">
+        <commentary>
+	    BANKING[+event]
+	    engaging in the business of baking; maintaining savings and checking
+	    accounts and issuing loans and credit etc.
+	    </commentary>
+        <examples>
+            Banking one of many businesses that employs the use of mathematics.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>banking.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="what bank customers do" type="Event">
+        <commentary>
+	    BANKING[+event]
+	    transacting business with a bank; depositing or withdrawing funds or
+	    requesting a loan etc.
+	    </commentary>
+        <examples>
+            John does always does his banking two minutes before closing time.
+            Online banking is simple and convenient.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>banking.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,224 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="carry-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="transport, move, or extend (from X) (to Y)" type="">
+      <commentary>
+         Includes: CARRY AWAY, CARRY OFF, CARRY OVER, CARRY FORWARD, CARRY BACK
+
+         Note: X, Y can be location, state, or time 
+         Note: Movement is explicit or entailed.
+      </commentary>
+      <examples>
+         I can't carry all these bags into the house at once.
+         That player can really carry the ball!
+         Just carry the total from that column to this column.
+         For 68+57, I add 8 and 7 to get 15, that I put down 5 and carry 1.
+         Small plankton and shrimp are carried by the ocean currents.
+         The ambulance carried the injured athlete away this morning.
+         While traveling with her husband she was carried off by the centaur Nessus.
+
+         It is easy, however, to carry the argument too far.
+         The civil war carried into the neighboring province.
+         The news was carried by word of mouth to every settlement. 
+         His considerable fame carried him to Rome and Milan.
+         Her voice carries well in this big opera house.
+         Sound carries well over water.
+         I try not to let my problems at work carry over into my private life.
+
+         The news carried from village to village.
+         How do you carry forward the balance (good or bad) of the previouse month?
+         You cannot carry the credit back to taxation years that end before April 23, 2003.
+         It is possible to carry over the budget beyond the expected completion date. 
+         This rifle carries 3,000 feet (has a range of 3,000 feet).
+         The dog was taught to fetch and carry. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,8,9,16,17,19,28,29,30,32,35,36</wn>         
+         <wn lemma="carry_away" version="3.0">1</wn>
+         <wn lemma="carry_forward" version="3.0">1</wn>
+         <wn lemma="carry_back" version="3.0">1</wn>
+         <wn lemma="carry_off" version="3.0">2</wn>
+         <wn lemma="carry_over" version="3.0">1,2,3,4</wn>
+         <omega/><pb>carry.01</pb>
+         <vn>carry-11.4</vn><fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="have, contain, hold, or feature" type="">
+      <commentary>
+         Note: No movement of the carried thing entailed.
+      </commentary>
+      <examples>
+         He always carries a cane.
+         These jugs will carry our water supply.
+         How many people are carried on the payroll?
+         Do you carry karosene holders?
+         I will always carry his smile in my mind.
+         Darien's face carried frustration.
+         His opinion carries a lot of weight.
+
+         The crime carries a penalty of five years in prison.
+         This loan carries a high interest rate.
+         Citibank carries $150 million in earthquake insurance.
+         The restaurant is now carrying a new menu.
+         The morning news carried the press conference.
+         It was a candid story of an athlete, who carried a cause and succeeded.
+         His heart still carried scars from what Boyer had said about riders like him.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,7,10,12,14,15,18,21,22,25,26</wn>
+         <wn lemma="carry_weight" version="3.0">1</wn>
+         <omega/><pb>carry.01</pb>
+         <vn>cost-54.2,fit-54.3</vn><fn>Bringing, Bearing_arms</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="support, sustain, bear, or be responsible for" type="">
+      <commentary>
+         Syntax Includes:
+         NP1[agent] CARRY NP2[patient]
+      </commentary>
+      <examples>
+         The weight of the cathedral roof is carried by two rows of pillars.
+         The biology majors are carrying a heavy course load.
+         The middle class carried the largest tax burden for many years.
+         He resented having to carry his brother through years of illness.
+         He really drank more than he could carry.
+         This land will carry ten cows to the acre.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,20,24,31,33,34</wn>
+         <omega/><pb>carry.01</pb>
+         <vn>fit-54.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="win or be approved" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The senator will probably carry his home state.
+         He carried the crowd with his impassioned speech.
+         the troops carried the town after a brief fight.
+         The motion to nominate John as president carried easily.
+         She lost the game but carried the match.
+      </examples>
+      <mappings>
+         <wn version="3.0">11,23,27,37,38</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="behave or move in a certain manner" type="">
+      <commentary>
+         Includes: CARRY ONESELF
+      </commentary>
+      <examples>
+         He always carried himself with dignity.
+         Still carries herself with her trademark style.
+         You can tell she's a dancer from the way that she carries herself.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,13</wn>
+         <omega/><pb>carry.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="lose control of action, emotions, or behavior" type="">
+      <commentary>
+        Includes: CARRY AWAY, CARRY ON
+      </commentary>
+      <examples>
+        Sorry, I got carried away in the moment.
+        The crowd was carried away by his passionate speech.
+        The children have carried on all day!
+      </examples>
+      <mappings>
+         <wn lemma="carry_away" version="3.0">1</wn>
+         <wn lemma="carry_on" version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="achieve something successfully" type="">
+      <commentary>
+        Includes: CARRY A TUNE, CARRY OFF
+      </commentary>
+      <examples>
+        He can't, for his life, carry a tune.
+        I thought he carried off the part of Hamlet with great skill.
+        She was nervous about giving a talk, but she carried it off very well.
+      </examples>
+      <mappings>
+         <wn version="3.0">39</wn>
+         <wn lemma="carry_off" version="3.0">1</wn>
+         <omega/><pb>carry.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="continue or do something as desired or planned" type="">
+      <commentary>
+        Includes: CARRY ON, CARRY OUT, CARRY THROUGH
+        Includes: LIGHT VERBS
+      </commentary>
+      <examples>
+        Let's carry on this discussion at some other time.
+        You just have to carry on as if nothing's happened.
+        Daphne is carrying on the family tradition by becoming a lawyer.
+        We need solid plans to carry out this task properly.
+        Will it be possible to carry through the reforms as quickly as we hope?
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="carry_on" version="3.0">1,2,3</wn>
+         <wn lemma="carry_out" version="3.0">1,2</wn>
+         <wn lemma="carry_through" version="3.0">1</wn>
+         <omega/><pb>carry.02,carry.03,carry.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="be pregnant or continue to be pregnant" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        It was quite a shock to learn that she was carrying twins.
+        I was enormous when I was carrying Josh.
+        Most women who miscarry, will carry to term if they become pregnant again.
+      </examples>
+      <mappings>
+         <wn version="3.0">40</wn>
+         <wn lemma="carry_to_term" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="CARRY OFF: eliminate or decimate" type="">
+      <commentary>
+      Is: CARRY OFF
+      </commentary>
+      <examples>
+        He admitted that the disease carried off large numbers of persons.
+        In 1160, Saracens carried off the entire population of Porquerolles.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="carry_off" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="CARRY THROUGH: (cause to) endure or survive through hardship" type="">
+      <commentary>
+      Is: CARRY THROUGH 
+      </commentary>
+      <examples>
+        The soldiers' courage carried them through.
+        I force her to eat a snack at bedtime to carry her through the night.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="carry_through" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

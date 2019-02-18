@@ -1,0 +1,123 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="count-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an enumerated total number" type="">
+        <commentary>
+            COUNT[+quantity][+total][+enumerated][+of_collection]
+            Note: references a number, not the act of determining the number (Sense 2)
+        </commentary>
+        <examples>
+            The patient's white blood count seems lower than normal.
+            342 is the final count for people registered for the conference
+            The count to the batter is currently two balls and two strikes.  (a recalculated number after each pitch during baseball which represents number of balls and strikes)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>count.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of enumerating or tallying a total" type="Event">
+        <commentary>
+            COUNT[+event][+enumeration][+of_total]
+            Note: implies an agent or actor doing the enumeration
+        </commentary>
+        <examples>	
+            The teacher did a count of hands to see how many students wanted a take-home exam.
+            They did a second count of divers on the boat to make sure no one had been left in the water.
+            The party's only candidate was eliminated after the first count of votes.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>count.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="act of reciting numbers to time something" type="Event">
+        <commentary>
+            COUNT[+event][+speech_act][+recitation][+of_numbers][+sequenced][+as_timer]
+        </commentary>
+        <examples>
+            The dancers had to hold the pose for a count of seven.
+            The boxer did not get up again during the referee's count to ten.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a criminal charge against someone" type="">
+        <commentary>
+            COUNT[+event][+speech_act][+legal][+charge][+criminal]
+        </commentary>
+        <examples>
+            The man was arrested on two counts of assault and battery.
+            Each terrorist will be charged with 200 counts of first-degree murder.
+            They dropped one count of drunk driving against John.
+        </examples>
+        <mappings>
+            <wn version="MAC">3a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an issue or topic for consideration" type="">
+        <commentary>
+            COUNT[+information][+issue][+consideration]
+        </commentary>
+        <examples>
+            This program remains vulnerable on a number of counts.
+            On several counts, Bill would make a better CEO than Bob.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a European nobleman of equal rank with a British earl" type="">
+        <commentary>
+            COUNT[+person][+role][+nobleman][+european][+equal_to][+earl][+british]
+        </commentary>
+        <examples>
+            There were many dukes, counts and earls at the palace's grand ball.
+            The dashing Hungarian count bowed and kissed the lady's hand.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a measure of the density of woven fabric" type="">
+        <commentary>
+            COUNT[+quantity][+measure][+density][+of_fabric][+woven]
+        </commentary>
+        <examples>
+            The finer the yarn, the greater its count per length.
+            These fine Egyptian cotton sheets have a high thread count.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

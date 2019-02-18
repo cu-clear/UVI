@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flare-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="burn, shine" type="">  
+      <commentary>
+        Includes: FLARE UP
+        Syntax Is: NP1[concrete] FLARE (UP) (PP{P NP[location]})
+      </commentary>
+      <examples>
+        The bursting star suddenly flared to a brilliance equal to perhaps
+        400 billion suns!
+        A huge star suddenly flared up in the dark sky.
+        An unexpected brush fire quickly flared up directly across the
+        Colorado River.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="flare_up" version="3.0">1</wn>
+         <omega></omega><pb>flare.01</pb>
+         <vn>light_emission-43.1</vn><fn>Location_of_light,Light_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="erupt, appear suddenly" type="">
+      <commentary>
+        Includes: FLARE UP
+        Syntax Is: NP1 FLARE UP (ADVP)
+      </commentary>
+      <examples>
+        She flared up at the slightest provocation.
+        The argument flared up when he was rude to them.
+        The rheumatoid arthritis flared up after treatment discontinuation. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="flare_up" version="3.0">2</wn>
+         <omega></omega><pb>flare.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="become flared, widen gradually" type="">
+      <commentary>
+        Includes: FLARE OUT
+        Syntax Is: NP1[agent] FLARE OUT (NP2[patient])
+      </commentary>
+      <examples>
+        The legs flared out, giving the pants a bell-bottom look.
+        I tapered and flared out the bottom of my spindle into something of
+        an hourglass shape.
+        We put the smooth side out, bolted it on, flared out the edges by
+        the tires and painted it black.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="flare_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="link-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="discover a logical or causal connection; associate" type="">
+      <commentary>
+        Syntax Is: NP1[agent] LINK NP2[patient] (TO NP3[recipient])
+        Includes: LINK UP
+        Note: Unlike sense 2, sense 1 implies an establishment of a relation
+        between or among two or more entities. The entities mentioned MUST be related
+        in some relationship.
+        Note: NP1 is the actor that causes or does the linking.
+      </commentary>
+      <examples>
+        The report linked the North Korean government to state-directed crimes.
+        Police announced Tuesday that they had linked the shootings, including one that killed a woman.
+        Kevin Trenberth linked the severity of the 2004 hurricane season to global warming.
+        He and his colleagues linked the signs of demasculinization to lower phthalate exposures.
+        It linked up the Bin Laden and Bush families long before Fahrenheit 9/11.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="link_up" version="3.0">3</wn>
+         <omega/><pb>link.01,link.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="join or connect, as if by a chain" type="">
+      <commentary>
+        Includes: LINK UP
+        Note: In this sense, the linking does not at all imply a relationship between/among the 
+        entities linked. If there is a logical or causal relationship, then choose sense 1.
+        Note: This sense usually refers to electronic, technical, or physical joining
+        of two unrelated things by a third thing (a media; the link itself).
+      </commentary>
+      <examples>
+        A hallway linked the dining room to the kitchen.
+        The defendant linked the domain names to his own site.
+        It linked the phone system to the public-address system.
+        A canal was created that linked the Tiber to the sea.
+        The transportation ties that linked the town of Chicago with the communities of Will County.
+        J-Serve 2005 linked the Jewish community with the larger national &quot;weekend of service.&quot;
+        The site will be moved onto the public servers, and the domain name will be linked up.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="link_up" version="3.0">1,2</wn>
+         <omega/><pb>link.01,link.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,vieweg" sample_score="-"/>
+</inventory>

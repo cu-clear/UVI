@@ -1,0 +1,152 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dig-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to delve into, prod, and/or move around material" type="">
+      <commentary>
+       Note: Includes metaphorical uses. 
+       Syntax Is: 
+        NP1[agent] DIG NP2[patient]
+      </commentary>
+      <examples>
+        Marilyn loves to dig in the garden.
+        The boys are out back, digging for treasure.
+        A gold mining company is poised to dig at Ghana's Crater Lake
+        We dig the web so you don't have to.
+        Mark dug his elbow into her side, cutting her off mid-sentence.
+        The nurse dug into the wound, trying to remove the gravel.
+        With a contented sigh, she dug her heels into the sand.
+        The psychologist dug deeply into her subconscious.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,5,7</wn>
+         <wn lemma="dig_into" version="3.0">1</wn>
+         <omega/><pb>dig.01</pb>
+         <vn>hunt-35.1,poke-19</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create by digging" type="">
+      <commentary>
+       Note: Includes figurative uses.
+       Syntax Is:
+        NP1[agent] DIG NP2[patient]
+      </commentary>
+      <examples>
+        They dug his grave in the dead of night.
+        We thought we were building our dream house, but instead we were digging a money pit.
+        Start by digging a trench at one end of the plot.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="dig_out" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>create-26.4-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="excavate; uncover by or as if by digging" type="">
+      <commentary>
+        Includes: DIG OUT, DIG UP
+      </commentary>
+      <examples>
+        I dig potatoes after the vine is all dead.
+        Japanese archaeologists have dug up a 2100-year-old melon.
+        Property developers had dug up the remains of fourteen thousand cows.
+        So a few days later he dug up the gold and secretly buried it near the roadside.
+        He dug up secrets from her past and used them against her.
+        We dug all the coal by the end of the summer.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,6</wn>
+         <wn lemma="dig_out" version="3.0">2</wn>
+         <wn lemma="dig_up" version="3.0">1,2</wn>
+         <omega/><pb>dig.02,dig.03</pb>
+         <vn>hunt-35.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="escape by or as if by digging" type="">
+      <commentary>
+        Is: DIG OUT
+        Includes metaphorical uses.
+      </commentary>
+      <examples>
+        Survivors of the Phillipine typhoon are digging themselves out of the rubble.
+        In this 3-hour workshop, I explain how to dig yourself out of credit card debt.
+        Wal-Mart aims to dig out of soft sales performance.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="dig_out" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="entrench or invest oneself in a location or situation" type="">
+      <commentary>
+        Includes: DIG IN
+      </commentary>
+      <examples>
+        The troops dug in for the night.
+        Lebanon gunmen have dug in for a two-year battle.
+        Firefighters dig in at the Georgia swamp to combat the raging wildfire.
+        Stop talking. You're just digging yourself in deeper.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="dig_in" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="eat heartily" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        &quot;Dig in!&quot; she said, placing the steaming platter on the table.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="dig_in" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="notice, understand or appreciate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        &quot;Hey, dig the hair on that lady.&quot;
+        I really dig what you're saying.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="work hard and make (slow) progress" type="">
+      <commentary>
+        Is: DIG AWAY
+      </commentary>
+      <examples>
+        She dug away at the mountain of homework she had to finish.
+        I'm going to keep digging away at this book until it's over.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm" sample_score="-"/>
+</inventory>

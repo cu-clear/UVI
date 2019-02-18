@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="clump-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move along making a sound like horses hooves on the ground" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] CLUMP (PP[location])
+      NP1[theme] CLUMP (PP[location])
+      </commentary>
+      <examples>
+      She closed her eyes, and heard the hooves clumping against the cobblestones.
+      He heard his horse's hooves clumping as he galloped up the slope.
+      The horses' lumpy hooves clumped on the planks of that jetty.
+      The horse clumped to a halt.
+      The horse clumped out of the smithy with the new iron on his hoofs.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clump.01</pb>
+         <vn>run-51.3.2,sound_emission-43.2</vn><fn>Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="gather into a cluster" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent|cause] CLUMP NP2[patient|material] (PP[location]) (PP[product])
+      NP1[patient|material] CLUMP (PP[location]) (PP[product])
+      </commentary>
+      <examples>
+      The draconians did not leave the parade ground, but immediately clumped together.
+      Mosses clumped in untidy mats of hair.
+      But the snow kept falling, clumping on the wagon and wheels.
+      You must squeeze the bag first or the rice clumps together.
+      I washed it and it clumped the bread crumbs in the pan into a ball and they started on fire.
+      Her fists clumped the dirt into irregularly shaped balls.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clump.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="walk clumsily and heavily" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] CLUMP NP2[theme] (PP[location|direction])
+      NP1[theme] CLUMP (PP[location|direction])
+      </commentary>
+      <examples>
+      "Hurry up, man," he muttered, and clumped out of his office.
+      He clumped back through the control-room door into the corridor.
+      Pedro felt like an ox, clumping along.
+      He heard feet clumping, like the guys might be throwing themselves around a bit.
+      The Almost Dad clumps his feet more than Momma.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clump.03</pb>
+         <vn>run-51.3.2,sound_emission-43.2</vn><fn>Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

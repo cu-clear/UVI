@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="last-v">    
+   <commentary>
+   </commentary>
+    <sense group="1" n="1" name="continue to be available" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[inanimate] LAST (NP2[beneficiary]) (NP)
+        NP1[inanimate] LAST (NP2[beneficiary]) (PP[temporal])
+	Note: implies the subject NP is a quantity that is consumed over time.
+      </commentary>
+      <examples>
+         We brought enough food to last us a week.
+        Get a free watch with your purchase, while supplies last.
+        This snack will have to last you until dinner.  (suffice to meet your needs)
+        This bottle of shampoo only lasted (me) a week. 
+         These memories will last us a lifetime.  (figurative extension)
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>last.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exist, persist, live" type="">  
+      <commentary>
+         Syntax Includes:
+         NP1 LAST (PP[temporal])
+         NP1 LAST (NP2)
+         Note: implies the ongoing persistence of a single entity, the subject NP
+         Note: this sense does not occur with the optional recipient of Sense 1 above.
+        Includes: LAST OUT
+      </commentary>
+      <examples>
+        &quot;A person can last up to 30 days without food.&quot;
+        &quot;Trust me, you won't last a day in that job.&quot;
+        These cars are built to last.
+        &quot;These superstitions will last in the backwaters of America.&quot;
+        He doubts the new hire will last out the training program.
+        Their romance won't last.
+        The patient isn't expected to last the night.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>last.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, ahouston" sample_score="-"/>  
+</inventory>

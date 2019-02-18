@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="batter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="strike violently, usually causing damage" type="">
+      <commentary>
+        NOTE: for specific usage describing (domestic) abuse, use sense 2
+      Syntax Is:  NP1[agent] BATTER NP2[patient]
+        Note: Can include reflexive body parts (ie, you can batter yourself)
+        Includes metaphorical usage.
+      </commentary>
+      <examples>
+        The black-clad Spider-Man has battered his way to the man who gave the kill order.
+        The storm battered the tent.
+        I sat in bed, while wind and sleet battered against my window.
+        He went and he battered himself against the stone floor.
+        She triumphs, whether she has battered her head against a brick wall or met no resistance. 
+        The scandals have battered his reputation as an independent reformer.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>batter.01</pb>
+         <vn>hit-18.1-1</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="abuse" type="">  
+      <commentary>
+        NOTE: this is a subsense of sense 1, specific to abusive situations
+      Syntax Is:  NP1[agent[human]] BATTER NP2[patient[human]]
+      </commentary>
+      <examples>
+        He was heavily in debt when he battered his wife and four children to death.
+        Another borderline woman repeatedly battered her husband and had numerous affairs.
+        A man was arrested Saturday after he allegedly battered his girlfriend.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>batter.01</pb>
+         <vn>hit-18.1-1</vn><fn>Abusing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="coat food in a doughy substance before frying" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        You could batter the eggplant in a breadcrumbs and egg mixture.
+        I de-shelled, deveined, and battered the shrimp myself!
+        One at a time, batter the first four chiles.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>  
+</inventory>

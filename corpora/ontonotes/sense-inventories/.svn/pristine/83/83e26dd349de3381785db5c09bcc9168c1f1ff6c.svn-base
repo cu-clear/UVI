@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lick-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass the tongue over, take up with the tongue" type="">  
+      <commentary>
+        Includes: LICK UP
+        Syntax Is: NP1 LICK NP2
+      </commentary>
+      <examples>
+        As she moved, the dog licked her face.
+        The dog licked rancid sour cream off the asphalt.
+        John licked up the spilled milk from the garage floor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lick.01,lick.02</pb>
+         <vn>chew-39.2-1,touch-20-1,wipe_manner-10.4.1-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="beat thoroughly in a competition or fight" type="">
+      <commentary>
+        Syntax Is: NP1[agent] LICK NP2[patient]
+      </commentary>
+      <examples>
+        We licked the other team on Sunday!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="find the solution to or understand the
+         meaning of"
+         type="">
+      <commentary>
+        Syntax Is: NP1 LICK NP2
+      </commentary>
+      <examples>
+        The Vought-Sikorsky Company licked the problem, ingeniously and satisfactorily.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

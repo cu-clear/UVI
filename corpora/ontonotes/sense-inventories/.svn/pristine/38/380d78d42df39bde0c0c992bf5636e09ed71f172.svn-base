@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="corporation-n">
+    <commentary>
+        15sep06 update to WN2.1, added features, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="business" type="">
+        <commentary>
+            CORPORATION[+entity][+organization][+business][+legally_defined]
+            a business firm whose articles of incorporation have been approved in
+            some state
+        </commentary>
+        <examples>
+            I've invested in a large profitable corporation.
+            These corporations are publicly traded on the NYSE.
+            He started his own corporation a few years ago and now he is rich.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="2" name="potbelly, paunch" type="Slang">
+        <commentary>
+            CORPORATION[+entity][+structure][+anatomical][+belly][+large]
+            pot, potbelly, bay window, tummy - 
+            humorous slang term for a paunch
+        </commentary>
+        <examples>
+            His corporation was hanging over his pants.
+            All that beer has helped George to develop a corporation.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

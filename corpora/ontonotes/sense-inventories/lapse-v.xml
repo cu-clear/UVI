@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lapse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass into a state or condition" type="">  
+      <commentary>
+        Includes: LAPSE INTO
+        Syntax Is: NP1 LAPSE into NP2[predicate]
+      </commentary>
+      <examples>
+        Now he lapsed into suffering again as the dry argument was resumed.
+        As he could think of nothing more to say, he lapsed into silence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="end" type="">
+      <commentary>
+        Syntax Is: NP1 LAPSE
+      </commentary>
+      <examples>
+        Predictably, after the 1930s, the correspondence lapsed.
+        The correspondence lapsed for six years, and then revived after
+        Pound had been returned to the United States.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lapse.01</pb>
+         <vn>disappearance-48.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="backslide, retrogress" type="">
+      <commentary>
+        Includes: LAPSE INTO
+        Syntax Is: NP1 LAPSE (INTO) NP2
+      </commentary>
+      <examples>
+        He annoyed me when he lapsed into jargon.
+        A tendency to lapse into the barbarity of those northern nations
+        from whom we are descended.
+        Homer, in his characters of Vulcan and Thersites, has lapsed into
+        the burlesque character.
+        To lapse in fullness is sorer than to lie for need. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="let slip" type="">
+      <commentary>
+        Syntax Is: NP1[agent] LAPSE NP2
+      </commentary>
+      <examples>
+        If dues are not paid by the end of March then a member is deemed to
+        have lapsed their membership for that year.
+        In addition, 429 annual members have lapsed their membership who
+        were pay and play users of the gym and other facilities. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="elapse, pass time" type="">
+      <commentary>
+        Syntax Is: NP1 LAPSE
+      </commentary>
+      <examples>
+        However, if the predetermined period of time has lapsed, the
+        controller 208 checks whether the power saving mode is set or not.
+        It is conceivable that sufficient time had lapsed following voiding
+        of the calculus through the urethra for urinary tract infection to
+        have resolved.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>disappearance-48.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

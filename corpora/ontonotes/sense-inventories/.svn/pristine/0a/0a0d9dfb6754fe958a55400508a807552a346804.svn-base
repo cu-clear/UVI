@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recipe-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="instructions for making something, a concoction" type="">
+        <commentary>
+            RECIPE[+entity][+symbolic][+information][+instructions][+for_making][+concoction]
+        </commentary>
+        <examples>
+            Mary gave me her mother's recipe for lasagna.
+            This is an old family recipe for making mint juleps.
+            The recipe for the perfume Chanel No5 was smuggled out of France during WWII.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a procedure with a likely outcome" type="">
+        <commentary>
+            RECIPE[+activity][+procedure][+with_outcome][+likely]
+        </commentary>
+        <examples>
+            John's recipe for success is to never give up.
+            These speculative loans and high interest rates are a recipe for disaster.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a medical prescription" type="">
+        <commentary>
+            RECIPE[+entity][+symbolic][+information][+instructions][+prescription][+medical]
+            Note: archaic usage
+        </commentary>
+        <examples>
+            The chemist at the apothecary prepared several recipes in the back room.
+            It is an old recipe for treating rheumatism.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

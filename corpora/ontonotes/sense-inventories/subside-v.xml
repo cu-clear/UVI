@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="subside-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="wear off; die down" type="">
+      <commentary>
+        Syntax is: NP1[abstract] SUBSIDE
+                   NP1[theme] SUBSIDE
+
+      </commentary>
+      <examples>
+        The pain subsided.
+        Mark's horrible fear of death subsided as the car drove away.
+        Tenses with Syria have subsided.
+        Has racism subsided or increased in America?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>subside.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="sink to a lower level; descend" type="">
+     <commentary>
+       Syntax is: NP1[theme,concrete] SUBSIDE (PP[concrete])
+     </commentary>
+     <examples>
+       If you buy a house that was build on soil that has subsided, beware
+       of foundation cracks.
+       The flood waters have subsided from the neighborhood.
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0">2,3,4</wn>
+        <wn lemma="" version="3.0"></wn>
+        <omega></omega><pb></pb>
+        <vn>other_cos-45.4</vn><fn>NP</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>
+   </inventory>

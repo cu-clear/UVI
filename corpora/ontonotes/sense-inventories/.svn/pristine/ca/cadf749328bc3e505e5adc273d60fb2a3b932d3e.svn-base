@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tour-n">
+    <commentary>
+        6Mar07 updated to wn 2.1, added features. ahouston
+        8Mar07 - added sense 4, added abstract (intellectual) examples to sense 1. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="pleasurable journey or exploration of a region, domain" type="Event">
+        <commentary>
+	    TOUR[+event][+activity][+trip][+exploration][+pleasurable][+physical][+activity][+trip][+exploration][+pleasurable][+intellectual]
+	    a journey or trip for pleasurable exploration of something
+	    </commentary>
+        <examples>
+            John's parents paid for his grand tour of Europe after his graduation from college.
+            We took a six-day coach tour of the island.
+            Our guide gave us a tour of the early Mesopotamian collection.
+            This book provides an introductory tour of 20th century American fiction.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>tour.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="dutiful or critical inspection of something" type="Event">
+        <commentary>
+	    TOUR[+event][+activity][+trip][+inspection][+critical]
+	    an inspection, done in the context of work, often a regular round.
+	    </commentary>
+        <examples>
+            The general took a tour of the new base this afternoon.
+            The head nurse made her usual evening tour of the patients in the west wing of the hospital.
+            The pilot's tour of the outside of his aircraft, prior to a departure, is a critical safety check.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="period of duty in military service" type="">
+        <commentary>
+	    TOUR[+event][+time][+period][+service][+military]
+	    a period of time spent in military service
+	    </commentary>
+        <examples>
+            Those marines just finished a second tour of duty in Iraq.
+            Bob's brother signed up for a four-year tour with the Navy.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a series of geographically distributed performances" type="Event">
+        <commentary>
+            a series of performance or competitive events which occur in different locations, but together comprise a whole.
+            TOUR[+event][+series][+distributed][+geographically][+performance][+competition][+sports]
+            TOUR[+event][+series][+distributed][+geographically][+performance][+competition][+golf]
+            TOUR[+event][+series][+distributed][+geographically][+performance][+theatrical][+musical]
+            TOUR[+event][+series][+distributed][+geographically][+performance][+theatrical][+dramatic]
+        </commentary>
+        <examples>
+            Their rock band is getting ready for a big tour of American cities.
+            He used to play on tour as a professional golfer.
+            That operatic group is on tour from Italy.
+            John follows the major tennis tours.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/>
+            <pb>tour.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

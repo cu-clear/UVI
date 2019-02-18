@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rainfall-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="amount of rain that falls in a region in a time span" type="">
+        <commentary>
+            RAINFALL[+quantity][+amount][+rain][+within_region][+in_time_period]
+        </commentary>
+        <examples>
+            This desert gets less than 2 inches of rainfall per year.
+            The annual rainfall in this tropical forest exceeds 100 inches.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

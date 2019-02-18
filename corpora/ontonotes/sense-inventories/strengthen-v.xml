@@ -1,0 +1,34 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="strengthen-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to fortify,reinforce, make strong" type="">
+      <commentary>
+        Syntax is: NP1[agent] STRENGTHEN NP2[patient]
+      </commentary>
+      <examples>
+	The trade agreement strengthened ties between the nations.
+        The good nutrition will help to strengthen his immune system.
+        These additives strengthen the steel.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,3</wn>
+	 <omega/><pb>strengthen.01</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_change_of_strength</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="gain strength or resilience" type="">
+      <commentary>
+        Syntax is: NP1 STRENGTHEN (PP[instrument])
+      </commentary>
+      <examples>
+        The hurricane strengthened over the ocean.
+        The town's opposition to the new mall is strengthening.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2</wn>
+	 <omega/><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

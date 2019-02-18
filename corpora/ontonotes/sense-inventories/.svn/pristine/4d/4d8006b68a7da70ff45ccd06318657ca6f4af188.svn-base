@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chip-v">    
+   <commentary>
+   Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="Cut at or be cut at, possibly incidentely removing small pieces." type="">  
+      <commentary>
+      Includes: CHIP AT, CHIP OFF
+      Note: Nothing new is formed by the chipping action; compare to Sense 3.
+      </commentary>
+      <examples>
+      Her tooth chipped.
+      The boys chipped at the surface of the tree with pocketknives.
+      A big chunk of her knee joint chipped off.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5</wn>   
+         <wn lemma="chip_at" version="3.0">1</wn>
+         <wn lemma="chip_off" version="3.0">1</wn>
+         <omega></omega><pb>chip.01</pb>
+         <vn>break-45.1,carve-21.2-1,cut-21.1-1,hurt-40.8.3-1-1</vn><fn>Cause_to_fragment,Damaging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Play a chip shot, as in golf." type="">
+      <commentary>
+      Includes: CHIP AT
+      </commentary>
+      <examples>
+      Woods chipped a couple of great shots during the tournament.
+      The golfer, upset, violently chipped at the ball before finally
+      putting it on the green.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Form or engrave by chipping." type="">
+      <commentary>
+      Includes: CHIP AT
+      </commentary>
+      <examples>
+      They chipped their names in the stone.
+      It's not proper to chip one's name into trees, Jimmy.
+      He chipped at the stone until it resembled a horse. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="chip_at" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="CHIP AWAY (AT): remove or withdraw
+         gradually in prominence or function." type="">
+      <commentary>
+      Is: CHIP AWAY (AT)
+      Syntax Is: NP1[agent] CHIP AWAY (AT) NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      These new customs are chipping away at the general quality of life.
+      He chipped away at ad agency compensation.
+      Current US policies chip away national and international security.   
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="chip_away" version="3.0">1</wn>
+         <wn lemma="chip_away_at" version="3.0">1</wn>
+         <omega></omega><pb>chip.01</pb>
+         <vn>NM</vn><fn>Damaging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="CHIP IN: contribute to some cause." type="">
+      <commentary>
+      Is: CHIP IN
+      </commentary>
+      <examples>
+      I chip in at the office, don't I?
+      A local politician has been chipping in at Little League.
+      All of my friends chipped in and paid for my birthday dinner. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="chip_in" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="yield-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="an amount of physical product or commodity" type="">
+        <commentary>
+            YIELD[+quantity][+product]
+            Note: tangible goods, an amount of a commodity
+        </commentary>
+        <examples>
+            The yield from my apple tree this year was three barrels.
+            The farmers had a very low yield because of the prolonged drought.
+            Potential yields of sweet crude from this region of land make the cost of exploration worthwhile.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="the payoff or return of a financial investment" type="">
+        <commentary>
+            YIELD[+abstract][+income]
+        </commentary>
+        <examples>
+            The yield to maturity on those bonds is only 3 per cent.
+            John expects higher yields from his overseas investments.
+            The yield curve indicates a strong economic quarter ahead.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="the measure of production capacity over time" type="">
+        <commentary>
+            YIELD[+quantity][+capacity]
+            Note: a measure of production over time
+        </commentary>
+        <examples>
+            The yield of that old mill is only half of what the new one can achieve.
+            A contaminant in our clean room was responsible for the yield reduction of microchips.
+            They increased the yield by putting three shifts on the assembly line.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="declaration-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="A formal statement with legal or social importance." type="Event">
+        <commentary>
+        DECLARATION[+legal][+public]
+        </commentary>
+        <examples>
+        His declaration of innocence rattled the court.
+        The government has made a declaration in the matter.
+        A declaration of independence resounded throughout the land.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,5,6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="(Customs) A statement of taxable goods." type="Event">
+        <commentary>
+        DECLARATION[+customs][+event] 
+        </commentary>
+        <examples>
+        I made a declaration of several items in my bag.
+        My declaration was several pages long. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="(Contract bridge) the highest bid becomes the contract setting in the number of tricks that the bidder must make." type="Event">
+        <commentary>
+        DECLARATION[+card_game][+event] 
+        </commentary>
+        <examples>
+        The player made a declaration.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

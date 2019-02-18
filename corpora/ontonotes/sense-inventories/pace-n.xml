@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pace-n">
+    <commentary>
+        Revised PENN file
+        Merged groups 1 and 3, merged groups 2 and 4, added two additional senses
+        Added features, modified examples, added commentary. ahouston
+        26sep06 added dummy sense 3, dummy sense 4. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the rate or tempo of an activity" type="">
+        <commentary>
+            tempo or relative rate of change
+            PACE[+quantity][+rate][+tempo]
+        </commentary>
+        <examples>
+            As the pace of the music increased, Sally ran faster.
+            Mary thinks modern life is lived at too fast a pace.
+            He rode the horse around the ring at an easy, relaxed pace.  (rate of walking)
+            The speaker picked up the pace of his talk when he realized he had only five minutes remaining.
+            The costs have risen because supplies have not kept pace with demand.
+            They worked at a great pace to finish the project.
+            The pace of developments has accelerated in recent days.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>pace.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a unit of distance, approximately equal to a human stride" type="">
+        <commentary> footstep, step, stride - 
+            the length of a step, distance covered by a step
+            PACE[+quantity][+length][+stride][+foot/+centimeter]
+        </commentary>
+        <examples>
+            He stepped off ten paces from the old tree and began to dig.
+            She stepped back a pace to let them through the line.
+            The child made three paces to each pace of her father.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="an exercise of skill and training" type="">
+        <commentary>
+            Idiom: put_through_one's_paces
+            Note: always in the plural
+            PACE[+activity][+exercise][+skill]
+        </commentary>
+        <examples>
+            The trainer put the tiger through his paces in the ring.
+            That math camp really puts the students through their paces.
+        </examples>
+        <mappings>
+            <wn version="MW online">4a</wn>
+            <omega/>
+            <pb>pace.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="first place in a competition" type="">
+        <commentary>
+            PACE[+relation][+position][+first][+competition]
+            Note: a narrow extension of Sense 1, implies a best rate or tempo in a competition
+        </commentary>
+        <examples>
+            At the swim meet, Bob was four strokes off the pace.
+            A relatively unknown runner has set the pace during the first hour of the marathon.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

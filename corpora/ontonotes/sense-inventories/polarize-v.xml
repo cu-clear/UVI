@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="polarize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become polarized (in contrast or conflict)" type="">  
+      <commentary>
+        Syntax Is: NP1 POLARIZE (NP2)
+      </commentary>
+      <examples>
+        The debate has polarized the camps, reviving the age-old divide
+        between East and West.
+        The groups polarized in 1973.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>polarize.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to vibrate in a different pattern" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Basically, all light waves can be polarized (made to wobble only along a certain plane).
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

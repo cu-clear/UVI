@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deny-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="declare untrue, refuse to accept" type="">  
+      <commentary>
+       Syntax Is:
+        NP1 DENY 
+        NP1 DENY NP2
+        Note: NP2 is referring to the accusation, or the action one is accused of
+      </commentary>
+      <examples>
+        He denied that he had taken money.
+        The explorer denied the allegations that he entered restricted airspace.
+        The accused man denied his participation in the riot.
+        The government has denied all responsibility for the killings.
+        The boy denies breaking the window.
+        She denies her emotions because she just can't handle it.
+        He denies his own failure as a salesman.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,6</wn>   
+         <omega/><pb>deny.01</pb>
+         <vn>conjecture-29.5-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="refuse to grant or allow" type="">
+      <commentary>
+        Includes: DENY ONESELF
+      </commentary>
+      <examples>
+        Her request for time off work was denied.
+        No one should be denied a good education.
+        The goalkeeper denied him his third goal.
+        I was denied the opportunity of learning French at school.
+        Many parents deny themselves so that their children can have the best.
+        Willy denied himself of the pleasure of using his hands to make a living.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5</wn>
+         <omega/><pb>deny.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="disavow belief or association" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Even under torture, he refused to deny his beliefs.
+        She has denied her family and refuses to have any contact with them.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>deny.01</pb>
+         <vn>conjecture-29.5-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,brownsw" sample_score="-"/>  
+</inventory>

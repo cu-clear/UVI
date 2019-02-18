@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="debt-n">
+    <commentary>
+        18Jun08 - modified sense definitions, added features, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the legal state of owing money" type="">
+        <commentary>
+	    DEBT[+event][+state][+legal][+owing][+money]
+	    Note: usually in the phrases 'in debt' 'out of debt'
+	    </commentary>
+        <examples>
+            He went deeply in debt to buy that house.
+            It took George fifty years to get out of debt.
+            The corporation is heavily in debt and may file for bankruptcy.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="amount of money owed" type="">
+        <commentary>
+            DEBT[+quantity][+money][+owed]
+            Note: can occur in the plural (unlike Sense 1)
+        </commentary>
+        <examples>
+            Their national debt has exceeded ten billion dollars.
+            She's managed to pay off her debts a little each month. (the amounts owed)
+            He lay awake at night thinking about his mounting debts to the mob.
+            They are proposing a new approach to pay off the Third World debt.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="feeling of gratitude or thanks" type="">
+        <commentary>
+	    DEBT[+event][+state][+emotional][+gratitude]
+	    </commentary>
+        <examples>
+            We owe them a debt of thanks for their hard work on this event.
+            He felt a debt to his parents for all the sacrifices they had made for him.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <!--  -->
+    <WORD_META authors="ajarrett hertlerb" sample_score=""/>
+</inventory>

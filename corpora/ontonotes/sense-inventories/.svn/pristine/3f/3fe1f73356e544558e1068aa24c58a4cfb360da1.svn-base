@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="detail-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="specific facts related to an event" type="">
+        <commentary>
+            DETAIL[+event][+occurrence][+actual]
+            Note: implies truth or falsity of the detail, different from sense 2
+        </commentary>
+        <examples>
+            The police asked her about the details of the incident
+            The reporter got the details of the story wrong.
+            There is one small detail he forgot to mention.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="small subordinate components of larger structures" type="">
+        <commentary>
+            DETAIL[+structure][+component][+subordinate][+small]
+            Note: focus is on the role of being a small component of something bigger.
+            Note: the detail is a thing in itself, not a fact about something.
+        </commentary>
+        <examples>
+            This diagram is a detail of the right ventricle of the human heart.
+            The faces in this fresco are drawn in fine detail.
+            I have too many details to attend to at work these days.
+            This job requires meticulous attention to detail.
+            Mary admired the ornamental details on the facade of the building.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an extended account or description" type="">
+        <commentary>
+            DETAIL[+activity][+account][+extended]
+            Note: focus is on the activity of telling about the event (different from Sense 1)
+            Note: often occurs in the adverbial phrase 'in detail'
+            Note: does not occur in the plural. 
+        </commentary>
+        <examples>
+            The book describes the storm at sea in great detail.
+            He told me about his operation in gory detail.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="small task force" type="">
+        <commentary>
+            DETAIL[+group][+unit][+task][+small]
+        </commentary>
+        <examples>
+            The minister was always surrounded by a detail of security officers.
+            The commandos sent out a detail that night to do reconnaissance on the enemy.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an assigned duty or ask" type="">
+        <commentary>
+            DETAIL[+activity][+task][+duty][+assigned]
+            Note: usually preceded by modifier describing the type of task.
+        </commentary>
+        <examples>
+            The sergeant assigned three privates to cleanup detail.
+            At camp my work detail was to pitch the tents.
+        </examples>
+        <mappings>
+            <wn version="MAC">2b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

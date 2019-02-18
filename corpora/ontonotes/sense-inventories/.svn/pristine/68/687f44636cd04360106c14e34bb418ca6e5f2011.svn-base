@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="harm-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of physical trauma or injury" type="Event">
+        <commentary>
+            HARM[+state][+trauma][+injury]
+        </commentary>
+        <examples>
+            Shaking an infant can cause serious harm to its neck and head.
+            The contaminated pet food was causing harm to both cats and dogs.
+            John's prank was not intended to inflict bodily harm to Pete.
+            The fertilizer runoff is causing harm to the marine environment. (marine life)
+            The bicyclist picked himself off the ground and said no harm was done. (no injury)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="material damage to an artifact" type="Event">
+        <commentary>
+            HARM[+event][+damage][+material]
+        </commentary>
+        <examples>
+            Putting gasoline into a diesel engine can do real harm to it.
+            Harm to the aircraft's rudder during take-off may have caused the crash.
+            Mary put the fragile vase on a high shelf to keep it out of harm's way. (accident)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a worse outcome, an ill effect" type="Event">
+        <commentary>
+            HARM[+state][+outcome][+ill_effect]
+        </commentary>
+        <examples>
+            Some economists believe the bailout will do more harm than good.
+            Getting out and socializing more would not do Bob any harm.
+            Her remark was a bit thoughtless, but she meant no harm by it.
+            Apparently no harm was done to his campaign by this latest allegation.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

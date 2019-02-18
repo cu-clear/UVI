@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="victim-n">
+    <commentary>
+        Includes idiom: fall_victim_to
+    </commentary>
+    
+    <sense group="1" n="1" name="an unfortunate person, one afflicted with adversity" type="">
+        <commentary>
+            VICTIM[+individual][+person][+afflicted][+adversity]
+            Note: does -not- always imply a cognitive agent behind the adversity against the victim
+        </commentary>
+        <examples>
+            These people do not view themselves as victims of poverty.
+            The murder victim was found in a dumpster behind the shopping mall.
+            His younger brother was the victim of a drunk driver.
+            She has been a frequent victim of the press lately. (criticized by the media)
+            Don't become a victim of identity theft.
+            Her mother became a victim of schizophrenia. 
+            These orphans are the victims of war.
+            The only victims in this legal dispute are the taxpayers.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a person who is swindled, duped or conned" type="">
+        <commentary>
+            VICTIM[+person][+cheated][+swindled/+duped/+conned]
+            Note: implies the victim did not initially realize what would transpire
+            Note: always implies a cognitive agent behind the act against the victim
+        </commentary>
+        <examples>
+            Mary was a victim of an Internet scam.
+            John was the victim of our good-natured hoax.
+            The elderly, in particular, are the victims of these con artists.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="one who is sacrificed, killed, in a religious ritual" type="">
+        <commentary>
+            VICTIM[+individual][+sacrificed][+ritual][+religious]
+            Note: implies the victim is aware of the events about to transpire
+            Note: always implies a cognitive agent behind the act against the victim
+        </commentary>
+        <examples>
+            The Aztecs cut the hearts out of their sacrificial victims.
+            The culmination of an auto-da-fe was usually the burning of the victim at the stake. (ceremonial execution)
+            &quot;Who wants to be my next victim?&quot;, the school nurse asked with a smile. (humorous extension)
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="be damaged, harmed or destroyed by" type="">
+        <commentary>
+            idiom: fall_victim_to
+        </commentary>
+        <examples>
+            Their company fell victim to poor management and increased competition from overseas.
+            He was determined not to fall victim to the same vices that had destroyed his father.
+        </examples>
+        <mappings>
+            <wn version="MAC">fall_victim_to</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

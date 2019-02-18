@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="subscribe-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pay an amount of money or receive something regularly" type="">  
+      <commentary> 
+        Includes: SUBSCRIBE TO
+      </commentary>
+      <examples>
+        Are you subscribed to the About Web Design newsletter?
+        More than 200,000 viewers subscribed to the site.
+        I haven't subscribed to the Economist in years.
+        Have you ever subscribed to a Ladies' Charity in London?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>   
+         <wn lemma="subscribe_to" version="3.0">1</wn>
+         <omega></omega><pb>subscribe.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="adopt as a belief" type="">
+      <commentary>
+        Includes: SUBSCRIBE TO
+      </commentary>
+      <examples>
+        As a youth he subscribed to Descartes's belief that body and mind
+        are separate.
+        Zhang subscribed to Mencius's assertion that human nature is good. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>subscribe.01</pb>
+         <vn>NP</vn><fn>Religious_belief</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="offer to buy stocks or shares" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The owners of PMsoft Korea subscribed the shares from Business
+        Wire.
+        More than fifty persons have subscribed 5k shares of the stock.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>subscribe.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="mark with one's signiture" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He neither could write nor subscribe the letter produced as
+        the will of Alexander Anderson. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

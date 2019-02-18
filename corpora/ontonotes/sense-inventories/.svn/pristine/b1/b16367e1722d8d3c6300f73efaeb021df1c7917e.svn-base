@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rack-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="torture, plague, or defeat something" type="">  
+      <commentary>
+        Syntax is: NP1 RACK NP2[patient[concrete]]
+        Includes: RACK UP 
+      </commentary>
+      <examples>
+        A convulsive shudder racked the healer's unsymmetrical frame.
+        Pain had racked the nervous system of the horse and he had begun to
+        grow weak.
+        His book provides the most complete account of the insurgency that
+        has racked the Indian-controlled portion of the country.
+        Bullets racked the side of the ship.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">8,11</wn>   
+         <wn lemma="rack_up" version="3.0">3</wn>
+         <omega></omega><pb>rack.03</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="strain in mental effort" type="">
+      <commentary>
+        Syntax is: NP1[agent[human]] RACK NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        I racked my brain trying to figure out a way of escape.
+        Johann racked his memory for the queen's name.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>rack.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="go to, place on, work on, or supply a rack (with)" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RACK NP2[theme[concrete]]
+        NP1[theme[concrete]] RACK 
+        Includes: RACK UP
+      </commentary>
+      <examples>
+        He racked the pool balls into the diamond and then took his cue from its
+        case.
+        If a rifle is to be racked, the rifle barrel is inserted in the brackets.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,9</wn>
+         <wn lemma="rack_up" version="3.0">2,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="fly or run in a high wind" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="draw off (cider, wine, beer) from the lees" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The less alcohol the beer contains when you rack it, the more sugar
+        it'll have.
+        During barrel aging, we racked the wine off its lees with a siphon.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="NAUTICAL: seize together, as of parallel ropes" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No Examples Found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="RACK UP: gain points or other achievements" type="">
+      <commentary>
+        Is: RACK UP
+      </commentary>
+      <examples>
+        The Orioles racked up points in the first inning.
+        My daughter just racked up academic letters in high school.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="rack_up" version="3.0">1</wn>
+         <omega></omega><pb>rack.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

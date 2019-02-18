@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="welter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be immersed in" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] WELTER NP2[location]
+      NP1[location] WELTER NP2[theme]
+      </commentary>
+      <examples>
+      Hussein weltered in blood and dust for the sake of truth.
+      English, French, and Indians weltered in seas of blood.
+      Geologic monsters weltered in the primal deep.
+      He weltered here in the sunny ooze.
+      He an imagination which welters in impotence.
+      The water 'neath welkin weltered with gore.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>welter.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

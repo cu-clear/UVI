@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="log-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="segment of a tree trunk" type="">
+        <commentary>
+            LOG[+structure][+component][+segment][+of_trunk][+tree]
+        </commentary>
+        <examples>
+            What looked like a log in the water was actually an alligator.
+            The trucks were loaded with logs, headed for the sawmill.
+            Logs and branches were strewn in the road after the storm.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the exponent of a base number required to produce a given number" type="">
+        <commentary>
+            LOG[+quantity][+exponent][+required][+by_base_number][+to_produce][+given_number]
+        </commentary>
+        <examples>
+            The natural log of e is 1.
+            Find the log of 120 in base 10.
+            This old math book has log tables listed in the back in Appendix A.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a record of messages or events" type="">
+        <commentary>
+            LOG[+artifact][+document][+record][+of_events]
+        </commentary>
+        <examples>
+            Mary kept a log of her body temperature in order to track ovulation times.
+            The captain recorded their progress and position hourly in the ship's log.
+            The court has issued subpoenas for the company's email logs.
+            The operating system keeps several logs automatically on database activities.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an instrument for measuring the speed of a ship through water" type="">
+        <commentary>
+            LOG[+artifact][+instrument][+measuring][+of_speed][+of_ship]
+        </commentary>
+        <examples>
+            This float with a knotted line is known as a log and measures a ship's speed by dropping segments of line in the water and measuring the corresponding time.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

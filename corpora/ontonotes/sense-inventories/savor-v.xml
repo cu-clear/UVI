@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="savor-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="enjoy, taste appreciatively" type="">  
+      <commentary>
+        NP1[+animate] SAVOR NP2
+      </commentary>
+      <examples>
+        As for success, he savored it as much as the next man.
+        While ashore, he savored unusual foods with the locals.
+        She savored every small pleasure and studied every natural beauty. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>savor.01</pb>
+         <vn>admire-31.2,sight-30.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="taste of" type="">
+      <commentary>
+        NOTE: Includes metaphorical uses.
+
+        NP1[-animate] SAVOR of NP2[-animate/-concrete]
+      </commentary>
+      <examples>
+        In the twentieth century this treatment savors of barbarism.
+        This soup savors of lemon.
+        Everything about it savors of the unknown.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="give flavor to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

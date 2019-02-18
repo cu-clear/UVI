@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="window-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a transparent panel to see through" type="">
+        <commentary>
+            WINDOW[+entity][+artifact][+pane][+transparent][+glass/+plastic]
+        </commentary>
+        <examples>
+            John's house has large bay windows looking out over the sea.
+            We rolled down the car windows to smell the sea breeze.
+            Mary admired the dresses in the display window of that shop.
+            The envelope had a window through which the address could be seen. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a service opening in a wall, e.g., ticket window" type="">
+        <commentary>
+            WINDOW[+structure][+wall][+opening][+service]
+        </commentary>
+        <examples>
+            I was directed to the second bank teller's window.
+            We stood in line at the ticket window for about fifteen minutes.
+            Sally got directions to a toy store at the information window in the mall.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4,7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an interval, range, as of time or frequency" type="">
+        <commentary>
+            WINDOW[+quantity][+interval][+time/+frequency]
+        </commentary>
+        <examples>
+            The launch window for the Mars probe was only three days.
+            There is a window of electromagnetic wavelengths for which the earth's atmosphere is transparent. (they pass through it)
+            We must act before our window of opportunity is gone.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a rectangular display on a computer screen" type="">
+        <commentary>
+            WINDOW[+entity][+artifact][+display][+region][+rectangular][+computer]
+        </commentary>
+        <examples>
+            The earliest computers had no windows, only alphanumeric text on a terminal.
+            Mary brought up a new window and typed in the command to start the application.
+            Sally decided to close some of the windows on her desktop display.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="metallic strips or chaff dispersed in the air to obstruct radar detection" type="">
+        <commentary>
+            WINDOW[+entity][+artifact][+chaff][+metallic][+airborne][+obstruction][+radar]
+        </commentary>
+        <examples>
+            The bomber dispersed a window in order to avoid detection by enemy radar.
+            The jet's window confused the surface-to-air missile and it missed its target.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

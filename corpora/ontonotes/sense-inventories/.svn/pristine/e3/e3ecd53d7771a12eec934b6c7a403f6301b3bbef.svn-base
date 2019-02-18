@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="decrease-n">
+    <commentary>
+        9Mar07 - updated to wn2.1, added features. ahousotn
+        11Mar07 - changed examples, changed commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the process of becoming less or smaller" type="Event">
+        <commentary>
+	    DECREASE[+event][+process][+reduction][+size/+degree/+amount]
+	    Refers to an ongoing process or event of reduction, not a relative measurement (Sense 2)
+	    </commentary>
+        <examples>
+            Something had caused a sudden and rapid decrease in the cabin pressure of the aircraft.
+            The number of violent crimes in these cities has been on the decrease for three years. 
+            They cancelled the town picnic due to a decrease of participation by locals.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>decrease.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a quantity, a measure of reduction" type="Abstraction">
+        <commentary>
+            DECREASE[+quantity][+measurement][+relative][+reduced]
+            Refers to a measurement  which is smaller relative to previous measurements  
+        </commentary>
+        <examples>
+            The employees had to take a 10% decrease in pay this quarter.
+            The decreases in ocean temperature reported in that study confirm other reports.
+            The teacher hadn't expected such a large decrease in attendance during the last month of class.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>decrease.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Senses 1 and 2" type="Event">
+        <commentary>
+            Choose this option when senses 1 and 2 are being used simultaneously.
+        </commentary>
+        <examples>
+            The decrease in oil prices was both large and rapid.
+            The decrease in calcium was gradual and difficult to measure. (difficult, not impossible)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>decrease.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

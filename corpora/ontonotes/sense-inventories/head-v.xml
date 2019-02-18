@@ -1,0 +1,108 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="head-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move or cause to move towards, direct, steer" type="">  
+      <commentary>
+         Syntax Includes:
+         NP1[agent] HEAD PP{P NP[location]}
+         NP1[topic] HEAD PP{P NP[location]}  
+         Note: location can be physical or abstract
+      </commentary>
+      <examples>
+         The cows are heading to the barn.
+         Mary headed the cows into the barn.
+         Senator Smith is heading south according to the polls.
+          He is heading his firm into bankruptcy on the present course.
+          He headed his sailboat towards the harbor.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>head.02</pb>
+         <vn>NM</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to precede others" type="">  
+      <commentary>
+       Syntax Is: NP1[attribute] HEAD NP2
+       Note: the subject NP is a member of a set, the first member usually
+       Note: 'head' functions more as an attribute of the subject than an action
+       Includes: HEAD UP
+      </commentary>
+      <examples>
+        Tonight's festivities will be headed by a speech from John.
+         Who will be heading the new public works project?
+         Mary's daughter heads her class at medical school.
+         This list is headed by the name of the managing director.
+         She headed up the committee on town zoning for many years.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,7</wn>
+         <wn lemma="head_up" version="3.0">1</wn>
+         <omega/><pb>head.01</pb>
+         <vn>contiguous_location-47.8</vn><fn>Leadership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="originate or have a source" type="">  
+      <commentary>
+        Syntax Is: NP1[topic] HEAD PP{P NP[source]}
+      </commentary>
+      <examples>
+        This river heads from the White Mountains in New Hampshire.
+         His current behavior heads strongly from an unhappy childhood.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="form or develop a head, as in grain" type="">  
+      <commentary>
+        Syntax Is: NP1[topic] HEAD[intransitive]
+      </commentary>
+      <examples>
+        The wheat headed early this year.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="remove or lop off" type="">  
+      <commentary>
+       Syntax Is: NP1[agent] HEAD NP2[patient]
+      </commentary>
+      <examples>
+        After you head the fish, remove the entrails.
+        The child was scolded for heading the rosebuds off Aunt Lily's prize bush.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>pit-10.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="prevent, avert, deflect something" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] HEAD OFF NP2[goal]
+        Is: HEAD OFF 
+      </commentary>
+      <examples>
+        They headed off the mechanics strike by skillful negotiations.
+         Let's head them off at the pass before they rob the train!
+         These measures were intended to head off a collapse of their currency.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="head_off" version="3.0">1</wn>
+         <omega/><pb>head.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

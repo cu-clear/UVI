@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cycle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) go through a cycle or sequence, repeat" type="">  
+      <commentary>
+        Includes: CYCLE ON
+        Syntax Includes:
+        NP1 CYCLE
+        NP1[agent] CYCLE NP2[patient]
+      </commentary>
+      <examples>
+        The machine cycled twice, then tabulated the adding mechanism.
+        The machine cycled automatically every 18 seconds.
+        The laundry cycled from the washer to the dryer.
+        He cycled the laundry again, then prepared some cinnamon toast for her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5</wn>   
+         <wn lemma="cycle_on" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ride (a bicycle or motorcycle)" type="">
+      <commentary>
+        Syntax Is: NP1 CYCLE
+      </commentary>
+      <examples>
+        He cycled on his bike to school every day.
+        He cycled by motorcycle in Tallahassee.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cycle.01</pb>
+         <vn>vehicle-51.4.1-1</vn><fn>Operate_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="maintenance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the upkeep of equipment or machinery" type="Event">
+        <commentary>
+            MAINTENANCE[+activity][+intentional][+upkeep][+equipment]
+        </commentary>
+        <examples>
+            The computer system will be down this weekend for maintenance.
+            Dallas is a hub where that airline does a lot of its aircraft maintenance.
+            Expenses of running a hotel include utilities and maintenance.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>maintenance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="providing living expenses, sustenance" type="Event">
+        <commentary>
+            MAINTENANCE[+activity][+intentional][+provision][+living_expenses]
+            Note: a narrow usage of Sense 3, always implies living expenses, needs
+        </commentary>
+        <examples>
+            John took the job to provide better maintenance of his growing family.
+            The village's maintenance is largely dependent on fishing.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the ongoing preservation or continuation of something" type="Event">
+        <commentary>
+            MAINTENANCE[+activity][+intentional][+preservation][+ongoing]
+        </commentary>
+        <examples>
+            Certain social conditions are required for the maintenance of democratic government.
+            The military ships are stationed there to insure a steady maintenance of oil to the region.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>maintenance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="alimony, financial support in a divorce" type="">
+        <commentary>
+            MAINTENANCE[+quantity][+money][+alimony]
+        </commentary>
+        <examples>
+            The judge increased Bob's monthly maintenance to his ex-wife by 10 percent.
+            Their prenuptial agreement specified that no maintenance would be required in the event of divorce.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="unauthorized meddling in a legal proceeding" type="">
+        <commentary>
+            MAINTENANCE[+event][-authorized][+interference][+in_proceeding][+legal]
+        </commentary>
+        <examples>
+            He was charged with criminal maintenance in the case.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

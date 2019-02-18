@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="quest-v">    
+   <commentary>
+   INCLUDES: QUEST FOR, QUEST AFTER 
+   </commentary>
+   <sense group="1" n="1" name="Search for." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      She quested for justice all her life.
+      Quest for a hobby of your own.
+      The animal came questing through the forest.
+      He quested after his lost son.  
+      Knights quested for the Holy Grail.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="quest_after" version="3.0">1</wn>
+         <wn lemma="quest_for" version="3.0">1</wn>
+         <omega></omega><pb>quest.01</pb>
+         <vn>search-35.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="A dog hunts game; bark, while hunting game." type="">
+      <commentary>
+      Note: This sense requires the mention of a dog.
+      </commentary>
+      <examples>
+      The dog went off and quested.
+      Basset Hounds quest often. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>search-35.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Express a desire for; ask for." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She quested an extra bed of her own.
+      They quested room service.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

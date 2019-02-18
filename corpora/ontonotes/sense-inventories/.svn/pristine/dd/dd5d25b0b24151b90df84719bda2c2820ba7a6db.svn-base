@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="drop-vpc-v">
+   <commentary>
+     Could not find examples of drop off with wn sense 4, which I put in sense group 1
+   </commentary>
+   <sense group="1" n="1" name="move to the rear, retreat" type="">
+      <commentary>
+        Includes: DROP BACK; DROP BEHIND; DROP OFF
+      </commentary>
+      <examples>
+        Ralston dropped back to twelfth after stumbling on a rock.
+        She found her companions tedious and dropped behind to avoid conversing with them.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_back" version="3.0">1,2</wn>
+         <wn lemma="drop_behind" version="3.0">1</wn>
+         <wn lemma="drop_off" version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="diminish or get worse" type="">
+      <commentary>
+        Includes: DROP AWAY; DROP OFF
+      </commentary>
+      <examples>
+        The number of students enrolled in the class dropped off after the first week.
+        His grades have dropped off since Christmas.
+        The scores dropped away from last year's high.
+      </examples>
+      <mappings>
+         <gr_sense>2</gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_away" version="3.0">1</wn>
+         <wn lemma="drop_off" version="3.0">1,5</wn>
+         <omega></omega><pb>drop.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="visit informally" type="">
+      <commentary>
+        Includes: DROP BY; DROP IN
+      </commentary>
+      <examples>
+        I'll drop by tomorrow with the photos.
+        She always drops in at the most inopportune times.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_by" version="3.0">1</wn>
+         <wn lemma="drop_in" version="3.0">1</wn>
+         <omega></omega><pb>drop.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="give up, abandon" type="">
+      <commentary>
+        Includes: DROP BY THE WAYSIDE; DROP OUT
+      </commentary>
+      <examples>
+        Her profound confidence kept her going when other women would have dropped by the wayside.
+        After the poll results, Wilson dropped out of the election.
+        Even traditional values like quality assurance are dropped by the wayside during this phase.
+        We should not allow visual talent to be dropped by the wayside just because of verbal deficiencies.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_by_the_wayside" version="3.0">1</wn>
+         <wn lemma="drop_out" version="3.0">1,2</wn>
+         <omega></omega><pb>drop.05</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="leave school" type="">
+      <commentary>
+        Includes: DROP OUT
+      </commentary>
+      <examples>
+        Sandra dropped out her sophmore year.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_out" version="3.0">3</wn>
+         <omega></omega><pb>drop.05</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="leave, unload" type="">
+      <commentary>
+        Includes: DROP OFF
+      </commentary>
+      <examples>
+        I'll drop you off at the corner.
+      </examples>
+      <mappings>
+         <gr_sense>4</gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_off" version="3.0">3</wn>
+         <omega></omega><pb>drop.03</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="fall asleep" type="">
+      <commentary>
+        Includes: DROP OFF
+      </commentary>
+      <examples>
+        He dropped off the minute his head hit the pillow.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_off" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="DROP OPEN: open involuntarily" type="">
+      <commentary>
+      Is: DROP OPEN  
+      </commentary>
+      <examples>
+        His jaw dropped open at the sight.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_open" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="DROP DOWN: fall to a lower level" type="">
+      <commentary>
+      Is: DROP DOWN
+      </commentary>
+      <examples>
+        The coach told him to drop down and give him twenty.
+      </examples>
+      <mappings>
+         <gr_sense>2</gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="drop_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="multiword expression" type="">
+      <commentary>
+        Includes: DROP A LINE; DROP ANCHOR; DROP DEAD
+      </commentary>
+      <examples>
+        Drop me a line when you get to Berlin.
+        The ship dropped anchor in Witma Bay.
+        He dropped dead of a heart attack.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="drop_a_line" version="3.0">1</wn>
+         <wn lemma="drop_anchor" version="3.0">1</wn>
+         <wn lemma="drop_dead" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

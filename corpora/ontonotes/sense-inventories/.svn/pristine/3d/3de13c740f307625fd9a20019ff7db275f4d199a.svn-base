@@ -1,0 +1,104 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reach-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to attain or arrive at a state or location, either real or abstract" type="">
+      <commentary>
+        Includes: REACH INTO
+      </commentary>
+      <examples>
+         We reached land by nightfall.
+         That plane reaches a top speed of 500 mph.
+         She reached a can of peaches on the top shelf.
+         I reached a different conclusion from that data.
+         They reached into their wallets and gave all they could.
+         She reached her goal of being in the Olympics.
+         With great effort, the team reached the finals.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5,6,7</wn>
+         <wn lemma="reach_one's_nostrils" version="3.0">1</wn>
+         <wn lemma="reach_into" version="3.0">1</wn>
+         <omega/><pb>reach.01</pb>
+         <vn>reach-51.8</vn><fn>Arriving,Change_position_on_a_scale,Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="establish contact or communication with someone or something" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         His message didn't reach the younger voters.
+         Our advertisements reach millions.
+         Why didn't you try to reach me yesterday?
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>reach.02</pb>
+         <vn>initiate_communication-37.4.2</vn><fn>Contacting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="pass or transfer something (British usage?)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         My trusty dwarf and friend, reach me my shield, and hold it while I swear.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>get-13.5.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="labor or exert effort, does not necessarily imply accomplishment of the goal" type="">
+      <commentary>
+         Syntax Includes: 
+         NP1 REACH PP
+         NP1 REACH SCOMP
+         Note: CANNOT take a simple NP as its complement.
+      </commentary>
+      <examples>
+         I was really reaching to play in that volleyball league.
+         She was reaching for her high notes during that aria.
+         He reached for the rope, but missed it by an inch.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>body_motion-49.2-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="extend physically or by influence" type="">
+      <commentary>
+         Includes: REACH OUT, REACH INTO
+         Note: this is distinguished from sense 1 in that the thing
+         reaching probably still exists in its initial location--it extends
+         across some concrete or abstract space.
+      </commentary>
+      <examples>
+         The superhero generated a force field that reached out for several feet.
+         The 'CSI effect' reaches into real courtrooms.
+         The water reached the doorstep.
+         The sunlight never reaches behind that wall.
+         The smell of burning wood reached his nostrils.
+      </examples>
+      <mappings>
+         <wn lemma="reach_out" version="3.0">2</wn>
+         <wn lemma="reach_into" version="3.0">1</wn>
+         <omega/><pb>reach.03</pb>
+         <vn>reach-51.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="MWEs" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She reaches out to her daughter, but her daughter ignores her!
+         The government reaches out to the people.
+      </examples>
+      <mappings>
+         <wn lemma="reach_out" version="3.0">1,3</wn>
+         <omega/><pb>reach.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/> 
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

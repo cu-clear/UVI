@@ -1,0 +1,32 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="increase-n">
+    <commentary>
+        24AUG06 - update to wn2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="gain" type="Event">
+        <commentary>
+            INCREASE[+event][+enlargement]
+            [+quantity][+amount][+gain]
+            addition, gain, increment, growth - 
+            a process of becoming larger or longer, or more numerous or more important
+        </commentary>
+        <examples>
+            There was an increase in property taxes this year.
+            They recorded the cattle's increase in weight over a period of weeks.
+            The increase in unemployment went unnoticed.
+            These recent increases in the price of oil have impacted the markets.
+            They proposed an increase of 15% in the fare.
+            He gave me an increase in salary.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>increase.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- Cannot distinguish between the event and non-event senses for increase -->
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

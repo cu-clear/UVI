@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="vow-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a speaker's solemn declaration that binds them to a commitment" type="Event">
+        <commentary>
+            VOW[+event][+speech_act][+declaration][+single][+commitment][+binding][+solemn]
+        </commentary>
+        <examples>
+            Our vow to our customers is that we are here to serve their needs.
+            We didn't really believe Mary's vow that she would never eat another piece of fudge.
+            The king made his knights make a vow of allegiance to him.  
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>vow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a set of solemn declarations that commit the speaker to a prescribed role in life, e.g., marriage" type="Event">
+        <commentary>
+            VOW[+event][+speech_act][+declaration][+multiple][+commitment][+binding][+solemn][+role][+prescribed]
+            Note: this sense usually occurs in the plural
+        </commentary>
+        <examples>
+            Mary and John wrote their own wedding vows.
+            These nuns have taken the vow of silence.
+            The young priest broke his vows of celibacy and poverty.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>vow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

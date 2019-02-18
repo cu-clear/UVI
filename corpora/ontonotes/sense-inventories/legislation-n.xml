@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="legislation-n">
+    <commentary>
+        
+    </commentary>
+    <sense group="1" n="1" name="a body of laws or statutes passed by a legislature" type="">
+        <commentary>
+            LEGISLATION[+abstract][+body][+statute]
+        </commentary>
+        <examples>
+            They are trying to overturn old legislation.
+            He argued that legislation should determine marital rights and not judicial ruling.
+            This case should be determined by existing antitrust legislation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="the activity of making laws" type="">
+        <commentary>
+            LEGISLATION[+activity][+making][+law]
+        </commentary>
+        <examples>
+            The legislation of this tax bill will be accompanied by vociferous debate.
+            The legislation of the Patriot Act occurred relatively quickly.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a matter of business under review by a legislature" type="">
+        <commentary>
+            LEGISLATION[+abstract][+body][-statute][+proposal][+submitted]
+            Note: a body of propositions, as sense 1, but -not- yet passed into law.
+        </commentary>
+        <examples>
+            This legislation may not pass the Senate.
+            Congress has a lot of new legislation in front of it this session.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

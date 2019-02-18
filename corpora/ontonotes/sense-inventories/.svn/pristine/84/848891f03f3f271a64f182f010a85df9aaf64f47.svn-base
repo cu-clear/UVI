@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="subsidize-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="assist by giving money to an organization  or human being." type="">
+      <commentary>
+        Syntax is: NP1[agent] SUBSIDIZE NP2[human]
+        NOTE: [human] includes groups and organizations which are made up
+        of human participants.
+      </commentary>
+      <examples>
+        Why Americans subsidized the Israeli settlers, and why we should pay to relocate them.
+        And so, instead of taxing the press, we subsidized the press.
+        It bailed out, and then subsidized, the financially faltering Partisan Review.
+        The corn farmers are very highly subsidized; the lettuce farmers are not.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>subsidize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="pay for a portion of the cost of an object          or an activity." type="">
+      <commentary>
+        Syntax is: NP1[agent] SUBSIDIZE NP2[object/activity]
+        Note: Compare to Sense 1: NP2 is an object/activity rather than a person
+        or a group of people.
+      </commentary>
+      <examples>
+        The seal hunt had never been illegal and the government subsidized the hunt pre 2000.
+        With child care cost totally subsidized, the employment probability rises.
+        In 2006, we taxpayers subsidized the health care facility by paying out $2976713.
+        All Stafford Loans are either subsidized or unsubsidized.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>subsidize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey" sample_score="-"/>
+</inventory>

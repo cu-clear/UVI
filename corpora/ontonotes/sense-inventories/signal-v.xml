@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="signal-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="communicate or make known by gestures, action, or signs" type="">  
+      <commentary>
+        Syntax is: NP1 SIGNAL (NP2)
+      </commentary>
+      <examples>
+        She signaled her impatience.
+        They have signaled their willingness to negotiate.
+        I signaled the driver to proceed.
+        Will you signal now?
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>signal.01</pb>
+         <vn>instr_communication-37.4</vn>
+         <fn>Communication,Gesture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="indicate, be signs or symptoms of" type="">
+      <commentary>
+        Syntax is: NP1 SIGNAL NP2
+      </commentary>
+      <examples>
+        The gauge indicates a temperature below freezing point.
+        These symptoms signal infection.
+        The economic indicators signal that the euro is undervalued.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>signal.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

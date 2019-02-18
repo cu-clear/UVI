@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sledge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="travel in a sled, sledge or sleigh" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] SLEDGE  NP2[theme] (PP[direction|location])
+      </commentary>
+      <examples>
+      The antarctic expedition sledged along the coastline.
+      The children sledged all day by the lake.
+      The big yellow Labrador had to be sledged along on her bottom the entire length of the passage.
+      Campbell and his men had sledged down the coast after the terrible winter.
+      It was thrown over the side onto the ice and sledged ashore by the Eskimos.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sledge.01</pb>
+         <vn>vehicle-51.4.1</vn><fn>Operate_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="beat with a sledgehammer" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] SLEDGE NP2[patient] (PP[instrument])
+      </commentary>
+      <examples>
+      Papaw and Tim sledged the wall off in one piece.
+      He sledged the bowler... he hit them all over.
+      So, what if he sledged the umpire?
+      Was it when he sledged the Asian girl zombie, and drank her blood?
+      We sawzalled his roof off and sledged the door jambs back so his door would open/close.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sledge.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

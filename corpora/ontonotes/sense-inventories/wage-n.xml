@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="wage-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="regular compensation in exchange for labor" type="">
+        <commentary>
+            WAGE[+amount][+payment][+compensation][+regular]
+        </commentary>
+        <examples>
+            The foreman pays the construction workers their wages on Friday afternoon.
+            The government ordered a wage freeze for three months.
+            Mary listed her wages, tips and interest earned on her tax return.
+            The pilots union received a wage concession of 5 percent from the airline.
+            The students marched in support of a living wage for the custodial staff at their university.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the share of the total GNP that is earned income" type="">
+        <commentary>
+            WAGES[+proportion][+GNP][+income][+earned]
+            Note: always in the plural
+        </commentary>
+        <examples>
+            Wages and unearned income both increased this quarter according to economists.
+            Reports for wages and orders for durable goods will come out next week.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the reward or consequence for something" type="">
+        <commentary>
+            WAGE[+state][+consequence][+reward]
+            Note: a metaphoric extension of sense 1
+        </commentary>
+        <examples>
+            The wages of sin is death.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

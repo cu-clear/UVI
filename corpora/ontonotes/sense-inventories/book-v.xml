@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="book-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a reservation/engagement" type="">  
+      <commentary>
+      Syntax Includes: 
+        NP1[actor] BOOK NP2[theme] (from NP3[actor])
+        NP1[actor] BOOK NP2[actor] 
+        NP1[actor] BOOK NP2[theme] for NP3[actor]
+       Note: (and more variations of these roles--see examples)
+      </commentary>
+      <examples>
+        I've booked a table at the fanciest restaurant in town!
+        Seats and meals must be booked directly from Vintage Trains.
+        He booked a flight to Chicago.
+        The travel agent booked him on a flight to Chicago.
+        My son was coming in late, so I booked a hotel for him in the area.
+        They booked up the entire hotel.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,1,4</wn>   
+         <wn lemma="book_up" version="3.0">1</wn>
+         <omega/><pb>book.01</pb>
+         <vn>get-13.5.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="record a charge in a police register" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Book him, Danno!
+        Police booked him on charges of burglary and violation of probation.
+        She was amazed when the officer demanded her license and then booked her.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>book.01</pb>
+         <vn>NM</vn><fn>Arrest</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="record financial transactions/information" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They often booked the revenue from the transactions immediately instead 
+          of spreading it out over the life of the contract.
+        Lucent said it booked $1 billion in orders for optical-networking gear.
+        The following are not gifts, and should not be booked as gifts.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>book.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="move quickly" type="">
+      <commentary>
+        includes BOOK IT
+      </commentary>
+      <examples>
+        He booked away from her, toward the sea.
+        We really booked it up the trail from the trailhead.
+        He booked it down the first base line.
+        As soon as the doors opened, she booked towards the display.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>  
+</inventory>

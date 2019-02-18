@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="calculate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="figure out by (numerical) computation" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        How do you calculate the area of a circle?
+        We must measure and calculate to determine how much paint will be needed.
+        The cost of the damage caused by the recent storms has been calculated at 5 million.
+        The new tax system would be calculated on the value of property owned by an individual.
+        At some stage we need to calculate when the project will be finished.
+        He's calculated that it would take him two years to save up enough for a car. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>calculate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="think or evaluate, judge to be probable" type="">
+      <commentary>
+        Make a judgement based on circumstance, common sense, or other non-numerical evidences.
+      </commentary>
+      <examples>
+        I calculate he'll never make a farmer.
+        Grandma calculated it will rain tomorrow.
+        He calculated the impact such behavior would have upon the rest of human history.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>calculate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="design for a specific purpose" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This line of automobile is calculated to last for years 
+        It was choice that was calculated to please the public. 
+        He prepared a speech calculated to reassure investors.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="count or depend on someone or something" type="">
+      <commentary>
+      Syntax Is: NP1 CALCULATE ON NP2
+      </commentary>
+      <examples>
+        We're calculating on your help.
+        We're calculating on about 30 guests.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

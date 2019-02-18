@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="enemy-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an opposing military force" type="">
+        <commentary>
+            ENEMY[+entity][+group][+force][+military][+opposing]
+            Note: refers to a body of people in a military force.
+        </commentary>
+        <examples>
+            The enemy attacked the city at dawn.
+            The scout reported seeing enemy troops along the ridge.
+            It was a tactic used by enemies of the Allies during World War II.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a personal adversary, rival" type="">
+        <commentary>
+            ENEMY[+entity][+person][+adversary]
+            Note: refers to an individual who is a rival, opponent, adversary
+        </commentary>
+        <examples>
+            Over the years he has made some political enemies in Washington.
+            Mary didn't want to make an enemy of Sally at work.
+            He has been an enemy of the school voucher program from the beginning.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="something harmful or injurious" type="">
+        <commentary>
+            ENEMY[+relation][+role][+harmful]
+            Note: refers to anything that serves a harmful or injurious role
+        </commentary>
+        <examples>
+            Alcohol was his worst enemy.
+            This chapter describes various enemies of the immune system.
+            They were being tried as enemies of the state. (injurious to the political system)
+            She is her own worst enemy. (she's harmful to herself)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

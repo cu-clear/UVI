@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shove-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="push rudely and roughly" type="">
+      <commentary>
+        NP1[+agent,+animate] SHOVE (NP2)
+        NOTE:  Does not include direction or goal.  Usually refers to rude behavior,
+        but if direction is given, choose sense 2 (see 'drunk' example in sense2)
+               Can include metaphorical usage.
+      </commentary>
+      <examples>
+        Security led the offender off and then returned for the guy who had shoved him.
+        When Turney shoved him the gun went off.
+        When one of the males in the group shoved him, the victim lost his balance and fell.
+        Quit shoving, you hogs.
+        During the argument he was pushing and shoving me around and making me feel very threatened.
+        Senator Muskie has been shoving me as no other person has to do something in the pollution field.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>shove.01</pb>
+         <vn>push-12-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move with force" type="">
+      <commentary>
+        NP1[+agent] SHOVE NP2 PP[+direction]
+        NP1[+agent] SHOVE NP2[+goal] NP3[+object]
+        NOTE: shows change of location or transfer of object;
+              Can include metaphorical usage.
+      </commentary>
+      <examples>
+        Some drunk behind me decided that our egress rate was insufficient and shoved me forward.
+        Daisy shoved her tortoise-shell Vuarnet sunglasses onto the bridge of her nose.
+        Cass smiled at him and shoved him the box to his present too.
+        I wish the military would quit shoving propaganda down my throat.
+        This woman was actually shoving me aside because she wanted to stand where I was. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>shove.01</pb>
+         <vn>carry-11.4-1-1,split-23.2,throw-17.1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="leave (British usage--informal or rude)" type="">
+      <commentary>
+        includes SHOVE ALONG, SHOVE OFF
+      </commentary>
+      <examples>
+        Shove off!
+        The children shoved along. (meaning &quot;to leave&quot;--not directional)
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="shove_along" version="3.0">1</wn>
+         <wn lemma="shove_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

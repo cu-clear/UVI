@@ -1,0 +1,146 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="date-n">
+    <commentary>
+        6nov06	update to wn2.1, merged senses 2,4 with sense 1, added features. ahouston
+        7nov06  added sense 8. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a calendar date" type="Abstraction">
+        <commentary>
+            DATE[+extent][+temporal][+period][+calendar][+day/+month/+year]
+            Note: implies a calendar date, either specific or not specified.
+            Note: not a historical epoch or characterized span of time - see Sense 8
+            Note: granularity may vary, can refer to a day, month, year (week?)
+        </commentary>
+        <examples>
+            What's today's date?
+            1066 is an important date in English history. 
+            The expiration date of this medicine is June, 2007.
+            The due date for our paper is next Tuesday.
+            My date of birth is December 1, 1982.
+            There is no date on this contract.
+            Have they set the date for their wedding yet?
+            I'll get the information to you at some later date.
+            I can't read the date on this old Roman coin. (probably just a year)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Arranged meeting" type="">
+        <commentary>
+            DATE[+event][+social][+appointment]
+            A particular appointment that has been arranged in advanced.  Includes romantic get-togethers.
+        </commentary>
+        <examples>
+            I went on a date with John last night.
+            She has broken two lunch dates with me this month.
+            I'm late for a very important date!
+            He had a date with destiny. (figurative extension - an important event for the person)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="Present moment" type="Abstraction">
+        <commentary>
+            DATE[+extent][+temporal][+moment][+present]
+            Usually used in set expressions.  A way to denote the current point in time.  
+        </commentary>
+        <examples>
+            To date, I haven't spoken to John about the new proposal.
+            There have been no sightings of bears in these woods to date.
+            We need to get our computer systems up-to-date!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="Person on a date" type="Entity">
+        <commentary>
+            DATE[+entity][+person][+escort][+occasion][+social]
+            A romantic participant on a date; an escort.  
+        </commentary>
+        <examples>
+            I spilled grape juice all over my date's lap.
+            John asked Mary to be his date for the Winter Ball.
+            Pete's date never stopped talking all evening.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="Edible fruit" type="Entity">
+        <commentary>
+            DATE[+entity][+plant][+fruit][+sweet]
+            A fruit from the Middle East with a long, woody seed.  Comes from date trees.  
+        </commentary>
+        <examples>
+            I sank my teeth into a juicy date.
+            This bread has nuts and dates in it.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="a span of time, historical epoch characterized in some way" type="">
+        <commentary>
+            DATE[+extent][+temporal][+period][+historical][+characterized]
+        </commentary>
+        <examples>
+            This style of architecture is from an earlier date than the Gothic movement. 
+            I'd guess the date of that Italian fresco to be early Renaissance, not late.
+        </examples>
+        <mappings>
+            <wn version="MAC">
+                1c
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

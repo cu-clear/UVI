@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="disgust-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="sicken or repel" type="">  
+      <commentary>
+        Syntax Is: NP1[stimulus] DISGUST NP2[experiencer]
+      </commentary>
+      <examples>
+        The smell of rotten fish disgusted me.
+        The thought of holding a prejudice disgusted us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>disgust.01</pb>
+         <vn>amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

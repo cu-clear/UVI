@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="gather-v">    
+   <commentary>
+	Includes VPC gather_in, gather_up
+   </commentary>
+   <sense n="1" type="" name="assemble or collect (as if) by bringing closer" group="1">  
+      <commentary>
+	Syntax Includes:
+        NP1[agent] GATHER NP2[patient] (PP) (SCOMP) 
+	Includes: GATHER IN, GATHER UP
+      </commentary>
+      <examples>
+	We are gathering wood to make a fire.
+	Gather the fabric along the seam to make a pleat.
+	The lawyer began to gather his arguments into a summary statement.
+	The CEO under indictment has been gathering his allies around him.
+	Can you gather in the laundry before it rains?
+	She quickly gathered up the child and his toy in her arms.
+	Let's gather up the loose ends on this report.
+        She gathered her shawl around her shoulders.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,7,8</wn>   
+         <wn lemma="gather_in" version="3.0">1</wn>
+         <wn lemma="gather_up" version="3.0">1,2</wn>
+         <omega></omega><pb>gather.01</pb>
+         <vn>get-13.5.1,shake-22.3-2,herd-47.5.2</vn><fn>Gathering_up</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense n="2" type="" name="(cause to) congregate socially" group="1">  
+      <commentary>
+	Syntax Is: NP1[agent[human]] GATHER PP{P NP[location]}
+      </commentary>
+      <examples>
+       	Many Heads of State gather each year in Davos, Switzerland.
+	We gathered around the water cooler to hear Sally's story.
+	My friends have been gathering at a new tapas bar on Friday nights.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>gather.01</pb>
+         <vn>get-13.5.1,shake-22.3-2,herd-47.5.2</vn><fn>Congregating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense n="3" type="" name="(let) accumulate or grow" group="1">  
+      <commentary>
+	Syntax Includes:
+        NP1[topic] GATHER (ADVP) (PP{P NP[location]}
+      </commentary>
+      <examples>
+	They are watching the storm clouds gathering over this international incident.
+	Dust seems to gather quickly on my computer monitor.
+	The economy has been gathering momentum since last June.
+        The car gathered speed.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,9</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>herd-47.5.2</vn><fn>Congregating</fn>
+       </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense n="4" type="" name="conclude or assume" group="1">  
+      <commentary>
+	Syntax Is: NP1[agent[human]] GATHER THAT SCOMP
+      </commentary>
+      <examples>
+	I gather he wasn't pleased at our last meeting.
+	They are beginning to gather that the deal may not go through. 
+	The union finally gathered that management would not back down in negotiations.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>deduce-97.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

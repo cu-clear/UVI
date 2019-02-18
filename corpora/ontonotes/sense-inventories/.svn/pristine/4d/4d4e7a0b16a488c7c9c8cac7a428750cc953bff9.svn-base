@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="telecommunication-n">
+    <commentary>
+        28nov06 update wn2.1, changed definitions, changed/added examples added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of transmitting electromagnetic signals across distances" type="Event">
+        <commentary>
+            TELECOMMUNICATION[+event][+communication][+transmission][+remote][+signal][+electromagnetic]
+            Note: refers to events of actually sending signals (or potentially sending them)
+        </commentary>
+        <examples>
+            The telecommunication of these messages occurs at the speed of light.
+            The attack was intended to disrupt their telecommunication capabilities.
+            The encryption provided secure telecommunications between the military bases.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the science and technology of signal transmission" type="">
+        <commentary>
+            TELECOMMUNICATION[+entity][+symbolic][+knowledge][+domain][+technology][+transmission][+remote][+signal][+electromagnetic]
+            (often plural) the branch of electrical engineering concerned with the
+            technology of electronic communication at a distance
+            Note: refers to the know-how required to do Sense 1
+        </commentary>
+        <examples>
+            He worked in the telecommunications industry for many years.
+            Sally is taking an advanced course in telecommunications.
+            Their company pioneered many of the recent advances in telecommunications.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!--  -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

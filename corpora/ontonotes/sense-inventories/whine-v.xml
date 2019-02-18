@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="whine-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Emit a whining sound, possibly as the
+   result of movement." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The bullets whined past our ears.
+      My car engine whines every time I speed up.
+      The door whined when I opened it slowly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whine.01</pb>
+         <vn>animal_sounds-38,sound_emission-43.2</vn><fn>Make_noise,Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Complain; talk in a tearful manner." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent[human]] WHINE (PP)
+      NP1[agent[human]] WHINE ADVP
+      </commentary>
+      <examples>
+      Mary whined about her morning.
+      The baby whined and whined until it was finally fed.
+      Stop whining! You are all girly men!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whine.01</pb>
+         <vn>manner_speaking-37.3</vn><fn>Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

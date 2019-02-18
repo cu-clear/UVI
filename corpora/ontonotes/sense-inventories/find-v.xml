@@ -1,0 +1,120 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="find-v">    
+   <commentary>
+     Includes VPC find_out, find_fault
+   </commentary>
+   <sense group="1" n="1" name="locate, discover, or encounter" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[agent] FIND NP2[patient]
+        NP1[agent] FIND SCOMP
+        Includes: FIND OUT
+      </commentary>
+      <examples>
+	I found a great little bookstore on Elm Street.
+	Did you ever find your glasses?
+	They have found some investors for their new venture.
+	Although painfully shy, Sally found her voice to say 'no thank you'.
+	This literary device is not found until the late eighteenth century.
+	The bullet found its mark, right between the eyes.
+        We found that squirrels had been building nests in the attic.
+        They found evidence of misconduct in the accounting records of that firm.
+        Crick and Watson found that the structure of DNA is a double helix.
+        The company found that someone was stealing their patents.
+        I woke up to find myself in a twisty maze of little passages.
+        John was shocked when he found out that he was adopted.
+        We need to find out what time the train leaves tomorrow.
+        The teenagers were worried that they'd be found out.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6,7,8,9,12,13,14,15,16</wn>   
+         <wn lemma="find_out" version="3.0">1</wn>
+         <omega/><pb>find.01</pb>
+         <vn>discover-84,get-13.5.1</vn><fn>Locating,Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="solve or calculate" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[agent] FIND NP2[product]
+        NP1[agent] FIND SCOMP
+        Includes: FIND OUT
+      </commentary>
+      <examples>
+  	Find the product of these two numbers.
+	We need to find whether the shelf is strong enough to hold this.
+        They are trying to find out how much to charge for the installation.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="find_out" version="3.0">1</wn>
+         <omega/><pb>find.01</pb>
+         <vn>discover-84</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="opine or believe" type="">  
+      <commentary>
+	Syntax Is: NP1[experiencer]  FIND NP2[stimulus] ([predicate])
+      </commentary>
+      <examples>
+	I found the film to be tiresome and predictable.
+	She asked Tom how he was finding the new job.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>find.01</pb>
+         <vn>declare-29.4-1-1-2</vn><fn>Coming_to_believe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="accumulate a resource" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[agent] FIND NP2[patient] PP
+        NP1[agent] FIND NP2[patient] COMP
+      </commentary>
+      <examples>
+       	They couldn't find the money to send their kids to college.
+	If you find the time, could you take the dog for a walk? 
+	Their nation found the will to endure great hardships.
+	We are trying to find the resources to fund this project.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>find.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="rule or pronounce, usually legal" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FIND NP2[patient] ADVP
+      </commentary>
+      <examples>
+	He was found innocent on all three charges.
+	Will the jury find her guilty of insider trading?
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>find.01</pb>
+         <vn>NM</vn><fn>Verdict</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="blame, criticize" type="">  
+      <commentary>
+         Syntax Is: NP1[agent] FIND FAULT PP{with NP}
+         Is: FIND FAULT
+      </commentary>
+      <examples>
+        We could find no fault with John's repairs to our car.
+        He was always finding fault with his co-workers.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>   
+         <wn lemma="find_fault" version="3.0">1</wn>
+         <omega/><pb>find.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>   
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

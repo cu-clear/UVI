@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="derive-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="develop from or receive from a source" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[recipient] DERIVE from/through NP2[source]
+        NP1[theme] DERIVE from NP2[source]                                                                                                        </commentary>
+      <examples>
+        Foy admitted that each year he derived income from the golf tournament.
+        The EU is not a State; it derives its authority from its Member States.
+        From the Niels Bohr he derived the concept of the social and dialogical character of scientific invention.
+        Jules argues that he derived citizenship through his mother, because she applied for naturalization before he turned 18.
+        I'm told the word git derives from Arabic, where it describes a pregnant camel, of all things.
+        TextBox does not match a System.Web.UI.Control type even though it derives from it.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3,4,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>derive.01</pb>
+         <vn>appear-48.1.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="infer, deduce" type="">
+      <commentary>
+        Syntax Is:
+         NP1[agent] DERIVE NP2[patient]
+      </commentary>
+      <examples>
+        How did Newton derive his second law of motion?
+        He derived statistical algorithms for cell counting and cell identification.
+        From this starting point, she derives two startling metaphysical possibilities.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>create-26.4, deduce-97.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm" sample_score="-"/>
+</inventory>

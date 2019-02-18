@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="disable-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make not work" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        My school disabled the command prompt.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>disable.01</pb>
+         <vn>NP</vn><fn>Render_nonfunctional</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="injure permanently" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He was disabled in the car accident.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

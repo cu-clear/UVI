@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="aid-n">
+    <commentary>
+        4oct06. revised feature sets, modified commentary and examples. ahouston
+        27Mar07 - edited features, examples and commentary. ahouston 
+        13Jan08 - revised definitions, examples and commentary. ahouston
+    </commentary>
+    <sense group="1" n="1" name="an individual act of providing assistance or help" type="Event">
+        <commentary>
+            AID[+event][+act][+individual][+of_assistance] 
+            Note: refers to the actions of a person, not a quantity of material goods given (Sense 3)
+        </commentary>
+        <examples>
+            The doctor was able to administer aid on the spot to the accident victims. 
+            No one could offer aid to the drowning man in time to save his life. 
+            Mary's boss came to her aid when the client criticized her approach to the project. 
+            Our garden desperately needs the aid of a knowledgeable horticulturist.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/>
+            <pb>aid.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="an artifact or tool designed to assist in some activity" type="Event">
+        <commentary>
+            AID[+artifact][+tool][+assisting][+for_activity] 
+            Note: refers to a physical device that helps accomplish an activity, e.g., hearing, walking, teaching
+        </commentary>
+        <examples>John's father wears a hearing aid. This lighted magnifying glass is a great aid for reading maps in the dark. The teacher will use these animal figurines as teaching aids. He can now walk with the aid of a cane. Exercise is an important aid in the recovery process of a heart attack. (metaphoric extension - the activity is a tool)</examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>aid.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="Material goods given as assistance" type="Event">
+        <commentary>
+            AID[+goods][+needed][+gift][+money/+food/+medicine] 
+            Note: refers to tangible goods or supplies, e.g., money, medicine, food
+        </commentary>
+        <examples>Foreign aid to that region increased by twenty million dollars this year. The U.N. is threatening to cut off financial aid to that nation but not medical aid. The aid to the refugee camps came in the form of blankets, clean water and food. Three aids workers were kidnapped.</examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>aid.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

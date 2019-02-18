@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fling-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="throw with force or recklessness; cast away" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] FLING NP2
+        Note: Can be used metaphorically.
+      </commentary>
+      <examples>
+        Do not, therefore, fling away your fearless confidence.
+        Instead of throwing the paper out, he flung his mobile from the 6th
+        floor.
+        She flung derogatory insults at Britney Spears.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fling.01</pb>
+         <vn>throw-17.1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move abruptly" type="">
+      <commentary>
+        Syntax Is: NP1 FLING (NP2)
+      </commentary>
+      <examples>
+        Then he flung outward, feet first, with a swish, kicking his way
+        down through the air to the ground.
+        He flung himself onto the sofa.
+        He flung forward with all of his might.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="indulge oneself" type="">
+      <commentary>
+        Syntax Is: NP1 FLING (NP2) INTO NP3[predicate]
+      </commentary>
+      <examples>
+        She flung herself into meeting record-industry execs.
+        She flung into advertising.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="write quickly" type="">
+      <commentary>
+        Is: FLING OFF
+      </commentary>
+      <examples>
+        She quickly flung off a note to her husband saying she would not be
+        home for supper.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="fling_off" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

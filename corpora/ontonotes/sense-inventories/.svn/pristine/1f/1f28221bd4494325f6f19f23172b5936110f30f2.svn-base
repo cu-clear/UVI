@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pan-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make a sweeping movement with, as with
+   one's eyes or a camera." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] PAN NP2[location]
+      NP1[agent] PAN PP[directional]
+      Includes: PAN OUT, PAN IN, PAN AROUND, PAN UP, PAN DOWN 
+      </commentary>
+      <examples>
+      His gaze panned the room, searching for his girlfriend.
+      The camera panned across the room.
+      The camera panned out slowly to reveal the dead body.
+      My eyes panned the great vista as I admired the beauty around me.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pan.03</pb>
+         <vn>NM</vn><fn>Seeking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Wash dirt in a pan to separate out the
+         precious metals." type="">
+      <commentary>
+      Includes: PAN OFF, PAN OUT
+      </commentary>
+      <examples>
+      The miners panned for gold.
+      We panned the gold out of the silt we'd collected.
+      Pan off the diamonds, no matter how small.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="pan_off" version="3.0">1</wn>
+         <wn lemma="pan_out" version="3.0">1</wn>
+         <omega></omega><pb>pan.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Express a totally negative opinion of." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The critics almost universally panned the performance.
+      Don't pan the play until you've watched it!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Cook in a pan." type="">
+      <commentary>
+      Includes: PAN BROIL, PAN FRY, PAN ROAST, PAN COOK 
+      </commentary>
+      <examples>
+      We pan broiled the meat before basting it in sauce.
+      I like to pan fry duck.
+      My mother pan roasts potatoes at Thanksgiving.  
+      We pan cooked the fish.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="pan-broil" version="3.0">1</wn>
+         <wn lemma="pan-fry" version="3.0">1</wn>
+         <wn lemma="pan_roast" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>cooking-45.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="PAN OUT: become or be a success"  type="">
+      <commentary>
+      Is: PAN OUT
+      </commentary>
+      <examples>
+      Our idea panned out.
+      Not all of our investments will pan out in the coming year.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="pan_out" version="3.0">1</wn>
+         <omega></omega><pb>pan.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

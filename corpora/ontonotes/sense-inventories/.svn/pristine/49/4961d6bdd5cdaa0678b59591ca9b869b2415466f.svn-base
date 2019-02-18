@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="quicken-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) move faster" type="">  
+      <commentary>
+       Syntax Includes:
+       NP1[agent] QUICKEN NP2[patient[abstract]]
+       NP1[theme] QUICKEN
+      </commentary>
+      <examples>
+        Sally quickened my pace in the dark alley.
+        The sudden scare made my pulse quicken.
+        His pulse quickened.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>quicken.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make keen; give (new) life or energy to" type="">
+      <commentary>
+        NOTE: Is a metaphorical use of Sense 1.
+      </commentary>
+      <examples>
+        Such fantasy tales quicken the imagination.
+        'Don't say those words, they quicken the dead.'
+        'What things quicken the heart?' 
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

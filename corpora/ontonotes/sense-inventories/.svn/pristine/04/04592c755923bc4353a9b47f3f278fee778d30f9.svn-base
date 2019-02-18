@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="photograph-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Record on photographic film." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] PHOTOGRAPH NP2[patient] (ADVP)
+      </commentary>
+      <examples>
+      I photographed the scene of the accident.
+      She photographed a picture of the President.
+      Tourists will be asked to take care when photographing earthquake
+      damage.
+      I photographed things poorly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>photograph.01</pb>
+         <vn>transcribe-25.4</vn><fn>Create_representation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be the subject of recording on photographic
+         film." type="">
+      <commentary>
+      Syntax Is: NP1[topic] PHOTOGRAPH ADVP 
+      </commentary>
+      <examples>
+      Children photograph well. 
+      I don't photograph very well.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

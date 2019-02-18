@@ -1,0 +1,162 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="talk-n">
+    <commentary>
+        Added senses, including one discussed by the authors of this file, modified examples and definitions. Added commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="conversation, spontaneous verbal dialogue" type="">
+        <commentary>
+            TALK[+discourse][-structure][+conversation][+impromptu]
+            Note: does not entail a specific goal or topic of discussion. (different from Sense 2 and 5)
+        </commentary>
+        <examples>
+            The talk and laughter at the neighbor's party next door went on into the wee hours.
+            We had a quiet talk by the fire over a glass of wine.
+            The host of that famous talk show is stepping down next season.
+            This romance novel has too much pillow talk.
+            The two job candidates engaged in small talk while they waited for their interviews.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="analytical discussion, analyses" type="Event">
+        <commentary>
+            TALK[+discourse][+structured][+analysis][+/-written]
+            Note: implies a specific target of discussion, also allows a written context, as well as spoken.
+        </commentary>
+        <examples>
+            His poetry contains much talk about love and anger.  (poetry can be read or spoken)
+            She had a serious talk with her son about drinking and driving.
+            I overheard some shop talk about computer operating systems waiting in line at the movies.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="negotiations or official, structured dialogue" type="Event">
+        <commentary>
+            TALK[+discourse][+structure][+negotiation][+official]
+            Note: almost always occurs in the plural
+            Note: implies an official context, (different from Sense 2)
+            Note: implies a goal or purpose for the discussion and an outcome.
+        </commentary>
+        <examples>
+            Their president has offered to initiate talks with the rebels.
+            Labor and management are in talks right now over the fate of the company's pension plan.
+            The arms talk has been cancelled for a third time.
+        </examples>
+        <mappings>
+            <wn version="MAC">1f</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a lecture, a verbal presentation" type="Event">
+        <commentary>
+            TALK [+event][+presentation][+lecture]
+            the act of giving a talk to an audience
+        </commentary>
+        <examples>
+            I attended an interesting talk on local history.
+            We skipped the afternoon talks at the conference and went diving.
+            The coach gave the team a pep talk before the big game. (informal extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="gossip, speculation, rumor" type="Event">
+        <commentary>
+            TALK[+discourse][-structured][+speculation][+rumor/+gossip]
+            Note: entails a specific target of discussion. (different from Sense 1)
+            Note: implies unstructured, speculative discussion (different from  Sense 2)
+        </commentary>
+        <examples>
+            The talk on the street is that their firm is going to be bought out.
+            There has been talk about you lately.
+            There has been no talk of resuming diplomatic relations with that nation.
+            The young actress is the talk of the town.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="pointless chatter, prattle" type="">
+        <commentary>
+            TALK[+discourse][-structured][+prattle][+monologue]
+            Note: implies a pejorative quality to the conversation (different from Sense 1)
+            Note: often suggests a monologue, or pronouncements, of an individual.
+        </commentary>
+        <examples>
+            He's all talk and no action.
+            His pronouncements about using alternative energy sources have thus far been just empty talk. 
+            It's just a lot of talk, nothing will come of it.
+            Don't listen to his double talk!
+        </examples>
+        <mappings>
+            <wn version="MW">3</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a way of speaking or making an utterance" type="">
+        <commentary>
+            TALK[+action][+utterance][+sass/+gibberish]
+            TALK[+action][+utterance][+pitch][+sales]
+            TALK[+quality][+speaking][+sassy/+infantile/+hustling]
+            Note: focus is on a manner of speaking more than the content (differs from Sense 6 in this respect)
+        </commentary>
+        <examples>
+            John always walks away when the sales talk begins.
+            That child has learned a lot of back talk and uses it on her parents.
+            Mary speaks baby talk to her pets.  (utterances trying to mimic child language acquisition, not the real deal)
+        </examples>
+        <mappings>
+            <wn version="MW">1</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="any signal, such as gesture or vocalization, that serves as communication" type="">
+        <commentary>
+            TALK[+signal][+vocalization/+gesture]
+            [+role][+communication]
+            Note: describes any signal that functions as a means to communicate.
+        </commentary>
+        <examples>
+            Mary's little girl enjoyed a book about a child who could understand bird talk.
+            The parents have recorded many of their child's first instances of baby talk.
+            She used her hands to make happy talk.
+        </examples>
+        <mappings>
+            <wn version="MW">8</wn>
+            <omega/>
+            <pb>talk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

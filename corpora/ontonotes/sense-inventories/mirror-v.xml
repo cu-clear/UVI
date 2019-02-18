@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mirror-v">
+   <commentary>
+    Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="reflect as if in a mirror" type="">
+      <commentary>
+        Syntax Is: NP1 MIRROR NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        The smallest pond at night mirrors the firmament above.
+        His expression mirrored hers.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>mirror.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="have the same pattern as; resemble" type="">
+      <commentary>
+        Syntax Is: NP1 MIRROR NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        Liz Claiborne's career mirrored the rise of working women.
+        He mirrored the remarks of the senator.
+        His sophisticated satires mirrored the changing class structure in post-World War II England.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <omega/><pb>mirror.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="3" n="3" name="reverse an image" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Someone mirrored the image for the ad without thinking.
+        We mirrored the design on the opposite wall.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>mirror.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

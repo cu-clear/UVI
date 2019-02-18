@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="profession-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a body of specially-trained, paid workers, usually with higher education" type="">
+        <commentary>
+            PROFESSION[+entity][+social][+body][+people][+worker][+specialist][+paid]
+            Note: refers to the people in the line of work
+        </commentary>
+        <examples>
+            The medical profession is divided on this issue.
+            It's the dental profession's largest annual meeting in North America.
+            Their profession has experienced significant attrition in recent years. (fewer people)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a specialized livelihood or occupation, usually requiring special training, higher education" type="">
+        <commentary>
+            PROFESSION[+activity][+livelihood][+training][+advanced]
+            Note: refers to the activity of the work, not the people (see Sense 1)
+        </commentary>
+        <examples>
+            Mary is a lawyer by profession.
+            Bill switched professions mid-career.
+            Her chosen profession is teaching.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a public avowal or affirmation of something" type="">
+        <commentary>
+            PROFESSION[+action][+speech_act][+avowal][+public]
+        </commentary>
+        <examples>
+            John made a profession of disbelief at the conclusions made by the study.
+            His artwork, especially the pietas, are a tangible profession of his Catholic faith.
+            Their profession of allegiance to the new government is being questioned.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

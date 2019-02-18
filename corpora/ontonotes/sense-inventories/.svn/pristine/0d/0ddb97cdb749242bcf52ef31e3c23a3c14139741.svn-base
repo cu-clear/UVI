@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="finger-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="feel, handle" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] FINGER NP2[patient]
+      </commentary>
+      <examples>
+        McKinnen fingered the furs on his table, beginning with a stack of
+        glossy brown pelts.
+        She fingered the stone absently, feeling the familiar impressions
+        beneath her skin.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>finger.01</pb>
+         <vn>NP</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="indicate fingering for musical instruments" type="">
+      <commentary>
+        Syntax Is: NP1[agent] FINGER NP2[patient]
+      </commentary>
+      <examples>
+        One member blew the flute while another fingered the instrument.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="blame"
+         type="">
+      <commentary>
+        Syntax Is: NP1[agent] FINGER NP2[patient] PP{for NP}
+      </commentary>
+      <examples>
+        Martial arts expert Jib is on the run from police after he's
+        fingered by corrupt cops for a murder he didn't commit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>finger.03</pb>
+         <vn>NP</vn><fn>Reporting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="search for via computer" type="">
+      <commentary>
+        Syntax Is: NP1[agent] FINGER NP2[patient]
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>finger.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

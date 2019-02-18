@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="haul-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pull or draw with force" type="">  
+      <commentary>
+        Includes: HAUL IN, HAUL UP
+      </commentary>
+      <examples>
+        Locomotive No. 1 hauled the first passenger train in New South Wales in 1855.
+        The army used hundreds of horses to haul the army wagons.
+        Joe hauled the barge back by the rope and paddled to the bank.
+        Democrats continue to haul in the cash.
+        Once the net is hauled in, the catch is dumped on the deck.
+        Her friends promptly hauled her to her feet.
+        The firemen hauled him to safety just as he lost consciousness.
+        The major players were hauled up in front of a Treasury select committee.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>haul.01,haul.02,haul.03</pb>
+         <vn>carry-11.4</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="transport in a vehicle from one place to another" type="">
+      <commentary>
+       Includes: HAUL AWAY, HAUL IN, HAUL OFF, HAUL UP
+       Note: Choose this sense only if a vehicle is mentioned or strongly implied.
+      </commentary>
+      <examples>
+        Please haul the manure to the field next to the hog lot. 
+        Two flatbeds were used to haul the bales of hay.
+        Mary was required every day to haul up the logs to the sawmill. 
+        The Ford Explorer: large enough to haul the kids to soccer.
+        I will haul away your old computers. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="haul_away" version="">1</wn>
+         <wn lemma="haul_off" version="">1</wn>
+         <omega/><pb>haul.01</pb>
+         <vn>carry-11.4</vn><fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="come to a halt after driving somewhere" type="">
+      <commentary>
+       Includes:  HAUL UP
+       Note: No attested examples.
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="haul_up" version="">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,brownsw,greenlm" sample_score="-"/>  
+</inventory>

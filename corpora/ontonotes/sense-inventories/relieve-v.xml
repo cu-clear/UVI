@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="relieve-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="mitigate; alleviate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        These pills will relieve your headaches.
+        The only thing that relieves the pressure of this job is the gallows humor.
+        The deal relieved the pressure on the army.
+        Her assurances relieved his fears.
+        Have the new drugs relieved the burden of the orthopedic surgeon?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,7,11</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>relieve.01</pb>
+         <vn>amuse-31.1,free-80-1,cheat-10.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exempt or free from a burden, duty, or requirement" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The president relieved him from command for gross insubordination.
+        The sentry relieved him at midnight.
+        The court ruled that the transfer was on the husband's behalf if it relieved him of an obligation.
+        An intervening clause relieved her of liability.
+        In the process, she relieved herself of an overbearing and annoying husband.
+        Death relieved him from suffering.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,6,8,10</wn>
+         <omega></omega><pb>relieve.01</pb>
+         <vn>cheat-10.6,free-80-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="free from the burden of an object" type="">
+      <commentary>
+      NOTE: Object must be concrete. 
+      </commentary>
+      <examples>
+        The housekeeper relieved him of his packages at the door.
+        I relieved him of his shotgun and nudged him forward.
+        She relieved herself of the backpack from her back.
+        The thief relieved them of their watches and wallets.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,9</wn>
+         <omega></omega><pb>relieve.01</pb>
+         <vn>cheat-10.6,free-80-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="calm, reassure" type="">
+      <commentary>
+        Syntax Is: NP1[cause] RELIEVE NP2[experiencer]
+      </commentary>
+      <examples>
+        Her entrance relieved him.
+        She was able to see through the crack, though, which relieved her to no end.
+        The child was relieved by the end of his parents' argument.
+        I was relieved to find my services no longer required.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>relieve.02</pb>
+         <vn>amuse-31.1,cheat-10.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Save from ruin, destruction, or harm." type="">
+      <commentary>
+      NOTE: Object must be abstract.
+      </commentary>
+      <examples>
+      Ordinary people try to relieve the pain of the people of Darfur. 
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>free-80-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="RELIEVE ONESELF: urinate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She relieved herself right on the front lawn.
+        My dog always relieves himself first thing in the morning.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="relieve_oneself" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

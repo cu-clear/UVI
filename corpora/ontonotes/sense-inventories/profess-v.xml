@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="profess-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="declare openly and freely; affirm" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] PROFESS NP2
+        NP1[agent] PROFESS[finite]
+        NP1[agent] PROFESS[nonfinite]
+        NOTE: Statement is made in a sincere or enthusiastic manner, regardless of 
+          whether the speaker's intentions are true or false
+      </commentary>
+      <examples>
+        He professed to be a Communist.
+        He professed that he was a changed man.
+        The &quot;love of her life&quot; as she professed him to be in an early season became the bane of her existence.
+        They had professed him to be their master. 
+        He wasn't so afraid or scripted that he professed not to have an opinion.
+        He professed innocence but later admitted his guilt.
+        Amazingly, in the two incidents, both sides professed delight with the outcome.
+        Socrates, while professing ignorance, refuted claims of others likewise ignorant of the subject.
+        Arius had deceitfully professed allegiance to the Council of Nicaea.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3,4,7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>profess.01</pb>
+         <vn>declare-29.4-1-1-3</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take vows, join or allow to join a religious order" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She professed herself as a nun.
+        Fr. Radente professed him into the Third Order of St. Dominic on March 25, 1871
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="practice as a profession" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] PROFESS NP2[topic]
+      </commentary>
+      <examples>
+        She professes organic chemistry.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw" sample_score="-"/>
+</inventory>

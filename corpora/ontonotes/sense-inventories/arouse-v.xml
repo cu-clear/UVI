@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="arouse-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="stimulate a particular emotion or thought" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His abrupt resignation aroused the ire of the board of trustees.
+        The sight of their emaciated faces would arouse pity in the coldest heart.
+        Calm down.  You're going to arouse suspicion.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>arouse.01</pb>
+         <vn>NM</vn><fn>Cause_to-start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="stimulate sexually" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This movie is sure to arouse the men in the audience.
+        Ryan's kiss aroused her.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>arouse.01</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause to become awake or alert" type="">
+      <commentary>
+        NP1[theme] AROUSE NP2[patient[animate]]
+      </commentary>
+      <examples>
+        The trumpet call aroused the men from their sleep.
+        Coffee will arouse you.
+        Her incantation aroused the spirits of the mountain.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>arouse.01</pb>
+         <vn>amuse-31.1,engender-27</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="become awake" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She aroused to the sound of the alarm clock.
+        After the thunder clap, the children aroused and began to cry.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

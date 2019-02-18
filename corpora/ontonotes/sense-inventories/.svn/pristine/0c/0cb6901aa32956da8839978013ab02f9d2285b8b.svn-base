@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="blockade-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="block a passageway or access, blockade" type="">  
+      <commentary>
+      Syntax Includes: 
+       NP1[agent] BLOCKADE NP2[patient[object]]
+       Np1[agent] BLOCKADE NP2[location]               
+      </commentary>
+      <examples>
+        He blockaded her vehicle in his reserved spot.
+        There he blockaded her till near Christmas, when she escaped, and
+        the castle surrendered.
+        The price of wheat soared when the French blockaded ships carrying
+        supplies to Britian.
+        About sixty thousand people blockaded the downtown streets.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>blockade.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+      </sense>
+      <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

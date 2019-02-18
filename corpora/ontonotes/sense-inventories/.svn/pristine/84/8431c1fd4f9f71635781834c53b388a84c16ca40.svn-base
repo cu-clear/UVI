@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="path-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a chosen course of action or conduct" type="">
+        <commentary>
+            PATH[+action][+behavior][+conduct][+chosen]
+        </commentary>
+        <examples>
+            The small nation has followed a gradual, steady path to economic liberalization.
+            John's brother took the difficult path of becoming a professional opera singer.
+            Water will travel the path of least resistance.  (it's behavior 'chooses' the lowest points)
+            He steered us onto the path of righteousness.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an established course or route to travel on" type="">
+        <commentary>
+            PATH[+form][+physical][+structure][+route][+established][+of_travel]
+        </commentary>
+        <examples>
+            Our town put in a bike path along the old railway bed.
+            The study showed that new neural paths were established after damage to the brain tissue.
+            We followed an old cow path through the woods.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the trajectory along which something is moving" type="">
+        <commentary>
+            PATH[+location][+spatial][+trajectory][+moving]
+        </commentary>
+        <examples>
+            Satellite imagery shows the path of the hurricane to be heading towards Cuba.
+            The evil troll blocked the path of the knight as he approached the bridge.
+            In baseball, the path of a knuckle ball is very hard for a batter to follow with his eyes.
+            The pilot announced our flight path today would take us over Lake Superior.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an ordering directive to search for computer files" type="">
+        <commentary>
+            PATH[+entity][+symbolic][+information][+directive][+ordering][+search][+for_file][+computer]
+        </commentary>
+        <examples>
+            The new application needs to be added to your path in order to run it.
+            I removed some old directories from my path.
+            Your path is first trying to find /usr/bin and then /usr/local/mystuff
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

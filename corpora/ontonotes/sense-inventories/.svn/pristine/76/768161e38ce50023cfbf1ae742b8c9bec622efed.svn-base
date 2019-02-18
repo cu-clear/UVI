@@ -1,0 +1,117 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="idea-n">
+    <commentary>
+        26Mar07 - merged sense-6 with sense-1, modified features extensively ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a concept, a mental construct" type="">
+        <commentary>
+            IDEA[+entity][+abstract][+concept][+perceptual/+logical]
+            Note: refers to concepts in the abstract, does not imply the opinion of a specific individual (Sense 2)
+            Note: 'idea BE X, 'idea of X'  -&gt; X = idea
+        </commentary>
+        <examples>
+            Many important ideas in quantum mechanics can only be understood mathematically.
+            This history provides a clear idea of the perils of sea travel during the 18th century.	
+            For Plato, ideas are the true changeless forms of which objects in the world are imperfect copies.
+            The idea of mutable causality is difficult to grasp. 	
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an opinion or viewpoint held by an individual" type="">
+        <commentary>
+            IDEA[+state][+mental][+opinion]
+            Note: implies a specific agent who advocates the opinion or viewpoint.
+            Note: 'X has idea, X get/reject idea' -&gt; X = sentient agent
+        </commentary>
+        <examples>
+            Where did people get such ridiculous ideas about sharks?
+            They have very traditional ideas about marriage.
+            The firm has rejected the idea of outsourcing their data management.
+            His idea of a good dinner is a frozen pizza and a bottle of beer.	
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an estimate or calculation" type="">
+        <commentary>
+            IDEA[+quantity][+estimate]
+            Note: implies or specifies a quantity of something, e.g., time, money
+            Note: occurs in phrases 'an idea of X'  -&gt; X = some quantity
+        </commentary>
+        <examples>
+            The guide has an excellent idea of how long the tour will last.
+            They haven't given us any idea of how much it will cost.
+            Let me look over the plans so I can give you a rough idea of how long it might take.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an intention, objective or purpose" type="">
+        <commentary>
+            IDEA[+state][+mental][+objective]
+            Note: implies the intention or objective of a specific agent.
+            Note: idea of X, idea to X -&gt; X = objective
+        </commentary>
+        <examples>
+            We started our trip at dawn with the idea of beating the thundering hordes on the freeway.
+            What's the big idea of barging in on our private meeting?
+            Our idea was to surprise John at the office, but then he saw us in the elevator on the way up.
+            She had no idea to ever tell her mother about the embarrassing incident.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an artistic theme or motif" type="">
+        <commentary>
+            IDEA[+form][+artistic][+theme]
+        </commentary>
+        <examples>
+            Beethoven develops this musical idea throughout the first movement.
+            I love the whimsical ideas expressed through her wavy ceramic figurines.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="MAC">Placeholder</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

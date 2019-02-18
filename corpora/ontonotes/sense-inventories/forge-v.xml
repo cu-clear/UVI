@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="forge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make or create something for a specific function." type="">  
+      <commentary>
+       Includes: FORGE OUT
+       Syntax Is: NP1[agent] FORGE NP2[patient] (PP)
+       Note: In rare cases such as sentence 5, the NP1 can be non-agentive.
+      </commentary>
+      <examples>
+      Forge the silver into a bowl.
+      Forge a pair of tongues.
+      Forge the metal into a sword.
+      The two governments met to forge an alliance.
+      Childhood abuse can forge a person's outlook on life..
+      Ideas that were forged out of reality are most beneficial.
+      A family insurance plan should be forged out of love.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,6,7</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>forge.02</pb>
+         <vn>build-26.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make a copy with the intent to deceive." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He forged the signature.
+      They forged the dollar bills.
+      She forged herself a green card.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>forge.01</pb>
+         <vn>scribble-25.2,transcribe-25.4</vn><fn>Forging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="FORGE AHEAD: Move ahead steadily." type="">
+     <commentary>
+     Is: FORGE AHEAD
+     Note: Includes metaphorical uses.
+     </commentary>
+     <examples>
+     He forged ahead on the trail.
+     We really need to forge ahead on this project.
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0">4</wn>
+        <wn lemma="" version=""></wn>
+        <omega></omega><pb>NM</pb>
+        <vn>NM</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Move with sudden increase in speed or energy." type="">
+     <commentary>
+     </commentary>
+     <examples>
+     * No examples found. 
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0">5</wn>
+        <wn lemma="" version=""></wn>
+        <omega></omega><pb>NM</pb>
+        <vn>NM</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Come up with, through mental effort" type="">
+     <commentary>
+       Syntax Is: NP1[agent[human]] FORGE NP2[patient[abstract]]
+       NOTE: Compare to sense 1. This sense has a very specific sense
+       related to thoughts, theories, ideas, plans, explanations, principles.
+     </commentary>
+     <examples>
+      Forge a way to measure the speed of light.
+      She forged a theory of social reform.       
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0">3</wn>
+        <wn lemma="" version=""></wn>
+        <omega></omega><pb>NM</pb>
+        <vn>NM</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

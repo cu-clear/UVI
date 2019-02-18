@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="oath-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an utterance that is a curse or expletive" type="">
+        <commentary>
+            OATH[+event][+speech_act][+expletive]
+        </commentary>
+        <examples>
+            We heard a loud crash and then a loud oath come from John's office.
+            Such oaths and foul language were not permitted on the airwaves.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a legally-binding statement to be truthful in a courtroom" type="">
+        <commentary>
+            OATH[+event][+speech_act][+declaration][+commitment][+truthfulness][+legal]
+        </commentary>
+        <examples>
+            The defendant made those statements under oath.
+            It is considered perjury to make false statements while under oath.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>oath.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a solemn dedication or commitment to something" type="Event">
+        <commentary>
+            OATH[+event][+speech_act][+declaration][+commitment][+solemn][+dedication]	
+        </commentary>
+        <examples>
+            The president's oath includes the intention to defend and uphold the constitution.
+            The knights made an oath of allegiance to the king.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>oath.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

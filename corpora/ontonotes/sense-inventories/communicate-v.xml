@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="communicate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Transmit information, thoughts, or feelings." type="">  
+      <commentary>
+     Syntax Includes:
+      NP1[agent] COMMUNICATE NP2[patient]
+      NP1 COMMUNICATE (PP)
+      </commentary>
+      <examples>
+      Please communicate this message to all employees.
+      The church communicates the 'good news' of Jesus Christ.
+      He communicated his anxieties to the psychiatrist.
+      The two brothers haven't communicated in years.
+      We should communicate by letter to avoid detection.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>communicate.01</pb>
+         <vn>correspond-36.1,transfer_mesg-37.1.1</vn><fn>Communication,Discussion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Transfer to another." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      We have to be careful not to communicate disease.
+      He communicated Ebola to the whole village.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Join or connect, as in a physical space." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The two rooms communicated.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Participate in communion or Eucharist." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      A lay person may not self-communicate.
+      In church, all communicate at the appointed time.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

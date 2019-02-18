@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="woman-n">
+    <commentary>12Jan08 update to wn2.1, added features, modified definitions, examples  ahouston
+        14Jan08 added additional sense 5 ahouston
+    </commentary>
+    <sense group="1" n="1" name="female human individuals" type="">
+        <commentary>WOMAN[+individual][+person][+female]
+            Refers to specific female individuals, -not- a whole gender class (Sense 2)
+        </commentary>
+        <examples>The woman gave birth to twins.
+            These women are all successful entrepreneurs.
+            Mary said only three women came to the meeting last night.
+            Women and children were put on the lifeboats first.
+            John likes to date tall women.
+            Our women's basketball team went to the nationals.  (this refers to a specific group of individuals)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the female gender as a class" type="">
+        <commentary>WOMAN[+class][+gender][+female][+human]
+            Note: refers to a class, a whole species' gender, not individual females (Sense 1)
+        </commentary>
+        <examples>In this painting, woman is symbolized by the moon, and man by the sun.
+            A woman's metabolism is different from a man's.  (refers to women as a gender class)
+            This suit is designed for a woman's body.  (class of women)
+            She devoted her life to women's rights in developing nations.
+            She is a professor in the women's studies department.
+            Women's basketball has become a popular sport.  (It refers to the gender at large, not a specific group of players)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a wife, girlfriend, or mistress" type="">
+        <commentary>WOMAN[+person][+female][+role][+lover]
+            Note: a narrow sub-sense of Sense 1, which refers to the romantic role played by a female
+        </commentary>
+        <examples>Although they never married, she was his woman for 20 years.
+            John told Bob to stay away from his woman.
+            The famous actor has had a lot of women in his life.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a female domestic worker, employee" type="">
+        <commentary>WOMAN[+person][+female][+role][+employee][+domestic_worker]
+            Note: a narrow sub-sense of Sense 1, referring to females in the role of menial domestic worker.
+            Refers to a female menial worker, e.g., charwoman, laundress.
+            Note: a somewhat archaic usage
+        </commentary>
+        <examples>Let the woman in tomorrow so she can clean the house.
+            Mary recommended a woman she uses for light cooking and housekeeping.
+            He had a woman come in twice a week to do the laundry.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="" n="5" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="">Placeholder Sense</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

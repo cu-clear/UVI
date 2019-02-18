@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="thrum-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="sound with a monotonous hum" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] THRUM NP2[location]
+      NP1[theme] THRUM
+      </commentary>
+      <examples>
+      The song thrummed in the guttural basso of dwarves, as if to mock his concern and consternation.
+      The Mach-1's engine was thrumming in mechanical symphony.
+      The diesel engine thrummed.
+      The current thrummed the line.
+      I was standing in front of the power station drinking in the excess power that thrummed the air.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thrum.01</pb>
+         <vn>sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="strum the strings of a stringed instrument" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] THRUM NP2[theme] (PP[instrument])
+      NP1[agent] THRUM NP2[instrument]
+      </commentary>
+      <examples>
+      He thrummed the guitar strings absently.
+      Lort-Phillips thrummed the banjo.
+      He held his guitar in his hands and thrummed the strings with a swipe of a guitar pick.
+      The evening exuded rapture in its purity and thrummed the heartstrings of the audience.
+      Occasionally Sidney thrummed a tune on the banjo to amuse the infant.
+      He thrummed a tune in A major.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thrum.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make a rythmic sound/motion (pulse)" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme] THRUM NP2[location]
+      NP1[theme] THRUM
+      NP1[agent[animate]] THRUM NP1[theme] (PP[location])
+      NP1[agent[animate]] THRUM NP1[location] (PP[theme])
+      </commentary>
+      <examples>
+      A big well-boring truck across the street thrummed the air as loudly as a 747.
+      The chaotic, violent magick he possessed thrummed through his veins.
+      At times his wings hardly fluttered before me, at other times they thrummed like those of a hummingbird.
+      A shout came from the bridge, and the deck thrummed and bounced to the rush of feet.
+      The heart beneath the thin shirt thrummed and fluttered as Jake clung to him.
+      The rain thrummed on the roof of the car.
+      He thrummed the desk with his fingers.
+      He thrummed his fingers on the table.
+      Joseph thrummed a tune on the table.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thrum.03</pb>
+         <vn>sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

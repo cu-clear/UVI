@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="embody-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="personally represent in physical (bodily) form" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] EMBODY NP2
+        NOTE: this sense the NP1 representes both a character (in a play)
+        or abstract qualities. 
+      </commentary>
+      <examples>
+        He embodies all that is evil.
+        She will embody Marta in West Side Story.
+        The king embodies the world.
+        LaRouche embodies the 'American System'.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>embody.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give tangible form to something intangible" type="">
+      <commentary>
+        Syntax Is: NP1[topic[animate]] EMBODY NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        This painting embodies the sentiments of the Romantic period.
+        His sculpture really embodies his angst.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>embody.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

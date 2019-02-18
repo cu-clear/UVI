@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="profit-n">
+    <commentary>
+        Revised PENN file
+        combined groups 1,3. Added examples, added commentary, modified definitions. ahouston.
+        26sep06, added dummy sense 3. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an amount of monetary gain" type="">
+        <commentary>
+            PROFIT[+quantity][+gain][+monetary]
+            net income, net, net profit, lucre, profit, earnings, gain - 
+            the excess of revenues over outlays in a given period of time
+        </commentary>
+        <examples>
+            These investors are looking for a quick profit.
+            George only made a twenty dollar profit each year on his crafts.
+            Trading was heavy today on Wall Street from profit taking.
+            Their gross profit margins are being squeezed by increased competition.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>profit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="general benefit or value of something" type="Metaphoric">
+        <commentary>
+            PROFIT[+quality][+beneficial]
+            the advantageous quality of being beneficial
+        </commentary>
+        <examples>
+            I hope there is some profit in your seeing this play.
+            There's no profit in screaming at referees from the bench.
+            What's the profit of visiting the doctor if you won't take his advice.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>profit.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder Sense: Do Not Choose" type="Metaphoric">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

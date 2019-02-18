@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="claim-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="maintain or affirm that something is true" type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] CLAIM NP2
+      </commentary>
+      <examples>
+        He claims that he cleaned his room.
+        The Holy Cities claimed to have been built on seven hills.
+        This candiate claims many supporters.
+        Blanche constantly claims she is going to go off and see Shep.
+      </examples>
+      <mappings>
+         <wn version="1.2">1</wn>   
+         <omega/><pb>claim.01</pb>
+         <vn>say-37.7-1-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="demand, ask for, or take as one's due" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] CLAIM NP2
+       Note:  Insurance, tax, or other official claims: NP1[agent] CLAIM
+      </commentary>
+      <examples>
+        Cortez claimed the territory for the Queen.
+        He claimed his suitcases at the airline counter.
+        When my bike was stolen, I claimed on the insurance.
+        He claimed on the maxium allowable tax credit. 
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>
+         <omega/><pb>claim.02</pb>
+         <vn>NM</vn><fn>Claim_ownership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="deserve, or require" type="">
+      <commentary>
+      Syntax Is:  NP1[-animate] CLAIM NP2
+      </commentary>
+      <examples>
+        In some parts of the state, agriculture claims much attention.
+        This issue claims no special rights.        
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>claim.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cause death, as if by right" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] CLAIM NP2
+      </commentary>
+      <examples>
+        The riots claimed thousands of lives.
+        The bird flu claims more victims.
+        It was a hurricane that claimed her life.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>claim.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

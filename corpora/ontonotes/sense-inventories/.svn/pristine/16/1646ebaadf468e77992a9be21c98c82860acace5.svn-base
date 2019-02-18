@@ -1,0 +1,120 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sound-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="appear or seem" type="">
+      <commentary>
+        Note: implies making a judgement on the quality of something,
+              including the quality of physical sound
+        Syntax is: NP1 SOUND ADJ[attribute]
+      </commentary>
+      <examples>
+        Your paper topic sounds interesting.
+        That sounds like a good idea!
+        He sounded like a young pitcher trying to make it in the big leagues.
+        He sounded so wasted.
+        The record sounds scratchy.
+        She said he sounded so convincing and everthing about what he was saying.
+        The band sounded a bit off tonight.
+        We can now hear what the Mona Lisa's voice would have sounded like.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>sound.01</pb>
+         <vn>stimulus_subject-30.4</vn> 
+         <fn>Appearance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="emit or cause to emit noise" type="">
+      <commentary>
+       includes: SOUND OFF, SOUND OUT
+       Syntax is: NP1 SOUND
+       NP1 SOUND NP2[inanimate]
+      </commentary>
+      <examples>
+        The skaters dashed out before the gun sounded.
+        His halfcourt shot was ruled to have left his hand after the buzzer sounded.
+        Sound the alarm!
+        Alright troops I have sounded off the alarm!
+        Mr. Weasley's voice sounded out from the crowded station.
+        If the General had known what was below him, he might have sounded retreat.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,6</wn>
+         <wn lemma="sound_off" version="3.0">2</wn>
+         <omega/><pb>sound.02</pb>
+         <vn>Sound_emission-43.2, Sound_Existence-47.4</vn>
+         <fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="measure the depth of a body of water" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Its depth from the surface was sounded as 60 ft.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn> 
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="express an opinion (usually negative)" type="">  
+      <commentary>
+        includes: SOUND OFF
+      </commentary>
+      <examples>
+        North Carolina education leaders sounded a note of victory when they heard there would be more funding.
+        One day I sent her an e-mail and sounded off to her like nobody's business.
+        Now you'll have the chance to sound off on the networks and their star commentators.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="sound_off" version="3.0">1,3</wn>
+         <omega/><pb>sound.03</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+  <sense group="1" n="5" name="articulate, say, pronounce" type="">
+      <commentary>
+        includes: SOUND OUT
+      </commentary>
+      <examples>
+        Every unknown word can be sounded out using the phonics skills the student has acquired.
+        Some words are pronounceable when sounded out but have no meaning.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="sound_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="6" name="test, check out" type="">
+      <commentary>
+        include: SOUND OUT
+      </commentary>
+      <examples>
+        I want to sound out the new professor.
+        He spent Monday in talks with consultants in Manhattan, and sounded out some donors.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="sound_out" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

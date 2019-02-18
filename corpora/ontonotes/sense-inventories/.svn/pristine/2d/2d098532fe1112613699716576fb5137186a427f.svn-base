@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="delay-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="amount of time that something is postponed" type="">
+        <commentary>
+            DELAY[+quantity][+time][+postponement]
+            Note: refers to an amount of unexpected, unintended time
+        </commentary>
+        <examples>
+            Bad weather in Dallas was causing 2-hour delays at the airport.
+            Sally experienced a long delay in getting her renewed passport.
+            Huge traffic delays at the bridge are now common during rush hour.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of postponing an event" type="Event">
+        <commentary>
+            DELAY[+action][+postponement][+of_event]
+            Note: X's delay of Y -&gt; X caused Y to be delayed, a nominalization
+        </commentary>
+        <examples>
+            Congress's delay of bringing this bill to the floor has angered voters.
+            The extremely cold spring resulted in the delay of buds opening this year.
+            I managed to get out the door without further delay.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the lag of an electronic signal" type="">
+        <commentary>	
+            DELAY[+quantity][+time][+lag][+signal][+electronic]
+            Note: narrow somewhat technical usage
+        </commentary>
+        <examples>
+            Electronic delay has been a critical problem in active noise control systems.
+            There was .5 second delay in the signal transmission. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an electronic device that creates a signal lag" type="">
+        <commentary>
+            DELAY[+entity][+artifact][+device][+electronic][+lag_generator]
+        </commentary>
+        <examples>
+            With this kit you can build your own electronic delays.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,117 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="show-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be seen, be evident, reveal, demonstrate" type="">
+      <commentary>
+         Includes: show up
+      </commentary>
+      <examples>
+         He showed us the secret parking spot.
+         The sales clerk showed me some nice suits.
+         Could you show me your notes?
+         Please show me Tuesday flights to DEN that leave in the morning from LAX?
+         Whatever she's thinking, she never lets it show.
+         I've painted over the graffiti twice, but it still shows through.
+         A cursor is supposed to show in this box, when I click on the blue button.
+         I rolled up my sleeve so the missing button wouldn't show.
+         His upbringing really shows.
+         The scars showed up within a few days of injury.
+         The DNA showed that John was not the father of that child.
+         The clinical trials showed the effectiveness of that drug against AIDS.
+         The rookie showed his outfielding talent during the playoffs.
+         He showed his disappointment by sulking the rest of the day.
+         Careful. Your disgust shows up on your face.
+         The polls are showing only a 3-point difference between the candidates.
+         The thermometer showed 10 below zero this morning.
+         The art exhibit showed many aspects of life in Polynesia.
+         So then stop boasting about your talent, and show it to me!
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,6,7,8,9,10</wn>
+         <wn lemma="show_up" version="3.0">1</wn>
+         <omega/><pb>show.01</pb>
+         <vn>indicate-78-1-1,reflexive_appearance-48.1.2,transfer_mesg-37.1.1-1-1</vn><fn>Reasoning,Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="SHOW UP-turn up, appear, arrive or come" type="">
+      <commentary>
+         Note: This is a specific sense, usually reserved to people.
+      </commentary>
+      <examples>
+         We waited two hours but they never showed.
+         He never shows up on time.
+      </examples>
+      <mappings>
+         <wn lemma="show_up" version="3.0">1</wn>
+         <omega/><pb>show.02</pb>
+         <vn>appear-48.1.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="demo; exhibit something for public viewing" type="">
+      <commentary>
+         Note: A very specific sense -- specific to demonstration or exhibition.
+      </commentary>
+      <examples>
+         She is showing her new work at a downtown gallery.
+         The horse didn't show well at his last competition.
+         We're going to show this application at two upcoming conferences.
+         They show their dog every year.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>show.01</pb>
+         <vn>crane-40.3.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="usher, direct, or guide" type="">
+      <commentary>
+         Syntax is: NP1[agent] SHOW NP2[patient] to NP3[location]
+      </commentary>
+      <examples>
+         The man in the purple suit showed us to our seats.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>transfer_mesg-37.1.1-1-1</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="win 3rd place in a contest" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Her dog didn't win, place or show in New York last year.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="SHOW THE DOOR-be asked to leave" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I was shown the door when I asked for a raise.
+      </examples>
+      <mappings>
+         <wn lemma="show_the_door" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="SHOW OFF-act in such a way to attract attention" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She only bought that sports car to show off and prove she could afford one.
+        He's always showing off to his classmates.
+      </examples>
+      <mappings>
+         <wn lemma="show_off" version="3.0">1</wn>
+         <omega/><pb>show.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>
+</inventory>

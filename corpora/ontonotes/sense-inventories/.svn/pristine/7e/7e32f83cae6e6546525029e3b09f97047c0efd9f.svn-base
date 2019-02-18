@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="creep-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move slowly, go cautiously or furtively, travel unnoticed" type="">
+      <commentary>
+        Note: Includes metaphorical uses. 
+      </commentary>
+      <examples>
+        Inventories are creeping up all over the auto industry.
+        The spider crept across the wall.
+        The hours crept by.
+        A truck rumbled over the bridge and the smell of exhaust crept down.
+        I crept down the steepest part of the rutted trail onto the main jeep road.
+        The market crept back to more moderate levels.
+        The crocodile crept along the riverbank towards the unsuspecting gazelle
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>
+         <wn lemma="creep_in" version="3.0">1</wn>
+         <wn lemma="creep_up" version="3.0">1</wn>
+         <omega></omega><pb>creep.01</pb>
+         <vn>modes_of_being_with_motion-47.3,run-51.3.2,swarm-47.5.1-1</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="grow in such a way as to cover" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Over the years, the ivy had crept over the walls of the cottage.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>modes_of_being_with_motion-47.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="feel as if something were crawling over oneself" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        That story made my flesh creep.
+        His skin crept and shivered and he felt sick to his stomach.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,trevorjb,greenlm" sample_score="-"/>
+</inventory>

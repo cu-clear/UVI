@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pay-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to give compensation for something, either through money or some other form" type="">
+      <commentary>
+         Syntax Is: NP1[agent] PAY NP2
+         Includes: PAY BACK, PAY CASH, PAY DOWN, PAY FOR, PAY OFF, PAY UP
+      </commentary>
+      <examples>
+         I paid four dollars for this sandwich.
+         Does she pay you for the work you are doing?
+         He paid for his fun last night with a terrible hangover this morning.
+         He always pays his credit card monthly bill on time.
+         Please pay the fine for these overdue library books.
+         She paid the fireman who rescued her with a smile.
+         You still need to pay me back that 10 dollars.
+         I paid cash for this sweater.
+         Mark paid off the mobsters for his safety.
+         Businesses are paying out more each year for health insurance.
+         If he doesn't pay up soon, the IRS will repossess his car.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,9,3,11,10</wn>
+         <wn lemma="pay_back" version="3.0">1,2</wn>
+         <wn lemma="pay_cash" version="3.0">1</wn>
+         <wn lemma="pay_for" version="3.0">1</wn>
+         <wn lemma="pay_off" version="3.0">2,3,4,5,6</wn>
+         <wn lemma="pay_out" version="3.0">1</wn>
+         <wn lemma="pay_up" version="3.0">1</wn>
+         <omega/><pb>pay.01,pay.02,pay.03,pay.06</pb>
+         <vn>pay-68-1</vn><fn>Commerce_pay</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give cognizance to something or someone" type="">
+      <commentary>
+        Includes: PAY HEED
+      </commentary>
+      <examples>
+         Don't pay them any mind, they mean no harm.
+         Please pay special attention to how you pack those.
+         Pay heed to street signs or you'll get a ticket.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="pay_heed" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be worth something, yield a result" type="">
+      <commentary>
+         Syntax Is: NP1 PAY NP2[recipient]
+         Includes: PAY OFF
+      </commentary>
+      <examples>
+         How much does this savings certificate pay annually?
+         It definitely pays to get a college degree.
+         It didn't pay to remodel the family room before we sold the house.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,7</wn>
+         <wn lemma="pay_off" version="3.0">1</wn>
+         <omega/><pb>pay.04,pay.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name=" make, undertake" type="">
+      <commentary>
+       Note: Light verb
+      </commentary>
+      <examples>
+         He always pays a visit to his parents at Thanksgiving.
+         She paid me a call at work last week.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

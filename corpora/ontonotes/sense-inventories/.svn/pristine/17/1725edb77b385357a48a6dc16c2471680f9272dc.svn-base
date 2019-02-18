@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="boom-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a loud, resonant sound" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[inanimate]] BOOM (NP2)
+      </commentary>
+      <examples>
+        The glacier boomed as the ice cracked.
+        My dog hides under the table whenever thunder booms.
+        The train boomed out of the east tunnel and roared through the valley.
+        The speech boomed over the loud speakers.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="boom_out" version="3.0">1</wn>
+         <omega/><pb>boom.01,boom.03</pb>
+         <vn>sound_emission-43.2</vn>
+         <fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="speak with a loud, resonant voice" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[animate]] BOOM (NP2)
+      </commentary>
+      <examples>
+        She boomed out the song.
+        Where's my little lady?&quot; he boomed, as he stomped in the front door.
+        The lion boomed a warning.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="boom_out" version="3.0">1</wn>
+         <omega/><pb>boom.03</pb>
+         <vn>manner_speaking-37.3,animal_sounds-38</vn>
+         <fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="thrive, expand" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The economy is booming.
+        Colorado's population boomed in the 1990s.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>boom.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="hit hard" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Hayes boomed the punt to the Lion's 5-yard line.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb></pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm" sample_score="-"/>
+</inventory>

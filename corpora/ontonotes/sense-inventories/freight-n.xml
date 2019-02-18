@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="freight-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="The goods carried by a large vehicle." type="">
+        <commentary>
+        FREIGHT[+material]
+        </commentary>
+        <examples>
+        We sent all of our frieght UPS.
+        There is some freight to be shipped today.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The act of transporting goods commerically at rates cheaper than express rates." type="">
+        <commentary>
+        FREIGHT[+event]
+        </commentary>
+        <examples>
+        We should ship the packages via freight.
+        Move the materials freight.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="The charge for transporting something by common carrier." type="">
+        <commentary>
+        FREIGHT[+currency]
+        </commentary>
+        <examples>
+        We pay the freight up front.
+        The freight is usually cheaper here.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

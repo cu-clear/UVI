@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="upgrade-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an upward slope" type="">
+        <commentary>
+            UPGRADE[+form][+slope][+upward]
+        </commentary>
+        <examples>
+            The upgrade was too steep for the old locomotive.
+            What is the upgrade of this stretch of mountain road?
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="improved version of a product" type="Event">
+        <commentary>
+            UPGRADE[+artifact][+product][+version][+improved]
+        </commentary>
+        <examples>
+            You can download the upgrade to that software for free.
+            The upgrade of that CPU is only $100.
+            John didn't want to pay for upgrades on his new car.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an improvement in a reservation" type="Event">
+        <commentary>
+            UPGRADE[+state][+contract][+reservation][+improved]
+        </commentary>
+        <examples>
+            Sally was able to get us upgrades to first class on the flight.
+            For 1000 points the hotel will give you an upgrade to an ocean-view suite.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of improving something's quality" type="Event">
+        <commentary>
+            UPGRADE[+event][+improvement][+of_quality]
+        </commentary>
+        <examples>
+            The upgrade of the power plant will enable it to meet emission standards.
+            The decorator said he could do an upgrade of the restaurant's decor for under $5000.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

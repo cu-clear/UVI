@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="advance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="physical movement forward from a location" type="Event">
+        <commentary>
+            ADVANCE[+event][+movement][+forward][+of_location]
+        </commentary>
+        <examples>
+            The general noted the enemy's advance to the outskirts of the city.
+            The completed pass allowed the team's advance to the 10-yard line.
+            The glacier's advance is measured in inches per year.
+            The disease's advance to the liver implied it was terminal. (extended usage, implies a growing physical area)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>advance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="progress, improvement over time" type="Event">
+        <commentary>
+            ADVANCE[+event_set][+progress][+improvement]
+        </commentary>
+        <examples>
+            The advance of civilization is a slow and painful process.
+            He discussed some recent advances in cancer treatments.
+            They are discouraged by the lack of advances in alternative energy technologies.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>advance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a proposal, an overture" type="Event">
+        <commentary>
+            ADVANCE[+event][+communication][+overture][+proposal]
+        </commentary>
+        <examples>
+            Mary tried to ignore John's romantic advances.
+            Her advance of the idea at the last meeting was greeted with skepticism.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>advance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="money paid out prior to its actually being earned" type="">
+        <commentary>
+            ADVANCE[+quantity][+money][+paid][+prior_to_earning]
+        </commentary>
+        <examples>
+            The publisher gave the writer a $25,000 advance on the book.
+            Several employees asked for an advance on next month's salary.
+            The bank will give you an advance but charge 6 percent interest on it.	
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>advance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an increase in price" type="Event">
+        <commentary>
+            ADVANCE[+quantity][+increase][+price]
+        </commentary>
+        <examples>
+            There were advances all across the Big Board today.
+            The dollar's recent advances against the euro have surprised investors.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>advance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

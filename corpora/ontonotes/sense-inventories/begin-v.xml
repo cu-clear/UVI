@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="begin-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="start, have an initial point " type="">
+      <commentary>
+      Note:  The subject is NOT acting intentionally.  It is either inanimate (and
+           cannot have intentions), or it is animate but it is experiencing the
+           beginning of something (like illness) rather than intending to begin
+           something.
+      Syntax Is:  NP(patient) BEGIN (PP)
+      </commentary>
+      <examples>
+         Prices for these homes begin at $250,000
+         The war began on a Thursday.
+         She began to feel sick.
+         When life began was there oxygen in the atmosphere?
+         The novel begins with a shipwreck at sea.
+         It's beginning to look like rain.
+         His property begins at the fence.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,6,7</wn>
+         <omega/><pb>begin.01</pb>
+         <vn>begin-55.1-1</vn><fn>Process_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="initiate an undertaking" type="">
+      <commentary>
+      Note:  The subject IS acting intentionally; therefore, it must be animate
+           or interpretable as animate (like a company).
+      Syntax Is:  NP1(agent) BEGIN NP2
+      </commentary>
+      <examples>
+         They'll begin their tour with a concert in London.
+         You should begin the stew now so it will have four hours to simmer.
+         The government is beginning to protect the coral reefs of that island.
+         He was just beginning a novel when the phone rang.
+         Acme Tire Company began offering their employees health insurance.
+         John has begun to take them seriously.
+         She began ballet at age four.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,8,10</wn>
+         <omega/><pb>begin.01</pb>
+         <vn>begin-55.1-1</vn><fn>Activity_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make a locution, speak" type="">
+      <commentary>
+      Syntax Is:  NP BEGIN [direct quotation]
+      </commentary>
+      <examples>
+         &quot;now listen, friends&quot;, he began.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="partially attain" type="">
+      <commentary>
+     Syntax Is:  NP MODAL-VERB BEGIN TO-COMP (functions as an intensifier, always in a
+       negative context)
+       Note: The meaning of the sentence doesn't change if 'begin' is removed.
+      </commentary>
+      <examples>
+         The rent you could get for that place wouldn't begin to cover the mortgage and taxes.
+         Can those refugees even begin to hope they'll be granted asylum?
+         I couldn't begin to tell you all the ways she has contributed to this club.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>begin-55.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="embellish-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Add details or information to." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] EMBELLISH NP2[patient]
+      Note: Thing that information is added to must be an information
+      object (written, spoken, or thought) itself.
+      </commentary>
+      <examples>
+      The author embellished the truth of his memoir.
+      Embellish your story with fictitious details.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>embellish.01</pb>
+         <vn>fill-9.8,illustrate-25.3</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) be more beautiful." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Flowers embellished each table.
+      You should embellish yourself for your special day. 
+      Embellish the room for the party.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>embellish.01</pb>
+         <vn>fill-9.8,illustrate-25.3</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sponsor-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="person who is an official advocate" type="">
+        <commentary>
+            SPONSOR[+person][+role][+advocate][+official]
+        </commentary>
+        <examples>
+            Senator Smith is the sponsor of the new highway bill in congress.
+            You must have a sponsor to nominate you for membership at the yacht club.
+            Mary has been a sponsor of several immigrant families.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="person or organization that is a financial backer" type="">
+        <commentary>
+            SPONSOR[+person][+role][+backer][+financial]
+            [+organization][+role][+backer][+financial]
+        </commentary>
+        <examples>
+            For only $100 you can become a sponsor of the orchestra.
+            We'll be back after a word from our sponsors.  
+            Several local businesses are major sponsors of the annual charity drive.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stabilize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="bring to equilibrium, keep from fluctuating" type="">  
+      <commentary>
+        Syntax is: NP1 STABILIZE[transitive] NP2
+        Note: physical and metaphorical
+      </commentary>
+      <examples>
+        He stabilized himself upon the ice for what seemed like a full minute.
+        She stabilized her footing on the rocks.
+        The drug stabilized her blood pressure.
+        The law stabilized the price of palm oil.
+        The economy stabilized after a period of inflation.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>stabilize.01</pb>
+         <vn>other_cos-45.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="achieve equilibrium, become level" type="">
+      <commentary>
+        Syntax is: NP1 STABILIZE[intransitive]
+        Note: physical and metaphorical
+      </commentary>
+      <examples>
+        As the speed of the airplane increased, the airplane stabilized.
+        Company growth is stabilizing this year.
+        The patient's condition has stabilized.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="mullinsm,hwangd" sample_score="-"/>  
+</inventory>

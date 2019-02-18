@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="threaten-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="utter intentions of injury or punishment" type="">  
+      <commentary>
+        Syntax is: NP1[human][agent] THREATEN (NP2)
+        Note: speech acts may be implied in this sense
+      </commentary>
+      <examples>
+        They threatened us with legal action.
+        She threatened to tell my wife.
+        He threatened me with a knife.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>   
+         <omega/><pb>threaten.01</pb>
+         <vn>NM</vn><fn>Commitment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="present danger, harm, or unwelcome consequences" type="">
+      <commentary>
+        Syntax is: NP1[patient][animate] THREATEN (NP2)
+                   NP1[patient][inanimate] THREATEN (NP2)
+      </commentary>
+      <examples>
+        Pollution is threatening the crops.
+        This injury could threaten his career.
+        The illness threatened to harm their ten-year-old daughter.
+        The dark clouds threaten rain.
+        Danger threatens!
+        The disease threatened her mother.
+        The perception of restraint threatened her sanity.
+        The dispute threatened to escalate into all-out war.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>threaten.01</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

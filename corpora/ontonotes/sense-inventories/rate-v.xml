@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rate-v">    
+   <commentary>
+	Note: No VPCs for this verb
+    Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="determine a standard; estimate a capacity or measurement" type="">
+      <commentary>
+	Syntax Is:
+        NP1[instrument] RATE NP2[patient] PP
+        NP1[instrument] RATE NP2[patient] ADVP
+        NP1[instrument] RATE NP2[patient] COMP
+	Note: focus is on a measurable attribute of the object (often official), 
+        an assigned standard for it.
+      </commentary>
+      <examples>
+	Tests rate this water-resistant watch to 100 meters.
+	This circuit is not rated to carry so much current.
+	John is now rated as a grand master of chess, not just a master.
+	They rate its fuel economy at 25 miles a gallon in the city.
+	Those state bonds are currently rated as junk.
+        I thought this movie was rated PG-13!
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>rate.01</pb>
+         <vn>price-54.4</vn><fn>Assessing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give a value judgement; form an opinion of" type="">  
+      <commentary> 
+        Syntax Includes:
+	NP1 RATE NP2[patient[concrete]] NP3
+        NP1 RATE NP2[patient[concrete]] ADVP
+        NP1 RATE NP2[patient[concrete]] PP{P NP[attribute]}
+	Note: focus is on a (subjectively) perceived quality of the object. 
+      </commentary>
+      <examples>
+	This olive oil is rated highly for its pure color and full fruity flavor.
+	Our boss thinks John rates a raise for his great performance last quarter.
+	Some critics rate her as the best dancer in the world today.
+        Most of us, I suspect, would easily rate him as the worst president in human history.
+        I rate cars as one of the worst polluters of the environment.
+        So tell me, how would you rate my cooking?
+        Five critics rated the movie 'excellent' while three others considered it 'good'. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>rate.01</pb>
+         <vn>consider-29.9-1,masquerade-29.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to rebuke angrily" type="">
+      <commentary>
+	Syntax Is: NP1[actor] RATE NP2[recipient] 
+      </commentary>
+      <examples>
+	She rated the teenager for throwing a fast food container out his car window.
+	Sally grew tired of listening to the couple next door rating each other every night.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

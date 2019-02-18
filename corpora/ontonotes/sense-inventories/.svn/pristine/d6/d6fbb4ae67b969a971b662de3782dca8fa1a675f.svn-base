@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="discount-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a reduction in price, a deduction" type="">
+        <commentary>
+            DISCOUNT[+quantity][+money][+deduction][+refund/+allowance]
+        </commentary>
+        <examples>
+            They are selling all the merchandise in the store at discount.
+            He manages a chain of discount stores. 
+            You'll get a 10 percent discount on the retail price if you send in that rebate.
+            As a tailor, my uncle gets a trade discount on many of his fabrics.
+            There were no good discounts on consumer electronics at that store.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="amount of interest charged for borrowing money" type="">
+        <commentary>
+            DISCOUNT[+quantity][+money][+interest][+loan]
+        </commentary>
+        <examples>
+            The Federal Reserve set a discount rate of 4.5 percent to its member banks.
+            What is the discount on this savings bond?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

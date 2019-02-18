@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fixate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="direct one's attention on exclusively and obsessively" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] FIXATE PP[location]
+      Usually occurs with the PP 'on __'.
+      </commentary>
+      <examples>
+      He fixates on his mother, even at the age of 40.
+      The media are fixating on Princess Diana's death.
+      Wall Street fixates on interest rates.
+      Climate change campaigners should not have fixated on carbon dioxide.
+      Why Are Republicans So Fixated on Reagan?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fixate.01</pb>
+         <vn>focus-87.1,shake-22.3-2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make something become affixed securely to something" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] FIXATE NP2[theme] (PP[location])
+      NP1[theme] FIXATE PP[location]
+      </commentary>
+      <examples>
+      Her eyes fixated on a point on the horizon.
+      Drone bees fixate the queen with the dorsal frontal part of their compound eyes.
+      The eyes fixate the optimal viewing position of task-irrelevant words.
+      Two adhesive steristrips are used to fixate the light pipe.
+      How do I fixate the background image?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fixate.01</pb>
+         <vn>focus-87.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

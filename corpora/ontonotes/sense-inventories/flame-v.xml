@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flame-v">    
+   <commentary>
+     Sense 3 from PropBank
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) shine brightly, (as if) from fire." type="">  
+      <commentary>
+      Includes: FLAME UP
+      </commentary>
+      <examples>
+     The night flamed with the massive bombardment.
+     The sky seemed to flame in the Hawaiian sunset.
+     She almost flames in that glittered dress.
+     The wood flamed up after I added more embers.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="flame_up" version="3.0">1</wn>
+         <omega></omega><pb>flame.01</pb>
+         <vn>light_emission-43.1</vn><fn>Light_movement,Location_of_light</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Criticize harshly, usually via an
+         electronic medium." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The person who posted that mean message got flamed.
+      Her colleagues flamed her repeatedly over email. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="FLAME OUT: fail or die away, as an engine might." type="">
+      <commentary>
+      Is: FLAME OUT    
+      </commentary>
+      <examples>
+      Both jets on the Falcon 20 flamed out.
+      The project really flamed out once the supervisor left.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

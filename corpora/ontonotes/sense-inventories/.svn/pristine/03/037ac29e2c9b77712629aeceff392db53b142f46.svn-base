@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sort-n">
+    <commentary>10Dec08 - revised features and definition for S2. ahouston</commentary>
+    <sense group="1" n="1" name="a subcategory in a classification scheme" type="">
+        <commentary>SORT[+system][+classification][+subcategory][+characterized]
+            Use this sense if there is a quantifier or determiner preceding 'sort of'
+            Use this sense when the word immediately following 'sort of' is a noun, not a modifier, verb or adverb (Sense 2)
+        </commentary>
+        <examples>This is the wrong sort of nail to attach shingles with.
+            How many sorts of chili peppers are there?
+            He wants to go to China for all sorts of reasons.
+            A jumper is a sort of dress.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="an approximate attribute or quality of something" type="">
+        <commentary>SORT[+quality][+attribute][+approximate]
+            Use this sense when the word immediately following 'sort of' is a modifier.adverb,verb  not a noun. (Sense 1)
+            Use this sense in constructions of the form 'NP of sorts', which implies an approximate quality.
+            Note: if 'sort' is preceded by a quantifier, it is Sense 1  (e.g., she wore some sort of a magenta dress is a TYPE of dress,)
+        </commentary>
+        <examples>She wore a sort of magenta dress.
+            This dessert is sort of creamy and moist.
+            He is sort of interested in taking flying lessons.
+            It is sort of time for Bob to start thinking about finishing his degree.  ('time' is adverbial here)
+            It's a compromise of sorts.  
+            They were sort of talking about moving to Vermont.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a person identified by a specific nature or characteristic" type="">
+        <commentary>SORT[+entity][+person][+characterized][+specifically]
+            Note: a narrow usage of Sense 1 - but always refers to a person or group or people
+        </commentary>
+        <examples>Frank is a genuinely friendly sort.
+            The people who run the government offices are a lazy sort.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="an operation that groups items according to specific criteria" type="Event">
+        <commentary>SORT[+event][+process][+operation][+grouping][+specified][+by_criteria]</commentary><examples>This algorithm describes a simple bubble sort.
+            My computer can perform these sorts in a matter of seconds.
+            The machine's sort of coffee beans by size is still not quite accurate enough.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="a character or component of a typesetting font" type="">
+        <commentary>SORT[+entity][+artifact][+typesetting][+component][+character][+of_font]</commentary><examples>These sorts are Helvetica not Ariel.</examples>
+        <mappings>
+            <wn version="MW online">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

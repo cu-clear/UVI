@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="devour-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="eat ravenously" type="">  
+      <commentary>
+        Syntax Is: NP1 DEVOUR NP2
+      </commentary>
+      <examples>
+        The glutton again devoured five pounds of raw beef.
+        He helped himself to a piece of chicken, which he devoured hungrily.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>devour.01</pb>
+         <vn>devour-39.4</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="destroy completely" type="">
+      <commentary>
+        Syntax Is: NP1 DEVOUR NP2
+      </commentary>
+      <examples>
+        The fire devoured nearly 30000 acres.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="enjoy avidly" type="">
+      <commentary>
+        Syntax Is: NP1 DEVOUR NP2
+      </commentary>
+      <examples>
+        He loved to read and he devoured book after book on the lives of
+        the saints.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Reading</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

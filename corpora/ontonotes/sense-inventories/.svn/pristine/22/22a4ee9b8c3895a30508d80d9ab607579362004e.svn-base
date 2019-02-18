@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wharf-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="shore up a river bank" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] WHARF NP2[destination] (PP[theme])
+      </commentary>
+      <examples>
+      The city decided to wharf the mouth of the river.
+      The narrow channel was wharfed with a wall of a brick to keep the bank from falling in.
+      I cannot but remark how we wharfed the banks.
+      Of the 7.7 miles of frontage referred to, less than 2 miles is wharfed.
+      He sought to improve this by wharfing the river-front.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wharf.01</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="drop off at a wharf" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] WHARF NP2[theme]
+      </commentary>
+      <examples>
+      The ship departed after wharfing the passengers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wharf.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="store at a wharf" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] WHARF NP2[theme]
+      </commentary>
+      <examples>
+      They wharfed the goods safely.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wharf.02</pb>
+         <vn>pocket-9.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="dock at a wharf" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] WHARF NP2[theme] (PP[location])
+      NP1[theme] WHARF (PP[location])
+      </commentary>
+      <examples>
+      One of the ships was wharfed adjacent to the Tais, the flagship.
+      The big ship wharfed in the evening.
+      More merchant vessels were wharfed there.
+      A private houseboat was wharfed at the exclusive Indian Creek Canal.
+      They wharfed the patrol boat out front.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>wharf.03</pb>
+         <vn>put-9.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assure-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove doubt, give confidence or cause to feel sure" type="">
+      <commentary>
+      Syntax Is: NP1[agent] ASSURE NP2[human]
+       Note: NP2 IS human
+      </commentary>
+      <examples>
+        I assure you. The train will arrive on time.
+        I assured him that traveling to Cambodia was safe.
+        He assured her of his devotion.
+        I can assure you that every word is true.
+        The unions assured the new owners of the workers' loyalty to the company.
+        &quot;Don't worry, your car will be ready tomorrow,&quot; the mechanic assured him.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,5,6</wn>
+         <omega/><pb>assure.01</pb>
+         <vn>advise-37.9,promise-37.13</vn><fn>Telling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make certain, guarantee" type="">
+      <commentary>
+      Syntax Is: NP1 ASSURE NP2[-human]
+        Note: NP2 is NOT human
+      </commentary>
+      <examples>
+        Nothing in history assures the success of our civilization. (Herbert J. Miller)
+        The play's popularity has been assured by the critics' rave reviews.
+        Proper planning assures that the job will be done right.
+        Socrates assured his death sentence by proposing a penalty much too light for the court.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>assure.01</pb>
+         <vn>ensure-99</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="insure against something that is certain to happen" type="">
+      <commentary>
+        Use: Primarily UK usage.
+      </commentary>
+      <examples>
+        They assured the property for $230,000.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

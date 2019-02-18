@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="introduce-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="present or acquaint two or more social beings" type="">
+      <commentary>
+        Syntax Is: NP1 INTRODUCE NP2 (TO {P NP})
+      </commentary>
+      <examples>
+         I'd like to introduce you to my sister.
+         I introduced him to my friend.
+         They were introduced at the party.
+         Let me introduce my dog to you.
+         The marriage introduced her to the society of the wealthy.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/>
+         <pb>introduce.01,amalgamate-22.2-3-1</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="put something into use, action, or circulation" type="">
+      <commentary>
+       Syntax Is: NP1 INTRODUCE NP2 (PP)
+      </commentary>
+      <examples>
+         In 1990, a new small size two dollar coin was introduced by the mint.
+         She introduced soy into her diet and exercise into her routine.
+         They want to introduce some new quality control measures at the factory.
+         Some new evidence was introduced at the trial yesterday.
+         The Democrats are introducing a new spending bill in Congress.
+         She introduced the game to her friends and it took over the the Regency Club. 
+         We have introduced a new element into the curriculum.
+         He tried not to introduce new bugs into his computer program.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5,7,8</wn>
+         <omega/>
+         <pb>introduce.01,introduce.02,amalgamate-22.2-3-1</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="insert a physical object into some place" type="">
+      <commentary>
+       Syntax Is: NP1[agent] INTRODUCE NP2 (PP{P NP[location]})
+       Note: This is a subset of the sense 2.
+      </commentary>
+      <examples>
+         He introduced his inhaler into his mouth and took a sharp breath.
+         Once you introduce the needle, the fluid will seep through the catheter.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <omega/>
+         <pb>introduce.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="be a precursor of, usher in" type="">
+      <commentary>
+         Syntax Is: NP1[stimulus] INTRODUCE NP2
+         In other words: &quot;NP1 is the precursor or the beginning piece of NP2&quot;
+      </commentary>
+      <examples>
+         The transistor introduced a new era in building computers.
+         A haunting oboe solo introduces the third movement of the concerto.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,10</wn>
+         <omega/>
+         <pb>introduce.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

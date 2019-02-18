@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shed-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cast off, get rid of something" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        Every one to three months, snake sheds its skin.
+        The trees shed their leaves in autumn.
+        They ran down to the sea, shedding clothes as they went.
+        He shed his image as a pushy boss.
+        900 jobs will be shed over the next few months.
+        Psychotherapy helped him to shed some of his insecurity.
+        I hope to shed a few pounds before my wedding day.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn> 
+         <omega/><pb>shed.01</pb>
+         <vn>substance_emission-43.4</vn><fn>Undressing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cast off hair or fur" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        It's frightening how much I've been shedding since I switched shampoos.
+        My cat sheds constantly.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>shed.01</pb>
+         <vn></vn><fn></fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="produce; (cause to) flow or radiate" type="">
+      <commentary>
+        Note: for SHED BLOOD and SHED LIGHT, this sense only includes the literal meaning.
+      </commentary>
+      <examples>
+        She shed a few tears at her daughter's wedding. 
+        The sun shed its light on all objects equally and shows no preference.
+        What if someone literally cut themselves and started to shed blood.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="shed_blood" version="3.0">2</wn>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>substance_emission-43.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="SHED BLOOD (metaphorical)-kill or injure violently" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They will never stop shedding blood of their enemies.
+      </examples>
+      <mappings>
+         <wn lemma="shed_blood" version="3.0">1</wn>
+         <omega/><pb/>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="SHED LIGHT ON (metaphorical)-make clear; free from confusion" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        As an economist, he was able to shed some light on the problem.
+      </examples>
+      <mappings>
+         <wn lemma="shed_light_on" version="3.0">1</wn>
+         <omega/><pb>shed.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="thread-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="pass (a thread) through or into,on or as if on a
+   string" type="">  
+      <commentary>
+        NP1[+agent] THREAD NP2
+      </commentary>
+      <examples>
+         He threaded the needle up until it was snug.
+         Patterson got out a movie projector, threaded the film himself,
+         and took his first and last look at the pictures of his
+         humiliation.
+         I threaded all the pearls and the pendant onto my spool of silk.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>tape-22.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="meander in a sinuous or circular course" type="">
+      <commentary>
+        NP1 THREAD
+      </commentary>
+      <examples>
+        The river threaded its languid way across the flatland to the limit
+        of his vision.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thread.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="remove facial hair by tying a fine string
+         around it and pulling"
+         type="">
+      <commentary>
+        NP1[+agent] THREAD NP2
+      </commentary>
+      <examples>
+        I threaded my eyebrows!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

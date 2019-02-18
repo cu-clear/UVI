@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dehydrate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove water from" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] DEHYDRATE NP2[patient] (PP[instrument])
+      NP1[patient] DEHYDRATE
+      Often used adjectivally.
+      </commentary>
+      <examples>
+      All this exercise and sweating has dehydrated me.
+      In the desert, you get dehydrated very quickly.
+      Our blood gets thicker as we dehydrate.
+      Tea and coffee further dehydrate you because they are diuretics.
+      I eat many fresh but also dehydrate them in my Gardenmaster Food Dehydrator.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dehydrate.01</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_to_be_dry</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

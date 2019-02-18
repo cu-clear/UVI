@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="flow-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="fluid motion" type="Event">
+        <commentary>
+            A general, descriptive term for the motion characteristic of liquids and gases, or an approximation of that motion.
+            Not an actual instance of flowing.
+        </commentary>
+        <examples>
+            I know she's a good dancer because of the flow of her movements.
+            The substance began to demonstrate flow as it became warmer.
+            John could judge the time of day by the ebb and flow of the tide.
+            I presented my results using a flow chart.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>flow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="amount that flows" type="Event">
+        <commentary>
+            The rate of flow.  The amount of something that flows at a current time.
+        </commentary>
+        <examples>
+            We measured the flow of heat with a thermometer.
+            Let's increase the flow of electricity.
+            The flow of this current is more than our instruments can handle.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>flow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="instance of flowing" type="Event">
+        <commentary>
+	    FLOW[+event]
+	    Often called &quot;flowing&quot;.  A specific instance of flow.  Flowing that happens at one point in time.
+	    Probably the most common sense.
+	    </commentary>
+        <examples>
+            The flow of water began when I flushed the toilet.
+            The river's flow was very rapid at this point.
+            He adjusted the fan so that the air flow was directed right at him.
+            I ended the flow of electricity by flipping the &quot;off&quot; switch.
+            Mary suspected she was pregnant when she missed her usual menstrual flow.
+            John interrupted the flow of my reading.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3 7
+            </wn>
+            <omega/><pb>flow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="stuff that flows" type="Entity">
+        <commentary>
+            The actual matter that is flowing.  Often used metaphorically.  
+            Can refer to the entire &quot;stream&quot; as a whole, as all the stuff that is flowing together.
+        </commentary>
+        <examples>
+            We need a place to put the excess flow of water.
+            The flow spilled out and knocked me over.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4 5 
+            </wn>
+            <omega/><pb>flow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="path of motion" type="Event">
+        <commentary>
+            The direction that something is flowing or has flowed.  Often used metaphorically, as the dominant course of events or ideas.
+        </commentary>
+        <examples>
+            If you follow the flow of the river, you'll eventually reach a town.
+            Historians try to trace the flow of human development.
+            A good speaker can manipulate the flow of conversation.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                6
+            </wn>
+            <omega/><pb>flow.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

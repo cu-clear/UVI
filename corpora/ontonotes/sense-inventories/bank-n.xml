@@ -1,0 +1,171 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bank-n">
+    <commentary>
+        23May07 - changed shish-kabob to 1&amp;2, from 2&amp;3 ahouston, updated to wn 2.1
+        11Aug08 changed shishkebob 1&amp;2 notation to Sense 10. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a financial institution" type="Entity">
+        <commentary>
+            A money-holding institution.
+        </commentary>
+        <examples>
+            The bank holds the mortgage on my house.
+            I took my money out of the bank, and put it into stocks.
+            John switched from Chase Bank to PNC Bank.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the bank building" type="Concrete">
+        <commentary>
+            Refers very narrowly to the building where banking takes place.
+        </commentary>
+        <examples>
+            The bank is on the corner or Nassau and Witherspoon.
+            It takes me ten minutes to walk to the bank.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="ambiguous between institution and building" type="Shish-Kabob">
+        <commentary>
+            Use this sense when you can't see a distinction between the first and second sense.
+        </commentary>
+        <examples>
+            The people working at the bank turned me down for a loan.
+            I cashed my check at the bank.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="3" name="sloping land" type="Physical">
+        <commentary>
+            Land that slopes downward, especially near a body of water or on a racetrack.
+        </commentary>
+        <examples>
+            I sat on the river bank and watched the currents.
+            We pulled the canoe up the bank.
+            There's a bank on this turn to reduce centrifugal force.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a supply of something" type="">
+        <commentary>
+            A stock or reserve, usually for emergencies.
+        </commentary>
+        <examples>
+            The Red Cross created a blood bank for disaster relief.
+            They set up a food bank for the flood victims.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a container for holding money" type="Concrete">
+        <commentary>
+            A kind of box, usually with a slot on the top.
+        </commentary>
+        <examples>
+            John smashed his piggy bank to buy comic books.
+            You have to put a quarter in the coin bank when you swear.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="a row of objects" type="Concrete">
+        <commentary>
+            An arrangement of similar things, usually in rows or tiers.
+        </commentary>
+        <examples>
+            He operated the bank of switches.
+            A bank of telephones is standing by.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="gambling house funds" type="Gambling">
+        <commentary>
+            The amount of money owned by a gambling house.  Probably only the expression &quot;break the bank&quot; applies.
+        </commentary>
+        <examples>
+            He's hoping to break the bank at Monte Carlo.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="8" name="a ridge or pile" type="Physical">
+        <commentary>
+            A land feature, a large amount of something on the ground.
+        </commentary>
+        <examples>
+            We climbed the sand bank with some difficulty.
+            A huge bank of earth lay between us.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="9" name="a flight maneuver" type="Activity">
+        <commentary>
+            The act of a plane heading downward.
+        </commentary>
+        <examples>
+            The plane went into a steep bank.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="11" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

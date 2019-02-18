@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="think-vpc-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="take into consideration" type="">  
+      <commentary>
+        Includes: THINK ABOUT, THINK OF
+      </commentary>
+      <examples>
+        She always thinks about her children first.
+        Think about going to college!
+        Think of all the starving children before you decide.
+        He thought of going to the event, but he lived too far.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn lemma="think_about" version="3.0">1,2</wn>
+         <wn lemma="think_of" version="3.0">1,2</wn>
+         <omega></omega><pb>think.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="carefully plan, ponder or mull over" type="">
+      <commentary>
+        Includes: THINK OUT, THINK OVER, THINK TWICE
+      </commentary>
+      <examples>
+        The project is both modest and ambitious, and very well thought out.
+        Take your time to think your answers over.
+        A coward thinks twice before jumping in the cage with a lion.
+      </examples>
+      <mappings>
+         <gr_sense>2</gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="think_out" version="3.0">1</wn>
+         <wn lemma="think_over" version="3.0">1</wn>
+         <wn lemma="think_twice" version="3.0">1</wn>
+         <omega></omega><pb>think.01</pb>
+         <vn>NM</vn><fn>Cogitation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="THINK BACK: remember or reminesce" type="">
+      <commentary>
+        Is: THINK BACK
+      </commentary>
+      <examples>
+        Putting down the ageing paper, Mrs. Tagore thought back at those days. 
+      </examples>
+      <mappings>
+         <gr_sense>3</gr_sense>
+         <wn lemma="think_back" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="THINK OF: regard something or someone as" type="">
+      <commentary>
+        Is: THINK OF
+      </commentary>
+      <examples>
+        He thinks of himself as a brilliant musician.
+        Traditionally UDP traffic is thought of as noise on the network.
+      </examples>
+      <mappings>
+         <gr_sense>1</gr_sense>
+         <wn lemma="think_of" version="3.0">3</wn>
+         <omega></omega><pb>think.01</pb>
+         <vn>consider-29.9-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="THINK OF-refer to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I'm thinking of good food when I talk about France.
+        I am thinking of Julia when I say that.
+      </examples>
+      <mappings>
+         <wn lemma="think_of" version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="create, dream up, or invent in mind" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He thought up a plan to get rich quickly.
+        Think of any integer between 1 and 25.
+        No one had ever thought of such a clever piece of software.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn lemma="think_up" version="3.0">1</wn>
+         <wn lemma="think_of" version="3.0">5,6</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Invention</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="THINK THE WORLD OF-esteem very highly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She thinks the world of that tabby cat of hers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn lemma="think_the_world_of" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

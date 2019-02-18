@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="product-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="goods produced for sale" type="">
+        <commentary>
+            PRODUCT[+concrete][+merchandise]
+        </commentary>
+        <examples>
+            The start-up worked furiously to get their product to market first, before the competition.
+            Ford has introduced three new products this year in the mid-range compacts.
+            John didn't want to work for a firm where he was just pushing product out the door.
+            The small nation substantially increased the export of its agricultural products last year.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="consequence or result of something else" type="">
+        <commentary>
+            PRODUCT[+abstract][+causality]
+        </commentary>
+        <examples>
+            The accident was a product of several small mechanical mishaps.
+            Their success has been the product of years of hard work and staying focused.
+            These juvenile delinquents are the products of broken homes.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="chemical substance formed by a specific chemical reaction" type="">
+        <commentary>
+            PRODUCT[+concrete][+chemical]
+        </commentary>
+        <examples>
+            This stuff is a product of lime and nitric acid.
+            This manufacturing process is putting some environmentally-damaging products into the rivers.
+            What is the product of combining sodium and chlorine?
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="a quantity computed by the multiplication operation" type="">
+        <commentary>
+            PRODUCT[+abstract][+quantity]
+        </commentary>
+        <examples>
+            What is the product of '4' and '6'?
+            After you compute the product of these six numbers, divide your result by '2'.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="5" name="mathematically defined set of entities" type="">
+        <commentary>
+            PRODUCT[+abstract][+relation][+mapping]
+        </commentary>
+        <examples>
+            John got 'red hats' as his Cartesian product of the set of 'hats' and the set of 'red things'.
+            Create the Cartesian product of these employee names and these social security numbers.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

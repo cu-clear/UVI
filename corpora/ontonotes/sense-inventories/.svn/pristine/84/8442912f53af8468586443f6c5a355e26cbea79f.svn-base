@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="distil-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove impurities; increase concentration of; give off" type="">  
+      <commentary>
+        NOTE: Refers to any LIQUID undergoing the distillation process. Can
+        also refer to extracting specific components from a liquid (as a
+        liquid). Can also include metaphorical instances like example3.
+      </commentary>
+      <examples>
+        He distiled the vodka for a better flavor.
+        When you distil  water you remove minerals and other impurities.
+        Tim O'Reilly has distiled the lessons from the Kathy Sierra affair.
+        The optometrist distiled a few drops of liquid into her eyes to
+        dialate them.        
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>distil.01</pb>
+         <vn>wipe_manner-10.4.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="change from gas to liquid" type="">
+      <commentary>
+        NOTE: A state change is imperative for an instance to be tagged as
+        this sense.
+      </commentary>
+      <examples>
+        The acid distils at 30 degrees Farenheit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

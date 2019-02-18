@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mistake-n">
+    <commentary>
+        1Feb07 updated to wn2.1, added features. ahouston
+        1Feb07 - changed examples. ahouston
+        Note: Choose both 1 and 2, if both meanings seem intended, or are ambiguous.
+    </commentary>
+    
+    <sense group="1" n="1" name="Misconception, inaccurate conclusion or assumption" type="">
+        <commentary>
+            MISTAKE[+state][+cognitive][+belief][+misconception]
+            Note: implies an actor/agent's thought or belief which is incorrect
+        </commentary>
+        <examples>
+            She made the mistake of thinking that Bob could influence John's opinion.
+            Make no mistake, they will use their nuclear weapons if pressed hard enough.
+            Their mistake was believing that John was the same man seen in front of the bank last night.
+            There is no mistake, my wallet was stolen from my purse at the restaurant. (my belief is not wrong)
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="error in performance, taking the wrong action" type="">
+        <commentary>
+            MISTAKE[+action][+physical][+error]
+            Note: implies an external result or consequence that is viewed as an error
+            Note: -not- a state of mind of someone (Sense 1)
+        </commentary>
+        <examples>
+            The skater was marked down by the judges for two mistakes in her long routine.
+            I found several spelling mistakes in the manuscript.
+            That mistake during surgery cost the surgeon his medical license.
+            I left my purse by mistake at the restaurant last night.  (my action was in error, -not- my belief)
+            Inviting them both to this party was a mistake. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

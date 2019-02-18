@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="perceive-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="become aware of via the senses" type="">
+      <commentary>
+        Syntax Is: NP1[experiencer] PERCIEVE[punctual] NP2[patient[concrete]] (COMP)
+        Note: compare carefully to sense 3; this sense may include a 
+              description of the perceived object (&quot;perceived as bitter&quot;)
+              but clearly describes an experience of the senses, not an opinion
+      </commentary>
+      <examples>
+        When the McGurk Effect occurred a variety of syllables were perceived.
+        If motion is perceived, the spotlight is turned on.
+        Patients who perceived the taste as bitter were classified as tasters.
+        All patients perceived the ticking of a stop-watch held at about 2 cm from either ear.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>perceive.01</pb>
+         <vn>sight-30.2,see-30.1-1-1</vn><fn>Perception_experience,Perception</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become conscious or cognizant of" type="">
+      <commentary>
+        Syntax Is: NP1[experiencer] PERCIEVE[punctual] NP2[patient[abstract]]
+        NOTE: compare carefully to sense 1; in this sense,
+              it would be difficult to say which of the 
+              &quot;senses&quot; (touch, taste, smell, sight, hearing)
+              does the perceiving; similiar to &quot;catch on to&quot;
+      </commentary>
+      <examples>
+        The corporation hopes that citizens don't perceive its apparent apathy toward public health.
+        If you read my posts, you may have perceived my dislike for the senator.
+        I was just wondering if anyone else perceived the intense irony of B. making snide remarks.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>perceive.01</pb>
+         <vn>NM</vn><fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="categorize, attend to particular features" type="">
+      <commentary>
+        Syntax Is: NP1[experiencer] PERCEIVE[stative] NP2 COMP        
+      </commentary>
+      <examples>
+        The participants perceived themselves as powerless over their impulses.
+        iMP was perceived primarily as a TV service.
+        Gene silencing was perceived initially as an unpredictable and inconvenient side effect.
+        Do you perceive him as divisive or helpful?
+        When the players were hitting well they clearly perceived the ball to be bigger.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>perceive.01</pb>
+         <vn>characterize-29.2</vn><fn>Categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

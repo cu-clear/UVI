@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="theorize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hypothesize, construct a theory" type="">  
+      <commentary>
+        Syntax is: NP1[animate] THEORIZE NP2
+      </commentary>
+      <examples>
+        Democritus theorized the existence of atoms.
+        Descartes theorized that all physical motion is cirucular.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>theorize.01</pb>
+         <vn>lecture-37.11-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="think" type="">
+      <commentary>
+        Syntax is: NP1[animate] THEORIZE
+      </commentary>
+      <examples>
+        In this way, he theorized, he would be able to prove that no
+        genetic material was lost.
+        He thinks and theorizes all day.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>lecture-37.11-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

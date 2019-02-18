@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="inhale-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="draw in air; draw into the lungs" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] INHALE NP2
+      </commentary>
+      <examples>
+        Clinton smoked marijuana but never inhaled.
+        Subjects inhaled the aerosol by tidal breathing for 2 minutes at 5
+        minute intervals.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>exhale-40.1.3-2</vn><fn>Breathing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

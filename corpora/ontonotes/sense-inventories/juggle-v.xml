@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="juggle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="handle or manipulate several components at once" type="">  
+      <commentary>
+        NOTE: Can also include examples referring to one component being in
+        motion in multiple intervals.
+      </commentary>
+      <examples>
+        I want to learn how to juggle.
+        No one knows how she juggles kids and a career so successfully.
+        We need to juggle the accounts to hide a deficit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>juggle.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="influence by slyness" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I can't believe he juggled all of us!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

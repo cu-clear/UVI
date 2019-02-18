@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shore-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the edge or border of a body of water" type="">
+        <commentary>
+            SHORE[+location][+physical][+boundary][+body][+water]
+        </commentary>
+        <examples>
+            The children hunted for crabs along the shore near their summer cottage.
+            Several piers along the lake shore were damaged by the storm.
+            We enjoyed a scenic drive along the shore.
+            The legal definition of the shore is the land bounded between low and high tide.
+            The boat hit an iceberg about a hundred miles off the shores of Newfoundland.  (refers to the actual coastline of the country, not the whole nation)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a beam or timber used for support" type="">
+        <commentary>
+            SHORE[+entity][+artifact][+structure][+beam][+support]
+        </commentary>
+        <examples>
+            John put up a couple of shores to bear the load of the sagging wall.
+            This wood is not strong enough to make good shores.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a country or region bounded by a coast" type="">
+        <commentary>
+            SHORE[+location][+physical][+region][+geographical][+boundaries][+coastal]
+            Note: related to Sense 1, but refers to the whole country, not really focused on the literal
+            shoreline of the country.
+        </commentary>
+        <examples>
+            He left the shores of his native land when he was just a young boy.
+            The ripples of Soviet 'new thinking' finally reached the distant shores of Africa.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

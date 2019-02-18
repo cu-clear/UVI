@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wring-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="twist or compress (as if) extracting liquid" type="">  
+      <commentary>
+        Includes: WRING OUT, WRING ONE'S HANDS, WRING X'S NECK
+        Syntax is: NP1[agent] WRING (OUT) NP2[concrete]
+      </commentary>
+      <examples>
+        Please wring out the towels when you're done with them.
+        If that rooster doesn't stop crowing, I'll wring its neck!
+        The mop head will reshape itself after it is wrung.
+        Papa wrung the dew out of the blankets.
+        She was wringing her hands anxiously, waiting for the news.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="wring_out" version="3.0">1</wn>
+         <omega></omega><pb>wring.01,wring.02,wring.03</pb>
+         <vn>crane-40.3.2,funnel-9.3-1,touch-20-1,wipe_manner-10.4.1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="extort money or other goods from" type="">
+      <commentary>
+        Includes: WRING FROM
+        Syntax is: NP1[agent] WRING NP2[abstract] (FROM NP3[animate])
+      </commentary>
+      <examples>
+        The landlord has wrung every dollar and cent from the tenants.
+        The English wrung concessions from the Dutch.
+        Ms. Media wrung an apology from the young child.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="wring_from" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

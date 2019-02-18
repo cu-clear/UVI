@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pump-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="compressor device that uses pressure or suction to transport fluid materials" type="">
+        <commentary>
+            PUMP[+entity][+mechanism][+compressor][+transporter][+substance][+fluid][+artifact][+device]
+        </commentary>
+        <examples>
+            John used a pump to fill the air mattresses.
+            These buildings are cooled by heat pumps that carry the hot air away.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="organic mechanism that transports blood through the body, heart" type="">
+        <commentary>
+            PUMP[+entity][+mechanism][+compressor][+transporter][+substance][+fluid][+natural][+heart]
+        </commentary>
+        <examples>
+            The human heart is a vital pump that circulates blood through the body.
+            The small hole in the child's heart needed repair so that it could work as an efficient pump.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a low-cut shoe without fasteners" type="">
+        <commentary>
+            PUMP[+entity][+artifact][+apparel][+shoe][+low_cut][-fasteners]
+        </commentary>
+        <examples>
+            Mary bought new black patent leather pumps.
+            I prefer those silver stilettos with the straps to these red pumps.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a chemical differential allowing ion flow across a cell membrane" type="">
+        <commentary>
+            PUMP[+entity][+mechanism][+differential][+chemical][+flow][+ion][+membrane][+cell]
+        </commentary>
+        <examples>
+            These drugs iinhibit the activity of pumps transporting hydrogen ions across cell membranes.
+            The biology text explained the mechanism of a sodium pump.
+        </examples>
+        <mappings>
+            <wn version="MW onilne">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an act or process of pumping" type="">
+        <commentary>
+            PUMP[+activity][+process][+transporting][+material][+fluid]
+        </commentary>
+        <examples>
+            This exercise will increase the pump of blood through the heart.
+            We could hear the pump of the big pistons on the machinery.
+        </examples>
+        <mappings>
+            <wn version="MW onilne">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

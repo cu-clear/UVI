@@ -1,0 +1,108 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dissolve-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="break up a solid, usually into a solution" type="">
+      <commentary>
+        NOTE: compare carefully to sense 2; in this sense, the dissolved entity
+              is broken down, and often absorbed by a medium
+        Note: Usually refers to a liquid medium, but not always
+        Note: May be used metaphorically but the medium must be present in the sentence.
+      </commentary>
+      <examples>
+        Dissolve a cup of sugar in the hot water.
+        The solution dissolved the stains in the bathtub.
+        It was as though my body dissolved into tiny cells that were part of everything.
+        That is happiness; to be dissolved into something complete and great.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,8,9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>dissolve.01</pb>
+         <vn>break-45.1,other_cos-45.4</vn><fn>Cause_to_fragment,Dispersal</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to morph into another state" type="">
+      <commentary>
+        NOTE: compare carefully to sense 1; in this sense, the entity dissolves becomes the 
+              resulting entity (not merely a part of it, or merely absorbed
+              into it); the resulting entity must be named in the sentence.
+        Usually used abstractly or metaphorically
+      </commentary>
+      <examples>
+        The picture dissolved into static. 
+        All his anxiety resolved itself into a sigh and dissolved into apathy and drowsiness.
+        The discussion quickly dissolved into nasty accusations about her business dealings.
+        Image is dissolved into language... language, dissolved into sound... sound dissolved into image.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) fade away" type="">
+      <commentary>
+        NOTE: In this sense, the dissolved entity is not absorbed as a part of the
+              medium, but disappears
+        May be used metaphorically
+      </commentary>
+      <examples>
+        The sound dissolved away and you felt the immediate presence of a greater being.
+        He realized that their 'wind dance' had dissolved their stress from school.
+        The picture dissolved and the large white screen was so brilliant he had to shut his eyes.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(cause to) cease to operate or function as a unit" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[patient[human[plural]]] DISSOLVE
+        NP1[agent] DISSOLVE NP2[patient[human[plural]]]
+        NOTE: compare carefully to sense 1; in this sense, the resulting state is separate components,
+              (ie, 'ethnic enclaves') not an encompassing situation (ie, 'apathy and drowsiness'.)
+              Also, this sense refers specifically to the cessation of function or organization and the unit must be implied or named. 
+      </commentary>
+      <examples>
+        Would Iraq be better off if it dissolved into three ethnic enclaves?
+        More people dissolved their state domestic partnerships than in any month since January 2000.
+        Last month they dissolved their collaboration on the nasal flu vaccine.
+        They would have upheld the Government's contentions and dissolved the steel corporation into smaller units.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,4,10,11</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>dissolve.01</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="lose control emotionally" type="">
+      <commentary>
+     Note: May include either an individual or a group of individuals. 
+      </commentary>
+      <examples>
+        She dissolved into tears when she saw the damage to her home.
+        He dissolved into anguished and uncontrollable sobbing.
+        He managed to keep a straight face until he made it back to his car, where he dissolved into laughter.
+        What was the mournful vision that dissolved him into tears?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey" sample_score="-"/>
+</inventory>

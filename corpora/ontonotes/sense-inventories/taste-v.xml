@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="taste-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Have a distinctive or characteristic taste,
+   perceptible by an experiencer." type="">  
+      <commentary>
+      NP1(experiencer) TASTE NP2(flavor)
+      NP1(object) TASTE (LIKE/OF) NP2(flavor)
+      </commentary>
+      <examples>
+      Can you taste the garlic?
+      So many apples taste mealy and bland.
+      This tastes of nutmeg.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>taste.01,taste.02</pb>
+         <vn>see-30.1</vn><fn>Perception_Experience,Appearance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Take a sample of; try; distinguish flavors." type="">
+      <commentary>
+      NP1(agent) TASTE NP2(patient) 
+      </commentary>
+      <examples>
+      Taste these new crackers!
+      We tasted wines last night.
+      She paused to taste the Georgian shashlik.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>taste.01</pb>
+         <vn>see-30.1,stalk-35.3</vn><fn>Perception_Active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Experience briefly." type="">
+      <commentary>
+      NOTE: Metaphorical extension.
+      </commentary>
+      <examples>
+      The ex-slave tasted freedom shortly before she died.
+      I want to taste true love.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Perception_Experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="curl-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) form, shape, or twist into curls" type="">  
+      <commentary>
+        Includes: CURL UP
+       Syntax Is: 
+        NP1[agent] CURL (UP) (NP2[patient])
+        NP1[theme] CURL
+      </commentary>
+      <examples>
+        He curled up by Mother Bear to get warm, and he tried to go back to
+        sleep, but he was worried.
+        She curled her hair by dipping a hairbrush in water and twirling
+        sections of hair around a rung from a discarded chair.
+        A fire crackled cheerily and blue smoke curled upward and a savory
+        odor of hot coffee hung in the air.
+        The road curled around open fields overgrown with weeds, up onto a
+        hill that gave a beautiful panoramic view of the main highway that
+        passes by Jarinu.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="curl_up" version="3.0">1</wn>
+         <omega></omega><pb>curl.01,curl.02</pb>
+         <vn>braid-41.2.2,coil-9.6-1</vn><fn>Hair_configuration</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="play the Scottish game of curling" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] CURL (FOR) NP2
+       Includes: CURL FOR
+      </commentary>
+      <examples>
+        In 1959, the competition was held in Quebec City and he curled
+        third for the McDonald team.
+        Now he curled the ball back to trap Cook plumb in front.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

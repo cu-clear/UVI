@@ -1,0 +1,131 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="match-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="fire-starting tool" type="Entity">
+        <commentary>
+            A small piece of wood that is used to start fires.  
+            Usually refers to a device with a combustible head, but other objects can be called &quot;matches&quot; if they're used to start fires.
+        </commentary>
+        <examples>
+            I always carry a book of matches with me.
+            If you dropped a match into this gasoline tank, the whole thing will explode!
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 3
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="contest" type="">
+        <commentary>
+	    MATCH[+event]
+	    A formal contest in which several people or groups compete with one another.  Usually sports-related.
+	    </commentary>
+        <examples>
+            John won the match with an uppercut to the jaw.
+            The match lasted six hours but ended in a draw.
+            Her harsh words triggered a fierce shouting match between us.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>match.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="thing that connects" type="Entity">
+        <commentary>
+            Something that matches with something else, usually because of similarity or harmony between them.
+            Can be an exact duplicate.  Includes romantic pairings.
+        </commentary>
+        <examples>
+            I need something that would be a good match for this jacket.
+            When a match is found, an entry is made in the notebook.
+            John had been trying to find a match for years, but with no success.
+            I think she'll be a great match for you!
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4 6 9
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a connection" type="Abstraction">
+        <commentary>
+            The connection between two things that match.  Does not refer to any specific item in the connection.
+            Includes romantic pairings.
+        </commentary>
+        <examples>
+            Some think that the match between animals and their environment is too perfect to arise by evolution alone.
+            Cupid is the mythical match maker.
+            Our marriage was a match made in heaven.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="all connected items" type="Group">
+        <commentary>
+            A collective term for all the items that are connected to one another.  Includes romantic pairings.
+        </commentary>
+        <examples>
+            John and I have been a happy match for the past ten years.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                8
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="score needed to win" type="Abstraction">
+        <commentary>
+            A sports term, for the score needed to win a contest.  Most often used in formal expressions, particularly in tennis.
+        </commentary>
+        <examples>
+            John will be going for the match point on this next volley.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="worthy opponent" type="Entity">
+        <commentary>
+            Refers to someone of equal ability.  A peer.  
+        </commentary>
+        <examples>
+            When we're playing at our best, we're a match for anybody.
+            You've met your match, Mr. Kasparov.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                7
+            </wn>
+            <omega/><pb>match.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="example-n">
+    <commentary>
+        10Jul08 added features, revised definitions and examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an instance of a category which illustrates properties of the category" type="Abstraction">
+        <commentary>
+            EXAMPLE[+category][+instance][+illustrative]
+        </commentary>
+        <examples>
+            This building's architecture is a good example of Art Deco.
+            Can you point out an example of what you mean by John's rude behavior?
+            These vases are actually not good examples of the ceramics made during the Ming Dynasty.
+            Many of our students, Helen for example, have switched majors several times.
+            The delay and cost overrun was yet another example of the inefficiency of bureaucracies. 	 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="model for others" type="Abstraction">
+        <commentary>
+            EXAMPLE[+role][+model][+to_imitate]
+            An action or pattern of behavior that functions as a model for others.  Often a specifically good or bad example.
+        </commentary>
+        <examples>
+            Parents must set the example for their children.
+            She followed the example of her brother and became an engineer.
+            John's selfless devotion to this organization is an example for all of us.
+            The government decided to make an example of the dissident and put him under house arrest. (here it's negative, if you imitate the model you get punished)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="educational assignment or task" type="Abstraction">
+        <commentary>
+            EXAMPLE[+information][+problem][+exercise][+learning]
+            A task or problem designed to build skill or understanding, usually in an educational context.
+        </commentary>
+        <examples>
+            Please complete the examples at the end of the chapter and hand them in tomorrow.
+            The second example asks you to give the electric field equation for an infinite flat plane.
+            The examples on the test were confusing for some of the students.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

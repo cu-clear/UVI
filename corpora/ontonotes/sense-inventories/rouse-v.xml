@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rouse-v">    
+   <commentary>
+   Contains duplicate WN mappings 
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) become active or aroused." type="">  
+      <commentary>
+      Note: if specifically causes waking from sleep, use sense 2.  
+      </commentary>
+      <examples>
+      The police roused them from the couch and forced them from the house.
+      The speaker roused the crowd to action.
+      His ideas roused a nation to confront inequality.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>rouse.01</pb>
+         <vn>force-59</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) become awake or conscious." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Guards roused me from a sound sleep.
+      He was roused by drunken men in the street.
+      Please rouse me at 6AM.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>rouse.01</pb>
+         <vn>force-59</vn><fn>Cause_to_wake</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="prepay-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide payment in advance" type="">
+      <commentary>
+         Syntax Is: NP1[agent] PREPAY NP2
+      </commentary>
+      <examples>
+        I saved money on my taxes by prepaying medical expenses.
+        Certain sub-prime mortgages impose stiff penalties if a borrower tries to prepay the loan
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>prepay.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="trevorjb" sample_score="-"/>
+</inventory>

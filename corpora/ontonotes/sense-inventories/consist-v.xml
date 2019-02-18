@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="consist-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be inherent in or expressed by" type="">  
+      <commentary>
+      Syntax Is:	
+       NP1[topic] CONSIST PP{OF/IN NP2[state]}
+       NP1[topic] CONSIST PP{OF/IN NP2[attribute]}
+        Note:(might be paraphrased as, &quot;Basically, NP1 is (or is due to) NP2.&quot;)
+	Note: the focus is on a state or attribute inherent or central to the topic. Unlike 
+        sense 2, NP2 could be considered as the key or necessary ingredient to NP1.
+        NOTE: The key attribute or state mentioned (NP2) is adequate to summarize NP1 (although it may
+              not be the entire content of NP1).  This is not always the case in sense 2, 
+              where if only one part is mentioned, it does not adequately summarize the whole.
+      </commentary>
+      <examples>
+	The problem consisted of a torn ligament in his shoulder.
+	Her popularity consists of an ability to make friends easily.
+	Success will consist in our meeting the shipment date for the new product.
+        The beauty of air travel consists in its speed and ease.
+        For her, happiness consists in watching television and reading magazines.
+        My religion consists of a humble admiration of the illimitable superior spirit...(Einstein)
+        This week consists of very sad days.
+        My exercise consists of another lap to the coffee pot!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>consist.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be composed of or be made of, as parts to a whole" type="">
+      <commentary>
+       Syntax Is:	
+        NP1[topic] CONSIST PP{OF NP2[attribute[plural]]}
+        Note: the topic is a whole made from the parts. Unlike sense 1, the NP2s are not the
+        central attributes for NP1. They are just one of the many pieces that make up NP1.
+        NOTE: If the entire list of parts is given, NP1 will be completely described, but if only 
+              a portion is given, NP1 is not completely described (ie, you couldn't say, &quot;Basically,
+              Internet content is material unsuitable for children.&quot; That material is only a portion of the 
+              content, not a defining characteristic.)
+      </commentary>
+      <examples>
+	The exhibition consists of early drawings and several large canvases by the painter.
+	This simple cake consists of only flour, butter, eggs and chocolate.
+	The new task team consists of two people from engineering, one from marketing and our supervisor.
+        The team consists of four Europeans and two Americans.
+        Apporximately 69% of all Internet content consists of material unsuitable for children.
+        The CHILDES Parental Corpus consists of utterances of parents, caregivers, and experimenters.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>consist.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="match, correspond to, fit" type="">
+      <commentary>
+       Syntax Is:	
+        NP[target] CONSIST PP{P NP[source]}
+	Note: a comparison of two things
+      </commentary>
+      <examples>
+	His decorum does not consist with the company's policies.
+	They will go along with the agenda as long as it consists with their own goals.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>  
+</inventory>

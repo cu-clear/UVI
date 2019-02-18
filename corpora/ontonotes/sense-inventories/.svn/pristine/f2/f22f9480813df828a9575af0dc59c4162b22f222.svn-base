@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="puzzle-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="perplex, confuse" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Her recent strange behavior puzzled us.
+        That question puzzled even the pundits.
+        Unusual symptoms rarely puzzle him for long.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>puzzle.01</pb>
+         <vn>amuse-31.1</vn>
+         <fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="attempt to solve, think through" type="">
+      <commentary>
+        Includes: PUZZLE OUT, PUZZLE OVER
+      </commentary>
+      <examples>
+        We puzzled over her recent strange behavior.
+        They puzzled over the unfamiliar growth in the back lot.
+        His eyes squinted as he puzzled out where he had gone wrong.
+        He puzzled and puzzled, 'til his puzzler was sore. --Dr. Suess
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="puzzle_out" version="3.0">1</wn>
+         <wn lemma="puzzle_over" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>marvel-31.3-8</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

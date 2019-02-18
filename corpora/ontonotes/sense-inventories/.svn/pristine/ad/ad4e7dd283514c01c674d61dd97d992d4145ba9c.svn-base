@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="audit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="examine for accuracy" type="">  
+      <commentary>
+        NP1[+agent/+organization] AUDIT NP2
+      </commentary>
+      <examples>
+        We have audited the accompanying financial statements of the Golden
+        Gate.      
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>audit.01</pb>
+         <vn>assessment-34.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="attend academic courses without getting credit" type="">
+      <commentary>
+        NP1[+agent] AUDIT NP2
+      </commentary>
+      <examples>
+        Two other students audited the class and worked
+        on visualization projects as well.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

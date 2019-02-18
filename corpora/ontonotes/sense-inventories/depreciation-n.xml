@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="depreciation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a decrease in the value of something, e.g., currency" type="Event">
+        <commentary>
+            DEPRECIATION[+event][+decrease][+value][+monetary][+currency/+property]
+            Note: refers to a loss of exchange value in the market.
+            Note: does not refer to an accounting deduction (Sense 2)
+        </commentary>
+        <examples>
+            Currency traders are not expecting another major depreciation of the dollar.
+            It's a good time to travel there, given the recent depreciation of their currency.
+            The depreciation of property values in this town was due to the pollution scare.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="accounting deduction, decreased worth of an asset over time due to use or obsolescence" type="">
+        <commentary>
+            DEPRECIATION[+process][+accounting][+deduction][+worth][+asset][+used]
+            [+quantity][+amount][+expense][-cash]
+            Note: refers to expenses on a balance sheet which are the assumed loss of value over time of a used or obsolescent asset. 
+        </commentary>
+        <examples>
+            The usual rate of depreciation for a personal computer is about 20 percent a year.
+            Our accountant factored in depreciation charges for manufacturing equipment.
+            You can amortize the expense of this high-end laser if you consider the depreciation allowance. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="disparagement or belittlement of something" type="Event">
+        <commentary>
+            DEPRECIATION[+action][+communication][+disparagement]
+            Note: implies an agent communicating a belittling message.
+        </commentary>
+        <examples>
+            John's depreciation of our efforts was disheartening.
+            Mary's energetic presentation was met with depreciation from the client.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shatter-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) break into many pieces" type="">
+      <commentary>
+        Syntax is: NP1[patient] SHATTER[concrete]
+                   NP1[agent] SHATTER[concrete] NP2[patient]
+      </commentary>
+      <examples>
+        The glass shattered.
+        He shattered the glass.
+        Kentucky Derby winner Barbaro, has shattered his leg and is in grave condition.
+        This can be in a flexible, resilient material or a brittle, easily shattered material.
+        A rough beginning included a crash that crumbled his bike and shattered his helmet in stage two.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>shatter.01</pb>
+         <vn>break-45.1,destroy-44</vn><fn>Cause_to_fragment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ruin, destroy" type="">
+      <commentary>
+        Syntax is: NP1[patient] SHATTER[abstract]
+                   NP1[agent] SHATTER[abstract] NP2[patient]
+      </commentary>
+      <examples>
+        This young man has twice seen his major league dreams shattered like the bat he used.
+        The record was easily shattered that night.
+        Not the peace which this world offers, and which is so easily shattered by violence.
+        Families are infinitely strong when stressed in one way, easily shattered when stressed in the opposite way.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>shatter.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

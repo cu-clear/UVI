@@ -1,0 +1,81 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recall-v">    
+   <commentary>
+	No VPCs  for this verb
+   </commentary>
+
+   <sense group="1" n="1" name="remember, cause to remember" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] RECALL NP2[patient[abstract]]
+      </commentary>
+      <examples>
+	John doesn't recall being taken to the hospital last night after his accident.
+	She is very good at recalling faces that she's only seen once.
+	She recalled how they used molasses instead of sugar during the food rationing. 
+	His acting recalls the young Jimmy Stewart.
+	This book recalls the slower-paced life of a small rural town in the 1920s.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recall.02</pb>
+         <vn>NM</vn><fn>Evoking,Memory,Remembering_experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="remove from circulation, defective products" type="">
+      <commentary>
+	Syntax Is: NP1[agent] RECALL NP2[product]
+	Note: what is recalled is a thing, not a person
+      </commentary>
+      <examples>
+	Several models of steel belt tires have been recalled.
+	The company is trying to recall ten lots of canned goods that may be contaminated.
+	They were forced to recall their brand of unpasteurized fruit juice.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recall.01</pb>
+         <vn>banish-10.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="summon or order someone back" type="">  
+      <commentary>
+	NP1[agent] RECALL NP2[patient[human]]
+	Note: what is recalled is a person
+      </commentary>
+      <examples>
+	The Panamanian ambassador was recalled from Peru.
+	The Fulham defender has been recalled to the Welsh squad for the World Cup.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recall.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="restore or revive" type="">
+      <commentary>
+	Syntax Includes:
+        NP1[agent] RECALL NP2[experiencer] 
+        NP1[cause] RECALL NP2[experiencer]
+	Note: implies a process or instrument which enabled the recall.
+      </commentary>
+      <examples>
+	The psychiatrist recalled his patient slowly from deep hypnosis.
+	The doctors basically recalled him from death just in the nick of time.
+	The loud knock at the door recalled Jane suddenly from her daydreams.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recall.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

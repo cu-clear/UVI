@@ -1,0 +1,110 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="push-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="press, exert force upon" type="">
+      <commentary>
+        Syntax is: NP1[agent] PUSH (NP2[patient])
+        Note: concrete only.
+        Note: includes giving birth.
+      </commentary>
+      <examples>
+        He pushed the table into a corner.
+        She pushed against the wall with all her strength.
+        He is pushing his body to its limits.
+        "Now push hard!" the doctor said to the woman.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,10</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>push.01,push.02</pb>
+         <vn>carry-11.4-1-1,force-59,funnel-9.3-1-1,hold-15.1-1,push-12-1-1,split-23.2</vn>
+         <fn>Cause_change_of_position_on_a_scale,Cause_motion,Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="(cause to) strive toward a goal" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] PUSH (NP2) (PP[temporal]) (SCOMP) (PP{P NP})
+        Note: abstract only.
+      </commentary>
+      <examples>
+        She pushed for years to make a decent living.
+        The liberal party pushed for reforms.
+        He pushed her to finish her doctorate.
+        The dean is pushing for his favorite candidate.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,7,9</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>push.02</pb>
+         <vn>hold-15.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="sell, attempt to sell" type="">
+      <commentary>
+        Syntax is: NP1[agent] PUSH NP2[patient]
+      </commentary>
+      <examples>
+        The salesman is aggressively pushing the new computer model.
+        The guy hanging around the school is pushing drugs.
+        I worked my regular job then pushed Amway in the evenings.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>push.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="approach a certain measurement, whether of age, speed, temperature, etc." type="">
+      <commentary>
+        Syntax is: NP1 BE PUSHING NP2
+      </commentary>
+      <examples>
+        Well, for a guy pushing fifty, I guess that's about as best as you can do.
+        I'm pushing sixty-five in a fifty when I see flashing lights behind me.
+        In those canyons, it was pushing 100 degrees.
+        Spiderman had been around for twenty-five years or so, but Superman and Batman were both pushing fifty.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>push.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="verb particle or multi-word expression" type="vpc">
+      <commentary>
+        Includes: PUSH AROUND, PUSH ASIDE, PUSH BACK, PUSH ON, PUSH OUT
+        Note: These expressions do not cover instances of actual physical force, as in &quot;Billy pushed the peas around his plate.&quot;
+        Those are covered by sense 1.
+      </commentary>
+      <examples>
+        push_around
+         Her big brother always pushed her around when she was young.
+        push_aside
+         Physics is too important to be pushed aside.
+        push_back
+         The broad availability of the Windows Vista client OS has been pushed back to next year.
+        push_on
+         &quot;Goodbye,&quot; said Pooh and Piglet for the last time, and they pushed on to Owl's house.
+        push_out
+         Coverage of Iraq has been pushed out of the news by other Middle East news.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="push_around" version="3.0">1</wn>
+         <wn lemma="push_aside" version="3.0">2</wn>
+         <wn lemma="push_back" version="3.0">1</wn>
+         <wn lemma="push_on" version="3.0">1</wn>
+         <wn lemma="push_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc,brownsw,vieweg" sample_score="-"/>
+</inventory>

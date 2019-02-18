@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="conform-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be similar, be in line with." type="">  
+      <commentary>
+     Syntax Is:
+      NP1[theme] CONFORM
+       Note: The subject in Sense 1 IS NOT agentive. Compare to Sense 2.   
+      </commentary>
+      <examples>
+      This conforms to the 'soft landing' scenario.
+      All the students conform to the school code.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>conform.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Adapt oneself to new or different conditions." type="">
+      <commentary>
+     Syntax Is:
+      NP1[agent] CONFORM
+       NOTE: The subject in Sense 2 IS agentive. Compare to Sense 1.
+      </commentary>
+      <examples>
+      We must conform to our political surroundings.
+      She conformed to Marine standards after joining the Core.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>conform.01</pb>
+         <vn>adjust-26.9</vn><fn>Compliance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

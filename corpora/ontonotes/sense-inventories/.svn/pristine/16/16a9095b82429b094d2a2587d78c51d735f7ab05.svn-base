@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="apprehend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Understand the meaning of something,
+   perhaps causing anticipation." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[experiencer] APPREHEND (NP2)
+      NP1[agent] APPREHEND (NP2)
+      </commentary>
+      <examples>
+      Finally, I apprehended.
+      She apprehended the danger of the situation almost immediately.
+      Can you apprehend the meaning of this letter?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>comprehend-87.2-1</vn><fn>Grasp</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Take into (police) custody." type="">
+      <commentary>
+      Syntax Is: NP1[agent] APPREHEND NP2[patient[animate]]
+      </commentary>
+      <examples>
+      The police apprehended the suspect.
+      The officer shall apprehend the dog and impound the dog.
+      I tried to apprehend the cat again. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>apprehend.01</pb>
+         <vn>NM</vn><fn>Arrest</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

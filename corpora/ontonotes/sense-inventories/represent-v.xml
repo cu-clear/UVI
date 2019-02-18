@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="represent-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="symbolize, serve as an example of, comprise" type="">  
+      <commentary>
+        Syntax Is: NP1 REPRESENT NP2
+      </commentary>
+      <examples>
+        Letters of the alphabet represent sounds.
+        The bald eagle represents the United States.
+        This book represents ten years of thought and research.
+        This sum represents my entire income for a year.
+        It represented months of study and discussion.
+        Fugue represents the compositional style of this era.
+        This period is represented by Beethoven.
+        This area has rock formations representing the Cretaceous period..
+        Such actions represent a gross abuse of prosecutorial discretion.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,6,7</wn>
+         <wn lemma="" version="3.0"/>   
+         <omega/><pb>represent.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="speak or act on behalf of a person, a constituency, or a group" type="">
+      <commentary>
+        Syntax Is: NP1[agent] REPRESENT NP2[patient]
+      </commentary>
+      <examples>
+        Who will represent us in the conference?
+        I represent the silent majority.
+        Mr. Smith will represent the defendant.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,8</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>represent.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="depict or portray in art, words, or model" type="">
+      <commentary>
+        NOTE: compare carefully to sense 1.  In sense 1, the symbol and the item
+        represented are separate 'entities'; in this sense, the representing item shows
+        the represented item in particular form. (The &quot;young girl&quot; is actually the &quot;wife&quot;
+        at an earlier time, the content of the &quot;report&quot; is the &quot;current situation&quot; (abstract)
+        in a written (concrete) form.) 
+        Includes acting on a stage or to behave as though one is acting on a stage.
+      </commentary>
+      <examples>
+        The painter represented his wife as a young girl.
+        The statue represents St George killing the dragon.
+        This new report represents the current situation in our schools.
+        This cognitive model represents verbal, visual and spatial working
+        memories.
+        He represents himself as an expert, but he knows nothing.
+        In this production, a single actor represents all the characters. 
+      </examples>
+      <mappings>
+         <wn version="3.0">9,10,11,12,15</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>represent.01</pb>
+         <vn>NM</vn><fn>Communicate_categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="depict somebody on stage, play the role of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He represents himself as an expert, but he knows nothing.
+        In this production, a single actor represents all the characters.
+        The Spanish actor represented the role of a priest.
+      </examples>
+      <mappings>
+         <wn version="3.0">10,11</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>represent.01</pb>
+         <vn>NM</vn><fn>Communicate_categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="5" name="express or point out" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Our parents represented to us the need for greater caution.
+        We represented this problem to the higher officials, but nothing fruitful has happened.
+      </examples>
+      <mappings>
+         <wn version="3.0">13,14</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>characterize-29.2-1-1</vn><fn>Communicate_categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,greenlm" sample_score="-"/>  
+</inventory>

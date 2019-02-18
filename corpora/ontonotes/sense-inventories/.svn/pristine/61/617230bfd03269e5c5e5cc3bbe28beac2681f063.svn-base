@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="delay-v">    
+   <commentary>
+	Added commentary, features, moved examples
+        Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) slow down" type="">  
+      <commentary>
+       Syntax Is:
+        NP1 DELAY NP2
+       	Note: implies an slowing of a process without a set, determined endpoint
+        (although there are stages in a child's development, there is no final &quot;aha, developed!&quot; end;
+         bad commuter traffic never seems to end, delayed or not)
+        Note: There is no specific endpoint!
+      </commentary>
+      <examples>
+         Traffic was delayed by a truck rollover on the Interstate.
+       	 Brain damage can delay the child's cognitive development.
+         When the process was delayed by supervisory intervention, panel members took over.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <omega/><pb>delay.01</pb>
+         <vn>NM</vn><fn>Hindering</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) happen at a later time" type="">
+      <commentary>
+	Note: compare to sense 1; in this sense, there is an implied time at which an event should
+        occur.  (Negotiations are a scheduled event; in &quot;I was delayed&quot; there is an inferred expected
+        time that &quot;I&quot; should have left the office)
+        Note: There is a specific endpoint! May be obvious or implied.
+      </commentary>
+      <examples>
+         Their negotiations were delayed due to conflicts.
+         Bad weather delayed the plane for over two hours.
+         I was delayed at the office.
+         The governer is delaying the prisoner's execution.
+         The order is being delayed due to the transportation stike.
+       	 John delayed applying to graduate school for one year.
+       	 I think we should delay deciding about this until next week.
+         She has a tendency to delay making decisions.
+         Don't delay the opportunity of seeing the world.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <omega/><pb>delay.01</pb>
+         <vn>linger-53.1-1</vn><fn>Change_event_time</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, ahouston, duffielc,vieweg" sample_score="-"/>  
+</inventory>

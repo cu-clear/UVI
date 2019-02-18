@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="memory-n">
+    <commentary>
+    sense 2 has multiple mappings 
+    </commentary>
+    <sense group="1" n="1" name="Something that is remembered." type="">
+        <commentary>
+        MEMORY[+remembrance]
+        </commentary>
+        <examples>
+        Search as he would, the memory was lost.
+        I have great memories of childhood.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The cognitive processes and capacity to remember." type="">
+        <commentary>
+        MEMORY[+cognition]
+        </commentary>
+        <examples>
+        He can do it from memory.
+        He taught a graduate course on learning and memory.
+        He had a better memory when he was younger. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="3" name="An electronic storage device." type="">
+        <commentary>
+        MEMORY[+electronic]
+        </commentary>
+        <examples>
+        Memory and the CPU for the core of the computer.
+        My system doesn't have very much memory.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

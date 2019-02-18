@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fuse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="mix together different elements" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FUSE NP2
+        NP1 FUSE
+      </commentary>
+      <examples>
+        The elements fused together and collapsed under their own weight
+        and gravity.
+        He later fused together his nationalism and his Catholic faith.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fuse.01</pb>
+         <vn>mix-22.1-1-1,shake-22.3-1-1</vn><fn>Cause_to_amalgamate,Attaching,Amalgamation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) become liquefied" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FUSE NP2
+        NP1 FUSE
+      </commentary>
+      <examples>
+        The storm fused the electric mains.
+        The substances fused at a very high temperature.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>  
+ <sense group="1" n="3" name="equip with a fuse" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

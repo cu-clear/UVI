@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="result-n">
+    <commentary>
+        10Jul08 added features, revised definitions and examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the consequence or effect of an action or circumstance" type="">
+        <commentary>
+            RESULT[+state][+consequence][+of_action][+preceding]
+            a phenomenon that follows and is caused by some previous phenomenon
+        </commentary>
+        <examples>
+            The tower collapsed as a result of safety violations.
+            Mary went to a new salon for a haircut but was displeased with the results.
+            The result of this bill will be higher taxes across the board.
+            Tom is a driven executive who gets results.  (implies positive outcomes)
+            The oil industry posted better results at the close of the market today.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an empirical statement of observation" type="">
+        <commentary>
+            RESULT[+information][+statement][+empirical][+of_observation]
+        </commentary>
+        <examples>
+            He computed the result to four decimal places.
+            The empirical results of the two studies on CO2 absorption by the ocean do not agree.
+            We are hoping to publish our experimental results in Nature.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the outcome of a competitive event" type="">
+        <commentary>
+            RESULT[+event][+outcome][+of_event][+competitive]
+            Note: implies there is a winner and loser(s)
+        </commentary>
+        <examples>
+            He listened to the racing results on the radio.
+            The results of the most recent election have been called into question.
+            What was the result of today's game against the Yankees?
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="grammatical role of a noun that is resultative" type="Linguistic">
+        <commentary>
+            RESULT[+role][+grammatical][+of_noun][+as_consequence][+of_action]
+        </commentary>
+        <examples>
+            The noun 'disaster' is in the role of result in the sentence 'The disaster was caused by negligence'.
+            In that language the result role is marked with different morphology than the patient role.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

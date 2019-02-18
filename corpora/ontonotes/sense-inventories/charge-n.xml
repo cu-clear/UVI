@@ -1,0 +1,277 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="charge-n">
+    <commentary>
+        8Jan08 update to wn2.1.added features, examples, modified definitions  ahouston
+    </commentary>
+    
+    <sense group="4" n="1" name="the price of a good or service" type="Event">
+        <commentary>
+            CHARGE[+quantity][+money][+price][+of_something]
+            price charged for some good or service
+        </commentary>
+        <examples>
+            Admission charges at movie theaters have been going up recently.
+            The bar doesn't have a cover charge except on Friday and Saturday nights.   
+            We'll send you the first two issues of the magazine free of charge.   
+        </examples>
+        <mappings>
+            <wn version="3.0">13</wn>
+            <omega/>
+            <pb>charge.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="4" n="2" name="financial liability, what is owed" type="Event">
+        <commentary>
+            CHARGE[+quantity][+money][+debt][+owed]
+            a financial liability, what is owed
+            Note: implies a relation between parties, one owes the other, in contrast to pure abstract pricing of an object (Sense 1)
+        </commentary>
+        <examples>
+            They submitted their charges to customers at the end of each month.  (amount customers owe them)
+            These charges on my bill don't seem to add up correctly.
+            The accountant said that a corporate asset of $500,000 should have been taken as a charge against earnings.
+            If you decide not to sign up for a subscription, the copy of the magazine is still yours, free of charge. (no payment owed)
+        </examples>
+        <mappings>
+            <wn version="3.0">7,12</wn>
+            <omega/>
+            <pb>charge.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="4" n="3" name="accusation of guilt or wrong-doing" type="Event">
+        <commentary>
+            CHARGE[+event][+speech_act][+accusation][+of_guilt]
+            an assertion that someone is guilty of a fault or offense; 
+            typically used in criminal law
+        </commentary>
+        <examples>
+            The newspaper published charges that the attorney had tried to bribe members of the jury.
+            He was arrested on a charge of murder.
+            Three people were arrested but later released without charge.
+            The woman may press charges against the doctor.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,10</wn>
+            <omega/>
+            <pb>charge.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="4" n="4" name="legal directive or command from a judge to a jury" type="Event">
+        <commentary>
+            CHARGE[+event][+speech_act][+directive][+instruction][+legal][+by_judge]
+            formal instructions, directives from an authority, e.g., a judge advising  a jury
+            a formal statement of a command or injunction to do something
+        </commentary>
+        <examples>
+            The judge's charge to the jury was to ignore the preceding statement of the witness.
+            Before the jury retired for deliberations, the judge issued several charges concerning the legal points of the case.
+        </examples>
+        <mappings>
+            <wn version="3.0">15</wn>
+            <omega/>
+            <pb>charge.04</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="physically rushing at something intentionally" type="Event">
+        <commentary>
+            CHARGE[+event][+physical][+intentional][+rushing][+towards_object]
+            an impetuous rush toward someone or something
+        </commentary>
+        <examples>
+            The wrestler's charge carried him past his adversary.
+            The battle began with a cavalry charge.
+            The offensive charge gained their football team 22 yards in the last play.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>charge.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="4" n="6" name="a mission, an important assignment" type="Event">
+        <commentary>
+            CHARGE[+state][+goal][+assignment][+important]
+            a special assignment that is given to a person or group
+            Note: a somewhat dated usage
+        </commentary>
+        <examples>
+            His charge was to deliver a message behind enemy lines.
+            The spy fulfilled his charge of smuggling fissile materials into the country.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>charge.04</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="3" n="7" name="dependent, person under the care of someone" type="">
+        <commentary>
+            CHARGE[+entity][+person][+dependent][+with_guardian]
+            a person who is committed to your care
+        </commentary>
+        <examples>
+            The kindergarten teacher led her young charges across the street.
+            That nursing home was cited for several types of negligence concerning its charges.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="3" n="8" name="having responsibility for managing or supervising" type="">
+        <commentary>
+	    CHARGE[+event][+state][+responsibility][+supervisory]
+	    implies an ongoing responsibility to supervise, manage, oversee something
+	    </commentary>
+        <examples>
+            The Admiral has charge of the entire Pacific naval fleet.
+            They have put Mary in charge of the London sales office.
+            The new CEO will have to take charge of the financial mess left behind by his predecessor.
+            The patients in her charge are all terminally ill.  (she oversees their care - refers to the responsibility -not- the people)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>charge.04</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="measure of electricity in a body or particle" type="">
+        <commentary>
+            CHARGE[+quantity][+electricity][+on_body]
+            the quantity of unbalanced electricity in a body (either positive or
+            negative) and construed as an excess or deficiency of electrons
+        </commentary>
+        <examples>
+            The battery needed a fresh charge.
+            The electron has a negative charge and the proton a positive charge.
+            This particle has no charge.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="explosives, ordinance" type="">
+        <commentary>
+            CHARGE[+entity][+substance][+explosive][+chemical]
+            explosive charge - 
+            a quantity of explosive to be set off at one time
+        </commentary>
+        <examples>
+            This cartridge has a powder charge of 50 grains.
+            The charges got wet and would not detonate.
+            The demolition crew planted charges strategically throughout the building.
+        </examples>
+        <mappings>
+            <wn version="3.0">14</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="11" name="a thrill, exhilaration" type="">
+        <commentary>
+            CHARGE[+state][+emotional][+exhilaration]
+            a feeling of exhilaration,  a thrill or rush
+        </commentary>
+        <examples>
+            They got a great charge out of going over the waterfall in a kayak.
+            What a charge!
+            He got a quick charge from injecting heroin.
+            She gets a real charge out of working hard and solving problems.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="12" name="cathexis" type="Psychoanalysis">
+        <commentary>
+            CHARGE[+state][+mental][+concentrated][+fixation][+on_something]
+            the libidinal energy invested in some idea or person or object
+        </commentary>
+        <examples>
+            Freud thought of charge as a psychic analog of an electrical charge.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="13" name="armorial decoration, heraldry" type="">
+        <commentary>
+            CHARGE[+entity][+artifact][+component][+heraldry][+on_shield]
+            heraldry consisting of a design or image depicted on a shield
+        </commentary>
+        <examples>
+            His charge is a sharp design with lots of pointed edges
+            His opponent's charge consists largely of curved lines.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="14" name="buy with credit card" type="Event">
+        <commentary>
+            CHARGE[+event][+transaction][+purchase][+with_credit_card]
+            the act of purchasing on credit
+            Note: nominalization: X's charge of Y -&gt; X charged Y
+        </commentary>
+        <examples>
+            Mary's charge of the dress on her old credit card would not go through.
+            The charge of $900 dollars of merchandise to his father's credit card got John into big trouble.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>charge.05</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="15" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

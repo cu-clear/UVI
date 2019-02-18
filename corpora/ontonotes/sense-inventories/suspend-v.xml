@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="suspend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hanging in air or liquid" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SUSPEND NP2[theme]
+      </commentary>
+      <examples>
+        The builders suspended the wooden platforms from the roof of the building.
+        So I had to lie on the hospital bed with my legs suspended in the air.
+        The drug is suspended in a saline solution.
+        A cloud of smoke was suspended in the air.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega></omega><pb>suspend.02</pb>
+         <vn>put_spatial-9.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bar from a position, privilege or office" type="">
+      <commentary>
+        Syntax is: NP1[agent] SUSPEND NP2[human]
+      </commentary>
+      <examples>
+        The student was suspended for pulling a prank on his teacher.
+        She was suspended from school for fighting.
+        He was suspended for four matches after arguing with the referee.
+        We will suspend you if you break the rules.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>suspend.01</pb>
+         <vn>fire-10.10</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="temporarily stop, postpone or make ineffective" type="">
+      <commentary>
+        Syntax is: NP1[agent] SUSPEND NP2[non-human]
+      </commentary>
+      <examples>
+        Blue Peter badge privileges were suspended.
+        The ferry service has been suspended for the day because of bad weather.
+        The President has suspended the constitution and assumed total power.
+        When you go to the theatre, you have to be willing to suspend disbelief.
+        I'm suspending judgment.
+        We've suspended your credit card account.
+        Mr Young was given a six-month jail sentence suspended for two years.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,6</wn>
+         <omega></omega><pb>suspend.01</pb>
+         <vn>NM</vn><fn>Activity_pause</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

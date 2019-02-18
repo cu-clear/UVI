@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bristle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="react with anger or fear" type="">
+      <commentary>
+        Includes: BRISTLE AT/UP
+
+      Syntax Is: NP1[agent[animate]] BRISTLE AT/UP (NP2)
+      </commentary>
+      <examples>
+        He bristled at her suggestion that he should teach her how to use
+        the program.
+        He bristled up and tore into me like a wild cat.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="bristle_at" version="3.0">1</wn>
+         <wn lemma="bristle_up" version="3.0">1</wn>
+         <omega></omega><pb>bristle.01</pb>
+         <vn>entity_specific_modes_being-47.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be in a state of movement" type="">  
+      <commentary>
+      Syntax Is:  NP1[location] BRISTLE WITH NP2[theme]
+      </commentary>
+      <examples>
+        The room bristled with TV and paparazzi cameras from four nations.
+        The island bristled with coast artillery.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>bulge-47.5.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="have or be covered with bristles" type="">
+      <commentary>
+      Syntax Includes: 
+       NP1[concrete] BRISTLE WITH NP2
+       NP1[abstract] BRISTLE WITH NP2
+      </commentary>
+      <examples>
+        The flower bristled with thorns.
+        This plan bristled with difficulties.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bristle" sample_score="-"/>  
+</inventory>

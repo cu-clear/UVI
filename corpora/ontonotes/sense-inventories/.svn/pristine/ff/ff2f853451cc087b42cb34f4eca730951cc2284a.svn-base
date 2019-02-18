@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="train-v">    
+   <commentary>
+	Note: No VPC to add to this verb
+   </commentary>
+   <sense group="1" n="1" name="prepare or develop, through education or practice" type="">  
+      <commentary>
+	Syntax includes: NP1[agent] TRAIN[durative] NP2[recipient]
+	                 NP1[theme] TRAIN[intransitive][durative]  PP[nonfinite]
+        Note: implies that the training occurs under mutual agreement
+        (in example 4, the wine drinker is actually training himself)
+      </commentary>
+      <examples>
+	This medical school trains the best doctors in the world.
+	Jane is training to be a teacher.
+	Who is being trained as the successor to the retiring CEO?
+	He trained his palette to distinguish French and California Cabernet wines.
+	The new coach has been training us for only six months.
+	I've been training at six in the morning everyday for the Boston Marathon.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,5,7,8</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>train.01</pb>
+         <vn>hire-13.5.3</vn><fn>Education_training</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="apply discipline to control something" type="">  
+      <commentary>
+	Syntax is: NP1[agent] TRAIN[durative] NP2[patient]
+        Note: implies that NP2 does not choose to enter into training
+      </commentary>
+      <examples>
+        It's almost impossible to train cats to stay off the furniture.
+	The gardner is training the roses to grow up the trellis.
+	She has trained her children to keep quiet in the movie theater.
+        You have trained the Smart Drive in the 60.1 Hz Q setting.
+        Mark Pilgrim trained the attack platypus.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>train.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="aim or point something" type="">  
+      <commentary>
+	Syntax is: NP1[agent] TRAIN NP2[concrete] PP
+      </commentary>
+      <examples>
+       	The policeman trained his gun on the woman's assailant.
+	Please don't train that slingshot on your little brother!
+	I trained my camera on the first model walking down the runway.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>train.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="travel by rail" type="">  
+      <commentary>
+	Syntax is: NP1[patient] TRAIN[intransitive][motion] PP[location]
+      </commentary>
+      <examples>
+	We trained across Europe last summer.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="drag loosely along a surface, trail" type="">  
+      <commentary>
+	Syntax includes: NP1[agent] TRAIN[intransitive][motion] NP2[object]
+	                 PP[location] 
+                         NP1[patient] TRAIN[intransitive][motion]
+	                 NP2[object] PP[location]
+      </commentary>
+      <examples>
+        She trained the mink coat along behind her as she walked.
+	Don't train your skirt hem in the mud there!
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

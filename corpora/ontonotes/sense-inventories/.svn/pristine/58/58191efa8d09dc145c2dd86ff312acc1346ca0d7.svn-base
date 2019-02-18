@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="invade-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Attack, encroach upon a space (as if) by military force" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] INVADE NP2[location]
+      </commentary>
+      <examples>
+      This new colleague invades my territory.
+      The neighbors invade your privacy.
+      Hitler invaded Poland on September 1, 1939.
+      An army of insurance adjusters invaded San Francisco for the weekend.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>invade.01</pb>
+         <vn>NP</vn><fn>Attack</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="penetrate or assult as if living in/on a host" type="">
+      <commentary>
+        Syntax Is: NP1[theme] INVADE NP2[location]
+        NOTE: In this sense the invasion is not a conscious
+        action. Location may be abstract.
+      </commentary>
+      <examples>
+      The Kutzu plant invaded much of the South.
+      The cancer had invaded her lungs.
+      Mold invaded the bathroom.
+      Every year, the waters of the Yangtze River invade inland.
+      Frustration has invaded the team's spirit.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>Attack</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

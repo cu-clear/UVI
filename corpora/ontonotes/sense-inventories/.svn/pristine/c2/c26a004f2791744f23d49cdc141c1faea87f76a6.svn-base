@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shipper-n">
+    <commentary>
+        6nov06 changed examples in sense 1 to clarify distinction of the sense. ahouston.
+    </commentary>
+    
+    <sense group="1" n="1" name="a person who runs a goods transport business" type="">
+        <commentary>
+            SHIPPER[+person][+business][+transporter][+goods]
+            Note: refers to a person, an individual, -not- an organization
+        </commentary>
+        <examples>
+            To be a shipper for that company you must be able to left 60 pounds.
+            Many of his shippers don't speak much English. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a business enterprise that transports goods" type="">
+        <commentary>
+            SHIPPER[+enterprise][+business][+transporter][+goods]
+            Note: refers to a business, not a person.
+        </commentary>
+        <examples>
+            The government has classified these companies as trusted shippers.
+            Their firm is a shipper of medical supplies and instruments.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

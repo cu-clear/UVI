@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="diverge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move or draw apart; extend in different directions" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        'Two roads diverged in a yellow wood.' -Robert Frost
+        All 80 varieties of Darwin's finches diverged from one original
+        species.
+        McCain diverged from the topic at hand.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>diverge.01</pb>
+         <vn>differ-23.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="MATHMATICS: Have no limits" type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The Rutherford formula does not allow us to calculate that value
+      because it diverges. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

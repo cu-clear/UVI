@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="collapse-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) fall down, break down, or fold" type="">  
+      <commentary>
+       Syntax Is:
+        NP1[agent] COLLAPSE NP2 (cause to fall, break, fold)
+        NP2 COLLAPSE (fall, break, fold)
+         Note: Use: Physical fall or break
+      </commentary>
+      <examples>
+        Are you sure this roof won't collapse over us?
+        Thousands of buildings collapsed in the earthquake.
+        The chair collapsed under her weight.
+        Remember to collapse the chair for storage.
+        This has one button function to open and collapse the umbrella canopy.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5</wn>   
+         <omega/><pb>collapse.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fail in strength or health and cease to funtion" type="">
+      <commentary>
+      Syntax Is: 
+        NP1 COLLAPSE
+         Note: Use: Metaphorical, Abstract
+      </commentary>
+      <examples>
+        The business collapsed amid allegations of fraud in 2001.
+        Lots of people lost their jobs when the property market collapsed.
+        Talks between management and unions have collapsed.
+        Share prices collapsed after news of poor trading.
+        I told you she'd collapse under pressure.
+        Often the caregivers also collapse from fatigue or exposure to residual radiation.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,6,7</wn>
+         <omega/><pb>collapse.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

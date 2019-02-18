@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="restrain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="immobilize or confine" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[concrete]] RESTRAIN NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        Who restrained the chimpanzees?
+        The defendant unlawfully restrained the person he abducted.
+        The three officers restrained the back of the injured man.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>restrain.01</pb>
+         <vn>forbid-67</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="limit, keep under control, deter, forbid" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[animate]] RESTRAIN NP2[patient[abstract]]
+        NP1[agent[abstract]] RESTRAIN NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        The High Court restrained the state government from collecting
+        taxes.
+        Democrats have pledged to restrain spending.
+        The South Java Current restrained the flows from the straits.
+        Please restrain your temper!
+        My morals restrain me from stealing.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>restrain.01</pb>
+         <vn>limit-76</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,trevorjb,brownsw" sample_score="-"/>  
+</inventory>

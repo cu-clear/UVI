@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lull-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) become quiet, less intensive or still." type="">  
+      <commentary>
+      Includes: LULL INTO
+      Syntax includes: NP1[undergoer] LULL
+                       NP1[+agent] LULL NP2    
+   </commentary>
+      <examples>
+      She will lull you into a false sense of security.
+      He lulled the baby to sleep.
+      Politicians try to lull us into trusting them. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lull.01</pb>
+         <vn>amuse-31.1,subjugate-42.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

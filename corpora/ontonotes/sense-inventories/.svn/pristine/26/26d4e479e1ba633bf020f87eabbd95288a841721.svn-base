@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="depiction-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a verbal description or characterization of something" type="Event">
+        <commentary>
+            DEPICTION[+event][+speech_act][+description][+characterization]
+        </commentary>
+        <examples>
+            The reporter's depiction of the disaster scene was vivid.
+            We didn't completely believe the man's depictions of his youth as a series of heroic adventures.
+            The author's depiction of factory life in the 19th-century is fairly even-handed. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a visual characterization of something" type="Event">
+        <commentary>
+            DEPICTION[+entity][+artifact][+representation][+visual][+characterization]
+        </commentary>
+        <examples>
+            This cartoonist is famous for his ironic depictions of presidents and premiers.
+            That painting is a well-known depiction of Washington crossing the Delaware.
+            Van Gogh sketched and painted depictions of everyday life for European peasants.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

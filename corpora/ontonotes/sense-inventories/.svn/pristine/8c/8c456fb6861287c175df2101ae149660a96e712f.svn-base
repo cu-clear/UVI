@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="coach-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="lead an athletic team, train" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] COACH NP2
+      </commentary>
+      <examples>
+        Somerwil coached the rowing program there for seven years
+        from 1981-88.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>coach.01</pb>
+         <vn>captain-29.8-1</vn><fn>Education_teaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="drive a coach" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>vehicle-51.4.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

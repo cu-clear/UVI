@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="process-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="procedure" type="Event">
+        <commentary>
+	    PROCESS[+event]
+	    a particular course of action intended to achieve a result
+	    </commentary>
+        <examples>
+            The procedure of obtaining a driver's license.
+            It was a process of trial and error.
+            The process of calcification begins later for boys than for girls.
+            John find the process of thinking too tiresome.
+            The process of denial...
+        </examples>
+        <mappings>
+            <wn version="2.0">1 2 3 5</wn>
+            <omega/>
+            <pb>process.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="summons" type="">
+        <commentary>
+            a writ issued by authority of law
+        </commentary>
+        <examples>
+            A process usually compels the defendant's attendance in a civil suit; failure to appear results in a default judgement against the defendant
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>process.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="outgrowth" type="">
+        <commentary>
+            appendage - 
+            a natural prolongation or projection from a part of an organism either
+            animal or plant
+        </commentary>
+        <examples>
+            A bony process...
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

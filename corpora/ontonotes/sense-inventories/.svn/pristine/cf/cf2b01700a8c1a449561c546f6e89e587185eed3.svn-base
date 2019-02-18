@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="enquire-v">    
+   <commentary>
+   Mapped to FN for inquire-v 
+   </commentary>
+   <sense group="1" n="1" name="Ask someone about, as a result of having a wish to
+   know something about." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      I enquired about their special today.
+      He had to enquire about directions several times.
+      She enquired who had built this beautiful church.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>inquire-37.1.2</vn><fn>Questioning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Pursue information about as part of a
+         (criminal) investigation." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The district attorney's office enquired reports of possible
+      irregularities in the accounting.
+      Enquire into the disappearance of this woman.
+      We must seriously enquire everything we think we know.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NM</vn><fn>Criminal_investigation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

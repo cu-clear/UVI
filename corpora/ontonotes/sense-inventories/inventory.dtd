@@ -1,0 +1,80 @@
+<!ELEMENT inventory (commentary?, sense+, WORD_META)>
+<!ATTLIST inventory lemma CDATA #REQUIRED>
+
+<!-- 
+  the inventory's lemma attribute should take the form: word_stem-[nva] 
+-->
+
+<!ELEMENT commentary (#PCDATA)>
+
+<!-- 
+(optional) unstructured commentary to be seen by the annotators.  Can be at the word-level
+or at the sense-level.  Can include things like:  a long technical definition, explicit
+guidance on distinguishing close senses, verb-frames, etc.
+-->
+
+<!ELEMENT sense (commentary?, examples, mappings, SENSE_META)>
+<!ATTLIST sense 
+  n CDATA #REQUIRED
+  type CDATA #IMPLIED     
+  name CDATA #REQUIRED
+  group CDATA #REQUIRED>
+
+<!--
+  id = the number ID of the sense
+  type = the type of the sense (e.g. concrete, abstract, technical, archaic, event)
+  name = a clear and concise description of the sense (for the annotators)
+  group = A group identifier: this allows very coarse clustering of the senses.
+         used, for example, distinguish homographs (fan the blows air vs. football fan)
+         and to cluster closely related senses (e.g. school as building & school as process
+         vs. school of fish)
+         
+-->
+
+<!ELEMENT examples (#PCDATA)>
+
+<!--
+  examples that illustrate which common patterns of usage fall under this sense.
+  should include helpful boundary cases and idiomatic expressions.
+  NOTE: each example should be separated by a newline character.
+-->
+
+<!ELEMENT mappings (gr_sense?,wn+,omega,pb,vn?,fn?)>
+<!ELEMENT wn (#PCDATA)>
+
+<!--
+  a space/comma delimited list of the wordnet sense-numbers which fit under this sense, or "-"
+  if none do.
+-->
+
+<!ATTLIST wn 
+ version CDATA #REQUIRED
+ lemma CDATA #IMPLIED>
+
+<!ELEMENT gr_sense (#PCDATA)>
+
+<!--
+ version = WordNet Version
+ lemma = WordNet lemma (e.g. raise, raise_up, raise_hell) 
+-->
+
+<!ELEMENT omega (#PCDATA)>
+<!ELEMENT pb (#PCDATA)>
+<!ELEMENT vn (#PCDATA)>
+<!ELEMENT fn (#PCDATA)>
+<!-- additional mapping elements can be added as the need arises -->
+
+<!ELEMENT SENSE_META EMPTY>
+<!ATTLIST SENSE_META clarity CDATA #IMPLIED>
+<!-- 
+  a measure of the sense's clarity (should be a numerical score between 0 
+  and 1.  This should not be edited by hand - it will be automatically generated.
+-->
+  
+<!ELEMENT WORD_META EMPTY>
+<!ATTLIST WORD_META 
+  authors CDATA #REQUIRED  
+  sample_score CDATA #IMPLIED>
+
+
+

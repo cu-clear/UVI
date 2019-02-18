@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="chairman-n">
+    <commentary>
+        7Jan08 added 2 senses, features, update to wn 2.1 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="officer who presides at a meeting of an organization" type="">
+        <commentary>
+            CHAIRMAN[+entity][+person][+officer][+of_meetng]
+            [+relation][+role][+supervisor][+of_meeting]
+            president, chairwoman, chairman, chairperson, chair -
+            the officer who presides at the meetings of an organization
+            Note: can imply a temporary, stand-in role (one meeting) or a general role
+        </commentary>
+        <examples>
+            Address your remarks to the chairman of the meeting.
+            Bob will be chairman this evening as Mary could not attend the meeting.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the administrative head of an academic department" type="">
+        <commentary>
+            CHAIRMAN[+entity][+person][+administrator][+head][+of_department][+academic]
+            [+relation][+role][+administrator][+of_department]
+            Note: implies a long-standing role in a department, 
+        </commentary>
+        <examples>
+            Who is now chairman of the philosophy department?
+            After John received tenure, he became chairman of the economics department for two years.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the bearer or carrier of a sedan" type="">
+        <commentary>
+            A person who carries a chair, transports a person in a chair, sedan
+            Note: somewhat archaic usage
+        </commentary>
+        <examples>
+            The gentleman hailed a chairman to carry him back to his hotel.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

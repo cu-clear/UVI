@@ -1,0 +1,126 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="addition-n">
+    <commentary>
+        12jun08 - revised features, defs. added idiomatic Sense 6 ahouston
+    </commentary>
+    <sense group="1" n="1" name="the act of intentionally adding something extra" type="Event">
+        <commentary>
+            ADDITION[+event][+adding_on][+something]
+            Note: cannot substitute 'increase' for 'addition' here, in contrast to Sense 2
+        </commentary>
+        <examples>
+            The addition of saffron to the rice makes a lovely flavor.
+            Her additions of color accents and lighting made the room seem more inviting.
+            The addition of new restrictions on Italian imports may start a trade war.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an increase in magnitude" type="Event">
+        <commentary>
+            ADDITION[+quantity][+magnitude][+increase]
+            Note: Replacing 'addition' with 'increase' doesn't change the meaning of the sentence.
+            Note: refers to a numerical increase, not a new entity in a collection (Sense 3)
+        </commentary>
+        <examples>
+            There has been no addition to gasoline prices this month.
+            The study reported a significant addition to the number of bankruptcy cases filed.
+            The town was concerned about measurable additions of heavy metals in the drinking water.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a thing added to an existing set or collection" type="Event">
+        <commentary>
+            ADDITION[+collection][+member][+new]
+            Note: different from sense 1 in that a collection of similar things is implied in Sense 3
+        </commentary>
+        <examples>
+            The art museum has acquired several important additions to its Cubist collection.
+            We are building a new addition onto the living room. (adding room to set of rooms)
+            There were three additions to the programming staff last month. (set of employees)
+            A raincoat is a useful addition to your wardrobe. (set of clothes)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="areas defined for real estate development" type="">
+        <commentary>
+            ADDITION[+location][+land][+residential][-developed]
+        </commentary>
+        <examples>
+            The developers are planning five new additions on the edge of town.
+            Our town has strict zoning laws for additions to existing neighborhoods.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a mathematical operation" type="Event">
+        <commentary>
+            ADDITION[+process][+operation][+mathematical][+accumulation]
+            Note: the activity of performing addition of numbers
+        </commentary>
+        <examples>
+            Can these children perform simple addition?
+            The addition operator is symmetric. 
+            The addition of 5 to 4 equals 9.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="an adverbial clause asserting that more is included" type="Event">
+        <commentary>
+            IDIOM: adverbial modifier of a main clause.
+            Note: an idiomatic expression 'in addition' or 'in addition to'
+        </commentary>
+        <examples>
+            In addition to their salary, employees receive workers compensation and health care insurance.
+            In addition, she mentioned that the servers would be down over the weekend for system upgrades.
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="obsess-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) preoccupy someone." type="">  
+      <commentary>
+      Includes: OBSESS OVER, OBSESS ABOUT
+      Syntax Includes:
+      NP1[topic] OBSESS NP2[patient[animate]]
+      NP1[agent[animate]] OBSESS (over) NP2[topic]
+      </commentary>
+      <examples>
+      Fear of illness obsesses her.
+      She is obsessing over her weight.
+      John obsesses over the smallest details.
+      Don't obsess about everything so much!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>obsess.01</pb>
+         <vn>amuse-31.1,marvel-31.3-8</vn><fn>Emotion_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

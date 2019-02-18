@@ -1,0 +1,113 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pick-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="select carefully from a group" type="">
+      <commentary>
+        NOTE: be careful not to include the VPC PICK_OUT in this sense
+        (even though it has a similar meaning)--for all VPCs, choose the 
+        last sense
+      </commentary>
+      <examples>
+        She finally picked her successor.
+        Sports Illustrated ruffled feathers when they picked the Panthers to win the Super Bowl.
+        Hovind insisted that he pick the judges himself without any confirmation of their neutrality.
+        Looks like I picked the wrong week to quit sniffing glue.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>pick.01</pb>
+         <vn>NM</vn><fn>Choosing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="look for and gather/pluck" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Shuksan and Rainier strawberries are picked fresh daily and are of commercial quality.
+        If you picked the flowers from the parking lot at work you lose points.
+        I picked the vegetables from the vine myself and brought them to you!
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>pick.01</pb>
+         <vn>get-13.5.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="lightly pluck or hit at" type="">
+      <commentary>
+        Note: can be used metaphorically, includes inciting an argument.
+        Includes: PICK ON
+      </commentary>
+      <examples>
+        After slow-cooking, you can easily pick the meat off the bone.
+        Remove the leg quarters from the pan and pick the bones clean.
+        Presley's Vince Everett learns how to pick a guitar while doing time in Jailhouse Rock.
+        She just picked her sandwich, but never really ate anything.
+        Quit picking on me!
+        I've got a bone to pick with you.
+        If you're going to pick a fight with a technology cult, for Pete's
+        sake, don't go after the Linux nerds.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5,6,9,11,12</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>pick.02,pick.07</pb>
+         <vn>chew-39.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="steal" type="">
+      <commentary>
+        Note: used in the idiomatic expression &quot;pick pockets&quot;
+      </commentary>
+      <examples>
+        How now, Dame Partlet, have you inquired yet who picked my pocket?
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="strike hard" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The next day we chopped and picked the ice out and built fires inside.
+        The skater picked the ice with her skate.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="verb-particle and multi-word-expressions" type="vpc">
+      <commentary>
+        Includes:
+         PICK APART
+         PICK AT
+         PICK OFF
+         PICK OUT
+         PICK OVER
+         PICK UP
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="pick_apart" version="3.0">1</wn>
+         <wn lemma="pick_at" version="3.0">1,2,3</wn>
+         <wn lemma="pick_off" version="3.0">1,2</wn>
+         <wn lemma="pick_out" version="3.0">1,2</wn>
+         <wn lemma="pick_over" version="3.0">1</wn>
+         <wn lemma="pick_up" version="3.0">1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc, vieweg" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="testify-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give testimony in a court of law" type="">
+      <commentary>
+        Syntax is:NP1[human] TESTIFY 
+      </commentary>
+      <examples>
+        I have testified as an expert in two voting rights cases in federal court.
+        A number of eyewitnesses testified that the four were led to an abandoned building.
+        Secretary Spellings testified on lifelong learning before the Senate Committee.
+        Several witnesses testified to seeing the gun on Massey's person.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>testify.01</pb>
+         <vn>lecture-37.11-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="provide evidence for" type="">
+      <commentary>
+        Syntax is: NP1[human] TESTIFY
+                   NP1[inanimate] TESTIFY
+        Note: includes religious usages
+      </commentary>
+      <examples>
+        Her behavior testified to her incompetence.
+        The general merit of invocation is testified to by the Word of God.
+        The ox was wont to gore in time past, and it hath been testified to its owner.
+        A woman testified to the transformation in her life that had resulted through her conversion.
+        The sales plus of 45% testified to the success of the marketing campaign.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>testify.01</pb>
+         <vn>lecture-37.11-1</vn><fn>Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

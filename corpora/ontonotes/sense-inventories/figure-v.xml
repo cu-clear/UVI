@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="figure-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="reason, reckon, understand or conclude" type="">
+      <commentary>
+         Syntax Is: NP1[agent[human]] FIGURE COMP
+                    NP1[agent]FIGURE (NP2[patient])
+      </commentary>
+      <examples>
+         They figured that the storm would just miss the east coast.
+         He never figured that this would happen.
+         She figured he must have been telling the truth.
+         I can't figure him at all.
+         Go figure!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5</wn>
+         <omega/><pb>figure.01</pb>
+         <vn>rely-70</vn><fn>Opinion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="calculate or compute; solve or puzzle out (BOTH quantitative and qualitative)" type="">
+      <commentary>
+         Syntax Includes: 
+         NP1 FIGURE NP
+         NP1 FIGURE COMP
+         Includes: FIGURE OUT
+      </commentary>
+      <examples>
+        Each time we have to figure the sum of an arithmetic progression.
+        Students figure the probability of rolling a five with one or two dice.
+        He figured out an algorithm the gives the answers.
+        Once the computer figured out its best move, a programmer at the match moved the chess piece.
+        I can't figure out how to solve this problem.
+        Did you figure out the riddle yet?
+        This unpleasant situation will not figure itself out.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="figure_out" version="3.0">1</wn>
+         <omega/><pb>figure.04,figure.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be a factor or play a role in something" type="">
+      <commentary>
+         Syntax Is: NP1 FIGURE PP
+      </commentary>
+      <examples>
+         In the play, she figured as the domineering marriage partner.
+         Elections figure prominently in every government program
+         He didn't see how the new technology would figure into lower health care costs.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>figure.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="envision or project, never occurs as 'figure out'" type="">
+      <commentary>
+         Syntax Is: NP1[agent] FIGURE NP2[patient] (PP)
+      </commentary>
+      <examples>
+         I figured your face for so long in my dreams.
+         Can you figure me in this swimsuit?
+         She figures herself as a wealthy person within five years.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+      </sense>
+      <sense group="1" n="5" name="to be or happen as expected, to be unsurprising or sensical" type="">
+      <commentary>
+       NOTE: No corresponding Wordnet sense, includes colloquial only. 
+      </commentary>
+      <examples>
+        It just figures they'd show up late.
+        It figures why they find the financial tracking so important.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

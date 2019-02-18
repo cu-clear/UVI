@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="quarter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide housing for" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] QUARTER NP2[theme[animate]] (PP[location])
+      NP1[location] QUARTER NP2[theme[animate]
+      NP1[theme[animate]] QUARTER PP[location]
+      </commentary>
+      <examples>
+      Conan returned to the house where his company was quartered.
+      He immediately ordered the village in which he had been quartered to be set on fire.
+      They quartered the troops in an old factory building.
+      This cantonment town quartered the British soldiers at the time of British Empire.
+      I have quartered the troops constantly in houses, so that they have suffered very little.
+      The soldiers quartered in the court- house, later the old city hall, and in the school-houses.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>quarter.01</pb>
+         <vn>lodge-46</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="execute by tying a person to 4 horses and pulling them apart" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] QUARTER NP2[patient[animate]]
+      </commentary>
+      <examples>
+      Others participants in the revolt were condemned, some to be quartered, others to lose their heads.
+      This morning Hacker and Axtell were hanged and quartered, as the rest are.
+      Nikolas was quartered by horses in 1583.
+      For me, receiving a blog award is like being drawn and quartered by bears.
+      Robert Damiens was quartered by horses in 1757 for attempting to assassinate Louis XV. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>quarter.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="divide into quarters" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] QUARTER NP2[patient[concrete]] (PP[instrument])
+      NP1[theme|instrument] QUARTER NP2[patient]
+      </commentary>
+      <examples>
+      Balder rapidly quartered the apple with a dagger.
+      The shield depicts a yellow lion above a white field quartered by the cross of Saint George.
+      Small fruits should be quartered by the method used for particulate foods. 
+      The traditional Celtic year was quartered by the solstices and the equinoxes.
+      An untanned, pickled calfskin was quartered by cutting down the backbone and across the waist.
+      The resulting pulps were quartered by rotary splitter.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>quarter.03</pb>
+         <vn>carve-21.2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

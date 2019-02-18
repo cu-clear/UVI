@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="park-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="leave a vehicle in a designated space" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] PARK (NP2[patient]) (PP[locative])
+        NOTE: When no NP2 (vehicle) is mentioned use this sense unless the
+        context of the following/preceding sentences indicates
+        otherwise. See the second sentence of sense 2.
+      </commentary>
+      <examples>
+        I'll show you how to park your motorcross bike.
+        Please don't park my Lamborghini next to an SUV.
+        Where do I park my broomstick?  
+        My grandfather always parks in the handicap spaces.
+        Mike parked the car illegitimately and put his police badge in the window.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>park.01</pb>
+         <vn>put-9.1-1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="place something temporarily" type="">
+      <commentary>
+        NOTE: This sense does not include vehicles.
+      </commentary>
+      <examples>
+        Don't park your brain outside, you're going to need it.
+        She parked right next to me on the bench.
+        This website is a nice place to park your ideas.
+        Park your coffee on the table.
+        Here's a great place to park your cash!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>park.01</pb>
+         <vn>put-9.1-1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="specialist-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a medical doctor highly trained in a specific area of medicine" type="">
+        <commentary>
+            SPECIALIST[+person][+doctor][+medicine][+branch][+specific]
+            Note: always implies a specialty in some field of medicine.
+            Note: GPs are considered to be professionals, experts, but not specialists (so a bit different from Sense 2)
+        </commentary>
+        <examples>
+            He is seeing one of the best heart specialists in Houston.
+            The child should be examined by an ear specialist. 
+            We could not find a specialist in this particular psychiatric disorder.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="anyone considered to be an expert in a narrow field" type="">
+        <commentary>
+            SPECIALIST[+person][+expert][+knowledge][+field][+narrow]
+            Note: implies deep knowledge on some topic, usually a narrow topic.
+        </commentary>
+        <examples>
+            They detectives brought in their fingerprint specialist.
+            Mary has become a specialist in 18th century Dutch blue ceramics.
+            We talked to a tea specialist who selected some rare Jasmine varieties for us.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="one of four enlisted ranks in the U.S. Army" type="">
+        <commentary>
+            SPECIALIST[+role][+rank][+military][+enlisted][+army][+United_States]
+        </commentary>
+        <examples>
+            He became a specialist 4, which is the rank of a corporal.
+            A sergeant first class is also a specialist 7, and does administrative work but does not exercise command.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

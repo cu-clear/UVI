@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="grant-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="financial aid given to support some undertaking" type="">
+        <commentary>
+            GRANT[+quantity][+money][+support][+financial][+for_undertaking]
+        </commentary>
+        <examples>
+            The professor has brought in about 2 million dollars in grants.
+            Mary is applying for a NIH grant to support her research.
+            These grants are given by private corporations to stimulate enterprise zones.
+            The government has 25 million dollars in block grants.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>grant.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of allowing, bestowing something" type="Event">
+        <commentary>
+            GRANT[+event][+allowing][+bestowing]
+        </commentary>
+        <examples>
+            The fairy godmother's grant of three wishes to the girl is the central plot of the story.
+            The governor's grant of a stay of execution came as a surprise.
+            They had to recommend either the grant or the refusal of broadcast licenses.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a legal transfer of property" type="Event">
+        <commentary>
+            GRANT[+event][+transfer][+legal][+of_property]
+            [+document][+legal][+transfer][+of_property]
+        </commentary>
+        <examples>
+            The government's land grants accelerated development and settlement of the west.
+            John's right to the family farm was established through a grant of probate.
+            Bob has the beer grant at the baseball park. (contractual right to run concession there)
+        </examples>
+        <mappings>
+            <wn version="3.0">3,7,8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a minor geographical subdivision of Maine, Vermont or New Hampshire" type="">
+        <commentary>
+            GRANT[+location][+geographical][+subdivision][+minor][+of_state][+Maine_New_Hampshire_Vermont]
+        </commentary>
+        <examples>
+            This old stone wall delineates one side of an early grant in Maine.
+            That grant in Vermont includes several dairy farms and a river running between them.	
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="operate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="function, carry on, or work in a particular way" type="">
+      <commentary>
+         Note: Intransitive.  The subject (NP1) is the machine/thing/organization that is functioning.
+         Syntax Includes:       
+         NP1 OPERATE PP 
+         NP1 OPERATE ADVP
+      </commentary>
+      <examples>
+         The old flour mill still operates under water power.
+         I love the way her mind operates.
+         Exercise makes the heart operate more efficiently. 
+         The big gears on that machine don't seem to be operating.
+         Exchange rates are currently operating to the advantage of exporters.
+         Changes are being introduced to make the department operate more efficiently.
+         Until 1973, the United States military operated under a draft system.
+         Bands of pirates were still operating at the turn of the century.
+         Private enterprises were allowed to operate only in one district.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5</wn>
+         <omega/>
+         <pb>operate.01,other_cos-45.4</pb>
+         <vn>other_cos-45.4</vn>
+         <fn>Being_in_operation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="maneuver or run something" type="">
+      <commentary>
+       Note: Transitive. The direct object (NP2) is the machine/thing/organization
+            being run by the subject (NP1).
+       Syntax Is: NP1[agent] OPERATE NP2
+      </commentary>
+      <examples>
+         He operated the controls with skill and precision.
+         She is operating the Asian office of that newspaper.
+         They hoped the plantation would be operated for another year.
+         For several years she operated a dating agency from her basement flat.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,6</wn>
+         <omega/>
+         <pb>operate.01</pb>
+         <vn>other_cos-45.4</vn>
+         <fn>Operating_a_system,Using</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="perform a surgery" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         They told him they couldn't operate on his tumor.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/>
+         <pb>operate.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sing-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="communicate by producing tones with the voice" type="">
+      <commentary>
+        Syntax is: NP1[animate] SING (NP2/PP)
+      </commentary>
+      <examples>
+        He sang of beauty and truth.
+        When we sang &quot;Happy Birthday,&quot; Sheila cried.
+        Rhonda sang in the choir for years.
+        Many birds sing to attract a mate.
+        Every year the orchestra and choir perform the 'Messiah' and they invite everyone to sing along.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="sing_along" version="3.0">1</wn>
+         <omega/><pb>sing.01</pb>
+         <vn>manner_speaking-37.3,performance-26.7-1-1</vn>
+         <fn>communication_manner</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create a whining or whistling sound" type="">
+      <commentary>
+        NP1[inanimate] SING (PP)
+      </commentary>
+      <examples>
+        The kettle sang unnoticed on the stove.
+        A bullet sang past his ear.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="divulge confidential information" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Bruno's gone looking for the birdie that sang to the police.
+        He'll sing if they question him long enough.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="change what one has been saying or doing." type="">
+      <commentary>
+      Is: SING A DIFFERENT TUNE
+      </commentary>
+      <examples>
+        She'll be singing a different tune once she sees her grade on the
+        exam.
+        He's singing a very different tune than during the primaries. 
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="insistence-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an agent's emphatic demand for something" type="Event">
+        <commentary>
+            INSISTENCE[+event][+communication][+demand][+emphatic]
+            Note: implies an emphatic demand made by a specific agent or person
+        </commentary>
+        <examples>
+            Her insistence that we all drive in one car to the restaurant annoyed Tom.
+            They admire him for his insistence on balancing the budget.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>insistence.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of urgency, a pressing situation" type="Event">
+        <commentary>
+            INSISTENCE[+state][+specific][+urgency]
+            Note: implies a pressing or urgent specific situation
+        </commentary>
+        <examples>
+            The insistence of hunger kept them awake through the night.
+            She had to cancel our dinner because of the insistence of work-related issues.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a state of requirement" type="Event">
+        <commentary>
+            INSISTENCE[+state][+general][+requirement]
+            Note: refers to a general ongoing state of requirement
+        </commentary>
+        <examples>
+            Insistence now on good grammar will help these students succeed later in  the job market.
+            That luxury car manufacturer is famous for its insistence on quality.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

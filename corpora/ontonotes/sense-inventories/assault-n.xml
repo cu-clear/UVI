@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assault-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a close_in military combat" type="Event">
+        <commentary>
+            ASSAULT[+event][+combat][+military][+close_in]
+        </commentary>
+        <examples>
+            The assault of the city involved a lot of hand-to-hand combat.
+            It will require a bloody assault to take such a castle. 
+            The commando's assault of the facility occurred under cover of darkness.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>assault.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a personal physical attack" type="Event">
+        <commentary>
+            ASSAULT[+event][+attack][+physical][+personal]
+        </commentary>
+        <examples>	
+            The man is serving a sentence for assault of a film director.
+            The police record notes a decrease in sexual assaults this past year.
+            It's his third time in court facing charges of assault.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>assualt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="intense verbal criticism" type="Event">
+        <commentary>
+            ASSAULT[+event][+attack][+speech_act][+criticism][+intense]
+        </commentary>
+        <examples>
+            It was an unabashed assault on the party's socialist-leaning tax policies.
+            The film star has rightfully claimed that such assaults on her character constitute libel.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a concerted attempt to achieve a goal" type="Event">
+        <commentary>
+            ASSAULT[+activity][+attempt][+concerted][+to_reach][+goal]
+        </commentary>
+        <examples>
+            The climbers attempted a late spring assault of Mt. Everest.
+            The book describes her assaults on the glass-ceiling of corporate culture during the 1960s.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>assualt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

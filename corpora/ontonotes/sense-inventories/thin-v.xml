@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="thin-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become thin" type="">  
+      <commentary>
+        Includes: THIN OUT        
+        Syntax includes: NP1[agent] THIN (out) (NP2[patient])
+                         NP1[patient] THIN (out) [intransitive]
+      </commentary>
+      <examples>
+        She thinned my hair out way too much, which left me with horrible
+        looking layers.
+        I'm actually impressed at how she thinned herself down.
+        She thinned herself right out of existence.
+        The crowd thinned out on Day 1, and the top two handset
+        manufacturers were visibly absent.
+        I added some protein to it, and thinned it with chicken stock to make
+        it easier to pull through a straw.
+        The inclusion of water effectively thinned the solution so that the
+        rods would rise much quicker.
+        The water thinned the mixture so that the meat would absorb it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="thin_out" version="3.0">1,2,3</wn>
+         <omega></omega><pb>thin.01,thin.02</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_change_of_consistency</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

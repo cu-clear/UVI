@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="resolve-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="settle or decide an outcome (A resolves/settles B)" type="">
+      <commentary>
+       Syntax Includes:
+       NP1[agent] RESOLVE NP2
+       NP1[agent] RESOLVE SCOMP
+       Note: implies the change of a pre-existing state
+      </commentary>
+      <examples>
+       The judge resolved the case in favor of the plaintiff.
+       She was asked to resolve the quarrel between her siblings.
+       The storm resolved the issue of where to hold the wedding ceremony.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>resolve.01</pb>
+         <vn>settle-89</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="solve, find the answer to a problem or question (A resolves/solves B)" type="">
+      <commentary>
+       Syntax Includes: 
+       NP1[agent[animate]] RESOLVE NP2[abstract]
+       NP1[agent[animate]] RESOLVE SCOMP
+       Note: implies NP2 has a specific value that can be known to NP1
+      </commentary>
+      <examples>
+       Thus far, archeologists have not resolved the meaning of those symbols.
+       Until he can resolve the difference between his equations and those observations, the theory is not supported.
+       Who can resolve what happened before the Big Bang?
+      </examples>
+      <mappings>
+         <wn version="3.0">4,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Resolve_problem</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="promise an action; make a resolution" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I'll never resolve to give up coffee.
+        The company has resolved to increase health insurance for its employees.
+        He resolved to continue his father's mission.
+        Nine years ago on New Year's Eve, I resolved to drink more.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>resolve.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="make physically visible, clarify" type="">
+      <commentary>
+       Syntax Is: NP1[agent] RESOLVE NP2[patient[concrete]] (PP{P NP[instrument]})
+      </commentary>
+      <examples>
+       Can they resolve these images of Mars more clearly?
+       I couldn't resolve her voice in the din of the loud bar.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="break up physically, dissolve" type="">
+      <commentary>
+       Syntax Is: NP1[instrument] RESOLVE NP2[patient[concrete]]
+      </commentary>
+      <examples>
+       The stirring will resolve the clumps of sugar in the water.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>  
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="threat-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a cause or agent of harm, danger" type="">
+        <commentary>
+            THREAT[+cause][+effective][+harm]
+            [+relation][+role][+agent][+harm]
+            Note: implies X BE threat, X is the perceived cause of harm
+        </commentary>
+        <examples>
+            They view outsourcing as a threat to their jobs.
+            Hurricanes are a threat to many coastal communities.
+            Mary was a threat to Bob's masculinity when she beat him at chess.
+            The Tigers were a real threat this year in the playoffs. (extended usage)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of exposure to harm" type="">
+        <commentary>
+            THREAT[+state][+exposure][+harm]
+            Note: refers to X being in a state of exposure to harm, including probability of it
+            Note: often occurs in prepositional phrases 'under/with' the/a threat
+        </commentary>
+        <examples>
+            She lived with the threat of a recurrence of her cancer.
+            Thousands of jobs came under threat when the company went bankrupt.
+            The country has lived for decades under the threat of civil war.
+            Is there any threat that the virus could become airborne?
+            There is some threat of rain this afternoon. (the afternoon is in a state of risk)
+            The threat of another terrorist attack did not stop people from taking the subway.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a declaration of intention to harm" type="">
+        <commentary>
+            THREAT[+action][+declaration][+intention][+inflict][+harm]
+            Note: implies an intentional declaration of an actor/agent to inflict harm
+        </commentary>
+        <examples>
+            Members of his family have received death threats.
+            The plaintiff insisted his remark to the woman did not constitute a threat.
+            Their threats of a walk-out did not materialize. 
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

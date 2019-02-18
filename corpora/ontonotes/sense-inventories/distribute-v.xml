@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="distribute-v">
+   <commentary>
+     No VPC for this verb
+     Groups 2 and 4 don't have a propbank roleset
+   </commentary>
+   <sense group="1" n="1" name="hand out, dispense or dole out something" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DISTRIBUTE NP2[patient] PP[recipient]
+       Note: the act of distribution is intentional or purposive
+      </commentary>
+      <examples>
+        Bottles of water and blankets were distributed to the evacuees. 
+        This year the company is distributing a dividend to each shareholder.
+         The TA will be distributing the final exam tomorrow in Room 210.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <omega/><pb>distribute.01</pb>
+         <vn>contribute-13.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="spread or scatter over an area or region" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DISTRIBUTE NP2[patient]
+       Note: The distribution is not intentional or purposive, no recipient
+      </commentary>
+      <examples>
+         Layers of ash were distributed here millions of years ago by a volcano.
+         Portuguese became distributed around the world by 17th century sailors.
+         This function distributes the values along a straight line.
+          A probability function distributes a probability mass of 1 throughout the sample space.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,7,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>contribute-13.2-1</vn><fn>Dispersal</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="circulate or publicize something" type="">
+      <commentary>
+        Syntax Includes:
+         NP1[instrument] DISTRIBUTE NP2[patient] (PP)
+         NP1[instrument] DISTRIBUTE NP2[patient] (ADVP)
+      </commentary>
+      <examples>
+         This film has not yet been distributed overseas.
+         The students had a petition distributed to the faculty last week.
+          The rumor of John's resignation was widely distributed before he could stop it.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,6</wn>
+         <omega/><pb>distribute.01</pb>
+         <vn>contribute-13.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="4" name="arrange items or be arranged" type="">
+      <commentary>
+         Syntax Includes: NP1 DISTRIBUTE NP2[goal] ADVP
+      </commentary>
+      <examples>
+        Distribute the cards so that there are three in each group.
+        The gardener had distributed the bulbs to form  a circle around the tree.
+        In the expression 'a(b + c)'  multiplication can also distribute 'a' over both 'b' and 'c'  as 'ab + ac'.     
+      </examples>
+      <mappings>
+         <wn version="3.0">9,10,8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

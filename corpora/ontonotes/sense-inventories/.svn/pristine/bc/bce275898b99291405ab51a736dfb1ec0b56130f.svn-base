@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="wish-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a specific desire of someone" type="Event">
+        <commentary>
+            WISH[+state][+mental][+desire]
+            Note: refers to an agent's internal state of desire or preference
+            Note: does not imply a request of another party (see Sense 2)
+        </commentary>
+        <examples>
+            Her wish to see a total eclipse was finally realized.
+            The union has reiterated its wish for an agreement with management.
+            It is their wish to continue organizing such fundraisers.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>wish.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an indirect request to do something" type="Event">
+        <commentary>
+            WISH[+event][+speech_act][+request][+indirect]
+            Note: implies an indirect agent is making the request of another party expressed in the sentence. 
+        </commentary>
+        <examples>
+            It is the king's wish that we accompany him to the ball this evening.
+            She is trying to carry out her late father's wishes.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an invocation of good fortune" type="Event">
+        <commentary>
+            WISH[+event][+speech_act][+invocation][+fortune][+good]
+            Note: usually occurs in the plural
+        </commentary>
+        <examples>
+            They send along their good wishes to you.
+            Sally made a wish and blew out her birthday candles.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the thing that is preferred or desired" type="Event">
+        <commentary>
+            WISH[+relation][+role][+preference]
+            Note: equates WISH with an event or object, WISH BE X, WISH OF X
+        </commentary>
+        <examples>
+            John eventually got his wish of a white Christmas.
+            This palace was the wish of an eccentric 19th-century prince.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

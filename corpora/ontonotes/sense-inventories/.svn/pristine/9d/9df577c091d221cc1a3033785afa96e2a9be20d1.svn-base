@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="collect-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="gather, bring, or come together in a mass" type="">  
+      <commentary>
+        Note: gathering or accumulating of related/similar things into a larger mass.
+      </commentary>
+      <examples>
+        She is collecting a lot of data for her thesis.
+        She collects dolls for hobbie.
+        So when did you start collecting antique glass?
+        A large crowd of reporters collected outside the Prime Minister's house.
+        After the party I collected twenty bottles from various parts of the house.
+        We're collecting toys for the orphans.
+        We're collecting for the homeless.
+        These china ornaments just collect dust.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>   
+         <omega/><pb>collect.01</pb>
+         <vn>herd-47.5.2,knead-26.5,obtain-13.5.2,other_cos-45.4,shake-22.3-2</vn><fn>Gathering_up</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="obtain payment of" type="">
+      <commentary>
+      Syntax Is: 
+       NP1[agent] COLLECT NP2
+      </commentary>
+      <examples>
+        Jon Porter and his wife collected rent on seven condominiums.
+        The retailer must either collect tax or accept a completed exemption certificate.
+        A debt collector regularly collects debts owed to another person.
+        The managers collected fees to cover their program costs.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>collect.01</pb>
+         <vn>obtain-13.5.2</vn><fn>Commerce_collect</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="pick up, get something or someone (from somewhere)" type="">
+      <commentary>
+        Note: Unlike sense 1, this sense has nothing to do with gathering something in mass.
+      </commentary>
+      <examples>
+        Your shoes will be repaired and ready for you to collect on Thursday.
+        I'll collect you from the station.
+        She collected her children and drove home.
+        I collected my belongings and left.
+        They collected me from the airport.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>obtain-13.5.2,shake-22.3-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="recover and gain control of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Cool off, take a time out, and collect your emotions.
+        Take a few minutes to collect yourself before the stress of court.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

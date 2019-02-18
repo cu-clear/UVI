@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="intervention-n">
+    <commentary>
+        6oct06 update to wn2.1, added features, changed the examples and definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the activity of assisting a process or an individual" type="Event">
+        <commentary>
+	    INTERVENTION[+event][+activity][+assistance][+individual/+situation]
+	    </commentary>
+        <examples>
+            These are plants that grow naturally in this climate without human intervention.
+            Without medical intervention, the baby would have died from the illness.
+            She manages a center that does family crisis intervention, including drug and alcohol abuse.
+            The central banks practice currency intervention to provide price stability to major world currencies.
+            Economists don't predict further intervention by the Fed in terms of raising the interest rates this week.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a nation's imposition of policy on another nation" type="Event">
+        <commentary>
+            INTERVENTION[+activity][+imposition][+official][+nation]
+            a policy or act of a nation to impose policy or conditions on another nation
+            Note: a narrow, specific usage of Sense 1 - always refers to the actions of a state, not an individual.
+        </commentary>
+        <examples>
+            'Let us decide our quarrels at home without the intervention of any foreign power.' (Sir W. Temple)
+            They have been critical of the administration's policy of intervention in the Middle East.
+            Pete believes that earlier military intervention against Hitler might have prevented World War II. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="legal right to enter an ongoing lawsuit" type="Law">
+        <commentary>
+            INTERVENTION[+state][+legal][+condition][+inclusion][+lawsuit][+ongoing] 
+            Note: technical, legal sense
+            a proceeding that permits a person to enter into a lawsuit already in
+            progress; so that person can protect some right or interest that is allegedly
+            affected by the proceedings
+        </commentary>
+        <examples>
+            Civil procedure in U.S. law recognizes two types of intervention; intervention of right and permissive intervention.
+            Permissive intervention is up to the discretion of the court.
+            The purpose of intervention is to prevent unnecessary duplication of lawsuits.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="scale-v">    
+   <commentary>
+    includes VPC scale_down, scale_up
+   </commentary>
+   <sense group="1" n="1" name="measure or quantify something" type="">  
+      <commentary>
+       NP[object] SCALE [-transitive] PP[+quantity]
+       NP[+agent] SCALE[+transitive] NP[+object]
+      </commentary>
+      <examples>
+        Your luggage scales over fifty pounds, sir.
+         He placed the white powder in the dish to scale it.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="climb up something" type="">  
+      <commentary>
+       NP[+agent] SCALE[+motion] NP[+locative]
+      </commentary>
+      <examples>
+        The enemy is scaling the outer walls of the castle!
+        They had to turn back before they could scale the top of the mountain.
+        The cat scaled a tree but was too scared to come back down.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>scale.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="create a different-sized model of something" type="">  
+      <commentary>
+	NP[+agent] SCALE[+change] NP[+source] (NP[+target])
+            NP[+topic] SCALE[-transitive][+increase] ADVP
+	includes VPC scale_down
+	includes VPC scale_up
+      </commentary>
+      <examples>
+        These blueprints are scaled wrong.
+        I don't think this algorithm scales well.
+        John scaled down the picture to half its original size.
+        Are we ready to scale up production of the new chip design?
+      </examples>
+      <mappings>
+         <wn version="3.0">2,8</wn>   
+         <wn lemma="scale_down" version="3.0">1</wn>
+         <wn lemma="scale_up" version="3.0">1</wn>
+         <omega/><pb>scale.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="remove skin from a fish" type="">  
+      <commentary>
+       NP[+agent] SCALE[+transitive] NP2[+patient]
+      </commentary>
+      <examples>
+         Scale the fish before you cut off the heads.
+         We have been scaling these fish with a sharp knife.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>scale.02</pb>
+         <vn>pit-10.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="make smaller, reduce in size" type="">  
+      <commentary>
+        NP[+agent] SCALE_DOWN[+decrease] NP[+patient]
+        NP[+agent] SCALE_BACK[+decrease] NP[+patient]
+        Includes VPC scale_down, scale_back
+      </commentary>
+      <examples>
+         They are scaling down their overseas investments.
+         The senator's January proposal is being drastically scaled back.
+         Under new management, Camera Bar has scaled back and is now only open for private function.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="scale_down" version="3.0">2</wn>
+         <omega/><pb>scale.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

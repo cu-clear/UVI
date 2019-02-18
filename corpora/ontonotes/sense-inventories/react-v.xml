@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="react-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="show response to something" type="">  
+      <commentary>
+        Note: Use: Reaction can be postive, negative, or ambiguous. 
+        Clearly negative reaction (usually medical) goes in sense 2.
+      </commentary>
+      <examples>
+        She slapped him and called him names, but he didn't react.
+        The judge reacted angrily to the suggestion that it hadn't been a fair trial.
+        Officials reacted with guarded optimism.
+        The government reacted by sending aid.
+        The kids react to everything I say.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn> 
+         <omega/><pb>react.01</pb>
+         <vn>marvel-31.3-9</vn><fn>Response,Communication_response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="show a negative physical response" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] REACT NP2
+        Note: usually the reaction is medical and always negative.
+      </commentary>
+      <examples>
+        She reacted negatively to her new medication.
+        Many people react to penicillin.
+        If you react to kidney beans, you may also react to other members of the legume family.
+        He asked how she reacts to bee stings, but the child hasn't ever had one so we don't know.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="undergo a change through chemical reaction" type="">
+      <commentary>
+        Syntax Is: NP1 REACT PP
+        Note: unlike sense 2, NP1 is non human.
+      </commentary>
+      <examples>
+        Potassium reacts with water.
+        The chlorine reacts with the iodide to form iodine.
+        The drug might react to other medications the patient is taking.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

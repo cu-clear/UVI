@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="expose-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make accessible to some action, influence, or condition" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] EXPOSE NP2[experiencer] TO NP3
+      </commentary>
+      <examples>
+        We are able to expose the students to a lot of different professional ways of thinking.
+        I exposed the wound to sunlight a few times during the day.
+        Don't expose the film (to light) until after developing.
+        After purchasing your plant do not expose it to cold drafts of air.
+        These children are exposed to hunger, loss and death on a daily basis.
+        The employment exposed him to a greater risk of lung disease. 
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7,9</wn>
+         <omega/><pb>NM</pb>
+         <vn>reflexive_appearance-48.1.2</vn><fn>Reveal_secret</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove covering or protection to reveal something hidden" type="">
+      <commentary>
+        Syntax Is: NP1[agent] EXPOSE NP2[patient]
+      </commentary>
+      <examples>
+        The plaster on the walls has been removed to expose the original bricks underneath.
+        He damaged his leg so badly in the accident that the bone was exposed.
+        Cleaning exposed the grain of the wood.
+        The gaping wound was exposed for all to see.
+        The company was financially exposed and many executives were concerned about it.
+        The newspaper exposed him as a liar.
+        We exposed the criminal practices of selected companies
+        The review exposed widespread corruption in the police force.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,5,6,8</wn>
+         <omega/><pb>expose.01</pb>
+         <vn>indicate-78,reflexive_appearance-48.1.2</vn><fn>Reveal_secret</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="EXPOSE ONESELF: uncover indecently a part of the body in public" type="">
+      <commentary>
+      Is: EXPOSE ONESELF
+      </commentary>
+      <examples>
+        The man exposed himself in the subway.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

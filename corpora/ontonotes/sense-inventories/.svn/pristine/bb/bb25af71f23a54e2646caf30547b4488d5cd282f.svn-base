@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="equipment-n">
+    <commentary>
+        14Feb08 added 3 senses, features and examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="physical items used in some context and purpose" type="">
+        <commentary>
+            EQUIPMENT[+entity][+artifact][+item][+useful][+in_context]
+            an instrumentality needed for an undertaking or to perform a service
+        </commentary>
+        <examples>
+            John spent $2000 on new office equipment.
+            This store sells all kinds of sports equipment.
+            A lot of heavy equipment was parked at the construction site.
+            A good cook needs the right equipment in the kitchen.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the act or process of supplying necessary items or tools" type="Event">
+        <commentary>
+            EQUIPMENT[+event][+supplying][+artifacts][+required][+for_purpose]
+            Note: X's equipment of Y -&gt; X equipped Y (nominalization)
+        </commentary>
+        <examples>
+            The construction and equipment of a new marina will take some time.
+            His equipment of the boat for a long passage including stocking provisions, checking electronics and mending sails.
+            Mary's equipment of her new kitchen took months of decisions and thousands of dollars.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="inherent mental faculty, ability" type="">
+        <commentary>
+            EQUIPMENT[+quality][+mental][+faculty][+ability]
+        </commentary>
+        <examples>
+            These students lack the intellectual equipment to learn such advanced types of mathematics.
+            She has the equipment to perform all the multitasking required to run an emergency ward.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="male genitalia, slang" type="">
+        <commentary>
+            EQUIPMENT[+entity][+anatomical][+genitalia][+male]
+            Note: slang, vulgar usage
+        </commentary>
+        <examples>
+            The pornography magazines show men with exceptional equipment.
+            The ad claims this drug will enlarge your equipment considerably.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

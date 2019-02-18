@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="quotation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="excerpts or passages of works restated verbatim" type="">
+        <commentary>
+            Quotation[+entity][+artifact][+document][+passage][+selection]
+        </commentary>
+        <examples>
+            He read a great quotation from Mark Twain.
+            Her grandfather often gave quotations from the Old Testament.
+            Here is a direct quotation from the article.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="citation or reference to a selected excerpt of a work" type="">
+        <commentary>
+            QUOTATION[+entity][+symbolic][+notation][+citation]
+            Note: notation used to indicate references to source material
+        </commentary>
+        <examples>
+            The quotations listed for these studies were not accurate or complete.
+            Use quotation marks to indicate when a character is speaking in a novel.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a statement of the current price of a stock or other financial instrument" type="">
+        <commentary>
+            QUOTATION[+entity][+symbolic][+statement][+formal][+price][+current]
+            [+quantity][+sum][+money][+price][+current]
+        </commentary>
+        <examples>
+            This web site gives stock quotations with a 15-minute delay.
+            John scanned the quotations for various currencies in the business section of the paper.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a formal statement of cost estimate, e.g., contractor" type="">
+        <commentary>
+            QUOTATION[+entity][+symbolic][+statement][+formal][+price][+estimated]
+            [+quantity][+sum][+money][+price][+estimated]
+        </commentary>
+        <examples>
+            The contractor said he will give us a quotation tomorrow.
+            We chose the painting company that gave us the next-to-lowest quotation for painting our house.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the act of referencing or citing something/someone" type="">
+        <commentary>
+            QUOTATION[+action][+communication][+referencing][+source]
+            Note: refers to a speaker's act of quoting, rather than the excerpt itself (Sense 1)
+        </commentary>
+        <examples>
+            There was much quotation of Darwin during their debate.
+            Bob often resorts to quotation rather than offering his own original thoughts.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

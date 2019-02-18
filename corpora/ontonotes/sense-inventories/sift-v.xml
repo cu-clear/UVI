@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sift-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="separate (as if) by passing through a sieve" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SIFT (PP[motion]) NP2[concrete]
+      </commentary>
+      <examples>
+        Sift the flower into the liquid mixture.
+        The soldiers sifted through the wooods.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sift.01</pb>
+         <vn>disassemble-23.3</vn><fn>Scouring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="sort carefully and/or separate out" type="">
+      <commentary>
+        Syntax is: NP1[agent] SIFT PP[through/out] NP2[abstract]
+      </commentary>
+      <examples>
+        I haven't really sifted through the stats.
+        Do you want juicy celebrity gossip that I've sifted out of the Blogosphere?
+        The CEO sifted through all the job applications for the VP
+        position.
+        Police sift through the past for secrets.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sift.01</pb>
+         <vn>search-35.2</vn><fn>Scruitiny,Scouring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

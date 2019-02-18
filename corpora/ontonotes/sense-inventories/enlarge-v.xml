@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="enlarge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become larger" type="">  
+      <commentary>
+        Syntax Is: NP1 ENLARGE (NP2)
+      </commentary>
+      <examples>
+        He enlarged the curriculum.
+        He enlarged the executive branch of government by appointing new ministers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>enlarge.01</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_expansion,Expansion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="add details" type="">
+      <commentary>
+        Syntax Is: NP1 ENLARGE upon/on NP2
+      </commentary>
+      <examples>
+        He enlarged upon the subject in his lectures at the University of
+        Upsala.
+        He enlarged on the abuses and corruption in the British Parliament.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

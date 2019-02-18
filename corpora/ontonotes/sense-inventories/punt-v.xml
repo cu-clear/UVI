@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="punt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="kick a ball" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PUNT
+      NP1[agent[animate]] PUNT NP2[theme] (PP[direction])
+      NP1[agent[animate]] PUNT PP[theme]
+      </commentary>
+      <examples>
+      He punted the ball from one end zone to the other.
+      And then, he picked up the tote bag and drop-kick-punted it out the door.
+      He correctly calculated that if he punted, the offense was likely to beat his defense.
+      You don't punt Goblins because they'll run your ass over with a go-kart.
+      Obama punted the nuclear football!!!
+      Democrats punt on the war bill.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>punt.01</pb>
+         <vn>throw-17.1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="propel (a boat) with a pole" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PUNT NP2[theme] (PP[direction])
+      </commentary>
+      <examples>
+      The boatman punted the boat away from shore and began rowing it forward.
+      Gilgamesh punted the boat along.
+      They punted up the river.
+      Milo punted the gondola under a bridge and into a wide area.
+      He heard small splashes, as though someone were punting the gondola across the water.
+      I'd weathered Waterworld, and now, they were going to punt the whole thing across dry land?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>punt.02</pb>
+         <vn>vehicle-51.4.1</vn><fn>Operate_vehicle,Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="place a bet on" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PUNT NP2[theme] (PP[location|goal])
+      </commentary>
+      <examples>
+      He punted the lot on Little Nell in the third race.
+      He has probably punted $10 million over the years by being a lousy gambler.
+      I punted $10k on the Dragons but my balance only shows a drop of $10k and no winnings!!
+      This is a horse race, I've punted $10, end of analogy.
+      Anybody that prefers value here is only punting $2 eachway.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>punt.03</pb>
+         <vn>risk-94</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

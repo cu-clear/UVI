@@ -1,0 +1,713 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="get-vpc-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) gain a characteristic or attribute" type="">
+      <commentary>
+        Note: GET may be substitute with BECOME for most of these instances
+        NP GET ADJP[attribute]--for the following expressions only!
+        Includes: GET DRESSED, GET STUCK, GET WELL, GET WORSE, 
+                  GET EVEN--meaning "equalize" not "take revenge"
+      </commentary>
+      <examples>
+        Then I got dressed and looked at myself in the mirror.
+        Rush out of bed to get the kids dressed, let the cat out, get your partner's lunch ready.
+        This picture was taken before the elevator got stuck with doors open.
+        Get well soon!
+        Just when I thought things couldn't get worse, they did.
+        Seattle got even early in the second quarter. 
+      </examples>
+      <mappings>
+         <gr_sense>3</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_dressed" version="3.0">1</wn>
+         <wn lemma="get_stuck" version="3.0">1</wn>
+         <wn lemma="get_well" version="3.0">1</wn>
+         <wn lemma="get_worse" version="3.0">1</wn>
+         <wn lemma="get_even" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) attain a state/location relative to a point of reference" type="">
+      <commentary>
+        Includes: GET ACROSS, GET AHEAD, GET AWAY, GET BEHIND, GET BACK,
+                  GET BY, GET DOWN, GET IN, GET INTO, GET OFF, GET ON,
+                  GET OUT, GET OVER, GET THROUGH, GET TO, GET UP
+        Syntax Is: NP1 GET PP{P NP[location]}
+        Note: may be used metaphorically
+      </commentary>
+      <examples>
+        I got across the river last night as wet as a drowned rat.        
+        We got across 500 miles in a mere 8 or so hours.
+        Tired, confused crew members got ahead of the fire and uphill from it.
+        I think we just got ahead of ourselves and didn't get clear enough thinking.
+        How to get away from your lover on Valentine`s Day.
+        I moved across the car to get away from the door. 
+        These horsemen got behind the ridge on our right again.
+        I just got back from the dentist.
+        Bride's Biscuit got by the other dogs to win the race.
+        What time did you get in?
+        Get out your best dress, we're going dancing.
+        The rain clouds can't get over the mountain.
+        Hey, if I hang up my cell phone I'll get to work in time.                 
+        I can't take it anymore, I have to get away!
+        He reined up his horse and got down.
+        She opened the door and told him to get in.
+        Don't be afraid of the horse, just get on.
+        Get out!
+        I've fallen and I can't get up.
+      </examples>
+      <mappings>
+         <gr_sense>4</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_across" version="3.0">3</wn>
+         <wn lemma="get_ahead" version="3.0">1</wn>
+         <wn lemma="get_away" version="3.0">1,3</wn>
+         <wn lemma="get_behind" version="3.0">1</wn>
+         <wn lemma="get_by" version="3.0">2</wn>
+         <wn lemma="get_down" version="3.0">1,2,3</wn>
+         <wn lemma="get_in" version="3.0">1,4</wn>
+         <wn lemma="get_into" version="3.0">2</wn>
+         <wn lemma="get_off" version="3.0">1,7,8</wn>
+         <wn lemma="get_on" version="3.0">2,3</wn>
+         <wn lemma="get_out" version="3.0">1,2,3,5</wn>
+         <wn lemma="get_over" version="3.0">1</wn>
+         <wn lemma="get_through" version="3.0">3</wn>
+         <wn lemma="get_to" version="3.0">2</wn>
+         <wn lemma="get_up" version="3.0">1,3</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Arriving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="enter into activity, begin" type="">             <commentary>
+        Syntax Is: NP1 GET [predicate]
+        Includes: GET CRACKING, GET DOWN, GET GOING, GET MOVING, GET OFF, GET ROLLING, GET STARTED, GET TO, GET WEAVING
+      </commentary>
+      <examples>
+        To fix these problems you folks with the source code for this puppy need to get cracking.
+        Kate and Sawyer got down to business in the fish-biscuit cage.
+        He'll get going on a good rant, throw in a few smart things, and suddenly you're convinced.
+        Let's get moving on this tutorial.
+        They got off to a good start.
+        It's up to the city to get ball rolling.
+        You must serve participants as soon as you can get the project rolling. 
+        And don't get me started on our wacko teetotalism!
+        Agendas allow social people to recognize when it is time to get to business.
+        Bring on the fisticuffs and let's get weaving.
+      </examples>
+      <mappings>
+         <gr_sense>3</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_cracking" version="3.0">1</wn>
+         <wn lemma="get_down" version="3.0">7</wn>
+         <wn lemma="get_going" version="3.0">1,2</wn>
+         <wn lemma="get_moving" version="3.0">1</wn>
+         <wn lemma="get_rolling" version="3.0">1</wn>
+         <wn lemma="get_started" version="3.0">1</wn>
+         <wn lemma="get_to" version="3.0">1</wn>
+         <wn lemma="get_weaving" version="3.0">1</wn>
+         <omega></omega><pb>get.11,get.15</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="travel, move about" type="">
+      <commentary>
+        Includes: GET ABOUT, GET AROUND, GET OUT
+      </commentary>
+      <examples>
+        Getting about in Bangkok has traditionally been a bit of a challenge.
+        We marveled at our doggie's ability to get around on just three legs.
+        Anywho, so news gets around that Jeff and I can't find our way to the Holiday Inn.
+        Coast to coast the word got out: Don't go see 'Gigli.'
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_about" version="3.0">1</wn>
+         <wn lemma="get_around" version="3.0">1,4</wn>
+         <wn lemma="get_out" version="3.0">6</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="progress, advance" type="">
+      <commentary>
+        Includes: GET AHEAD, GET ALONG, GET ON
+        Note: compare carefully to sense 2; here, there is
+              no point of reference
+      </commentary>
+      <examples>
+        Wanna get ahead in love and life?
+        It seems he's getting more outspoken as he's getting along in his career.
+        She did not count her birthdays or worry because she was getting on in years.
+        How are you getting along in your new place?
+        It's getting on midnight--let's all go to bed.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_ahead" version="3.0">1</wn>
+         <wn lemma="get_along" version="3.0">1,3</wn>
+         <wn lemma="get_on" version="3.0">4,6,7</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="reach, arrive at (concrete or abstract)" type="">
+      <commentary>
+        Includes: GET AROUND TO (abstractly), GET AT, GET TO
+      </commentary>
+      <examples>
+        He never got to first base with any of his big wheels and deals.
+        He finally got around to painting the windows.
+        That's the closest some of us ever get to setting goals.
+        I cannot get at the postman (I cannot even see him to give him my ferocious appearance.)
+        Can you get at the stuff inside?
+      </examples>
+      <mappings>
+         <gr_sense>4</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_around_to" version="3.0">1</wn>
+         <wn lemma="get_at" version="3.0">1</wn>
+         <wn lemma="get_to" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Arriving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="finish, reach the end of" type="">
+      <commentary>
+        Includes: GET OVER (WITH), GET THROUGH
+      </commentary>
+      <examples>
+        Let's get this job over with.
+        This tagging task is such a pain, I don't know how I'll get through it!
+        I was so weak that I could not get through a day without taking a nap.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_over" version="3.0">2</wn>
+         <wn lemma="get_through" version="3.0">1,2</wn>
+         <omega></omega><pb>get.13</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="become aware of" type="">
+      <commentary>
+        Includes: GET A LINE, GET WIND, GET WORD
+      </commentary>
+      <examples>
+        Be informed--get a line on new bankruptcy ramifications. 
+        When the townswomen get wind of the scheme, they invite some Spanish fishermen to the same dance.
+        We will be working time and half to bring you all the details as we get word of them.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_a_line" version="3.0">1</wn>
+         <wn lemma="get_wind" version="3.0">1</wn>
+         <wn lemma="get_word" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="perceive through one of the senses" type="">
+      <commentary>
+        Includes: GET A LOAD, GET A LOOK, GET A NOSEFUL, GET A WHIFF
+      </commentary>
+      <examples>
+        Through those thin walls we really got a load of their fight.
+        I just got a look inside and it's impressive.
+        I knew we were in trouble when I opened up the noodle box and got a noseful of that Heinz tomato smell.
+        Get a whiff of the new pot sniffing technologies, coming to a highway near you.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_a_load" version="3.0">1</wn>
+         <wn lemma="get_a_look" version="3.0">1</wn>
+         <wn lemma="get_a_noseful" version="3.0">1</wn>
+         <wn lemma="get_a_whiff" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="contact, reach, communicate with" type="">
+      <commentary>
+        Includes: GET HOLD OF, GET IN TOUCH, GET THROUGH
+      </commentary>
+      <examples>
+        I think there was about 3 years where even my family couldn't get a hold of me.
+        How do I get in touch with the person who filed the complaint?
+        Get in touch with your inner rodent.
+        I got through to tech support on my first attempt.
+      </examples>
+      <mappings>
+         <gr_sense>6</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_hold" version="3.0">1</wn>
+         <wn lemma="get_hold_of" version="3.0">2</wn>
+         <wn lemma="get_in_touch" version="3.0">1</wn>
+         <wn lemma="get_through" version="3.0">4</wn>
+         <omega></omega><pb>get.12</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="communicate a meaning" type="">
+      <commentary>
+        Includes: GET ACROSS, GET THROUGH
+      </commentary>
+      <examples>
+        I couldn't get across the message.
+        Even though my point got across, it was dismissed as inconsequential.
+        The safety message has definitely got through to young people.
+        I'm hoping he'll get through to his minions to curb their enthusiasm.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_across" version="3.0">1,2</wn>
+         <wn lemma="get_through" version="3.0">5</wn>
+         <omega></omega><pb>get.12</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="understand" type="">
+      <commentary>
+        Includes: GET IT, GET ONTO, GET THE PICTURE, GET WISE
+      </commentary>
+      <examples>
+        Changing names of entries confused some, but they got it eventually.
+        It took her a little bit of time to get onto the idea that I wanted to transfer.
+        I explained it a dozen times, but he still doesn't get the picture.
+        And yes, we finally got wise to the dust problem, and covered the couches. 
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_it" version="3.0">1</wn>
+         <wn lemma="get_onto" version="3.0">1</wn>
+         <wn lemma="get_the_picture" version="3.0">1</wn>
+         <wn lemma="get_wise" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Grasp</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="13" name="have good relations" type="">
+      <commentary>
+        Includes: GET ALONG, GET ALONG WITH, GET ON, GET ON WITH
+      </commentary>
+      <examples>
+        Can't we all just get along?
+        I never really got along with art teachers.
+        He often comes to see us, and he and Mamma get on very well together.
+        And it made me wonder why people just can't get on with each other.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_along" version="3.0">2</wn>
+         <wn lemma="get_along_with" version="3.0">1</wn>
+         <wn lemma="get_on" version="3.0">1</wn>
+         <wn lemma="get_on_with" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="14" name="have sexual relations" type="">
+      <commentary>
+        Includes: GET AROUND, GET IT ON, GET LAID
+      </commentary>
+      <examples>
+        He has a different girlfriend every week, he really gets around.
+        They are having the pandas watch videos of other pandas getting it on.
+        Married folk get laid most, this unsurprising sex study reveals.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_it_on" version="3.0">1</wn>
+         <wn lemma="get_laid" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="15" name="enter into marriage" type="">
+      <commentary>
+        Includes: GET HITCHED (WITH), GET MARRIED
+      </commentary>
+      <examples>
+        Throughout the ages, the royals got hitched for duty (and money), not love.
+        Before you get married, answer these important questions with your partner.
+      </examples>
+      <mappings>
+         <gr_sense>3</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_hitched_with" version="3.0">1</wn>
+         <wn lemma="get_married" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="16" name="affect" type="">
+      <commentary>
+        Includes: GET AT, GET DOWN, GET HOLD OF, GET TO
+      </commentary>
+      <examples>
+        If you really want to get at him, beat his score one day and he'll sulk for a week!
+        Rainy days and Mondays always get me down.
+        Once an idea gets hold of me, I can keep writing hour after hour.
+        They used blackmail to get at the former finance minister.
+        There is just something about the blues that really gets to me.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_at" version="3.0">2,3</wn>
+         <wn lemma="get_down" version="3.0">5</wn>
+         <wn lemma="get_hold_of" version="3.0">3</wn>
+         <wn lemma="get_to" version="3.0">3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="17" name="regain, recover" type="">
+      <commentary>
+        Includes: GET BACK
+      </commentary>
+      <examples>
+        I need to now set up regular writing schedules to get my groove back!
+        How can I get my money back?
+        Someone help me get my feet back on the ground.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_back" version="3.0">1</wn>
+         <omega></omega><pb>get.09,get.10</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="18" name="take revenge" type="">
+      <commentary>
+        Includes: GET BACK, GET EVEN
+      </commentary>
+      <examples>
+        The article discribes using tarpits to get back at spammers.
+        They're my mother's curse to get back at me for the things that I did when I was a child!
+        Don't get mad, get even.
+      </examples>
+      <mappings>
+         <gr_sense>5</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_back" version="3.0">2,3</wn>
+         <wn lemma="get_even" version="3.0">2</wn>
+         <omega></omega><pb>get.16</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="19" name="avoid unpleasant situations or consequences" type="">
+      <commentary>
+        Includes: GET AROUND, GET AWAY, GET OFF, GET OUT, GET BY
+      </commentary>
+      <examples>
+        Is there any way to get around this problem?
+        Her parents let her get away with murder!
+        The lawyer got him off despite the evidence.
+        You got off lightly this time.
+        My sister always got out of doing the dishes.
+        How did he get by with that sort of thing?
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_around" version="3.0">2</wn>
+         <wn lemma="get_away" version="3.0">2</wn>
+         <wn lemma="get_off" version="3.0">4,5</wn>
+         <wn lemma="get_out" version="3.0">7</wn>
+         <wn lemma="get_by" version="3.0">3</wn>
+         <omega></omega><pb>get.08</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="20" name="cope, manage, make do" type="">
+      <commentary>
+        Includes: GET BY
+      </commentary>
+      <examples>
+        If you had any ambition, you'd go out and find some work, and everybody got by.
+        Somehow I manage to get by without idle chit-chat with strangers.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_by" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="21" name="swallow, ingest" type="">
+      <commentary>
+        Includes: GET DOWN
+      </commentary>
+      <examples>
+        He got down a few bites of the turkey.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_down" version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="22" name="put in writing" type="">
+      <commentary>
+        Includes: GET DOWN
+      </commentary>
+      <examples>
+        Please say that again so that I can get it all down.
+        I was writing as fast as I could and I got down that we can improve data validation
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_down" version="3.0">6</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="23" name="obtain" type="">
+      <commentary>
+        Includes: GET HOLD OF
+      </commentary>
+      <examples>
+        Does anyone know where in the UK I can get hold of banana leafs?
+      </examples>
+      <mappings>
+         <gr_sense>1</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_hold_of" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>get-13.5.1-1</vn><fn>Getting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="24" name="enter a realm, become involved with" type="">
+      <commentary>
+        Includes: GET IN, GET INTO
+      </commentary>
+      <examples>
+        Harvard sent her a letter yesterday telling her she got in.
+        I got in on a great deal and don't want to lose it.
+        The more we got into their inner circle of trust, the more we kept discovering.
+        She got into drugs when she was in college.
+        How did you get into this field?
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_in" version="3.0">2,3</wn>
+         <wn lemma="get_into" version="3.0">1,3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="25" name="submit, send to" type="">
+      <commentary>
+        Includes: GET IN, GET OFF
+      </commentary>
+      <examples>
+        Did you get your paper in on time?
+        Get the check off to them today!
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_in" version="3.0">3</wn>
+         <wn lemma="get_off" version="3.0">3,9</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="26" name="thoroughly enjoy" type="">
+      <commentary>
+        Includes: GET INTO, GET OFF
+      </commentary>
+      <examples>
+        I never really got into hockey until I went to a few games.
+        She gets off on buying shoes.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_into" version="3.0">4</wn>
+         <wn lemma="get_off" version="3.0">6</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="27" name="receive punishment" type="">
+      <commentary>
+        Includes: GET IT, GET ONE'S LUMPS
+      </commentary>
+      <examples>
+        Oooh, now you're gonna get it!
+        Napoleon got his lumps at Waterloo.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_it" version="3.0">2</wn>
+         <wn lemma="get_one's_lumps" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="28" name="be temporarily relieved of one's duties" type="">
+      <commentary>
+        Includes: GET OFF
+      </commentary>
+      <examples>
+        I get off work at seven.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_off" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="29" name="be stoned, drugged, high" type="">
+      <commentary>
+        Includes: GET OFF, GET HIGH
+      </commentary>
+      <examples>
+        He gets high every weekend.
+        She's a white woman who gets off on just about any drug. 
+      </examples>
+      <mappings>
+         <gr_sense>3</gr_sense>
+         <wn version=""></wn>
+         <wn lemma="get_off" version="3.0">10</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="30" name="deliver verbally" type="">
+      <commentary>
+        Includes: GET OFF, GET OUT
+      </commentary>
+      <examples>
+        He got off the best line I've heard in a long time.
+        I managed to get out a few words.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_off" version="3.0">11</wn>
+         <wn lemma="get_out" version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="31" name="overcome" type="">
+      <commentary>
+        Includes: GET OVER
+      </commentary>
+      <examples>
+        I finally got over that cold.
+        He got over his shyness and asked her out.
+        Oh, just get over it!
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_over" version="3.0">3,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="32" name="assemble, join forces, gather together" type="">
+      <commentary>
+        Includes: GET TOGETHER
+      </commentary>
+      <examples>
+        Get together all those who are interested in the project.
+        The soprano and the pianist did not get together for this piece.
+        Fitness experts got together with a great commitment to promote exercise.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_together" version="3.0">1,2,3,4</wn>
+         <omega></omega><pb>get.14</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="33" name="awake, wake up" type="">
+      <commentary>
+        Includes: GET UP
+      </commentary>
+      <examples>
+        The baby still gets us up in the middle of the night.
+        We get up at 5 a.m. during the week.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_up" version="3.0">2,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="34" name="develop, produce" type="">
+      <commentary>
+        Includes: GET UP, GET OUT
+      </commentary>
+      <examples>
+        Twain asked "Can't you get up a plot for a 'skeleton novelette'?
+        But if you want to get up an appetite just stroll over the mountains all day.
+        Even though we're short-handed, we can get out a dozen cakes a day. 
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_up" version="3.0">5,7</wn>
+         <omega></omega><pb>get.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="35" name="dress up" type="">
+      <commentary>
+        Includes: GET UP
+      </commentary>
+      <examples>
+        She got herself up in a bizarre outfit.
+        The princess, got up in all her finery, was led to the well.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_up" version="3.0">6</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="36" name="study intensively" type="">
+      <commentary>
+        Includes: GET UP
+      </commentary>
+      <examples>
+        (no examples found, only reference in WordNet)
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_up" version="3.0">8</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="37" name="idiomatic expressions" type="">
+      <commentary>
+        Includes: GET OFF THE GROUND, GET THE BEST, GET THE BETTER OF,
+                  GET THE GOODS, GET THE HANG, GET THE JUMP,
+                  GET RID OF, GET TO GRIPS, GET UNDER ONE'S SKIN
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="get_off_the_ground" version="3.0">1</wn>
+         <wn lemma="get_the_best" version="3.0">1</wn>
+         <wn lemma="get_the_better_of" version="3.0">1</wn>
+         <wn lemma="get_the_goods" version="3.0">1</wn>
+         <wn lemma="get_the_hang" version="3.0">1</wn>
+         <wn lemma="get_rid_of" version="3.0">1,2,3</wn>
+         <wn lemma="get_the_jump" version="3.0">1</wn>
+         <wn lemma="get_to_grips" version="3.0">1</wn>
+         <wn lemma="get_under_one's_skin" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw" sample_score="-"/>
+</inventory>

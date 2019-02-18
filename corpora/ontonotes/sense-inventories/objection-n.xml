@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="objection-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of protesting, dissenting" type="">
+        <commentary>
+            OBJECTION[+action][+communication][+protestation]
+            Note: refers to a speech act, an instance of communication
+            Note: does not refer to the reason for the protest (Sense 2), but the act of protesting.
+            Note: doesn't occur naturally with quantifiers.
+        </commentary>
+        <examples>
+            The crowd's objections to the umpire's call were loud and rude.
+            John has practiced conscientious objection to military service  his entire adult life.
+            Mary's objection to her boss's treatment of his secretary almost got Mary fired.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the reason or rationale for disagreeing" type="">
+        <commentary>
+            OBJECTION[+relation][+rationale][+dissent]
+            Note: refers to the reason for dissent or protest, not the -act- of doing it (Sense 1)
+            Note: occurs usually as 'OBJECTION BE X',  'OBJECTION SEEM X'  i.e, the objection is further predicated or elaborated
+            Note: occurs naturally with quantifiers, 'X's one objection' 'few objections'
+        </commentary>
+        <examples>
+            The customer's objections to the revised user interface seem pretty vague.
+            This report has tried to address all the objections raised about possible noise pollution.
+            Bob's only objection to Mary's promotion to manager was that she is not a good 
+            communicator.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="legal protocol to challenge inquiries during a court proceeding" type="">
+        <commentary>
+            OBJECTION[+action][+communication][+challenge][+legal]
+        </commentary>
+        <examples>
+            The prosecutor's objection was sustained by the judge.
+            The defense's line of questioning encountered frequent objections, usually overruled.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

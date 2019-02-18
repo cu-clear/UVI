@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hurry-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Move oneself very fast." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] HURRY 
+      Note: May have a reflexive NP2. 
+      </commentary>
+      <examples>
+      We must hurry!
+      I'm hurrying to class.
+      The president hurried to sign the bill.
+      The children hurry home for lunch. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hurry.01</pb>
+         <vn>rush-53.2,run-51.3.2-2</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Rush someone or something else." type="">
+      <commentary>
+      Includes: HURRY ALONG
+      </commentary>
+      <examples>
+      The president hurried the bill along.
+      Hurry your sister - we don't have all day!
+      Don't hurry me!  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>rush-53.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hack-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cut with a hacking tool, possibly with the
+   result of physically removing portions." type="">  
+      <commentary>
+      Includes: HACK AT, HACK ON 
+      </commentary>
+      <examples>
+      John hacked at the expensive cut of beef with a butter knife.
+      Hack away at the fat.
+      Hack away!
+      John hacked great chunks of hair from his back with safety scissors.
+      Loggers hacked at the forest, carting away logs in massive trucks. 
+      Thomas hacked on the log in the backyard for most of the afternoon.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hack.01,hack.02,hack.03</pb>
+         <vn>build-26.1,cut-21.1-1,split-23.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be able to manage, complete, or survive successfully." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      I can't hack it anymore!
+      She couldn't hack the long days in the office.
+      The singer may not be able to hack it with audiences much longer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Kick another person on the arms or shins." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She hacked her opponent viciously throughout the match. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Fix a computer program; gain access to a
+         computer network via manipulating a computer program." type="">
+      <commentary>
+      Includes: HACK ON
+      Note: Contains both negative and positive connotations of a similar action.
+      </commentary>
+      <examples>
+      I'm not very good at hacking but I'll give it my best.
+      He hacked on that program for hours but with no results.
+      She was the first woman to hack the FBI mainframe.
+      John spent all night hacking his artificial intelligence program. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="hack_on" version="3.0">1</wn>
+         <omega></omega><pb>hack.04</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Significantly edit a manuscript." type="">
+      <commentary>
+      Note: Subsense of Sense 1 but applies only to written objects. 
+      </commentary>
+      <examples>
+      The publisher hacked the manuscript down to half its original length.
+      My editor really hacked my short story collection.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Cough spasmodically." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The patient with emphysema is hacking all day.
+      I hacked all night long last night. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hack.05</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

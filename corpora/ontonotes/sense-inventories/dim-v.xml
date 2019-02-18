@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dim-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Switch from higher beam to lower beam." type="">  
+      <commentary>
+      NOTE: Specific to headlights.
+      </commentary>
+      <examples>
+      I dimmed my headlights upon seeing the oncoming vehicle.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dim.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Become or make lusterless, perhaps by disuse; become dim by comparison" type="">
+      <commentary>
+     Syntax Is:
+      NP1[patient[concrete]] DIM
+      NOTE: Do not use for headlights; use Sense 1 instead. Can include
+      metaphorical examples if a light source is implied.
+      </commentary>
+      <examples>
+      The lights dimmed and the film began.
+      The stage dims just before the curtain rises
+      Bright ideas are dimmed by the old way of governing.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dim.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Become vague or indistinct." type="">
+      <commentary>
+       Syntax Is:
+        NP1[patient[abstract]] DIM PP
+      </commentary>
+      <examples>
+      The contrast between our characters began to dim over time.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

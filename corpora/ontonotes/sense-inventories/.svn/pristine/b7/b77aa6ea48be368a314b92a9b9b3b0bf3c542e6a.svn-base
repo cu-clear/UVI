@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="act-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="play or perform a role (on a stage)" type="">
+      <commentary>
+        Includes: ACT OUT 
+      </commentary>
+      <examples>
+        She wants to act Lady Macbeth, but she is too young for the role.
+        He acted in Julius Caesar.
+        She acted out what had happened earlier that day.  
+      </examples> 
+      <mappings>
+         <wn version="3.0">3,6,10</wn>
+         <wn lemma="act_out" version="3.0">1,2</wn>
+         <omega/><pb>act.01</pb>
+         <vn>masquerade-29.6-1</vn><fn>Performance_and_roles</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take action or behave in a certain way" type="">
+      <commentary>
+       Syntax Is: NP1[agent] ACT
+       Includes: ACT UPON, ACT ON
+      </commentary>
+      <examples>
+        She acts deaf when the news is bad.
+        Don't believe her, she's just acting upset.
+        She is acting as chair.
+        The dog acts ferocious, but he is really afraid of people.
+        The heap of stones will act as a barrier.
+        Think before you act.
+        They only listen but never act.
+        He acted upon the advance information.
+        Can you act on this matter soon?
+        The Founding Fathers acted on certain moral principles.
+        You should act like an adult.
+        Please act responsibly.
+        The Institute has failed to act fairly and in accordance with the appraisal procedure.
+        The brakes of my new car act quickly.
+        An object in motion tends to stay in motion unless acted upon by an unbalanced force.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,5,7,8,9</wn>
+         <wn lemma="act_on" version="3.0">1,2</wn>
+         <wn lemma="act_as" version="3.0">1,2</wn>
+         <omega/><pb>act.02</pb>
+         <vn>seem-109-1</vn><fn>Conduct,Intentionally_act</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause trouble or pain" type="">
+      <commentary>
+       Includes ACT UP, ACT OUT
+      </commentary>
+      <examples>
+        The children acted up when they got bored.
+        My arthritis is acting up again.
+        The study found that alcohol abuse was strongly related to acting out among young CSP clients.
+      </examples>
+      <mappings>
+         <wn lemma="act_up" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,brownsw" sample_score="-"/>
+</inventory>

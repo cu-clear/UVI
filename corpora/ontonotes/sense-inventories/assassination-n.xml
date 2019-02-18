@@ -1,0 +1,35 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assassination-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="the purposeful maligning of the reputation of a public figure" type="Event">
+        <commentary>
+        ASSASSINATION[+human][+public_figure][+character]
+        </commentary>
+        <examples> 
+       A character assassination is easier to commit than a physical assault.
+       The Senate has been debased to the level of a forum of hate and character assassination.        
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the purposeful killing of a public figure, often for ideological reasons" type="Event">
+        <commentary>
+        ASSASSINATION[+event][+human][+public_figure][+purposeful_killing] 
+        (note: most examples can be read as nominal or verbal, proving the noun's eventive nature.)
+        </commentary>
+        <examples>
+        The assassination by hamas was executed successfully.
+        Assassination has never changed the history of the world.
+        Demoralize the enemy...by surprise, terror, sabotage, assassination.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="browneal" sample_score="-"/>
+</inventory>

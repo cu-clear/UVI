@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="baste-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="drench periodically with liquid while cooking" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BASTE NP2[destination] (PP[theme])
+      NP1[agent[animate]] BASTE NP2[theme] (PP[destination])
+      NP1[theme] BASTE NP2[destination]
+      </commentary>
+      <examples>
+      The cooks basted the carcasses with a preparation of butter, pepper, salt and vinegar.
+      The meat must be basted, and dredged with flour, as carefully as beef.
+      It should be well basted, and served with a good gravy and currant jelly.
+      The chicken must be repeatedly basted, and cooked until it is tender.
+      It is basted with a 20% solution of natural turkey broth and light seasonings.
+      I flipped the legs 2 times and basted the sauce on them.
+      This time the juice basted the brisket.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>baste.01</pb>
+         <vn>spray-9.7-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="strike violently and repeatedly" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BASTE NP2[patient[animate]] (PP[instrument])
+      </commentary>
+      <examples>
+      Mine had struck down Creed's boy in the dirt, but I basted my rogue soundly.
+      I took a broom and basted her till she cried extremely.
+      One man was basted by the keeper, for carrying some people over on his back through the water.
+      The attackers basted him with a stick.
+      If she had had an umbrella she would have basted him over the head with it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>baste.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="sew together loosely with large stitches" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BASTE
+      NP1[agent[animate]] BASTE NP2[patient1] (PP[patient2])
+      </commentary>
+      <examples>
+      I cut and fitted and basted garments that were easily finished.
+      She basted and stitched as if there were nothing else in the world to do.
+      When all seams are basted, try on the skirt and make all changes necessary before stitching.
+      The lining is cut, basted, and fitted before the outside is cut.
+      The waist may be basted to the outside piece of the band.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>baste.03</pb>
+         <vn>shake-22.3-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

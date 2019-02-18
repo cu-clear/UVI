@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="exclusion-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of intentional exclusion" type="Event">
+        <commentary>
+            EXCLUSION[+state][+omission][+intentional]
+        </commentary>
+        <examples>
+            It's an important principle of exclusion in physics stating that no two particles may have the same set of quantum numbers.
+            The exclusion of salt from this bread makes it taste too bland.
+            The slaves' exclusion from the rights of citizens lasted more than 100 years.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of intentionally omitting something" type="Event">
+        <commentary>
+            EXCLUSION[+event][+action][+omission][+intentional]
+            Note: implies an agent who makes the omission
+        </commentary>
+        <examples>
+            Mary's exclusion of John from the planning meeting angered him.
+            The military's exclusion of drug users is a long-standing policy.
+            You don't have to focus on this issue to the exclusion of all others. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a circumstance, condition, risk not covered by a contract or policy" type="">
+        <commentary>
+            EXCLUSION[+entity][+symbolic][+content][+circumstance][-covered][+by_contract]
+        </commentary>
+        <examples>
+            If you add these exclusions to your insurance policy, your rates will be lower.
+            One exclusion on the policy is flooding.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

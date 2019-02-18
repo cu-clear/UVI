@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="challenge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="call into question, dispute, express doubt" type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] CHALLENGE NP2[Topic]
+      </commentary>
+      <examples>
+        Children challenge their parents' authority far more nowadays.
+        The book was banned because it challenged well established beliefs.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>challenge.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="invite or dare to compete, invite with defiance" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] CHALLENGE NP2[patient]
+      Note:  NP1 and NP2 are in competition. NP1 poses the challenge.
+      </commentary>
+      <examples>
+        She challenged me to a game of chess.
+        Fischer challenged Spassky to a match.
+        She challenged him to contradict her.
+        Each incoming pathogen challenges the immune system with a series of decisions.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>challenge.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="summon to action, stimulate" type="">
+      <commentary>
+     Syntax Is: NP1 CHALLENGE NP2
+      Note:  Unlike sense 1, NP2 is NOT the matter or issue in dispute. NP1 stimulates NP2 to further action. 
+      </commentary>
+      <examples>
+        These events challenge our attention.
+        I am up for any problem that challenges my imagination.
+        Challenge your mind. Ask a librarian a question!
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="ask or order for identification or password" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The illegal immigrants were challenged by the border guards.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="LAW - object to inclusion of juror" type="">
+      <commentary>
+        Use: To make a formal objection against the inclusion of a prospective juror or a jury.
+      </commentary>
+      <examples>
+        There are many different professional reasons for a lawyer to challenge a juror.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

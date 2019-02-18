@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dip-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="immerse briefly into liquid or container" type="">
+      <commentary>
+        NOTE: Nothing is necessarily getting removed from the container,
+        except as a result (not intentional action) of the dipping, as in
+        example 2.
+      </commentary>
+      <examples>
+        Dip the garment into the cleaning solution.
+        She dipped her donut into the coffee.
+        He dipped into the pool.
+        Marta dipped her hand into her purse.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4,10,13</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>dip.02</pb>
+         <vn>funnel-9.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="lower, decrease , or move downward, often momentarily" type="">
+      <commentary>
+        Syntax Is: NP1[theme] DIP PP[directional]
+      </commentary>
+      <examples>
+        The plane dipped and flew on.
+        The horse dipped its head.
+        The sun dipped below the horizon.
+        Stocks dipped for the third day in row today following early signs
+        of improvement.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,7,8</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>dip.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Motion_directional,Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be in a downward sloping position" type="">
+      <commentary>
+        Syntax Is: NP1[theme] DIP PP[directional]
+        NOTE: compare carefully to sense 2; this sense describes the state or 
+              shape or form of the direction; there is no actual movement
+      </commentary>
+      <examples>
+        Our property dips towards the river.
+        The pass dips down about 2000 feet, and then back up again.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>meander-47.7</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="scoop up, as if with a ladle" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] DIP NP2[theme] PP[location]
+        NOTE: compare carefully to sense 6; in this sense, you must state the 
+              substance being removed.  Ie, 'He dipped into the container' does not
+              entail that water was removed. Also, the 'source' is a location, not 
+              a resource.
+      </commentary>
+      <examples>
+        He dipped water out of the container.
+        She was dipping soup from the pot.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5,14</wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="DIP INTO: investigate superficially, skim" type="">
+      <commentary>
+        Is: DIP INTO
+      </commentary>
+      <examples>
+        I enjoy dipping into Chaucer once in awhile.
+        She dipped into psychology briefly while in college.
+        I was rather pleased to discover that I had read 50 of them and dipped into another two or three.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="dip_into" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="DIP INTO: pull from a resource" type="">  
+      <commentary>
+        Is: DIP INTO 
+        Syntax Is: NP1[agent] DIP INTO NP2[patient]
+        NOTE: compare carefully to sense 4; in this sense, the 'resource' cannot 
+              be substituted with the thing  'taken out' 
+              *(not good) 'We dipped money from our savings account.'
+      </commentary>
+      <examples>
+        Enron dipped into reserves to drive up earnings.
+        We dipped into our savings.
+        Cosmo dipped into our booty bank (aka tons of hot guys) to find the hottest mattress moves.
+        He had to dip into funds that had been allocated for the initiative's second phase.
+        There are also extra toiletries, which I had to dip into when I realized I'd forgotten my razor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="make candles by immersing wick in wax" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Using original tools and techniques, she dyes wool, weaves, and dips candles.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="disinfect an animal" type="">  
+      <commentary>
+        NOTE: this may be interpreted as a domain-specific subsense of sense 1
+              (the animals are immersed in liquid, but it is specifically for 
+                the purpose of disinfection)
+      </commentary>
+      <examples>
+        We dipped the dog for fleas.
+        I rode the horses, herded the cows, and clipped and dipped the sheep.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">12</wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>funnel-9.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="switch headlights to a lower beam" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Harry dipped the headlights and the two cars passed in silence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

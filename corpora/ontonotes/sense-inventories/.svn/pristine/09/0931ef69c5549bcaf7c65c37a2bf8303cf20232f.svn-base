@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bump-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Collide or cause to collide with; action
+   may be reflexive." type="">  
+      <commentary>
+       Note: One thing can bump into another or two things can bump into
+       each other; thing bumped into or up against can be concrete OR abstract
+       Includes: BUMP INTO (involving physical contact; contrast w/sense
+       2), BUMP UP (against something), BUMP AROUND, BUMP DOWN (perhaps
+       along a path) 
+      </commentary>
+      <examples>
+       My car bumped into the tree.
+       He bumped his car against the tree.
+       Mr. Maynard isn't the first entrepreneur to bump up against
+       entrenched interests.
+       Last week I bumped into my professor and knocked her down the stairs.
+       She bumped the baby on her knee.
+       I bumped my head against the wall.
+       The team got bumped around during the game.
+       The car bumped down the road.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="bump_into" version="3.0">1</wn>
+         <wn lemma="bump_around" version="3.0">1</wn>
+         <omega></omega><pb>bump.01,bump.03</pb>
+         <vn>bump-18.4-1,hit-18.1-1,hurt-40.8.3-2,spank-18.3</vn><fn>Impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Happen upon; meet unexpectedly." type="">
+      <commentary>
+     Syntax Includes:
+                     NP1[actor] BUMP INTO NP2[actor]
+                     NP1[agent] BUMP INTO NP2[patient[inainmate]
+      Is: BUMP INTO (typically with no physical contact)
+      </commentary>
+      <examples>
+       She bumped into her old neighbor at the bank.
+       I bumped into a friend of yours at the cinema the other day. 
+       Every time I turn around I bump into God.
+       If you read everything you'll eventually bump into a book that has
+       the answer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Demote, remove, kill." type="">
+      <commentary>
+       Includes: BUMP OFF (murder)
+      </commentary>
+      <examples>
+       The airline bumped me from the flight.
+       They could be bumped back to coach seats for life.
+       That show got bumped because no one was watching it.
+       The Mafioso who collaborated with police was bumped off within hours.         
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="bump_off" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="Move or adjust slightly, perhaps metaphorically." type="">
+      <commentary>
+       Includes: BUMP UP (increase)
+      </commentary>
+      <examples>
+       When the securities rebounded it bumped up the valuation again.
+       He bumped the crate out of the way.
+       If you're not careful you'll bump the glass of water off the table.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bump_up" version="3.0">1</wn>
+         <omega></omega><pb>bump.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="5" name="To dance with a partner by thrusting hips
+         forward rhythmically (to do the Bump-and-Grind)."
+         type="">
+      <commentary>
+       Note: Most often used as a noun, as in "Give me a little
+       bump and grind" or "He likes to do the bump." Tag these instances X.
+      </commentary>
+      <examples>
+       Serious bumpers bumped and grinded groins on the dance floor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+ <WORD_META authors="dehart,corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="finish-v">    
+   <commentary>
+	Includes VPC finish_off, finish_out, finish_up
+   </commentary>
+   <sense group="1" n="1" name="complete an activity" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FINISH NP2[patient]
+	Includes: FINISH OFF, FINISH OUT, FINISH UP
+      </commentary>
+      <examples>
+	They were unable to finish the negotiations.
+	Can you help me finish this crossword puzzle?
+	We are just finishing dessert.
+	Finish the sauce with a dollop of cream.
+	John finished off the chocolate ice cream.
+	The bank finished out all his accounts today.
+	The lawyers finished up their arguments today in court.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,6</wn>   
+         <wn lemma="finish_off" version="3.0">1</wn>
+         <wn lemma="finish_out" version="3.0">1</wn>
+         <wn lemma="finish_up" version="3.0">1</wn>
+         <omega/><pb>finish.01</pb>
+         <vn>stop-55.4-1</vn><fn>Activity_finish,Activity_stop</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be a result, be a boundary point" type="">  
+      <commentary>
+	Syntax Is: NP1[topic] FINISH ADVP
+	Includes: FINISH UP
+      </commentary>
+      <examples>
+       	Joe finished fourth in the race.
+	Our meetings always finish on a positive note.
+	Stocks finished higher today after heavy trading.
+	The film finishes with the two brothers heading off on their sail boat.
+	Mary finished up being the valedictorian after nearly flunking out her first year.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="finish_up" version="3.0">2</wn>
+         <omega/><pb>finish.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="apply a coat or surface to something, e.g., wood" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FINISH NP2[patient[concrete]] (PP{P NP[instrument]})
+      </commentary>
+      <examples>
+	These chairs have been finished with a light varnish.
+	Rub linseed oil into the wood before finishing it.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>finish.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="surprise-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make somebody feel amazed or sudden wonder" type="">  
+      <commentary>
+        Note: The object of surprise is usually evident in the sentence.
+      </commentary>
+      <examples>
+        I'm surprised that nobody's thought of this before.
+        It doesn't really surprise me that nobody accepted the offer.
+        It will not surprise anyone to learn that the offer has been rejected.
+        Janet was surprised how quickly the time passed.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>surprise.01</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="come upon, attack or catch someone or something unaware" type="">
+      <commentary>
+        Note: Unlike sense 1, the circumstances of the 'surprise' are not improbable.
+        For example, in the case of 'robbers were surprised by the police',
+        police catching robbers is not an unexpected event. 
+      </commentary>
+      <examples>
+        The robbers had just opened the safe when they were surprised by the police.
+        I surprised a huge raccoon going through the garbage last night. 
+        I surprised my roommate and her boyfriend on the couch last night.
+        He surprised me with flowers.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <omega/><pb>surprise.01</pb>
+         <vn>NM</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

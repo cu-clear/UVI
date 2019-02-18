@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="adorn-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Decorate; anoint with an object or quality." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] ADORN NP2[patient] PP{P NP[theme]}
+      Note: There must be an AGENT doing the decorating or bestowing (of something.) 
+      </commentary>
+      <examples>
+      Adorn the room for the party.
+      Women adorn themselves on their wedding day.
+      He adorned the young prince with control of the island.
+      I adorned myself with holy oils.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>adorn.01</pb>
+         <vn>fill-9.8-1,illustrate-25.3</vn><fn>Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be a decorative item." type="">
+      <commentary>
+      Syntax Is: NP1[theme] ADORN NP2[location]
+      </commentary>
+      <examples>
+      Flowers adorned the tables everywhere.
+      Jewels adorn the princess.
+      Power and glory adorn all great leaders.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>adorn.01</pb>
+         <vn>fill-9.8-1</vn><fn>Adorning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

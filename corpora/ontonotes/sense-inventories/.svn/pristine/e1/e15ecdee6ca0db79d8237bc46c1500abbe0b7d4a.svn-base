@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="airline-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a transportation business that provides scheduled flights" type="">
+        <commentary>
+            AIRLINE[+enterprise][+transportation][+air]
+        </commentary>
+        <examples>
+            Two airlines filed for bankruptcy last month.
+            Mary worked for that airline as a ticket agent.
+            Which airlines have routes to South America and Asia?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a pressurized hose that conducts air" type="">
+        <commentary>
+            AIRLINE[+artifact][+hose][+pressurized]
+        </commentary>
+        <examples>
+            A ruptured airline caused the accident.
+            How many pound of pressure does can that airline take?
+            They had to inspect both the gaslines and the airlines.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

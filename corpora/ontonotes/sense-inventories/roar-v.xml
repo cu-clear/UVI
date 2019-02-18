@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="roar-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make a loud noise, as an animal" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] ROAR 
+      </commentary>
+      <examples>
+        The mouse turned the tables and roared at the lion.
+        A zoo visitor says man roared at a tiger.
+        The monster roared in pain. 
+        The audience roared in laughter at the comedienne.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>roar.01</pb>
+         <vn>animal_sounds-38,sound_emission-43.2</vn><fn>Make_noise,Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="proceed in a turbulent way, often accompanied by noise" type="">
+      <commentary> 
+        Syntax Includes:
+        NP1[theme[inanimate]] ROAR (ADVP[manner]) PP[directional]
+        NP1[agent[animate]] ROAR (ADVP[manner]) PP[directional]
+
+        Includes: ROAR OFF
+
+        NOTE: in this sense 'roar' does not JUST refer to the sound an NP
+        makes but also (in the case of an animate NP1) the manner in which
+        NP1 moves.
+      </commentary>
+      <examples>
+        The wind roared through the trees.
+        The deparados roared down the hill on lathered horses.
+        Johnny jumped in the car and roared off into the sunset.
+        A winter avalanche roared towards the small village.
+        The tornado roared all around us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="roar_off" version="3.0">1</wn>
+         <omega></omega><pb>roar.02</pb>
+         <vn>sound_emission-43.2,weather-57</vn><fn>Motion_noise,Cause_impact,Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="utter words loudly and forcefully" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1[agent[human]] ROAR (PP)
+        NP1[agent[human]] ROAR SCOMP 
+        NOTE: Usually precedes or follows a direct quotation. When it
+        doesn't, as in example 2, it is explicitly stated that words are
+        being used.
+      </commentary>
+      <examples>
+        'Get out!' He roared at the cat.
+        Matt roared that Mary was lazy.
+        She roared, 'I declare this cave to be my castle!'
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>manner_speaking-37.3</vn><fn>Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

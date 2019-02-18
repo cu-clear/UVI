@@ -1,0 +1,180 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="flight-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the general process of traveling through the air" type="">
+        <commentary>
+            FLIGHT[+activity][+process][+flying]
+            Note: does not imply travel by airplane (see Sense 2)
+        </commentary>
+        <examples>
+            Have you ever seen an eagle in flight?
+            Space flight did not become a reality until the 20th century.
+            In Greek mythology, Icarus' flight takes him too close to the sun and his wings melt.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="travel by airplane" type="">
+        <commentary>
+            FLIGHT[+activity][+travel][+airplane]
+            Note: implies the actual ongoing process of traveling in an airplane.
+        </commentary>
+        <examples>
+            How was your flight from Munich?
+            During the flight we watched a movie.
+            I didn't like my frequent red-eye flights between the coasts last year.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the trajectory of a flying object" type="">
+        <commentary>
+            FLIGHT[+form][+trajectory]
+            Note: implies a single gravitationally-influenced arc, not a sustained process using wing lift.
+            Note: focus is on the form of the traversed path, not the activity of being airborne
+            Note: rockets may escape the gravitational field, but they are not airborne because of wing lift, but pure propulsion.
+        </commentary>
+        <examples>
+            The arrow's flight was a parabolic arc from the bow to the target.
+            The white plume of exhaust defined the rocket's flight into the heavens.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a sequence or set of similar objects, usually steps, stairs" type="">
+        <commentary>
+            FLIGHT[+sequence][+object][+similar][+stair/+glass/+lock/+hurdle]
+        </commentary>
+        <examples>
+            We walked up three flights of stairs.
+            The waiter in the wine bar brought us a flight of Oregon Pinot Noirs to sample. (set of small glasses for tasting)
+            The flight of locks through the canal took several hours to navigate.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a display of great imagination or fancy" type="">
+        <commentary>
+            FLIGHT[+activity][+display][+imaginative][+highly]
+        </commentary>
+        <examples>
+            The children engage in wonderful flights of fancy as they played in the old barn. 
+            The teacher encourages her students to allow their imaginations to take flight.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="groups of airborne entities, e.g., planes, birds" type="">
+        <commentary>
+            FLIGHT[+group][+airborne][+aircraft/+bird]
+        </commentary>
+        <examples>
+            Air traffic control sequenced the flights into a figure eight over the airport. 
+            The flight suddenly disappeared from the radar screen.
+            We watched flights of Canada geese soar overhead in formation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a scheduled trip by air" type="">
+        <commentary>
+            FLIGHT[+plan][+schedule][+itinerary]
+            Note: focus is on the published schedule of a flight, not the activity of being airborne
+        </commentary>
+        <examples>
+            Can you find any non-stop morning flights between Dallas and Miami?
+            I am standing by for the next flight to Paris. (focus is on the specific flight number)
+            Flights out of Providence are usually cheaper than the ones out of Boston.
+            The airlines publish their flight schedules about once a month.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="the act of escaping, fleeing" type="">
+        <commentary>
+            FLIGHT[+action][+escape]
+        </commentary>
+        <examples>
+            They read about the Jewish people's flight from Egypt.
+            The book describes her flight from an abusive relationship.
+            Miami airport was crowded with pale New Englanders in their flight from the cold winter. (figurative)
+            We felt the rapid flight of summer days. (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="9" name="an air force military unit, smaller than a squadron" type="">
+        <commentary>
+            FLIGHT[+group][+unit][+military][+air_force]
+        </commentary>
+        <examples>
+            John and Bob flew in the same flight in the Air Force.
+            Their flight lost two pilots in a training mission.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="10" name="the tail of a dart" type="">
+        <commentary>
+            FLIGHT[+artifact][+component][+dart][+tail]
+        </commentary>
+        <examples>
+            John held the dart by its flight and aimed at the dart board.
+            The flights of the darts were painted red and green.
+        </examples>
+        <mappings>
+            <wn version="MAC">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

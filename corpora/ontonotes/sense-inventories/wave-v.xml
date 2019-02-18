@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wave-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move an object back and forth with the intent to communicate" type="">  
+      <commentary>
+        Syntax is: NP1[animate] WAVE (NP2[concrete]) PP NP3[recipient]
+        NOTE:  There must be a recipient either stated or implied.
+      </commentary>
+      <examples>
+        She waved to her father as the train pulled away from the station.
+        He enthusiastically waved his greeting to the newcomers.
+        'This land' my father said as he waved his arm in a circle, 'Will
+        one day be yours.'
+        As the car drove by, I waved my arms frantically to get their attention.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="">1</wn>   
+         <omega></omega><pb>wave.01</pb>
+         <vn>wink-40.3.1-1</vn><fn>Gesture,Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) move or swing back and forth" type="">
+      <commentary>
+        Syntax includes: NP1[concrete] WAVE
+                         NP1[animate] WAVE NP2[concrete]
+      </commentary>
+      <examples>
+        He waved the piece of paper.
+        The flag waved in the breeze.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="">2,3</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>wave.01</pb>
+         <vn>modes_of_being_with_motion-47.3</vn><fn>Moving_in_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="dress someone's hair into waves" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She asked the hairdresser to wave her hair.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="">4,5</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>braid-41.2.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="dismiss" type="">
+      <commentary>
+        Includes: WAVE OFF, WAVE AWAY
+      </commentary>
+      <examples>
+        She waved them off weakly from her hospital bed.
+        He waved off suggestions of impropriety.
+        Those in the know wave away such talk as a bluff.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="wave_off" version="">1</wn>
+         <omega></omega><pb>wave.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,greenlm" sample_score="-"/>  
+</inventory>

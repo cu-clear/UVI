@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="appeal-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="challenge a legal verdict" type="">  
+      <commentary>
+	NP1[agent] APPEAL NP2[patient]
+      </commentary>
+      <examples>
+	The soft drink maker is expected to appeal the case.
+	He is now appealing to the state Supreme Court in this custody battle.
+	I doubt the defendant can appeal this verdict.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>appeal.01</pb>
+         <vn>NM</vn><fn>Appeal</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="request earnestly of someone" type="">  
+      <commentary>
+	NP1[agent] APPEAL TO NP2[patient] PP{P NP[theme]}
+        NP1[agent] APPEAL TO NP2[patient] SCOMP[theme]
+      </commentary>
+      <examples>
+       	I appeal to you not to shoot the bear!
+	The Pilgrims appealed to God to give them safe passage.
+	The neighbors heard the child appealing for help.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>appeal.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="attract or please" type="">  
+      <commentary>
+	Syntax Is: NP1[theme1] APPEAL TO NP2[theme2[human]]
+      </commentary>
+      <examples>
+	Living by the ocean really appeals to me.
+	Eating Chinese tonight doesn't appeal to John.
+	Outsourcing non-core business activities has been appealing to many companies.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>appeal.03</pb>
+         <vn>appeal-31.4-3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cite or refer to something" type="">  
+      <commentary>
+	NP1[agent] APPEAL TO NP2[patient]
+      </commentary>
+      <examples>
+	He appealed to the Fifth Amendment in his defense.
+	The EPA has appealed to several studies that cite evidence of global warming.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

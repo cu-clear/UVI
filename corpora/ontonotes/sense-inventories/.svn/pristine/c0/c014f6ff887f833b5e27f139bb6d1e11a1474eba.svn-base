@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="occur-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="happen or take place" type="">
+      <commentary>
+       Syntax Includes:
+        NP1 OCCUR ADVP
+        NP1 OCCUR (PP[temporal])
+        NP OCCUR (PP[locative])
+        Note: implies specific temporal events--the event has a beginning and an end.
+        ('occur' in this sense can often be replaced with 'happen' but not with 'be')
+      </commentary>
+      <examples>
+	She was in the shower while the theft was occurring.
+        The girl wished something exciting would occur in her life.
+        Did anything interesting occur at the meeting?
+        An explosion occurred when he flipped the switch.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1</wn>
+	 <omega/><pb>occur.01</pb>
+         <vn>occurrence-48.3.1</vn><fn>Event</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="come to mind" type="">
+      <commentary>
+        Syntax Is: NP1[topic[abstract]] OCCUR to NP2[experiencer]
+      </commentary>
+      <examples>
+        A strange thought has just occurred to me.
+        It never occurs to John to thank his staff for their hard work.
+        No solution to the problem is occurring to the students.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2</wn>
+	 <omega/><pb>occur.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="exist, be present" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 OCCUR ADVP
+        NP1 OCCUR PP[locative]
+        implies a state, rather than temporally specific events.
+        ('occur' in this sense can often be replaced with 'be' but not with 'happen')
+      </commentary>
+      <examples>
+        Hard coal usually occurs in long seams within rock beds.
+        Hydrogen can occur in several states.
+        High crime rates occur where there is poverty and homelessness.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3</wn>
+	 <omega/><pb>occur.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="4" name="happen or go together" type="">
+      <commentary>
+        Includes: CO-OCCUR WITH
+      </commentary>
+      <examples>
+        Insominia and other sleep disorders often co-occur with anxiety and panic attacks.
+      </examples>
+      <mappings>
+         <wn lemma="co-occur_with" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

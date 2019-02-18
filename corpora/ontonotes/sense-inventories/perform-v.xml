@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="perform-v">
+   <commentary>
+  
+   </commentary>
+   <sense group="1" n="1" name="do, execute deeds or actions" type="">
+      <commentary>
+       Syntax Includes:
+       NP1[agent] PERFORM NP2
+       NP1[agent] PERFORM PP[goal]
+       NOTE: There is an additional sense not cited by WordNet which means
+       "behave" as in "Mary performs well under pressure" and "the tires
+       don't perform well on wet pavement" and "did those stocks perform
+       well last quarter?"     
+      </commentary>
+      <examples>
+       He performed his daughter's wedding.
+       The children are performing poorly on their reading tasks.
+       They perform their duties admirably.
+       The company performed the amazing feat of achieving 22 percent growth last quarter.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>
+         <omega/><pb>perform.01</pb>
+         <vn>function-105.2.1-1</vn><fn>Intentionally_act</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give an (artistic) performance (of something)" type="">
+      <commentary>
+       Syntax Is: NP1[agent] PERFORM NP2[patient[abstract]]
+      </commentary>
+      <examples>
+       They are performing Beethoven's Ninth at Symphony Hall tonight.
+       His plays were underperformed in the 1970s.
+       She couldn't perform the role of Lady McBeth with conviction.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>perform.01</pb>
+         <vn>performance-26.7-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

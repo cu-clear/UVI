@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="vibrate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) shake or throb, either in place or as part
+   of a change of location." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] VIBRATE NP2[patient[concrete]]
+      NP1[theme[concrete]] VIBRATE PP[directional]
+      Note: Thing vibrating must be concrete; even in the example of 'air',
+      it is the molecules of air that vibrate and thus it is concrete; this
+      does not mean that the stimulus/agent has to be concrete, however.
+      </commentary>
+      <examples>
+      Traffic from the interstate vibrated the house.
+      The needle on the meter vibrated back and forth.
+      The toy vibrated across the floor.
+      The child couldn't stop vibrating.
+      The musician vibrated the air in the organ pipes, producing sound.
+      Joy vibrated through his cold heart.   
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>vibrate.01</pb>
+         <vn>other_cos-45.4,modes_of_being_with_motion-47.3</vn><fn>Cause_to_move_in_place,Moving_in_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be undecided about something." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      I vibrate between accepting the new position and retiring.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Literally) sound with resonance." type="">
+      <commentary>
+      Syntax Includes: NP1[theme[abstract]] VIBRATE PP[location]
+                       NP1[agent] VIBRATE NP2[patient[abstract]]
+      Note: The thing vibrating must be abstract.
+      </commentary>
+      <examples>
+      The sound really vibrates in this theater.
+      The organist vibrated beautiful sound off every surface of the cathedral. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Feel sudden, intense sensation or emotion." type="">
+      <commentary>
+      Syntax Is: NP1[experiencer] VIBRATE
+      Note: Some aspect of the NP1 (figuratively or literally) may stand in
+      for the 'experiencer' role. 
+       </commentary>
+      <examples>
+      His emotions were vibrated by the speed and roar of the engine of the
+      car, just as his body was vibrated by its every movement.
+      His heart vibrated with joy.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

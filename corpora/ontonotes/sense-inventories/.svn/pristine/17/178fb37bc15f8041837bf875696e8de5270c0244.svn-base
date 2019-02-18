@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="employ-v">    
+   <commentary>
+	No VPCs for this verb
+   </commentary>
+
+   <sense group="1" n="1" name="hire for work" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1[agent[human]] EMPLOY NP2[patient[human]] (PP)
+        NP1[agent[human]] EMPLOY NP2[patient[human]] (ADVP)
+        Note: NP1 may be an individual or an organization.
+      </commentary>
+      <examples>
+	Their firm employs three thousand people worldwide.
+	John has been employing recent college graduates for his small business.
+	Sally was employed by a law firm before she started her own consultancy.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>   
+         <omega></omega><pb>employ.01</pb>
+         <vn>hire-13.5.3</vn><fn>Employing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="utilize or use" type="">
+      <commentary>
+    	Syntax Is: NP1[agent] EMPLOY NP2[instrument] [goal]
+      </commentary>
+      <examples>
+	This surgical technique has only recently been employed with heart patients.
+	In the paper they describe the methods employed to collect the data.
+	The teacher told the students they should employ their time wisely during the summer.
+	That child is learning to employ manipulative measures to get his way.
+	They employ only natural flower oils in their perfumes.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>employ.02</pb>
+         <vn>use-105.1</vn><fn>Using</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="keep occupied or busy" type="">
+      <commentary>
+        Syntax Includes:
+	NP1[topic] EMPLOY NP2[patient[human]] 
+	NP[human] BE_EMPLOYED [topic]
+	Note: implies time is consumed towards some end
+      </commentary>
+      <examples>
+	She has been employed with volunteer work at the hospital.
+	Worries employed his thoughts daily.
+	He was too employed with financial matters and ignoring his family.
+	They are employed in developing the prototype into a product.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

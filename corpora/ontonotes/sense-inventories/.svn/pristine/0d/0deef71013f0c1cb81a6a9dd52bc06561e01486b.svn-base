@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="descend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move (as if) by lowering" type="">  
+      <commentary>
+       Syntax Is:
+        NP1 DESCEND
+        NOTE: Includes metaphorical uses but not changes of state. Compare
+        to sense 4.
+      </commentary>
+      <examples>
+        The balloon descended rapidly from the sky.
+        Night decended on the land.
+        The children descended the stairs one by one.
+        To the netherworld Pandora descended alone.
+        A suicidal moose descends on Alaska.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>descend.01</pb>
+         <vn>escape-51.1-3,meander-47.7</vn><fn>Motion_directional,Path_shape,Traversing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="come from a lineage" type="">
+      <commentary>
+       Syntax Is:
+        NP1[patient] DESCEND FROM NP2[source]
+      </commentary>
+      <examples>
+        She descended from Okttor of Bohemia.
+        We descend from a long line of brutal Saxons!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="do something considered below one's diginty" type="">
+      <commentary>
+        Syntax Is:
+         NP1[agent[human]] DESCEND 
+      </commentary>
+      <examples>
+        I will not descend to the level of killing children.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="deteriorate in condition" type="">
+      <commentary>
+       Is: DESCEND INTO
+       Syntax Is:
+        NP1[patient[human]] DESCEND INTO NP2[abstract]
+        NOTE: Compare to sense 1, NP1 must change its state not just move
+        its location. Usually applies to worsening conditions, but may also
+        apply to improving conditions, though no examples found. 
+      </commentary>
+      <examples>
+        The once-famous author descended into obscurity upon her death.
+        I'm descending into madness!
+        Matthew descended into a depression that could not be relieved.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

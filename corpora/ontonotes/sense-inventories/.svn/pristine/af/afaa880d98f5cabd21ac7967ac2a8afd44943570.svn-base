@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="align-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="line up or make parallel; bring into proper adjustment" type="">  
+      <commentary>
+       Note: Concrete, usually visible alignment
+      </commentary>
+      <examples>
+        Align the baseline of the box with the baseline of the parent box.
+        The research team also aligned the nanotubes.
+        Can you align the wheels of my car?
+        Align your compass with north.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>align.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bring into concord" type="">
+      <commentary>
+       Note: Abstract alignment
+      </commentary>
+      <examples>
+        We need to align our strategies.
+        Where can we find classroom resources aligned with state standards?
+        Is your sales compensation plan aligned with the times?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>align.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="associate with; join together" type="">
+      <commentary>
+        Syntax Includes: NP1[agent[human]] ALIGN (ONESELF) WITH NP2[theme[human]]
+                         NP1[agent[human]] ALIGN (PP)
+        NOTE: this can include groups made up of human entities like
+        companies, movements, parties etc.
+      </commentary>
+      <examples>
+        He aligned himself purposely with Hillary Clinton.
+        Mark aligned himself with the industrialists.
+        Bush and Karzai say they are aligned against the Taliban.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>align.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,brownsw,greenlm" sample_score="-"/>  
+</inventory>

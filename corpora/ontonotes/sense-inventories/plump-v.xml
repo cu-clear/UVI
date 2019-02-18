@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="plump-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="drop sharply" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[patient] PLUMP (PP[extent]) (PP[start_point)] (PP[end_point])
+      </commentary>
+      <examples>
+      On the bright side, gross margin on product sales plumped slightly, to 34.8% from 34.1% a year ago.
+      Sales plumped 4% during July.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="set/sit down with or as if with a noise" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme] PLUMP (PP[location])
+      NP1[agent[animate]] PLUMP NP2[theme] (PP[location])
+      </commentary>
+      <examples>
+      A heavy shower of rain plumped vertically into the trench.
+      And in plumped this son of a woman to follow his wig, cane, and hat.
+      Down he plumped from the counter with a thud that made the whole floor shake.
+      I defy anybody to be graceful or heroic in plumping down to the bottom of a city river.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make fat or plump" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent|cause] PLUMP (OUT) NP2[patient] (PP[instrument])
+      NP1[agent|cause] PLUMP (UP) NP2[patient] (PP[instrument])
+      NP1[patient] PLUMP (OUT) (PP[instrument|theme])
+      NP1[patient] PLUMP (UP) (PP[instrument|theme])
+      NP1[patient] PLUMP (PP[instrument|theme])
+      </commentary>
+      <examples>
+      We will plump out that poor starving child.
+      The bones and withered muscle and skin plumped with life and took on flesh.
+      One-third of the fresh chicken sold in the U.S. is plumped with water, salt and carrageenan.
+      Hildegarde plumped the cushions of the old lady's chair.
+      She plumped up the pillows.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="plump_out" version="3.0">2</wn>
+         <wn lemma="plump_up" version="3.0">1</wn>
+         <omega></omega><pb>plump.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="give support to or make a choice of one out of a group or number" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PLUMP PP1[theme]
+      </commentary>
+      <examples>
+      I plumped for the losing candidates.
+      He has no hesitation in plumping for the Stamford Bridge outfit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

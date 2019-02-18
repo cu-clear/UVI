@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="vote-n">
+    <commentary>
+        16nov06 update wn2.1, merged sense 2 with sense 1. added features. ahouston
+        16nov06, modified definitions, added examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of deciding, choosing, casting a ballot" type="Event">
+        <commentary>
+            VOTE[+event][+choice][+cast][+ballot]
+            a choice that is made by voting
+        </commentary>
+        <examples>
+            They will put this question to a vote in the Senate.
+            Surprisingly, many of the votes were write-ins.
+            Some votes were invalidated because they didn't mark their choices properly.
+            They are recounting the votes in Florida for a third time. (the choices made)
+            Mary cast her vote for the Libertarian candidate.
+            They held a straw vote over who should go and fetch the Chinese takeout.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/>
+            <pb>vote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Placeholder: DO Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="suffrage" type="">
+        <commentary>
+            VOTE[+state][+legal][+right][+suffrage]
+            Note: refers to the legal right of an individual to cast a ballot.
+            a legal right to participate in elections
+        </commentary>
+        <examples>
+            American women got the vote in 1920.
+            The vote is guaranteed to women by the 19th amendment.
+            In that country, the vote is denied to all but men who own property.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>vote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="number of votes" type="">
+        <commentary>
+            VOTE[+quantity][+count][+ballot][+cast]
+            Note: refers collectively to 
+            voter turnout - 
+            the total number of votes cast
+        </commentary>
+        <examples>
+            They are expecting the vote to be large in precincts across the midwest.
+            The vote today was reduced significantly by bad weather.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>vote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="people who vote or can vote, the electorate" type="">
+        <commentary>
+            VOTE[+entity][+group][+people][+electorate]
+            Note: refers to people who can or will vote.
+            Note: often used to identify blocks of the electorate, 'Hispanic vote' - the modifier indicates which block is being identified.
+        </commentary>
+        <examples>
+            He failed to get the labor vote.
+            We're hoping to get the independent vote.
+            Their candidate gets a lot of the women's vote in eastern states.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>vote.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

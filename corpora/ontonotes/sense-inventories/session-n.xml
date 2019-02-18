@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="session-n">
+    <commentary>
+        6oct06 updated to wn2.1, added features, examples. ahouston
+        6oct06 - merged sense 4 with sense 2, sense 4 is dummy sense. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="Formal meeting for deliberations" type="Event">
+        <commentary>
+            SESSION[+event][+social][+meeting][+official][+deliberating][+legislative/+judicial/+academic]
+            A meeting for the purpose of executing a group's function.  
+            Often refers primarily to government or &quot;official&quot; functions.
+        </commentary>
+        <examples>
+            The President addressed a joint session of Congress.
+            The legislative session doesn't begin until June.
+            This legislation will be introduced during the next parliamentary session.
+            The first session of the Water Buffalo Lodge has come to order!
+            Mary is chairing one of the sessions at the conference.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="period of time used for some purpose" type="Event">
+        <commentary>
+	    SESSION[+event][+expanse][+temporal][+period][+purposeful][+activity]
+	    A period of time allotted to some activity, often informal social gatherings
+	    </commentary>
+        <examples>
+            I'm famous for my night-long cram sessions before big exams.
+            The concert was little more than a friendly jam session with fifty thousand spectators.
+            We had a pretty good recording session this morning.
+            The two friends met after school for a short gossip session.
+            When you log out of the program, the changes you made during your last session will be discarded.
+            Class is currently in session, so keep your voices down.  (the time passing right now)
+            Mary disapproved of Bob's late-night drinking sessions with his buddies.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a school term, the time it spans" type="">
+        <commentary>
+	    SESSION[+event][+expanse][+temporal][+term][+school]
+	    The timeframe for an academic term.
+	    </commentary>
+        <examples>
+            The spring session begins on January fourth and lasts until May second.
+            The session at John's school does not end until after Memorial Day.
+            They offer two six-week sessions during the summer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

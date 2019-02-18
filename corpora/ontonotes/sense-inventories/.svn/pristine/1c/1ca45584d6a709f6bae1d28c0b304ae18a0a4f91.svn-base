@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="report-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="describe, account" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         They reported seeing a man flee the apartment after the shooting.
+         He reported feeling a sharp pain in his left side.
+         Their findings will be reported in the next issue of Science.
+         She is reporting the business news from Hong Kong these days.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5</wn>
+         <omega/><pb>report.01</pb>
+         <vn>characterize-29.2-1-2,consider-29.9-1,say-37.7-1</vn>
+         <fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="inform on" type="">
+      <commentary>
+         Syntax Is: NP1[agent[human]] REPORT NP2[patient[human]]
+      </commentary>
+      <examples>
+         She reported her neighbor to the authorities.
+         I'll report him to the principal.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,6</wn>
+         <omega/><pb>report.01</pb>
+         <vn>NM</vn>
+         <fn>Reporting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be accountable to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The new hire will report directly to the CEO.
+         He reports for duty at 0700 tomorrow.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>report.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>                                                                                              
+   <sense group="1" n="4" name="report out" type="">
+      <commentary>
+        Note: Return a bill after consideration and revision to a legislative body.
+      </commentary>
+      <examples>
+      * No examples found
+      </examples>
+      <mappings>
+         <wn lemma="report_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,92 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="complication-n">
+    <commentary>
+        12jan07 updated to WN 2.1, added features. ahouston
+        12jan07 changed definitions, added examples and argument frames. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="causing greater complexity" type="Event">
+        <commentary>
+	    COMPLICATION[+event][+action][+creation][+complexity]
+	    Note: a nominalization: his complication of the explanation -&gt; he complicated the explanation
+	    Note: implies X complicated Y, where X is a cause/agent of increasing complexity of patient/object Y
+	    </commentary>
+        <examples>
+            His unnecessary complication of the explanation only confused the students.
+            I tried to reduce the lawyer's complication of the wording of the letter.      
+            The new experimental data's complication of the existing theory cannot be dismissed.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a situation that is an instance of increased complexity" type="Event">
+        <commentary>
+            COMPLICATION[+state][+situation][+complexity][+increased]
+            Note: occurs as 'X BE complication' where X is a situation, event, -not- an entity (Sense 4)
+        </commentary>
+        <examples>
+            Your arrival at my wedding is certainly a complication, John.
+            The King's decision had many unforeseen complications.  (decision = action, situation)
+            My plan didn't go smoothly-- there were a few complications along the way.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="secondary medical problem" type="Event">
+        <commentary>
+            COMPLICATION[+event][+physiological][+medical][+condition][+adverse]
+            Note: implies structures of the form 'X happened', 'X is the case' where X is an adverse medical condition.
+            Note: a narrow, specific usage of Sense 2 - Sense 3 always implies a medical event.
+            A disease or disorder that results from another disease or disorder (or from a treatment).  
+        </commentary>
+        <examples>
+            He died of complications from the surgery.
+            Were there complications from the gunshot wound?
+            Bed sores are a common complication of long-term paralysis.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="the attribute or quality of complexity of something" type="">
+        <commentary>
+            COMPLICATION[+quality][+intricacy]
+            Note: implies 'X HAS complication', where complication is an attribute of X and X is an entity
+        </commentary>
+        <examples>
+            I like organization and neatness, and I really hate complication in a filing system.
+            The puzzle's level of complication makes it very difficult to solve.
+            You must read his books carefully because of the complications in the plot structures.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

@@ -1,0 +1,144 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="speak-v">
+   <commentary>
+	NP[+speaker] SPEAK (PP[+listener]) (PP[+topic])
+	Note: this is the general, unmarked sense of talking or having a conversation.
+   </commentary>
+   <sense group="1" n="1" name="vocalize, communicate through speech" type="">
+      <commentary>
+        NP1[agent, +animate] SPEAK (PP(NP2[listener])) (PP(NP3[topic]))
+        Note: Not necessarily at a social event or public arena
+        Note: Can have an audience or not
+      </commentary>
+      <examples>
+        They spoke in hushed whispers in the cathedral.
+        The prisoner won't speak.
+        She speaks Spanish fluently.
+        The staff writer spoke with eight couples about why they think they're compatible.
+        Speaking of John, have you seen him today?
+        The children spoke of a curious old man with a crooked cane whom they'd seen in the village.
+        Management isn't really speaking to the rank and file of the company.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <omega/><pb>speak.01</pb>
+         <vn>talk-37.5</vn><fn>Chatting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="give a formal speech or lecture" type="">
+      <commentary>
+	NP[+actor] SPEAK (PP[+audience]) (PP[+event])
+	Note: implies a specific social event or occasion of a monologue to an audience
+        Note: Audience is necessary
+      </commentary>
+      <examples>
+        Andrea Jung, Avon CEO, will speak at the Fairfield Awards Dinner.
+        Garciaparra continues a tradition of well-known baseball figures to speak at the dinner.
+        We are scheduled to speak at the conference.
+        This organization gives seminars on how to speak in public.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>speak.01</pb>
+         <vn>lecture-37.11</vn><fn>Text_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="emit a characteristic or natural
+         sound; convey as a sound" type="">
+      <commentary>
+	NP[-animate] SPEAK
+      </commentary>
+      <examples>
+        The drums spoke.
+        I heard a subtle lovely bell-like sound, as the wind spoke through the rigging.
+        The lone flute player hushed the crowd, the air was rich with
+        atmosphere and the pure sound of the flute spoke.
+        I did not say all that my heart spoke to me.
+        His music really speaks to me.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>speak.01</pb>
+         <vn>talk-37.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="be a spokesperson or a representative for something" type="">
+      <commentary>
+	NP[+representative] SPEAK_FOR NP[+client/+benefactor]
+       	 includes SPEAK FOR
+        	may be used metaphorically
+	Note: always implies speaking on behalf of another, not just oneself.
+      </commentary>
+      <examples>
+        I lost a son in Iraq and Cindy Sheehan does not speak for me.
+        Who will speak for the trees?
+        They often hire celebrities to speak for their clients.
+        The work will speak for itself.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="speak_for" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>defend-72.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="voice one's opinion" type="">
+      <commentary>
+        NP[+actor] SPEAK UP/SPEAK OUT
+        includes SPEAK UP, SPEAK OUT
+        Note: implies a sentient actor acting intentionally
+	Note: does -not- imply speaking on behalf of another (see Sense 4)
+      </commentary>
+      <examples>
+        An example of when you should speak up is when a player discusses the hand while it is still in progress.
+        If there ever was a time when we needed to speak up on behalf of people whose rights are being abridged, that time is now.
+        I reached out to the victims and let them know that they could and should speak up.
+        The nuns said all should speak out against wrong.
+        Jane spoke up for herself at the meeting.
+        Three chairmen of the Board of Education spoke out in favor of creating a policy that would make meetings more efficient.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="speak_up" version="3.0">1</wn>
+         <omega/><pb>speak.02,speak.03</pb>
+         <vn>lecture-37.11-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="6" name="talk more loudly" type="">
+      <commentary>
+        includes SPEAK UP
+      </commentary>
+      <examples>
+       	 I couldn't hear you. Could you please speak up? 
+	They asked the woman to speak up a little in order to hear her from the back of the room.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="speak_up" version="3.0">2</wn>
+         <omega/><pb>speak.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="7" name="Provide evidence of." type="">
+      <commentary>
+        Includes: SPEAK TO, SPEAK FOR
+      </commentary>
+      <examples>
+        The results of this project speak to his ability to lead.
+        His novels speak for his ability to write both poetry and prose.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc,ahouston,vieweg,corvey" sample_score="-"/>
+</inventory>

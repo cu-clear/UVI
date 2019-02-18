@@ -1,0 +1,518 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="take-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="carry out, enact (includes light verbs)" type="">
+      <commentary>
+       Syntax is: NP1 TAKE  NP2[activity]
+                  NP1 TAKE NP2  PP[activity]
+       NOTE: Includes only light verb usages.
+             In a sentence with a light verb, NP2 can often be paraphrased
+             as a verb: "She took a bath" as "She bathed."
+             However, in some cases, there is no lexical verb that is
+             related to the LVC: "...take a trip to Bermuda."  
+
+       Light verbs: TAKE A BOW, TAKE A BREATH, TAKE A CRAP, TAKE A DARE,
+       TAKE A DIVE, TAKE A HOP, TAKE A LOOK, TAKE A SHIT, TAKE AIM, TAKE ARMS,
+       TAKE FIRE, TAKE FLIGHT, TAKE FORM, TAKE HEED, TAKE HOLD, TAKE HOLD
+       OF, TAKE LEAVE, TAKE NOTE, TAKE NOTICE, TAKE ORDERS, TAKE ROOT, TAKE INTO
+       ACCOUNT/CONSIDERATION, TAKE SEAT
+      </commentary>
+      <examples>
+        They have taken steps to avoid any confusion.
+        Spiderman was extremely angry now, and took vengeance.
+        Take a picture of that bridge. 
+        She decided not to take German next year.(i.e. "She participated in a
+        German course")
+        He'll take his driving test tomorrow. (can be paraphrased as "He'll
+        be tested tomorrow.")
+        Take a picture/photograph of that bridge. (can be paraphrased as,
+        "Photograph that bridge.")
+        The seamstress took my measurements. ("The seamstress measured me.")
+        The company has taken aim at their rival through a new ad campaign.
+        Can we take shelter from the rain in this cave?
+        It was worth it, so they took the risk.
+        They took the evidence into consideration. ("They considered the
+        evidence")
+        Let's take our seats. ("Let's sit down")
+        A 5.6 reading/measurement was taken of the earth's tremors. 
+        The new product rollout took place yesterday ("They rolled out the product")
+      </examples>
+      <mappings>
+         <wn version="3.0">1,15,16,20,24,25,28,34</wn>
+         <wn lemma="take_a_bow" version="3.1">1,2</wn>
+         <wn lemma="take_a_breath" version="3.1">1</wn>
+         <wn lemma="take_account" version="3.1">1</wn>
+         <wn lemma="take_a_crap" version="3.1">1</wn>
+         <wn lemma="take_a_dare" version="3.1">1,2</wn>
+         <wn lemma="take_a_dive" version="3.1">1</wn>
+         <wn lemma="take_a_hop" version="3.1">1</wn>
+         <wn lemma="take_a_look" version="3.1">1</wn>
+         <wn lemma="take_a_shit" version="3.1">1</wn>
+         <wn lemma="take_aim" version="3.1">1</wn>
+         <wn lemma="take_arms" version="3.1">1</wn>
+         <wn lemma="take_fire" version="3.1">1</wn>
+         <wn lemma="take_flight" version="3.1">1</wn>
+         <wn lemma="take_form" version="3.1">1</wn>
+         <wn lemma="take_heed" version="3.1">1</wn>
+         <wn lemma="take_hold" version="3.1">1,2</wn>
+         <wn lemma="take_hold_of" version="3.1">1</wn>
+         <wn lemma="take_into_account" version="3.1">1</wn>
+         <wn lemma="take_leave" version="3.1">1</wn>
+         <wn lemma="take_note" version="3.1">1</wn>
+         <wn lemma="take_notice" version="3.1">1</wn>
+         <wn lemma="take_root" version="3.1">1</wn>
+         <omega/><pb>take.01,take.14,take.LV</pb>
+         <vn>NM</vn><fn>Becoming_attached,Coming_to_be,Create_physical_artwork,Excreting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="require or necessitate" type="">
+      <commentary>
+       Syntax is: IT TAKE NP1[theme](usually a quantity) (PP)[goal]
+       NP1[goal] TAKE NP2[theme](usually a quantity)
+       NP1[goal] TAKE NP2[source] NP3[theme](usually a quantity)
+       NP1[source] TAKE NP2[theme](usually a quantity) (PP)[goal]
+       IT TAKE NP1[source] NP2[theme](usually a quantity) (PP)[goal]
+      </commentary>
+      <examples>
+        It took three hours to drive to the mall.
+        It takes time to build a corporate image.
+        This game doesn't take much skill.
+        The homework doesn't take her very long. 	 
+        Graduate students are taking longer to get their degrees. 	
+        It took me a half-hour to move ten feet in traffic. 	
+        She takes the time to make sure it's perfect.	
+        That couch takes up all the room. 	
+        It takes a lot of money to start a business. 	
+        It took $400 million to build the highway. 
+        The recipe takes 3 cups of flour for the batter.
+      </examples>
+      <mappings>
+         <wn version="3.1">2,14</wn>
+         <wn lemma="take_up" version="3.1">4</wn>
+         <omega/><pb>take.10</pb>
+         <vn>cost-54.2,require-103</vn><fn>Taking_time</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="bring with, transport, move" type="">
+      <commentary>
+       Syntax is: NP1 TAKE (NP2[object][concrete])(PP[destination])
+                  NP1 TAKE (NP2[object][abstract])(PP[destination])
+       Note: 'They took to the hills' and 'take off' are understood as a reflexive, where the agent transports the agent. 
+      </commentary>
+      <examples>
+        The child was taken to the principal's office.
+        Please take these letters to the post office.
+        Are the children taking their umbrellas?
+        The bandits took (themselves) to the hills.
+        All he took with him were a few good memories.
+        His talent took him straight to the top.
+        Her charitable work took her into some dangerous neighborhoods.
+        Please take these books back to the library.
+        That song really takes me back!
+      </examples>
+      <mappings>
+         <wn version="3.1">3,7,30</wn>
+         <omega/><pb>take.01</pb>
+         <vn>bring-11.3</vn><fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="Get: The act of acquiring a physical or abstract possession." type="">
+      <commentary>
+       Syntax is: NP1[agent] TAKE NP2[object]
+      </commentary>
+      <examples>
+        I told the salesperson I would take the red leather shoes.
+        He took up the sugar with a spoon.
+        Do you take lemon with your tea?
+        Mary took a small apartment in London.
+        He has stopped taking the New York Times.
+        Morgan took back her necklace.
+        They took out a loan.
+        The princess took a husband from the three suitors.
+        Teenagers take up new ideas seemingly on a whim.
+        We took in 1,000 dollars the first weekend.
+        He has taken the position of managing director of flight operations.
+      </examples>
+      <mappings>
+         <wn version="3.1">4,8,10,12,18,23,31,32,33</wn>
+         <wn lemma="take_back" version="3.1">2,3</wn>
+         <wn lemma="take_in" version="3.1">1,5,7,10,16</wn>
+         <wn lemma="take_up" version="3.1">1,2,3,5,6,9</wn>
+         <omega/><pb>take.01,take.06</pb>
+         <vn>get-13.5.1</vn><fn>Taking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="5" name="an agent causes a results and/or change in functionality of something" type="">
+      <commentary>
+       Syntax is: NP1[agent] TAKE NP2[patient] NP3/ADVP/ADJP[attribute/state]
+       NP1[agent] TAKE NP2/ADVP/ADJP[attribute/state] NP2[patient]
+       Includes: TAKE DOWN, TAKE IN, TAKE ON, TAKE UP 
+Typically involves resultative constructions.
+      </commentary>
+      <examples> 
+        He took down the Christmas lights. 
+        They took down the building to make way for a parking lot. 
+        We should take in the sails.        
+        Please take in this skirt.
+        Please take up the hem.
+        He took apart the radio. 
+        John has taken his company public.
+        He took apart the company finances.
+      </examples>
+      <mappings>
+         <wn version="3.1"></wn>
+         <wn lemma="take_apart" version="3.1">1,2,3</wn>
+         <wn lemma="take_down" version="3.1">3</wn>
+         <wn lemma="take_in" version="3.1">8,17</wn>
+         <wn lemma="take_up" version="3.1">4</wn>
+        <omega/><pb>take.03</pb>
+         <vn>render-29.90</vn><fn>Cause_to_fragment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="interpret, consider" type="">
+      <commentary>
+       Syntax is: NP1[animate] TAKE NP2[abstract](PP[attribute/state])
+       Includes: TAKE FOR, TAKE TO BE
+      </commentary>
+      <examples>
+        He took her remarks as an insult.
+        Take the following case of possible patent infringement.
+        I took her to be the maid.
+        He took her for a fool.
+        Take for example the following case...
+      </examples>
+      <mappings>
+         <wn version="3.1">6,13</wn>
+         <wn lemma="take_for" version="3.1">1</wn>
+         <wn lemma="take_to_be" version="3.1">1</wn>
+         <omega/><pb>take.04</pb>
+         <vn>characterize-29.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="7" name="travel by means of" type="">
+      <commentary>
+       Syntax is: NP1[benefactor?] TAKE NP2[instrument/path]
+      </commentary>
+      <examples>
+        The film takes an interesting twist in the final scene.
+        She takes the bus to work.
+        Take the alternate route through Chelsea during rush hour.
+        Instead of standing up for his beliefs, he took the coward's way out.
+      </examples>
+      <mappings>
+         <wn version="3.1">9,40</wn>
+         <omega/><pb>NM</pb>
+         <vn>vehicle_path-51.4.3</vn><fn>Ride_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="claim or conquer, become in control of" type="">
+      <commentary>
+       Syntax is: NP1[agent] TAKE NP2[patient]
+       Includes: TAKE CHARGE, TAKE CONTROL, TAKE IN, TAKE ON, TAKE OVER
+      </commentary>
+      <examples>
+        The enemy still could not take the city after a three-month siege.
+        Terrorists took control of the embassy.
+        The army took over the government in a matter of hours.
+        Bell South took over ATT, although they called it a merger.
+        Kristen took over Sean's job while he was out of town.
+        She took on the children while their mother was sick.       
+        The city took in the refugees. 
+        Bill Gates took credit for windows.
+        The pirates took (raped) the women while their men died.
+        He has taken on the mannerisms of his boss.
+      </examples>
+      <mappings>
+         <wn version="3.1">21,35,36,41</wn>
+         <wn lemma="take_on" version="3.1">1,4</wn>
+         <wn lemma="take_charge" version="3.1">1</wn>
+         <wn lemma="take_control" version="3.1">1</wn>
+         <wn lemma="take_in" version="3.1">1</wn>
+         <wn lemma="take_over" version="3.1">1,2,3,4,5,7,8</wn>
+         <omega/><pb>take.01,take.06,take.09,take.12</pb>
+         <vn>adopt-93</vn><fn>Change_of_leadership,Conquering</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="hold, contain" type="">
+      <commentary>
+       Syntax is: NP1[recipient][concrete][inanimate] TAKE NP2[attributive][concrete]
+      </commentary>
+      <examples>
+        His car only takes ten gallons of gas.   
+      </examples>
+      <mappings>
+         <wn version="3.1">38</wn>
+         <omega/><pb>NM</pb>
+         <vn>fit-54.3</vn><fn>Capacity</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="withdraw or remove" type="">
+      <commentary>
+       NP1[agent] TAKE NP2[concrete]
+       Note: abstract agents, such as 'event' have concrete objects metaphorically.
+       The focus is on removal, not someone taking possession or transporting the object (sense 4)
+       Includes: TAKE AWAY; TAKE OFF; TAKE OUT
+      </commentary>
+      <examples>
+        John took a cookie from the plate.
+        He took the gun from his pocket.
+        Please don't take my coffee cup yet.
+        This event has certainly taken the blindfold from the committee's eyes.
+        He took away the broken washer.
+        Child Protective Services took away her children.
+        Take off your shoes before entering.
+        Take out the chicken after adding the vegetables.
+        He took all his money out of his account.
+      </examples>
+      <mappings>
+         <wn version="3.1">17</wn>
+         <wn lemma="take_away" version="3.1">1,2,3,4,5,6,7</wn>
+         <wn lemma="take_off" version="3.1">2,6</wn>
+         <wn lemma="take_out" version="3.1">1,2,3,6,7,8,9,10,11,12,13,14</wn>
+         <omega/><pb>take.01,take.05,take.07,take.11</pb>
+         <vn>remove-10.1</vn><fn>Removing,Taking,Undressing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="absorb physically, mentally, or with the senses" type="">
+      <commentary>
+        Includes: TAKE A HINT; TAKE IN; TAKE IN WATER; TAKE UP
+      </commentary>
+      <examples>
+        That wall won't take the paint without an undercoat of primer.
+        How much water can that sponge take in?
+        He took in all the knowledge his teacher could offer.
+        I took in every word they said.
+        They took in the sights of Paris.
+        The cloth takes up the liquid.
+        The patient took insulin. 
+        The boat took in water.
+        The sinking boat took in water.
+        He just can't take a hint.
+      </examples>
+      <mappings>
+         <wn version="3.1">37</wn>
+         <wn lemma="take_in" version="3.1">3,4,6,9,11,12,13,14</wn>
+         <wn lemma="take_in_water" version="3.1">1</wn>
+         <wn lemma="take_up" version="3.1">8,10,11,12</wn>
+         <omega/><pb>NM</pb>
+         <vn>absorb-39.8,devour-39.4</vn><fn>Ingest_substance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="12" name="endure, withstand" type="">
+      <commentary>
+       Syntax is: NP1[experiencer] TAKE NP2[stimulus]
+       Typically LVC's but with an additional component to the semantics.
+       The standard LVC interpretation of "He can't take criticism" would
+       be
+       "he can't be criticized," which isn't what is meant.
+       Includes: TAKE A JOKE
+      </commentary>
+      <examples>
+        He never could take criticism.
+        I can't take spicy food. 
+        We had to take a pay cut last quarter.
+      </examples>
+      <mappings>
+         <wn version="3.1">19</wn>
+ 	 <wn lemma="take_a_joke" version="3.1">1</wn>  
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Capacity</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="13" name="become" type="">
+      <commentary>
+       Syntax is: NP1[experiencer] TAKE NP2[stimulus]
+      </commentary>
+      <examples>
+        She took ill. 
+        She took (ill with) the flu/pneumonia/a chill
+      </examples>
+      <mappings>
+         <wn version="3.1">29,42</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="14" name="Hire: The finalization of a contract an employer makes with an employee for labor" type="">
+      <commentary>
+       Syntax is: NP1[employer] Take NP2[employee]
+      </commentary>
+      <examples>
+        The factory took on 5 new assembly line workers.
+        The boss is taking on new help.
+        The city took on a new fire department.
+        The Giants took their first three draft picks.
+        Microsoft took up six new contractors.
+      </examples>
+      <mappings>
+         <wn version="3.1">10,31</wn>
+         <wn lemma="take_on" version="3.1">2</wn>
+         <wn lemma="take_up" version="3.1">12</wn>
+         <omega/><pb>take.01,take.06</pb>
+         <vn>hire-13.5.3</vn><fn>Taking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="15" name="Steal: The act of acquiring a physical or
+         abstract possession from its original owner illegally, or through generally recognized foul play." type="">
+      <commentary>
+       Syntax is: NP1[agent] TAKE NP2[object]
+      </commentary>
+      <examples>
+        They're taking my stuff.
+        He took my wallet from me.
+        The Grinch surreptitiously took Christmas.
+        Bob took Jim's house from him, illegally.
+        Jane took Jill's boyfriend.
+      </examples>
+      <mappings>
+         <wn version="3.1">4,8,12</wn>
+         <omega/><pb>take.01,take.06</pb>
+         <vn>steal-10.5</vn><fn>Taking</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="16" name="multi-word expression" type="vpc">
+      <commentary>
+        Note: ONLY choose this sense for the phrases listed below. Please check carefully. Extra modifiers 
+            may be added, but be sure the basic sense is the same. For example, "take a big chance"
+            would count as an instance of "take a chance." However, "take a leave (from her job)" is not 
+            the same as "take leave (of his grandmother)" and should not be tagged with this sense.
+      </commentary>
+      <examples>
+        TAKE A BREATHER/FIVE/TEN/TIME OFF
+        TAKE A CHILL
+         The child has taken a chill. 
+        TAKE A FIRM STAND
+        TAKE A HIT
+        TAKE A LEAK
+        TAKE A LIFE
+         The storm took the sailors lives.
+        TAKE A POWDER
+        TAKE ABACK
+        TAKE ADVANTAGE
+        TAKE AFTER
+         She takes after her father.
+        TAKE BACK
+        He took his words back and apologized.
+        TAKE DOWN
+         She pointed out all his mistakes and took him down a peg or two.
+        TAKE FOR GRANTED
+        TAKE HEART
+        TAKE HOME
+        TAKE IN (deceive)
+        TAKE IN VAIN
+        TAKE IN CHARGE (mind)
+        TAKE ISSUE
+        TAKE IT EASY
+        TAKE IT ON THE CHIN
+        TAKE KINDLY TO
+        TAKE LYING DOWN
+        TAKE OFFICE
+        TAKE OFF
+        He took off for Boston as soon as he graduated. 
+        "The plane took off two hours late" DEPART 
+        Her business is really taking off. SUCCEEDING
+        He took off from work. LEAVE OF ABSENCE
+        TAKE ON (opponent/problem)
+        TAKE ONE'S LUMPS
+        TAKE OUT
+        He took out a patent on his invention.
+        The company took out an ad.
+        TAKE PAINS
+        TAKE PART
+        TAKE PLACE
+        TAKE STAGE
+        TAKE STOCK
+        TAKE THE AIR
+        TAKE THE BULL BY THE HORNS
+        TAKE THE CAKE
+        TAKE THE COUNT
+        TAKE THE FIELD
+        TAKE THE FIFTH
+        TAKE THE FIFTH AMENDMENT
+        TAKE THE FLOOR
+        TAKE THE ROAD
+        TAKE THE STAGE
+        TAKE THE STAND
+        TAKE THE VEIL
+        TAKE TIME BY THE FORELOCK
+        TAKE TIME OFF
+        TAKE TO (activity/state)
+               He took to drink to forget the divorce.
+        TAKE TO HEART
+        TAKE TO TASK
+        TAKE TO
+        They took to the hills/the air/the airwaves/the courts.
+        TAKE (ITS/HIS/HER, etc) TOLL
+        TAKE TURNS
+        TAKE UP ARMS
+        TAKE UP
+          We'll take up this matter at the next meeting.
+          I'd like to take up golf.
+        TAKE WATER                       
+      </examples>
+      <mappings>
+         <wn version="3.1">26,27,39</wn>
+         <wn lemma="take_a_breather" version="3.1">1</wn>
+         <wn lemma="take_a_chance" version="3.1">1</wn>
+         <wn lemma="take_a_firm_stand" version="3.1">1</wn>
+         <wn lemma="take_a_hit" version="3.1">1</wn>
+         <wn lemma="take_a_leak" version="3.1">1</wn>
+         <wn lemma="take_a_powder" version="3.1">1</wn>
+         <wn lemma="take_back" version="3.1">5</wn>
+         <wn lemma="take_aback" version="3.1">1</wn>
+         <wn lemma="take_advantage" version="3.1">1,2</wn>
+         <wn lemma="take_care" version="3.1">1,2,3</wn>
+         <wn lemma="take_chances" version="3.1">1</wn>
+         <wn lemma="take_down" version="3.1">3</wn>
+         <wn lemma="take_effect" version="3.1">1</wn>
+         <wn lemma="take_exception" version="3.1">1</wn>
+         <wn lemma="take_five" version="3.1">1</wn>
+         <wn lemma="take_for_granted" version="3.1">1</wn>
+         <wn lemma="take_heart" version="3.1">1</wn>
+         <wn lemma="take_home" version="3.1">1</wn>
+         <wn lemma="take_in_vain" version="3.1">1</wn>
+         <wn lemma="take_issue" version="3.1">1</wn>
+         <wn lemma="take_it_easy" version="3.1">1</wn>
+         <wn lemma="take_it_on_the_chin" version="3.1">1</wn>
+         <wn lemma="take_kindly_to" version="3.1">1</wn>
+         <wn lemma="take_off" version="3.1">1,3,7,8</wn>
+         <wn lemma="take_office" version="3.1">1</wn>
+         <wn lemma="take_one's_lumps" version="3.1">1</wn>
+         <wn lemma="take_out" version="3.1">4</wn>
+         <wn lemma="take_pains" version="3.1">1</wn>
+         <wn lemma="take_part" version="3.1">1</wn>
+         <wn lemma="take_place" version="3.1">1</wn>
+         <wn lemma="take_pride" version="3.1">1</wn>
+         <wn lemma="take_shape" version="3.1">1</wn>
+         <wn lemma="take_stage" version="3.1">1</wn>
+         <wn lemma="take_stock" version="3.1">1,2</wn>
+         <wn lemma="take_ten" version="3.1">1</wn>
+         <wn lemma="take_the_air" version="3.1">1</wn>
+         <wn lemma="take_the_bull_by_the_horns" version="3.1">1</wn>
+         <wn lemma="take_the_cake" version="3.1">1</wn>
+         <wn lemma="take_the_count" version="3.1">1</wn>
+         <wn lemma="take_the_field" version="3.1">1,2</wn>
+         <wn lemma="take_the_fifth" version="3.1">1</wn>
+         <wn lemma="take_the_fifth_amendment" version="3.1">1</wn>
+         <wn lemma="take_the_floor" version="3.1">1,2</wn>
+         <wn lemma="take_the_road" version="3.1">1</wn>
+         <wn lemma="take_the_stage" version="3.1">1</wn>
+         <wn lemma="take_the_stand" version="3.1">1</wn>
+         <wn lemma="take_the_veil" version="3.1">1</wn>
+         <wn lemma="take_time_by_the_forelock" version="3.1">1</wn>
+         <wn lemma="take_time_off" version="3.1">1</wn>
+         <wn lemma="take_to_heart" version="3.1">1</wn>
+         <wn lemma="take_to_task" version="3.1">1</wn>
+         <wn lemma="take_turns" version="3.1">1</wn>
+         <wn lemma="take_up_arms" version="3.1">1</wn>
+         <wn lemma="take_water" version="3.1">1</wn>
+       <omega/><pb>take.01,take.04,take.11,take.14,take.17,take.19take.20</pb>
+         <vn>appear-48.1.1,occurrence-48.3.1,rely-70</vn><fn>Excreting,Event,Judgment_direct_address,Participation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+</inventory>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="quit-v">
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) cease an activity; stop doing something" type="">
+      <commentary>
+        Syntax is: NP1 QUIT NP2
+        NOTE: activity may be implied, as in two final examples ('quit women'
+        'romantic involvement with women'), or as in
+        'quit cigarettes' = 'quit smoking'
+
+        NOTE: see [agent] alternations in 'the engine quit' and I quit the
+        engine' examples
+        NOTE: this sense may be seen as a superset of senses 2 &amp; 3
+      </commentary>
+      <examples>
+        Quit teasing your little brother.
+        Let's quit the debate about whether greenhouse gases are caused by man or nature.
+        For people looking to quit the soft drink habit, a new ebook is available.
+        Ready to quit smoking and end all nicotine use?
+        It makes a negative G momentum long enough to make the engine quit.
+        I quit the engine, and enjoyed a 15 minute noise-free glide down to the landing field.
+        He had to quit teaching because of heart problems.
+        Quit while you're ahead.
+        You wouldn't quit women because of a bad one, would you?
+        Rest if you must, but don't you quit.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>complete-55.2</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="2" name="resign from a position; leave a place, job or organization" type="">
+      <commentary>
+        Syntax is: NP1[agent] QUIT NP2 
+
+        NOTE: compare &quot;quit teaching&quot; example in sense 1 with
+        first example; this sense refers to a specific position, while an activity can encompass more
+        than one job
+      </commentary>
+      <examples>
+        I can't work under this boss. I quit!
+        I had to quit my job as a teacher because of Access-A-Ride.
+        Christopher Eccleston has decided to quit the role of the 9th Doctor.
+        He felt compelled to quit his job.
+        About 50 percent of walk-ons quit the team because of the time commitment.
+        Four screenwriters quit the committee, joining a fifth who had quit earlier.
+        Why won't the US quit Iraq?
+        The Knight proudly answered that no one should make him quit the country.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>quit.01,complete-55.2</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="exit a program (computer)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        If InDesign 2.0.2 is running, quit the application.
+        You will need to quit out of your browser to install the player.
+        How do I quit Windows from Access?
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>complete-55.2</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,hwangd" sample_score="-"/>
+</inventory>

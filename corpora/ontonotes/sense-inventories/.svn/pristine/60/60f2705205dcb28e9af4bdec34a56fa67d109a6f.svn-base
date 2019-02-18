@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dart-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(volitionally) move (self) with sudden speed" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] DART (PP[source]) (PP[destination])
+      </commentary>
+      <examples>
+      Something darted, the size and speed of a falcon, above the treetops.
+      Hyacinth darted from tree to tree.
+      Out upon him darted the housekeeper like an ogress-spider.
+      A flight of gulls dipped and darted over the water of Milwaukee's harbor.
+      With a cry of horror he darted from the house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dart.01</pb>
+         <vn>run-51.3.2</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move something with sudden speed" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] DART NP2[theme[concrete]] (PP[source]) (PP[destination])
+      NP1[theme] DART (PP[source]) (PP[destination])
+      </commentary>
+      <examples>
+      Amanda's eyes darted, and she was aware of the heavy beat of her heart.
+      His sword darted and parried.
+      He then darted his sword at me.
+      Her sword darted past a blade that sought to parry.
+      With a long exhale, the sword darted from its sheath rising to meet the downward blow.
+      He darted his eyes from one tea cup to the next.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dart.01</pb>
+         <vn>slide-11.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="shoot someone a glance or facial expression" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] DART NP2[theme] PP[destination]
+      NP1[agent[animate]] DART NP2[destination] NP3[theme]
+      </commentary>
+      <examples>
+      "Come with me," she said, darting the most timid of glances at Toni's face.
+      Kaleb darted him a glare, which he ignored.
+      The fox darted him a green-eyed glance.
+      Ollie darted her a hopeful look.
+      She nodded and, darting him a frightened smile.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dart.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="shoot someone with a dart" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] DART NP2[patient[animate]] (PP[instrument])
+      </commentary>
+      <examples>
+      In the cool of early morning, trackers locate the animal to be darted.
+      The first step is darting her, a task made difficult because of her nervousness.
+      After driving back to the lions, Mark darted the female that he'd missed.
+      Unfortunately, once darted, the animals tend to run off before the anaesthesia takes effect.
+      The Wildlife Services agent darted the bear with tranquilizers with little effect.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dart.02</pb>
+         <vn>poison-42.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="take a wedge or diamond shaped tuck in fabric" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] DART 
+      </commentary>
+      <examples>
+      This dress is beautifully tailored and darted.
+      My tailor then darted the shirt by removing fabric from the sides and adding two small pleats.
+      I darted the shirt in 4 places to give it a form fit.
+      After darting the waist, it was more fitted.
+      I'm impressed with how you darted the sleeve to keep the border.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dart.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

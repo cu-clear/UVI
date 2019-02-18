@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="slaughter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Kill animals, usually for food consumption." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] SLAUGHTER NP2[patient[animate]]
+      </commentary>
+      <examples>
+      Mary slaughtered a lamb for the feast.
+      Bob slaughtered the entire flock of marshmallow hens and ate them one
+      by one.
+      They slaughtered their only goat to survive the winter.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>slaughter.01</pb>
+         <vn>get-13.5.1,murder-42.1</vn><fn>Killing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Kill a large number of people indiscriminately." type="">
+      <commentary>
+       Syntax Is: NP1[agent] SLAUGHTER NP2[patient[human]]
+      </commentary>
+      <examples>
+      The Hutus slaughtered the Tutsis in Rwanda.
+      WWI slaughtered vast numbers of troops.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>slaughter.01</pb>
+         <vn>murder-42.1</vn><fn>Killing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Beat soundly in a game." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Dallas slaughtered Buffalo in the game the other night.
+      The Cardinals slaughtered the opposing team. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

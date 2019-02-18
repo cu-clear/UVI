@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="admit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="declare true or acknowledge truth" type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] ADMIT (NP2)
+                  NP1[agent] ADMIT (COMP)
+      </commentary>
+      <examples>
+        She admitted her mistake.
+        She admitted to her mistake.
+        She admitted that she had made a mistake.
+        She admitted making a mistake.
+        At first he denied stealing the money but he later admitted to it.
+        I wasn't entirely honest with him, I admit, but I didn't tell him any lies.
+        The new law was generally admitted to be difficult to enforce.
+      </examples>
+      <mappings>
+        <wn version="3.0">1</wn>   
+        <wn lemma="" version="3.0"></wn>
+        <omega/><pb>admit.01</pb>
+        <vn>confess-37.10,conjecture-29.5-2</vn><fn>Reveal_secret,Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="allow to enter" type="">
+      <commentary>
+       Syntax Is: NP1[agent] ADMIT NP2[patient]
+       Note: Allow to enter (entails priviledges, services, entertainments ...): 
+        - a building 
+        - a membership/organization 
+        - an institution  
+      </commentary>
+      <examples>
+        We cannot admit non-members into this club.
+        Each ticket admits one member and one guest.
+        Men will not be admitted to the restaurant without a tie.
+        A gap between the curtains admitted the faint glimmer of a street lamp.
+        She was admitted to the New Jersey Bar.
+        We don't admit late applicants to our graduate school.
+        Spain was admitted to the European Community in 1986.
+        She was admitted to the hospital.
+        This theatre admits 200 people.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,6,7,8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>admit.02</pb>
+         <vn>admit-65</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="offer possibilities or access" type="">
+      <commentary>
+       Syntax Is: NP1 ADMIT[intransitive]
+      </commentary>
+      <examples>
+        This problem admits to no solution.
+        This short story admits several different interpretations.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>admit.02</pb>
+         <vn>admit-65</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,dehart" sample_score="-"/>  
+</inventory>

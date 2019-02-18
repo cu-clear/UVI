@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="gain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Earn, acquire,  obtain possession of something, some benefit, or goal." type="">  
+      <commentary>
+        Syntax Includes:
+	NP1[topic] GAIN (NP2[patient]) (PP{P NP[source]})
+        NP1[topic] GAIN (NP2[patient) (COMP[source]) 
+        NP1[topic] GAIN NP2[goal[location]]
+	Note: Implies a source for the acquisition, acquisition is not usually a quantity.
+        Note: Inferred benefits that are not overtly stated may be included in this sense
+        Note: Includes metaphorical extensions
+      </commentary>
+      <examples> 
+        There is little to lose and so much to gain.
+        Apply for an internship to gain credits for your degree.
+        He gained his 614 Road Works Craft Certificate.
+        He gained a wife and lost a buffalo.
+        One guy in particular said he gained $50,000 on the play.
+	He gained some valuable experience working in the emergency room.
+	They are slowly gaining an appreciation of the complexities of the free market.
+	There are many good things to be gained from a formal education.
+	She has gained some respect after winning both national tournaments.
+	It's not clear what they hope to gain by this merger.
+	Mary lost a daughter but gained a son-in-law.
+        We hope to gain Boston Harbor by nightfall on our journey northward.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,8</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>gain.02</pb>
+         <vn>get-13.5.1-1</vn><fn>Getting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Advance, pull ahead, grow, increase" type="">  
+      <commentary>
+	Syntax Is: NP1[topic] GAIN NP2
+	Note: More than just acquisition, implies a measured increase and
+        advancement in a certain realm;
+        implies a start and end point to measure the increase in quantity.
+	Includes: GAIN GROUND
+      </commentary>
+      <examples>
+	The stock market gained some ground this month after a rocky start. (figurative)
+	Dallas gained fifteen yards on the last play.
+	My old watch gains a minute a day.
+	The average salary has not gained enough to keep pace with
+	inflation.
+        The average salary has not gained enough to keep pace with
+	inflation.
+        As these groups consolidated and stabilized, the reconstruction
+	gained momentum.
+        After a brief trip down Broadway, Slick gained nerve enough to seek
+	new darkness.
+        During my first semester I gained confidence in my own skills.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6</wn>
+         <wn lemma="gain_ground" version="3.0">1</wn>
+         <omega/><pb>gain.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Put on weight." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        John gained ten pounds over the holidays.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <wn lemma="gain_ground" version="3.0">1</wn>
+         <omega/><pb>gain.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,corvey" sample_score="-"/>  
+</inventory>

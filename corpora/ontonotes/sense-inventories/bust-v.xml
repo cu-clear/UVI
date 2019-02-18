@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bust-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Ruin completely; smash or break (open) forcefully." type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] BUST NP2[patient]
+      INCLUDES: BUST UP, BUST OPEN
+      </commentary>
+      <examples>
+      He busted my radio.
+      The kid busted up the car.
+      Toshiba busted open that sector this summer.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="bust_up" version="3.0">1</wn>
+         <omega></omega><pb>bust.04</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Search without warning; make a sudden
+         surprise attack on." type="">
+      <commentary>
+      INCLUDES: BUST UP
+      </commentary>
+      <examples>
+      The police busted the crack house.
+      Cops busted the drug dealer upstairs last night.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bust.02,bust.05</pb>
+         <vn>NP</vn><fn>Arrest</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Escape." type="">
+      <commentary>
+      IS: BUST OUT 
+      </commentary>
+      <examples>
+      John busted out of Mary's basement.
+      The prisoners busted out of jail.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bust.03</pb>
+         <vn>NP</vn><fn>Escaping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Break open or apart suddenly and
+         forcefully; separate or cause to separate; go to pieces." type="">
+      <commentary>
+      Syntax Is:  NP1[patient] BUST (open)
+      NOTE: Compare to Sense 1; Sense 4 does not include an AGENT.
+      INCLUDES: BUST OPEN
+      </commentary>
+      <examples>
+      The dam busted.
+      The gears finally busted.
+      The mower busted yesterday on the lawn.
+      The pillow busted open during the fight.
+      The old chair finally busted completely.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bust.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

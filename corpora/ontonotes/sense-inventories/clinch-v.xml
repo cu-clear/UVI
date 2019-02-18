@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="clinch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="obtain or achieve conclusively" type="">  
+      <commentary>
+      Syntax Is:  NP1[agent] CLINCH NP2[goal]
+      </commentary>
+      <examples>
+        The Ferrari driver clinched the championship by a single point.
+        Atmel has clinched the deal - now the race is on.
+        I clinched the truck series championship back in 2003.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clinch.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hold or embrace in a tight grip" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] CLINCH NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        She clinched her husband in a big hug upon his arrival.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="(secure by) flattening the ends of nails" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[concrete]] CLINCH NP2[patient[concrete]] (WITH NP3[instrument])
+      </commentary>
+      <examples>
+        The repairman clinched the cabinet to the wall with nails.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

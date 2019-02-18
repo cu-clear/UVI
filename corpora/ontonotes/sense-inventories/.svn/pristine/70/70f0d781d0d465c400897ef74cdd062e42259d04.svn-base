@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="station-n">
+    <commentary>
+        28aug06 updated to wordnet 2.1 ahouston
+        28aug06 added features, and more examples, modified definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a facility that provides services" type="">
+        <commentary>
+            STATION[+entity][+building][+facility][+service][+transportation/+safety/+farming/+research]
+            a facility equipped with special equipment and personnel for a
+            particular purpose
+        </commentary>
+        <examples>
+            He started looking for a gas station.
+            The train pulled out of the station right on time.
+            She grew up on a sheep station in western Australia. (Australian term for 'farm', includes buildings)
+            John spent six months at a research station in Antarctica. 
+            He was taken downtown to the police station for questioning.
+            There was a large turnout at the polling stations on Tuesday's election.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="one's assigned social rank or status" type="">
+        <commentary>
+            STATION[+state][+social][+status][+assigned]
+            proper or designated social status
+        </commentary>
+        <examples>
+            The older members of the club felt the newcomer had overstepped his station in speaking out.
+            The responsibilities of a man in his station are numerous.
+            She married above her station.
+            The people in this small village seem happy with their station in life.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="an assigned post of duty, a location where duties are done" type="">
+        <commentary>
+            STATION[+location][+post][+duty][+assigned][+military/+medical/+manufacturing/+hospitality]
+            Note: refers to a spot where specific duties are carried out.
+        </commentary>
+        <examples>
+            The commander of the warship ordered all hands to their battle stations.
+            Who is on-duty after midnight at the nurses' station?
+            The squadron's station will be in southern Kuwait.
+            The inspectors walked across the factory floor, stopping at each worker's station.
+            The head butler ordered all his staff to their stations as the first guest arrived at the manor.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

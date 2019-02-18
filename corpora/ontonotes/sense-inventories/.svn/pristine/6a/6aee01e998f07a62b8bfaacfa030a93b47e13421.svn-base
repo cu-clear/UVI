@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="conspire-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to engage in plotting or activities of an illegal or deceitful nature" type="">
+      <commentary>
+        Syntax Is:
+         NP1[agent] CONSPIRE (ADVP)]
+         NP1{actor} CONSPIRE WITH NP2{actor}
+         NP1 CONSPIRE AGAINST NP2[patient]
+         Includes: CONSPIRE WITH
+      </commentary>
+      <examples>
+        Birds of a feather, conspire together.
+        They're all conspiring against me!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega></omega><pb>conspire.01</pb>
+         <vn>conspire-71</vn>
+         <fn>Collaboration</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="trevorjb" sample_score="-"/>
+</inventory>

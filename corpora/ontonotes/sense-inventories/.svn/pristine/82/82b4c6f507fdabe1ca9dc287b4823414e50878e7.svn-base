@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="focalize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to concentrate, focus" type="">  
+      <commentary>
+Syntax includes:
+NP1[agent] FOCALIZE NP2 [patient] PP{on NP}
+NP1[experiencer] FOCALIZE PP{on NP[theme]}
+      </commentary>
+      <examples>
+The beam focalized on the suspected microcalcification.
+The project primarily focalized on multimedia rights.
+The narrator focalized his third-person narration from outside the action.
+He focalized the attention on heterostructures and superlattices.
+He focalized his professional interest mostly on the domain of lipoplasty.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>focalize.01</pb>
+         <vn>focus-87.1</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Sharpen an image, bring into focus" type="">
+      <commentary>
+      </commentary>
+      <examples>
+The multimedia projector focalized the image at a short distance. 
+The lens focalizes the image of a painting surface.
+The Z measurement is performed by focalizing the image of a bubble.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>focalize.01</pb>
+         <vn>nm</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

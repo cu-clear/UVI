@@ -1,0 +1,285 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="service-n">
+    <commentary>
+        9jan08 - this version replaces the original file from Penn. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="paid work that benefits a recipient" type="Event">
+        <commentary>
+            SERVICE[+activity][+work][+paid][+beneficial][+for_recipient]
+        </commentary>
+        <examples>
+            The GNP is the sum of goods and services produced annually in the nation.
+            Feudal tenants received land from their lords in exchange for service to him.
+            I was on the phone with customer service for an hour. ('customer' implies you paid at some point)
+            The service in that restaurant seems to have improved this year.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,13,11</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="altruistic assistance, aid given without payment" type="Event">
+        <commentary>
+            SERVICE[+event][+assistance][+altruistic]
+        </commentary>
+        <examples>
+            He did a great service to the community by turning his farm into a public green space.
+            She has volunteered her services as a driver for the school picnic.
+            The judge sentenced them each to 25 hours of community service. 
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a religious meeting or ceremony" type="">
+        <commentary>
+            SERVICE[+event][+social][+meeting][+religious]
+        </commentary>
+        <examples>
+            A baby cried throughout the church service this morning.
+            Mary hasn't picked out the music yet for her wedding service.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="government agencies that provide a need to the public" type="">
+        <commentary>
+            SERVICE[+entity][+organization][+agency][+government][+provider]
+        </commentary>
+        <examples>
+            He's working for the park service now in Oregon.
+            They are expanding the role of the fish and game services.
+            Only people working for the essential government services should report to work this week.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a span of time in a particular employment" type="">
+        <commentary>
+            SERVICE[+quantity][+span][+temporal][+of_employment]
+        </commentary>
+        <examples>
+            He retired after 40 years' service.
+            The CEO had devoted more than 20 years of service to the oil industry.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the armed forces" type="">
+        <commentary>
+            SERVICE[+entity][+organization][+armed_forces]
+        </commentary>
+        <examples>
+            Her son just got out of the service.
+            At the Pentagon you will see personnel from all branches of the services.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="being useful for some purpose" type="Event">
+        <commentary>
+            SERVICE[+relation][+role][+usefulness][+for_purpose]
+        </commentary>
+        <examples>
+            How may I be of service to you?
+            This broken umbrella is of no service at all in keeping us dry!
+            This car will provide you with years of good service.
+        </examples>
+        <mappings>
+            <wn version="3.0">14</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a set of tableware, often with matched pieces" type="">
+        <commentary>
+            SERVICE[+entity][+artifact][+tableware][+set]
+        </commentary>
+        <examples>
+            Sally set a service for eight at the dining table.
+            I need to replace some soup bowls in my bone china service.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="9" name="the act of mating a stud animal, implies payment" type="Event">
+        <commentary>
+            SERVICE[+event][+physical][+mating][+animal][+stud]
+        </commentary>
+        <examples>
+            The farmer will hire his stallion for service.
+            They arranged for the bull's service tomorrow.
+        </examples>
+        <mappings>
+            <wn version="3.0">12</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="10" name="ball stroke in a racket sport" type="Event">
+        <commentary>
+            SERVICE[+event][+physical][+sports][+racket][+stroke][+ball]
+        </commentary>
+        <examples>
+            That tennis star is known for his powerful service.
+            It's Mary's service. (turn to put ball into play)
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="11" name="official deliverance of a legal document" type="Event">
+        <commentary>
+            SERVICE[+event][+official][+deliverance][+of_document][+legal]
+        </commentary>
+        <examples>
+            The judge ordered service of the summons to Mr. Brown.
+            The service of this writ was performed by the sheriff.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="12" name="regular or periodical mechanical maintenance" type="Event">
+        <commentary>
+            SERVICE[+activity][+work][+maintenance][+mechanical][+regular]
+        </commentary>
+        <examples>
+            The aircraft is scheduled for service at the next hub.
+            How much is a yearly service contract for this copy machine?
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="13" name="a system of utility or transportation, addressing a public need" type="">
+        <commentary>
+            SERVICE[+system][+utility][+public]
+        </commentary>
+        <examples>
+            Is there train service to those small towns anymore?
+            Phone and electric service were greatly expanded in rural areas during the 1930s.	
+            Bus service has been stopped due to the strike.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="14" name="a fee charged for providing assistance" type="">
+        <commentary>
+            SERVICE[+quantity][+money][+fee][+for_assistance]
+        </commentary>
+        <examples>
+            Service is already included in the bill at this restaurant.
+            John was unhappy with the additional services added in to his hotel bill. 
+        </examples>
+        <mappings>
+            <wn version="MAC">1f</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="15" name="functioning, available" type="">
+        <commentary>
+            Idiom: in_service
+        </commentary>
+        <examples>
+            This vending machine seems to be back in service.
+            The new airline route will be in service starting next June.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="16" name="out of use, not functioning" type="">
+        <commentary>
+            Idiom: out_of_service
+        </commentary>
+        <examples>
+            It says the ATM is out of service.
+            Bus 22 goes out of service after 11 pm.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="17" name="be used or involved with" type="">
+        <commentary>
+            Idiom: see_service
+        </commentary>
+        <examples>
+            He saw service in the navy during the Korean War.
+            That building later saw service as a blacksmith's shop in the late 1800s.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

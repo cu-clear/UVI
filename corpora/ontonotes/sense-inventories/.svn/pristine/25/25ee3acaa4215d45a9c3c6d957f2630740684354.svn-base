@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sprinkle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="distribute loosely (on); spatter about (on)" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        The priest has sprinkled the walls of the church.
+        I sprinkled the chicken generously with salt and pepper.
+        He sprinkled the tent and all the liturgical vessels with blood.
+        Sprinkle the clean dirt into the whole where the young tree will be going.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sprinkle.01</pb>
+         <vn>spray-9.7-1</vn><fn>Filling,Dispersal</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="rain gently" type="">
+      <commentary>
+        NOTE: This sense ONLY applies to the frame of weather. 
+      </commentary>
+      <examples>
+        Fleeting, rain-charged clouds sprinkled the earth with some drops.
+        It started to sprinkle yesterday and then turned into a downpour.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sprinkle.02</pb>
+         <vn>weather-57</vn><fn>Precipitation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

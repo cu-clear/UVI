@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="loop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) navigate in loops." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] LOOP NP2[patient]
+      NP1[theme] LOOP PP[directional]
+      Note: Does NOT include fastening as a result of the navigation.
+      </commentary>
+      <examples>
+      The bicycle looped around the tree.
+      The stunt pilot looped his plane.
+      He looped around the party a few times before asking her to dance. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Wind around, fasten, or join with a loop." type="">
+      <commentary>
+      Note: Must imply an object capable of fastening or wrapping by virtue of the
+      looping action.
+      </commentary>
+      <examples>
+      He looped his watch through his belt.
+      Loop those ropes and set them on the deck.
+      She looped the ribbon through her daughter's hair. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>coil-9.6,other_cos-45.4,tape-22.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

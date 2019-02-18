@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bridge-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="connect or reduce distance between" type="">  
+      <commentary>
+        Includes: BRIDGE OVER
+
+        NP1[+agent] BRIDGE NP2 (preposition) (NP3)
+      </commentary>
+      <examples>
+        He bridged the gap between the two worlds.
+        He bridged the gap.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="bridge_over" version="3.0">2</wn>
+         <omega></omega><pb>bridge.01</pb>
+         <vn>contiguous_location-47.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a bridge across" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He bridged the Douro River at Oporto, Port., with a 525 foot steel arch.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cross over a bridge" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        In the same year he bridged the Rhine just below Koblenz to raid
+        Germany on the other side of the river.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="suffice for a period between two points" type="">
+      <commentary>
+        IS: BRIDGE OVER
+      </commentary>
+      <examples>
+        This money will bridge us over for another year.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bridge_over" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

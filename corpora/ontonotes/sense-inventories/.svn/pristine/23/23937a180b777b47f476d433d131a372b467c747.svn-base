@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="consultant-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an expert who provides professional advice" type="">
+        <commentary>
+            CONSULTANT[+role][+advisor][+professional][+expert]
+        </commentary>
+        <examples>
+            John earned an MBA and is now a management consultant.
+            They are bringing in some consultants to redesign their entire information system.
+            Mary is earning $100 an hour as a fashion consultant.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="anyone in the role of advising another" type="">
+        <commentary>
+            CONSULTANT[+role][+advisor][-professional]
+        </commentary>
+        <examples>
+            John's wife is his main consultant on all their home improvement projects.
+            They were best friends and each other's consultant in matters of the heart.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="plop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="drop smth in a heavy/careless manner, such as might make a plopping noise" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PLOP (NP2[theme]) PP[location]
+      NP1[theme] PLOP PP[location|direction]
+      </commentary>
+      <examples>
+      Slater plopped the girl down on a pile of large pillows in the corner.
+      The fisherman plopped the bait into the river.
+      He plopped the tray down.
+      Skeeter plopped down enough cash to buy the drinks he'd promised and then some.
+      Then the boys plopped themselves down
+      A frog plopped into the pond.
+      Big raindrops plopped against the window.
+      It plopped silently into the water at the beach of a tree-covered island.
+      He plopped into a chair.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>plop.01</pb>
+         <vn>appear-48.1.1,assuming_position-50,sound_emission-43.2,spatial_configuration-47.6</vn><fn>Make_noise,Impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

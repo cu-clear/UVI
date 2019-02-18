@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="adjustment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="changing something" type="Event">
+        <commentary>
+	    ADJUSTMENT[+event]
+	    Refers to the act of changing or adapting something.  An agent is involved, directly or by implication.
+	    This is the most common usage.
+	    </commentary>
+        <examples>
+            I think our instruments need another adjustment.
+            John's adjustment of the engine gave his car more power.
+            This girl needs an attitude adjustment!
+            Be sure to write down any adjustments you make.
+            An adjustment to the guitar improved its sound.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2 3
+            </wn>
+            <omega/><pb>adjustment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="changing or developing" type="Event">
+        <commentary>
+	    ADJUSTMENT[+event]
+	    Refers to the act of changing or adapting.  An outside agent is clearly not involved.
+	    Most often refers to psychological states.
+	    </commentary>
+        <examples>
+            John's adjustment to the city took three weeks.
+            A change in the environment will eventually lead to evolutionary adjustments in the wildlife.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 4
+            </wn>
+            <omega/><pb>adjustment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="economic change" type="Event">
+        <commentary>
+	    ADJUSTMENT[+event]
+	    A special kind of adjustment without an agent.  Refers to a shift in a market.  Usually a short decline of some sort.
+	    </commentary>
+        <examples>
+            A market adjustment has been reducing the price of tech stocks.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="alignment" type="">
+        <commentary>
+	    ADJUSTMENT[+event]
+	    The state of alignment; the way that something has been adjusted.
+	    </commentary>
+        <examples>
+            The adjustment of the instruments is all wrong!
+            John switched radio stations by changing the adjustment on his dial.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reckon-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="consider, believe, view" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RECKON SCOMP
+        NP1[agent] RECKON NP2[theme] as NP3[attribute]
+        NP1[patient] RECKON TO NP2[theme] as NP3[attribute] (archaic)
+      </commentary>
+      <examples>
+        Sean reckoned that, compared to the parser, the assembler was quick.
+        Until a year ago, Sarah Dacre reckoned she had a blessed life.
+        He reckoned she had disappeared, when she should have been brooding/feeding the chicks.
+        He reckoned the sink as good a place as any to hatch some piece of boldness.
+        Faith was reckoned to Abraham for righteousness. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>reckon.01</pb>
+         <vn>rely-70,consider-29.9-1</vn><fn>Awareness</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="calculate, measure, measure out" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RECKON NP2[theme] (as NP3[extent])
+        NP1[agent] RECKON ADJP[extent]
+      </commentary>
+      <examples>
+        Stars are reckoned as so many degrees, minutes, and seconds from each other.
+        Where specifically stated, a period or limit of time is to be reckoned.
+        With that direction in mind, he reckoned the descent angle as sharp-1400 mils.
+        The Queen is usually reckoned equal, in average situations, to two Rooks and a Pawn.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>reckon.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="have faith in, bet on" type="">
+      <commentary>
+        Is: RECKON ON
+      </commentary>
+      <examples>
+        That evening he reckoned on Grushenka's coming almost as a certainty.
+        Dante hoped from his poem the termination of his exile; he reckoned on Fame as his mediator.
+        It is high time for reckoning on charter schools.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="settle accounts" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Then hath the priest reckoned to him the money according to the years which are left.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="deal with, take account of" type="">
+      <commentary>
+        Includes: RECKON WITH
+        Note: often in the passive (&quot;to be reckoned with&quot;)
+      </commentary>
+      <examples>
+        Disability: a force to be reckoned.
+        Reckoning with our own spiritual lives can be life-giving.
+        With the failure to have reckoned with the past, the signs for the future are hard to ignore.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>reckon.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw" sample_score="-"/>
+</inventory>

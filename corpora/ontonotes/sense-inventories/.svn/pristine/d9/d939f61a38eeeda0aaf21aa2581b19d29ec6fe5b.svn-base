@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="divide-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="separate or split a mass into pieces" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DIVIDE NP2[patient]
+        NP1[patient] DIVIDEE
+      </commentary>
+      <examples>
+        He divided the money among Mary, and the four children.
+        Divide your cake with your brothers.
+        Mr. Johnston divided the money into five cashier's checks.
+        I divided the cake more or less into five equal parts.
+        The dormitory was divided into cubicles.
+        The pieces I glued together the other day, divided again.
+        After World War Two, Germany was divided into two separate countries.
+        She divides her time between her apartment in New York and her cottage in Yorkshire.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5</wn>
+         <omega/><pb>divide.02</pb>
+         <vn>other_cos-45.4,multiply-108-1,separate-23.1-1</vn><fn>Separation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="disunite a group of people, animals, or other individuals" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DIVIDE NP2[patient]        
+        NP2[patient] DIVIDE
+        Note: In this sense no disagreement or conflict divides the group of people.
+        Note: People are simply separated from each other due to circumstances they are in.
+      </commentary>
+      <examples>
+        I'd like all the students to divide into small discussion groups.
+        The guides from USATours divided the gang into three groups.
+        The war divided them from their parents.
+        He trained the owner to divide the dogs and train individually.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>divide.02</pb>
+         <vn>separate-23.1-1</vn><fn>Separation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause or be in a disagreement between people" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] DIVIDE NP2[patient[human]]
+      </commentary>
+      <examples>
+        The conflict divided the nation along religious lines.
+        The party is divided over the issue of capital punishment.
+        The zoning proposals are dividing the community.
+        Family feud divided the Montague and Capulet households.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>divide.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="act as a barrier" type="">
+      <commentary>
+        Syntax Is:
+         NP1[instrument] DIVIDE NP2[patient]
+      </commentary>
+      <examples>
+        There's a narrow alley which divides our house from the one next door.
+        The river divides the north of the island from the south.
+        The mountain range divides the two countries.
+        This wall divides you from the other side of your life.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>divide.02</pb>
+         <vn>separate-23.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="perform mathematical division" type="">
+      <commentary>
+      Note: Purely numerical division
+      </commentary>
+      <examples>
+        10 divided by 5 equals 2.
+        If you divide 25 by 26, you will get a decimal number.
+        How many times does 2 divide into 17?
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>divide.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

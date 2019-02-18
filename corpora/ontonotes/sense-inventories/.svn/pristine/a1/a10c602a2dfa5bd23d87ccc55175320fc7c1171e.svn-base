@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="department-n">
+    <commentary>
+        30aug06 added features, examples, modified defs, upgraded to WN 2.1 ahouston
+        9nov06 added example to Sense 1. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="specialized division of a larger organization" type="">
+        <commentary>
+            DEPARTMENT[+entity][+organization][+division][+specialized]
+            a specialized division of a large organization
+        </commentary>
+        <examples>
+            You'll find it in the hardware department.
+            He works for the department of energy. 
+            The music department is located on the sixth floor of Williams Hall.
+            Our department doesn't process these forms, you need to go to accounting.
+            Mary's sister works in cosmetics at a local department store.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="territorial administrative division" type="">
+        <commentary>
+            DEPARTMENT[+location][+geographical][+territory][+division][+administered][+principal]
+            the territorial and administrative division of some countries (such as France)
+            Note: refers to larger divisions (territories) than Sense 1 (organizations)
+        </commentary>
+        <examples>
+            There are a number of regional administrative departments across France.
+            Several departments were set up across the occupied nation.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="specialty, scope of responsibility or ability" type="">
+        <commentary>
+            DEPARTMENT[+environment][+social][+scope][+responsibility/+ability]
+            a specialized sphere of knowledge or responsibility
+        </commentary>
+        <examples>
+            Walking the dog is my department, feeding the cat is his.
+            He is lacking in the trustworthiness department. (informal)
+            John thinks Mary is tops in the looks department. (informal)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

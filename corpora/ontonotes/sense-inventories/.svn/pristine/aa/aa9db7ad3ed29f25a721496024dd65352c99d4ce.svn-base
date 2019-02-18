@@ -1,0 +1,131 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM
+'inventory.dtd'><inventory lemma="leave-v">
+   <commentary>
+    Verb particle constructions included, also one idiom.
+   </commentary>
+   <sense group="1" n="1" name="depart, go forth, exit" type="">
+      <commentary>
+        Includes: LEAVE OFFICE
+      </commentary>
+      <examples>
+       What time does the train leave?
+       The ferry leaves every half hour from dock three.
+       She left the room in a huff.
+       Volunteers serving in East Timor have safely left the country.
+       BD announces that its chief financial officer is leaving the company
+       to pursue other interests.
+       I left home when I was only 16 years old.
+       Reagan, despite the Iran-contra scandal, left office a popular
+       figure.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5,8</wn>
+         <wn lemma="leave_office" version="3.0">1</wn>
+         <omega/><pb>leave.01,leave.04</pb>
+         <vn>escape-51.1-1,leave-51.2-1,resign-10.11</vn><fn>Departing,Quitting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="leave something behind, refrain from
+   taking, leave something unaffected or unused" type="">
+      <commentary>
+      Syntax Includes:
+       NP1[agent] LEAVE NP2[theme]
+       NP1[agent] LEAVE NP2[location]
+       Includes: LEAVE ALONE, LEAVE BEHIND, LEAVE OFF, LEAVE NO STONE
+       UNTURNED      
+      </commentary>
+      <examples>
+       John left his keys at the restaurant.
+       We left behind all our cares during the vacation to Florida.
+       They were told to leave off their coats.
+       Leave the young fawn alone.
+       Leave the nature park just as you found it.
+       I left my shoes on when I entered their house.
+       When she put away the food she left out the pie so we could have
+       seconds.
+       Let's leave enough time to visit the museum.
+       He'll leave the decision to his wife.
+       When he died he left the farm to his granddaughter.
+       I'm leaving our telephone and address in Italy with the neighbors.
+       Three minus one leaves two.
+       At her death she left behind a husband and three cats.
+       Are there any skills I should definitely leave off my resume?
+       Is there any possibility that a stone has been left unturned?
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,6,9,10,11,12,13,14</wn>
+         <wn lemma="leave_alone" version="3.0">1</wn>
+         <wn lemma="leave_behind" version="3.0">1,2,3</wn>
+         <wn lemma="leave_off" version="3.0">2,3</wn>
+         <wn lemma="leave_no_stone_unturned" version="3.0">1</wn>
+         <omega/><pb>leave.01,leave.02</pb>
+         <vn>fulfilling-13.4.1,future_having-13.3,keep-15.2</vn><fn>Forming_relationships</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="cause an effect that remains" type="">
+      <commentary>
+      Syntax Includes:
+
+      NP1[actor[inanimate]] LEAVE NP2[patient] PP
+      NP1[topic] LEAVE NP2[patient] [attribute]
+      </commentary>
+      <examples>
+       His remarks left us speechless.
+       This legal battle is leaving them destitute.
+       Water may leave a stain on that silk.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>render-29.90</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="stop, terminate, end" type="">
+      <commentary>
+      Syntax Includes:
+      NP1 LEAVE OFF[intransitive]  PP{P NP[location]}
+      </commentary>
+      <examples>
+       The road leaves off at the edge of the forest.
+       John began where Mary left off.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="leave_off" version="3.0">1</wn>
+         <omega/><pb>leave.07</pb>
+         <vn>NM</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="exclude, neglect to include" type="">
+      <commentary>
+        Includes: LEAVE OUT
+      </commentary>
+      <examples>
+       I really feel left out.
+       Media tales of victims leave out the real culprit.
+       He left out the bad results when he compiled the report.
+       You left out the most important part!
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="leave_out" version="3.0">1,2</wn>
+         <omega/><pb>leave.03</pb>
+         <vn>neglect-75</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="End a romantic relationship." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She finally left her husband.
+        Robert left Susie after a 10-year relationship.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Forming_relationships</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw,corvey" sample_score="-"/>
+</inventory>

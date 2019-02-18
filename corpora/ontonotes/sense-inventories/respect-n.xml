@@ -1,0 +1,98 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="respect-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an attribute of something that is being assessed, considered" type="">
+        <commentary>
+            RESPECT[+quality][+attribute][+detail][+assessed]
+        </commentary>
+        <examples>
+            The candidate has a mixed record with respect to the environment.
+            The two paintings differ from each other in several respects.
+            In some respects, John's plan is better than Bob's.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>respect.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="being in a socially esteemed state" type="">
+        <commentary>
+            RESPECT[+state][+social][+esteemed]
+            Note: refers to a quality or state possessed or enjoyed by someone or something
+            Note: X's respect -&gt; X has respect, X is respected
+        </commentary>
+        <examples>
+            Our team regained its respect when it won the championship.
+            The restaurant has lost some of it's former respect.
+            He has enough respect in the industry to sway the investors.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>respect.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="having admiration for someone" type="Event">
+        <commentary>
+            RESPECT[+state][+mental][+attitude][+admiration]
+            Note: refers to an individual's attitude of admiration towards something
+            Note: X's respect -&gt; X respects Y
+        </commentary>
+        <examples>
+            Mary lost all respect for John after she found out he had lied.
+            Everyone in the physics department has enormous respect for the work of this mathematician.
+            The film director doesn't have a lot of respect for that actor's ability.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>respect.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a social gesture of deferential greeting" type="">
+        <commentary>
+            RESPECT[+event][+gesture][+social][+greeting][+deferential]
+            Note: usually occurs in the plural
+        </commentary>
+        <examples>
+            They went to the service to pay their respects to the man's widow.
+            Please be sure to convey my respects to the chairman of the department.
+            Tom sent his respects to Mary's parents in the letter he wrote to her.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an attitude or gesture of considerate regard for something" type="Event">
+        <commentary>
+            RESPECT[+state][+mental][+attitude][+of_regard][+considerate]
+            [+eventset][+social][+behavior][+considerate]
+        </commentary>
+        <examples>
+            The picnickers showed no respect for the park and left trash blowing around.
+            You must remove your cap in this church out of respect.
+            It is a society that has very little respect for human rights.
+            The teachers in that school insist on the respect of the students. 
+        </examples>
+        <mappings>
+            <wn version="3.0">5,6,7</wn>
+            <omega/><pb>respect.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="devote-v">    
+   <commentary>
+   NOTE: Object dedicated IS the person doing the dedicating.
+   </commentary>
+   <sense group="1" n="1" name="Give oneself entirely to a specific person,
+   activity, or cause." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      She devoted herself entirely to the Church.
+      He devoted his whole self to the shelter.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>devote.01</pb>
+         <vn>dedicate-79</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Allocate or dedicate; set aside or apart
+         for a specific purpose or use." type="">
+      <commentary>
+      NOTE: Compare to Sense 1: in Sense 2, the object dedicated is not the
+      AGENT.
+      Syntax Is:
+       NP1 [AGENT] DEVOTE NP2 (to NP3)
+      </commentary>
+      <examples>
+      The land was devoted to mining.
+      I devote a half hour each day to meditation.
+      She devoted much thought to nursing but ended up becoming a teacher instead.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>devote.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

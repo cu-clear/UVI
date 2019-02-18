@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="campaign-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="work toward a goal" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[human]] CAMPAIGN FOR NP2
+      </commentary>
+      <examples>
+        The Union is campaigning for presumptive legislation to support and
+        protect firefighters who contract cancers and other workplace diseases.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>campaign.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="run for office/position" type="">
+      <commentary>
+       Syntax Is: NP1[agent] CAMPAIGN FOR NP2
+      </commentary>
+      <examples>
+        Nikki Jach campaigned for treasurer and garnered 228 votes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="go on a campaign or off to war" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

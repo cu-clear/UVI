@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="writing-n">
+    <commentary>
+    Contains duplicate mappings  
+    </commentary>
+    <sense group="1" n="1" name="The act of creating written works." type="Event">
+        <commentary> 
+        WRITING[+event][+creation]
+        </commentary>
+        <examples>
+        Writing was a form of therapy for him.
+        She did the thinking while he did the writing.
+        Her writing in this novel is excellent. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,5</wn>
+            <omega/><pb>writing.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The work of a writer." type="">
+        <commentary>
+        WRITING[+collection]
+        Note: may be plural
+        </commentary>
+        <examples>
+        That editorial was a fine piece of writing.
+        Her writings are stored in London.
+        The idea occurs in Heminway's writing as well.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>writing.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="Letters or symbols that are written or imprinted to represent the sounds or words of a language." type="">
+        <commentary>
+        WRITING[+inscription]
+        </commentary>
+        <examples>
+        The doctor's writing was almost illegible.
+        He turned the paper over so the writing wouldn't show. 
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>writing.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

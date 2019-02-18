@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="shuffle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="walk by dragging one's feet" type="">  
+      <commentary>
+       Syntax includes:
+         NP1[agent[animate]] SHUFFLE
+         NP1[agent[animate]] SHUFFLE PP[location]
+      </commentary>
+      <examples>
+         He shuffled out of the room.
+         We heard his feet shuffling down the hall.
+         Have you shuffled through Soho in London?
+         The old man shuffled along the street.
+         Even though he's dead, John can still shuffle pretty good.
+         Zombies shuffled through Rockville.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shuffle.01,shuffle.03</pb>
+         <vn>run-51.3.2,waltz-51.5</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move something back and forth" type="">
+      <commentary>
+       Syntax includes:
+         NP1[agent[animate]] SHUFFLE NP2[patient]
+         NP1[agent[animate]] SHUFFLE NP2[theme]
+      </commentary>
+      <examples>
+         Texas will shuffle personnel during spring FB drills.
+         God shuffled his feet.
+         He shuffled his funds among different accounts to avoid the IRS.
+         He shuffled off his mortal coil.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>shuffle.02,shuffle.04</pb>
+         <vn>crane-40.3.2,run-51.3.2,shake-22.3-2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="mix so as to make a random order" type="">
+      <commentary>
+       Syntax includes:
+         NP1[agent[animate|machine]] SHUFFLE NP2[patient]
+         NP1[agent[animate] SHUFFLE NP2[theme]
+      </commentary>
+      <examples>
+         Most shuffled decks are not actually random.
+         I raised it and had the cards shuffled up.
+         This image was created with 3 randomly shuffled tiles.
+         The iPod shuffled from Johnny Cash to Code 13 to Jackson 5.
+         The iPod shuffled itself.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>shake-22.3-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>
+</inventory>

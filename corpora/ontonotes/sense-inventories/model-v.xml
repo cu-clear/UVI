@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="model-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="create a representation or model of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We modeled the effects of the introduction of a herbicide-resistant sugar.
+        He modeled the dog in clay.
+        The Darwin Project will model how marine microbes live and evolve in the global ocean.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>model.01</pb>
+         <vn>create-26.4</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create in imitation of" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MODEL NP2[patient] PP
+        Includes: MODEL ON, MODEL AFTER, MODEL ALONG   
+      </commentary>
+      <examples>
+        They modeled their TNN show after 1950s TV variety programs.
+        They modeled their imperial methods on the Portuguese.
+        He often called St Francis of Assisi his hero and modeled his life after him.
+        He identified with the pseudo-aristocratic lifestyle, and in fact modeled
+           his home along those lines.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>model.01</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="display objects or oneself by using or posing" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Who modeled for that picture?
+        She made a lot of money modeling nailpolish for magazine ads.
+        He jumped out of his vehicle and modeled his attire in the roadway.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>model.02</pb>
+         <vn>captain-29.8-1</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

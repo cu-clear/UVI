@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bid-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="offer, usually in an attempt to make an acquisition" type="">
+      <commentary>
+       INCLUDES: BID FOR, BID ON
+       Syntax Includes: 
+         NP1 BID FOR NP2
+         NP1 BID ON NP2
+         NP1 BID NP2 PP 
+      </commentary>
+      <examples>
+        The public is able to bid on state surplus items.
+        It wasn't until they bid on five homes that they bid enough to win.
+        If you don't want to pay &quot;new prices&quot; for new things then bid on medical assistant items.
+        To bid on this limited edition print, select the link below.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>bid.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="request an action of someone" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The prophet bid all people to become good persons.
+        All things therefore whatsoever they bid you, these do and observe.
+        They bid us claim, they bid us augment that heritage, and preserve their virtues.
+        With a weak whisper he bid me to come closer.
+        I bid him look into the lives of men as though into a mirror.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="wish, invoke upon" type="">
+      <commentary>
+        often used in greetings and farewells
+      </commentary>
+      <examples>
+        I bid him farewell and took my leave.
+        He bid me a good day and I headed back down the beach.
+        In his confusion he bid me welcome home again, as if the house had been mine.
+        With his low faltering voice he bid me adieu.
+        He bid me a gentle Merry Christmas and hung up.
+        I bid her a fond greeting across the veil.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

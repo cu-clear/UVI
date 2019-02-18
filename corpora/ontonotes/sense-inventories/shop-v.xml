@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="do one's shopping, be a customer of" type="">  
+      <commentary>
+       Includes: SHOP AT
+       Syntax includes: NP1[human] SHOP AT NP2[location]
+      </commentary>
+      <examples>
+      She goes shopping every Friday.
+      We shop for food each Sunday.
+      We shop all day every Saturday for nothing in particular.
+      We shop at Kroger.
+      Many in the town shopped at the hardware store.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="shop_at" version="3.0">1</wn>
+         <omega/><pb>shop.01</pb>
+         <vn>search-35.2</vn><fn>Shopping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Give away information about someone." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      * No examples found.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <sense group="1" n="3" name="Try to sell." type="">
+      <commentary>
+      INCLUDES: SHOP TO
+      </commentary>
+      <examples>
+      The company might be shopped to a commercial bank.
+      We shopped the idea to local investors. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>shop.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

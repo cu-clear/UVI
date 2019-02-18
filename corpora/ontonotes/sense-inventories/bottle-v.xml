@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bottle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put or store in a bottle" type="">  
+      <commentary>
+        NP1[+agent/+organization] BOTTLE NP2
+      </commentary>
+      <examples>
+        I can teach you to bottle fame and brew glory, even put a stopper
+        in Death.
+        The company bottled Poland Water in bottles reminiscent of those
+        used for champagne.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bottle.01</pb>
+         <vn>pocket-9.10</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="control emotions, desires, and behavior" type="">
+      <commentary>
+        IS: BOTTLE UP
+      </commentary>
+      <examples>
+        She bottled up anger and resentment from day one of our marriage.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bottle_up" version="3.0">1</wn>
+         <omega></omega><pb>bottle.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

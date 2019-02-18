@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="accusation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a formal, legal charge of wrongdoing" type="Event">
+        <commentary>
+            ACCUSATION[+event][+speech_act][+official][+legal][+charge][+of_wrongdoing]
+        </commentary>
+        <examples>
+            He is facing an accusation of bribery in two states.
+            The accusation may not hold up in a court of law without material proof.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an informal  assertion of wrongdoing" type="Event">
+        <commentary>
+            ACCUSATION[+event][+speech_act][-official][-legal][+claim][+of_wrongdoing]
+        </commentary>
+        <examples>
+            John could hear the accusation in Mary's voice.
+            She dismissed the newspaper accusations as vicious gossip that bordered on libel. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="movie-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a motion picture, a film, artistic creation" type="">
+        <commentary>
+            MOVIE[+creation][+artistic][+film][+comedy/+drama/+documentary]
+        </commentary>
+        <examples>
+            How many movies did Alfred Hitchcock make?
+            Last night we went to the movies and saw a good thriller.
+            It was just like in the movies.
+            John thought the movie was actually better than the book.
+            Mary showed us some home movies of her children.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the medium of film" type="">
+        <commentary>
+            MOVIE[+medium][+technology][+film]
+        </commentary>
+        <examples>
+            They are setting up lights and movie cameras.
+            A special movie projector is needed for IMAX films.
+            Movies and television have changed society in many ways.
+            This movie is damaged, take it back to the video store for a replacement copy.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

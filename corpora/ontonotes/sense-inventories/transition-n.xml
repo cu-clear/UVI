@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transition-n">
+    <commentary>
+        8Mar07 - updated to wn2.1, added features. ahouston
+        9Mar07 - merged senses 2,3, added sense 6, changed definitions, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the process of movement or passage through space or time" type="Event">
+        <commentary>
+	    TRANSITION[+event][+process][+movement][+spatial/+temporal]
+	    the act of passing from one place or time to another
+	    Note: refers to an intact entity moving through space or time, it's inherent properties are not transformed.
+	    </commentary>
+        <examples>
+            Our transition across the river took three hours.
+            We are in transition between our two houses and everything is packed in boxes at the moment.
+            This is only a transition government until they hold elections early next year.
+            The sun's transition behind a cloud made the setting seem less cheerful.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an entity's inherent change of properties, a transformation" type="Event">
+        <commentary>
+            TRANSITION[+event][+change][+transformation][+entity]
+            Note: refers to inherent properties of the thing which undergoes a state change, the thing itself changes
+        </commentary>
+        <examples>
+            The transition of a caterpillar into a butterfly is amazing to consider.
+            Their nation's transition from a dictatorship to a democracy was long and painful.
+            The town's transition into a bustling metropolis happened in less than ten years.
+            Sally made the transition to glamor girl by slipping on high heels and a slinky black dress.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="narrative passages that link one topic to another" type="">
+        <commentary>
+            TRANSITION[+form][+narrative][+passage][+connection][+topics]
+            Refers to written or visual forms (e.g., films)
+        </commentary>
+        <examples>
+            You need an introductory paragraph to improve the transition to your second point in the paper.
+            The plot transitions in the film are abrupt and hard to follow.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="musical passage that changes key" type="Music">
+        <commentary>
+            TRANSITION[+form][+musical][+passage][+key_change]
+            modulation -
+            a musical passage moving from one key to another
+        </commentary>
+        <examples>
+            The song has a transition to the key of G, then back again to the key of C.
+            Mary hates it when pop singers use a key transition in the last verse of a song.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="change in quantum energy level" type="Event">
+        <commentary>
+            TRANSITION[+event][+change][+level][+energy][+quantum]
+            Note: a specialized use in physics, referring to energy states of electrons and nuclei of atoms
+        </commentary>
+        <examples>
+            Emitting a photon resulted in the electron's transition to a lower energy state.
+            Quantum theory states the possible transitions between energy states of electrons are finite, not continuous.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

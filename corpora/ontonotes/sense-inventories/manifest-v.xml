@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="manifest-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Provide evidence for; show by one's
+   behavior, attitude, or external attributes; embody." type="">  
+      <commentary>
+      Syntax Is: NP1 MANIFEST NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      The buildings in Rome manifest a high level of architectural sophistication.
+      This decision manifests his sense of fairness.
+      She manifests all beauty and goodness. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>reflexive_appearance-48.1.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Record in a ship's manifest." type="">
+      <commentary>
+      </commentary>
+      <examples> 
+      We manifested all the cargo by putting it into the ship's log.
+      Every passenger must be manifested by a member of the crew.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Come into existence; reveal its presence or
+         make an apprearance." type="">
+      <commentary>
+      Syntax Includes:
+      NP1 MANIFEST NP2[patient[concrete]]
+      NP1[agent] MANIFEST
+      Note: May be reflexive.   
+      Note: See final example. Unlike in Sense 1, the NP2 in Sense 2
+      becomes [concrete] by the action of the verb and thus may be
+      considered concrete in the syntax.
+      </commentary>
+      <examples>
+      The ghost manifests each year on the same day.
+      The man manifested a large bulge near his liver, which doctors removed.
+      We have to manifest our goals. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>manifest.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

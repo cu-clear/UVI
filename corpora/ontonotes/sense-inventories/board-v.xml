@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="board-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="get onto a passenger vehicle" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        The solemn, gray passengers boarded the train.
+        We better hurry, our plane is boarding!
+        The British then boarded the Altmark at 2200 hrs.
+        The pirates began boarding the king's ship!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>board.01</pb>
+         <vn>NM</vn><fn>Board_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="lodge and take meals at" type="">
+      <commentary>
+      Syntax Is:  NP1[agent]animate]] BOARD PP-in/at/with NP2[location]
+      </commentary>
+      <examples>
+        Ted boards at the old hotel. 
+        I need a place to board for a week.
+        He is boarding in my mother's house while she is living in Europe.
+        My cousin boarded with the Stevenson's.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>board.02</pb>
+         <vn>lodge-46</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="provide lodging and meals for" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[animate]] BOARD NP2[patient[animate]] (in NP3[location]/for NP3[duration])
+      </commentary>
+      <examples>
+        The old lady on the corner boards travellers in her home. 
+        My mom boarded my cousin for almost four months.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cover with wooden boards; secure" type="">
+      <commentary>
+        Includes: BOARD UP
+      </commentary>
+      <examples>
+        If you're afraid of high winds, board your windows!
+        We boarded up the hole in the wall.
+        Board up the windows, the tornado's a-comin'!
+        They boarded up the windows and doors of the abandoned houses.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="board_up" version="3.0">1</wn>
+         <omega></omega><pb>board.03,board.04</pb>
+         <vn>butter-9.9</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

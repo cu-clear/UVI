@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lattice-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a physical framework of crossing strips, often wooden" type="">
+        <commentary>
+            LATTICE[+form][+physical][+structure][+framework][+crossing][+strips]
+        </commentary>
+        <examples>
+            Roses climbed the lattices at the edge of Mary's garden.
+            We looked up through the lattice of branches at the blue sky.
+            Betty crossed strops of dough to make a lattice on top of the cherry pie.
+            I handed money through the lattice to the ticket agent.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a 3-dimensional uniform and repeating arrangement of particles" type="">
+        <commentary>
+            LATTICE[+form][+physical][+arrangement][+3D][+uniform][+repetitive][+particles]
+        </commentary>
+        <examples>
+            The metal's atoms are arranged in a lattice.
+            The molecules of the crystal form a symmetric lattice.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a partially-ordered mathematical set" type="">
+        <commentary>
+            LATTICE[+relation][+mathematical][+set][+partially_ordered]
+            Note: a lattice has, for each pair of elements, a lowest upper bound and a greatest lower bound
+        </commentary>
+        <examples>
+            This book covers lattices, semi-lattices and group theory.
+            The least upper bound for a pair of elements in a lattice is called a join.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

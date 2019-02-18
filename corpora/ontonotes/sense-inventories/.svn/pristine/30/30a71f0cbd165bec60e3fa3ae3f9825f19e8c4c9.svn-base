@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="soak-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="submerge, cover, or fill (as if) with a liquid" type="">  
+      <commentary>
+        Includes: SOAK UP, SOAK THROUGH
+        Syntax is: NP1[concrete] SOAK NP2[concrete]
+        NOTE: Includes metaphorical uses, except the ones for SOAK UP.
+      </commentary>
+      <examples>
+        Soak the bandage in antiseptic for 5 minutes.
+        The water has totally soaked through my clothes.
+        This industrial sponge soaks up twice the liquid as a regular one.
+        Rita loved to soak in the tub for hours.
+        The pipe exploded and soaked the carpet.
+        Soak your hands in the lotion mixture and they'll come out smooth.
+        My anger soaked me, turning me into a beast.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,8</wn>   
+         <wn lemma="soak_through" version="3.0">1</wn>
+         <wn lemma="soak_up" version="3.0">1</wn>
+         <omega></omega><pb>soak.01,soak.02</pb>
+         <vn>fill-9.8-1,other_cos-45.4,wipe_manner-10.4.1</vn><fn>Cause_to_be_wet,Soaking,Fluidic_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ask an unreasonable price or leave a guarantee in return for money" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        That used car dealer was sure soaking us!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="beat or punish severly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Mama soaked me for letting the cat get out.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="make or become drunk" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We soaked Julie at the party last night.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="heat metal prior to working it" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        You need a full firing for 30 minutes to soak the metal with heat.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="SOAK UP: take in information readily; devote oneself to a task" type="">
+      <commentary>
+        Is: SOAK UP
+        Syntax is: NP1[animate] SOAK UP NP2[abstract]
+        NOTE: INcludes metaphorical instances of sense 1.
+      </commentary>
+      <examples>
+        Little children just soak up languages.
+        The architect soaked up our ideas, and produced a perfect plan for our new house.
+        We soaked up the sights of Philly like a sponge.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="soak_up" version="3.0">1,2</wn>
+         <omega></omega><pb>soak.02</pb>
+         <vn>NM</vn><fn>Fluidic_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

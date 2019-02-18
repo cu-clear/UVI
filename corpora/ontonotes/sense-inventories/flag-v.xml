@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flag-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Communicate or signal to with a flag,
+   possibly with the intent to stop (someone)." type="">  
+      <commentary>
+      Includes: FLAG DOWN
+      Syntax Includes: 
+      NP1[agent] FLAG (down) NP2[patient]
+      NP1[agent] FLAG NP2[patient] PP{P NP[location]} 
+      </commentary>
+      <examples>
+      Let's flag down a cab - it's starting to rain.
+      Flag a police officer if you can.
+      The officers flagged the airplane into the hanger.
+      Passengers flagged a following train to stop.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="flag_down" version="3.0">1</wn>
+         <omega></omega><pb>flag.01,flag.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Mark as important or relevant with a flag
+         or as if with a flag." type="">
+      <commentary>
+      Syntax Is: NP1[agent] FLAG NP2[patient]
+      </commentary>
+      <examples>
+      Flag that file for future reference.
+      She flagged the suspicious files.
+      The IRS frequently flags high-earners for review.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Droop, sink, or settle from or as if from
+         pressure or loss of tautness; become less intense." type="">
+      <commentary>
+      Note: Thing flagging must be [abstract]. 
+      </commentary>
+      <examples>
+      The market flagged early Thursday.
+      Our enthusiasm for the course slowly flagged.
+      The run flagged toward the end of the race, falling farther and
+      farther behind the leaders.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Decorate with flags." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The building was flagged for the Fourth of July.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

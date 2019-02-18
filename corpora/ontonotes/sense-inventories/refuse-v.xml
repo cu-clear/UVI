@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="refuse-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be unwilling to accept or do" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 REFUSE NP2
+        NP1 REFUSE TO COMP
+      </commentary>
+      <examples>
+        He refused to join the group on a hike.
+        He refused my offer of hospitality.
+        They refused hundreds of fans.
+        After 3 rounds of chemo, my body refused to go into remission.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>refuse.01</pb>
+         <vn>NP</vn><fn>Agree_or_refuse_to_act</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="deny, not let someone have something" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 REFUSE NP2 NP3[patient]
+        NP1 REFUSE NP2 NP3[topic]
+      </commentary>
+      <examples>
+        I refused them the use of my tools.
+        She refused him the dog.
+        Eventually, he refused her the visa.
+        The British government refused them the full rights of English citizens.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="reject sexual or romantic overtures" type="">
+      <commentary>
+        Note: this sense is not based on syntactic or semantic features,
+        but on the very strong inferences that native speakers derive from
+        the context.
+      </commentary>
+      <examples>
+        She refused him utterly, and foretold his death at Rama's hands.
+        As he told Circe of his love she fell in love with him, but he refused her.
+        When he refused her, she attempted to battle him.
+        He said they would both lose their jobs if she refused him.
+        He admired Betsy and asked her to marry him but at first she refused him.
+      </examples>
+      <mappings>
+         <wn version=""></wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Agree_or_refuse_to_act</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="resist immunologically foreign tissue or organ" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His body refused the liver of the donor.
+        Two of his patients have refused donor parts.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

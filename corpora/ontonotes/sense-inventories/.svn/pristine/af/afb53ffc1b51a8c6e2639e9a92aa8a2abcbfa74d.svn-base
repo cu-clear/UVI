@@ -1,0 +1,92 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deliver-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="produce, carry out" type="">
+      <commentary>
+       Note: Includes light verb uses.
+      </commentary>
+      <examples>
+         The candidate delivered a compelling argument for his position during the debate.
+         The plaintiff hoped the jury would deliver a verdict in his favor.
+         The child delivered a yelp of delight at the pile of presents.
+         He kept delivering blows to his opponent's left temple.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,6,7,9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="carry, bring, hand over" type="">
+      <commentary>
+       NP1[agent] DELIVER NP2[theme] (PP[TO location])
+      </commentary>
+      <examples>
+         The prisoners will be delivered to the maximum security prison.
+         The terrorist was delivered to the authorities of his own country.
+         She won't deliver those documents to the commission without legal
+         pressure.
+         They will be delivering the new furniture tomorrow.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,5,10</wn>
+         <omega/><pb>deliver.01</pb>
+         <vn>send-11.1</vn><fn>Delivery</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="rescue, save" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The fireman was able to deliver the children from the burning building.
+         Deliver us from evil.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,8</wn>
+         <omega/><pb>deliver.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="throw, hurl (sports)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The pitcher delivered the ball just over the inside corner of the
+         plate for a strike.
+         Steiner delivered the ball to Mack in stride over the middle at
+         the 40.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="give birth" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Yesterday Mary delivered twin girls.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/><pb>deliver.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="DELIVER THE GOODS: attain success, reach a goal" type="">
+      <commentary>
+        Is: DELIVER THE GOODS
+      </commentary>
+      <examples>
+        Martinelli's speech really delivered the goods to the audience.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="deliver_the_goods" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,clarklm,greenlm" sample_score="-"/>
+</inventory>

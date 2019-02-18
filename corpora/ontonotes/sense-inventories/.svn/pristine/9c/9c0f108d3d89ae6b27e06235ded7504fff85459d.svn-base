@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="presume-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Take to be the case; make an assumption based on logic" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] PRESUME NP2[attribute]
+        NP1[agent] PRESUME SCOMP
+        NOTE: This sense can occur whether there is reasonable proof or not
+        for something to be true. Usually this is based on a person's
+        logic. See example 2 where the reason can be stated, but is not
+        necessary. This sense occurs frequently in the passive as in the
+        last example, where the active version of it is in parentheses.
+      </commentary>
+      <examples>
+       Congress presumes after the Reagan administration that the White House will take unconstitutional provisions in
+       appropriations bills lying down.
+       I presume his train is late (because he hasn't arrived yet).
+       A restaurant bill presumes food consumption.
+       Military organization presumes discipline.
+       The men have been missing for 10 days and are presumed dead.
+       The miner is presumed to be trapped under a fallen rock. (The government presumed that the miner is trapped under a fallen rock.) 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>presume.01</pb>
+         <vn>conjecture-29.5-1</vn><fn>Awareness</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Act without permission or with too much confidence." type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] PRESUME to [predicate]
+      </commentary>
+      <examples>
+       How dare you presume to call my lawyer!
+       You presume to speak for everyone?
+       You presume to understand me better than I understand myself.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

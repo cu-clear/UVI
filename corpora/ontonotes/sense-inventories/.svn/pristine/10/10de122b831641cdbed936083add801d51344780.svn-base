@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="visit-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="tour, call on" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         We are scheduled to visit the museum in the morning and then go shopping in the afternoon.
+         Have you ever visited Rome?
+         We visited John every day in the hospital.
+         Scrooge was visited by the Ghost of Christmas Past.
+         The governor visited the prison.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,7</wn>
+         <omega/><pb>visit.01</pb>
+         <vn>meet-36.3-1</vn><fn>Arriving,Visiting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="inflict, impose" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The area has been repeatedly visited by hail storms, tornados and torrential rains.
+         He was visted by a terrible illness that killed him quickly.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Arriving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="chat, gossip" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The neighbors like to visit over their back fence.
+         The students were kept after school for visiting during class.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>visit.01</pb>
+         <vn>meet-36.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

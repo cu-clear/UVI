@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="estimate-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a quantity that is an approximate calculation" type="">
+        <commentary>
+            ESTIMATE[+quantity][+calculation][+approximate]
+            Note: implies estimate = some number
+        </commentary>
+        <examples>
+            The estimates for annual yields at the chip fabrication plant turned out to be quite accurate.
+            My first estimate was off by an order of magnitude.
+            Bob's estimate of an hour to drive to the beach was based on low traffic times.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>estimate.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a judgement or opinion about something" type="">
+        <commentary>
+            ESTIMATE[+state][+mental][+judgement]
+        </commentary>
+        <examples>
+            Professor Smith's estimate of the freshman chemistry class is rather low.
+            Our estimate of John rose dramatically after he got an article accepted to Nature.
+            Their estimate of their government's honesty in these matters is not great.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,5</wn>
+            <omega/><pb>estimate.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="an official document appraising the value of something" type="">
+        <commentary>
+            ESTIMATE[+document][+appraisal][+official][+worth]
+        </commentary>
+        <examples>
+            The last estimate on that home showed annual property taxes of three thousand dollars.
+            Bob does real estate estimates for three towns in our county.
+            My house has gone through two estimates since I bought it.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="an informal document indicating the approximate cost of something" type="">
+        <commentary>
+            ESTIMATE[+document][+appraisal][-official][+cost]
+        </commentary>
+        <examples>
+            Bob got three different estimates from three different painting companies.
+            Mary left her car with the auto shop after she had seen their estimate for repairs.
+            I left the estimate for the kitchen renovations on the dining room table for you.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="agree-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="concur, be in accord" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The two philosphers do not agree on this point.
+         We couldn't agree on which restaurant to go to.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7</wn>
+         <omega/><pb>agree.01</pb>
+         <vn>correspond-36.1-1</vn><fn>Be_in_agreement_on_assessment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="match, correspond, be compatible" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Your story seems to agree with his as to the time of the murder.
+         I'd like drapes that will agree with the rest of the decor in the living room.
+         The subject and verb of this sentence don't agree.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5</wn>
+         <omega/><pb>agree.01</pb>
+         <vn>correspond-36.1-1</vn><fn>Compatibility</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="consent, accept" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She has agreed to adopt the two kittens from the animal shelter.
+         He can't agree to anything unless his father also signs the forms.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>agree.01</pb>
+         <vn>correspond-36.1-1</vn><fn>Make_agreement_on_action,Agree_or_refuse_to_act</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="please, suit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Hot foods don't agree with him.
+         That style of suit doesn't really agree with you.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Compatibility</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

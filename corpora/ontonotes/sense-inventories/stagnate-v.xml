@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stagnate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be idle; stop growing or progressing" type="">  
+      <commentary>
+        NP1[+abstract]/[+animate or company] STAGNATE
+        NP1[+theme] STAGNATE NP2[+abstract]/[company]
+      </commentary>
+      <examples>
+        In the next 50 years the housing market will stagnate but not collapse.
+        If aid is delayed it will stagnate the rural economy.
+        IT training stagnated in 2002 with a lack of new graduates.
+        Sell lower strike options if you are only somewhat convinced the
+        stock will stagnate.
+        The old man would sit in his rocker for hours and stagnate.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stagnate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) cease to flow" type="">
+      <commentary>
+        NP1[+liquid/gas] STAGNATE
+        NP2[+environmental] STAGNATE NP2[+liquid/gas/body of water]
+      </commentary>
+      <examples>
+        When cold invades the body your blood will stagnate.
+        As in London, the river waste stagnated and stayed close to shore.
+        The water level of the Red River is forecast to stagnate below 2 metres.
+        There are marshes that stagnate the rivers.
+        If you always leave your windows shut and don't run fans, the air
+        in your room will stagnate.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stagnate.01</pb>
+         <vn>entity_specific_cos-45.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

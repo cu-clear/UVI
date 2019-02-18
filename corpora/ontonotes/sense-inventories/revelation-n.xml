@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="revelation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of making a surprising or dramatic disclosure" type="Event">
+        <commentary>
+            REVELATION[+event][+communication][+human][+speech_act][+disclosure][+surprising]
+            Note: implies an agent executing  a speech act: X's REVELATION of Y -&gt; X revealed Y
+        </commentary>
+        <examples>
+            They gathered together in the library to hear the detective's revelation of the murderer.
+            The king's revelation of an alleged plot on his life has caused quite a stir in the country
+            Their revelation of the winner of the contest will occur on June 6..
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="startling or surprising new information" type="Event">
+        <commentary>
+            REVELATION[+entity][+symbolic][+information][+new][+surprising]
+            Note: refers to the content, X  = REVELATION
+        </commentary>
+        <examples>
+            Her extraordinary musical talent was a revelation to her parents.
+            That your son got another speeding ticket should come as no revelation to you.
+            It was a shocking revelation to Mary that her husband was having an affair.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a divine disclosure, vision, given by a supernatural being" type="Event">
+        <commentary>
+            REVELATION[+event][+communication][+supernatural][+disclosure][+vision]
+        </commentary>
+        <examples>
+            John thinks the attempt to reconcile Darwinian evolution with Biblical revelation is a futile exercise.
+            The cult leader said these commandments came to him as revelations from god.
+            She saw the end of the world in a revelation.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

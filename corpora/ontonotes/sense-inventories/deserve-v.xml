@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deserve-v">    
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="be worthy of" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[recipient] DESERVE VP
+        NP1[recipient] DESERVE NP2[theme]
+      </commentary>
+      <examples>
+        The fans deserved a chance to see closure to these stories. 
+        Magdi deserved the best songwriter award for her beautiful song!
+        Who else deserved to represent the Cowboys in the Pro Bowl?
+        I agree that Apolo and Julianne deserved to win.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>deserve.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="warrant, merit, be cause for" type="">
+      <commentary>
+       Syntax Is:
+        NP1[topic] DESERVE NP2[proposition]
+      </commentary>
+      <examples>
+        The situation deserved a more cautious approach.
+        I felt bad for the guy, but also felt that the whole thing deserved a laugh.
+        Many public officials' reputations and actions deserved a thorough airing and discussion.
+        We must decide if the new perspective and associated actions deserved to be included in future.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>Deserving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>  
+</inventory>

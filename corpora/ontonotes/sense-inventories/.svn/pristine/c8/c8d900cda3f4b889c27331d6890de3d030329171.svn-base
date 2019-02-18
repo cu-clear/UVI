@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="refer-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="attribute the cause or source to something else" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1 REFER NP2 to NP3[cause]
+        NP1 REFER NP3[cause] NP2
+      </commentary>
+      <examples>
+        They referred the high gains to the timing of their investment.
+        He referred his success to her advice.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>   
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make mention of or apply to, classify as, describe" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 REFER PP 
+        NP1 REFER PP{to NP} ADVP[attribute]
+      </commentary>
+      <examples>
+        Metafiction refers to the effect when a story is interrupted to remind the audience of something.
+        I am referring to people who talk during movies and buy Spice Girls CDs
+        He refers to his professors by their name.
+        I heard him refer to her sister as &quot;the princess&quot;.
+        He always refers to the house as his &quot;refuge&quot;.
+        In her autobiography she occasionally refers to her unhappy schooldays.
+        The new salary scale only refers to company managers and directors.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6,7</wn>
+         <omega/><pb>refer.01</pb>
+         <vn>relate-86.2-2</vn><fn>Referring_by_name</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <sense group="1" n="3" name="direct to a source of help or information" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] REFER NP2[patient[human]] to NP3[goal]
+        NP1[agent[human]] REFER NP3[goal] to NP2[patient[human]]
+      </commentary>
+      <examples>
+        My doctor referred me to a hospital specialist.
+        The High Court has referred the case to the Court of Appeal.
+        He referred me to his last employer for a recommendation.
+        The reader is constantly referred back to the introduction.
+        I referred him to a history book.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>refer.02</pb>
+         <vn>contribute-13.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="reference or consult for help or information" type="">
+      <commentary>
+        Syntax Is: NP1 REFER PP
+        NOTE: implies physically looking at the source (in most cases)
+      </commentary>
+      <examples>
+        He referred to a history book for historical dates.
+        Please refer to your syllabus.
+        She spoke for an hour without once referring to her notes.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>refer.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

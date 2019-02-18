@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reinstate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="restore to previous rank or position" type="">
+      <commentary>
+        Syntax Is: NP1[agent] REINSTATE NP2[patient[human]]
+      </commentary>
+      <examples>
+        He made his peace with Queen Mary, who reinstated him as a Knight of the Garter.
+        Should Pete Rose be reinstated to baseball?
+        He has been reinstated to the practice of law in New Jersey.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>reinstate.01</pb>
+         <vn>hire-13.5.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bring back into existence" type="">
+      <commentary>
+        Syntax Is: NP1[agent] REINSTATE NP2[patient]
+      </commentary>
+      <examples>
+        NASA announced that the Dawn mission is being reinstated.
+        He had himself elected chairman and reinstated peace ond order.
+        Pat-downs have been reinstated at Tampa stadium.
+        If the Draft is reinstated, should younger military eligibles be drafted before older men?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Cause_to_resume</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="commemorate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="honor with or be a memorial" type="">  
+      <commentary>
+        Syntax Is: NP1 COMMEMORATE NP2 (with) (NP3)
+      </commentary>
+      <examples>
+        The sculpture commemorates Lincoln's only visit to the city in
+        April 1865.
+        We commemorated the dead with a memorial to Renato Beluche.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>commemorate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="mark by ceremony, call to remembrance" type="">
+      <commentary>
+        Syntax Is: NP1 COMMEMORATE NP2
+      </commentary>
+      <examples>
+        They commemorated the anniversary by joining in demonstrations for
+        peace that mobilized citizens all across the world.
+        Not long ago, we commemorated the anniversary of the September 11th
+        terrorist attacks.
+        Saturday commemorated the anniversary of when the final spike was
+        driven into the railroad ties of the first transcontinental railroad.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

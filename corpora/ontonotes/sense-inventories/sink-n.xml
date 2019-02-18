@@ -1,0 +1,71 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sink-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="water basin connected to drainpipe" type="">
+        <commentary>
+            SINK[+artifact][+basin][+water][+with_drainpipe]
+        </commentary>
+        <examples>
+            Mary rinsed the lettuce off in the kitchen sink.
+            The couple looked at various tub and sink styles at the kitchen-and-bath store.
+            The sink is stopped up.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a process or a body that removes or extracts enery or substance from a system" type="Event">
+        <commentary>
+            SINK[+role][+event][+agent][+remover][+energy_or_substance][+from_system]
+        </commentary>
+        <examples>
+            The ocean serves as a sink for CO2.
+            The device acts as a heat sink.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a geological depression or hole in the ground, often in limestone" type="">
+        <commentary>
+            SINK[+location][+geological][+depression][+in_ground]
+        </commentary>
+        <examples>
+            They explored a series of limestone caverns and sinks.
+            Cenotes in the Yucatan are very deep sinks filled with water.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a covered cistern, cesspool" type="">
+        <commentary>
+            SINK[+artifact][+cistern][+covered][+cesspool]
+        </commentary>
+        <examples>
+            These houses have their own black water sinks and are not connected to the city sewer system.
+            City government had become a sink of corruption and vice. (mataphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

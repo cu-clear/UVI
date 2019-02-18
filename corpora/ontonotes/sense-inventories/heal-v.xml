@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="heal-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be healthy again, recover" type="">  
+      <commentary>
+        Syntax Is: NP1 HEAL (NP2)
+      </commentary>
+      <examples>
+        The broken leg is healing nicely.
+        Her wound is healing slowly.
+        The second treatment healed this ulcer in one week.
+        He healed Simona's leprosy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heal.01</pb>
+         <vn>other_cos-45.4</vn><fn>Cure,Recovery</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ache-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hurt, feel physical pain" type="">  
+      <commentary>
+        Syntax Includes: NP1[experiencer] ACHE 
+      </commentary>
+      <examples>
+       John's broken arm ached dully.
+       The child's body was aching after the accident.
+       His whole body ached.
+       Arthritis caused his knees to ache.
+       The bruise ached constantly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ache.01</pb>
+         <vn>tingle-40.8.2</vn><fn>Perception_body</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="desire someone or something not present" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       Her heart ached for her boyfriend when they were apart.
+       His death made their hearts ache with loneliness.
+       After she quit smoking, she ached for a cigarrette when stressed.
+       The children ached for their father to return from the war.
+       Young idealists ache to do good in the world.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>long-32.2-1</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

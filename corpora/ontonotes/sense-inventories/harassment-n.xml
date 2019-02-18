@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="harassment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of annoyance, a bother" type="">
+        <commentary>
+            HARASSMENT[+state][+annoyance][+extreme]
+            Note: a subject experiences annoyance, no implied object
+            Note: nominalization  corresponds to a predicate 'my harassment grew' -&gt; 'I grew harassed', 'her harassment at seeing him' 'she BE harassed at seeing him'
+        </commentary>
+        <examples>
+            Her harassment at having to pick us up at the airport was evident on her face.
+            My harassment grew as the minutes passed and I remained on hold.
+            The harassments of holiday shopping and entertaining put Mary in a cranky mood.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the activity of molesting or mistreating someone" type="">
+        <commentary>
+            HARASSMENT[+activity][+mistreatment][+molestation]
+            Note: a subject/agent bothers a patient/object
+            Note: nominalization corresponds to transitive verb - 'his harassment of the prisoner' -&gt; 'he harassed the prisoner'
+        </commentary>
+        <examples>
+            He resigned from the senate after being accused of sexual harassment.
+            The harassment of new prisoners by other inmates was a fact of life there.
+            Harassment of any wildlife in this nature preserve is against the law.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>harassment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

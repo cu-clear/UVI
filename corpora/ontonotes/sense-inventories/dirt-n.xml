@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dirt-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="organic substance, surface layer of soil" type="">
+        <commentary>
+            DIRT[+entity][+substance][+layer][+surface][+organic][+soil]
+        </commentary>
+        <examples>
+            The strong wind blew the dry dirt in the fields into brownish-yellow clouds.
+            The children's boots tracked dirt onto the carpet.
+            John scrubbed off the dirt under his fingernails with a brush.
+            This is the kind of rough terrain you could ride a dirt bike on.
+            The prospector finally hit pay dirt. (he found valuable ore)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a defiled, spoiled state, physical or social" type="">
+        <commentary>
+            DIRT[+state][+defiled][+physical/+social]
+        </commentary>
+        <examples>
+            The dirt and noise of industry marred the formerly peaceful city by the sea.
+            The candidate has promised to clean up the dirt in city government. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="excrement, feces" type="">
+        <commentary>
+            DIRT[+entity][+substance][+excrement]
+        </commentary>
+        <examples>
+            Mary was disgusted by the dog dirt all over the park.
+            The elderly in that nursing home had lain in their own dirt for days at a time.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="malicious gossip about a specific person or group" type="">
+        <commentary>
+            DIRT[+activity][+communication][+discourse][+gossip][+malicious][+targeted]
+            [+entity][+symbolic][+information][+content][+injurious][+targeted]
+            Note: implies injurious gossip about someone, not necessarily licentious content at large (Sense 6)
+        </commentary>
+        <examples>
+            They've been spreading dirt about her ex-husband.
+            Is there any dirt we can dig up about Sally?
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="being viewed as worthless, contemptible" type="">
+        <commentary>
+            DIRT[+quality][+contemptible]
+        </commentary>
+        <examples>
+            She treats him like dirt.
+            These homeless people are considered dirt by the wealthy landowners.
+            He makes his employees feel like dirt.
+        </examples>
+        <mappings>
+            <wn version="MW online">1d</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="licentious information content" type="">
+        <commentary>
+            DIRT[+entity][+symbolic][+information][+content][+licentious][-targeted]
+            Note: refers to morally offensive or sexually explicit content, doesn't imply targeted gossip (Sense 4)
+        </commentary>
+        <examples>
+            They objected to the dirt that television projected into their homes.
+            The radio cannot broadcast the type of dirt he dishes out on his program.
+        </examples>
+        <mappings>
+            <wn version="MAC">1g</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

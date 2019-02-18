@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sling-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hurl as if with a sling" type="">  
+      <commentary>
+      Syntax Includes: NP1[agent[animate]] SLING NP2[theme]
+      Note: May be metaphorical.
+      </commentary>
+      <examples>
+      Sling the cargo onto the ship.
+      A lot of mud was slung on both sides of this race.
+      I climbed up on a five gallon pail and slung the harness up on his back.
+      He slings one-liners while staying smarter than everyone else.
+      She slings hash at the diner from 11 to 5.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sling.01</pb>
+         <vn>put-9.1,throw-17.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hang loosely or freely" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme] SLING PP[location|source|direction]
+      NP1[agent[animate]] SLING NP2[theme] PP[location|source|direction]
+      </commentary>
+      <examples>
+      Five bighorn sheep slung from a helicopter.
+      When used on board, hammocks were slung from hooks in the deck beams.
+      She could reasonably have learned to carry Jean Baptiste slung from her shoulder.
+      She slung the sack from her shoulder.
+      Liesl stood up and slung the rifle over her shoulder.
+      Over its back was slung the man who'd been fighting him before.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="hold or carry in a sling" type="">
+      <commentary>
+      NP1[agent[animate]] SLING (UP) NP2[theme] (PP[location])
+      NP1[agent[animate]] SLING UP
+      Often occurs adjectivally. Past tense is "slinged" rather than "slung"
+      </commentary>
+      <examples>
+      He cannot button his shirt with his slinged arm.
+      Hasdell's arm was slinged-up after the bout.
+      It can be done without having to take any extra time to sling up and adjust.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

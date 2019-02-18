@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="swimming-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="moving through water" type="Activity">
+        <commentary>
+            Moving through water, usually as a sport.  Not a one-time event, but an activity or process.
+        </commentary>
+        <examples>
+            I got into USA Swimming in high school.
+            Swimming is good exercise.
+            John was a swimming official at the Olympics.
+            I studied the swimming of fish for a biology project.
+            Is the swimming of the chemical blob a goal-oriented behavior?
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>swimming.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="specific act of swimming" type="Event">
+        <commentary>
+	    SWIMMING[+event]
+	    A specific act of swimming, as a one-time event.  Can be bounded by time.
+	    </commentary>
+        <examples>
+            This trophy commemorates the first swimming of the English Channel.
+            The swimming of the race will occur at noon, and it will take approximately three minutes.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb>swimming</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

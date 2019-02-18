@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="commitment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the quality of dedication, fixity of purpose" type="">
+        <commentary>
+            COMMITMENT[+quality][+purposive][+dedication]
+            Note: focus is on an attribute of a person, their dedication.
+            Note: does -not- imply an obligation (Sense 2) or a promise of contributing (Sense 3) or a consignment (Sense 4)
+        </commentary>
+        <examples>
+            She has exhibited great commitment to getting this project off the ground.
+            They have doubts about that nation's commitment to peace.
+            Only employees who show total commitment to the job will make partner in this firm.
+            The company's commitment to funding research and development is beginning to pay off.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>commitment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of obligation" type="">
+        <commentary>
+            COMMITMENT[+state][+obligation]
+            Note: implies that someone/something has an obligation, whether they actually meet it or not.
+        </commentary>
+        <examples>
+            We are under no commitment to take this offer.
+            John has too many commitments at work and can't fulfill them all.
+            They are reexamining what their commitments to their allies should be.
+            I have no commitments this afternoon, so let's go sailing!
+            Raising children is a major life commitment.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>commitment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a declaration or promise, usually to contribute" type="">
+        <commentary>
+            COMMITMENT[+action][+declaration][+promise][+contribution]
+            Note: implies a promise to contribute, it is the act of someone placing themselves under obligation, but not a pre-existing state of obligation (Sense 2)
+            Note: frequently implies an agreement to contribute financially to something
+        </commentary>
+        <examples>
+            We have received financial commitments from a number of organizations.
+            I can't get a commitment from Sally about whether she's coming to the company potluck.
+            Make whatever commitment you can to our fund raising drive for public television.
+            Congress is debating the level of troop commitment in Iraq. (what -should- the contribution be)
+            He has stuck to his commitment to lower taxes. (He promised he would do so)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>commitment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an official consignment of someone or something, as to an institution" type="">
+        <commentary>
+            COMMITMENT[+action][+consignment][+official]
+            Note: implies placing someone or something in a location, or internment. 
+        </commentary>
+        <examples>
+            His commitment to a mental hospital is being challenged by his parents.
+            The commitment of spent uranium to underground salt deposits is controversial.
+            The prisoners have objected to their commitment to a maximum security prison.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>commitment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

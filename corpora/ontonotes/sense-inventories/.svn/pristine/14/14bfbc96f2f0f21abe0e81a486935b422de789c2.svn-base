@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="con-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fool, cheat, trick into doing something" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] CON NP2[patient[animate]]
+        (PP{into/out of NP})
+        Note: NP1 and NP2 may be individuals, groups, or organizations. 
+      </commentary>
+      <examples>
+        I guess he conned himself into making some international calls.
+        "Right-wing coporatist political culture" does not represent the
+        US, it has conned citizens with its "family values" and Wall Street
+        pyramid scheme.
+        IBM conned them out of millions of dollars.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>con.01,con.02,con.03</pb>
+         <vn>cheat-10.6-1,force-59-1</vn><fn>Manipulate_into_doing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="commit to memory" type="">
+      <commentary>
+        Syntax Is: NP1[agent] CON NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+        Have you conned your lines for the play yet?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fight-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to combat or oppose someone or something" type="">
+      <commentary>
+         Syntax Is: NP1 FIGHT NP2
+         Includes: FIGHT BACK, FIGHT DOWN, FIGHT OFF, FIGHT AGAINST
+      </commentary>
+      <examples>
+         The armies fought on the outskirts of Moscow.
+         My cats are always fighting.
+         Don't fight it, just go with the flow.
+         If they start cutting down our forest, we'll fight back.
+         He fought down the urge to do the man harm.
+         The family fought off the burglers.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="fight_back" version="3.0">1,2</wn>
+         <wn lemma="fight_down" version="3.0">1</wn>
+         <wn lemma="fight_off" version="3.0">1</wn>
+         <omega/><pb>fight.01,fight.02</pb>
+         <vn>battle-36.4-1,meet-36.3-2</vn><fn>Hostile_encounter,Quarreling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to strive, make a strenuous effort" type="">
+      <commentary>
+         Note: This sense implies attempting or trying to do something.
+      </commentary>
+      <examples>
+         She is fighting for her life.
+         We fought our way through brambles and bushes to reach the stream.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="promote, campaign or crusade for someone or something" type="">
+      <commentary>
+         Syntax Is: NP1 FIGHT PP{for NP}
+      </commentary>
+      <examples>
+         They are fighting for Social Security reforms.
+         She has always fought for children's rights.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

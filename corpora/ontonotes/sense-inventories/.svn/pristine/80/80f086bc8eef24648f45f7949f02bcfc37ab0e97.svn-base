@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="concern-n">
+    <commentary>
+        7Jan08 updated to wn1.2, added features, changed examples and definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a marked interest in, or focus about, something" type="">
+        <commentary>
+            CONCERN[+state][+mental][+interest][+marked][+about_something]
+            Note: implies cognitive focus, attention, interest about something, feeling responsible
+        </commentary>
+        <examples>
+            Oil reserves are the concern of the Energy Department. (what they focus on, think about)
+            The safety of his ship is a captain's main concern.  (he is focused on it, not fearful)
+            How they spend their money is no concern of ours.
+            The health of the economy should be of concern to any serious candidate.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>concern.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="personal feelings of anxiousness, worry" type="Abstraction">
+        <commentary>
+            CONCERN[+state][+emotional][+worry][+about_something]
+            Implies emotional feelings of worry, anxiety
+        </commentary>
+        <examples>
+            The accident has led to concerns of safety by the flying public.
+            They hushed up the scandal out of concern about the public reaction.
+            I always feel some concern when John is driving my car.
+            The doctor told the patient that the skin bumps were no cause for concern. 
+            Parents' concern over their children's binge drinking was addressed by the dean of the college.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>concern.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a business or commercial enterprise" type="Abstraction">
+        <commentary>
+            CONCERN[+entity][+organization][+enterprise][+commercial]
+            A commercial enterprise, a business
+        </commentary>
+        <examples>
+            There has been an increase in bankruptcies among retail concerns of that region.
+            It's a family-run concern that makes leather handbags and suitcases.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

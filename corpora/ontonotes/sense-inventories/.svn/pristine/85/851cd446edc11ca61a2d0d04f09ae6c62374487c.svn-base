@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="resume-v">    
+   <commentary>
+	No VPCs 
+   </commentary>
+
+   <sense group="1" n="1" name="restart or continue an activity after an interruption or pause" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RESUME NP2[patient] (ADVP[temporal])
+	NP1[agent] RESUME NP2[predicate] (ADVP[temporal])
+        NP1[predicate] RESUME
+      </commentary>
+      <examples>
+	John resumed speaking after taking a sip of water.
+	They will resume bus service tomorrow.
+	The bombing has resumed after three days of cease-fire.
+	Negotiations with the union will resume tomorrow.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>resume.01</pb>
+         <vn>begin-55.1-1</vn><fn>Activity_resume,Process_Resume</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="return to or recover a previous state or attribute" type="">
+      <commentary>
+       Syntax Is: NP1[topic] RESUME NP2[attribute]
+      </commentary>
+      <examples>
+	The judge resumed his seat and called the court to order.
+	The old candelabra has resumed its luster after I polished it.
+	The king resumed the throne after four years in exile.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+    <sense group="1" n="3" name="summarize" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] RESUME NP2[patient[abstract]]
+      </commentary>
+      <examples>
+	The lawyer resumed the issues for the court in his final statement.
+	Shall I resume what happened during our last meeting before we begin today?
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb/>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>  
+</inventory>

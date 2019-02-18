@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="still-v">    
+   <commentary>
+   Contains duplicate WN mappings for WN1. 
+   </commentary>
+   <sense group="1" n="1" name="Calm psychologically or metaphorically." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] STILL NP2[patient[abstract]]
+      NP1[stimulus] STILL NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      His efforts stilled the 'dragons' of worry and fear.
+      The news stilled my conscience, if only for a moment.
+      We must still the fears that beat in the hearts of every American.
+      The legislation stilled every mechanism of economic growth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>subjugate-42.3</vn><fn>still.01</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Physically still either a whole entity or a part
+         of a whole entity." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent] STILL NP2[patient[concrete]]
+      NP1[stimulus] STILL NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      Please still your children in the church! They should not speak!
+      The loss stilled his heart and he died.
+      Still your hands - your nervous habits are killing me!
+      He still the puck and readied himself for the offensive.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>subjugate-42.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

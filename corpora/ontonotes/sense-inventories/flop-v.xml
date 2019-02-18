@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fall loosely or suddenly" type="">  
+      <commentary>
+        Syntax Is: NP1 FLOP
+      </commentary>
+      <examples>
+        Tony flopped onto his bed, not even taking the time to set his
+        alarm clock.
+        Several large fish flopped onto the beach.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flop.01</pb>
+         <vn>assuming_position-50,spatial_configuration-47.6</vn><fn>Moving_in_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fail utterly" type="">
+      <commentary>
+        Syntax Is: NP1 FLOP
+      </commentary>
+      <examples>
+        Had the project flopped, the film would have been broken into three
+        short films.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flop.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

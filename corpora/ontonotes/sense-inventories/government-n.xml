@@ -1,0 +1,116 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="government-n">
+    <commentary>
+        9Jan08 added senses, features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the people who are the administrative agents" type="">
+        <commentary>
+            GOVERNMENT[+entity][+group][+person][+administrator][+political]
+            Note: refers to the people who administrate, not the system of rules (Sense 2)
+        </commentary>
+        <examples>
+            The new liberal government is likely to advocate raising taxes.
+            The government has not yet decided whether to recognize that nation.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="political system of enforceable rules" type="">
+        <commentary>
+            GOVERNMENT[+system][+rule][+political][+enforceable]
+            The system of rules by which a community is governed, not the people who administrate (Sense 1)
+        </commentary>
+        <examples>
+            A stable economic situation is necessary for the existence of democratic governments.
+            It was a tyrannical government in which the citizens had no property rights and no voting rights.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="the act of governing, administrating" type="Event">
+        <commentary>
+	    GOVERNMENT[+event][+activity][+regulatory][+political]
+	    The act of exercising authority, administrating
+	    Note: X's government of Y -&gt; X governs Y (nominalization
+	    </commentary>
+        <examples>
+            That nation's government of its outlying territories is becoming more difficult over time.
+            He will assume the government of the infirmary for at least six months.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="the study of political rules and systems" type="">
+        <commentary>
+            GOVERNMENT[+entity][+symbolic][+domain][+knowledge][+political_rule]
+            The study of government and other political units
+        </commentary>
+        <examples>
+            The curriculum includes courses in economics, government and history.
+            He is a professor of government at the university.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="federal financial bonds" type="">
+        <commentary>
+            GOVERNMENT[+entity][+artifact][+financial][+debt][+bond][+federal]
+            Note: often occurs in the plural
+        </commentary>
+        <examples>
+            John bought municipals and governments as part of his financial portfolio.
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="linguistic relation of subordination of one constituent to another" type="Event">
+        <commentary>
+            GOVERNMENT[+relation][+linguistic][+control][+constituent]
+        </commentary>
+        <examples>
+            Noam Chomsky has advocated a theory of government and binding between linguistic constituents.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="shishkebob of Sense 1 and Sense 2" type="">
+        <commentary>
+            Choose this sense, if you think both Sense 1 and Sense 2 could apply.
+        </commentary>
+        <examples>
+            Government forces may intervene in this situation. (Could be people, agents, and/or rules regulations)
+            This government agency is under investigation. (could be the people, and/or the rules and policies of it.)
+        </examples>
+        <mappings>
+            <wn version="MAC">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

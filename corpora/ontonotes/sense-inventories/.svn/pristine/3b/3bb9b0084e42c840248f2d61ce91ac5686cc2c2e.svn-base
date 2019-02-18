@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="overload-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) become overloaded or overcharged" type="">  
+      <commentary>
+        Syntax Is: NP1 OVERLOAD (NP2) (with) (NP3)
+      </commentary>
+      <examples>
+        He overloaded his argument with speculation.
+        The server overloaded.
+        They think we have overloaded the car.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>overload.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

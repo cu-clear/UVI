@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ask-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="inquire, seek an answer" type="">
+      <commentary>
+      Syntax Includes: 
+        NP[agent[human]] ASK NP
+        NP[agent[human]] ASK PP[abstract]
+        NP[agent[human]] ASK NP PP{abstract]
+      </commentary>
+      <examples>
+	You asked that question before.
+        They were asking about John's mother's health.
+        I asked directions to the art museum.
+        Let's ask Professor Smith for an explanation of Calabi-Yau space.
+        Let's ask the Tarot cards about our future.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,3</wn>
+	 <omega/><pb>ask.01</pb>
+        <vn>beg-58.2,inquire-37.1.2</vn><fn>Questioning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="request or demand something from someone" type="">
+      <commentary>
+      Syntax Is:  NP[agent[human]] ASK NP[patient[human]] for NP[concrete]
+       Note: when there is SCOMP, it is still understood that human1 asks human2 for X
+      </commentary>
+      <examples>
+        I think he'll ask her for a divorce.
+        She asked her boss for a new computer.
+        He asked only to be left in peace.
+        This is asking a lot of such young children.
+        They ask that their employees only smoke in designated areas.
+      </examples>
+      <mappings>
+	 <wn version="3.0">2,4</wn>
+	 <omega/><pb>ask.02</pb>
+         <vn>beg-58.2,order-60-1,urge-58.1</vn><fn>Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="specify a price or value for something" type="">
+      <commentary>
+        NP[agent] ASK NP[quantity] for NP
+      </commentary>
+      <examples>
+        John thought the gallery asked too much for that painting.
+        The kidnappers were asking a million dollars for their hostage.
+        They usually ask a higher price than what they really expect to get.
+      </examples>
+      <mappings>
+	 <wn version="3.0">7</wn>
+	 <omega/><pb>ask.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="need, call for" type="">
+      <commentary>
+       Syntax Includes: 
+        NP[theme] ASK NP
+        NP[theme] ASK PP
+         Includes: ASK FOR
+      </commentary>
+      <examples>
+       This dish asks for a little pepper to spice it up.
+       This run-down old house is just asking for some renovation.
+       His job asks for a lot of patience and focus.
+      </examples>
+      <mappings>
+	 <wn version="3.0">6</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="acting in a manner that results in specific consequences" type="">
+      <commentary>
+      Syntax Is: NP1[agent] ASK FOR NP2
+       Includes: ASK FOR
+      </commentary>
+      <examples>
+        He's asking for trouble.
+        He's asking for a beating.
+        More than two pieces of luggage and you're asking for a world of stress.
+      </examples>
+      <mappings>
+         <wn lemma="ask_for" version="3.0">1</wn>
+         <wn lemma="ask_for_it" version="3.0">1</wn>
+         <wn lemma="ask_for_trouble" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="invite" type="">
+      <commentary>
+      Syntax Is:  NP1[agent[human]] ASK NP2[patient[human]]
+        Includes: ASK IN, ASK OUT, ASK OVER, ASK ROUND
+      </commentary>
+      <examples>
+        Should a woman ask a man out for a date?
+        I asked her in for a drink, but she politely refused.
+        Why don't we ask the neighbors over for a barbeque?
+        I'm trying to pluck up the courage to ask him round for a drink.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="ask_in" version="3.0">1</wn>
+         <wn lemma="ask_out" version="3.0">1</wn>
+         <wn lemma="ask_over" version="3.0">1</wn>
+         <wn lemma="ask_round" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

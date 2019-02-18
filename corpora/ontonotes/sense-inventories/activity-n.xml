@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="activity-n">
+    <commentary>
+        Merged groups 3 and 4, revised definitions, added examples and commentary. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="project, a specific pursuit" type="">
+        <commentary>
+            ACTIVITY[+pursuit][+specific]
+            any specific activity
+        </commentary>
+        <examples>
+            You must avoid most recreational activities while your leg is healing.
+            We have a fun crafts activity planned for class today.
+            Business activity has picked up in recent months.
+            Terrorist activities in Europe have increased in recent weeks.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="state of being active, bustling about" type="">
+        <commentary>
+	    ACTIVITY[+event][+busyness][+physical/+mental]
+	    the state of being active
+	    Note: is not a countable noun, as can be the case for sense 1
+	    </commentary>
+        <examples>
+            One's general level of activity declines with age.
+            These games encourage creative activity in children.
+            We enjoyed watching all the activity on the docks at the harbor.
+            There is little activity on Main Street on week nights.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="natural or organic process" type="">
+        <commentary>
+            ACTIVITY[+event][+organic][+chemical/+geological/+physiological]
+            a process existing in or produced by nature (rather than by the intent
+            of human beings)
+        </commentary>
+        <examples>
+            Volcanic activity no longer scared the townspeople.
+            The equipment has been recording seismic activity on the sea floor for days.
+            This drug impedes certain cellular activities.
+            In vitro catalytic activity from microsomes from human liver samples is being studied.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 4 5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

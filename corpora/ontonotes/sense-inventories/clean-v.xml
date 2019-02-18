@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="clean-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove dirt, filth or other unwanted substances" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       The dentist cleaned my teeth.
+       Clean your fingernails before dinner.
+       Top-ten Eco-friendly ways to clean the house.
+       Clean the spots off the rug.
+       He cleaned the wound.
+       She cleans house compulsively as her husband starts to spend more time in pubs.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5,8,9</wn>
+         <omega/><pb>clean.01,clean.02</pb>
+         <vn>clear-10.3-1,other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove all contents or possession from" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       The boys cleaned the sandwich platters of sandwiches.
+       Having cleaned the pantry bare of cookies, coffee and bread, we headed for the big city.
+       The trees were cleaned of apples by the storm.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>clean.03</pb>
+         <vn>clear-10.3-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Deprive wholly of money or valuables, may be in gambling" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       The other players cleaned him completely.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="clean_out" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Remove feathers, pits, shells, skin, husks" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       Clean the grain before milling it.
+       Try to clean the fish as soon as possible after removing it from the water.
+       Clean the turkey by removing the gizzards, neck, etc.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,10</wn>
+         <omega/><pb>NM</pb>
+         <vn>clear-10.3-1,other_cos-45.4,preparing-26.3-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="VPC/Multiword expression" type="vpc">
+      <commentary>
+       Some of these vpc's/mwe's may have the same sense as those listed above - please tag accordingly
+       based on whether or not it's a vpc or not.
+       Includes:
+       clean_house
+       clean_out
+       clean_up
+      </commentary>
+      <examples>
+       She cleans house every week.
+       The boss cleaned out all the lazy workers.
+       We cleaned out the drawers.
+       The robbers cleaned us out in a few hours.
+       The investor really cleaned up when the stock market went up.
+       Clean up before you go to the party!
+       Clean up your room!
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="clean_house" version="3.0">1</wn>
+         <wn lemma="clean_out" version="3.0">1,2,3</wn>
+         <wn lemma="clean_up" version="3.0">1,2,3,4</wn> 
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="vieweg" sample_score="-"/>
+</inventory>

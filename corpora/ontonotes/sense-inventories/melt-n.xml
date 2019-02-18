@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="melt-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the process of thawing frozen liquid" type="">
+        <commentary>
+            MELT[+process][+thawing][+of_liquid][+frozen]
+        </commentary>
+        <examples>
+            The spring melt occurred late this year.
+            The power failure caused the melt of the ice cream in the freezer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an amount of thawed liquid" type="">
+        <commentary>
+            MELT[+quantity][+amount][+of_liquid][+thawed]
+            Note: relates to Sense 1, but refers to an amount of liquid, rather than the activity of thawing
+        </commentary>
+        <examples>
+            The melt from that snowpack has increased this year.
+            There was less melt recorded on glaciers in Antarctica than in earlier years.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a hot sandwich with melted cheese" type="">
+        <commentary>
+            MELT[+artifact][+food][+sandwich][+hot][+with_cheese]
+        </commentary>
+        <examples>
+            Tom ordered a tuna melt with french fries.
+            Today's special is a patty melt with caramelized onions and gruyere cheese.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

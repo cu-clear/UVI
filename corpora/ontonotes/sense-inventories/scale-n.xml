@@ -1,0 +1,138 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="scale-n">
+    <commentary>
+        17oct06 update to wn2.1, combined senses 2 and 3, added examples   ahouston
+        22oct06 added sense 7, added features, modified definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="abstract system of measurements, graduated according to some rule" type="">
+        <commentary>
+            SCALE[+system][+measurement][+graduated][+magnitude]
+            Note: refers to the system of graduated markings, measurements
+        </commentary>
+        <examples>
+            Judging on a scale of 1 to 10, today was a 9.
+            How bad is the pain on a scale of 1 to 10?
+            These employees are at the top of the pay scale in their industry.
+            The two friends came from opposite ends of the social scale. (figurative extension)
+            They converted the numbers to a binary scale. (2-value system)
+            The vertical axis is given on a logarithmic scale.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the relative magnitude or size of something" type="">
+        <commentary>
+            SCALE[+quantity][+magnitude][+relative]
+            Note: refers to a quantitative size, ratio or relative magnitude
+        </commentary>
+        <examples>
+            They entertained on a grand scale.
+            Mass production has lead to economies of scale in many industries. (bigger scale is cheaper)
+            The scale of this map is 1:2500.  (a ratio of size to something else)
+            Mary's boutique started out on a small scale, but grew quickly.
+            The model is not drawn to scale. (not a uniform mapping of size compared to the original)
+            These processes occur over very large time scales, e.g., tens of millions of years.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Placeholder sense: Do Not Choose" type="">
+        <commentary>   
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a device that measures weight" type="">
+        <commentary>
+            SCALE[+entity][+physical][+artifact][+device][+measuring][+weight]
+            a tool for measuring, often weight.
+        </commentary>
+        <examples>
+            John weighs himself every morning on the bathroom scale.
+            Use the postage scale to see how many stamps this package will need.
+            The sign over the door of the apothecary depicted a pair of scales.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="protective sheath covering something" type="">
+        <commentary>
+            SCALE[+entity][+physical][+covering][+sheathing][+protective][+plant/+animal/+garment]
+            plates of skin or shell (or metal) forming a covering
+        </commentary>
+        <examples>
+            That fish has pretty irridescent scales.
+            We closely examined the scales on the moth's wings.
+            This lotion will smooth away scales of dead, dry skin and leave your face smoother and younger-looking.
+            This type of arrow can easily pierce the types of scale armor sewn onto leather.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="notes" type="Music">
+        <commentary>
+            SCALE[+system][+sequence][+cyclic][+note][+musical]
+            a series of notes differing in pitch according to a specific scheme
+            Note: a specific, technical and narrow use of Sense 1
+        </commentary>
+        <examples>
+            The second movement of the concerto is written in a minor scale.
+            He illustrated the scale of C major by playing its sequence of notes on the piano.
+            They could hear the soprano singing scales in the practice room.
+            Indian music uses different scales than most Western music, employing quarter tones.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a deposit or residue" type="">
+        <commentary>
+            SCALE[+entity][+physical][+covering][+coating][+substance][+deposit][+residue]
+            Note: similar to Sense 5 in terms of a covering, but it is not protective in nature, just a residue
+        </commentary>
+        <examples>
+            The old tea kettle had a build-up of scale inside it.
+            The dental hygienist removed scale from the patient's teeth with a metal implement.
+        </examples>
+        <mappings>
+            <wn version="MAC">3a,3b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

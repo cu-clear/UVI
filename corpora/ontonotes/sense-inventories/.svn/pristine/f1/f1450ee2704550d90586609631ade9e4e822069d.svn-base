@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bind-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Adhere or bond physically, emotionally or socially" type="">
+      <commentary>
+        NOTE: Watch for adjectival uses of 'bound' as in 'The train is
+        bound for London.' or 'He is bound to win the World Series.' Tag
+        these as X. 
+      </commentary>
+      <examples>
+     Do not be bound together with unbelievers.
+     Will this wallpaper bind to the wall?
+     The hydrogen binds with oxygen.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,9</wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>bind.01</pb>
+         <vn>shake-22.3-2-1</vn><fn>Inchoative_Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Wrap around as to restrain, cover, splice, or bandage" type="">
+      <commentary>
+      Includes BIND UP.
+     Syntax Is:  NP1[agent] BIND NP2[theme[object]] (PP NP3[instrument])
+      NOTE: The instrument may not be stated but is always implied as in
+      examples 1,2 and 5.  Includes metaphorical usages.
+      </commentary>
+      <examples>
+      The Chinese would bind the feet of their women.
+      They bound their victims to the chair.
+      Herman bound her with a thick rope. 
+      They bound the wound with gauze.
+      Bind up the old newspapers and bring them to the shed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4,5,8</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>bind.01</pb>
+         <vn>shake-22.3-2-1</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="Force, obligate or commit to something" type="">
+      <commentary>
+       Syntax Include:
+        NP1[agent] BIND NP2[patient] PP
+        NP1[patient] BIND PP
+      </commentary>
+      <examples>
+      He is bound by a contract.
+      I'll bind you to your word.
+      He is also firmly bound by his hard-line rhetoric. 
+      It is necessary for the government to bind itself to certain objectives.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>bind.01</pb>
+         <vn>NM</vn><fn>Attaching,Imposing_obligation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="BOOK MAKING: provide with a binding" type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Bind the books in leather.
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>shake-22.3-2-1</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="5" name="(Cause to) become constipated" type="">
+      <commentary>
+      </commentary>
+      <examples>
+      These foods tend to bind you.
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="6" name="KNITTING: complete and remove several stiches or an entire row" type="">
+      <commentary>
+      Is: BIND OFF
+      </commentary>
+      <examples>
+      I covered several (lots!) of the more common ways to bind off.
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bind_off" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="7" name="Order a defendant to be placed in custody to
+ await results of a trial" type="">
+      <commentary>
+      Is: BIND OVER
+      </commentary>
+      <examples>
+      The judge bound him over for trial.
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bind_over" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm,brownsw,greenlm" sample_score="-"/>  
+</inventory>

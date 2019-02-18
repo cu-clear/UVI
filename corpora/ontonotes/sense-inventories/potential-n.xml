@@ -1,0 +1,63 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="potential-n">
+    <commentary>
+        1feb07 modified features of Sense-1, added commentary  ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a possible state, a future possibility" type="">
+        <commentary>
+            POTENTIAL[+event][+possible]
+            Note: refers to a possible state of affairs that could happen in the future
+            Note: occurs in phrases 'potential for X' where X is a possible, observable future event
+        </commentary>
+        <examples>
+            A stop sign could reduce the potential for accidents at that busy street corner.
+            The director has been trying to identify and address all potential problems before the planetary launch.
+            Betty argued that there is some potential for peaceful use of nuclear energy.
+            The analysts now consider his potential for winning the next election to be low.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a latent capability or talent" type="">
+        <commentary>
+            POTENTIAL[+quality][+capability][+latent]
+            Note: does not refer to a possible future -event- (Sense 1) , but a development of inherent ability, quality.
+            Note: occurs in phrases 'X's potential' where X possesses an inherent quality
+        </commentary>
+        <examples>
+            The review says that the 24-year-old Australian shows great potential as a major dramatic soprano.
+            Unfortunately, the potentials of the technology were never wholly realized.
+            He saw the young entrepreneur's potential where others only saw failure.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="required work to move a particle in a gravitational or electric field" type="">
+        <commentary>
+            POTENTIAL[+quantity][+function][+work][+field][+electrical/+gravitational]
+        </commentary>
+        <examples>
+            There is an electric potential at every point in space.
+            Electric potential is work per unit charge.
+            A book lying on a table has greater gravitational potential than a book lying on the floor.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

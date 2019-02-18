@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="map-v">    
+   <commentary>
+    Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="Make a map of; show or establish the
+   features or details of; explore or survey for the purposes of making a
+   map." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      NASA is making new efforts to map the surface of Venus.
+      We haven't even begun to map the many galaxies that we know exist.
+      Historians attempt to map the literature of early Europe.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Plan, delineate, or arrange in detail." type="">
+      <commentary>
+      INCLUDES: MAP OUT 
+      Syntax Is: NP1[agent] MAP NP2[patient]
+      </commentary>
+      <examples>
+      They mapped out a strategy in several phrases. 
+      Tokyo administrators hired a firm to design a computer program to map
+      its new waterworks.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="map_out" version="3.0">1</wn>
+         <omega></omega><pb>map.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Locate within a specific region of a
+         chromosome in relation to known DNA or gene sequences." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Scientists are mapping the human genome.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Depict as if on a map." type="">
+      <commentary>
+      NOTE: Must be metaphorical.
+      </commentary>
+      <examples>
+      Sorrow was mapped on the mother's face. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="To establish a mapping (of mathematical
+         elements or sets); make a set of one to one correspondences." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      John mapped reference frames in language onto those mental models.
+      Can infants map meaning onto newly segmented words?
+      How is a two dimensional matrix mapped onto a linear array?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>map.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

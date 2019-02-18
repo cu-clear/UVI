@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="contribute-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give, provide, donate something" type="">  
+      <commentary>
+	Syntax Is:
+         NP[agent] CONTRIBUTE NP[patient] (PP{P NP[goal]})
+         NP[agent] CONTRIBUTE NP[patient] (PP{P NP[recipient]})  
+      </commentary>
+      <examples>
+	Corporations are contributing more to charities this year.
+	We contributed $100 to the wildlife fund.
+	Marsha has contributed two articles to the New Yorker.
+	They have contributed their weekends to building homes for the poor.
+	The town must contribute half the funding for the new senior center.
+	She contributes wit and perspective to our meetings.
+	There are caps on how much groups can contribute to campaign funds.
+	He contributed nothing to this project.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>contribute.01</pb>
+         <vn>NM</vn><fn>Giving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="be a factor, play a role in" type="">
+      <commentary>
+       Syntax Includes:	
+        NP[instrument]  CONTRIBUTE_TO NP[result]
+        NP[instrument]  CONTRIBUTE NP[result]
+	 Note: uses the intransitive CONTRIBUTE_TO
+          Includes: CONTRIBUTE TO
+      </commentary>
+      <examples>
+	The Internet has contributed to the rise of telecommuting.
+	What were the forces that contributed to the decline of the Roman Empire?
+	John doesn't want to contribute to the delinquency of minors.
+        Weather may have contributed to the man's death.
+        Several factors contributed to votes being lost.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>contribute-13.2-1-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>  
+</inventory>

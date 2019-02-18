@@ -1,0 +1,153 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="kill-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause death, be fatal" type="">
+      <commentary>
+        Includes: KILL OFF, KILL ONESELF (in the sense of suicide)
+      </commentary>
+      <examples>
+        This man killed several people when he tried to rob a bank.
+        She was killed in the collision of three cars.
+        Cigarettes kill.
+        Drunken driving kills.
+        AIDS has killed thousands in Africa.
+        We killed off all the coyotes, wolves, cougars, and bears that
+        preyed on white tailed deer.
+        Sadly, he killed himself.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,9,10</wn>
+         <wn lemma="kill_off" version="3.0">1</wn>
+         <omega></omega><pb>kill.01,kill.02</pb>
+         <vn>murder-42.1-1</vn><fn>Killing</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="cause great pain or anguish" type="">
+      <commentary>
+        Note: can be "self-inflicted torment"--compare to KILL ONESELF in senses 1 and 6
+        Note: compare with sense 5 ambiguous examples
+      </commentary>
+      <examples>
+        These new shoes are killing me!
+        The daily stress of her work is killing her.
+        I am killing myself for not figuring this out earlier.
+        It seemed like I was killing myself for a losing program and I was
+        considering leaving myself.
+        I'm killing myself for your love and again all is lost.
+        She is still killing herself over the next project, and she still
+        looks great.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,13</wn>
+         <wn lemma="kill_oneself" version="3.0">1</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>pain-40.8.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="eliminate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        To kill poverty, the poor countries themselves must get their house in order.
+        Kill these lines in the President's speech.
+        Eating artichokes kills the taste of all other foods.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,12,15</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>kill.01</pb>
+         <vn>remove-10.1</vn><fn>NM</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="thwart" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The conference killed the proposal for limited formal discovery in criminal proceedings.
+        The City Council has killed an attempt to set a spending limit for local elections.
+        City Council members also killed a motion that would have banned unleashed dogs in any public park.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>kill.01</pb>
+         <vn>stop-55.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="overwhelm" type="">
+      <commentary>
+        Note: compare example 2 with sense 2 (pain and anguish);
+        Example 2 is ambiguous in reference to the overwhelming sensation (could
+        be interpreted as awe or emotional distress); ambiguous examples should
+        be tagged with this sense
+      </commentary>
+      <examples>
+        The comedian was so funny, he was killing me!
+        It just kills me to watch the emergency vets on animal planet.
+        He's killing me softly with his song.
+        This movie is killing audiences worldwide!
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="6" name="cease operation of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The the wind came back and we killed the engine.
+        They killed the lights and they killed the music.
+        They had killed the battery to the point where they had to jump start the car.
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>stop-55.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="7" name="Do, succeed with great force" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She killed the ball.
+        He killed the ball from the back court causing the side out in our
+        favor.
+        You really killed that speech!
+      </examples>
+      <mappings>
+         <wn version="3.0">7,8</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="8" name="drink down" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She killed a bottle of brandy that night.
+        I killed a glass of La Trappe Tripel, and then I killed a half-liter of wheat beer goodness.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>consume-66</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

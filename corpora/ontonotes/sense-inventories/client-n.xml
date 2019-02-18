@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="client-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a case accepted by a lawyer or legal firm" type="">
+        <commentary>
+            CLIENT[+consumer][+social][+service][+legal]
+        </commentary>
+        <examples>
+            They have decided to accept the high-profile politician as their client in this lawsuit.
+            The young attorney is working hard to draw in more clients to his practice.
+            Joe dropped the case when he suspected his client of lying.
+            The clients in that case are two manufacturing firms.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a consumer or purchaser of any goods or services" type="">
+        <commentary>
+            CLIENT[+consumer][+social][+product]
+        </commentary>
+        <examples>
+            Most of Jane's clients at the beauty salon tip her generously.
+            The coffee shop angered its regular clients by opening late this morning.
+            Those two soft drink makers are the biggest clients of our marketing agency.
+            Bill's advertising agency has a three o'clock appointment with a potential new client.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a computer node on a network that accepts services from a server" type="">
+        <commentary>
+            CONSUMER[+consumer][+machine][+computer][+service]
+        </commentary>
+        <examples>
+            Our computers are configured in a client-server network.
+            The firewall server prevents unwanted programs, email and other data from reaching the client machines.
+            The client makes a request for a url and the server sends back that page in html format.
+            All the programs are running on the server and displayed on various clients.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

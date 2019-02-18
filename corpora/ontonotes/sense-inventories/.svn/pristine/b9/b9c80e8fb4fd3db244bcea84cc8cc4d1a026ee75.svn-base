@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mold-n">
+    <commentary>
+        1sep06 - updated to WN 2.1, added features, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="fungus" type="">
+        <commentary>
+            MOLD[+entity][+organism][+fungus]
+            mould - 
+            a fungus that produces a superficial growth on vairous kinds of damp 
+            or decaying organic matter
+        </commentary>
+        <examples>
+            Penicillin is a life-saving mold that fights bacterial infections.
+            Betty scrubbed the mold off the shower walls.
+            They put preservatives in baked goods to retard the bread mold.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="loose, loamy soil" type="">
+        <commentary>
+            MOLD[+entity][+substance][+soil][+loose][+loamy]
+            loose soil rich in organic matter
+        </commentary>
+        <examples>
+            These plants need a nice mold, not hard, solid clay soil.
+            Bob's compost heap produces nice mold for his garden.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="process of molding" type="Event">
+        <commentary>
+	    MOLD[+event][+activity][+organic][+mildewing]
+	    molding -
+	    the process of becoming mildewed
+	    </commentary>
+        <examples>
+            A dried out cork led to the wine's mold. 
+            Hang up these wet clothes now to prevent mold from starting.
+            There was a faint smell of mold to the hotel room.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="container that gives shape to what is put into it" type="">
+        <commentary>
+            MOLD[+entity][+container][+shaping]
+            cast, stamp
+            container into which liquid is poured to create a given shape when it
+            hardens
+            Note: refers to the container that shapes, not the resulting shaped form (see Sense 5)
+        </commentary>
+        <examples>
+            The candle mold is heart shaped. 
+            Molten lead is poured into these molds.
+            The sculptor breaks the mold after the bronze has hardened.
+            You can use this mold to either bake a cake in, or chill a gelatin dessert.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="defining, distinctive form or shape of something" type="">
+        <commentary>
+            MOLD[+form][+shaped][+distinctively]
+            cast, mold, stamp, mold, mould, modling, modeling, clay sculpture - 
+            the distinctive form in which a thing is made; especially a sculpture 
+            produced by molding       
+            Note: can be abstract or concrete, refers to the form of something
+        </commentary>
+        <examples>
+            Pottery of this mold was found throughout the region.
+            Mary is from the same tough mold as her grandmother.
+            Betty served a chilled dessert mold made of gelatin, whipped cream, walnuts and pineapple.
+            He went about serving hopeless causes in the mold of Don Quixote.
+            Their diplomacy is stuck in the same old mold. (figurative extension, the diplomacy has the same old style)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

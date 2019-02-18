@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="deform-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) assume a (degraded) shape." type="">  
+      <commentary>
+      Syntax Includes: 
+      NP1[agent] DEFORM NP2[patient]
+      NP1[cause] DEFORM NP2[patient] 
+      </commentary>
+      <examples>
+      The heat deformed the plastic sculpture.
+      The strong man could deform an iron bar.
+      Leprosy deformed his body.
+      The sidewalk deformed during the earthquake. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>deform.01</pb>
+         <vn>NM</vn><fn>Reshaping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Assume a different shape or form volitionally." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The Queen deformed into  a vicious monster.
+      A wizard can deform into any shape.   
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>turn-26.6.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

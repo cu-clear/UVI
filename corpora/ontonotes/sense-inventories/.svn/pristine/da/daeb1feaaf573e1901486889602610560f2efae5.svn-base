@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rally-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="large energized purposeful gathering of people" type="Event">
+        <commentary>
+            RALLY[+event][+social][+gathering][+large][+energized]
+        </commentary>
+        <examples>
+            John has attended several anti-war rallies in college.
+            The students are building a giant bonfire for the big rally before the homecoming football game.
+            The rally got out of hand when people began to jeer and throw stones.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an energized recovery to a better state" type="Event">
+        <commentary>
+            RALLY[+state][+recovery][+energized]
+            Note: implies movement away from a worse state.
+        </commentary>
+        <examples>
+            The Sox had a rally in the ninth inning and scored five runs to come from behind and win the game.
+            Stocks had a modest rally this week based on some encouraging economic news.
+            Unfortunately his rally against the cancer was short-lived and he died last week.
+            The cavalry officer charged to the front and led his men in a rally against the enemy infantry.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>rally.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a vehicle race on public roads" type="">
+        <commentary>
+            RALLY[+event][+social][+competition][+vehicle][+race][+road][+public]
+        </commentary>
+        <examples>
+            John took Mary to his favorite motorcycle rally.
+            Two roads have been blocked off for the stock car rally today.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a rapid exchange of a ball during game play" type="Event">
+        <commentary>
+            RALLY[+activity][+exchange][+rapid][+ball][+game]
+        </commentary>
+        <examples>
+            The two volleyball teams had a great rally until the ball was hit out of bounds.
+            The tennis pro had some brilliant rallies with his opponent during the last game.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

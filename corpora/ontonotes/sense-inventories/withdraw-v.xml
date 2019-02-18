@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="withdraw-v">
+   <commentary>
+     Contains duplicate WN senses.
+   </commentary>
+   <sense group="1" n="1" name="remove to or from a place or situation" type="">
+      <commentary>
+         Syntax is: NP WITHDRAW (PP[locative])
+                    NP WITHDRAW ONSELF (PP[locative])
+         NOTE: Also figurative
+      </commentary>
+      <examples>
+         Last year, I had to withdraw indefinitely from school.
+         The enemy troops withdrew to the border.
+         See how the tide has withdrawn to that line of rocks?
+         Let's withdraw to the library for some privacy.
+         Quietly, I withdrew myself from the room.
+         He is withdrawing from competitive skiing.
+         She'll be withdrawing from her position as CEO next year.
+         After his wife died he withdrew into a life of solitude.
+         Newsman later withdrew from his earlier position calling it premature.
+         After the accident, he withdrew into himself and refused to talk.
+         The robbers withdrew several bags of gold into the van.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,6,7,8,10,11</wn>
+         <omega/>
+         <pb>withdraw.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="recall or take back something" type="">
+      <commentary>
+       Syntax is: NP1 WITHDRAW NP2 (PP[locative])
+      </commentary>
+      <examples>
+         The FDA is withdrawing several allergy drugs from the market.
+         She vowed never to withdraw her accusations of him.
+         The Minister duly apologized unreservedly and withdrew his remarks unconditionally.
+         The UN has withdrawn its troops from the country.
+         Eleven million bottles of water had to be withdrawn from sale due to a health scare.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <omega/>
+         <pb>withdraw.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="tap a resource" type="">
+      <commentary>
+        Syntax is: NP1 WITHDRAW NP2 (PP{P NP[source]})
+      </commentary>
+      <examples>
+         The child was withdrawing water from the town well.
+         He withdrew too much money from his checking account last month.
+         That nation has probably withdrawn more than half its oil supply. 
+         I just withdrew fifty dollars from my account.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,12</wn>
+         <omega/>
+         <pb>withdraw.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="reveal or produce" type="">
+      <commentary>
+       Syntax is: NP1 WITHDRAW [concrete] NP2
+                  NP1 WITHDRAW [punctual] NP2
+      </commentary>
+      <examples>
+         He withdrew a knife from his pocket.
+         The magician will now withdraw a rabbit from his hat.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/>
+         <pb>withdraw.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>
+</inventory>

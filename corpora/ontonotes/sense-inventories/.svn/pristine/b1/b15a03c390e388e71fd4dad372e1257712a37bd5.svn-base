@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hesitate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hold back in uncertainty or unwillingness" type="">
+      <commentary>
+        Syntax Is: NP1[agent] HESITATE [predicate]
+        NOTE: Use this sense only where HESITATE is followed by an
+        infinitival verb. Observe examples below.
+      </commentary>
+      <examples>
+        Authorities hesitate to quote exact figures.
+        The FBI won't hesitate to act.
+        Do you hesitate to buy what you like?
+        Neighbors hesitated to call the police.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>hesitate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="interrupt temporarily an activity" type="">
+      <commentary>
+        Syntax Is: NP1 HESITATE (PP)
+        NOTE: Compare to Sense 1: Sense 2 is used where HESITATE is not
+        followed by an infinitival verb, but rather an optional PP.  
+      </commentary>
+      <examples>
+        He hesitated before giving Slavin the knock-out blow.
+        As he pulled towards a green light, he hesitated, then decided to speed up.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <omega/><pb>hesitate.01</pb>
+         <vn>linger-53.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="command-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be in command of; exercise authority or
+ control over." type="">  
+      <commentary>
+      Syntax Is:
+        NP1[agent[human]] COMMAND NP2[patient[plural]
+      
+       NOTE: PATIENT may be animate or inanimate. [+human] can be an
+       organization made of human entities (like sentence 3). NP2 CANNOT be a count noun like
+       'dog' (cannot be split up into smaller components) but must be a
+       mass noun like 'company' or 'budget' (can be split up into smaller
+       components) or a plural noun like 'dogs'.
+      </commentary>
+      <examples>
+      The general commanded a huge army.
+      The President commands the military forces.
+      The CFO commands a substantial budget. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>command.02</pb>
+         <vn>NM</vn><fn>Leadership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make someone do something." type="">
+      <commentary>
+     Syntax Is:
+      NP1[agent[human]] COMMAND NP2[patient[human]] 
+       NOTE: may take passive voice. Agent might not be explicit (see
+      example 3). In rare cases, the agent can be [-animate] as in example
+      4, but in these cases the agent is seen to be personified (or rather
+      'made animate').
+      </commentary>
+      <examples>
+      He commanded John to clean up his room.
+      Men are commanded by Jesus Christ to repent and be baptized.
+      Can you be commanded to worship?
+      The bumpersticker above the door commanded: 'Read The Koran.'
+      Sally commanded the dog to roll over.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>command.02</pb>
+         <vn>order-60-1</vn><fn>Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Demand as one's due." type="">
+      <commentary>
+      Syntax Is: 
+       NP1[theme[concrete]] COMMAND NP2[attribute[abstract]]
+        NOTE: no direct command is occurring here.
+      </commentary>
+      <examples>
+      Dwarfs commanded respect in Ancient Egypt.
+      This speaker commands a high fee.
+      The author commands a fair hearing from readers. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>command.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Look down on, as from above." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The villa commands the town.
+      This impressive white chateau commands and dominates the landscape.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

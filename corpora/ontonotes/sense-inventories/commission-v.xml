@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="commission-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Put into commission, as in a ship." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The Navy commissioned the USS Alabama.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Place an order for." type="">
+      <commentary>
+     Syntax Is:
+      NP1 COMMISSION NP2 
+       NOTE: the person making the object ordered is not mentioned.      
+      </commentary>
+      <examples>
+      I commissioned the poem for our anniversary.
+      The government commissioned thirty unflown flags for the soldiers. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Charge with a task." type="">
+      <commentary>
+      Note: Verb has 3 arguments: the person commissioning an action, the action,
+      and the person commissioned. Compare to Sense 2, with only 2 arguments.  
+      </commentary>
+      <examples>
+      He commissioned Velasquez to paint his portrait.
+      I've commissioned Frederick to oversee the funeral arrangements.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>commission.01</pb>
+         <vn>force-59</vn><fn>Employing,Hiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ship-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a large sea_going vessel" type="">
+        <commentary>
+            SHIP[+artifact][+vessel][+large][+sea_going]
+        </commentary>
+        <examples>
+            The immigrants traveled by ship from Ireland to America.
+            This is the dock where the cruise ships tie up. 
+            The tall sailing ships are in port in Boston this month.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a large flying vessel" type="">
+        <commentary>
+            SHIP[+artifact][+vessel][+large][+flying]
+        </commentary>
+        <examples>
+            He flies a large transport ship for the army.
+            The science fiction story takes place on board a giant intergalactic ship.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c,1d</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

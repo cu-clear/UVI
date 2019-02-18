@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="terrorize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="coerce by violence, fill with terror" type="">  
+      <commentary>
+        NP1[+agent] TERRORIZE NP2 (into) (NP3)
+      </commentary>
+      <examples>
+        He terrorized the Wizarding population.
+        Gangsters in New York frequently terrorized strikers into returning
+        to work.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>amuse-31.1</vn><fn>Cause_to_experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

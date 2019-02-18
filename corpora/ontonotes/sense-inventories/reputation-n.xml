@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="reputation-n">
+    <commentary>
+        18Jun08 -revised senses and features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="exhibiting publicly perceived ethical conduct" type="">
+        <commentary>
+            REPUTATION[+quality][+of_entity][+perceived][+by_public][+descriptive][+ethical]
+            Note: implies a positive quality
+            Note: restrictive usage of general Sense 3
+        </commentary>
+        <examples>
+            These charges of bribery have ruined his good reputation. 
+            Their firm's reputation of integrity with clients is unassailable.
+            Her reputation in the community is very important to her.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="exhibiting publicly perceived unethical conduct" type="">
+        <commentary>
+            REPUTATION[+quality][+of_conduct][+perceived][+by_public][+descriptive][-ethical]
+            Note: has a pejorative connotation
+            Note: restrictive usage of general Sense 3
+        </commentary>
+        <examples>
+            Mary discovered her daughter had quite a reputation at the local biker bar.
+            He tried to play down his wild reputation at the class reunion. 
+            I would not do business with a law firm with such a dubious and seedy reputation.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="having a publicly acknowledged attribute" type="">
+        <commentary>
+            REPUTATION[+quality][+trait][+acknowledged][+publicly]
+            Note: refers to a general characteristic, trait or skill, not an ethical or unethical conduct
+            Note: implies 'reputation of/for X' where X specifies the trait or ability
+        </commentary>
+        <examples>
+            Jane has a reputation for being a stickler on details.
+            Boston lived up to its reputation as a city of aggressive, dangerous drivers.
+            That breed of dog has a reputation for being high strung.
+            Our reputations are riding on completing this project on time.  (quality of being competent)
+            This university only grants tenure to scholars with established reputations. (quality of being excellent in their field)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,86 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="vault-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a burial chamber, usually underground" type="">
+        <commentary>
+            VAULT[+entity][+physical][+room][+chamber][+burial]
+        </commentary>
+        <examples>
+            Bob's grandfather is buried in the family vault.
+            The king was buried in a vault beneath the cathedral.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a secure storage room for valuables" type="">
+        <commentary>
+            VAULT[+entity][+physical][+room][+secure][+storage][+valuables]
+        </commentary>
+        <examples>
+            The president of the bank knows the combination to the vault.
+            They keep the furs in a vault for cold storage during the summer.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="arched ceiling or roof of a building" type="">
+        <commentary>
+            VAULT[+entity][+physical][+structure][+arched][+architectural][+ceiling]
+        </commentary>
+        <examples>
+            This church has a famous fresco painted on its vault.
+            We looked up at the vault of capitol building.
+            The poem described the blue vault of heaven. (figurative extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="act of jumping over an obstacle" type="Event">
+        <commentary>
+            VAULT[+event][+action][+physical][+jump][+over_obstacle]
+        </commentary>
+        <examples>
+            The athlete's vault over the 7-foot bar was astounding.
+            John's older brother showed him how to fall from a vault.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>vault.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="roof of a body cavity" type="">
+        <commentary>
+            VAULT[+entity][+physical][+structure][+arched][+anatomical][+roof][+cavity][+body]
+        </commentary>
+        <examples>
+            The brain surgeon made a small hole in the cranial vault to relieve the pressure.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

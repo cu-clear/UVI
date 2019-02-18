@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="prompt-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a cue given to someone for assistance" type="Event">
+        <commentary>
+            PROMPT[+event][+communication][+assistance][+cue]
+        </commentary>
+        <examples>
+            The teacher gave the children prompts when it was their turn to walk on stage.
+            The actor got a prompt for his next line from the prompter in the pit.
+            John asked Mary out for a date without any prompts from me.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="symbol on a computer monitor that indicates readiness for input" type="">
+        <commentary>
+            PROMPT[+artifact][+symbol][+computer_monitor][+indicator][+of_input_readiness]
+        </commentary>
+        <examples>
+            John typed a Unix command at the prompt.
+            The prompt symbols for different Unix shells are different.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the time limit imposed on repayment of an account" type="">
+        <commentary>
+            PROMPT[+quantity][+limit][+time][+for_payment][+of_account]
+        </commentary>
+        <examples>
+            The prompt on this promissory note is 90 days.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

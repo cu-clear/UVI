@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lie-v">    
+   <commentary>
+     Includes: LIE ABOUT, LIE AROUND, LIE AWAKE, LIE DORMANT, LIE DOWN, LIE IN, LIE IN WAIT, LIE LOW
+   </commentary>
+   <sense group="1" n="1" name="be or become situated, often in a horizontal position" type="">  
+      <commentary>
+        Note: May be metaphorical.
+      </commentary>
+      <examples>
+        Your book is lying on the hall table.
+	They see nothing lying in the path of a successful IPO for their firm.
+	He likes to lie on the sofa and drink a scotch after work.
+        As you lie still, the scanner parts revolve around you.
+	John decided to lie on the floor because he was dizzy.
+	All he does is lie around!
+        Sometimes I lay awake at night and wonder. 
+        Gardai lay in wait to trap post office raiders.
+       	Your problem lies with these clogged fuel lines.
+	The decision of whether or not to bomb the nuclear plant lies with the president.
+        Its danger lies in its strident assertions of falsehoods.
+        Love many things, for therein lies the true strength.
+	Volcanos can lie dormant for thousands of years.
+	John wetted his hair to make it lie flat.
+	That island lies due west of Panama.
+        Let sleeping dogs lie.
+        Here lies Billy Brown, lost at sea and never found.
+     </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,6,7</wn>   
+         <wn lemma="lie_about" version="3.0">1</wn>
+         <wn lemma="lie_around" version="3.0">1</wn>
+         <wn lemma="lie_awake" version="3.0">1</wn>
+         <wn lemma="lie_dormant" version="3.0">1</wn>
+         <wn lemma="lie_down" version="3.0">1</wn>
+         <wn lemma="lie_in" version="3.0">1</wn>
+         <wn lemma="lie_in_wait" version="3.0">1</wn>
+         <wn lemma="lie_low" version="3.0">1</wn>
+         <omega/><pb>lie.01,lie.03</pb>
+         <vn>assuming_position-50,spatial_configuration-47.6</vn>
+         <fn>Being_located,Posture,Change_posture</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="tell a falsehood or untruth" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] LIE (PP{TO NP[recipient]})
+      </commentary>
+      <examples>
+	The corporate officers may have lied under oath.
+	Don't lie to me.
+	Mary thinks the papers lie about certain current events.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lie.02</pb>
+         <vn>NM</vn><fn>Prevarication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be in confinement for childbirth" type="">  
+      <commentary>
+	Includes: LIE IN
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <wn version="3.0"/>   
+         <wn lemma="lie_in" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="have sex, have intercourse" type="">  
+      <commentary>
+	Includes: LIE WITH
+      </commentary>
+      <examples>
+        He lay with women of every class, from rich to poor, and sired many children.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>   
+         <wn lemma="lie_with" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>  
+</inventory>

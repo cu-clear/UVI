@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="writ-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a legal document issued by a court" type="">
+        <commentary>
+            WRIT[+artifact][+document][+legal][+from_court]
+        </commentary>
+        <examples>
+            The court has issued a writ of execution.
+            Without a writ of entry, the action was not legal.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the power of authority to enforce compliance" type="">
+        <commentary>
+            WRIT[+state][+power][+enforcement][+of_compliance]
+        </commentary>
+        <examples>
+            These proceedings are conducted overseas where our writ does not run.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rave-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="talk in noisy and enthusiastic manner, praise" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] RAVE PP{P NP[topic]}
+        NP1[agent] RAVE ADVP
+      </commentary>
+      <examples>
+        She raved about that new restaurant.
+        He raved loudly, and mumbled incoherently.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>rave.01</pb>
+         <vn>marvel-31.3-8</vn><fn>Communication_manner,Judgment_communication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="participate in an all-night techno dance party" type="">
+      <commentary>
+        Syntax Is: NP1 RAVE
+      </commentary>
+      <examples>
+        We raved all night until about 4 in the morning.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

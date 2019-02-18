@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="attraction-n">
+    <commentary>
+        17Jun08 - merged senses 3,4 added features, revised definitions and examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="physical force that draws objects together" type="Event">
+        <commentary>
+            ATTRACTION[+force][+physical][+inanimate][+drawing_together][+of_objects]
+            Note: refers to inanimate, non-volitional forces in nature
+        </commentary>
+        <examples>
+            There is a gravitational attraction between the sun and the planets that orbit it.
+            The physics teacher demonstrated the attraction of iron filings to a magnet.
+            Wetting the mop will enhance the attraction of dust to its surface.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a thing or place that draws visitors, point of interest or entertainment" type="Abstraction">
+        <commentary>
+            ATTRACTION[+entity][+role][+point_of_interest][+available][+publicly]
+        </commentary>
+        <examples>
+            The cathedral is the town's most famous tourist attraction.
+            They've invited a famous rock star to serve as an attraction at the upcoming fundraiser.
+            This theme park added several new attractions last year.
+            The movie theater advertised coming attractions before the feature film.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="DO NOT CHOOSE" type="Abstraction">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a quality of attractiveness perceived by a living being" type="Event">
+        <commentary>
+            ATTRACTION[+quality][+attractiveness][+perceived][+by_being][+living]
+        </commentary>
+        <examples>
+            People wear perfume to enhance their sexual attraction. (to others)
+            The bright colors of the flowers are an attraction to bees and butterflies.
+            The man's self-satisified narcissistic attitude held no attraction for Mary. 
+            His deep attraction to dangerous thrills has gotten him into trouble on occasion. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="event of an observer taking notice of something in a social context" type="Event">
+        <commentary>
+            ATTRACTION[+event][+social][+notice][+by_observer]
+            Note: a nominalization:  the attraction of X -&gt; X was attracted (event)
+            Note: this sense refers to X's taking notice, not the inherent attractiveness of an external thing (Sense 4)
+        </commentary>
+        <examples>
+            The child's constant attraction of attention to himself began to annoy us. (our attention was attracted)
+            We observed the attraction of a large crowd around two men who seemed to be in a fight.  (the crowd was attracted)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

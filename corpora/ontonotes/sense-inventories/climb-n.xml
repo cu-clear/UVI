@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="climb-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an upward slope or incline" type="">
+        <commentary>
+            CLIMB[+location][+structure][+slope][+upward]
+        </commentary>
+        <examples>
+            This mountain is one of the most dangerous climbs in North America.
+            This old car won't make it up the steep climb.
+            John started them out on a fairly easy rock climb.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of ascending an object" type="Event">
+        <commentary>
+            CLIMB[+event][+ascending][+object]
+        </commentary>
+        <examples>
+            Their climb up the north face took nine hours.
+            The squirrel's climb up the vertical post seemed to defy gravity.
+            His slow climb out of poverty took years. (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="ascending altitude in air" type="Event">
+        <commentary>
+            CLIMB[+event][+ascending][+altitude][+in_air]
+        </commentary>
+        <examples>
+            The plane began its climb out of the local airspace.
+            We leveled out of the climb at 27.000 feet.
+            What is the rate of climb of that rocket?
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an increase in some measurement" type="Event">
+        <commentary>
+            CLIMB[+quantity][+increase][+of_measurement]
+        </commentary>
+        <examples>
+            There was a sudden climb in the price of oil.
+            The climb of the car's temperature gauge got Bill's attention.
+            There are several causes for the recent climb in traffic fatalities. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

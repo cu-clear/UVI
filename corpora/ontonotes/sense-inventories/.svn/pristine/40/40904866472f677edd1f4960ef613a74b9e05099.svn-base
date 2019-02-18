@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="throttle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="strangle, choke" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        He throttled his attacker.
+        A man in Boston has been throttling dozens of victims.
+        The Ultimate Cage Fighter throttled his opponent into submission.
+        Place a pillow over his head, and he is throttled.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>throttle.01</pb>
+         <vn>poison-42.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="machinery" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The mechanic throttled the carburetor.
+        The engine was throttled to reduce pressure bulid up.
+        John throttled the engine to give it more power
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">3</wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

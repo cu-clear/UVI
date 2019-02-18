@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="encourage-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="promote, advance" type="">
+      <commentary>
+         Syntax Is: NP1[agent] ENCOURAGE NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+         We should encourage good eating habits in our children.
+         The tax break is encouraging business growth in the lower income neighborhoods.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>encourage.02</pb>
+         <vn>promote-102,approve-77</vn><fn>Attempt_suasion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="inspire, invigorate" type="">
+      <commentary>
+         Syntax Is: NP1[agent] ENCOURAGE NP2[patient[animate]]
+      </commentary>
+      <examples>
+         He is trying to encourage her every day during her chemotherapy treatments.
+         His success with the first novel encouraged him to write a second.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <omega/><pb>encourage.01</pb>
+         <vn>advise-37.9,amuse-31.1,approve-77,force-59</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

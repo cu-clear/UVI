@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="birth-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="start of life" type="Event">
+        <commentary>
+	    BIRTH[+event]
+	    The starting point of life, either human or animal.  Includes both the event of being born and the act of bearing a child.
+	    </commentary>
+        <examples>
+            What's your date of birth?
+            I handed him my birth certificate.
+            She gave birth to a child.
+            Pregnant women are advised to find a birth coach.
+            They got divorced after the birth of their first child.
+            From the moment of birth, John knew he was destined to be President.
+            Mammals usually don't lay eggs, but instead reproduce with live births.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2 3
+            </wn>
+            <omega/><pb>birth.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="start of something else" type="Event">
+        <commentary>
+	    BIRTH[+event]
+	    A metaphoric kind of birth.  Refers to the starting point of anything that is not alive.
+	    </commentary>
+        <examples>
+            It's the birth of a new era!
+            I'm not a big fan of the movie &quot;Birth of a Nation&quot;.
+            A Charter of Establishment signalled the birth of our organization.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>birth.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="heredity" type="Abstraction">
+        <commentary>
+            The parentage, ancestry, or genetic background of a person.
+        </commentary>
+        <examples>
+            He looks like a peasant, but he comes from noble birth.
+            She has a good birth and a lot of money.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega/><pb>birth.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

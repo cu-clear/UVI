@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="snatch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Pick up; grab or steal an entity (concrete
+   or abstract)." type="">  
+      <commentary>
+      Includes: SNATCH UP, SNATCH AWAY
+      Syntax Is: NP1[agent] SNATCH NP2[patient]
+      </commentary>
+      <examples>
+      Before I could stop him, the dog snatched up the bone.
+      He snatched the toy from his sister.
+      Japanese companies are poised to snatch the technology and move
+      forward with implementation.
+      Politicians threaten to snatch away our civil liberties.
+      Thieves snatched my dog along with my television.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="snatch_up" version="3.0">1</wn>
+         <omega></omega><pb>snatch.01</pb>
+         <vn>steal-10.5-1,obtain-13.5.2</vn><fn>Removing,Theft</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="SNATCH AT: grasp at without necessarily actually
+         acquiring an object (concrete or abstract)." type="">
+      <commentary>
+      Is: SNATCH AT
+      </commentary>
+      <examples>
+      The cat snatched at the butterflies.
+      We're snatching at some good ideas, I think.
+      She snatched at the hem of her mother's dress.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Kidnap." type="">
+      <commentary>
+      Syntax Is: NP1[agent] SNATCH NP2[patient[human]]
+      </commentary>
+      <examples>
+      The industrialist's son was snatched yesterday by FARC.
+      Terrorists snatched an American diplomat. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>steal-10.5-1</vn><fn>Kidnapping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

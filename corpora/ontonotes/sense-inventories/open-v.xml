@@ -1,0 +1,148 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="open-v">
+   <commentary>
+     Distinction between senses 1 and 5 based on FrameNet
+        framesets for Body_Movement and Closure
+   </commentary>
+   <sense group="1" n="1" name="(cause something to) become unobstructed or
+   accessible”
+" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] OPEN NP2[patient]
+        NP1[theme] OPEN
+        Note: compare carefully to sense 5; this sense refers to
+              a 'container' being made accessible by opening a portal
+              (ie: open the box; or open the lid; or open the lid to the
+              box)
+              In sense 6, there is no distinction between portal and container.
+         Note: Concrete uses only
+      </commentary>
+      <examples>
+         She opened the hood to check the oil.
+         The door won't open.
+         We had to open the soup can with a knife.
+         The can opener opens bottles too!
+         We must open the gates!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>open.01</pb>
+         <vn>other_cos-45.4</vn><fn>Closure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause or become accessible state, make or
+   become available" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] OPEN NP2[patient]
+        NP1[theme] OPEN
+        Includes: OPEN UP
+        Note: Abstract uses only
+      </commentary>
+      <examples>
+         This decision will open him to attacks from the press.
+         That memory opened old wounds.
+         She opened her heart to me.
+         I tried talking to her about it and she opened up to me slowly.
+         They are opening that land for commercial use.
+         A position in the neurology department has just opened.
+         This opens up new possibilities!
+         The Episcopal Church recently opened up the priesthood to women.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <wn lemma="open_up" version="3.0">1,2,3,7</wn>
+         <omega/><pb>open.01</pb>
+         <vn>appear-48.1.1,other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="initiate, begin an activity or operation" type="">
+      <commentary>
+       Syntax Is: NP1 OPEN[punctual] (up) NP2[patient] (PP{with NP[instrument]})
+       Includes: OPEN UP
+      </commentary>
+      <examples>
+         He opens every lecture with a joke.
+         Stocks opened lower this morning.
+         In that chess game, white opened with the queen's knight.
+         They opened a new library downtown.
+         You need a license to open up a liquor store.
+         That store doesn't open for business on Sundays.
+         Voting has opened for the blogging scholarship.
+         Jackson Browne and Linda Ronstadt opened for The Eagles.
+         Breckenridge Resort's Peak 8 base area opened for the season this week.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,9</wn>
+         <wn lemma="open_up" version="3.0">5</wn>
+         <omega/><pb>open.02</pb>
+         <vn>establish-55.5-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="lead to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The forest suddenly opened into a field of wild flowers.
+         The master bedroom opens to a large terrace.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,10</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>open.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="unfold or extend something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] OPEN NP2[patient[concrete]]
+        Note: compare carefully to sense 1; in this sense,
+              there is no distinction between portal and container
+              (ie, you cannot rephrase example 2 as, &quot;She opened her
+               body for a hug.&quot;)
+        Includes: OPEN UP
+      </commentary>
+      <examples>
+         The eagle opened his mighty wings.
+         She opened her arms for a hug.
+         He held it underhand and opened up his fingers.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="open_up" version="3.0">1,6</wn>
+         <omega/><pb>open.01,open.03</pb>
+         <vn>other_cos-45.4,crane-40.3.2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="shoot at" type="">
+      <commentary>
+      Is: OPEN FIRE
+      </commentary>
+      <examples>
+        The troops opened fire on innocent civilians.
+        The squad opened fire on the prisoner.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="open_fire" version="3.0">1</wn> 
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="display the contents of a file or application on a computer" type="">
+      <commentary>
+      </commentary>
+       <examples>
+       I can't seem to open any of these Ascii files.
+        After you open your browser, select the preferences tab.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+   <WORD_META authors="ahouston,vieweg,duffielc,corvey,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="accumulate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to collect, acquire or gather" type="">  
+      <commentary>
+        	NP1[agent] ACCUMULATE[transitive] NP2[target]
+       	Note: different from sense 2 because sense 1 is transitive.  NP1 accumulates
+       	NP2, whether NP1 is an agent (I accumulated evidence) or a
+       	recipient (The account accumulated money).
+      </commentary>
+      <examples>
+        I am accumulating evidence for the criminal trial.
+        John had accumulated a fortune by the time he was thirty.
+        So you'd like to accumlate good karma?
+        Buyers can accumulate bonus points every time they use their credit card.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>accumulate.01</pb>
+         <vn>herd-47.5.2,obtain-13.5.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become greater as the result of a           process" type="">
+      <commentary>
+        	NP1[theme]  ACCUMULATE[intransitive] (PP{P NP[location]})
+                NP1[theme]  ACCUMULATE[instransitive] ADVP[manner]
+	Note: Sense 2 is not transitive.  Only one NP is necessary.
+      </commentary>
+      <examples>
+        Journals are accumulating in my office.
+        Dentists worry over the fact that fluorides accumulate in the body.
+        My sick days are rapidly accumulating.
+        Some chemicals are known to accumulate in the blood.
+        Carbon monoxide fumes quickly accumulated with the car engine running in the closed garage.
+        The external public debt rapidly accumulated and climbed to US$2.6 billion at the end of 1999.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>accumulate.01</pb>
+         <vn>herd-47.5.2</vn><fn>Amassing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,ahouston,corvey,dehart" sample_score="-"/>  
+</inventory>

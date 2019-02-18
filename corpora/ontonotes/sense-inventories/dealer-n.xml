@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dealer-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="an individual who sells goods" type="">
+        <commentary>
+            DEALER[+individual][+trader][+goods]
+        </commentary>
+        <examples>
+            The coin dealer took his wares to trade shows.
+            Bob said that man is not a reputable dealer of antiques, some of his stock is stolen goods.
+            The drug addicts met their dealer in an abandoned apartment building.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a trading firm" type="">
+        <commentary>
+            DEALER[+organization][+enterprise][+trading]
+        </commentary>
+        <examples>
+            I get a good discount at my local tire dealers.
+            Their family firm has been a dealer in Oriental rugs for three generations.
+            That company is a reliable appliance dealer.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="financial principal or professional in stock trades" type="">
+        <commentary>
+            DEALER[+individual][+trader][+financial]
+        </commentary>
+        <examples>
+            On black Monday the market makers and dealers took huge financial hits.
+            Nasdaq is an association of stock dealers.
+            The dealer paid a million dollars for a seat on that stock exchange.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="someone who distributes cards in a card game" type="">
+        <commentary>
+            DEALER[+individual][+distributor][+cards]
+        </commentary>
+        <examples>
+            John will be the dealer on the next hand.
+            I asked the Blackjack dealer to hit me again.
+            The pit boss told the dealer to keep reshuffling the deck.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

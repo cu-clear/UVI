@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sharpen-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make sharp or sharper; give a point to" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SHARPEN NP2[concrete]
+                   NP1[concrete] SHARPEN NP2[concrete]
+      </commentary>
+      <examples>
+        I sharpened the pencil.
+        The knife doesn't cut well and is hard to sharpen.
+        Sharpen the bottom of the post so it'll go in the ground easier.
+        Do not try to sharpen scissors with aluminum foil, it'll ruin them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,7</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sharpen.01</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_to_be_sharp</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make more precise or acute; heighten" type="">
+      <commentary>
+        Syntax is: NP1[agent] SHARPEN NP2[abstract]
+      </commentary>
+      <examples>
+        How do we sharpen the 'innovative edge'?
+        Sharpen your productivity with Steven Covey's Seven Habits.
+        Use logic puzzles to sharpen your wits.
+        Crystal structures sharpen the debate on DNA replication mechanisms.
+        Some video game have been proven to sharpen your hand-eye coordination.
+        This drug will sharpen your vision.       
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sharpen.01</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make an image or sound clearer; put into focus" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        You can use the 'Detail' tab to sharpen the branches of the tree.
+        Sharpen the image by turning the lense 12 degrees to the left.
+        Covering the holes in the white ends with tape seems to help
+        sharpen the sound.
+        It's amazing how HD really sharpens the picture.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

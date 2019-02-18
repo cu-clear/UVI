@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="harden-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) become physically or
+   metaphorcally harder." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] HARDEN NP2[patient[inanimate]]
+      NP1[topic[inanimate] HARDEN
+      </commentary>
+      <examples>
+      After one too many disappointments, John hardened his heart.
+      The cold hardened the butter.
+      The factory hardens steel.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>harden.01</pb>
+         <vn>other_cos-45.4</vn><fn>Change_of_consistency,Cause_change_of_consistency</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) become fit or habituate to." type="">
+      <commentary>
+      Syntax Includes: NP1[agent] HARDEN NP2[patient[animate]]
+      Note: Action may be reflexive. 
+      </commentary>
+      <examples>
+      This trip will harden even the most experienced traveller.
+      He hardened himself over weeks in the mountains.
+      These emotional trials have hardened me.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

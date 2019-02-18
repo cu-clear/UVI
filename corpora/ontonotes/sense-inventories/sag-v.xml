@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sag-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) droop" type="">
+      <commentary>
+        NP[+patient,+concrete] SAG
+        NP1 SAG NP2[+patient,+concrete]
+      </commentary>
+      <examples>
+        After that power line tripped out, it sagged into the tree.
+        I'm going to serve burritos so heavy, the table will sag.
+        The rear suspension sags from the weight of the sprung portion of your bike.
+        The spider sagged the capture thread by dropping the loose silk it had pulled in with its hind legs.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="sag_down" version="3.0">1</wn>
+         <omega/><pb>sag.01</pb>
+         <vn>spatial_configuration-47.6</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="decline, lose vitality" type="">
+      <commentary>
+        NP[+patient,+abstract] SAG
+      </commentary>
+      <examples>
+        The poll shows that hiring will sag, and that investor confidence is down.
+        Astronomers' spirits sagged earlier this year when the Hubble Space Telescope's 
+           new infrared camera sprang a coolant leak.
+        Their enthusiasm sagged and the group considered disbanding.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

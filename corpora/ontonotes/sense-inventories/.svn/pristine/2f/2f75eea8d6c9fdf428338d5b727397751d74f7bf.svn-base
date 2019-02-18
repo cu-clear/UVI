@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="belt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="sing loudly and forcefully" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BELT (out) NP2[theme] (PP[beneficiary])
+      </commentary>
+      <examples>
+      And it's only head voice for the high notes, hardly super chest belting.
+      "Whoa, we're half way there," the singer belted.
+      Pink dangled upside down from the rafters as she belted out "Sober".
+      As she belted out the song completely off tune, they began to laugh.
+      Denis feels the vibe as he belts out one of his favourite Christmas carols.
+      He belted out a tune for the folks.
+      He was put back in his crate and belted a tune for us.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="belt_out" version="3.0">1</wn>
+         <omega></omega><pb>belt.01,belt.04</pb>
+         <vn>performance-26.7-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="deliver a blow to, (as if) with a belt" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BELT NP2[patient] (PP[instrument|manner])
+      May be metaphorical.
+      </commentary>
+      <examples>
+      He belted his opponent.
+      A split second before he was belted, Crompton unloaded a pass to Williams.
+      "The banks are getting belted," he said.
+      Srikkanth belted the opposition in the first 15 overs during his playing days.
+      Kristen Welch belted the opposition with some great tube riding.
+      He belted his son with the same backhand blow he had shown the serf.
+      Inland regions were belted with wet snow, while rain, slush socked the shoreline.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>belt.02</pb>
+         <vn>spank-18.3</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="fasten with a belt" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BELT NP2[theme] (PP[instrument])
+      NP1[agent[animate]] BELT NP2[theme1] PP[theme2] (PP[instrument])
+      </commentary>
+      <examples>
+      She belted the sword to her waist.
+      Antek belted his coat with a strap.
+      The waist is belted with a matching suede sash.
+      She belted the robe with finality, flicking her heavy hair behind a shoulder.
+      Please explain why my dad belts his pants higher than his belly button.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>belt.03</pb>
+         <vn>tape-22.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

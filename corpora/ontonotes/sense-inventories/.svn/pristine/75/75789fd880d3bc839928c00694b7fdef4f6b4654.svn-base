@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="deduce-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="conclude, reason" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] DEDUCE NP2
+      </commentary>
+      <examples>
+        Hakuseki deduced that fully 75% of gold and 25% of silver in Japan
+        had been spent on trades with foreign countries.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>deduce-97.2,discover-84</vn><fn>Coming_to_believe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

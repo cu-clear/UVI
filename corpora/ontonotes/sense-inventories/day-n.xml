@@ -1,0 +1,163 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="day-n">
+    <commentary>
+        8Jan08 added features. ahouston
+        23Apr08 modified features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a span of time when the sun is up, daylight" type="">
+        <commentary>
+	    DAY[+event]LIGHT[+quantity][+span][+temporal][+daylight]
+	    [+state][+temporal][+daylight]
+	    daylight hours
+	    The time after sunrise and before sunset while it is light outside
+	    </commentary>
+        <examples>
+            The dawn turned night into day.
+            It is easier to make the repairs by the light of day.
+            We hastened back to the cabin while we still had some day left.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="one complete rotation of a planet on its axis, especially Earth" type="">
+        <commentary>
+            DAY [+quantity][+span][+temporal][+unit][+24_hours]
+            [+event][+physical][+rotation][+complete][+around_axis][+planetary]
+            the period of time taken by a particular planet to make a complete
+            rotation on its axis (On earth, 24hrs)
+            Note: is used in the plural as a unit of time, 'five days'
+        </commentary>
+        <examples>
+            Your swelling should go down in three days.
+            The visitors left two days later.
+            I'm expecting the package to arrive any day now. (its arrival is what is being characterized temporally)
+            The journey takes five days by horseback.
+            How long is a day on Jupiter?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a continuous span of regular human activity, usually falling within a 24-hour period" type="">
+        <commentary>
+	    DAY[+event][+quantity][+span][+temporal][+activity][+regular][+human]
+	    Note: refers to a regular continuous span of human activity, not necessarily during daylight hours
+	    Note: occurs in the singular, it refers to activities within a span, not a unit of time per se.
+	    </commentary>
+        <examples>
+            My day began at 11:00.
+            It was the longest day of his life.
+            She called it a day and went to bed.
+            It was a busy day on the stock exchange.
+            What a day the stock market had!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a defining or characterized span of time" type="">
+        <commentary>
+	    DAY[+event][+quantity][+span][+temporal][+characterized][+by_trait]
+	    Note: often refers to a historical epoch, but also could be a briefer span in the life of an individual
+	    </commentary>
+        <examples>
+            Those were the days.
+            These days it is not unusual.
+            In the day of the dinosaurs there were no cars, George.
+            In the days of the Roman Empire there were also no cars, George.
+            He was a successful pianist in his day.
+            After that day, he never believed another word she said.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="official observance, e.g., holiday" type="">
+        <commentary>
+            DAY[+event][+official][+observance]
+            a day assigned to a particular purpose or observance
+        </commentary>
+        <examples>
+            Mother's Day is coming up soon, did you get a gift?
+            I prefer Christmas Day over New Years Day.
+            On Earth Day we're all going to walk to work. 
+            The two schools have different graduation days.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="astronomy: sidereal day" type="">
+        <commentary>
+            DAY[+event][+physical][+rotation][+planetary][+sidereal]
+            the time for one complete rotation of the earth relative to a
+            particular star, about 4 minutes shorter than a mean solar day - because earth is moving around sun as it continues its daily rotation, thus affecting orientation wrt the star.
+        </commentary>
+        <examples>
+            The sidereal day is the length of time taken for the vernal equinox to return your celestial meridian.
+            A sidereal day is the rotation of the Earth measured relative to the stars.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="7" name="Do Not Choose" type="">
+        <commentary>
+            was a Proper Noun, we are not coding these
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="8" name="a state of opportunity, chance to be heard" type="">
+        <commentary>
+            DAY[+state][+social][+opportunity]
+        </commentary>
+        <examples>
+            He deserves his day in court. 
+            Every dog has his day.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- I'd be interested to see where people stick Birthday -->
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="answer-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="reply verbally or in writing to a question, comment, letter, or speech" type="">
+      <commentary>
+        Note: includes answering to charges in court.
+        NP1[that which supplies response] ANSWER NP2[stimulus] 
+        NP1[that which supplies response] ANSWER COMP[reply]
+      </commentary>
+      <examples>
+        He answered with a stinging rebuttal.
+        Will you answer my question?
+        I wrote asking whether he'd be coming to the party but he hasn't answered yet.
+        She answered that she wouldn't be able to come before nine o'clock.
+        The question concerning the meaning of life cannot be answered.
+        In its letter, the Office answers positively to the appeal sent by
+        the organizers.
+        The defendant answered to all the charges of the prosecution.
+        I answered to the charges in such a manner as to convince the
+        Committee of our innocence.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5</wn>
+         <omega/><pb>answer.01</pb>
+         <vn>NP</vn><fn>Communication_response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="react, or respond to a call, command, or stimulus" type="">  
+      <commentary>
+        NP1[that which supplies response] ANSWER NP2[stimulus] PP[instrument]
+        NP1[that which supplies response] ANSWER PP[stimulus] 
+      </commentary>
+      <examples>
+        She answered my questioning look with a sigh.
+        Someone's at the door. Would you answer it please?
+        I phoned last night but nobody answered.
+        Does anyone here answer to the name of Wallis?
+        The steering of my new car answers to the slightest touch.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,10</wn>   
+         <omega/><pb>answer.01</pb>
+         <vn>NP</vn><fn>Communication_response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="address, satisfy, or fulfill a need or criterion" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This does not answer to the drug problem in our cities.
+        Her arrival answered our need for an experienced radiologist.
+        An upturned box that answers for a seat.
+        A few words would answer.
+        My presentation most effectively answered the requirements laid out in the call for entries.
+        The drawing of the suspect answers to the description the victim gave.
+        A woman who answers to the suspect's description surfaced in another state.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,8,9</wn>
+         <omega/><pb>answer.01</pb>
+         <vn>NP</vn><fn>Communication_response</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="be accountable, responsible (for an
+         action/to someone)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She must answer for her actions.
+         I expect parents to answer for their children's behaviour.
+         Violence on television has a lot to answer for the violence in
+         schools.
+         The great thing about working for yourself is that you don't have
+         to answer to anyone.
+         They will eventually have to answer to the King.
+         The Head of the Research Academy answer to the authorities
+         empowered to make grants.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="answer_for" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwang, vieweg" sample_score="-"/>  
+</inventory>

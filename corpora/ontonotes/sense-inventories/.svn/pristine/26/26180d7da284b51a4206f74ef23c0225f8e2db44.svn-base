@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fasten-v">    
+   <commentary>
+   Contains duplicate mappings for WN1. 
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) be firmly attached or closed." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] FASTEN NP2[patient[concrete]] (ADVP[manner])
+      NP1[topic[concrete]] FASTEN (ADVP[manner])
+      </commentary>
+      <examples>
+      Fasten the lock onto the door.
+      John fastened the sheaf of papers with staples.
+      This dress fastens in the back.
+      Fasten the wire around the pole.
+      Please fasten the buttons carefully - the costume is very old.       
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fasten.01</pb>
+         <vn>shake-22.3-2-1</vn><fn>Attaching,Inchoative_attaching,Closure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) be attributed to; (cause to)
+         associate with cognitively, as when adopting a new idea." type="">
+      <commentary>
+      Includes: FASTEN ON
+      Syntax Includes:
+      NP1[agent] FASTEN NP2[patient[abstract]] (ADVP[manner])
+      NP1[topic] FASTEN PP 
+      </commentary>
+      <examples>
+      These ideas fasten together nicely.
+      She fastened her gaze on the man.
+      Mr. Rahn was poiting out an elephant rumbling through Wall Street
+      while conventional wisdom had fastened on the UAL flea.
+      He fastened on the new subject matter very quickly, discarding his
+      old beliefs. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="fasten_on" version="3.0">1</wn>
+         <omega></omega><pb>fasten.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

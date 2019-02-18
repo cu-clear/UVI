@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="aim-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="point or direct object, weapon, or blow at something or someone" type="">  
+      <commentary>
+       Syntax Is: NP1[agent] AIM[punctual] (NP2[instrument]) (PP[target])
+        Note: Focus: directing and use of the instrument to achieve a punctual goal.
+      </commentary>
+      <examples>
+        The hunter aimed an arrow (at the animal).
+        The hunter aimed carefully (at the animal). (Instrument of aim is implied.)
+        She aimed a kick at my shins.
+        He aimed an insult at me.
+        The new product is aimed at medical and legal professionals.
+        I aimed the camera so that the center spot was lined up with her face.
+        Aim your anger somewhere else!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5</wn>   
+         <omega/><pb>aim.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="wish, purpose or intend to achieve something" type="">
+      <commentary>
+      Syntax Is:  NP1 AIM (NP2[instrument[abstract]]) PP
+                  NP1 AIM (NP2[instrument[abstract]]) COMP
+       NOTE: compare to sense 1; the instruments here are usually abstract,
+        such as policies, campaigns, etc.
+        Focus: wish for the achievement of a particular agenda. 
+      </commentary>
+      <examples>
+        The hunter aimed (wished) to kill (the animal).
+        She aimed to hurt me. She kicked my shins!
+        I am certain he aimed to insult me.
+        They aimed to help the medical and legal professonals with the new product.
+        They aimed to improve the eating habits of children through the campaign.
+        The photographer aimed (wished) to take a picture of her face.
+        I aim to arrive at noon.
+        We aim for a better education.
+        I aim to be a millionaire by the time I'm 35.
+        We are aiming for a 50% share of German market.
+        The talks are aiming at a compromise.
+        The campaign aimed at influencing public opinion.
+        She wanted to aim a pun.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,6,7</wn>
+         <omega/><pb>aim.01</pb>
+         <vn>wish-62</vn><fn>Purpose</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

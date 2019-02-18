@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bolt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Leave, move, or jump (suddenly)." type="">  
+      <commentary>
+      Includes: BOLT OUT 
+      </commentary>
+      <examples>
+      She bolted from her seat.
+      The thief bolted off with our silver.
+      The accountant bolted with the cash.
+      The listeners bolted when he discussed his strange ideas.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5</wn>   
+         <wn lemma="bolt_out" version="3.0">1</wn>
+         <omega></omega><pb>bolt.01</pb>
+         <vn>escape-51.1,run-51.3.2</vn><fn>Departing,Fleeing,Quitting_a_place</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Secure,affix, or lock, as with a bolt." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      John bolted all his furniture to the cieling of his bedroom.
+      She bolted the door as she entered her apartment.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bolt.02</pb>
+         <vn>tape-22.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Consume hastily." type="">
+      <commentary>
+      Includes: BOLT DOWN
+      </commentary>
+      <examples>
+      Don't bolt your food!
+      He bolted three martinis before dinner.
+      She bolted the bottle of pills and fell back on the bed.
+      The children bolted down most of the birthday cake. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="bolt_down" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>gobble-39.3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Make or roll into bolts." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She bolted fabric at the factory.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

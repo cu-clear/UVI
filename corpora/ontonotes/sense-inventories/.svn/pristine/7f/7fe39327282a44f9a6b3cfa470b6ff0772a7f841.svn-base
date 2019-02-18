@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="filter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Remove (as if) by passing through a filter." type="">  
+      <commentary>
+      Includes: FILTER OUT
+      Note: The material that the objects are filtered from may not be explicit.
+      </commentary>
+      <examples>  
+      Baleen whales filter small fish and krill through large plates.
+      John filtered the bits of charcoal from Mary's attempt at chicken
+      noodle soup.
+      We have to filter the good things from this document and discard the
+      rest.
+      We have to filter out the trash we've written from these other good
+      ideas.
+      There are many mechanisms that filter out impurities from our water.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="filter_out" version="3.0">1</wn>
+         <omega></omega><pb>filter.02</pb>
+         <vn>wipe_instr-10.4.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Move slowly along a path, perhaps metaphorically." type="">
+      <commentary>
+      Includes: FILTER THROUGH, FILTER DOWN, FILTER IN
+      </commentary>
+      <examples>
+      Water filtered onto the lawn from the broken hose.
+      Reports began to filter in of a disaster in the Middle East.
+      Republicans seem to believe that the wealth will somehow filter down
+      to poor folks.
+      Some U.S. products were filtering into the Soviet market under an
+      emergency import program.   
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>filter.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

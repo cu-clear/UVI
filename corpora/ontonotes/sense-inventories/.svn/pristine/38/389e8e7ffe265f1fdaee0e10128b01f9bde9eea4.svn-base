@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tie-v">    
+   <commentary>
+	Includes: TIE IN, TIE UP, TIE DOWN, TIE INTO, TIE ONE ON
+   </commentary>
+   <sense group="1" n="1" name="fasten or restrain one thing with another" type="">
+      <commentary>
+	Includes: TIE UP, TIE DOWN
+        Note: Implies a physical relationship between the entities being tied, even when used figuratively
+      </commentary>
+      <examples>
+	They tied the prisoners hands behind him.
+	John said he is tied to his desk this weekend. (figurative)
+	Their IT department is hindered by being tied to such an old
+	operating system. (figurative)
+	Sally thinks Todd is too tied to his past. (figurative)
+	Can you tie these newspapers up with some string?
+	Traffic is tied up around the bridge where there was a rollover. (figurative)
+	Bob tied up the boat at the dock.
+	For years she was tied down caring for a very sick child. (figurative)
+	That sail is not tied down properly.
+        Bob showed his son how to tie a full Windsor knot.
+        Tying flies for fly-fishing is quite an art.
+        Mary tied a beautiful bow on the wrapped gift.
+        </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5,8</wn>
+         <wn lemma="tie_up" version="3.0">1,2,3,4,5</wn>
+ 	 <wn lemma="tie_down" version="3.0">1,2</wn>
+         <omega/><pb>tie.04,tie.06</pb>
+         <vn>mix-22.1-2,tape-22.4</vn><fn>Cause_confinement,Immobilization,Rope_manipulation,Knot_creation,Attaching,Closure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="2" name="relate or associate one thing with another" type="">  
+      <commentary>
+	Includes: TIE IN, TIE UP
+        Note: Physical link is not implied, merely an association or relationship
+      </commentary>
+      <examples>
+	The detectives are tying these events together into a case.
+	The business partners are also tied by family connections.
+	John and Mary will tie the knot on Saturday. (get married)
+	The bonuses are tied to quarterly performance.
+	These notes are tied across the measure.
+	This remark ties in with what we were discussing yesterday.
+	These data don't tie in well with earlier experiments.
+        Is the allergy tied to dairy products, for example?
+        Can you tie his behaviour up with anything that's happened recently?
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7,9</wn>   
+         <wn lemma="tie_in" version="3.0">1,2</wn>
+         <omega/><pb>tie.01,tie.02</pb>
+         <vn>NM</vn><fn>Make_cognitive_connection</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="draw, have equal scores in a game" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+	Mary and Sally tied for first place.
+	The teams can't tie, they will play overtime until one of them wins.
+        We tied with a team from the south in the championships.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tie.03</pb>
+         <vn>NM</vn><fn>Finish_competition</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="attack with vigor" type="">
+      <commentary>
+	Note: idioms include TIE INTO
+      </commentary>
+      <examples>
+	He tied into the students for their insolence and lack of self discipline.
+	I was surprised when Joan tied into Bill at the last meeting.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="get drunk" type="">  
+      <commentary>
+	Includes: TIE one ON
+      </commentary>
+      <examples>
+	Pete really tied one on last night at the fraternity's keg party.
+	He ties one on almost every night these days.
+      </examples>
+      <mappings>
+         <wn version=""/>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,vieweg" sample_score="-"/>  
+</inventory>

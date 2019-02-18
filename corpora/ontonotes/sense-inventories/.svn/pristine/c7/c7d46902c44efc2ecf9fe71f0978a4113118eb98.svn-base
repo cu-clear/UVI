@@ -1,0 +1,113 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="address-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Speak or give speech to." type="">  
+      <commentary>
+       Syntax Is: NP1[agent] ADDRESS NP2[recipient]
+      </commentary>
+      <examples>
+        He addressed the crowd outside the window.
+        The chairman addressed the board of trustees.
+        He addressed me in low tones.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,9</wn>   
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="direct spoken or written message to the attention of" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] ADDRESS NP2[theme] PP{to NP[recipient]}
+
+        Note: Compare this to sense 4 &quot;deal with&quot;.  Unlike sense 4, sense 2 does
+              not specify the nature of the object or topic (NP2) addressed by NP1.
+              The important thing here is that some topic/object is brought to attnetion
+              of an audience.  
+      </commentary>
+      <examples>
+        He addressed a few introductory remarks to the audience.
+        The student body addressed a protest to the faculty senate.
+        Counsel must address themselves only to the court. (compare to sense 3)
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>address.02</pb>
+         <vn>NM</vn><fn>Speak_on_topic</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Direct efforts or attention of onself." type="">
+      <commentary>
+      Syntax Is:  NP1[agent[human]] ADDRESS ONESELF PP{to NP[patient]}
+      Is: ADDRESS ONESELF
+      </commentary>
+      <examples>
+        I would like to address myself to a matter which is of grave concern to me.
+        In 1989 he addressed himself to environmental themes.
+        The authorities must address themselves to crucial task of forging national unity.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>address.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Deal with (something)." type="">
+      <commentary>
+      Syntax Includes:  NP1[agent] ADDRESS NP2[patient]
+                        NP1[theme] ADDRESS NP2[patient] 
+      </commentary>
+      <examples>
+        The book addressed the issue of absenteeism.
+        We failed to address our funding problems.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>address.02</pb>
+         <vn>NM</vn><fn>Topic</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Call by correct title or proper name." type="">
+      <commentary>
+      Syntax Is:  NP1[agent] ADDRESS NP2[patient] PP{P NP[attribute]}
+      Includes: ADDRESS AS, ADDRESS BY
+      </commentary>
+      <examples>
+        He likes to be addressed as 'Sir' or 'Mr Partridge'.
+        I told you, you will address me as Great One offstage and on.
+        You should address him by his last name.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Referring_by_name</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Write directions on mail." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The parcel was wrongly addressed.
+        So why did you open a letter that was addressed to me?
+        Address the package using the name and address listed below.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,7</wn>
+         <omega/><pb>address.01</pb>
+         <vn>illustrate-25.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="Aim a golf ball." type="">
+      <commentary>
+      </commentary>
+      <examples>
+        A golfer addressed his ball to play the long first hole of the Baltusrol course.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

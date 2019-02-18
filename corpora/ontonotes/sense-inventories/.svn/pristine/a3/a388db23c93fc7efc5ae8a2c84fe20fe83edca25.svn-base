@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hire-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a person newly employed" type="">
+        <commentary>
+            HIRE[+person][+role][+employee][+new]
+        </commentary>
+        <examples>
+            It's an orientation meeting for this month's hires.
+            The new hire will go through a six week training program.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of employing someone or something for a service" type="Event">
+        <commentary>
+            HIRE[+event][+employment][+of_service]
+        </commentary>
+        <examples>
+            The hire of an outside consultant caused grumbling among her staff.
+            I've arranged for the hire of a limousine to take us to the wedding.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

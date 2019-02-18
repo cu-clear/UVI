@@ -1,0 +1,89 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="population-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="number of humans" type="">
+        <commentary>
+            the number of inhabitants (either the total number or the number of a
+            particular race or class) in a given place (country or city etc.)
+        </commentary>
+        <examples>
+            People come and go, but the population of this town stays the same.
+            The African-American population of Salt Lake City has been increasing.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the people" type="">
+        <commentary>
+            the people who inhabit a territory or state
+        </commentary>
+        <examples>
+            The population seemed to be well fed and clothed.
+            The population of Neverland voted unanimously for the elimination of Captain Hook.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="number of organisms" type="">
+        <commentary>
+            a group of organisms of the same species populating a given area
+        </commentary>
+        <examples>
+            They hired hunters to keep down the deer population.
+            The coyote population has been growing exponentially in the past few years.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="act of populating" type="Event">
+        <commentary>
+	    POPULATION[+event]
+	    the act of populating (causing to live in a place)
+	    </commentary>
+        <examples>
+            He deplored the population of colonies with convicted criminals.
+            The population of the ant farm took George almost six weeks.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="item collection" type="Statistics">
+        <commentary>
+            the entire aggregation of items from which samples can be drawn (statistics)
+        </commentary>
+        <examples>
+            It is an estimate of the mean of the population.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="knock-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the noise of something rapping against a surface" type="Event">
+        <commentary>
+            KNOCK[+event][+noise][+rap][+against_surface]
+        </commentary>
+        <examples>
+            Mary heard a knock at her bedroom window.
+            The knock at the door grew louder.
+            It was another sign that the knock of hard times was at their door. (metaphoric extension)
+            John recognized the offer as the knock of opportunity. (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/><pb>knock.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="negative criticism" type="Event">
+        <commentary>
+            KNOCK[+event][+speech_act][+criticism][+negative]
+        </commentary>
+        <examples>
+            Sally ignored the snide knocks of her classmates.
+            Bob made an unkind knock about John's presentation.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a forceful physical punch or blow" type="Event">
+        <commentary>
+            KNOCK[+event][+punch][+forceful]
+        </commentary>
+        <examples>
+            The boxer delivered a knock to his opponent's right temple.
+            The casing is tough enough to withstand serious knocks.
+            With the bases loaded, a knock out of the park would score four runs.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>knock.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an unfortunate personal experience" type="">
+        <commentary>
+            KNOCK[+event][+experience][+personal][+unfortunate]
+        </commentary>
+        <examples>
+            Those orphans have had some tough knocks early in life.
+            John said he graduated from the school of hard knocks.
+            It was a hard knock for Mary when someone filed the patent before she did.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="faulty ignition in an engine" type="Event">
+        <commentary>
+            KNOCK[+event][+noise][+ignition][+faulty][+of_engine]
+        </commentary>
+        <examples>
+            Cheap quality gasoline may cause a knock in your engine.
+            Improper ignition causes such knocks in an engine.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="an injury caused by a blow" type="">
+        <commentary>
+            KNOCK[+entity][+human][+body_part][+injured][+by_blow]
+        </commentary>
+        <examples>
+            The sports doctor treated the team members for their knocks and bruises.
+            The doctor examined the nasty knock on Pete's head.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

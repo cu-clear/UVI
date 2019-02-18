@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dispose-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="get rid of, by giving or discarding" type="">  
+      <commentary>
+        Includes: DISPOSE OF.
+       Syntax Is:
+        NP1[agent] DISPOSE (of) NP2[theme]; NP1 may be present or implied.
+       Note: Compare to Sense 3: in Sense 1, there is a loss of possession of
+        NP2 by NP1, or in the case of an absent NP1, NP2 changes possession.
+      </commentary>
+      <examples>
+        For any business, find out which materials people dispose the most.
+        The mixture that accumulates in sumps is classified as a sludge and
+        must be properly disposed.
+        This borrower sold or disposed the home a year ago.
+        If equipment is disposed, the transaction is recorded in the
+        system.
+        Imagination disposes of everything and it creates all things good. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>dispose.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make fit or ready, prepare" type="">
+      <commentary>
+       Syntax Is: 
+        NP1[agent] DISPOSE NP2
+      </commentary>
+      <examples>
+        Inflammation disposed the valves to yield to the pressure of the blood.
+        Love disposes us to do good.
+        If your perspective disposes you to disagree with Dowd, at least you can be forewarned.
+        Becoming insensitive to insulin disposes you to diabetes and obesity.
+        The medicine disposes you toward sleep.
+        Your education disposes you for this job.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>dispose.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="settle or deal with something" type="">
+      <commentary>
+        Includes: DISPOSE OF
+       Note: May include an abstract action or process as thing settled. 
+      </commentary>
+      <examples>
+        After we have disposed of the unfinished business, we'll dine.
+        The court disposed of the same number of cases in 2006 as 2005.
+        After they have disposed of the day's business, they pass the
+        afternoon in song. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version=""></wn>
+         <wn lemma="dispose_of" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Arrange in a particular position; determine
+         the course of events by arranging circumstances." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The government proposed, but the trade union movement disposed.
+      Man proposes, God disposes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey,brownsw" sample_score="-"/>  
+</inventory>

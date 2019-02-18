@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flap-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move in an oscillating motion" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] FLAP NP2[theme]
+      NP1[theme] FLAP (PP[location])
+      NP1[agent] FLAP (PP[location])
+      Note: May refer to the noise made by the flapping motion as well.
+      </commentary>
+      <examples>
+      Flags flapped in the strong wind.
+      The bird flapped its wings.
+      The bird's wings were flapping.
+      But what about all those non-duck ducks flapping over Washington?
+      John flapped his arms, trying to fly.
+      She flapped about the coop in a frenzy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flap.01</pb>
+         <vn>body_internal_motion-49,crane-40.3.2,modes_of_being_with_motion-47.3</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hit something with a broad, flat object" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate] FLAP (down) NP2[theme] PP[location]
+      NP1[agent[animate] FLAP NP2[theme] (down) PP[location]
+      </commentary>
+      <examples>
+      He flapped his hand on the table.
+      He flapped the report on the table.
+      She flapped the book down on the table.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="flap_down" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make a fuss" type="">
+      <commentary>
+      Note: Few examples. This occurs mostly nominally, as in "make a flap about smthg".
+      </commentary>
+      <examples>
+      There's no point in you flapping around in the kitchen, making your guest feel uneasy.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="pronounce with an alveolar flap" type="">
+      <commentary>
+      Syntax Includes: NP1[agent[animate] FLAP NP2[theme]
+      Note: Mostly used adjectivally.
+      </commentary>
+      <examples>
+      Try to imagine your tongue flapping against your gum ridge.
+      It takes less time to flap the tongue briefly against the roof of the mouth.
+      The British often flap their r's.
+      Europeans flap their R like Spanish, Cariocas gargle it like French and German.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

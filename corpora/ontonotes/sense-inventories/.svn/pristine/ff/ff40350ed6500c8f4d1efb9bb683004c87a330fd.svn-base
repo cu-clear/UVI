@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="picture-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="visualize" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] PICTURE NP2
+      </commentary>
+      <examples>
+        I can picture how this must have played out as a Weird Al music
+        video.
+        I can picture him sitting at his large desk on the second floor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>characterize-29.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="display in a picture" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This scene pictures country life.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>picture.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="misuse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="use wrongly" type="">  
+      <commentary>
+        NP1[+agent/+organization] MISUSE NP2
+      </commentary>
+      <examples>
+        He showed plainly that he felt he had been seriously misused.
+        Back in the late 1980s, some kludgy microsoft software misused the
+        words " portrait" and "landscape" to refer to horizontal and
+        vertical.
+        Because some passengers misused the system by being late, others
+        must now suffer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>misuse.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

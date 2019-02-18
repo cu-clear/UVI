@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="designate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give a formal name or title to"  type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DESIGNATE NP2[theme] (NP[attribute])
+        NP1[agent] DESIGNATE NP2[theme] (ADVP)
+        NOTE: compare carefully to sense 2. This sense only refers to
+              assigning a formal, quotable name or title. You should be able to put the
+              name in front of the NP2 (usually separate the 2 with BE)
+              like: 'Martin Luther King Jr. Boulevard is the highway...'
+              You can't do this with the examples in sense 2.
+        Name or title may be a single word or a phrase that constitutes a
+              title, but must be an actual name, not just a discriptor.
+      </commentary>
+      <examples>
+        This highway has been designated Martin Luther King Jr. Boulevard.
+        The process is designated by statisticians as 'the tendency of the rural population towards the large towns.'
+        In February 2003, the magazine designated her, 'The most Beautiful Romanian Woman.'
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>designate.01</pb>
+         <vn>appoint-29.1</vn><fn>Linguistic_meaning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="assign responsibilities or an informal
+         description to" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DESIGNATE NP2 TO VP
+        NP1[agent] DESIGNATE NP2 TO NP
+        NP1[agent] DESIGNATE NP2 PP{as NP}
+        NP1[agent] DESIGNATE NP2 PP{for NP}
+ 
+        NOTE: In some cases, the thing being designated may look like it's
+        being named (usually in examples with 'as' following the verb,
+        sometimes in single or double quotes) but the order of the NP and
+        the descriptor cannot be reversed as described in sense 1.
+      </commentary>
+      <examples>
+        Why do they always designate the hard tasks to us?
+        Maybe the fates designated him to the field of medicine.
+        They designated troubleshooters to work directly with district.
+        An employee(s) must be designated to be responsible for preparation of the quarterly sales tax report.
+        She was designated as the next program director.
+        The constitution has not designated the way in which the power shall be exercised.
+        They have designated certain areas on campus as permissible parking lots for students.
+        We designated that party as the last party of the year.
+        The classroom designated Tom as "thoughtful."
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4,5</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>designate.01</pb>
+         <vn>appoint-29.1</vn><fn>Appointing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey,brownsw,clarklm,dehart" sample_score="-"/>
+</inventory>

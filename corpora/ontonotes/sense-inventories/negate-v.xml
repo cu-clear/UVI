@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="negate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make ineffective by counterbalancing the
+   effect of." type="">  
+      <commentary>
+      Syntax Is: NP1[actor] NEGATE NP2[actor]
+      </commentary>
+      <examples>
+      This one action negates all of my months of toil. 
+      Her optimism negates his gloom.
+      The company said that improved results were negated by increased costs.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>negate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Deny the truth of, possibly by showing to be false." type="">
+      <commentary>
+      Syntax Includes: 
+      NP1[agent] NEGATE NP2[proposition]
+      NP1[proposition] NEGATES NP2[proposition]
+      NP1[agent] NEGATE NP2[patient] 
+      </commentary>
+      <examples>
+      By this, he negates the existence of God.
+      His argument negates the claim that all creatures are inherently
+      kind.
+      You can't just negate 300 years of research by wishing it away!  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>negate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

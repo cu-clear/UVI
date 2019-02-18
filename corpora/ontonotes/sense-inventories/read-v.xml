@@ -1,0 +1,133 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="read-v">    
+   <commentary>
+     Contains duplicate WordNet mappings.
+   </commentary>
+   <sense group="1" n="1" name="look at and grasp the meaning of written materials" type="">  
+      <commentary>
+        Note: Written material: words (language), symbols, graphic representation.
+        NOTE: Compare this to grouping 3. 
+              Unlike grouping 3, no attribution of a certain meaning or 
+              interpretation necessary in grouping 1. 
+      </commentary>
+      <examples>
+        I don't have time to read novels.
+        Have you read Tom Clansy?
+        Can you read Chinese?
+        Teach me to read Braille.
+        I read that the interest rates would continue to rise.
+        We read about earthquakes in school today.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,11</wn>   
+         <omega/><pb>read.01</pb>
+         <vn>learn-14-1,learn-14-2-1</vn><fn>Reading</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="contain or have a specific wording or information" type="">
+      <commentary>
+        Syntax Is: NP1[theme] READ (NP2[value])
+        NOTE: Compare this to grouping 1.
+              Unlike sense 1, this sense focuses on inanimate objects
+        presenting information, and does not have to reference the animate
+        agents who are accessing the information.
+      </commentary>
+      <examples>
+        We just passed a sign that reads DANGER.
+        The law reads as follows.
+        Let us see how this passage reads in all three canonical Greek.
+        The thermometer read forty degrees in the shade.
+        Recite the poem exactly as it reads.
+        As the law reads, defendant is guilty.
+        How does you new watch read?
+      </examples>
+      <mappings>
+         <wn version="3.0">2,8</wn>
+         <omega/><pb>read.01</pb>
+         <vn>register-54.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="attribute a certain interpretation or meaning to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She read the sky and predicted rain.
+        I can't read his strange behavior.
+        I can read your mind like an open book.
+        She's so hard to read.
+        I read this address as satire.
+        Read this novel as a parable.
+        I read her words differently than you did.
+        I can read abandonment in a broken door or shattered window.
+        The tracker read the trail for signs of game.
+        Read between the lines to discover the truth.
+        He has a very bad sense of direction and can't read maps.
+        When you see "male" read "female."
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,11</wn>
+         <omega/><pb>read.01</pb>
+         <vn>comprehend-87.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="utter or render out loud a written material, perhaps as an audition." type="">
+      <commentary>
+      INCLUDES: READ FOR, READ TO
+      </commentary>
+      <examples>
+        The King will read the proclamation at noon.
+        The teacher is reading the poem to the students.
+        We read to the children every night.
+        He read for the part.  
+      </examples>
+      <mappings>
+         <wn version="3.0">3,9</wn>
+         <omega/><pb>read.01</pb>
+         <vn>transfer_mesg-37.1.1-1</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="obtain data from a medium" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        (Computer Science)
+        Can your program read this file?
+        The computer can't read this disk.
+        Nano-wires have been used to read DNA efficiently.
+        Read and translate the codons on m-RNA into the appropriate amino acid.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>transfer_mesg-37.1.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="study or get knowledge" type="">
+      <commentary>
+        Note: British use.
+      </commentary>
+      <examples>
+        She is reading for the Bar.
+        They are both reading history at Cambridge.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>read.01</pb>
+         <vn>NM</vn><fn>Hear</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="receive audio (as in over radio)" type="">
+      <commentary>
+        Note: Over communication medium (eg. radio).
+      </commentary>
+      <examples>
+        Do you read me?
+        I read you loud and clear.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>NM</pb>
+         <vn>comprehend-87.2-1</vn><fn>Hear</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

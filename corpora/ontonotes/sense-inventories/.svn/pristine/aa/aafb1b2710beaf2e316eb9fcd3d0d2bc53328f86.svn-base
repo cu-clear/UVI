@@ -1,0 +1,37 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="want-v">
+   <commentary>
+    No VPC for this verb, PropBank has no frameset for group2.
+   </commentary>
+   <sense group="1" n="1" name="desire, seek" type="">
+      <commentary>
+       Syntax is: NP1[agent] WANT NP2[goal]
+      </commentary>
+      <examples>
+       He wants to marry her.
+       The company doesn't want another scandal.
+       I want you all to be quiet!
+       My neighbor was wanted for questioning by the police.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,3</wn>
+         <omega/><pb>want.01</pb>
+         <vn>appoint-29.1,want-32.1-1-1</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="require or need something that is missing" type="">
+      <commentary>
+       Syntax is: NP1[recipient] WANT NP2/PP
+      </commentary>
+      <examples>
+       This garden wants the hand of a good gardener.
+       His parents were determined that he should want for nothing.
+       The refugees are still wanting shelter although food has been provided.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5</wn>
+         <omega/><pb>want.01</pb>
+         <vn>want-32.1-1-1</vn><fn>Possession</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

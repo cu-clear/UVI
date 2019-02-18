@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="echo-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a series of sounds caused by the reflection of sound off a surface" type="Event">
+        <commentary>
+            ECHO[+event][+auditory][+repetition][+reflective]
+        </commentary>
+        <examples>
+            The man's voice created echos through the canyon.
+            This room has too much echo acoustically.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>echo.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a reply that repeats something already said" type="Event">
+        <commentary>
+            ECHO[+event][+speech_act][+reply][+repetition]
+        </commentary>
+        <examples>
+            His remarks were just an echo of what the candidate had said earlier.
+            Her proposal was met with echos of endorsement from the crowd.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>echo.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="reflective electromagnetic transmissions" type="Event">
+        <commentary>
+            ECHO[+event][+electromagnetic][+transmission][+reflective]
+        </commentary>
+        <examples>
+            The echo on that overseas phone connection was distracting.
+            The engineers were concerned about the echo of the television broadcast signal.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="something which is a parallel or imitative of something else" type="Event">
+        <commentary>
+            ECHO[+quality][+trait][+parallel][+imitation]
+        </commentary>
+        <examples>
+            The cheese is sharp with echos of crusty, salty pistachio.
+            There are echos of his earlier works in the author's latest novel.
+            The king was an echo of his father, but was a far more just ruler.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="code word for the letter E" type="">
+        <commentary>
+            ECHO[+information][+word][+code][+for_letter_E]
+        </commentary>
+        <examples>
+            The pilot called out 'alpha, brave, charlie, delta, echo'.
+            We have seats delta and echo in isle ten on the plane.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

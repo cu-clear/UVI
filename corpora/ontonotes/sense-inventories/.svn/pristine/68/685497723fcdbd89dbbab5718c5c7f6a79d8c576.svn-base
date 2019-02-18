@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="patronize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give money to, shop at" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        She patronized him and then was offended that he didn't think it
+        was a favor.
+        She patronized many charitable foundations.
+        Thousands of customers in Detroit have patronized this store.
+        They patronized 'Tommy's' store for olive oil, penny candies, and sundries.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>patronize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="condescend" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PATRONIZE NP2[patient]
+      </commentary>
+      <examples>
+        He patronized her continually and submitted her, as I have found,
+        to continual petty criticisms.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

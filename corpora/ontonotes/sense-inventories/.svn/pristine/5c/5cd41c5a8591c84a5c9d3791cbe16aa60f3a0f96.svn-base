@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="clutch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Acquire, grab, hold, or control an entity." type="">  
+      <commentary>
+      Includes: CLUTCH ON, CLUTCH ONTO
+      Syntax Is: NP1[agent] CLUTCH NP2[patient]
+      </commentary>
+      <examples>
+      The sales clerk quickly clutched the money from the counter.
+      She clutched her purse nervously.
+      Birds of prey clutch small animals in their talons.
+      She clutched on my arm when she got scared.
+      Brokers clutch folders in long lines waiting to speak to the
+      underwriters.
+      Mr. Noriega believes he hasn't any alternative but to keep clutching
+      onto power.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clutch.01</pb>
+         <vn>hold-15.1-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Affect emotionally or perceptually." type="">
+      <commentary>
+      Syntax Is: NP1[stimulus[abstract]] CLUTCH NP2[patient[animate]]
+      </commentary>
+      <examples>
+      Fear clutched the prisoners.
+      A sensation of dread clutched me and I was immobilized.
+      The patient was clutched by unbearable pains.
+      He was clutched by the effects of a terrible disease. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Cause to) change gears using manual transmission." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The bus clutched abruptly into second gear.
+      I clutched into third and let the engine fly. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

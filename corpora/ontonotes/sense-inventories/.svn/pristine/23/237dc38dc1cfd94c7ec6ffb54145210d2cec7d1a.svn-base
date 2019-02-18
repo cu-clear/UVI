@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="parcel-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a wrapped package or container" type="">
+        <commentary>
+            PARCEL[+entity][+artifact][+package][+wrapped]
+        </commentary>
+        <examples>
+            Could you take these parcels to the post office and mail them for me?
+            Do not carry parcels for people you don't know.
+            Wrap the fish and vegetables in foil and then place these parcels directly on the grill.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an allotment or collection of something" type="">
+        <commentary>
+            PARCEL[+quantity][+portion][+allotment]
+        </commentary>
+        <examples>
+            John is buying several parcels of preferred stock in that biotech firm.
+            The story was nothing but a parcel of lies.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a unit of land, piece of undeveloped real estate" type="">
+        <commentary>
+            PARCEL[+location][+physical][+area][+demarcated][+land]
+            [+quantity][+unit][+land]
+        </commentary>
+        <examples>
+            This parcel is zoned for three single-family houses.
+            The real estate developer bought several parcels on the outskirts of town.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

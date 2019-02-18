@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="debate-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="ongoing controversial discussion" type="Event">
+        <commentary>
+            DEBATE[+activity][+social][+communication][+discussion][+controversial][+ongoing]
+            Note: does not imply specific times and places (Sense 2)
+        </commentary>
+        <examples>
+            Pete and Sally had endless debates about whether to sell their sailboat.
+            There has been a bitter debate in the country about whether the Iraq war was justified.
+            The two brothers had many debates over the dinner table about who was the faster runner.
+            Bob is becoming jaded about the debate over global warming.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>debate.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a public event involving structured presentations of arguments, positions" type="">
+        <commentary>
+            DEBATE[+event][+social][+public][+presentation][+structured][+argument]
+            Note: implies specific times and places
+        </commentary>
+        <examples>
+            The presidential debate is on at 8 o'clock this evening.
+            The candidates have agreed to participate in three debates.
+            Mary's team won the final debate of the state championship for debate teams.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

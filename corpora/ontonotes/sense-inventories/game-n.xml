@@ -1,0 +1,144 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="game-n">
+    <commentary>25oct06  update to wn2.1. added features. ahouston
+        25oct06  added Sense 9, added examples, modified definitions. ahouston
+        9dec08   revised definitions, examples, features. ahouston
+    </commentary>
+    <sense group="1" n="1" name="An actual, competitive event" type="">
+        <commentary>GAME[+event][+competition][+actual]
+            Note: Refers to specific events of game-playing, either past, present or future
+            Note: Includes sports,cards,boardgames,quiz shows
+        </commentary>
+        <examples>The game starts at six-thirty tonight.
+            The children played games and won prizes at Johnny's birthday party. 
+            We played a great game of basketball today!
+            The game between the chess masters lasted six hours.
+            The games will be held in Seattle next year.
+            John is appearing on a famous game show next week.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="System of rules defining the form of a contest" type="Abstraction">
+        <commentary>GAME[+system][+rule][+competition]
+            Note: Refers to the rules and idea of a game, not a specific instance of it (Sense 1)
+        </commentary>
+        <examples>We need four people to play my favorite card game, Hearts.
+            In the game of football, you must annihilate everything in your path.
+            &quot;River City Ransom&quot; is a great video game for the old Nintendo.
+            This theory assumes a zero-sum game as an economic model.
+            He was a pioneer in the field of game theory.
+            There will be many unforeseen challenges in the game of life. (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="Amusement, activity of diversion, caper" type="Abstraction">
+        <commentary>GAME[+activity][+diversion][+entertaining]
+            A pastime or amusement for someone, not a competition between contestants.
+            Note: does not carry pejorative connation that Sense 8 has.
+        </commentary>
+        <examples>It's all fun and games until somebody loses an eye.
+            John didn't understand that Mary's flirting was just a game to her.
+            Painting became a game for him to fill up the empty hours.
+            Pete suddenly realized it was no game, his friends really meant to blow up the bridge. (not a joke)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="Hunted animals, prey" type="Entity">
+        <commentary>GAME[+entity][+organism][+animal][+wild][+hunted]
+            An animal hunted for sport and/or food, or the flesh of a hunted animal.
+        </commentary>
+        <examples>His great-grandfather was a big game hunter in Africa and Alaska.
+            This robust wine goes well with game meats such as venison or wild duck.
+            Everyone in Washington D.C. was fair game for the famous satirist. (metaphoric extension, they are targets)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="Physical game equipment" type="Entity">
+        <commentary>GAME[+artifact][+equipment][+playing]
+            The actual pieces that comprise a game.  
+            Only use this sense when a physical object is clearly being referred to.
+        </commentary>
+        <examples>My game of Monopoly is missing a few pieces.
+            The deluxe version of the game has wooden pieces and a bigger board.
+            Her son wants the new Playstation game console for Christmas.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="Occupation, pursuit, specific endeavor" type="Activity">
+        <commentary>GAME[+activity][+pursuit][+specialized]
+            Note: informal usage for job, interest, pursuit
+        </commentary>
+        <examples>He got out of the newspaper game a few years ago.
+            Mary is tired of the dating game and would like to find a serious relationship.
+            It takes money and influence to pursue the game of politics.
+            She decided that academia was not her game.
+            Their company got into online video early in the game.
+            Acting is a tough game to break into.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="A quantitative unit of scoring in a contest" type="Abstraction">
+        <commentary>GAME[+quantity][+unit][+scoring][+of_contest]
+            Note: use this sense only when 'game' clearly refers to a quantity, the score of the contest.
+        </commentary>
+        <examples>Mary and her bridge partner made a game. (100 points score for tricks bid and made)
+            Pete is one game up in the second set of his tennis match with Bob.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="A manipulative scheme or ploy" type="Abstraction">
+        <commentary>GAME[+activity][+maneuver][+manipulative][+concealed]
+            A social maneuver or manipulation, often intentionally concealed
+            Note: carries a pejorative connotation
+        </commentary>
+        <examples>I saw through your little game from the start.
+            He grew tired of the constant mind games at work.
+            They are running some little game to sell non-existent real estate in Florida.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="Personal performance in a competition" type="">
+        <commentary>GAME[+activity][+behavior][+performance][+personal][+in_contest]</commentary><examples>He's really taken his game to the next level this season.
+            There is still a lot of game left in that ball club.
+            He's a bond trader who's been off his game for some time. 
+            The team's kicking game has been formidable the past few weeks. (one aspect of their performance)
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

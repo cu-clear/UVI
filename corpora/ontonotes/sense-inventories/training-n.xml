@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="training-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="acquiring skill" type="Event">
+        <commentary>
+	    TRAINING[+event]
+	    Refers to the act of practicing in order to gain skill.
+	    </commentary>
+        <examples>
+            My dog's training program took three years.
+            John's martial arts training had made him a master ninja.
+            This person has undergone more extensive training than anyone I know.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>training.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="result of being trained" type="Abstraction">
+        <commentary>
+            The attribute of a person who has been trained; the high level of skill a person possesses.
+        </commentary>
+        <examples>
+            She's a woman of excellent training and refinement.
+            Engineers from Intelli-Soft have the best training in the industry.
+            John used his martial arts training to win the tournament.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>training.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

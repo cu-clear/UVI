@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="accordance-n">
+    <commentary>
+        17nov06 update wn2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of conformity or agreement with a precedent" type="Event">
+        <commentary>
+            ACCORDANCE[+state][+agreement][+conformity][+to_precedent]
+            Note: Usually as 'in accordance with'
+        </commentary>
+        <examples>
+            This product must be disposed of in accordance with federal regulation.
+            The final report was in accordance with the CEO's basic vision of it.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>accordance.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the legal granting or bestowment of rights" type="Event">
+        <commentary>
+            ACCORDANCE[+event][+granting][+legal][+right]
+            Note: X's accordance of Y to Z -&gt; X accords Y to Z
+            the act of granting rights
+        </commentary>
+        <examples>
+            No nation disputed the accordance to Canada of rights of access.
+            The accordance of a fair trail to each citizen is a principle of the Constitution. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>accordance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

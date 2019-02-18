@@ -1,0 +1,156 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="capacity-n">
+    <commentary>
+        22jan07 - update to wn2.1, added features, added/modified examples. ahouston
+        22jan07 - split wn '2' out of Sense 1 into separate sense. ahouston
+        22jan07 - split wn '9' out of Sense 3 into separate sense. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="inherent competence or ability" type="Abstraction">
+        <commentary>
+            CAPACITY[+quality][+competence][+inherent]
+            An agent/actor's inherent ability to do something. Often followed by a verb.
+        </commentary>
+        <examples>
+            Our capacity to learn language is largely innate.
+            John has a superhuman capacity to memorize names and dates.
+            His capacity to inspire his troops was famous throughout the military.
+            After such an experience, I'm amazed she still has the capacity to love and trust someone.
+            The stroke impaired the patient's capacities of speech and walking.
+            These students are performing below their intellectual capacity. (refers to inherent ability, -not- output over time)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Amount that can be contained" type="Abstraction">
+        <commentary>
+            CAPACITY[+quantity][+amount][+static][+maximum][+storage]
+            The amount, either physical, electronic, or electric, that something can hold.  
+            Note: refers to a static contained quantity, -not- a rate of output over time. (Sense 3)
+        </commentary>
+        <examples>
+            The gas tank has a capacity of twelve gallons.
+            The capacity of a hard drive is usually expressed in megabytes.
+            Their rock band is playing to capacity crowds around the country. (every seat filled)
+            Mary filled the water jugs to capacity.
+            What is the seating capacity of this stadium?
+            The battery capactiy will be better with lower drain currents.
+            What is the carrying capacity of this truck?  (how much cargo it can pull)
+            The field capacity of clay is lower than that of rich loam. (how much water a soil type can hold)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="output rate measured over time" type="Abstraction">
+        <commentary>
+            CAPACITY[+quantity][+amount][-static][+temporal][+rate][+output]
+            Often used to express the rate of industrial production, a limit of output
+        </commentary>
+        <examples>
+            The machines are operating at ninety-percent capacity.
+            Upgrading our rotors has increased our production capacity.
+            When running at full capacity, the factory will employ 1000 workers.
+            The company is aiming to double its electrical-generating capacity within three years.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Function or job description" type="Activity">
+        <commentary>
+            CAPACITY[+relation][+role][+function][+designated]
+            Usually used to refer to jobs.  The specific function of a thing or person.
+        </commentary>
+        <examples>
+            He was employed in the capacity of director.  
+            He should be retained in his current capacity at a higher salary.
+            They are working only in a voluntary capacity for the organization.
+            She could authorize it in her capacity as head of the department.
+            Sally said she'd be glad to help us in any capacity.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="relative measure of endurance or tolerance for something" type="">
+        <commentary>
+            CAPACITY[+quality][+endurance][+measure]
+            Note: a relative measure  of endurance or tolerance for something. 
+        </commentary>
+        <examples>
+            Bob needs to recognize that he has no capacity for alcohol.
+            Their people have a greater capacity to work in incredible heat than ours do.
+            We were amazed at her capacity for hot chili peppers. (she ate a lot of them)
+            The capacity to withstand cold temperatures varies somewhat across individuals.
+            Practice will increase your capacity to hold your breath while swimming underwater.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="the potential state of something" type="">
+        <commentary>
+            CAPACITY[+state][+potential]
+            Note: refers to a possible state something can exist in
+        </commentary>
+        <examples>
+            Which metals have the capacity to combine together into alloys?
+            He has the capacity to fly off the handle if his views are challenged in any way.
+            This novel may have the capacity to be reworked into a good film.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="legally-defined competence" type="">
+        <commentary>
+            CAPACITY[+quality][+competence][+legally][+determined]
+            Note: a specialized legal usage of Sense 1, implying adequate mental facility established -by experts-
+        </commentary>
+        <examples>
+            Psychiatrists are determining whether or not he has the capacity to stand trial.
+            The prosecution has questioned the patient's competence as a witness. 
+        </examples>
+        <mappings>
+            <wn version="MW online">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

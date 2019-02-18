@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="regulator-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a device to control the rate of some activity, e.g., chemical or mechanical" type="">
+        <commentary>
+            REGULATOR[+mechanism][+control][+artifact/+natural]
+        </commentary>
+        <examples>
+            The problem lay with a faulty voltage regulator.
+            Bob has been studying growth regulators in wheat and other grasses.
+            Geneticists have been experimenting with this regulator gene for several years.
+            They fixed the regulator on the steam engine.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="an official with responsibility to supervise some domain of social activity" type="">
+        <commentary>
+            REGULATOR[+person][+official][+supervisor]
+        </commentary>
+        <examples>
+            Regulators in Massachusetts are opposed to selling wine directly to consumers without distribution channels.
+            John serves as a local regulator for town elections.
+            Bill believes there are too many regulators working in Washington D.C.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

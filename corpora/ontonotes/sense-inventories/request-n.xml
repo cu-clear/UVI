@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="request-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="message" type="Event">
+        <commentary>
+            A message, often formal or official, that asks for something.  Clearly not an act of asking, but the message itself.
+        </commentary>
+        <examples>
+            Please file a request for permission to land.
+            She forwarded your request to the Marketing Department.
+            I'm afraid I don't have enough money to meet your requests.
+            We told him what you wanted, and he said the request was unreasonable.
+            We're sorry, but all your requests have been denied.
+            They sent me a request for payment.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/><pb>request.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="act of requesting" type="Event">
+        <commentary>
+	    REQUEST[+event]
+	    The act of asking for something; making a request.  Usually verbal.  Occurs at some definite point in time.
+	    If you're unsure about which sense to choose, it's probably this one.
+	    </commentary>
+        <examples>
+            Yesterday's request came as a surprise to nobody.
+            His sudden request surprised me.
+            At noon John made a request to eat my lunch, which I didn't find surprising.
+            When I asked the children which song they wanted to hear, I got a lot of requests for &quot;Old McDonald&quot;.
+            When a baby cries, it's usually a request for attention.
+            He called the waitress over for another request.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/><pb>request.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

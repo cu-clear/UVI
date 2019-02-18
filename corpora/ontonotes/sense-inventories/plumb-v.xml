@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="plumb-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="measure the depth of something" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PLUMB NP2[location] (PP[theme])
+      May be used metaphorically to indicate examining something in great detail.
+      </commentary>
+      <examples>
+      The parallel consists more of the emotional depths they both seek to plumb.
+      It was a war of mentalities which had plumbed the abysses.
+      Your rescue ship will be plumbed for every Federation secret aboard.
+      He plumbed the Tech for information about the immediate environment.
+      There were other matters yet to be plumbed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>plumb.01</pb>
+         <vn>search-35.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="weight with lead" type="">
+      <commentary>
+      Syntax includes:
+      NP1[theme] PLUMB NP2[destination]
+      (only one example found)
+      </commentary>
+      <examples>
+      The weight will automatically plumb the string.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>plumb.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make vertical by measuring against a plumb line" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] PLUMB NP2[theme] (PP[extent]) 
+      NP1[agent] PLUMB NP2[theme] (PP[instrument])
+      NP1[agent] PLUMB NP2[theme1] PP[theme2]
+      </commentary>
+      <examples>
+      Plumb the edge of the door jamb before fastening.
+      I made certain my tone was as level as a freshly plumbed door.
+      The laser plumbs the beam automatically to within 1/ 8" @ 100 ft.
+      We plumbed the frame by aligning it with the distant, vertical sides of Boston's skyscrapers.
+      The stem and stern are plumbed with a plumb-line.
+      Plumb the door to the wall.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>plumb.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="install plumbing" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PLUMB NP2[theme] (PP[instrument])
+      NP1[agent[animate]] PLUMB NP2[theme] (PP[start_point]) PP[end_point|theme2]
+      NP1[agent[animate]] PLUMB PP[start_point] PP[end_point|theme2] PP[instrument]
+      NP1[agent[animate]] PLUMB NP2[location]
+      </commentary>
+      <examples>
+      They probably plumbed the drain line from the dishwasher into the garbage disposal.
+      I just plumbed the line so that it had a valve on it.
+      Normally, it's left up to the plumber to figure out the best way to plumb the house.
+      They took an existing closet and plumbed the toilet in there, creating a "water closet.
+      The GS factory plumbed the toilet to the blackwater tank.
+      GC plumbed the sink with a U-shaped trap in the undersink cabinet.
+      He plumbed from the compressor discharges to the intake with PVC drain pipe.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>plumb.04</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

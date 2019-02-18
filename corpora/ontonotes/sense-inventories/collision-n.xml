@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="collision-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="accident" type="Event">
+        <commentary>
+	    COLLISION[+event]
+	    an event in which two or more bodies come together;
+	    typically car accidents
+	    </commentary>
+        <examples>
+            Three passengers were killed in the collision.
+            The collision of the two ships resulted in a serious oil spill.
+            The collision of the particles resulted in an exchange of energy.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="conflict" type="Event">
+        <commentary>
+	    COLLISION[+event]
+	    a conflict of opposed ideas or attitudes or goals
+	    </commentary>
+        <examples>
+            The collision of interests became clear during the meeting.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="campaign-n">
+    <commentary>
+        19Feb08 added Sense 4. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a political race or contest for election" type="">
+        <commentary>
+            CAMPAIGN[+activity][+organized][+contest][+political]
+        </commentary>
+        <examples>
+            Who will run against her in the senate campaign?
+            We attended a fund-raising dinner for his political campaign.
+            Both candidates have run a clean campaign thus far.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>campaign.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an organized course of action to achieve a goal, a venture" type="">
+        <commentary>
+            CAMPAIGN[+activity][+organized][+venture]
+        </commentary>
+        <examples>
+            They are running a successful advertising campaign.
+            Since the scandal their company has been running a real charm campaign to win back customers.
+            We declined Bob's invitation to go on a hunting campaign in Alaska.
+            How is his campaign to win Sally's heart faring?
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a series of military operations to attain an objective" type="">
+        <commentary>
+            CAMPAIGN[+activity][+operation][+military]
+        </commentary>
+        <examples>
+            He was the commander of the air campaign in Iraq.
+            The army set off on campaign.
+            John is reading an interesting history of the desert campaigns of north Africa during WWII.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the people working on behalf of a political candidate" type="">
+        <commentary>
+            CAMPAIGN[+entity][+group][+people][+worker][+for_candidate][+political]
+            Note: a metonymic usage - referring to the people involved, -not- the activities, events (Sense 1)
+        </commentary>
+        <examples>
+            The Clinton campaign said they would continue to push for delegates in the midwest.
+            The Johnson campaign hopes to win the endorsement from the trade unions.
+            His campaign announced they are running low on funding as of this week.
+        </examples>
+        <mappings>
+            <wn version="No_Reference">found_in_corpus</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

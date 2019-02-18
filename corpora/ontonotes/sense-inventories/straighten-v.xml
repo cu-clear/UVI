@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="straighten-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make straight; extricate from entanglement." type="">  
+      <commentary>
+      INCLUDES: STRAIGHTEN UP, STRAIGHTEN OUT
+      syntax is: NP1[agent] STRAIGHTEN NP2[concrete]
+                 NP1[agent] STRAIGHTEN NP2[patient]
+ 
+      </commentary>
+      <examples>
+      Can you straighten out the cord?
+      John straightened his hair for the 80's party.
+      Straighten the post before laying concrete.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,5,6</wn>   
+         <wn lemma="straighten_out" version="3.0">2,4</wn>
+         <omega></omega><pb>straighten.01</pb>
+         <vn>bend-45.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Get up from sitting or slouching position;
+         make oneself more upright (literally)." type="">
+      <commentary>
+      INCLUDES: STRAIGHTEN UP
+      </commentary>
+      <examples>
+      The students straightened when the teacher entered.
+      He straightened himself up when he spoke to his superiors.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="straighten_up" version="3.0">1</wn>
+         <omega></omega><pb>straighten.01</pb>
+         <vn>bend-45.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Put (things or places) in order; settle or
+         put right; change for the better; remove ambiguity." type="">
+      <commentary>
+      INCLUDES: STRAIGHTEN OUT
+      </commentary>
+      <examples>
+      Straighten up your room.
+      We need to straighten out our disagreements.
+      The lazy student straightened out. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="straighten_out" version="3.0">1,3,5,6</wn>
+         <omega></omega><pb>straighten.02,straighten.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

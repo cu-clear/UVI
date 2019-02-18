@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="boot-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to load" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        They dutifully booted the computer into Windows and commenced
+        looking at files through Explorer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="kick" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He booted him in the stomach.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>boot.01</pb>
+         <vn>throw-17.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="remove from a place or from office" type="">
+      <commentary>
+        IS: BOOT OUT
+      </commentary>
+      <examples>
+        The chairman was booted out, and the shares plunged to four
+        dollars.
+        The unruly student was booted out of the game.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="boot_out" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>banish-10.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

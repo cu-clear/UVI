@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="choose-v">    
+   <commentary>
+	One VPC added
+   </commentary>
+   <sense group="1" n="1" name="pick out or select something" type="">  
+      <commentary>
+       Syntax Is:	
+        NP1[agent] CHOOSE NP2[patient]
+	NP1[agent] CHOOSE among/between NP1,2...[patient]
+      </commentary>
+      <examples>
+	Mary is trying to choose the right private school for her daughter. 
+	I can never choose between the chocolate mousse and the lemon tart.
+	They are choosing the delegates as we speak.
+	Sally now regrets that she chose the job in Miami.
+        Will technology force us to choose between privacy and freedom?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>choose.01</pb>
+         <vn>get-13.5.1</vn><fn>Choosing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="decide on a course of action" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] CHOOSE to NP2[predicate]
+      </commentary>
+      <examples>
+        He chose to remain in his home town.
+	We choose not to participate in that demonstration.
+	If Mary chooses to avoid John at work, that's her decision.
+        Some of us had to choose between being homeless and working at McD.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>choose.01</pb>
+         <vn>NM</vn><fn>Choosing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="form sides, as in a game" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] CHOOSE UP NP2[patient]
+	Is: CHOOSE UP
+      </commentary>
+      <examples>
+        They chose up six players for each team.
+	Billy was sad that he was always the last kid chosen up during recess games.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="choose_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,197 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="side-n">
+    <commentary>
+        9AUG06 added features, examples, senses 9 and 10. ahouston
+        9AUG06 split sense 3 into sense 3 and sense 4 ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="A POSITION beside something" type="">
+        <commentary>
+            SIDE[+location][+proximity][+reference]
+            A point or location in proximity to another location.
+        </commentary>
+        <examples>
+            The dog sat by John's side to be petted.
+            They always sat on the right side of the church. 
+            The patient is experiencing numbness on the left side of his body.
+            We swam to the opposite side of the lake.
+            She stood by his side through thick and thin. (figurative extension)
+            Right now it's night on the other side of the planet.
+            There is support for this bill from both sides of the aisle. (implies physical proximity, opinion and social group)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>side.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="A SURFACE on something" type="">
+        <commentary>
+            SIDE[+form][+extension][+surface][+box/+crystal/+building/+mountain]
+            SIDE[+form][+extension][+surface][+figure][+mathematical]
+            A surface of an object, e.g., a face or line
+        </commentary>
+        <examples>
+            They painted a growing tree on the side of the house.
+            He examined the bottom side of the box.
+            This style of diamond has six sides.
+            The hypotenuse of a right triangle is always it's longest side.
+            From a distance we could see the lava flow on the side of the mountain.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="groups in conflict or contention with each other" type="">
+        <commentary>
+            SIDE[+entity][+group][+social][+faction]
+            Implies units of people in opposition, e.g., armies or teams
+        </commentary>
+        <examples>
+            Armies on both sides suffered terrible casualties. 
+            Their side always wins at softball because they have better hitters.
+            A fast ball struck out the side to end the inning.
+            They are trying to bring the different sides together to negotiate a ceasefire. (implies people meeting)
+            Time is not on their side. (metaphoric extension - time is not an ally, a team member)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="an opinion on an issue" type="">
+        <commentary>
+            SIDE[+state][+mental][+opinion][+contending]
+            Note: refers to the opinion on an issue, not people themselves (see Sense 3)
+        </commentary>
+        <examples>
+            There are two sides to every question.
+            John didn't want to take sides in the argument.
+            Mary wanted to know which side of the issue Bob supported.
+            All the politicians claimed to be on the side of law and order.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a contrasting alternative" type="">
+        <commentary>
+            SIDE[+relation][+contrast][+alternative]
+            Note: no implication of conflict with other alternatives, differs from Senses 3 and 4
+            Note: implies a quality or feature from among a possible set.
+        </commentary>
+        <examples>
+            He's a little on the heavy side.
+            It brought out his better side.
+            He is on the purchasing side of the business.
+            It was a side of Mary we hadn't seen before.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="line of inheritance" type="">
+        <commentary>
+            SIDE[+relation][+inheritance][+biological]
+            A family line of descent
+        </commentary>
+        <examples>
+            He gets his brains from his father's side.
+            Sally is my aunt on my mother's side.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="large slab of meat" type="Meat">
+        <commentary>
+            SIDE[+structure][+carcass][+dressed][+half][+animal]
+            [+quantity][+portion][+half][+carcass][+dressed]
+            A lengthwise dressed half of an animal's carcass used for food
+        </commentary>
+        <examples>
+            Go to the store and get a side of beef for the BBQ, George.
+            The restaurant ordered several sides of pork and beef every week.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="horizontal spin, as of a ball" type="Sports">
+        <commentary>
+            SIDE[+state][+physical][+spinning][+horizontal]
+            The spin given to a ball by striking it on one side or releasing it
+            with a sharp twist.
+        </commentary>
+        <examples>
+            George shot the 8 ball with side spin.
+            That pitcher threw a great side ball over the plate.
+        </examples>
+        <mappings>
+            <wn version="3.0">12</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="9" name="in a subsidiary role to something else" type="">
+        <commentary>
+            SIDE[+relation][+role][+subsidiary]
+        </commentary>
+        <examples>
+            Both of these drugs have known side effects.
+            He had a couple of mistresses on the side.
+            Keep focused on the main goal and don't let the side issues get you off track.
+        </examples>
+        <mappings>
+            <wn version="MAC">3a</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="10" name="a dish of food auxiliary to the main course" type="">
+        <commentary>
+            SIDE[+substance][+food][+prepared][+auxiliary] 
+        </commentary>
+        <examples>
+            I'll have a burger, a shake and a side of fries.
+            Many people signed up to bring side dishes to the potluck.
+            You get a choice of two sides with your entree.
+        </examples>
+        <mappings>
+            <wn version="MAC">3b</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

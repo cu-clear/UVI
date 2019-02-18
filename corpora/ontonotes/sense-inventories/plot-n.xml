@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="plot-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a secret scheme to do something, especially something underhanded or illegal" type="Event">
+        <commentary>
+        PLOT[+event]+[human][+thing_plotted] 
+        </commentary>
+        <examples>
+         They concocted a plot to discredit the governor.
+        I saw through his plot from the start.
+        There's a plot to send Justin Bieber to North Korea!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a specific and measured piece or parcel of land, a small area of ground covered by specific vegetation, or a small  piece  or  area  of  ground reserved for a specific purpose." type="">
+        <commentary>
+        PLOT[+event][+location][+specific_measurement][+specific_usage] 
+        </commentary>
+        <examples>
+        At the Urban Gardens site, our vegetable plot has grown to over one acre.
+        Luxury burial plots in Jakarta have almost tripled to Rp 9.5 million in just under 3 years.
+        He built the house on a 78 acre plot of land.
+        Developers have opened bids on the plots, around the future site of a highrise and business park.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="    1" n="3" name="A storyline; the plan,scheme,or main story of a literary or dramatic work, true or fictional." type="">
+        <commentary>
+        PLOT[+storyline][+performance_or_written_account] 
+        </commentary>
+        <examples>
+        The characters were well drawn but the plot was banal.&quot;
+        Little did he know that the plot of his very own life was to take a dramatic new twist.
+        The book's plot takes us alongside the river Nile, in the year 32 AD. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a chart or map showing the dimensions, movements or progress of something" type="">
+        <commentary>
+        PLOT[+event][thing_plotted][+motion_or_dimension][+location]
+        </commentary>
+        <examples>
+        The police carefully triangulated his trajectory and issued an APB plot of his supposed whereabouts.
+        The plot of the new Spire Building includes a floor specially designated for department and convenience stores.
+        Attacks on targets were detected by communications intercept and accurately reported on a plot.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="browneal" sample_score="-"/>
+</inventory>

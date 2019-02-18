@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="identify-v">    
+   <commentary>
+	No VPCs to add.
+   </commentary>
+   <sense group="1" n="1" name="recognize, point out, distinguish" type="">  
+      <commentary>
+	Syntax Is: NP1[agent[animate]] IDENTIFY NP2[patient] (ADVP[attributive])
+        Note: Includes reflexive objects, that is, NP1 and NP2 may refer to the same person.
+      </commentary>
+      <examples>
+	The woman could not identify her assailant from the pictures the police showed her.
+	From this distance I can only clearly identify the Prudential building.
+	The children have to be able to identify the capital of each state.
+	We identified his brother as one of the fugitives.
+	The prisoner refused to identify any accomplices.
+        Russell Crowe was forced to identify himself to police during his morning paddle in a kayak yesterday.
+	Scientists believe they have identified a new species of dinosaur.
+	Cosmic background radiation was first identified by two engineers trying to reduce noise in telecommunications.
+	Cancer researchers have identified a gene that has a significant link to breast cancer.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5,6</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>identify.01</pb>
+         <vn>characterize-29.2-1-1</vn><fn>Verification</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="associate something with, consider equated with" type="">
+      <commentary>
+	Syntax Is: NP1 IDENTIFY (NP2) PP{with NP}
+        Must be used with &quot;with&quot;, unless the &quot;with NP3&quot; is implied. See ex.3.
+      </commentary>
+      <examples>
+	I couldn't identify at all with the heroine of this novel.
+	Bob identifies himself with the underdog.
+        It's an agonizing experience. I really can identify.
+	They need to identify better with their customer base.
+	Has large brain size been identified with greater intelligence?
+	The Cubist movement is identified with Picasso and Braque.
+	Our society tends to identify success with financial wealth.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>identify.02</pb>
+         <vn>empathize-88.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston, vieweg, brownsw" sample_score="-"/>  
+</inventory>

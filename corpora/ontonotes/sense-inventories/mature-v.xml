@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mature-v">    
+   <commentary>
+	No VPCs for this verb
+   </commentary>
+
+   <sense group="1" n="1" name="develop biologically" type="">  
+      <commentary>
+	Syntax Is: NP1[topic] MATURE ADVP[manner]
+      </commentary>
+      <examples>	
+	Kittens and puppies mature quickly compared to human babies.
+	The cheese is matured for two years in cool dark caves.
+	This Cabernet-Franc has matured beautifully. (aged wine)
+	Populations in the developed world are maturing at a rapid pace.
+	The pears matured and fell off the tree.
+	The boil matured and began to secrete pus.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,5,6</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>mature.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="formulate, elaborate, articulate" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[topic[abstract]] MATURE PP  
+	NP1[topic[abstract]] MATURE ADVP[manner]
+	Note: this sense is a metaphoric extension of Sense 1
+      </commentary>
+      <examples>
+	His writing style has matured significantly since his last novel.
+	There was no time for their acquaintance to mature into a friendship.
+	The industry has matured to the point that it's harder to be a start-up in it now.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>mature.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="become due" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[topic] MATURE ADVP[manner] 
+	NP1[topic] MATURE PP[temporal]
+	Note: usually some financial instrument
+      </commentary>
+      <examples>
+	These bonds mature in 30 years.
+	These bonds will mature when Johnny starts college.
+	This insurance policy matures more slowly than that one.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>mature.01</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

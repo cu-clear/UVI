@@ -1,0 +1,148 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="flash-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a sudden, brief burst of light" type="Event">
+        <commentary>FLASH[+event][+burst][+of_energy]</commentary>
+        <examples>We were surrounded by lightening flashes and big waves during the storm at sea.
+            The thermonuclear flash lit up the sky like a false dawn.
+            The grenade exploded with a yellow flash of light.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/>
+            <pb>flash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a sudden perceptual sensation" type="Event">
+        <commentary>FLASH[+state][+perceptual][+sensation][+sudden]
+            Note: an immediate physiological or emotional response to stimulus.
+        </commentary>
+        <examples>He felt a flash of pain in his foot.
+            A flash of anger shot through her when she remembered his insulting comment.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a sudden, vivid mental insight" type="Event">
+        <commentary>FLASH[+state][+mental][+insight][+sudden]
+            Note: involves cognition, reasoning - not pure sensation (Sense 2)
+        </commentary>
+        <examples>In a flash of insight John saw the proof to the mathematical puzzle.
+            Reversing the sequence of those scenes in the play was a flash of inspiration.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a moment of time, a split second" type="">
+        <commentary>FLASH[+quantity][+temporal][+momentary]</commentary>
+        <examples>Mary said she'd be back in a flash.
+            Quick as a flash the cat had captured the ball of yarn between its paws.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="an ostentatious, eye-catching manner" type="">
+        <commentary>FLASH[+quality][+manner][+ostentatious]</commentary>
+        <examples>John likes to date girls who have a lot of flash.
+            Their presentation had flash but not much substance.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="communication signal using pulses of light" type="Event">
+        <commentary>FLASH[+event][+speech_act][+signal][+with_light_pulses]
+            Note: implies the presence of Sense 1, but is an intentional series of these.
+        </commentary>
+        <examples>Sally signaled the all-clear by a series of short and long flashes with her flashlight.
+            The yellow flash ahead indicates caution.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb>flash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="a bulletin of headline news" type="">
+        <commentary>FLASH[+event][+speech_act][+bulletin][+of_headline_news]</commentary>
+        <examples>We heard the news flash about the assassination of the dictator.
+            The radio station provides the latest news flashes every hour on the hour.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="an eye-catching patch of color or form" type="Event">
+        <commentary>FLASH[+quality][+appearance][+eye_catching][+patch]</commentary>
+        <examples>The flash of blue in the tree was the wing of a kingfisher.
+            The slit in her skirt revealed a flash of thigh as she walked down the street.
+            The maple trees in early September had a few flashes of red on their leaves.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="camera attachment that provides momentary light during picture taking" type="">
+        <commentary>FLASH[+artifact][+attachment][+camera][+light_source][+momentary]</commentary>
+        <examples>Did the flash go off when John took the picture?
+            She set her camera to a wide aperture to avoid using the flash.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/>
+            <pb>flash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="excess substance protruding from between the joined surfaces of a mold" type="">
+        <commentary>FLASH[+artifact][+substance][+excess][+protruding]</commentary>
+        <examples>Flash appears on the part's edge where the mold has metal meeting metal.
+            Inadequate mold support can also lead to flash.
+            In multi-cavity molds, flash is often caused by an improper balance of melt flow.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="11" name="a brief, non-repeating success" type="">
+        <commentary>Idiom: flash_in_the_pan
+            Note: the expression comes from the situation where a flintlock weapon's priming powder ignited in the gunlock pan without resulting in the ignition of the main charge in the gun's chamber.
+        </commentary>
+        <examples>Our team's winning streak at the start was just a flash in the pan.
+            The pop singer's success with one single turned out to be a flash in the pan.
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score=""/>
+</inventory>

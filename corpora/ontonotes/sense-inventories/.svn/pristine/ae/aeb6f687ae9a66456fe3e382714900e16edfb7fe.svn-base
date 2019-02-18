@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bead-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="form into beads (as a substance)" type="">  
+      <commentary>
+      Includes: BEAD_UP
+      Syntax includes:
+      NP1[theme] BEAD (UP) (PP[location])
+      NP1[theme] BEAD NP2[location]
+      NP1[location] BEAD PP[theme]
+      NP1[source] BEAD NP2[theme]
+      NP1[material] BEAD (UP) (PP[product])
+      </commentary>
+      <examples>
+      Then wait about a minute as the condensation beads.
+      Ochre sap beaded on the pale meat of the twained wood.
+      Sweat beaded his brows as he fastened the last knot on his uniform.
+      The bailiff's brow beaded sweat from the unaccustomed exertion.
+      His prominent brow beaded with sweat.
+      Lancing the patient's skin allows for blood to bead into drops on the patient's skin.
+      The surface responds the opposite way, repelling oil and causing it to bead up.
+      Sweat was beading up on his bald head and thick eyebrows.
+      These detergent-based substances cause oil to bead up into tiny droplets.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bead.01,bead_up.03</pb>
+         <vn>substance_emission-43.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="apply beads to" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BEAD
+      NP1[agent[animate]] BEAD NP2[destination] (PP[theme])
+      NP1[agent[animate]] BEAD NP2[theme] (PP[destination])
+      NP1[agent[animate]] BEAD NP2[material] PP[product]
+      </commentary>
+      <examples>
+      I could have beaded all night.
+      She beaded the hem with little pearls without asking!
+      Faux pearls were beaded onto slightly stretchy jewelry sting.
+      As she beaded the fringe and necklace onto the bag, the ancestors told her a story.
+      Over and over she beaded the pattern...three garnet, three hematite, three pearls.
+      Seed pearls were beaded into patterns to create fanciful images of flowers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bead.02</pb>
+         <vn>illustrate-25.3,build-26.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

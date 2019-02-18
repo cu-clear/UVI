@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="eject-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="discharge, force out" type="">  
+      <commentary>
+       Syntax Is:
+        NP1 EJECT NP2
+      </commentary>
+      <examples>
+        Akina's body had not ejected any other substance.
+        Until now, Mont Pelee had ejected mainly gas, ash, and water.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="kick out, exclude" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] EJECT NP2
+      </commentary>
+      <examples>
+        The Australian Olympic Committee ejected him from the team for Beijing.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>eject.01</pb>
+         <vn>remove-10.1</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="suddenly leave an aircraft" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] EJECT (FROM) NP2
+      </commentary>
+      <examples>
+        It's possible he was seriously injured after he ejected from the
+        plane.
+        Radar intercept officer Lieutenant Matthew Klemish ejected safely
+        from the plane and was rescued from the water minutes later.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

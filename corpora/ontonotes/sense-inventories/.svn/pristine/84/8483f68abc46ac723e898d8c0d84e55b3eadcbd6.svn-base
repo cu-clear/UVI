@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="greeting-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="way to say hello" type="Abstraction">
+        <commentary>
+            A method of acknowledging somebody or saying hello.  An expression of good will on meeting.  
+            The phrase &quot;greetings&quot; is itself a greeting.  
+        </commentary>
+        <examples>
+            John gave me his usual chilly greeting.
+            &quot;Greetings, earthling,&quot; said the little green man.
+            My favorite greeting is &quot;G'day!&quot;
+            That's not a proper greeting for such an old friend.
+            He wrote a formal greeting at the top of the letter.
+            A business greeting should be friendly, but not too friendly.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>greeting.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="act of greeting" type="Event">
+        <commentary>
+	    GREETING[+event]
+	    The act of giving a salutation.  Refers to a specific instance of saying hello.
+	    </commentary>
+        <examples>
+            Since we all took turns hugging each other, our greeting lasted a few minutes.
+            In return, I sent John a greeting card on his birthday (a card that performs the act of greeting).
+            The greeting of the guests will occur shortly after they arrive.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb>greeting.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

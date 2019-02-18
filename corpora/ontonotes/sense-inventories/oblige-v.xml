@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="oblige-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide a service or favor for" type="">  
+      <commentary>
+      NOTE: 'Noblesse oblige' is a borrowing from French and a noun - tag 'X'.
+      NOTE: Compare to Sense 2; in Sense 1, NP1 is not coercing the action
+      of another human being/animate entity.
+      Syntax Is: NP1 OBLIGE (NP2) 
+      </commentary>
+      <examples>
+      She begged him to prepare the meal and he obliged.
+      The dog obliged his every whim. 
+      Cats rarely oblige their owners' requests. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>oblige.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="force someone to do something; bind to an obligation" type="">
+      <commentary>
+      Syntax Is: NP1[agent] OBLIGE NP2[animate] COMP
+      </commentary>
+      <examples>
+      We oblige all the school children to join hands and pledge their support.
+      She obliged him to give up his life of crime.
+      The new law obliges journalists to give up their ability to report freely.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>oblige.02</pb>
+         <vn>force-59</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

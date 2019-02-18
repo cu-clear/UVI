@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="default-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fail to pay" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She defaulted on her loan.
+        He defaulted on the storage bill and all the items were sold at auction.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="default_on" version="3.0">1</wn>
+         <omega></omega><pb>default.01</pb>
+         <vn>NP</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a default selection" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        My computer defaults to safe mode every time I start it.
+        This setting defaults to boldface.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

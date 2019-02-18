@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="applaud-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="clap hands together" type="">
+      <commentary>
+        NP1[agent] APPLAUD (NP2[theme])
+        NOTE: compare to sense 2; this sense may be viewed as a subset,
+              as clapping hands in one means of expressing approval; only literal,
+              physical events of applause should be tagged with this sense
+      </commentary>
+      <examples>
+        Cheney was booed and Sheen was applauded. (passive)
+        Some of the crowd applauded before catcalls and boos could be heard. 
+        She ended the day on a high note, as Simon and Paula both applauded her performance.
+        The candidate the audience was applauding enthusiastically went to the podium.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>applaud.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="praise, express approval of" type="">
+      <commentary>
+        NP1[agent] APPLAUD NP2[patient]
+      </commentary>
+      <examples>
+        Vietnam's commitment to bird flu fight has been applauded. 
+        Analysts have applauded Hurd's performance since he took NCR's helm two years ago.
+        He applauds the efficiency and organization of the heirarchy.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>applaud.01</pb>
+         <vn>admire-31.2,judgement-33.1-1</vn><fn>Judgment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

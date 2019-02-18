@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="entertain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide entertainment for" type="">  
+      <commentary>
+        Syntax Is: NP1 ENTERTAIN NP2
+      </commentary>
+      <examples>
+        They entertained an enthusiastic crowd.
+        Sometimes children need to learn how to entertain themselves!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>entertain.01</pb>
+         <vn>amuse-31.1</vn><fn>Cause_to_experience,Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take into consideration; maintain (theory/though/feeling)" type="">
+      <commentary>
+        Syntax Is: NP1 ENTERTAIN NP2
+      </commentary>
+      <examples>
+        He entertained the possibility of buying a house.
+        He entertained quite different notions of how to deal with the
+        crisis.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>entertain.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

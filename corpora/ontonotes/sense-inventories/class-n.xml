@@ -1,0 +1,131 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="class-n">
+    <commentary/>
+    <sense group="1" n="1" name="a socioeconomic group of people, a social stratum" type="">
+        <commentary>CLASS[+group][+stratum][+socioeconomic][+of_people]</commentary><examples>He grew up in a neighborhood that was mostly working class.
+            Their society afforded upward mobility through the socioeconomic classes. 
+            These pronunciation patterns are unique to the upper class of their society.
+            The educated class finds his writing overly sentimental and lacking in nuance.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="students who attend an instructional course together" type="">
+        <commentary>CLASS[+group][+student][+attendees][+of_course][+instructional]
+            Note: refers to the students taking the instruction, -not- the instructional material itself (Sense 3)
+        </commentary>
+        <examples>The class became quiet when the principal entered the room.
+            The science teacher announced, &quot;class, today we are going to learn about levers and pulleys&quot;.
+            She invited her Sunday school class to a picnic at the lake.
+            The class always met for beer and pizza at the student union on Friday afternoons.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="an instructional event or course" type="">
+        <commentary>CLASS[+event][+scheduled][+instructional]</commentary><examples>Quantum mechanics was the most difficult class John attended in college.
+            You can take the sailing classes on weeknights or weekends.
+            John is always late to class on Mondays.
+            Mary took an Italian cooking class when she was in Venice.
+            The class is from 2-4 on Fridays.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a collection of things defined by shared characteristics" type="">
+        <commentary>CLASS[+collection][+with_characteristics][[+shared]
+            Note: Does not rank the classes along a continuum of measurement with other classes (Sense 6)
+        </commentary>
+        <examples>German has three major noun classes - masculine, feminine and neuter.
+            You'll need to include these Java classes to create a 3D interface for your program.
+            This mathematical set forms an equivalence class because every pair of elements has an equivalence relation.
+            There are three classes of solvents that would be appropriate to use for removing this paint.
+            It was filed as a class action lawsuit. (on behalf of a group with a shared, common grievance which defines their 'class')
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="group of students who graduate the same year in school" type="">
+        <commentary>CLASS[+group][+student][+with_same_year][+graduation]
+            Note: the word 'year' may substitute for 'class' without loss of meaning.
+        </commentary>
+        <examples>Sally was in the graduating class of 1993 at Princeton.
+            The class of 1986 is having its 20th reunion this year.
+            Peter graduated first in his class at law school.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="a ranking compared to other groups" type="">
+        <commentary>CLASS[+quality][+comparative][+rank]
+            Note: implies the existence of other classes which are ranked with respect to this one, often quantitatively
+        </commentary>
+        <examples>His level of chess playing is considered world class.
+            Mary has moved up to the class of A-league beach volleyball.
+            They traveled mostly third class on buses through South America.
+            We had expected more from a first-class hotel in Manhattan.
+            Billy was promoted to airman first class.
+            His sailboat races in the fastest class in the regatta.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="quality of well-mannered social style or grace" type="">
+        <commentary>CLASS[+quality][+manner][+social][+highly_commendable]</commentary><examples>Bob thinks Jane dresses with a lot of class.
+            He is a class act all the way. (someone of integrity and good manners)
+            They showed a lot of class in how they conducted themselves after losing the tournament.
+            That guy who threw fast food trash out his car window has absolutely no class!
+        </examples>
+        <mappings>
+            <wn version="3.0"/><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="a taxonomic group in biology more specific than phylum, more general than order" type="">
+        <commentary>CLASS[+entity][+group][+biologic][+taxonomic][+phylum][+subordinate]
+            Note: a technical biological ordering between two specific categories. 
+            Note: Don't choose this sense unless it's clear that 'phylum' and/or 'order' in their technical senses are being implied as above or below 'class'.
+        </commentary>
+        <examples>Primates are in the class of mammals which, in turn, are in the phylum of chordata.
+            Fruit flies are in the class of insects.
+            How many classes are currently defined for the animal and plant kingdoms?
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+            <sense group="1" n="9" name="none of the above" type="">
+                <commentary>
+                    Automatically generated NOTA sense (bbn)
+                </commentary>
+                <examples>
+                </examples>
+                <mappings>
+                    <wn version="3.0"/>
+                    <omega/><pb/>
+                    <fn/>
+                </mappings>
+                <SENSE_META clarity=""/>
+            </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

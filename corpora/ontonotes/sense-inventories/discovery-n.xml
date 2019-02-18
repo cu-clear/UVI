@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="discovery-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="finding or insight" type="Event">
+        <commentary>
+	    DISCOVERY[+event]
+	    find, uncovering, breakthrough -
+	    the act of discovering something
+	    </commentary>
+        <examples>
+            Their discovery of the treasure in the backyard made them rich.
+            Since her discovery of the stray cat she's been a happier child.     
+        </examples>
+        <mappings>
+            <wn version="2.0">1 3</wn>
+            <omega/>
+            <pb>discovery.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="thing found" type="">
+        <commentary>
+            something that is discovered
+        </commentary>
+        <examples>
+            Fido's new discovery suddenly jumped up and hopped across the yard.
+            John's picked up his discovery and place it into his pocket.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>discovery.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="disclosure of facts" type="Law">
+        <commentary>
+            (law) compulsory pretrial disclosure of documents relevant to the
+            case; enables one side in a litigation to elicit information from the
+            other side concerning the facts in the case
+        </commentary>
+        <examples>
+            They used electronic discovery and evidence resources.
+            Evidence and data discovery was done the night before the trial.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>discovery.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

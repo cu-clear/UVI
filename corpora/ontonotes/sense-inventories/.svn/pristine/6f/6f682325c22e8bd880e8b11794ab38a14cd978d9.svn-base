@@ -1,0 +1,154 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="drive-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="operating or traveling via a vehicle" type="">
+      <commentary>
+        Includes: DRIVE UP; DRIVE AROUND; DRIVE IN
+        Note: Includes metaphorical driving.
+      </commentary>
+      <examples>
+         We drove the car to the garage.
+         My new truck drives well.
+         He drives a bread truck.
+         The car drove around the corner.
+         We drive the turnpike to work.
+         We drove up to Shirley and Bob's house.
+         The driver behind me drove right up to about a foot from my bumper.
+         On his third try, as detectives drove him around, he finally identified the house.
+         We were driving around in the countryside on a fine Sunday morning.
+         The star and her manager drive in today from their motor tour
+         across the country.
+         We really drove to meet the deadline.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,10,12,13,14,16</wn>
+         <wn lemma="drive_up" version="3.0">1</wn>
+         <wn lemma="drive_around" version="3.0">1,2</wn>
+         <wn lemma="drive_in" version="3.0">2</wn>
+         <omega/><pb>drive.01</pb>
+         <vn>drive-11.5,nonvehicle-51.4.2</vn><fn>Bringing,Self_motion,Operate_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="force to change location; control or force
+         to become" type="">
+      <commentary>
+        Note: may be either physical or abstract
+         Includes: DRIVE AWAY; DRIVE BACK; DRIVE OFF; DRIVE IN
+      </commentary>
+      <examples>
+         The hunters drove the birds from out of the bush.
+         Neighbors appeared at the scene and drove away the small group of demonstrators.
+         After a hard-fought battle, the Romans eventually drove back the Britons.
+         The kestrel drove off the jay, but then a crow flew in and drove off the kestrel.
+         The border collie drove in the cattle.
+         His line double drove in Jim Lemon with the winning run.
+         EU carbon trading scheme may drive prices of raw materials up.
+         All of the variables, known and unknown, will drive prices higher or lower.
+         He drives me mad.
+         We drove the enemy into the sea.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,6,15,22</wn>
+         <wn lemma="drive_away" version="3.0">1</wn>
+         <wn lemma="drive_back" version="3.0">1</wn>
+         <wn lemma="drive_off" version="3.0">1</wn>
+         <wn lemma="drive_in" version="3.0">1</wn>
+         <omega/><pb>drive.02</pb>
+         <vn>render-29.90,send-11.1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="force an action" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Production, not consumption, drives the economy.
+         Innovation drives our business.
+         The pain drove him into retiring early.
+         He claims the pressure drove him to cheat.
+         They drove her from the office.
+         He drove Sheila into the arms of another man.
+         Poverty drove them off their farms.
+         The noise finally drove me to move.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>drive.02</pb>
+         <vn>force-59-1</vn><fn>Subjective_influence</fn>
+      </mappings><SENSE_META clarity=""/> 
+   </sense>
+   <sense group="1" n="4" name="cause an object to move forcefully, usu. by striking it" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He drove the ball far out into the field.
+         The adjustment can help a golfer drive a golfball at the perfect angle.
+         The batter drove one deep into left field.
+      </examples>
+      <mappings>
+         <wn version="3.0">9,17,18</wn>
+         <omega/><pb>NM</pb>
+         <vn>throw-17.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="force to penetrate or create through penetration" type="">
+      <commentary>
+        Includes: DRIVE IN
+      </commentary>
+      <examples>
+         They drove a tunnel right through that mountain.
+         He drove through bedrock to reach the vein of precious mineral.
+         It's time to drive a stake through the heart of the RMA.
+         Some manufacturers have created a tiny knob to help you drive in the screw.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,19</wn>
+         <wn lemma="drive_in" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>put_direction-9.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="supply power for" type="">
+      <commentary>
+        Syntax Is: NP1 DRIVE NP2[inanimate]
+      </commentary>
+      <examples>
+         Steam drives the engines.
+         Those machines are all driven by electricity.
+         Her pasion drives her.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,20</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="search for game, as in hunting" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         They drove the forest, hunting bear.
+      </examples>
+      <mappings>
+         <wn version="3.0">21</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="MWEs and vpcs" type="">
+      <commentary>
+        Includes: DRIVE AT, DRIVE HOME
+      </commentary>
+      <examples>
+        The boxer drove home a solid left. 
+        I'm trying to drive home these basic ideas.
+        What are you driving at?
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <wn lemma="drive_home" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+</inventory>

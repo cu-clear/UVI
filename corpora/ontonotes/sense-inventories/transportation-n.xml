@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transportation-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="transit" type="">
+        <commentary>
+            transportation system - 
+            a facility consisting of the means and equipment necessary for the
+            movement of passengers or goods
+        </commentary>
+        <examples>
+            My transportation is old and rusty.
+            Light rail transportation is clean and runs frequently between PA and NJ.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="moving" type="Event">
+        <commentary>
+	    TRANSPORTATION[+event]
+	    tranfer, transferral, conveyance -
+	    the act of transporting something form one location to another
+	    </commentary>
+        <examples>
+            The transportation was much faster on SEPTA than in a city cab.
+            Transportation of perishables across country must be fast.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="freight rate" type="Event">
+        <commentary>
+            the price paid for and the commercial enterprise of transporting goods and materials
+        </commentary>
+        <examples>
+            I hope that transportation of refrigerated items is charged by the pound.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="DoT" type="">
+        <commentary>
+            Department of Transporation, Transportation, DoT - 
+            the United States federal department that institutes and coordinates
+            national transportation programs; created in 1996
+        </commentary>
+        <examples>
+            The Department of Transporation is providing assistance to residents
+            affected by the local road blocks.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="exile" type="">
+        <commentary>
+	    TRANSPORTATION[+event]
+	    deportation, expatriation -
+	    The act of expelling a person from their native land
+	    </commentary>
+        <examples>
+            Men in exile dream of hope.
+            His transportation to a penal colony was long.
+            The sentence was one of transportation for life.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

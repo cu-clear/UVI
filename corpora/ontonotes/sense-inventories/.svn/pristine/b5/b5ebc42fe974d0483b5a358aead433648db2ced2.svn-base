@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cleanse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make clean or pure" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] CLEANSE NP2
+        Note: May be reflexive.
+      </commentary>
+      <examples>
+        He cleansed the temple shortly before being crucified.
+        To make himself worthy, he cleansed himself, fasted, prayed, and
+        sometimes underwent severe tortures.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cleanse.01</pb>
+         <vn>cheat-10.6</vn><fn>Grooming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

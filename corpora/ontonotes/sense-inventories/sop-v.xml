@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sop-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give a conciliatory gift or bribe" type="">  
+      <commentary>
+      No examples found except the noun counterpart and 'out-sop'.
+      Syntax includes:
+      NP1[agent[animate|organization]] SOP NP2[recipient[animate|organization]] PP[theme]
+      </commentary>
+      <examples>
+      *The lobbyist sopped the congressman with gifts.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sop.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="drench with liquid" type="">
+      <commentary>
+      Often occurs adjectivally
+      Syntax includes:
+      NP1[agent[animate]] SOP NP2[theme[liquid]] PP[destination]
+      NP1[agent[animate]] SOP NP2[destination] (PP[theme[liquid]])
+      NP1[theme[liquid]] SOP NP2[destination]
+      </commentary>
+      <examples>
+      She sopped water onto the floor.
+      He sopped his handkerchief in the blood trickling from the damaged nose.
+      She sopped the floor with water.
+      He thought of those biscuits, each cut open and sopped in bacon grease.
+      The latter's white face was being sopped by Mary with the dripping sponge.
+      Sweat sopped his scalp and trickled down his forehead.
+      A harsh, heavy deluge sopped the earth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sop.02</pb>
+         <vn>NP</vn><fn>Cause_to_be_wet</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="soak up" type="">
+      <commentary>
+      Often used metaphorically.
+      Syntax includes:
+      NP1[agent] SOP (up) NP2[theme[liquid]] (PP[source]) (PP[instrument])
+      NP1[agent] SOP NP2[theme[liquid]] (up) (PP[source]) (PP[instrument])
+      NP1[instrument] SOP (up) NP2[theme[liquid]] (PP[source])
+      NP1[instrument] SOP NP2[theme[liquid]] (up) (PP[source])
+      </commentary>
+      <examples>
+      The space capsule fed him, gave him water, sopped his perspiration out of its air.
+      Mr. Jensen righted the spilled glass and sopped the water with his napkin.
+      I bailed and sopped the water out of the spare tire well.
+      I sopped up the offending crud with a napkin.
+      His shirt sopped up blood like a blotter.
+      It was a political dog-and-pony show and the Post sopped it up like gravy on a plate.
+      The Federal Reserve has sopped up hundreds of billions of dollars.
+      Over the nine-day period, Redding sopped up 7.28 inches of rain.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="sop_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Cause_to_be_wet</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cause to be wet by dipping into liquid" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] SOP NP2[theme[concrete] PP[destination[liquid]]
+      </commentary>
+      <examples>
+      I took a sip of paga, and then sopped some bread in it, and then ate it.
+      She picked up a crust of the black bread from the table and sopped it in a beaker of goat's milk.
+      Sop some bread into the sauce.
+      The Priest hath sopped the bread into the wine.
+      Then he cut away dies of bread, sopped one in the gravy and put it in his mouth.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sop.02</pb>
+         <vn>NP</vn><fn>Cause_to_be_wet</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>
+

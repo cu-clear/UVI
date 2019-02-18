@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sample-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="Selecting a portion of an aggregate to be statistically representative." type="Event">
+        <commentary>
+        SAMPLE[+event][+numeric]
+        </commentary>
+        <examples>
+        We took a sample of the total population. 
+        Researchers make a sample of the true distribution. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>sample.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="A physical portion of all or part of a natural object that is collected and preserved as an example of its class or total." type="">
+        <commentary>
+        SAMPLE[+event][+physical]
+        </commentary>
+        <examples>
+        We should take some samples from the patient's liver.
+        Scientists made samples of the rock bed.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>

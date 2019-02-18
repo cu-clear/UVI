@@ -1,0 +1,119 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="start-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="moment of beginning" type="Event">
+        <commentary>
+	    START[+event]
+	    The most common sense.  The event of starting, in a fairly general way, either with or without an causal agent.
+	    Think of this as the moment at which something begins.
+	    </commentary>
+        <examples>
+            I knew from the start that we were a perfect couple.
+            I got my start in Hollywood because my uncle was a director.
+            The pitcher had over a hundred starts in his career.
+            The exact start of the war was hard to pinpoint.
+            We got a late start on the day.
+            The play always has a ten o'clock start.
+            He was responsible for the start of negotiations.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 2 3 5
+            </wn>
+            <omega/><pb>start.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="first part" type="Abstraction">
+        <commentary>
+            The first section of something.
+        </commentary>
+        <examples>
+            The start of the race was full of hills.  
+            I thought the start of the movie was a little boring.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -  
+            </wn>
+            <omega/><pb>start.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="starting place" type="Entity">
+        <commentary>
+            Refers to a location, not a moment in time.  The place at which something begins.
+        </commentary>
+        <examples>
+            We're only about a mile from the start.
+            The start of the race was located in a cornfield.
+            The start line had been painted on the ground.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                6
+            </wn>
+            <omega/><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="involuntary motion" type="Event">
+        <commentary>
+	    START[+event]
+	    A term that describes a bodily motion, usually indicating surprise or some strong emotion.  A little jump.
+	    </commentary>
+        <examples>
+            John awoke from his nightmare with a start.
+            She gave a start when I touched her on the shoulder.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega/><pb>start.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="amount of head start" type="">
+        <commentary>
+	    START[+event]
+	    The advantage that is gained by starting before others do.
+	    A kind of possession that a person can have; it can have a definite size.
+	    </commentary>
+        <examples>
+            John only won because he got a head start.
+            With an hour's start on us, they'll be hard to catch.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                8
+            </wn>
+            <omega/><pb>start.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="starting signal" type="">
+        <commentary>
+	    START[+event]
+	    The thing that is used to begin an event, usually a race.
+	    </commentary>
+        <examples>
+            The start for the race was a loud electronic beep.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                7
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

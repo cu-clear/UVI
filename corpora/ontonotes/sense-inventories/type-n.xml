@@ -1,0 +1,105 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="type-n">
+    <commentary>
+        1sep06 - merged sense 7 with sense2, added features updated to WN 2.1, added examples. ahouston
+        1sep06 - merged sense 6 with sense 1. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="subcategory in a classification system, a kind" type="">
+        <commentary>
+            TYPE[+system][+classification][+subcategory]
+        </commentary>
+        <examples>
+            What type of sculpture do you prefer? 
+            The word 'element' contains five different types of character.
+            The child has a different blood type than his mother.
+            Which type of diabetes does her brother have?
+            Their store has many types of stone and brick to choose from.
+            That type of argument is only ad hominem and not based on logic or evidence.
+            It's a type of star that no longer emits radiation in the physical light spectrum.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a person with distinct traits" type="">
+        <commentary>
+            TYPE[+entity][+person][+distinct][+trait]
+            [+relation][+role][+category][+instance]
+            Note: informal usage usually refers to people considered odd or eccentric
+        </commentary>
+        <examples>
+            There were a lot of professor types at the party.
+            The guy next to me on the bus was a real type. (informal)
+            You'll see all types in that part of town. 
+            The tall blond surfer was not really Mary's type.
+            She's more the athletic type than her sister.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a reference standard in biological taxonomies which form the basis for next higher level in the taxonomy" type="Biology">
+        <commentary>
+            TYPE[+system][+classification][+subcategory][+taxonomic][+biologic]
+            [+relation][+role][+standard][+reference]
+            the taxonomic group whose characteristics are used to define the next higher category
+            Note: a restricted, scientific subsense of Sense 1
+        </commentary>
+        <examples>
+            The type specimen for the species Homo neanderthalensis was the specimen 'Meanderthal-1&quot; discovered in 1856.
+            A type genus is the nominal genus that is the name-bearing type of the next higher level family-group.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="printed characters" type="">
+        <commentary>
+            TYPE[+entity][+symbol][+character][+printed]
+            printed characters, written symbols of langugae
+        </commentary>
+        <examples>
+            Small type is hard to read.
+            The headings should be in bold-faced type.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="typewriter piece" type="">
+        <commentary>
+            TYPE[+entity][+artifact][+block][+small][+metal][+printing]
+            a small metal block bearing a raised character on one end; produces a
+            printed character when inked and pressed on paper
+        </commentary>
+        <examples>
+            He dropped a case of type, so they made him pick it up.
+            She cleaned the types off with a soft cloth.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

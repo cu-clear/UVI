@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="allegation-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a legal accusation or charge brought against someone" type="Event">
+        <commentary>
+            ALLEGATION[+event][+speech_act][+accusation][+official][+legal]
+        </commentary>
+        <examples>
+            The physician is facing an allegation of malpractice filed by a former patient.
+            The congressional committee has not yet made formal allegations of corruption against the senator.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="unproven claims or statements" type="Event">
+        <commentary>
+            ALLEGATION[+event][+speech_act][+claim][-official][+proven]
+        </commentary>
+        <examples>
+            There were vague allegations of misconduct by some member of his staff.
+            He has denied the allegations that the army was following a policy of torturing prisoners.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

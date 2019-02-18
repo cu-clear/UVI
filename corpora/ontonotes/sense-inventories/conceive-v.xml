@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="conceive-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Have an idea for; judge or regard." type="">  
+      <commentary>
+      Includes: CONCEIVE OF 
+      </commentary>
+      <examples>
+      I cannot conceive of another way of going about the problem.
+      Can you conceive of him as the president?
+      He conceived of a robot that would help paralyzed patients.
+      I conceived an idea yesterday for a new algorithm.
+      The racist conceives such people to be inferior.
+      I conceive cafeteria foods to be among the most unhealthy options
+      available.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="conceive_of" version="3.0">1</wn>
+         <omega></omega><pb>conceive.01</pb>
+         <vn>characterize-29.2-1,deduce-97.2</vn><fn>Invention,Awareness,Categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Become pregnant." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      She cannot conceive.
+      We conceived our daughter on Christmas Day.
+      I was conceived by two loving parents.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>conceive.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

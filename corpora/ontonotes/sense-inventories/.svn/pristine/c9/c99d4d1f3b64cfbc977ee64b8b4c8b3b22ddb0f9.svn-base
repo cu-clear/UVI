@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="import-n">
+    <commentary>
+        Modified examples, commentary and definitions. ahouston
+    </commentary>
+    <sense group="1" n="1" name="commodities brought in from a foreign country" type="">
+        <commentary>
+            IMPORT[+entity][+goods][+foreign]
+            commodities or people brought from a foreign country
+            Note: can occur naturally in the singular or plural, 
+            Note: a countable set of things.
+        </commentary>
+        <examples>
+            In recent years, China has significantly increased its imports from overseas.
+            The nations have imposed import quotas on each other.
+            John drives an import but Mary drives an American car.
+            The lead role was played by an import from Sweden. (metaphoric extension)
+            Fruit imports were left on the docks unloaded.
+            Congress is planning to ban beef imports for six months.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the act of buying and bringing in foreign goods" type="Event">
+        <commentary>
+	    IMPORT[+event][+activity][+buy][+goods][+foreign]
+	    the act of importing, rather than the goods themselves
+	    Note: usually in the singular, somewhat marked in the plural (or ambiguous with sense 1)
+	    Note: the import of X (always activity) imports of X (usually entity)
+	    Note: VERB (the import(s))/(import(s)) of X - the meaning of the verb often determines whether action or entity
+	    suspension of imports of beef (event) versus consumption of imports of beef (entity)
+	    (suspend an activity)				(consume an entity)
+	    </commentary>
+        <examples>
+            The import of illegal substances is called smuggling.
+            Congress passed a ban on the import of beef. (the import of X -&gt; syntax for activity)
+            Congress is planning to ban imports of beef for six months. (ambiguous) ('ban' can refer to an activity or entity)
+            The strong Euro has discouraged imports of wine from France and other wine-growing regions in Europe.
+        </examples>
+        <mappings>
+            <wn version="2.0">-</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="2" n="3" name="importance" type="">
+        <commentary>
+            IMPORT[+quality][+impact][+large]
+            having important effects or influence
+        </commentary>
+        <examples>
+            Decisions of great import are made by the president himself.
+            Virtue is of more import than security.
+            Those screaming mobs are of no import in the larger context of history.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="2" n="4" name="significance, implication, usually of language" type="">
+        <commentary>
+            IMPORT[+quality][+interpretation]
+            the meaning of a message, either intended or inferred
+        </commentary>
+        <examples>
+            What is the import of this sentence?
+            In poetry the import of each word usually matters much more than in textbook prose.
+            The import of his announcement was ambiguous.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

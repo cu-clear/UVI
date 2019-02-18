@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="task-n">
+    <commentary>
+        9nov06 - update to wn2.1, added features, added idiomatic sense. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="job" type="">
+        <commentary>
+            TASK[+activity][+chore]
+            chore, undertaking, project, labor - 
+            any piece of work that is undertaken or attempted
+        </commentary>
+        <examples>
+            The task of repairing the engine took several hours.
+            The endless task of classifying the samples became mind-numbing.
+            The farmer's morning tasks took all day.
+            These types of tasks are not included in Bob's job description.
+            The mayor has appointed a task force to look into the matter.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>task.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a reprimand or cricitism" type="">
+        <commentary>
+            TASK[+action][+verbal][+reprimand]
+            Idiom: take to task
+        </commentary>
+        <examples>
+            She took him to task about his waffling voting record.
+            They will be brought to task about their conduct at the game last night.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

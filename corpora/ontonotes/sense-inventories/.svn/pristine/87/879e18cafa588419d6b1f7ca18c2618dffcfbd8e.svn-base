@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="meeting-n">
+    <commentary>
+        <!-- optional: general word commentary -->
+    </commentary>
+    
+    <sense group="1" n="1" name="a gathering" type="">
+        <commentary>
+            Refers to the meeting as a collective body, not to the act of meeting or the people involved.
+        </commentary>
+        <examples>
+            The meeting will be held in Chicago this year.
+            We held an informal meeting in my living room.
+            The meeting dissolved into petty name-calling.
+            The meeting elected John as its chairman.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1,3
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="purposefully getting together" type="Event">
+        <commentary>
+            Refers to the act of meeting.  Usually specifies who is being met with.
+        </commentary>
+        <examples>
+            The meeting with the salesman was the high point of his day.
+            Meetings with the staff became less frequent over time.
+            My meeting with an advisor convinced me to change my major.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>meeting.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="an encounter" type="Event">
+        <commentary>
+	    MEETING[+event]
+	    The event of a (usually-unexpected) get-together.
+	    </commentary>
+        <examples>
+            He still remembered their meeting in Paris.
+            The chance meeting of two star-crossed lovers precipitated a disaster.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="joining or merging" type="Event">
+        <commentary>
+            Usually inanimate; produces something new from the merger of several entities.
+        </commentary>
+        <examples>
+            There was no meeting of minds.
+            There is a right angle at the meeting of two perpendicular lines.
+            Pittsburgh is located at the meeting of the Allegheny and Monongahela rivers.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5,6
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!--Should there also be a sense for the people at the meeting (i.e. "The meeting elected a chairman")?-->
+    
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

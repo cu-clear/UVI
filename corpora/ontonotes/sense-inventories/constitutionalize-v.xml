@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="constitutionalize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide with a constitution" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] CONSTITUTIONALIZE NP2[theme]
+      </commentary>
+      <examples>
+      The United States were constitutionalized in the late 18th century.
+      We are there to constitutionalize Iraq rather than democratize Iraq.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>constitutionalize.01</pb>
+         <vn>establish-55.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take a digestion-aiding walk after a meal" type="">
+      <commentary>
+      Notes: Few examples found.
+      Syntax includes:
+      NP1[agent[animate]] CONSTITUTIONALIZE
+      </commentary>
+      <examples>
+      A good way of exercising is to constitutionalize.
+      *My grandfather constitutionalizes every day after dinner.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>constitutionalize.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="incorporate into a constitution, make constitutional" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] CONSTITUTIONALIZE NP2[theme] (PP[location])
+      NP1[location] CONSTITUTIONALIZE NP2[theme]
+      </commentary>
+      <examples>
+      This amendment would constitutionalize the cloning of embryos for destruction in research.
+      If you constitutionalize the budgeting process, the courts will be making decisions about budgets.
+      If the people explicitly constitutionalize discrimination, such discrimination is legal.
+      Human rights as juridical statuses must be constitutionalized in the international system.
+      The innovation was constitutionalized in an amendment of 1983.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>constitutionalize.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

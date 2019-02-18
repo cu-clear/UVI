@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="smooth-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make more even or free from obstructions." type="">  
+      <commentary>
+      Includes: SMOOTH OUT
+      Syntas is: NP1[agent] SMOOTH (out) NP2[patient]
+      NOTE: Includes metaphorical uses.
+      </commentary>
+      <examples>
+      Smooth the surface of the wood with sandpaper, please.
+      John smoothed the icing on the cake.
+      We smoothed out the gravel with a rake.
+      The President has done little to smooth the way towards peace
+      negotiations.
+      We must smooth out this journey for one another. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>smooth.01,smooth.02</pb>
+         <vn>other_cos-45.4,wipe_manner-10.4.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="SMOOTH OVER: make less emotionally intense;
+         make peace." type="">
+      <commentary> 
+      Is: SMOOTH OVER
+      </commentary>
+      <examples>
+      The President tried to smooth things over a few days later, but to no
+      avail.
+      Try to smooth things over with your sister before the car ride please.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="smooth_over" version="3.0">1</wn>
+         <omega></omega><pb>smooth.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

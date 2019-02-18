@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="approach-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="come close or near, approximate (literal and metaphorical)" type="">  
+      <commentary>
+        Note: Metaphorical use: Come close as in appearance, quality, or condition
+        Note: Please compare carefully to sense 3. In this sense, one could
+        not substitute &quot;treat&quot; for &quot;approach&quot;, while in most cases of sense 3,
+        such a substitution would be possible.
+      </commentary>
+      <examples>
+        We are approaching the border.
+        He motioned us to approach.
+        Winter is approaching.
+        I see it's approaching lunchtime, so let's take a break.
+        As the spring approaches, I notice people similing more.
+        He's very active for a man approaching 80.
+        The two parties are finally approaching an accord.
+        These statements approach libel.
+        The performance approaches perfection.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>   
+         <omega/><pb>approach.01</pb>
+         <vn>escape-51.1</vn><fn>Arriving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a proposal or overtures to with a specific end in view" type="">
+      <commentary>
+      Syntax Is: NP1[agent[human]] APPROACH NP2[patient[human]]
+       NOTE: implies initiation of negotiation, interaction or discourse
+       between two parties
+      </commentary>
+      <examples>
+        Who do I approach about volunteering?
+        We've just approached the bank about a loan.
+        I approached the administration for a raise.
+        She's been approached by a modelling agency.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>approach.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="treat something in a particular way" type="">
+      <commentary>
+        NP1[agent] APPROACH NP2[patient[inanimate]]
+      </commentary>
+      <examples>
+        How did she approach the problem?
+        She approached the task with dread.
+        The professor approached the issue from a historical perspective.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>approach.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

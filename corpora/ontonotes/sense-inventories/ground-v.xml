@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ground-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hold or bring to the ground" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[concrete]] GROUND NP2[patient[concrete]]
+        NOTE: Includes metaphorical uses.
+      </commentary>
+      <examples>
+        What grounded the Airbus A380?
+        America has grounded the Wright Brothers.
+        They grounded the boat on the rocky black beach.
+        Sergei Fedorov's slow start has grounded the Mighty Ducks attempt to
+        build on a high-flying season.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,5,6,7,9</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ground.01</pb>
+         <vn>pocket-9.10-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="use as or provide a base or foundation for" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] GROUND NP2[patient]
+        NP1[topic[abstract]] GROUND PP{P NP[location[abstract]]
+      </commentary>
+      <examples>
+        Our school attempts to ground students in the basic subjects to
+        prepare them for college.
+        Your claim does not ground on anything.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,12</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>base-97.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="BASEBALL: hit a ground ball (and make an out)" type="">
+      <commentary>
+        Includes: GROUND OUT
+      </commentary>
+      <examples> 
+        There is doubt as to which team first grounded the ball.
+        How noble it is for a player to deliberately ground out just so
+        another player can move into scoring position?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">8</wn>
+         <wn lemma="ground_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cover with primer" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The artist had to ground the canvas before applying the acrylic paint.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="establish a connection between an electric circuit and the earth " type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I grounded the top electrode and left the other electrodes at 5 Volts.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">11</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

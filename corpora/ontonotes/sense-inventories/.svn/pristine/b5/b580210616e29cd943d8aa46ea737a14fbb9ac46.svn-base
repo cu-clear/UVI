@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="part-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Go one's own way; move apart; Discontinue
+   an association or relation" type="">  
+      <commentary>
+      INCLUDES: PART COMPANY 
+      Syntax Is: NP1 PART (PP)
+      </commentary>
+      <examples>
+      The friends parted after the party.
+      We parted company and never looked back. 
+      The couple parted after 25 years of marriage.
+      The company dissolved and the board parted and moved to different companies.
+      My family parted for Florida. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>part.01</pb>
+         <vn>separate-23.1-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Force, take, or pull apart." type="">
+      <commentary>
+      Syntax Is: NP1 [agent] PART NP2[patient]
+      </commentary>
+      <examples>
+      He parted the fighting children.
+      Moses parted the Red Sea.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>braid-41.2.2,separate-23.1-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Come apart." type="">
+      <commentary>
+      Syntax Is: NP1[inanimate] PART 
+      </commentary>
+      <examples>
+      The two pieces that we had glued parted.
+      The two halves of the glacier parted and moved in different directions.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>separate-23.1-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="PART WITH: Give up what is not strictly
+         needed, possibly to a recipient." type="">
+      <commentary>
+      IS: PART WITH
+      Syntax Is: NP1 PART WITH NP2[patient]
+      Note: [patient] may also be abstract
+      </commentary>
+      <examples>
+      He asked if they could part with one of their horses to speed his
+      journey.
+      He parted with his fears of failure.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="part_with" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

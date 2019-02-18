@@ -1,0 +1,199 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="touch-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make (physical) contact with, possibly with the effect of physically manipulating." type="">
+      <commentary>
+        Syntax is: NP1[agent] TOUCH NP2[patient{concrete}]
+        NOTE: Feature of animacy (entailed by [agent]) includes body parts of animate beings as in
+        example 5.
+        NOTE: Compare to Sense 4; in Sense 1 the object is
+        CONCRETE. Compare carefully to Sense 2. In Sense 1, NP1 is an
+        agent, but in Sense 2 NP1 is either a cotheme or theme.
+      </commentary>
+      <examples>
+        He touched her once and she turned into a golden creature.
+        Amanda touches all the yarn in the store every time she goes in.
+        They touched their fingertips together and smiled.
+        The stallion was never touched by human hands.
+        If Kendrick told his men that Santiago wasn't to be touched, then why did he have to be transferred?
+        Mosquitoes bit my friend all over but they barely touched me.
+        She's barely touched her dinner.
+        You haven't touched the oil paints I sent you last month!
+        The police can't touch me!
+     </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,8,11,14</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>touch.01</pb>
+         <vn>touch-20-1</vn>
+         <fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be or come in contact with, reach" type="">
+      <commentary>
+        Syntax includes: NP1[cotheme] TOUCH NP2[cotheme]
+                         NP1[theme[plural]] TOUCH NP2[patient]
+        Note: Compare to Sense 1: in Sense 2, the subject does NOT have
+        agency in the action of touching. Also compare to Sense 4. Sense 2
+        involves physical touching, while in Sense 4 the object is abstract.  
+      </commentary>
+      <examples>
+        The two buildings touch.
+        They sat so close that their arms touched.
+        The sunlight touched the wall.
+        The ball touched the ground and bounced 4 feet in the air.
+        The shadow of the building touched me as I walked underneath.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5,9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>touch.01</pb>
+         <vn>contiguous_location-47.8-1</vn>
+         <fn>Impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="affect someone (emotionally)" type="">
+      <commentary>
+        Includes: TOUCH A CHORD, TOUCH A NERVE
+        Syntax is: NP1[theme{abstract}] TOUCH NP2[patient{animate}]
+        NOTE: Also includes metaphorical instance wher both NPs are
+        concrete (as in examples 1, 3, 4, 5). 
+      </commentary>
+      <examples>
+        Her newest novel touched me.
+        The president's speech touched a chord with voters.
+        You really touched a nerve with that comment!
+        He touched many lives in his short time here on Earth.
+        Their hearts were touched with fire.
+        He was seen as a genuinely special politician, one who was touched with the mantle of greatness.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="touch_a_chord" version="3.0">1</wn>
+         <wn lemma="touch_on" version="3.0">4</wn>
+         <omega/><pb>touch.01</pb>
+         <vn>amuse-31.1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="make reference to, involve oneself with" type="">
+      <commentary>
+        Includes: TOUCH ON
+
+        Syntax includes: NP1[theme{abstract}] TOUCH (ON) NP2[theme1]
+                         NP1[agent] TOUCH NP2[theme[abstract]]
+
+        NOTE: Compare to Senses 1 and 2; in Sense 4, the object is ABSTRACT
+      </commentary>
+      <examples>
+        They had wide-ranging discussions that touched on the situation in the Balkans.
+        His speech only touched on foreign policy issues.
+        She touched on the fact that the corn lobby has much to gain from
+        ethanol subsidies.
+        I wouldn't touch that topic with a ten-foot pole.
+        The local Mafia won't touch drug dealing.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,7,12</wn>
+         <wn lemma="touch_on" version="3.0">1,2</wn>
+         <omega/><pb>touch.04,touch.05</pb>
+         <vn>relate-86.2-1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="match in value or quality" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Nothing can touch cotton for durability.
+        As soon as the temperature touches 75 degrees, they turn on the air conditioner.
+        The villains in this novel hatched plots that touched on the ludicrous.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="tinge; repair or improve the appearance of" type="">
+      <commentary>
+        Includes: TOUCH UP, TOUCH ON
+      </commentary>
+      <examples>
+        The jeweler touched the earrings with gold.
+        They always touch up the photos before publishing them in the
+        magazine.
+        Would you touch up the paint in the kitchen?
+        Excuse me, I need to touch up my make-up.
+        He touched on the paintings, trying to get the colors right.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">15</wn>
+         <wn lemma="touch_on" version="3.0">3</wn>
+         <wn lemma="touch_up" version="3.0">1</wn>
+         <omega/><pb>touch.03</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="TOUCH BASE: establish communication with someone" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        When you go to Washington, you should touch base with our US office.
+        Please touch base with your contact list about once a month.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="touch_base" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="TOUCH DOWN: land; reach land from the air" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His plane finally touched down 6 hours late.
+        Japan's asteroid explorer, Hayabusa, touched down on the surface of the
+           asteroid Itokawa Saturday.
+        A weak tornado touched down briefly in northern Baltimore County.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="touch_down" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="TOUCH OFF: ignite or instigate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        A small fire was touched off in the boys' bathroom.
+        Her remarks touched off a heated debate.
+        The general almost touched off a civil war.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="touch_off" version="3.0">1</wn>
+         <omega/><pb>touch.02,touch.06</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,corvey,greenlm" sample_score="-"/>
+</inventory>

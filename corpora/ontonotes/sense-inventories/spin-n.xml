@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="spin-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a whirling, circular motion" type="Event">
+        <commentary>
+            SPIN[+event][+motion][+whirling]
+        </commentary>
+        <examples>
+            The figure skater ended his program with a rapid spin.
+            John put some spin on the cue ball as he made the shot.
+            The game contestant gave the wheel of fortune a spin.
+            The washing machine is on it's spin cycle now.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>spin.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a short drive by vehicle" type="Event">
+        <commentary>
+            SPIN[+event][+drive][+short][+by_vehicle]
+        </commentary>
+        <examples>
+            We took a spin along the coast last night.
+            John took Mary for a spin on his new motorcycle.
+            They enjoyed a morning spin down the country lane on their bicycles.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="rapid spiral descent of an aircraft" type="">
+        <commentary>
+            SPIN[+event][+descent][+spiral][+rapid][+of_aircraft]
+        </commentary>
+        <examples>
+            The stunt pilot went into a spin, then pulled out of it and straight into a barrel roll.
+            The test pilot took the plane to 35,000 feet and began an intentional spin.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="angular momentum of a subatomic particle" type="">
+        <commentary>
+            SPIN[+event][+momentum][+angular][+of_particle][+subatomic]
+        </commentary>
+        <examples>
+            Quarks have two spin states, spin up and spin down.
+            Fermions, such as quarks, have half-integer spins.
+            Mesons have integer spins.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an intentionally biased presentation, interpretation, of events" type="Event">
+        <commentary>
+            SPIN[+event_set][+speech_act][+presentation][+interpretation][+biased][+intentionally]
+        </commentary>
+        <examples>
+            Campaign workers are trying to control the negative spin on their candidate.
+            That newspaper has put a favorable spin on the story.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>spin.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="have a go at something, take a chance" type="">
+        <commentary>
+            Idiom: GIVE_IT_A_SPIN
+        </commentary>
+        <examples>
+            When John asked Mary out on a date, she decided to give him a spin.
+            Bob decided to give writing a spin and wound up publishing a best seller.
+        </examples>
+        <mappings>
+            <wn version="Ann">Idiom</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="ballet-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="concert dance" type="">
+        <commentary>
+	    BALLET[+event]
+	    a theatrical representation of a story performed to music by ballet dancers
+	    </commentary>
+        <examples>
+            The ballet starts at seven, don't be late.
+            He wanted to dance in the ballet when he was younger.
+            She hated going to the ballet.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>ballet.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="music" type="">
+        <commentary>
+            music written for a ballet
+        </commentary>
+        <examples>
+            The ballet was beautifully played.
+            He listened to that ballet all evening.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

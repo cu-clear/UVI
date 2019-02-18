@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dare-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="act presumptuously; be courageous enough to
+   try or do something" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        How dare you!
+        I don't dare call him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dare.01</pb>
+         <vn>NM</vn><fn>Daring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="challenge" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] DARE NP2[patient]
+      </commentary>
+      <examples>
+        I dare you to step across this line!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dare.01</pb>
+         <vn>force-59</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

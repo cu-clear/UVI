@@ -1,0 +1,145 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lay-v">    
+   <commentary>
+	Too many VPCs to include in this file. A number of idioms are also not included here.
+   </commentary>
+   <sense group="1" n="1" name="position or place something" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] LAY NP2[patient] (PP{P NP[location]})
+	Notes: denotes a simple, single movement, or simple repetitive
+	movements.
+        Includes: Concrete uses. 
+      </commentary>
+      <examples> 
+	She tried to lay her head against the window to sleep.
+	He laid the watch to his ear.
+	The mother laid the baby in the cradle.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lay.01</pb>
+         <vn>put_spatial-9.2</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="impose, levy, employ " type="">
+      <commentary>
+        Syntax Is: NP1[agent] LAY NP2[patient[abstract]] PP{P NP[target]}
+        Includes: Abstract uses.
+      </commentary>
+      <examples>
+        He laid the blame on Mary.
+        The director lays on the tragedy a little too thick.
+        They are laying additional tariffs on hotel and restaurant
+        services.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lay.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="set in order; create or construct by placing in position" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] LAY NP2[theme]
+	Note: denotes a complex activity, not a simple movement.
+      </commentary>
+      <examples>
+	After dinner, John laid a fire in the study for us.
+	It's not enough to lay good plans, you must execute them well also.
+	Those men lay brick for a living.
+	The foundation for this peace negotiation was laid in the last treaty.
+        The Railroad Museum will be laying track this spring and summer. 
+	They are laying a trail for the children's 'fox' hunt.
+	John's political enemies are laying a trap for him.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>create-26.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="deposit, as eggs" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] LAY NP2[product]
+      </commentary>
+      <examples> 
+	Don't kill the goose that lays the golden eggs.
+	Her most productive hens can lay an egg a day.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>lay.01</pb>
+         <vn>NM</vn><fn>Birth</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="verb particle construction/multi-word expression" type="vpc">
+      <commentary>
+        contains 15 VPCs, with multiple senses!  Please look
+        at examples carefully...
+      </commentary>
+      <examples>
+        LAY ASIDE
+          save up: &quot;He lays aside half his salary every month.&quot;
+        LAY AWAY
+          stash, hide: So she lays away items for his future in the nooks and crannies of our cluttered home. 
+        LAY CLAIM
+          claim: He laid claim to special tax exemptions.
+        LAY DOWN
+          establish: Will 2006 rise to the challenges laid down by 2005?
+                     He laid down the law.
+        LAY EYES ON
+          behold: The first time I laid eyes on her, she didn't take my breath away.
+        LAY HANDS ON
+          (spiritually): He prayed and laid hands on the sick, commanding them to be healed.
+          acquire: Now we've laid our hands on the new device.
+        LAY IN
+          store, stash away:  We laid in supplies for the winter.
+        LAY INTO
+          attack: He ran around like crazy and then just laid into me.
+        LAY OFF
+          discontinue: I'm going to try to lay off it for a while.
+                       You need to lay off reading that Yogi Bera Quotes book.
+          furlough: She was laid off with hundreds of other workers.
+        LAY ON THE LINE
+          risk: He has laid his heart on the line.
+        LAY OUT
+          arrange, set up: Lay out the clothes for your trip.
+          spend, invest: He laid out a fortune in hopes of making a profit.
+          present: We laid out our arguments to him.
+          provide a detailed plan: She laid out her plans for the new house.
+        LAY OVER
+          interrupt a journey: People were getting laid over in Dallas because of the floods in Houston.
+          superimpose: A shimmery, see-through fabric was laid over fine canvas.
+        LAY TO REST
+          bury: Stalin was laid to rest behind the Kremlin wall.
+        LAY UP
+          disable: She was laid up with pneumonia for six weeks.
+        LAY WASTE TO
+          devastate: Last night, rabbits laid waste to the lettuce I was going to pick today.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="lay_aside" version="3.0">1</wn>
+         <wn lemma="lay_away" version="3.0">1</wn>
+         <wn lemma="lay_claim" version="3.0">1</wn>
+         <wn lemma="lay_down" version="3.0">1</wn>
+         <wn lemma="lay_eyes_on" version="3.0">1</wn>
+         <wn lemma="lay_hands_on" version="3.0">1</wn>
+         <wn lemma="lay_in" version="3.0">1</wn>
+         <wn lemma="lay_into" version="3.0">1</wn>
+         <wn lemma="lay_off" version="3.0">1,2</wn>
+         <wn lemma="lay_on_the_line" version="3.0">1</wn>
+         <wn lemma="lay_out" version="3.0">1,2,3,4,5</wn>
+         <wn lemma="lay_over" version="3.0">1,2</wn>
+         <wn lemma="lay_to_rest" version="3.0">1</wn>
+         <wn lemma="lay_up" version="3.0">1</wn>
+         <wn lemma="lay_waste_to" version="3.0">1</wn>
+         <omega/><pb>lay.02</pb>
+         <vn>fire-10.10</vn><fn>Attack,Firing,Destroying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>  
+</inventory>

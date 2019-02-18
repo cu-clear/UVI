@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="demonstrate-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="prove, establish, attest to" type="">  
+      <commentary>
+       Syntax Is:	
+        NP1 DEMONSTRATE NP2[topic[concrete]]
+      </commentary>
+      <examples> 
+	The police have been unable to demonstrate a link between the two murders.
+	The film 2001 demonstrated the illusive and relative notion of 'intelligence'.
+	The Roman roads demonstrate excellent engineering know-how.
+	He demonstrated great skill in steering the warring factions to the negotiating table.
+	The existence of additional spatial dimensions may be demonstrated
+	through new high energy particle experiments.
+        Colleagues demonstrated that transposon-mediated evolution can
+	happen in real time to create novel solutions to changing
+	conditions.
+        As Figure one demonstrates, moderate slumps in the economy
+	tend to be followed by moderate recoveries.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>demonstrate.01</pb>
+         <vn>indicate-78-1-1</vn><fn>Reasoning,Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="show or give an exhibition of something" type="">  
+      <commentary>
+       Syntax Is:
+        NP1[agent] DEMONSTRATE NP2
+	Note: Does -not- occur with finite COMPs, i.e. that S 
+	Note: 'The magician demonstrated that a rabbit was removed from a bottle' = Sense 1
+      </commentary>
+      <examples>
+       	The magician will now demonstrate removing a rabbit from a bottle.
+	They are demonstrating a great new graphics package at Booth 15.
+	The chef demonstrated how to bone a chicken.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>demonstrate.01</pb>
+         <vn>transfer_mesg-37.1.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="protest or engage in a march" type="">  
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DEMONSTRATE (PP{P NP[topic]})
+        NP1[agent] DEMONSTRATE (PP{P NP[location]}) 
+	Note: this sense never takes a direct object of the verb.
+      </commentary>
+      <examples> 
+	The students are demonstrating against the war in front of the administration building.
+	Angry mobs were demonstrating in front of several European embassies.
+	John is not planning to demonstrate because he has a physics exam in the morning.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>demonstrate.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,greenlm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="splinter-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="break into slivers" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent|cause] SPLINTER NP2[patient|material[concrete]] (PP[product[concrete]])
+      NP1[patient|material[concrete]] SPLINTER (PP[product[concrete]]) 
+      NP1[agent[animate]] SPLINTER NP2[patient|material[concrete]] (PP[product[concrete]]) (PP[instrument])
+      NP1[instrument] SPLINTER NP2[patient|material[concrete]] (PP[product[concrete]])
+      NP1[experiencer] SPLINTER NP2[patient[body_part]]
+      </commentary>
+      <examples>
+      In coming off, the hinge has splintered the wood inside.
+      Most likely, wear and tear on the door has splintered the wood.
+      The edge of the hammer splintered the wood.
+      The ruler cracked and splintered into pieces.
+      Using a massive shoulder, he splintered the barrier into pieces and burst in.
+      He splintered the tops of both shinbones and suffered ligament damage.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>splinter.01</pb>
+         <vn>break-45.1,hurt-40.8.3-1-1</vn><fn>Cause_to_fragment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="split into parts or factions." type="">
+      <commentary>
+      Includes SPLINTER_OFF
+      Syntax includes:
+      NP1[agent[animate|organization]] SPLINTER (off)
+      NP1[agent[animate|organization]] SPLINTER (off) (PP[start_state[organization]]) (PP[end_state])
+      </commentary>
+      <examples>
+      The Shakers are a religious group that splintered from an English Quaker community in the 1700s.
+      The guitarists and vocalist splintered off to start their own project.
+      Many of the Protestant branches of Christianity thus splintered off from Catholicism.
+      The African Mafia splintered off from another Winnipeg street gang called the Mad Cowz.
+      The 90s is when pop music really splintered off into sub-genres.
+      He splintered off from his friends to grab something to eat at the Caridad restaurant.
+      He splintered off, but he's still out there raising issues.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>splinter.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

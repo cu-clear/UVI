@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lubricate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Possess lubricating properties" type="">  
+      <commentary>
+Synax includes:NP1[instrument] LUBRICATE 
+Note: this sense does not include an animate, volitional agent, strictly an
+instrument or cause of lubrication and is intransitive. 
+      </commentary>
+      <examples>
+Cetaphil feels good and lubricates well. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Apply lubricant, make slippery" type="">
+      <commentary>
+Syntax includes: NP1[[agent]animate] LUBRICATE NP2[patient] (PP {with
+NP[instrument]})
+                 NP1[instrument] LUBRICATE NP[patient]
+Note: this is the transitive sense. 
+      </commentary>
+      <examples>
+I lubricate my driveshaft with synthetic grease.
+I lubricate my Rubik's Icon Cube with CRC Heavy Duty Silicon. 
+Which household item lubricates metal the best?
+Fish oil can lubricate your joints.
+$10b loan-oil deal lubricates trade. 
+The test gear was lubricated with an eco-oil.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lubricate.01</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

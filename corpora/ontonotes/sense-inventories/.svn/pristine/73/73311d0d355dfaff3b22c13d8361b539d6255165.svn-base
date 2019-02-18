@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recognize-v">    
+   <commentary>
+    Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="discern, identify, or know because of a previous experience" type="">  
+      <commentary>
+	Syntax Is: NP1[experiencer] RECOGNIZE NP2[stimulus]
+	Note: cognitive activity, pattern matching activity
+        Note: this has to do with identifying someone or something as a result of 
+        having seen, heard, or experienced a same or similar thing
+      </commentary>
+      <examples> 
+        I hadn't seen her for 20 years, but I recognized her immediately.
+        Do you recognize this song?
+        Doctors are trained to recognize the symptoms of different diseases.
+	I don't recognize any of these buildings in the dark.
+	Mary finally recognized him as the man she'd sat next to on the plane.
+	He recognizes a kindred spirit when he sees one.
+	They pretended not to recognize her as they passed in the hall.
+	The HIV virus is able to keep producing new antigens that the immune system does not yet recognize.
+	A vaccine enables the body to recognize a pathogen without actually suffering the disease.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,6,8</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recognize.01,sight-30.2</pb>
+         <vn>Conjecture-29.5-1,sight-30.2</vn>
+         <fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="acknowledge and accept the truth/importance of; give due credit" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1[agent] RECOGNIZE NP2
+        NP1[agent] RECOGNIZE COMP
+	Note: can usually be rephrased to fit the frame above, 
+		(academics) recognize Bob (for his work)
+		He doesn't recognize his parent's sacrifice
+      </commentary>
+      <examples>
+        He sadly recognized that he would die childless.
+        You must recognize the seriousness of the problems we are facing.
+        They don't seem to recognize the danger of running such a large deficit.
+        I recognize that I am at fault.
+        The opponents of racial equality have always refused to recognize the problem.
+	He never recognized the sacrifices his parents made for him all those years.
+	Bob feels bitter that his work is not more widely recognized.
+        They were not recognized as industry leaders.
+	The two boys were recognized for outstanding community service.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,7,9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recognize.02,conjecture-29.5-1,consider-29.9-1</pb>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="acknowledge the authority or officiality of" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1[agent]  RECOGNIZE NP2
+        NP1[agent] RECOGNIZE SCOMP
+        NOTE: often used with official institutions, authorities, decisions or documents;
+        compare to sense 2, which means to acknowledge the existence of; this sense
+        implies submitting to the authority of, or granting authority to
+      </commentary>
+      <examples> 
+        The Secretary of State refused to recognize the decision of Federal Court.
+	Several nations will not recognize the new government.
+	The floor recognizes the Senator from Delaware.
+	They would not recognize any other god but their own.
+	The Regents officially recognized the new educational institution.
+	A driver's license is not recognized as a valid document for flying an airplane.
+	The airport will only recognize government-issued IDs as acceptable identification.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>recognize.02</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,duffielc,hwangd" sample_score="-"/>  
+</inventory>

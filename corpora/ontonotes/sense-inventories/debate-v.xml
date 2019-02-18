@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="debate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Think about carefully or weigh; discuss the
+         pros and cons of an issue or question." type="">  
+      <commentary>
+      INCLUDES: DEBATE ON
+      Syntax Is:
+       NP1 DEBATE NP2[topic]
+      </commentary>
+      <examples>
+      We debated the question of abortion.
+      Sherman and Martha debate on foreign policy all the time.
+      They debated the possibility of a strike. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>debate.01</pb>
+         <vn>chit_chat-37.6-1,correspond-36.1-1-1</vn><fn>Discussion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Argue against an opponent." type="">
+      <commentary>
+      Syntax Is:
+       NP1[actor[human]] DEBATE NP2[actor[human]]
+      </commentary>
+      <examples>
+      John debated Mary in the second round of the tournament.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>debate.01</pb>
+         <vn>meet-36.3-2</vn><fn>Discussion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

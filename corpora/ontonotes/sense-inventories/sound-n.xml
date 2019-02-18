@@ -1,0 +1,141 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sound-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an audible vibration through a medium" type="Event">
+        <commentary>
+            SOUND[+event][+vibration][+audible][+through_medium]
+        </commentary>
+        <examples>
+            We could hear the sound of the rain falling on the roof.
+            Sound travels well through the water.
+            There were strange sounds coming from the engine.
+            He awoke to the sound of a brass band playing 'Joy to the World'.
+            In the vacuum of deep space, the explosion would make no sound.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,3,4</wn>
+            <omega/><pb>sound.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a transmitted transformed audio signal, e.g., as in a TV broadcast" type="">
+        <commentary>
+            SOUND[+force][+signal][+transformed][+audio][+transmitted]
+            Note: related to Sense 1, but implies an electrically transmitted audio signal.
+        </commentary>
+        <examples>
+            An engineer monitored the sound segment of the television program.
+            He worked in sound for several different recording studios.
+            John adjusted the knobs to balance the sound system. 
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>sound.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="speech units, phones" type="">
+        <commentary>
+            SOUND[+form][+linguistic][+speech][+unit][+phone]
+        </commentary>
+        <examples>
+            The first speech sounds the child heard were in French.
+            It's a sound similar to an English 'p', but softer, without the aspiration.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>sound.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a narrow channel or span of a sea or ocean" type="">
+        <commentary>
+            SOUND[+form][+geographical][+channel][+narrow][+of_sea]
+        </commentary>
+        <examples>
+            Winds coming from the Atlantic can whip up large waves in the sound off Long Island.
+            The main body of the sound ran parallel to the coast.
+            They enjoyed sailing in the sound during the summer months.
+        </examples>
+        <mappings>
+            <wn version="3.0">7,8</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an area, location, within audible range of something" type="">
+        <commentary>
+            SOUND[+location][+area][+within_range][+audible]
+        </commentary>
+        <examples>
+            The dog had roamed into the woods beyond the sound of my voice.
+            The lightening is close enough that we're within the sound of it.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a mental impression, idea" type="Event">
+        <commentary>
+            SOUND[+state][+mental][+impression][+idea]
+        </commentary>
+        <examples>
+            From the sounds of it, John really loved his vacation in Italy.
+            I don't like the sound of your suggestion - it would be dangerous!
+            By the sound of it, I conclude you don't want to go for sushi tonight?
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a musical style or effect" type="">
+        <commentary>
+            SOUN[+quality][+style][+musical]
+        </commentary>
+        <examples>
+            Their band has a different sound from any I've ever heard.
+            She likes the Motown sound a lot.
+            The composer created a dark sound in his third symphony.
+        </examples>
+        <mappings>
+            <wn version="MAC">1i</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a long surgical probe" type="">
+        <commentary>
+            SOUND[+artifact][+instrument][+surgical][+probing][+long]
+        </commentary>
+        <examples>
+            The surgeon examined the inflamed tissue with a sound.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

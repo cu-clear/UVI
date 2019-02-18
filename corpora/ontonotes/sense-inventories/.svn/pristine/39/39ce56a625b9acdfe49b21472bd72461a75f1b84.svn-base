@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="protest-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="express opposition by preforming some action" type="">
+      <commentary>
+        Syntax Includes: NP1[agent] PROTEST NP2
+        NOTE: Compare carefully to sense 2. This sense DOES NOT include
+        anything related to speaking or writing a protest to another person/organization.
+      </commentary>
+      <examples>
+        A 'protest song' is a song which protests problems in society such as injustice, 
+         war, racial discrimination, etc.
+        More than 10,000 people rallied in Jena, LA., to protest the treatment of six black teenagers.
+        A monks' organization for the first time urged the public to join in protesting 
+         "evil military despotism" in Myanmar, also known as Burma.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>protest.01</pb>
+         <vn>conspire-71</vn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="affirm solemnly through speech or other declaration" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PROTEST NP2[topic] (PP{to NP[patient[human]]}) 
+        NOTE: Compare carefully to sense 1. The NP3 need not be stated, but
+        is always implied. This sense only relates to instances that
+        involve spoken or written acts of protesting. 
+      </commentary>
+      <examples>
+        'But I can't do math,' the child protested to the teacher.
+        For though I protested I was not hungry, the old man insisted on our sharing alike.
+        Girls, however much do they protest to the contrary, are not getting as much pleasure
+         out of the hookups as they claim.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>protest.02</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,clarklm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="submit-v">    
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="yield control to another being or force" type="">  
+      <commentary>
+        Syntax is: NP1[animate] SUBMIT to NP2
+      </commentary>
+      <examples>
+        In the end, many Congresspeople who knew that the resolution was bad policy submitted to the pressure to vote for it.
+        Soldiers are taught to submit to authority immediately.
+        Although an employee is equal to the boss as a man, the employee must submit to him because he holds a higher rank.
+        Were he able to simply reverse his will and submit to fate, he would find peace more swiftly.
+        There, Alexander Nevsky, the bane of Germans, submitted to the inevitable and accepted Mongol lordship over all of Russia.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6,10</wn>   
+         <omega></omega><pb>NM</pb>
+         <vn>acquiesce-95,contribute-13.2-1-1</vn><fn>Compliance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hand over or put in" type="">
+      <commentary>
+        Syntax is: NP1 [agent] SUBMIT NP2[concrete] to NP3[human]
+      </commentary>
+      <examples>
+        She submitted a proposal to the agency.
+        We submitted an application for a grant to the NSF.
+        Submit your website URL to 40 major search engines for FREE!
+        You can submit a letter to the Voice of San Diego editors on this page.
+        On Feb. 9, 1989, Jeannette Dinning, Lighthill's daughter, submitted the estate for probate.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,8,9</wn>
+         <omega></omega><pb>submit.01</pb>
+         <vn>contribute-13.2-1-1</vn><fn>Submitting_documents</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="put forward an idea or question for approval or judgement" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I submit to you that the accused is guilty.
+        I jokingly submit to him that this is environment where all editorial decisions should be made.
+        I had submitted to her that there was a 50/50 chance of failure.
+        Finally they stopped a day laborer and submitted the question to him.
+        I submitted the problem to tech support, and everything was quickly resolved and working.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="undergo" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Workers are often not allowed to form unions and are easily submitted to unfair treatment.
+        He had not submitted to punishment without some resistance.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

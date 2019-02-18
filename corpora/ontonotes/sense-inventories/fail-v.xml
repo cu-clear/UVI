@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fail-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to not succeed, fall short of a goal" type="">
+      <commentary>
+         Syntax Includes:
+         NP FAIL [predicate]
+         NP1[agent] FAIL NP2
+         Either the agent is aware of the intended goal, or someone describing the failed
+         goal was expecting it (as in the case of predicted events specified by a theory)
+      </commentary>
+      <examples>
+         Why is the public school system failing?
+         Her confidence failed her at the audition and she didn't get the job.
+         Try as I would, I failed to understand the poetry of Ezra Pound.
+         That math professor failed his whole class.
+         John never studied the material and so he failed the class.
+         She failed to be a good daughter to him.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,5,6,7,8</wn>
+         <omega/><pb>fail.01,fail.02</pb>
+         <vn>neglect-75-1,succeed-74-3-1</vn><fn>Success_or_failure,Successful_action</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give out, (become bankrupt and) stop functioning" type="">
+      <commentary>
+         Syntax Is: NP1 FAIL[intransitive] (PP)
+      </commentary>
+      <examples>
+         The engines failed during take-off.
+         Three banks failed in our state last month.
+         The water supply for the town failed after a long drought.
+         Her grandfather's health is failing.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,9,10,11</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="forget or neglect to do something" type="">
+      <commentary>
+         Note: Implies the agent forgot to perform the action.
+      </commentary>
+      <examples>
+         She failed to turn the heat down while stirring the pudding.
+         I failed to leave the key under the mat for the cleaning lady.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>neglect-75-1,succeed-74-3-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

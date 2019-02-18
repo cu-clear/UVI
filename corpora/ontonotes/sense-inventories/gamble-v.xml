@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="gamble-v">    
+   <commentary>
+   </commentary>
+    <sense group="1" n="1" name="take a risk or guess in hope of a favorable outcome" type="">  
+      <commentary>
+      Note: Compare to Sense 2: in Sense 1, no game is being played.
+      </commentary>
+      <examples>
+        Bennett gambled throughout the president's impeachment.
+        The CEO gambled with the stockholders' money, but the acquisition was a bust.
+        The man gambled at life.
+        I'm going to gamble here, but I think we're lost.
+        Polly might show up, but I wouldn't gamble on it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>gamble.01</pb>
+         <vn>risk-94,rely-70</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="wager on a game, race, or competition for money or valuables" type="">
+      <commentary>
+      Note: Compare to Sense 1: Sense 2 refers to organized events of wagering, in which all participants
+         voluntarily risk money or valuables on the outcome of something.
+      </commentary>
+      <examples>
+        Since I gambled all my money away, I don't have any for rent.
+        My boyfriend loves to gamble at blackjack.
+        Let's go to Vegas and gamble!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>gamble.01</pb>
+         <vn>risk-94</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+   <WORD_META authors="clarklm,corvey,brownsw" sample_score="-"/>  
+</inventory>

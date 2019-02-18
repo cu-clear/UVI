@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="weather_forecast-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="predictions of future weather conditions" type="">
+        <commentary>
+            WEATHER_FORECAST[+event][+prediction][+of_weather][+future]
+        </commentary>
+        <examples>
+            What's the weather forecast for Saturday?
+            The weather forecasts on Channel 4 seem more accurate than those on Channel 9.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

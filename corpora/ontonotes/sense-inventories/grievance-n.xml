@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="grievance-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of resentment or grudge" type="Event">
+        <commentary>
+            GRIEVANCE[+state][+situation][+resentment][+grudge]
+            Note: refers to an ongoing state of resentment for an alleged wrongdoing, not just a one-time
+            verbal expression of the resentment (see Sense 3)
+        </commentary>
+        <examples>
+            John  had long nursed a grievance against his neighbor Bob for building an unsightly 3-car garage against his property line.
+            Failure to address these genuine grievances of the people in the projects may lead to rioting one day.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>grievance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="legal complaint filed against an alleged wrongdoing" type="Event">
+        <commentary>
+            GRIEVANCE[+event][+action][+official][+legal][+complaint][+of_wrongdoing]
+            Note: a formal action to file a legal complaint against someone for an alleged wrongdoing.
+        </commentary>
+        <examples>
+            The town filed a grievance against the CEO for landing his private jet after hours at the local airport.
+            Three former staff members have filed a grievance against the congresswoman.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>grievance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a verbal complaint about some perceived wrongdoing" type="Event">
+        <commentary>
+            GRIEVANCE[+event][+speech_act][+complaint][+of_wrongdoing]
+            Note: refers to the verbal complaint of someone about a perceived wrongdoing.
+        </commentary>
+        <examples>
+            The manager invited his employees to air their grievances with him openly.
+            Sally excused herself from lunch early to avoid listening to all of Jane's grievances.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>grievance.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="embark-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="set out on,start on, proceed" type="">  
+      <commentary>
+        Includes: EMBARK ON
+      </commentary>
+      <examples>
+        We embarked on an exciting enterprise.
+        She embarked upon her college career at the University of Georgia.
+        He embarked into the world of drugs and crime.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="embark_on" version="3.0">1</wn>
+         <omega></omega><pb>embark.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="go on board" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They embarked on the ship Mayflower.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Board_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

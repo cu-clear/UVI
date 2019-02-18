@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hike-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="walk a long way, for pleasure or exercise" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] HIKE NP2[location]
+      </commentary>
+      <examples>
+        They hiked the Appalachian Trail.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hike.01</pb>
+         <vn>run-51.3.2</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="increase" type="">
+      <commentary>
+        Syntax Is: NP1[agent] HIKE (UP) NP2
+        Includes: HIKE UP
+      </commentary>
+      <examples>
+        The landlord hiked the rent 3 percent based upon the "legal rent"
+        not the "lower rent."
+        They have hiked the prices up considerably since my last visit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="hike_up" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="pull up" type="">
+      <commentary>
+        Syntax Is: NP1[agent] HIKE UP NP2[patient] 
+        IS: HIKE UP
+      </commentary>
+      <examples>
+        Thompson hiked up his socks and smirked while Reyes looked like a
+        12 year old.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="hike_up" version="3.0">1</wn>
+         <omega></omega><pb>hike.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

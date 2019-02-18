@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="spill-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause) to fall, flow, or run from a source" type="">
+      <commentary>
+        Includes: SPILL OUT, SPILL OVER, SPILL ACROSS
+        Syntax is: NP1 SPILL (PP) NP2[concrete]
+        NOTE: the PP is optional in this sense. Compare to sense 2 where
+        the PP is obligatory.
+      </commentary>
+      <examples>
+        The guy thinks he spilled Gatorade on his laptop, which can be a very pricey repair.
+        Ewwww, who spilled the litter box?
+        Whoops, I spilled.
+        Anyone who shames his fellow in public, it is as if he spilled blood.
+        5500 tonnes (1616000 gallons) of gasoline, crude oil, diesel, and
+        jet fuel were spilled.
+        As he entered the pool, he noticed that water spilled over the
+        sides of the pool.
+        The mercury spilled onto the table.
+        Cheerios spilled out from the tear in the bag.
+        The crowd spilled out into the street.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,3,4</wn>
+         <wn lemma="spill_out" version="3.0">1</wn>
+         <wn lemma="spill_over" version="3.0">2</wn>
+         <omega/><pb>spill.01,spill.02,spill.03</pb>
+         <vn>appear-48.1.1,pour-9.5,substance_emission-43.4</vn><fn>Fluidic_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="have an abundance or excess of something" type="">
+      <commentary>
+        Includes: SPILL OVER
+        Syntax is: NP1[patient] SPILL OVER PP(with/to) NP2[abstract]
+                   NP1[abstract] SPILL OVER PP(with/to) NP2[abstract]
+        NOTE: One NP can be [+concrete], but one has to be [-concrete].
+        This would include metaphorical instances of sense 2. 
+      </commentary>
+      <examples>
+        Such books spilled over with supposed mobster names and sinister-sounding activities.
+        The entire ambience spilled over with empathy.
+        The article spilled over with errors of fact.
+        The policeman's law abiding ways spilled over to his family
+        life. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="spill_over" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="reveal a secret" type="">
+      <commentary>
+        Includes: SPILL THE BEANS, SPILL HIS/HER GUTS
+      </commentary>
+      <examples>
+        He spilled the beans to reporters on his relationship with shortstop Derek Jeter.
+        Come on, girlfriend. You have got to spill the juicy gossip!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Reveal_secret</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,corvey,greenlm" sample_score="-"/>
+</inventory>

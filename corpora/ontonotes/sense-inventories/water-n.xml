@@ -1,0 +1,132 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="water-n">
+    <commentary>
+        16nov06 update wn2.1, added features. ahouston
+        16nov06 - split sense 1 into sense 1, sense5, added senses 6 and 7. ahouston
+    </commentary>
+    <sense group="1" n="1" name="The chemical substance, H2O, as it occurs in liquid form" type="">
+        <commentary>
+            WATER[+entity][+substance][+chemical][-organic][+H2O]
+            Note: refers to the -substance- in general, not a body formed of it.
+        </commentary>
+        <examples>
+            he asked for a drink of water.
+            You should use branch water, not soda water, to make a mint julep.
+            Three-quarters of the Earth's surface is covered with water. (refers to the substance not a body)
+            Water cannot put out electrical fires.
+            There is a water hazard near the fourth hole on this golf course. (hazard filled with substance H2O)
+            Note: the 'hazard' must be modified with 'water', unlike a lake or ocean, we don't have to say a 'water lake' or a 'water ocean'.
+            Many patients reported their illnesses were cured by taking the waters of that spring.
+            That's just water under the bridge now. (idiomatic usage - 'water' here is the substance)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="public utility access of H2O" type="">
+        <commentary>
+            WATER[+state][+availability][+service][+utility][+public]
+            Note: refers to H2O as a paid-for commodity, a public utility.
+            Occurs with verbs that relate to mechanical processes, e.g., 'shut off', 'restore'
+        </commentary>
+        <examples>
+            They restored the water to that neighborhood in two hours.
+            The utility company shut off their water because they hadn't paid their bills.
+            Do you pay for water and electricity? (refers to a service provider).
+            Are you on city water this far out in the country?
+            There is no running water in this log cabin.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="geographical body of H2O" type="">
+        <commentary>
+            WATER[+entity][+form][+geographical][+body][+liquid][+ocean/+lake/+bay]
+            Note: refers to a large geographical form (ocean, lake, river) that contains H2O.
+        </commentary>
+        <examples>
+            They invaded our territorial waters. (refers to a region of ocean near a sovereign nation)
+            They were sitting by the water's edge at the lake. (refers to the structural edge of the lake)
+            John has done a lot of blue water sailing. (open ocean)
+            The bill was intended to clean up the polluted waters of the industrial heartland. (rivers, lakes)
+            We are sailing in uncharted waters with this new endeavor. (metaphoric extension)
+            Commercial jets must have two engines to fly over water. (implies a large -body- of water)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="biological liquid excretion, e.g, urine" type="">
+        <commentary>
+            WATER[+entity][+substance][+chemical][+organic][+biological][+excretion][+liquid]
+        </commentary>
+        <examples>
+            The child made water in his bed again last night.
+            The doctor asked the patient whether he had trouble passing water.
+            The woman believed she was in labor when her bag of waters broke. (sac of amniotic fluid)
+            The child developed a large water blister on his heel from the new boot.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="fundamental element of nature according to ancient philosophy" type="">
+        <commentary>
+            WATER[+substance][+element][+fundamental][+ancient]
+            Note: refers to a pre-scientific notion of water, which includes powers and traits no longer ascribed to the substance, H2O
+        </commentary>
+        <examples>
+            The ancients believed everything was made of either earth, air, fire or water.
+            Pisces is one of the water signs of the Zodiac.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="the quality of transparency, purity, in a gem" type="">
+        <commentary>
+            WATER[+quality][+transparency][+gem]
+        </commentary>
+        <examples>
+            We admired the water of Mary's blue-white diamond.
+            Gems of the first water will cost a lot more than those without it. (highest measured clarity)
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="a financial stock with false value, i.e., the underlying asset does not support the worth of the stock" type="">
+        <commentary>
+            WATER[+entity][+abstract][+asset][+share][+stock][+value][+false]
+        </commentary>
+        <examples>
+            The accountant determined that the company's stock was just water.
+            John was swindled by a sleazy broker who sold him some water.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

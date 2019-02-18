@@ -1,0 +1,88 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="freeze-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the withdrawal of heat to the point of ice formation" type="Event">
+        <commentary>
+            FREEZE[+event][+withdrawal][+of_heat][+to_ice_formation]
+        </commentary>
+        <examples>
+            The process involves a quick freeze of the vegetables before packaging them.
+            The freeze of the specimens is necessary in order to prepare them for slides.
+            John got a brain freeze from eating the ice cream so quickly.  (brain is not literally frozen, but it's a sensation caused by rapid cooling of tissue)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>freeze.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="temperature state that is ice producing" type="">
+        <commentary>
+            STATE[+temperature][+ice_producing]
+        </commentary>
+        <examples>
+            The hard freeze killed the petunias in the flower bed.
+            The carcass of the animal was preserved for centuries in a deep freeze under the glacier.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="temporary stoppage of some activity" type="Event">
+        <commentary>
+            FREEZE[+state][+stoppage][+temporary][+of_activity]
+        </commentary>
+        <examples>
+            Some research activities have halted because of the freeze on biological warfare.
+            The treaty between the nations resulted in a nuclear freeze.
+            Our company currently has a hiring freeze.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>freeze.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="temporary stoppage of price increases" type="Event">
+        <commentary>
+            FREEZE[+state][+stoppage][+temporary][+of_increase][+in_price]
+        </commentary>
+        <examples>
+            Nixon ordered a freeze on prices of various major commodities.
+            The airline mechanics are facing a pay freeze next year.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>freeze.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a sweet, frozen, fruit-based drink" type="">
+        <commentary>
+            FREEZE[+artifact][+drink][+frozen][+sweet][+fruit_based]
+        </commentary>
+        <examples>
+            Mary ordered an orange freeze with her fries and hamburger.
+            John made banana-strawberry freezes in his blender.
+        </examples>
+        <mappings>
+            <wn version="Ann">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

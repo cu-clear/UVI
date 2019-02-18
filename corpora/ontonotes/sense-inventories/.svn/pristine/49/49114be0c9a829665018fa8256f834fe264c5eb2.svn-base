@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="majority-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the largest proportion of something" type="">
+        <commentary>
+            MAJORITY[+quantity][+largest]
+            Note: a general notion of largest proportion, need not be half, just more than any other allocation.
+            Note: can be a proportion of a set of things (people), or a single thing (pie)
+        </commentary>
+        <examples>
+            A majority of the students accepted to that college are from the midwest.
+            I would say Pete ate the majority of the chocolate cake.
+            Among our customers, the majority care more about economizing than attaining status symbols.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the number of votes required to win an election" type="">
+        <commentary>
+            MAJORITY[+quantity][+proportion][+vote][+51_percent/+predominant]
+            Note: a narrow sense of sense 1, implies legal stipulations about the votes required in a context
+        </commentary>
+        <examples>
+            The Democrats may regain the majority of  Senate seats in the next election.
+            The leading candidate didn't win a majority so there will be a runoff.
+            He now owns the majority of the stock in that company. (implies voting clout)
+            John believes the purpose of the state is to balance individual rights against majority rule.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the age at which one is legally an adult" type="">
+        <commentary>
+            MAJORITY[+state][+chronological][+age][+adult]
+        </commentary>
+        <examples>
+            The defendant has reached majority and so will not be tried as a minor.
+            Mandated child support usually ends when the children reach majority.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the military rank of major" type="">
+        <commentary>
+            MAJORITY[+quality][+rank][+military][+major]
+        </commentary>
+        <examples>
+            Bob achieved majority in the army before he retired.
+            Those captains must obey him because he has majority. (US major outranks captain in the army)
+        </examples>
+        <mappings>
+            <wn version="MW online">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

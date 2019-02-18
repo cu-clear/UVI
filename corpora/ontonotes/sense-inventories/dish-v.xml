@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dish-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="serve; administer" type="">  
+      <commentary>
+        Includes: DISH OUT, DISH UP
+      </commentary>
+      <examples>
+        He mentioned that they dished out a box of food to a guy and the
+        guy actually said, "I can't eat this; how do I prepare it?"
+        He dished out 8 billion dollars for community reinvestment loans.
+        Administrators dished up delicious ice cream sundaes to the
+        hard-working students.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="dish_out" version="3.0">1,2</wn>
+         <wn lemma="dish_up" version="3.0">1</wn>
+         <omega></omega><pb>dish.01,dish.02,dish.03</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="shape like a dish" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        No examples found.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="DISH THE DIRT: gossip" type="">
+      <commentary>
+        IS: DISH THE DIRT
+      </commentary>
+      <examples>
+        The Fabulous Adam Richard dished the dirt on the world of
+        celebrities.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="dish_the_dirt" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

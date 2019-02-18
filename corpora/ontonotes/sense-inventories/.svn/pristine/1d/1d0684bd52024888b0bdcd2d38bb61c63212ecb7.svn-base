@@ -1,0 +1,75 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="route-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a physical roadway that is public, assigned a name" type="">
+        <commentary>
+            ROUTE[+entity][+artifact][+structure][+road][+public][+named]
+        </commentary>
+        <examples>
+            This highway is an old state route that will be decommissioned next year.
+            The map shows another route that bypasses the center of the city.
+            The road sign warned of delays and advised motorists to seek alternate routes.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an established linear path of travel" type="">
+        <commentary>
+            ROUTE[+form][+physical][+path][+established][+of_travel][+line]
+            Note: a line with beginning and end points that are different, unlike Sense 3
+        </commentary>
+        <examples>
+            The bloodstream serves as an effective route for the parasite to quickly reach the liver.
+            This looks like a route travelled by deer to reach the stream.
+            My route to Los Angeles was not direct; I had two layovers in Cincinnati and Denver.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a regularly traveled circuit - the end is the starting point" type="">
+        <commentary>
+            ROUTE[+form][+physical][+path][+established][+of_travel][+circuit]
+        </commentary>
+        <examples>
+            That paperboy's delivery route does not include our street.
+            They are changing the route of Bus 71; it now includes a stop at the mall. 
+            The traveling salesman had a monthly route between five cities.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a purposeful methodology to achieve a goal" type="">
+        <commentary>
+            ROUTE[+activity][+purposive][+method]
+        </commentary>
+        <examples>
+            The book discusses several different routes to achieving personal financial wealth.
+            The two musicians admitted they had taken different routes to stardom.
+            They are searching for any route to a peace settlement.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

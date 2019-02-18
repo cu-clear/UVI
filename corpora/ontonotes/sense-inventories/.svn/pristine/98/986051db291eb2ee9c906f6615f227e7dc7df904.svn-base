@@ -1,0 +1,120 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="execution-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the legal enactment of a death penalty" type="Event">
+        <commentary>
+            EXECUTION[+event][+killing][+of_person][+legal][+penalty][+death]
+        </commentary>
+        <examples>
+            They will transport the prisoner to the place of execution in the morning.
+            There were videos of the dictator's execution on the Internet.
+            A stay of execution from the governor came just minutes before the prisoner was placed into the electric chair.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="illegal, premeditated, ritualized killing of someone" type="Event">
+        <commentary>
+            EXECUTION[+event][+killing][+of_person][-legal][+premeditated][+ritualized][+murder]
+        </commentary>
+        <examples>
+            The execution of the man's wife and children by the roadside looked like the work of a drug gang.
+            The guerillas' execution of two news correspondents caused an international furor.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the performance or carrying out of a task" type="Event">
+        <commentary>
+            EXECUTION[+event][+performance][+social][+task]
+        </commentary>
+        <examples>
+            The execution of this new plan will be more difficult than you think.
+            John was found negligent in the execution of his duties as chief administrator of the hospital.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the technique or style of doing an action" type="Event">
+        <commentary>
+            EXECUTION[+action][+physical][+technique][+performance]
+        </commentary>
+        <examples>
+            Skipping a stone across water is all in the execution of the wrist.
+            The execution of such difficult spins on the ice takes years of practice.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="performance of a computer instruction" type="Event">
+        <commentary>
+            EXECUTION[+event][+electronic][+performance][+instruction][+computer]
+        </commentary>
+        <examples>
+            How many thousands of executions can this computer do in a second?
+            Compiling the software program will speed up its execution.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="putting a legal contract into effect" type="Event">
+        <commentary>
+            EXECUTION[+event][+making+effective][+contract][+legal]
+        </commentary>
+        <examples>
+            The execution of the sale was finalized by both parties signing the contract.
+            The execution of his grandfather's will was blocked by legal technicalities. 
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a court order, short for 'writ of execution'" type="">
+        <commentary>
+            EXECUTION[+entity][+artifact][+document][+legal][+court_order]
+            [+state][+legal][+authorization][+enforcement][+by_sheriff]    
+        </commentary>
+        <examples>
+            The sheriff put the deadbeat tenants out on the street by a writ of execution.
+            The judge issued a writ of execution to recover the plaintiff's possessions. 
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

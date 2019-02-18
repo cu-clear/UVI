@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="shear-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cut something from somewhere, (as if) with shears." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      Shear the sheep, Sally.
+      Workers sheared the hedges.
+      Sheer the wool off the lamb. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>shear.01</pb>
+         <vn>wipe_instr-10.4.2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Become deformed by forces producing a
+         shearing strain." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The cables sheared under the weight of the cargo.
+      The rope sheared and the climber fell. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

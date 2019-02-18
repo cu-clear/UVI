@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fascinate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to be interested" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FASCINATE NP2[experiencer] (PP{with NP[instrument]})
+        NP1[stimulus] FASCINATE NP2[experiencer] (PP{with NP[instrument]})
+      </commentary>
+      <examples>
+        Political reporting fascinates her.
+        He fascinated her with stories about the outside world that she was
+        not allowed to experience for herself.
+        She fascinated every betrousered human around her.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fascinate.01</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="render motionless" type="">
+      <commentary>
+        Syntax Is: NP1[agent] FASCINATE NP2[patient]
+      </commentary>
+      <examples>
+        The snake charmer fascinated the cobra.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

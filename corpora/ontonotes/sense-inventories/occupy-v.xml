@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="occupy-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be present, reside" type="">
+      <commentary>
+        Syntax Is: NP1 OCCUPY NP2[location]
+        Note: can be metaphorical location, as in &quot;stocks occupy 27% of trading&quot;
+      </commentary>
+      <examples>
+         Several statues occupy the center of the formal garden.
+         The same tenant has occupied this apartment for three years.
+         That closet is already occupied to the top with books and clothes.
+         After conquering the city, the army occupied it for eighteen months.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,2,3,5</wn>
+         <omega/><pb>occupy.01</pb>
+         <vn>NM</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="OCCUPY WITH: be or make interested in,          engrossed in" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] OCCUPY WITH NP2
+      </commentary>
+      <examples>
+         She occupies herself with friends and family.
+         I've been quite occupied with money problems.
+         He was so occupied with the problem he didn't notice it was pouring rain.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>amuse-31.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="consume, use" type="">
+      <commentary>
+        Syntax Is: NP1 OCCUPY NP2
+      </commentary>
+      <examples>
+         Events inside a particle accelerator occupy very small portions of a second.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm,dehart" sample_score="-"/>
+</inventory>

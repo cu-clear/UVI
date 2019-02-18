@@ -1,0 +1,28 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="convene-v">
+   <commentary>
+   </commentary>
+ 
+   <sense group="1" n="1" name="come together, bring together" type="">
+      <commentary>
+       Syntax Includes: 
+        NP1[topic] CONVENE[intransitive] (PP{P NP2[location]})
+        NP1[topic] CONVENE[intransitive] (PP{P NP2[temporal]})
+        NP1[agent] CONVENE[transitive] NP2[topic] (PP{P NP3[temporal]})
+        NP1[agent] CONVENE[transitive] NP2[topic] (PP{P NP3[locative]})
+      </commentary>
+      <examples>
+         Students from around the globe convened in San Francisco for ThinkQuest Live 2005.
+         After dinner, the guests convened in the drawing room for brandy and conversation.
+         The Dead Sea gathering is the first IRFFI meeting to convene since the January 2005 elections in Iraq.
+         He has convened a group of well-known scientists to address the issue.
+         The Department of Environmental Quality will convene the second meeting of the Agriculture and Rural Communities Roundtable.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>herd-47.5.2</vn><fn>Gathering_up,Congregating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc, ahouston" sample_score="-"/>
+</inventory>

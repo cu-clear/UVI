@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="color-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="add or change colors" type="">  
+      <commentary>
+        Includes: COLOR IN
+      </commentary>
+      <examples>
+        How does a toymaker color his toys?
+        Can the fallout from a meteor explosion color the rain?
+        The child colored the cat purple.
+        Fall colored the trees.
+        Your test is to name and color in all the countries on the map.
+        A red shirt in my laundry colored all my whites pink.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,6</wn>   
+         <wn lemma="color_in" version="3.0">1</wn>
+         <omega></omega><pb>color.01</pb>
+         <vn>coloring-24</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="modify or bias" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        My prejudices always color my judgement.
+        Don't let his foul mouth color your opion of him.
+        Donnie's past experiences color his social interactions
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>color.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="give a deceptive explanation or excuse for" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She really knows how to color her lies.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

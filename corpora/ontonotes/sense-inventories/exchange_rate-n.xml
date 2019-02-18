@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="exchange_rate-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="the value of a currency's conversion to another currency" type="">
+        <commentary>
+            EXCHANGE_RATE[+quantity][+money][+value][+currency][+conversion]
+        </commentary>
+        <examples>
+            What is the exchange rate between the US dollar and the British pound?
+            You won't get very good exchange rates at an airport.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

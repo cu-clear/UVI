@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="forgo-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="do without, avoid" type="">  
+      <commentary>
+      Syntax includes: 
+      NP1[agent[animate]] FORGO NP2[theme1] (PP[theme2])
+      </commentary>
+      <examples>
+      I may be willing to forgo the chocolate and vino.
+      Even Williams had enough sense to forgo suggesting an ascent.
+      I'd forgo a portion of my paycheck for 2-ply at work!
+      It was the enlightened beings' karma to forgo nirvana in order to help others attain that state.
+      Daffyd had a warm sour ale that Anna forwent in favor of a vinegary red wine.
+      Intel forwent its original design for its 64-bit chip for greater 32-bit compatibility.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>forgo.01</pb>
+         <vn>avoid-52,neglect-75-1-1,exchange-13.6</vn><fn>Avoiding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="go before someone/something" type="">
+      <commentary>
+      Note: only 1 example found.
+      Syntax includes:
+      NP1[agent[animate]] FORGO PP[destination]
+      NP2[agent] FORGO NP2[theme] (PP[destination])
+      NP1[theme1] FORGO NP1[theme2]
+      </commentary>
+      <examples>
+      Olivia, Peter and Walter forwent to the Circus to see the dead clowns.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>forgo.02</pb>
+         <vn>contiguous_location-47.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="lose, as rights, as a consequence of behavior" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] FORGO NP2[theme] (PP[recipient[animate[organization]]
+      </commentary>
+      <examples>
+      If you're serving time in prison, you've foregone your right to unemployment benefits.
+      If you didn't vote, you've forgone your right to bitch about the result.
+      You have forgone your right to have any say by deserting your fellow nationalists.
+      Private cost is the value of the highest-valued option forgone to the one who takes an action.
+      Benefits are forgone to the private sector.
+      Coriolanus almost forgoes sympathy by his faults.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>forgo.01</pb>
+         <vn>contribute-13.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

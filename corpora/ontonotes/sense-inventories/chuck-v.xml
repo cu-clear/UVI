@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chuck-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Throw or hit carelessly." type="">  
+      <commentary> 
+      Syntax Is: NP1[agent] CHUCK NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      He chucked the ball in the air and walked off the field.
+      She chucked a book at the student before slapping him silly.
+      He chucked the puck down center ice.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>throw-17.1-1</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Discard." type="">
+      <commentary>
+      Includes: CHUCK AWAY, CHUCK OUT
+      Syntax Is: NP1[agent] CHUCK NP2[patient]
+      </commentary>
+      <examples>
+      She chucked that copy of her thesis and began to revise.
+      Chuck out your worries; it's time to party!
+      Don't just chuck your life in a back corner - live it.
+      Let's just chuck the nonconforming data.
+      Last summer he chucked his 10-year career as a London stockbroker and
+      headed for the mountains.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="chuck_out" version="3.0">1</wn>
+         <omega></omega><pb>chuck.01</pb>
+         <vn>NM</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Expel, as from a competition, activity, or location." type="">
+      <commentary>
+      Includes: CHUCK OUT
+      Syntax Is: NP1[agent] CHUCK OUT NP2[patient[animate]]
+      </commentary>
+      <examples>
+      The unruly player was chucked out of the game.
+      We chucked Lizzie out of our dance party. She was so lame!
+      The bouncers chucked him out the front door.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="chuck_out" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Pat or squeeze, especially under the chin." type="">
+      <commentary>
+      Note: Antiquated.
+      </commentary>
+      <examples>
+      Chuck under chin three times and apply salt.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Vomit." type="">
+      <commentary>
+      Note: NOT 'upchuck' - that's a different verb. 
+      Includes: CHUCK UP
+      </commentary>
+      <examples>
+      He chucked all over the lawn.
+      Why even offer it - he's just gonna chuck it all up!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="CHUCK UP THE SPONGE: give up in the face of
+         defeat, as in boxing." type="">
+      <commentary> 
+      Is: CHUCK UP THE SPONGE
+      </commentary>
+      <examples>
+      In the second round, the challenger chucked up the sponge.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="chuck_up_the_sponge" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="Put forward for consideration." type="">
+      <commentary>
+      Is: CHUCK X OUT THERE
+      </commentary>
+      <examples>
+      He chucked a few ideas out there and let the board decide.
+      I just wanted to chuck that out there for ya. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="CHUCK UP TO: Put forward for consideration." type="">
+      <commentary> 
+      Is: CHUCK UP TO
+      </commentary>
+      <examples>
+      I chuck it up to bad manners and lack of discipline.
+      She chucked her performance up to nerves.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

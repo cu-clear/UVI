@@ -1,0 +1,27 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="victory-n">
+    <commentary>
+        <!--This is apparently different than "Success", but I'm having trouble pinpointing exactly how.--> 
+    </commentary>
+    
+    <sense group="1" n="1" name="successful ending" type="Event">
+        <commentary>
+	    VICTORY[+event]
+	    The successful end of a triumph or conflict.  Can be used as an abstraction to refer to a successful ending.
+	    </commentary>
+        <examples>
+            The agreement was a victory for common sense.
+            General John always takes credit for his army's victories.
+            He managed to snatch victory from the jaws of defeat.
+            John's victory in the marathon came after weeks of hard work.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>victory.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

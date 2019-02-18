@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="brake-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) stop by applying brakes" type="">  
+      <commentary>
+        NP1[+/-agent] BRAKE (NP2)
+      </commentary>
+      <examples>
+        I braked the car before turning a corner.
+        The American car braked suddenly, and we stopped behind it.
+        She braked suddenly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>brake.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

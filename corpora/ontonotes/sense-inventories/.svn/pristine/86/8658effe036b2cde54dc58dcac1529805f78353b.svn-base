@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="petition-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a formal document signed by many people requesting some course of action" type="">
+        <commentary>
+            PETITION[+entity][+artifact][+document][+formal][+request][+signed][+by_group]
+        </commentary>
+        <examples>
+            John signed a petition against plans for real estate development next to the lake.
+            The petition will require two thousand more signatures to get on the ballot.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a humble request or supplication to a higher authority" type="Event">
+        <commentary>
+            PETITION[+event][+speech_act][+request][+humble][+to_authority][+high]
+        </commentary>
+        <examples>
+            Her petition to the king to give clemency to her son was granted.
+            The second act of the opera includes a famous aria, the heroine's petition to god for forgiveness.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an application submitted to a court of law to obtain a lawsuit" type="">
+        <commentary>
+            PETITION[+entity][+artifact][+document][+formal][+application][+legal][+to_court][+for_lawsuit]
+        </commentary>
+        <examples>
+            He was shocked to learn his wife had filed a petition for divorce.
+            They are expected to file a petition against the company as early as next week.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

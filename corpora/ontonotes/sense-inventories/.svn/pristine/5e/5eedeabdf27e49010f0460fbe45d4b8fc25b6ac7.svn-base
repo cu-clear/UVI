@@ -1,0 +1,243 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="kick-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="physically hit, strike, or propel with foot" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] KICK NP2[patient] (PP{P NP[location]})
+      </commentary>
+      <examples>
+        I kicked the ball as hard as I could.
+        He was accused of kicking a man in the face.
+        She felt the baby kicking inside her.
+        Looks like you kicked down the door and took your best shot!
+        They kicked the ball downstairs.
+        They kicked the ball upstairs.
+        They kicked the ball back into the box.
+        They kicked the ball around.
+        They kicked the ball about the house.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,7</wn> 
+         <wn lemma="kick_down" version="3.0">1</wn>
+         <wn lemma="kick_in" version="3.0">2</wn>
+         <omega/><pb>kick.01></pb>
+         <vn>body_internal_motion-49,swat-18.2,throw-17.1-1-1,carry-11.4-1-1,crane-40.3.2,hit-18.1-1,split-23.2</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be alive or be active; wander or wait" type="">
+      <commentary>
+        Includes: KICK ABOUT, KICK AROUND, KICK ONE'S HEELS
+      </commentary>
+      <examples>
+        Is he still kicking around the house without a job?
+        He still kicks about town.
+        Does the old man still kick around.
+        She kicked her heels for hours at the game of the embassy.
+      </examples>
+      <mappings>
+         <wn lemma="kick_about" version="3.0">1</wn>
+         <wn lemma="kick_around" version="3.0">1</wn>
+         <wn lemma="kick_one's_heels" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="KICK AROUND-discuss or consider" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We kicked the notion around with the gentleman ambassador.
+        You can kick the idea around on your own time table and succeed or fail.
+      </examples>
+      <mappings>
+         <wn lemma="kick_around" version="3.0">3</wn> 
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="KICK AROUND-abuse or treat harshly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Those bullies kicked him around a bit, didn't they?
+        I won't let them kick me around anymore!
+      </examples>
+      <mappings>
+         <wn lemma="kick_around" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="KICK OUT-expel or remove" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They kicked us out of the mall for sliding down the bannisters.
+        We are Denver residents who were kicked out of the President's Town Hall Conversation.
+        He got kicked out for laughing at the teacher.
+        They kicked the chairman out for misappropriating funds.
+      </examples>
+      <mappings>
+         <wn lemma="kick_out" version="3.0">1,2,1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="KICK IN-set in or become active" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Right now, I'm waiting for the effects of the medication to kick in.
+        Now the reason you finally realized it was simply that your anger kicked in.
+        With the new coverage that kicked in last month, we'll be able to afford it.
+      </examples>
+      <mappings>
+         <wn lemma="kick_in" version="3.0">1</wn>
+         <omega/><pb>kick.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="KICK IN-chip in something; contribute" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Mom and dad kicked a few dollars in to help me buy my car.
+        The government kicked in some $30000 to cover the costs of shipping the pellets.
+      </examples>
+      <mappings>
+         <wn lemma="kick_in" version="3.0">2</wn>
+         <omega/><pb>kick.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="KICK UP-raise or increase" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I'll teach you how to kick it up a notch!
+        Thankfully, the new installation kicked the heat up a bit.
+        The haunting aromatics of cumin and curry kicked it up to a ringing High C.
+      </examples>
+      <mappings>
+         <wn lemma="kick_up" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="KICK OFF-start or commence; take off" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The Braves kicked the season off right, scoring in only the game's first 36 seconds. 
+        We kicked the year off making modifications to our new home in Victoria St.
+        I officially kicked off the party with a short welcoming speech. 
+      </examples>
+      <mappings>
+         <wn lemma="kick_off" version="3.0">1</wn>
+         <omega/><pb>kick.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="KICK BACK-relax" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        When do you find time to kick back and read?
+        Kick back and relax!
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>  
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="KICK BACK-spring back or recoil from a thrust" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I fired and the gun kicked back and knocked my mask off.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="kick_back" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="KICK BACK-make illegal payment" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Both men are accused of kicking back lump sums to the criminal.
+      </examples>
+      <mappings>
+         <wn lemma="kick_back" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="13" name="KICK DOWNSTAIRS-reduce in rank or position; demote" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        So the solutions for national problems get kicked downstairs.
+        They kicked him downstairs for using the company resources for his own good.
+      </examples>
+      <mappings>
+         <wn lemma="kick_downstairs" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="14" name="KICK UPSTAIRS-increase in rank or position; promote" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Under the new management, our petition was kicked upstairs.
+        We kicked him upstairs to a cushy job as Chairmain of our new division.
+      </examples>
+      <mappings>
+         <wn lemma="kick_upstairs" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>  
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="15" name="stop or quit an activity or habit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        To kick my habit, I sought out some of the stranger places to drink in this town. 
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>  
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="16" name="complain" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She has a lot to kick about.
+        Stop kicking about your old sixth hole! You've had the darndest luck I ever saw, and yet you grumble.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="17" name="KICK THE BUCKET-die" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        If you say someone kicked the bucket, you mean someone died. 
+      </examples>
+      <mappings>
+         <wn lemma="kick_the_bucket" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Death</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

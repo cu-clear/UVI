@@ -1,0 +1,355 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="make-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="LIGHT VERB--do or perform a specified action" type="">
+      <commentary>
+       Syntax Includes:
+       NP1[agent] MAKE NP2[patient] (PP)
+       NP1[agent] MAKE NP2[patient] (SCOMP)
+       Note: Usage: This sense requires MAKE + an object.  You must be able to paraphrase this combination
+             using a verb form of the object (NP2).  See examples in parentheses.
+      </commentary>
+      <examples>
+        When I make a decision, I'll let you know. (When I decide, I'll let you know)
+        I made a call to my mother. (I called my mother.)
+        They made a motion for approval and was approved unanimously. (They motioned for approval...)
+        He made a bid. (He bidded.)
+        She made a change to the document. (She changed the document.)
+        He made claims about his work. (He claimed (something) about his work.)
+        Accusations were made. ((Someone) accused (someone else).)
+        Make me an offer.  (Offer me (something).)
+        NOT: He made a point.  (does not mean &quot;He
+        pointed.&quot;)--This usage would be in sense 2.
+        Let's make an estimate of the costs. ((We) estimate (the costs).)
+      </examples>
+      <mappings>
+         <wn version="3.0">1,16,24</wn>
+         <wn lemma="make_a_motion" version="3.0">1</wn>
+         <wn lemma="make_pass" version="3.0">1</wn>
+         <omega/><pb>make.03,make.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create, produce, or manufacture" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] MAKE NP2[product]
+        NP1[agent] MAKE NP3[beneficiary] NP2[product]
+      </commentary>
+      <examples>
+        Oh, I made a mess of an ebay purchase.
+        His essay on Stoic Philosophy had made a stir in 1833.
+        The company has been making toys for two centuries.
+        I made a poem using as many of those phases as possible.
+        He made her a cake for her birthday.
+        You can't make iron into gold. 
+        It is your turn to go to the lake for water while I make the fire.
+        This law was made a long time ago.
+        Make breakfast for the guests, please. 
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,6,9,15,17,18,23,39,38</wn>
+         <wn lemma="make_noise" version="3.0">1</wn>
+         <omega/><pb>make.01</pb>
+         <vn>build-26.1-1</vn><fn>Building,Cooking_creation,Intentionally_create,Cause_change,Manufacturing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause to become, or to have a certain          quality" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] MAKE NP2[patient] (ADJP/NP[+activity or final state])
+        NP1[stimulus] MAKE NP2[patient] (ADJP)
+        NP1[stimulus] MAKE NP2[patient]  
+        Note: The final state may be understood.  See final 3 examples.
+      </commentary>
+      <examples>
+        She made him mad.
+        Looking at all this food makes me full.
+        This album will make him famous.
+        Friendster has made it possible to see who's looking at you. 
+        Should that make her president of the club?
+        The media made this into a bigger issue than it really is.
+        All those hours of practice made him a winner.
+        Maple makes beautiful, lasting furniture.
+        It was this album that made his career.
+        Go ahead, make my day.
+        She made the bed.
+        He made up the room for the guest.
+        Good clothing and hairstyle will make a man.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,14,20,26,30,31,34,41,45,46,47</wn>
+         <wn lemma="make_clean" version="3.0">1</wn>
+         <wn lemma="make_full" version="3.0">1</wn>
+         <wn lemma="make_pure" version="3.0">1</wn>
+         <wn lemma="make_relaxed" version="3.0">1</wn>
+         <wn lemma="make_up" version="3.0">6</wn> 
+         <omega/><pb>make.02</pb>
+         <vn>render-29.90-1</vn><fn>Causation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="force to do something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MAKE NP2[patient] (predicate)
+      </commentary>
+      <examples>
+        Will they make me eat healthy food at the spa?
+        My children made me buy a new computer.
+        How did she make the plants grow?
+        They had made him sweat, and now he intended to make them sweat.
+        Oh, yeah? Make me!
+      </examples>
+      <mappings>
+         <wn version="3.0">4,8</wn>
+         <wn lemma="make_grow" version="3.0">1</wn>
+         <omega/><pb>make.02</pb>
+         <vn>render-29.90-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="think, suppose, estimate, or calculate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         What do you make of his remarks?
+         I make that wall's height to be about eight feet.
+         It wasn't as bad as some people made it (to be).
+      </examples>
+      <mappings>
+         <wn version="3.0">7,43,44</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="constitute, comprise or form" type="">
+      <commentary>
+         Syntax Is: NP1 MAKE NP2
+         Includes: MAKE FOR, MAKE UP
+      </commentary>
+      <examples>
+         This makes a fine introduction.
+         The neighborhood children made up the choir.
+         This makes the third time I've missed the bus!
+         Three and four make seven.
+         That made for an uncomfortable moment.
+      </examples>
+      <mappings>
+         <wn version="3.0">12,32,25,33</wn>
+         <wn lemma="make_up" version="3.0">1,2</wn>
+         <wn lemma="make_for" version="3.0">1</wn>
+         <omega/><pb>make.06,make.07</pb>
+         <vn>build-26.1-1,comprise-107.1,render-29.90-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="acquire or gain" type="">
+      <commentary>
+         Syntax Is: NP1[agent] MAKE NP2[patient]
+      </commentary>
+      <examples>
+         We provide advice on how to make friends.
+         How much do you think he makes as a trial lawyer?
+         Our company made a handsome profit during the third quarter.
+         They made 29 points that day.
+         If I could make a penny for every time I mess up, I'd be rich!
+      </examples>
+      <mappings>
+         <wn version="3.0">10,19,21</wn>
+         <omega/><pb>make.05</pb>
+         <vn>obtain-13.5.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="attain or reach something desired (a goal)" type="">
+      <commentary>
+         Syntax Is: NP1[agent] MAKE[punctual] NP2[goal]
+         Note: This sense implies the goal has been met.
+         Includes: MAKE IT
+      </commentary>
+      <examples>
+         He made the basketball team.
+         We barely made the plane.
+         I made the opening act in plenty of time.
+         Can you believe it? We made it!
+      </examples>
+      <mappings>
+         <wn version="3.0">13,22,37</wn>
+         <wn lemma="make_it" version="3.0">1,2,3</wn>
+         <omega/><pb>make.14</pb>
+         <vn>reach-51.8</vn><fn>Arriving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="move toward or away from a location" type="">
+      <commentary>
+         Syntax Is: NP1[agent] MAKE PP
+      </commentary>
+      <examples>
+         As the enemy approached our town, we made for the hills.
+         He made his way carefully across the icy parking lot.
+         They made off with the jewels.
+      </examples>
+      <mappings>
+         <wn version="3.0">28,36</wn>
+         <wn lemma="make_off" version="3.0">1</wn>
+         <wn lemma="make_way" version="3.0">1</wn>
+         <omega/><pb>make.17</pb>
+         <vn>NM</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="appear to begin an activity" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He made to speak but said nothing in the end.
+         He made as if to shake my hand, but suddenly he turned around and left.
+      </examples>
+      <mappings>
+         <wn version="3.0">35</wn>
+         <wn lemma="make_as_if" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="arrange neatly; pretty up" type="">
+      <commentary>
+        Includes: MAKE UP
+      </commentary>
+      <examples>
+        For their daughter, they made up a room fit for a princess.
+        I made my bed and ironed the clothes yesterday. It was not fun.
+        She makes herself up every morning.
+      </examples>
+      <mappings>
+         <wn version="3.0">11,27</wn>
+         <wn lemma="make_up" version="3.0">6,9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="pretend; create a story or lie" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Bugs Bunny makes like an air-traffic controller and &quot;guides&quot; Beaky to the ground with a crash.
+        Sutton wine in 7-up makes like a instant wine cooler.
+        I think he made the whole thing up.
+        She loves to make up stories.
+      </examples>
+      <mappings>
+         <wn version="3.0">42</wn>
+         <wn lemma="make_up" version="3.0">5</wn>
+         <omega/><pb>make.10</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="13" name="urinate" type="">
+      <commentary>
+         Includes: MAKE WATER
+      </commentary>
+      <examples>
+         Again, the cat had made on the expensive rug.
+         The dog made water and a drop of it fell on Kosiya's hand.
+      </examples>
+      <mappings>
+         <wn version="3.0">29,49</wn>
+         <wn lemma="make_water" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="14" name="have sexual relations" type="">
+      <commentary>
+         Includes: 
+         MAKE LOVE 
+         MAKE OUT
+         MAKE WHOOPIE
+      </commentary>
+      <examples>
+         Did he make it with her?
+      </examples>
+      <mappings>
+         <wn version="3.0">40</wn>
+         <wn lemma="make_love" version="3.0">1</wn>
+         <wn lemma="make_out" version="3.0">6,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="15" name="other idiomatic expressions" type="">
+      <commentary>
+         Includes:
+         MAKE A FACE - grimance
+         MAKE A POINT/MAKE SURE - to assert, act intentionally
+         MAKE A STINK - contest, object
+         MAKE BOLD - act presumptiously
+         MAKE DO - cope
+         MAKE FUN - ridicule, poke fun
+         MAKE GOOD - act as promised
+         MAKE HAY - turn to one's disadvantage
+         MAKE HEADWAY - advance, pull ahead
+         MAKE NO BONES ABOUT - acknowledge freely and without reservation 
+         MAKE HAPPY/MERRY/WHOOPIE - celebrate noisily, engage in festivities
+         MAKE PEACE - end hostilities
+         MAKE SENSE - be reasonable or logical
+         MAKE UP ONE'S MIND - decide
+         MAKE VIBRANT SOUND - purr
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <wn version ="3.0">48</wn>
+         <wn lemma="make_a_face" version="3.0">1</wn>
+         <wn lemma="make_a_point" version="3.0">1</wn>
+         <wn lemma="make_sure" version="3.0">1</wn>
+         <wn lemma="make_a_stink" version="3.0">1</wn>
+         <wn lemma="make_bold" version="3.0">1</wn>
+         <wn lemma="make_do" version="3.0">1</wn>
+         <wn lemma="make_fun" version="3.0">1</wn>
+         <wn lemma="make_good" version="3.0">1</wn>
+         <wn lemma="make_hay" version="3.0">1</wn>
+         <wn lemma="make_headway" version="3.0">1</wn>
+         <wn lemma="make_no_bones_about" version="3.0">1</wn>
+         <wn lemma="make_happy" version="3.0">1</wn>
+         <wn lemma="make_merry" version="3.0">1</wn>
+         <wn lemma="make_peace" version="3.0">1</wn>
+         <wn lemma="make_sense" version="3.0">1</wn>
+         <wn lemma="make_up_one's_mind" version="3.0">1</wn>
+         <wn lemma="make_whoopie" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="16" name="other verb particle constructions" type="vpc">
+      <commentary>
+         Includes:
+         MAKE OUT 
+         - distinguish or recognize  
+         - write out  
+         - getting along or proceed 
+         - get by or cope  
+         - fill out 
+         - imply or suggest 
+
+         MAKE OVER
+         - redo 
+
+         MAKE UP
+         - pay or compensate 
+         - catch up ('I have to make up for the test.')
+         - reconcile or come to terms
+      </commentary>
+      <examples>
+       I can't make out the faces in this photograph.
+       Please make the check out to me.
+       How are you making out in graduate school?
+       Your remarks make me out to be stupid.
+       She is making over her image.
+       They decided to make over an old plot.
+       Can I make up this material, or is it too late?
+       After some discussion, we finally made up.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>sight-30.2</vn><fn>Reparation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,brownsw,duffielc,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bushwhack-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="wait in hiding to attack" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BUSHWHACK NP2[patient] (PP[instrument]) (PP[location])
+      </commentary>
+      <examples>
+      When his partner came around to bushwhack you, I shot his partner in the back, to save you.
+      Bushwhack these rascals in the grounds, before they get near the lodge.
+      Lo and behold, the man showed up, ambushed us, bushwhacked us.
+      They bushwhacked us with a laser blast.
+      He bushwhacked them with a rifle from a safe distance, and in the back, at that.
+      During The Revolution the British bushwhacked us in the woods.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bushwhack.01</pb>
+         <vn>murder-42.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="live in the bushes as a fugitive or guerilla" type="">
+      <commentary>
+      No clear examples found.
+      </commentary>
+      <examples>
+      *The fugitives bushwhacked in the back woods, avoiding society.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cut one's way through the woods or bushes" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] BUSHWHACK (NP2[theme]) (PP[start_point]) (PP[end_point]) (PP[direction|path])
+      </commentary>
+      <examples>
+      Let's see if we can bushwhack our way up to the tree.
+      From there, they bushwhacked their way to Owl's Head Mountain.
+      Family members bushwhacked their way through 50 kilometers of forest to the site where the farm now stands.
+      That meant it was time to cut off the path and bushwhack south across the Great Gosdog Swamp.
+      He had just bushwhacked through the forest from the edge of Spot Pond.
+      Harriman participants bushwhacked through high grass.
+      They bushwhacked through dense brush into a heavily forested ravine known as Little Creek.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bushwhack.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="adjoin-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="lie adjacent to" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[theme] ADJOIN NP2[theme] 
+      </commentary>
+      <examples>
+      Post-Soviet Russia adjoins a number of independent states. 
+      China adjoins the South Asian region
+      The tables adjoin the barrels of local whiskey.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>adjoin.01</pb>
+         <vn>contiguous_location-47.8-1</vn><fn>Locative_relation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to attach" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] ADJOIN NP2[patient] 
+      </commentary>
+      <examples>
+      He adjoins one side of one tile to another.
+      He adjoined the constraint violation to the cost. 
+       </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ballasc" sample_score="-"/>  
+</inventory>

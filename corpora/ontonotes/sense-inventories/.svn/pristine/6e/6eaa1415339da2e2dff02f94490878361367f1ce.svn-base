@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assemble-v">
+   <commentary>
+     These senses are left separate b/c in all three FN/VN/PB databases there
+     are specific mappings for both senses.
+   </commentary>
+   <sense group="1" n="1" name="create a new entity by putting components or members together" type="">
+      <commentary>
+      Syntax Is: NP1[animate] ASSEMBLE NP2[singular,object created] (FROM/WITH NP3[plural,individual
+        members of collection])
+        NOTE: The object created MUST BE specified while the components may or may
+        not be specified. Also, compare carefully to sense 2, the object
+        created must be a named entity and thus you could not break up the
+        entity and call the individual components by the same name. For
+        example, in the last sentence, the parts of a bicycle each have
+        individual names.
+      </commentary>
+      <examples>
+        The team assembled the first 10 units by hand with the system's many custom components.
+        The U.S. military has assembled the world's most formidable Hacker Posse (from the best scientists at MIT.)
+        I assembled the bicycle from parts of 10 broken ones.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>assemble.01</pb>
+         <vn>build-26.1</vn>
+         <fn>Building,Creating</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="collect similar or related items in one place" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] ASSEMBLE (NP2[theme[plural]]) (PP)
+        NOTE: If the sentence has no NP2, then NP1 will be the individual
+        units as in example 2. Also, compare carefully to sense 1, none of
+        the NP's purposes or qualities are altered as a result of the
+        assembly process. 
+        NOTE: The individual units assembled together do not get a
+        different name because they are grouped together. Compare to Sense 1. 
+      </commentary>
+      <examples>
+        They assembled 50 matching articles covering a variety of science topics for the 2007 Science Journal.
+        The elders assembled in the church. 
+        Please assemble all the members of your team in the conference room.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3</wn>
+         <omega/><pb>assemble.02</pb>
+         <vn>herd-47.5.2</vn>
+         <fn>Gathering_up,Assemble</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,clarklm,corvey" sample_score="-"/>
+</inventory>

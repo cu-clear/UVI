@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="conserve-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="preserve, keep in safety, use frugally" type="">  
+      <commentary>
+      Syntax Is: 
+       NP1[agent] CONSERVE NP2
+      </commentary>
+      <examples>
+        He conserved the motherland by defending it after Spain sunk our
+        battleship in havana harbor.
+        She conserved the herbal beauty secrets, perfected the formula and
+        marketed it to the world.
+        So, if all energy is conserved, we can never run out of energy!
+        Template tags provides automatic filling of inventory-specific
+        data to conserve time.
+        Try to conserve your energy for later rounds or matches. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>conserve.01</pb>
+         <vn>get-13.5.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

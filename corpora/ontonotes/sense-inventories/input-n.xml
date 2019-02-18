@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="input-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a signal or stimulus entering a system" type="">
+        <commentary>
+            INPUT[+entity][+stimulus][+incoming][+data[+sensory/+abstract]/+energy[+signal]]
+            [+event][+stimulation][+external]
+        </commentary>
+        <examples>
+            The input is a low frequency signal.
+            This experiment measures subjects' reactions to various sensory inputs.
+            Pen-based computers take input from a stylus.
+            The input to this computer program is an array of strings.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3,4</wn>
+            <omega/><pb>input.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of putting in, infusion" type="Event">
+        <commentary>
+            INPUT[+activity][+putting_in][+data/+substance]
+            Note: is a nominalization of the verb 'to input'
+        </commentary>
+        <examples>
+            This valve insures a steady input of fuel into the main chamber.
+            Her input of new data into the model has created some unforeseen results.
+            The increased input of fertilizer led to greater crop yields.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb>input.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the entry location for a signal on a device" type="">
+        <commentary>
+            INPUT[+location][+physical][+entry][+signal][+device]
+            Note: refers to a place on a device you can point to.
+        </commentary>
+        <examples>
+            He measured the signal being fed through the system's main input.
+            That is not the correct plug to connect to this input.
+            The inputs to the old stereo speaker were corroded. 
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="contribution, such as suggestion or feedback" type="Event">
+        <commentary>
+            INPUT[+entity][+symbolic][+information][+contributing][+suggestion/+critique]
+            Note: refers to human communication, not electronic or biochemical input (Sense 1)
+        </commentary>
+        <examples>
+            Mary received very little input from the rest of her team in putting this report together.
+            We appreciate everyone's input at this meeting, thank you for coming.
+            John's thesis advisor gave him some valuable input on experimental design.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>input.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

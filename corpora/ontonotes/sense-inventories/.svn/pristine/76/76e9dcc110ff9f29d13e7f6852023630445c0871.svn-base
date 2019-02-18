@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="assignment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a specific required task, given by a superior, e.g., instructor" type="Event">
+        <commentary>
+            ASSIGNMENT[+activity][+task][+required][+specified][+by_authority]
+        </commentary>
+        <examples>
+            The TA has not graded last week's assignment yet.
+            The lieutenant gave his commandos a very dangerous assignment.
+            Mary goes over her son's homework assignments every night.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>assignment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the legal transfer of an asset from one person to another" type="Event">
+        <commentary>
+            ASSIGNMENT[+event][+transfer][+legal][+of_asset]
+        </commentary>
+        <examples>
+            It was an assignment of leasehold property.
+            The assignment of the railroad's holdings to the creditors was very complicated.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>assignment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="associating one thing with another, attribution of belonging" type="Event">
+        <commentary>
+            ASSIGNMENT[+event][+association][+attribution][+of_belonging][+between_things]
+        </commentary>
+        <examples>
+            The assignment of different values to these variables will result in different answers to the equations.
+            The assignment of a home room to each student was accomplished on the first day of school.
+            The assignment of the right name to this new product is very important.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>assignment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a legal document, a deed of conveyance" type="">
+        <commentary>
+            ASSIGNMENT[+entity][+document][+legal][+deed_of_conveyance]
+        </commentary>
+        <examples>
+            The lawyer went over the wording in the estate assignment.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>assignment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the location of a task, its site of execution" type="">
+        <commentary>
+            ASSIGNMENT[+location][+site][+of_task][+execution]
+        </commentary>
+        <examples>
+            Our news anchor is on assignment this week in Paris.
+            Her assignment was to the County Court.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="an appointment to a non-elected job or position" type="Event">
+        <commentary>
+            ASSIGNMENT[+event][+social][+official][+appointment][+to_job][-elected]
+        </commentary>
+        <examples>
+            These assignments are political appointments by the governor.
+            We are celebrating Tom's assignment as chief resident at the hospital.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>assignment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

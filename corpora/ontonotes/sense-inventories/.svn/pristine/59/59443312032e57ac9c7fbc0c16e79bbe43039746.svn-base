@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="invite-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provoke or trigger a certain action or feeling" type="">
+      <commentary>
+        Syntax Is: NP1[stimulus] INVITE NP2[patient]
+        Note: the action/feeling provoked is usually negative, but doesn't have to be so.
+      </commentary>
+      <examples>
+        His callous remarks invited a lot of criticism.
+        She worried that leaving the boat unattended would invite trouble.
+        The CEO's big pay increase seems to be inviting a lot of resentment among the employees.
+        Such attitude only invites formal action by the board.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="request participation in or ask to an event" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] INVITE NP2[patient] (PP{P NP[event]}) (AS NP[attribute])
+        NP1[agent] INVITE NP2[predicate]
+      </commentary>
+      <examples>
+        Did you invite John?
+        Yes, we are inviting him as the keynote speaker.
+        The boss invited them to a party.
+        We invited them to a restaurant for dinner.
+        Candidates will be invited for an interview.
+        He was never invited to the neighbor's house for a cup of coffee.
+        They are inviting submissions for papers and posters to that conference.
+        The mayor has invited participation of locals in designing the new park.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,6,7</wn>
+         <wn lemma="invite_out" version="3.0">1</wn>
+         <omega/><pb>invite.01</pb>
+         <vn>promote-102</vn><fn>Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="encourage to do something" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INVITE NP2[patient] [predicate]
+      </commentary>
+      <examples>
+        I think she's inviting me to step up in the line.
+        Her family invited me to stay with them for a few weeks.
+        They have invited us to submit proposals for the upcoming conference.
+        The newspaper invited readers to write in with their views.
+        We were invited to take our shoes off at the door.
+        Another hotel has invited me to jump off its roof for the publicity.
+        The flowing water invited me to dip my hands. 
+        November invites you to take notice of the weather.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>invite.01</pb>
+         <vn>order-60</vn><fn>Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="admit to a home or hearth, make familiar" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INVITE NP2[patient] PP{into NP[location]}
+      </commentary>
+      <examples>
+        The refugees were warmly invited into the community.
+        The old lady invites all the stray cats into her house.  
+        Will you invite her into your heart in times of joy and in times of sorrow?
+        Invite them into your life, thoughts, memories, dreams and goals.
+        Don't you ever let me invite such ideas into my head!
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,vieweg,hwangd,greenlm" sample_score="-"/>
+</inventory>

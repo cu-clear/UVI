@@ -1,0 +1,120 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cry-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an emotional yell or utterance" type="Event">
+        <commentary>
+            CRY[+event][+speech_act][+utterance][+yell]
+        </commentary>
+        <examples>
+            John gave a sharp cry when the frying pan fell on his foot.
+            There was a cry of 'silence!' from the back of the room.
+            The survivors in the life rafts could hear the cries of the drowning people.
+            The patient's threats of suicide were actually a cry for help. (Metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>cry.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a rallying slogan" type="">
+        <commentary>
+            CRY[+information][+language][+slogan][+rallying]
+        </commentary>
+        <examples>
+            'No New Taxes' was the candidate's rallying cry during the campaign.
+            'Yes we can!' is our team's new battle cry.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="weeping, sobbing" type="Event">
+        <commentary>
+            CRY[+event][+emotional][+weeping][+human]
+        </commentary>
+        <examples>
+            John said he had a good cry over Mary but now he's over her.
+            The lady faked a cry in front of the policeman in hopes he wouldn't give her a ticket.
+            Sally heard the cry of her newborn baby.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>cry.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="characteristic call of an animal" type="Event">
+        <commentary>
+            CRY[+event][+call][+characteristic][+of_animal]
+        </commentary>
+        <examples>
+            Along the dock we heard the cries of seagulls wheeling overhead.
+            The cries of some nocturnal animal could be heard from our campsite.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="hawking of a street vendor" type="Event">
+        <commentary>
+            CRY[+event][+speech_act][+utterance][+hawking][+of_street_vendor]
+        </commentary>
+        <examples>
+            The marketplace was filled with cries of vendors selling fresh fish and produce.
+        </examples>
+        <mappings>
+            <wn version="MAC">1d</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="urgent request, made collectively" type="Event">
+        <commentary>
+            CRY[+event_set][+speech_act][+aggregated][+request]
+        </commentary>
+        <examples>
+            Their government has issued a cry of help to several relief organizations.
+            Only one vessel responded to the disabled ship's cry for assistance.
+        </examples>
+        <mappings>
+            <wn version="MAC">1e</wn>
+            <omega/><pb>cry.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="public demand, made collectively" type="Event">
+        <commentary>
+            CRY[+event_set][+speech_act][+aggregated][+demand][+public]
+        </commentary>
+        <examples>
+            The governor is trying to address the public's cry for relief from high heating costs this winter.
+            There were cries for his resignation after the scandal.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>cry.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="strain-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="stretch to the utmost, causing stress or injury" type="">
+      <commentary>
+        NP1[+agent] STRAIN NP2[+object] (PP[direction,location])
+
+        NOTE: Compare to sense 2, this sense refers to straining an object 
+          where sense 2 refers to straining to do an action. eg. 'straining
+          one's back' vs 'straining to lift something'. Thus if a PP is 
+          used without NP2, NP2 is implied. Includes metaphorical uses. 
+      </commentary>
+      <examples>
+        You are straining my patience.
+        Calvin strained his back lifting the drywall.
+        Failing to see his tail, he strained his neck further. 
+        Other events that strained the relationship during that period were
+        the Cox report.
+        Workers are instucted not to strain their eyes for diamonds.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3,5,6,9</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>strain.01</pb>
+         <vn>hurt-40.8.3-2</vn>
+         <fn>Experience_bodily_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exert great effort at an action, without necessarily causing harm to the doer" type="">
+      <commentary>
+        NP1[+animate] STRAIN VP[infinitve] (NP2[-concrete])
+        
+        NOTE: compare to sense 1. This focus of this sense is the exertion, 
+              to perform an action, as opposed to the harm inflicted upon the 
+              object of the action. eg. 'straining to see' vs 'straining your eyes'
+      </commentary>
+      <examples>
+        He strained to hear what was being said.
+        She strained to answer the questions she had on Shandra.
+        The 302 horses under the Benz's hood are practically in a lather, straining to get free.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <omega/><pb>strain.03</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="pass through a strainer" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Then she strained the mixture, using a piece of cloth.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,7,8</wn>
+         <omega/><pb>strain.02</pb>
+         <vn>wipe_manner-10.4.1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,trevorjb" sample_score="-"/>
+</inventory>

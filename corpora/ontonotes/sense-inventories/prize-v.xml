@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="prize-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="appreciate greatly" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PRIZE NP2[theme]
+      </commentary>
+      <examples>
+      Mary prizes John for his sunny mood and ability to heal quickly.
+      I prize these old photographs.
+      We prize his creativity.
+      He prized his independence.
+      Foreign correspondent Roman Chandler has always prized his freedom above all else.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>prize.01</pb>
+         <vn>admire-31.2</vn><fn>Judgment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move or seize using force/leverage" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PRIZE NP2[theme] (PP{P NP[source]}) (PP{P NP[instrument]})
+      </commentary>
+      <examples>
+      The robber prized open the big lounge window with his crowbar.
+      The robber prized the computer away from his fingertips.
+      A thief prized open the double doors leading to a conservatory at the side of the house.
+      I was prizing off some braces; prizing them off with a crowbar with one hand.
+      My only problem was prizing the next book out of my son's hands.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="award a prize to" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PRIZE NP2[theme[animate]] PP{P NP[instrument]}
+      </commentary>
+      <examples>
+      The judge said the waltz was his best dance, prizing him with three 9's.
+      My act of kindness would be prizing him with what he wishes for and enjoys most.
+      It looks like that prizing him with the Nobel prize was a political act.
+      Various state governments has been prizing him with money.
+      Then I prized her with breakfast in bed. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

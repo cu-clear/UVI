@@ -1,0 +1,114 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="stick-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="adhere, (cause to) stay in place" type="">  
+      <commentary>
+        Includes: STICK ABOUT, STICK AROUND, STICK ON, STICK TO            
+      </commentary>
+      <examples>
+        Are you sure this wallpaper will stick to the wall?
+        The door sticks--we should plane it.
+        Stick these labels on the envelopes.
+        He stuck his coat in the corner of the room.
+        The dog hair really sticks to this sweater.
+        Stick around and you'll learn something.
+        I'll stick about for a few more hours.
+        He stuck the seal on the document.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,9,11,14,16</wn>
+         <wn lemma="stick_about" version="3.0">1</wn>
+         <wn lemma="stick_around" version="3.0">1,2</wn>
+         <wn lemma="stick_on" version="3.0">1,2</wn>
+         <wn lemma="stick_to" version="3.0">1</wn>
+         <omega/><pb>stick.01,stick.03</pb>
+         <vn>put-9.1-2,shake-22.3-2,spray-9.7-1</vn><fn>Cause_motion,Inchoative_attaching,Attaching,Placing,Being_attached</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="poke into, pierce, protrude" type="">  
+      <commentary>
+        Includes: STICK IN, STICK OUT
+      </commentary>
+      <examples>
+        She stuck the photo onto the corkboard.
+        He stuck the needle into his finger.
+        Don't stick your hand out the window!
+        Stick your ticket in here.
+        He stuck in a reference to his book.
+        That nail sticks out from the wall.
+        The fuschia lettering really sticks out.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,10,12,13</wn>
+         <wn lemma="stick_in" version="3.0">1,2</wn>
+         <wn lemma="stick_out" version="3.0">1,2</wn>
+         <omega/><pb>stick.02</pb>
+         <vn>poke-19,put-9.1-2</vn><fn>Cause_motion,Placing,Being_attached,Attaching,Inchoative_attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="endure, be loyal" type="">
+      <commentary>
+        Syntax includes: NP1 STICK[abstract] PP/(ADV)
+        Includes: STICK BY, STICK OUT, STICK TO, STICK WITH
+      </commentary>
+      <examples>
+        The label stuck to her for the rest of her life.
+        He sticks to his principles.
+        Those friends really stick together.
+        He stuck by her through her illness.
+        She stuck out her term despite the intense criticism.
+        Stick with your diet.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6,7</wn>
+         <wn lemma="stick_by" version="3.0">1</wn>
+         <wn lemma="stick_out" version="3.0">3</wn>
+         <wn lemma="stick_to" version="3.0">2</wn>
+         <wn lemma="stick_with" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="saddle with something disagreeable" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They stuck me with the bill again!
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="STICK UP: defend" type="">
+      <commentary>
+        Is: STICK UP
+      </commentary>
+      <examples>
+        Ralph stuck up for his friend.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="stick_up" version="3.0">2</wn>
+         <omega/><pb>stick.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="STICK UP: rob at gunpoint" type="">
+      <commentary>
+        Is: STICK UP
+      </commentary>
+      <examples>
+        How many people have you stuck up?
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="stick_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Robbery</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>  
+</inventory>

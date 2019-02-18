@@ -1,0 +1,115 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lock-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fasten something or become fastened" type="">  
+      <commentary>
+        Note: Use: fasten using a lock and a key, usually
+        Includes: LOCK UP
+      </commentary>
+      <examples>
+        Don't forget to lock up the house when you go out.
+        The door will lock automatically.
+        I locked my bike to the fence.
+        Lock the drawer even when you are in the room.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="lock_up" version="3.0">1</wn>
+         <omega/><pb>lock.01</pb>
+         <vn>tape-22.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="place or confine in a secure place" type="">
+      <commentary>
+        Includes: LOCK AWAY, LOCK UP, LOCK IN
+      </commentary>
+      <examples>
+        For punishment, they locked him in his room.
+        She locked her jewels in the safe deposit box.
+        She locked the pain away somehwere else and focused on what felt good.
+        The old man locked the dog in the basement.
+        Lock this prisoner up in that cell.
+        Use this vacuum pack to lock in the flavor!
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="lock_away" version="3.0">1</wn>
+         <wn lemma="lock_up" version="3.0">2</wn>
+         <wn lemma="lock_in" version="3.0">1,2</wn>
+         <omega/><pb>lock.03,lock.04</pb>
+         <vn>NM</vn><fn>Immobilization,Cause_confinement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to)be fixed in a position, situation, or state" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The ship was locked in the ice through the winter.
+        Here are some screws to lock the drawer into place.
+        The therapist noticed that the patient's knees tended to lock during exercise.
+        The mechanism tends to lock in cold weather.
+        He locked his hands around his neck.
+        The two dogs were locked in combat.
+        She felt that she had become locked into a binding agreement. 
+        I was locked in a frustrating argument for four hours.
+        You are not locked into buying the parts from the same manufacturer.
+        For a moment, their eyes locked. (compare to sense 4)
+        Others stood frozen, locked in fear.
+        They were locked in a laughing fit.
+        Depending upon the lender, you may be able to lock in the interest rate.
+        Large switching costs lock in a buyer once he makes an initial purchase.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="fix or aim something on a target, establish securely" type="">
+      <commentary>
+        Includes: LOCK IN
+      </commentary>
+      <examples>
+        The policeman locked his radar on the vehicle showing a speed of 86 mph.
+        The pilot locked the enemy aircraft within his target sight.
+        She locked her eyes on the man, matching his stare and curling her lip in a sneer.
+        The strategy was to lock in the customers immediately.
+        The only reason for inventing a new networking medium for this application is to lock in the consumer.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="lock_in" version="3.0"/>
+         <omega/><pb>lock.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="pass or put a vessel through a lock, canal
+         or river in a waterway" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We lock through Montgomery Lock and Dam and move on.
+        We are proud to say we lock through 6000 vessels of all shapes and sizes annually.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="prevent from entering or working" type="">
+      <commentary>
+        Includes: LOCK OUT
+      </commentary>
+      <examples>
+        Management has threatened to lock out the workforce if they do not accept the new contract.
+        He had to break into the house because his girlfriend had locked him out.
+      </examples>
+      <mappings>
+         <wn lemma="lock_out" version="3.0">1</wn>
+         <omega/><pb>lock.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

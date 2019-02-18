@@ -1,0 +1,98 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="offer-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide, make something available, present for consideration" type="">  
+      <commentary>
+        Syntax Inclues: NP1 OFFER NP2
+                   NP1 OFFER NP2 (to NP3)
+                   NP1 OFFER (NP3) NP2
+      </commentary>
+      <examples>
+        The conference center offers a health spa.
+        The hotel offers private meeting rooms.
+        The stores are offering specials on sweaters this week.
+        The bank offers customers identity theft insurance.
+        She offered us all a cold drink.
+        They offered me a job.
+        They offered 40 cents a share.
+        He soon fell in love with her, and offered his hand in marriage.
+        He offered his hand to the lady as she descended from carriage.
+        He offered his opinion.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,6,7,11,12</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>offer.01</pb>
+         <vn>future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exhibit or demonstrate a quality" type="">
+      <commentary>
+        Syntax Is: NP1 OFFER NP2 PP
+      </commentary>
+      <examples>
+        The town offered many attractions.
+        Potato offers resistance to late blight disease.
+        The city offered little resistance against the army.
+        The plan offers hope to millions.
+        Ask Jeeves offers a challenge to Google.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>reflexive_appearance-48.1.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="volunteer to do something" type="">
+      <commentary>
+        Syntax Is: NP1 OFFER [predicate]
+      </commentary>
+      <examples>
+        I offered to vacuum.
+        I offered to bring the salad.
+        They offered to do the dishes.
+        He offered to help the lady as she descended from carriage.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,13</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>offer.01</pb>
+         <vn>volunteer-95.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="convey or present compliments, apologies, prayers, etc" type="">
+      <commentary>
+        Includes: OFFER UP
+      </commentary>
+      <examples>
+        Offer my greetings to your parents.
+        He offered his sympathy.
+        They offered the chef their compliments.
+        We offered our prayers to our ancestors.
+        He offered up his petitions to the gods.
+        They offered up prayers and supplications.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,9</wn>
+         <wn lemma="offer_up" version="3.0">1</wn>
+         <omega/><pb>offer.01</pb>
+         <vn>future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="produce or put on stage, display" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The Shakespeare Company is offering King Lear this month.
+        That company does really offer a good show.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="hwangd,duffielc,greenlm" sample_score="-"/>  
+</inventory>

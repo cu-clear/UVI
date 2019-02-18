@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="date-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="engage in a romantic relationship with someone" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        Tonight she is dating a former high school sweetheart.
+        He is dating his former wife again!
+        Did you know she was dating an older man?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>date.02</pb>
+         <vn>marry-36.2</vn><fn>Personal_relationship</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="stamp or mark with a date" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The package was dated November 24.
+        She wrote the letter on Monday but she dated it Saturday.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="date_stamp" version="3.0">1</wn>
+         <omega/><pb>date.01</pb>
+         <vn>illustrate-25.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="assign a date to" type="">
+      <commentary>
+        Includes: DATE BACK, DATE FROM
+      </commentary>
+      <examples>
+        Scientists often cannot date precisely archeological or prehistorical findings.
+        The autographed manuscript of a poem was signed by Henry Lawson but not dated.
+        Surviving fragments of sculpture dated it to the end of the 12th century.
+        The title to the property dated back to 1803.
+        Lacrosse is a game that dates back as early as the existence of Native American tribes.
+        Some plant historians date the kohlrabi back to the Roman Empire.
+        The CD dates it from 1961, though other sources date it from 1965.
+        He had in his possession a marble statue dated from the 6th century BC.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="date_back" version="3.0">1</wn>
+         <wn lemma="date_from" version="3.0">1</wn>
+         <omega/><pb>date.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

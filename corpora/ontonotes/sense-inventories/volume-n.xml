@@ -1,0 +1,99 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="volume-n">
+    <commentary>
+        15sep06 updated WN2.1 , added features, expanded defintiions, added examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="space occupied" type="">
+        <commentary>
+            VOLUME[+quantity][+amount][+space][+3D]
+            The amount of 3-dimensional space occupied by an object.  (often
+            expressed as a relative amount)
+        </commentary>
+        <examples>
+            The gas expanded to twice it's original volume.
+            Mix one volume of the solution with ten volumes of water.
+            The volume of the box is the product of it's length x width x height.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an approximated amount of something" type="">
+        <commentary>
+            VOLUME[+quantity][+amount][+approximated]
+        </commentary>
+        <examples>
+            It is usually cheaper to buy in large volumes than in small ones.
+            The celebrity receives volumes of fan mail daily.
+            When the volume of imports exceeds the volume of exports there is a trade deficit.
+            The manufacturer only makes small volumes of their high-end perfumes.
+            Volume on the big board today was heavy.  (quantity of trades in a financial market)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="3" name="book" type="">
+        <commentary>
+            VOLUME[+entity][+artifact][+document][+book]
+            [+relation][+member][+set][+publication]
+            A book often one of a series
+        </commentary>
+        <examples>
+            He used the large encyclopedia volume as a doorstop.
+            He asked for the 1989 volume of the Annual Review.
+            These volumes should go on a different shelf.
+            She just published her second volume of poetry.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="loudness" type="">
+        <commentary>
+            VOLUME[+quality][+loudness]
+            The magnitude of sound
+        </commentary>
+        <examples>
+            The kids played their music at full volume.
+            Turn the volume up, I can barely hear the TV.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="fullness, thickness" type="">
+        <commentary>
+            VOLUME[+quality][+fullness]
+            Note: a derivative special sense of Sense 1
+        </commentary>
+        <examples>
+            This shampoo will add volume to fine, limp hair.
+            The egg whites will add some volume to the boiled frosting.
+        </examples>
+        <mappings>
+            <wn version="MAC">2c</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+</inventory>

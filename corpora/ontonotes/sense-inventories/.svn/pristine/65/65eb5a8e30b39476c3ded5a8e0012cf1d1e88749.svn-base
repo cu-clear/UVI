@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="intend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="have in mind as a plan or purpose" type="">  
+      <commentary>
+        Syntax Is: NP1 INTEND NP2 COMP
+      </commentary>
+      <examples>
+        She didn't intend to harm me.
+        I really intended to write, but I didn't have time.
+        We intend to go to Europe this summer.
+        He didn't intend me to hear it.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega></omega><pb>intend.01</pb>
+         <vn>try-61,wish-62</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="design something for a specific plan or purpose" type="">
+      <commentary>
+        Syntax Is: NP1 INTEND NP2 COMP
+      </commentary>
+      <examples>
+        We intend this dictionary be used for school children.
+        They intended this be an informal event.
+        That he is obviously intended for a grand life.
+        This is the business in which he is intended to be employed.
+        This is a dictionary intended for school children.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Purpose</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="signify or mean to express or convey" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        What do his words intend?
+        It was intended as a compliment.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,greenlm" sample_score="-"/>  
+</inventory>

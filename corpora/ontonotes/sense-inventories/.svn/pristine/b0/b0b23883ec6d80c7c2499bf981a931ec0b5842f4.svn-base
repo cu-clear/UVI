@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rollback-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a reduction or decrease in price, cost" type="Event">
+        <commentary>
+            ROLLBACK[+quantity][+decrease][+price]
+        </commentary>
+        <examples>
+            The government has ordered a 5 percent rollback on the price of gasoline.
+            Even with the significant rollbacks on the cost of food, most people still could not afford much.
+            The legislature did not approve a rollback of the emergency tax increase of last year.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a reversion to an earlier state or situation" type="Event">
+        <commentary>
+            ROLLBACK[+event][+reversion][+to_circumstance][+previous]
+        </commentary>
+        <examples>
+            They are adamantly opposed to a rollback to communism.
+            The general ordered a rollback of the troops to the previous battle line.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the restoration of computer data of an earlier state" type="Event">
+        <commentary>
+            ROLLBACK[+event][+reversion][+restoration][+data][+computer]
+            Note: narrow technical usage referring to computer data restoration
+        </commentary>
+        <examples>
+            After the computer crash, we were able to obtain a rollback of the data to yesterday.
+            The system administrator does nightly backups so he can provide rollbacks in case data gets accidentally deleted.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="environment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the surrounding conditions or circumstances" type="">
+        <commentary>
+	    ENVIRONMENT[+event]
+	    
+	    <!-- Wordnet's senses are pretty ugly and confusing.  I tried to clarify them. -->
+            Refers to the state of the current setting.  The set of conditions.
+        </commentary>
+        <examples>
+            He longed for the comfortable environment of his living room.
+            The university environment made John insecure.
+            We've stumbled into a very dangerous environment.
+            Always check the surrounding environment before beginning CPR.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a geographical area" type="Entity">
+        <commentary>
+            A habitat, area, or part of the earth.  Frequently needs to be saved.
+        </commentary>
+        <examples>
+            The Jones family lives in a flat, agricultural environment.
+            Penguins have adapted to a polar environment.
+            Does your congressional representative care about the environment?
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="jar-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be incompatible." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[theme[plural]] JAR
+      NP1[theme] JAR PP{with NP[theme]}
+      </commentary>
+      <examples> 
+      These colors really jar.
+      That shirt jars with your pants.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Shock physically or emotionally." type="">
+      <commentary>
+       Note: includes abstract uses.
+      </commentary>
+      <examples>
+      The defeat jarred Georgia Tech.
+      This play jars the audience every time.
+      She was jarred by his aggression.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>jar.01</pb>
+         <vn>amuse-31.1,appeal-31.4-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Place in a  cylindrical vessel." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Jar the jam for storage.
+      We jarred pickles all afternoon.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>pocket-9.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Move or cause to move with a sudden, jerky movement." type="">
+      <commentary>
+      Includes: JAR AGAINST
+      </commentary>
+      <examples>
+      The impact jarred the large boat.
+      The car jarred against a telephone pole.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="jar_against" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="differentiate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Mark as different; separate by some set of criteria." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] DIFFERENTIATE NP2[patient]
+      </commentary>
+      <examples>
+      We differentiated several kinds of maple in the wood pile.
+      Scientists differentiate three species of trout in the lake.
+      I can't differentiate these two colors.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>differentiate.01</pb>
+         <vn>separate-23.1-1</vn><fn>Differentiation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Be a distinctive feature." type="">
+      <commentary>
+      Syntax Is: NP1[topic] DIFFERENTIATE NP2[patient] PP
+      </commentary>
+      <examples>
+      His modesty differentiates him from his peers.
+      Humility differentiates the grain from the chaff.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Cause to) become different or aquire a
+         different character, possibly during development." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He differentiated the line, making two types of bolts.
+      He caused the corn to differentiate.
+      Species differentiate over time, causing evolution. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>differentiate.01</pb>
+         <vn>separate-23.1-1</vn><fn>Differentiation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Calculate a derivative; take the derivative
+         (of)." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      If we differentiate the equation we get its derivative.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

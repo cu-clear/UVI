@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="wait-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remain inactive or delay action until an appointed time" type="">
+      <commentary>
+       Includes: WAIT OUT
+      </commentary>
+      <examples>
+        He is waiting to be drafted.
+        I had to wait in line for an hour to get the tickets.
+        Microsoft urged Windows users to wait for its official security patch for a graphics file vulnerability.
+        Let's wait for the details before celebrating.
+        We waited for a sofa and love seat for over 6 months.
+        Wait, wait, don't tell me!
+        I patiently waited for the credits and then ran for the exit.
+        We are prepared to wait it out, as long as it takes.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>wait.01,wait.03</pb>
+         <vn>exist-47.1-1</vn><fn>Waiting,Holding_off_on,Expectation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="serve" type="">
+      <commentary>
+        Includes: WAIT ON
+        Note: Does not include "wait tables." See sense 3.
+      </commentary>
+      <examples>
+        She once waited on Julia Child.
+        All her life she had waited on the needs of the white Redds.
+        I was waited on immediately at the ticket counter by two very pleasant young women.
+        We each had our own private hostess, who waited on us hand-and-foot.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="wait_on" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>caring-75.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="serve (wait tables)" type="">
+      <commentary>
+        Includes: WAIT TABLES
+        Note: "Wait tables" only. Does not include "wait on."
+      </commentary>
+      <examples>
+        He waits tables on Saturday nights.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>wait.02</pb>
+         <vn>NM</vn><fn>Being_employed</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="embed-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Fix, position, set severely or deeply,
+   attach to" type="">  
+      <commentary>
+       Syntax Includes:
+        NP1[agent] EMBED NP2[patient] (IN NP3)
+        NP1[patient[state]] EMBED (itself) IN NP2)
+        NP1[agent[human]] EMBED NP2[company, human] 
+        Note: May be concrete or abstract. 
+      </commentary>
+      <examples>
+       The dentist embedded the tooth in his gum.
+       The writer embedded clause after clause, producing a very long
+       sentence.
+       The sentence in question was embedded deep in the third paragraph.
+       The young reporter was embedded with the Third Division.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>embed.01</pb>
+         <vn>NP</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm,greenlm" sample_score="-"/>  
+</inventory>

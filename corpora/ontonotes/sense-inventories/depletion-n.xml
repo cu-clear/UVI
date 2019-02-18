@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="depletion-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the activity of removing a resource" type="">
+        <commentary>
+            DEPLETION[+activity][+removal][+resource]
+            Note: implies an ongoing taking of resource by an agent/actor
+        </commentary>
+        <examples>
+            The continued depletion of the ozone layer is causing concern among scientists.
+            The land's value was diminished by depletion of its mineral deposits.
+            The oil company got a tax deduction for its gradual depletion of oil reserves.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the state of having less resource" type="">
+        <commentary>
+            DEPLETION[+state][+result][+decrease][+resource]
+            Note: implies a resulting state of less of a resource, not the taking activity
+        </commentary>
+        <examples>
+            Bob described his sudden depletions of energy to his doctor.
+            John noticed a significant depletion of funds in his savings account on his last bank statement.
+            The coroner's report stated that a depletion of oxygen in the room was the cause of   asphyxiation. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,126 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="bench-n">
+    <commentary>
+        Revised ANN file
+        combined senses 3 and 5. ahouston
+        26sep06 added dummy sense 5. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a seat, often designed for more than one occupant" type="">
+        <commentary>
+            BENCH[+entity][+artifact][+furniture][+seat]
+        </commentary>
+        <examples>
+            We sat on the bench feeding the pigeons.
+            You must have someone spotting you to use the bench press at the gym. (you lie on a bench)
+            The judge seated himself at his bench in front of the court.
+            The coach is sitting over there on the bench in the dugout next to the catcher.
+            The show dogs were taken over to the bench to be seated while the judges looked them over.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a work table, used in laboratories, carpentry" type="">
+        <commentary>
+            BENCH[+table][+work][+laboratory/+carpentry]
+        </commentary>
+        <examples>
+            John has a beautiful work bench set up in his basement for woodworking.
+            Betty is a bench chemist for a major pharmaceutical firm. (works in a biochemistry lab)
+            Be careful when using the bench lathe. (mounted to a work table)
+            The goal of the system is to integrate all the data from bench to bedside. (biotech information from laboratory inception, to drug administration by a doctor)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the administrative office of being a judge, magistrate or legislator" type="">
+        <commentary>
+            BENCH[+role][+office][+administrative][+judicial/+legislative]
+            [+assembly][+court][+judge]
+        </commentary>
+        <examples>
+            She was appointed to the civil bench and served for ten years.
+            He is a prominent member of the Conservative bench in Parliament. 
+            It was a pledge given by the opposition benches yesterday.
+            A ruling from the bench is expected soon.  (a specific ruling by specific judges)
+            The attorneys were asked to approach the bench. (approach specific judges right now)
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the reserve players of a sports team" type="">
+        <commentary>
+            BENCH[+team][+sport][+reserve]
+        </commentary>
+        <examples>
+            Their bench includes two new relief pitchers.
+            He has been pulled from the bench to be in the starting lineup.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a geological shelf or ridge between two sharp slopes" type="">
+        <commentary>
+            BENCH[+form][+geological][+shelf]
+        </commentary>
+        <examples>
+            There is a bench about halfway down the cliff that you can walk along.
+            The bench above the coastal highway crumbled away during the last big mudslide.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

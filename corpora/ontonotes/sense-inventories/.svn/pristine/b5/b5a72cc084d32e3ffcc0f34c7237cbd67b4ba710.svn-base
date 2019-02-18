@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="handle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="touch or hold with the hands" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[human]] HANDLE NP2[patient[concrete]]
+      </commentary>
+      <examples>
+        Don't handle the merchandise.
+        Do not handle the mail piece or package suspected of contamination.
+        He always followed proper ettiquette when he handled the flag.
+        On the first day you bring your new pet home, encourage children not to handle the cat.
+        Until she was old enough to keep things out of her mouth, she was not allowed to handle the turtle.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>   
+         <omega/><pb>handle.01</pb>
+         <vn>hold-15.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="effectively manage or deal with a situation, concept, or people" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[experiencer[animate[human]]] HANDLE NP2
+        Note: NP1 implies human agent or organization (such as an author or corporation)
+        Note: NP2 is often abstract
+      </commentary>
+      <examples>
+        You can't handle the truth!
+        Speaking with a counselor helped the children to handle their parents' divorce. 
+        She isn't handling the passing of her mother very well.
+        Please handle the reporters gently.
+        This book handles the subject of incest very carefully.
+        Northwest says it can handle the mechanics' strike.
+        You have to handle the students with kid gloves.
+        I'll call after the trip to let you know how the cat handled the flight.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="handle_with_kid_gloves" version="3.0">1</wn>
+         <omega/><pb>handle.01</pb>
+         <vn>confront-98</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="effectively wield or manipulate a concrete entity" type="">
+      <commentary>
+        Syntax Is: NP1 HANDLE NP2[patient[inanimate[concrete]]]
+        Note:  What is being handled is a concrete, tangible object and is not human or abstract
+      </commentary>
+      <examples>
+        This blender doesn't handle nuts.
+        He knows how to handle power tools safely.
+        This hockey player can really handle the puck.
+        This snowblower simply isn't built to handle 10 inches of wet snow on a long driveway.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>handle.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="show and train" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent[human]] HANDLE NP2
+        Note: NP2 is an animal
+      </commentary>
+      <examples>
+        Do you wish to use a handler to show your dog or handle him or her yourself?
+        The prize-winning poodle was handled by Mrs. Priscilla Prescott.
+        If it is important to you to handle your own show dog.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,vieweg" sample_score="-"/>  
+</inventory>

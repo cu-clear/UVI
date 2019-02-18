@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="repent-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="turn away from sin, feel remorse" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] REPENT (PP)
+      </commentary>
+      <examples>
+        He has repented for sins.
+        We married in haste, then repented in equal haste, as we failed to
+        cope with bills, a baby and each other.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>NP</vn><fn>Contrition</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

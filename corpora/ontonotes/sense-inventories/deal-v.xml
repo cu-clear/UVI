@@ -1,0 +1,92 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="deal-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="handle or manage, exert some control
+over;interact with people" type="">
+      <commentary>
+       Syntax Is:
+       NP1[agent] DEAL PP (WITH NP[issue, problem, conditions])
+       Includes: DEAL WITH
+      </commentary>
+      <examples>
+        How are we going to deal with this problem?
+        She deals with problems as simple as migraines or as complex families falling apart.
+        He works hard to gain an understanding of the information that he deals with every day.
+        Both teams dealt with poor weather conditions.
+        I think that I have dealt with not having a drink for eight months.
+        This job requires good problem solving ability, verbal and written
+        communication skills, and the ability to deal with others.
+        Too many people lead unhappy lives due to an inability to deal with
+        others.
+        The depression left me unable to deal with my family or friends.         
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,7,8,10</wn>
+         <omega/><pb>deal.01</pb>
+         <vn>cope-83</vn><fn>Resolve_problem</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="address a particular topic" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[topic] DEAL PP (WITH  NP[content, meaning])
+        Note: This usually refers to content or meaning of a written or spoken material.
+      </commentary>
+      <examples>
+        The report dealt with the national efforts to implement the Convention against Torture.
+        Here we deal with the following case.
+        A number of global reports produced by ILO have dealt with poverty.
+        This book deals with alcohol and drug abuse.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>deal.01</pb>
+         <vn>NM</vn><fn>Speak_on_topic</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="distribute (to players in a game)" type="">
+      <commentary>
+        Includes: DEAL OUT
+                  Includes poker references.
+                  NOTE: may be used metaphorically 
+      </commentary>
+      <examples>
+        The cook came with the dishes and dealt out the rations.
+        This is the water which all the estates receive in turn, dealt out to them on regular days.
+        Bad provisions, bad water, and scanted rations were dealt to the prisoners.
+        Unfortunately fate has dealt a cruel blow and we have little choice but to move on.
+        Just because Fate doesn't deal you the right cards, it doesn't mean
+        you should give up.
+        He dealt me the King of Spades.
+        The game begins with each player being dealt a "loyalty" card.
+        You play the hand you are dealth.
+        The number of bones dealt at start of the game varies in different
+        parts of the world.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,9,11,12</wn>
+         <wn lemma="deal_out" version="3.0">1</wn>
+         <omega/><pb>deal.02</pb>
+         <vn>give-13.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(illegally) sell" type="">
+      <commentary>
+       Syntax Is:
+       NP1[agent] DEAL PP (WITH NP[object for sale, especially illegal materials])
+       Includes: DEAL WITH
+      </commentary>
+      <examples>
+        People have sent us a clear message they do not want people who deal drugs to live among them.
+        The state stripped him of both his business license and his license to deal cars.
+        People who deal in marijuana are likely to deal in other illicit drugs.
+        Later he dealt arms in Latin America.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,13</wn>
+         <omega/><pb>deal.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

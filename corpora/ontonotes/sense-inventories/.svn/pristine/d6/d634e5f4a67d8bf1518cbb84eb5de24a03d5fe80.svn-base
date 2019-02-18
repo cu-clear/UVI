@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM 'inventory.dtd'>
+<inventory lemma="drop-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name=" (cause or permit) to fall to the ground" type="">
+      <commentary>
+      Syntax Is:
+       NP1[agent/patient] DROP (NP2[patient]) (NP3[location])
+      </commentary>
+      <examples>
+       Don't drop the dishes.
+       Bombs are dropping on London! 
+       The branch dropped with a big thud.
+       The chef dropped bits of chocolate across the cake.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,9,15</wn>
+         <omega></omega><pb>drop.01</pb>
+         <vn>put_direction-9.4,roll-51.3.1</vn><fn>Motion_directional</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move to a lower position, terminate something" type="">
+      <commentary>
+       Syntax Is:
+        NP1[topic] DROP PP[directional]
+        Note: PP may indicate a metaphorical location. 
+      </commentary>
+      <examples>
+         Utility stocks have dropped again for the second week in a row.
+         Drop to your knees and give me twenty pushups! 
+         His voice has dropped since the onset of puberty.
+         He was dropped from the Republican ticket.
+         Mary has dropped all charges against him.
+         I dropped him from the club because he wouldn't pay dues.
+         John is trying to drop his image as a bossy manager.
+         Let's drop the pretenses, shall we?
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5,7,14,16</wn>
+         <omega></omega><pb>drop.01</pb>
+         <vn>put_direction-9.4,calibratable_cos-45.6-1,fire-10.10,roll-51.3.1</vn><fn>Body_movement,Change_posture,Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="discourse utterance" type="">
+      <commentary>
+      Syntax Is:
+       NP1[agent] DROP NP2
+      </commentary>
+      <examples>
+         Can you at least drop me a hint?
+         She dropped a real zinger at lunch.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega></omega><pb>drop.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="unload or disembark something" type="">
+      <commentary>
+      Syntax Is:
+       NP1[agent] DROP NP2[patient{concrete]] PP{P NP[location]}
+      </commentary>
+      <examples>
+         They dropped the passengers at the terminal. 
+         Just drop me at the corner.
+         She dropped the packages at the front desk.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>put_direction-9.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="lose a game in sports" type="">
+      <commentary>
+        Syntax Is:
+         NP1[patient] DROP NP2
+      </commentary>
+      <examples>
+         The Giants dropped 11 of their first 13.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="expend or pay money" type="Slang">
+      <commentary>
+      Syntax Is:
+       NP1[agent] DROP NP2[patient]
+      </commentary>
+      <examples> 
+         he dropped a wad on that diamond necklace.
+         I'm dropping big bucks these days at the casinos.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>drop.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="be suspended so as to hang freely" type="">
+      <commentary>
+      Syntax Is: NP1[topic] DROP PP[location]
+       Note: usually in past tense, rarely in progressive.
+      </commentary>
+      <examples>
+         The light dropped from the ceiling.
+         Clusters of berries dropped heavily from the slender branches.
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <omega></omega><pb>drop.01</pb>
+         <vn>meander-47.7</vn><fn>Motion_directional,Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="omit, leave out or miss something" type="">
+      <commentary>
+      Syntax Is: NP1[agent] DROP NP2[patient]
+      </commentary>
+      <examples>
+         His sentences were hard to read because he had dropped the commas.
+         I think you are really dropping an opportunity here.
+      </examples>
+      <mappings>
+         <wn version="3.0">18,19</wn>
+         <omega/><pb>drop.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="change to a different state or characteristic" type="">
+      <commentary>
+        Syntax Is:
+        NP1[agent] DROP PP(into) NP2[attributive]
+       Note: PP always has 'into' as preposition.
+      </commentary>
+      <examples>
+        She dropped into navy jargon with her buddies at the class reunion.
+        He has dropped into his usual pattern of procrastination.
+        The discussion at Town Meeting dropped into a rude shouting match.
+        Donnie's condition dropped (worsened) as time went on.
+        Let's shop till we drop!
+        The contestants dropped like flies.
+      </examples>
+      <mappings>
+         <wn version="3.0">20,21,22</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="to give birth, especially animals" type="">
+      <commentary>
+      Syntax Is:
+       NP1[actor] DROP NP2[actor]
+      </commentary>
+      <examples>
+         The cow dropped her calf this morning.
+      </examples>
+      <mappings>
+         <wn version="3.0">23</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Birth</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense> 
+    <sense group="1" n="11" name="Golf terminology - to deposit ball on the course" type="">
+      <commentary>
+       Note: used only in golfing
+      </commentary>
+      <examples>
+         Measure two club lengths from the unplayable lie, drop a ball and play from there.
+         When you drop a ball, stand erect, hold your arm out straight and drop it.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="12" name="take (a drug, especially LSD) by mouth."  type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He was dropping almost every afternoon in those days.
+      She dropped acid behind the barn.
+      </examples>
+      <mappings>
+         <wn version="3.0">17</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+   <sense group="1" n="13" name="multi-word and verb particle constructions" type="vpc">
+      <commentary>
+        Choose this tag for the following constructions:
+          drop_a_line
+          drop_anchor
+          drop_away
+          drop_back
+          drop_behind
+          drop_by
+          drop_by_the_wayside
+          drop_dead
+          drop_in
+          drop_off
+          drop_open
+          drop_out
+          drop_like_flies
+          drop_one's_serve
+          drop_the_ball
+      </commentary>
+      <examples>
+          drop_a_line
+            Don't forget to drop me a line when you settle down.
+          drop_anchor
+            I rounded the breakwater and we dropped anchor.
+          drop_away
+            It was late fall following the death of an employee when David's world dropped away from him.
+          drop_back
+            Near the end of the marathon, Kosgei dropped back to third, and Prokopcuka dropped back to fourth.
+          drop_behind
+            But in the race for best actor, Amalric dropped behind two very different performers who tied for highest number of votes.
+          drop_by
+            We frequently drop by the neighbors' house for a cup of coffee.
+          drop_by_the_wayside
+            As the project progressed, some titles dropped by the wayside.
+          drop_dead
+            New fears have been raised about the health of cloned animals after three cloned adult pigs dropped dead from heart attacks.
+          drop_in
+            I just dropped in to see how you were doing.
+          drop_off
+            The number of students in this course dropped off after the first test.
+            Thinking about all this, I didn't notice when I dropped off to sleep.
+            After the date, he dropped me off at the train station.
+            I can tell you why pressure cooker use dropped off.
+          drop_open
+            His mouth dropped open.
+          drop_out
+            He has dropped out of the race for senate.
+            We really hope he doesn't drop out of school.
+          drop_like_flies
+            The contestants dropped like flies.
+            The children usually drop like flies after recess.
+          drop_one's_serve
+            The player dropped her serve.
+          drop_the_ball
+            He really dropped the ball this time.
+            The product team drops the ball every time.
+      </examples>
+      <mappings>
+         <wn lemma="drop_a_line" version="3.0">1</wn>
+         <wn lemma="drop_anchor" version="3.0">1</wn>
+         <wn lemma="drop_away" version="3.0">1</wn>
+         <wn lemma="drop_back" version="3.0">1</wn>
+         <wn lemma="drop_behind" version="3.0">1</wn>
+         <wn lemma="drop_by" version="3.0">1</wn>
+         <wn lemma="drop_by_the_wayside" version="3.0">1</wn>
+         <wn lemma="drop_dead" version="3.0">1</wn>
+         <wn lemma="drop_in" version="3.0">1</wn>
+         <wn lemma="drop_off" version="3.0">1,2,3,4,5</wn>
+         <wn lemma="drop_open" version="3.0">1</wn>
+         <wn lemma="drop_out" version="3.0">1,2</wn>
+         <wn lemma="drop_like_flies" version="3.0">1</wn>
+         <wn lemma="drop_one's_serve" version="3.0">1</wn>
+         <wn lemma="drop_the_ball" version="3.0">1</wn>
+
+         <omega></omega><pb>drop.02,drop.03,drop.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,vieweg" sample_score="-"/>
+</inventory>

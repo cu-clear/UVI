@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lighten-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="become more cheerful or easy-going" type="">  
+      <commentary>
+       Syntax Includes:
+       NP1[agent] LIGHTEN (UP) (NP2)
+       NP1[agent] LIGHTEN (UP) (PP)
+       NOTE: Compare to Sense 2; Sense 1 must be reflexive.  The agent must
+       also be the object of LIGHTEN.
+       Includes: LIGHTEN UP
+      </commentary>
+      <examples>
+        If your kids think you're too strict, maybe you should lighten up a
+        little.
+        Kids really need to lighten up these days.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="lighten_up" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="reduce the weight, burden, or emphasis on" type="">
+      <commentary>
+        NOTE: Includes metaphorical uses.
+        NOTE: Compare to Sense 1; in Sense 2 the agent of lightening and
+        the thing lightened are not the same; the action is not reflexive.
+      </commentary>
+      <examples>
+        A nice session of yoga really lightens up my mood.
+        The next day they lightened the ship by removing the bales of wool.
+        I want to express my grateful acknowledgments to those who have lightened
+        the burden of my work.
+        This year, let us lighten up that fatty Thanksgiving menu for you.
+        The government could save money by lightening up on drug enforcement. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>lighten.01,lighten.02,lighten.03</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="make or become brighter or lighter" type="">
+      <commentary>
+        Includes: LIGHTEN UP
+      </commentary>
+      <examples>
+        The chemical washing process lightened the colors in the rug.
+        The lightning bolts lightened the entire house.
+        Yellow paint really lightens up a room.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="lighten_up" version="3.0">3,4</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey,dehart" sample_score="-"/>  
+</inventory>

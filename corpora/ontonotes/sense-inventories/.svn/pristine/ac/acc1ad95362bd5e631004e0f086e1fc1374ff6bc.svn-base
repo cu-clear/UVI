@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dividend-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="the earnings of a corporation distributed to shareholders" type="">
+        <commentary>
+            DIVIDEND[+quantity][+profit][+distribution]
+        </commentary>
+        <examples>
+            You'll have to pay taxes on those dividends received from your shares of Microsoft.
+            Smaller firms like to reinvest their earnings and not pay out quarterly dividends.
+            Will the new law affect the tax bracket for dividends?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="in the division operation, the number to be divided" type="">
+        <commentary>
+            DIVIDEND[+operation][+division][+number]
+        </commentary>
+        <examples>
+            If the dividend is ten and the divisor is two, the quotient is five.
+            The child can't yet do division when the dividend is a decimal number.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a benefit or perk of some kind" type="">
+        <commentary>
+            DIVIDEND[+outcome][+reward]
+        </commentary>
+        <examples>
+            An added dividend of this job is the weekly beer bash on Fridays.
+            Whatever happened to the so-called Peace dividend?
+            As a dividend of exceeding our sales quota, we got a free trip to Disneyland.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

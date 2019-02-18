@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="waste-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="unwanted by_product material or substance" type="">
+        <commentary>
+            WASTE[+substance][+physical][+by_product][+unwanted]
+        </commentary>
+        <examples>
+            They are trying to clean up the industrial waste along the river front.
+            The body removes toxins through its waste.
+            That truck is not authorized to transport hazardous waste.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the useless expenditure of a resource" type="Event">
+        <commentary>
+            WASTE[+event][+expenditure][+useless][+of_resource]
+        </commentary>
+        <examples>
+            It was a waste of time trying to talk him out of it.
+            The booklet described a number of ways to reduce waste of energy in the home.
+            Sally felt that only being an assistant to Bob was a waste of her own talent.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>waste.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a tract of desolate, barren land" type="">
+        <commentary>
+            WASTE[+location][+geographical][+land][+barren][+desolate]
+        </commentary>
+        <examples>
+            He has trekked through the icy wastes of Antarctica.
+            They wandered for days through the trackless waste of the desert.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a legally recognized reduction in an estate's value from damage" type="Event">
+        <commentary>
+            WASTE[+state][+legal][+reduction][+value][+of_estate][+from_damage]
+        </commentary>
+        <examples>
+            This clause specifies the duty of the vendor to make repairs for the voluntary waste of the property.
+            Damage from the tornado did not constitute permissive waste according to the court.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="drain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="flow off, empty of (usually liquid)" type="">  
+      <commentary>
+       Note: implies a change of location of the removed substance
+       Syntax Is:
+        NP1[agent] DRAIN NP2[theme] (PP{P NP[source]}) (PP[directional])
+        NP1[agent] DRAIN NP2[source]
+        NP1[theme] DRAIN PP{P NP[source]}
+      </commentary>
+      <examples>
+        I drained the juices from the fruit and added the sugar.
+        One pump drained the hole itself, while the other drained the sump.
+        The narrower branch, on the right side, drained the right renal and hepatic veins.
+        For 20 seconds, the oil drained from the engine.
+        The color drained from Amanda Lindsay's face.
+        The third and last sip should drain the cup.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="drain_the_cup" version="3.0">1</wn>
+         <omega/><pb>drain.01</pb>
+         <vn>other_cos-45.4,clear-10.3-1,cheat-10.6-1</vn><fn>Emptying,Removing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="deplete of resources" type="">
+      <commentary>
+       Syntax Is:
+        NP1 DRAIN NP2[source] (of NP3[theme])
+      </commentary>
+      <examples>
+        She drained my bank account, drained my blood, drained my life, drained my soul, then left.
+        If you have fully drained the battery, once you plug in the computer and start it up, you may see a red X.
+        Something had to be done--it drained me of my energy and optimism.
+        The challenges and responsibilities of being a mother and wife drained her of any free time.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>drain.01</pb>
+         <vn>cheat-10.6-1</vn><fn>Emptying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

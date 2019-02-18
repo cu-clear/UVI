@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="characterize-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="describe someone or something; assign attributes to" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] CHARACTERIZE NP2[theme] as NP3[attribute]
+      </commentary>
+      <examples>
+        You can characterize his behavior as that of an egotist.
+        Was the employer justified in characterizing her as an independant contractor? 
+        I am a little surprised to read that she characterized the job as customer service.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>characterize.01</pb>
+         <vn>NM</vn><fn>Communicate_categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be representative of someone or something" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[attribute] CHARACTERIZE NP2[topic]
+      </commentary>
+      <examples>
+        What characterizes a Venetian painting?
+        Hearing actually characterizes our relationship more than seeing or even feeling.
+        Patience and good humour characterized the voting.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>characterize-29.2-1</vn><fn>Distinctiveness</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,dillk" sample_score="-"/>
+</inventory>

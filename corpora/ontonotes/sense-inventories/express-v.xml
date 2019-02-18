@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="express-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="convey, show, state in some form" type="">
+      <commentary>
+        Includes: EXPRESS EMOTION, EXPRESS FEELINGS, EXPRESS JOY, EXPRESS MIRTH
+      </commentary>
+      <examples>
+         Dogs express happiness through wagging their tails.
+         I expressed my opinion about the new housing project at last night's meeting.
+         The children could only express the answer in Fahrenheit, not in Centigrade.
+         Picasso's Guernica vividly expresses the horrors of war.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,5</wn>
+         <wn lemma="express_emotion" version="3.0">1</wn>
+         <wn lemma="express_feelings" version="3.0">1</wn>
+         <wn lemma="express_joy" version="3.0">1</wn>
+         <wn lemma="express_mirth" version="3.0">1</wn>
+         <omega/><pb>express.01</pb>
+         <vn>reflexive_appearance-48.1.2</vn><fn>Encoding,Expressing_publicly</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="press out physically" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Italians express coffee rather than filter it.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to mail or post something via a rapid method" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Can you express these packages overnight to corporate headquarters?
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega/><pb>express.02</pb>
+         <vn>send-11.1-1</vn><fn>Sending</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

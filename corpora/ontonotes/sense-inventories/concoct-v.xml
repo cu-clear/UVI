@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="concoct-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="invent, devise" type="">
+      <commentary>
+        NOTE: Compare to sense 2, this is a general sense and does not
+        include the concoction of food, drink, or a substance.
+       Syntax Is: 
+        NP1[agent] CONCOCT (UP) NP2[patient[abstract]]
+     Includes: CONCOCT UP
+      </commentary>
+      <examples>
+        He concocted the idea for Instant Ramen after WWII, hoping to
+        reduce the amount of poor nourishment for soldiers in the field.
+        They concocted up the tax scheme.
+        He said he was flabbergasted at the way police had concocted
+        charges against him
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>concoct.01</pb>
+         <vn>create-26.4</vn><fn>Invention</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cook, mix ingredients, make a concoction" type="">  
+      <commentary>
+        NOTE: Compare to sense 1, this sense only includes the concoction
+        of food, drink, or a substance.
+      Syntax Is:
+       NP1[agent] CONCOCT NP2[concrete]
+      </commentary>
+      <examples>
+        He concocted his favorite drink from cream soda and whiskey.
+        Paul Iams failed at making orange soda before he concocted dog
+        food.
+        He concocted an acclaimed baby food formula and later developed a
+        popular brand of condensed milk.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>concoct.01</pb>
+         <vn>create-26.4</vn><fn>Cooking_creation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

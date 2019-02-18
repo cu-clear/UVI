@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM 'inventory.dtd'>
+<inventory lemma="attend-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be present" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He has attended most of his evening classes.
+         I'm sorry we won't be able to attend your party.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>attend.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take charge of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         I will attend to that stack of bills this afternoon.
+         She attended her invalid grandmother for years.
+         He said he would attend to that himself.
+         The groom attended the horses while we were away.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NN</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="accompany" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The flash of lightening was attended by a loud crashing boom.
+         The handsome young officer is attending the debutante to the ball.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="pay attention, give heed" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         He really attends to detail in his work.
+         The children were not attending to their substitute teacher's requests.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>peer-30.3</vn><fn>Attention,Perception_active</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="trader-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a dealer of wares or goods" type="">
+        <commentary>
+            TRADER[+/-individual][+wares]
+            Note: can be either an entity (e.g., a nation) or an individual
+        </commentary>
+        <examples>
+            There were many fur traders in North America during the 18th century.
+            Mary is a trader who specializes in Irish ceramics.
+            The government suspects that nation has become a trader of nuclear weapons.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="person who buys and sells financial products, e.g. stocks" type="">
+        <commentary>
+            TRADER[+individual][+financial_products]
+            Note: always an individual or group of them, not an entity.
+        </commentary>
+        <examples>
+            Several traders at the stock exchange were indicted last week.
+            John worked as a bond trader for three years on Wall Street.
+            Many traders have long positions on oil futures.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a ship" type="">
+        <commentary>
+            TRADER[+artifact][+ship]
+        </commentary>
+        <examples>
+            The Coast Guard inspected some small traders off the Florida coast.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

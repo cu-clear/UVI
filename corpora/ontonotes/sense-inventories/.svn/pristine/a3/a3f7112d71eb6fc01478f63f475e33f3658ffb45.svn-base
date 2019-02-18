@@ -1,0 +1,139 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="walk-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an excursion on foot" type="Event">
+        <commentary>
+            WALK[+event][+excursion][+on_foot]
+        </commentary>
+        <examples>
+            John takes the dog for a walk every evening after dinner.
+            Employees are encouraged to take walks at noontime for their health.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb>walk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a style or quality of walking" type="">
+        <commentary>
+            WALK[+quality][+style][+of_movement][+on_foot]
+        </commentary>
+        <examples>
+            Bob has a confident walk.
+            The news put a bounce back into her walk.
+            Runway models cultivate a distinctive walk with hips thrust forward.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the rate or pace of a slow gait" type="Event">
+        <commentary>
+            WALK[+quantity][+rate][+of_movement][+gait][+slow]
+        </commentary>
+        <examples>
+            The rider took his horse around the ring at a walk, then at a trot.
+            The child tried to keep up with his father's fast walk through the airport.
+            Mary grew tired of the crowd's slow walk through the exhibition hall.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>walk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a paved footpath" type="">
+        <commentary>
+            WALK[+artifact][+footpath][+paved]
+        </commentary>
+        <examples>
+            I had to shovel the walk after it snowed.
+            A brick walk leads to the restaurant's outdoor dining deck.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a route or a distance done on foot" type="">
+        <commentary>
+            WALK[+location][+route][+excursion][+on_foot]
+        </commentary>
+        <examples>
+            The Freedom Trail is an historical walk you can take through Boston.
+            The library is only a five-minute walk from here.
+            The landscape architect has designed a number of beautiful walks through the botanical garden.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>walk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a social fundraising event done on foot" type="Event">
+        <commentary>
+            WALK[+event][+social][+fundraising][+on_foot]
+        </commentary>
+        <examples>
+            She does a lot of walks for charity each year.
+            They are organizing a walk for hunger next month.
+            The local walk for breast cancer raised several thousand dollars.
+        </examples>
+        <mappings>
+            <wn version="Ann">-</wn>
+            <omega/><pb>walk.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a social role or position" type="">
+        <commentary>
+            WALK[+role][+social][+position]
+            Note: usually in the phrase 'walks of life'
+        </commentary>
+        <examples>
+            This course attracts people from many different walks of life.
+            Bob came from a different walk of life than Mary.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="advancement to first base on 4 balls in baseball" type="Event">
+        <commentary>
+            WALK[+event][+play][+baseball][+advancement][+to_first_base][+on_four_balls]
+        </commentary>
+        <examples>
+            They retired the pitcher after he pitched three walks in a row.
+            With the bases loaded, they cannot afford a walk now.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>walk.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="management-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="overseeing or directing" type="Event">
+        <commentary>
+	    MANAGEMENT[+event]
+	    Refers to the act of managing something.
+	    </commentary>
+        <examples>
+            He was given overall management of the program.
+            I'm a specialist in risk management.
+            The economy crashed because of poor management.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>management.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the people in charge" type="Entity">
+        <commentary>
+            The ones actually doing the managing, as a collective or an abstract position.
+        </commentary>
+        <examples>
+            Management wants to start downsizing.
+            John was promoted to Management.
+            I spoke to their management, and they're ready to make a deal.
+            Poor Dilbert is always foiled by his company's middle management.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="recollection-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the faculty or general ability of memory" type="Event">
+        <commentary>
+            RECOLLECTION[+quality][+faculty][+cognitive][+remembering]
+        </commentary>
+        <examples>
+            The brain surgery apparently did not impair the patient's faculty of recollection.
+            Recollection of familiar words and objects was diminished by his stroke.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a specific event of remembering something" type="Event">
+        <commentary>
+            RECOLLECTION[+event][+mental][+remembering]
+            Note: implies a specific act of a subject, parallels the verb usage 
+            John recalled X -&gt; John's recollection of X 
+            Note: does not occur in the plural
+        </commentary>
+        <examples>
+            John's sudden recollection of where he'd left his keys was a relief to everyone.
+            The victim's recollection of the trauma made her hands tremble.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="facts or previous experiences that are remembered" type="Event">
+        <commentary>
+            RECOLLECTION[+entity][+mental][+information][+remembered]
+            Note: refers to the information content of recall, -not- the process of it (Sense 2)
+            Note: can occur in the plural.
+            Note: occurs in phrases X HAVE recollection(s)
+        </commentary>
+        <examples>
+            The book is based on the general's recollections of that battle.
+            My recollections of that summer are rather vague at this point.
+            The defendant claims to have no recollection of that night.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

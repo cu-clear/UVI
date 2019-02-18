@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="short-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cheat by not returning enough money, sell short" type="">  
+      <commentary>
+        NP1[+agent] SHORT NP2
+      </commentary>
+      <examples>
+        He said we shorted him $50 when we paid our rent the day before.
+        Hedge funds actively shorted the stock, precipitating more selling
+        by investors.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>short.01,short.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="create a short circuit in" type="">
+      <commentary>
+        NP1[+agent] SHORT NP2
+      </commentary>
+      <examples>
+        I accidentally shorted the circuit.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>short.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

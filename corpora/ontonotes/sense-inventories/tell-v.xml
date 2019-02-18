@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="tell-v">    
+   <commentary>
+	Includes: VPC tell apart, tell off, tell on
+   </commentary>
+   <sense group="1" n="1" name="to inform, narrate, or command" type="">  
+      <commentary>
+      </commentary>
+      <examples> 
+	He told her fascinating tales of his single-handed voyage around the world.
+	I told the policeman my name and address.
+	Mary told us that she would be back in an hour.
+	They told us what to do in case of fire.
+        I tell you that man is a crook!
+	She told him with her eyes. (figurative speech_act)
+	The SEC told them to produce the documents by Thursday.
+	I told you not to go swimming in the old quarry.
+	The man was repeatedly told to put down his weapon.
+        What the research tells us is that it is not all doom and gloom.
+	Years of care and hard labor told on her face.
+	The magnitude of the WTC catastrophe was told by the scourings on the granite in lower Manhattan.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,4,6</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tell.01</pb>
+         <vn>transfer_mesg-37.1.1-1-1,tell-37.2-1</vn>
+         <fn>Request,Telling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to distinguish or discern something" type="">  
+      <commentary>
+	Syntax is: NP1[agent] TELL NP2[finite]
+      </commentary>
+      <examples> 
+	He couldn't tell whether or not she was lying.
+	They told the difference between the twins only by their different haircuts.
+	Today in class the children learned how to tell time.
+	Who can tell what the future may bring?
+	John can easily tell the difference between French and California Chardonney.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,8</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>tell.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to tattle, inform, rat on" type="">
+      <commentary>
+        Syntax includes: NP1[Agent] TELL (ON) NP2[patient]
+        NP1[agent] TELL (ON) NP2[state] 
+        Note: (this is a figurative sense of divulging or 'tattling'
+        Includes: VPC tell on
+      </commentary>
+      <examples>
+        The little boy told on his older brother.
+        They suspect he was fired for telling on upper management.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <wn lemma="tell_on" version="3.0">1,2</wn>
+         <omega/><pb>tell.03</pb>
+         <vn>NM</vn><fn>Reporting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="reprimand, scold" type="">  
+      <commentary>
+	Syntax is: NP1[agent] TELL OFF NP2[recipient]
+	Is: VPC tell_off
+      </commentary>
+      <examples> 
+	He told his boss off over the incident at work.
+	If they  bother you, just tell them off!
+	She is hardly going to tell off her grandmother.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>   
+         <wn lemma="tell_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Judgment_direct_address</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>  
+</inventory>

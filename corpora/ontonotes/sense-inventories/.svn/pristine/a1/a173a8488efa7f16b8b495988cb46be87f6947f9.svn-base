@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="poke-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="jab with prod-like instrument" type="">  
+      <commentary>
+        Includes: POKE AT, POKE INTO
+      </commentary>
+      <examples>
+        Alison poked the needle against the cloth. 
+        She poked her elbow into my ribs.
+        Dad poked the fire to get it going again.
+        Poke some holes in the paper and then fit it into your binder.
+        The chair was poking painfully into his back.
+        The children poked at the frog with sticks to see if it was still alive.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4,5</wn>   
+         <wn lemma="poke_at" version="3.0">1</wn>
+         <wn lemma="poke_into" version="3.0">1</wn>
+         <omega></omega><pb>poke.01</pb>
+         <vn>poke-19</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="search or inquire in a meddlesome way" type="">
+      <commentary>
+        Includes: POKE AROUND
+      </commentary>
+      <examples>
+        This reporter was caught poking around the docks.
+        Will you quit poking in my business!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>poke.02</pb>
+         <vn>rummage-35.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="POKE FUN: make fun of; tease" type="">
+      <commentary>
+        Is: POKE FUN
+      </commentary>
+      <examples>
+        The other kids always poked fun at little Jimmy.
+        'Hey, don't poke fun of my invention, I could be rich someday.'
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="poke_fun" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="POKE OUT: protrude; stick out" type="">
+      <commentary>
+        Is: POKE OUT
+      </commentary>
+      <examples>
+        Don't poke your limbs out the car window.
+        I tripped on a stick that was poking out of the ground.
+        The little girl poked out her tongue at me. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="poke_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

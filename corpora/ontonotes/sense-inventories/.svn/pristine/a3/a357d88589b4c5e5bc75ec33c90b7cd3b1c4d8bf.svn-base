@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="upgrade-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to improve or elevate a rating or evaluation" type="">
+      <commentary>
+        Syntax is: NP1[agent] UPGRADE NP2[abstract] (PP of NP3)
+      </commentary>
+      <examples>
+        Her opinion of the place upgraded as soon as she saw the old movie theater.
+        James needs to upgrade his ideas about people from that area.
+        Despite those worries, Urban upgraded his rating on the company.
+        The President has upgraded the terror alert to level red.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>upgrade.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="obtain more recent equipment; make up-to-date" type="">
+      <commentary>
+        Syntax is: NP1[agent] UPGRADE NP2[concrete] (PP to NP3)
+                   NP1[agent] UPGRADE NP2[theme] (PP to NP3)
+
+      </commentary>
+      <examples>
+        The company finally decided to upgrade all of its software. 
+        She felt it was time to upgrade to a newer Harley Davidson.
+        I need to upgrade my video card so my games will go faster.
+        We need to upgrade the power plant to comply with 2007 safety standards.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>upgrade.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="promote or give a higher position" type="">
+      <commentary>
+        Syntax includes: NP1[agent] UPGRADE NP2[patient] (PP[position])
+                         NP1[agent] UPGRADE NP2[human] (PP[position])
+        Note: Involves personal advancement of an individual (or an
+        individual's function), not the improvement of an object or person's well-being/condition.
+      </commentary>
+      <examples>
+        After six months her status was upgraded to Technician II.
+        My position was upgraded after ten years of hard work.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>appoint-29.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="4" name="improve travel conditions" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We upgraded our entire travel itenerary with the help of our travel agent.
+        The airline was able to upgrade me to First Class just before the flight.
+        I'm sorry the flight is full, we will not be able to upgrade your seat.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>upgrade.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="jennifed,duffielc,corvey,clarklm" sample_score="-"/>
+</inventory>

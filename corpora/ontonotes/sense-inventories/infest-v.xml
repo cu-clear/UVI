@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="infest-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="invade and occupy/live on in great numbers" type="">  
+      <commentary>
+        Syntax Is: NP1 INFEST NP2[location]
+      </commentary>
+      <examples>
+        The roaches infested the kitchen because of the stupid neighbors
+        next door.
+        Yellow starthistle is most concentrated in California, where the
+        plant infests nearly 12 million acres of rangeland and wildland.
+        Aphids infested the host tree during a life cycle.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>infest.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

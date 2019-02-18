@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="skip-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a bouncing, light gait" type="Event">
+        <commentary>
+            SKIP[+quality][+movement][+gait][+bouncing]
+        </commentary>
+        <examples>
+            The little girl's skip down the street was a happy sight.
+            The dancers moved in a circle, doing a light skip.
+            John's house is just a hop, skip and a jump from Mary's.  (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an unintentional omission which is an error" type="Event">
+        <commentary>
+            SKIP[+event][-intentional][+error][+omission]
+        </commentary>
+        <examples>
+            The noise in the engine is from an occasional skip in the combustion cycle.
+            Bob consulted a physician about the recent skips in his heartbeat.
+            The misspelled headline was a major skip by the newspaper editor.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an intentional passing over a sequence of instructions" type="Event">
+        <commentary>
+            SKIP[+event][+intentional][+passing_over][+of_sequence][+instructional]
+        </commentary>
+        <examples>
+            The logic of this program block results in a skip over all the if clauses that don't match the test condition.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a person who defaults, e.g., on a loan" type="">
+        <commentary>
+            SKIP[+person][+role][+defaulter]
+        </commentary>
+        <examples>
+            The man had developed a credit history as a real skip.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

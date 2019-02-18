@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transaction-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="act of commerce" type="Event">
+        <commentary>
+	    TRANSACTION[+event]
+	    The act of buying or selling, or otherwise conducting some business or commercial transaction.
+	    Refers to specific acts, not a general concept.
+	    </commentary>
+        <examples>
+            The transaction occurred in a dark alley at midnight.
+            I'd like to begin conducting some transactions with my bank.
+            I had to pay a transaction tax when I bought all the bonds.
+            John completed the transaction by paying his cashier.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="general commercial activity" type="Abstraction">
+        <commentary>
+            The general concept of carrying on commercial activities.  Cannot conceivably refer to a specific instance of buying or selling.
+        </commentary>
+        <examples>
+            Lowering the interest rate can increase the rate of transaction in the stock market.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                -
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cite-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="name or mention officially" type="">  
+      <commentary>
+        Syntax Is: NP1 CITE NP2
+      </commentary>
+      <examples>
+        A 14 year old female was cited in connection with the theft.
+        He has been cited as the co-respondent in the divorce case.
+        She has been cited as an expert on marketing.
+        They cited him as a prominent artist.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega></omega><pb>cite.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="quote or reference as example, proof, or illustration" type="">
+      <commentary>
+        Syntax Is: NP1 CITE NP2
+      </commentary>
+      <examples>
+        He cites both T.S. Eliot and Virginia Woolf in her article.
+        The bishops cited a passage from Pope St. Leo the Great.
+        She's been cited dozens of times in newspapers in relation to the issue.
+        She cited three reasons why people get into debt.
+        The company cited a 12% decline in new orders as evidence to declining demand.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5,6</wn>
+         <omega></omega><pb>cite.01</pb>
+         <vn>NP</vn><fn>Adducing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="commend, honor formally" type="">
+      <commentary>
+        Note: Generally appears in PASSIVE form.
+      </commentary>
+      <examples>
+        He was cited for his outstanding achievements.
+        He has been cited by the Department for meritorious service.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>cite.01</pb>
+         <vn>NP</vn><fn>Judgement_communication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="to ticket for a crime, summon legally" type="">
+      <commentary>
+        Syntax Is: NP1[[agent[human]] CITE NP2[patient[human]]
+        Note: [patient] here may be an individual, a group of people, or an organization. 
+      </commentary>
+      <examples>
+        The police cited a motorist on SR 224 for speeding and disorderly conduct.
+        The auditor cited the sheriff for losing the evidence in over 730 drug cases.
+        The Labor Department cited the company for pesticide violations.
+        He was cited for state property.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega></omega><pb>cite.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

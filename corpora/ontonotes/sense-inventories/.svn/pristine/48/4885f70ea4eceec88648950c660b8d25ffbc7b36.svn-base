@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="net-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Make or yield a profit" type="">  
+      <commentary>
+      Syntax Is: 
+      NP1[agent] NET NP2[patient]
+      NP1[topic] NET NP2[patient] PP{P NP[agent]}
+      NOTE: Does not include NET OUT
+      </commentary>
+      <examples>
+      The company netted 1 million last year.
+      Google netted record profits this quarter. 
+      The sale netted half a million for the company.
+      The transaction netted substantial profits.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>net.02</pb>
+         <vn>cost-54.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="get, obtain" type="">
+      <commentary>
+        Syntax Is: NP1 NET NP2
+      </commentary>
+      <examples>
+        She also netted new referrals and clients.
+        Your conference gave us the exposure and opportunity to market our
+        company that netted positive results.
+        Harvey said the investigation netted substantial circumstantial evidence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>net.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Catch with a net." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      A decayed carcass was accidentally netted by a Japanese trawler
+      today.
+      We netted six fish before dawn.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>net.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Construct or form a web, as if by weaving." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The skilled artisan netted a beaded tapestry in minutes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="NET OUT: Calculate from net profit." type="">
+      <commentary>
+        Is: NET OUT
+      </commentary>
+      <examples>
+      This all nets out to about 17 dollars a share for investors. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>net.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm,greenlm" sample_score="-"/>  
+</inventory>

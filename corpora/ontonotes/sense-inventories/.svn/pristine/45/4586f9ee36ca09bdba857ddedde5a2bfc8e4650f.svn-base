@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="schedule-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an agenda or procedure for executing a plan" type="">
+        <commentary>
+            SCHEDULE[+process][+agenda][+for_execution][+of_plan]
+        </commentary>
+        <examples>
+            Mary has a very hectic schedule to keep up with at work.
+            The manufacturer is behind schedule with this month's factory orders.
+            The schedule for making the launch to Mars cannot be altered by even one day.
+            Bob has come up with a tentative schedule for completing this project by year's end.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a published timetable" type="">
+        <commentary>
+            SCHEDULE[+artifact][+document][+publication][+timetable]
+        </commentary>
+        <examples>
+            The bus schedule says the next bus leaves at 1:35.
+            The airline publishes a new flight schedule four times a year.
+            I discovered my train schedule was out of date.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a calendar of events" type="">
+        <commentary>
+            SCHEDULE[+artifact][+document][+calendar][+of_events]
+        </commentary>
+        <examples>
+            Let's send each other copies of our schedules so we can coordinate when to meet.
+            The fall schedule of classes is posted on the college's website.
+            I don't see John's talk on the conference schedule of events.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="one of different forms to fill out on income tax returns" type="">
+        <commentary>
+            SCHEDULE[+artifact][+document][+publication][+government][+tax_form]
+        </commentary>
+        <examples>
+            Do you have all the schedules you need to fill out your 2007 tax forms?
+            The schedule I'm missing is not Schedule A.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an appendix to a legal document" type="">
+        <commentary>
+            SCHEDULE[+artifact][+document][+legal][+appendix]
+        </commentary>
+        <examples>
+            You will find the tables in a schedule at the end of the legal brief.
+            The attorney's assistant prepared the schedules that were included in the client's will.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

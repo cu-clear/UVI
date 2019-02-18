@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="travel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="journey, move or proceed" type="">
+      <commentary>
+        Syntax includes: NP1 TRAVEL (by) PP
+        Includes: TRAVEL BY 
+        Note: (meaning &quot;to pass by this way&quot;)
+      </commentary>
+      <examples>
+        We travelled north on Route 508.
+        He travelled from Rome to Naples by bus.
+        Do you prefer to travel by plane or by train?
+        Bands of relatives traveled together.
+        Waves that have traveled a long way from their source will have undergone much dispersion.
+        The dust particles traveled around the world in about two weeks.
+        Trains traveled back and forth all day and night playing a significant part in the growth and economic development of this country.
+        They always had some food to spare for strangers who happened to travel by.
+        She has always wanted to travel around the world.
+        Texas Governor Rick Perry has traveled to Iraq with three other governors in a surprise visit to troops from their states.
+        Senator Coleman traveled to International Falls to participate in an ice fishing clinic.
+        We are planning to travel to India next January.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5,6</wn>
+         <wn lemma="travel_by" version="3.0">1</wn>
+         <omega/><pb>travel.01</pb>
+         <vn>run-51.3.2-1</vn><fn>Travel</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move upon or across" type="">
+      <commentary>
+        Syntax is: NP1 TRAVEL NP2[location]
+      </commentary>
+      <examples>
+        Oliver Stone traveled the world in 94 days to film the movie.
+        Artist Michael Parkes traveled the globe in search of meaning.
+        These were ingenious trees that traveled the oceans of the earth in ready-to-grow packages called propagules.
+        The busiest day in Maine Turnpike history occurred this year on Friday, August 1, when nearly 247000 vehicles traveled the highway. 
+      </examples>
+      <mappings>
+         <wn version="">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>travel.01</pb>
+         <vn>run-51.3.2-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

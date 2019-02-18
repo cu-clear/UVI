@@ -1,0 +1,72 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="influence-n">
+    <commentary>
+        25aug06 updated to wn2.1 ahouston
+        25aug06 merged group 4 into group 3, added features, changed definitions, added commentary ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the power or capacity to be a contributing cause or effector" type="Event">
+        <commentary>
+            INFLUENCE[+quality][+ability][+causal][+contributing]
+            [+relation][+role][+factor][+contributing]
+            The power to affect people or events
+            Note: The capacity to influence is possessed by some NP(agent) in the sentence 
+            Note: X's influence, X has influence, X of influence
+        </commentary>
+        <examples>
+            Lobbies and special interests have too much influence in the government.
+            John used his parents' influence to get the job.
+            Labor unions had the greatest influence during the Depression.
+            I'm embarrassed to admit how much influence my wife has over me.
+            Mary's influence caused me to vote for Bush in the last election.
+            That nation could project its sphere of influence across the globe.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>influence.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="something (often someone) that is a contributing cause" type="Event">
+        <commentary>
+            INFLUENCE[+entity][+agent][+causal]
+            Note: refers to a thing or person
+            Note: X BE influence,
+        </commentary>
+        <examples>
+            My mother was a powerful influence in my life.
+            Mary suspected that John was a bad influence on her children.
+            The author said his biggest influences were Kurt Vonnegut and William Shakespeare.
+            Scientists are studying how big an influence increased levels of carbon dioxide are on global weather patterns.
+            One influence on the Prime Minister's decision is the recent economic growth of Poland.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>influence.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="The effect on something, result or consequence" type="Event">
+        <commentary>
+	    INFLUENCE[+event][+state][+resulting][+behavior][+shaped][+externally]
+	    The resulting effect that an entity or event has on another.
+	    Note: the patient NP of the influence (effect) is always mentioned (this is not true for Sense 1)
+	    </commentary>
+        <examples>
+            My mother's wishes had a great influence on my career choices.
+            They tried to exert some influence on the outcome of this election.
+            The study was inconclusive about the influence of television violence on teen conduct.
+            European culture has always had a strong influence on America.
+            John was &quot;under the influence&quot; when he drove home that night.
+            Increased 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>influence.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

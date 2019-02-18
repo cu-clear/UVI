@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="labor-n">
+    <commentary>
+        21aug07 - modified definitions, commentary and features. Pointed out ambiguous example in Sense 1. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the activity of work, toil" type="">
+        <commentary>
+            LABOR[+activity][+physical][+human][+work]
+            Note: refers to the activity of work, usually physical
+        </commentary>
+        <examples>
+            John's garden is a labor of love.
+            Digging ditches is pure manual labor.
+            All their labors to bring the parties to the negotiating table were in vain.
+            How much labor will be involved in this undertaking?
+            The prisoners performed hard labor on a daily basis.
+            Sally doesn't like the division of labor on this project.
+            The airlines are trying to reduce labor costs. (Could also be Senses 3 or 4)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb>labor.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the process of childbirth" type="">
+        <commentary>
+            LABOR[+activity][+physical][+human][+process][+childbirth]
+        </commentary>
+        <examples>
+            She had a difficult labor with her twin boys.
+            Mary's labor lasted more than sixteen hours.
+            She began experiencing labor pains.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>labor.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an organized political class of workers" type="">
+        <commentary>
+            LABOR[+entity][+group][+people][+organized][+politically][+employee][-management]
+            Note: refers to non-management employees who are politically organized for their collective benefit.
+        </commentary>
+        <examples>
+            Organized labor is not backing their party during this campaign.
+            That historian's specialty is European labor movements of the nineteenth century.
+            He is a well-know labor organizer.
+            The labor unions are planning a city-wide transportation strike.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="people who are available as workers" type="">
+        <commentary>
+            LABOR[+entity][+group][+people][+available][+for_work]
+            [+relation][+role][+resource][+work]
+            Note: does not imply an organized political group, see Sense 3
+            Note: refers to the people doing the work, not the activity - see Sense 1
+        </commentary>
+        <examples>
+            The size of the labor force is expected to shrink in coming decades.
+            They have outsourced the manufacturing to cheaper labor overseas.
+            These mothers are getting back into the labor pool when their children reach a certain age.
+        </examples>
+        <mappings>
+            <wn version="MW online">4b2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

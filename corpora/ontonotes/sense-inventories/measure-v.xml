@@ -1,0 +1,113 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="measure-v">    
+   <commentary>
+	Includes VPCs measure_out, measure_up
+   </commentary>
+
+   <sense group="1" n="1" name="discover the size, amount, or measurement of something" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1[agent] MEASURE NP2[patient]
+        NP1[instrument] MEASURE NP2[patient]
+	Includes: MEASURE OUT 
+        Note: Mentions or implies a measurement scale.
+      </commentary>
+      <examples>
+	They are measuring mercury levels in the water.
+	Is it possible to measure the energy of a single electron?
+	Mary will be measured for her wedding gown next week. (her dimensions)
+	We need to measure out the size of the cabinets.
+	Bill measured out vitamin pills on the kitchen counter.
+        A panel of 5 independent judges will measure each performance on a scale of 1 to 10.
+        A new community index measures Chicago neighborhoods' 'potential.'
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="measure_out" version="3.0">1</wn>
+         <omega/><pb>measure.01</pb>
+         <vn>register-54.1-1</vn>
+         <fn>Dimension</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="judge the quality, effect, importance, or value of something" type="">
+      <commentary>
+	Syntax Is: NP1[agent[animate]] MEASURE NP2[patient]
+	Note: focus is more on qualitative attributes, rather than quantitative (sense 1);
+              no measurement scale is used. 
+      </commentary>
+      <examples>
+	He always measured himself against his older brother.
+	They will be measured by their ability to lead others.
+	They are trying to measure what the public's reaction will be to this new bill.
+	Their teacher said that a person should be measured by deed not by word.
+        There is no way of measuring the damage done to morale.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>measure.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="to be of a particular size; have certain dimensions" type="">  
+      <commentary>
+	Syntax Is: NP1[topic] MEASURE[intransitive] NP2[attribute]
+        Note: Sense 1 implies discovery of a measurement. Sense 3 is a simple statement
+        of a measurement.
+      </commentary>
+      <examples>
+	This room measures twelve feet by fourteen feet.
+	The little girl measured only to her father's waist.
+	That redwood measures six feet around at the base.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>measure.01</pb>
+         <vn>register-54.1-1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="choose or control with restraint" type="">
+      <commentary>
+	Syntax Is: NP1[agent[animate]] MEASURE NP2[patient[abstract]]
+	Note: Implies measuring one's own behavior, not that of another.
+              Watch out for adjectival uses of the past participle (e.g., 'His response was measured.')
+      </commentary>
+      <examples>
+	He should measure his conduct in that environment.
+	The president measured his words carefully as he announced the coming layoffs.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>measure.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="qualify, meet requirements" type="">
+      <commentary>
+	Syntax Includes:
+        NP1[topic] MEASURE UP PP[goal]
+        NP1[topic] MEASURE UP ADVP[manner]
+	Is: MEASURE UP
+      </commentary>
+      <examples>
+	The students at that university don't measure up to the ones here.
+	Pete could never measure up to his parents' expectations for him.
+	Their push into new retail market segments hasn't measured up as planned.	
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="measure_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>Evaluative_comparison</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston,hwangd,brownsw" sample_score="-"/>  
+</inventory>

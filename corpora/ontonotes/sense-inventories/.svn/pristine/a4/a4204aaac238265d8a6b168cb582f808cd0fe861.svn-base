@@ -1,0 +1,118 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="crossing-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of traversing a space, moving from one side to the other" type="Event">
+        <commentary>
+            CROSSING[+event][+movement][+traversal][+completed][+distance]
+        </commentary>
+        <examples>
+            Crossing the street at this place is particularly hazardous.
+            Our company's crossing of a major milestone in sales was celebrated at an office party.
+            Their crossing of the mountains was done in the dead of winter.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>crossing.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a shallow area of water, a ford" type="">
+        <commentary>
+            CROSSING[+location][+region][+water][+shallow][+ford]
+        </commentary>
+        <examples>
+            This shallow portion of the river is a favorite cattle crossing.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a single point of intersection on two lines" type="Event">
+        <commentary>
+            CROSSING[+location][+point][+intersection][+line]
+        </commentary>
+        <examples>
+            Draw an X at the crossing of the two lines on this map.
+            The diagram was a confusion of crossing lines and overlapping circles.
+            My map shows no crossing of Main Street with Juniper Lane.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb>crossing.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a designated path traversing a roadway" type="">
+        <commentary>
+            CROSSING[+location][+path][+designated][+traversal][+roadway]
+        </commentary>
+        <examples>
+            A traffic cop stood in the crossing, letting the pedestrians pass.
+            Cars will be fined $300 for stopping in a crossing at a red light.
+            All railroad crossings must have automatic barriers and flashing lights.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="genetic hybridization" type="Event">
+        <commentary>
+            CROSSING[+process][+genetic][+hybridization]
+        </commentary>
+        <examples>
+            A mule is a crossing between a horse and a donkey.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a journey over water that is a completed traversal" type="Event">
+        <commentary>
+            CROSSING[+event][+journey][+completed][+traversal][+water_body]
+        </commentary>
+        <examples>
+            There are no ferry crossings on Sunday.
+            Our Atlantic crossing took ten days.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>crossing.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="designated checkpoint at an international border" type="">
+        <commentary>
+            CROSSING[+location][+region][+border][+international][+checkpoint]
+        </commentary>
+        <examples>
+            They picked up the two men at the crossing in Brownsville, Texas.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="maturity-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a state of full development" type="">
+        <commentary>
+            MATURITY[+state][+development][+optimal][+natural]
+        </commentary>
+        <examples>
+            Dogs reach sexual maturity within a year of life.
+            These pears have passed their maturity and probably won't taste good. (beyond optimal ripeness)
+            Seeing the world through the eyes of others is one sign of emotional maturity..
+            This wine has reached its maturity and should be drunk within the next three months.
+            Good diet and exercise can contribute to good health throughout maturity and into old age.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="exhibiting grownup behavior, wise or sound judgement" type="">
+        <commentary>
+            MATURITY[+quality][+behavior][+grownup][+desirable]
+            Note: this carries a positive sense, it is considered a desirable trait
+        </commentary>
+        <examples>
+            The child's solo violin playing exhibited maturity beyond his years. (a prodigy)
+            Mary's teenager showed maturity in apologizing for his rude behavior.
+            Some critics have questioned the maturity of the candidate's judgement on foreign policy.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the date on which a financial obligation must be repaid" type="">
+        <commentary>
+            MATURITY[+time][+date][+calendar][+repayment][+obligation][+financial]
+        </commentary>
+        <examples>
+            What is the date of maturity for this insurance policy?
+            A portfolio with staggered maturities contains short term, mid term and long term bonds. (different dates)
+            Having matched maturities (assets and liabilities have same dates) is a way to reduce interest rate risk.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>maturity.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

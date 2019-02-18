@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mining-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="extracting ores" type="Event">
+        <commentary>
+	    MINING[+event]
+	    excavation -
+	    the act of extracting ores or coal etc from the earth
+	    </commentary>
+        <examples>
+            The mining went on all day, from dawn until dusk.
+            The mining was finished in late September.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>mining.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="2" name="laying mines" type="Event">
+        <commentary>
+	    MINING[+event]
+	    mine-laying -
+	    laying explosive mines in concealed places to destroy enemy personnel
+	    and equipment
+	    </commentary>
+        <examples>
+            The mining of the field proved futile. 
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

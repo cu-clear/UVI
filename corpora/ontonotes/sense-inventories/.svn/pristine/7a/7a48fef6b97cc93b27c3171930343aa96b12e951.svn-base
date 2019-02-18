@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="relate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to associate, make a logical or casual
+   connection" type="">  
+      <commentary>
+        Syntax Is: NP1[agent] RELATE NP2 PP
+      </commentary>
+      <examples>
+        Researchers are trying to relate low test results to large class size.
+        I cannot relate these two pieces of evidence in my mind.
+        John related the performance of Dow Jones to sunspot activity.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <omega/><pb>relate.01</pb>
+         <vn>involve-107</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="pertain to, be relevant" type="">
+      <commentary>
+        Syntax Is: NP1[topic] RELATE PP NP2
+      </commentary>
+      <examples>
+        My remark relates to your earlier comments.
+        This chapter relates to the effects of inflation on consumers.
+        These symbols relate to an earlier system.
+        How does this relate with the problem of traversing a tree?
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>relate.01</pb>
+         <vn>relate-86.2-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="establish a social relationship with" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] RELATE PP
+      </commentary>
+      <examples>
+        She relates well to her peers.
+        These two sisters are unable to relate to each other.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>relate.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="give an account of, tell or describe" type="">
+      <commentary>
+        Syntax Is: NP1 RELATE NP2[topic] (PP)
+      </commentary>
+      <examples>
+        She related the events of her disastrous evening to her friends.
+        He relates the official rules of the game to the newcomer.
+        &quot;You don't have to bid too low, because it makes you look unprofessional,&quot; he related.
+        Now, I realize that it was pain that his eyes related.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>relate.02</pb>
+         <vn>say-37.7-1-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

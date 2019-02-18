@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="truncate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to shorten or remove part of an object,
+   or geometrical shape" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      To truncate a word, add an asterisk at the end of the word.
+      The original design was truncated due to a reduction in funding.
+      An impressive tower, now somewhat truncated, rose above the building.
+      The label must be truncated to fit width of image.
+      She truncates the corner of the crystal, thus replacing it with a plane.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="2" name="Shorten, round a number, mathematical truncation" type="">
+      <commentary>
+      Note: the patient of truncation in this case is mathematical, a number. 
+      </commentary>
+      <examples>
+      The numbers 1.4142 and 1.4987 can both be truncated to 1.4.
+     </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>truncate.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

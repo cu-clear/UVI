@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transmit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="send or transfer from one entity (to another)" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+         Within each donor set, only one donor was suspected of having transmitted the disease.
+         The father transmitted the trait to two of his three daughters.
+         Mariner 10 transmitted the first detailed photographs of Venus's atmosphere.
+         What do I do if I transmitted the wrong payment amount?
+         Payment transactions processed on Friday are transmitted the next business day.  
+         If a tree falls in the forest and nobody hears it, is information transmitted?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>transmit.01</pb>
+         <vn>send-11.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="serve as a medium for transmission" type="">
+      <commentary>
+        Syntax is: NP1 TRANSMIT NP2[object]
+      </commentary>
+      <examples>
+        The material without air transmitted the largest force.
+        They also have transmitted the ability to feel the contour of particular shapes over the Internet.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>transmit.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="3" name="broadcast over the airways" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We received a message from the destination station concerning a flight for which a flight plan was transmitted.
+        A sequence system uses a locally generated noise code to encode digital data to be transmitted.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

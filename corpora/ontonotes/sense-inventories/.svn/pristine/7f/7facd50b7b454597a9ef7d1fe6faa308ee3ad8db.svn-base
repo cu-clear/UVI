@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="happen-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="occur, materialize or come about" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1 HAPPEN[intransitive] PP{P NP[topic]}
+      </commentary>
+      <examples>
+	This is what's been happening in the energy spot markets.
+	Who knows what will happen in the Middle East.
+	Stuff happens.
+	Whatever happened to poodle skirts and saddle shoes?
+	His biography is full of events that may not have really happened.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>happen.01</pb>
+         <vn>occurrence-48.3.1</vn><fn>Event</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="by chance, coincidentally" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1/Pro(IT) HAPPEN THAT SCOMP[finite]
+	NP1/Pro(IT) HAPPEN SCOMP[nonfinite]
+      </commentary>
+      <examples>
+       	She happened to be standing in front of the bank when the robbery occurred.
+	It just so happens that I have the tool you need to pick that lock.
+	You didn't happen to see a red glasses case in the conference room, did you?
+	He just happens to be the most famous tenor in the world!
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>happen.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="find, come upon, discover" type="">  
+      <commentary>
+        Syntax Is:
+	NP1[agent] HAPPEN (UPON) PP{P NP[location]}
+       	Includes: HAPPEN UPON
+      </commentary>
+      <examples>
+	We happened upon a diamond earring on our walk.
+	If you happen upon Bob tomorrow, can you return this DVD to him?
+	The chemist happened upon a new synthetic during some experiments.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>happen.03</pb>
+         <vn>NM</vn><fn>Becoming_aware</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

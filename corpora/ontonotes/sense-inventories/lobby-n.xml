@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="lobby-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the public foyer or entry hall of a public building" type="">
+        <commentary>
+            LOBBY[+building][+public][+room][+public][+foyer]
+            Note: implies a public meeting area in a larger public place
+        </commentary>
+        <examples>
+            The hotel lobby had marble floors and giant chandeliers.
+            We are all meeting in the lobby at six this evening.
+            This restaurant recently renovated its lobby.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="political interest group, organized activists" type="">
+        <commentary>
+            LOBBY[+group][+people][+activist][+political][+organized]
+            Note: the people who engage in the political activities (Sense 3)
+        </commentary>
+        <examples>
+            Members of the anti-abortion lobby are speaking with senators today.
+            He is a member of a lobby that represents the tobacco industry.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of exerting political pressure by an activist group" type="">
+        <commentary>
+            LOBBY[+activity][+political][+pressure]
+            Note: the activities which the people (Sense 2) are engaged in
+        </commentary>
+        <examples>
+            He mentioned the recent lobby of Congress by retirees.
+            There have been several lobbies by unions against the proposed trade bill.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

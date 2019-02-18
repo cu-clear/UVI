@@ -1,0 +1,122 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="treat-v">    
+   <commentary>
+	No VPCs for this verb.
+        Contains duplicate WN mappings.
+   </commentary>
+
+   <sense group="1" n="1" name="behave toward, regard someone/something as" type="">  
+      <commentary>
+	Syntax Is: NP[agent] TREAT NP ADVP[manner]
+	Note: Compare to sense 2--this sense includes an agentive subject.
+              Implies a behavior, not a negotiation (see sense 6).
+      </commentary>
+      <examples>
+	They treat him just like family.
+	Customers complained they were not being treated fairly.
+	Jane needs to start treating herself better.
+        We need to treat the new guy as befits his position as the team leader.
+        They agree that the visitor must be treated as a government official.
+        It's wrong to treat animals as if they had no feelings.
+	The police are treating it as a serious offense.
+	You must treat winnings as ordinary earned income on the tax form.
+	The manager is treating the mistake as a useful learning experience for her staff.
+        I treat remarks like that with the contempt that they deserve.
+        She treats her subject matter with authority and a scholar's eye
+	for detail.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,8</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>treat.01</pb>
+         <vn>characterize-29.2</vn><fn>Communicate_categorization,Topic</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="handle, expound" type="">
+      <commentary>
+        Syntax Includes: NP1[-animate] TREAT NP2[topic] (ADVP[manner])
+        Note: This sense includes inanimate subjects only.
+              This sense focuses on scholarly or artistic material.
+      </commentary>
+      <examples>
+        In this film an old theme is treated with fresh insights and
+        imaginatiion.
+        This book treats the history of China.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>treat.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="regale with a gift, reward" type="">
+      <commentary>
+	Syntax Is: NP1[agent] TREAT NP[beneficiary] PP{to NP} 
+      </commentary>
+      <examples>
+	Mark is treating tonight.
+	The whole class was treated to ice cream sundaes.
+	Last night the audience was treated to an extraordinary performance of Swan Lake.
+	On the plane we were treated to a crying baby for six hours.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>treat.02</pb>
+         <vn>equip-13.4.2-1</vn><fn>Giving</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="subject to a process (includes chemical)" type="">
+      <commentary>
+	Syntax Includes: NP1[agent] TREAT NP2[patient] PP
+	Note: does not necessarily imply the process is beneficial.
+      </commentary>
+      <examples>
+	Her hair was brittle and dry from being treated repeatedly with peroxide.
+	The metal is first treated with acid.
+	Mary won't buy fruit that is treated with insecticides.
+	Betty treats her wooden floors with a natural oil about twice a year.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>treat.04</pb>
+         <vn>NM</vn><fn>Processing_materials</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="provide (medical) care for" type="">  
+      <commentary>
+	Syntax Includes: NP1[agent] TREAT NP2[patient] (PP)
+	Note: implies the process is beneficial or intended to be so.
+      </commentary>
+      <examples>
+	She is being treated at St. Mary's Hospital.
+	These plants may be useful in treating cancer.
+	The doctor treated the wound with an antiseptic.
+	The fisherman was treated for hypothermia and released.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>treat.03</pb>
+         <vn>NM</vn><fn>Cure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="negotiate, do business with" type="">  
+      <commentary>
+	Syntax Is: NP1[actor] TREAT with NP2[actor]
+      </commentary>
+      <examples>
+	He refuses to treat with terrorists.
+	They treat directly with their customers.
+	The Duke must treat with the King in this matter.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

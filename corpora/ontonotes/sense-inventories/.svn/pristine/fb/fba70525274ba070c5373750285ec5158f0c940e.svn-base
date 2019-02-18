@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="falsify-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make false by tampering with; forge" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        Dr. Jacoby falsified the image by adding molecular weight markers.
+        The Commission's complaint alleges that Gordon falsified the
+        books and records.
+        United Front falsified the names of students who didn't really exist.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>falsify.01</pb>
+         <vn>NP</vn><fn>Forging</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="prove false" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        There are excuses intended to explain away the evidence that
+        falsified the claim.
+        I have new data to falsify the standing theory.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

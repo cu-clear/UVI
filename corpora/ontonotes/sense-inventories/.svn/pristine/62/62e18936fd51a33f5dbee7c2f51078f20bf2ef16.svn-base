@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="transport-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="move, transfer or carry something or someone" type="">  
+      <commentary>
+	Syntax is: NP1[instrument] TRANSPORT[concrete] NP2[object] (PP[location])
+      </commentary>
+      <examples>
+       	The troops were transported to Iraq by big military aircraft.
+	I wasn't strong enough to transport the canoe on my head over the rough terrain.
+        	The freshly picked lettuce is then transported by truck to the city.
+	They discovered that he had been transporting plans for a terrorist attack on New York.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>transport.01</pb>
+         <vn>send-11.1</vn>
+         <fn>Bringing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="capture or divert one's attention" type="">  
+      <commentary>
+	Syntax is: NP1 TRANSPORT[abstract] NP2[patient] PP[location]
+	Note: a figurative sense of movement, rather than a physical one
+      </commentary>
+      <examples>
+         	The ballet Swan Lake transported us into a world of sorcerers and magic.
+	A day at the spa always transports Mary to a state of complete relaxation.
+         	These old photos are transporting me back to my childhood.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>transport.01</pb>
+         <vn>amuse-31.1</vn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

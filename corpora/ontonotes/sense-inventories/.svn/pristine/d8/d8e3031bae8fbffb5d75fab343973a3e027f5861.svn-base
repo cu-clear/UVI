@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="abduct-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to kidnap, snatch" type="">  
+      <commentary>
+        Syntax includes: NP1[agent] ABDUCT NP2[patient]
+      </commentary>
+      <examples>
+        Have you or your friends been abducted by aliens?
+        Two teens were attacked late Tuesday night and one of them was
+        abducted by suspected gang members.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>abduct.01</pb>
+         <vn>steal-10.5</vn><fn>Kidnapping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to pull away from the body" type="">
+      <commentary>
+        Syntax includes: NP1[inanimate] ABDUCT
+      </commentary>
+      <examples>
+        The muscle abducts and rotates the thigh while providing support
+        for the pelvis.
+        The sartorius flexes, abducts, and rotates the thigh sideways at
+        the hip.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="dillk, greenlm" sample_score="-"/>  
+</inventory>

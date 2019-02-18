@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="farm-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cultivate products or land agriculturally." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      He farms 12 acres in Grabowiec, Poland.
+      My son is farming in California.
+      We farm wheat here.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>farm.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Collect fees or profit (from people)." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He farmed the villagers for taxes and cheap labor.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="FARM OUT: arrange for contracted work to be
+         done by others." type="">
+      <commentary>
+      Is: FARM OUT
+      Note: NP2 must be a kind of work.
+      </commentary>
+      <examples>
+      Fewer companies desire to farm out work these days.
+      We farmed out our telemarketed to companies overseas.
+      Don't farm out my job! 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="farm_out" version="3.0">1</wn>
+         <omega></omega><pb>farm.02</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="FARM OUT: grant the services of or the
+         temporary use of, for a fee; includes people." type="">
+      <commentary>
+      Is: FARM OUT
+      </commentary>
+      <examples>
+      We farm out our apartment to tourists every year.
+      He farmed out his niece for manual labor.
+      He farmed himself out as a cook. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="farm_out" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Being_employed</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

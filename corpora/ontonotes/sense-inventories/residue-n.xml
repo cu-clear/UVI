@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="residue-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="physical matter left behind after a removal process" type="">
+        <commentary>
+            RESIDUE[+entity][+substance][+remaining][+process][+removal]
+        </commentary>
+        <examples>
+            The geologist examined the salt residues in the ancient lake bed.
+            This shampoo removes residues that can dull your hair.
+            There are amino acid residues from the hydrolysis of protein.
+            I washed a sticky residue off the kitchen counter.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a numerical remainder or balance" type="">
+        <commentary>
+            RESIDUE[+quantity][+sum][+remainder]
+        </commentary>
+        <examples>
+            They will use the residue of this year's budget to give teachers a raise.
+            2 and 7 are residues of 12 modulo 5.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="portion of an estate remaining after settlement of all debts" type="">
+        <commentary>
+            RESIDUE[+entity][+asset][+estate][+remaining][+settlement][+debt]
+            Note: a restricted sense of Sense 2, but may involve more than money (other assets, e.g., property, jewelry, artwork, etc.)
+        </commentary>
+        <examples>
+            There was very little residue from John's father's estate.
+            She contested the residue of her husband's estate with his  son's attorneys.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

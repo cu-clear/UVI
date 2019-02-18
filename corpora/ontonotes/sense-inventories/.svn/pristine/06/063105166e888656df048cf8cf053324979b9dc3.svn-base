@@ -1,0 +1,40 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="postponement-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a span of time in which an awaited event is delayed" type="">
+        <commentary>
+            POSTPONEMENT[+quantity][+span][+temporal][+delay][+of_action][+awaited]
+            Note: refers to the time span when something did not happen
+        </commentary>
+        <examples>
+            There was a thirty-second postponement in the broadcast, due to a network failure.
+            These postponements in production while the machinery is serviced are costing us money.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an intentional act of delaying, deferring something" type="Event">
+        <commentary>
+            POSTPONEMENT[+event][+act][+intentional][+delay]
+            Note: refers to an agent's deciding to delay something
+        </commentary>
+        <examples>
+            The doctor became annoyed with Bob's postponements of his annual physical.
+            She sent email announcing a postponement of the meeting until Thursday.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>postponement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

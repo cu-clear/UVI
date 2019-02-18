@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="surrender-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="yield to the control of another" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SURRENDER
+                   NP1[agent] SURRENDER (NP2) to NP3
+        NOTE: compare carefully to sense 2; in this sense, there may actually be an 
+              object (NP2) &quot;surrendered&quot; (oneself, one's life, one's soul)--in such
+              cases, the surrendering of NP2 renders NP1 under the control of NP3
+      </commentary>
+      <examples>
+        The free press has surrendered to religious fanatics.
+        Twelve Tigers surrendered to the military in East Sri Lanka.
+        Who surrendered to George Washington in 1786?
+        In every encounter, she surrendered to love and was changed.
+        He surrendered himself to authorities.
+        She surrendered her life to God at the age of six.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>surrender.01</pb>
+         <vn>NM</vn><fn>Surrendering</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give up right or possession to another" type="">
+      <commentary>
+        Syntax is: NP1[agent] SURRENDER NP2[+possession] (to NP3)
+        NOTE: compare carefully to sense 1; in this sense, the surrendering of NP2
+              does not entail that NP3 has control over NP1
+      </commentary>
+      <examples>
+        The town must not be surrendered to drunken louts.
+        He has surrendered his passport to authorities and is scheduled to appear in court.
+        Will surrendering my current vehicle hurt my chances of getting financed?
+        In 2004 she surrendered her license and retired.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>surrender.01</pb>
+         <vn>contribute-13.2-1-1</vn><fn>Surrendering_possession</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

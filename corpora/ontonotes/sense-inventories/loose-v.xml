@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="loose-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="free (from restraint), let loose" type="">  
+      <commentary>
+        Includes: LOOSE OFF
+        Syntax Is: NP1[agent] LOOSE NP2
+      </commentary>
+      <examples>
+        Bush and his neocon allies have loosed the dogs of war.
+        My sons loosed the dogs from the slips.
+        German surface raiders loosed mines off South Australia.
+        The Germans had loosed the plague on the United States.
+        It was the pilots, not our boys, who loosed off their guns in the
+        lounge of the plane.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="loose_off" version="3.0">1</wn>
+         <omega></omega><pb>loose.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) be loose" type="">
+      <commentary> 
+        Syntax Includes:
+        NP1[agent] LOOSE NP2
+        NP1 LOOSE
+      </commentary>
+      <examples>
+        Feltram loosed the rope and shoved the boat off.
+        The tree was bent down again and the noose loosed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

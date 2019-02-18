@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="origin-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="beginning" type="Event">
+        <commentary>
+	    ORIGIN[+event]
+	    The inception or the first part of something; the event that begins something.
+	    This will probably be the most common sense.
+	    </commentary>
+        <examples>
+            There are a number of theories about the moon's origin.
+            Some scientists believe that the moon had its origin in a massive asteroid that hit the Earth.
+            Darwin's &quot;Origin of Species&quot; caused a lot of controversy in its time.
+            What's your place of origin? (the place where your origin occurred)
+            This narrative traces the history of the Navajos from their origins to the twenty-first century.
+            This is a band that continues to grow from its punk origins. 
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega/><pb>origin.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="place of beginning" type="Entity">
+        <commentary>
+            Refers specifically to the place where something originated.
+        </commentary>
+        <examples>
+            If you walk upstream long enough, you'll find the river's origin.
+            Jupiter was the origin of the radiation.
+            My origin is Sweden, but I've been in the United States for three years.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="ancestry" type="Abstraction">
+        <commentary>
+            The ancestors of a person, or the properties associated with them.
+        </commentary>
+        <examples>
+            I can trace my origin back to my great-great-great grandfather.
+            He's a peasant who comes from a noble origin.
+            Though Shakespeare had humble origins, he still received an education.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2 5
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="coordinate point" type="Math">
+        <commentary>
+            The point of intersection in coordinate axes; the point when all values are zero.
+        </commentary>
+        <examples>
+            A basic sine curve passes through the origin, I think.  
+            In a two-dimensional graph, the origin is (0,0).
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

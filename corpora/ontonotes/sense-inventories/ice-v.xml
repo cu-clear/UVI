@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ice-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="decorate with frosting" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] ICE NP2[destination] (PP[theme])
+      </commentary>
+      <examples>
+      In the center was the big birthday cake--iced as only Molly could ice it.
+      She iced the top of the chocolate icing with pink icing saying "Happy Birthday."
+      She iced the cake using a star tip.
+      I glazed and iced the doughnuts then put them in the case.
+      She also gives great tips on icing the cookies with fondant.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ice.01</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make colder, or icy, using ice" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] ICE NP2[theme] (PP[instrument])
+      May be used metaphorically.
+      </commentary>
+      <examples>
+      Ice your sprained limbs.
+      Their plans were iced, however by temperatures that dipped into the teens.
+      It has been iced, and the champagne has been standing in an equable temperature of 65.
+      He is on the bench icing his knee during breaks.
+      BC Buildings Corporation had also discontinued icing the rink in the winter time.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ice.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

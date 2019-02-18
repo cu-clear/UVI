@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="schedule-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="decide a specific time for an event" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        I've scheduled a concert for next week.
+        I scheduled an exam for this afternoon.
+        The Air Resources Board has scheduled a public workshop to discuss the status of Zero Emission Bus technology.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>schedule.01</pb>
+         <vn>create-26.4-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="obtain resources for a planned event" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We made a powerpoint presentation and scheduled a room to have the forum.
+        If you have scheduled a bus with the MCA, you must cancel it 48 hours in advance.
+        I have scheduled a projector/laptop to use United Streaming next week with my students. 
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>  
+</inventory>

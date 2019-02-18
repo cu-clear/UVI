@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="argue-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="express disagreement often angrily" type="">  
+      <commentary>
+      Syntax Includes:
+        NP1 and NP2 ARGUE
+        NP1 ARGUE with NP2
+        NP1[agent[plural]] ARGUE         
+      </commentary>
+      <examples>
+        These girls are always arguing about something.
+        Kids, will you stop arguing with each other?
+        They were arguing on which film to go and see.       
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>   
+         <omega/><pb>argue.02</pb>
+         <fn>Quarreling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="state an opinion, idea, or belief" type="">
+      <commentary>
+      Syntax Is:  NP1[agent] ARGUE (NP2[patient])
+                  NP1[agent] ARGUE SCOMP
+      </commentary>
+      <examples>
+        They argued in favor of greater freedom.
+        You could argue that this calls for greater freedom or not less.
+        You can argue the case either way.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>argue.01</pb>
+         <fn>Reasoning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="indicate validity or truth of something" type="">
+      <commentary>
+      Syntax Is:  NP1[theme1] ARGUE (NP2[theme2])
+      </commentary>
+      <examples>
+        The increase in crime argued for tougher jail time.
+        The evidence argues a change in policy.
+        New findings argue for your claim.
+        These results argue the need for more work.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>argue.01</pb>
+         <fn>Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

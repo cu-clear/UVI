@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="govern-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="exercise authority to control and direct" type="">  
+      <commentary>
+       Syntax Is: NP1[agent] GOVERN
+       Note: NP1 is +agent
+      </commentary>
+      <examples>
+        The country is now being governed by the Labour Party.
+        They accused the government of being unfit to govern.
+        Govern yourselves like civilized people.
+        He governed his household with mildness and forbearance.
+        She governed the Roman empire excellently and with great orderliness
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>govern.01</pb>
+         <vn>NP</vn><fn>Leadership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="have a direct or controlling influence over something" type="">
+      <commentary>
+        Syntax Is: NP1[stimulus] GOVERN NP2
+        Note: NP1 is not an [agent]
+      </commentary>
+      <examples>
+        Don't let your emotions govern your life.
+        Prices of goods are governed by the cost of the raw materials.
+        Chance usually governs the outcome of the game.
+       </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>govern.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="regulate, restrain, keep under control" type="">
+      <commentary>
+        Syntax Is: NP1[agent] GOVERN NP2[patient]
+        Note: NP1 is +agent    
+      </commentary>
+      <examples>
+        She could hardly govern her emotions.
+        You thus learn how to govern your impulses, activities and weaknesses.        
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>govern.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

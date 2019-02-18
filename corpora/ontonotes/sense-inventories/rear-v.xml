@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="rear-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Raise and nurture as a child." type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] REAR NP2[patient[animate]]
+      </commentary>
+      <examples>
+        My father reared a large family alone.
+        Rear the tomato plants carefully and you'll get a good bounty.
+        The mother cat reared 5 healthy kittens. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>rear.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) stand up or rise; build." type="">
+      <commentary>
+        Includes: REAR BACK, REAR UP
+      </commentary>
+      <examples>
+        Right into the stars he reared aloft, his red eyes raging.
+        My horse reared when a squirrel ran across the road.
+        Marty reared, bit and attacked aggressively.
+        In 1817 Joe bargained for a five acre plot and reared a house on it.
+        Amanda hung up the phone then reared back in her leather chair.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4,5</wn>
+         <wn lemma="rear_back" version="3.0">1</wn>
+         <omega></omega><pb>rear.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="REAR BACK: start with anger or resentment" type="">
+      <commentary>
+        Is: REAR BACK
+        Syntax Is: NP1[agent[human]] REAR BACKk 
+        Note: Compare to Sense 2; in Sense 3, NP1 must be HUMAN (capable of
+        anger/resentment). 
+      </commentary>
+      <examples>
+        Dr. Johnson reared back when he heard the price of his medical bill.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="rear_back" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

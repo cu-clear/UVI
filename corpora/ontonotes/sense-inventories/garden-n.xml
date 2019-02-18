@@ -1,0 +1,93 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="garden-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a private plot of cultivated land for growing food" type="">
+        <commentary>
+            GARDEN[+location][+outdoors][+property][+private][+plot][+cultivated][+food]
+            Note: implies private plots cultivated with vegetables, fruits for eating
+        </commentary>
+        <examples>
+            Mary grows an herb garden in her backyard every summer.
+            Many people cultivated victory gardens during World War II.  (supplement their food)
+            Some of the lettuce and peas are ready for picking in our vegetable garden.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="landscaped yard adjoining a home" type="">
+        <commentary>
+            GARDEN[+location][+outdoors][+property][+private][+yard][+landscaped]
+            Note: implies  a private outdoor space that is ornamental, not cultivated with food
+        </commentary>
+        <examples>
+            The patio leads out to a large rose garden and koi pond.
+            Bob's estate has formal gardens with statues and topiaries.
+            Mary added a birdbath and Japanese lantern to her garden behind the house.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="large ornamental public grounds" type="">
+        <commentary>
+            GARDEN[+location][+outdoors][+property][+public][+grounds][+ornamental]
+            Note: often occurs in the plural
+        </commentary>
+        <examples>
+            It's among the most famous botanical gardens in the world.
+            We walked beneath large Eucalyptus trees in the zoological garden. (houses animals)
+            There are some beautiful perennial gardens at the local arboretum.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="outdoor public dining or drinking establishment" type="">
+        <commentary>
+            GARDEN[+location][+outdoors][+property][+public][+enclosure][+dining]
+        </commentary>
+        <examples>
+            The restaurant closes its beer garden during the winter months.
+            John and Mary first met at a tea garden in San Francisco.
+            The wine garden has live music and tastings on Friday night.
+        </examples>
+        <mappings>
+            <wn version="MW online">2b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a farm that cultivates vegetable crops for market" type="">
+        <commentary>
+            GARDEN[+location][+outdoors][+property][+commercial][+farm][+vegetable]
+        </commentary>
+        <examples>
+            These tomatoes come from a truck garden in central New Jersey.
+            Many of these truck gardens are raising only organic produce.
+        </examples>
+        <mappings>
+            <wn version="MW online">2b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

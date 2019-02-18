@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="forget-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) fail or be unable to remember something" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1 FORGET NP2
+        NP1 FORGET COMP
+      </commentary>
+      <examples>
+        I'm sorry, I've forgotten your name.
+        Let me write down that date before I forget it.
+        We'd forgotten that she doesn't come on Thrusdays.
+        She would never forget seeing the Himalayas for the first time.
+        I've forgotten how to do it.
+        I never forget a face.
+        I forgot to take the trash out.
+        I forgot to attach the forms.
+        I forgot to take my pills.
+        I forgot to bring the disks with me.
+        I forgot my umbrella.
+        She forgot the disks at home.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4</wn>   
+         <omega/><pb>forget.01</pb>
+         <vn>NP</vn><fn>Remembering_information,Remembering_to_do,Remembering_experience,Memory</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fail to give due attention to something or someone/lose control of manners or behavior" type="">
+      <commentary>
+        Syntax Is: NP1 FORGET NP2
+      </commentary>
+      <examples>
+        Don't forget your manners.
+        For a moment he forgot himself, he forgot about the danger he was in as he stared in awe at the building.
+        Oh dear, I'm forgetting myself!
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>forget.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="dismiss" type="">
+      <commentary>
+        Includes: FORGET ABOUT
+        Note: often is in imperative form
+      </commentary>
+      <examples>
+        Forget about it!
+        Forget about implementation, focus on results.
+        Cashman can forget about a relaxing offseason.
+        Forget your troubles, c'mon, get happy!
+        I put on some good music and I just forgot everything else and started work.
+        So we just forgot it and concentrated on boat speed and sail trim.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>forget.01</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg,duffielc" sample_score="-"/>  
+</inventory>

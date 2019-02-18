@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="launch-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="physically propel something with force" type="">
+      <commentary>
+        Syntax Is: NP1 LAUNCH[transitive] NP2
+      </commentary>
+      <examples>
+        How is a Satellite launched into an Orbit?
+        What is a projectile and why do people want to launch them?
+        The crossbow is used to launch a suction cupped dart during projectile motion and energy conservation portions of the physics class.
+        A Space Services spokesperson said he would be the first astronaut to have his remains launched into space.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>launch.01</pb>
+         <vn>throw-17.1-1-1</vn><fn>Cause_begin_motion,Shoot_projectiles</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="begin something, set something in motion" type="">
+      <commentary>
+        Syntax Is: NP1 LAUNCH[transitive] NP2
+        NOTE: Includes metaphorical sense of "Launching into motion"
+      </commentary>
+      <examples>
+        Red Hat has launched a program to support embedded deployments of Red Hat Enterprise Linux.
+        The Participatory Culture Foundation has launched a site for listing free and open source software coding.
+        The Commission today launched a study on the economic and technical evolution of the scientific publication markets in Europe.
+        An investigation has been launched into complaints about Afghanistan's landmark election.
+        Why are ships launched by breaking a bottle of champagne over the bow?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5</wn>
+         <omega/><pb>launch.01</pb>
+         <vn>establish-55.5-1</vn><fn>Activity_start,Launch_process</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="vigorously enter into an activity" type="">
+      <commentary>
+        Syntax Is: NP1 LAUNCH[intransitive] PP
+        Note: Preposition is usually 'into' 
+      </commentary>
+      <examples>
+        He launched into a long diatribe.
+        She launched into a dangerous adventure.
+        Then he launched into his spiel.
+        As the hard rocking quartet launched into their final song, the crowd went wild.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Activity_start</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="scold, attack" type="">
+      <commentary>
+        Includes: LAUNCH INTO
+      </commentary>
+      <examples>
+        Before I knew what had happened he launched into him punching him in the face.
+        She then entered my office and launched into me about what I had done to her life.
+        When he didn't like my response, he launched into me.
+        She launched into him saying that he was boring and knew nothing and should shut up.
+        Sandra smelled blood and launched into me with both barrels.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="5" name="smooth the surface of" type="">
+      <commentary>
+        Note: as in &quot;to launch plaster&quot;
+      </commentary>
+      <examples>
+      *No examples found.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd" sample_score="-"/>
+</inventory>

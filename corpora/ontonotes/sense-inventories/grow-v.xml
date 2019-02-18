@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="grow-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="enter a new condition or state" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The sky grew black as we headed the boat to harbor.
+         The patient is growing sicker by the day.
+         He changed jobs, grew a beard and bought a new sports car.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,8</wn>
+         <omega/><pb>grow.02</pb>
+         <vn>NM</vn><fn>Becoming</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="normal physical development by natural processes" type="">
+      <commentary>
+         Syntax Is: NP1 GROW
+         Includes: GROW OVER
+      </commentary>
+      <examples>
+         In these forests, mushrooms grow under the trees.
+         He is growing a new variety of grape in his vineyards.
+         They grew corn for livestock where I lived as a child.
+         The ivy grew over the patio.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,7,10</wn>
+         <wn lemma="grow_over" version="3.0">1</wn>
+         <omega/><pb>grow.03</pb>
+         <vn>build-26.1,calibratable_cos-45.6-1,grow-26.2,other_cos-45.4</vn><fn>Expansion,Cause_expansion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="human (emotional) development" type="">
+      <commentary>
+        Includes: GROW UP
+      </commentary>
+      <examples>
+         Her son grew to his full height by age twelve.
+         The girls grew from their experience helping the relief workers after the earthquake.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,9</wn>
+         <wn lemma="grow_up" version="3.0">1</wn>
+         <omega/><pb>grow.04</pb>
+         <vn>grow-26.2,other_cos-45.4</vn><fn>Expansion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="increase or expand" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Their business is growing fast.
+         The responsibilities associated with this job have grown too large for me to handle.
+         They saw a huge fireball growing across the eastern horizon.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>grow.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>Expansion,Cause_expansion,Change_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="arise, originate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Their friendship grew over the years.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>appear-48.1.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="specific way or process of development" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Stalactites grow from the top of caves, and stalagmites grow from the bottom of them.
+         Crystals grow as a lattice structure.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

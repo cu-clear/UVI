@@ -1,0 +1,100 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="nation-n">
+    <commentary>
+        11Aug08 added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="government" type="">
+        <commentary>
+            NATION[+organization][+government][+central]
+            state, country, land, commonwealth, res publica, body politic
+            a politically organized body of people under a single government
+        </commentary>
+        <examples>
+            Are there more African nations or European nations?
+            Students who had come to the nation's capitol were surprised by the yucky smell.
+            The nation's largest manufacturer of neckties went out of business yesterday.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="2" name="citizens" type="">
+        <commentary>
+            NATION[+group][+people][+body][+sociopolitical][+governed]
+            The people who live in a nation or country
+        </commentary>
+        <examples>
+            The news was announced to the nation early this morning.
+            The whole nation worshipped him.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="3" name="government and/or citizens" type="Shish kebob">
+        <commentary>
+            NATION[+organization][+government][+central]
+            [+group][+people][+body][+sociopolitical][+governed]
+            Choose this sense when the meaning could be both Sense 1 and Sense 2
+        </commentary>
+        <examples>
+            A statement that sums up the nation's mood was made yesterday in the
+            paper.
+            George is on a mission to learn all about our great nation. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="4" name="collective tribes" type="">
+        <commentary>
+            NATION[+organization][+federation][+tribal]
+            a federation of tribes (especially native American tribes)
+        </commentary>
+        <examples>
+            George bought a coin that he was told was issued by the Shawnee nation.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="5" name="Ms. Nation" type="">
+        <commentary>
+            Nation, Carry Nation, Carry Amelia Moore Nation
+            United States prohibitionist who raided saloons and destroyed bottles
+            of liquor with a hatchet (1846-1911)
+        </commentary>
+        <examples>
+            We learned about Carry Nation in history class yesterday.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

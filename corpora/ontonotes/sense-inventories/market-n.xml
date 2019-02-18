@@ -1,0 +1,103 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="market-n">
+    <commentary>8jan08 - features added, examples added. ahouston
+        24Jul08 added senses 4,5,6 and revised definitions, features and examples. ahouston
+        19Dec08 - merged S2 with S1, revised definitions  ahouston
+    </commentary>
+    <sense group="1" n="1" name="a commercial system of buying and selling products" type="">
+        <commentary>MARKET[+system][+commercial][+of_buying_and_selling][+product]
+            Note: this refers to the general activities and rules that relate to buying and selling products
+        </commentary>
+        <examples>The economist is a strong advocate of free markets. (all such commercial sectors)
+            Black markets spring up quickly in societies with communist governments.
+            They took their house off the market when it wouldn't sell.   (refers to housing sector of commerce)
+            The new medication was rushed to market before adequate testing was done.  (pharmaceutical market)
+            The stock market was closed today for the holiday.
+            The European markets were more heavily regulated than the Asian markets.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/>
+            <pb>market.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a public area set up for the commerce of tangible goods" type="">
+        <commentary>MARKET[+location][+area][+public][+for_commerce][+of_goods][+tangible]
+            Note: choose this sense when 'market' refers to specific locations where food and crafts are sold.
+        </commentary>
+        <examples>Sally and Mary like to visit the local farmers markets during the summer months.	
+            They enjoyed the open air market in a Parisian neighborhood.
+            We can buy lunch at one of the food stalls in the market in the town square.
+            The local produce is brought to the central market by trucks and vans.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="the level or amount of trading on the stock market in a timeframe" type="">
+        <commentary>MARKET[+quantity][+measure][+of_activity][+trading][+on_stock_market]
+            Note: choose this sense when activity level of stock market trades is implied
+        </commentary>
+        <examples>The long term trend for the market is looking bullish now.  (activity will involve selling at higher prices)
+            The major markets around the world were quiet today, with very little trading.  (not much activity)
+            Recent trends are an indication of another big market crash.  (dramatic overselling activity)
+            The jittery market these past weeks is largely due to the uncertainty of oil prices.  (somewhat chaotic trading activity)
+            The bottom fell out of the market during the financial panic.
+        </examples>
+        <mappings>
+            <wn version="MAC">2d</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="demand, the potential buyers of a given good or service" type="">
+        <commentary>MARKET[+collection][+people][+role][+buyer][+potential][+with_demand]
+            Note: Use this sense when 'demand'  can be substituted for 'market' with approximately the same meaning.
+        </commentary>
+        <examples>There is a huge market now for hand-held electronic devices.
+            Their business model assumes a growing market for this service, which is questionable.
+            Before they publish any book they try to determine the size of the market for it.
+            There is a diminishing market in Japan for these products.
+            The job market has picked up while the housing market has remained soft.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="a grocery store" type="">
+        <commentary>MARKET[+artifact][+building][+store][+grocery]
+            Note: Choose this when 'grocery store' is a good substitution.
+            Note: compare this with S3, which is usually more of an outdoor set of stalls, or tables
+        </commentary>
+        <examples>I picked up bread and milk at the convenience market on the way home.
+            Mary shops at three different markets to get the best prices on cereal, detergent and canned goods.
+            They are opening a big new health food market in the shopping mall.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

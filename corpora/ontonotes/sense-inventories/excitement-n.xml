@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="excitement-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a personal feeling of exhilaration" type="">
+        <commentary>
+            EXCITEMENT[+state][+personal][+exhilaration]
+            Note: X[+recipient] HAS excitement
+        </commentary>
+        <examples>
+            The children's excitement grew noticeably as Christmas Eve approached.
+            We could barely conceal our excitement when they made the offer for our company.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>excitement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a personal state of agitation, upset" type="">
+        <commentary>
+            EXCITEMENT[+state][+personal][+agitation]
+            Note: X[+recipient] HAS excitement
+        </commentary>
+        <examples>
+            She tried to calm the horse's excitement when it saw a snake in the road up ahead.
+            Through the man's excitement and gestures the firemen figured out that a child was still inside the burning building.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a feeling of sexual arousal" type="">
+        <commentary>
+            EXCITEMENT[+state][+personal][+exhilaration][+arousal][+sexual]
+            Note: a narrow, specialized usage of Sense 1
+        </commentary>
+        <examples>
+            He felt no excitement at watching anonymous naked women dance on a stage.
+            They are afraid the teenagers will get too carried away by the excitement of heavy necking.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>excitement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a situation which causes exhilaration, joy" type="Event">
+        <commentary>
+            EXCITEMENT[+event][+situation][+exhilarating]
+            Note: X{+cause} BE excitement (for Y{+recipient})
+        </commentary>
+        <examples>
+            The excitement of getting to have lunch with a movie star had John in a great mood all week.
+            The surfers talked about the excitement of riding the big waves on Oahu. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>excitement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an event that is some type of unpleasant disturbance" type="">
+        <commentary>
+            EXCITEMENT[+event][+situation][+disturbance][-pleasant]
+            Note: X{+cause} BE excitement (for Y{+recipient})
+        </commentary>
+        <examples>
+            There appears to be some excitement up ahead with the swerving cars and brake lights.
+            The passengers felt that the emergency landing was enough excitement for one day.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>excitement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

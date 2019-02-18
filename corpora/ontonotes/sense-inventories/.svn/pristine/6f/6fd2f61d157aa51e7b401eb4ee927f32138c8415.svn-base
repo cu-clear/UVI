@@ -1,0 +1,130 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stamp-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Walk heavily or put out/extract (as if) by stomping." type="">  
+      <commentary>
+        Includes: STAMP OUT
+        Syntax includes: NP1[agent] STAMP NP2[patient[concrete]]
+                         NP1[agent] STAMP PP[motion]
+      </commentary>
+      <examples>
+        The elephant stamped through the brush.        
+        'No!' The child whined and stamped her foot.
+        In the process of wine making, you have to stamp the juice from the grapes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,8</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stamp.04</pb>
+         <vn>crane-40.3.2</vn><fn>Body_movement,Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Put down (an event or action) by force or authority." type="">
+      <commentary>
+        Includes: STAMP OUT, STAMP DOWN
+        Syntax includes: NP1[agent] STAMP (OUT/DOWN) NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        We all need to stamp out hunger!
+        The pressure is on hospitals to stamp out bacterial bugs.
+        Please help stamp out boring 'space acronyms.'
+        The government really needs to stamp down on the illegal drug
+        smuggling ring.
+        The Chinese government continued to stamp out loyal communist
+        subjects throughout Mao's reign.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="stamp_out" version="3.0">1</wn>
+         <wn lemma="stamp_down" version="3.0">1</wn>
+         <omega></omega><pb>stamp.05</pb>
+         <vn>subjugate-42.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Mark; produce an imprint on; produce as if
+         from a mold." type="">
+      <commentary>
+        NOTE: Includes metaphorical uses. Compare carefully to sense 4. In
+        the [concrete] examples, a concrete INSTRUMENT (a rubber stamper)
+        is being used to 
+        produce an image on another concrete item (a letter/wax for
+        example), but the instrument is not permanently attached to the item. 
+        NOTE: Compare to Sense 4; Sense 3 is NOT the affixation of a
+        postage stamp.
+        INCLUDES: STAMP OUT
+      </commentary>
+      <examples> 
+        The judge stamped the prisoner's parole form as 'DENIED'. 
+        The book was stamped, 'The Witchery of Archery'.
+        On the reverse side of this coin was stamped the first type of carriage.
+        I stamped the image on shimmery white paper and put it in my scrapbook.
+        The minister stamped soldiers as servants of the king. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,7,9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stamp.01</pb>
+         <vn>image_impression-25.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Affix a stamp on." type="">
+      <commentary>
+        NOTE: In this sense a concrete item (a postage stamp) 
+        is being permanently attached to another concrete item (a letter,
+        for example). Use this sense ONLY if this specific condition is met.
+      </commentary>
+      <examples>
+        Please stamp all the letters and throw them in the mailbox.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stamp.01</pb>
+         <vn>image_impression-25.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Label conclusively; stereotype." type="">
+      <commentary>
+      Syntax is: NP1[agent[plural]] STAMP NP2[patient[human]]
+      Note: Compare to Sense 3; in Sense 5, the agent must be a group of
+      people acting on another person or group of people. 
+      </commentary>
+      <examples>
+        Four hundred articles about film have stamped the author as a critic.
+        In 1943, they stamped her as a Jew, and that was the beginning of
+        her persecution.
+        Because of Mark's accent, people automatically stamped him as a
+        lazy Southern bumpkin.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stamp.02</pb>
+         <vn>characterize-29.2,dub-29.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="RUBBER STAMP: approve without giving much thought to" type="">
+      <commentary>
+        Is: RUBBER STAMP (or RUBBER-STAMP)
+      </commentary>
+      <examples>
+        Wolfowitz rubber-stamped the documentation necessary to elevate his
+        friend to the top.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>stamp.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

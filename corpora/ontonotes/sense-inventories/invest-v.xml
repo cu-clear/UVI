@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="invest-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="commit assets to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        They are investing in mutual funds.
+        He has invested most of his time to that cause.
+        Millions are being invested in the new construction project.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>invest.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be endowed with a capability, attribute" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The President has been invested with the power to declare war.
+        A charm invests a face.
+        Her child is invested with a gift for drawing.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>NM</pb>
+         <vn>equip-13.4.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="to clothe or adorn" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       The emporer was invested in purple silk robes and jewels.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>equip-13.4.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="induct or install into a position" type="">
+      <commentary>
+        Syntax Is: NP1[agent] INVEST NP2[patient]
+      </commentary>
+      <examples>
+       They are investing John into the Honor Society.
+       They invested a new emperor, after the overthrow of the old one.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

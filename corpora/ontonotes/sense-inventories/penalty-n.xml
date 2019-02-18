@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="penalty-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a punishment that is the consequence of an action" type="">
+        <commentary>
+            PENALTY[+state][+consequence][+punishment]
+        </commentary>
+        <examples>
+            The two men received the death penalty for the murder of that man in Texas.
+            He paid a high penalty for ignoring his health all those years.
+            The charge carries a maximum penalty of five years in prison and fifty thousand dollars.
+            Society will pay a penalty downstream for ignoring these economic realities.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a fine or payment made for breach of contract" type="">
+        <commentary>
+            PENALTY[+quantity][+payment][+breach][+contract]
+            Note: refers to a specified sum relative to a contractual agreement
+        </commentary>
+        <examples>
+            There is a significant penalty for early withdrawal of this 401k account.
+            The shipping firm didn't have to pay much in penalties for that illegal dumping.
+            What is the penalty for defaulting on this loan?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a handicap or disadvantage accrued in a competition" type="">
+        <commentary>
+            PENALTY[+state][+consequence][+handicap][+competition][+game][+ball/+card]
+        </commentary>
+        <examples>
+            The hockey player was sent to the penalty box for excessive roughness.
+            The basketball player scored on his penalty free throw.
+            John and Mary scored big penalties when Bob failed to complete his contract bid during the last bridge game.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

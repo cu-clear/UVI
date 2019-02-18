@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="nurture-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="help grow" type="">  
+      <commentary>
+        Syntax Includes: NP1[agent] nurture NP2[patient]
+      </commentary>
+      <examples>
+        They nurtured his talents as a virtuoso.
+        The parents nurtured their children to adulthood.
+        The child's abilities were nurtured by school.
+        The gardener nurtured the plants so they would become big and strong.
+        The old woman nurtured the kitten into a cat.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>nurture.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="nourish or sustain" type="">
+      <commentary>
+        Syntax Includes: NP1[agent] NURTURE NP2[patient]
+      </commentary>
+      <examples>
+        The bread was nurturing to the weary travelers.
+        The soldier was nurtured by the hot soup.
+        This kind of food is not nurturing for young children.
+        Vegetables nurture a body.
+        The plants were nurtured by a dose of fertilizer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

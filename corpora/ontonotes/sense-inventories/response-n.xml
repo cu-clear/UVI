@@ -1,0 +1,97 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="response-n">
+    <commentary>
+        9nov06 update to wn2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="Causative result, consequence" type="Event">
+        <commentary>
+            RESPONSE[+event][+result][+consequence]
+            [+relation][+role][+consequence]
+            Something that occurs as a result of something else.  This will usually be a conscious act.  
+            Note: often in the phrase 'in response to X' 
+            Note: Answers the question: what happens because of it?
+            Note: event A can cause event B to occur
+        </commentary>
+        <examples>
+            The United States threatened a military response to the buildup of Soviet soldiers in Eastern Europe. 
+            The situation developed as a response to events in Africa.
+            Our business needs an effective response to whatever the competition does.
+            We received 400 applications in response to our job ad. (focus is on one event causing another - sending apps)
+            The company has increased production of its pink designer jeans in response to demand.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>response.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Physical process, often a physiological reaction" type="Event">
+        <commentary>
+	    RESPONSE[+event][+action][-volitional][+excitation][+stimulus][+physiological/+electrical]
+	    A reaction, often biological, to a stimulus.
+	    Note: X{+recipient}{-volitional} respond PP(to Y{+cause/+agent})
+	    Note: implies a non-volitional reaction by a -volitional recipient (unlike Sense 4)
+	    Note: Answers the question: what/who reacted to a physical stimulus?
+	    </commentary>
+        <examples>
+            The body's response to stress is an increase in blood pressure.
+            Has the patient shown any response to the medication? (in this context the patient is non-volitional)
+            The comatose patient had no response to pain.
+            The immune system's response to the antigen was weak.
+            Many simple organisms only have a few responses to stimuli.
+            The sprinter had a quick response time because he practiced his starts so often.
+            This chart shows the frequency response of these new hi-fidelity speakers. (speaker responds to frequency input)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Verbal reply" type="Event">
+        <commentary>
+	    RESPONSE[+event][+action][+volitional][+verbal][+reply][+spoken/+written]
+	    An act of speech or writing that occurs in reaction to another;
+	    Usually an answer to a question or request.
+	    Note: Answers the question - what was said or written?
+	    </commentary>
+        <examples>
+            I left a message on John's answering machine, but so far I've received no response.
+            She just growled a response when I asked her a question.
+            John wrote a response to his critics.
+            The folk song uses a familiar &quot;call and response&quot; format.
+            You should write a one-page response to my question.
+            The liturgy includes responses given by the congregation to questions asked by the minister.
+            The number of responses on the test that John got correct were 88 percent.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>response.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="Manner of reception" type="Event">
+        <commentary>
+            RESPONSE[+action][+volitional][+perceivable][+reaction]
+            The way that something is greeted, or its reception.  A social reaction.
+            Note: implies perceivable reaction by a conscious, volitional recipient. (unlike Sense 2)
+            Note: answers the question: who chose to express their reaction to what?
+        </commentary>
+        <examples>
+            The President's light-hearted jokes met a cold response from Senate Republicans.
+            An extended jazzy piano solo drew the biggest response from the crowd.
+            They were disappointed in the public's response to their political ads.
+            The response to help the flood victims has been overwhelming. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>response.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

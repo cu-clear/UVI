@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="dump-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to fall or drop abruptly" type="">
+      <commentary>
+      Syntax Is:
+       NP1[agent] DUMP NP2[patient]
+      </commentary>
+      <examples>
+        He came in with four shopping bags and dumped them on the table.
+        The truck dumped the gravel in the driveway.
+        She dumped the baby on my lap and plopped into a chair.
+        He dumped the news on her, not caring if she was unprepared. 
+        With a swinging left he dumped his opponent on the canvas.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="get rid of or throw away something unwanted" type="">
+      <commentary>
+        Note: Although this sense may or may not involve something being dropped, 
+              an essential part of its meaning is getting rid of something unwanted.
+        Note: This sense also includes selling unwanted goods cheaply as a way of
+              getting rid of them.
+      </commentary>
+      <examples>
+        Every hour, 1700 mobiles are dumped by Britons buying better ones.
+        No dumping in these woods!
+        The tax was so unpopular that the government decided to dump it.
+        Several old cars had been dumped near the beach.
+        Toxic chemicals continue to be dumped in the North Sea.
+        They dumped their baby on your doorstep and dissappeared?
+        They accused the West of dumping out-of-date medicines on Third World countries.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>dump.01</pb>
+         <vn>funnel-9.3-1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="suddenly end a relationship, sever ties with" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent[human]] DUMP NP2[human[patient]]
+
+        Note: the relationship could be romantic or otherwise. This sense also has
+        the notion of 'getting rid of unwanted item', but it's more than that since
+        it has to do with severing a human relationship.
+      </commentary>
+      <examples>
+        The company dumped him after many years of service.
+        He dumped his wife and married a girl half his age.
+        He is a narcissist, but I won't dump the candidate I've already invested in.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>dump.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd,brownsw" sample_score="-"/>
+</inventory>

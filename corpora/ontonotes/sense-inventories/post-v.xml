@@ -1,0 +1,121 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="post-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="display or publish something publicly" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[human]] POST NP2 PP[locative]
+        Note: includes specific financial sense of making entries in ledgers, and transferring 
+              information from accounts receivable (AR) or accounts payable (AP) to ledgers.
+      </commentary>
+      <examples>
+        I'll post the news on the bulletin board.
+        Can you post a warning at the dump?
+        You need an account to post your resume on our site.
+        Please post comment on this blog.
+        The journal page reference and date entry was posted to the ledger.
+        Posting process has to be run in to post AR to Customer balance.
+        The bank posted the fee as a debit.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,6,7,10</wn>   
+         <omega/><pb>post.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="assign to a station or duty" type="">
+      <commentary>
+        Syntax Is: NP1 POST NP2[patient[human]] PP[locative]
+      </commentary>
+      <examples>
+        Please post a security guard at the exit.
+        The newspaper posted him in Timbuktu.
+        The company posted her to a huge mine in north Queensland.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="send or transmit mail" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] POST NP2
+      </commentary>
+      <examples>
+        I'll post you the paper when it's written.
+        Post me your latest result by email.
+        That company keeps on posting me junk mail.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega/><pb>NM</pb>
+         <vn>send-11.1</vn><fn>Sending</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="GAME, SPORTS - score something" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He posted a win in his first game of the season.
+        He posted 16 double-doubles in his 85-game career.
+        last year, the team posted a 4-2 mark in the shootout.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="RIDING - keep rhythm with the horse" type="">
+      <commentary>
+        Note: To bob up and down in the saddle in time with a horse's trot.
+      </commentary>
+      <examples>
+        You want me to post a horse into the canter from a long trot?
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="physically drive a post into the ground" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Triumphantly, he posted a stake in the ground.
+        The path had already been staked out.
+      </examples>
+      <mappings>
+         <wn version="3.0">9</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="to mark as" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Post that man as a thief!
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="to put forward" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He posted a bail and was released.
+        The bail was posted at $5000 cash.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

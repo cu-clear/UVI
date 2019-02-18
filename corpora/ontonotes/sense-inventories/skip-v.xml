@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="skip-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="miss, omit, or avoid" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Tina skips class at least once a week.
+        Mr. Hahn skipped first grade because his reading ability was so far above his classmates .
+        Mr. Brown skipped his stop in nearby Chicago and set course for Memphis.
+        He skipped over a row in the text and so the sentence was incomprehensible.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="skip_over" version="3.0">1</wn>
+         <omega/><pb>skip.01</pb>
+         <vn>NM</vn>
+         <fn>Forgoing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="jump lightly" type="">
+      <commentary>
+        Syntax is: NP1[agent] SKIP (PP)
+                   NP1[animate] SKIP (PP)
+      </commentary>
+      <examples>
+        Ann skipped merrily down the sidewalk.
+        He skipped off across the fields.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <omega/><pb>skip.02</pb>
+         <vn>run-51.3.2-2</vn>
+         <fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) bound off one point after another" type="">
+      <commentary>
+        Syntax includes: NP1[inanimate] SKIP
+                         NP1[agent] SKIP NP2[inanimate]
+                         NP1[animate] SKIP NP2[inanimate]
+      </commentary>
+      <examples>
+        The UFO skipped across the sky like a saucer.
+        We spent many an afternoon skipping stones across the pond.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>run-51.3.2-2</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="leave suddenly" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        When Roger found out she was pregnant, he skipped town.
+        After they have worked up a sweat, ringers often skip off to the local pub.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="skip_town" version="3.0">1</wn>
+         <omega/><pb>skip.03</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="use-n">
+    <commentary>28Jan09 - added features, examples, revised definitions. ahouston</commentary>
+    <sense group="1" n="1" name="the employment or operation of something" type="Event">
+        <commentary>USE[+event][+employment][+operation][+of_artifact]
+            Note: 'use' does not imply a decrease in size or amount during the operation or employment of the thing
+        </commentary>
+        <examples>We enjoyed the use of the pool at John's house while he was away.
+            The doctors are being trained in the use of a new surgical instrument.
+            The use of public transportation has increased in recent months.
+            She is famous for her unusual use of slang in her poems.
+            The man lost the use of his legs after the accident.
+        </examples>
+        <mappings>
+            <wn version="2.0">15 6</wn><omega/>
+            <pb>use.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="the consumption or ingestion of something" type="Event">
+        <commentary>USE[+event][+consumption][+of_resource]
+            Note: This 'use' implies that the thing is being reduced in size or amount
+        </commentary>
+        <examples>John stopped his use of recreational drugs after college.
+            The congressman is being charged with the illegal use of public funds.
+            The company is trying to diminish wasteful uses of energy.
+            The banks' use of overnight deposits ensures their financial solvency. 
+            The doctor told him to discontinue the use of that new antidepressant.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn><omega/>
+            <pb>use.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="the function or purpose of something" type="">
+        <commentary>USE[+role][+function][+purpose][+of_something]
+            Note: Pick this sense if 'purpose' can be substituted for 'use' without loss of meaning.
+        </commentary>
+        <examples>He put his knowledge to good use.
+            There is no use in crying about it.
+            What use is money if you never have time to enjoy it?
+            A credit card can open some door locks, although that is not its intended use.
+            This herb has various culinary uses.
+        </examples>
+        <mappings>
+            <wn version="2.0">23</wn><omega/>
+            <pb>use.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="shrewd or devious manipulation to gain personal advantage" type="Event">
+        <commentary>
+	    USE[+event][+event_set][+manipulation][+devious][+for_advantage][+personal]
+	    </commentary><examples>Bob's use of family connections to get a promotion at work annoyed his coworkers. 
+            The parents were oblivious to their daughter's use of tantrums to get her way.
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn><omega/>
+            <pb>use.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

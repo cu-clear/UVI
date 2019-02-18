@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="kiss-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Touch with the lips." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[animate]] KISS NP2[patient]
+      Note: If an instrument argument is included, it is overwhelmingly the lips.
+      </commentary>
+      <examples>
+      The newly married couple kissed.
+      She kissed her grandfather on the forehead.
+      Kiss and make up!
+      Monkeys often appear to kiss one another.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>kiss.01</pb>
+         <vn>marry-36.2,touch-20-1</vn><fn>Manipulation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Touch gently or lightly." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent[inanimate]] KISS NP2[patient]
+      </commentary>
+      <examples>
+      The bossoms were kissed by the soft rain. 
+      The cue ball kissed the nine.
+      He kissed the rail and deflected the cue ball down the table.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>touch-20-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="KISS OFF: leave; usually in the imperative." type="">
+      <commentary>
+      Is: KISS OFF
+      </commentary>
+      <examples>
+      Oh, kiss off Betty!
+      I told her to kiss off and she did.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="KISS UP: attempt to get in the good graces
+         of, possibly to get something." type="">
+      <commentary>
+      Is: KISS UP
+      </commentary>
+      <examples>
+      He kisses up to the professor all the time.
+      She kissed up to her coach, who let her play first base.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

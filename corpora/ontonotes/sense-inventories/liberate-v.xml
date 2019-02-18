@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="liberate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Take or free from confinement; free from a
+   condition; take or free from a location." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] LIBERATE NP2[theme] 
+      NP1 [agent] LIBERATE NP2[patient]
+      </commentary>
+      <examples>
+      The students liberated their slaves upon graduating from the
+      university.
+      In fact, he liberated the U.S. from one of the world 's most
+      corrupt organizations -- UNESCO.
+      He is compelled to liberate the booze.
+      Liberate your mind.
+      Troops were sent in to liberate Iraq.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>liberate.01</pb>
+         <vn>steal-10.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Give equal rights to, as of the right to vote." type="">
+      <commentary>
+      NOTE: Compare to Sense 1; in Sense 2, those liberated are not
+      physically confined. This sense refers to political rights, not a
+      condition of slavery.
+      </commentary>
+      <examples>
+      She joined a group that was masonic in origin, the Society of Freethinkers, and received acceptance for her ideas to liberate women.
+      The book focuses the dismantling of capitalism as a way to liberate women.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>free-80</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="3" name="Release (gas or energy) as a result of a chemical reaction or physical decomposition (perhaps in a metaphorical sense)" type="">
+      <commentary>
+      Syntax Is: NP1 LIBERATE NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      Fission and fusion both liberate energy
+      Yoga asanas release tension and liberate energy.
+      It works with Aspartic Acid to liberate energy from carbohydrates.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

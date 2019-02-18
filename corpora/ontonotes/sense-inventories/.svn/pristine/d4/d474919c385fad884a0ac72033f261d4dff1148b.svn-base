@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="squirt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) spray or wet with a spurt of liquid" type="">  
+      <commentary>
+        Syntax Includes: NP1[agent] SQUIRT NP2 (at NP3)
+                         NP1[agent] SQUIRT NP2 (with NP3)
+      </commentary>
+      <examples>
+        Tom Cruise was upset after pranksters squirted him with water.
+        She squirted the stained wall again with the cleaner and got a
+        scrubby sponge.
+        He was scared when one of those dinosaurs squirted water at him.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NP</pb>
+         <vn>spray-9.7-1,substance_emission-43.4</vn><fn>Filling,Fluidic_Motion,Cause_fluidic_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

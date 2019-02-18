@@ -1,0 +1,113 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="statement-n">
+    <commentary>
+        18Jun08 - added features, revised definitions, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="official account or testimony of events" type="Event">
+        <commentary>
+            STATEMENT[+event][+speech_act][+discourse][+account][+testimony]
+            Note: implies a whole discourse, not a single sentence
+        </commentary>
+        <examples>
+            The officials issued a joint statement calling for negotiations.
+            The witness's statement of the events of that evening did not correspond to John's statement of them.
+            The candidate will issue an important statement on national television this afternoon.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>statement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="expression of an idea non-verbally" type="Event">
+        <commentary>
+            STATEMENT[+event][+perception][+nonverbal][+expression][+of_idea]
+        </commentary>
+        <examples>
+            A Cadillac makes a statement about who you are.
+            His tantrums are a statement of his need for attention.
+            That low-cut tight-fitting red dress will make quite a statement at work!
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="act of making a declaration, assertion" type="Event">
+        <commentary>
+            STATEMENT[+event][+speech_act][+sentence][+assertion][+individual]
+            Note: related to Sense 1, but refers to single assertions, declarations, not whole discourse accounts
+        </commentary>
+        <examples>
+            The guests filed into the dining room after the butler's statement that dinner was now served.
+            These statements are not testable in principle, and are thus problematic for his theory.
+            The statement that a Euclidean triangle has 180 degrees is provable by deduction.
+            We've had enough of Bob's sarcastic statements for one day.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb>statement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="official financial summary of credits and debits" type="">
+        <commentary>
+            STATEMENT[+artifact][+document][+summary][+official][+financial]
+        </commentary>
+        <examples>
+            I send out the customer's statements on a monthly basis.
+            Sally waited until she got her bank statement before writing the check.
+            John's accountant went over the company's financial statements with him.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="functional line of computer programming code" type="Comp Sci">
+        <commentary>
+            STATEMENT[+artifact][+symbolic][+code][+fragment][+functional][+of_program][+computer]
+            (Computer Science) a line of code written as part of a computer
+        </commentary>
+        <examples>
+            How do you construct an 'if' statement in Perl?
+            The last statements of the program close external input and output files.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="presentation of a musical theme" type="Music">
+        <commentary>
+            STATEMENT[+event][+presentation][+of_theme][+musical]
+            the presentation of a musical theme
+        </commentary>
+        <examples>
+            The composer establishes the symphony's dark mood in the opening statement of the first movement.
+            Sally dislikes the dissonant statements of modern atonal music.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="country-n">
+    <commentary>modified definitions, added examples and features. ahouston 1dec08</commentary>
+    <sense group="1" n="1" name="area outside the city" type="">
+        <commentary>Rural areas.</commentary><examples>Aunt Sally lives way out in the country
+            If you hate concrete so much then you should move out to the country.
+        </examples>
+        <mappings>
+            <wn version="1.7">4</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="sociopolitical group of people" type="">
+        <commentary>COUNTRY[+group][+people][+sociopolitical]
+            The people represented by and comprising a nation.
+        </commentary>
+        <examples>The country's new leader will take office next month.
+            The two countries have ended their animosities.
+            Their country has a trade surplus and ours has a deficit.  (Note: the country is a proxy for the people who are affected by the trade status)
+            The whole country is rooting for their soccer team.
+        </examples>
+        <mappings>
+            <wn version="1.7">2,3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="geopolitical location" type="">
+        <commentary>The land owned by a government and the government itself.</commentary><examples>Italy is the boot-shaped country in Europe.
+            Their country is rich in natural resources
+            Every village green throughout the country has a war memorial.
+            Their country is arid and largely uninhabited except along the river.
+        </examples>
+        <mappings>
+            <wn version="1.7">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="a region, location characterized informally by a trait" type="">
+        <commentary>COUNTRY[+location][+region][+informal][+characterized][+by_trait]
+            Area of land informally defined as having some particular characteristic.
+            Usually directly preceded by a noun or adjective.
+        </commentary>
+        <examples>Welcome to potato country.
+            We don't do that sort of thing out here in farm country.
+            They don't sell electronics out in Amish country.
+            Joe lives in Bible country.
+            You'll need to be more careful in bear country.
+        </examples>
+        <mappings>
+            <wn version="1.7">5</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

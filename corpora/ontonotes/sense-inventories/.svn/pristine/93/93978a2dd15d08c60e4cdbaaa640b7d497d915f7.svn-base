@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="discontinue-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to cease or cause to cease" type="">
+      <commentary>
+       Syntax Is: NP1[agent] DISCONTINUE NP2[patient]
+      </commentary>
+      <examples>
+        When the position of a tenured member is discontinued, the college shall attempt to find a new position. 
+        Why has CNS discontinued the process of printing and mailing out billing statements?
+        Can my CA charge me after I've discontinued the engagement?
+        One participant quit because of drug-related problems, whereas 12% discontinued the study for other reasons.
+        With the release of L4Ka::Pistachio development on the kernel is discontinued.
+        Of those who stopped rewarding employees, 54 percent discontinued the bonus in the 1990s.
+        With liquorice consumption discontinued, the patient's blood pressure levels fell rapidly.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>discontinue.01</pb>
+         <vn>complete-55.2</vn><fn>Activity_stop,Process_stop</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="to stop manufacturing" type="">
+      <commentary>
+      Syntax Is: NP1[agent] DISCONTINUE NP2[patient]
+      </commentary>
+      <examples>
+        It's too bad Fox discontinued the better (2-disc) edition with the 4 commentaries.
+        This indicator is being discontinued.
+        Have you discontinued The Skinny Cow Skinny Carb Products?
+        He discontinued the old version before the new version was even out.
+        Logitech has gone downhill since they discontinued the iFeel Mouse.
+      </examples>
+      <mappings>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>discontinue.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc, vieweg" sample_score="-"/>
+</inventory>

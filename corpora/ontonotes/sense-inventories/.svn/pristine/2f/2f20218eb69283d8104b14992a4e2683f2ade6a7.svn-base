@@ -1,0 +1,95 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="list-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a sequence of items grouped together, physically or conceptually" type="">
+        <commentary>
+            LIST[+document][+written][+sequence][+item]
+            [+relation][+membership][+shared][+group][+element]
+            Note: Often is written down, but need not be.
+        </commentary>
+        <examples>
+            Did you see my grocery list on the kitchen counter?
+            The minister is probably on the hit list of the insurgents.
+            &quot;He's making a list, he's checking it twice, gonna find out who's naught or nice.&quot;
+            I asked the clerk for a price list for the different models of computers.
+            The teacher read names aloud from the class list.
+            Spending a year in Italy is on Mary's wish list of things to do in her life.
+            I don't see his name on the list of conference attendees. 
+            Vivaldi's  'Four Seasons' is frequently on the play list of classical radio stations.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a,b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a computer data structure, an array of values" type="">
+        <commentary>
+            LIST[+structure][+data][+computer][+sequence][+element]
+            Note: is a sequence, as in Sense 1, but explicitly refers to computer software data structures
+        </commentary>
+        <examples>
+            The LISP programming language uses lists as fundamental data structures.
+            This Perl array is initialized to a list of values which are the days of the week.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a physical state of leaning or tilting, e.g., as with a ship" type="">
+        <commentary>
+            LIST[+state][+physical][+tilted]
+        </commentary>
+        <examples>
+            There is a definite list to that tanker sitting in the harbor.
+            The drunkard walked down the street with a list.
+            The Tower of Pisa has a noticeable list. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="an enclosure used for jousting tournaments" type="">
+        <commentary>
+            LIST[+enclosure][+tournament][+jousting]
+            Note: always in the plural
+        </commentary>
+        <examples>
+            The tour guide pointed out where the lists had been for the jousting between the King's knights.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the edge of a piece of fabric, selvage" type="">
+        <commentary>
+            LIST[+strip][+edge][+fabric][+selvedge]
+        </commentary>
+        <examples>
+            Pin the list of the fabric under 1/4 inch before stitching it.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

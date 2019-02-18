@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="eater-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a consumer of nutrients" type="">
+        <commentary>
+            EATER[+entity][+organism][+consumer][+nutrient]
+            Note: EATER[+agent] the one who eats
+        </commentary>
+        <examples>
+            Carnivores are basically meat eaters.
+            The football team were all hearty eaters after a game.
+            The baby has become a good little eater of late.
+            These bacteria are oil eaters and are employed to clean up oil spills in the ocean.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="edible tasty produce" type="">
+        <commentary>
+            EATER[+entity][+organism][+plant][+edible][+produce]
+            Note: EATER[+patient], the thing that is eaten
+        </commentary>
+        <examples>
+            These local heirloom apples are good eaters.
+            Those cucumbers are not such good eaters but make tasty pickle relish.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

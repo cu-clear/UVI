@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="reinsure-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="provide additional insurance for" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+ OPL reinsured UPS shipments, spreading the risk among many insurance carriers.
+      Werness' annuity isn't reinsured by an insurance company.
+      The company developed a program to reinsure mortgages.
+    The agent told him that Lloyds of London had reinsured this packet of gems.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>reinsure.01</pb>
+         <vn>ensure-99</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="insure under a new policy" type="">
+      <commentary>
+      </commentary>
+      <examples>
+      LandAmerica would pay his newly formed shop to reinsure the policy.
+      Hathaway offered to reinsure the $1.5 billion of risk.
+      HMOs need to reinsure to manage the rare, but costly special care.
+     You see, many of the German companies have reinsured in foreign countries.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>reinsure.01</pb>
+         <vn>ensure-99</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="congerk" sample_score="-"/>  
+</inventory>

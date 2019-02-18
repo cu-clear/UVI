@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="instructor-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a person who teaches something to others" type="">
+        <commentary>
+            INSTRUCTOR[+entity][+person][+teacher][-academic][+professional]
+        </commentary>
+        <examples>
+            Bob's flight instructor thinks Bob is ready to solo.
+            Sally hired a private sailing instructor for the summer.
+            The instructors at the technology seminar received good evaluations from the attendees.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a college teacher ranked below assistant professor" type="">
+        <commentary>
+            INSTRUCTOR[+entity][+person][+teacher][+academic][+college][+ranked]
+        </commentary>
+        <examples>
+            John has a two-year position as an instructor at a local college.
+            She got promoted to a tenure-track position after serving as an instructor in the history department.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

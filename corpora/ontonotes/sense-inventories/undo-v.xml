@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="undo-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cancel, reverse, annul" type="">
+      <commentary>
+        Syntax is: NP1[agent] UNDO NP2
+                   NP1[instrument] UNDO NP2
+        Note: usually refers to processes, events, etc.
+      </commentary>
+      <examples>
+        Here is the detox diet that undid the damage that the star of Super Size Me did to his body.
+        Subsequent developments in the second millennium completely undid the work of St. Thomas.
+        They want to avoid the philosophy that undid the dominance of the theory by dressing it up as science.
+        I couldn't connect to my wireless network until I undid the change.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>undo.01</pb>
+         <vn>destroy-44</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="unwrap, loosen, untie" type="">
+      <commentary>
+        Syntax is: NP1[agent] UNDO NP2
+                   NP1[instrument] UNDO NP2
+        Note: usually refers to physical actions, but may be used metaphorically
+      </commentary>
+      <examples>
+        She undid the buttons on the back of her blouse.
+        Arlene and Gail undid the straps and Velcro connections.
+        The procedures eventually undid the ties that bound serfs and noble estate owners.
+        Westphalia undid the knot that had joined the empire to the papacy since the coronation of Charlemagne.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>undo.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="bring to ruin" type="">
+      <commentary>
+        Syntax is: NP1 UNDO NP2[human]
+      </commentary>
+      <examples>
+        He hovered on the edge of a culture that ultimately undid him.
+        Ironically, his very decency undid him barely a month into his term.
+        It was poor engineering and maintenance decisions that undid the company.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>undo.01</pb>
+         <vn>destroy-44</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+</inventory>

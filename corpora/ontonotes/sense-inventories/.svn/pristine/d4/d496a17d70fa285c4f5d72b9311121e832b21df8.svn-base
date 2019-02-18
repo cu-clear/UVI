@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="terrain-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="tract of land, geological expanse of land" type="">
+        <commentary>
+            TERRAIN[+expanse][+geographical][+land]
+        </commentary>
+        <examples>
+            John's so-called all-terrain vehicle got stuck in the mud.
+            We hiked through some tough desert terrain.
+            The edge of town had become so developed that it was now unfamiliar terrain to Bob. (refers to physical area, layout)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="knowledge domain" type="">
+        <commentary>
+            TERRAIN[+expanse][+symbolic][+domain][+knowledge]
+        </commentary>
+        <examples>
+            Quantum gravity is unknown terrain to most of the members of this audience.
+            Mary felt on familiar terrain when the conversation turned to music.
+            His paper covers some new terrain in the field of automated drug discovery.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a uniform geological formation bounded by a fault" type="">
+        <commentary>
+            TERRAIN[+entity][+structure][+geological][+bounded][+fault][+stratigraphy]
+            Note: a narrow, specialized sense of Sense 1
+            Note: variant spelling of this sense is: 'terrane'
+        </commentary>
+        <examples>
+            The geologist noted where the limestone terrain ended and the igneous rock began.
+            Figure 2 shows a large terrane of granite, flanked by a block of shale.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

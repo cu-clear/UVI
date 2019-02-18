@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="trade-v">    
+   <commentary>
+	Added VPC trade_in and trade_off
+   </commentary>
+   <sense n="1" type="" name="buy and sell, engage in commerce (possibly
+   without currency)." group="1">  
+      <commentary>
+	NP[+agent] TRADE[-transitive] (PP[+commodity]) (PP[+trade_partner])
+	NP[+agent] TRADE[+transitive] NP[+commodity]
+  	Note: implies a commercial, usually financial, transaction.  Can be metaphorical.
+      </commentary>
+      <examples> 
+	Oil stocks were trading at over $62 dollars a barrel.
+	The senator argued that we should be trading with Cuba.
+	Bill traded both stocks and bonds on Wall Street for years.
+	Several recent issues were actively trading on Nasdaq today.
+        That firm trades mostly in precious metals.
+        This devilish child helps none, but he trades in usury, covets, robs, and steals as he may.
+        He trades in stunted lives and undernourished spirits; he gives them voices.
+        The powers that be trade heavily on the fear of the masses.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>trade.01</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense n="2" type="" name="perform a swap or exchange" group="1">  
+      <commentary>
+	NP[+agent] TRADE/TRADE_IN NP[+discarded] (PP[+acquired])
+	includes VPC trade_in
+	Note: does not imply a financial transaction. Car trade-ins involve money, but the trading aspect (usually a deduction in cost) is a swap or exchange of comparable products.
+      </commentary>
+      <examples>
+        He trades in on emotionally charged subject matter (abstract and ambiguous use; acquired item omitted, but swap inferred)
+	Mary said she'd love to trade places with the CEO of Google.
+	The children like to trade Pokemon cards.
+        Needing a win to stay in contention for the $25000 purse, he trades in four vowels.
+	Jack is trading in his old Volvo for a newer model. (exchange is part of the total transaction)
+	I traded two cards for two new ones in the last hand.
+	They have traded integrity for ambition. (figurative)
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>trade.01</pb>
+         <vn>exchange-13.6-1</vn>
+         <fn>Exchange</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense n="3" type="" name="TRADE_OFF: take turns" group="1">
+      <commentary>
+        NP[agent] and NP[agent] TRADE_OFF (PP) NP[activity/responsibility]
+      </commentary>
+      <examples>
+        My husband and I trade off dish duty.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+    <sense n="4" type="" name="TRADE_(UP)ON: rely upon or use, possibly in a
+         negative way." group="1">
+      <commentary>
+      Is: TRADE (UP)ON
+      </commentary>
+      <examples>
+      The court's decision traded heavily on a single Kantian principle.
+      There are ghouls who trade on the hopes of the desperately ill.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,brownsw,dehart" sample_score="-"/>  
+</inventory>

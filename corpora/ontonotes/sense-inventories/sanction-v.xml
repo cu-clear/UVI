@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sanction-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="approve" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        He sanctioned the outrageous jail sentence.
+        He did more than tolerate her actions, he sanctioned them.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>sanction.01</pb>
+         <vn>allow-64-1</vn><fn>Permitting,Grant_permission</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give religious sanction to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        To secure the peace, he sanctioned the marriage of his aunt Constance.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn></vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

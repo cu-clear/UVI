@@ -1,0 +1,170 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="smell-v">
+   <commentary>
+     Syntax is: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="perceive through olfactory sense" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The officer said he smelled a strong odor of alcohol on the suspect's breath.
+        I smelled a llama because I am AWESOME!
+        For years I thought it was the screen I was smelling.
+        I knew I thought I was smelling camphor.
+        You smell that? Do you smell that?
+        When Patricia stepped back he smelled coffee rather than her perfume.
+        He smelled her frying eggs and onions.
+        I need to know if turkeys can really smell?
+        Can dogs really smell cancer?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>smell.01</pb>
+         <vn>see-30.1,stalk-35.3</vn><fn>Perception_active,Perception_experience</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="perceive (metaphorical)" type="">
+      <commentary>
+        includes: SMELL OUT
+        NOTE: do not include idioms listed in sense 8
+      </commentary>
+      <examples>
+        I smell trouble.
+        But I was guilty and my 7 year old smelled victory a mile away.
+        I think most feminists smelled them coming a long way off for the last ten years or so.
+        I have the great instincts for smelling a problem possible.
+        Instead, he smelled out the intruder and recognised him.
+        I'm not saying the process is perfect but a number of the applicants can be smelled out right away.
+        As drifts of bad checks massed behind him, he smelled out new green pastures.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <wn lemma="smell_out" version="3.0">1</wn>
+         <omega/><pb>smell.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="emit an odor" type="">
+      <commentary>
+        Syntax is: NP1 [theme] SMELL
+        NOTE: Carefully compare to senses 4 and 6
+              In this sense, the quality of the smell is irrelevant;
+              there is only a general emittance of odor
+              This sense is almost always used with negatives and questions.
+              (compare the negative for this sense--doesn't smell=no odor--
+               to the negative for sense 6--doesn't smell=doesn't stink)
+      </commentary>
+      <examples>
+        Sometimes a newbie makes a scented candle that doesn't smell when you burn it.
+        It either didn't smell at all or the scent disipated very quickly.
+        Looking at the picture, she remarked that while the flower was pretty it was too bad that it didn't smell.
+        Does it smell? The initial stages of fermentation do have an odor, but it goes away after a few days. (making wine)
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>smell.02</pb>
+         <vn>smell_emission-43.3,stimulus_subject-30.4</vn><fn>Chemical-sense_description</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="emit a particular quality of odor" type="">
+      <commentary>
+        Syntax is: NP1[theme] SMELL ADJP/ADVP
+        NOTE: Carefully compare to senses 3 and 6; all three
+              senses are related
+              In this sense, the perceiver is making a judgement
+              about the quality of the odor
+      </commentary>
+      <examples>
+        The 2/3 smelled like a gas leak as we went through Times Square and Penn Station.
+        He smelled pleasantly of aftershave, without even an undertone of stagnant urine.
+        He rode horses and he smelled horsy, leathery and pipey.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>smell.02</pb>
+         <vn>smell_emission-43.3,stimulus_subject-30.4</vn><fn>Chemical-sense_description</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="have a particular quality (metaphorical)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        This case smelled bad from the start.
+        Do you mean he smelled like money?
+        He said the murder case smelled of corruption.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>smell.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="stink; reek" type="">
+      <commentary>
+        Syntax is: NP1[theme] SMELL
+        NOTE: Compare carefully to sense 3 and 4;
+              In this sense, the unspoken odor is clearly bad-smelling
+      </commentary>
+      <examples>
+        I'm not surprised that mothers think their baby's waste matter doesn't smell.
+        The locker room really smells.
+        Do farts really smell worse in the cold, or does it just seem that way?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>smell.02</pb>
+         <vn>smell_emission-43.3,stimulus_subject-30.4</vn><fn>Chemical-sense_description</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="SMELL UP: cause to stink or reek" type="">
+      <commentary>
+        is: SMELL UP
+      </commentary>
+      <examples>
+        After I had lit it, it smelled up my entire bedroom.
+        Some reported their sponges caught fire, smoked and smelled up their houses.
+        Your football teams played so bad that they smelled up the whole city!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="smell_up" version="3.0">1</wn>
+         <omega/><pb>smell.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="idioms (see list)" type="">
+      <commentary>
+        includes: SMELL THE ROSES, SMELL A RAT, SMELL THE COFFEE
+        NOTE: do not choose this sense for literal uses
+      </commentary>
+      <examples>
+        SMELL THE ROSES (appreciate life)
+        I was able to stop smoking because I was smelling the roses.
+
+        SMELL A RAT (suspect something to be wrong)
+        Ms. Freeman smelled a rat, and told the producer that she wanted to know what was going on.
+
+        SMELL THE COFFEE (become aware)
+        That's when the Hollywood community collectively woke up and smelled the coffee.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>smell.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

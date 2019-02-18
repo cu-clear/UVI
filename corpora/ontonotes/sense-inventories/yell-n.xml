@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="yell-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a shout! by an individual, as a command, warning, insult" type="Event">
+        <commentary>
+            YELL[+event][+speech_act][+shout][+individual]
+        </commentary>
+        <examples>
+            A yell to be careful from a pedestrian caught John's attention.
+            The speaker was drowned out by yells from the protesters.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a sudden emotional vocalization" type="Event">
+        <commentary>
+            YELL[+event][+vocalization][+emotional][+sudden]
+        </commentary>
+        <examples>
+            Mary gave a yell of pain when her hand touched the hot skillet.
+            The woman's yells of childbirth could be heard down the hall.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="an organized group cheer" type="Event">
+        <commentary>
+            YELL[+event][+speech_act][+cheer][+group][+organized]
+        </commentary>
+        <examples>
+            The soldiers gave the rebel yell as they stormed the hill in battle.
+            The cheerleaders lead the crowd in the yells for the home team.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

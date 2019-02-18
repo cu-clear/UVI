@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="misrepresent-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="represent inaccurately; be a poor representation of" type="">
+      <commentary>
+        Syntax Is: NP1[topic] MISREPRESENT NP2
+       NOTE: Compare carefully to Sense 2: in Sense 1, NP1 is NOT and agent
+       and does not misrepresent volitionally. 
+      </commentary>
+      <examples>
+        Today's Guardian article misrepresents the views of the Baghdad advisers.
+        The motion picture Titanic misrepresents the social codes of the wealthy.
+        Many of these claims misrepresented the scientific evidence.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>misrepresent.01</pb>
+         <vn>NP</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="fake; give a misleading representation of" type="">
+      <commentary>
+        Syntax Is: NP1[agent] MISREPRESENT NP2
+        Note: Agent can exist as a group.
+      </commentary>
+      <examples>
+        He misrepresented his credentials to the hiring committee.
+        The company misrepresented the rechargeable battery used in its iPod.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <omega/><pb>misrepresent.01</pb>
+         <vn>NP</vn>
+         <fn>Prevarication</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey,clarklm" sample_score="-"/>
+</inventory>

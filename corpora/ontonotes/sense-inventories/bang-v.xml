@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bang-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) slam or strike, possibly
+      producing a sound; produce a sound while moving along a path." type="">  
+      <commentary> 
+      Syntax Includes: NP1[agent] SLAM NP2[patient]
+                       NP1[topic] SLAM
+                       NP1[agent] SLAM PP{P NP[location]}
+                       NP1[theme] BANG PP[directional]
+                       NP1[actor] SLAM NP2[actor] 
+      </commentary>
+      <examples>
+      He slammed the ball down on the court and walked away.
+      The branch slammed the window nearest my bed.
+      He slammed the door shut.
+      The old man slammed around the house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bang.01,bang.02</pb>
+         <vn>bump-18.4-1,funnel-9.3-1-1,hit-18.1,sound_emission-43.2</vn><fn>Cause_impact,Impact,Motion_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Have sexual intercourse with." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      This student bangs everyone in her dorm.
+      Did you bang her?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="BANG OUT: play loudly." type="">
+      <commentary>
+      IS: BANG OUT
+      </commentary>
+      <examples>
+       They really banged out the national anthem at the baseball game.
+       She banged out the song at the concert. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bang_out" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Sound_emission</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="BANG UP: damage as by violence." type="">
+      <commentary>
+      IS: BANG UP
+      </commentary>
+      <examples>
+      He got angry and really banged up his wife.
+      The teenager banged up his mother's car. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bang_up" version="3.0">1</wn>
+         <omega></omega><pb>bang.02</pb>
+         <vn>hit-18.1</vn><fn>Cause_impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="BANG UP: make pregnant." type="">
+      <commentary>
+      IS: BANG UP
+      NOTE: Compare to Sense 4; pay close attention to context to tell
+      these two senses apart.
+      </commentary>
+      <examples>
+      He banged up his wife again; they have five children already!
+      I never thought she'd be banged up by a thirteen year old student.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="bang_up" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="guess-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a conjecture or opinion based on incomplete evidence" type="">
+        <commentary>
+            GUESS[+state][+mental][+opinion][+conjecture]
+        </commentary>
+        <examples>
+            My guess is that he won't even bring this up at the meeting.
+            John made a wrong guess as to what Mary's reaction would be to the news.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>guess.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a calculation that is an estimate or approximation, not a precise value" type="">
+        <commentary>
+            GUESS[+process][+calculation][+estimate][+approximation]
+        </commentary>
+        <examples>
+            What's your best guess for our arrival time based on our current speed?
+            The computer program's guesses were more accurate than those of the humans, in calculating future market cycles.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>guess.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="something very difficult to determine" type="">
+        <commentary>
+            IDIOM: anybody's_guess
+        </commentary>
+        <examples>
+            It's anybody's guess who will win the next election.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega/><pb>guess.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

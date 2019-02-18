@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="exchange-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="reciprocate, give in kind" type="">
+      <commentary>
+        Syntax Is: NP1[actor] EXCHANGE NP2[patient] (PP{P NP[actor]})
+        Note: NP1 may be singular or plural.
+      </commentary>
+      <examples>
+	We exchanged letters for many years.
+        The retailer sold or exchanged his name and address with the catalog companies.
+        The countries are exchanging information about the list of suspected terrorists.
+      </examples>
+      <mappings>
+	 <wn version="3.0">1,4</wn>
+	 <omega/><pb>exchange.01</pb>
+         <vn>exchange-13.6-1</vn><fn>Exchange</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>  
+   <sense group="1" n="2" name="alter,convert" type="">
+      <commentary>
+       Syntax Is: NP1[agent] EXCHANGE NP2[patient] (PP{for NP[patient]})
+      </commentary>
+      <examples>
+       The felon got his sentence exchanged for a lighter one.
+       We'll need to exchange some dollars before leaving the airport.
+       Can I exchange this blouse for that skirt?
+      </examples>
+      <mappings>
+	 <wn version="3.0">2,6</wn>
+	 <omega/><pb>exchange.01</pb>
+         <vn>exchange-13.6-1</vn><fn>Replacing,Exchange_currency</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="3" name="reorder,switch" type="">
+      <commentary>
+        Syntax Is: NP1[agent] EXCHANGE NP2[patient[plural]] 
+      </commentary>
+      <examples>
+        The Office of the Commissioner then exchanged the submissions and the affidavit amongst the parties.
+        He exchanged the positions of the salt and pepper shakers on the table.
+      </examples>
+      <mappings>
+	 <wn version="3.0">3</wn>
+	 <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

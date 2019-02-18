@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="propel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Cause to move forward with force." type="">  
+      <commentary>
+        Syntax is: NP1[concrete] PROPEL NP2[concrete]
+        NOTE: Includes only instances related to direct forward motion..
+      </commentary>
+      <examples>
+      Steam propels this ship.
+      The rocket was propelled skyward.
+      Molecules are autonomously propelled by polymerizing DNA strands.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>propel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Give an incentive for action." type="">
+      <commentary>
+        Syntax is: NP1[concrete] PROPEL NP2[animate]
+                   NP1[abstract] PROPEL NP2[animate]
+        NOTE: This includes metaphorical uses of sense 1. No actual
+        forward motion occurs.
+      </commentary>
+      <examples>
+      She was propelled into acting by her mother.
+      This propelled me to sacrifice my career.
+      The large sum propelled him to action.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version=""></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

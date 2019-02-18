@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="series-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="consecutive happenings" type="">
+        <commentary>
+	    SERIES[+event]
+	    similar things placed in order or happening one after another
+	    </commentary>
+        <examples>
+            They were investigating a series of bank robberies.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="serial publication" type="">
+        <commentary>
+            serial - 
+            a periodical that appears at scheduled times 
+        </commentary>
+        <examples>
+            I own the whole X-men series.
+            The Post Office issued a series commemorating famous American entertainers.
+            His coin collection included the complete series of Indian-head pennies.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="entertainment series" type="">
+        <commentary>
+	    SERIES[+event]
+	    television series -
+	    a serialized set of programs
+	    </commentary>
+        <examples>
+            It was the longest running series in history, it lasted ten years.
+            The comedy series was taken off the air after only one month.
+            The Masterworks concert series went on for years.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="sports: contests" type="">
+        <commentary>
+	    SERIES[+event]
+	    several contests played successively by the same team
+	    </commentary>
+        <examples>
+            The visiting team swept the series.
+            He watched the series every week, like all devoted fans.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="sum" type="Math">
+        <commentary>
+            the sum of a finite or infinite sequence of expressions
+        </commentary>
+        <examples>
+            The convergence of a series is related to the convergence of a sequence.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="connected components" type="Electronics">
+        <commentary>
+            connection of components in such a manner that current flows first
+            through one and then through the other
+        </commentary>
+        <examples>
+            The voltage divider consisted of a series of fixed resistors.
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

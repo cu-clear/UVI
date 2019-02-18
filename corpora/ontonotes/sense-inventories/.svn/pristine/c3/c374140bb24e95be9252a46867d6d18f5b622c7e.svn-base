@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="distribution-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="act of spreading" type="Event">
+        <commentary>
+	    DISTRIBUTION[+event]
+	    The act of spreading, scattering, or distributing.
+	    Can refer to both a one-time event and a regular activity or career.
+	    </commentary>
+        <examples>
+            Printing the flyers wasn't difficult, but their distribution across campus took all day!
+            I supervise the distribution of Christmas bonuses among our employees.
+            I was the supervisor of the Distribution department.
+            The product had some interruptions in its distribution chain.
+            Poorly-executed distribution can really kill a new product.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3 4
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="state of being distributed" type="">
+        <commentary>
+            The state of being spread out; the spatial property of being scattered over an area.
+            Can also refer to the particular way that something is scattered (for example, the distribution of income).
+        </commentary>
+        <examples>
+            There's a wide distribution of singing talent in this chorus.
+            I'd say that Starbucks coffee shops have achieved a pretty good distribution across the country.
+            Our newspapers have a strong distribution on campus.
+            I wrote a paper on the current distribution of income in Canada.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="arrangement of values" type="Statistics">
+        <commentary>
+            An arrangement of values for a variable that describes the frequency of a value's occurrence.
+            Only refers to statistical values.
+        </commentary>
+        <examples>
+            The test scores for the midterm fall into a classic Gaussian distribution.
+            I studied the types of statistical distributions that numbers can fall into.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

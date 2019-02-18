@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="treat-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a delectable, delicious serving of food, often sweet" type="">
+        <commentary>
+            TREAT[+entity][+food][+serving][+delectable]
+        </commentary>
+        <examples>
+            The chef has whipped up some rich chocolate treats for the dessert menu.
+            We ran out of treats on Halloween night and had to ask the neighbors for some extra.
+            The dog knows how to shake hands and roll over for a treat.
+            The children got ice cream for a treat after the movie.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a very pleasurable occasion" type="">
+        <commentary>
+            TREAT[+event][+pleasurable][+highly]
+        </commentary>
+        <examples>
+            For an added treat, we got to spend two days on the island of Capri.
+            It was a real treat to see the whales breaching so close to our boat.
+            It was hardly a treat for our guests to stand in the rain for half an hour!
+            John wanted to take his parents on a Caribbean cruise as a treat. (could also be sense 3, if John pays for it)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="paying for an entertainment bill" type="Event">
+        <commentary>
+            TREAT[+action][+social][+pay][+bill][+entertainment]
+            Note: occurs with a preceding possessive modifier
+        </commentary>
+        <examples>
+            Dinner is my treat tonight. (I'm paying for everyone)
+            We thought it was going to be Mary's treat but she asked the waiter for separate checks.
+            He insisted that the trip to Paris was going to be his treat, she would pay nothing.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

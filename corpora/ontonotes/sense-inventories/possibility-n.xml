@@ -1,0 +1,61 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="possibility-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a potential or prospective value" type="">
+        <commentary>
+            POSSIBILITY[+quality][+value][+potential]
+            Note: assigns a potential value to an entity, implies a positive quality.
+            Answers the question 'who or what has value'
+        </commentary>
+        <examples>
+            The realtor suggested the house had great possibilities with a little work.
+            She erroneously perceived the student to have limited possibilities.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a measure of likelihood, the chance of something occurring" type="">
+        <commentary>
+            POSSIBILITY[+quantity][+measure][+likelihood]
+            Refers to the likelihood or chance of something.
+            The answer is a measurement.
+        </commentary>
+        <examples>
+            The weatherman says there is no possibility of rain tomorrow afternoon.
+            What's the possibility of moving the meeting to next Tuesday?
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a hypothetical alternative, a possible state" type="">
+        <commentary>
+            POSSIBILITY[+state][+hypothetical][+alternative]
+            Note: refers to a possible state of affairs, concrete or abstract
+            The answer is a situation.
+        </commentary>
+        <examples>
+            He proposed the possibility that the five theories might be unified into one.
+            One possibility is to have one-on-one negotiations with them.
+            The possibility of bankruptcy never entered his mind.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

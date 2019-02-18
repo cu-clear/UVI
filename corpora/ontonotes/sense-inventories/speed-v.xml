@@ -1,0 +1,51 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="speed-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) move or go quickly" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+       He sped/speeded down the hall to receive his guests.
+       The train sped/speeded along at over 120 miles per hour.
+       The actress then sped away in a waiting car.
+       We sped down the ski slopes.
+       This year is speeding by.
+       Ambulances sped the injured people away from the scene.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>speed.01</pb>
+         <vn>run-51.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) increase the speed or rate of, accelerate" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The new software speeded the production rate significantly.
+        The best thing you can do to speed your recovery is to rest.
+        I noted the car sped/speeded up and overtook me on the right.
+        The network sped/speeded up the second phase of the process.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="speed_up" version="3.0">1,2</wn>
+         <omega/><pb>speed.02</pb>
+         <vn>run-51.3.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="drive at an excessive or illegal velocity" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I got a ticket for speeding last Thursday.
+        Next time you speed, I'm going to tear up your license. You hear? 
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>speed.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

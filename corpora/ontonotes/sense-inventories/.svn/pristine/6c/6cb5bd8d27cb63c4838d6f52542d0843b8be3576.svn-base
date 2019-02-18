@@ -1,0 +1,94 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="collection-n">
+    <commentary>
+        4oct06 updated to wn2.1, added features, changed examples, definitions. ahouston
+        4oct06 split sense 1 into sense 1,4. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="an aggregation of things or people" type="Event">
+        <commentary>
+            COLLECTION[+entity][+group][+assemblage][-ownership]
+            Note: does not imply an essential trait of ownership by a collector (see Sense 4)
+        </commentary>
+        <examples>
+            We drove down a street with a rambling collection of old houses.
+            The meeting drew a motley collection of townspeople we'd never seen before.
+            I swept away huge collections of cobwebs from the corner of the basement.
+            There was a large collection of bottles behind the counter.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Act of collecting" type="Event">
+        <commentary>
+	    COLLECTION[+event][+activity][+gathering]
+	    The act of gathering things together
+	    Note: nominalization of the verb 'collect'
+	    </commentary>
+        <examples>
+            Garbage collection usually occurs on Tuesday mornings.
+            The collection agency took John's car when he forgot to pay his bills for a year.
+            These buckets are used for the collection of maple sap.
+            The collection of taxes in that country is somewhat haphazard.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="sum of money given in response to request" type="Event">
+        <commentary>
+            COLLECTION[+quantity][+sum][+money]
+        </commentary>
+        <examples>
+            We're taking up a collection to support the Libertarian party.
+            Each Sunday baskets were passed through the church pews for the weekly collection.
+            The street musician's collection from his hat last night was only twenty dollars.
+            When she died, they took up a collection for her burial. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="an intentionally assembled set of artifacts" type="Event">
+        <commentary>
+            COLLECTION[+entity][+group][+set][+ownership][+collector]
+            Note: implies ownership and intentional assembly, not happenstance (see Sense 1)
+        </commentary>
+        <examples>
+            This museum has an impressive collection of Dutch masters.
+            This poem is from a collection entitled, &quot;Poems from the Heart&quot;.  
+            The child showed us her collection of autumn leaves.
+            John showed me his bottle-cap collection.
+            Critics loved the new spring collections from Milan. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

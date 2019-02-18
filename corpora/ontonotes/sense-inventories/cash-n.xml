@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cash-n">
+    <commentary>
+        Did not include WordNet sense 3, proper name (Johnny Cash)
+    </commentary>
+    
+    <sense group="1" n="1" name="physical currency as bills or coins" type="">
+        <commentary>
+            CASH[+entity][+physical][+currency]
+            Note: refers to physical pieces of money, not the abstract exchange value
+        </commentary>
+        <examples>
+            Three twenties and a ten is all the cash I have on me at the moment.
+            This restaurant only accepts cash, no checks or credit cards.
+            The cash in my pocket got soaked with rain!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="abstract relationship of exchange value" type="">
+        <commentary>
+            CASH[+relation][+financial][+exchange][+value]
+            Note: refers to the abstract exchange value, not paper money and coins
+        </commentary>
+        <examples>
+            The business has been running a negative cash flow for six months.
+            The photographs have no real cash value, they are only of sentimental value.
+            The cash that flows electronically through the stock exchanges daily is worth trillions of dollars.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

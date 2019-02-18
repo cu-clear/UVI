@@ -1,0 +1,79 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="purchase-n">
+    <commentary>
+        12Jan08 update to wn2.1, add features, examples, commentary ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the acquisition of something with money" type="Event">
+        <commentary>
+            PURCHASE[+event][+contractual][+acquisition][+with_money]
+            the acquisition of something for payment
+            Note: a nominalization: X's purchase of Y -&gt; X purchased Y
+        </commentary>
+        <examples>
+            They have a large selection of videos available for purchase. (X purchase them)
+            The purchase of that large tract of North America was made during the Napoleonic Wars.
+            The courts may rule that purchase of the smaller company by the larger is monopolistic.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>purchase.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="thing bought" type="">
+        <commentary>
+            PURCHASE[+entity][+physical][+acquisition][+bought]
+            something acquired by purchase
+        </commentary>
+        <examples>
+            She came home from the store and showed me her purchases.
+            We stowed our purchases in the car before going on to lunch.
+            Bob took his purchase to the gift wrapping department.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="gaining control or influence in a context" type="">
+        <commentary>
+            PURCHASE[+state][+physical][+influence][+control]
+            a means of exerting influence or gaining advantage
+        </commentary>
+        <examples>
+            The horses' hooves fought for purchase on the slippery pavement.
+            He could get no purchase on the situation.
+            As the car skidded, she clutched the steering wheel for more purchase.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="mechanical leverage" type="">
+        <commentary>
+            PURCHASE[+state][+physical][+leverage][+mechanical]
+            the mechanical advantage gained by being in a position to use a lever
+        </commentary>
+        <examples>
+            The purchase allowed him to lift the safe.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

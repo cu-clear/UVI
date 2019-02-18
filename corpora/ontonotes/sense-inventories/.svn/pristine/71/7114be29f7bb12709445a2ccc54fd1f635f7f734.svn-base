@@ -1,0 +1,39 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="industrialize-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="develop or introduce industry to an area" type="">
+      <commentary>
+      Syntax Is: NP1 INDUSTRIALIZE NP2[location]
+      Note: Watch to tag adjectival uses as 'X'.
+      </commentary>
+      <examples>
+        Stalin industrialized the USSR.
+        The big concern of the Pit River Tribe is that this project would industrialize the area.
+        Some fear that the wind power project will industrialize their rural landscape.
+        What would have happened if the North had not industrialized?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="change production to an industrial process" type="">
+      <commentary>
+      Syntax Is: NP1 INDUSTRIALIZE NP2
+      </commentary>
+      <examples>
+        SEVABM industrialized the manufacturing of TEL spinners.
+        Cinema technology industrialized the entertainment industry.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <omega/><pb>industrialize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

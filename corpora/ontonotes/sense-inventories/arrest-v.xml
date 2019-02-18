@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="arrest-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="catch and take into custody" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        He was arrested when customs officers found drugs in his bag.
+        The police arrested her for drinking and driving. 
+        Airport officials were arrested after a major heist.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn> 
+         <omega/><pb>arrest.01</pb>
+         <vn>NP</vn><fn>Arrest</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="stop or interrupt something" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The treatment has so far done little to arrest the spread of the cancer.
+        The look in his eyes arrested him on the spot.
+        The mechanism will arrest the motion of the flywheel. 
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>arrest.02</pb>
+         <vn>NP</vn><fn>Cause_to_end</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="take a hold and capture suddenly" type="">
+      <commentary>
+       Syntax Is: NP1[theme] ARREST NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        An astonishing sight arrested our attention.
+        The musician had arrested his interest at first glance.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="saw-v">
+   <commentary>
+    Other WN senses past tense of 'see'
+   </commentary>
+   <sense group="1" n="1" name="cut with a saw" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He sawed the wood into even lengths.
+        The magician doesn't REALLY saw the woman in half, does he?
+        This model can saw logs up to 48 inches in diameter.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>saw.04</pb>
+         <vn>cut-21.1-1,split-23.2</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="snore" type="">
+      <commentary>
+        Is: SAW LOGS, SAW WOOD
+      </commentary>
+      <examples>
+        Rover only rumbles in his sleep, but Fido really saws logs.
+        After celebrating with a six-pack, Bruce sawed wood all night.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="saw_logs" version="3.0">1</wn>
+         <wn lemma="saw_wood" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

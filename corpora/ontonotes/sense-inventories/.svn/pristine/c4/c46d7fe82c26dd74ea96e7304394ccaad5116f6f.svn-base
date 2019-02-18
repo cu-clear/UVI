@@ -1,0 +1,58 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="kitty-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="money bet by card players, jackpot" type="">
+        <commentary>
+            KITTY[+quantity][+sum][+bets][+jackpot]
+            Note: usually implies one person gets all the benefit - the whole pot
+        </commentary>
+        <examples>
+            The kitty was over two hundred dollars during our last poker hand.
+            John put a dollar in the kitty to see Bob and then raised him two more.
+            Jane started a kitty at work for betting on when Mary's baby is due.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="contributions donated by individuals for some purpose" type="">
+        <commentary>
+            KITTY[+quantity][+sum][+contributions][+reserve]
+            Note: implies everyone involved may share in the benefit.
+        </commentary>
+        <examples>
+            Take some money for lunch out of the household kitty in the glass jar.
+            The neighbors are putting a kitty together for a block party this summer.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="informal usage for a domestic cat, often young" type="">
+        <commentary>
+            KITTY[+animal][+cat][+domestic]
+        </commentary>
+        <examples>
+            The child called the kitty but it hid under the couch.
+            Here, kitty, kitty, kitty.
+            They just adopted two three-month old kitties.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ramble-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="talk aimlessly" type="">  
+      <commentary>
+        Includes: RAMBLE ON
+
+        NP1[+agent] RAMBLE
+      </commentary>
+      <examples>
+        Crazy addict lady rambles on and on.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="ramble_on" version="3.0">1</wn>
+         <omega></omega><pb>ramble.02</pb>
+         <vn>NM</vn><fn>Speak_on_topic</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="wander aimlessly" type="">
+      <commentary>
+        NP1[+agent] RAMBLE (preposition) (NP2[+location])
+      </commentary>
+      <examples>
+        Thousands rambled across the university's grounds for the final day
+        of the seventh annual Hispanic Engineering, Science and Technology conference.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ramble.01</pb>
+         <vn>run-51.3.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

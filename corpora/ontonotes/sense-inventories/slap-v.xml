@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="slap-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hit with something flat like a paddle or  hand; impact as if by hitting." type="">  
+      <commentary>
+        NOTE: Includes metaphorical usage.
+        Syntax is: NP1[concrete] SLAP NP2[concrete]
+      </commentary>
+      <examples>
+        I slapped the monkey high five as we drove by.
+        Over the years who has slapped the fans the hardest - Marvel or DC? 
+        The leader slapped the moneylender with the back of his hand.
+        His sandles slapped the sidewalk as he ran.
+        Investors adjusted as soon as the new interest rate slapped the market.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>slap.01</pb>
+         <vn>bump-18.4-1,hit-18.1-1</vn><fn>Cause_harm,Impact,Cause_impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="2" name="put or place haphazardly" type="">
+      <commentary>
+        Includes: SLAP ON, SLAP TOGETHER
+        Syntax includes: NP1[animate] SLAP NP2[patient] PP (usually ON) NP3
+        Note: Compare tp Sense 1: Context for Sense 2 must support a haphazard
+              reading; motion along a path is not sufficient (see Sense 4).
+      </commentary>
+      <examples>
+        The guy at the deli slapped mustard on my sandwich.
+        I got out of class at 9 p.m., so I just slapped dinner together.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="slap_on" version="3.0">1</wn>
+         <wn lemma="slap_together" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="3" name="put consequence or criticisms on" type="">
+      <commentary>
+        NP1[animate] SLAP NP2[entity] (with NP3)
+        Include: SLAP DOWN
+      </commentary>
+      <examples>
+        The governor slapped the Illinois casinos with the largest tax rate in the country.
+        The doctor slapped Helen on anti-depressants because of her recent breakdown. 
+        MySpace was slapped down for its apparent disregard for its content. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<sense group="1" n="4" name="dash or cast forcibly towards or away from something" type="">
+      <commentary>
+        NOTE: a direction or motion of NP2 is required for this sense.
+        Syntax is: NP1[animate] SLAP NP2[concrete] PP NP3 [concrete]
+      </commentary>
+      <examples>
+        He slapped the milk out of the woman's hand.
+        The child slapped the ball to his partner.  
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>slap.01</pb>
+         <vn>throw-17.1-1</vn><fn>Cause_impact</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

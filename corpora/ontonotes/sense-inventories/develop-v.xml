@@ -1,0 +1,136 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="develop-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) grow, evolve, undergo physical change" type="">
+      <commentary>
+        Note: In this sense, the entity developed or on/in which the entity
+        develops is concrete.
+        Syntax includes: NP1[location] DEVELOP NP2[theme]
+                         NP2[agent] DEVELOP NP2[theme]
+                         NP1[theme] DEVELOP
+      </commentary>
+      <examples>
+        A flower developed on the branch.
+        The embryo develops into a fetus.
+        He developed a rash on his arm.
+        The patient developed abdominal pain.
+        The perfect climate here develops the grain.
+        He developed a new kind of apple pie.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,10,12</wn>
+         <omega/><pb>develop.01,develop.02</pb>
+         <vn>grow-26.2</vn><fn>Coming_to_be, Progress</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) grow, progress, expand, evolve" type="">
+      <commentary>
+        Note: In this sense, the entity developed is abstract.
+       Syntax includes: NP1[agent] DEVELOP NP2[theme]
+                        NP2[theme] DEVELOP
+      </commentary>
+      <examples>
+        The country developed into a mighty superpower.
+        The situation has developed over a long period of time.
+        Children must develop a sense of right and wrong.
+        I developed an aversion to television.
+        Dave developed leadership qualities in his new position.
+        The plot develops slowly, give it time.
+        They report the news as it develops.
+        These political movements develop from time to time.
+        The company developed a market for the new mobile phone.
+        Could you develop the ideas in your thesis?
+        Develop the function into the following form.
+        Develop the melody and change the key.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,7,9,10,13,15,20,21</wn>
+         <omega/><pb>develop.01,develop.02</pb>
+         <vn>grow-26.2,occurrence-48.3.1</vn><fn>Cause_to_make_progress,Progress</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) experience, grow personally" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The child developed beautifully in her new kindergarten.
+        When he spent the summer at camp, the boy developed and matured.
+        The teacher is developing world-class violinists.
+        We develop the leaders for our future.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,14</wn>
+         <omega/><pb>develop.02</pb>
+         <vn>grow-26.2</vn><fn></fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="(cause to) come into existence" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The country developed its natural resources.
+        The remote areas of the country gradually developed.
+        Many countries in Asia are now developing at a very fast pace.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5</wn>
+         <omega/><pb>NM</pb>
+         <vn>appear-48.1.1,build-26.1</vn><fn>Coming_to_be</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="become technologically advanced" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The country developed its natural resources.
+        The remote areas of the country gradually developed.
+        Many countries in Asia are now developing at a very fast pace.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,11</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="move into a strategically advantageous
+         position (chess)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Spassky developed quickly.
+        Develop the rook first.
+      </examples>
+      <mappings>
+         <wn version="3.0">17,18</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="alter by chemical means, make images" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Can you develop these two rolls of film?
+      </examples>
+      <mappings>
+         <wn version="3.0">15</wn>
+         <omega/><pb>NM</pb>
+         <vn>build-26.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="superimpose, draft (math)" type="">
+      <commentary>
+         Note: Specifically: superimpose a three-dimensional surface on a plane without stretching, in geometry.
+      </commentary>
+      <examples>
+       * No examples found.   
+      </examples>
+      <mappings>
+         <wn version="3.0">16</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,vieweg" sample_score="-"/>
+</inventory>

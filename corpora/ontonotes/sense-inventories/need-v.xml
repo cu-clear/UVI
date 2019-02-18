@@ -1,0 +1,56 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="need-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="must have, necessitate" type="">
+      <commentary>
+         Syntax Includes:
+         NP1[+/-agent] NEED NP2
+      </commentary>
+      <examples>
+         Babies need constant care.
+         The doctor said I need an operation.
+         He was always needing money.
+         This stew needs more salt.
+         Will I need a passport to enter that country?
+         Jet engines need special fuel.
+         What you need is a hot bowl of soup.
+         This room needs brightening up.
+         Being a good parent needs lots of patience.
+         Eye surgery needs a very steady hand.
+         I need a lot of time to practice my violin.
+         Nothing needs to be done about this until next week.
+         Nothing need be done about this until next week.
+         We need to ask ourselves what it means to integrate.
+         You need to help me choose an outfit.
+         What if I need to see a doctor while I'm away?
+         I don't think we need to ask him.
+         Users need not see this command to use the application.
+         Official blogs and wikis needn't be so boring!
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <omega/><pb>need.01</pb>
+         <vn>require-103</vn><fn>Have_as_requirement,Needing,Required_event</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="want, desire" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[+agent] NEED NP2
+      </commentary>
+      <examples>
+        I don't need all this hassle.
+        I really need a rest from all this.
+        I need my hair cut short.
+        What you need is a hot bowl of soup.
+        I need you to help me.
+        You need to take a break.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>need.01</pb>
+         <vn>want-32.1-1-1</vn><fn>Needing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,hwangd,greenlm" sample_score="-"/>
+</inventory>

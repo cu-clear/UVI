@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="fan-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="agitate the air to stir up activity (as if) with a fan" type="">  
+      <commentary>
+        Includes FAN THE FLAMES, FAN THE FIRES
+        Syntax Is: NP1[agent] FAN NP2[patient]
+      </commentary>
+      <examples>
+        How texts fanned the flames of Ivy fraud.
+        We fanned the fire to help it grow.
+        Jean fanned the smoke away from her, choking.
+        The heat was immense and we fanned ourselves frantically to cool off.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fan.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make an emotion or quality grow or become stronger" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[stimulus] FAN NP2[patient[abstract]]
+        NP1[agent] FAN NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        This conduct fanned the excitement of the populace.
+        The busboy's insolence only fanned her anger.
+        Madonna says the news media fanned the controversy over her
+        attempts to adopt a boy from Malawi.
+        The electronic media fanned the violence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>fan.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="spread out like a fan" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The dealer fanned the cards.
+        She fanned her fingers wide and placed her hands on the table.
+        The peacock fanned its feathers in a glorious display.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="BASEBALL: strike out a batter" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Springer, who fanned the side in the second inning, threw 82 pitches.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

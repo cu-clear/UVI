@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="whiff-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="smell by inhaling through the nose" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent|experiencer] WHIFF NP2[theme] (PP[location])
+      NP1[agent|experiencer WHIFF NP2[location]
+      NP1[location] WHIFF NP2[theme]
+      </commentary>
+      <examples>
+      David Edwards wrote about a world where people ingested their food by smelling, or whiffing, it.
+      I was whiffing the frigid fumes of lemon extract.
+      He whiffed the wind, sniffing the briny out of one of the bow-window balconies.
+      Her expression seemed to say she had whiffed a very bad odor.
+      It was a scent she had whiffed only once before.
+      The air whiffed of pine and peat.
+      Discreetly, I whiffed the air for tequila or petroleum.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whiff.01</pb>
+         <vn>stalk-35.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="carry on or as a puff of air" type="">
+      <commentary>
+      Notes: may be used metaphorically
+      Syntax includes:
+      NP1[agent|cause] WHIFF NP2[theme] (PP[direction])
+      </commentary>
+      <examples>
+      The gust of air whiffed away the clouds.
+      One puff of action would have whiffed away his melancholy.
+      It must have whiffed up suddenly.
+      A spurt of smoke whiffed out from her quarter.
+      A new fragrant smoke whiffed up through the poles and tables.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whiff.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(cause to) swing and miss the third pitch, striking out" type="">
+      <commentary>
+      Note: may be used metaphorically.
+      Syntax includes:
+      NP1[agent[animate]] WHIFF NP2[patient[animate]]
+      NP1[agent[animate]] WHIFF 
+      NP1[agent[animate]] WHIFF PP[theme]
+      </commentary>
+      <examples>
+      Chamberlain whiffed the first two Phillies hitters.
+      Cincy defenders had Lewis behind the line of scrimmage on third down, and once again whiffed.
+      Crane made two fouls, and then sent Chipper into real convulsions by whiffing at a high one.
+      John McCain whiffed his own chance to ask Obama about Ayers on live TV.
+      The commission whiffed on its duty to protect investors.
+      A White House spokesman started playing hardball with Bill O'Reilly and wound up whiffing big time.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whiff.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="smoke, exhaling strongly" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] WHIFF NP2[theme]
+      NP1[agent[animate]] WHIFF PP[theme]
+      </commentary>
+      <examples>
+      The old man whiffed a pipe.
+      Roger de Tourneville was whiffing a cigar.
+      As usual, he was whiffing at a cigarette.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whiff.04</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="utter with a puff of air" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] WHIFF NP2[theme]
+      </commentary>
+      <examples>
+      They whiffed out a protective prayer or two.
+      The stranger whiffed out a long, leisurely sort of indifferent and charitable puff.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whiff.05</pb>
+         <vn>exhale-40.1.3-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="extinguish" type="">
+      <commentary>
+      Usually used with secondary predication "out"
+      Syntax includes:
+      NP1[agent|cause] WHIFF NP2[patient]
+      NP1[patient] WHIFF
+      </commentary>
+      <examples>
+      Its aura whiffed out like a candle.
+      The people were whiffed out by one breath of armistice!
+      He didn't want to end up being whiffed out in the lash of a dead star suddenly gone nova.
+      A beam of destruction whiffed out of existence the pilot, gunnery and the men before them.
+      He had simply whiffed out of existence like a soap bubble.
+      The torches were blazing away until they whiffed out.
+      I whiffed that candle out in like, a second.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whiff.06</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

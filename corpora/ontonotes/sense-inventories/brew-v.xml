@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="brew-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="prepare by brewing" type="">  
+      <commentary>
+        NP1[+agent] BREW NP2
+      </commentary>
+      <examples>
+        Wealthy or poor, people brewed beer or wine at home.
+        In her house she brewed tea and bustled about.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>brew.01</pb>
+         <vn>preparing-26.3-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

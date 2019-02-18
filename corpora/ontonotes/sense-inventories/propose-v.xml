@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="propose-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put forward for consideration" type="">
+      <commentary>
+        Syntax is: NP1 PROPOSE NP2
+      </commentary>
+      <examples>
+        President Bush on Wednesday proposed a new temporary worker program.
+        The Commission proposed a disclosure requirement for companies.
+        The 150-room hotel that was proposed to accompany a conference center has fallen short of expectations.
+        Nicolet Minerals Company has proposed to construct an engineered surface disposal facility.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>propose.01</pb>
+         <vn>reflexive_appearance-48.1.2,say-37.7-1-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="intend" type="">
+      <commentary>
+        Syntax is: NP1 PROPOSE
+      </commentary>
+      <examples>
+        Semantics aside, this week I proposed to take the other side of the argument. 
+        How do you propose to do it?
+        The research student shall suggest the name of the guide under whose supervision he/she proposes to do research.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>propose.01</pb>
+         <vn>wish-62</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="ask for hand in marriage" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I proposed to my wife on her 30th birthday, in front of about 30 people.
+        He finally proposed to her in 1988, but prison rules delayed their wedding.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>propose.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

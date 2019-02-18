@@ -1,0 +1,82 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="demand-n">
+    <commentary>
+        28sep06 updated to wn2.1, added features. examples, definitions ahouston
+        29sep06 moved wn2.1(2) to Sense 2. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="A duty or responsibility" type="Event">
+        <commentary>
+            DEMAND[+state][+responsibility][+agent]
+            Note: usually in the plural
+            Note: implies an agent who is assigned the duty.
+        </commentary>
+        <examples>
+            The demands of his work affected his health.
+            She has enough demands on her time already.
+            Will he be equal to the demands of the office?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a forceful request" type="Event">
+        <commentary>
+	    DEMAND[+event][+action][+communication][+request][+forceful]
+	    </commentary>
+        <examples>
+            He made his demands loudly, with lots of stomping and screaming.
+            Bob set up a demand deposit at his bank. (easy withdrawals - extension of core meaning)
+            The government wouldn't listen to the terrorists' demands.
+            The opposition has made demands to see the full report.
+            Mary now has video on demand in her home. (extension of core meaning)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>demand.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Ability and desire to purchase" type="Abstraction">
+        <commentary>
+            DEMAND[+state][+desire][+enabled][+purchase][+goods/+services]
+            An economic concept.
+            Refers to the ability and the desire to purchase something, 
+        </commentary>
+        <examples>
+            The demand for buggywhips exceeded the supply by 25%.
+            The influx of foreign competitors reduced the demand for computer chips.
+            Economists study the laws of supply and demand in large economic systems.
+            Ever-rising oil prices may eventually reduce the demand for it.
+            The young tenor is very much in demand in the major opera houses. (they want to hire him)
+            There was pent-up demand after several years of recession. (people can and want to buy things)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>demand.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="A requirement, a need" type="Event">
+        <commentary>
+	    DEMAND[+event][+state][+requirement][+object]
+	    Note: Refers to a feature that something must possess, not duties of an agent (see Sense 1)
+	    </commentary>
+        <examples>
+            There's a real demand for some leadership in their political party. (party needs this quality)
+            The reporter has written for years about the unmet demands of better intelligence gathering.
+            These building codes do not meet the demands for an earthquake-proof structure.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>demand.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

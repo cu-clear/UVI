@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="solve-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="figure out, calculate, find the answer" type="">
+      <commentary>
+       Syntax is: NP1 SOLVE NP2
+       Note: implies a punctual point of resolution in time for NP2
+      </commentary>
+      <examples>
+        Solve the following two quadratic equations.
+        She was trying to solve a really tough crossword pussle.
+        John can solve any engine problems with your car.
+        Police couldn't solve the case.
+        He solved the Rubiks cube in record time.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>solve.01</pb>
+         <vn>discover-84</vn><fn>Resolve_problem</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="successfully manage a conflict" type="">
+      <commentary>
+       Syntax is: NP1 SOLVE NP2
+       Note: implies a durative change of state for NP2
+      </commentary>
+      <examples>
+        The issue was solved by our agreeing to disagree.
+        She thinks every problem can be solved with money.
+        Did you solve the problem with your boss?
+        Help solve the illegal immigration crisis!
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>solve.01</pb>
+         <vn>discover-84</vn><fn>Resolve_problem</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="settle, square up, as with debts" type="">
+      <commentary>
+      </commentary>
+      <examples>
+       He has solved his old debts.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="provide-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="supply or furnish with something needed or wanted" type="">
+      <commentary>
+        Note: This sense includes PROVIDE WITH
+        Syntax is: NP1[+agent{+animate|+organization}] PROVIDE NP2[+theme] PP NP3[+recipient{+animate|+organization}]
+                   NP1[+agent{+animate|+organization}] PROVIDE NP2[+recipient{+animate|+organization}] PP NP3[+theme]
+      </commentary>
+      <examples>
+         We provided the room with an electrical heater.
+         The hostess provided lunch for all the guests.
+         The costumes and makeup were provided by a New York salon.
+         He never provided a reason for missing our appointment.
+         The rebels will provide resistance to the north of the city.
+         Please provide plenty of time for this section of the test.
+         He always provides us with some good laughs.
+         This room provides ample sunlight through French windows.
+         Shop window provides creative platform for Coventry students.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,5</wn>
+         <omega/><pb>provide.01</pb>
+         <vn>fulfilling-13.4.1-2</vn><fn>Supply</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="supply means for support or sustenance" type="">
+      <commentary> 
+        Note: This sense includes PROVIDE FOR
+        Syntax is: NP1[+agent{+abstract|+animate}] PROVIDE FOR NP2[+recipient{+abstract|+animate}]
+      </commentary>
+      <examples>
+         He worked hard to provide for his children.
+         She provides for her family by working in a hospital.
+         The grant provides for state-of-the-art infrastructure.
+         The internet-based education bill provides for expanded learning opportunities in higher education.
+         Their modular architecture provides for rapid development of media management applications.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <omega/><pb>provide.01</pb>
+         <vn>fulfulling-13.4.1-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="stipulate or determine" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         The will provides that each child should receive half of the money.
+         The second clause provides that the injured party will receive reimbursement for the injury.
+         The Constitution provides for a bicameral legislature. 
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>ensure-99</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,hwangd,brownsw" sample_score="-"/>
+</inventory>

@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="regroup-v">    
+   <commentary>
+    Syntax Includes:
+    NP1[agent[human]] REGROUP (PP[locative])
+    NP1[agent[human]] REGROUP PP[temporal] 
+    NOTE: [human] also entails organizations or groups made up of human
+    entities.
+   </commentary>
+   <sense group="1" n="1" name="Organize anew, as after a setback; collect
+   or compose oneself." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The army regrouped after the devastating attack.
+      I regrouped, brushed my hair back, and returned to the party.
+      The Taliban regrouped in parts of Afghanistan earlier this month.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>regroup.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Reorganize into new groups." type="">
+      <commentary>
+        Syntax Is: NP1[agent] REGROUP NP2[patient[concrete]]
+      </commentary>
+      <examples>
+      I'd like to regroup these examples... perhaps by publishing strategy
+      instead of a list of what is being published.
+      The Reserve Bank of India on Thursday regrouped the asset financing
+      non-banking financial companies (NBFCs).
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>classify-29.10</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

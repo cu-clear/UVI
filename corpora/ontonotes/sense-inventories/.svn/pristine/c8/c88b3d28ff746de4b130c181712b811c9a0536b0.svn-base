@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mash-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Squeeze or compress; reduce to small
+   pieces; (physically) pulverize or destroy." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] MASH NP2[patient]
+      Note: May be abstract.
+      </commentary>
+      <examples>
+      The machine mashes cans to be recycled.
+      Mash the garlic and put it in the hot oil.
+      Mash the spices with a mortar.
+      The professor mashed his thesis to bits; he hated it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mash.01</pb>
+         <vn>carve-21.2-1</vn><fn>Reshaping</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Talk or behave amorously; have sex with." type="">
+      <commentary>
+      Syntax Is: NP1[agent[animate]] MASH (with) NP2[patient[animate]]
+      </commentary>
+      <examples>
+      The guys always try to mash the new secretaries.
+      My husband never mashes with other women.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

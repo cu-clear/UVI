@@ -1,0 +1,129 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="subject-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="theme, content or focus being discussed, depicted or contemplated" type="">
+        <commentary>
+            SUBJECT[+relation][+role][+theme]
+            [+entity][+symbolic][+information][+prominent]
+        </commentary>
+        <examples>
+            The subject of the article was the scarcity of affordable housing in Monterey County.
+            Bob tends to get off the subject during our staff meetings.
+            The painting's subject is set in the middle of the canvas, backlit, and surrounded by smaller figures.
+            What subjects will be discussed during the peace negotiations?
+            We watched a short subject on dolphins before the feature film.
+            This apparent murder-suicide is a subject for the police to handle.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="knowledge domain, field of study" type="">
+        <commentary>
+            SUBJECT[+entity][+symbolic][+knowledge][+domain]
+        </commentary>
+        <examples>
+            Quantum mechanics is a difficult subject for most people.
+            What subject area is his doctorate in?
+            Some of these teachers do not exhibit mastery of their subjects. (course content)
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="people used in tests and experiments" type="">
+        <commentary>
+            SUBJECT[+entity][+people][+case][+experimental]
+        </commentary>
+        <examples>
+            They administered the new drug to one group of subjects, and gave a placebo to the other group.
+            During the anatomy class, the medical students examined the layout of arteries in the deceased subject.
+            Subjects must sign these waivers before participating in the psychology study.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="people ruled by a sovereign power, e.g., monarchy" type="">
+        <commentary>
+            SUBJECT[+entity][+people][+ruled][+power][+sovereign]
+        </commentary>
+        <examples>
+            The subjects loved their old king and remained loyal to him.
+            He vowed he would live as a free man and never be the subject to any ruler or despot.
+            The famous film star was accompanied by three of her subjects to the social gala. (metaphoric extension)
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a major grammatical constituent" type="">
+        <commentary>
+            SUBJECT[+form][+grammatical][+constituent][+major]
+            Note: subjects are not always terms in assertions with truth value, could be directives, etc. (see Sense 6)
+        </commentary>
+        <examples>
+            What is the subject of the sentence, &quot;John should take off his hat.&quot;?
+            Subject nouns in German takes different case endings than the object nouns.
+            In English topicalization, the subject phrase appears after the object phrase.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the term in a proposition which is affirmed or denied" type="">
+        <commentary>
+            SUBJECT[+form][+logical][+proposition][+term][+primary]
+            Note: a narrower sense of 'subject' than Sense 5. 
+        </commentary>
+        <examples>
+            'Socrates' is the subject of the proposition 'Socrates is mortal'.
+            What is the subject of the logical assertion 'the morning star is the evening star'?
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a conscious, thinking entity" type="">
+        <commentary>
+            SUBJECT[+entity][+conscious][+thinking]
+        </commentary>
+        <examples>
+            The philosopher questioned the notion of separating the perceiving subject from the object in the world.
+            A rock is not a subject, it has no knowledge of itself nor the surrounding environment.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="authorize-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="sanction or approve something" type="">
+      <commentary>
+       Syntax Is: NP1[agent] AUTHORIZE NP2[patient[abstract]]
+      </commentary>
+      <examples>
+       The film star did not authorize this biography of her life.
+       The principal couldn't authorize that sort of behavior at school.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>authorize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="empower or delegate authority to someone" type="">
+      <commentary>
+      Syntax Includes:
+       NP1[agent] AUTHORIZE NP2[patient[human] PP[attribute]
+       NP1[agent] AUTHORIZE NP2[patient[human] [goal]
+      </commentary>
+      <examples>
+        She authorized John to sign checks for our club.
+        Can you authorize anyone you choose to carry out your written will?
+        They have authorized Congress to investigate this.    
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>authorize.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

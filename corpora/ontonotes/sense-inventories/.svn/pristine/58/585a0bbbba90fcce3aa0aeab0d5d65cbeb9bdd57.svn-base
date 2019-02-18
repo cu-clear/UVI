@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dwell-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="brood, dwell on" type="">  
+      <commentary>
+        Is: DWELL ON
+        Syntax Is: NP1 DWELL ON NP2
+      </commentary>
+      <examples>
+        He never dwelled on himself and his many aches and pains.
+        He dwelled on the situation in his country.
+        She dwelled on the grades and the comments and the looks and the future.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>   
+         <wn lemma="dwell_on" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>lecture-37.11-2</vn><fn>Cogitation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="inhabit, consist" type="">
+      <commentary>
+        Includes: DWELL IN, DWELL AT
+        Syntax Is: NP1 DWELL PP{P NP[location]}
+        Note: Location may be abstract.
+      </commentary>
+      <examples>
+        Strange thoughts dwelled in her mind.
+        This fish dwells at the bottom of the ocean.
+        The people dwelled in woods and lived by agriculture.
+        The problems dwell in the social injustices in this country.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dwell.01</pb>
+         <vn>exist-47.1-1,lodge-46</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

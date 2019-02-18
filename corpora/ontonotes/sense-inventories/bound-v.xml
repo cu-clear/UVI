@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bound-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="More forward in a leaping or skipping
+   manner." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] BOUND (PP[directional])
+      NP1[theme] BOUND PP[directional]
+      </commentary>
+      <examples>
+      The horse bounded across the meadow.
+      The child bounded over the puddles. 
+      Particles bound their way across the universe.
+      Rabbits bound just for the fun of it.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="bound_off" version="3.0">1</wn>
+         <omega></omega><pb>bound.01</pb>
+         <vn>run-51.3.2</vn><fn>Self_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Place limits on; form the boundary of or be
+         contiguous to." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Bushes bound the parking lot.
+      Playtimes bound the school day in enjoyable activities. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bound.02</pb>
+         <vn>contiguous_location-47.8</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

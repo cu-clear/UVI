@@ -1,0 +1,216 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="knock-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hit forcefully; deliver a sharp blow or push" type="">  
+      <commentary>
+        Includes: KNOCK AGAINST, KNOCK DOWN, KNOCK OUT, KNOCK OVER, KNOCK AROUND
+        Note: Also includes the meaning: &quot;produce an opening by hitting forcefully&quot;.
+        NOTE: PLEASE compare carefully to VPCs in other sense--there may be
+              different uses of VPCs.  Think these over carefully before preceding!
+              Taggers are encouraged to make written notes of VPCs to refer to while
+              tagging.
+      </commentary>
+      <examples> 
+        He accidentally knocked the vase off the table.
+        She knocked her head against the wall as she fell.
+        Who knocked over that mug of coffee?
+        Some thug knocked him unconscious.
+        They knocked nails into the wall.
+        He knocked me off balance.
+        She was knocked down by a bus.
+        The winds knocked out the window.
+        He used to be a bully in school. He knocked me about all the time.
+        He got arrested for knocking around his wife.
+        He knocked out his pipe.
+        The landlord knocked a hole in the wall at the back of the premises.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3</wn>
+         <wn lemma="knock_about" version="3.0">1</wn>
+         <wn lemma="knock_against" version="3.0">1</wn>   
+         <wn lemma="knock_down" version="3.0">1,2</wn>
+         <wn lemma="knock_out" version="3.0">3,5</wn>
+         <wn lemma="knock_over" version="3.0">1</wn>
+         <wn lemma="knock_about" version="3.0">1</wn>
+         <omega/><pb>knock.01,knock.02</pb>
+         <vn>bump-18.4-1,hit-18.1-1,throw-17.1-1</vn><fn>Cause_motion,Cause_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="tap, rap or clank repeatedly producing noise" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She knocked on the window to attract his attention.
+        There's someone knocking at the door.
+        Please knock before entering.
+        The heater in my dormroom has been knocking all afternoon. 
+        The car engine is knocking again.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5</wn>
+         <omega/><pb>knock.10</pb>
+         <vn>sound_emission-43.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="find fault with; express criticism of" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Don't knock him. He's doing his best.
+        She easily knocked down every argument he put up.
+        Don't knock the food. It's free.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="wander from place to place; be around" type="">
+      <commentary>
+        Includes: KNOCK AROUND, KNOCK ABOUT
+      </commentary>
+      <examples>
+        I'm sure I've got a copy of 'Time's Arrow' knocking about somewhere.
+        He spent years knocking around the Far East before World War One.
+        I used to knock around with him at school.
+      </examples>
+      <mappings>
+         <wn lemma="knock_about" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="set someone back physically, emotionally, or financially" type="">
+      <commentary>
+       Is: KNOCK BACK
+      </commentary>
+      <examples>
+        I bet that computer knocked you back a few thousand.
+        Wow, a bout with a bad cold really knocked me back for a couple of weeks.
+      </examples>
+      <mappings>
+         <wn lemma="knock_back" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="eliminate (not kill), render unconcious, overwhelm" type="">
+      <commentary>
+        Is: KNOCK COLD, KNOCK OUT
+        NOTE: this 'render unconscious' often is a result of being 'knocked down' and may
+              be confused with sense 1; sense 1 ONLY has the implication of being hit (you may
+              be knocked down without being made unconscious) but the additional inference
+              of being knocked unconscious is in this sense
+      </commentary>
+      <examples>
+        The Brazilian team was unexpectedly knocked out in the first round.
+        The car moving at 35 miles per hour struck him and knocked him out cold.
+        All the guys were knocked out by her charm.
+      </examples>
+      <mappings>
+         <wn lemma="knock_cold" version="3.0">1</wn>
+         <wn lemma="knock_out" version="3.0">1,2,4</wn>
+         <omega/><pb>knock.03</pb>
+         <vn>NM</vn><fn>Render_nonfunctional</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="7" name="kill" type="">
+      <commentary>
+        Is: KNOCK OFF
+      </commentary>
+      <examples>
+        He hired a hit-man to knock off a business rival.
+      </examples>
+      <mappings>
+         <wn lemma="knock_off" version="3.0">1</wn>
+         <omega/><pb>knock.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="reduce or cut quantitatively" type="">
+      <commentary>
+        Includes: KNOCK DOWN, KNOCK OFF
+      </commentary>
+      <examples>
+        She wanted to knock down the price to $200.
+        The manager knocked off $5 because it was damaged.
+      </examples>
+      <mappings>
+         <wn lemma="knock_off" version="3.0">2</wn>
+         <omega/><pb>knock.04</pb>
+         <vn>NM</vn><fn>Cause_change_of_position_on_a_scale</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="steal or copy illegally" type="">
+      <commentary>
+        Includes: KNOCK OFF, KNOCK OVER
+      </commentary>
+      <examples>
+        He has a stack of computer equipment he's knocked off from various shops.
+        Terrorist groups are knocking over banks to get money.
+        He got in trouble for knocking off name brand purses.
+      </examples>
+      <mappings>
+         <wn lemma="knock_off" version="3.0">3</wn>
+         <omega/><pb>knock.06</pb>
+         <vn>steal-10.5</vn><fn>NM</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="10" name="accomplish quickly" type="">
+      <commentary>
+        Includes: KNOCK OFF, KNOCK OUT
+      </commentary>
+      <examples>
+        She knocked the project together in 3 days.
+        I can knock that proposal out by tomorrow.
+        She knocked off a letter to her brother that afternoon.
+      </examples>
+      <mappings>
+         <wn lemma="knock_off" version="3.0">4</wn>
+         <omega/><pb>knock.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="stop a particular behavior" type="">
+      <commentary>
+        Includes: KNOCK OFF
+      </commentary>
+      <examples>
+        Knock it off!  
+      </examples>
+      <mappings>
+         <wn lemma="knock_off" version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="(cause to) become pregnant" type="">
+      <commentary>
+        Includes: KNOCK UP
+      </commentary>
+      <examples>
+        You don't want to get knocked up by some guy you hardly know.
+      </examples>
+      <mappings>
+         <wn lemma="knock_up" version="3.0">1</wn>
+         <omega/><pb>knock.09</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="13" name="Ingest." type="">
+      <commentary>
+        Is: KNOCK BACK
+      </commentary>
+      <examples>
+        I love doughnuts. I could knock back five or six.
+        I knocked back a few beers before heading home.
+      </examples>
+      <mappings>
+         <wn lemma="knock_up" version="3.0">1</wn>
+         <omega/><pb>knock.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,brownsw,duffielc,corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,116 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="wipe-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="clean, rub or move with a circular motion" type="">
+      <commentary>
+        Syntax is: NP1[agent] WIPE NP2[theme] PP[source]
+                   NP1[agent] WIPE NP2[theme] PP[destination]
+                   NP1[agent] WIPE NP2[source] (of NP3[theme])
+        Includes: Abstract uses that can alternate SOURCE and THEME:
+                  Wipe the data off the hard drive.
+                  Wipe the hard drive.
+      </commentary>
+      <examples>
+        John wiped the table clean.
+        He wiped the back of his ears with his thumbs.
+        Just wipe the off the excess condensation and lightly blowdry the mirror.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="wipe_away" version="3.0">1</wn>
+         <wn lemma="wipe_off" version="3.0">1,2</wn>
+         <wn lemma="wipe_up" version="3.0">1</wn>
+         <omega/><pb>wipe.01,wipe.03,wipe.04</pb>
+         <vn>funnel-9.3-1,wipe_manner-10.4.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="eliminate completely, delete" type="">
+      <commentary>
+        Includes: WIPE OFF THE MAP and one sense of WIPE OUT
+        NOTE: compare to sense 1; this sense does not have an 
+              alternation with the SOURCE
+      </commentary>
+      <examples>
+        The flood of 1965 almost wiped the town off the map.
+        An algorithm update wiped those six placements off the map and his once busy site was relegated to obscurity.
+        Her arrival wiped away any worries he had about her loyalty.
+        Just a single asteroid strike wiped out the dinosaurs.
+        Were the Aztecs wiped out by an ebola-type bug?
+        The Cavendish, the version of the banana that tops most U.S. cereal bowls, is being wiped out by fungus.
+        We've astronimcally increased carcinogenic toxins, blighted soils,
+        and  wiped out resources.
+        Some deny police had deliberately wiped the tapes, others remain
+        convinced there was a cover-up.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="wipe_out" version="3.0">1,2,3,4,5</wn>
+         <omega/><pb>wipe.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="counteract, cancel out" type="">
+      <commentary>
+        Is: one sense of WIPE OUT
+      </commentary>
+      <examples>
+        Remus' grin instantly wiped out the effects of the grey hair and the shabby clothes.
+        Such is the enthusiasm of my consumption that I will wipe out the effects of a decade of vegetarianism.
+        The Vulture Funds effectively wiped out any of the benefits from International debt Relief this year.
+        The refurb has wiped out any profit this year from that property. 
+        The recent rise in fuel prices has virtually wiped out all the progress that was made towards meeting these targets.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="wipe_out" version="3.0">6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="crash, fall" type="">
+      <commentary>
+        Is: one sense of WIPE OUT
+      </commentary>
+      <examples>
+        Carlos's car wiped out in a seven-car pile-up five years ago.
+        He wiped out on his bike and nearly knocked his two front teeth out.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="idioms (please see list)" type="">
+      <commentary>
+        Is: WIPE THE FLOOR WITH, WIPE THE SLATE CLEAN, WIPE THE SMILE OFF ONE'S FACE 
+        NOTE: Please use this sense for these, and ONLY these, idioms
+      </commentary>
+      <examples>
+        WIPE THE FLOOR WITH (defeat decisively)
+          Is it a surprise that the Corvette wiped the floor with nearly all Le Mans contenders?
+          He cannot quite admit she wiped the floor with your man.
+
+        WIPE THE SLATE CLEAN (make a clean start)
+          Much as we might like to wipe the slate clean when our memories becomes a pain, that is not an option.
+          The time he spent in prison should have wiped the slate clean.
+
+        WIPE THE SMILE OFF ONE'S FACE
+          The easiest way to wipe the smile off Gordon's face is to make full use of your accounts.
+          I'd love to wipe the smile off his face.
+          It was like you couldn't wipe the smile off your face.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,brownsw,greenlm" sample_score="-"/>
+</inventory>

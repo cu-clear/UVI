@@ -1,0 +1,201 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="exposure-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a living being's subjection to prolonged harmful weather conditions" type="">
+        <commentary>
+            EXPOSURE[+state][+physical][+subjection][+prolonged][+weather][+harmful]
+            Note: 'exposure' in this sense occurs alone without prepositional phrase that identifies an agent, the agent is always understood to be adverse weather conditions.
+        </commentary>
+        <examples>
+            The two climbers died from exposure near the summit of the mountain.
+            They got heatstroke from exposure while trekking across the desert during midday. 
+            Without the warmth of their mother, the baby squirrels could die of exposure.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the event of being subjected to a harmful agent" type="Event">
+        <commentary>
+            EXPOSURE[+event][+physical][+subjection][+to_agent][+harmful]
+        </commentary>
+        <examples>
+            They argue that the dangers posed by exposure to asbestos have been overstated.
+            The lawn furniture cushions have faded from long exposure to the summer sun.
+            The mother tried to protect her retarded son from exposure to ridicule.
+            These health care workers risk exposure to a dangerous flu virus.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/><pb>exposure.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="state of being financially vulnerable to an economic downturn" type="Event">
+        <commentary>
+            EXPOSURE[+state][+financial][+vulnerability][+downturn][+economic]
+        </commentary>
+        <examples>
+            Can John risk the exposure of having all his savings invested in the stock of one company?
+            These firms invest in hedge funds to limit their exposure to currency devaluations.
+            A balanced portfolio can reduce your exposure to market fluctuations.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of having contact, familiarity with some knowledge domain" type="Event">
+        <commentary>
+            EXPOSURE[+activity][+interaction][+familiarity][+with_content][+domain][+knowledge]
+        </commentary>
+        <examples>
+            My parents gave me a broad exposure to the theater and the arts.
+            She is concerned about the potential exposure of children to pornography on the Internet.
+            His exposure to the European banking system makes him an excellent candidate for this job.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a disclosure or uncovering, revealing something" type="Event">
+        <commentary>
+            EXPOSURE[+event][+communication][+social][+disclosure][+pejorative]
+            Note: has a pejorative tone (opposite of Sense 7)
+            Note: implies subject is target of the revelation, 
+        </commentary>
+        <examples>
+            The politician feared exposure of his extramarital affair during the campaign.
+            Her exposure as a foreign spy made headlines in the news today.
+            They wanted to avoid an exposure of their past.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,9</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a physical orientation, location or setting" type="">
+        <commentary>
+            EXPOSURE[+location][+physical][+orientation][+directional]
+        </commentary>
+        <examples>
+            This artist loft has a nice northern exposure through this window.
+            The exposure of the new building is a gentle slope to the southeast.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="receiving beneficial publicity, attention" type="Event">
+        <commentary>
+            EXPOSURE[+event][+social][+communication][+publicity][+beneficial]
+            Note: implies subject is recipient of the publicity -&gt;  X[+recipient] need/get EXPOSURE 
+            Note: opposite of Sense 5
+        </commentary>
+        <examples>
+            The young actor got a lot of exposure from his role in that new film.
+            A politician needs a lot of public exposure in order to win an election.
+            Mary thinks she'll get more exposure in her new position as marketing director.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a unit of photographic film" type="">
+        <commentary>
+            EXPOSURE[+entity][+artifact][+unit][+film][+photographic]
+            Note: refers to a physical bit of photographic film
+        </commentary>
+        <examples>
+            There are 24 exposures on this roll of film.
+            Here is an exposure I took of Bob in front of the summer cottage last year.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="9" name="the amount of light allowed to strike photographic film" type="">
+        <commentary>
+            EXPOSURE[+quantity][+intensity][+light][+absorbed][+on_film]
+            [+event][+physical][+striking][+light][+on_film]
+        </commentary>
+        <examples>
+            You'll need a long exposure in this light to get a good picture of the lake.
+            This camera has different F-stops for different exposures.
+            The photographer described the exposure he used to create the atmospheric landscape of the desert.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="10" name="physical geographical structures that are visible" type="">
+        <commentary>
+            EXPOSURE[+entity][+geological][+structure][+visible]
+            Note: refers to physical structures in the world
+        </commentary>
+        <examples>
+            The pilot pointed out large ice exposures on the small islands.
+            The exposure of the rock face revealed twisted layers of sedimentary composition.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="11" name="the act of physically uncovering or displaying something" type="Event">
+        <commentary>
+            EXPOSURE[+event][+physical][+revealing][+entity]
+            Note: implies an agent is exposing -&gt; X's{+agent} EXPOSURE OF Y{+patient/+result}
+        </commentary>
+        <examples>
+            The surgeon's exposure of the left lung revealed a large undifferentiated mass, probably malignant.
+            The man has a history of arrests for exposure of his private parts in public parks and shopping malls.
+            These animals will react to any exposure of fear on your face, so try to project confidence around them.
+            The church does not permit exposure of bare heads in the main sanctuary.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,120 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="weigh-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="have a certain weight" type="">  
+      <commentary>
+      </commentary>
+      <examples>
+        The baby weighed seven pounds three ounces at birth.
+        Yesterday a satellite weighing 15 tons was successfully placed in orbit.
+        It really weighed too much to carry.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>weigh.01</pb>
+         <vn>register-54.1-1</vn><fn>Dimension</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="find out the weight of something" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The butcher weighed the chicken.
+        Tyson weighed in at 245 lbs for the fight.
+        She weighs herself every week on the scales in the bathroom.
+        Your luggage must be weighed before it is put on the aircraft.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>weigh.01</pb>
+         <vn>register-54.1-1</vn><fn>Dimension</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="consider carefully, take into account, compare options" type="">
+      <commentary>
+        Syntax is: NP1 WEIGH (against) NP2
+                   NP1 WEIGH (out) NP2
+        Syntax includes: WEIGH AGAINST, WEIGH OUT
+      </commentary>
+      <examples>
+        I had to weigh all possible options before I made my choice.
+        We can start when we have weighed all the factors involved.
+        Economic benefits must be carefully weighed against the possible dangers.
+        We never get to weigh out more than one option at a time.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>weigh.04</pb>
+         <vn>NM</vn><fn>Assessing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="be heavy, bear on, influence, be important or burdensome" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The snow weighed down on the roof.
+        His opinion doesn't weigh much in my mind.
+        Her advice weighs heavily with him.
+        Easy access to a railway network weighed heavily with us when we chose a site for the new factory.
+        The problem weighed heavily on everyone present.
+        He's under huge pressure at work and it's really weighing on him.
+        Too much responsibility when too young can weigh down on a child.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <wn lemma="weigh_on" version="3.0">1</wn>
+         <wn lemma="weigh_down" version="3.0">1,2</wn>
+         <omega/><pb>weigh.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="heave up an anchor in preparation for sailing" type="">
+      <commentary>
+        Is: WEIGH ANCHOR, WEIGH THE ANCHOR
+      </commentary>
+      <examples>
+        To weigh anchor is to lift it from its moorings, so that the ship may start on her voyage.
+        Fry and stormy the night that I weighed the anchor of Montevideo.
+      </examples>
+      <mappings>
+         <wn lemma="weigh_anchor" version="3.0">1</wn>
+         <wn lemma="weigh_the_anchor" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Getting_vehicle_underway</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="measure and distribute by weight" type="">
+      <commentary>
+        Includes: WEIGH OUT
+      </commentary>
+      <examples>
+        The vendor weighed out two pounds of onions.
+        These stones are weighed out not counted.
+        Be sure not to weigh out more than 0.5 gram samples.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="weigh_out" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="contribute or become involved in a discussion" type="">
+      <commentary>
+        Syntax is: NP1[agent] WEIGH IN WITH NP2[focus]
+        Syntax includes: WEIGH IN
+      </commentary>
+      <examples>
+        Several leading architects weighed in with criticisms regarding the design of the new museum.
+        For the last two weeks we've all weighed in with our respective takes on him.
+        Dan Green has weighed in with a thoughtful post about the Underground Literary Alliance.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="weigh_in" version="3.0"/>
+         <omega/><pb>weigh.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

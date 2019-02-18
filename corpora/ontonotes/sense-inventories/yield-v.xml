@@ -1,0 +1,59 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="yield-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="produce, profit, or give forth as a result" type="">  
+      <commentary>
+       Syntax is: NP1 YIELD NP2
+      </commentary>
+      <examples>
+        These fields yield good crops.
+        The research has yielded some interesting results.
+        Our efforts yielded $156 million in emergency AIDS funding.
+        Go with an an investment that yields high percentages.
+        These bonds yield up to 8 percent.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,7,10</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>yield.01</pb>
+         <vn>future_having-13.3</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="end resistance, surrender control or possession" type="">
+      <commentary>
+       Syntax is: NP1 YIELD[transitive]
+       NOTE: Physical and metaphorical use.
+       Includes: YIELD UP
+      </commentary>
+      <examples>
+        The window was painted shut and wouldn't yield.
+        He eventually yielded control of the company to his daughter.
+        The commander finally yielded after a long siege.
+        She refused to yield despite our pleas.
+        I yield to your argument that 1897 was the correct date.
+        We will not yield to tantrums.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,5,9,8,11,12,13</wn>
+         <wn lemma="yield_up" version="3.0">1</wn>
+         <omega/><pb>yield.02,yield.04</pb>
+         <vn>acquiesce-95</vn><fn>Giving_in,Surrendering_possession</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move over, replace, let another pass" type="">
+      <commentary>
+       SYNTAX IS: NP1 YIELD (NP2) PP
+      </commentary>
+      <examples>
+        He yield his seat to a pregnant woman.
+        Yield to the traffic on the right.
+        Older houses and gardens were gradually yielding to modern apartments.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <omega/><pb>yield.02</pb> 
+         <vn>NM</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

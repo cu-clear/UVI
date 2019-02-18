@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="calm-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make tranquil or still" type="">
+      <commentary>
+        Includes: CALM DOWN
+      </commentary>
+      <examples>
+        Calm your husband or we will have to throw him out of the restaurant.
+        The music calmed her jangled nerves.
+        They calmed the patient before the operation.
+        She couldn't calm the dog down.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>
+         <wn lemma="calm_down" version="3.0">2</wn>
+         <omega/><pb>calm.01</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become tranquil" type="">
+      <commentary>
+        Includes: CALM DOWN
+      </commentary>
+      <examples>
+        The animals calmed as soon as she entered the room.
+        Will you all please calm down?
+        The weather will calm by this afternoon.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="calm_down" version="3.0">1,3</wn>
+         <omega/><pb>calm.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

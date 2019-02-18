@@ -1,0 +1,85 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shop-n">
+    <commentary>
+        Includes idiom: talk_shop
+    </commentary>
+    
+    <sense group="1" n="1" name="a retail store with merchandise for sale" type="">
+        <commentary>
+            SHOP[+building][+store][+retail]
+            [+role][+merchandise][+seller]
+        </commentary>
+        <examples>
+            We bought souvenirs in the small charming shops of the Greek village.
+            You can buy gourmet dog biscuits at the new pet shop.
+            This is where all the shop girls from downtown go for a quick lunch.
+            Can we buy a newspaper at that tobacco shop?
+            You can visit our shop online. 
+            They run a small public relations shop in New York.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a work area for manufacturing or repair work" type="">
+        <commentary>
+            SHOP[+building][+workplace][+trade][+manufacturing/+repair]
+        </commentary>
+        <examples>
+            John's car will be in the repair shop all afternoon.
+            The shop floor of their assembly plant has a great safety record.
+            I believe that bottling company is a union shop. (workers will join a union)
+            This machine shop ships parts overseas as well as within the United States.
+            The shop called to say your car is ready.  (a repair place)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="instruction or coursework in a trade" type="">
+        <commentary>
+            SHOP[+instruction][+course][+trade][+carpentry][+metalwork]
+        </commentary>
+        <examples>
+            We made metal boxes in shop class today.
+            Tony is taking five classes this semester, including shop.
+            Mr. Green is our shop teacher.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a trade or business, profession" type="">
+        <commentary>
+            SHOP[+activity][+profession]
+            Note: used in the idiom talk_shop
+            Note: used in the idiom set_up_shop
+            Note: focus is on the activity of business, not on a specific location. 
+        </commentary>
+        <examples>
+            Mary told them she didn't want to talk shop over dinner.
+            Bob gets bored whenever his brothers start talking shop.
+            There is so much shop talk around here!
+            These kinds of headhunters just set up shop out of their garages.  (start a business)
+        </examples>
+        <mappings>
+            <wn version="MAC">2c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

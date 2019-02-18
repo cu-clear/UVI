@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="alternate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) oscillate between two states, directions,
+   or attitudes." type="">  
+      <commentary>
+      NOTE: Compare to Sense 3; in Sense 1 the thing alternating is singular.
+      NOTE: This sense must imply MOTION.
+      </commentary>
+      <examples>
+      I can't get the current to alternate.
+      I alternate between loving Helga and wishing her dead.
+      The army alternated back and forth across the river.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>amalgamate-22.2-2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(Cause to) alternate in function or role." type="">
+      <commentary>
+      Syntax Includes:
+      NP1[agent] ALTERNATE NP2[patient] for NP3[patient]
+      NP1[actor] ALTERNATE for NP2[actor] 
+      NP1[agent] ALTERNATE NP2[patient[plural]]
+      </commentary>
+      <examples>
+      Harry alternated Sally for Diana at the diner.
+      He alternated for Louise at last night's show. 
+      The business alternated the security guards on different days of the week.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Two entities exchange positions in turn or
+         by set intervals." type="">
+      <commentary>
+      NOTE: Compare to Sense 1; in Sense 3 the thing alternating is plural.
+      </commentary>
+      <examples>
+      We alternate on the night shift.
+      The skaters alternated down the ice.
+      Candles and flowers alternated along the table.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>alternate.01</pb>
+         <vn>correlate-86.1,amalgamate-22.2-2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

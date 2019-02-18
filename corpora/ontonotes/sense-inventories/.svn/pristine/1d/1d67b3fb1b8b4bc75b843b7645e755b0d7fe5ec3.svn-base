@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="realize-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be cognizant of, comprehend, perceive" type="">
+      <commentary>
+         Syntax Is: NP1 REALIZE SCOMP
+      </commentary>
+      <examples>
+         I suddenly realized I forgot to feed the cat!
+         He is slowly realizing how important a college education will be.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>realize.01</pb>
+         <vn>conjecture-29.5-1,discover-84</vn><fn>Coming_to_believe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="actualize, make real" type="">
+      <commentary>
+         Syntax Is: NP1 REALIZE NP2
+      </commentary>
+      <examples>
+         She finally realized her dream of home ownership.
+         We eventually realized our goal of visiting Venice.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>realize.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="take in, earn, acquire" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         You'll pay capital gains on any profits you realize from selling that stock.
+         He realized a loss when he sold that apartment building.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

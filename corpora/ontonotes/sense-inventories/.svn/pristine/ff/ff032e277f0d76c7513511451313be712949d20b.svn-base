@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cling-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Physically hold or be in contact with." type="">  
+      <commentary>
+      Includes: CLING TO
+      Syntax Is: NP1 CLING (TO) (NP2[concrete])
+      Note: Compare to sense 2. In sense 1, NP1 is not an agent, and clings
+      to something concrete (NP2).
+      </commentary>
+      <examples>
+      The dress clings to her body.
+      This costume really clings.
+      The child clung to his mother's apron.
+      She clung to my arm when she got scared.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="cling_to" version="3.0"></wn>
+         <omega></omega><pb>cling.01</pb>
+         <vn>cling-22.5</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="To remain emotionally or intellectually
+         attached without necessary physical contact." type="">
+      <commentary>
+      Is: CLING TO
+      Syntax Is: NP1[agent] CLING TO NP2[patient[abstract]]
+      Note: Compare to sense 1. In sense 2, NP1 is an agent, and clings to
+      a patient NP2. 
+      </commentary>
+      <examples>
+      He clings to the idea that she might still love him.
+      She clings to him unconditionally even though they haven't seen
+      eachother in years.
+      The U.S. clings to command-and-control measures in the Baltic.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cling.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Cause to) make a ringing sound." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      I clung the glasses together and offered a toast.
+      John's alarm clock clings at 5am every morning. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cling.02</pb>
+         <vn>sound_emission-43.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

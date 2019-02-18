@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="blame-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of accusing someone or something for being at fault" type="Event">
+        <commentary>
+            BLAME[+event][+speech_act][+accusation][+of_fault]
+        </commentary>
+        <examples>
+            His blame of John for stealing the data was totally unfounded.
+            Their blame is apparently only directed at speculators in the oil markets.
+            Reporters are questioning the governor's blame of the scandal on a staff member.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega/><pb>blame.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the event role of being responsible for a fault" type="Event">
+        <commentary>
+            BLAME[+role][+event][+agent][+responsible][+for_fault]
+        </commentary>
+        <examples>
+            He would not accept the blame for losing last night's game.
+            The defendant was willing to take the blame in return for a lightened sentence.
+            The blame for the outbreak turned out to be a shipment of infected lettuce.
+            There is plenty of blame to go around in this case.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>blame.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

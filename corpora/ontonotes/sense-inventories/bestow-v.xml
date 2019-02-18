@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bestow-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Present to or give to as a gift." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] BESTOW NP2[patient] (PP{P NP[recipient]}) 
+      </commentary>
+      <examples>
+      The university bestowed a degree on its most famous former student,
+      who never graduated.
+      We bestow this honor on you, Louisa.
+      The award is bestowed upon the bravest soldier in a given conflict.
+      The rank was bestowed on him by his commanding officer. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>bestow.01</pb>
+         <vn>NP</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Cause to have a certain quality." type="">
+      <commentary>
+      Syntax Is: NP1[topic] BESTOW NP2[attribute]
+      </commentary>
+      <examples>
+      Her presence bestows a certain cachet on the company.
+      The music bestowed an aire of elegance to the play.
+      This bestows a light note. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="cancel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="stop, postpone or annul something from happening" type="">  
+      <commentary>
+       Note: This sense is strictly for events or processes that were scheduled to happen
+             but did not, due to cancellation. If the cancellation happened mid process,
+             then the sense 2 would apply.
+      </commentary>
+      <examples>
+        The guest speaker is sick and has had to cancel class.
+        If it rains tomorrow, we'll have to cancel our picnic.
+        The 7am train to New York has been cancelled.
+        We were forced to cancel our vacation cruise.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>cancel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="put an end to, make invalid a process that's already begun" type="">
+      <commentary>
+        Note: This sense implies a process or a series of events have been put to effect
+              then put to end by either nullification or invalidation of the process.
+        Note: This sense implies something is being stopped after already starting
+      </commentary>
+      <examples>
+        Could you cancel my subscription to your magazine?
+        Members are free to cancel at any time.
+        How do I cancel the download from the internet?
+        He is calling on the CEP to cancel the results at this polling station.
+        A customer cancelled his personal check on me after receiving the product!
+        The bank cancelled the check because it was fraudulent.
+        If the stamp has been canceled, the stamp should be light.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4,5</wn>   
+         <omega/><pb>cancel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="neutralize or counterbalance an effect with an opposite effect" type="">
+      <commentary>
+        Includes: CANCEL OUT
+      </commentary>
+      <examples>
+        This month's paycheck will cancel out his debt, but it won't give him any extra money.
+        The new tax effectively cancels out my raise.
+        The `A' will cancel out the `C' on your record.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="cancel_out" version="3.0">1</wn>
+         <omega/><pb>cancel.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc,vieweg" sample_score="-"/>  
+</inventory>

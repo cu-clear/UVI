@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="indictment-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a legal document formally accusing a party" type="">
+        <commentary>
+            INDICTMENT[+entity][+document][+legal][+accusation]
+        </commentary>
+        <examples>
+            The wording in the indictment mentioned conspiracy.
+            The prosecutor will draw up the indictments.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>indictment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of making a formal accusation" type="Event">
+        <commentary>
+            INDICTMENT[+event][+speech_act][+accusation][+formal]
+        </commentary>
+        <examples>
+            The district attorney has just announced the indictment of twelve people for cocaine dealing.
+            The man listened to his indictment without any sign of outward expression.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega/><pb>indictment.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="something serving as a condemning indicator" type="Event">
+        <commentary>
+            INDICTMENT[+relation][+role][+indicator][+condemning]
+        </commentary>
+        <examples>
+            The deteriorating condition of the elderly was an indictment on their society.
+            The vote was a clear indictment of the government policy towards immigration.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

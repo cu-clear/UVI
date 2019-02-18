@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="blink-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="briefly shut the eyes" type="">  
+      <commentary>
+        NP1 BLINK
+      </commentary>
+      <examples>
+        The TV announcer never seems to blink.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>blink.01</pb>
+         <vn>hiccup-40.1.1,wink-40.3.1-1</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to go away by blinking" type="">
+      <commentary>
+        Includes: BLINK AWAY
+        
+        NP1 BLINK AWAY NP2
+      </commentary>
+      <examples>
+        His eyes reddened as he blinked away tears.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="blink_away" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>wink-40.3.1-1</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="gleam or glow intermittently" type="">
+      <commentary>
+        NP1 BLINK
+      </commentary>
+      <examples>
+        The crew realized that the lights were blinking on and off.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>light_emission-43.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

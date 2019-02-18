@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="vegetate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Lead a passive existence; relax." type="">  
+      <commentary>
+      Syntax Is: NP1[agent[animate]] VEGETATE (PP)
+      </commentary>
+      <examples>
+      I often just vegetate in front of the television.
+      Children these days just vegetate.
+      The cat vegetated on the floor. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,7</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>vegetate.01</pb>
+         <vn>exist-47.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Plant with some crop." type="">
+      <commentary>
+      Syntax Is: NP1[agent] VEGETATE NP2[patient]
+      </commentary>
+      <examples>
+      They vegetated the hills behind the house.
+      Farmers often help vegetate open land, preventing erosion. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Grow, like a plant." type="">
+      <commentary>
+      Syntax Is: NP1[theme] VEGETATE
+      </commentary>
+      <examples>
+      The fields vegetate vigorously.
+      The fungus usually vegetates quickly.
+      Warts can vegetate if not removed.
+      The bacterial growth vegetated along. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4,5,6</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

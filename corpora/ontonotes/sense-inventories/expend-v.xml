@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="expend-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="to spend, consume" type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] EXPEND ON NP2
+      </commentary>
+      <examples>
+        The Parliament expended its time on economic reforms.
+        He spent one half of the money he expended on attorney's fees.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>expend.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

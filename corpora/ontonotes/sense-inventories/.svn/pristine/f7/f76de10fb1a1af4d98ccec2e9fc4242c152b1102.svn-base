@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="extinguish-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put an end to" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent] EXTINGUISH NP2[patient|theme] (PP[source])
+      NP1[instrument] EXTINGUISH PP[manner]
+      </commentary>
+      <examples>
+      Socialism extinguished these archaic customs.
+      Your politicians labor to extinguish the idea of any Law higher than their own wicked bargains.
+      If such sort of preferments are extinguished, a very serious evil is done to the Church.
+      Hopes that the economy has started to recover have been extinguished by a series of poor data.
+      Psychiatry in China tries to extinguish from the minds of people the beliefs the state cannot change.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4,5</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>extinguish.01</pb>
+         <vn>remove-10.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="put out a fire" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] EXTINGUISH NP2[theme] (PP[instrument])
+      NP1[instrument] EXTINGUISH NP2[theme]
+      </commentary>
+      <examples>
+      He threatened to extinguish the flames prepared for his own destruction.
+      He extinguished the candle with the overturned glass.
+      Crewmembers extinguished the fire with foam from three fire extinguishers.
+      The foam extinguished the fire effectively.
+      CO2 is useful for extinguishing a person who is on fire.
+      A powder based agent extinguishes by separating the four parts of the fire tetrahedron.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>extinguish.01</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

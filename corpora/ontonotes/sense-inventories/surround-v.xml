@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="surround-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="occupy or expand the space all around something or someone" type="">  
+      <commentary>
+        Note: NP1 SURROUND ONESELF PP doesn't necessary have to mean physical presence
+        Note: No sense of confinement or imprisonment
+        around someone.
+      </commentary>
+      <examples>
+        Snow-capped mountains surround the city.
+        Gwen sat at her desk, surrounded by books and papers.
+        The forest surrounds my property.
+        I am surrounded by beauty!
+        She said that she wanted to die surrounded by the people she loves.
+        Cate surrounds herself with good friends to help her feel better.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega></omega><pb>surround.01</pb>
+         <vn>contiguous_location-47.8,fill-9.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="confine on all sides to bar escape or outside communication" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Mystery still surrounds the exact circumstances of Stalin's death.
+        Armed police surrounded a house which they thought contained an escaped prisoner.
+        Police surrounded a bus full of passengers seized by armed hijackers along a highway.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega></omega><pb>surround.01</pb>
+         <vn>fill-9.8</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

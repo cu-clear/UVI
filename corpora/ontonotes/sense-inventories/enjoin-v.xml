@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="enjoin-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="direct someone to do something with emphasis" type="">  
+      <commentary>
+        NOTE: Contrast with sense number 2, not necessarily a prohibition. 
+      </commentary>
+      <examples>
+        The doctor enjoined a strict diet.
+        The nurse enjoined to keep the patient as still as possible.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="LEGAL: prohibit, prevent; issue an injunction, forbid action" type="">
+      <commentary>
+        NOTE: All legal uses of enjoin should be tagged with this sense.
+      </commentary>
+      <examples>
+        The district court permanently enjoined the Youngs from irrigating
+        their property.
+        A federal judge  enjoined the state from enforcing a law that would
+        ban the sale of violent video games to minors.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>enjoin.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,trevorjb" sample_score="-"/>  
+</inventory>

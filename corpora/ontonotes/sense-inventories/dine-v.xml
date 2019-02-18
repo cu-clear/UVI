@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dine-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="eat dinner" type="">  
+      <commentary>
+        Includes: DINE IN, DINE OUT
+        Syntax Includes: NP1 DINE (in/out)
+      </commentary>
+      <examples>
+        Her parents dined with friends nearby.
+        We dined in on Saturday night.
+        As they dined out, night after night, year after year, they
+        introduced themselves to chefs.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="dine_in" version="3.0">1</wn>
+         <wn lemma="dine_out" version="3.0">1</wn>
+         <omega></omega><pb>dine.01,dine.02</pb>
+         <vn>dine-39.5</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give dinner to, host for dinner" type="">
+      <commentary>
+        Syntax Is: NP1 DINE NP2
+      </commentary>
+      <examples>
+        U.S. citizens wined and dined their Venezuelan friends at the
+        Waldorf Astoria.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

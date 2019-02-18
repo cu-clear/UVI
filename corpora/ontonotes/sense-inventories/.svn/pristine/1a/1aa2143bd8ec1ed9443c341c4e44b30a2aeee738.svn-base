@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="elevate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) improve social or organizational
+   position or operational status; make better." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      I got elevated in the firm after many years of hard work.
+      The new law elevated many people from poverty.
+      I can only hope to elevate my soul; it's forgiveness I need.
+      The team needs to elevate their game in order to win this tournament.
+      The Republican Party has elevated its presence in Congress.
+      The Democrats have elevated their chance at Presidential bid. 
+       </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>elevate.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Physically raise from a lower position." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Elevate your hands.
+      It's difficult to elevate the load that high in the air.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>elevate.01</pb>
+         <vn>put_direction-9.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Increase the severity of legal charges or
+         punishments." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The bill elevates minor rule infractions to felonies.
+      His sentence was elevated from six months to a year. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Increase the level or amount of, without necessarily improving something." type="">
+      <commentary>
+       Syntax Includes:
+       NP1[agent] ELEVATE NP2[patient[abstract]]
+       NP1[patient[abstract]] ELEVATE
+       Note: The thing elevated must be [abstract].
+      </commentary>
+      <examples>
+      Anger elevates to rage given time.
+      Our problems keep elevating in difficulty. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>elevate.01</pb>
+         <vn>put_direction-9.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,greenlm" sample_score="-"/>  
+</inventory>

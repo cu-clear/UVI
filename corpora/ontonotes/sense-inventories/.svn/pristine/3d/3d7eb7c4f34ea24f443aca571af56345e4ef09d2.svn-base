@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="boggle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hesitate in confusion, doubt or fear" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[experiencer[animate]] BOGGLE PP[stimulus]
+      </commentary>
+      <examples>
+      We start and boggle at every unusual appearance.
+      He boggled much at the freeing his son from his debts.
+      The world boggles at Rhianna's goggles.
+      She boggled at paying such a price.
+      We stopped what we were doing and boggled at each other and the streaming windows.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>boggle.01</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="overcome with amazement; flabbergast" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent|stimulus] BOGGLE NP2[experiencer]
+      Often occurs adjectivally.
+      </commentary>
+      <examples>
+      This boggles the mind!
+      In Tokyo, she boggled fashion minds by turning out in a futuristic metallic spotted pantsuit.
+      Scientists have been boggled as the number of sick pelicans along the coast of California increases.
+      Scientists Boggled by Enormous Octopus.
+      Initially pleased, I soon was boggled by the instability i found there.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>boggle.01</pb>
+         <vn>amuse-31.1</vn><fn>Experiencer_obj</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="make a bungle or botch of" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] BOGGLE NP2[theme]
+      Occurs often adjectivally.
+      </commentary>
+      <examples>
+      His affairs were found to be woefully boggled.
+      He boggled the whole thing.
+      Bill set up for a horse doctor, but he boggled everything, an' killed more'n he cured.
+      While she boggled the start with a miscue, she quickly regained her composure.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

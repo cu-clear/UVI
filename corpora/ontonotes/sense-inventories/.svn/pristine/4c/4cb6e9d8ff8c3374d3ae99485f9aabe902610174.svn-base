@@ -1,0 +1,254 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="time-n">
+    <commentary>06JAN08 update wn2.1, added features, revised definitions, examples. ahouston
+        06JAN08 added sense 11 ahouston
+        9Dec08 merged S10 with S4, revised examples, features, defs. ahouston
+    </commentary>
+    <sense group="1" n="1" name="event or occasion when something happens" type="">
+        <commentary>TIME[+event][+temporal][+occasion]
+            An event or occasion when something happens
+        </commentary>
+        <examples>This time Mary is going to pay for lunch.
+            Next time I see him, I'll give him your business card.
+            It was only the second time they had ever met each other.
+            The nurse visits the patients four times a day. (four occasions)
+            This is not the time to remind John of his defeat in the local election.
+            I'll be happy to help at any time. (a future hypothetical event is implied here)
+            I had a wonderful time at the party.
+            They are having a rough time dealing with their daughter's suicide.
+            The park is beautiful this time of year. 
+            It's time to give the baby his medicine.
+            The umpire called time.  (a moment which stops the game play)
+            The soccer player scored three minutes from time. (the moment the game ends)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4,7</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="historical period or epoch defined by a characteristic" type="">
+        <commentary>TIME[+event_set][+period][+epoch][+historical][+characterized]
+            A span of time, a period or epoch, characterized by some attribute
+            Note: what is emphasized is the type of events or circumstances of that time span.
+        </commentary>
+        <examples>Those were difficult times during the Great Depression.
+            During Victorian times, young unmarried ladies did not travel unescorted.
+            The book describes ship-building technology during the time of Columbus.
+            It was a time of great change in their country.
+            She knew many of the famous painters of her time.  (of her historical era)
+            His time in the navy was spent mostly in the Pacific.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="personal free time, a resource" type="">
+        <commentary>TIME[+quantity][+span][+temporal][+resource][+possession]
+            Time as a resource or a possession, 
+            Note: implies personal choice in how the time is spent
+        </commentary>
+        <examples>I don't know where all of my time goes.
+            Don't waste your time, he'll never listen.
+            'I can always make time for ice cream', Sally said.
+            The boss told them they could surf the Internet on their own time.
+            We took our time exploring small shops on the side streets of Venice.
+            Mary spends a lot of time perusing the antique shops in the area.
+            The teacher told the students to use their time wisely.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="continuous passage of events from now into the future" type="">
+        <commentary>TIME[+event_set][+continuous][+directional][+towards_future]
+            Note: emphasis is on the general passage of time itself, not a characterized historical or seasonal epoch (Sense 2)
+            Note: also not a reference to a delimited event or circumstance (Sense 1)
+        </commentary>
+        <examples>It takes time and determination to build a business.
+            How much time do we have before the meeting starts?
+            Time flies when you're having fun.
+            For some time now John has had a crush on Mary.
+            What will the universe be like at the end of time?
+            He is one of the greatest poets of all time. 
+            It has always been that way, since time began.
+            Tachyons are hypothetical particles that travel backwards through time.
+            The theory of relativity holds that time is the fourth dimension.
+            One physicist has argued that time does not exist and tries to show this through his equations.
+        </examples>
+        <mappings>
+            <wn version="3.0">5,8</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="a measurement given on a clock" type="">
+        <commentary>TIME[+quantity][+measurement][+temporal][+of_clock]
+            The number assigned to a specific piece of the day by the clock
+        </commentary>
+        <examples>What time is it?
+            The time is four o'clock.
+            Departure time is 6:15am.
+            Add nine hours to figure out London time.
+            The time on that clock is not correct.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="accumulation of quantities, e.g., multiplication" type="">
+        <commentary>TIME[+quantity][+unit][+accumulated]
+            Description of the amount by which something has multiplied
+        </commentary>
+        <examples>New York is ten times the size of this city.
+            Five goes into fifteen three times.
+            We earned our investment back many times over on this deal.
+        </examples>
+        <mappings>
+            <wn version="MW online">9a-</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="a recorded amount of clock time for a task" type="">
+        <commentary>TIME[+quantity][+span][+temporal][+recorded][+on_clock]
+            The recorded amount of clock time taken to accomplish a task
+            Note: measures a recorded -length- of time, not a point (Sense 5)
+        </commentary>
+        <examples>My best time is 10.564 seconds.
+            The runner turned in one of his worst times in the last relay.
+            What was your split time for the last mile of the marathon?
+            The time it takes to get from Gate 17  Terminal A to Gate 12 Terminal B is a
+        </examples>
+        <mappings>
+            <wn version="MAC">2m-</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="jail time" type="Slang">
+        <commentary>TIME[+state][+social][+period][+incarceration]
+            The period of time a prisoner is in prison
+        </commentary>
+        <examples>He is doing time in the county jail.
+            How much time did they do for the armer robbery?
+            The judge shortened his time for good behavior.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="rhythmic divisions of music" type="Technical">
+        <commentary>TIME[+quantity][+span][+temporal][+unit][+rhythm][+musical]
+            Rhythm as given by division into parts of equal time.
+        </commentary>
+        <examples>A jig is in six-eight time.
+            He was in time with the beat.
+            That tune is written in waltz time.
+            The conductor kept time with his baton.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="Placeholder Sense: Do Not Choose" type="Technical">
+        <commentary/><examples/>
+        <mappings>
+            <wn version="3.0">1</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="11" name="rate of throughput" type="">
+        <commentary>TIME[+quantity][+measurement][+rate][+throughput]
+            The rate at which something occurs.
+        </commentary>
+        <examples>The children filed in one at a time.
+            Tom can juggle six balls at a time.
+            How many times a second does the propeller rotate?
+            It burns calories four times faster than walking. (a rate of burning)
+        </examples>
+        <mappings>
+            <wn version="MW online">7a</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="12" name="Idioms" type="">
+        <commentary>be_about_time 		(something should be happening)
+            against_time  		(with utmost speed)
+            ahead_of_time 		(ahead of schedule)
+            ahead_of_one's_time 	(having ideas more advanced than one's contemporaries)
+            all_the_time		(very frequently)
+            at_one_time		(during some unspecified period of the past)
+            at_the_same_time		(simultaneously)
+            at_times			(on unspecified occasion)
+            before_time		(before schedule)
+            behind_time		(behind schedule)
+            behind_the_times		(out of date)
+            for_the_time_being		(at present until some future unspecified date)
+            not_give_someone_the_time_of_day	(be unfriendly, ignore someone)
+            half_the_time		(as often as not)
+            in_no_time, no_time		(very quickly)
+            in_one's_own_time		(at one's own rate, unrushed)
+            in_time			(not late)
+            keep_good/bad_time	(a clock's ability to measure time accurately)
+            lose_no_time		(do something immediately)
+            on_time			(punctual)
+            pass_the_time_of_day	(exchange in chit chat, casual conversation)
+            time_after_time		(frequently)
+            time_and_again		(on unspecified occasions)
+            time_is_money		(don't engage in wasteful activities, time is a precious resource)	
+            time_was			(there was once a situation)
+            only_time_will_tell		(the truth or consequence will be established at a future date)
+            time_immemorial		(long, long ago)
+            time_out_of_mind		(long, long ago)
+            Note: Use this sense for other idiomatic phrases involving 'time' which may not be included here
+        </commentary>
+        <examples>It's about time he came clean and admitted his mistakes.
+            The surgeons were racing against time to save the child.
+            Let's get to the theater ahead of time so we can get good seats.
+            He was a composer far ahead of his time.
+            The patient complained of hearing voices in his head all the time.
+            At one time she was a nurse in the Washington D.C. area.
+            I like him but at the same time I don't completely trust him.
+            At times she would become sullen for no apparent reason.
+            Is it still before time to plant the bulbs for next spring?
+            John will make the meeting unless his plane is behind time.
+            Mary thinks that candidate is behind the times when it comes to trade treaties.
+            For the time being the company is not planning any layoffs. 
+            After Bob's comment, Sally wouldn't give him the time of day.
+            Half the time the students don't turn in their homework.
+            Spring will be here in no time.
+            The waiter got to our table in his own sweet time.
+            There is some danger that, in time, he may not be able to withstand the temptation.
+            We didn't get back in time to go to the party.
+            My watch keeps pretty good time.
+            John lost no time in moving in on Mary after she broke up with Tom.
+            She always pays her bills on time.
+            The two friends sat on a wall, passing the time of day.
+            Time after time she told the boy to pick his clothes up off the floor.
+            We go to that pub time and again.
+            Time is money - especially when you enlist the service of a lawyer!
+            Time was you could build a fire on the beach and sleep there overnight.
+            Only time will tell whether the stimulus package helps the economy.
+            Their tribe has always fished these waters from time immemorial.
+            Locals say the building has stood there for time out of mind.
+        </examples>
+        <mappings>
+            <wn version="">Idiom</wn><omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

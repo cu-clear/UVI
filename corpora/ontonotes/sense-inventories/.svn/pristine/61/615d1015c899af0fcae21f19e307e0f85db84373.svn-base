@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="flex-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="contract, as a muscle" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] FLEX NP2[patient[body_part]] (PP[cause]) (PP[recipient])
+      NP1[patient[body_part]] FLEX (PP[cause]) (PP[recipient])
+      </commentary>
+      <examples>
+      You could see his hands flexing, already pulling the trigger.
+      She caught a glimpse of Stresa's quilled body flexing.
+      Iran flexes its military muscles.
+      Ivory Latta flexed her muscles at LeBron James.
+      He flexed his muscles at the thought of finally choosing.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flex.01</pb>
+         <vn>crane-40.3.2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause something flexible to bend" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent|cause] FLEX NP1[patient]
+      NP1[patient] FLEX (PP[cause])
+      </commentary>
+      <examples>
+      The bridge flexed under Farinelli's weight.
+      The RV rippled and flexed.
+      The bristly tentacle around Conan's waist flexed.
+      I actually gently flexed the rod against the floor.
+      We flex the rod when we flycast.
+      The sling-holder's weight flexed the beam.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flex.02</pb>
+         <vn>bend-45.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause an object to assume a bent or crooked form" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] FLEX NP2[material] PP[product]
+      </commentary>
+      <examples>
+      He flexed the rod into a right angle.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>flex.02</pb>
+         <vn>bend-45.2,knead-26.5</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="" sample_score="-"/>
+</inventory>

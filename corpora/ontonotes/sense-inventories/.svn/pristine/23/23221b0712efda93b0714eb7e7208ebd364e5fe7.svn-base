@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stock-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="keep, carry, have available, supply" type="">
+      <commentary>
+        Syntax is: NP1[agent] STOCK NP2 (ex. Target stocks cosmetics)
+                   NP1[agent] STOCK NP2 PP (ex. Whole Foods stocks its shelves with expensive food)
+      </commentary>
+      <examples>
+        We stock many varieties of oriental medicines
+        Businesses that stock too little inventory go out of business quickly
+        The park service stocked the lake with fish
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5,6</wn>
+         <omega></omega><pb>stock.01</pb>
+         <vn>keep-15.2,spray-9.7-2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="equip with a stock" type="">
+      <commentary>
+        Syntax is: NP1[agent] STOCK NP2
+      </commentary>
+      <examples>
+        I'm planning on stocking my rifle.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group = "1" n="3" name="put forth and grow sprouts or shoots" type="">
+      <commentary>
+        Syntax is: NP1 STOCK (Intransitive)
+      </commentary>
+      <examples>
+        Though the oatfields have stocked a little, the crop is far too thin.
+      </examples>
+      <mappings>
+         <wn version="3.0">7</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group = "1" n="4" name="STOCK UP: Add to or fill a stock or quantity"
+         type="">
+      <commentary>
+        IS: STOCK UP 
+        Syntax is: NP1 STOCK UP (PP)
+      </commentary>
+      <examples>
+        Andrew stocks up on socks each Christmas.
+        Wow, you really stock up when you go to the market.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>stock.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="trevorjb,corvey" sample_score="-"/>  
+</inventory>

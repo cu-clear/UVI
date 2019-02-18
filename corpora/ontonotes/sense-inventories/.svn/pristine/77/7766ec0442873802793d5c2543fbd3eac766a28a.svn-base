@@ -1,0 +1,84 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="network-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a system of interconnected social entities,e.g., people, organizations" type="">
+        <commentary>
+            NETWORK[+entity][+system][+interconnected][+social][+community][+people]
+            NETWORK[+entity][+system][+interconnected][+social][+community][+business]
+        </commentary>
+        <examples>
+            His family  has built up a network of inexpensive motor inns throughout the midwest.
+            John studied social network theory in college.
+            She has an extensive network of friends both here and in Europe.
+            The spy network they uncovered had been working inside the Beltway for a decade.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a broadcasting business, an enterprise that disseminates content via telecommunications equipment" type="">
+        <commentary>
+            NETWORK[+entity][+organization][+business][+telecommunications][+broadcast]
+            Note: refers to the business of disseminating content, -not- the physical medium (see Sense 3)
+        </commentary>
+        <examples>
+            A French network was the first to run the story.
+            Sally never watches network television.
+            The networks are losing market share every year to the cable companies.
+            Network executives were outraged at the performance during the Super Bowl half time show.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a physical system of interconnected components" type="">
+        <commentary>
+            NETWORK[+entity][+system][+interconnected][+physical][+line][+electromagnetic[+circuit/+signal/+wire]/+land[+rail/+road]/+water[+canal]]
+            Note: focus is on the medium of transport, -not- the business of disseminating content (see Sense 2)
+        </commentary>
+        <examples>
+            The network of wires and cables in a modern aircraft is large and complex.
+            We travelled through France on the network of old canals still in existence.
+            That country's network of roads is in a state of serious decay.
+            Neural networks in the brain are still not well understood.
+            The topology of this network is a token ring.
+            ABC Network said their network went down in Boston because of the ice storm. (second instance is this sense)
+            Solar flares sometimes cause problems for satellite communication networks.
+            John set up a a local area network for his family.
+            Skeptics believe the story is just a network of lies concocted by political cronies. (metaphoric use)
+        </examples>
+        <mappings>
+            <wn version="3.0">4,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a mesh-like fabric or substance" type="">
+        <commentary>
+            NETWORK[+entity][+substance][+material][+interconnected][+natural][+vein]
+            NETWORK[+entity][+substance][+material][+interconnected][+man_made][+fabric][+mesh]
+        </commentary>
+        <examples>
+            The hammock consisted of a course network of rope, slung up between two trees.
+            The fine mesh bag was a network of nylon threads, loosely woven together.
+            A network of spidery small veins were apparent in his cheeks.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

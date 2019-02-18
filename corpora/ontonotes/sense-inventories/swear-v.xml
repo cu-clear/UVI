@@ -1,0 +1,113 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="swear-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="solemnly promise, bind by oath" type="">
+      <commentary>
+        Includes: SWEAR IN
+        Syntax is: NP1[agent] SWEAR VP[non-finite]
+                   NP1[human] SWEAR (NP2[human] to) NP3
+        Note: participants can include an individual making a promise, an
+        individual being bound to a promise, and witnesses (animate or inanimate)
+      </commentary>
+      <examples>
+        He swore to uphold the law.
+        He swore an oath to be the kingdom's champion.
+        We were sworn to secrecy.
+        He was so bad at lying, I swore him to silence on a deep-cover.
+        He swore on a historic bible and had no objections to doing it.
+        He swore by his crown of moonshine that he would battle all the stars in the skies.
+        The speaker of the House swore in the new President.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3</wn>
+         <wn lemma="swear_in" version="3.0">1</wn>
+         <omega/><pb>swear.01</pb>
+         <vn>NM</vn><fn>Commitment</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="utter profanities" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I got so used to using bad language that I almost swore at my students.
+        He claimed that the referee swore at him.
+        No matter what your mother said, there may be times when swearing is appropriate.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>swear.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="assert sincerely, avow, state as true" type="">
+      <commentary>
+        Syntax is: NP1[agent] SWEAR
+      </commentary>
+      <examples>
+        I solemnly swear that I am up to no good.
+        I swear to you Miss Scarlett, I don't know nothing about cooking collards.
+        He swore the results had to be wrong and that I'd made an error somewhere.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>swear.04</pb>
+         <vn>conjecture-29.5-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="have confidence or faith in" type="">
+      <commentary>
+        Syntax is: NP1 SWEAR BY NP2[object]
+        Note: compare carefully to sense 1; in this sense
+              NP2 is the object of confidence, not the &quot;witness&quot; to an oath
+      </commentary>
+      <examples>
+        I swear by my grandmother's recipes.
+        He swore by Craftsman tools.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>swear.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="abstain from" type="">
+      <commentary>
+        Includes: SWEAR OFF
+      </commentary>
+      <examples>
+        I have sworn off cigarettes altogether.
+        He swore off dangerous stunts like wing-walking on biplanes.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="swear_off" version="3.0">1</wn>
+         <omega/><pb>swear.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="deliver a warrant or summons to someone" type="">
+      <commentary>
+        Includes: SWEAR OUT
+      </commentary>
+      <examples>
+        He swore out a warrant on March 1 for the arrest of Queensbury.
+        He swore out the affidavit on condition Angelico send them to the ARRB.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="swear_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

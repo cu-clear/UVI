@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="strangle-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="kill, choke or die because of constriction to the throat" type="">  
+      <commentary>
+        Syntax is: NP1[concrete] STRANGLE NP2 [concrete]
+      </commentary>
+      <examples>
+        Hercules, in his cradle, strangled the serpents.
+        She would never have strangled the prophets for foretelling better days. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,5,6</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>poison-42.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hinder or conceal the progress or occurrence of" type="">
+      <commentary>
+        Syntax is: NP1[agent] STRANGLE NP2[abstract]
+      </commentary>
+      <examples>
+        How did 'New Labour' strangle the UK?
+        They have strangled the music.
+        The dictator wants to strangle trade between the two opposing nations.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>strangle.01</pb>
+         <vn>subjugate-42.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="need-n">
+    <commentary>
+        28sep06 update to wn2.1, added features. ahouston
+        29sep06 modified definitions, examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a requirement, necessity" type="Event">
+        <commentary>
+            NEED[+state][+necessity]
+            a condition requiring relief; anything that is necessary but lacking
+        </commentary>
+        <examples>
+            There is no need to make a reservation at that restaurant.
+            The needs of the community are not being met by the current senior center.
+            Plants have the basic needs of water, nutrient and sunlight.
+            At the moment their company has a great need for electrical engineers.
+            You may carry a few personal needs with you in one small carry-on bag. 
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>need.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="motive, urge, desire" type="Event">
+        <commentary>
+            NEED[+state][+internal][+urge][+physical/+mental]
+            The psychological feature that arouses an organism to action toward a
+            desired goal; the reason for the action; that which gives purpose and
+            direction to behavior
+            Note: implies an agent with a motive, urge
+        </commentary>
+        <examples>
+            We are feeling the need to get on with this project.
+            The patient described a constant need to urinate.
+            Mary doesn't understand John's need to always criticize everything.
+            These rawhide strips will satisfy your dog's need to chew.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>need.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="poverty, destitution" type="">
+        <commentary>
+	    NEED[+event][+state][+social][+poverty]
+	    a state of poverty or destitution
+	    </commentary>
+        <examples>
+            The charities provide food at Thanksgiving for families in need.
+            A general state of need exists among the homeless.
+            He always helped his neighbors in times of need. (extension of core usage)
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>need.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

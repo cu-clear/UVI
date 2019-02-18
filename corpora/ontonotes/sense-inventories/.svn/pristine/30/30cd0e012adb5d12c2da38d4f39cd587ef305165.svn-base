@@ -1,0 +1,199 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="check-v">    
+   <commentary>
+      WN 20 - Write out a check on a bank account is never used as a verb!
+      WN 7 - delay retard: I could not find any example sentence used this way!
+      check_out WN 6 - write out check - again, no uses...
+   </commentary>
+   <sense group="1" n="1" name="examine, esp. to confirm validity, correctness, safety, or suitability" type="">
+      <commentary>
+      Syntax Is: 
+        NP1[agent] CHECK NP2[patient]
+        NP1[agent] CHECK PP
+ 
+        Includes: CHECK INTO, CHECK ON, CHECK OUT, CHECK OVER, CHECK UP ON
+      </commentary>
+      <examples>
+        You should always check your oil before taking your car on a long trip.
+        Customs stopped us and checked our bags for alcohol and cigarettes.
+        After I'd finished the exam, I checked over my answers for mistakes.
+        The doctor will call next week to check up on your progress.
+        My wife checks on our elderly neighbour every few days to make sure that he's alright.
+        You should check out John's column this week.  It is really funny.
+        If you're near the garage, could you check to see if the car's ready?
+        If you're unsure of your legal rights, I would check with a lawyer.
+        The six computers check with one another to assure that they are doing the same thing.
+        I'll check into that!
+        The council usually sends someone to check out the noise levels.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,21,22</wn>
+         <wn lemma="check_into" version="3.0">1</wn>
+         <wn lemma="check_out" version="3.0">1,4,7</wn>
+         <wn lemma="check_over" version="3.0">1</wn>
+         <wn lemma="check_up_on" version="3.0">1</wn>
+         <omega/><pb>check.01,check.04</pb>
+         <vn>peer-30.3,search-35.2</vn><fn>Inspection,Scrutiny</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="agree, confirm, or be consistent" type="">
+      <commentary>
+       Note: intransitive
+      Syntax Is:  NP1[patient] CHECK
+      </commentary>
+      <examples>
+        These stories don't check.
+        The fingerprints checked out with the ones on file. 
+        Her statement checks with most of the eye-witness reports.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,9</wn>
+         <wn lemma="check_out" version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="keep something or someone under control; stop something from happening" type="">
+      <commentary>
+       Syntax Is:  NP1[agent] CHECK NP2
+        Note: This sense includes blocking or controlling the progress of an opponent move.
+      </commentary>
+      <examples>
+        They began to vaccinate children in an attempt to check the spread of the disease.
+        Check your anger before law does.
+        Checking the urge to laugh out loud, I buried my head in the newspaper.
+        Some people simply can't check their behavior while under the influence.
+        He checked the flow of water by shutting off the main valve.
+        'I mean,' she checked herself hastly. 'ah ... I dunno where he may be.'
+        In mid-sentence, he checked himself abruptly, looking terribly embarrassed.
+        He was a great defender that routinely checked the opponent's best offensive threat.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,7,10,11,18,23</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Preventing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="mark something with a check mark" type="">
+      <commentary>
+        Includes: CHECK OFF
+      </commentary>
+      <examples>
+        Please check your name off from the list.
+        Check the box next to Connect Automatically when starting TCP/IP applications.
+        Please make sure you have checked the circle next to the item you require.
+        Check here if the billing address is different from the shipping address.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,16</wn>
+         <wn lemma="check_off" version="3.0">1</wn>
+         <omega/><pb>check.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="consign belongings for temporary safekeeping" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She checked her bags and boarded the plane.
+        Check your coat at the door.
+      </examples>
+      <mappings>
+         <wn version="3.0">12,13</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="arrive and register/commit" type="">
+      <commentary>
+        Includes: CHECK IN, CHECK INTO
+      </commentary>
+      <examples>
+        When we checked in at the hotel, we also checked in at the Cruise Line desk.
+        Her doctor said she needed treatment and checked her into the hospital.
+        He checked himself into a rehabilitation treatment center for alcohol.
+        We achieved the airport, checked in at the counter, and sat in the lobby.
+      </examples>
+      <mappings>
+         <wn lemma="check_in" version="3.0">1</wn>
+         <omega/><pb>check.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="unregister, make necessary payments, and leave" type="">
+      <commentary>
+        Includes: CHECK OUT
+      </commentary>
+      <examples>
+        We awoke the following morning, had breakfast, and checked out of the hotel. 
+        The lady at the grocery shop that checked us out was very friendly.
+      </examples>
+      <mappings>
+          <wn version="3.0"></wn>
+          <wn lemma="check_out" version="3.0">2,5</wn>
+          <omega/><pb>check.02</pb>
+          <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="create cracks or chinks in" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Sunlight dried and checked the paint.
+        The glass checked when it was heated.
+      </examples>
+      <mappings>
+         <wn version="3.0">24,25</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="in chess: put the opponent king under direct attack" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The rook capture would have checked the king and held the pawn at a7.
+      </examples>
+      <mappings>
+         <wn version="3.0">19</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="trackers: stop in a chase when the scent is low" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Suddenly the dog checked, sniffed and scratched around tentatively in the leaves. 
+      </examples>
+      <mappings>
+         <wn version="3.0">15</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="falcon: abandon intended game and pursue lesser prey" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Sorry, could not find example
+      </examples>
+      <mappings>
+         <wn version="3.0">14</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="12" name="gambling: decline to initiate a betting" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Sorry, could not find example.
+      </examples>
+      <mappings>
+         <wn version="3.0">17</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,brownsw" sample_score="-"/>  
+</inventory>

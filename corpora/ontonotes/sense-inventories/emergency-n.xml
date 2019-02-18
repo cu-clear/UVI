@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="emergency-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="an immediate, unforeseen crisis, often dangerous" type="">
+        <commentary>
+            EMERGENCY[+event][+crisis][+immediate][-foreseen]
+            Note: does not imply a mandated a state of need for a community (see Sense 2)
+            Note: implies an unexpected, serious event requiring immediate attention.
+        </commentary>
+        <examples>
+            Call this number in case of emergency.
+            This can wait until tomorrow, it's not an emergency.
+            The plane made an emergency landing in Omaha.
+            The senator was rushed into emergency following the accident. (emergency room)
+            It's becoming an emergency situation with their currency devaluation.
+            They called an emergency session of Congress.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an officially decreed state of need" type="">
+        <commentary>
+            EMERGENCY[+state][+mandated][+officially][+need]
+            Note: implies an authority has officially declared a temporary state of need in a community
+        </commentary>
+        <examples>
+            The governor has declared a state of emergency in three counties following the storm.
+            Curfew has been imposed during this state of emergency.
+            The state of emergency in the city finally ended on Friday.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a hand brake" type="">
+        <commentary>
+            EMERGENCY[+device][+brake][+hand]
+        </commentary>
+        <examples>
+            The student driver forgot to release the emergency before backing the car.
+            He discovered the emergency brake did not work while trying to park on a hill.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

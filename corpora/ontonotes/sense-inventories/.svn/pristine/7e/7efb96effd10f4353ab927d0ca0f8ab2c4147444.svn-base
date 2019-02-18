@@ -1,0 +1,158 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="close-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="shut or become in a shut state" type="">
+      <commentary>
+      Includes: CLOSE UP, CLOSE OFF, CLOSE IN
+       Syntax Is: 
+        (NP1)[agent] CLOSE NP2[concrete]
+        (NP1)[agent CLOSE_IN NP2[concrete] (PP{P NP[instrumental})
+        (NP1)[agent] CLOSE_OFF NP2[concrete]
+        NP1[agent] CLOSE_UP (NP2[patient])
+      </commentary>
+      <examples>
+        I can't close my car window.
+        She is always closing doors behind her.
+        The lid closed on the piano bench with a heavy thud.
+        I'd better close my mouth before I say something I'll regret.
+        The horses were closed in by a high wooden fence.
+        They had to close off the main gas line that connects to the houses on our street.
+        The mummy was closed up in the tomb by slaves.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="close_in" version="3.0">2</wn>
+         <wn lemma="close_off" version="3.0">2,3</wn>
+         <omega/><pb>close.01</pb>
+         <vn>other_cos-45.4</vn><fn>Closure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cease operating" type="">
+      <commentary>
+       Includes: CLOSE OFF
+         Syntax Includes:
+         NP1[agent] CLOSE (NP2[patient])
+         Note: 'close off the compressor' implies the activity the
+         compressor is engaged in, e.g., filling \
+tanks with compressed air
+         Note: usually implies a habitual activity or operation that is
+         ceases.
+      </commentary>
+      <examples>
+         The car repair shop closes at noon on Saturdays.
+         Our favorite bakery was closed due to a fire.
+         The old bookstore finally closed its doors last summer.
+         Highway 9 has been closed for two days because of mud slides.
+         Close all running applications before starting this process on
+         your PC.
+         That restaurant was closed down by the Board of Health.
+         Close off the compressor because there are engine fumes in the
+         vicinity.
+         They had to close up shop because of lack of funds.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,9,14</wn>
+         <wn lemma="close_down" version="3.0">1</wn>
+         <wn lemma="close_off" version="3.0">1</wn>
+         <omega/><pb>close.04</pb>
+         <vn>crane-40.3.2,other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="terminate or conclude an activity" type="">
+      <commentary>
+       Includes: CLOSE OUT     
+       Syntax Includes: 
+        NP1[agent] CLOSE PP
+        NP1[agent] CLOSE NP2[patient]
+        NP1[agent] CLOSE OUT NP2[patient]
+        Note: usually implies specific events or activities, rather than habitual general ones.
+      </commentary>
+      <examples>
+        The meeting was closed without deciding on who would be club president.
+        He likes to close dinner speeches with a good joke.
+        She closed her recital with a beautiful folksong.
+        I hope stocks will close higher at day's end.
+        That relief pitcher has closed six games this season,  winning all of them.
+        That fashion house has closed out its line of evening wear.
+        John will be closing out his account at his old bank.
+        We are closing on the house tomorrow.
+        Don't go into sales if you can't close deals.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5,6,7,17</wn>
+         <wn lemma="close_out" version="3.0">2,3</wn>
+         <omega/><pb>close.02,close.03,close.04</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="draw near to, approach" type="">
+      <commentary>
+       Syntax Is:
+        NP1[topic] CLOSE PP{P NP[goal]}
+      </commentary>
+      <examples>
+        A meteorite appears to be closing with our spacecraft!
+        The southern cavalry closed with Union forces on the battlefield.
+        Close on your opponent's left and catch him off guard.
+        The police were closing in on the suspect.
+      </examples>
+      <mappings>
+         <wn version="3.0">8,10,12</wn>
+         <wn lemma="close_in" version="3.0">1</wn>
+         <omega/><pb>close.06,close.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="5" name="bring parts together, join" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] CLOSE NP2[goal] PP
+        NP1[agent] CLOSE NP2[goal] ADVP
+      </commentary>
+      <examples>
+       The pincers of the big crab closed on John's hand.
+       She closed a blanket around the shivering child.
+       He closed the wound with a series of small stitches.
+       This umbrella won't close properly.
+       The party has closed ranks during this political scandal.
+        You need to close up a few loose ends in the logic of your story's plot.
+      </examples>
+      <mappings>
+         <wn version="3.0">11,13,16</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>Body_movement,Closure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="6" name="fill in, repair" type="">
+      <commentary>
+      Syntax Is: 
+        NP1[agent] CLOSE[transitive] NP2[patient]
+        Note: implies that NP2 has two end points, between which something is filled.
+      </commentary>
+      <examples>
+        Try closing those cracks in the ceiling with this new compound.
+        They are trying to close the income gap between the urban poor and the middle class.
+      </examples>
+      <mappings>
+         <wn version="3.0">15</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="7" name="preclude or rule out" type="">
+      <commentary>
+       Syntax Is:
+        NP1[agent] CLOSE OUT NP2[patient]
+      </commentary>
+      <examples>
+         Don't close out this opportunity before you've had a chance to learn more about it.
+      </examples>
+      <mappings>
+         <wn lemma="close_out" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

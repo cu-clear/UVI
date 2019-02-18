@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="depend-v">
+   <commentary>
+     DEPEND_ON, DEPEND are separate WN entries, but is there a difference? DEPEND seems to always occur with either 'on' or 'upon'.
+   </commentary>
+   <sense group="1" n="1" name="be contingent on" type="">
+      <commentary>
+        Syntax Includes:
+         NP1[patient] DEPEND ON NP2[agent]
+         NP1[patient] DEPEND ON NP2[theme]
+      </commentary>
+      <examples>
+        Interest rates will depend on whether the economy continues to heat up.
+        A vintage year for Cabernet grapes depends on many variables.
+        We'll hold the wedding ceremony under the awnings, or out in the garden, depending on weather.
+        Your grade will depend upon how well you do on the final exam.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="depend_upon" version="3.0">1</wn>
+         <omega/><pb>depend.01</pb>
+         <vn>NM</vn><fn>Contingency</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+    <sense group="1" n="2" name="count on or trust" type="">
+      <commentary>
+       Syntax Is: 
+        NP1[patient[human]]  DEPEND ON NP2
+      </commentary>
+      <examples>
+       Can I depend on you to watch the baby?
+       It will be cold in January, you can depend on that!
+       John says we can't depend on the main sail to not tear during a storm.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>depend.01</pb>
+         <vn>rely-70</vn><fn>Reliance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+     <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

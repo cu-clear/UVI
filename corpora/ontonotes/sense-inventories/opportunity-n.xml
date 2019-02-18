@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="opportunity-n">
+    <commentary>
+        20Feb08 added sense 2, updated to wn2.1, added features. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a beneficial chance or possibility" type="">
+        <commentary>
+            OPPORTUNITY[+state][+circumstance][+favorable]
+            a possibility due to a favorable combination of circumstances, a chance
+        </commentary>
+        <examples>
+            The holiday gave us the opportunity to visit Washington.
+            He sees an opportunity to exploit the perceived weakness of his opponent.
+            There was never an opportunity to speak to her privately.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an employment possibility" type="">
+        <commentary>
+            OPPORTUNITY[+state][+circumstance][+opening][+employment]
+            a job or employment possibility, opening
+        </commentary>
+        <examples>
+            There were more finance opportunities in New York than in Detroit.
+            John turned down an opportunity as marketing director of their firm.
+            Mary is not interested in opportunities to sell insurance.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

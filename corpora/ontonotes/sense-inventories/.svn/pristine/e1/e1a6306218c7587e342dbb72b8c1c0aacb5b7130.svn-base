@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="beginning-n">
+    <commentary>
+        Definitions, groups and examples revised by ahouston
+        23jan07 - update to wn2.1, changed features of Senses 1 and 2.  ahouston
+    </commentary>
+    <sense group="1" n="1" name="the inception or initial point of an event" type="Event">
+        <commentary>
+            BEGINNING[+event][+punctual][+moment][+inception]
+            Note: Denotes a point in time, not a span of time
+        </commentary>
+        <examples>
+            The beginning of the race will be signaled by a gun shot.
+            The war's beginning took everyone by surprise.
+            Analysts agree that it marked the beginning of a bull market.
+            The beginning of the earthquake was recorded at 6:15 a.m. local time.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/>
+            <pb>beginning.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="early phase or span of some ongoing process" type="Event">
+        <commentary>
+            BEGINNING[+process][+phase][+early]
+            Note: Implies a span of time, not just a single initial moment (Sense 1)
+        </commentary>
+        <examples>
+            Although the firm got off to a rocky beginning in its first year, it is now turning a profit.
+            During the beginning of our relationship we often met after work at a local tapas bar.
+            Even from the beginning of her career, one could see the signs of a great actress.
+            The beginning of school is always an adjustment for the children.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb>beginning.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="origin, root or heritage of something" type="">
+        <commentary>
+            BEGINNING[+location][+origin][+temporal/+spatial]
+            Note: Often occurs in the plural
+        </commentary>
+        <examples>
+            Pittsburgh is near the beginning of the Ohio River.
+            We are studying the beginnings of early humans in my anthropology class.
+            Their ongoing animosity had its beginnings in sibling rivalries from their childhood.
+            They are burying cable from the beginning of my property line to the end of the street.
+            We pondered the beginning of the universe and other cosmological questions over martinis.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="the first section or part of a larger entity" type="Event">
+        <commentary>
+            BEGINNING[+entity][+opus][+portion][+first]
+        </commentary>
+        <examples>
+            Do you remember how the beginning of Lincoln's Gettysburg Address goes?
+            The beginning of this soprano aria is about four minutes of difficult coloratura.
+            Sally hated the film's violent beginning, which lasts six minutes, but liked how the story unfolded.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb>beginning.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <!-- more senses go here -->
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett hertlerb" sample_score=""/>
+</inventory>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="skirt-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="avoid answering a question or performing an act" type="">  
+      <commentary>
+        Syntax is: NP1[agent] SKIRT NP2[abstract]
+      </commentary>
+      <examples>
+        How the Pentagon skirted the patents on hovercraft.
+        After seeming to have skirted the worst of the mortgage issues,
+        CreditSoft unexpectedly went bankrupt.
+        The politician cleverly skirted the issue as he always does.
+        He tried desperately to skirt the worst of her anger.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>skirt.01</pb>
+         <vn>NM</vn><fn>Avoiding</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="form or move along the edge of; border" type="">
+      <commentary>
+        Syntax is: NP1[theme] SKIRT NP2[concrete]
+      </commentary>
+      <examples>
+       A violent hurricane struck St. Thomas and skirted the coast of Puerto Rico.
+       Wrangell and PF Anjou skirted the New Siberian and Bear islands.
+       A late-spring dust storm skirted the China-Mongolia border.
+       The hills skirt the town.
+       The otherwise straight highway, veers north and skirts the lake.
+       We skirted the forest on our way to Grandma's house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>skirt.01</pb>
+         <vn>contiguous_location-47.8</vn><fn>Path_shape</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

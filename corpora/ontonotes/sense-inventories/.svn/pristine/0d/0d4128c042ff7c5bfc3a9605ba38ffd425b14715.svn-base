@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="plunge-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to be immersed in" type="">
+      <commentary>
+        Syntax Is: NP1 PLUNGE[causative] NP2
+        Note: compare &quot;icy water&quot; examples in groups 1 and 2
+        Note: May be reflexive
+      </commentary>
+      <examples>
+        The professor plunged his students into the study of the Italian text.
+        She plunged into the dating scene.
+        New Orleans was plunged into a nightmare by Hurricane Katrina.
+        We plunged into the icy water. (if the subject did so willingly, as in jumping off a pier)
+        Most of the building was plunged into darkness during the thunderstorm.
+        London Underground was plunged into chaos by the severe weather today.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5,7,8</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>plunge.02</pb>
+         <vn>escape-51.1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ 
+   <sense group="1" n="2" name="fall or drop steeply" type="">
+      <commentary>
+        Syntax Is: NP1 PLUNGE[inchoative]
+      </commentary>
+      <examples>
+        The Prime Minister's personal approval rating has plunged to an all-time low of 36 percent.
+        Google Shares plunged erratically in volatile trading after the market closed in New York last night.
+        A packed passenger train derailed Monday and plunged into a steep river canyon outside the Montenegrin capital.
+        We plunged into the icy water. (if the subject was in a derailed train)
+        The sample was plunged into liquid nitrogen.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6</wn>
+         <wn lemma="" version=""></wn>
+         <omega/><pb>plunge.01</pb>
+         <vn>calibratable_cos-45.6-1,escape-51.1,meander-47.7</vn><fn>Motion_directional</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="3" name="begin/start out with vigor" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PLUNGE PP{into NP}
+        Note: implies a starting point of NP2
+      </commentary>
+      <examples>
+        I plunged into the job of creating something from nothing.
+        She plunged into a new adventure.
+        Every time I plunge into the magazine's crackling pages at my dentist's I get excited.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="4" name="unclog a toilet" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Then pour in a pail of water and plunge one more time before flushing the toilet to refill the bowl.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc, vieweg" sample_score="-"/>
+</inventory>

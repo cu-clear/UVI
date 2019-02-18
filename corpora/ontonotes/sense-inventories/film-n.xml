@@ -1,0 +1,80 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="film-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a specific motion picture, a movie" type="">
+        <commentary>
+            FILM[+artifact][+opus][+movie][+drama/+comedy/+action/+documentary]
+            [+genre][+artistic][+cinema]
+            Note: refers to the art form of cinema, not to the physical medium of recording (see Sense 2)
+        </commentary>
+        <examples>
+            The studio is shooting that film on location in Hawaii.
+            That film is still showing in theaters and is not yet out on DVD.
+            Mary watched a good horror film on TV last night.
+            John's father is a famous film critic. 
+            His books are very difficult to translate well into film. (into the artistic form, not the physical medium)
+            The article was a critical overview of feminist writing on film.
+            It is one of the most dramatic scenes after captured on film. (refers to the art form, not the physical medium)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the photosensitive material used in photography or cinema, celluloid" type="">
+        <commentary>
+            FILM[+strip][+flexible][+plastic][+coated][+photosensitive] 
+            [+role][+medium][+dissemination][+celluloid] 
+        </commentary>
+        <examples>
+            I have two rolls of film left. 
+            The beating incident was captured on film. (refers to the physical medium the event was recorded on)
+            This is an old 35 millimeter film projector.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a thin coating of material on the surface of something" type="">
+        <commentary>
+            FILM[+material][+coating][+thin][+oil/+water]
+        </commentary>
+        <examples>
+            The workmen had a film of perspiration over their skin as they labored under the hot sun.
+            A thin film of ice had formed over the pond.
+            There was a film of cream on the top of Mary's coffee.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a thin, usually plastic, sheet that serves as a layer or a wrapper" type="">
+        <commentary>
+            FILM[+sheet][+thin][+flexible][+wrapper/+liner]
+        </commentary>
+        <examples>
+            The wrapping paper was an interesting shiny silver film.
+            Mylar is a thin, polyester film, both strong and flexible.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

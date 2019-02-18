@@ -1,0 +1,45 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="pave-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cover with a material to make a firm surface." type="">  
+      <commentary>
+        Syntax Is: NP1[agent[animate]] PAVE NP2[location] (PP{WITH/IN NP[instrument]})
+      </commentary>
+      <examples>
+        A monk paved the floor with local marble.
+        The greedy emperor paved the streets with gold.
+        They paved the road in 1928 with concrete.
+        British sappers paved the bottom with bundles of brush.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>pave.01</pb>
+         <vn>fill-9.8-1</vn><fn>Adorning,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="facilitate the entrance of" type="">
+      <commentary>
+        Syntax Is: NP1[agent] PAVE (NP2[patient[concrete]]) PP[abstract]
+        Includes: PAVE THE WAY.
+
+        NOTE: This sense is only metaphorical.
+      </commentary>
+      <examples>
+        Clay paved the way for the evolution of complex animals.
+        The program has paved the way in research techniques for 25 years.
+        Corporations opt for a company that has paved the path in the
+        digital photography.
+        The Renaissance and Reformation paved the path to European capitalism.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>pave.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

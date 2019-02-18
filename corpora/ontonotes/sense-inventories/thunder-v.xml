@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="thunder-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Produce a loud noise, possibly as the
+   result of movement." type="">  
+      <commentary>
+      </commentary>
+      <examples>
+      The elephant thunders through the forest.
+      The bus thundered down the road.
+      The river thunders below.
+      The engine thundered as I accelerated up the ramp.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thunder.01</pb>
+         <vn>sound_emission-43.2,animal_sounds-38</vn><fn>Motion_noise,Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="A human utters words loudly and forcefully." type="">
+      <commentary>
+      Includes: THUNDER DOWN 
+      </commentary>
+      <examples>
+      Congress thundered down that idea in sessions. 
+      He thundered at his daughter when she came home late.
+      She thunders her arguments.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thunder.01,thunder.02</pb>
+         <vn>manner_speaking-37.3</vn><fn>Communication_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Be the case that thunder is being heard." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Whenever it thunders, my dog gets scared.
+      It usually thunders before the downpour.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>thunder.01</pb>
+         <vn>weather-57</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

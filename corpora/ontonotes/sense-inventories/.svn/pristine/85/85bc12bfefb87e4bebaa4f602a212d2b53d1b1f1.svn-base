@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="whack-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="hit hard" type="">  
+      <commentary>
+        NOTE: compare carefully to sense 2.  This sense may include instances 
+              of WHACK NP PP[+directional (off)]
+              Remember that with these instances, you cannot move the NP after the PP:
+              Ex: The taxi whacked him off his scooter.
+              *The taxi whacked off him his scooter.
+              Compare to Sense 2: Instances that do not originally contain [+directional (off)] will not be able to take the particle:
+              The hitter whacked the ball.
+              * The hitter whacked off the ball./The hitter whacked the
+              ball off.    
+      </commentary>
+      <examples>
+        My mate had whacked him with a baseball bat.
+        One day, people walking behind him really whacked the back of his head
+        The actor shook off a scary fall after a taxi whacked him off his Italian motor scooter.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version=""/>
+         <omega/><pb>whack.01</pb>
+         <vn>hit-18.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="remove, cut, slash" type="">
+      <commentary>
+        Is: WHACK OFF (no sexual connotations)
+        NOTE: compare carefully to sense 1; in the VPC use,
+              the NP can split the verb and particle, or appear after the particle:
+              Ex: The salesman whacked twenty percent off.
+              The salesman whacked off twenty percent. 
+      </commentary>
+      <examples>
+        She grabbed a huge chunk of my hair and whacked it off at my scalp.
+        I resorted to using a pruning sheers and whacked the knapweed off at the base.
+        They just whacked about 14 percent off the asking price on one of the units.
+        To solve this problem the Julian calendar was whacked off by about ten days in October.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>whack.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="kill or murder" type="">
+      <commentary>
+        Includes: WHACK OFF (no sexual connotations)
+      </commentary>
+      <examples>
+        I'd side with her if the husband had been brutalizing her and she whacked him off to end the abuse.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version=""/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey" sample_score="-"/>  
+</inventory>

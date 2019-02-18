@@ -1,0 +1,55 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="approval-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="give approval" type="Event">
+        <commentary>
+	    APPROVAL[+event]
+	    blessing -
+	    the formal act of giving approval
+	    </commentary>
+        <examples>
+            He gave the project his blessing.
+            His decision merited the approval of any sensible person.
+            It took almost three years to get the approval of the FDA.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>approval.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="favorable reception" type="">
+        <commentary>
+            favorable reception, commendation - 
+            a feeling of liking something or someone good
+        </commentary>
+        <examples>
+            Although she fussed at them, she secretly viewed all her children with approval.
+            Words of approval seldom passed his lips.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 3 4</wn>
+            <omega/>
+            <pb>approval.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

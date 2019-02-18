@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="immerse-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="thrust into, so as to envelop completely" type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] IMMERSE NP2[theme] (PP[directional])
+      NP1[theme] IMMERSE (PP[directional])
+      Note: May be metaphorical.
+      </commentary>
+      <examples>
+      He immersed himself into his studies.
+      The huge waves immersed the small boat and it sank shortly thereafter.
+      You will be immersing your fingers in the developer solution.
+      The professor immersed his students into the study
+      of the Italian text. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>immerse.01</pb>
+         <vn>put-9.1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

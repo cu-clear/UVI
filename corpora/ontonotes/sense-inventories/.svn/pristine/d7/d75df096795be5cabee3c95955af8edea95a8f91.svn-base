@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="cruise-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Travel aimlessly looking for service or
+   attention, possibly sexual; move at a constant speed.." type="">  
+      <commentary>
+        Includes: CRUISE OVER (metaphorical), CRUISE AROUND
+        NOTE: Usually the mode of travel is by car.
+      </commentary>
+      <examples>
+        She loved to cruise around in her black mustang
+        convertible.
+        The men were cruising the park.
+        There's nothing in this town for those under 18 to do but cruise
+        the streets.
+        We cruised over to the record store to pick up the newest label.
+        Cops were cruising in front of the club.
+        She cruised the bar looking for a man to take home.
+        Roaches cruised the walls.
+        We were cruising down the road at incredible speeds.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cruise.02</pb>
+         <vn>nonvehicle-51.4.2</vn><fn>Self_motion,Operate_vehicle,Ride_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Vaction for pleasure and sightseeing." type="">
+      <commentary>
+        NOTE: Compare to sense 1. Sense 2 must involve a BOAT. 
+      </commentary>
+      <examples>
+        Every year my parents cruise the Carribean. 
+        For her graduation present, Emily got to cruise the Mediterranean.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>cruise.01</pb>
+         <vn>nonvehicle-51.4.2</vn><fn>Ride_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey" sample_score="-"/>  
+</inventory>

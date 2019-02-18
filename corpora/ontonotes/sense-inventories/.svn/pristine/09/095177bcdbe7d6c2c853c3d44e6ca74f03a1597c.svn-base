@@ -1,0 +1,60 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="requirement-n">
+    <commentary>
+        Definitions, comments and examples revised by ahouston
+    </commentary>
+    <sense group="1" n="1" name="a duty or obligation" type="">
+        <commentary>
+            REQUIREMENT[+activity][+social][+duty]
+            Note: {requirement PREP NP/COMP} requirement is an attribute of the NP/COMP
+        </commentary>
+        <examples>
+            The requirements of the job include three graveyard shifts a week.
+            The only requirement they placed on their daughter was to be home by midnight.
+            The requirements of overseeing the emergency room put a lot of stress on Bob.
+            FEMA's requirement of 
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>requirement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="a need or essential" type="">
+        <commentary>
+            REQUIREMENT[+condition][+need][+primary]
+            Note: (requirement PREP NP) implies that (requirement EQUAL NP)
+            Also: requirement BE NP (again, equality)
+        </commentary>
+        <examples>
+            No one could satisfy Sally's constant requirement for attention.
+            The artist's only requirements were a pen and a piece of paper.
+            China's requirements for more energy may have contributed to higher oil prices.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>requirement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a prerequisite for achieving a goal" type="">
+        <commentary>
+            REQUIREMENT[+condition][+need][+subordinate][+previous]
+            Note: (requirement PREP NP/COMP) implies (requirement NOT EQUAL NP/COMP)
+            Note: requirement is a separate precursor to the NP in the COMP
+        </commentary>
+        <examples>
+            He couldn't pass the physical requirements for becoming a Marine.
+            There is no essay requirement for that college.
+            Countries must first meet certain economic requirements before joining the EU.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega/>
+            <pb>requirement.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

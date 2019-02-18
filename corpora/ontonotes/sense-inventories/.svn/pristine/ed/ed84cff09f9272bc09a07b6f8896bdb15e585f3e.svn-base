@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="drown-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="die or kill with water" type="">  
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DROWN NP2[patient] (PP NP3[location])
+        NP1[patient] DROWN (PP NP2[location])
+      </commentary>
+      <examples>
+        The beetle drowned in the toilet.
+        I drowned the beetle.
+        The flash flood drowned many animals.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>drown.02</pb>
+         <vn>poison-42.2,suffocate-40.7</vn><fn>Death,Killing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) be covered or submerged in completely" type="">
+      <commentary>
+        Includes: DROWN OUT
+        NOTE: Can be literal or metaphorical but the NP drowning is NOT in
+        danger of dying or disappearing.
+       Syntax Includes:
+        NP1[agent] DROWN NP2[patient] IN/WITH NP3
+        NP1[patient] be DROWN IN NP2[theme
+      </commentary>
+      <examples>
+        I like to drown my peas in butter.
+        Eric was drowning in homework.
+        He would drown the stage with tears.
+        The child covered his ears to drown out his parents' yelling.
+        Don't drown me with mindless questions!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,5</wn>
+         <wn lemma="drown_out" version="3.0">1</wn>
+         <omega></omega><pb>drown.01,drown.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="get rid of as if with water (metaphorical)" type="">
+      <commentary>
+        NOTE: That NP2 is permanently or temporarily disappearing must be
+        stated or strongly implied.
+       Syntax Includes:
+        NP1[agent[human]] DROWN NP2[attribute[abstract]] (WITH/IN NP3)
+        NP1[actor[human]] DROWN NP2[actor[human]] (WITH/IN NP3)
+      </commentary>
+      <examples>
+        Elvis drowned his sorrows with alcohol and drugs.
+        We are eventually going to drown ourselves with vehicles and dust.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>drown.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

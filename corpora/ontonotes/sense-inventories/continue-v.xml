@@ -1,0 +1,66 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="continue-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="keep (doing) a certain state, condition, or
+activity; persist" type="">
+      <commentary>
+      Note: Do not tag participles used as adjectives, e.g. the continued strife, 
+                     her continuing confusion
+      Syntax Includes: NP1[agent/theme] CONTINUE [non-finite]
+                       NP1[agent] CONTINUE NP2[patient]
+                       NP1[theme] CONTINUE[intransitive] PP{P NP[location/temporal]}
+      </commentary>
+      <examples>
+         We continued to work into the night.
+         She continues to believe her health will improve.
+         Please continue speaking.
+         They continued their meal in peace.
+         We will continue this discussion next week.
+         The temperature continued to climb throughout the day. (metaphorical agent)
+         She continued the family tradition of going to Harvard for
+         undergraduate studies.
+         That film star's legacy will continue long after her death.
+         The story continues tomorrow.
+         The bad weather continued for two more weeks.
+         The Archipelago continues for another 500 miles.
+         The war continued for five years.
+         Girls continue to outnumber boys in gymnastics.        
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,5,6,7,8,9,10</wn>
+         <omega/><pb>continue.01</pb>
+         <vn>continue-55.3</vn><fn>Activity_ongoing,Process_continue</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="keep talking or communicating" type="">
+      <commentary>
+         Note: Occurs with direct quoted speech.
+      </commentary>
+      <examples>
+         "I think you should stay," he continued, after taking a sip from his glass of wine.
+         The directions continue: "Blend the mixture to an even consistency."
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>continue.02</pb>
+         <vn>continue-55.3,sustain-55.6</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="travel; move along a physical path." type="">
+      <commentary>
+        Syntax Is:
+                  NP1[agent] CONTINUE PP{P NP[location]}
+      </commentary>
+      <examples>
+         The fly continued along the window sill.
+         Just continue down Main Street for three blocks, then turn left.
+         The car continued up the hill, then parked in front of a blue house.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>continue.01</pb>
+         <vn>escape-51.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,brownsw,corvey" sample_score="-"/>
+</inventory>

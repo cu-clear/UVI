@@ -1,0 +1,158 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fill-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="To make or become full, as in a physical container" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FILL NP2[patient] (PP{P NP[theme]})
+        NP1[theme] FILL NP2[patient]
+        NP1 FILL
+        Note: May be used in a literal OR metaphorical sense
+        Includes: FILL UP
+      </commentary>
+      <examples>
+        Please fill this container.
+        Her praise filled the child with pride.  (metaphoric extension)
+        The dentist filled the cavity.
+        You've filled the space with great ideas!
+        I filled the beaker with boiling water and waited for the coffee to brew.
+        They filled the hole with dirt.
+        The liquid fills the container.
+        The pool filled slowly with water.
+        The theater quickly filled up.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,9</wn>
+         <wn lemma="fill_up" version="3.0">1,2,3</wn>
+         <omega/><pb>fill.01,fill.02</pb>
+         <vn>contiguous_location-47.8,fill-9.8,other_cos-45.4</vn><fn>Adorning,Filling</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="employ or become employed in a position" type="">
+      <commentary>
+	Note: implies an assignment/mapping between one person and one job role.
+	Note: focus is on assigning a specific role to an individual, not adding an individual to a pool of others (see Sense 5)
+        Syntax Includes:
+	NP1[agent] FILL NP2[patient[abstract]]
+	NP1[agent] FILL NP2[patient[abstract]] (PP{P NP[beneficiary]})  
+      </commentary>
+      <examples>
+        She filled the job as director of development.
+        They quickly filled the position with one of the many qualified applicants.
+        The company kept the job vacancy open until it could be filled.
+        I have never filled a job so quickly in my entire career.
+        Federal agencies fill jobs two ways, competitively and noncompetitively. 
+      </examples>
+      <mappings>
+         <wn version="3.0">4,6</wn>
+         <omega/><pb>fill.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="meet or satisfy a want or need, supplement          or make complete" type="">
+      <commentary>
+        Includes: FILL IN, FILL UP, FILL OUT
+        Note: implies adding to a list or set of people or things-- does -not- imply putting things into a space or a container
+                (see Sense 1)
+        Syntax Includes: NP1[agent] FILL OUT NP2[patient] (PP{P NP[theme]})
+                         NP1 FILL NP2
+                         NP1[agent] FILL OUT NP2
+                         NP1[agent] FILL IN NP2
+      </commentary>
+      <examples>
+        The volunteer experience was fun, educational and filled a need in our community.
+        This church has evidently filled a want.
+        Crime and horror comics filled a desire by that era's youth to experience some of the excitement the
+        y imagined was part of World War II.
+        This realization filled him suddenly and completely, leaving him feeling at peace.
+        She had a hunger that longed to be filled.
+        He filled up on turkey.
+        They filled the bill in every way.
+        A guest host filled in for Letterman.
+        The assistant coach filled in for part of last season.
+        The Florida Marlins filled out their coaching staff Wednesday.
+        Filmmaker Mitch Davis has filled out his cast with appealing fresh
+        faces.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,7,8</wn>
+         <wn lemma="fill_up" version="3.0">4</wn>
+         <wn lemma="fill_in" version="3.0">3</wn>
+         <wn lemma="fill_the_bill" version="3.0">1</wn>
+         <wn lemma="fill_out" version="3.0">2,3</wn>
+         <omega/><pb>fill.04,fill.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="write all the required information" type="">
+      <commentary>
+        Includes: FILL OUT, FILL IN
+      </commentary>
+      <examples>
+        Fill out this questionnaire, please!
+        Make sure to fill in all the blanks.
+        The form will be automatically filled out for you.
+        If they are logged in, the name is filled in for them.
+      </examples>
+      <mappings>
+         <wn lemma="fill_out" version="3.0">1</wn>
+         <wn lemma="fill_in" version="3.0">4</wn>
+         <omega/><pb>fill.03,fill.05</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="supply with information" type="">
+      <commentary>
+        Includes: FILL IN
+      </commentary>
+      <examples>
+        She filled me in on a few points of Turkish culture.
+        Craig filled me in on the challenges your sales department is facing.
+        I was drawn to his office, dropping by to fill him in on what was happening.
+      </examples>
+      <mappings>
+         <wn lemma="fill_in" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="use a shade, color, or pattern" type="">
+      <commentary>
+        Includes: FILL IN
+      </commentary>
+      <examples>
+        Ask students to use a red, blue, and yellow oil pastel to fill in the primary colors.
+        Set the layers blending option to Hue, then fill in the selection
+        by clicking inside it with the Paint Bucket tool.
+        The picture will be repeated like a piece of tile to completely fill in the background of your page.
+      </examples>
+      <mappings>
+         <wn lemma="fill_in" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="to make or become larger, more substantial" type="">
+      <commentary>
+        Includes: FILL OUT
+	Note: implies growing physically larger, NOT being assigned to a
+	role/job (see Sense 2)
+        Compare to sense 3. This sense involves growing larger physically,
+	and does not include metaphorical uses.
+      </commentary>
+      <examples>
+        His new health book was titled, &quot;Business Eating on the Run: How to Fill Up Without Filling Out.&quot;
+        You are still a teen - which means your body is still growing,
+        filling out and adjusting itself to its ideal, mature weight and proportion.
+        The downy parts of feathers as well as feathers that are totally
+        downy provide insulation and filling out body contours.
+        You will be growing taller and your body will be filling out.
+      </examples>
+      <mappings>
+         <wn lemma="fill_out" version="3.0">4,5,6</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,ahouston,corvey,greenlm" sample_score="-"/>  
+</inventory>

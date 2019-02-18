@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tuck-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Insert, perhaps in an effort to hide." type="">  
+      <commentary>
+        NOTE: Compare to sense 2, this sense does not involve tucking in
+        fabric.
+        Includes: TUCK IN, TUCK AWAY
+        Syntax is: NP1[agent] TUCK NP2[patient[concrete]] PP
+      </commentary>
+      <examples>
+        Then fold down the sides of the smaller box so that they tuck into
+        the base of the larger box.
+        He tucked the bottle under his arm and took the box and glass from
+        her.
+        The attendant tucked away the mask and waved a languid arm at each
+        of the Exit doors.
+        The family tucked the actress away from the media.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tuck.01,tuck.03</pb>
+         <vn>funnel-9.3-1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Tuck in (fabric)." type="">
+      <commentary>
+        NOTE: This is a subset of sense 1 and is  only applied to tucking
+        in fabric.
+
+        Includes: TUCK IN
+
+        Syntax is: NP1[agent] TUCK NP2[patient] 
+      </commentary>
+      <examples>
+        Beginning at the head of the bed, tuck in the sheet, working from
+        head to foot.
+        The trick is to tuck in the sheet and blanket while getting the
+        corners as neat and flat as possible.
+        At no point in the game does Drake stop and tuck in the loose part
+        of his shirt.
+        He tucked the little girl into bed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Eat up; eat a considerable amount of food." type="">
+      <commentary>
+        Includes: TUCK IN, TUCK INTO, TUCK AWAY
+        Syntax includes: NP1[agent] TUCK (IN) NP2[patient[concrete]]
+                         NP1[agent] TUCK (INTO) NP2[patient[concrete]]
+                         NP1[agent] TUCK (AWAY) NP2[patient[concrete]]
+   </commentary>
+      <examples>
+        I sup at a jar of mead and tuck into the bounteous feast laid out
+        along the walls.
+        Tuck into the taste of the Outback with no admittance necessary.
+        My son tucked in a whole pizza.
+        Once a successful mating has occurred, the female will begin to
+        really tuck away the food.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="tuck_away" version="3.0">1</wn>
+         <wn lemma="tuck_in" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm,corvey" sample_score="-"/>  
+</inventory>

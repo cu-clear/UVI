@@ -1,0 +1,160 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="land-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="estate, owned acreage" type="">
+        <commentary>
+            LAND[+location][+property][+acreage]
+            landed estate, acres, demesne - 
+            extensive landed property (especially in the countryside) retained by
+            the owner for his own use (owned land)
+        </commentary>
+        <examples>
+            The family owned a large estate on Long Island.
+            He built the house on land leased from the city.
+            You better get off of my land.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="dirt, soil, ground" type="">
+        <commentary>
+            LAND[+substance][+ground][+soil]
+            ground, soil, dry land, earth, solid ground - 
+            material in the top layer of the surface of the earth in which plants
+            can grow
+        </commentary>
+        <examples>
+            The land had never been plowed.
+            Good agricultural land.
+            The plane turned away from the sea and moved back over land.
+            The land shook for several minutes.
+            He dropped logs on the ground.
+            There is no work on the land anymore.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="owned territory of a sovereign government" type="">
+        <commentary>
+            LAND[+location][+territory][+owned][+by_government][+sovereign]
+            domain, demesne, country, state - 
+            territory ruled or occupied by a nation
+        </commentary>
+        <examples>
+            After the war, their nation gave up the land to the neighboring country.
+            The explorers claimed all these lands for Spain.
+            From the ship he could finally see the shoreline of the land of his birth.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="citizens of a nation" type="">
+        <commentary>
+            LAND[+group][+people][+body][+sociopolitical][+governed]
+            nation, country, a people - 
+            the people who live in a nation or a country
+        </commentary>
+        <examples>
+            A statement that sums up the land's mood.
+            The news was announced to the entire land.
+            The whole land worshipped him.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="governing institutions of a sovereign nation" type="">
+        <commentary>
+            LAND[+organization][+institution][+governing][+of_nation][+sovereign]
+            state, nation, country, commonwealth, res publica, body politic - 
+            a politically organized body of people under a single government
+        </commentary>
+        <examples>
+            It is the highest court in the land.
+            With the dictatorship removed, they are living in a free land.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="ambiguous between territory, citizens and institutions" type="Shish kebob">
+        <commentary>
+            This sense is to be used when it isn't clear if the reference is to
+            Senses 3, 4, or 5.
+        </commentary>
+        <examples>
+            The politician spoke in glowing terms of the great land we all live in.
+            People across the land are taking up this cause.
+            He is probably the richest self-made entrepreneur in the land.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="realm" type="Abstract">
+        <commentary>
+            LAND[+concept][+realm][+characterized]
+            a domain in which something is dominant, a metaphoric, abstract  usage of 'territory'
+        </commentary>
+        <examples>
+            In the land of hard facts and reason such flimsy speculations won't survive.
+            It was a land of make-believe.
+            Silicon Valley remains the premiere land of opportunity. 
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="Mr. Land" type="">
+        <commentary>
+            Land, Din Land, Edwin Herbert Land -
+            United States inventor who incorporated Polaroid film into lenses and
+            invented the one-step photographic process (1909-1991)
+        </commentary>
+        <examples>
+            Our polaroid cameras exist thanks to Land.
+        </examples>
+        <mappings>
+            <wn version="3.0">10</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="suggest-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="propose or put forward for consideration" type="">  
+      <commentary>
+        Syntax is: NP1[(agent)] SUGGEST NP2
+        NOTE: compare carefully to sense 2. Sense 1 involves an agentive subject.
+      </commentary>
+      <examples>
+        Feel free to suggest something else.
+        I want to suggest an answer from a slightly different perspective.
+        He couldn't do the job himself but he suggested that John might.
+        Are you suggesting that I am not doing my job?
+        I am not suggesting the deal is off, but we may need to renegotiate.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>suggest.01</pb>
+         <vn>say-37.7-1-1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="imply or indicate; provide evidence for" type="">
+      <commentary>
+        Syntax is: NP1 SUGGEST NP2
+        NOTE: compare carefully to sense 1. Here, the subject is not an
+        agent, but rather an inanimate piece of evidence.
+        See commentary for sense 1.
+      </commentary>
+      <examples>
+        A long silence suggested that everyone who wanted to speak had spoken.
+        Declining catches suggest the area is overfinished.
+        The evidence suggests a need for more clarification.
+        Such a crime suggests apt punishment.
+        The sound of the flute is meant to suggest the rippling of a brook.
+        This ring-like symbol suggests unity. 
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>
+         <omega/><pb>suggest.01</pb>
+         <vn>reflexive_appearance-48.1.2,indicate-78-1-1</vn><fn>Evidence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,vieweg,duffielc" sample_score="-"/>  
+</inventory>

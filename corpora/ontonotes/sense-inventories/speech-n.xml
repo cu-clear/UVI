@@ -1,0 +1,100 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="speech-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="spoken language" type="">
+        <commentary>
+            speech communications, spoken communication, voice communication, oral
+            communication, manner of speaking, delivery - 
+            language or manner of speaking
+        </commentary>
+        <examples>
+            His speech was garbled.
+            He recorded the speech of the streets.
+            His speech was quite abrupt. 
+            Her speech was barren of southernisms.
+            I detected a slight accent in his speech.         
+        </examples>
+        <mappings>
+            <wn version="2.0">2 4 5</wn>
+            <omega/>
+            <pb>speech.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the words" type="">
+        <commentary>
+            actor's line, words - 
+            words making up dialogue (often of a play)
+        </commentary>
+        <examples>
+            He could hear them uttering merry speeches.
+            The actor forgot his speech.
+        </examples>
+        <mappings>
+            <wn version="2.0">3 7</wn>
+            <omega/>
+            <pb>speech.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="lecture" type="Event">
+        <commentary>
+            talking to - 
+            a lengthy rebuke, a reprimand
+        </commentary>
+        <examples>
+            A good speech was my father's idea of discipline.
+            The teacher gave him a speech.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="act of addressing" type="Event">
+        <commentary>
+	    SPEECH[+event]
+	    formal address -
+	    the act of delivering a formal spoken communication to an audience
+	    </commentary>
+        <examples>
+            He listened to an address on minor Roman poets.
+            His speech lasted for almost an hour.
+            <!-- these sentences sound too much like senses 3 and 7 maybe they should be
+         merged -->
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>speech.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="ability to speak" type="">
+        <commentary>
+            language -
+            the mental faculty or power of vocal communication (typically
+            linguistics jargon)
+        </commentary>
+        <examples>
+            Speech sets homo sapiens apart from all other animals.
+        </examples>
+        <mappings>
+            <wn version="2.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- maybe the last one should be merged with the event sense -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

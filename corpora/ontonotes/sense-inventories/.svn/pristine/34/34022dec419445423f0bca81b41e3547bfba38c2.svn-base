@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="illustration-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="artwork that supplements text, often fictional text" type="">
+        <commentary>
+            ILLUSTRATION[+entity][+artifact][+representation][+visual][+flat][+artistic][+supplemental]
+        </commentary>
+        <examples>
+            She is known for her beautiful illustrations of children's books.
+            The illustrations in these medieval manuscripts incorporate gold leaf. 
+            John submitted several illustrations to the cartoon contest.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="diagrams which visually explain technical information" type="">
+        <commentary>
+            ILLUSTRATION[+entity][+artifact][+representation][+visual][+flat][+diagrammatic][+explanatory]
+        </commentary>
+        <examples>
+            The illustration on page 32 shows the internal parts of a 4-cylinder combustion engine.
+            The illustrations in this medical textbook contain a lot of important information about anatomy.
+            We couldn't read the instructions, which were in Japanese, but we figured out how it worked from the illustrations.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="serving the role as an example or instance of something" type="Event">
+        <commentary>
+            ILLUSTRATION[+relation][+role][+example]	
+            Note: X be illustration, X is not an agent, but is the instance, or example itself
+            Note: illustration's reference in the world is wholly dependent on the context it occurs in, it can refer to anything so long as that thing is playing the role of an instance or example of something.
+        </commentary>
+        <examples>
+            That accident serves as an important illustration of why a pre-flight checklist is so important.
+            She referred to John's table manners as an illustration of how not to eat in a public setting.
+            This building is an excellent illustration of the late Gothic style.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="An agent's act of explaining or exemplifying something" type="Event">
+        <commentary>
+            ILLUSTRATION[+event][+showing][+explanatory][+exemplification]
+            Note: X's illustration, X is the agent doing the showing, -not- the example (See Sense 3)	
+        </commentary>
+        <examples>
+            The students' enjoyed the teacher's illustration of electromagnetism with iron filings.
+            Her repeated illustration of the defendant's dishonesty finally convinced the jury of his guilt.
+            The chef's illustration of how to de-bone a chicken made it look easy.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

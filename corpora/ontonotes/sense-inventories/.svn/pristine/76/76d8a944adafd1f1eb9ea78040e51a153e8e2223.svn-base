@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="maturate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="mature, grow older" type="">  
+      <commentary>
+Syntax includes:
+NP1[agent] MATURATE NP2[patient]
+NP1[patient] MATURATE
+      </commentary>
+      <examples>
+He maturated the brave idea of founding a NGO.
+He maturated the design for the next generation.
+The relationship died of natural causes,as she maturated.
+Innocence has disappeared as the boy maturated.
+The seeds maturated under simulated vegetation shade.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>maturate.01</pb>
+         <vn>grow-26.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="ripen, puss and fester" type="">
+      <commentary>
+      </commentary>
+      <examples>
+*No examples found
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

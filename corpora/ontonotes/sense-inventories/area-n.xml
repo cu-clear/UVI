@@ -1,0 +1,105 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="area-n">
+    <commentary>
+        30aug06 split sense 2 into sense 2, sense 5. ahouston
+        30aug06 added features, examples, modified defs, update to WN 2.1 ahouston.
+    </commentary>
+    <sense group="1" n="1" name="Geographic region" type="">
+        <commentary>
+            AREA[+location][+geographical][+region][+indefinite]
+            A physical region of indefinite boundry.
+            Note: a vague, large-scale region, not small and well-defined (see Sense 3)
+        </commentary>
+        <examples>
+            Bill lives in a mountainous area.
+            These homes are in one of the best areas of town.
+            People in rural areas didn't get electricity as soon os those in the city.
+            Food and medical supplies are being airlifted to the disaster area.
+            It's a terrible slum area with a high crime rate.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="social sphere, scope of activity or interest" type="">
+        <commentary>
+            AREA[+environment][+social][+scope][+interest/+activity]
+            Reference to a particular situation, interest or activity.
+        </commentary>
+        <examples>
+            Science has influenced every area of my life.
+            George's areas of interest include: fishing, biking, swimming, baking, and knitting.
+            He thinks the administration has been incompetent in the area of foreign policy.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="a circumscribed place with a specific characteristic" type="">
+        <commentary>
+            AREA[+location][+locale][+circumscribed][+characteristic][+specified]
+            A section of something having a specific characteristic or function.
+            Note: the modifier usually describes the function or characteristic of the locale.
+        </commentary>
+        <examples>
+            It is important to stretch even before excercising the abdominal area.
+            The kid's play area slowly took over more and more of the house.
+            We'll turn the storage area of the attic into the guest room.
+            Please proceed to the main check-in area.
+            There's a little picnic area in the park beside the new house.
+        </examples>
+        <mappings>
+            <wn version="3.0">5,3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="2D bounded space in geometry" type="Technical">
+        <commentary>
+            AREA[+quantity][+extent][+geometric][+bounded][+2D]
+            A measurement of flat space in square units.
+        </commentary>
+        <examples>
+            Determine whether the area of this triangle is equal to the area of that square.
+            The garden covers a total area of 200 square feet.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="field of study, knowledge domain" type="">
+        <commentary>
+            AREA[+entity][+symbolic][+knowledge][+domain]
+        </commentary>
+        <examples>
+            The comprehensive exam will cover four areas of computer science and applied mathematics.
+            Orthodontics is his area of specialization.
+            It's an area of economic analysis that has been largely ignored by mainstream academia.   
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+</inventory>

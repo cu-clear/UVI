@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ascertain-v">    
+   <commentary>
+   Contains duplicate WN mappings. 
+   </commentary>
+   <sense group="1" n="1" name="Find out or determine, perhaps after a
+   calculation or investigation." type="">  
+      <commentary> 
+      Syntax Is: NP1[agent] ASCERTAIN [proposition]
+      </commentary>
+      <examples>
+      We use multiplication to ascertain the product of two numbers.
+      I want to ascertain whether she speaks French.
+      Chuck ascertained the pipe's pressure before opening the valve.    
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ascertain.01</pb>
+         <vn>discover-84</vn><fn>Coming_to_believe</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Make sure of." type="">
+      <commentary>
+      Note: Usually phrased as some sort of imperative.
+      </commentary>
+      <examples>
+      Ascertain that the curtains are closed.
+      We must ascertain the good quality of our products.
+      Ascertain that dinner has been prepared. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>ensure-99,promise-37.13</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

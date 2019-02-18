@@ -1,0 +1,125 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="story-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="narrative or account, intended as factual reporting" type="">
+        <commentary>
+            STORY[+document][+factual][+personal/+historical/+current_events]
+            [+activity][+narration][+factual][+personal/+historical/+current_events]
+            Note: implies the story can stand alone without requiring external context, hence different from Sense 4
+        </commentary>
+        <examples>
+            John fascinated everyone with his stories of running a charter sail boat out of Barbados.
+            Everyone is tired of hearing Tina's sob stories at work.
+            Joan is trying to write down her grandmother's life story.
+            The Anglo-Saxon Chronicles tell the story of the English people.
+            The filmmaker told the story of her people's struggle for freedom.
+            The local papers covered that story before the national press picked it up.
+            I read an interesting story in today's Globe about cheese-making in Vermont.
+            The radio stations have retracted that story about a UFO.  (they broadcast it earlier)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="fictional narrative, intentionally made up for entertainment" type="">
+        <commentary>
+            STORY[+document][+fictional][+short][+adventure/+detective/+romance/+science_fiction]
+            [+activity][+narration][+fictional][+entertaining]
+        </commentary>
+        <examples>
+            Edgar Allen Poe is most famous for his horror stories.
+            Mary sat on the couch with a pile of detective stories in front of her.
+            He's taking a class on how to write a short story.
+            Every night Sally tells her children a bedtime story about the animals and the fairies of the forest.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a level or floor of a building" type="">
+        <commentary>
+            STORY[+structure][+component][+level][+building]
+        </commentary>
+        <examples>
+            They are adding a second story to their house.
+            The new office building will have six stories.
+            It's a strip mall of one-story buildings.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="testimony, statement, explanation, sometimes false" type="">
+        <commentary>
+            STORY[+action][+statement][+contextual][+testimony][+/-misleading]
+            [+document][+contextual][+testimony]
+            Note:  implies a purposeful context in which to give the account.
+            Note: implies a short account, offered as response to inquiry or an explanation, thus different from Sense 1
+        </commentary>
+        <examples>
+            The driver's story was that the pedestrian just walked right in front of his car.
+            Their stories don't match.
+            Johnny told the teacher some story about how his dog had eaten his homework.
+            That's my story and I'm sticking to it.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <wn version="MAC">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="speculative narration, rumors, gossip" type="">
+        <commentary>
+            STORY[+narration][+speculative][+gossip/+rumor]
+            [+document][+speculative][+gossip/+rumor]
+        </commentary>
+        <examples>
+            All sorts of stories have been circulating in Washington about the alleged affair.
+            Don't believe that story about Pete and Betty.
+            This newspaper carries many stories about who's dating whom in Hollywood.
+            They discussed some juicy stories about their boss over chips and beer.
+        </examples>
+        <mappings>
+            <wn version="MAC">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="situation or state of affairs" type="">
+        <commentary>
+            STORY[+state][+situation]
+        </commentary>
+        <examples>
+            What's the story with Bob these days?
+            John is waiting to find out the story on whether he'll get the financing for his home renovations.
+            It's a very sad story in Darfur these days.
+            The battles between labor and management have not been a been a happy story.
+        </examples>
+        <mappings>
+            <wn version="MW online">8</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

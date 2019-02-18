@@ -1,0 +1,151 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rest-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a remainder, the amount left over" type="">
+        <commentary>
+            REST[+quantity][+remainder]
+        </commentary>
+        <examples>
+            We ate the rest of the pie for dessert tonight.
+            After a pleasant Friday evening, it rained for the rest of the weekend.
+            As for the rest, they can fend for themselves! (implies a larger group)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of repose or relaxation" type="">
+        <commentary>
+            REST[+state][+relaxation]
+            X{+subject} REST
+            Note: implies a subject experiencing repose, not necessarily relief from an irritant (see Sense 3)
+        </commentary>
+        <examples>
+            You'll feel much better after a good night's rest.
+            Everyone needed a rest after the month-long push to get the project finished.
+            We got snacks at the concession stand during one of the rest periods of the game.
+            Couldn't we give this issue a rest for a while?  (metaphoric extension, leave it)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>rest.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the cessation of something unpleasant, relief" type="">
+        <commentary>
+            REST[+state][+change][+cessation][+irritant]
+            Note: implies relief from a specific source of bother or irritant, different from Sense 2
+            Note: REST FROM X{+irritant}
+        </commentary>
+        <examples>
+            We finally got some rest from the jackhammers in the street below.
+            The fields lay fallow for a year to let the land have a rest from over cultivation.
+            He could find no rest from the accusatory voices in his head.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a state of inactivity, relative motionlessness" type="">
+        <commentary>
+            REST[+state][-motion]
+            Note: implies lack of motion or movement, refers to inanimate objects as well as animate ones
+            Note: often in the expression 'at rest'
+        </commentary>
+        <examples>
+            The rest energy of a particle is equal to its rest mass times the speed of light squared, E = Mc2.
+            That athlete's pule at rest is fifty beats a minute. (body is still, not moving)
+            Bodies at rest are always defined relative to a frame of reference, not absolutely.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>rest.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="the state of death" type="">
+        <commentary>
+            REST[+state][+death]
+            Note: a narrow, special usage of Sense 4, implies a living creature permanently inactivated.
+            Note: often in the expression 'lay to rest'
+        </commentary>
+        <examples>
+            Her grandparents are both laid to rest in the town cemetery. 
+            After ninety years of living, he finally found his eternal rest.
+            That old superstition has finally been laid to rest. (metaphoric extension).
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="a physical structure that provides support, bears weight" type="">
+        <commentary>
+            REST[+structure][+support][+weight_bearing]
+        </commentary>
+        <examples>
+            Tell the children not to stand on the chair rests!
+            The bird found a rest to perch on in the hemlock tree.
+            This special rest holds a machine gun.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="7" name="a musical notation indicating a pause" type="">
+        <commentary>
+            REST[+notation][+musical][+pause]
+            Note: refers to written musical notation in a score
+        </commentary>
+        <examples>
+            The score indicates a full rest at the end of measure 16.
+            The pianist believes this is a typo, the composer did not intend a half rest in the fourth measure.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="8" name="a small interval of time without sound, a pause" type="">
+        <commentary>
+            REST[+quantity][+interval][+time][+pause]
+            Note: refers to the actual pause in time during a musical or reading performance.
+        </commentary>
+        <examples>
+            The singer has two whole rests before beginning the next portion of the aria.
+            The poet used rests during his recitation, to emphasize the rhythms in the blank verse.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

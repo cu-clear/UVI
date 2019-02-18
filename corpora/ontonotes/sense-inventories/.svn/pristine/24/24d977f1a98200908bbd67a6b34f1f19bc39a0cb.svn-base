@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="whitewash-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cover with whitewash" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] WHITEWASH NP2[destination] (PP[theme])
+      </commentary>
+      <examples>
+      Who whitewashed the church walls?
+      The monks went ahead and whitewashed the monastery over two days.
+      They whitewashed the walls with lime.
+      Maybe they whitewashed the walls with chalk.
+      The squirrel has whitewashed the walls with his tail.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whitewash.01</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exonerate by means of an investigation or through biased presentation of data" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] WHITEWASH NP2[source[animate|organization]] (PP[theme]) (PP[predicate]) (PP[instrument])
+      </commentary>
+      <examples>
+      Attorney General Holder just whitewashed the authors of the torture memos.
+      This committee whitewashed him in the face of the evidence.
+      Mahdi Husain, presenting him as a gentle philosopher, all but whitewashed him.
+      Assistant District Attorneys and favored law firms were also whitewashed of crimes.
+      They whitewashed him as an advocate of toleration.
+      The jury completely whitewashed the parson with a verdict against the woman on all points.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whitewash.02</pb>
+         <vn>cheat-10.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cover up a misdemeanor, fault, or error" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate|organization]] WHITEWASH NP2[theme] (PP[instrument])
+      </commentary>
+      <examples>
+      Labor historians mostly whitewashed the role of racism in the American labor movement.
+      Has the Catholic Church whitewashed the unholy truth behind a double murder and suicide at the Vatican?
+      Mainstream news has whitewashed the truth.
+      The police's decision whitewashed the disagreements among the investigators.
+      The "whiteness" has essentially whitewashed the identity of the Middle-Eastern community.
+      He hasn't whitewashed the truth with the typical right wing rhetoric.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>whitewash.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

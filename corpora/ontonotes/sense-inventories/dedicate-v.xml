@@ -1,0 +1,89 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dedicate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="devote wholly and earnestly to some purpose" type="">  
+      <commentary>
+        Syntax Is:
+        NP1[agent] DEDICATE NP2 TO NP3[inanimate]
+        NOTE: NP3 can be [+animate] but in those cases NP2 MUST BE
+        [abstract] as in the first example.
+      </commentary>
+      <examples>
+        She dedicated her life to her husband.
+        The artist dedicated her life to saving the environment.
+        Mr. Smith dedicated his entire fortune to finding his son.
+        UNICEF workers dedicate their time to helping underpriviledged children.
+        The smallest American republic, Panama, dedicated her navy to
+        service yesterday.
+        Fifty percent of his income was dedicated to his children.
+        I want to dedicate myself to the Goddess of Learning.
+        Rabbis dedicate their lives to serving Adonai.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>dedicate.01</pb>
+         <vn>dedicate-79</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="offer formally to a person or cause" type="">
+      <commentary>
+        Syntax Is:
+        NP1[agent] DEDICATE NP2[patient[concrete]] TO NP3[beneficiary]
+        NOTE: NP3 can also be a community that is made up off animate
+        entities as in the last example.
+      </commentary>
+      <examples>
+        Russel dedicated the book to his family, particularly his
+        daughters.
+        Is it weird to dedicate a song to your cat?
+        The new museum was dedicated to Marc Rothko.
+        Mara dedicated her article to her support group.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="mark the completing of a public area; open for use" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        A large number of prominent Catholic clergymen today dedicated the
+        Church of Our Lady.
+        Miss Teen Utah dedicated the new bridge this morning.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="ECCLESIASTIC: set apart for sacred duties with a ritual" type="">
+      <commentary>
+        NOTE: This is a subset of sense 1 but confined to religious domains
+        that state or imply that a rite or cermony  has been preformed.
+      </commentary>
+      <examples>
+        When he was a baby, his mother dedicated him to service for the
+        church.
+        We dedicated the cross.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

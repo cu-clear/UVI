@@ -1,0 +1,70 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="shelf-n">
+    <commentary>
+        Has idioms 'off_the_shelf' and 'on_the_shelf'
+    </commentary>
+    
+    <sense group="1" n="1" name="a support consisting of a horizontal surface for holding objects" type="">
+        <commentary>
+            SHELF[+entity][+physical][+structure][+manmade][+surface][+horizontal][+support][+object]
+        </commentary>
+        <examples>
+            Can you put these books back on the top shelf for me?
+            Mary wanted glass-enclosed shelves in her kitchen.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a projecting ridge from a geological formation" type="">
+        <commentary>
+            SHELF[+entity][+physical][+structure][+geological][+ridge][+projecting]
+        </commentary>
+        <examples>
+            We could see a narrow shelf about 300 feet above us, jutting out from the cliff.
+            His boat got grounded on a soft mud shelf in the shallows.
+            The continental shelf extends about a hundred miles offshore.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="product taken from existing supply, not made to order" type="">
+        <commentary>
+            Idiom: OFF_THE_SHELF
+        </commentary>
+        <examples>
+            These computer components are all off-the-shelf.
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom_1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="something no longer in use, on the sidelines" type="">
+        <commentary>
+            Idiom: ON_THE_SHELF
+        </commentary>
+        <examples>
+            His injury kept him on the shelf for years.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom_2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

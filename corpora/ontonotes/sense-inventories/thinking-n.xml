@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="thinking-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of reasoning, cogitation" type="">
+        <commentary>
+            THINKING[+activity][+mental][+reasoning]
+            Note: refers to the ongoing activity of thought
+            Note: does -not- imply a fixed opinion about a topic
+        </commentary>
+        <examples>
+            Not all species are capable of mathematical thinking.
+            Thinking was difficult with all the construction noise outside.
+            She has done some hard thinking about the metabolic pathways of these small molecules.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>thinking.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the opinion, viewpoint of someone" type="">
+        <commentary>
+            THINKING[+state][+mental][+opinion]
+            Note: this sense is the resulting state of doing Sense 1
+        </commentary>
+        <examples>
+            He wanted to know my thinking on the latest draft of our grant proposal.
+            What is the current student thinking about ROTC on campus?
+            His thinking on this issue has changed over the years.
+        </examples>
+        <mappings>
+            <wn version="MW-oneline">2</wn>
+            <omega/><pb>thinking.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

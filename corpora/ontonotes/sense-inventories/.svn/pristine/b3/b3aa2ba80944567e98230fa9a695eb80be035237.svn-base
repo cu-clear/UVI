@@ -1,0 +1,111 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fly-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) float in or move through air" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         Man cannot fly.
+         The Piper J-3 cub is the plane that taught America to fly!
+         She flies F-16s.
+         Let's go fly a kite!
+         The nations fly their flags in front of the UN.
+         We flew blind through the fog.
+         An enemy plane flew by.
+         They were open-cockpit mail pilots who flew contact.
+         They flew on through the night.
+         We fly flowers from the Caribbean to North America.
+         She is flying to Cincinnati tonight.
+         Are we driving or flying?
+         Linbergh was the first to fly the Atlantic.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5,9,10,12</wn>
+         <wn lemma="fly_blind" version="3.0">1</wn>
+         <wn lemma="fly_by" version="3.0">1</wn>
+         <wn lemma="fly_contact" version="3.0">1</wn>
+         <wn lemma="fly_on" version="3.0">1</wn>
+         <omega/><pb>fly.01</pb>
+         <vn>drive-11.5-1,nonvehicle-51.4.2,run-51.3.2,spatial_configuration-47.6</vn><fn>Self_motion,Motion,Bringing,Operate_vehicle,Ride_vehicle</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move quickly (from one state/location to another)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He flew about the place.
+        Rumors and accusations are flying.
+        He flew into a rage.
+        Time flies like an arrow.
+        He threw down his gun and fled.
+        All my money flew dramatically out of my hand.
+        He really flew off the handle when I suggested selling the house.
+        The door flew open.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,6,7,8,11,14</wn>
+         <wn lemma="fly_off_the_handle" version="3.0">1</wn>
+         <wn lemma="fly_open" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>run-51.3.2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="hit a fly (baseball)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Miranda flied out to right field.
+      </examples>
+      <mappings>
+         <wn version="3.0">13</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="leave" type="">
+      <commentary>
+        Includes: FLY THE COOP
+      </commentary>
+      <examples>
+        After years of fighting with my mother, my father finally flew the coop.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="fly_the_coop" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="be elated or successful" type="">
+      <commentary>
+        Includes: FLY HIGH
+      </commentary>
+      <examples>
+        He was flying high in the summer months.
+        The company was flying high as a maker of personal computers.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="fly_high" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="go against" type="">
+      <commentary>
+        Includes: FLY IN THE FACE OFF, FLY IN THE TEETH OF
+      </commentary>
+      <examples>
+        This action flies in the face of the government.
+        His ideas flew in the teeth of Aristotle's.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc" sample_score="-"/>
+</inventory>

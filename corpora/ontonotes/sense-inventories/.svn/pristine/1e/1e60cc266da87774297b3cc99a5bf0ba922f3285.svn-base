@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="clip-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Sever or remove by pinching or snipping;
+   tend by cutting." type="">  
+      <commentary>
+      Syntax Is: NP1[agent] CLIP NP2[patient[concrete]]
+      INCLUDES: CLIP OUT, CLIP OFF
+      </commentary>
+      <examples>
+      Assuming it wasn't one of those columns that you clipped and put on
+      the refrigerator door, I'll review the facts.
+      The anthers in these plants are difficult to clip off.
+      Clip the bushes. 
+      She clipped her hair short.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>clip.01,clip.02</pb>
+         <vn>braid-41.2.2,cut-21.1-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Run at a moderately swift pace." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      The boat clipped along to a southerly wind.
+      The racers clipped at a 5-minute pace. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Attach or bind with a fastener." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Clip the papers together.
+      She clipped her hair into a bun.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>tape-22.4-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="Terminate or abbreviate before its intended
+         or proper end or its full extent." type="">
+      <commentary>
+      Syntax Is: NP1[agent] CLIP NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      He clipped the announcement short.
+      They had to clip the tour schedule.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

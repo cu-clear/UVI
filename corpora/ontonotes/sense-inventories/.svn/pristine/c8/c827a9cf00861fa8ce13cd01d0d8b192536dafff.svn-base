@@ -1,0 +1,109 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sacrifice-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of surrendering or losing something of value" type="">
+        <commentary>
+            SACRIFICE[+action][+surrendering][+value]
+        </commentary>
+        <examples>
+            His parents made a lot of sacrifices to send him to college.
+            Mary is prepared to make sacrifices to advance her career.
+            The shady venture was not worth the sacrifice of his good name.
+            These holidays are to honor the sacrifices made by the armed forces. (their acts)	
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>sacrifice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="personnel lost in battle to attain an objective" type="">
+        <commentary>
+            SACRIFICE[+entity][+personnel][+military][+killed]
+            Note: refers to the people, not their acts. (Sense 1)
+        </commentary>
+        <examples>
+            The general said the sacrifices would be too great in a full-fleged land invasion.
+            The troops incurred enormous sacrifices to take the bridge.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a relative loss in price, value" type="">
+        <commentary>
+            SACRIFICE[+quantity][+amount][+price][+reduction]
+            Note: implies some sales price loss for a seller
+        </commentary>
+        <examples>
+            The bankrupt store sold most of its remaining goods at a sacrifice.
+            They had to sell their home at a considerable sacrifice.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a ritually killed animal or human" type="">
+        <commentary>
+            SACRIFICE[+entity][+individual][+victim][+killed][+ritually][+human/+animal]
+            Note: refers to the entity, not the act of killing (Sense 6)
+        </commentary>
+        <examples>
+            They offered a lamb as a sacrifice.
+            The human sacrifices had their hearts torn from them.
+            This is where sacrifices were offered to the spirits.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb>sacrifice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a forfeiting game strategy" type="">
+        <commentary>
+            SACRIFICE[+action][+forfeiting][+strategy][+game]
+        </commentary>
+        <examples>
+            His bunt was a sacrifice to get the runner to second. 
+            Black's sacrifice of his queen was a trap that white fell for. (chess strategy)
+            Mary decided to make a sacrifice bid in the bridge game.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="the act of performing a ritualized killing" type="">
+        <commentary>
+            SACRIFICE[+action][+killing][+offering][+ritual]
+        </commentary>
+        <examples>
+            The sacrifice of the sacred animals had to occur under a full moon.
+            The grizzly sacrifice of the cult's children was on the front page of all the newspapers.
+        </examples>
+        <mappings>
+            <wn version="MW online">1</wn>
+            <omega/><pb>sacrifice.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

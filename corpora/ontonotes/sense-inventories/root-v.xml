@@ -1,0 +1,106 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="root-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="put down roots" type="">
+      <commentary>
+        Syntax Is: NP1 ROOT
+      </commentary>
+      <examples>
+        The cuttings will root faster if temperatures are 65 to 75 degrees F.
+        It roots in water, but more easily in soil.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2,5</wn>
+         <omega/><pb>root.02</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="cause to take root; plant by the roots" type="">
+      <commentary>
+        Syntax Is: NP1[agent] ROOT NP2
+        Note: Take care to distinguish passives (example 4 below) and participial
+           adjectives, such as, 'He was rooted in the community.'
+           The latter should be tagged &quot;X&quot;.
+      </commentary>
+      <examples>
+        I have rooted the following salvias in two to three weeks: Pineapple Sage, Lady in Red, Indigo Spires.
+        Johnson rooted his volunteerism in a handful of important, but small, federal initiatives.
+        She has rooted herself in my heart.
+        During each session, five shoots were rooted in each jar.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">3,6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>root.02</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="dig" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The baby rooted around until her eyes were buried in the crook of his elbow.
+        She tossed open the trunk and rooted through the clothes.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>rummage-35.5</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="give support or wish success to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He rooted for the Broncos growing up.
+        I will root for a meteor to hit the stadium.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <omega/><pb>root.03</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="search and discover" type="">
+      <commentary>
+        Includes: ROOT OUT
+      </commentary>
+      <examples>
+        Scientists root out the secret life of a plant disease.
+        Are you ready to root out the technologies your company needs?
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="discover and destroy" type="">
+      <commentary>
+        Includes: ROOT OUT
+      </commentary>
+      <examples>
+        Governor Thompson rooted out corruption in his home state.
+        Iraqi forces are rooting out the small remaining pockets of resistance in Mosul.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="root_out" version="3.0">1,2</wn>
+         <omega/><pb>root.01</pb>
+         <vn>NM</vn>
+         <fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw" sample_score="-"/>
+</inventory>

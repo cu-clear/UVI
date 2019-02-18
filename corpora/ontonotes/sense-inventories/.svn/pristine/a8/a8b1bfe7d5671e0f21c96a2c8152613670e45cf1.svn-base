@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="peel-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Strip the skin off of a (formerly) living thing." type="">  
+      <commentary>
+      Includes: PEEL OFF
+      Syntax Includes:
+      NP1[agent] PEEL NP2[patient]
+      NP1[agent] PEEL OFF NP2[attribute] PP{P NP[patient]}
+      </commentary>
+      <examples>
+      He peeled the apple before eating it.
+      She peeled off every bit of the mango's skin to get rid of the pesticides. 
+      Workers peel off the skin from the pigs after scalding them; it's a
+      horrific process.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="peel_off" version="3.0">1</wn>
+         <omega></omega><pb>peel.01</pb>
+         <vn>pit-10.7</vn><fn>Emptying</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Come off it flakes or small pieces." type="">
+      <commentary>
+      Note: May be metaphorical.
+      Includes: PEEL OFF. PEEL AWAY  
+      Syntax Is: NP1[patient] PEEL (PP{P NP[location]})  
+      </commentary>
+      <examples>
+      The paint in my house is peeling off.
+      Sunburned skin peeled from her shoulders.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="peel_off" version="3.0">4</wn>
+         <wn lemma="peel_off" version="3.0">5</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="(Cause to) reduce or diminish, possibly
+         leaving an underlying structure in place." type="">
+      <commentary>
+      Includes: PEEL OFF, PEEL AWAY
+      Syntax Includes:
+      NP1[agent] PEEL NP2[patient[abstract]]
+      NP1[patient[abstract]] PEEL  
+      </commentary>
+      <examples>
+      Rates haven't peeled off that much this past quarter.
+      Layers of management will peel away, leaving autonomous regional
+      offices.
+      We're peeling away much of our corporate structure.
+      Peel away the BS and he doesn't really have much to say.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="peel_off" version="3.0">3</wn>
+         <omega></omega><pb>peel.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="PEEL OFF: undress; remove clothing." type="">
+      <commentary>
+      Is: PEEL OFF 
+      </commentary>
+      <examples>
+      He peeled off his blood-soaked shirt.
+      She peeled off her dress and slip and took a shower.
+      You can't just peel off your clothing in public!
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="peel_off" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="Squeal the tires of a car while starting motion." type="">
+      <commentary>
+      Includes: PEEL OUT, PEEL OFF
+      </commentary>
+      <examples>
+      She took off running to a car that was waiting and they peeled out of the parking lot.
+      He peeled off the median and sped away.
+      Don't peel out - it wears away your tires.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Remove one's attention or perception from." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      Peel yourself away from the videogame for a second and listen to me!
+      She couldn't peel her eyes away from the television.
+      I can't seem to peel my attention from this task.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="PEEL ONE'S EYES (FOR): become or remain attentive." type="">
+      <commentary>
+      Is: PEEL ONE'S EYES (FOR)
+      Note: Be really careful not to annotate adjectival uses. 
+      </commentary>
+      <examples>
+      Workers should peel their eyes for errors on the line.
+      Peel your eyes, boys. The enemy is coming.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="office-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a business, both in its location, work, and/or staff" type="">
+        <commentary>
+            This sense is the general concept of which senses 2 and 3 are more specific aspects.  
+            Unless one of senses 2 or 3 exclusively and exactly fits, use this sense.
+        </commentary>
+        <examples>
+            His office produced very good work.
+            Office work can be tiresome.
+            The Office of Himmerty and Schlimerty handled the lawsuit.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="staff of workers who form a business environment and organization" type="">
+        <commentary>
+            This sense should only be chosen if the sentence is
+            very clearly talking only about staff and not the business or building.
+            Can take [+animate] attributes ('late','gossipy') because it refers to a group of people.
+        </commentary>
+        <examples>
+            the whole office was late the morning of the blizzard
+            their office is always so gossipy!
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="physical location of a business" type="">
+        <commentary>
+            This sense should be used when the sentence is clearly talking only about the rooms and buildings, 
+            not about the staff or business itself. Look for locational prepositions such as 'at', 'from', 'to'
+        </commentary>
+        <examples>
+            I'll pick up some forms at the office.
+            The offices in that part of town are really expensive.
+            I usually work from my office at home.
+            He visited the recently opened New York office of that law firm.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="duty,function,role or authority of an individual in a given job or capacity." type="">
+        <commentary>
+            part&lt;duty;office;post&lt;job
+        </commentary>
+        <examples>
+            This scandal sullies the office of the President of the United States.
+            the function of a teacher
+            he occupied a post in the treasury
+            He signed a lot of bills during his first year in office.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="official legal agency or administrative body" type="">
+        <commentary>
+            Usually part of a proper name
+        </commentary>
+        <examples>
+            &quot;Office of Management and Budget&quot; &quot;the Census Bureau&quot;;
+            &quot;The General Accounting Office;&quot; &quot;The Office of Special Plans&quot;
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="religious rite prescribed by ecclesiastical authorities" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The office of Mass
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

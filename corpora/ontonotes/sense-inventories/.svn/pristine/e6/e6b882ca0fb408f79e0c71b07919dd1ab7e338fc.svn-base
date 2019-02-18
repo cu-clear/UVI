@@ -1,0 +1,41 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="diving-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense group="1" n="1" name="competition" type="">
+        <commentary>
+	    DIVING[+event]
+	    an athletic competition that involves diving into water
+	    </commentary>
+        <examples>
+            Diving begins on Tuesday at 3pm.
+            She'll be competing in diving.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega/>
+            <pb>diving.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="belly-flopping" type="Event">
+        <commentary>
+	    DIVING[+event]
+	    a headlong plunge into water
+	    </commentary>
+        <examples>
+            The diving in our backyard consisted only of belly flops.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega/>
+            <pb>diving.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

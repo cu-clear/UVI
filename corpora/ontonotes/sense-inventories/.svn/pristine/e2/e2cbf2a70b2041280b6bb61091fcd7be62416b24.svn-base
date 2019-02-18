@@ -1,0 +1,47 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="slow-v">    
+   <commentary>
+     Note: Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="lessen in intensity" type="">
+      <commentary>
+        Note: references to speed, productivity, magnitude, effect
+        Includes: SLOW UP, SLOW DOWN
+      </commentary>
+      <examples>
+        Will you slow down for the sharp curves?
+        Not knowing what was around the corner, we slowed up.
+        Over the holiday period he slowed his blogging activities.
+        After installing the application, my system has slowed down.
+        Economic growth slowed by half.
+        HIV prevalence has slowed down.
+        As soon as the rain slowed, she walked back to her cabin.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="slow_up" version="3.0">1,2,3</wn>
+         <wn lemma="slow_down" version="3.0">1,2,3,4,5</wn>
+         <omega/><pb>slow.01,slow.02,slow.03</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hold back, retard, delay" type="">
+      <commentary>
+        Delaying or becoming a stumbling block to progress.
+        NOTE: This sense has the inference that the cause of the slowing is
+        unexpected and undesired, not a natural occurrence. The object
+        being slowed is progressing less than desired and expected.
+        Includes: SLOW UP, SLOW DOWN
+      </commentary>
+      <examples>
+        News of pandemonion may have slowed the much needed aid.
+        Science is being slowed down by fraud.
+        We got slowed up in Minburn by slow drivers.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <wn lemma="slow_up" version="3.0">2</wn>
+         <wn lemma="slow_down" version="3.0">3</wn>
+         <omega/><pb>slow.01,slow.03</pb>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd,duffielc" sample_score="-"/>  
+</inventory>

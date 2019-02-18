@@ -1,0 +1,168 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="support-n">
+    <commentary>
+        16nov06 update wn2.1, modified defs, examples, added features. ahouston
+        16nov06	 split sense 3 into sense 3(1,6,11) and sense 7(wn 2,3), added sense 8. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a load-bearing device, a physical structure" type="">
+        <commentary>
+            SUPPORT[+entity][+structure][+load_bearing]
+            thing holder upper - 
+            a device that bears the weight of another thing (maintain physically)
+        </commentary>
+        <examples>
+            There was no place to attach supports for a shelf.
+            The statue stood on a marble support.
+            The best support for a camera is a tripod.
+            His administration instituted price supports in several industries. (metaphoric extension: subsidies act to hold prices up higher than market forces might warrant, the prices have a 'foundation' under them)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the state of having one's weight supported" type="">
+        <commentary>
+            SUPPORT[+state][+physical][+bearing][+weight]
+            the state of having one's weight born up by another object or person
+            Note: implies an entity is in a state of having its weight born by something else.
+        </commentary>
+        <examples>
+            He leaned against the wall for support.
+            Feeling faint, she clutched his arm for support.
+            The support should come from your legs, not your back, while lifting heavy objects.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="activity of providing a resource" type="Event">
+        <commentary>
+            SUPPORT[+event][+activity][+assistance][+resource][+sustenance/+livelihood/+funding]
+            Note: implies that a resource was provided to someone or something
+            Note: resource can be monetary, physical or emotional
+        </commentary>
+        <examples>
+            The family received just enough support from an uncle to pay the rent and buy groceries.
+            John's grant has received another three years of support from a funding agencies.
+            His faith was all the support he needed. (emotional, spiritual resource)
+            Mary joined a breast cancer support group. (emotional, information resource)
+            The President's support staff were largely responsible for putting the report together.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="evidence, documentation, validation" type="Event">
+        <commentary>
+            SUPPORT[+entity][+symbolic][+information][+evidence]
+            [+relation][+role][+evidence]
+            documentary validation, proof
+        </commentary>
+        <examples>
+            He has questioned whether there is indeed growing support for the existence of dark matter.
+            The strongest support for this view is the work of a leading British economist.
+            These statistics hardly provide convincing support for the conclusions drawn in the study.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="subordinate part of a larger artistic work" type="Event">
+        <commentary>
+            SUPPORT[+activity][+assistance][+accompaniment][+subordinate][+artistic]
+            [+entity][+form][+artistic][+subordinate]
+            artistic accompaniment that provides background for more important parts
+            Note: a specialized usage of Sense 2 - always refers to subordinate artistic effort
+        </commentary>
+        <examples>
+            Sally sang to the family before dinner while her sister provided support with a violin.
+            The dark blues, and close perspective lend support to the painting's brooding atmosphere.
+            The lead actor needed more comedic support from his rather stodgy cast.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="military reinforcement personnel" type="Military">
+        <commentary>
+            SUPPORT[+entity][+group][+personnel][+military][+reinforcement]
+            [+activity][+assistance][+providing][+resource][+reinforcement][+military]
+            Note: a specialized usage of Sense 2 - always refers to military reinforcement, assistance
+            a military operation(often involving new supplies of men and material)
+            to strengthen a military force of aid in the performace of its mission.
+        </commentary>
+        <examples>
+            They called for artillery support.
+            The president urged that military support be sent to protect the aids workers.
+            U.N. support was withdrawn from the battle zone to a safer base.
+            The colonel called for additional air support over his hand-held radio.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="approval, endorsement" type="Event">
+        <commentary>
+            SUPPORT[+activity][+endorsement]
+            [+state][+attitude][+approval]
+            NOte: refers to a belief, attitude or inclination of approval by someone for something
+        </commentary>
+        <examples>
+            The policy found little public support.
+            The team enjoyed the support of their fans.
+            The president was losing support for his foreign aid policy.
+            They are trying to muster enough support to get this measure on the ballot.
+            Their candidate is in support of stem cell research.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="technical advice or assistance" type="Event">
+        <commentary>
+            SUPPORT[+activity][+communication][+advice][+technical]
+        </commentary>
+        <examples>
+            Mary was on the phone for an hour with the technical support.
+            He provides support to the entire facility.
+            They sent in a support team to fix the computer problems at the client site.
+        </examples>
+        <mappings>
+            <wn version="MAC">2d</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

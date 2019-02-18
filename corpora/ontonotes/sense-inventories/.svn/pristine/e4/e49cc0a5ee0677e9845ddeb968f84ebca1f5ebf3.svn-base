@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="guarantee-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give assurance or make promise, assume responsibility for following through" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] GUARANTEE SCOMP
+        NP1[agent] GUARANTEE NP2[patient]
+        Note: Agent is under obligation upon making the assertion of a guarantee; may only imply an agent,
+        as when the speaker seems to be guaranteeing an effect (see the final 2 examples);
+        the agent of GUARANTEE may not be typical (see ex. 6), but a promise is being made  
+      </commentary>
+      <examples>
+       She guarantees this drinking water is good.
+       The government won't guarantee the safety of those prisoners.
+       Those tires are guaranteed for two years.
+       European Airlines guarantees its customers top-quality service.
+       He guaranteed to spare the lives of any troops who surrendered or deserted.
+       Discover this new step-by-step golf system that guarantees to fix your golf slice in just 21 days!
+       It is research that is guaranteed to delight men - and infuriate the women.
+       Check out the following exercise, guaranteed to freak you out.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4</wn>
+         <omega/><pb>guarantee.01</pb>
+         <vn>promise-37.13,conjecture-29.5-2,future_having-13.3</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make certain or ensure a result" type="">
+      <commentary>
+        Syntax Includes:
+        NP1 GUARANTEE NP2
+        NP1 GUARANTEE SCOMP
+        Note: The subject is NOT an agent-- no agent is placed under an obligation.
+        Note: One thing or event ensures that another will happen.
+      </commentary>
+      <examples>
+       Sunny skies today don't guarantee them tomorrow.
+       This bestseller has guaranteed him a secure financial future.
+       His victory in the election was guaranteed by the large turnout.
+       Late fines doesn't always guarantee that people return borrowed items on time.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>ensure-99</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,brownsw" sample_score="-"/>
+</inventory>

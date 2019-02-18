@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="evaporate-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) lose liquid; turn from liquid to
+   gas" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Most of the water in the pool has evaporated.
+        Evaporate the milk for a better cake.
+        The chemist evaporated the liquid.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>evaporate.01</pb>
+         <vn>other_cos-45.4</vn><fn>Cause_change_of_phase,Change_of_phase</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="become less intense; fade away" type="">
+      <commentary>
+        NOTE: This is a metaphorical subsense of sense 1.
+      </commentary>
+      <examples>
+        Her hopes evaporated after years of waiting for her fiance.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>
+</inventory>

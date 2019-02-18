@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="buoy-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) float (as if) on the surface of the water" type="">  
+      <commentary>
+        Includes: BUOY UP
+        NOTE: Includes metaphorical uses
+      </commentary>
+      <examples>
+        The vote buoyed the bureaucrats.
+        Then she was buoyed by the sea and eventually returned to shore.
+        These payments buoyed the otherwise depressed economy of the reconquered provinces. 
+        The whole body is buoyed up by a force equal to the sum of the forces acting on the elementary cylinders. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="buoy_up" version="3.0">3</wn>
+         <omega></omega><pb>buoy.01,buoy.02</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="BUOY UP: (cause to) become more cheerful" type="">
+      <commentary>
+        IS: BUOY UP
+      </commentary>
+      <examples>
+        Her comment buoyed up my spirits.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="buoy_up" version="3.0">1,2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Mark with a buoy" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We buoyed the area with plastic bottles to indicate safe depths. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,greenlm" sample_score="-"/>  
+</inventory>

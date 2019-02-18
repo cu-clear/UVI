@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="levy-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="taxes imposed and collected" type="">
+        <commentary>
+            LEVY[+quantity][+sum][+money][+tax]
+            Note: refers to a sum of money, not the event of imposing taxes (Sense 2)
+        </commentary>
+        <examples>
+            You don't have to pay levies on merchandise in duty free shops.
+            There is a sizable levy on these luxury items.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the act of imposing taxation" type="Event">
+        <commentary>
+            LEVY[+event][+taxation]
+            Note: implies an agent/actor in a role as initiator or collector of taxes.
+            Note: this sense is a nominalization of the verb 'levy'
+        </commentary>
+        <examples>
+            The legislature's levy of a new tax on cigarettes will raise revenues for the state.
+            It was hard to enforce the levy of these types of business transactions.
+        </examples>
+        <mappings>
+            <wn version="MW online">1b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="the act of conscripting soldiers for an army" type="Event">
+        <commentary>
+            LEVY[+event][+conscription]
+            Note: this sense is a nominalization
+        </commentary>
+        <examples>
+            Such a levy of young men will not have much public support.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the conscripts that form an army" type="">
+        <commentary>
+            LEVY[+entity][+group][+people][+soldiers][+conscripts]
+            Note: refers to people, not the event of recruiting them (Sense 3)
+        </commentary>
+        <examples>
+            The lightly armed local levies were no match for the heavy armor of the enemy.
+        </examples>
+        <mappings>
+            <wn version="MW online">2b</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

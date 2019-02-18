@@ -1,0 +1,162 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="look-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="regard, examine, search visually or figuratively" type="">
+      <commentary>
+        Includes: LOOK AROUND, LOOK AT, LOOK AWAY, LOOK BACK; LOOK BACKWARD; LOOK FOR;
+                  LOOK INT0; LOOK ON; LOOK OUT; LOOK UP; LOOK UPON
+        Syntax Is: NP1[agent[animate]] LOOK (PP)
+        NOTE: compare carefully to sense 3; in this sense, the &quot;looker&quot; is 
+              always animate
+      </commentary>
+      <examples>
+       Look - the moon is rising.
+       She looks at her life differently now.
+       The dog looked at the cat sitting on the fence.
+       I've been looking everywhere for my cell phone.
+       If you look for faults you will find them.
+       They are looking for volunteers.
+       You dont think a woman can lead a country? Look at Margaret Thatcher!
+       He looked back on his accomplishments with pride.
+       We should look into these allegations to see if they are true.
+       She looked on this affair as a joke.
+       They looked on as the dictator was hanged.
+       Look out for pickpockets.
+       Would you look up his phone number for me?
+       He looked upon her as the best in the field.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="look_around" version="3.0">1</wn>
+         <wn lemma="look_at" version="3.0">1,2</wn>
+         <wn lemma="look_away" version="3.0">1</wn>
+         <wn lemma="look_back" version="3.0">1,2</wn>
+         <wn lemma="look_backward" version="3.0">1</wn>
+         <wn lemma="look_for" version="3.0">1</wn>
+         <wn lemma="look_into" version="3.0">1,2</wn>
+         <wn lemma="look_on" version="3.0">1,2</wn>
+         <wn lemma="look_out" version="3.0">1</wn>
+         <wn lemma="look_up" version="3.0">1</wn>
+         <wn lemma="look_upon" version="3.0">1</wn>
+         <omega/><pb>look.01,look.05,look.06</pb>
+         <vn>peer-30.3,rummage-35.5,stimulus_subject-30.4</vn>      
+         <fn>Seeking,Perception_active,Scrutiny</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="appear, be" type="">
+      <commentary>
+       Includes: LOOK LIKE
+       Syntax Is: NP1[topic] LOOK (ADVP) (PP{to NP[perceiver]
+      </commentary>
+      <examples>
+       These numbers look fishy to me.
+       That baby looks so adorable.
+       She looked her devotion to me.
+       This car doesn't look ten years old.
+       She looks like a clown.
+       It looks like the school board takes that very seriously.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,7,9</wn>
+         <wn lemma="look_like" version="3.0">1</wn>
+         <omega/><pb>look.02</pb>
+         <vn>stimulus_subject-30.4</vn>
+         <fn>Appearance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="be oriented in a direction, provide a view" type="">
+      <commentary>
+       Includes: LOOK ACROSS; LOOK OUT ON; LOOK OUT OVER
+       Syntax Is: NP1[theme[inanimate[concrete]]] LOOK PP{P NP[location]}
+       NOTE: compare carefully to sense 1; the thing &quot;looking out&quot; is always
+             inanimate.
+      </commentary>
+      <examples>
+        His living room looks west over the Pacific.
+        Those mountains are looking more to the south.
+        My hotel room looked into a central courtyard.
+        The solarium looks across the lawn.
+        Your room looks out on the pond.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <wn lemma="look_across" version="3.0">1</wn>
+         <wn lemma="look_out_on" version="3.0">1</wn>
+         <wn lemma="look_out_over" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="do or take care of something" type="">
+      <commentary>
+       Includes: LOOK AFTER; LOOK OUT
+       Syntax Is: NP1[agent] LOOK (PP)
+      </commentary>
+      <examples>
+        Will you look after these details for me?
+        Let's look into getting our hotel booked soon.
+        He's looking after her pets next week.
+        She looks out for her family.
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>
+         <wn lemma="look_after" version="3.0">1</wn>
+         <wn lemma="look_out" version="3.0">2</wn>
+         <omega/><pb>look.07</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="expect or await" type="">
+      <commentary>
+       Includes: LOOK FOR; LOOK FORWARD; LOOK TO
+       Syntax Is: NP1[experiencer] LOOK PP
+      </commentary>
+      <examples>
+       They are looking for a break in the weather to start the trip.
+       She has been looking to this promotion for a long time.
+       I look forward to hearing from you.
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <wn lemma="look_for" version="3.0">2</wn>
+         <wn lemma="look_forward" version="3.0">1</wn>
+         <wn lemma="look_to" version="3.0">1</wn>
+         <omega/><pb>look.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="depend on, count on" type="">
+      <commentary>
+       Syntax Is: NP1[recipient] LOOK PP{to NP[agent]}
+      </commentary>
+      <examples>
+       Look to your friends in times of trouble.
+       Mary didn't look to John for support.
+       They were able to look to the government for aid during the depression.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>  
+   <sense group="1" n="7" name="idioms" type="">
+      <commentary>
+        Includes: LOOK DOWN ON; LOOK SHARP; LOOK UP TO
+      </commentary>
+      <examples>
+        The neighbors look down on us because we have an old car.
+        Look sharp--we need to finish before they arrive.
+        The kids all look up to their teacher.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="look_down_on" version="3.0">1</wn>
+         <wn lemma="look_sharp" version="3.0">1</wn>
+         <wn lemma="look_up_to" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+<WORD_META authors="ahouston,brownsw,duffielc" sample_score="-"/>
+</inventory>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pioneer-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="lead the way in a new area" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] PIONEER NP2[theme]
+      NP1[agent[animate]] PIONEER PP[location]
+      </commentary>
+      <examples>
+      She pioneered a graduate program for women students.
+      This South African surgeon pioneered heart transplants.
+      Oral Roberts helped pioneer TV evangelism in the 1950s.
+      He pioneered the study of snowflakes when he photographed the first one.
+      She pioneers at its fringes, far beyond the civilized borders.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pioneer.01</pb>
+         <vn>captain-29.8-1,establish-55.5</vn><fn>Achieving_first</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

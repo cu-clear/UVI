@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="affirm-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="verify, support" type="">  
+      <commentary>
+        NP1[+agent] AFFIRM NP2
+      </commentary>
+      <examples>
+        The story affirmed what we already know.
+        Before God he affirmed his innocence.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>affirm.01</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="say yes to" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        "Yes," he affirmed, "I want to have that kind of content."
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

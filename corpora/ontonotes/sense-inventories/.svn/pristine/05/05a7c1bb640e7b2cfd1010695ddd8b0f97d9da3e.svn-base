@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="summon-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Call in on an official matter, ask to come." type="">  
+      <commentary>
+        Syntax is: NP1[animate] SUMMON NP2[animate]
+      </commentary>
+      <examples>
+      He was summoned by subpoena to appear the following Thursday.
+      Summon a lawyer for the accused.
+      The participants summoned the deity to the meeting hall.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>summon.01</pb>
+         <vn>order-60</vn><fn>Request</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Gather or bring together" type="">
+     <commentary>
+      Syntax is: NP1[animate] SUMMON NP2[concrete]
+     </commentary>
+     <examples>
+     She summoned the courage to win the match.
+     The crowd summoned all its intellect to understand the speaker. 
+     </examples>
+     <mappings>
+       <gr_sense></gr_sense>
+        <wn version="3.0">3</wn>
+        <wn lemma="" version="3.0"></wn>
+        <omega></omega><pb>NM</pb>
+        <vn>order-60</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Make ready for action or use." type="">
+     <commentary>
+       Syntax is: NP1[animate] SUMMON NP2[concrete]
+     </commentary>
+     <examples>
+     The government summoned resources for the impending war.
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0">4</wn>
+        <wn lemma="" version="3.0"></wn>
+        <omega></omega><pb>NM</pb>
+        <vn>NM</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="SUMMON FORTH: Cause to appear." type="">
+     <commentary>
+     IS: SUMMON FORTH
+     </commentary>
+     <examples>
+     Scrooge summoned forth the ghost of Christmas past.
+     Therapy can summon forth half-forgotten memories and induce mood changes.
+     </examples>
+     <mappings>
+        <gr_sense></gr_sense>
+        <wn version="3.0"></wn>
+        <wn lemma="" version="3.0"></wn>
+        <omega></omega><pb>summon.02</pb>
+        <vn>NM</vn><fn>NM</fn>
+     </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey,clarklm" sample_score="-"/>  
+</inventory>

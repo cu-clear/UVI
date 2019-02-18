@@ -1,0 +1,38 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="save-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="preventing an opponent from scoring in a game" type="Event">
+        <commentary>
+            SAVE[+event][+game][+prevention][+of_score][+by_opposition]
+        </commentary>
+        <examples>
+            The outfielder caught the ball against the wall in a brilliant save.
+            The goalie made several saves during the second half.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="writing computer data to permanent storage" type="Event">
+        <commentary>
+            SAVE[+event][+computational][+writing][+data][+to_storage][+permanent]
+        </commentary>
+        <examples>
+            Better do a save of these files before you leave for the day.
+            I made a save of my entire disk on a peripheral storage device.
+        </examples>
+        <mappings>
+            <wn version="MAC">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

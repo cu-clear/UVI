@@ -1,0 +1,83 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="row-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="arrangement of objects" type="Abstraction">
+        <commentary>
+            A particular arrangement of some group of objects or people, in which they form a continuous, often-horizontal line.
+            Does not refer to events in time.
+        </commentary>
+        <examples>
+            Put all the cards in a neat row.
+            In Microsoft Excel, the cells are arranged in rows and columns.
+            I see a row of clouds in the sky, and you see a row of chairs on the ground.
+            The people are standing in a row.
+            When you're building a house, you arrange the bricks in rows.
+            She went to the opera and got a seat in the front row.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 3 4 5
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="argument" type="Event">
+        <commentary>
+	    ROW[+event]
+	    A slightly old-fashioned way of referring to a heated argument or dispute.
+	    </commentary>
+        <examples>
+            My wife and I had a nasty row about whether to get paper or plastic. 
+            I could hear the sounds of your row from the other room.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="consecutive events" type="Abstraction">
+        <commentary>
+            A particular &quot;arrangement&quot; of events in time; a series of events that occur consecutively or without interruption. 
+        </commentary>
+        <examples>
+            They won the championship three years in a row.
+            He knocked seven times in a row.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                6
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="act of rowing" type="Event">
+        <commentary>
+	    ROW[+event]
+	    An act of rowing a boat.  Sometimes refers to the sport of rowing.
+	    </commentary>
+        <examples>
+            Yesterday I took a row around the river.
+            The oars are too heavy for me to make a good row.
+            John built a row boat with his bare hands.
+            He tried joining the row team yesterday, but he didn't make the cut.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                7
+            </wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

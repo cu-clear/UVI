@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="emerge-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="issue forth from; exit or come from somewhere" type="">  
+      <commentary>
+	Syntax Includes:
+        NP1[topic] EMERGE (ADVP) PP[location]
+        NP1[topic] EMERGE (ADVP) PP[temporal] 
+        Note: can be used metaphorically
+      </commentary>
+      <examples> 
+	The Bengal tiger emerged from the forest. 
+	I couldn't believe the imperious stream of words emerging from her lips. 
+	The fugitive emerged from hiding after ten years. 
+	Some new fiscal problems are emerging on the horizon. (metaphoric)
+	Jealousy emerged in his heart at the sight of Mary dancing with Bob.
+	Some fruitful discussions emerged during those weekly meetings.
+	He always emerges from his house at six o'clock sharp.
+        They have emerged intact from their recent bankruptcy
+        Jane has not emerged without scars from the ordeal.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3</wn>   
+         <omega/><pb>emerge.01</pb>
+         <vn>appear-48.1.1</vn><fn>Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="develop or surface (as); become known or perceived (as)" type="">  
+      <commentary>
+	Syntax Is: NP1[topic] EMERGE (PP)
+	Note: links NP with a quality of the NP, not the location of the NP
+      </commentary>
+      <examples>
+	He is quickly emerging as the leading candidate of their party.
+	This stock has emerged as the one to buy in recent weeks.
+        India has emerged as the most attractive global retail destination for a second straight year.
+        Palestinian Islamic Jihad emerged in the early 1980s.
+        The tourism report emerged from four studies over a three year period.
+        But the next day, when the fog has lifted, a starkly different image emerges.
+        The facts behind the scandal are sure to emerge eventually.
+        It has emerged that secret talks had been going on between the two companies.
+        She's the most exciting British singer to emerge on the pop scene for a decade.
+      </examples>
+      <mappings>
+         <wn version="3.0">4,5</wn>
+         <omega/><pb>emerge.02</pb>
+         <vn>appear-48.1.1</vn><fn>Coming_to_be</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,duffielc,hwangd" sample_score="-"/>  
+</inventory>

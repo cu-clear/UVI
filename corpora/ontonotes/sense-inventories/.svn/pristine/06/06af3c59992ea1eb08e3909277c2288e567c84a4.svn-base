@@ -1,0 +1,104 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="material-n">
+    <commentary>
+        8nov06 update to wn 2.1, added examples, commentary, added features. ahouston  
+    </commentary>
+    
+    <sense group="1" n="1" name="cloth, textiles" type="">
+        <commentary>
+            MATERIAL[+entity][+artifact][+fabric]
+            artifact made by weaving or felting or knitting or crocheting natural
+            or synthetic fibers - fabric, cloth, textile
+        </commentary>
+        <examples>
+            The curtains are made of a light cotton material.
+            She measured off enough material for a dress.
+            Mary bought upholstery material to replace the covers on her dining room chairs.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="stuff or tangible substance" type="">
+        <commentary>
+            MATERIAL[+entity][+substance][+tangible]
+            the tangible substance that goes into the makeup of a physical object
+            Note: preceding modifier often specifies the type of substance
+        </commentary>
+        <examples>
+            Coal is a hard black material.
+            The body of the plane is made of an engineered composite material.
+            Mary wiped off the sticky material that was on the counter.
+            These explosive materials may not be shipped by air freight.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="information content" type="">
+        <commentary>
+            MATERIAL[+entity][+symbolic][+information][+content]
+            information content, e.g. data, artistic content
+        </commentary>
+        <examples>
+            The archives provided rich material for a definitive biography.
+            That band performs only original material composed by the lead singer.
+            The teacher said we are not responsible for the material at the end of Chapter Eight.
+            The comedian drew material for his jokes largely from his own childhood.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="useful equipment, tools" type="">
+        <commentary>
+            MATERIAL[+entity][+artifact][+equipment][+useful]
+            things needed for doing or making something
+            Note: preceding modifier often specifies what the material is used for.
+        </commentary>
+        <examples>
+            She purchased all of her writing materials at the flea market.
+            There is still a large pile of building material at the construction site.
+            I put the cleaning materials underneath the sink.
+            John used scales and weights as teaching materials for his math class.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a person" type="">
+        <commentary>
+            MATERIAL[+entity][+person][+applicant][+suitable]
+            a person judged suitable for admission or employment
+        </commentary>
+        <examples>
+            He was university material. 
+            She was vice-presidential material.
+            The women decided that Bob was not marriage material.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!--  -->
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+</inventory>

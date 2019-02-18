@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="banish-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="send away, expel" type="">  
+      <commentary>
+        NOTE: Compare to sense 2. This is a more general sense and does not
+        include banishing thoughts, emotions, etc. Notice that while Sense
+        1 NP2 is concrete, Sense 2 NP2 is abstract.
+     Syntax Is:   NP1[agent] BANISH NP2[patient[animate]] (PP NP3)
+      </commentary>
+      <examples>
+        The Sultan of Turkey then banished Him to the prison of 'Akka in
+        Syria.
+        Ozai burned his face and banished him from his country when he
+        thought the boy was disrespecting him.
+        Higham was confronted by team owners who banished him from
+        professional baseball.
+        We have cast God behind our backs, expelled Him from school, and
+        banished Him from the school yard.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>banish.01</pb>
+         <vn>banish-10.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Get rid of an emotion, situation, or
+      abstract influence." type="">
+      <commentary>
+        NOTE: Compare to sense 1. This is a subsense of sense 1 that only
+        includes banishing thoughts, emotions, etc. Notice that NP2 in
+        Sense 2 is ABSTRACT.
+      Syntax Is: NP1[agent] BANISH NP2[patient[abstract]]
+      </commentary>
+      <examples>
+        I banished the thought as, moments later, my honey and I squeezed
+        closer to each other at the picnic table and raised our glasses for
+        our first toast.
+        Their pleasure banished the anger from King Frost's heart.
+        Her eyes teared up, but she stuck her chin out and banished the
+        sorrow.
+        Indeed, the two leading ladies have banished competition.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>banish.01</pb>
+         <vn>banish-10.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm,corvey" sample_score="-"/>  
+</inventory>

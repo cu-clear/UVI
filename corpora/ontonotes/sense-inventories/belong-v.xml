@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="belong-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="be owned by" type="">
+      <commentary>
+      Syntax Is:  NP1[patient] BELONG to NP2[agent[human]]
+        Note: NP2 owns NP1, may be used metaphorically.
+      </commentary>
+      <examples>
+        This book belongs to me.
+        Texas' national-championship night in Pasadena belonged solely to the unstoppable Vince Young.
+        This elegant 1840s farmhouse belonged to Osborne's first settler.
+        Not all liquid stocks belong to big companies and not all illiquid stocks belong to small companies.
+        Though Brandy can be made anywhere, the true roots belong to France.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega></omega><pb>belong.01</pb>
+         <vn>NP</vn><fn>Possession</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="be in or part of an appropriate/acceptable place, situation or group" type="">
+      <commentary>
+       Syntax Is: NP BELONG 
+        Note: NP2 does NOT own/possess NP1.
+      </commentary>
+      <examples>
+        This student somehow doesn't belong.
+        Where does this book belong?
+        One of these things is not like the other, one of these things does not belong.
+        Isn't it time you returned to where you once belonged?
+        Serious money belongs in a widely diversified investment program.
+        This student belongs to our bridge club.
+        Senator Ted Kennedy belongs to All Male club.
+        Each breed of dog belongs to a group of similar breeds.
+        Tulips belong to the lily family.
+        Your stove looks like it should belong in a museum.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,5,6</wn>
+         <omega></omega><pb>belong.01</pb>
+         <vn>NP</vn><fn>Membership</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="duffielc,hwangd,vieweg" sample_score="-"/>
+</inventory>

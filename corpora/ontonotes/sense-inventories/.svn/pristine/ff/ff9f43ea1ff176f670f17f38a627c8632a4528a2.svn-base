@@ -1,0 +1,184 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="burn-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) be consumed or destroyed by fire" type="">
+      <commentary>
+      Syntax Includes: 
+        NP1[agent] BURN NP2[patient]
+        NP1[patient] BURN 
+      </commentary>
+      <examples>
+        In 1791 a mob, incensed at his radical religious and political views, burned his home.
+        Her house burned down.
+        He burned his draft card during the Vietnam War.
+        The car burns only Diesel oil.
+        The building burns its garbage.
+        They burned her at the stake for witchcraft.
+        The car burned up in the crash.
+        The pie burned to a crisp.
+        They should burn off the undergrowth in a controlled manner.
+        The dermatologist burned off the wart.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,5,7,8,11</wn>
+         <wn lemma="burn_down" version="3.0">1,2</wn>
+         <wn lemma="burn_off" version="3.0">2</wn>
+         <wn lemma="burn_up" version="3.0">3</wn>
+         <omega/><pb>burn.01,burn.02</pb>
+         <vn>other_cos-45.4,hurt-40.8.3-2</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="give off heat and light, shine intensely" type="">
+      <commentary>
+      Syntax Is:  NP1 BURN
+      </commentary>
+      <examples>
+        The fire burned throughout the night.
+        A wildfire is burning just west of Muskogee.
+        This candle will burn for 15 hours.
+        The lights in the office building burned until 2 a.m.
+        Okita was enraged and the light in his eyes burned furiously.
+        They threw a farewell glance towards the cliff, and beheld the
+        vapors
+        gathering in dense volumes, through which the gem burned
+        duskily. --Nathaniel Hawthorne
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2</wn>
+         <wn lemma="burn_up" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>entity_specific_cos-45.5,entity_specific_modes_being-47.2,light_emission-43.1,other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="create through burning" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The iron burned a hole in my dress.
+        The fire has burned a swath 12 miles long and three to five miles wide.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">15</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>other_cos-45.4</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="get rid of by or as if by burning" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Running is a great way to burn calories.
+        Adding just 10 pounds of muscle will burn off 62 pounds of fat over the next year!
+        Be sure to burn off the alcohol before adding the cream, otherwise the sauce may curdle.
+        We need to burn up some time before we go in.
+        Marco sure acts like he has money to burn. 
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">9,14</wn>
+         <wn lemma="burn_off" version="3.0">1</wn>
+         <wn lemma="burn_up" version="3.0">2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="injure through heat or radiation" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He missed a game after he burned his face, spending too much time under a tanning lamp.
+        When the flash from the bomb came, and they were burned on their face.
+        You'll burn if you stay out on the beach too long.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">4,12</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>hurt-40.8.3-2,other_cos-45.4</vn><fn>Cause_harm,Experience_bodily_harm</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="feel hot or painful, as if burning" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        My eyes are burning.
+        Her ears burned from the cold.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">10</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>pain-40.8.1,tingle-40.8.2</vn><fn>Perception_body</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="feel strong emotion, esp. passion or anger" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He burned with a fierce anger.
+        The thought of her behavior that night made her burn with shame.
+        What are you so burned up about?
+        Her comments really made me burn!
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">6</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Emotion_heat</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="BURN OUT: stop burning or functioning" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The campfire did not burn out until dawn.
+        The lightbulb burned out again!
+        I'm so burned out I can't think straight.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="burn_out" version="3.0">1</wn>
+         <omega/><pb>burn.03,burn.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="9" name="duplicate data" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I'll burn the photos to a CD and mail it to you.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">13</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>burn.03,burn.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="10" name="insult, hurt" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She's been burned by trusting her employees before.
+        Way to go! You so burned that idiot.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0"/>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

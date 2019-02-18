@@ -1,0 +1,118 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="chamber-n">
+    <commentary>
+        Revised ANN file
+        merged senses 3 and 4. ahouston
+        26sep06 added dummy sense 4. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a room, serving a human activity" type="">
+        <commentary>
+            CHAMBER[+structure][-movable][+room][+work/+sleep/+death]
+            Note: implies an unmovable structure, (different from Sense 2)
+            Note: purpose is for social or human activity.
+        </commentary>
+        <examples>
+            The master chamber of the old house had a magnificent canopied bed.
+            This room of the palace served as a torture chamber.
+            The attorneys are in chambers right now with the judge. (private rooms for legal affairs)
+            The committee is holding a meeting in the council chamber.
+            Millions died in the gas chambers during World War II. 
+            Chamber music is best played in intimate room settings and small halls, not huge venues.
+            The large, ornate burial chambers of the ancient pharaohs were pillaged by grave robbers.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a compartment of a larger structure" type="">
+        <commentary>
+            CHAMBER[+structure][+moveable][+component][+compartment][+purposeful]
+            Note: implies the compartment and/or its whole is movable. (different from Sense 1)
+            Note: purpose is of a physical or chemical nature
+        </commentary>
+        <examples>
+            Bob uses a cloud chamber to study tracks produced by moving particles.
+            The munition of a gun is discharged in the firing chamber.
+            The human heart has four chambers, two ventricle and two atria. 
+            John spent hours in a hyperbaric chamber after he got the bends while diving.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a legislative or administrative body" type="">
+        <commentary>
+            CHAMBER[+role][+authority][+administrative][+legislative/+legal/+business]
+            [+group][+assembly][+people][+judge/+legislator/+councilor]
+        </commentary>
+        <examples>
+            That reporter has been assigned to cover the Senate chamber.
+            Both chambers of the House have approved the bill.
+            He is working the chamber trying to get enough votes to pass his bill.
+            The entire chamber stood up and gave him a standing ovation for three minutes.
+            It's an event put on by the local chamber of commerce.
+            Much speculation today about what may be going on in the policy chambers of Washington.(metaphoric extension, decision-making parallel to a legislative body)
+        </examples>
+        <mappings>
+            <wn version="3.0">3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+            
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="an underground cavern" type="">
+        <commentary>
+            CHAMBER[+structure][-moveable][+natural][+cavern][+underground]
+            Note: perhaps an extension of Sense 1, but is a natural phenomenon with no purpose.
+        </commentary>
+        <examples>
+            The underground passage opened up into a vast chamber with stalactites and stalagmites. 
+            A series of underground chambers were formed by water eroding limestone.
+        </examples>
+        <mappings>
+            <wn version="MAC">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

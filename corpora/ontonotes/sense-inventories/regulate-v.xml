@@ -1,0 +1,42 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="regulate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="adjust something to a particular specification" type="">  
+      <commentary>
+        Syntax Is: NP1 REGULATE NP2
+        Note: Use: No influence or control required. NP1 simply adjusts/maintains a certain setting
+        or specification.
+      </commentary>
+      <examples>
+        How do you regulate the machine temperature?
+        The kidneys regulate the body's fluid volume, mineral composition and acidity.
+        The unit will regulate the capacity so that the compressor runtime is 30 minutes.
+        I can't regulate the sound to low or high.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="exert control or influence over" type="">
+      <commentary>
+        Syntax Includes: 
+        NP1[agent] REGULATE NP2
+        NP1[agent] REGULATE COMP
+      </commentary>
+      <examples>
+        All laws which regulate the capacity of persons to contract are considered personal laws.
+        Brazil regulates sale of timber.
+        We cannot regulate the way people dress.
+        Should schools regulate lunches brought from home?
+        I need to regulate my eating habits.
+       </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <omega/><pb>regulate.01</pb>
+         <vn>NP</vn><fn>NP</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

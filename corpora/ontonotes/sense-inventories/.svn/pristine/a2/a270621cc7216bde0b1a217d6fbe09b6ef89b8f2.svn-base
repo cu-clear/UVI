@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="itch-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="scrape or rub to relieve itching" type="">  
+      <commentary>
+        Syntax Includes: NP1[agent] ITCH NP2[patient]
+      </commentary>
+      <examples>
+        Mary itches her bug bites more than she should.
+        The bear itched it's back on a log.
+        The children were itching at their chicken pox.
+        John itched inside his cast with a pencil.
+        I itch my back with a back-scratcher.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>   
+         <wn lemma="" version="3.0">1</wn>
+         <omega></omega><pb>itch.01</pb>
+         <vn>NP</vn><fn>Perception_Body</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="to have an itch" type="">
+      <commentary>
+         Syntax Includes: NP1[cause] ITCH NP2[experiencer]
+      </commentary>
+      <examples>
+        John's wool sweater itched him all over.
+        The mosquito bite itched.
+        Certain rashes itch their unfortunate hosts.
+        Martin itched from allergies.
+        Jenny's dry skin itched.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0">2,3</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>Pain-40.8.1</vn><fn>Perception_Body</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="strong desire or urge to do something" type="">
+      <commentary>
+         Syntax Includes: NP1[agent] ITCH NP2
+      </commentary>
+      <examples>
+        The drunk boys were itching for a fight.
+        The small-town boy was itching for adventure.
+        Jenny itched to know the new gossip.
+        John itched to get home for the holidays.
+        I itch for romance.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>itch.02</pb>
+         <vn>Long-32.2-1</vn><fn>Desiring</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="donaldpl" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,46 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="fund-n">
+    <commentary>
+        Added examples, revised definitions, added commentary. ahouston.
+    </commentary>
+    
+    <sense group="1" n="1" name="a supply or reserve of something, often money" type="">
+        <commentary>
+            FUND[+quantity][+supply][+reserve]
+            A stock or reserve of something, often money, set aside for a later time.
+            Note: when referring to money, focus is on the money itself, not the institution that manages it.
+        </commentary>
+        <examples>
+            We've been raising funds all over Alabama.
+            The mayor has insufficient funds to build a marina.
+            He's amassed a huge fund of Cuban cigars.
+            You'll find a fund of information on how to build decks and patios on the Internet.
+            The children can use their trust funds to pay for college.
+            Sally's index funds performed well last year.
+            He was arrested for the misuse of public funds.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="a financial institution that manages money organized as funds" type="Entity">
+        <commentary>
+            FUND[+organization][+institution][+commercial][+financial]
+            Note: focus is on the institute that manages the money, not the money itself
+        </commentary>
+        <examples>
+            The board has fired the CEO of that large pension fund.
+            Three officers of that hedge fund were indicted for fraud.
+            They are moving the headquarters of their mutual fund to Atlanta.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+</inventory>

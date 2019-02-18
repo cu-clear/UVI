@@ -1,0 +1,74 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="crash-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="a forceful collision, an accident" type="Event">
+        <commentary>
+            CRASH[+event][+accident][+collision]
+        </commentary>
+        <examples>
+            The plane made a crash landing, but everyone survived.
+            I didn't see the crash although I heard it. (primarily sense 1, but implies sense 2)
+            The running back  is still recovering from his crash with a linebacker in the third quarter.
+            Wear a crash helmet when you ride a motorcycle.
+            A five-car crash brought the commuter traffic to a halt.
+            The race car went spinning through the crash barrier.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4</wn>
+            <omega/><pb>crash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a loud sound or noise" type="Event">
+        <commentary>
+            CRASH[+event][+acoustic][+loud]
+        </commentary>
+        <examples>
+            Our ears were deafened by the crash of lightening.
+            The crash of the symbols startled the audience.
+            We heard the crash of dinner plates coming from the restaurant's kitchen. (emphasis on sound)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>crash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a sudden or rapid decline" type="Event">
+        <commentary>
+            CRASH[+event][+decline][+rapid][+business/+physiology]
+        </commentary>
+        <examples>
+            The stock market crash of 1929 was the beginning of the Great Depression.
+            The children are experiencing a sugar crash after eating all that candy a few hours ago.
+            Over-speculation led to a crash in the Japanese real estate market during the 1980s.
+            A heroin crash can be deadly for some addicts.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <wn version="MW online">4</wn>
+            <omega/><pb>crash.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="a computer malfunction" type="Event">
+        <commentary>
+            CRASH[+event][+malfunction][+computer]
+        </commentary>
+        <examples>
+            I have experienced some unexplained disk drive crashes this week.
+            Planetary launches cannot afford to have software or hardware crashes in any system.
+            After the 100th crash, John erased Windows from his disk and installed Linux.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

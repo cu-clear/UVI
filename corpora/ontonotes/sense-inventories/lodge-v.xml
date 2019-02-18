@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="lodge-v">
+   <commentary>
+      Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="(cause to) reside" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Where are you lodging in Paris?
+        He lodged at one time in Bishopsgate and, later on, in Southwark.
+        He lodged his wife and family at a hotel. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="lodge_in" version="3.0">1,4</wn>
+         <omega></omega><pb>lodge.01</pb>
+         <vn>lodge-46</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(to cause) wedge, implant" type="">
+      <commentary>
+        Syntax Is: NP1[theme] LODGE PP{P NP[location]}
+      </commentary>
+      <examples>
+        The penny lodged in her throat.
+        The bullet was lodged at the S2 level.
+        Ask the boy himself to relate it, so that it will lodge in his memory.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <omega></omega><pb>lodge.02</pb>
+         <vn>put-9.1</vn><fn>Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="place, entrust" type="">
+      <commentary>
+        Syntax Is: NP1[agent] LODGE NP2[theme] PP{P NP[location]}
+      </commentary>
+      <examples>
+        Where does the Constitution lodge this power?
+        When Pascal sent all mathematicians the challenge, he lodged the prizes 
+          and his own solutions with Carcavi.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="file formally" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The White House has lodged a complaint with the Irish embassy in Washington.
+        To receive the dividend, one must lodge the share transfer with the Principal Registrar.
+        Only one claim of ownership has been lodged.
+        Visa applications may be lodged at TT Services.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <omega></omega><pb>lodge.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="provide lodging for" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We are lodging three foreign students this semester.
+        The sacrum lodges the sacral nerves.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <omega></omega><pb>lodge.01</pb>
+         <vn>pocket-9.10-1</vn><fn>Residence</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,greenlm" sample_score="-"/>
+</inventory>

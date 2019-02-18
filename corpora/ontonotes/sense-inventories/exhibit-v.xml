@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="exhibit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="show an attribute or quality" type="">  
+      <commentary>
+        Syntax Includes:
+        NP1[agent[concrete]] EXHIBIT NP2[attribute[abstract]]
+        NP1[topic[concrete]] EXHIBIT NP2[attribute[abstract]]
+      </commentary>
+      <examples>
+        Rockman's art exhibits a terrifying nature.
+        Jason exhibits great skill at watercolors.
+        This museum exhibits a Creationist viewpoint.
+        TRPV4 exhibits a functional role in cell-volume regulation. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>exhibit.01</pb>
+         <vn>reflexive_appearance-48.1.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="put on display; have a show for" type="">
+      <commentary>
+        Syntax Is: NP1[agent[animate]] EXHIBIT NP2[patient[concrete]]
+ 
+        NOTE: NP1 can be an organization made up of animate entities
+        (i.e. in sentence 1. 'Palmer Museum' refers to the people in charge
+        of running it, not the physical building itself.)
+      </commentary>
+      <examples>
+        Palmer Museum is exhibiting African masks until November.
+        This branch of our office is designed to exhibit American
+        contemporary crafts.
+        I will exhibit my science project at the National Science Fair tomorrow!
+        This restaurant began to exhibit budding artists' work in 1963.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>exhibit.01</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

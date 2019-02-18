@@ -1,0 +1,52 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="speculate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="conjecture on the basis of incomplete facts or information" type="">  
+      <commentary>
+        Note: This sense implies a conclusion. Through conjecture, the subject is forming
+        a conclusion about someone or something.
+      </commentary>
+      <examples>
+        I don't know why she did it. I'm just speculating.
+        A spokesperson declined to speculate on the cause of the train crash.
+        Journalists are speculating about whether interest rates will be cut. 
+        The newspapers have speculated that they will get married next year.
+        The physician speculated that high cholesterol was a contributing factor to the patient's health problems.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>
+         <omega/><pb>speculate.01</pb>
+         <vn>conjecture-29.5-1</vn><fn>NP</fn> 
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="deeply mediate, reflect, or debate; think over possibilities" type="">
+      <commentary>
+        Note: This sense does NOT imply a conclusion, unlike sense 1. 
+      </commentary>
+      <examples>
+        Philosophers have speculated on the question of God for thousands of years.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="FINANCIAL-take risks for profit" type="">
+      <commentary>
+        Nyntax is: P1[human] SPECULATE ON/IN NP2
+
+        Note: This sense implies the actual act of investing. 
+      </commentary>
+      <examples>
+        He made his money speculating on the London gold and silver markets.
+        The company has been speculating in property for years.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

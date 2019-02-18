@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="mist-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="obscure with mist" type="">  
+      <commentary>
+      Includes: MIST_UP
+      Syntax includes:
+      NP1[agent[animate]] MIST (up) NP2[destination] (PP[theme])
+      NP1[agent[animate]] MIST (over) NP2[destination] (PP[theme])
+      NP1[theme] MIST (over) NP2[destination]]
+      NP1[theme] MIST (up) NP2[destination]
+      NP1[destination] MIST (up) (PP[theme])
+      NP1[destination] MIST (over) (PP[theme])
+      </commentary>
+      <examples>
+      The dental mirror misted.
+      The glass misted with his exhalation.
+      The glass misted from the heat of my palm.
+      The window in the Cafe Des Amatuers misted over from the heat and smoke inside.
+      But our vision seems to get dim as minutes pass, as if the window misted up.
+      His breath briefly misted the glass.
+      My warm breath misted up the glass.
+      Perspiration had misted over the glass of my suit.
+      A grey English drizzle misted the glass.
+      Tears misted the old gentleman's eyes.
+      I misted the glass with a sigh.
+      Harry let out a long breath and watched as he misted up the window.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="mist_over" version="3.0">1</wn>
+         <omega></omega><pb>mist.01,mist.04,mist.05</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="spray with a mist of something" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] MIST NP2[destination] (PP[theme])
+      NP1[theme] MIST NP2[destination]
+      NP1[destination] MIST PP[theme]
+      </commentary>
+      <examples>
+      I misted the glass with dull coat.
+      He misted the glass with a good amount of vermouth before pouring in the gin.
+      I misted the entire card with Old Lace.
+      After doing this, I misted the plants again.
+      Perfume misted the air.
+      The air misted with the scent of gardenias.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mist.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="weather condition" type="">
+      <commentary>
+      Note: Includes an empty "it" subject. 
+      Syntax includes:
+      MIST
+      </commentary>
+      <examples>
+      It's misting outside.
+      It misted on us once in the afternoon.
+      It misted on us all day, and we nearly froze.
+      It misted on campus and then froze.
+      It misted on the drive up, and rainbows were plentiful.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>mist.03</pb>
+         <vn>weather-57</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

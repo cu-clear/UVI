@@ -1,0 +1,73 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="solution-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a homogeneous chemical mixture, often a liquid" type="">
+        <commentary>
+            SOLUTION[+entity][+substance][+chemical][+mixture][+homogeneous]
+        </commentary>
+        <examples>
+            He used a solution of peroxide and water on the wound.
+            John said the blue liquid in the flask was a solution of copper sulphate.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the answer to a question or puzzle" type="">
+        <commentary>
+            SOLUTION[+entity][+symbolic][+information][+answer][+to_problem]
+        </commentary>
+        <examples>
+            The solution to today's crossword puzzle is on page 16.
+            Anyone who could give the right solution to the riddle could marry the princess.
+            The brilliant mathematician sketched a solution to Poincare's Conjecture. (a proof, not just a set of values as in Sense 3)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="set of mathematical values that satisfy an equation" type="">
+        <commentary>
+            SOLUTION[+entity][+mathematical][+set][+value][+satisfy][+equation]
+        </commentary>
+        <examples>
+            There are two solutions for each of these quadratic equations.
+            The computer can calculate the solutions for these equations in a few seconds.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a method for solving a problem" type="">
+        <commentary>
+            SOLUTION[+action][+method][+resolution][+problem]
+            Note: refers to some behavior or activity to achieve an end, not just information content (Sense 2)
+        </commentary>
+        <examples>
+            Putting these reinforcing beams against the wall is only a short term solution to repairing the structural damage.
+            His solution to every problem is to just ignore it.
+            They are exploring possible solutions to the congested traffic flow in the city's center.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mean-v">
+   <commentary>
+     Note: Contains duplicate WordNet mappings.
+   </commentary>
+   <sense group="1" n="1" name="have in mind, intend" type="">
+      <commentary>
+        Syntax Is: NP1[agent[human]] MEAN NP2
+        Note: Includes Agent subjects only.
+        Note: All "is/are meant for" constructions belong in this sense.
+      </commentary>
+      <examples>
+         You never understand what I mean!
+         Yes, I meant you when I complained about people who gossip!
+         I meant the green vase when I said I wanted to buy the vase.
+         I mean no harm.
+         We meant to return early that night.
+         She only meant to help!
+         These flowers are meant for you.
+         The newlyweds were meant for each other.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4,6,7</wn>
+         <omega/><pb>mean.01</pb>
+         <vn>intend-61.2-1</vn><fn>Purpose</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="denote, translate; have importance or purpose; have a logical result" type="">
+      <commentary> 
+        Syntax Is: NP1[theme[abstract]] MEAN[atelic] NP2
+        Note: Includes Theme subjects only.
+        Note: Includes outcome or result.
+        Note: 'Telic' meaning that the event of meaning is bounded in
+        time. It has a beginning and an end.
+      </commentary>
+      <examples>
+         'Maison' means 'house' in French.
+         I don't know what this word means in that context.
+         Who decided red means stop and green means go?
+         My ex-husband means nothing to me.
+         Winning means everything to her.
+         The drought means the crop is ruined.
+         The fact that Jane saw him at home means he has an alibi.
+         The water shortage means that we have to stop taking long showers.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,3,5</wn>
+         <omega/><pb>mean.01</pb>
+         <vn>representation-110</vn><fn>Causation,Evidence,Linguistic_meaning</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="discourse function, parenthetical" type="">
+      <commentary>
+        Note: This sense is a parenthetical usage and does not carry any meaning.
+      </commentary>
+      <examples>
+         I mean, come on.
+         Is it true you fainted? I mean, you actually fainted?
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <omega/><pb>mean.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,duffielc,vieweg" sample_score="-"/>
+</inventory>
+

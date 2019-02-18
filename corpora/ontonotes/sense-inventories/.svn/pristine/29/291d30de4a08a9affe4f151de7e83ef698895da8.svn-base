@@ -1,0 +1,64 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="commit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="perpetrate, carry out" type="">  
+      <commentary>
+      Syntax Is: 
+       NP1[agent] COMMIT NP2[patient]
+      </commentary>
+      <examples>
+	Their gang committed bank robberies during the 1970s.
+	They are trying to determine whether fraud was committed.
+	The man committed suicide by jumping off a bridge.
+	She confessed the sins she had committed to her priest.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>commit.02</pb>
+         <vn>NM</vn><fn>Committing_crime</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="give, dedicate, pledge " type="">
+      <commentary>
+       Syntax Is:	
+        NP1[agent] COMMIT NP2[patient] (PP{P NP[recipient]})
+	NP1[topic] COMMIT (PP{P NP[goal]}
+      </commentary>
+      <examples>
+	She has committed her life to helping the poor.
+	The town won't commit funds for a dog park.
+	The U.N. has not decided whether to commit ground troops to assist.
+	Treasury appears to be committed to a strong dollar.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>commit.01</pb>
+         <vn>dedicate-79</vn><fn>Commitment,Imposing_obligation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+    <sense group="1" n="3" name="consign, entrust" type="">  
+      <commentary>
+       Syntax Is:
+        NP1[agent] COMMIT NP2[patient] PP
+      </commentary>
+      <examples>
+	The sergeant committed the private to cleaning latrines for punishment.
+	The judge committed him to four years in prison.
+	Sally thinks her neighbor should be committed. (consigned to a mental ward)
+	They committed their souls to God.
+	I am committing my fate into your hands.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>commit.01</pb>
+         <vn>confine-92-1</vn><fn>Institutionalization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="ahouston" sample_score="-"/>  
+</inventory>

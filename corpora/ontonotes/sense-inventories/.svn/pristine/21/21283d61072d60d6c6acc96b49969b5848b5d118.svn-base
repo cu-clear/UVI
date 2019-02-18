@@ -1,0 +1,91 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="process-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="work on, subject to treatment, produce a transformed output" type="">
+      <commentary>
+        Syntax is: NP1 PROCESS NP2
+        Note: NP2 goes through a transformation in its (chemical or physical) makeup or composition.
+      </commentary>
+      <examples>
+        They processed the light to break it into the various colors.
+        She shot the photos and processed the photographs in her own lab.
+        The plant processes cheese on behalf of its own leading brands.
+        The text gives an explanation of how the swordmaker processes iron.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,6</wn>
+         <omega/><pb>process.01</pb>
+         <vn>NP</vn><fn>Processing_materials</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="calculate (numerical or quantitative)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The results of the elections were still being processed when he gave his acceptance speech.
+        We processed the latest state level estimates with components of change from the Census Bureau.
+        Dr. Symes simulated the survey and then we processed the resulting time vectors.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="deal with according to routine or procedure" type="">
+      <commentary>
+        Syntax is: NP1 PROCESS NP2
+        Note: NP2 does not go through transformation as in sense 1.
+
+        This grouping includes the specific senses:
+          institute legal proceedings against; file a suit against;deliver a warrant or summons to someone
+      </commentary>
+      <examples>
+        The computer processes five pictures per second.
+        We processed the pup, giving him vaccinations, taking measurements, pit tagging and radio collaring him.
+        He was warned that the district attorney would process him.
+        I thought they were going to detain him but they pretty much processed him as normal and sent him on his way.
+        The police officers processed him on an outstanding traffic warrant.
+        The next morning we picked him up from the Douglas County Correctional Facility and processed him.
+        The government claims to have processed the arrestees as expeditiously and humanely as possible.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4,7</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="take in, comprehend, handle input" type="">
+      <commentary>
+        Syntax is: NP1[sentient] PROCESS NP2
+      </commentary>
+      <examples>
+        How much information is being processed by the human eye each second?
+        The study suggested that men and women process humour differently in their brains.
+        Some friends have only just found out and others have not yet processed the death of a dear departed.
+        The last night of the retreat, we processed the entire week examining interpersonal issues and lessons learned.
+        The ordained minister described how she processed the complicated questions surrounding the death penalty.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="march in a procession" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        It felt wonderful as we processed into the enormous St Hugh's Choir where the congregation were.
+        They processed into the dining room.
+        She nodded to Pastor Shulz and the choir as they processed into the sanctuary.
+        A door across the room from the altar opened and pairs of hooded figures processed into the chamber.
+      </examples>
+      <mappings>
+         <wn version="3.0">5</wn>
+         <omega/><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,hwangd" sample_score="-"/>
+</inventory>

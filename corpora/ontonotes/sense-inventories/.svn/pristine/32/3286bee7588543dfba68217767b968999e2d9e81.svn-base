@@ -1,0 +1,65 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rocket-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a self-propelled projectile driven by self-contained propellant" type="">
+        <commentary>
+            ROCKET[+projectile][+self_propelled][+propellant][+self_contained][+missile/+flare/+spaceship/+fireworks]
+            [+role][+conveyance][+transport/+weapon/+signal/+pyrotechnic]
+        </commentary>
+        <examples>
+            We could only see the vapor trail as the rocket disappeared into the blue sky.
+            This rocket can be fired at aircraft from a shoulder launch.
+            The crowd cheered as the rockets rose up and exploded into a display of colorful fireworks.
+            The Titanic shot rockets into the air as a distress call to other ships.
+            John and his brother would gladly volunteer to ride a rocket to Mars.
+            He can throw a fast ball like a rocket. (metaphoric extension, very fast)
+            Model rockets contain only small amounts of solid rocket fuel.   (context suggests 'rocket' refers to the projectile)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a combustion engine with self-contained propellant" type="">
+        <commentary>
+            ROCKET[+engine][+combustion][+propellant][+self_contained]
+            [+role][+producer][+thrust]
+            Note: similar to a jet engine, but uses own fuel, does not have air intakes like a jet engine
+            Note: refers to the thrust-producing mechanism, not the projectile that flies through the air.
+        </commentary>
+        <examples>
+            The Saturn rocket engine was designed around the earlier Jupiter and Redstone rockets.
+            A rocket engine burns liquid or solid fuel.
+            This is not rocket science. (refers to the technology and craft of the thrust producer)
+            This engine uses a special type of rocket fuel.  (context suggests 'rocket' refers to the engine)
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a plant often grown as a salad crop, arugula" type="">
+        <commentary>
+            ROCKET[+plant][+crop][+salad]
+        </commentary>
+        <examples>
+            Mary picked lettuce, rocket and scallions from the garden to make a salad.
+            Garden rocket is best when harvested while young and tender.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

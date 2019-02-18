@@ -1,0 +1,76 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="championship-n">
+    <commentary>
+        12jan07 - updated to WN 2.1, added features. ahouston
+        12jan07 - modified defintions, added examples. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="the position or title of a winner" type="Status">
+        <commentary>
+            CHAMPIONSHIP[+state][+social][+status][+winner]
+            Note: status that belongs to someone, an attribute of someone
+        </commentary>
+        <examples>
+            She must defend her championship against a hot young Swedish tennis player.
+            If they obtain proof of illegal drug usage during the competition, the fighter will be stripped of his championship.
+            Our team held the championship for three years in a row, but lost it this year.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="the act of advocating or promoting something" type="Event">
+        <commentary>
+	    CHAMPIONSHIP[+event][+activity][+social][+advocation]
+	    Note: a nominalization - his championship of our cause -&gt; he championed our cause
+	    backing, advocating
+	    </commentary>
+        <examples>
+            The Dean's championship of  freedom of speech on campus has become controversial.
+            His vigorous championship of the conservatives got him in trouble with progressives.
+            John's championship of his estranged wife surprised all of us.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a contest or competition, a specific event" type="">
+        <commentary>
+            CHAMPIONSHIP[+event][+social][+public][+competition]
+        </commentary>
+        <examples>
+            The national golf championship will be held tomorrow.
+            Will the Patriots be playing in the championship this year?
+            The Russian chess master has won the first two rounds of the world championship.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett hertlerb" sample_score=""/>
+</inventory>

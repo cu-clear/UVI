@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="append-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Add some (semantic) information to
+   something, possibly at the end." type="">  
+      <commentary>
+      Note: NP2 is probably [abstract]; NP2 always contains abstract
+      content, however.
+      Syntax Includes:
+      NP1[agent] APPEND NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      He appended a glossary to the end of his novel.
+      The Sentate appended capital gains to the budget bill.
+      I need to append some thoughts to that paper I wrote.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>append.01</pb>
+         <vn>NP</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Physically attach to something." type="">
+      <commentary>
+      Syntax Is: NP1[agent] APPEND NP2[patient[concrete]] (PP{P NP[location]})
+      </commentary>
+      <examples>
+      Append a charm to the necklace.
+      He appended a cover to each book.
+      Append the pin to the edge of your lapel. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Attaching</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="Add in discourse, as a mode of saying." type="">
+      <commentary>
+      Note: Instance generally contains a quotation; instance must contain
+      a [proposition].
+      </commentary>
+      <examples> 
+      "It doesn't really matter," he appended.
+      She appended that she didn't really want to go to school anyway.  
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,91 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="ink-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="append one's signature to" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] INK NP2[theme] (PP[destination])
+      NP1[agent[animate]] INK NP2[destination]]
+      </commentary>
+      <examples>
+      The Drums inked their Island Records deal at MTV HQ before the gig.
+      It didn't take long for the cookies to disappear and a deal to be inked.
+      Once a contract is inked, the deal must be approved by 23 of MLB's 30 owners.
+      Oudin was inking her signature to a new endorsement deal right before the match.
+      They must think highly of his arm because they inked him with an $889,200 signing bonus.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ink.01</pb>
+         <vn>butter-9.9,scribble-25.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="mark with ink" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] INK NP2[theme] (PP[destination])
+      NP1[agent[animate]] INK NP2[destination] (PP[theme])
+      </commentary>
+      <examples>
+      She shivered-was that a swastika inked onto his forehead?
+      The devil heaved down on the lever that lowered the page onto the plate of inked type.
+      After the finger is inked, the square is rolled around the finger without letting it slip.
+      He tried to read the line he had been inking, and saw his pen had dripped on the parchment.
+      This cover was inked with a Japanese brush pen, one of those disposable types.
+      I also inked him with grey wash tones on Howard the Duck and Dracula.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ink.01</pb>
+         <vn>butter-9.9,scribble-25.2</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="fill with ink" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] INK NP2[destination] (PP[theme])
+      </commentary>
+      <examples>
+      He inked his pen, hoping the fury that had coursed through him would make the words come easier.
+      I have a Hero 329 that works well when it's freshly inked, but it tends to dry out rather quickly.
+      I inked the pen with my favourite Ottoman Azure.
+      He inked his pen with subtle charm then sent me to the funny farm.
+      Inking her pen nib, she set back in her chair to read over what she had written.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ink.02</pb>
+         <vn>butter-9.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="squirt ink, as an sea creature" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] INK
+      NP1[agent[animate]] INK NP2[patient|theme]
+      </commentary>
+      <examples>
+      The octopus inked twice as it jetted away.
+      On one occasion the squid inked in unison and then jetted off at considerable speed.
+      Whenever the man would start to come out the octopus inked some more.
+      The octopus inked the boy repeatedly.
+      Right when he was going to add some other fish the octopus inked the whole tank.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>ink.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

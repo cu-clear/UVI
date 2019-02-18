@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="edit-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Prepare or supervise the production of;
+   change or alter the work of." type="">  
+      <commentary>
+       Syntax Includes: 
+       NP1[agent] EDIT NP2[patient[human]]
+       NP1[agent] EDIT NP2[patient]
+       NOTE: Compare to sense 2. This sense does NOT specifically refer to
+       removing scenes or questionable content from a publication or film. 
+      </commentary>
+      <examples>
+        Chairman James Connaughton personally edited the draft legal opinion.
+        Terry Ranger has edited the volume with Olufemi Vaughan.
+        This family has been editing the New York Times for over 100 years.
+        The author refused to be edited by anyone.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>edit.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Alter specifically by removing (something)." type="">
+      <commentary>
+        Includes: EDIT OUT
+        NOTE: This is a subsense of sense one referring only to scenes being
+        removed from a publication or film. This usually refers to scenes
+        of questionable content.
+      </commentary>
+      <examples>
+        She edited out all the sex scenes from her new books.
+        Don't you hate it when the radio edits all the good songs?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4</wn>
+         <wn lemma="edit_out" version="3.0">1</wn>
+         <omega></omega><pb>edit.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm,corvey,greenlm" sample_score="-"/>  
+</inventory>

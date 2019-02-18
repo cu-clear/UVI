@@ -1,0 +1,87 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="property-n">
+    <commentary>
+        Revised PENN file
+        26sep06 update to WN2.1 added features, examples, modified definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a piece of land, buildings, real estate" type="">
+        <commentary>
+            PROPERTY[+entity][+physical][+possession][+physical][+real_estate][+land/+building]
+            Note: a specialized narrower meaning of Sense 2
+        </commentary>
+        <examples>
+            Who owns this property?
+            Their firm develops commercial properties in older urban areas.
+            They bought some property in Florida.
+            That line of trees indicates the property line between the two farms.
+            The agent showed us several attractive beach front properties.
+            What are the property taxes on this building?
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="possessions, things owned" type="">
+        <commentary>
+            PROPERTY[+entity][+possession]
+            [+relation][+ownership][+object]
+        </commentary>
+        <examples>
+            The stolen property from the museum was finally recovered.
+            The landlord put the tenant's property out on the sidewalk.
+            That screen writer has sold several properties to a large Hollywood studio. (rights to the scripts)
+            There is no private property of any kind in this small socialist commune.
+            Property rights are not well-enforced in that developing nation.
+            This invention is the intellectual property of John's computer company.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="2" n="3" name="an attribute or feature" type="">
+        <commentary>
+            PROPERTY[+quality][+attribute]
+            a basic or essential attribute shared by all the members of a class
+        </commentary>
+        <examples>
+            They observed the property of heat to expand metal at uniform rates.
+            Iron has the chemical property of oxidizing easily.
+            The modeling agency is looking for women with the physical properties of high cheekbones and wide-set eyes.
+            An unfortunate property of linen is that it tends to wrinkle.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="theater prop, set piece" type="Theater">
+        <commentary>
+            PROPERTY[+entity][+artifact][+theater][+piece][+set]
+            any movable articles or objects used on the set of a play or movie
+        </commentary>
+        <examples>
+            Before every scene he ran down a checklist of the properties.
+            Move the second panel of that property a little forward on stage left.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+</inventory>

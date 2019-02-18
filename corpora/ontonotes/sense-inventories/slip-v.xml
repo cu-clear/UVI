@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="slip-v">    
+   <commentary>
+	includes: VPS slip_away, slip_y, slip_in, slip_off, slip_on, slip_up
+	includes idiom: slip_one's_mind
+   </commentary>
+   <sense group="1" n="1" name="(cause to) pass or move stealthily, insert discreetly" type="">  
+      <commentary>
+	Syntax includes: NP1[agent] SLIP NP2[concrete] (PP[recipient])
+                         NP1[agent] SLIP NP2[+recipient] NP3[concrete]
+                         NP1[topic] SLIP[intransitive] ADVP/PP[location]
+                         NP1 SLIP[transitive] NP2[location]
+	Includes: SLIP IN, SLIP AWAY, SLIP BY
+      </commentary>
+      <examples>
+	John slipped the border guard a twenty dollar bill.
+	Mary slipped in some references to her own work in the report.
+	The man slipped a note to Sally under the table.
+        The enemy ship slipped into the harbor under the cover of darkness.
+        We quietly slipped away from the talk to have an ice cream.
+        The couple let too many years slip away without ever taking a vacation.
+        They slipped by the guards and into the soldiers' barracks.
+        The cat burglar has slipped the police again!
+        You'd better buy before your chance slips away.
+        I was appalled at how easily the lie slipped from my lips.
+        The more you tighten your grasp, Tarkin, the more star systems will slip through your fingers.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,7</wn>   
+         <wn lemma="slip_in" version="3.0">1</wn>
+         <wn lemma="slip_away" version="3.0">1,2</wn>
+         <wn lemma="slip_by" version="3.0">1</wn>
+         <omega></omega><pb>slip.02,slip.03,slip.04</pb>
+         <vn>send-11.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) move easily, as in a slide or skid" type="">  
+      <commentary>
+        NOTE: compare carefully to sense 1; this sense does not have the 
+              implication of moving steathily or escaping
+              Includes moving into a state or location
+	Syntax is: NP1[patient] SLIP/SLIP_ON/OFF PP[locative]
+	           NP1[agent] SLIP_ON/OFF NP2[concrete] 
+        Includes: SLIP OFF, SLIP ON
+      </commentary>
+      <examples>
+	Bob slipped on the wet marble floor.
+	The children were slipping all over the ice.
+	The silky cloth slipped from the table on to the floor.
+	Her hair kept slipping into her eyes as she bent over the cauldron.
+	The figurine kept slipping off the cake.
+        She slipped on her shoes and ran out the door.
+        He held her hand and slipped on the diamond ring.
+        She slipped into her nightgown.
+        He lost so much blood that he slipped into a coma.
+        Sam has easily slipped into the role of counselor, listener, and friend.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,8,9</wn> 
+         <wn lemma="slip_off" version="3.0">1</wn>
+         <wn lemma="slip_on" version="3.0">1</wn>  
+         <omega></omega><pb>slip.02</pb>
+         <vn>split-23.2</vn><fn>Dressing,Undressing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="decline, worsen, decrease" type="">
+      <commentary>
+	Syntax is: NP1[topic] SLIP (ADVP) (PP[attributive])
+      </commentary>
+      <examples>
+	Stocks slipped in heavy trading today.
+	Analysts think it unlikely the economy will slip into recession.
+	John's grades are slipping this semester.
+	That restaurant's standards have been slipping recently.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>slip.01</pb>
+         <vn>calibratable_cos-45.6-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+ <sense group="1" n="4" name="(cause to) err, make a mistake" type="">  
+      <commentary>
+	Syntax includes: NP1[agent] SLIP PP
+                         NP1[agent] SLIP UP PP
+                         NP1[agent] SLIP (UP) NP2
+	includes VPC: slip_up
+      </commentary>
+      <examples>
+	NASA slipped in their calculations of exactly where the rocket would go.
+	You can't slip John up with those brainteasers. 
+      </examples>
+      <mappings>
+         <wn version="3.0">6</wn>   
+         <wn lemma="slip_up" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="escape one's mind" type="">
+      <commentary>
+	Includes idiom: slip_one's_mind
+      </commentary>
+      <examples>
+	The unpleasant event has slipped their memory.
+	The name of that film has slipped my mind.
+      </examples>
+      <mappings>
+         <wn version="3.0">10</wn>
+         <wn lemma="slip_one's_mind" version="3.0">1</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="dislocate, misalign" type="">
+      <commentary>
+	Syntax includes: NP1[patient] SLIP NP2[concrete] (PP[instrument])
+	                 NP1[patient] SLIP PP[locative]
+        Includes: SLIP OFF
+      </commentary>
+      <examples>
+	Bill slipped a disk trying to move the piano.
+	The clutch keeps slipping third gear.
+	I think I've slipped my shoulder.
+      </examples>
+      <mappings>
+         <wn version="3.0">11</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>  
+</inventory>

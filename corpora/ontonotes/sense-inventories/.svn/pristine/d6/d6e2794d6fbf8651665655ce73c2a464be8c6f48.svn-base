@@ -1,0 +1,34 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="obtain-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="aquire, gain possession of, receive" type="">  
+      <commentary>
+        Syntax Is: NP1 OBTAIN[transitive] NP2
+      </commentary>
+      <examples>
+        &quot;How do you obtain a visa?&quot;
+        &quot;I recently obtained a job.&quot;
+        &quot;The movie obtained excellent reviews.&quot;
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2</wn>   
+         <omega/><pb>obtain.01</pb>
+         <vn>obtain-13.5.2-1</vn><fn>Getting</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be valid, applicable, or true" type="">  
+      <commentary>
+        Syntax Is: NP1 OBTAIN[intransitive]
+      </commentary>
+      <examples>
+       &quot;Even after a decade of debate, the theory still obtains.&quot;
+       &quot;The old definition of the family as the &quot;fundamental cell of society&quot; no longer obtains.&quot;
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd" sample_score="-"/>  
+</inventory>

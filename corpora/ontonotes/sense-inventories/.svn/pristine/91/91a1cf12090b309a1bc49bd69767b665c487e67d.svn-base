@@ -1,0 +1,108 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="mail-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the general cargo of the postal service" type="">
+        <commentary>
+            MAIL[+collection][+artifact][+letter_and_package][+general][+cargo][+postal_service]
+        </commentary>
+        <examples>
+            Mail was loaded into the cargo hold of the aircraft.
+            It's a postal center for sorting mail to different parts of the country.
+            The postal strike resulted in an interruption in the delivery of mail.
+            The check is in the mail. (among the general flow of letters and packages)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="the postal service as an enterprise" type="">
+        <commentary>
+            MAIL[+enterprise][+service][+postal]
+        </commentary>
+        <examples>
+            You can order the book by mail. (through that provided service)
+            Mail workers went on strike today.
+            The mail handles billions of items every day.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a delivered set of letters and packages to a destination" type="">
+        <commentary>
+            MAIL[+collection][+artifact][+letter_and_package][+specific][+delivered][+to_destination]
+        </commentary>
+        <examples>
+            Her letter arrived in today's mail.
+            Mary leaves her unopened mail in a basket in the front hall.
+            Did the mail come yet?
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="digital messages sent electronically" type="">
+        <commentary>
+            MAIL[+collection][+artifact][+electronic][+message][+digital]
+        </commentary>
+        <examples>
+            John sat down at his computer to read his mail.
+            So much of my mail these days is spam!
+            During the break, Mary checked her cell phone for mail.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="vehicle or conveyance that transports letters and packages" type="">
+        <commentary>
+            MAIL[+artifact][+conveyance][+vehicle][+transport][+of_letters_and_packages]
+            Note: dated usage
+        </commentary>
+        <examples>
+            The packages moved slowly by mail train.
+            The mail convoy over the desert was accosted by robbers.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="6" name="chain armor worn by knights" type="">
+        <commentary>
+            MAIL[+artifact][+garment][+armor][+rings][+of_metal]
+        </commentary>
+        <examples>
+            The page helped the knight into his mail armor.
+            Arrows shot from a longbow could pierce the mail of the knights.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="one-n">
+    <commentary>
+        Includes idioms 'at one' and 'for one'
+        Does NOT include pronominal one, e.g., 'one must not slurp one's coffee'.
+    </commentary>
+    <sense group="1" n="1" name="the smallest whole digit" type="">
+        <commentary>
+            ONE[+quantity][+number][+digit]
+            Note: 'one' is an attribute of an NP, or refers to the number (1) itself.
+        </commentary>
+        <examples>
+            John knows how to count from one to ten in Hungarian.
+            Sally is quite petite and wears a size one.
+            Last night it was minus-one outside.
+            I have only one page left to go in this novel.
+            He has been complaining about his job from day one.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="2" name="a single entity, person or place" type="">
+        <commentary>
+            ONE[+entity][+singular]
+            Note: one is equivalent to another NP
+        </commentary>
+        <examples>
+            He is the best one among the three violinists.
+            Yes, that's the one I ordered.
+            After one date Mary thought he was the one. (one date = sense 1, the one = sense 2)
+            This is not the one I'm remembering.
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name="a unit of paper currency, a bill" type="">
+        <commentary>
+            ONE[+currency][+paper][+dollar]
+            Note: occurs naturally in the plural or singular
+        </commentary>
+        <examples>
+            I've only got a one on me.
+            John pulled out three ones, two fives and a twenty.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="4" name="in a state of harmony or agreement" type="">
+        <commentary>
+            Idiom: at_one
+        </commentary>
+        <examples>
+            Seeing sunrise on the mountain top made John felt at one with the world.
+            They are hardly at one when it comes to deciding how to redecorate their home.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">idiom</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="5" name="as an example" type="">
+        <commentary>
+            Idiom: for_one
+        </commentary>
+        <examples>
+            I, for one, think we should stop pretending this marketing strategy has worked for us.
+            Bob, for one, has decided to bicycle to work instead of driving.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">idioim</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

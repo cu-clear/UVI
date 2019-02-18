@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="etiolate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to pale, weak, stunt the growth of" type="">  
+      <commentary>
+Note: this sense does NOT apply to the weakening, bleaching of plants. 
+Syntax includes:
+NP1[patient] ETIOLATE
+NP1[agent] ETIOLATE NP2[patient] 
+      </commentary>
+      <examples>
+The smoke etiolated her complexion. 
+The long illness etiolated him beyond recognition. 
+An artificial glow etiolated him into a hopeless pale yellow.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>etiolate.01</pb>
+         <vn>np</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="bleach, alter the growth of a plant by
+         depriving sunlight" type="">
+      <commentary>
+Note: this sense does not apply to the weakening of things other than
+plants. 
+
+Syntax includes: 
+NP1[patient] ETIOLATE
+NP1[agent] ETIOLATE NP2[patient] 
+      </commentary>
+      <examples>
+My seedlings,in lack of light,etiolated a bit. 
+They etiolated somewhat and lost their lower leaves.
+In one of his experiments he etiolated a vine shoot. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>etiolate.01</pb>
+         <vn>np</vn><fn>np</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonial" sample_score="-"/>  
+</inventory>

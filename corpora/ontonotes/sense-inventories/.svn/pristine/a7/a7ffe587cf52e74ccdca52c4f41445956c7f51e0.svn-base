@@ -1,0 +1,77 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="size-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="physical magnitude, extent" type="">
+        <commentary>
+            SIZE[+quantity][+magnitude]
+        </commentary>
+        <examples>
+            Look at the size of those waves breaking on the shore!
+            It's the only city of any size in that whole region.
+            This forest is approximately the size of Connecticut. 
+            They haven't fully grasped the size of the problem. (abstract sense)
+        </examples>
+        <mappings>
+            <wn version="3.0">1,5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a series of standard measurements" type="">
+        <commentary>
+            SIZE[+quantity][+measurement][+graduated][+series]
+            Note: implies a set of measurements, not a single one (see Sense 1)
+        </commentary>
+        <examples>
+            Mary wears a size 6.
+            These boards are all cut to size.  (a specified measurement)
+            Bob's feet are a size 10.
+            They don't have this suit in my size.
+            Tina is a size 2.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a glutinous material used to fill surfaces" type="">
+        <commentary>
+            SIZE[+substance][+glutinous][+resin/+glue/+varnish]
+            [+role][+agent][+filling][+stiffener/+color]
+        </commentary>
+        <examples>
+            Clothing manufactures put size into fabrics to stiffen them.
+            The size in new clothes will wash out easily. 
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the state of affairs" type="">
+        <commentary>
+            SIZE[+state][+current][+social][+physical]
+        </commentary>
+        <examples>
+            That's about the size of it in regards to our home renovation. 
+            As things stand now, that's the size of it.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,93 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="send-v">
+   <commentary>
+    Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="cause to convey, transmit" type="">
+      <commentary>
+        NP1 send (NP2(+recipient)) NP3(-animate) 
+        Includes: SEND A MESSAGE; SEND BACK; SEND IN; SEND OFF; SEND ON; SEND OUT; SEND WORD
+      </commentary>
+      <examples>
+         The CEO sent several memos last month regarding quality control.
+         She sent the food back to the kitchen because it's cold.
+         He was arrested for sending classified information to the enemy.
+         She sent John the message.
+         UNICEF sent supplies to those in need.
+         In the last election, voters sent a message to local politicians that they won't tolerate corruption.
+         Send off your box tops now for your free decoder ring!
+         Send word to Sean that it's safe to return.
+         That radio station doesn't have enough power to send its programming beyond our local area.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3,4,6,8</wn>
+         <wn lemma="send_a_message" version="3.0">1</wn>
+         <wn lemma="send_back" version="3.0">1</wn>
+         <wn lemma="send_in" version="3.0">1,2</wn>
+         <wn lemma="send_off" version="3.0">1,3</wn>
+         <wn lemma="send_on" version="3.0">1</wn>
+         <wn lemma="send_out" version="3.0">1</wn>
+         <wn lemma="send_word" version="3.0">1</wn>
+         <omega/>
+         <pb>send.01</pb>
+         <vn>send-11.1-1</vn><fn>Sending</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="assign or admit to (place or institution)" type="">
+      <commentary>
+       NP1 send NP2[+human] (PP[+locative])
+      </commentary>
+      <examples>
+         He was sent to Bosnia as a medic.
+         Will the country send another 10,000 troops to the front?
+         That crime sent him to prison for 10 years.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,7</wn>
+         <omega/>
+         <pb>NM</pb>
+         <vn>confine-92-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cause to move in a certain direction or for a certain purpose" type="">
+      <commentary>
+       NP SEND NP ADV[+dir]/PP[+dir]/PP[+purpose]
+       Includes: SEND AWAY; SEND FOR; SEND OFF; SEND PACKING
+      </commentary>
+      <examples>
+         The stone landed in the water and sent ripples out across the pond
+         That story will send shivers down your spine.
+         The British Man-o-War sent another volley of cannon fire at the enemy vessel.
+         They sent him on his way.
+         I sent her out for milk an hour ago.
+         Send for Helen in accounting.
+         One press of this button will send off missiles toward our enemies.
+         She sent him packing after his affair.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <wn lemma="send_away" version="3.0">1,2</wn>
+         <wn lemma="send_for" version="3.0">1</wn>
+         <wn lemma="send_off" version="3.0">2</wn>
+         <wn lemma="send_packing" version="3.0">1</wn>
+         <omega/>
+         <pb>send.02,send.03</pb>
+         <vn>send-11.1-1,fire-10.10</vn><fn>Causation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="temporarily suspend from college or university" type="">
+      <commentary>
+        Is: SEND DOWN
+      </commentary>
+      <examples>
+        That last prank got him sent down from university.
+      </examples>
+      <mappings>
+         <wn version="3.0"></wn>
+         <wn lemma="send_down" version="3.0">1</wn>
+         <omega/>
+         <pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,brownsw,duffielc" sample_score="-"/>
+</inventory>

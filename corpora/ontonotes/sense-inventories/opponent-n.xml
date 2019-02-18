@@ -1,0 +1,57 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="opponent-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a contestant, one who competes to win" type="">
+        <commentary>
+            OPPONENT[+entity][+person][+contestant]
+            Note: implies a game with a winner and loser
+        </commentary>
+        <examples>
+            After winning the first round, we faced a much tougher opponent in the second round.
+            A computer proved to be a worthy opponent to the world chess champion.
+            The congressman beat his opponents by a landslide.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="one who disagrees, objects to" type="">
+        <commentary>
+            OPPONENT[+entity][+person][+disputant]
+            Note: does not imply a game or competition, just a general disagreement 
+        </commentary>
+        <examples>
+            He is an outspoken opponent of socialist economic policies.
+            There are few opponents to this bill in the House.
+            Bob seemed to be an opponent to every one of Mary's proposals to the committee. 
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a muscle that counteracts another muscle" type="">
+        <commentary>
+            OPPONENT[+entity][+structure][+anatomical][+muscle][+counteracting]
+        </commentary>
+        <examples>
+            Which muscle is the opponent of the triceps?
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

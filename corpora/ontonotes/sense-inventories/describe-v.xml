@@ -1,0 +1,54 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="describe-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="give an account or convey impression of" type="">  
+      <commentary>
+        Syntax Is:
+         NP1[agent[human]] DESCRIBE NP2
+       Note: Oral, written or verbal account of something.
+      </commentary>
+      <examples>
+        Could you describe your attacker?
+        He described the painting in detail.
+        Let me describe to you how it happened.
+        She described Gary as shy.
+        She described her childhood as a time of wonder and discovery.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4</wn>   
+         <omega/><pb>describe.01</pb>
+         <vn>characterize-29.2-1-1</vn><fn>Communicate_categorization</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="depict or represent something pictorially" type="">
+      <commentary>
+      Syntax Is:
+       NP1[human] DESCRIBE NP2
+      </commentary>
+      <examples>
+        Goya's etchings describe the horrors of war in grotesque detail.
+        Curves in two of the graphs describe performance when using these routines.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="trace the form or outline of" type="">
+      <commentary>
+       Syntax Is:
+        NP1[instrument] DESCRIBE NP2
+      </commentary>
+      <examples>
+        The plane described a perfect figure eight.
+        He used compasses to describe a circle.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, vieweg" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="proclaim-v">
+   <commentary>
+     Contains duplicate WN mappings.
+   </commentary>
+   <sense group="1" n="1" name="make official through declaration" type="">
+      <commentary>
+        Syntax Is: NP1 PROCLAIM NP2[patient]
+        Note: Speech act, NP2 comes into existence through the proclamation
+                    made by NP1; a real change or effect upon the world
+                    occurs as a result of the proclamation
+        Note: NP1 may be animate or inanimate        
+        NOTE: &quot;proclaimed&quot; in &quot;a self-proclaimed NP&quot; is adjectival!
+      </commentary>
+      <examples>
+        This is a complete copy of the resolution that proclaimed the first Earth Day.
+        He was proclaimed king.
+        He proclaimed himself King of Haiti in 1811 and created an atmosphere of discipline.
+        Once the legislation has been proclaimed, the government will have two years to begin a lawsuit.
+        The president proclaimed a state of emergency.  (Where &quot;state of emergency&quot; is understood to be an official condition necessary for federal funding to be released, etc)
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">1,2</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>NM</pb>
+         <vn>appoint-29.1</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <sense group="1" n="2" name="announce, state, claim" type="">
+      <commentary>
+      Note: Compare carefully with Sense 1: 'proclaim' here does not perform and
+      official state or political function.
+     </commentary>
+      <examples>
+        The state-run news agency proclaimed the law's passing to be an historic achievement.
+        All of a sudden he proclaimed himself an abolitionist--straight out and publicly!
+        He proclaimed his vision of the universe as infallible.
+        Imagine my horror when my daughter proclaimed that being a virgin until she was married wasn't happening.
+      </examples>
+      <mappings>
+         <gr_sense/>
+         <wn version="3.0">2,3,4</wn>
+         <wn lemma="" version=""/>
+         <omega/><pb>proclaim.01</pb>
+         <vn>say-37.7-1,declare-29.4-2,confess-37.10</vn><fn>Statement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="duffielc,corvey" sample_score="-"/>
+</inventory>

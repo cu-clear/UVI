@@ -1,0 +1,240 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="have-v">
+   <commentary>
+      Contains duplicate WN mappings
+   </commentary>
+   <sense group="1" n="1" name="possess something concrete, that could be given away" type="">
+      <commentary>
+         NOTE: IMPORTANT - Tag instances with HAVE TO and HAVE + VERB[past tense] as
+         'None of the Above'. Examples: 'I have to go to the store.' and 'I have gone to
+         the store already.' and 'I had shopped at the Quickie-Mart only once.' In these examples HAVE is an auxiliary verb
+         and must be tagged 'None of the Above'.
+         Once you give the thing away, you no longer have it.
+      </commentary>
+      <examples>
+         He has two black-and-tan German Shepherds.
+         I only have four dollars left in my wallet.
+         Marilee had a convertible that she drove to school every day.
+         The division had a revenue of 572 million euros in 2005.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>
+         <omega/><pb>have.03</pb>
+         <vn>own-100.1</vn><fn>Inclusion,Possession</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="have something inalienable" type="">
+      <commentary>
+         Note: Either you cannot give it away (a beautiful voice), or if you give it away, 
+         you still have it (a good idea).
+      </commentary>
+      <examples>
+         She has a beautiful voice.
+         That restaurant has the best chocolate mousse in town!
+         He has an excellent memory for facts and figures.
+         He has the power to make your life miserable.
+         The newest models all have anti-lock brakes.
+         How many days does September have?
+         I have two more days at work until my vacation begins.
+         He reckoned he had a year to pull it off.
+         We only had three points going into the last quarter of the game.
+         I never had a choice.
+         I had a great opportunity to spend some time with our old friends.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,9,17</wn>
+         <omega/><pb>have.03</pb>
+         <vn>own-100.1</vn><fn>Inclusion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="hold a position or job" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         She had a postdoc at Stanford.
+         Kevin had a job as a consultant for several years.
+         Ali Osman Muhammad Taha, an influential Muslim hard-liner, now has the
+            post of vice-president.
+      </examples>
+      <mappings>
+         <wn version="3.0">1</wn>
+         <omega/><pb>have.03</pb>
+         <vn>own-100.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="experience an event or state" type="">
+      <commentary>
+         Syntax Is: NP1 HAVE NP2[patient[abstract]]
+         Note: NP2 may be a mental or physical state or experience
+      </commentary>
+      <examples>
+         She had the operation yesterday.
+         Boston had a cold winter.
+         They had a hard time loading the truck.
+         The committee had several discussions on this issue.
+         I have a funny feeling about this evening.
+         The stock market had a wild ride yesterday.
+         My grandfather has arthritis.
+         What have we here?
+         They had themselves in a perilous predicament.
+         The team had its best year ever. (similar to &quot;had a great time&quot;)
+      </examples>
+      <mappings>
+         <wn version="3.0">3,10,11,12,16</wn>
+         <omega/><pb>have.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="hold in a certain relationship" type="">
+      <commentary>
+         Syntax Is: NP1[agent[human]] HAVE NP2[patient[human]]
+         Note: the relationship is usually named by the 
+         NP2 (lawyer, sister, employee, etc.)
+      </commentary>
+      <examples>
+        She has three sisters.
+        He had a business partner who embezzled from the company.
+        The operation currently has eight employees and plans to add three or four.
+        Do you have a lawyer?
+        How many students do you have in your class this year?
+      </examples>
+      <mappings>
+         <wn version="3.0">1,7</wn>
+         <omega/><pb>have.03</pb>
+         <vn>own-100.1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="cause something to be the case" type="">
+      <commentary>
+         Syntax Is: NP1[agent] HAVE NP2[patient] COMP/PRED
+         NOTE: &quot;agent&quot; should be loosely interpreted as the cause
+               (not necessarily volitional) and &quot;patient&quot; is the 
+               entity either affected (as in the watering mouth)
+               or brought into existence (as in effects or consequences)
+      </commentary>
+      <examples>
+         She had him fired.
+         Now I have your king checkmated!
+         The comedian had them rolling in the aisles.
+         My boss had me reschedule the meeting for next week.
+         The smell of hot cinnamon rolls had my mouth watering.
+         Temperature had an effect on performance. 
+         Medicaid cuts will have consequences.
+         The referendum won't have any impact on the process of defining its status.
+      </examples>
+      <mappings>
+         <wn version="3.0">5,13</wn>
+         <omega/><pb>have.04</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="accept, receive, allow" type="">
+      <commentary>
+      </commentary>
+      <examples>
+         I'll have another slice of pie.
+         The only girl who would have him was the miller's daughter.
+         Will you be having some sugar with your tea?
+         I won't have this dog in the house!
+      </examples>
+      <mappings>
+         <wn version="3.0">6,14,15</wn>
+         <omega/><pb>have.03</pb>
+         <vn>devour-39.4</vn><fn>Ingestion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="hold an event, be responsible for organizing something" type="">
+      <commentary>
+        Planned events may be formal or informal;
+        Distinguish from sense 2 in that NP1 has 
+        control in bringing about/planning the experience event 
+      </commentary>
+      <examples>
+         We'll have a party in your honor.
+         That professor always has an interesting seminar for the freshman class.
+         We'll probably have a Democratic rally there.
+         What if they had a war and no one came?
+      </examples>
+      <mappings>
+         <wn version="3.0">8</wn>
+         <omega/><pb>have.06</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="give birth" type="">
+      <commentary>
+        Includes: HAVE YOUNG
+      </commentary>
+      <examples>
+         She had twins.
+         Her sister never had a baby.
+         Whales have their young at this time of year.
+      </examples>
+      <mappings>
+         <wn version="3.0">18</wn>
+         <wn lemma="have_young" version="3.0">1</wn>
+         <omega/><pb>have.05</pb>
+         <vn>NM</vn><fn>Birth</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="10" name="have sexual relations with" type="">
+      <commentary>
+        Includes: HAVE INTERCOURSE, HAVE SEX, HAVE IT AWAY
+      </commentary>
+      <examples>
+         He wanted to have her right there and then.
+         He's never had sex.
+         If you have intercourse, use a condom.
+         He's had it off with many women.
+      </examples>
+      <mappings>
+         <wn version="3.0">19</wn>
+         <wn lemma="have_intercourse" version="3.0">1</wn>
+         <wn lemma="have_sex" version="3.0">1</wn>
+         <wn lemma="have_it_away" version="3.0">1</wn>
+         <wn lemma="have_it_off" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="11" name="idioms" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        We had a ball at your party!
+        My wife has a bun in the oven. I'm going to be a father!
+        You crashed the car?! Your mother is going to have a fit!
+        I've never golfed before, but I'll have a go.
+        I'll have a go at it.
+        Have a good time at the concert!
+        Have a look at this strange bug.
+        She has the names of the fifty states down pat.
+        What do you have in mind?
+        John punched him? Well, he had it coming.
+        Sally had kittens when she found out she wasn't invited.
+        I love her clothes.  What did she have on at the party?
+        Moira will only have the best.
+        Pam didn't want to argue in public, but they had words when they got home.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <wn lemma="have_a_ball" version="3.0">1</wn>
+         <wn lemma="have_a_bun_in_the_oven" version="3.0">1</wn>
+         <wn lemma="have_a_fit" version="3.0">1</wn>
+         <wn lemma="have_a_go" version="3.0">1</wn>
+         <wn lemma="have_a_go_at_it" version="3.0">1</wn>
+         <wn lemma="have_a_good_time" version="3.0">1</wn>
+         <wn lemma="have_a_look" version="3.0">1</wn>
+         <wn lemma="have_down" version="3.0">1</wn>
+         <wn lemma="have_got" version="3.0">1</wn>
+         <wn lemma="have_in_mind" version="3.0">1</wn>
+         <wn lemma="have_it_coming" version="3.0">1</wn>
+         <wn lemma="have_kittens" version="3.0">1</wn>
+         <wn lemma="have_on" version="3.0">1</wn>
+         <wn lemma="have_the_best" version="3.0">1</wn>
+         <wn lemma="have_words" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>Possession,Wearing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,brownsw,clarklm" sample_score="-"/>
+</inventory>

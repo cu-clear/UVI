@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="supplement-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(Cause to) be an addition to one's diet or
+   lifestyle; add with the intent to digest of bodily process." type="">  
+      <commentary>
+      Syntax Includes: 
+      NP1[agent] SUPPLEMENT NP2[patient[concrete]
+      NP1[agent] SUPPLEMENT PP{P NP[concrete]}
+      NP1 SUPPLEMENT NP2[patient[concrete]]
+      Note: Diet is [concrete] as the instantiation of the sum of all foods
+      consumed, not a [abstract] as a mental construct of hypothetical foods.  
+      </commentary>
+      <examples>
+      He supplements with creatine and androgenic steroids.
+      She supplements her diet well.
+      Vitamins supplemented his meager diet.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Add to something with the intent to enhance
+         or complete." type="">
+      <commentary>
+      </commentary>
+      <examples>
+      He supplements with evening exercise when he can't get out enough in
+      the morning.
+      He supplemented the glossary with new terms.
+      We must supplement existing resources. 
+      Mary supplemented the meagre payments from John's life insurance
+      policy with various acts of minor shoplifting. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>supplement.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

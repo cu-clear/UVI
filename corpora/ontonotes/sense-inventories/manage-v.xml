@@ -1,0 +1,49 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="manage-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="succeed, come through" type="">
+      <commentary>
+         Syntax Includes:
+         NP1 MANAGE NP2
+         NP1 MANAGE SCOMP
+      </commentary>
+      <examples>
+         He is managing an A in that course without studying.
+         She managed to search his desk without him ever knowing it.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,5</wn>
+         <omega/><pb>manage.02</pb>
+         <vn>neglect-75-2,succeed-74-1-1</vn><fn>Success_or_failure,Successful_action</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="handle, control" type="">
+      <commentary>
+         Syntax Is: NP1 MANAGE NP2
+      </commentary>
+      <examples>
+         She managed her parents' affairs after they got too old.
+         John will be managing the daily operations.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,4</wn>
+         <omega/><pb>manage.01</pb>
+         <vn>neglect-75-2</vn><fn>Operating_a_system</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="cope, make out" type="">
+      <commentary>
+         Syntax Is: NP1 MANAGE[intransitive] PP
+      </commentary>
+      <examples>
+         They can't manage on only 100 dollars a week.
+         I could manage with a little more help in the kitchen.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,6</wn>
+         <omega/><pb>manage.02</pb>
+         <vn>cope-83-1-1</vn><fn>Success_or_failure</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+</inventory>

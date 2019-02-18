@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pop-v">
+   <commentary>
+     Could not find any instances of pop with WN 4 "fire a weapon" so I just stuck it in 
+      sense group 2.
+   </commentary>
+   <sense group="1" n="1" name="(cause to) burst or open, usually with a sharp sound" type="">
+      <commentary>
+        Note: Includes metaphorical uses, "I'm not known as a guy who is free with his money, but I'd 
+          pop for one of those screen protectors."
+      </commentary>
+      <examples>
+        The balloon popped.
+        She popped the blister.
+        He popped the champagne bottle.
+        Let's pop a few beers after work.
+        Would you pop the trunk?
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">4,10,12,13</wn>
+         <omega></omega><pb>pop.02</pb>
+         <vn>other_cos-45.4</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="make a short, sharp sound" type="">
+      <commentary>
+        Note: If there is any implication of bursting open, tag with sense 1.
+      </commentary>
+      <examples>
+        I could hear his joints popping from across the room.
+        The sound of Gatlin guns popping in the distance abruptly ended our revelry.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5</wn>
+         <omega></omega><pb>pop.01</pb>
+         <vn>sound_emission-43.2</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="move suddenly into or out of a location, appear suddenly" type="">
+      <commentary>
+        Includes: POP IN, POP OUT, POP OFF
+      </commentary>
+      <examples>
+        We could see prairie dogs popping out of their holes all across the field.
+        You stick a bill in the vending machine and the change pops out.
+        When he stretch his arms, all the buttons popped off his shirt.
+        I popped in to the park to have a quick look around.
+        She popped out to grab some lunch.
+        Rob said he would pop in tomorrow for a chat.
+        What grates my cheese is when you pop off into a shopping centre to buy milk.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">6</wn>
+         <wn lemma="pop_out" version="3.0">1</wn>
+         <wn lemma="pop_out" version="3.0">3,4</wn>
+         <wn lemma="pop_off" version="3.0">1</wn>
+         <wn lemma="pop_in" version="3.0">1</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pop.04</pb>
+         <vn>appear-48.1.1</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="cause to move suddenly in a particular direction, release suddenly" type="">
+      <commentary>
+        Syntax Is: NP1 POP NP2 PP
+        Includes: POP THE QUESTION
+      </commentary>
+      <examples>
+        She popped the pizza into the oven.
+        He popped the clutch to start the car.
+        He popped the cracked tile off the wall.
+        He popped the lozenge into his mouth, then grimaced at the bitter taste.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">7,8</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>pop.04</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="bulge outward" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        His eyes popped when he heard Gordon's salary.
+        When she saw her mother's outfit, her eyes popped out.
+        His back muscles popped out of his T-shirt.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>
+         <wn lemma="pop_out" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="Baseball: hit" type="">
+      <commentary>
+        Includes: POP OUT
+      </commentary>
+      <examples>
+        Julio popped him right in the nose, and down he went.
+        Next time up she batted right and popped one into left field for another homer.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,9</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="injest orally, take drugs orally" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She's been popping pills since she was 15.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">11</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>Ingest_substance</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="die" type="">
+      <commentary>
+        Is: POP OFF
+      </commentary>
+      <examples>
+        Since my old man popped off at 46, I'm a tad conscious of trying to survive 
+            long enough to see me kids through uni.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="pop_off" version="3.0">2</wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn>
+         <fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,trevorjb" sample_score="-"/>
+</inventory>

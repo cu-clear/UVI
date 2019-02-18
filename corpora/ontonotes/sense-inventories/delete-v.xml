@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="delete-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="remove" type="">  
+      <commentary>
+        Syntax Is: NP1 DELETE NP2
+      </commentary>
+      <examples>
+        They promptly deleted the name from the list.
+        Who deleted the files/folders?
+        She deleted the love scenes.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>delete.01</pb>
+         <vn>remove-10.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

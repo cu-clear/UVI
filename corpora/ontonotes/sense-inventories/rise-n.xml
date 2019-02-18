@@ -1,0 +1,135 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rise-n">
+    <commentary>
+        24AUG06 updated to wn2.1, collapsed wn senses 3,6 into one group. ahouston
+        24AUG06 added sense 7, added features, changed examples and definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="a measurable increase, gain" type="Event">
+        <commentary>
+            RISE[+event][+growth][+amount/+frequency/+size/+strength]
+            [+quantity][+amount][+gain]
+            Can refer to any increase in strength, amount, frequency
+        </commentary>
+        <examples>
+            There has been a three-percent rise in prices across the board.
+            The stock's rise began this morning when the market opened.
+            They are concerned about the recent rise in crime.
+            The pilot looked at the rise in pressure on the oil gauge.
+            The rise and fall of the lecturer's voice lulled the students to sleep. (strength of acoustic energy)
+            There has been a noticeable rise in the incidence of tuberculosis.
+            Glacial melting will lead to a rise in sea levels around the globe.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>propbank.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Upward motion or movement" type="Event">
+        <commentary>
+	    RISE[+event][+action][+physical][+movement][+upward]
+	    A physical event of moving upwards
+	    </commentary>
+        <examples>
+            They cheered the rise of the hot-air balloon.
+            I like to wake up before the rise of the sun. (apparent to our frame of reference)
+            John begins his rise from bed at about noon.
+            They continue to build more high rises in Vancouver. (orientation is upwards)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>rise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="Slope" type="Entity">
+        <commentary>
+            RISE[+entity][+structure][+geographical][+static][+upthrust]
+            A piece of land or other physical object that has an upward slope.
+        </commentary>
+        <examples>
+            The car couldn't make it up the rise.
+            We climbed to the top of the rise and looked down on the village below.
+            The road has a steep rise to it just outside of town.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="a strong emotional reaction" type="">
+        <commentary>
+	    RISE[+event][+state][+emotional][+reaction][+strong]
+	    </commentary>
+        <examples>
+            Mary's political remarks got a rise out of John.
+            I hoped to get a rise out of Bob by repeating everything he said.
+            It was so hot, not even the postman delivering mail could get a rise out of the dogs.
+        </examples>
+        <mappings>
+            <wn version="MW-online">6</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="wave or moving ridge" type="Entity">
+        <commentary>
+            RISE[+entity][+structure][+geographical][+dynamic][+wave][+water/+earth]
+            A wave that lifts the surface of the water or the ground.
+        </commentary>
+        <examples>
+            The surfer caught the rise as it approached.
+            The earthquake created a twisting, two-foot rise along its fault line.
+            You can get twenty-foot rises on this beach when there is a storm at sea.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="development, origin or appearance of something" type="Event">
+        <commentary>
+            RISE[+event][+appearance][+origin/+development]
+        </commentary>
+        <examples>
+            The rise of civilization probably began in Mesopotamia.
+            The dictator's actions gave rise to an organized rebellion against him.
+            The book tracks the meteoric rise and fall of his political career.
+            The Kyoto Protocol has begun its rise from obscurity.
+        </examples>
+        <mappings>
+            <wn version="MW-online">
+                3
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="vertical distance between two positions" type="">
+        <commentary>
+            RISE[+quantity][+distance][+vertical][+step/+slope/+trousers]
+        </commentary>
+        <examples>
+            The carpenter created the staircase with a six-inch rise. (height of each step)
+            The tailor measured the rise of the trousers from the crotch to the waistline.
+            The rise of this slope is one foot for every three horizontal feet.
+        </examples>
+        <mappings>
+            <wn version="MAC">
+                1e
+            </wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <WORD_META authors="hertlerb" sample_score="-"/>
+</inventory>

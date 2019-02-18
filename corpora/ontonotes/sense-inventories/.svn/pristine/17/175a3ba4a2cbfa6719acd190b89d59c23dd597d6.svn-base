@@ -1,0 +1,62 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="rejection-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="the act of refusing, casting off, not accepting" type="">
+        <commentary>
+            REJECTION[+action][+volitional][+decision][+refusal]
+            Note: nominalization: his rejection of the offer -&gt; he rejected the offer
+            Note: implies an agent with the ability to make a decision
+        </commentary>
+        <examples>
+            Their rejection of the treaty did not come as a surprise.
+            John seemed to ignore Mary's rejection of his romantic advances.
+            Our proposal was met with rejection by the client.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a medical response of intolerance to a substance" type="">
+        <commentary>
+            REJECTION[+action][-volitional][+reaction][+immunological][+intolerance]
+            Note: implies a non-volitiional reaction of the body's immune system to foreign substances.
+        </commentary>
+        <examples>
+            This new medication has lowered the overall rejection rate of donor kidneys.
+            WHat are the odds that this organ transplant will end in rejection?
+            Using one's own skin during skin grafts ensures there will be no rejections.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a resulting state of being discarded, cast off" type="">
+        <commentary>
+            REJECTION[+state][+resulting][+discarded][+entity]
+            [+entity][+artifact][+document][+letter][+refusal]
+            Note: often refers to a letter of refusal, but can also refer to non-written forms
+        </commentary>
+        <examples>
+            John has a pile of rejections on his desk. 
+            Bob received three rejections in one week. (he was refused three times)
+            Mary tore the rejection up and threw it into the waste basket.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

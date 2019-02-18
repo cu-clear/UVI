@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="desert-v">    
+   <commentary>
+   Contains duplicate mappings for WN sense 2
+   </commentary>
+   <sense group="1" n="1" name="Leave a location or a concrete entity behind." type="">  
+      <commentary>
+      Syntax Includes:
+      NP1[agent] DESERT NP2[location]
+      NP1[agent] DESERT NP2[patient[concrete]] 
+      </commentary>
+      <examples>
+      The soldiers deserted the army.
+      A mother can't just desert her child.
+      How can you desert me like this?
+      The far right deserted the politician in favor of someone more
+      conservative.
+      The students deserted the campus after the end of the exam period. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>desert.01</pb>
+         <vn>leave-51.2-1</vn><fn>Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="Discard an idea, belief, mental state, or
+         mode of living." type="">
+      <commentary>
+      Syntax Is: NP1[agent] DESERT NP2[patient[abstract]]
+      </commentary>
+      <examples>
+      Frege deserted the idea of concrete entities in propositions.
+      He has deserted his Christian upbringing.
+      She is held up a poster child for a movement that advocates that
+      people desert 'sinful' lifestyles.
+      They deserted the notion of moving upstate following graduation.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>desert.01</pb>
+         <vn>NM</vn><fn>Departing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

@@ -1,0 +1,102 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="force-v">    
+   <commentary>
+	includes VPC force_back, force_out 
+        sense 1 includes 'force one's hand' which was pulled from Merriam Webster online.
+   </commentary>
+   <sense group="1" n="1" name="compel or coerce to do something without offering choice" type="">
+      <commentary>
+        Syntax Includes:
+        NP1[agent] FORCE NP2[patient] [predicate]
+        NP1[agent] FORCE NP2[patient[predicate]] (PP)
+        Includes: idiom FORCE ONE'S HAND, FORCE OUT
+        Note: Sometimes, the coerced action is not explicitly stated, but implied by the context.
+        Note: Unlike the second sense, this sense implies a certain authoritative or imposed 
+        control and influence. 
+      </commentary>
+      <examples>
+        The economic downturn forced many families to move away.
+        She basically forced her son to break up with his girlfriend.
+        The firm was forced to pay several million dollars in patent infringements.
+        Sally is going to show me how to force lilies and hyacinth to bloom.
+        They forced a runner out at third in the seventh inning.
+        The front runner of the marathon forced the rest of the pack to pick up their pace.
+        The front runner of the marathon is forcing a brutal pace on the rest of the pack.
+        Their alliance may finally force the administration's hand to declare its intentions.
+        I couldn't stay at their flat - I'd feel as if I was forcing myself on them.
+        I didn't actually want any more dessert, but Julia forced it on me.
+        You could tell he was having to force back the tears.
+        He forced himself to remain calm when the primary hose of his regulator blew.
+        Mary may force John's hand by dating the new guy at work.
+        The used car salesman forced a smile at the couple.
+        I can't bear it when someone starts ramming their views down your throat.
+        The police forced the robbers out from their hiding place.
+        The civil war has forced many people out of their homes.
+        It took Bob four months to force the dead-beat tenants out of his rental unit.
+        The driving rain forced us back into the tent.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,4,6</wn>
+         <wn lemma="force_out" version="3.0">3,4,5</wn>
+         <omega/><pb>force.01,force.02</pb>
+         <vn>force-59</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="use physical strength something to move, open, or relocate" type="">
+      <commentary>
+        Syntax Is: NP1[agent] FORCE NP2[patient] (PP[directional])
+        Includes: FORCE OUT
+        Note: Unlike the first sense, this sense has no influence involved. Only requires
+        raw strength.
+      </commentary>
+      <examples>
+        Perhaps we can force the bookcase another two inches against the wall.
+        We managed to force one more person in the back seat of the VW bug.
+        He forced the old tree stump out of the ground and down the hill with a two-mule team.
+        He forced the lock with a wire.
+        If you force the zip, it'll break.
+        She forced her way through the crowds.
+        I forgot my key, so I had to force a window.
+        The police had forced open the door because nobody had answered. 
+        The burglar forced an entry.
+        She forced out the last of the toothpaste from the tube.
+        I can't seem to force this splinter out with my fingernail.
+      </examples>
+      <mappings>
+         <wn version="3.0">3,5,8,7,9</wn>
+         <wn lemma="force_out" version="3.0">6,7,8</wn>
+         <omega/><pb>force.02</pb>
+         <vn>NM</vn><fn>Cause_motion</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="FORCE BACK-repulse, repel" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FORCE BACK NP2[patient]
+      </commentary>
+      <examples> 
+	The villagers forced back the enemy with heroic effort.
+	No one can force back the ravages of time.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>   
+         <wn lemma="force_back" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="FORCE OUT-oust or dismiss someone" type="">  
+      <commentary>
+	Syntax Is: NP1[agent] FORCE OUT NP2[patient] (PP{P NP[location]})
+      </commentary>
+      <examples> 
+	He was forced out of office because of the scandal.
+	The merger may force out most of the management of the acquired company.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>   
+         <wn lemma="force_out" version="3.0">1,2</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+     <WORD_META authors="ahouston,hwangd" sample_score="-"/>  
+</inventory>

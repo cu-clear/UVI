@@ -1,0 +1,67 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="direct-v">
+   <commentary>
+    No VPC to add
+   </commentary>
+   <sense group="1" n="1" name="order, guide, or dictate with the authority to do so" type="">
+      <commentary>
+      Syntax Is: 
+       NP1[agent] DIRECT NP2[patient] (ADVP)
+      </commentary>
+      <examples>
+       The commander has directed the troops to evacuate the flood victims.
+       Mary is directing a documentary about windsurfing.
+       Who directs the new product division?
+       Toscanini directed his orchestra with an iron hand.
+       They think one terrorist group has directed most of these attacks.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,8,13</wn>
+         <omega/><pb>direct.01</pb>
+         <vn>performance-26.7-1</vn><fn>Behind_the_scenes</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <sense group="1" n="2" name="purposefully aim, cause to move" type="">
+      <commentary>
+       Syntax Includes:
+        NP1[agent] DIRECT NP2[instrument] PP{P NP[target]}
+        NP1[agent] DIRECT NP2[patient[abstract]] PP{P NP[target]}
+        NP1[instrument] DIRECT NP2[patient]
+        NP1[agent] DIRECT NP2[patient]
+        Note: implies motion, sometimes literal, sometimes figurative
+        Note: includes directing emotions at others
+        Note: implies that something is being directed by an agent or instrument toward something/someone
+      </commentary>
+      <examples>
+        The robber directed a gun at John's head.
+        The camera was directed at the athlete's feet.
+        The industry has been directing its attention on foreign competition.
+        Can you please direct me to the nearest gas station?
+        Those ads are directed primarily at pre-teens.
+        She is trying to direct her teenaged daughter towards more intellectual pursuits.
+        The naughty dog was directed into the backyard by the scruff of his neck.
+        With a mighty swing, the batter directed the ball past the outfield and over the left wall of the stadium.
+        Don't direct your anger at the townspeople, they are not responsible.
+        In her early career, she directed her energies towards functional pottery with painted surfaces.
+        Initially she directed her efforts towards the implementation of the new program.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,5,6,7,9,10,11</wn>
+         <omega/><pb>direct.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+      <sense group="1" n="3" name="label something" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        I directed the envelope 'Office of the President'.
+        Jane directed all her wedding invitations with gold ink.
+      </examples>
+      <mappings>
+         <wn version="3.0">12</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense> 
+   <WORD_META authors="ahouston,duffielc,vieweg" sample_score="-"/>
+</inventory>

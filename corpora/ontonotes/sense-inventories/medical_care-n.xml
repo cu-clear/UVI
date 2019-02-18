@@ -1,0 +1,23 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="medical_care-n">
+    <commentary>
+        monosemous
+    </commentary>
+    
+    <sense group="1" n="1" name="professional medical treatment administered by doctors" type="">
+        <commentary>
+            MEDICAL_CARE[+procedure][+treatment][+medical][+professional][+by_physician]
+        </commentary>
+        <examples>
+            The patients in that nursing home do not receive adequate medical care.
+            John's health insurance covers most types of medical care.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

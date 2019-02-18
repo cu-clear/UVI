@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="suspension-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="dispersed particles floating in a liquid mixture" type="">
+        <commentary>
+            SUSPENSION[+entity][+substance][+mixture][+liquid][+particle][+dispersed]
+        </commentary>
+        <examples>
+            The medication is a milky suspension that must be shaken before using.
+            The agitator in the vat keeps the slurry in suspension.
+            It's a suspension of corn starch in peanut oil.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="a state of temporary cessation of an activity" type="Event">
+        <commentary>
+            SUSPENSION[+state][+cessation][+temporary][+of_activity]
+            Note: compare with Sense 5 which refers to a temporary loss of privilege 
+        </commentary>
+        <examples>
+            We were surprised to hear of the suspension of diplomatic talks.
+            Critics say the film requires too great a suspension of belief. 
+            There was a brief suspension of wind and rain in the eye of the storm.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,4</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a mechanical system of springs" type="">
+        <commentary>
+            SUSPENSION[+entity][+artifact][+mechanical][+system][+springs]
+        </commentary>
+        <examples>
+            This luxury car uses a new type of suspension.
+            The suspension on the front wheels of the old truck is shot.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="the act of physically dangling an object" type="Event">
+        <commentary>
+            SUSPENSION[+event][+physical][+dangling][+of_object]
+        </commentary>
+        <examples>
+            We marveled at the woman's suspension by a single foot from the trapeze.
+            The suspension of a rope bridge over that ravine allows hikers to cross with greater safety.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="a temporary debarment, revoking of a privilege" type="Event">
+        <commentary>
+            SUSPENSION[+state][+cessation][+temporary][+debarment][+of_privilege]
+        </commentary>
+        <examples>
+            The incident led to the suspension of four students at the high school.
+            The front page news story was about the suspension of two police officers.
+            Their team was penalized with a four-game suspension for bad conduct.
+        </examples>
+        <mappings>
+            <wn version="3.0">7</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

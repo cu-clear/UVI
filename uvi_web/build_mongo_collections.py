@@ -22,111 +22,6 @@ db = mongo_client['uvi_corpora']
 ################################################################################################################################################################
 ################################################################################################################################################################
 #VERBNET REFERENCES ONLY
-def parse_sense(sense):
-	def parse_examples(examples):
-		if examples is not None:
-			ex_list = examples.text
-			if ex_list:
-				split_list = ex_list.split('\n')
-				leading_space_stripped = [my_str.strip() for my_str in split_list]
-				single_str = ''
-				for line in leading_space_stripped:
-					if line:
-						if line[-1] in [r'.', r'?', r'!', r')']: single_str += line+'\n'
-						else: single_str += line
-				lines_out = single_str.split('\n')
-				return lines_out
-			return ''
-		return ''
-	
-	def parse_mappings(mappings):
-		vn = []
-		pb = []
-		fn = []
-		wn = []
-		vn_map = mappings.find('vn')
-		if vn_map is not None:
-			if vn_map.text:
-				vn = vn_map.text.split(',')
-		pb_map = mappings.find('pb')
-		if pb_map is not None:
-			if pb_map.text:
-				pb = pb_map.text.split(',')
-		fn_map = mappings.find('fn')
-		if fn_map is not None:
-			if fn_map.text:
-				fn = fn_map.text.split(',')
-		wn_list = mappings.findall('wn')
-		for wn_el in wn_list:
-			senses = []
-			lemma = wn_el.get('lemma')
-			version = wn_el.get("version")
-			senses_list = wn_el.text
-			if senses_list:
-				senses = senses_list.split(',')
-			if lemma or version or senses_list:
-				wn.append({"Lemma":lemma, "Version": version, "Senses":senses})
-		return {'vn': vn, 'pb': pb, 'fn': fn, 'wn': wn}
-	
-	def parse_comments(comments):
-		lines_final = []
-		syn = ['Syntax', 'SYNTAX']
-		others = ['NOTE', 'Note', 'Comments']
-		if comments is not None:
-			comm_list = comments.text
-			if comm_list:
-				split_list = comm_list.split('\n')
-				leading_space_stripped = [my_str.strip() for my_str in split_list]
-				for line in leading_space_stripped:
-					if line:
-						is_syn_struct = False
-						is_split = False
-						tokens = tokenizer(line)
-						if tokens[0] in syn:
-							is_syn_struct = True
-							is_split = True
-						elif tokens[0] in others:
-							is_syn_struct = False
-							is_split = True
-						elif is_syn_struct:
-							is_split = True
-						if is_split: lines_final.append(line)
-						elif not lines_final: lines_final.append(line)
-						else: lines_final[-1]+= ' ' + line
-				return lines_final
-			return ''
-		return ''
-	
-	group = sense.get('group')
-	sense_num = sense.get('n')
-	name = sense.get('name')
-	examples_list = parse_examples(sense.find('examples'))
-	mappings = parse_mappings(sense.find('mappings'))
-	line_sep_comments = parse_comments(sense.find('commentary')) #Comments are split to list by line
-	return {'num': sense_num, 'group': group, 'name': name, 
-			'examples': examples_list, 'mappings': mappings,
-			'comments': line_sep_comments}
-
-def parse_on_frame(on_frame, file_name):
-	lemma = on_frame.get('lemma')
-	senses = [parse_sense(s) for s in on_frame.findall('sense')]
-	return {'lemma':lemma, 'predicate': lemma[:-2] ,'senses': senses, 'resource_type': 'on'}
-
-def on_to_mongo(file, path_ontonotes):
-	with open(path_ontonotes+file,'r') as xml_file:
-		root = etree.parse(xml_file).getroot()
-		on_frame = parse_on_frame(root, file)
-		return on_frame
-	
-def add_onto_to_db():
-	print('Building ON collection... ')
-	onto_xml = [f for f in os.listdir(path_ontonotes) if f.endswith('.xml')]
-	ontonotes_mongo = [on_to_mongo(f, path_ontonotes) for f in onto_xml]    
-	db.drop_collection('ontonotes')
-	on_collection = db['ontonotes']
-	on_collection.insert_many(ontonotes_mongo)
-	print("ON Done")
-
 def add_predicate_defs(predicate_definition_file, mongo_collection):
     '''Get definitions and args for vn elements'''
     with open(predicate_definition_file, 'r') as definition_tsv:
@@ -774,3 +669,119 @@ def build_propbank_collection():
 ################################################################################################################################################################
 ################################################################################################################################################################
 ################################################################################################################################################################
+## ONTONOTES
+def parse_sense(sense):
+	def parse_examples(examples):
+		if examples is not None:
+			ex_list = examples.text
+			if ex_list:
+				split_list = ex_list.split('\n')
+				leading_space_stripped = [my_str.strip() for my_str in split_list]
+				single_str = ''
+				for line in leading_space_stripped:
+					if line:
+						if line[-1] in [r'.', r'?', r'!', r')']: single_str += line+'\n'
+						else: single_str += line
+				lines_out = single_str.split('\n')
+				return lines_out
+			return ''
+		return ''
+	
+	def parse_mappings(mappings):
+		vn = []
+		pb = []
+		fn = []
+		wn = []
+		vn_map = mappings.find('vn')
+		if vn_map is not None:
+			if vn_map.text:
+				vn = vn_map.text.split(',')
+		pb_map = mappings.find('pb')
+		if pb_map is not None:
+			if pb_map.text:
+				pb = pb_map.text.split(',')
+		fn_map = mappings.find('fn')
+		if fn_map is not None:
+			if fn_map.text:
+				fn = fn_map.text.split(',')
+		wn_list = mappings.findall('wn')
+		for wn_el in wn_list:
+			senses = []
+			lemma = wn_el.get('lemma')
+			version = wn_el.get("version")
+			senses_list = wn_el.text
+			if senses_list:
+				senses = senses_list.split(',')
+			if lemma or version or senses_list:
+				wn.append({"Lemma":lemma, "Version": version, "Senses":senses})
+		return {'vn': vn, 'pb': pb, 'fn': fn, 'wn': wn}
+	
+	def parse_comments(comments):
+		lines_final = []
+		syn = ['Syntax', 'SYNTAX']
+		others = ['NOTE', 'Note', 'Comments']
+		if comments is not None:
+			comm_list = comments.text
+			if comm_list:
+				split_list = comm_list.split('\n')
+				leading_space_stripped = [my_str.strip() for my_str in split_list]
+				for line in leading_space_stripped:
+					if line:
+						is_syn_struct = False
+						is_split = False
+						tokens = tokenizer(line)
+						if tokens[0] in syn:
+							is_syn_struct = True
+							is_split = True
+						elif tokens[0] in others:
+							is_syn_struct = False
+							is_split = True
+						elif is_syn_struct:
+							is_split = True
+						if is_split: lines_final.append(line)
+						elif not lines_final: lines_final.append(line)
+						else: lines_final[-1]+= ' ' + line
+				return lines_final
+			return ''
+		return ''
+	
+	group = sense.get('group')
+	sense_num = sense.get('n')
+	name = sense.get('name')
+	examples_list = parse_examples(sense.find('examples'))
+	mappings = parse_mappings(sense.find('mappings'))
+	line_sep_comments = parse_comments(sense.find('commentary')) #Comments are split to list by line
+	return {'num': sense_num, 'group': group, 'name': name, 
+			'examples': examples_list, 'mappings': mappings,
+			'comments': line_sep_comments}
+
+def parse_on_frame(on_frame, file_name):
+	lemma = on_frame.get('lemma')
+	senses = [parse_sense(s) for s in on_frame.findall('sense')]
+	return {'lemma':lemma, 'predicate': lemma[:-2] ,'senses': senses, 'resource_type': 'on'}
+
+def on_to_mongo(file, path_ontonotes):
+	with open(path_ontonotes+file,'r') as xml_file:
+		root = etree.parse(xml_file).getroot()
+		on_frame = parse_on_frame(root, file)
+		return on_frame
+	
+def add_onto_to_db():
+	print('Building ON collection... ')
+	onto_xml = [f for f in os.listdir(path_ontonotes) if f.endswith('.xml')]
+	ontonotes_mongo = [on_to_mongo(f, path_ontonotes) for f in onto_xml]    
+	db.drop_collection('ontonotes')
+	on_collection = db['ontonotes']
+	on_collection.insert_many(ontonotes_mongo)
+	print("ON Done")
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+
+if __name__=='__main__':
+	build_propbank_collection()
+	build_framenet_collection()
+	build_verbnet_collection()
+	ref_to_db()
+	add_onto_to_db()

@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hawk-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="offer for sale" type="">  
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] HAWK NP2[theme]
+      </commentary>
+      <examples>
+      Others, like broker John Mitchell, hawked a humidor bearing Madoff's name.
+      It was a vacation reply that hawked a website, and it looked like spam. 
+      At the end of the war he hawked a 14-point document round Europe.
+      The message hawked a product I've never seen.
+      A peddler surnamed Li hawked a pedicab of withered bananas at half-price.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hawk.01</pb>
+         <vn>give-13.1-1</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hunt for hawks" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent[animate]] HAWK (PP[location])
+      </commentary>
+      <examples>
+      The tribes like to hawk in the desert.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>berry-13.7</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="clear mucus from one's throat" type="">
+      <commentary>
+      Syntax includes:
+      NP1[agent] HAWK (NP2[theme])
+      Note: May be extended to inanimates.
+      </commentary>
+      <examples>
+       Mary hawked and spat.
+       Barney the Dinosaur hawked a loogie onto the city of Prague.
+       I'll admit, I hawked a loogie on a Bush sign last week.
+       The engine hawks and spits when you try to take off.
+       The Confederate corporal beside Taz hawked on the floor. 
+       She had phlegm hawked in her face.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>hawk.02</pb>
+         <vn>breathe-40.1.2-1</vn><fn>Make_noise</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="bonnj" sample_score="-"/>  
+</inventory>

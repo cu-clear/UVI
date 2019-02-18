@@ -1,0 +1,48 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="require-v">    
+   <commentary>
+	No VPCs to add
+   </commentary>
+   <sense group="1" n="1" name="have need of/need, call for" type="">  
+      <commentary>
+	Syntax Is: NP1[recipient] REQUIRE NP2[topic] (COMP)
+        NOTE: usually can be paraphrased with &quot;need&quot;:
+	NOTE: NP1 is not an authority placing a demand, but a recipient of something.
+      </commentary>
+      <examples> 
+	Being a surgeon requires excellent hand dexterity.
+	These accounts require some further going over.
+	The refugees will require food and shelter for at least a month.
+	Six years ago when German Mutual's growth required a new computer system.
+        My broken arm is requiring more time to heal than I expected.
+      </examples>
+      <mappings>
+         <wn version="3.0">1,4</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>require.01</pb>
+         <vn>order-60-1,require-103</vn><fn>Have_as_requirement,Needing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="command or compel someone to do something obligatory" type="">  
+      <commentary>
+        Syntax Includes:
+	NP1 REQUIRE (THAT) NP2[patient] SCOMP
+	NOTE: Subject (usually an agent, but can be a situation) is placing a demand,
+              not receiving something from someone.
+      </commentary>
+      <examples>
+	The security guard required us to sign in at the front desk.
+	We require our serving staff to wear tuxedos.
+        The statute required that the defendant would be sentenced to death.
+	John's children are required to clean their rooms once a week.
+	The SEC requires that companies file these forms annually.
+        The Department argued that the law requires accessible pedestrian routes.
+      </examples>
+      <mappings>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>require.01</pb>
+         <vn>order-60-1</vn><fn>Have_as_requirement,Imposing_obligation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+    <WORD_META authors="ahouston,vieweg,duffielc" sample_score="-"/>  
+</inventory>

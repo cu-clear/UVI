@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tire-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) exhaust, deplete of" type="">  
+      <commentary>
+        Includes: TIRE OUT
+
+        NP1[+experiencer] TIRE
+        NP1 TIRE NP2[+experiencer]
+      </commentary>
+      <examples>
+        Later that night, we snuck into the pool after hours and played
+        until we tired ourselves out.
+        She tires easily and is overwhelmed by the activity.
+        We have tired our resources.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="tire_out" version="3.0">1</wn>
+         <omega></omega><pb>tire.01,tire.02</pb>
+         <vn>other_cos-45.4</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="(cause to) be bored" type="">
+      <commentary>
+        NP1[+experiencer] TIRE
+        NP1 TIRE NP2[+experiencer]
+      </commentary>
+      <examples>
+        Actually, he tired of being tired.
+        I'm tired of monkeyin' around!
+        She sometimes tires me with her bad taste.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>tire.03</pb>
+         <vn>marvel-31.3-6,amuse-31.1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

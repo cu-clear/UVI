@@ -1,0 +1,169 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="approach-n">
+    <commentary>
+        23aug06 updated to wn 2.1, combined senses 1 and 2, split original sense 4 ahouston
+        23aug06 added features, modified examples and definitions. ahouston
+    </commentary>
+    
+    <sense group="1" n="1" name="coming in closer proximity to something" type="Event">
+        <commentary>
+	    APPROACH[+event][+location][+dynamic][+proximity][+decreasing][+spatial/+temporal]
+	    the act of drawing spatially closer to something
+	    </commentary>
+        <examples>
+            The hunter's approach scattered the geese.
+            This will be the closest approach of Mars to Earth in five thousand years.
+            The aircraft's approach to the White House was illegally close. (not a glide path in this example)
+            With the approach of spring, Mary began looking through seed catalogs.
+            Cruises to the Caribbean become cheaper at the approach of the hurricane season.
+            Some analysts see the approach of another recession. (temporal proximity)
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>approach.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="Placeholder Sense: Do Not Choose" type="">
+        <commentary>
+	    APPROACH[+event]
+	    25sep06 Placeholder ahouston
+	    </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="a plan of attack, a strategy" type="Event">
+        <commentary>
+            APPROACH[+entity][+abstract][+plan][+strategic]
+            ideas or actions intended to deal with a problem or situation
+        </commentary>
+        <examples>
+            His approach to every problem is to draw up a list of pros and cons.
+            One approach to inflation is to increase the prime rate.
+            We need a whole new approach to this technical challenge.
+            This book takes a unique approach to the era of European colonialism.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>approach.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="access point, a way of entering" type="Event">
+        <commentary>
+            APPROACH[+location][+place][+access]
+            Note: focuses on a way of entering a place.
+        </commentary>
+        <examples>
+            He took a wrong turn on the approach to the bridge.
+            The approach to the castle was protected by a large moat.
+            The eastern approach to town has a lot of strip malls.
+            The climbers started on the south approach to the summit.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="5" name="a close approximation to something" type="Event">
+        <commentary>	
+            APPROACH[+quantity][+measure][+approximation][+close]
+            a close approximation
+        </commentary>
+        <examples>
+            He could not recall the events of that evening with any approach to accuracy.
+            In his final novel he makes his closest approach to greatness.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="6" name="an inquiry, preliminary overture" type="Event">
+        <commentary>
+            APPROACH[+action][+inquiry][+preliminary][+overture/+suggestion/+feeler]
+            overture, advance, feeler - 
+            a tentative suggestion designed to elicit the reactions of others
+        </commentary>
+        <examples>
+            The developer made an approach to the landowner about a possible site for new condominiums.
+            She rejected his romantic approaches.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="7" name="golf shot" type="Golf">
+        <commentary>
+            APPROACH[+action][+shot][+short][+golf]
+            approach shot - 
+            a relatively short golf shot intended to put the ball onto the putting
+            green 
+        </commentary>
+        <examples>
+            He lost the hole when his approach rolled over the green.
+            A chip shot is a low running approach shot.
+        </examples>
+        <mappings>
+            <wn version="3.0">9</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="8" name="glide path of an aircraft" type="Event">
+        <commentary>
+            APPROACH[+location][+dynamic][+path][+glide][+aircraft]
+            approach shot - 
+            a relatively short golf shot intended to put the ball onto the putting
+            green 
+        </commentary>
+        <examples>
+            The aircraft was on final approach when the left engine quit.
+            The airport used ground-controlled approach because of the low cloud deck.
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega/>
+            <pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="9" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

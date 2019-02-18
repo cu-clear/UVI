@@ -1,0 +1,68 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="sustain-v">    
+   <commentary>
+	Note: No VPCS for this verb
+   </commentary>
+   <sense group="1" n="1" name="support; hold up; nurture or provide for" type="">  
+      <commentary>
+	Syntax is: NP1 SUSTAIN NP2[benefactor] (PP[manner/durative])
+                   NP1[agent] SUSTAIN NP2[event/state]
+        NOTE: It may be difficult to distinguish between a sustained benefactor
+              and sustained event or state (which may be metaphorically interpreted
+              as a benefactor); thus, this sense includes both frames mentioned above.
+      </commentary>
+      <examples>
+        The girders, softened by fire, could no longer sustain the walls of the building.
+	You can't sustain a family in this country on $50 a week.
+	Memories of Venice sustained them through the long gray winter.
+	Mary sustained herself on cigarettes and coffee through graduate school.
+        She was sustained by the strength of her religious faith.
+        The love of my family and friends sustained me through my ordeal.
+        The soil in that planet is not rich enough to sustain lifeforms.
+        He seems to find it difficult to sustain relationships with women.
+        A hurricane of that magnitude can sustain winds of over 140 miles per hour.
+        The runner is sustaining a comfortable lead at this point.
+        Analysts wonder how long the economy can sustain its current pace. (figurative)
+      </examples>
+      <mappings>
+         <wn version="3.0">1,3,4,5</wn>   
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>sustain.01</pb>
+         <vn>sustain-55.6</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="suffer or experience damage, injury, or loss" type="">
+      <commentary>
+	Syntax is: NP1[patient] SUSTAIN NP2
+      </commentary>
+      <examples>
+	Both the driver and passenger sustained head injuries.
+	The club-footed boy sustained a lot of teasing from classmates at the new school.
+        Most buildings sustained only minimal damage in the earthquake.
+        The company has sustained heavy losses this year.
+      </examples>
+      <mappings>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>sustain.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="validate, verify" type="">
+      <commentary>
+        Syntax is: NP1 SUSTAIN NP2
+                   NP1[agent] SUSTAIN NP2 
+        Note: the agent judges the conduct or evidence as sound
+      </commentary>
+      <examples>
+        The judge said the objection was sustained.
+        There is no evidence to sustain the plaintiff's allegations.
+      </examples>
+      <mappings>
+         <wn version="3.0">6,7</wn>
+         <wn lemma="" version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>  
+</inventory>

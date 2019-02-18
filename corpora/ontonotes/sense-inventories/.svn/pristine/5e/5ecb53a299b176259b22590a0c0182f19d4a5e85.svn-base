@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="assimilate-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="make or become similar" type="">  
+      <commentary>
+        NP1[+/-agent] ASSIMILATE (TO NP2)
+      </commentary>
+      <examples>
+        This country assimilates immigrants very quickly.
+        The country assimilated cultural, political and social structures
+        from China.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>assimilate.01</pb>
+         <vn>adjust-26.9</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="take in (mentally or physically)" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        She knew that she had completely assimilated the knowledge that she had
+        acquired over the years.
+        Diarrhea slightly assimilated the indigestible components.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>learn-14-2-1</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="become similar in sound" type="">
+      <commentary>
+        Compare closely to sense 1. This sense is a subsense in that it
+        applies to articulation.
+      </commentary>
+      <examples>
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">5</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

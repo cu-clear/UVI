@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="intervene-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="get involved so as to alter an action" type="">  
+      <commentary>
+        Includes: INTERVENE IN
+        NOTE: NP2 does not need to be stated but must be implied.
+        Syntax Is: NP1[agent[human]] INTERVENE IN NP2[patient]
+      </commentary>
+      <examples>
+        The president intervened in a dispute over the N.S.A's
+        eavesdropping.
+        The C.E.O. intervened in Enron's battle against the lawyers.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>intervene.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="be placed or located between things, or events" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        The war intervened between the birth of her two children.
+        Eight days intervened between the holidays.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,3</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

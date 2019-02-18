@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="snow-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="fall as snow" type="">  
+      <commentary>
+        NP1 SNOW
+      </commentary>
+      <examples>
+        She makes the old man believe it snowed tortillas during the night!
+        The next morning it snowed, unexpectedly.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>snow.01</pb>
+         <vn>weather-57</vn><fn>Precipitation</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="hoodwink" type="">
+      <commentary>
+        NP1[+agent] SNOW NP2 (into) (NP3)
+      </commentary>
+      <examples>
+        He sure snowed you into believeing he is wise, kind, generous and
+        peace-loving.
+        He snowed millions, but not me.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0"></wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="greenlm" sample_score="-"/>  
+</inventory>

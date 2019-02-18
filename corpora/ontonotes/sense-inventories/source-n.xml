@@ -1,0 +1,125 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="source-n">
+    <commentary>
+        Regrouped senses, revised definitions, examples and commentary. ahouston.
+        Added example to Group 2, indicating text marker 'Source:'  ahouston 
+    </commentary>
+    <sense group="1" n="1" name="origin or beginning" type="">
+        <commentary>
+            SOURCE[+origin][+location][+time/+space]
+            the place where something begins or is found
+            Note: the 'source' is an attribute of the NP it refers to, source of NP = part-of NP
+        </commentary>
+        <examples>
+            Italy is credited with being the source of the Renaissance.
+            No one seems to know the source of this custom.
+            Mary went straight to the source to address that management issue. (metaphoric use)
+            Who found the source of the Nile?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="an information reference, e.g. publication or an organization" type="">
+        <commentary>
+            SOURCE[+supplier][+information][+reference][+document/+organization]
+            a publication, document or place from which information is obtained
+        </commentary>
+        <examples>
+            What is the source for these statistics?
+            This account has been corroborated by many independent sources.
+            I found three different spellings of that word in three different sources.
+            The reporter checked his sources before running the story.
+            Their government-run press is not a reliable source.
+            Five cities with the highest median price of houses. Source: Realtors Association
+        </examples>
+        <mappings>
+            <wn version="3.0">9,2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="an informant" type="">
+        <commentary>
+            SOURCE[+person][+informant]
+            a person who supplies information
+        </commentary>
+        <examples>
+            The reporter would not disclose the name or gender of his source.
+            The mobster has his sources set up all over this city.
+            He was apparently a source for both the CIA and the KGB.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="the cause or instigation of something" type="">
+        <commentary>
+            SOURCE[+cause]
+            someone or something that causes or initiates something
+            source of NP = cause NP
+        </commentary>
+        <examples>
+            Scientists are trying to understand the possible sources of recent global warming.
+            The source of the shuttle disaster was a faulty O-ring.
+            Those two are always a source of trouble!
+            The source of their mistrust lay in decades of failed social institutions.
+            Legal critics say that litigation is a major source of rising transaction costs.
+        </examples>
+        <mappings>
+            <wn version="3.0">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="inspiration or muse" type="">
+        <commentary>
+            SOURCE[+inspiration]
+            anything that provides inspiration for later work
+        </commentary>
+        <examples>
+            Claudia is the source of all of my great writing.
+            That film got its source from vignettes of the director's childhood.
+            The composer claims that his compositions have a divine source.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="repository or reservoir of something" type="">
+        <commentary>
+            SOURCE[+repository]
+            SOURCE[+reservoir]
+            Note: it can be physical or abstract
+            Note: source of NP = NP source, but not NP's source (this seems marked)
+            source of iron = iron source NOT iron's source
+        </commentary>
+        <examples>
+            Spinach is a good source of iron.
+            Her grandmother is a great source of stories and gossip. 
+            The local flea market is a great source for finding cheap furniture and housewares.
+            The sun is a major source of energy for our planet.
+            That unclean drinking water is a sure source of bacterial infection.
+            His friendship was always a source of comfort through the years.
+            An electrode that provides the electrons for current through a transistor is called the source.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,7,8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+</inventory>

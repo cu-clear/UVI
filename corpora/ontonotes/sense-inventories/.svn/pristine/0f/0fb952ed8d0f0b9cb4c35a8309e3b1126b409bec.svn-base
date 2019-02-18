@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="retail-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="Be sold at retail level." type="">  
+      <commentary>
+      Syntax Is: NP1[topic] RETAIL PP
+      </commentary>
+      <examples>
+      These gems retail at thousands of dollars each.
+      Toshiba's new model retails at 200,000 yen. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>NM</pb>
+         <vn>NP</vn><fn>Commerce_sell</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+  <sense group="1" n="2" name="Sell (items) on the retail market." type="">
+      <commentary>
+      Syntax Is: NP1[agent] RETAIL (NP2[patient]) (PP) 
+      </commentary>
+      <examples>
+      Golden Feldman Furs began retailing agressively eight years ago.
+      Heiser approached him to try to retail computers across the countertop.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>retail.01</pb>
+         <vn>NP</vn><fn>Commerce_sell</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="corvey" sample_score="-"/>  
+</inventory>

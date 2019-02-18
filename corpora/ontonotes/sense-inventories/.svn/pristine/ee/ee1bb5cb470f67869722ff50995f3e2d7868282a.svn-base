@@ -1,0 +1,171 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="hang-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="(cause to) drape or dangle from (a) fixed point(s)" type="">  
+      <commentary>
+         Syntax Includes:
+         NP1[agent] HANG NP2[patient] (PP[location])
+         NP2[theme] HANG (PP[location])
+        Note: 'HANG WALLPAPER' is included within this sense. This is the only sense that 
+        requires fixing rather than draping.
+        Includes: HANG ON, HANG UP
+      </commentary>
+      <examples>
+        A heavy gold necklace hung around her neck.
+        Can you help me hang some decorations on the tree?
+        The curtains hung in thick folds.
+        Hang your coat and hat up on the rack over there.
+        Let the pheasant hang for a few days for the flavor to improve before you cook it.
+        Her long dark hair hung over her shoulder.
+        This cabinet door doesn't hang right.
+        The contractors hung the wallpaper upside down and refused to fix it.
+        Many of his finest pictures hang in the National Gallery.        
+      </examples>
+      <mappings>
+         <wn version="3.0">1,2,5,10,12,13,14,15</wn>   
+         <wn lemma="hang_on" version="3.0">1</wn>
+         <wn lemma="hang_up" version="3.0">2</wn>
+         <omega/><pb>hang.01</pb>
+         <vn>assuming_position-50,put_spatial-9.2-1,spatial_configuration-47.6,spray-9.7-1</vn><fn>Filling,Placing</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="kill by fastening rope around neck" type="">
+      <commentary>
+        Syntax Includes:   
+        NP1[agent] HANG NP2[patient[animate]]
+        NP2[patient[animate]] HANG
+      </commentary>
+      <examples>
+        He was found guilty and hanged later that year.
+        With so little evidence to prove her guilt, few people thought she should hang.
+        The woman tried to hang herself with a sheet.
+        She hung for witchcraft.
+      </examples>
+      <mappings>
+         <wn version="3.0">3</wn>
+         <omega/><pb>hang.01</pb>
+         <vn>poison-42.2</vn><fn>Execution</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="curve, droop or bend downwards" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        If you're a nerd, hang your head in shame - I know I am.
+        The branches hung heavy with snow.
+      </examples>
+      <mappings>
+         <wn version="3.0">4</wn>
+         <omega/><pb>NM</pb>
+         <vn>crane-40.3.2</vn><fn>Body_movement</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="remain suspended without motion, resolution, or conclusion" type="">
+      <commentary>
+        Includes: HANG ON, HANG OVER
+      </commentary>
+      <examples>
+        Heavy fog hung over the valley.
+        Time hung heavily when she was away.
+        His academic future hangs in the balance.
+        The jury hung on the last case because the prosecution overcharged.
+        Uncertainty again hangs over the project.
+        At the same time new worries hung on her domestic life. 
+      </examples>
+      <mappings>
+         <wn version="3.0">6,8,11</wn>
+         <omega/><pb>hang.01</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="5" name="hold on, perservere, or depend on (through precarious situation)" type="">
+      <commentary>
+        Includes: HANG ON, HANG BY A THREAD
+      </commentary>
+      <examples>
+        Hang on tight. It's going to be a very bumpy ride.
+        Beemer would hang on his mother's leg, overwhelmed by noise and color and sound. 
+        I hung on every word, no matter wrong or right.
+        Hang on to this document; you'll have no proof of your rights without it.
+        She's been trying to hang on to her youth.
+        He hung his hopes for re-election on his record of the last several years.
+        At the end of the day, he knows he hangs by a thread at this job.
+        The mayor's political future has been hanging by a thread since the fraud scandal.
+        Bob and Doug, hang in there. You're gonna make it.
+      </examples>
+      <mappings>
+         <wn version="3.0">7,9</wn>
+         <wn lemma="hang_on" version="3.0">2</wn>
+         <wn lemma="hang_by_a_thread" version="3.0">1</wn>
+         <wn lemma="hang_in" version="3.0">1</wn>
+         <omega/><pb>hang.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="6" name="wait, lag, linger or loiter" type="">
+      <commentary>
+        Includes: HANG AROUND, HANG BACK, HANG ON
+      </commentary>
+      <examples>
+        Sally's on the other phone - would you like to hang on?
+        Do you need the toilet right now or can you hang on for a while?
+        I thought I'd hang around for a while and see if she comes.
+        Go and pack but don't hang around - we have to go in an hour.
+        There's no need to hang back - you can sing as well as anyone.
+      </examples>
+      <mappings>
+         <wn lemma="hang_around" version="3.0">1</wn>
+         <wn lemma="hang_back" version="3.0">1</wn>
+         <wn lemma="hang_on" version="3.0">3</wn>
+         <omega/><pb>hang.02</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="7" name="spend significant amount of time somewhere or with someone" type="">
+      <commentary>
+        Includes: HANG AROUND, HANG OUT, HANG TOGETHER
+      </commentary>
+      <examples>
+        I got into drugs because I was hanging around with the wrong people.
+        I spent most of my youth hanging around the bars of Dublin.
+        She usually hangs out in the corner cafe.
+        With her free time, Julie hangs out with her friends in and outside her major. 
+        I will show you what makes the world hang together.
+        We'll hang together or hang separately. 
+      </examples>
+      <mappings>
+         <wn lemma="hang_around" version="3.0">1</wn>
+         <wn lemma="hang_out" version="3.0">1</wn>
+         <wn lemma="hang_together" version="3.0">1</wn>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="8" name="HANG UP-stop a phone conversation or stop using something" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        So when did you hang up your boxing ballet shoes?
+        He started shouting so I hung up (on him).
+        Let me speak to Melanie before you hang up.
+      </examples>
+      <mappings>
+         <wn lemma="hang_up" version="3.0">1,3</wn>
+         <omega/><pb>hang.03</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="9" name="HANG TOGETHER-cohere or make sense" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        Somehow her story doesn't quite hang together.
+      </examples>
+      <mappings>
+         <wn version="3.0"/>
+         <omega/><pb>NM</pb>
+         <vn>NM</vn><fn>NM</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="hwangd, brownsw" sample_score="-"/>  
+</inventory>

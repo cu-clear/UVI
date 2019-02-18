@@ -1,0 +1,90 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="complaint-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a medical disorder, malady" type="">
+        <commentary>
+            COMPLAINT[+state][+physiological][+disorder][+persistent]
+        </commentary>
+        <examples>
+            This ointment is good for a variety of skin complaints.
+            This patient's complaint is recurring dizzy spells.
+            His back complaints have persisted for more than a week.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>complaint.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an objection, expression of dissatisfaction" type="">
+        <commentary>
+            COMPLAINT[+action][+statement][+objection][+spoken/+written]
+            Note: refers to the speech act of expressing dissatisfaction, not the source of the objection (Sense 4)
+        </commentary>
+        <examples>
+            We heard the baby's loud complaints when his bottle was taken away.
+            There are complaints that the new building disrupts the city's skyline.
+            If I hear one more complaint today from John I'll scream!	
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega/><pb>complaint.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="3" name="a formal pleading, legal grievance" type="">
+        <commentary>
+            COMPLAINT[+action][+statement][+pleading][+legal][+civil/+criminal]
+            Note: always implies a formal procedure with a court
+        </commentary>
+        <examples>
+            A formal complaint against the firm was filed yesterday in the district court.
+            He was arrested on a complaint of drunk driving.
+            The neighbors have filed a complaint about John's violation of the zoning laws.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,5</wn>
+            <omega/><pb>complaint.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="4" name="a cause or grounds for dissatisfaction" type="">
+        <commentary>
+            COMPLAINT[+cause][+grounds][+dissatisfaction]
+            Note: refers to the source of the objection, -not- the act of stating the objection (Sense 2)
+        </commentary>
+        <examples>
+            We still have a couple of complaints about our hotel room. (something in the room)
+            Our client now feels we have addressed all of his complaints successfully. (our product, service)
+            No one had any complaints with Sally's proposal. (something in the proposal)
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega/><pb>complaint.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="5" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="3.0"/>
+            <omega/><pb>NM</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

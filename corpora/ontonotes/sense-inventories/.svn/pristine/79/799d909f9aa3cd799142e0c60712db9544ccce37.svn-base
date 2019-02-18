@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="displace-v">    
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="terminate or cause to relocate with force" type="">  
+      <commentary>
+       Syntax Is: 
+        NP1[agent] DISPLACE NP2[animate]
+        NP1[theme[inanimate] DISPLACE NP2[patient[animate]]
+        NOTE: NP2 can also refer to a group of animate entities as in
+        example 2.
+      </commentary>
+      <examples>
+        The flood displaced not only the residents but the local wildlife as well.
+        The management has just displaced the entire IT division because of budget cuts.
+        The war has displaced thousands of women and children.
+        Our greedy landlord has already displaced several families who couldn't pay rent.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,3</wn>   
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>displace.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="replace or cause to shift positions" type="">
+      <commentary>
+       Syntax Is: 
+        NP1[agent] DISPLACE NP2[inanimate]
+      </commentary>
+      <examples>
+        Angiosperms only displaced the Jurassic-type flora at high latitudes.
+        Added sugars displaced the use of nutrients in the National Food Stamp Program.
+        The revised bill will displace the current bill in the house.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>displace.01</pb>
+         <vn>NP</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="clarklm" sample_score="-"/>  
+</inventory>

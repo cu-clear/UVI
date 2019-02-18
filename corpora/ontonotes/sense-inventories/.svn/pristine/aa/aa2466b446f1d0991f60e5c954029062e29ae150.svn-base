@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="heave-v">
+   <commentary>
+   </commentary>
+   <sense group="1" n="1" name="cause to move with effort, usu. up or away" type="">
+      <commentary>
+       Includes: HEAVE ON 
+       Syntax Includes:
+       NP1[agent] HEAVE (NP2[patient])
+      </commentary>
+      <examples>
+        She heaved the case into the upper compartment.
+        Nobody happened to come out as he heaved the package down the hallway.
+        He heaved himself to his feet and spoke.
+        The black turtle spread front flippers, heaved forward, and drove to the surface for air. 
+        Demetrios heaved toward her, crunching across the gravel in slow motion.
+        Sailors heaved on the ropes until the sails finally billowed.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">2,4</wn>
+         <wn lemma="heave_up" version="3.0">1</wn>
+         <omega></omega><pb>heave.01</pb>
+         <vn>carry-11.4-1-1,push-12</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="2" name="move as if in a wave, usually from a great force" type="">
+      <commentary>
+        Syntax Is: NP1[theme] HEAVE (PP)
+      </commentary>
+      <examples>
+        The floor had heaved and the southeast wall had been displaced by the quake.
+        The ship hove into view.
+        The boat was caught in a sudden storm, it heaved and rolled and all the passengers were frightened stiff.
+        The pickup heaved forward, popped once and clattered, then its engine suddenly died.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">3,5,7</wn>
+         <wn lemma="" version="3.0"></wn>
+         <omega></omega><pb>heave.01</pb>
+         <vn></vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="3" name="breathe or utter with effort" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He heaved a sigh.
+        'They came . . ." she heaved, her throat convulsing.
+        She heaved for air and then her eyes burned with fire. 
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">1,6</wn>
+         <omega></omega><pb>heave.02</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <sense group="1" n="4" name="vomit or convulse as if to vomit" type="">
+      <commentary>
+      </commentary>
+      <examples>
+        He heaved and retched over the toilet in abject misery. 
+        Her stomach heaved as she examined the corpse.
+      </examples>
+      <mappings>
+         <gr_sense></gr_sense>
+         <wn version="3.0">8</wn>
+         <omega></omega><pb>heave.03</pb>
+         <vn>NM</vn><fn>NP</fn>
+      </mappings><SENSE_META clarity=""/>
+   </sense>
+   <WORD_META authors="brownsw,corvey" sample_score="-"/>
+</inventory>

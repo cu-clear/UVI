@@ -1,0 +1,43 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="doubt-n">
+    <commentary>
+    </commentary>
+    
+    <sense group="1" n="1" name="a belief state of uncertainty about something" type="">
+        <commentary>
+            DOUBT[+state][+belief][+uncertainty]
+            Note: refers to an individual's internal belief state
+        </commentary>
+        <examples>
+            I have my doubts that John will actually show up at the party.
+            He was filled with doubts about his own ability to lead the company.
+            Is it a wise thing to never doubt yourself?
+            His speech did a lot to alleviate the doubts in many voters' minds.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb>doubt.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <sense group="1" n="2" name="an approximate measure of uncertainty" type="">
+        <commentary>
+            DOUBT[+quantity][+measure][+approximate][+uncertainty]
+            Note: refers to a general, publicly available measure of uncertainty, not an individual's internal belief state (Sense 1)
+        </commentary>
+        <examples>
+            The accuracy of this study has been cast into serious doubt.
+            There is no doubt that taxes will go up if their candidate is elected.
+            The prosecution has proven the defendant's guilt beyond any reasonable doubt.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb>NM</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    
+    <WORD_META authors="ahouston" sample_score="-"/>
+</inventory>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><!DOCTYPE inventory  SYSTEM 'inventory.dtd'><inventory lemma="vacation-n">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="Leisure time away from work devoted to rest or pleasure." type="Event">
+        <commentary>
+        VACATION[+leisure][+event]
+        </commentary>
+        <examples>
+        We take a vacation at the end of July.
+        He had a short vacation in Puerto Rico.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="The act of making something legally void." type="Event">
+        <commentary>
+        VACATION[+law][+event]
+        </commentary>
+        <examples>
+        The vacation of his sentence left his speechless with joy.
+        The defense urged a vacation of all charges.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega/><pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+</inventory>
