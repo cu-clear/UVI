@@ -13,7 +13,11 @@
 <div class="modal fade bd-example-modal-lg" id='{{frame_id}}_svg_modal' tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg modal-dialog-centered">
     <div class="modal-content">
-      <img src='data:image/svg+xml;utf8,{{example_svg}}' class='img-fluid rounded'>
+      <!-- <img src='data:image/svg+xml;utf8,{{example_svg}}' class='img-fluid rounded'> -->
+      <!-- <object type="image/svg+xml" data={{example_svg}}>
+      	<img src={{example_svg}} />
+      </object> -->
+      <img src={{example_svg}} style="width:auto;"/>
     </div>
   </div>
 </div>

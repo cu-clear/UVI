@@ -237,3 +237,4 @@ def render_vn_class(vn_class_id):
 @app.route('/welcome_frame')
 def welcome_frame():
 	return render_template('welcome_frame.html')
+
