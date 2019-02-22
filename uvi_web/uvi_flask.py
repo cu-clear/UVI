@@ -4,7 +4,8 @@ from flask import Flask, Response
 from flask import render_template, redirect, url_for, request, jsonify, g
 from flask_pymongo import PyMongo
 
-from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined, get_subclass_ids
+from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined
+from methods import sort_by_char
 
 import json
 
@@ -238,22 +239,6 @@ def render_vn_class(vn_class_id):
 def welcome_frame():
 	return render_template('welcome_frame.html')
 
-def sort_by_char():
-	all_name = {}
-	char_dict = {}
-	for cl in list(mongo.db.verbnet.find({}, {'_id':0, 'class_id':1})):
-		name_components = cl['class_id'].split('-') 
-		parent_class = ('-').join(name_components[:2])
-		subclasses = get_subclass_ids(parent_class)
-		all_name.update({parent_class:subclasses})
-	for key, val in all_name.items():
-		if key[0] not in char_dict:
-			char_dict.update({key[0]:[]})
-			char_dict[key[0]].append({key:val})
-		else:
-			char_dict[key[0]].append({key:val})
-
-	return dict(sorted(char_dict.items()))
 
 @app.route('/class_hierarchy')
 def class_hierarchy():

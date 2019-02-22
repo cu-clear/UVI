@@ -233,6 +233,22 @@ def formatted_def(frame, markup, popover=False):
 
 	return markup
 
+def sort_by_char():
+	all_name = {}
+	char_dict = {}
+	for cl in list(mongo.db.verbnet.find({}, {'_id':0, 'class_id':1})):
+		name_components = cl['class_id'].split('-') 
+		parent_class = ('-').join(name_components[:2])
+		subclasses = get_subclass_ids(parent_class)
+		all_name.update({parent_class:subclasses})
+	for key, val in all_name.items():
+		if key[0] not in char_dict:
+			char_dict.update({key[0]:[]})
+			char_dict[key[0]].append({key:val})
+		else:
+			char_dict[key[0]].append({key:val})
+
+	return dict(sorted(char_dict.items()))
 
 # def formatted_def(frame, markup):
 # 	frame_elements = frame['elements']
