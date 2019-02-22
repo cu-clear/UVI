@@ -5,7 +5,7 @@ from flask import render_template, redirect, url_for, request, jsonify, g
 from flask_pymongo import PyMongo
 
 from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined
-from methods import sort_by_char
+from methods import sort_by_char, sort_by_id
 
 import json
 
@@ -242,16 +242,5 @@ def welcome_frame():
 
 @app.route('/class_hierarchy')
 def class_hierarchy():
-	all_num = {}
-	dict_by_num = {}
-	for cl in list(mongo.db.verbnet.find({}, {'_id':0, 'class_id':1})):
-		name_components = cl['class_id'].split('-') 
-		parent_class = ('-').join(name_components[:2])
-		by_num = name_components[1]+':'+name_components[0]
-		all_num.update({by_num:parent_class})
-
-	sorted_out = dict(sorted(all_num.items(), key=lambda item: int(item[0].split(':')[0].split('.')[0])))
-	# for el in all_ids_list:
-	# 	elStr = str(el)
-	# 	dict_by_num.update({elStr+':'+all_num[elStr]['alpha_name']:all_num[elStr]['class_id']})
-	return render_template('class_hierarchy.html', class_by_num=sorted_out, class_by_name=sort_by_char())
+	
+	return render_template('class_hierarchy.html', class_by_num=sort_by_id(), class_by_name=sort_by_char())

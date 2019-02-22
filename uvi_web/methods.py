@@ -236,7 +236,7 @@ def formatted_def(frame, markup, popover=False):
 def sort_by_char():
 	all_name = {}
 	char_dict = {}
-	for cl in list(mongo.db.verbnet.find({}, {'_id':0, 'class_id':1})):
+	for cl in list(db.verbnet.find({}, {'_id':0, 'class_id':1})):
 		name_components = cl['class_id'].split('-') 
 		parent_class = ('-').join(name_components[:2])
 		subclasses = get_subclass_ids(parent_class)
@@ -249,6 +249,26 @@ def sort_by_char():
 			char_dict[key[0]].append({key:val})
 
 	return dict(sorted(char_dict.items()))
+
+def sort_by_id():
+	all_num = {}
+	num_dict = {}
+	for cl in list(db.verbnet.find({}, {'_id':0, 'class_id':1})):
+		name_components = cl['class_id'].split('-') 
+		parent_class = ('-').join(name_components[:2])
+		by_num = name_components[1]+' : '+name_components[0]
+		all_num.update({by_num:parent_class})
+	sorted_out = dict(sorted(all_num.items(), key=lambda item: int(item[0].split(':')[0].split('.')[0])))
+	for key, val in sorted_out.items():
+		first_num = key.split(':')[0].split('.')[0]
+		if first_num not in num_dict:
+			num_dict.update({first_num:[]})
+			num_dict[first_num].append({key:val})
+		else:
+			num_dict[first_num].append({key:val})
+	for key, val_list in num_dict.items():
+		num_dict[key] = sorted(val_list, key = lambda x : list(x.items())[0])
+	return num_dict
 
 # def formatted_def(frame, markup):
 # 	frame_elements = frame['elements']
