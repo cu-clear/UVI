@@ -252,8 +252,8 @@ def sort_by_char():
 			char_dict[key[0]].append({key:val})
 		else:
 			char_dict[key[0]].append({key:val})
-	print(char_dict)
-	return char_dict
+
+	return dict(sorted(char_dict.items()))
 
 @app.route('/class_hierarchy')
 def class_hierarchy():
