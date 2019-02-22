@@ -1,0 +1,127 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} References {% endblock %}
+{% block body %}
+
+
+<!--Begin Navbar-->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
+  <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
+  <a class="navbar-brand" href={{ url_for('index') }}>
+    <img src="/static/images/clear_orig.png" height="80px" id="logo">
+    Unified Verb Index
+  </a>
+  <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Tutorial</a>
+      </li>
+    </ul>
+</nav>
+<!--End Navbar-->
+
+<div id='home_span' style="margin-top:90px;">
+  <br>
+  <div class="col-11" id="ButtonsPage">
+    <ul class="nav" role="tablist" id='bothButtons'>
+      <li role="button" class="active" id="button_num"><a href="#tab_num" role="tab" class="button no-underline" data-toggle="tab" >Sort by Class ID</a></li>
+      <li role="button" ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
+    </ul>
+    <br>
+    <br>
+  </div>
+    <!-- Tab panes -->
+  <div class="col-11" id="hierPage">
+    <div class="tab-content row"" >
+      <div role="tabpanel" class="tab-pane active" id="tab_num">
+        <div class="row">
+          {% for name, val in class_by_num.items() %}
+            <div class="col-md-2">
+              <a class="wordStyle" href="{{url_for('render_vn_class', vn_class_id=val)}}" target='_blank'>{{name}}</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="tab_name">
+        <div class="row">
+          {% for name, sub_class_list in class_by_name.items()|sort %}
+            <div class="col-md-2">
+              <a class="wordStyle" href="{{url_for('render_vn_class', vn_class_id=name)}}" target='_blank'>{{name}}</a>
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<style type="text/css">
+
+#ButtonsPage {
+  background: rgba(122, 157, 150, .9);
+  margin:auto;
+}
+
+#hierPage{
+  background: rgba(122, 157, 150, .9);
+  overflow-y:auto;
+  overflow-x: hidden;
+  margin: auto;
+  height:70vh;
+  
+
+}
+
+.button {
+  background-color: rgba(220, 174, 29, .9); /* Green */
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: ##202a0a; /*Shade of olive*/
+}
+
+.no-underline{
+  text-decoration: none;
+}
+
+
+#bothButtons {
+  justify-content: center;
+}
+
+.wordStyle {
+  text-decoration: none; 
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 6px;
+}
+
+
+</style>
+
+
+{% endblock %}
+
+{% block scripts %}
+
+
+{% endblock %}

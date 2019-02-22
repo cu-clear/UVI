@@ -15,15 +15,17 @@ db = mongo_client['uvi_corpora']
 def top_parent_id(class_id):
 	return ('-').join(class_id.split('-')[:2])
 
+def get_subclass_ids(parent_class_id):
+	subclasses_list = db['verbnet'].find_one({'class_id': parent_class_id})['subclasses']
+	if subclasses_list:
+		return [subclass['class_id'] for subclass in subclasses_list]
+	else:
+		return None
+
 def full_class_hierarchy_tree(class_id):
 	top_parent_id = ('-').join(class_id.split('-')[:2])
 	top_parent_class = db['verbnet'].find_one({'class_id': top_parent_id})
-	def get_subclass_ids(parent_class_id):
-		subclasses_list = db['verbnet'].find_one({'class_id': parent_class_id})['subclasses']
-		if subclasses_list:
-			return [subclass['class_id'] for subclass in subclasses_list]
-		else:
-			return None
+
 
 	def subclass_hierarchy_tree(parent_id, depth_counter):
 		subclasses = get_subclass_ids(parent_id)
@@ -230,6 +232,8 @@ def formatted_def(frame, markup, popover=False):
 			pass
 
 	return markup
+
+
 # def formatted_def(frame, markup):
 # 	frame_elements = frame['elements']
 # 	colors = RandomColor(seed = frame['name']).generate(count=len(frame_elements), luminosity='light')
