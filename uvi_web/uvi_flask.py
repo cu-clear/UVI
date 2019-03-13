@@ -242,5 +242,4 @@ def welcome_frame():
 
 @app.route('/class_hierarchy')
 def class_hierarchy():
-	
 	return render_template('class_hierarchy.html', class_by_num=sort_by_id(), class_by_name=sort_by_char())
