@@ -1,0 +1,140 @@
+body {
+    padding: 50px;
+    position: relative;
+    text-align: left;
+    max-width: 100%;
+    min-width: 480px;
+    margin: 0 auto;
+    font-family: 'Crimson Text', sans-serif;
+}
+
+img {
+    max-width: 100px;
+}
+
+
+.page-header h1 {
+    font-size: 40px;
+    text-align: center;
+    display: blocks;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+svg {
+    max-width: 150px;
+    width: 100%;
+    overflow: visible !important; 
+    margin: 0px 60px;
+}
+
+
+div.col-sm-4 {
+    margin-right: 100px;
+}
+
+div.col-sm-8 div {
+    height: 250px;
+    font-size: 28px;
+    max-width: 100%;
+}
+
+
+text  {
+	font-size: 12px;
+    padding: 30px;
+}
+
+ul.nav-pills {
+  top: 80px;
+  position: fixed;
+}
+
+
+.annotation {
+    max-width: 750px;
+    font-size: 16px;
+    position: right;
+    text-align: left;
+}
+
+.container{
+    display: flex;
+}
+
+.content {
+  padding: 30px;
+}
+
+.flex-item{
+    flex-grow: 1;
+}   
+
+.nav {
+    font-size: 18px;
+    padding-top: 150px;
+    margin-right: 80px;
+}
+
+.page-header, .nav, main, img {
+    padding-bottom: 50px;
+    display: block; 
+}
+
+.row {
+    display: flex;
+    padding-top: 30px;
+}
+
+/*.sidebar {
+    position: fixed;
+    width: 150px;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}*/
+
+
+.textbox {
+    flex: 50%;
+    max-width: 575px;
+}
+
+
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3  {
+        margin-left: 150px;
+    }
+  }
+
+
+@media screen and (max-width: 480px) {
+    .page-header h1, h1 {
+        font-size: 28px;
+        text-align: left;
+    }
+    img {
+        max-width: 80px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .row {
+        max-width: 300px;
+    }
+    .col-sm-4 {
+        max-width: 0px;
+    }
+  }
+
+
+/*#section1 {color: #fff; background-color: #1E88E5;}
+#section2 {color: #fff; background-color: #673ab7;}
+#section3 {color: #fff; background-color: #ff9800;}
+#section41 {color: #fff; background-color: #00bcd4;}
+#section42 {color: #fff; background-color: #009688;}*/
+  
+

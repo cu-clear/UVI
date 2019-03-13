@@ -3,6 +3,7 @@
 {% set syntax = frame['syntax'] %}
 {% set semantics = frame['semantics'] %}
 {% set frame_id = loop.index0 ~ id %}
+{% set frame_dynamics = frame['examples'][0]['fd'] %}
 
 <h6>EXAMPLE:</h6>
 <span style="font-size:18px">
@@ -41,3 +42,13 @@
 <span style="font-size:18px">
 {% include 'vn_semantic_content.html' %}
 </span>
+<br />
+
+<h6>FORCE DYNAMICS:</h6>
+{% if frame_dynamics %}
+	<span style="font-size:18px">
+	{% include 'vn_frame_dynamics.html' %}
+	</span>
+{% else %}
+	<p>None</p>
+{% endif %}

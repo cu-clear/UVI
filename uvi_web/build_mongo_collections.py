@@ -15,6 +15,9 @@ path_wordnet = '../corpora/wordnet/'
 path_ontonotes = '../corpora/ontonotes/sense-inventories/'
 path_dep = 'static/images/Dep_Parses/'
 
+path_fd = '../corpora/reference_docs/pred_calc_for_website_final.json'
+
+
 from pymongo import MongoClient
 
 mongo_client = MongoClient()
@@ -190,6 +193,9 @@ def build_verbnet_collection():
 	from spacy import displacy
 	spacy_nlp = spacy.load('en')
 
+	with open(path_fd) as rf:
+		fd_list =  json.load(rf)
+
 	def parse_member(member):
 		name = member.get('name')
 		wn = member.get('wn').split(' ')
@@ -342,6 +348,13 @@ def build_verbnet_collection():
 			args = [parse_arg(arg) for arg in predicate.find('ARGS')]
 			return {'predicate': pred_value, 'args': args, 'bool': boolean}
 		
+		def parse_fd(fd_list, example_text):
+			for key,list_of_feats in fd_list.items():
+				if list_of_feats[0].lower() == example_text.lower()[:-1]:
+					return {'num':key, 'fd_val':list_of_feats[4]}
+			return None
+
+
 		def dependency_tree_svg(example_text, ex_num):
 			spacy_doc = spacy_nlp(example_text)
 			svg_xml = displacy.render(spacy_doc,style='dep', options={'compact':True, 'color': 'black'})
@@ -352,7 +365,7 @@ def build_verbnet_collection():
 
 		
 		description = parse_description(frame.find('DESCRIPTION'))
-		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text, ex_n)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
+		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text, ex_n), 'fd': parse_fd(fd_list, example.text)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
 		syntax = [parse_syntax_arg(arg) for arg in frame.find('SYNTAX')]
 		semantics = [parse_pred(pred) for pred in frame.find('SEMANTICS')]
 		return {'description': description, 'examples': examples, 'syntax': syntax, 'semantics': semantics}

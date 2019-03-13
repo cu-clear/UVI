@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Force dynamics</title>
+
+    <script src='https://d3js.org/d3.v4.min.js'></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">   
+
+    <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />    
+
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+        <div class="page-header">
+          <a class="navbar-brand" href="#">
+            <img alt="Brand" src="new-logo.gif">
+          </a>
+          <h1>Event structure representation</h1>
+        </div>
+
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">Details</a></li>
+          <li role="presentation"><a href="javascript:history.back()">VerbNet</a></li>
+        </ul>
+
+        <div class="container">
+            <div class="svg-diagram" ></div>
+
+            <div class="annotation flex-item">
+                <p><br></p>
+                <div class="row">
+                  <div class="textbox" id="textbox_left"></div>
+                  <div class="textbox" id="textbox_right"></div>
+                </div>
+                <div class="row">
+                  <div class="textbox" id="textbox"></div>
+                </div>
+            </div>
+        </div>
+
+    <script type="text/javascript">
+
+      let params = (new URL(document.location)).searchParams;
+      let id = Number(params.get("id"));
+
+    </script>
+
+
+    <script type="text/javascript" src="diagrams.js"></script>
+
+
+
+
+</body>
+</html>
