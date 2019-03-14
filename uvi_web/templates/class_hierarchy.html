@@ -6,10 +6,12 @@
 <!--Begin Navbar-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
+<div id='logo'>
   <a class="navbar-brand" href={{ url_for('index') }}>
     <img src="/static/images/clear_orig.png" height="80px" id="logo">
-    Unified Verb Index
+         <a class="nav-link-uvi" href={{ url_for('uvi_search') }} target="_blank"> <font size=4 color=white>Unified Verb Index</font></a>  
   </a>
+</div>
   <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
@@ -169,6 +171,13 @@ p {
 p {
  text-align:  left;
 }
+
+.nav-link-uvi a{
+color:white
+font-size: 100px;
+
+}
+
 </style>
 
 
