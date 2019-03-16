@@ -7,28 +7,21 @@ from lxml import etree
 import re
 from bs4 import BeautifulSoup
 from nltk import word_tokenize as tokenizer
+from pymongo import MongoClient
 
 path_framenet = '../corpora/framenet/'
 path_propbank = '../corpora/propbank/frames/'
 path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
 path_ontonotes = '../corpora/ontonotes/sense-inventories/'
-path_bso = '../corpora/BSO/VNBSOMapping_withMembers.csv'
+path_bso='../corpora/BSO/VNBSOMapping_withMembers.csv'
 path_dep = 'static/images/Dep_Parses/'
 
 path_fd = '../corpora/reference_docs/pred_calc_for_website_final.json'
 
-
-from pymongo import MongoClient
-
 mongo_client = MongoClient()
 db = mongo_client['uvi_corpora']
 bso_mongo={}
-
-
-################################################################################################################################################################
-################################################################################################################################################################
-################################################################################################################################################################
 #BSO
 with open(path_bso) as csv_file:
 	csv_reader=csv.reader(csv_file,delimiter=',')
@@ -208,6 +201,9 @@ def build_verbnet_collection():
 	from spacy import displacy
 	spacy_nlp = spacy.load('en')
 
+	with open(path_fd) as rf:
+		fd_list =  json.load(rf)
+
 	def parse_member(member,class_id):
 		bso=[]
 		name = member.get('name')
@@ -227,7 +223,7 @@ def build_verbnet_collection():
 					bso.append(val[0])
 		if not bso:
 			bso=None
-		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features,'bso':bso}
+		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features, 'bso':bso}
 			
 	def parse_themrole(themrole):
 		def parse_selrestr(selrestr):
@@ -396,7 +392,8 @@ def build_verbnet_collection():
 	def parse_vn_class(vn_class):
 		class_id = vn_class.get('ID')
 		num_comparison_id = parse_numerical_comparison_id(class_id)
-		members = [parse_member(member) for member in vn_class.find('MEMBERS') if member.tag == 'MEMBER']
+		members = [parse_member(member,class_id) for member in vn_class.find('MEMBERS') if member.tag == 'MEMBER']
+		print(members)
 		themroles = [parse_themrole(themrole) for themrole in vn_class.find('THEMROLES') if themrole.tag == 'THEMROLE']
 		frames = [parse_frame(frame, class_id, frame_num) for frame_num, frame in enumerate(vn_class.find('FRAMES')) if frame.tag == 'FRAME']
 		subclasses = [parse_vn_class(subclass) for subclass in vn_class.find('SUBCLASSES') if subclass.tag=='VNSUBCLASS']
