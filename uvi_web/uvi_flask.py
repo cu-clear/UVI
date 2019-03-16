@@ -32,12 +32,16 @@ app.config['MONGO_DBNAME'] = 'uvi_corpora'
 app.config.update(mail_settings)
 mongo = PyMongo(app)
 mail = Mail(app)
-with open('some_configs.json', 'w') as wf:
-	json.dump(mail_settings, wf)
 
 @app.context_processor
 def context_methods():
 	return dict(top_parent_id=top_parent_id, unique_id=unique_id, mongo_to_json=mongo_to_json, formatted_def=formatted_def, full_class_hierarchy_tree=full_class_hierarchy_tree, get_themrole_fields=get_themrole_fields, get_pred_fields=get_pred_fields, get_constant_fields=get_constant_fields, get_verb_specific_fields=get_verb_specific_fields, remove_object_ids=remove_object_ids, colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined)
+
+@app.route('/uvi_search')
+def uvi_search():
+	process_query()	
+	return render_template('uvi_search.html')
+
 
 @app.route('/download_json')
 def download_json():

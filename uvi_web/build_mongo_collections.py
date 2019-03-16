@@ -2,17 +2,18 @@ import json
 import os
 from pprint import pprint
 import nltk
+import csv
 from lxml import etree
 import re
 from bs4 import BeautifulSoup
 from nltk import word_tokenize as tokenizer
-from flask import Markup
 
 path_framenet = '../corpora/framenet/'
 path_propbank = '../corpora/propbank/frames/'
 path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
 path_ontonotes = '../corpora/ontonotes/sense-inventories/'
+path_bso = '../corpora/BSO/VNBSOMapping_withMembers.csv'
 path_dep = 'static/images/Dep_Parses/'
 
 path_fd = '../corpora/reference_docs/pred_calc_for_website_final.json'
@@ -22,6 +23,20 @@ from pymongo import MongoClient
 
 mongo_client = MongoClient()
 db = mongo_client['uvi_corpora']
+bso_mongo={}
+
+
+################################################################################################################################################################
+################################################################################################################################################################
+################################################################################################################################################################
+#BSO
+with open(path_bso) as csv_file:
+	csv_reader=csv.reader(csv_file,delimiter=',')
+	for row in csv_reader:
+		if row[0] not in bso_mongo:
+			bso_mongo[row[0]]=[[row[1],row[2],row[3]]]		
+		else:
+			bso_mongo[row[0]].append([row[1],row[2],row[3]])
 
 ################################################################################################################################################################
 ################################################################################################################################################################
@@ -193,10 +208,8 @@ def build_verbnet_collection():
 	from spacy import displacy
 	spacy_nlp = spacy.load('en')
 
-	with open(path_fd) as rf:
-		fd_list =  json.load(rf)
-
-	def parse_member(member):
+	def parse_member(member,class_id):
+		bso=[]
 		name = member.get('name')
 		wn = member.get('wn').split(' ')
 		grouping = member.get('grouping').split(' ')
@@ -207,8 +220,14 @@ def build_verbnet_collection():
 			wn = None
 		if grouping[0] == '':
 			grouping = None
-
-		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features}
+		if class_id in bso_mongo.keys():
+			for val in bso_mongo[class_id]:
+				if name in val[2] and val[0] not in bso:	
+					#print(name,val[0])					
+					bso.append(val[0])
+		if not bso:
+			bso=None
+		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features,'bso':bso}
 			
 	def parse_themrole(themrole):
 		def parse_selrestr(selrestr):
