@@ -56,10 +56,10 @@ $(document).ready(function(){
 <!--Begin Navbar-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-<div id='logo'>
+<div id='logo_uvi'>
   <a class="navbar-brand" href={{ url_for('index') }}>
     <img src="/static/images/clear_orig.png" height="150px" id="logo">
-          <a class="nav-link-uvi" href={{ url_for('uvi_search') }} target="_blank"> <font size=4 color=white>Unified Verb Index</font></a>
+          <a class="nav-link-uvi" href={{ url_for('uvi_search') }}> <font size=4 color=white>Unified Verb Index</font></a>
 
   </a>
 </div>
@@ -152,7 +152,7 @@ $(document).ready(function(){
                     <label for='vn_attribute'><div class="hoverWrapper">Thematic Role
                         <div id="hoverGenThem">
                             {% for th_el in gen_themroles %}
-                              <span>{% for themrole, them_val in th_el.items() %}
+                            <span>{% for themrole, them_val in th_el.items() %}
                                <b>{{themrole}}</b>
                               {%endfor %}</span>
                               <span>{{ ", " if not loop.last }}</span>

@@ -151,6 +151,7 @@ def add_predicate_defs(predicate_definition_file, mongo_collection):
             mongo_collection.insert_one(pred_dict)
 
 def ref_to_db():
+	print("References added")
 	''' Adds all the reference info into the existing verbnet collection by creating a doc 'reference' 
 	and then adding further fields.'''
 

@@ -1,5 +1,5 @@
 {% extends 'bootstrap_base.html' %}
-{% block title %} Unified Verb Index {% endblock %}
+{% block title %} UVI Search {% endblock %}
 {% block body %}
 
 <script>
@@ -47,10 +47,10 @@ $(document).ready(function(){
 <!--Begin Navbar-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-<div id='logo'> 
+<div id='logo_uvi'> 
  <a class="navbar-brand" href={{ url_for('index') }}>
-    <img src="/static/images/clear_orig.png" height="80px" id="logo">
-       <a class="nav-link-uvi" href={{ url_for('uvi_search') }} target="_blank"> <font size=4 color=white>Unified Verb Index</font></a>
+    <img src="/static/images/clear_orig.png" height="150px" id="logo">
+       <a class="nav-link-uvi" href={{ url_for('uvi_search') }}> <font size=4 color=white>Unified Verb Index</font></a>
   </a>
 </div>
   <ul class="navbar-nav">
@@ -70,7 +70,7 @@ $(document).ready(function(){
     </ul>
 </nav>
 <!--End Navbar-->
-<div id='home_span' style="margin-top:120px;">
+<div id='home_span' style="margin-top:130px;">
 
     
     <!-- <div class='container' id='show_div' style="display:none"> -->
