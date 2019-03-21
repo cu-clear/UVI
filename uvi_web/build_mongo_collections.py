@@ -319,7 +319,6 @@ def build_verbnet_collection():
 		if class_id in bso_mongo.keys():
 			for val in bso_mongo[class_id]:
 				if name in val[2] and val[0] not in bso:	
-					#print(name,val[0])					
 					bso.append(val[0])
 		if not bso:
 			bso=None
@@ -481,7 +480,6 @@ def build_verbnet_collection():
 		class_id = vn_class.get('ID')
 		num_comparison_id = parse_numerical_comparison_id(class_id)
 		members = [parse_member(member,class_id) for member in vn_class.find('MEMBERS') if member.tag == 'MEMBER']
-		#print(members)
 		themroles = [parse_themrole(themrole) for themrole in vn_class.find('THEMROLES') if themrole.tag == 'THEMROLE']
 		frames = [parse_frame(frame) for frame in vn_class.find('FRAMES') if frame.tag == 'FRAME']
 		subclasses = [parse_vn_class(subclass) for subclass in vn_class.find('SUBCLASSES') if subclass.tag=='VNSUBCLASS']
