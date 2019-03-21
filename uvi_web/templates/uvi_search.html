@@ -20,17 +20,9 @@ function scrollFunction() {
 
 <script>
 $(document).ready(function(){
-    $("#fade_welcome_button").click(function(){
-        $("#fade_welcome_div").hide();
-        $("#show_div").show();
-    });
-});
-</script>
-
-<script>
-$(document).ready(function(){
     $("#query_form").submit(function(){
-        $("#results_pane_div").show();
+	$("#show_div").hide();        
+	$("#results_pane_div").show();
     });
 });
 </script>
@@ -38,6 +30,7 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
     $("#attribute_query_form").submit(function(){
+	$("#show_div").hide();
         $("#results_pane_div").show();
     });
 });
@@ -47,20 +40,17 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#close_button").click(function(){
         $("#results_pane_div").hide();
+	$("#show_div").show();
     });
 });
 </script>
-
-
-
 <!--Begin Navbar-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-<div id='logo_uvi'>
-  <a class="navbar-brand" href={{ url_for('index') }}>
+<div id='logo_uvi'> 
+ <a class="navbar-brand" href={{ url_for('index') }}>
     <img src="/static/images/clear_orig.png" height="150px" id="logo">
-          <a class="nav-link-uvi" href={{ url_for('uvi_search') }}> <font size=4 color=white>Unified Verb Index</font></a>
-
+       <a class="nav-link-uvi" href={{ url_for('uvi_search') }}> <font size=4 color=white>Unified Verb Index</font></a>
   </a>
 </div>
   <ul class="navbar-nav">
@@ -73,21 +63,19 @@ $(document).ready(function(){
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
       </li>
+
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('references_page') }}>Tutorial</a>
       </li>
     </ul>
 </nav>
 <!--End Navbar-->
+<div id='home_span' style="margin-top:130px;">
 
-<div id='home_span' style="margin-top:190px;">
-
-    <div id='fade_welcome_div'>
-        {% include 'welcome_frame.html' %}
-    </div>
-
+    
     <!-- <div class='container' id='show_div' style="display:none"> -->
-    <div id='show_div' style="display:none; position:absolute;">
+    <div id='show_div' style="margin-top:80px; position:absolute;">
+
         <div class='row'>
             <!--BEGIN SIDE COLUMN LEFT-->
             <div class='col-3'>
@@ -152,7 +140,7 @@ $(document).ready(function(){
                     <label for='vn_attribute'><div class="hoverWrapper">Thematic Role
                         <div id="hoverGenThem">
                             {% for th_el in gen_themroles %}
-                            <span>{% for themrole, them_val in th_el.items() %}
+                              <span>{% for themrole, them_val in th_el.items() %}
                                <b>{{themrole}}</b>
                               {%endfor %}</span>
                               <span>{{ ", " if not loop.last }}</span>
@@ -213,10 +201,7 @@ $(document).ready(function(){
         </div>
 
     </div>
-
-    
-    
-    <div id='results_pane_div' style="display:none; position: absolute;">
+<div id='results_pane_div' style="display:none; position: absolute;">
         <button type="button" id='close_button'>&times;</button>
         <iframe class='frame' frameborder="0" name="results_pane" id="results_pane">
         </iframe>
@@ -224,7 +209,6 @@ $(document).ready(function(){
 
 
 </div>
-
 <script type="text/javascript">
 
 </script>
@@ -249,10 +233,11 @@ $(document).ready(function(){
      padding: 40px 60px;
      text-align: justify;
      text-transform: capitalize;
+
     }
 .nav-link-uvi a{
 color:white
-font-size: 80px;
+font-size: 100px;
 
 }
 

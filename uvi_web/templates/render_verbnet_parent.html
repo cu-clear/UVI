@@ -56,6 +56,16 @@
                   <a href="http://verbs.colorado.edu/html_groupings/{{grouping_id}}" target="_blank">{{ grouping }}</a> <br />
                   {% endfor %}
                   {% endif %}
+
+                  <b>BSO:</b><br />
+                  {% set bso = member['bso'] %}
+                  {% if bso == none %}
+                  None <br />
+                  {% else %}
+                  {% for bso_names in bso %}
+                  {{ bso_names}}<br />
+                  {% endfor %}
+                  {% endif %}
                 </div>
               </div>
               <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 

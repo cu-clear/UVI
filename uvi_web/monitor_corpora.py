@@ -80,7 +80,7 @@ print("Building all collections and monitoring corpora: "+datetime.datetime.now(
 build_mongo_collections.build_verbnet_collection()
 build_mongo_collections.build_propbank_collection()
 build_mongo_collections.build_framenet_collection()
-build_mongo_collections.add_onto_to_db()
+#build_mongo_collections.add_onto_to_db()
 
 
 watch_manager = pyinotify.WatchManager()

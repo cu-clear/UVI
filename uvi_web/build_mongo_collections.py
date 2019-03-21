@@ -7,7 +7,6 @@ from lxml import etree
 import re
 from bs4 import BeautifulSoup
 from nltk import word_tokenize as tokenizer
-from pymongo import MongoClient
 
 path_framenet = '../corpora/framenet/'
 path_propbank = '../corpora/propbank/frames/'
@@ -15,9 +14,7 @@ path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
 path_ontonotes = '../corpora/ontonotes/sense-inventories/'
 path_bso='../corpora/BSO/VNBSOMapping_withMembers.csv'
-path_dep = 'static/images/Dep_Parses/'
-
-path_fd = '../corpora/reference_docs/pred_calc_for_website_final.json'
+from pymongo import MongoClient
 
 mongo_client = MongoClient()
 db = mongo_client['uvi_corpora']
@@ -35,6 +32,111 @@ with open(path_bso) as csv_file:
 ################################################################################################################################################################
 ################################################################################################################################################################
 #VERBNET REFERENCES ONLY
+def parse_sense(sense):
+	def parse_examples(examples):
+		if examples is not None:
+			ex_list = examples.text
+			if ex_list:
+				split_list = ex_list.split('\n')
+				leading_space_stripped = [my_str.strip() for my_str in split_list]
+				single_str = ''
+				for line in leading_space_stripped:
+					if line:
+						if line[-1] in [r'.', r'?', r'!', r')']: single_str += line+'\n'
+						else: single_str += line
+				lines_out = single_str.split('\n')
+				return lines_out
+			return ''
+		return ''
+	
+	def parse_mappings(mappings):
+		vn = []
+		pb = []
+		fn = []
+		wn = []
+		vn_map = mappings.find('vn')
+		if vn_map is not None:
+			if vn_map.text:
+				vn = vn_map.text.split(',')
+		pb_map = mappings.find('pb')
+		if pb_map is not None:
+			if pb_map.text:
+				pb = pb_map.text.split(',')
+		fn_map = mappings.find('fn')
+		if fn_map is not None:
+			if fn_map.text:
+				fn = fn_map.text.split(',')
+		wn_list = mappings.findall('wn')
+		for wn_el in wn_list:
+			senses = []
+			lemma = wn_el.get('lemma')
+			version = wn_el.get("version")
+			senses_list = wn_el.text
+			if senses_list:
+				senses = senses_list.split(',')
+			if lemma or version or senses_list:
+				wn.append({"Lemma":lemma, "Version": version, "Senses":senses})
+		return {'vn': vn, 'pb': pb, 'fn': fn, 'wn': wn}
+	
+	def parse_comments(comments):
+		lines_final = []
+		syn = ['Syntax', 'SYNTAX']
+		others = ['NOTE', 'Note', 'Comments']
+		if comments is not None:
+			comm_list = comments.text
+			if comm_list:
+				split_list = comm_list.split('\n')
+				leading_space_stripped = [my_str.strip() for my_str in split_list]
+				for line in leading_space_stripped:
+					if line:
+						is_syn_struct = False
+						is_split = False
+						tokens = tokenizer(line)
+						if tokens[0] in syn:
+							is_syn_struct = True
+							is_split = True
+						elif tokens[0] in others:
+							is_syn_struct = False
+							is_split = True
+						elif is_syn_struct:
+							is_split = True
+						if is_split: lines_final.append(line)
+						elif not lines_final: lines_final.append(line)
+						else: lines_final[-1]+= ' ' + line
+				return lines_final
+			return ''
+		return ''
+	
+	group = sense.get('group')
+	sense_num = sense.get('n')
+	name = sense.get('name')
+	examples_list = parse_examples(sense.find('examples'))
+	mappings = parse_mappings(sense.find('mappings'))
+	line_sep_comments = parse_comments(sense.find('commentary')) #Comments are split to list by line
+	return {'num': sense_num, 'group': group, 'name': name, 
+			'examples': examples_list, 'mappings': mappings,
+			'comments': line_sep_comments}
+
+def parse_on_frame(on_frame, file_name):
+	lemma = on_frame.get('lemma')
+	senses = [parse_sense(s) for s in on_frame.findall('sense')]
+	return {'lemma':lemma, 'predicate': lemma[:-2] ,'senses': senses, 'resource_type': 'on'}
+
+def on_to_mongo(file, path_ontonotes):
+	with open(path_ontonotes+file,'r') as xml_file:
+		root = etree.parse(xml_file).getroot()
+		on_frame = parse_on_frame(root, file)
+		return on_frame
+	
+def add_onto_to_db():
+	print('Building ON collection... ')
+	onto_xml = [f for f in os.listdir(path_ontonotes) if f.endswith('.xml')]
+	ontonotes_mongo = [on_to_mongo(f, path_ontonotes) for f in onto_xml]    
+	db.drop_collection('ontonotes')
+	on_collection = db['ontonotes']
+	on_collection.insert_many(ontonotes_mongo)
+	print("ON Done")
+
 def add_predicate_defs(predicate_definition_file, mongo_collection):
     '''Get definitions and args for vn elements'''
     with open(predicate_definition_file, 'r') as definition_tsv:
@@ -49,6 +151,7 @@ def add_predicate_defs(predicate_definition_file, mongo_collection):
             mongo_collection.insert_one(pred_dict)
 
 def ref_to_db():
+	print("References added")
 	''' Adds all the reference info into the existing verbnet collection by creating a doc 'reference' 
 	and then adding further fields.'''
 
@@ -201,9 +304,6 @@ def build_verbnet_collection():
 	from spacy import displacy
 	spacy_nlp = spacy.load('en')
 
-	with open(path_fd) as rf:
-		fd_list =  json.load(rf)
-
 	def parse_member(member,class_id):
 		bso=[]
 		name = member.get('name')
@@ -223,7 +323,7 @@ def build_verbnet_collection():
 					bso.append(val[0])
 		if not bso:
 			bso=None
-		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features, 'bso':bso}
+		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features,'bso':bso}
 			
 	def parse_themrole(themrole):
 		def parse_selrestr(selrestr):
@@ -281,7 +381,7 @@ def build_verbnet_collection():
 		
 		return {'themrole': themrole_type, 'selrestrs': {'selrestrs_list':selrestrs, 'selrestr_logic':selrestr_logic}, 'synrestrs': {'synrestr_list': synrestrs, 'synrestr_logic':synrestr_logic}}
 
-	def parse_frame(frame, class_id, frame_num):
+	def parse_frame(frame):
 		def parse_description(frame_description):
 			primary = frame_description.get('primary')
 			secondary = frame_description.get('secondary')
@@ -363,24 +463,12 @@ def build_verbnet_collection():
 			args = [parse_arg(arg) for arg in predicate.find('ARGS')]
 			return {'predicate': pred_value, 'args': args, 'bool': boolean}
 		
-		def parse_fd(fd_list, example_text):
-			for key,list_of_feats in fd_list.items():
-				if list_of_feats[0].lower() == example_text.lower()[:-1]:
-					return {'num':key, 'fd_val':list_of_feats[4]}
-			return None
-
-
-		def dependency_tree_svg(example_text, ex_num):
+		def dependency_tree_svg(example_text):
 			spacy_doc = spacy_nlp(example_text)
-			svg_xml = displacy.render(spacy_doc,style='dep', options={'compact':True, 'color': 'black'})
-			filename = str(class_id)+'_'+str(frame_num)+'_'+str(ex_num)+'.svg'
-			with open(path_dep+filename, 'w', encoding='utf-8') as wf:
-				wf.write(svg_xml)
-			return '/'+path_dep+filename
-
+			return displacy.render(spacy_doc,style='dep', options={'compact':True})
 		
 		description = parse_description(frame.find('DESCRIPTION'))
-		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text, ex_n), 'fd': parse_fd(fd_list, example.text)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
+		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text)} for example in frame.find('EXAMPLES')]
 		syntax = [parse_syntax_arg(arg) for arg in frame.find('SYNTAX')]
 		semantics = [parse_pred(pred) for pred in frame.find('SEMANTICS')]
 		return {'description': description, 'examples': examples, 'syntax': syntax, 'semantics': semantics}
@@ -393,9 +481,9 @@ def build_verbnet_collection():
 		class_id = vn_class.get('ID')
 		num_comparison_id = parse_numerical_comparison_id(class_id)
 		members = [parse_member(member,class_id) for member in vn_class.find('MEMBERS') if member.tag == 'MEMBER']
-		print(members)
+		#print(members)
 		themroles = [parse_themrole(themrole) for themrole in vn_class.find('THEMROLES') if themrole.tag == 'THEMROLE']
-		frames = [parse_frame(frame, class_id, frame_num) for frame_num, frame in enumerate(vn_class.find('FRAMES')) if frame.tag == 'FRAME']
+		frames = [parse_frame(frame) for frame in vn_class.find('FRAMES') if frame.tag == 'FRAME']
 		subclasses = [parse_vn_class(subclass) for subclass in vn_class.find('SUBCLASSES') if subclass.tag=='VNSUBCLASS']
 		if not subclasses:
 			subclasses = None
@@ -420,7 +508,7 @@ def build_verbnet_collection():
 
 	verbnet_xml = [f for f in os.listdir(path_verbnet) if f.endswith('.xml')]
 	verbnet_mongo = include_subclasses([vn_to_mongo(f) for f in verbnet_xml])
-
+	#print(verbnet_mongo)	
 	db.drop_collection('verbnet')
 	vn_collection = db['verbnet']
 	vn_collection.insert_many(verbnet_mongo)
@@ -704,119 +792,3 @@ def build_propbank_collection():
 ################################################################################################################################################################
 ################################################################################################################################################################
 ################################################################################################################################################################
-## ONTONOTES
-def parse_sense(sense):
-	def parse_examples(examples):
-		if examples is not None:
-			ex_list = examples.text
-			if ex_list:
-				split_list = ex_list.split('\n')
-				leading_space_stripped = [my_str.strip() for my_str in split_list]
-				single_str = ''
-				for line in leading_space_stripped:
-					if line:
-						if line[-1] in [r'.', r'?', r'!', r')']: single_str += line+'\n'
-						else: single_str += line
-				lines_out = single_str.split('\n')
-				return lines_out
-			return ''
-		return ''
-	
-	def parse_mappings(mappings):
-		vn = []
-		pb = []
-		fn = []
-		wn = []
-		vn_map = mappings.find('vn')
-		if vn_map is not None:
-			if vn_map.text:
-				vn = vn_map.text.split(',')
-		pb_map = mappings.find('pb')
-		if pb_map is not None:
-			if pb_map.text:
-				pb = pb_map.text.split(',')
-		fn_map = mappings.find('fn')
-		if fn_map is not None:
-			if fn_map.text:
-				fn = fn_map.text.split(',')
-		wn_list = mappings.findall('wn')
-		for wn_el in wn_list:
-			senses = []
-			lemma = wn_el.get('lemma')
-			version = wn_el.get("version")
-			senses_list = wn_el.text
-			if senses_list:
-				senses = senses_list.split(',')
-			if lemma or version or senses_list:
-				wn.append({"Lemma":lemma, "Version": version, "Senses":senses})
-		return {'vn': vn, 'pb': pb, 'fn': fn, 'wn': wn}
-	
-	def parse_comments(comments):
-		lines_final = []
-		syn = ['Syntax', 'SYNTAX']
-		others = ['NOTE', 'Note', 'Comments']
-		if comments is not None:
-			comm_list = comments.text
-			if comm_list:
-				split_list = comm_list.split('\n')
-				leading_space_stripped = [my_str.strip() for my_str in split_list]
-				for line in leading_space_stripped:
-					if line:
-						is_syn_struct = False
-						is_split = False
-						tokens = tokenizer(line)
-						if tokens[0] in syn:
-							is_syn_struct = True
-							is_split = True
-						elif tokens[0] in others:
-							is_syn_struct = False
-							is_split = True
-						elif is_syn_struct:
-							is_split = True
-						if is_split: lines_final.append(line)
-						elif not lines_final: lines_final.append(line)
-						else: lines_final[-1]+= ' ' + line
-				return lines_final
-			return ''
-		return ''
-	
-	group = sense.get('group')
-	sense_num = sense.get('n')
-	name = sense.get('name')
-	examples_list = parse_examples(sense.find('examples'))
-	mappings = parse_mappings(sense.find('mappings'))
-	line_sep_comments = parse_comments(sense.find('commentary')) #Comments are split to list by line
-	return {'num': sense_num, 'group': group, 'name': name, 
-			'examples': examples_list, 'mappings': mappings,
-			'comments': line_sep_comments}
-
-def parse_on_frame(on_frame, file_name):
-	lemma = on_frame.get('lemma')
-	senses = [parse_sense(s) for s in on_frame.findall('sense')]
-	return {'lemma':lemma, 'predicate': lemma[:-2] ,'senses': senses, 'resource_type': 'on'}
-
-def on_to_mongo(file, path_ontonotes):
-	with open(path_ontonotes+file,'r') as xml_file:
-		root = etree.parse(xml_file).getroot()
-		on_frame = parse_on_frame(root, file)
-		return on_frame
-	
-def add_onto_to_db():
-	print('Building ON collection... ')
-	onto_xml = [f for f in os.listdir(path_ontonotes) if f.endswith('.xml')]
-	ontonotes_mongo = [on_to_mongo(f, path_ontonotes) for f in onto_xml]    
-	db.drop_collection('ontonotes')
-	on_collection = db['ontonotes']
-	on_collection.insert_many(ontonotes_mongo)
-	print("ON Done")
-
-################################################################################################################################################################
-################################################################################################################################################################
-################################################################################################################################################################
-
-if __name__=='__main__':
-	# build_propbank_collection()
-	# build_framenet_collection()
-	build_verbnet_collection()
-	# ref_to_db()
-	# add_onto_to_db()
