@@ -14,9 +14,10 @@ No Results Found
 <div class='row' id='results_tab_pane'>
     <div class='col-3'>
         <ul class='nav nav-tabs' id='resultTab' role='tablist'>
-          {% for key in matched_ids.keys() %}
+          {% for key in matched_ids.keys() if key !='vnByClass' %}
           <!--Matched Elements is a dictionary with keys 'VerbNet', 'FrameNet', 'PropBank'...
               The first tab, whichever is returned by the results, should be active-->
+
           {% if loop.first %}
           <li class='nav-item'>
               <a class='nav-link active' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab'>{{ key }}</a></li>
@@ -32,10 +33,11 @@ No Results Found
         {% for key in matched_ids.keys() %}
         {% if key == 'VerbNet' %}
         {% set vn_elements = matched_ids['VerbNet'] %}
-        <div id='{{key}}_tab_pane' class='tab-pane fade show active' role='tabpanel'">
+        {% set vbc_elements = matched_ids['vnByClass'] %}
+        <div id='{{key}}_tab_pane' class='tab-pane fade show active' role='tabpanel'>
             {% if not vn_elements %}
-            <br />No results found for query: <br />
-            "{{query_string}}"
+            <br />No lemmas found for query: <br />
+            "{{query_string}}"<br/>
             {% else %}
             <br />{{ matched_ids['VerbNet'] | length }} result(s) matching query (click to view): <br />
 
@@ -55,11 +57,30 @@ No Results Found
             <!--END FORM-->
             {% endfor %}
             {% endif %}
+
+            {% if not vbc_elements %}
+            <br />No matching class found: <br />
+            "{{query_string}}"
+            {% else %}
+            <br />{{ matched_ids['vnByClass'] | length }} result(s) by Class ID: <br />
+
+            <hr />
+            
+            {% for vbc_element in vbc_elements %}
+            <!--Repeat form for VN by class ID to display VN elements by class name -->
+            <form action='/_display_element' id='vn_filtered_elements' method='post' target='filtered_results_pane'>
+                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
+                <input name="resource_key" type="hidden" value="VerbNet">
+                <input name="vn_class_id" type="hidden" value={{vbc_element}}>
+                <input class='results_tab_element' type='submit' value={{vbc_element}}>
+            </form>
+            {% endfor %}
+            {% endif %}
         </div>
 
         {% elif key == 'FrameNet' %}
         {% set fn_elements = matched_ids['FrameNet'] %}
-        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'">
+        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'>
             {% if not fn_elements %}
             <br />No results found for query: <br />
             "{{query_string}}"
@@ -80,7 +101,7 @@ No Results Found
 
         {% elif key == 'PropBank' %}
         {% set pb_elements = matched_ids['PropBank'] %}
-        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'">
+        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'>
             {% if not pb_elements %}
             <br />No results found for query: <br />
             "{{query_string}}"
@@ -100,7 +121,7 @@ No Results Found
 
         {% elif key == 'OntoNotes' %}
         {% set on_elements = matched_ids['OntoNotes'] %}
-        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'">
+        <div id='{{key}}_tab_pane' class='tab-pane fade' role='tabpanel'>
             {% if not on_elements %}
             <br />No results found for query: <br />
             "{{query_string}}"

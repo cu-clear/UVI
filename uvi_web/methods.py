@@ -84,10 +84,21 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_on, multiword_beha
 			# vn_elements = matched_elements['VerbNet']
 			vn_elements_numsort = sorted([(class_id, float('.'.join((class_id.split('-')[1]).split('.')[:2]))) for class_id in matched_ids['VerbNet']], key=itemgetter(1))
 			matched_ids['VerbNet'] = [class_id for class_id, numerical_id in vn_elements_numsort]
+			vbc_elements_numsort = sorted([(class_id, float('.'.join((class_id.split('-')[1]).split('.')[:2]))) for class_id in matched_ids['vnByClass']], key=itemgetter(1))
+			matched_ids['vnByClass'] = [class_id for class_id, numerical_id in vbc_elements_numsort]
 		return matched_ids
 
 
 	matched_ids = {}
+	matched_ids['vnByClass'] = []
+	## Get VerbNet class_ids for search by class.
+	for class_name in lemmas:
+		if class_name[-1].isdigit():
+			matched_ids['vnByClass'].extend([vn_class['class_id'] for vn_class in list(db['verbnet'].find({'class_id':class_name},{'class_id':1, '_id':0}))])
+		else:
+			lemma_exp = re.compile("^"+class_name+'-')
+			matched_ids['vnByClass'].extend([vn_class['class_id'] for vn_class in list(db['verbnet'].find({'class_id':{'$regex':lemma_exp}},{'class_id':1, '_id':0}))])
+
 	if multiword_behavior == 'and':
 		if incl_vn:
 			matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find({'members.name': {'$all': lemmas}}, {'class_id':1})]
