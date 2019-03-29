@@ -258,7 +258,8 @@ def sort_by_char():
 			char_dict[key[0]].append({key:val})
 		else:
 			char_dict[key[0]].append({key:val})
-
+	for key, val in char_dict.items():
+		char_dict[key] = sorted(val, key = lambda x : list(x.items())[0])
 	return dict(sorted(char_dict.items()))
 
 def sort_by_id():

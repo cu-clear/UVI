@@ -2,39 +2,17 @@
 {% block title %} References {% endblock %}
 {% block body %}
 
-
-<!--Begin Navbar-->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
-  <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-<div id='logo_uvi'>
-  <a class="navbar-brand" href={{ url_for('index') }}>
-    <img src="/static/images/clear_orig.png" height="80px" id="logo">
-         <a class="nav-link-uvi" href={{ url_for('uvi_search') }} > <font size=4 color=white>Unified Verb Index</font></a>  
-  </a>
-</div>
-  <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href={{ url_for('references_page') }}>Tutorial</a>
-      </li>
-    </ul>
-</nav>
-<!--End Navbar-->
+{% include 'navbar.html' %}
 
 <div id='home_span' style="margin-top:90px;">
     <br>
     <div class="row" id='wrapper'>
       <ul class="col-2 nav nav-tabs flex-column" id="optionsBox" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#pageInfo" role="tab" aria-controls="pageInfo">Reference Page Info</a>
+        <a class="nav-link active" data-toggle="tab" href="#refPageInfo" role="tab" aria-controls="refPageInfo">Reference Page Info</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#themRoleImg" role="tab" aria-controls="themRoleImg">Thematic Roles Visualization</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#themRoles" role="tab" aria-controls="themRoles">General Thematic Roles</a>
@@ -51,16 +29,19 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#selRes" role="tab" aria-controls="selRes">Selectional Restrictions</a>
       </li>
-    </ul>
+      </ul>
 
     <div class="col-9 tab-content" id="pageInfo">
-      <div class="tab-pane active" role="tabpanel">
+      <div class="tab-pane active" id="refPageInfo" role="tabpanel">
           <h2>Reference Page Info </h2>
           <br>
           <h4><u>Frame Types:</u> </h4>
           <p style="font-size:16px;">
             Primary frame names are flat phrase-structure representations of the frames, intended to be generalizable across classes. Some of the names include dot-extensions that indicate a thematic role type or underscore-extensions that indicate a complement type. These extensions can be used to subdivide frame types or ignored to use more general frame types. The names are a revision of the previous naming system, in which frames had both descriptive primary names and more specific secondary names that subdivided the frame types. The downloadable .xml files of the classes include the old primary and secondary names in the "secondary" feature, for those who still wish to use the information. The web pages do not display them, but they are included here for reference.
           </p>
+      </div>
+      <div class="tab-pane" id="themRoleImg" role="tabpanel">
+        <h2>Image for thematic roles needs to go here</h2>
       </div>
       <div class="tab-pane" id="themRoles" role="tabpanel">
           <h2 id="scroll2">General Thematic Roles </h2>
@@ -228,6 +209,8 @@
             {% endfor %}
           </h5>
       </div>
+
+
     </div>
 
     </div>
@@ -258,11 +241,6 @@
     margin-top: 20px;
 }
 
-.nav-link-uvi a{
-color:white
-font-size: 100px;
-
-}
 
 </style>
 

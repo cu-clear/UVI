@@ -9,6 +9,8 @@ from methods import sort_by_char, sort_by_id
 
 import json
 
+from bson import json_util
+
 from flask_mail import Mail, Message
 import configparser
 
@@ -47,11 +49,22 @@ def uvi_search():
         sel_res=list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
 
 
-@app.route('/download_json')
+@app.route('/download_json', methods=['GET', 'POST'])
 def download_json():
-	returned_json = json.dumps(request.args.get('elements'))
-	generator = (cell for row in returned_json for cell in row)
-	return Response(generator, mimetype='application/json', headers={'Content-Disposition':'attachment;filename=uvi_export.json'})
+	form_keys = list(request.form.keys())
+	if not form_keys:
+		return render_template('applications.html')
+	resources = {}
+	if 'down_vn' in form_keys:
+		resources['VerbNet'] = list(mongo.db.verbnet.find({}, {'_id':0}))
+	if 'down_fn' in form_keys:
+		resources['FrameNet'] = list(mongo.db.framenet.find({}, {'_id':0}))
+	if 'down_pb' in form_keys:
+		resources['PropBank'] = list(mongo.db.propbank.find({}, {'_id':0}))
+	if 'down_on' in form_keys:
+		resources['OntoNotes'] = list(mongo.db.ontonotes.find({}, {'_id':0}))
+	returned_json = json_util.dumps(resources, indent=4)
+	return Response(returned_json, mimetype='application/json', headers={'Content-Disposition':'attachment;filename=uvi_export.json'})
 
 @app.route('/', methods=['GET','POST'])
 def index():
@@ -251,3 +264,7 @@ def welcome_frame():
 @app.route('/class_hierarchy')
 def class_hierarchy():
 	return render_template('class_hierarchy.html', class_by_num=sort_by_id(), class_by_name=sort_by_char())
+
+@app.route('/nlp_applications')
+def applications():
+	return render_template('applications.html')

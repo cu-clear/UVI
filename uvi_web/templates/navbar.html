@@ -1,0 +1,32 @@
+<!--Begin Navbar-->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
+  <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
+<div id='logo_uvi'>
+  <a class="navbar-brand" href={{ url_for('index') }}>
+    <img src="/static/images/clear_orig.png" height="80px" id="logo">
+         <a class="nav-link-uvi" href={{ url_for('uvi_search') }} style="text-decoration: none;"> <font size=5 color=white>Unified Verb Index</font></a>  
+  </a>
+</div>
+  <ul class="navbar-nav" style="margin-left: 10px;font-size: 14px">
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('applications') }}>NLP Applications</a>
+      </li>
+    </ul>
+</nav>
+<!--End Navbar-->
+
+<style type="text/css">
+  .nav-link-uvi a{
+    color:white
+    font-size: 80px;
+}
+</style>

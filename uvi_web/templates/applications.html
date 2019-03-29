@@ -1,0 +1,98 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} NLP Applications {% endblock %}
+{% block body %}
+
+{% include 'navbar.html' %}
+
+<div id='home_span' style="margin-top:90px;">
+	<br>
+    <div class="row" id='wrapper'>
+      <!-- Start left navbar -->
+      <ul class="col-2 nav nav-tabs flex-column" id="optionsBox" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link " data-toggle="tab" href="#tutorial" role="tab" aria-controls="tutorial">UVI Tutorial</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#resources" role="tab">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#publications" role="tab">Publications</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#download" role="tab">Download</a>
+      </li>
+      </ul>
+      <!-- End left navbar -->
+
+      <div class="col-9 tab-content" id="pageInfo">
+      	<div class="tab-pane " id="tutorial" role="tabpanel">
+      		<h2>I'll have something up here </h2>
+      	</div>
+
+      	<!-- Resources tab -->
+      	<div class="tab-pane active" id="resources" role="tabpanel">
+      		{% include 'resources.html'%}
+      	</div>
+
+      	<!-- Publications tab -->
+      	<div class="tab-pane" id="publications" role="tabpanel">
+      		<h2>Publications </h2>
+      	</div>
+
+      	<!-- Download tab -->
+      	<div class="tab-pane" id="download" role="tabpanel">
+      		<h2>Download </h2>
+      		<p style='font-size: 16px; font-weight: 500;'>UVI stores lexical resources as well as mappings between the resources. For access to lexical resources used in this project; select the projects/ resources you are interested in and click the Download button. Data is downloaded in JSON Format.</p>
+      		<form action='/download_json' id="download_form" method='post' target='_blank'>
+                <span style="font-size: 18px; font-weight: 500;">Include Resources: </span>
+                    <br />
+                    <input type='checkbox' name='down_vn' checked>
+                    <label for='down_vn'><span style="font-size: 15px; font-weight: 500;">VerbNet</span></label><br />
+                    <input type='checkbox' name='down_fn' checked>
+                    <label for='down_vn'><span style="font-size: 15px; font-weight: 500;">FrameNet</span></label><br />
+                    <input type='checkbox' name="down_pb" checked>
+                    <label for='down_vn'><span style="font-size: 15px; font-weight: 500;">PropBank</span></label><br />
+                    <input type='checkbox' name="down_on" checked>
+                    <label for='down_vn'><span style="font-size: 15px; font-weight: 500;">OntoNotes</span></label><br />
+                <input class='btn btn-primary btn-dark' type="submit" value='Download'>
+      		</form>
+      	</div>
+
+      </div>	
+  	</div>
+<div>
+
+<style type="text/css">
+#wrapper {
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#optionsBox, #pageInfo {
+    border-radius: 25px;
+    height:75%;
+    margin:10px;
+    padding:20px;
+}
+
+#optionsBox {
+    background:rgba(220, 174, 29, .9);
+    font-size: 16px;
+}
+
+#pageInfo {
+    background: rgba(122, 157, 150, .9);
+    overflow-y:auto;
+}
+
+
+</style>
+
+
+
+
+
+{% endblock %}
+{% block scripts %}
+{% endblock %}
