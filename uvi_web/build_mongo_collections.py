@@ -14,6 +14,11 @@ path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
 path_ontonotes = '../corpora/ontonotes/sense-inventories/'
 path_bso='../corpora/BSO/VNBSOMapping_withMembers.csv'
+path_dep = 'static/images/Dep_Parses/'
+
+path_fd = '../corpora/reference_docs/pred_calc_for_website_final.json'
+
+
 from pymongo import MongoClient
 
 mongo_client = MongoClient()
@@ -304,6 +309,9 @@ def build_verbnet_collection():
 	from spacy import displacy
 	spacy_nlp = spacy.load('en')
 
+	with open(path_fd) as rf:
+		fd_list =  json.load(rf)
+
 	def parse_member(member,class_id):
 		bso=[]
 		name = member.get('name')
@@ -380,7 +388,7 @@ def build_verbnet_collection():
 		
 		return {'themrole': themrole_type, 'selrestrs': {'selrestrs_list':selrestrs, 'selrestr_logic':selrestr_logic}, 'synrestrs': {'synrestr_list': synrestrs, 'synrestr_logic':synrestr_logic}}
 
-	def parse_frame(frame):
+	def parse_frame(frame, class_id, frame_num):
 		def parse_description(frame_description):
 			primary = frame_description.get('primary')
 			secondary = frame_description.get('secondary')
@@ -462,12 +470,24 @@ def build_verbnet_collection():
 			args = [parse_arg(arg) for arg in predicate.find('ARGS')]
 			return {'predicate': pred_value, 'args': args, 'bool': boolean}
 		
-		def dependency_tree_svg(example_text):
+		def parse_fd(fd_list, example_text):
+			for key,list_of_feats in fd_list.items():
+				if list_of_feats[0].lower() == example_text.lower()[:-1]:
+					return {'num':key, 'fd_val':list_of_feats[4]}
+			return None
+
+
+		def dependency_tree_svg(example_text, ex_num):
 			spacy_doc = spacy_nlp(example_text)
-			return displacy.render(spacy_doc,style='dep', options={'compact':True})
+			svg_xml = displacy.render(spacy_doc,style='dep', options={'compact':True, 'color': 'black'})
+			filename = str(class_id)+'_'+str(frame_num)+'_'+str(ex_num)+'.svg'
+			with open(path_dep+filename, 'w', encoding='utf-8') as wf:
+				wf.write(svg_xml)
+			return '/'+path_dep+filename
+
 		
 		description = parse_description(frame.find('DESCRIPTION'))
-		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text)} for example in frame.find('EXAMPLES')]
+		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text, ex_n), 'fd': parse_fd(fd_list, example.text)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
 		syntax = [parse_syntax_arg(arg) for arg in frame.find('SYNTAX')]
 		semantics = [parse_pred(pred) for pred in frame.find('SEMANTICS')]
 		return {'description': description, 'examples': examples, 'syntax': syntax, 'semantics': semantics}
@@ -481,7 +501,7 @@ def build_verbnet_collection():
 		num_comparison_id = parse_numerical_comparison_id(class_id)
 		members = [parse_member(member,class_id) for member in vn_class.find('MEMBERS') if member.tag == 'MEMBER']
 		themroles = [parse_themrole(themrole) for themrole in vn_class.find('THEMROLES') if themrole.tag == 'THEMROLE']
-		frames = [parse_frame(frame) for frame in vn_class.find('FRAMES') if frame.tag == 'FRAME']
+		frames = [parse_frame(frame, class_id, frame_num) for frame_num, frame in enumerate(vn_class.find('FRAMES')) if frame.tag == 'FRAME']
 		subclasses = [parse_vn_class(subclass) for subclass in vn_class.find('SUBCLASSES') if subclass.tag=='VNSUBCLASS']
 		if not subclasses:
 			subclasses = None
