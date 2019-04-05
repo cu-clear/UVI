@@ -1,16 +1,15 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="overstate-37.12" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="overstate-37.12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="overstate" wn="overstate%2:32:00" grouping="overstate.01"/>
-        <MEMBER name="overdraw" wn="overdraw%2:32:00" grouping=""/>
-        <MEMBER name="hyperbolize" wn="hyperbolize%2:32:00" grouping=""/>
-        <MEMBER name="magnify" wn="magnify%2:32:00" grouping="magnify.01"/>
-        <MEMBER name="amplify" wn="amplify%2:32:00" grouping="amplify.01"/>
-        <MEMBER name="overemphasize" wn="overemphasize%2:32:00" grouping=""/>
-        <MEMBER name="overrate" wn="overrate%2:31:00" grouping=""/>
-        <MEMBER name="overstress" wn="overstress%2:32:00" grouping=""/>
-        <MEMBER name="tout" wn="tout%2:32:00" grouping="tout.01"/>
-        <MEMBER name="glorify" wn="glorify%2:32:00" grouping="glorify.01"/>
+        <MEMBER grouping="overstate.01" name="overstate" wn="overstate%2:32:00"/>
+        <MEMBER grouping="" name="overdraw" wn="overdraw%2:32:00"/>
+        <MEMBER grouping="" name="hyperbolize" wn="hyperbolize%2:32:00"/>
+        <MEMBER grouping="magnify.01" name="magnify" wn="magnify%2:32:00"/>
+        <MEMBER grouping="amplify.01" name="amplify" wn="amplify%2:32:00"/>
+        <MEMBER grouping="" name="overemphasize" wn="overemphasize%2:32:00"/>
+        <MEMBER grouping="" name="overrate" wn="overrate%2:31:00"/>
+        <MEMBER grouping="" name="overstress" wn="overstress%2:32:00"/>
+        <MEMBER grouping="tout.01" name="tout" wn="tout%2:32:00"/>
+        <MEMBER grouping="glorify.01" name="glorify" wn="glorify%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -27,7 +26,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>He overstated the position.</EXAMPLE>
+                <EXAMPLE>
+                    He overstated the position.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -39,36 +40,32 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="path_rel">
+                <PRED value="has_information">
                     <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Source"/>
-                        <ARG type="ThemRole" value="Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Recipient"/>
-                        <ARG type="ThemRole" value="Topic"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
-                <PRED value="equals">
+                <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Recipient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="e2"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="PredSpecific" value="Recipient"/>
+                        <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

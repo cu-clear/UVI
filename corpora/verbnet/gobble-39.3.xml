@@ -7,12 +7,17 @@
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
         </THEMROLE>
+        <THEMROLE type="Patient">
+            <SELRESTRS>
+                <SELRESTR Value="+" type="comestible"/>
+                <SELRESTR Value="-" type="solid"/>
+            </SELRESTRS>
+        </THEMROLE>
     </THEMROLES>
     <FRAMES/>
     <SUBCLASSES>
         <VNSUBCLASS ID="gobble-39.3-1">
             <MEMBERS>
-                <MEMBER name="bolt" wn="bolt%2:34:01 bolt%2:34:00" grouping="bolt.03"/>
                 <MEMBER name="gobble" wn="gobble%2:34:00" grouping=""/>
                 <MEMBER name="wolf" wn="wolf%2:34:00" grouping=""/>
             </MEMBERS>
@@ -50,7 +55,7 @@
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
-                    <DESCRIPTION descriptionNumber="" primary="NP V NP up" secondary="NP-PART; up" xtag=""/>
+                    <DESCRIPTION descriptionNumber="" primary="NP V up NP" secondary="NP-PART; up" xtag=""/>
                     <EXAMPLES>
                         <EXAMPLE>Cynthia gobbled the pizza up.</EXAMPLE>
                     </EXAMPLES>
@@ -104,6 +109,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="gobble-39.3-2">
             <MEMBERS>
+                <MEMBER name="bolt" wn="bolt%2:34:01 bolt%2:34:00" grouping="bolt.03"/>
                 <MEMBER name="gulp" wn="gulp%2:34:01" grouping=""/>
                 <MEMBER name="guzzle" wn="guzzle%2:34:00" grouping=""/>
                 <MEMBER name="quaff" wn="quaff%2:34:00" grouping=""/>
@@ -111,14 +117,7 @@
                 <MEMBER name="swallow" wn="swallow%2:34:00" grouping="swallow.01"/>
                 <MEMBER name="swig" wn="swig%2:34:00" grouping=""/>
             </MEMBERS>
-            <THEMROLES>
-                <THEMROLE type="Patient">
-                    <SELRESTRS>
-                        <SELRESTR Value="+" type="comestible"/>
-                        <SELRESTR Value="-" type="solid"/>
-                    </SELRESTRS>
-                </THEMROLE>
-            </THEMROLES>
+	    <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>

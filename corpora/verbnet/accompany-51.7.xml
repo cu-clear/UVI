@@ -1,15 +1,14 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="accompany-51.7" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="accompany-51.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--Should include a predicate to distinguish this accompanied motion from "chase".  It should include some notion of distance/contact between the Agent and Theme-->
     <MEMBERS>
-        <MEMBER name="accompany" wn="accompany%2:38:00 ?accompany%2:42:01" grouping="accompany.01"/>
-        <MEMBER name="conduct" wn="conduct%2:38:01" grouping="conduct.04"/>
-        <MEMBER name="escort" wn="escort%2:38:00 escort%2:38:01" grouping="escort.01"/>
-        <MEMBER name="guide" wn="?guide%2:38:01 guide%2:38:00 guide%2:35:00" grouping="guide.01"/>
-        <MEMBER name="lead" wn="lead%2:38:01" grouping="lead.05"/>
-       <MEMBER name="misdirect" wn="misdirect%2:38:00 misdirect%2:32:00" grouping="misdirect.02"/>
-        <MEMBER name="shepherd" wn="shepherd%2:41:01" grouping=""/>
-        <MEMBER name="steer" wn="steer%2:38:00 steer%2:41:00" grouping="steer.01"/>
+        <MEMBER grouping="accompany.01" name="accompany" wn="accompany%2:38:00 ?accompany%2:42:01"/>
+        <MEMBER grouping="conduct.04" name="conduct" wn="conduct%2:38:01"/>
+        <MEMBER grouping="escort.01" name="escort" wn="escort%2:38:00 escort%2:38:01"/>
+        <MEMBER grouping="guide.01" name="guide" wn="?guide%2:38:01 guide%2:38:00 guide%2:35:00"/>
+        <MEMBER grouping="lead.05" name="lead" wn="lead%2:38:01"/>
+        <MEMBER grouping="misdirect.02" name="misdirect" wn="misdirect%2:38:00 misdirect%2:32:00"/>
+        <MEMBER grouping="" name="shepherd" wn="shepherd%2:41:01"/>
+        <MEMBER grouping="steer.01" name="steer" wn="steer%2:38:00 steer%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -30,7 +29,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>Jackie accompanied Rose.</EXAMPLE>
+                <EXAMPLE>
+                    Jackie accompanied Rose.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -42,90 +43,76 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>                                
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="ë3"/> 
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="Event" value="ë4"/> 
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
-                </PRED>
-                <PRED value="equals">
+                </PRED>                                
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="E0"/>
-                        <ARG type="Event" value="E1"/>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
-                </PRED>
-                <PRED value="path_rel">
+                </PRED> 
+                <PRED value="co-temporal">
                     <ARGS>
-                        <ARG type="Event" value="start(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/> 
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ë4"/>
                     </ARGS>
-                </PRED>               
-                <PRED value="path_rel">
+                </PRED>     
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="Event" value="e5"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
-                </PRED>
-                <PRED value="path_rel">
+                </PRED>                                   
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="start(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="Event" value="e6"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E0"/>
-                    </ARGS>
-                </PRED>
+                </PRED>   
             </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.destination" secondary="NP-PP; path-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Jackie accompanied Rose to the store.</EXAMPLE>
+                <EXAMPLE>
+                    Jackie accompanied Rose to the store.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -145,76 +132,66 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>                                
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="ë3"/> 
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="Event" value="ë4"/> 
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
-                </PRED>
-                <PRED value="equals">
+                </PRED>                                
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="E0"/>
-                        <ARG type="Event" value="E1"/>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
-                </PRED>
-                <PRED value="path_rel">
+                </PRED> 
+                <PRED value="co-temporal">
                     <ARGS>
-                        <ARG type="Event" value="start(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ë4"/>
                     </ARGS>
-                </PRED>
-                <PRED value="path_rel">
+                </PRED>     
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E0)"/>
+                        <ARG type="Event" value="e5"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
-                </PRED>
-                <PRED value="path_rel">
+                </PRED>                                   
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="start(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="Event" value="e6"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

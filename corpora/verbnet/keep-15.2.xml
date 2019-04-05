@@ -1,13 +1,12 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="keep-15.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="keep-15.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="hoard" wn="hoard%2:40:01" grouping=""/>
-        <MEMBER name="hold" wn="hold%2:42:00 hold%2:40:02" grouping="hold.03"/>
-        <MEMBER name="keep" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10" grouping="keep.03"/>
-        <MEMBER name="leave" wn="leave%2:40:06 leave%2:31:02" grouping="leave.02"/>
-        <MEMBER name="store" wn="store%2:40:00 store%2:40:02" grouping="store.01"/>
-        <MEMBER name="stock" wn="stock%2:40:00" grouping="stock.01"/>
-        <MEMBER name="stockpile" wn="stockpile%2:40:00" grouping=""/>
+        <MEMBER grouping="" name="hoard" wn="hoard%2:40:01"/>
+        <MEMBER grouping="hold.03" name="hold" wn="hold%2:42:00 hold%2:40:02"/>
+        <MEMBER grouping="keep.03" name="keep" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
+        <MEMBER grouping="leave.02" name="leave" wn="leave%2:40:06 leave%2:31:02"/>
+        <MEMBER grouping="store.01" name="store" wn="store%2:40:00 store%2:40:02"/>
+        <MEMBER grouping="stock.01" name="stock" wn="stock%2:40:00"/>
+        <MEMBER grouping="" name="stockpile" wn="stockpile%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -30,7 +29,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP PP.location" secondary="NP-PP; locative-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Michelle kept the papers in the desk.</EXAMPLE>
+                <EXAMPLE>
+                    Michelle kept the papers in the desk.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -50,17 +51,18 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="location">
+                <PRED value="has_possession">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
-                <PRED value="cause">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -68,7 +70,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Many small investors kept Belgium store securities.</EXAMPLE>
+                <EXAMPLE>
+                    Many small investors kept Belgium store securities.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -82,7 +86,7 @@
             <SEMANTICS>
                 <PRED value="has_possession">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>

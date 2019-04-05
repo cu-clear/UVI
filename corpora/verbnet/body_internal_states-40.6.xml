@@ -1,16 +1,15 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="body_internal_states-40.6" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="body_internal_states-40.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a manner predicate-->
-        <MEMBER name="convulse" wn="convulse%2:38:00 convulse%2:35:00" grouping="convulse.02"/>
-        <MEMBER name="cower" wn="cower%2:38:01" grouping=""/>
-        <MEMBER name="quake" wn="quake%2:38:01" grouping=""/>
-        <MEMBER name="quiver" wn="quiver%2:38:00" grouping=""/>
-        <MEMBER name="shake" wn="shake%2:38:00 shake%2:29:00" grouping="shake.01"/>
-        <MEMBER name="shiver" wn="shiver%2:38:00 shiver%2:29:00" grouping="shiver.01"/>
-        <MEMBER name="shudder" wn="shudder%2:29:00 shudder%2:38:00" grouping=""/>
-        <MEMBER name="tremble" wn="tremble%2:38:00" grouping=""/>
-        <MEMBER name="writhe" wn="writhe%2:38:00" grouping=""/>
+        <MEMBER grouping="convulse.02" name="convulse" wn="convulse%2:38:00 convulse%2:35:00"/>
+        <MEMBER grouping="" name="cower" wn="cower%2:38:01"/>
+        <MEMBER grouping="" name="quake" wn="quake%2:38:01"/>
+        <MEMBER grouping="" name="quiver" wn="quiver%2:38:00"/>
+        <MEMBER grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:29:00"/>
+        <MEMBER grouping="shiver.01" name="shiver" wn="shiver%2:38:00 shiver%2:29:00"/>
+        <MEMBER grouping="" name="shudder" wn="shudder%2:29:00 shudder%2:38:00"/>
+        <MEMBER grouping="" name="tremble" wn="tremble%2:38:00"/>
+        <MEMBER grouping="" name="writhe" wn="writhe%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -26,7 +25,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>Sharon shivered.</EXAMPLE>
+                <EXAMPLE>
+                    Sharon shivered.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -35,33 +36,15 @@
                 <VERB/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="?Result"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="body_reflex">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="involuntary">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
@@ -70,8 +53,12 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Sharon shivered from fear.</EXAMPLE>
-                <EXAMPLE>Sharon shivered at the thought of the cold sea.</EXAMPLE>
+                <EXAMPLE>
+                    Sharon shivered from fear.
+                </EXAMPLE>
+                <EXAMPLE>
+                    Sharon shivered at the thought of the cold sea.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -86,39 +73,21 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="?Initial_State"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="result(E)"/>
-                        <ARG type="ThemRole" value="?Result"/>
-                        <ARG type="ThemRole" value="Experiencer"/>
-                        <ARG type="Constant" value="ch_of_state"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="body_reflex">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="involuntary">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="in_reaction_to">
                     <ARGS>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>

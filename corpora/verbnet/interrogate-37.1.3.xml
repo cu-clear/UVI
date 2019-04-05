@@ -1,10 +1,9 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="interrogate-37.1.3" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="interrogate-37.1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="cross-examine" wn="cross_examine%2:32:00" grouping=""/>
-        <MEMBER name="question" wn="question%2:32:03 question%2:32:00" grouping="question.01"/>
-        <MEMBER name="interview" wn="interview%2:32:00" grouping="interview.01"/>
-        <MEMBER name="interrogate" wn="interrogate%2:32:00" grouping=""/>
+        <MEMBER grouping="" name="cross-examine" wn="cross_examine%2:32:00"/>
+        <MEMBER grouping="question.01" name="question" wn="question%2:32:03 question%2:32:00"/>
+        <MEMBER grouping="interview.01" name="interview" wn="interview%2:32:00"/>
+        <MEMBER grouping="" name="interrogate" wn="interrogate%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -30,7 +29,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I interrogated him.</EXAMPLE>
+                <EXAMPLE>
+                    I interrogated him.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -42,48 +43,39 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="path_rel">
+                <PRED value="has_information">
                     <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_information">
                     <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Goal"/>
-                        <ARG type="ThemRole" value="?Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS> 
-                </PRED>
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="?Topic"/>
                     </ARGS>
                 </PRED>
-                <PRED value="equals">
+                <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Source"/>
-                    </ARGS>
-                </PRED> 
-                <PRED value="equals">
-                    <ARGS>
+                        <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Goal"/>
+                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="Recipient"/>
                     </ARGS>
-                </PRED>   
+                </PRED>
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Topic"/>
+                    </ARGS>
+                </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -91,7 +83,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.attribute" secondary="NP-PP; as-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I interrogated him as a suspect.</EXAMPLE>
+                <EXAMPLE>
+                    I interrogated him as a suspect.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -101,59 +95,55 @@
                 <NP value="Recipient">
                     <SYNRESTRS/>
                 </NP>
-		<PREP value="as">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="as">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Attribute">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="path_rel">
+                <PRED value="has_information">
                     <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Source"/>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/> 
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_information">
                     <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Goal"/>
-                        <ARG type="ThemRole" value="?Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS> 
-                </PRED> 
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="?Topic"/>
-                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
-                <PRED value="equals">
+                <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Source"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
+                        <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Goal"/>
-                    </ARGS>  
-                </PRED>  
+                        <ARG type="ThemRole" value="?Topic"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="?Topic"/>
+                    </ARGS>
+                </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="property">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -161,7 +151,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.topic" secondary="NP-PP; about-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>I interrogated him about the incident.</EXAMPLE>
+                <EXAMPLE>
+                    I interrogated him about the incident.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -181,48 +173,39 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="path_rel">
+                <PRED value="has_information">
                     <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Source"/>
-                        <ARG type="ThemRole" value="Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
-                        <ARG type="ThemRole" value="Goal"/>
-                        <ARG type="ThemRole" value="Topic"/>
-                        <ARG type="Constant" value="tr_of_info"/>
-                        <ARG type="VerbSpecific" value="prep"/> 
-                    </ARGS>
-                </PRED>
-                <PRED value="transfer">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_information">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Recipient"/>
                         <ARG type="ThemRole" value="Topic"/>
                     </ARGS>
                 </PRED>
-                <PRED value="equals">
+                <PRED value="transfer_info">
                     <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Topic"/>
                         <ARG type="ThemRole" value="Recipient"/>
-                        <ARG type="ThemRole" value="Source"/>
                     </ARGS>
                 </PRED>
-                <PRED value="equals">
+                <PRED value="has_information">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Goal"/>
-                    </ARGS> 
+                        <ARG type="Event" value="e3"/>
+                        <ARG type="ThemRole" value="Recipient"/>
+                        <ARG type="ThemRole" value="Topic"/>
+                    </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

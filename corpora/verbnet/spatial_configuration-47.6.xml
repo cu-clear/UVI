@@ -1,32 +1,32 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="spatial_configuration-47.6" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="spatial_configuration-47.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <!--individual verbs specify what spatial position Pos refers to
-        "straddle" also takes a transitive ("John straddled the horse")-->
-        <MEMBER name="bow" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01" grouping="bow.01 bow.02"/>
-        <MEMBER name="crouch" wn="crouch%2:35:00" grouping=""/>
-        <MEMBER name="hover" wn="hover%2:38:00 hover%2:38:01" grouping="hover.02"/>
-        <MEMBER name="huddle" wn="" grouping=""/>
-        <MEMBER name="hunch" wn="" grouping=""/>
-        <MEMBER name="jut" wn="jut%2:42:00" grouping=""/>
-        <MEMBER name="kneel" wn="kneel%2:35:00" grouping=""/>
-        <MEMBER name="lean" wn="lean%2:38:00 lean%2:35:00" grouping="lean.01"/>
-        <MEMBER name="lie" wn="lie%2:42:00 lie%2:35:00" grouping="lie.01"/>
-        <MEMBER name="loll" wn="loll%2:42:01" grouping=""/>
-        <MEMBER name="loom" wn="loom%2:42:06" grouping="loom.02"/>
-        <MEMBER name="lounge" wn="lounge%2:35:00" grouping=""/>
-        <MEMBER name="protrude" wn="protrude%2:42:00" grouping=""/>
-        <MEMBER name="repose" wn="" grouping=""/>
-        <MEMBER name="rise" wn="rise%2:42:00" grouping="rise.01"/>
-        <MEMBER name="roost" wn="roost%2:35:00" grouping=""/>
-        <MEMBER name="sag" wn="sag%2:38:00 sag%2:38:01" grouping="sag.01"/>
-        <MEMBER name="slouch" wn="" grouping=""/>
-        <MEMBER name="slump" wn="" grouping="slump.01"/>
-        <MEMBER name="squat" wn="squat%2:35:00 squat%2:42:01" grouping="squat.01 squat.02"/>
-        <MEMBER name="stoop" wn="stoop%2:38:05" grouping=""/>
-        <MEMBER name="swag" wn="swag%2:38:02" grouping="swag.01"/>
-        <MEMBER name="tower" wn="tower%2:42:00" grouping=""/>
-        <MEMBER name="yaw" wn="yaw%2:42:00" grouping="yaw.01"/>
+  <!--individual verbs specify what spatial configuration the Theme ends up in-->
+        <MEMBER grouping="bow.01 bow.02" name="bow" verbnet_key="bow#4" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+        <MEMBER grouping="" name="crouch" verbnet_key="crouch#2" wn="crouch%2:35:00"/>
+        <MEMBER grouping="hover.02" name="hover" verbnet_key="hover#2" wn="hover%2:38:00 hover%2:38:01"/>
+        <MEMBER grouping="" name="huddle" verbnet_key="huddle#1" wn=""/>
+        <MEMBER grouping="" name="hunch" verbnet_key="hunch#3" wn=""/>
+        <MEMBER grouping="" name="jut" verbnet_key="jut#1" wn="jut%2:42:00"/>
+        <MEMBER grouping="" name="kneel" verbnet_key="kneel#3" wn="kneel%2:35:00"/>
+        <MEMBER grouping="lean.01" name="lean" verbnet_key="lean#2" wn="lean%2:38:00 lean%2:35:00"/>
+        <MEMBER grouping="lie.01" name="lie" verbnet_key="lie#2" wn="lie%2:42:00 lie%2:35:00"/>
+        <MEMBER grouping="" name="loll" verbnet_key="loll#1" wn="loll%2:42:01"/>
+        <MEMBER grouping="loom.02" name="loom" verbnet_key="loom#2" wn="loom%2:42:06"/>
+        <MEMBER grouping="" name="lounge" verbnet_key="lounge#1" wn="lounge%2:35:00"/>
+        <MEMBER grouping="" name="protrude" verbnet_key="protrude#1" wn="protrude%2:42:00"/>
+        <MEMBER grouping="" name="repose" verbnet_key="repose#1" wn=""/>
+        <MEMBER grouping="rise.01" name="rise" verbnet_key="rise#6" wn="rise%2:42:00"/>
+        <MEMBER grouping="" name="roost" verbnet_key="roost#1" wn="roost%2:35:00"/>
+        <MEMBER grouping="sag.01" name="sag" verbnet_key="sag#1" wn="sag%2:38:00 sag%2:38:01"/>
+        <MEMBER grouping="" name="slouch" verbnet_key="slouch#3" wn=""/>
+        <MEMBER grouping="slump.01" name="slump" verbnet_key="slump#2" wn=""/>
+        <MEMBER grouping="suspend.01" name="suspend" verbnet_key="" wn="suspend%2:35:00"/>
+        <MEMBER grouping="squat.01 squat.02" name="squat" verbnet_key="squat#2" wn="squat%2:35:00 squat%2:42:01"/>
+        <MEMBER grouping="" name="stoop" verbnet_key="stoop#2" wn="stoop%2:38:05"/>
+        <MEMBER grouping="swag.01" name="swag" verbnet_key="swag#3" wn="swag%2:38:02"/>
+        <MEMBER grouping="" name="tower" verbnet_key="tower#2" wn="tower%2:42:00"/>
+        <MEMBER grouping="yaw.01" name="yaw" verbnet_key="yaw#2" wn="yaw%2:42:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -54,11 +54,18 @@
                 <VERB/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="position">
+                <PRED value="has_configuration">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="VerbSpecific" value="Pos"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Location"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -84,14 +91,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="position">
+                <PRED value="has_configuration">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="VerbSpecific" value="Pos"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -123,14 +130,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="position">
+                <PRED value="has_configuration">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="VerbSpecific" value="Pos"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -159,14 +166,14 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="position">
+                <PRED value="has_configuration">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="VerbSpecific" value="Pos"/>
+                        <ARG type="VerbSpecific" value="V_Configuration"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
@@ -187,6 +194,7 @@
                 <MEMBER name="fly" wn="fly%2:39:00" grouping="fly.01"/>
                 <MEMBER name="hang" wn="hang%2:35:03 hang%2:35:00 hang%2:35:02 hang%2:42:01 hang%2:36:00 hang%2:35:05 hang%2:35:04 hang%2:30:00" grouping="hang.01"/>
                 <MEMBER name="nestle" wn="nestle%2:35:00" grouping=""/>
+                <MEMBER name="open" wn="open%2:35:00" grouping="open.01"/>
                 <MEMBER name="perch" wn="perch%2:35:00 perch%2:35:10" grouping=""/>
                 <MEMBER name="plop" wn="plop%2:35:00" grouping="plop.01"/>
                 <MEMBER name="project" wn="project%2:42:00 project%2:36:03" grouping="project.02 project.03"/>
@@ -195,7 +203,7 @@
                 <MEMBER name="sit" wn="sit%2:35:00 sit%2:42:00" grouping="sit.01 sit.02"/>
                 <MEMBER name="slope" wn="slope%2:38:00" grouping=""/>
                 <MEMBER name="sprawl" wn="sprawl%2:35:00" grouping=""/>
-                <MEMBER name="stand" wn="stand%2:35:00 stand%2:35:01" grouping="stand.01 stand\.02"/>
+                <MEMBER name="stand" wn="stand%2:35:00 stand%2:35:01" grouping="stand.01 stand.02"/>
                 <MEMBER name="straddle" wn="straddle%2:42:01" grouping="straddle.01"/>
                 <MEMBER name="swing" wn="swing%2:38:02 swing%2:42:00" grouping="swing.02"/>
                 <MEMBER name="tilt" wn="tilt%2:38:00" grouping="tilt.01"/>
@@ -207,7 +215,7 @@
                     </SELRESTRS>
                 </THEMROLE>
             </THEMROLES>
-            <FRAMES>    
+            <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="" primary="NP V NP.theme PP" secondary="NP; Causative variant" xtag=""/>
                     <EXAMPLES>
@@ -230,39 +238,52 @@
                             <SYNRESTRS/>
                         </NP>
                     </SYNTAX>
-                    <SEMANTICS>
-                        <PRED value="cause">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Agent"/>
-                                <ARG type="Event" value="E"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED bool="!" value="position">
-                            <ARGS>
-                                <ARG type="Event" value="start(E)"/>
-                                <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="VerbSpecific" value="Pos"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="position">
-                            <ARGS>
-                                <ARG type="Event" value="end(E)"/>
-                                <ARG type="ThemRole" value="Theme"/>
-                                <ARG type="VerbSpecific" value="Pos"/>
-                            </ARGS>
-                        </PRED>
-                        <PRED value="location">
+                            <SEMANTICS>
+                        <PRED value="has_location">
                             <ARGS>
                                 <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Location"/>
                             </ARGS>
                         </PRED>
+                        <PRED bool="!" value="has_configuration">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="VerbSpecific" value="V_Configuration"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="do">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="intrinsic_motion">
+                            <ARGS>
+                                <ARG type="Event" value="ë3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="PredSpecific" value="Trajectory"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_configuration">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="VerbSpecific" value="V_Configuration"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="Event" value="ë3"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
-                    <!--some verbs, cf. put_spatial-9.2-->
+                    <!--These verbs should all cross reference with put-spatial-9.2. The difference between this subclass and that class is that this subclass shows a change of spatial configuration, but not a change of location. Reconfigured by Julia for spatial/GLVN, 2019-->
                 </FRAME>
-             </FRAMES>
+            </FRAMES>
              <SUBCLASSES/>
-         </VNSUBCLASS>
+        </VNSUBCLASS>
     </SUBCLASSES>
 </VNCLASS>

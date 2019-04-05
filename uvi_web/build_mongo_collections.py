@@ -466,7 +466,6 @@ def build_verbnet_collection():
 				
 			pred_value = predicate.get('value')
 			boolean = predicate.get('bool')
-
 			args = [parse_arg(arg) for arg in predicate.find('ARGS')]
 			return {'predicate': pred_value, 'args': args, 'bool': boolean}
 		
@@ -502,8 +501,13 @@ def build_verbnet_collection():
 		members = [parse_member(member,class_id) for member in vn_class.find('MEMBERS') if member.tag == 'MEMBER']
 		themroles = [parse_themrole(themrole) for themrole in vn_class.find('THEMROLES') if themrole.tag == 'THEMROLE']
 		frames = [parse_frame(frame, class_id, frame_num) for frame_num, frame in enumerate(vn_class.find('FRAMES')) if frame.tag == 'FRAME']
-		subclasses = [parse_vn_class(subclass) for subclass in vn_class.find('SUBCLASSES') if subclass.tag=='VNSUBCLASS']
-		if not subclasses:
+		try:
+			subclasses = [parse_vn_class(subclass) for subclass in vn_class.find('SUBCLASSES') if subclass.tag=='VNSUBCLASS']
+			if not subclasses:
+				subclasses = None
+		except:
+			print("Problem with subclass structure in "+str(class_id))
+			print(vn_class.find('SUBCLASSES'))
 			subclasses = None
 		return {'class_id': class_id, 'num_comparison_id': num_comparison_id, 'members': members, 'themroles': themroles, 'frames': frames, 'subclasses': subclasses, 'resource_type': 'vn'}
 
@@ -644,8 +648,10 @@ def build_verbnet_collection():
 		parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
 		themroles = []
 		for parent_class_id in parents:
-			parent_themroles = [themrole['themrole'] for themrole in db['verbnet'].find_one({'class_id': parent_class_id}, {'themroles.themrole':1})['themroles']]
-			themroles.extend(parent_themroles)
+			tr_list = db['verbnet'].find_one({'class_id': parent_class_id}, {'themroles.themrole':1})
+			if tr_list:
+				parent_themroles = [themrole['themrole'] for themrole in tr_list['themroles']]
+				themroles.extend(parent_themroles)
 		return list(set(themroles))
 
 	db.drop_collection('vn_themrole_fields')

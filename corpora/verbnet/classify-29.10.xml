@@ -84,9 +84,7 @@
 		    <SELRESTRS/>
 		</PREP>
                 <NP value="Goal">
-                    <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+		    <SYNRESTRS/>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -118,7 +116,7 @@
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
-                <PREP value="in">
+                <PREP value="into">
                     <SELRESTRS/>
                 </PREP>
                 <NP value="Goal">

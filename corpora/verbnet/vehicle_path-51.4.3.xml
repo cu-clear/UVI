@@ -1,9 +1,8 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="vehicle_path-51.4.3" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="vehicle_path-51.4.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="take" wn="take%2:38:02" grouping="take.07"/>
-        <MEMBER name="sail" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02" grouping="sail.01"/>
-        <MEMBER name="coast" wn="coast%2:38:00" grouping=""/>
+        <MEMBER grouping="take.07" name="take" wn="take%2:38:02"/>
+        <MEMBER grouping="sail.01" name="sail" wn="sail%2:38:03 sail%2:38:00 sail%2:38:02"/>
+        <MEMBER grouping="" name="coast" wn="coast%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <!--Each member also adds a manner or vehicle predicate-->
@@ -19,24 +18,26 @@
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Trajectory">
-	    <SELRESTRS/>
+            <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Initial_Location">
             <SELRESTRS>
-		<SELRESTR Value="+" type="location"/>
-	    </SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Destination">
             <SELRESTRS>
-		<SELRESTR Value="+" type="location"/>
-	    </SELRESTRS>
+                <SELRESTR Value="+" type="location"/>
+            </SELRESTRS>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
-	<FRAME>
+        <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="Basic Transitive; with accompanied motion" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Jill took a cab.</EXAMPLE>
+                <EXAMPLE>
+                    Jill sailed a boat.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -48,88 +49,66 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="motion">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="start(E0)"/>
+                        <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/> 
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED> 
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E0"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
-                        <ARG type="Event" value="E0"/>
-                        <ARG type="Event" value="E1"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="Event" value="ë3"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="cause">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="e6"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="co-temporal">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ë4"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -137,7 +116,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Jack took a flight to Tuscon.</EXAMPLE>
+                <EXAMPLE>
+                    Jack sailed a boat to New Zealand.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -155,82 +136,66 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="motion">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="start(E0)"/>
+                        <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS> 
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
-                        <ARG type="Event" value="E0"/>
-                        <ARG type="Event" value="E1"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="Event" value="ë3"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="cause">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E0"/>
+                        <ARG type="Event" value="e6"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="co-temporal">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ë4"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -238,7 +203,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Claire took a traim from Reno.</EXAMPLE>
+                <EXAMPLE>
+                    Claire sailed a boat from Greece.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -256,90 +223,76 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E0)"/>
-                        <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="equals">
-                    <ARGS>
-                        <ARG type="Event" value="E0"/>
-                        <ARG type="Event" value="E1"/>
-                    </ARGS>
-                </PRED>
-		<PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E1)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/> 
-                   </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E1)"/>
+                        <ARG type="Event" value="ë3"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="end(E1)"/>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-		<PRED value="cause">
-		    <ARGS>
-			<ARG type="ThemRole" value="Agent"/>
-			<ARG type="Event" value="E0"/>
-		    </ARGS>
-		</PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e6"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="co-temporal">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ë4"/>
+                    </ARGS>
+                </PRED>
             </SEMANTICS>
         </FRAME>
-	<FRAME>
+        <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP" secondary="Basic Transitive; with accompanied motion" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Kevin took the freeway.</EXAMPLE>
+                <EXAMPLE>
+                    Kevin sailed through the ocean strait.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -351,63 +304,42 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
-                <PRED value="cause">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="motion">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Event" value="ë3"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-			<ARG type="ThemRole" value="Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Event" value="e4"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
-	<FRAME>
+        <FRAME>
             <DESCRIPTION descriptionNumber="1.1.2.2" primary="NP V NP PP.destination" secondary="NP-PP; Destination-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Martha took the back way to Nederland.</EXAMPLE>
+                <EXAMPLE>
+                    Martha sailed through the channel to the shore.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -425,43 +357,32 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="motion">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="end(E)"/>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -469,7 +390,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.4" primary="NP V NP PP.initial_location" secondary="NP-PP; Initial_Location-PP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Gordo took an unknown route from Topeka.</EXAMPLE>
+                <EXAMPLE>
+                    Columbus sailed an unknown route from Europe.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -487,45 +410,34 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="start(E)"/>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="ThemRole" value="?Initial_Location"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="path_rel">
-                    <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Trajectory"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-                <PRED value="path_rel">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="start(E)"/>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Initial_Location"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e4"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Destination"/>
-                        <ARG type="Constant" value="ch_of_loc"/>
-                        <ARG type="VerbSpecific" value="prep"/>
                     </ARGS>
                 </PRED>
-		<PRED value="cause">
-		    <ARGS>
-			<ARG type="ThemRole" value="Agent"/>
-			<ARG type="Event" value="E"/>
-		    </ARGS>
-		</PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

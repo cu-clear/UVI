@@ -1,14 +1,13 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="ensure-99" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="ensure-99" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="ensure" wn="ensure%2:32:00" grouping="ensure.01"/>
-        <MEMBER name="assure" wn="assure%2:32:03" grouping="assure.02"/>
-        <MEMBER name="guarantee" wn="guarantee%2:32:03" grouping="guarantee.02"/>
-        <MEMBER name="insure" wn="insure%2:32:04" grouping="insure.02"/>
-        <MEMBER name="secure" wn="secure%2:32:00" grouping="secure.01"/>
-        <MEMBER name="ascertain" wn="ascertain%2:31:00" grouping="ascertain.02"/>
-        <MEMBER name="reinsure" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01" grouping=""/>
-        <MEMBER name="provide" wn="provide%2:32:00" grouping="provide.03"/>
+        <MEMBER grouping="ensure.01" name="ensure" wn="ensure%2:32:00"/>
+        <MEMBER grouping="assure.02" name="assure" wn="assure%2:32:03"/>
+        <MEMBER grouping="guarantee.02" name="guarantee" wn="guarantee%2:32:03"/>
+        <MEMBER grouping="insure.02" name="insure" wn="insure%2:32:04"/>
+        <MEMBER grouping="secure.01" name="secure" wn="secure%2:32:00"/>
+        <MEMBER grouping="ascertain.02" name="ascertain" wn="ascertain%2:31:00"/>
+        <MEMBER grouping="" name="reinsure" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01"/>
+        <MEMBER grouping="provide.03" name="provide" wn="provide%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Precondition">
@@ -25,7 +24,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="NP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>Our exertions ensured a good outcome.</EXAMPLE>
+                <EXAMPLE>
+                    His mistakes guaranteed his failure.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Precondition">
@@ -37,16 +38,11 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Precondition"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="ensure">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Precondition"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Beneficiary"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -54,7 +50,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP NP" secondary="NP-NP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>Our exertions ensured us a good outcome.</EXAMPLE>
+                <EXAMPLE>
+                    Our exertions ensured us a good outcome.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Precondition">
@@ -66,29 +64,32 @@
                 </NP>
                 <NP value="Theme">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Precondition"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="ensure">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Precondition"/>
                         <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Beneficiary"/>
                     </ARGS>
                 </PRED>
-            </SEMANTICS>
+                </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>The circumstances ensured a good outcome for him.</EXAMPLE>
+                <EXAMPLE>
+                    The circumstances ensured a good outcome for him.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Precondition">
@@ -106,15 +107,16 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Precondition"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="ensure">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Precondition"/>
                         <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="benefit">
+                    <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Beneficiary"/>
                     </ARGS>
                 </PRED>
@@ -123,7 +125,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V that S" secondary="S" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>The circumstances ensured that he would arrive in time.</EXAMPLE>                                                              
+                <EXAMPLE>
+                    The circumstances ensured that he would arrive in time.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Precondition">
@@ -137,16 +141,11 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED value="cause">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Precondition"/>
-                        <ARG type="Event" value="E"/>
-                    </ARGS>
-                </PRED>
                 <PRED value="ensure">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
+                        <ARG type="ThemRole" value="Precondition"/>
                         <ARG type="ThemRole" value="Theme"/>
-                        <ARG type="ThemRole" value="?Beneficiary"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

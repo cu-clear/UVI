@@ -76,12 +76,6 @@
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Stimulus"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
-                    </ARGS>
-                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -145,12 +139,6 @@
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Stimulus"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
-                    </ARGS>
-                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -175,12 +163,6 @@
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                         <ARG type="ThemRole" value="Stimulus"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="property">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Stimulus"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -209,12 +191,6 @@
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Stimulus"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
-                    </ARGS>
-                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -239,12 +215,6 @@
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                         <ARG type="ThemRole" value="Stimulus"/>
-                    </ARGS>
-                </PRED>
-                <PRED value="property">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Stimulus"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -290,12 +260,6 @@
                                 <ARG type="ThemRole" value="Stimulus"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
-                            <ARGS>
-                                <ARG type="ThemRole" value="Stimulus"/>
-                                <ARG type="ThemRole" value="?Attribute"/>
-                            </ARGS>
-                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             <FRAME>
@@ -320,12 +284,6 @@
                             <ARG type="Event" value="E"/>
                             <ARG type="ThemRole" value="Experiencer"/>
                             <ARG type="ThemRole" value="Stimulus"/>
-                        </ARGS>
-                    </PRED>
-                    <PRED value="property">
-                        <ARGS>
-                            <ARG type="ThemRole" value="Stimulus"/>
-                            <ARG type="ThemRole" value="?Attribute"/>
                         </ARGS>
                     </PRED>
                 </SEMANTICS>
@@ -354,12 +312,6 @@
                             <ARG type="ThemRole" value="Stimulus"/>
                         </ARGS>
                     </PRED>
-                    <PRED value="property">
-                        <ARGS>
-                            <ARG type="ThemRole" value="Stimulus"/>
-                            <ARG type="ThemRole" value="?Attribute"/>
-                        </ARGS>
-                    </PRED>
                 </SEMANTICS>
             </FRAME>
         </FRAMES>
@@ -379,15 +331,15 @@
                         <NP value="Experiencer">
                              <SYNRESTRS/>
                         </NP>
-                        <VERB/> 
+                        <VERB/>
                     </SYNTAX>
                     <SEMANTICS>
                        <PRED value="understand">
                             <ARGS>
-                                <ARG type="Event" value="during(E)"/>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Experiencer"/>
                                 <ARG type="ThemRole" value="?Stimulus"/>
-                            </ARGS> 
+                            </ARGS>
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
@@ -396,8 +348,8 @@
             <VNSUBCLASS ID="comprehend-87.2-1-1-1">
                 <MEMBERS>
                     <MEMBER name="know" wn="know%2:31:15" grouping="know.03"/>
-                    <MEMBER name="understand" wn="understand%2:31:00                     understand%2:31:01 undertand%2:31:02 understand%2:31:03" grouping="understand.01                     understand.02 understand.03"/>   
-                </MEMBERS> 
+                    <MEMBER name="understand" wn="understand%2:31:00                     understand%2:31:01 undertand%2:31:02 understand%2:31:03" grouping="understand.01                     understand.02 understand.03"/>
+                </MEMBERS>
                 <THEMROLES/>
                 <FRAMES>
                     <FRAME>
@@ -409,7 +361,7 @@
                             <NP value="Experiencer">
                                <SYNRESTRS/>
                             </NP>
-                            <VERB/>   
+                            <VERB/>
                             <PREP value="about | of">
                                 <SELRESTRS/>
                             </PREP>
@@ -420,9 +372,9 @@
                         <SEMANTICS>
                             <PRED value="understand">
                                 <ARGS>
-                                    <ARG type="Event" value="during(E)"/>
+                                    <ARG type="Event" value="E"/>
                                     <ARG type="ThemRole" value="Experiencer"/>
-                                    <ARG type="ThemRole" value="Stimulus"/> 
+                                    <ARG type="ThemRole" value="Stimulus"/>
                                 </ARGS>
                             </PRED>
                         </SEMANTICS>
@@ -443,13 +395,13 @@
                             <NP value="Stimulus">
                                 <SYNRESTRS>
                                     <SYNRESTR Value="+" type="poss_ing"/>
-                                </SYNRESTRS> 
+                                </SYNRESTRS>
                             </NP>
                         </SYNTAX>
                         <SEMANTICS>
                             <PRED value="understand">
                                 <ARGS>
-                                    <ARG type="Event" value="during(E)"/>
+                                    <ARG type="Event" value="E"/>
                                     <ARG type="ThemRole" value="Experiencer"/>
                                     <ARG type="ThemRole" value="Stimulus"/>
                                 </ARGS>
@@ -478,12 +430,12 @@
                         <SEMANTICS>
                             <PRED value="understand">
                                 <ARGS>
-                                    <ARG type="Event" value="during(E)"/>
+                                    <ARG type="Event" value="E"/>
                                     <ARG type="ThemRole" value="Experiencer"/>
                                     <ARG type="ThemRole" value="Stimulus"/>
                                 </ARGS>
                             </PRED>
-                        </SEMANTICS> 
+                        </SEMANTICS>
                     </FRAME>
                     <FRAME>
                         <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="S" xtag="0.2"/>
@@ -507,7 +459,7 @@
                         <SEMANTICS>
                             <PRED value="understand">
                                 <ARGS>
-                                    <ARG type="Event" value="during(E)"/>
+                                    <ARG type="Event" value="E"/>
                                     <ARG type="ThemRole" value="Experiencer"/>
                                     <ARG type="ThemRole" value="Stimulus"/>
                                 </ARGS>
@@ -534,7 +486,7 @@
                         <SEMANTICS>
                             <PRED value="understand">
                                 <ARGS>
-                                    <ARG type="Event" value="during(E)"/>
+                                    <ARG type="Event" value="E"/>
                                     <ARG type="ThemRole" value="Experiencer"/>
                                     <ARG type="ThemRole" value="Stimulus"/>
                                 </ARGS>
@@ -544,9 +496,9 @@
                 </FRAMES>
                 <SUBCLASSES/>
             </VNSUBCLASS>
-          </SUBCLASSES>     
+          </SUBCLASSES>
         </VNSUBCLASS>
     </SUBCLASSES>
     </VNSUBCLASS>
-    </SUBCLASSES> 
+    </SUBCLASSES>
 </VNCLASS>

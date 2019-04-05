@@ -61,7 +61,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.goal what S_INF" secondary="P-WHAT-TO-INF; on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.topic what S_INF" secondary="P-WHAT-TO-INF; on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>They settled on what to do.</EXAMPLE>
             </EXAMPLES>
@@ -75,7 +75,7 @@
                 <PREP value="on">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Goal">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_inf"/>
                     </SYNRESTRS>
@@ -92,7 +92,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.goal" secondary="PP-PP; with-PP on-PP" xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.co-agent PP.topic" secondary="PP-PP; with-PP on-PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>I settled with them on a novel proposal.</EXAMPLE>
             </EXAMPLES>
@@ -110,7 +110,7 @@
                 <PREP value="on">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Goal">
+                <NP value="Topic">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -149,7 +149,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Goal">
+                <NP value="Topic">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -177,7 +177,7 @@
                 <NP value="Co-Agent">
                     <SYNRESTRS/>
                 </NP>
-                <NP value="Goal">
+                <NP value="Topic">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -202,7 +202,7 @@
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Goal">
+                <NP value="Topic">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
