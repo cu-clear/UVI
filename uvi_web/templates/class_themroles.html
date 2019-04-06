@@ -1,10 +1,29 @@
 <!--Section to display thematic roles, with their selectional and semantic restrictions-->
+{% set syntax_arg_id = unique_id() %}
+
 <h7 class='card-title'>ROLES:</h7>
 <h5 class="card-text">
-  {% for them_role in vn_class_json['themroles'] %}
-    <a href={{url_for('process_query',themrole=them_role['themrole'])}} target='_blank'>
-      <span style="color:#5e81ac; font-size: 18px">{{ them_role['themrole'] }}</span>
-    </a>
+    {% for them_role in vn_class_json['themroles'] %}
+    {% if get_themrole_fields_undefined(them_role['themrole']) is not none %} 
+    {% set themrole_fields = get_themrole_fields_undefined(them_role['themrole'])%}
+
+    {% set popover_id = id~them_role['themrole'] %}
+      <div id={{popover_id}} style='display:none;'>
+      <div class='popover-body'>
+        <span style='font-weight:bold'>Definition:</span><br />
+        {{ themrole_fields['themrole_desc'] }}<br />
+        <span style='font-weight:bold'>Example:</span><br />
+        {{ themrole_fields['themrole_example'] }}
+        <br />
+      </div>
+    </div>
+
+    <a href={{url_for('process_query',themrole=them_role['themrole'])}} target='_blank' >
+      <span style="color:#5e81ac; font-size: 18px" data-toggle="popover" data-popover-content="#{{popover_id}}" data-placement='right'>{{ them_role['themrole'] }}</span>
+    
+      
+       </a>
+   {%endif%}
     {% if them_role['selrestrs']['selrestrs_list'] is not none %}
       <span style="color:red;">[
       {% for selres in them_role['selrestrs']['selrestrs_list']%}
