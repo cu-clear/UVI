@@ -21,7 +21,7 @@
             <SELRESTRS/>
         </THEMROLE>
         <THEMROLE type="Attribute">
-          <SELRESTRS/>
+            <SELRESTRS/>
         </THEMROLE>
     </THEMROLES>
     <FRAMES>
@@ -92,8 +92,9 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
+                <PRED value="has_property">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
@@ -167,8 +168,9 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
+                <PRED value="has_property">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="?Attribute"/>
                     </ARGS>
@@ -251,8 +253,9 @@
                                 <ARG type="Event" value="e3"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Attribute"/>
                             </ARGS>
@@ -298,8 +301,9 @@
                                 <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Attribute"/>
                             </ARGS>
@@ -343,8 +347,9 @@
                                 <ARG type="ThemRole" value="?Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Attribute"/>
                             </ARGS>
@@ -403,8 +408,9 @@
                                 <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Attribute"/>
                             </ARGS>
@@ -466,8 +472,9 @@
                                 <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="?Attribute"/>
                             </ARGS>
@@ -532,8 +539,9 @@
                                 <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="Attribute"/>
                             </ARGS>
@@ -601,8 +609,9 @@
                                 <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="Attribute"/>
                             </ARGS>
@@ -667,8 +676,9 @@
                                 <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="Attribute"/>
                             </ARGS>
@@ -736,8 +746,9 @@
                                 <ARG type="ThemRole" value="Result"/>
                             </ARGS>
                         </PRED>
-                        <PRED value="property">
+                        <PRED value="has_property">
                             <ARGS>
+                                <ARG type="Event" value="E"/>
                                 <ARG type="ThemRole" value="Patient"/>
                                 <ARG type="ThemRole" value="Attribute"/>
                             </ARGS>

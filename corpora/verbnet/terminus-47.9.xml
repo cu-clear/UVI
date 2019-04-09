@@ -1,12 +1,11 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="terminus-47.9" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="terminus-47.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="begin" wn="begin%2:42:00" grouping="begin.01"/>
-        <MEMBER name="end" wn="end%2:42:00" grouping="end.01"/>
-        <MEMBER name="lead" wn="lead%2:42:00 lead%2:42:03" grouping="lead.03"/>
-        <MEMBER name="start" wn="start%2:42:00" grouping="start.01"/>
-        <MEMBER name="stop" wn="stop%2:42:13" grouping="stop.04"/>
-        <MEMBER name="terminate" wn="terminate%2:42:00" grouping="terminate.01"/>
+        <MEMBER grouping="begin.01" name="begin" wn="begin%2:42:00"/>
+        <MEMBER grouping="end.01" name="end" wn="end%2:42:00"/>
+        <MEMBER grouping="lead.03" name="lead" wn="lead%2:42:00 lead%2:42:03"/>
+        <MEMBER grouping="start.01" name="start" wn="start%2:42:00"/>
+        <MEMBER grouping="stop.04" name="stop" wn="stop%2:42:13"/>
+        <MEMBER grouping="terminate.01" name="terminate" wn="terminate%2:42:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -20,7 +19,10 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V NP ADJ" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>His property begins at the fence.</EXAMPLE>            </EXAMPLES>
+                <EXAMPLE>
+                    His property begins at the fence.
+                </EXAMPLE>
+            </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
                     <SYNRESTRS/>
@@ -36,7 +38,7 @@
             <SEMANTICS>
                 <PRED value="contact">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>

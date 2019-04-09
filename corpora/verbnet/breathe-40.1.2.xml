@@ -46,18 +46,24 @@
    <SEMANTICS>
     <PRED value="body_process">
      <ARGS>
-      <ARG type="Event" value="E"/>
+      <ARG type="Event" value="ë1"/>
       <ARG type="ThemRole" value="Agent"/>
      </ARGS>
     </PRED>
     <PRED value="emit">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="ë2"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="?Theme"/>
      </ARGS>
     </PRED>
-   </SEMANTICS>
+    <PRED value="overlaps">
+      <ARGS>
+      <ARG type="Event" value="ë1"/>
+      <ARG type="Event" value="ë2"/>
+     </ARGS>
+    </PRED>
+    </SEMANTICS>
   </FRAME>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.destination" secondary="PP; Destination-PP" xtag=""/>
@@ -79,44 +85,66 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="body_process">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="emit">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="?Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Source"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="?Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="equals">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Source"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ë5"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="equals">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
+                </SEMANTICS>
   </FRAME>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.theme" secondary="Transitive; Substance Object" xtag="0.2"/>
@@ -135,19 +163,65 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="body_process">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="emit">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="?Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ë5"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="equals">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
    </SEMANTICS>
   </FRAME>
   <FRAME>
@@ -173,43 +247,65 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="body_process">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Agent"/>
-     </ARGS>
-    </PRED>
-    <PRED value="emit">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="start(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Source"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="path_rel">
-     <ARGS>
-      <ARG type="Event" value="end(E)"/>
-      <ARG type="ThemRole" value="Theme"/>
-      <ARG type="ThemRole" value="Destination"/>
-      <ARG type="Constant" value="ch_of_loc"/>
-      <ARG type="VerbSpecific" value="prep"/>
-     </ARGS>
-    </PRED>
-    <PRED value="equals">
-     <ARGS>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Source"/>
-     </ARGS>
-    </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ë5"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="equals">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
    </SEMANTICS>
   </FRAME>
  </FRAMES>
@@ -245,19 +341,65 @@
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="body_process">
-       <ARGS>
-        <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Agent"/>
-       </ARGS>
-      </PRED>
-      <PRED value="emit">
-       <ARGS>
-        <ARG type="Event" value="during(E)"/>
-        <ARG type="ThemRole" value="Agent"/>
-        <ARG type="ThemRole" value="Theme"/>
-       </ARGS>
-      </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="body_process">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="emit">
+                    <ARGS>
+                        <ARG type="Event" value="ë3"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="motion">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Trajectory"/>
+                    </ARGS>
+                </PRED>
+                <PRED bool="!" value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="PredSpecific" value="Source"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="has_location">
+                    <ARGS>
+                        <ARG type="Event" value="e5"/>
+                        <ARG type="ThemRole" value="Theme"/>
+                        <ARG type="ThemRole" value="?Destination"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="overlaps">
+                    <ARGS>
+                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ë3"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ë5"/>
+                    </ARGS>
+                </PRED>
+                <PRED value="equals">
+                    <ARGS>
+                        <ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Source"/>
+                    </ARGS>
+                </PRED>
      </SEMANTICS>
     </FRAME>
    </FRAMES>

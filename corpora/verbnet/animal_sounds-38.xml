@@ -83,15 +83,17 @@
    </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Theme">
-   <SELRESTRS/>
+   <SELRESTRS>
+    <SELRESTR Value="+" type="communication"/>
+   </SELRESTRS>
   </THEMROLE>
   <THEMROLE type="Recipient">
    <SELRESTRS/>
   </THEMROLE>
-  <THEMROLE type="Location">
+ </THEMROLES>
+  <THEMROLE type="Stimulus">
    <SELRESTRS/>
   </THEMROLE>
- </THEMROLES>
  <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
@@ -107,17 +109,38 @@
     <VERB/>
    </SYNTAX>
    <SEMANTICS>
+    <PRED value="has_information">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+     </ARGS>
+    </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
     <PRED value="emit">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="e1"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="Sound"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Stimulus"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PP; Recipient-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.recipient" secondary="PP; Recipient-PP = Stimulus-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
      The dog barked at the cat.
@@ -138,19 +161,38 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="emit">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="Sound"/>
+      <ARG type="ThemRole" value="?Theme"/>
      </ARGS>
     </PRED>
-    <PRED value="direction">
+    <PRED value="transfer_info">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="Constant" value="toward"/>
-      <ARG type="VerbSpecific" value="Sound"/>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="?Theme"/>
       <ARG type="ThemRole" value="Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Stimulus"/>
+     </ARGS>
+    </PRED>
+    <PRED value="equals">
+     <ARGS>
+      <ARG type="ThemRole" value="Recipient"/>
+      <ARG type="ThemRole" value="Stimulus"/>
      </ARGS>
     </PRED>
    </SEMANTICS>
@@ -172,20 +214,41 @@
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="emit">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
+    <PRED value="transfer_info">
+     <ARGS>
+      <ARG type="Event" value="E"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="ThemRole" value="Theme"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="?Stimulus"/>
+     </ARGS>
+    </PRED>
    </SEMANTICS>
   </FRAME>
   <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP V PP.location" secondary="PP; Location-PP" xtag=""/>
+   <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.stimulus" secondary="PP; Stimulus-PP" xtag=""/>
    <EXAMPLES>
     <EXAMPLE>
-     Birds chirped in the trees.
+     The dog barked at the sight of the cat.
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
@@ -193,59 +256,42 @@
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <NP value="Location">
-     <SELRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="emit">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="Sound"/>
-     </ARGS>
-    </PRED>
-    <PRED value="location">
-     <ARGS>
-      <ARG type="Event" value="during(E)"/>
-      <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Location"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="" primary="NP.location V PP.agent" secondary="PP; Location Subject, with-PP" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     The tree chirped with birds.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Location">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <PREP value="with">
-     <SELRESTRS/>
+    <PREP>
+     <SELRESTRS>
+      <SELRESTR Value="+" type="at"/>
+     </SELRESTRS>
     </PREP>
-    <NP value="Agent">
+    <NP value="Stimulus">
      <SYNRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="emit">
+    <PRED value="has_information">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="VerbSpecific" value="Sound"/>
+      <ARG type="ThemRole" value="?Theme"/>
      </ARGS>
     </PRED>
-    <PRED value="location">
+    <PRED value="transfer_info">
      <ARGS>
-      <ARG type="Event" value="during(E)"/>
+      <ARG type="Event" value="E"/>
       <ARG type="ThemRole" value="Agent"/>
-      <ARG type="ThemRole" value="Location"/>
+      <ARG type="ThemRole" value="?Theme"/>
+      <ARG type="ThemRole" value="?Recipient"/>
+     </ARGS>
+    </PRED>
+    <PRED value="emit">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Agent"/>
+      <ARG type="VerbSpecific" value="V_Sound"/>
+     </ARGS>
+    </PRED>
+    <PRED value="in_reaction_to">
+     <ARGS>
+      <ARG type="Event" value="e1"/>
+      <ARG type="ThemRole" value="Stimulus"/>
      </ARGS>
     </PRED>
    </SEMANTICS>

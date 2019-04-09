@@ -46,12 +46,6 @@
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
-                    <ARGS>
-                        <ARG type="ThemRole" value="Stimulus"/>
-                        <ARG type="ThemRole" value="?Attribute"/>
-                    </ARGS>
-                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -107,8 +101,9 @@
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
-                <PRED value="property">
+                <PRED value="has_property">
                     <ARGS>
+                        <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                         <ARG type="ThemRole" value="Attribute"/>
                     </ARGS>

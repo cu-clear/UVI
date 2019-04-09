@@ -143,9 +143,6 @@
         <THEMROLE type="Agent">
             <SELRESTRS/>
         </THEMROLE>
-        <THEMROLE type="Time">
-            <SELRESTRS/>
-        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -162,7 +159,7 @@
             <SEMANTICS>
                 <PRED value="emit">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                     </ARGS>
@@ -191,14 +188,14 @@
             <SEMANTICS>
                 <PRED value="emit">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
@@ -225,14 +222,14 @@
             <SEMANTICS>
                 <PRED value="emit">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
@@ -262,14 +259,14 @@
             <SEMANTICS>
                 <PRED value="emit">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
@@ -300,14 +297,14 @@
             <SEMANTICS>
                 <PRED value="emit">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                     </ARGS>
                 </PRED>
-                <PRED value="location">
+                <PRED value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                         <ARG type="ThemRole" value="Location"/>
                     </ARGS>
@@ -330,22 +327,28 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
+                <PRED value="do">
+                    <ARGS>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="ThemRole" value="Agent"/>
+                    </ARGS>
+                </PRED>
                 <PRED value="emit">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="ë2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="VerbSpecific" value="Sound"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="ThemRole" value="Agent"/>
-                        <ARG type="Event" value="E"/>
+                        <ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="ë2"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
         </FRAME>
-        <FRAME>
+        <!--<FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Transitive" xtag=""/>
             <EXAMPLES>
                 <EXAMPLE>The bell chimed the hour.</EXAMPLE>
@@ -368,7 +371,7 @@
                     </ARGS>
                 </PRED>
             </SEMANTICS>
-        </FRAME>
+        </FRAME>-->
        </FRAMES>
     <SUBCLASSES/>
 </VNCLASS>

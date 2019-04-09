@@ -258,7 +258,13 @@
                         <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>
-            </SEMANTICS>
+                <PRED value="cause">
+                    <ARGS>
+                        <ARG type="Event" value="e2"/>
+                        <ARG type="Event" value="e3"/>
+                    </ARGS>
+                </PRED>
+	    </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

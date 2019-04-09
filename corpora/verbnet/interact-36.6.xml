@@ -1,13 +1,12 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="interact-36.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="follow.06" name="follow_up" wn=""/>
-        <MEMBER grouping="follow.06" name="follow_through" wn=""/>
-        <MEMBER grouping="" name="go_steady" wn="go_steady%2:41:00"/>
-        <MEMBER grouping="" name="go_out" wn="go_out%2:41:00"/>
+        <MEMBER grouping="follow.06" name="follow-up" wn=""/>
+        <MEMBER grouping="follow.06" name="follow-through" wn=""/>
+        <MEMBER grouping="" name="go-steady" wn="go_steady%2:41:00"/>
+        <MEMBER grouping="" name="go-out" wn="go_out%2:41:00"/>
         <MEMBER grouping="" name="interact" wn="interact%2:41:00"/>
-        <MEMBER grouping="hook.04" name="hook_up" wn=""/>
-        <MEMBER grouping="split.03" name="split_up" wn="split_up%2:41:01"/>
+        <MEMBER grouping="hook.04" name="hook-up" wn=""/>
+        <MEMBER grouping="split.03" name="split-up" wn="split_up%2:41:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -38,7 +37,7 @@
             <SEMANTICS>
                 <PRED value="social_interaction">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Co-Agent"/>
                     </ARGS>
@@ -63,7 +62,7 @@
             <SEMANTICS>
                 <PRED value="social_interaction">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>
@@ -92,7 +91,7 @@
             <SEMANTICS>
                 <PRED value="social_interaction">
                     <ARGS>
-                        <ARG type="Event" value="during(E)"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Co-Agent"/>
                     </ARGS>

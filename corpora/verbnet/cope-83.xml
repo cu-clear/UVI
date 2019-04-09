@@ -1,7 +1,6 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="cope-83" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="cope-83" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="deal" wn="deal%2:41:09" grouping="deal.01"/>
+        <MEMBER grouping="deal.01" name="deal" wn="deal%2:41:09"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -18,7 +17,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme" secondary="P-ING-SC; with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>He dealt with solving the problem.</EXAMPLE>
+                <EXAMPLE>
+                    He managed with dealing the cards.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -48,14 +49,16 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="cope-83-1">
             <MEMBERS>
-                <MEMBER name="cope" wn="cope%2:41:00" grouping="cope.01"/>
+                <MEMBER grouping="cope.01" name="cope" wn="cope%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.2"/>
                     <EXAMPLES>
-                        <EXAMPLE>He coped.</EXAMPLE>
+                        <EXAMPLE>
+                            He managed.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Agent">
@@ -77,17 +80,19 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="cope-83-1-1">
                     <MEMBERS>
-                        <MEMBER name="manage" wn="manage%2:41:03" grouping="manage.03"/>
-                        <MEMBER name="grapple" wn="grapple%2:41:00" grouping=""/>
-                        <MEMBER name="get_by" wn="get_by%2:41:00" grouping=""/>
-                        <MEMBER name="get_through" wn="get_through%2:30:00 get_through%2:42:00 get_through%2:38:00" grouping="get.11"/>
+                        <MEMBER grouping="manage.03" name="manage" wn="manage%2:41:03"/>
+                        <MEMBER grouping="" name="grapple" wn="grapple%2:41:00"/>
+                        <MEMBER grouping="" name="get_by" wn="get_by%2:41:00"/>
+                        <MEMBER grouping="get.11" name="get_through" wn="get_through%2:30:00 get_through%2:42:00 get_through%2:38:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
                             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag="0.2"/>
                             <EXAMPLES>
-                                <EXAMPLE>He managed the climb.</EXAMPLE>
+                                <EXAMPLE>
+                                    He managed the climb.
+                                </EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Agent">

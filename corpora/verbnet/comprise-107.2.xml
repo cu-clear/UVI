@@ -9,10 +9,10 @@
   <MEMBER grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
  </MEMBERS>
  <THEMROLES>
-  <THEMROLE type="Theme">
+  <THEMROLE type="Pivot">
    <SELRESTRS/>
   </THEMROLE>
-  <THEMROLE type="Attribute">
+  <THEMROLE type="Theme">
    <SELRESTRS/>
   </THEMROLE>
  </THEMROLES>
@@ -25,19 +25,19 @@
     </EXAMPLE>
    </EXAMPLES>
    <SYNTAX>
-    <NP value="Attribute">
+    <NP value="Theme">
      <SYNRESTRS/>
     </NP>
     <VERB/>
-    <NP value="Theme">
+    <NP value="Pivot">
      <SYNRESTRS/>
     </NP>
    </SYNTAX>
    <SEMANTICS>
-    <PRED value="set_member">
+    <PRED value="has_set_member">
      <ARGS>
       <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Attribute"/>
+      <ARG type="ThemRole" value="Pivot"/>
       <ARG type="ThemRole" value="Theme"/>
      </ARGS>
     </PRED>
@@ -60,23 +60,23 @@
      <EXAMPLES>
       <EXAMPLE>
        The Milky Way comprises more than 100
-                        billion planets.
+                        billion stars.
       </EXAMPLE>
      </EXAMPLES>
      <SYNTAX>
-      <NP value="Theme">
+      <NP value="Pivot">
        <SYNRESTRS/>
       </NP>
       <VERB/>
-      <NP value="Attribute">
+      <NP value="Theme">
        <SYNRESTRS/>
       </NP>
      </SYNTAX>
      <SEMANTICS>
-      <PRED value="set_member">
+      <PRED value="has_set_member">
        <ARGS>
         <ARG type="Event" value="E"/>
-        <ARG type="ThemRole" value="Attribute"/>
+        <ARG type="ThemRole" value="Pivot"/>
         <ARG type="ThemRole" value="Theme"/>
        </ARGS>
       </PRED>
