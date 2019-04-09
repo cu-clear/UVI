@@ -472,7 +472,14 @@ def build_verbnet_collection():
 		def parse_fd(fd_list, example_text):
 			"Parse Force Dynamics representations"
 			for key,list_of_feats in fd_list.items():
-				if list_of_feats[0].lower() == example_text.strip().lower()[:-1]:
+				example_text_modefied=example_text.strip().lower()[:-1]
+				example_text_modefied = example_text_modefied.replace('\n', '')
+				example_text_modefied= example_text_modefied.replace('\t', '')
+				example_text_modefied= example_text_modefied.replace(' ', '')
+				list_of_feats_text_modefied=list_of_feats[0].lower()
+				list_of_feats_text_modefied=list_of_feats_text_modefied.replace(' ','')
+				if list_of_feats_text_modefied == example_text_modefied:
+					#print(list_of_feats_text_modefied," : ",example_text_modefied)
 					return {'num':key, 'fd_val':list_of_feats[4]}
 			return None
 
