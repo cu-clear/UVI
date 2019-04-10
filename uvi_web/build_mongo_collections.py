@@ -490,7 +490,7 @@ def build_verbnet_collection():
 
 		
 		description = parse_description(frame.find('DESCRIPTION'))
-		examples = [{'example_text':example.text, 'svg': dependency_tree_svg(example.text, ex_n), 'fd': parse_fd(fd_list, example.text)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
+		examples = [{'example_text':example.text.replace('\n','').strip(), 'fd': parse_fd(fd_list, example.text), 'svg': dependency_tree_svg(example.text, ex_n)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
 		syntax = [parse_syntax_arg(arg) for arg in frame.find('SYNTAX')]
 		semantics = [parse_pred(pred) for pred in frame.find('SEMANTICS')]
 		return {'description': description, 'examples': examples, 'syntax': syntax, 'semantics': semantics}
@@ -776,12 +776,10 @@ def build_propbank_collection():
 				example_list = []
 				for example in examples:
 					example_name = example.get('name')
-					example_text = example.find('text').text
+					example_text = example.find('text').text.strip()
 					args = parse_ex_args(example.findall('arg'))
 					rel = parse_ex_rel(example.find('rel'))
-					
-					
-					example_list.append({'example_name': example_name, 'example_text': example_text, 'args': args, 'rel': rel})
+					example_list.append({'example_name': example_name, 'example_text': example_text.replace('\n','').strip(), 'args': args, 'rel': rel})
 				
 				return example_list
 						
@@ -790,7 +788,6 @@ def build_propbank_collection():
 			aliases = parse_aliases(roleset.find('aliases'))
 			roles = parse_roles(roleset.find('roles'))
 			examples = parse_examples(roleset.findall('example'))
-			
 			return {'roleset_id': roleset_id, 'roleset_name': roleset_name, 'aliases': aliases, 'roles': roles, 'examples': examples}
 
 		lemma = predicate.get('lemma')

@@ -263,6 +263,8 @@ def welcome_frame():
 
 @app.route('/class_hierarchy')
 def class_hierarchy():
+	x = list(mongo.db.verbnet.find({'class_id':'floss-41.2.1'},{'frames.examples.fd':1, 'class_id':1, '_id':0}))
+	print(x[0]['frames'])
 	return render_template('class_hierarchy.html', class_by_num=sort_by_id(), class_by_name=sort_by_char())
 
 @app.route('/nlp_applications')
