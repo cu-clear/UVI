@@ -10,7 +10,7 @@ import re
 from pymongo import MongoClient
 
 mongo_client = MongoClient()
-db = mongo_client['uvi_corpora']
+db = mongo_client['new_corpora']
 
 def top_parent_id(class_id):
 	return ('-').join(class_id.split('-')[:2])

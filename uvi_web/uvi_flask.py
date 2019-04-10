@@ -30,7 +30,7 @@ app = Flask(__name__)
 
 #generate SECRET_KEY randomly on startup
 app.config['SECRET_KEY'] = os.urandom(16)
-app.config['MONGO_DBNAME'] = 'uvi_corpora'
+app.config['MONGO_DBNAME'] = 'new_corpora'
 app.config.update(mail_settings)
 mongo = PyMongo(app)
 mail = Mail(app)
@@ -263,9 +263,7 @@ def welcome_frame():
 
 @app.route('/class_hierarchy')
 def class_hierarchy():
-	x = list(mongo.db.verbnet.find({'class_id':'floss-41.2.1'},{'frames.examples.fd':1, 'class_id':1, '_id':0}))
-	print(x[0]['frames'])
-	return render_template('class_hierarchy.html', class_by_num=sort_by_id(), class_by_name=sort_by_char())
+	return render_template('class_hierarchy.html', floss_class = x, class_by_num=sort_by_id(), class_by_name=sort_by_char())
 
 @app.route('/nlp_applications')
 def applications():

@@ -1,13 +1,6 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="comprise-107.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
- <MEMBERS>
-  <MEMBER grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
-  <MEMBER grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
-  <MEMBER grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
-  <MEMBER grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
-  <MEMBER grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
-  <MEMBER grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
- </MEMBERS>
+  <MEMBERS/>
  <THEMROLES>
   <THEMROLE type="Pivot">
    <SELRESTRS/>
@@ -16,6 +9,17 @@
    <SELRESTRS/>
   </THEMROLE>
  </THEMROLES>
+ <FRAMES/>
+ <SUBCLASSES>
+  <VNSUBCLASS ID="comprise-107.2-1"><MEMBERS>
+  <MEMBER grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
+  <MEMBER grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
+  <MEMBER grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
+  <MEMBER grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
+  <MEMBER grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
+  <MEMBER grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
+ </MEMBERS>
+ <THEMROLES/>
  <FRAMES>
   <FRAME>
    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
@@ -44,8 +48,9 @@
    </SEMANTICS>
   </FRAME>
  </FRAMES>
- <SUBCLASSES>
-  <VNSUBCLASS ID="comprise-107.2-1">
+  <SUBCLASSES/>
+  </VNSUBCLASS>
+  <VNSUBCLASS ID="comprise-107.2-2">
    <MEMBERS>
     <MEMBER grouping="comprise.01" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:01"/>
     <MEMBER grouping="consist.02" name="consist_of" verbnet_key="consist_of#1" wn="consist%2:42:01"/>
@@ -83,8 +88,7 @@
      </SEMANTICS>
     </FRAME>
    </FRAMES>
-   <SUBCLASSES>
-   </SUBCLASSES>
+  <SUBCLASSES/>
   </VNSUBCLASS>
  </SUBCLASSES>
 </VNCLASS>

@@ -22,7 +22,7 @@ path_fd = '../corpora/reference_docs/pred_calc_for_website_final.json'
 from pymongo import MongoClient
 
 mongo_client = MongoClient()
-db = mongo_client['uvi_corpora']
+db = mongo_client['new_corpora']
 bso_mongo={}
 #BSO
 with open(path_bso) as csv_file:
@@ -663,7 +663,11 @@ def build_verbnet_collection():
 
 	vn_class_ids = [class_id['class_id'] for class_id in list(db.verbnet.find({},{'class_id':1, '_id':0}))]
 	for class_id in vn_class_ids:
-		class_frames = db.verbnet.find_one({'class_id':class_id}, {'frames.examples.svg':0})['frames']
+		class_frames = []
+		cf = db.verbnet.find_one({'class_id':class_id}, {'frames.examples.svg':0})
+		if cf:
+			class_frames = cf['frames']
+
 		class_themrole_names = aggregate_themrole_list(class_id)
 		for frame_json in class_frames:
 			frame_desc = frame_json['description']['primary']
