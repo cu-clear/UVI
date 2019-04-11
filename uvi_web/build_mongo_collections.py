@@ -780,10 +780,10 @@ def build_propbank_collection():
 				example_list = []
 				for example in examples:
 					example_name = example.get('name')
-					example_text = example.find('text').text.strip()
+					example_text = example.find('text').text
 					args = parse_ex_args(example.findall('arg'))
 					rel = parse_ex_rel(example.find('rel'))
-					example_list.append({'example_name': example_name, 'example_text': example_text.replace('\n','').strip(), 'args': args, 'rel': rel})
+					example_list.append({'example_name': example_name, 'example_text': example_text, 'args': args, 'rel': rel})
 				
 				return example_list
 						

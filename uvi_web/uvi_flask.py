@@ -37,7 +37,10 @@ mail = Mail(app)
 
 @app.context_processor
 def context_methods():
-	return dict(top_parent_id=top_parent_id, unique_id=unique_id, mongo_to_json=mongo_to_json, formatted_def=formatted_def, full_class_hierarchy_tree=full_class_hierarchy_tree, get_themrole_fields=get_themrole_fields, get_pred_fields=get_pred_fields, get_constant_fields=get_constant_fields, get_verb_specific_fields=get_verb_specific_fields, remove_object_ids=remove_object_ids, colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined)
+	return dict(top_parent_id=top_parent_id, unique_id=unique_id, mongo_to_json=mongo_to_json, formatted_def=formatted_def, \
+		full_class_hierarchy_tree=full_class_hierarchy_tree, get_themrole_fields=get_themrole_fields, get_pred_fields=get_pred_fields, \
+		get_constant_fields=get_constant_fields, get_verb_specific_fields=get_verb_specific_fields, remove_object_ids=remove_object_ids, \
+		colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined)
 
 @app.route('/uvi_search')
 def uvi_search():
@@ -263,7 +266,7 @@ def welcome_frame():
 
 @app.route('/class_hierarchy')
 def class_hierarchy():
-	return render_template('class_hierarchy.html', floss_class = x, class_by_num=sort_by_id(), class_by_name=sort_by_char())
+	return render_template('class_hierarchy.html', class_by_num=sort_by_id(), class_by_name=sort_by_char())
 
 @app.route('/nlp_applications')
 def applications():

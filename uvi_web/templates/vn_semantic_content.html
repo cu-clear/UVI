@@ -24,11 +24,14 @@
 	{% for arg in pred['args'] %}
 	{% set arg_popover_id = semantic_arg_id ~ loop.index0 %}
 
-	{% if arg['arg_type'] == 'ThemRole' %}
+	{% if arg['arg_type'] in ['ThemRole','PredSpecific'] %}
 	<div id={{arg_popover_id}} style='display:none;'>
 		<div class='popover-body'> 
 		{% if get_themrole_fields(vn_class_json['class_id'], frame_desc_primary, frame_desc_secondary, arg['value']) is not none %} 
 			{% set themrole_fields = get_themrole_fields(vn_class_json['class_id'], frame_desc_primary, frame_desc_secondary, arg['value'])['themrole_fields'] %}
+			{% if arg['arg_type'] == 'PredSpecific' %}
+			  <span style='font-weight:bold'>Predicate Specific</span><br />
+			{% endif %}
 			<span style='font-weight:bold'>Definition:</span><br />
 			{{ themrole_fields['themrole_desc'] }}<br />
 
@@ -79,6 +82,9 @@
 				{% endif %}
 			{% else %}
 			<!--THIS SECTION IS A TEMPORARY FIX FOR ERRORS IN THE XML BACKEND -->
+			{% if arg['arg_type'] == 'PredSpecific' %}
+			  <span style='font-weight:bold'>Predicate Specific</span><br />
+			{% endif %}
 			{% set themrole_entry = get_themrole_fields_undefined(arg['value']) %}
 			<span style='font-weight:bold'>Definition:</span><br />
 			{{ themrole_entry['themrole_desc'] }}<br />
@@ -91,11 +97,19 @@
 
 		</div>
 	</div>
-	<a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'>
-	<span style="color:#5e81ac;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>
-	{{ arg['value'] }}
-	</span>
-	</a>
+	{% if arg['arg_type'] == 'ThemRole' %}
+	  <a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'>
+	  <span style="color:#5e81ac;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>
+	  {{ arg['value'] }}
+	  </span>
+	  </a>
+	{% elif arg['arg_type'] == 'PredSpecific' %}
+	  <a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'>
+	  <span style="color:#9d5ec4;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>
+	  {{ arg['value'] }}
+	  </span>
+	  </a>
+	{% endif %}
 
 
 	{% elif arg['arg_type'] == 'Event' %}
@@ -131,7 +145,6 @@
 	<a href={{url_for('process_query',verb_specific_arg=arg['value'])}} target='_blank'>
 	<span style="color:#b48ead; text-transform:capitalize;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>{{ arg['value'] }}</span>
 	</a>
-	
 
 	{% else %}
 	{{ arg['arg_type'] }}{{ arg['value'] }}
