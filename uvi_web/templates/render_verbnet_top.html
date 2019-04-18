@@ -30,8 +30,7 @@ to function improperly), making a separate top-level template necessary. Any rec
           {% include 'render_verbnet_parent.html' %}
           <br />
           {% endif %}
-          {% set count_hypen= vn_class_json['class_id'].count('-') %}
-          {% if count_hypen >1 %}
+          {% if vn_parent_elements %}
           <h9><font color="#999999">This is not the parent class. For full class view click below</font></h9><br/>
           {% endif %}
           {% if first_level %}
