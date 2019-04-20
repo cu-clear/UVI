@@ -490,7 +490,7 @@ def build_verbnet_collection():
 
 		
 		description = parse_description(frame.find('DESCRIPTION'))
-		examples = [{'example_text':example.text.replace('\n','').strip(), 'fd': parse_fd(fd_list, example.text), 'svg': dependency_tree_svg(example.text, ex_n)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
+		examples = [{'example_text':example.text.replace('\n','').strip(), 'fd': parse_fd(fd_list, example.text), 'svg': dependency_tree_svg(example.text.strip(), ex_n)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
 		syntax = [parse_syntax_arg(arg) for arg in frame.find('SYNTAX')]
 		semantics = [parse_pred(pred) for pred in frame.find('SEMANTICS')]
 		return {'description': description, 'examples': examples, 'syntax': syntax, 'semantics': semantics}
