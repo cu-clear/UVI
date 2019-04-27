@@ -5,12 +5,19 @@
   <div class="card">
     <div class="card-header" id="heading_{{id}}">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}" >
           <h5>lemma: {{ predicate['lemma'] }}</h5>
         </button>
       </h5>
     </div>
-    <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id_preds}}">
+    {% if  frame_json['frameset_id'] == predicate['lemma'] %}
+    <div id="collapse_{{id}}" class="collapse show" data-parent="#{{accordion_id_preds}}" >
+        <div class="card-body">
+          {% include 'render_propbank_rolesets.html' %}
+        </div>
+      </div>  
+    {% endif %}
+    <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id_preds}}" >
       <div class="card-body">
         {% include 'render_propbank_rolesets.html' %}
       </div>
