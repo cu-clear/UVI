@@ -267,9 +267,9 @@ def ref_to_db():
 		syn_restrs.insert_one({key: val})
 
 
-	### Get selectional restrictions
-	### This script finds selectional restrictions on themroles
-	# TODO: FInd selectional restrictions at class level
+	### Get selectional preferences
+	### This script finds selectional preferences on themroles
+	# TODO: FInd selectional preferences at class level
 
 
 	sel_res_dict = {}
@@ -288,7 +288,7 @@ def ref_to_db():
 								sel_res_dict[sel_elem['type']]['Themroles'][sel_elem['value']]['count'] +=1
 								sel_res_dict[sel_elem['type']]['Themroles'][sel_elem['value']]['vn_mem'].add(vn_class['class_id'])
 
-	## Add selectional restrictions to db
+	## Add selectional preference to db
 	db.drop_collection('verbnet.references.sel_restrs')
 	sel_restrs = db['verbnet']['references']['sel_restrs']
 	for key, val in sel_res_dict.items():

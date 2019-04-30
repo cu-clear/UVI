@@ -461,7 +461,7 @@ def get_themrole_fields(class_id, frame_desc_primary, frame_desc_secondary, them
 #               selrestr_logic = selrestr_fields[1]
 #               selrestrs_html = ''
 #               if selrestr_list:
-#                   selrestrs_html += '<br /><strong style="color:#bf616a;">Selectional Restrictions:</strong><br />'
+#                   selrestrs_html += '<br /><strong style="color:#bf616a;">Selectional Preferences:</strong><br />'
 #                   for selrestr_index, selrestr in enumerate(selrestr_list):
 #                       if selrestr_index < len(selrestr_list) - 1:
 #                           selrestrs_html += selrestr['value'] + selrestr['type'].upper() + ' ' + selrestr_logic + ' '
@@ -544,7 +544,7 @@ def get_themrole_fields(class_id, frame_desc_primary, frame_desc_secondary, them
 #           selrestr_logic = selrestr_fields[1]
 
 #           if selrestr_list:
-#               selrestrs_html += '<br /><strong style="color:#bf616a;">Selectional Restrictions:</strong><br />'
+#               selrestrs_html += '<br /><strong style="color:#bf616a;">Selectional Preferences:</strong><br />'
 #               for selrestr_index, selrestr in enumerate(selrestr_list):
 #                   if selrestr_index < len(selrestr_list) - 1:
 #                       selrestrs_html += selrestr['value'] + selrestr['type'].upper() + ' ' + selrestr_logic + ' '

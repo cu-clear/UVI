@@ -16,7 +16,7 @@
 			{% set selrestr_list = themrole_fields['selrestr_list'] %}
 			{% set selrestr_logic = themrole_fields['selrestr_logic'] %}
 			{% if selrestr_list is not none %}
-			<span style='color:#bf616a; font-weight:bold'>Selectional Restrictions:</span><br />
+			<span style='color:#bf616a; font-weight:bold'>Selectional Preferences:</span><br />
 			{% for selrestr in selrestr_list %}
 				{% if loop.last %}
 				<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='class')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a>
@@ -45,7 +45,7 @@
 			{% set frame_selrestr_list = themrole_fields['frame_level_selrestrs_list'] %}
 			{% set frame_selrestr_logic = themrole_fields['frame_level_selrestrs_logic'] %}
 			{% if frame_selrestr_list is not none %}
-			<span style='color:MediumPurple; font-weight:bold'>Frame-Level Selectional Restrictions:</span><br />
+			<span style='color:MediumPurple; font-weight:bold'>Frame-Level Selectional Preferences:</span><br />
 			{% for selrestr in frame_selrestr_list %}
 				{% if loop.last %}
 				<a href={{url_for('process_query',selrestr=selrestr['type'],selrestr_val=selrestr['value'],level='frame')}} target='_blank'>{{ selrestr['value'] }}{{ selrestr['type'] }}</a>
@@ -79,7 +79,7 @@
 		<div class='popover-body'>
 			{% set selrestr_list = arg['selrestrs']['selrestr_list'] %}
 			{% set selrestr_logic = arg['selrestrs']['selrestr_logic'] %}
-			<span style='color:#bf616a; font-weight:bold'>Selectional Restrictions:</span><br />
+			<span style='color:#bf616a; font-weight:bold'>Selectional Preferences:</span><br />
 			{% if selrestr_list is not none %}
 			{% for selrestr in selrestr_list %}
 				{% if loop.last %}
