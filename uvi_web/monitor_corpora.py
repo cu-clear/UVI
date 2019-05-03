@@ -80,7 +80,7 @@ print("Building all collections and monitoring corpora: "+datetime.datetime.now(
 build_mongo_collections.build_verbnet_collection()
 build_mongo_collections.build_propbank_collection()
 build_mongo_collections.build_framenet_collection()
-#build_mongo_collections.add_onto_to_db()
+build_mongo_collections.add_onto_to_db()
 
 
 watch_manager = pyinotify.WatchManager()
@@ -89,7 +89,7 @@ wdd_vn = watch_manager.add_watch('../corpora/verbnet', pyinotify.ALL_EVENTS)
 wdd_vn_refs = watch_manager.add_watch('../corpora/reference_docs', pyinotify.ALL_EVENTS)
 wdd_pb = watch_manager.add_watch('../corpora/propbank/frames', pyinotify.ALL_EVENTS)
 wdd_fn = watch_manager.add_watch('../corpora/framenet', pyinotify.ALL_EVENTS)
-# wdd_on = watch_manager.add_watch('../corpora/ontonotes', pyinotify.ALL_EVENTS)
+wdd_on = watch_manager.add_watch('../corpora/ontonotes', pyinotify.ALL_EVENTS)
 
 handler = EventHandler()
 notifier = pyinotify.Notifier(watch_manager, handler)
