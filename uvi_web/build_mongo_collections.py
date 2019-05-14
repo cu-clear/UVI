@@ -182,9 +182,15 @@ def ref_to_db():
 		for tr in themrole_list['themroles']:
 			if tr['themrole'] not in themroles_dict:
 				themroles_dict[tr['themrole']] = {'count':1, 'vn_class_members':set([themrole_list['class_id']])}
-				role_index = next((index for (index, d) in enumerate(themrole_defs) if d["name"] == "Patient"), None)
-				themroles_dict[tr['themrole']]['description'] = themrole_defs[role_index]['description']
-				themroles_dict[tr['themrole']]['example'] = themrole_defs[role_index]['example']            
+				role_index = next((index for (index, d) in enumerate(themrole_defs) if d["name"] == tr['themrole']), None)
+				if not role_index:
+					themroles_dict[tr['themrole']]['description'] = 'No description found'
+					themroles_dict[tr['themrole']]['example'] = 'No examples found'
+				else:
+					themroles_dict[tr['themrole']]['description'] = themrole_defs[role_index]['description']
+					themroles_dict[tr['themrole']]['example'] = themrole_defs[role_index]['example'] 
+				print(tr['themrole'], themroles_dict[tr['themrole']]['description'])
+           
 			else:
 				themroles_dict[tr['themrole']]['count']+=1
 				themroles_dict[tr['themrole']]['vn_class_members'].add(themrole_list['class_id'])
