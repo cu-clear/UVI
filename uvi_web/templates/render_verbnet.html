@@ -69,6 +69,16 @@
                           {% endfor %}
                           {% endif %}
 
+                          <b>FrameNet:</b><br />
+                          {% set fn = member['fn'] %}
+                          {% if fn|length == 0 %}
+                          None <br />
+                          {% else %}
+                          {% for fn_frame in fn %}
+                          <a href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{fn_frame}}" target='_blank'>{{ fn_frame }}</a><br/>
+                          {% endfor %}
+                          {% endif %}
+
                           <b>BSO:</b><br />
                           {% set bso = member['bso'] %}
                           {% if bso == none %}
@@ -131,6 +141,16 @@
                       {% for grouping in groupings %}
                       {% set grouping_id = grouping.split('.')[0]~'-v.html' %}
                       <a href="http://verbs.colorado.edu/html_groupings/{{grouping_id}}" target="_blank">{{ grouping }}</a> <br />
+                      {% endfor %}
+                      {% endif %}
+
+                      <b>FrameNet:</b><br />
+                      {% set fn = member['fn'] %}
+                      {% if fn|length == 0 %}
+                      None <br />
+                      {% else %}
+                      {% for fn_frame in fn %}
+                      <a href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{fn_frame}}" target='_blank'>{{ fn_frame }}</a><br/>
                       {% endfor %}
                       {% endif %}
 
