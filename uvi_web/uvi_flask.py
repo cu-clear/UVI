@@ -79,6 +79,8 @@ def index():
 
 @app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():
+	## mail recipients 
+	recipients = configs['MAIL_SETUP']['recipients'].split(',')
 	if request.method=='POST':
 		reply_to_name = request.form.get('name')
 		reply_to=request.form.get('email')
@@ -86,7 +88,7 @@ def contact_us():
 		message = request.form.get('message')
 		msg = Message(subject=subject, 
 						sender=app.config.get("MAIL_USERNAME"), 
-						recipients=["uvi.contact@gmail.com"],
+						recipients=recipients,
 						body=message)
 		msg.add_recipient(reply_to)
 		mail.send(msg)
