@@ -1,21 +1,21 @@
 <VNCLASS ID="coloring-24" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Material comes from the verb-->
-        <MEMBER grouping="color.01" name="color" wn="color%2:30:00 color%2:36:01"/>
-        <MEMBER grouping="" name="distemper" wn="distemper%2:36:00"/>
-        <MEMBER grouping="" name="dye" wn="dye%2:30:00"/>
-        <MEMBER grouping="" name="enamel" wn="enamel%2:36:00"/>
-        <MEMBER grouping="glaze.01" name="glaze" wn="glaze%2:35:00"/>
-        <MEMBER grouping="" name="japan" wn="japan%2:36:00"/>
-        <MEMBER grouping="" name="lacquer" wn="lacquer%2:36:00"/>
-        <MEMBER grouping="paint.01 paint.02" name="paint" wn="paint%2:35:00"/>
-        <MEMBER grouping="" name="repaint" wn=""/>
-        <MEMBER grouping="" name="shellac" wn="shellac%2:35:00"/>
-        <MEMBER grouping="" name="spraypaint" wn=""/>
-        <MEMBER grouping="stain.01 stain.02 stain.03" name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
-        <MEMBER grouping="" name="starch" wn="starch%2:30:00"/>
-        <MEMBER grouping="" name="tint" wn="tint%2:30:00"/>
-        <MEMBER grouping="" name="varnish" wn="varnish%2:35:00"/>
+        <MEMBER fnframe="" grouping="color.01" name="color" wn="color%2:30:00 color%2:36:01"/>
+        <MEMBER fnframe="" grouping="" name="distemper" wn="distemper%2:36:00"/>
+        <MEMBER fnframe="Processing_materials" grouping="" name="dye" wn="dye%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="enamel" wn="enamel%2:36:00"/>
+        <MEMBER fnframe="Filling" grouping="glaze.01" name="glaze" wn="glaze%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="japan" wn="japan%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="lacquer" wn="lacquer%2:36:00"/>
+        <MEMBER fnframe="Create_physical_artwork Create_representation Filling" grouping="paint.01 paint.02" name="paint" wn="paint%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="repaint" wn=""/>
+        <MEMBER fnframe="" grouping="" name="shellac" wn="shellac%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="spraypaint" wn=""/>
+        <MEMBER fnframe="Processing_materials" grouping="stain.01 stain.02 stain.03" name="stain" wn="stain%2:30:01 stain%2:30:00 stain%2:30:04"/>
+        <MEMBER fnframe="" grouping="" name="starch" wn="starch%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="tint" wn="tint%2:30:00"/>
+        <MEMBER fnframe="Filling" grouping="" name="varnish" wn="varnish%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -52,7 +52,7 @@
             <SEMANTICS>
                 <PRED bool="!" value="covered">
                     <ARGS>
-                    	<ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="V_Material"/>
                     </ARGS>
@@ -60,7 +60,7 @@
                 <PRED value="apply_material">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
-						<ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="V_Material"/>
                     </ARGS>
@@ -102,7 +102,7 @@
             <SEMANTICS>
                 <PRED bool="!" value="covered">
                     <ARGS>
-                    	<ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="V_Material"/>
                     </ARGS>
@@ -110,7 +110,7 @@
                 <PRED value="apply_material">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
-						<ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="V_Material"/>
                     </ARGS>
@@ -131,7 +131,7 @@
                 <PRED value="has_state">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-						<ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>
@@ -164,7 +164,7 @@
             <SEMANTICS>
                 <PRED bool="!" value="covered">
                     <ARGS>
-                    	<ARG type="Event" value="e1"/>
+                        <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="V_Material"/>
                     </ARGS>
@@ -172,7 +172,7 @@
                 <PRED value="apply_material">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
-						<ARG type="ThemRole" value="Agent"/>
+                        <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
                         <ARG type="VerbSpecific" value="V_Material"/>
                     </ARGS>
@@ -193,7 +193,7 @@
                 <PRED value="has_state">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-						<ARG type="ThemRole" value="Patient"/>
+                        <ARG type="ThemRole" value="Patient"/>
                         <ARG type="ThemRole" value="Result"/>
                     </ARGS>
                 </PRED>

@@ -1,36 +1,35 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="berry-13.7" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="berry-13.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="antique" wn="antique%2:40:00" grouping=""/>
-        <MEMBER name="berry" wn="berry%2:35:00" grouping=""/>
-        <MEMBER name="birdnest" wn="birdnest%2:35:00" grouping=""/>
-        <MEMBER name="blackberry" wn="blackberry%2:35:00" grouping=""/>
-        <MEMBER name="clam" wn="clam%2:35:00" grouping=""/>
-        <MEMBER name="crab" wn="crab%2:33:00" grouping=""/>
-        <MEMBER name="fish" wn="fish%2:33:00" grouping="fish.02"/>
-        <MEMBER name="fowl" wn="fowl%2:33:01 fowl%2:33:00" grouping=""/>
-        <MEMBER name="grouse" wn="grouse%2:33:00" grouping=""/>
-        <MEMBER name="hog" wn="" grouping=""/>
-        <MEMBER name="hay" wn="" grouping=""/>
-        <MEMBER name="log" wn="log%2:35:00" grouping="log.04"/>
-        <MEMBER name="mushroom" wn="mushroom%2:35:00" grouping="mushroom.03"/>
-        <MEMBER name="nest" wn="nest%2:35:01" grouping="nest.03"/>
-        <MEMBER name="nut" wn="nut%2:35:00" grouping=""/>
-        <MEMBER name="oyster" wn="oyster%2:35:00" grouping=""/>
-        <MEMBER name="pearl" wn="pearl%2:35:00" grouping=""/>
-        <MEMBER name="prawn" wn="prawn%2:35:00" grouping=""/>
-        <MEMBER name="rabbit" wn="rabbit%2:33:00" grouping=""/>
-        <MEMBER name="scollop" wn="scollop%2:33:00" grouping="scollop.02"/>
-        <MEMBER name="seal" wn="seal%2:33:00" grouping="seal.04"/>
-        <MEMBER name="shark" wn="shark%2:33:00" grouping=""/>
-        <MEMBER name="shrimp" wn="shrimp%2:33:00" grouping=""/>
-        <MEMBER name="snail" wn="snail%2:35:00" grouping=""/>
-        <MEMBER name="snipe" wn="snipe%2:33:01" grouping="snipe.01"/>
-        <MEMBER name="sponge" wn="sponge%2:35:03" grouping=""/>
-        <MEMBER name="whale" wn="whale%2:33:00" grouping=""/>
-        <MEMBER name="whelk" wn="whelk%2:33:00" grouping=""/>
-        <MEMBER name="whore" wn="whore%2:35:00" grouping="whore.02"/>
-        <MEMBER name="hawk" wn="hawk%2:33:00" grouping="hawk.02"/>
+        <MEMBER fnframe="" grouping="" name="antique" wn="antique%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="berry" wn="berry%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="birdnest" wn="birdnest%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="blackberry" wn="blackberry%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="clam" wn="clam%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="crab" wn="crab%2:33:00"/>
+        <MEMBER fnframe="" grouping="fish.02" name="fish" wn="fish%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="fowl" wn="fowl%2:33:01 fowl%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="grouse" wn="grouse%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="hog" wn=""/>
+        <MEMBER fnframe="" grouping="" name="hay" wn=""/>
+        <MEMBER fnframe="" grouping="log.04" name="log" wn="log%2:35:00"/>
+        <MEMBER fnframe="" grouping="mushroom.03" name="mushroom" wn="mushroom%2:35:00"/>
+        <MEMBER fnframe="" grouping="nest.03" name="nest" wn="nest%2:35:01"/>
+        <MEMBER fnframe="" grouping="" name="nut" wn="nut%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="oyster" wn="oyster%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="pearl" wn="pearl%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="prawn" wn="prawn%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="rabbit" wn="rabbit%2:33:00"/>
+        <MEMBER fnframe="" grouping="scollop.02" name="scollop" wn="scollop%2:33:00"/>
+        <MEMBER fnframe="" grouping="seal.04" name="seal" wn="seal%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="shark" wn="shark%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="shrimp" wn="shrimp%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="snail" wn="snail%2:35:00"/>
+        <MEMBER fnframe="" grouping="snipe.01" name="snipe" wn="snipe%2:33:01"/>
+        <MEMBER fnframe="" grouping="" name="sponge" wn="sponge%2:35:03"/>
+        <MEMBER fnframe="" grouping="" name="whale" wn="whale%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="whelk" wn="whelk%2:33:00"/>
+        <MEMBER fnframe="" grouping="whore.02" name="whore" wn="whore%2:35:00"/>
+        <MEMBER fnframe="" grouping="hawk.02" name="hawk" wn="hawk%2:33:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -43,7 +42,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>The children berry in the summer.</EXAMPLE>
+                <EXAMPLE>
+                    The children berry in the summer.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -99,7 +100,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>The children went fishing.</EXAMPLE>
+                <EXAMPLE>
+                    The children went fishing.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

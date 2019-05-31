@@ -86,6 +86,16 @@ to function improperly), making a separate top-level template necessary. Any rec
                           {% endfor %}
                           {% endif %}
 
+                          <b>FrameNet:</b><br />
+                          {% set fn = member['fn'] %}
+                          {% if fn|length == 0 %}
+                          None <br />
+                          {% else %}
+                          {% for fn_frame in fn %}
+                          <a href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{fn_frame}}" target='_blank'>{{ fn_frame }}</a><br/>
+                          {% endfor %}
+                          {% endif %}
+
                           <b>BSO:</b><br />
                           {% set bso = member['bso'] %}
                           {% if bso == none %}

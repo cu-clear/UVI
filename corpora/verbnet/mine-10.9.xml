@@ -1,7 +1,7 @@
 <VNCLASS ID="mine-10.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="mine.01" name="mine" wn="mine%2:34:00"/>
-        <MEMBER grouping="" name="quarry" wn="quarry%2:34:00"/>
+        <MEMBER fnframe="" grouping="mine.01" name="mine" wn="mine%2:34:00"/>
+        <MEMBER fnframe="" grouping="" name="quarry" wn="quarry%2:34:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -59,14 +59,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -80,8 +80,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -126,14 +126,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
@@ -147,8 +147,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

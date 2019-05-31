@@ -1,9 +1,9 @@
 <VNCLASS ID="order-58.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="announce.01" name="announce" wn="announce%2:32:02"/>
-        <MEMBER grouping="declare.01" name="declare" wn="declare%2:32:05"/>
-        <MEMBER grouping="demand.01" name="demand" wn="demand%2:32:02 demand%2:32:00"/>
-        <MEMBER grouping="mandate.01" name="mandate" wn="mandate%2:32:02"/>
+        <MEMBER fnframe="" grouping="announce.01" name="announce" wn="announce%2:32:02"/>
+        <MEMBER fnframe="" grouping="declare.01" name="declare" wn="declare%2:32:05"/>
+        <MEMBER fnframe="" grouping="demand.01" name="demand" wn="demand%2:32:02 demand%2:32:00"/>
+        <MEMBER fnframe="" grouping="mandate.01" name="mandate" wn="mandate%2:32:02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -113,11 +113,11 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="order-58.3-1">
             <MEMBERS>
-                <MEMBER grouping="authorize.01 authorize.02" name="authorize" wn="authorize%2:32:00                 authorize%2:41:00"/>
-                <MEMBER grouping="command.02" name="command" wn="command%2:32:00"/>
-                <MEMBER grouping="commission.03" name="commission" wn="commission%2:41:00"/>
-                <MEMBER grouping="order.01" name="order" wn="order%2:32:01"/>
-                <MEMBER grouping="require.01 require.02" name="require" wn="require%2:32:01 require%2:32:00                 require%2:34:00"/>
+                <MEMBER fnframe="" grouping="authorize.01 authorize.02" name="authorize" wn="authorize%2:32:00 authorize%2:41:00"/>
+                <MEMBER fnframe="" grouping="command.02" name="command" wn="command%2:32:00"/>
+                <MEMBER fnframe="" grouping="commission.03" name="commission" wn="commission%2:41:00"/>
+                <MEMBER fnframe="" grouping="order.01" name="order" wn="order%2:32:01"/>
+                <MEMBER fnframe="" grouping="require.01 require.02" name="require" wn="require%2:32:01 require%2:32:00 require%2:34:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

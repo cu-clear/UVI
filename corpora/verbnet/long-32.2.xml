@@ -41,21 +41,21 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="long-32.2-1">
             <MEMBERS>
-                <MEMBER name="ache" wn="ache%2:37:06" grouping="ache.02"/>
-                <MEMBER name="crave" wn="crave%2:34:00" grouping="crave.01"/>
-                <MEMBER name="die" wn="die%2:37:00 die%2:37:01" grouping="die.03"/>
-                <MEMBER name="fall" wn="" grouping=""/>
-                <MEMBER name="hanker" wn="hanker%2:37:00" grouping=""/>
-                <MEMBER name="hope" wn="hope%2:37:01" grouping="hope.01"/>
-                <MEMBER name="hunger" wn="hunger%2:34:01" grouping="hunger.01"/>
-                <MEMBER name="itch" wn="itch%2:37:00" grouping="itch.03"/>
-                <MEMBER name="long" wn="long%2:37:02" grouping=""/>
-                <MEMBER name="lust" wn="lust%2:34:00" grouping=""/>
-                <MEMBER name="pine" wn="pine%2:37:00" grouping=""/>
-                <MEMBER name="pray" wn="pray%2:32:00" grouping="pray.01"/>
-                <MEMBER name="thirst" wn="thirst%2:34:00" grouping=""/>
-                <MEMBER name="wish" wn="?wish%2:37:00 ?wish%2:32:01" grouping="wish.01 wish.02"/>
-                <MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping=""/>
+                <MEMBER fnframe="Desiring" name="ache" wn="ache%2:37:06" grouping="ache.02"/>
+                <MEMBER fnframe="Desiring" name="crave" wn="crave%2:34:00" grouping="crave.01"/>
+                <MEMBER fnframe="" name="die" wn="die%2:37:00 die%2:37:01" grouping="die.03"/>
+                <MEMBER fnframe="" name="fall" wn="" grouping=""/>
+                <MEMBER fnframe="" name="hanker" wn="hanker%2:37:00" grouping=""/>
+                <MEMBER fnframe="Desiring" name="hope" wn="hope%2:37:01" grouping="hope.01"/>
+                <MEMBER fnframe="Desiring" name="hunger" wn="hunger%2:34:01" grouping="hunger.01"/>
+                <MEMBER fnframe="Desiring" name="itch" wn="itch%2:37:00" grouping="itch.03"/>
+                <MEMBER fnframe="Desiring" name="long" wn="long%2:37:02" grouping=""/>
+                <MEMBER fnframe="" name="lust" wn="lust%2:34:00" grouping=""/>
+                <MEMBER fnframe="" name="pine" wn="pine%2:37:00" grouping=""/>
+                <MEMBER fnframe="Rite" name="pray" wn="pray%2:32:00" grouping="pray.01"/>
+                <MEMBER fnframe="" name="thirst" wn="thirst%2:34:00" grouping=""/>
+                <MEMBER fnframe="Desiring" name="wish" wn="?wish%2:37:00 ?wish%2:32:01" grouping="wish.01 wish.02"/>
+                <MEMBER fnframe="" name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -91,10 +91,10 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="long-32.2-2">
             <MEMBERS>
-                <MEMBER name="hanker" wn="hanker%2:37:00" grouping=""/>
-                <MEMBER name="lust" wn="lust%2:34:00" grouping=""/>
-                <MEMBER name="thirst" wn="thirst%2:34:00" grouping=""/>
-                <MEMBER name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping=""/>
+                <MEMBER fnframe="Desiring" name="hanker" wn="hanker%2:37:00" grouping=""/>
+                <MEMBER fnframe="Desiring" name="lust" wn="lust%2:34:00" grouping=""/>
+                <MEMBER fnframe="Desiring" name="thirst" wn="thirst%2:34:00" grouping=""/>
+                <MEMBER fnframe="Desiring" name="yearn" wn="yearn%2:37:00 yearn%2:37:01" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

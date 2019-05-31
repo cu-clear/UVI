@@ -1,23 +1,23 @@
 <VNCLASS ID="correspond-36.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--REMOVED "pair" misclassified-->
-        <MEMBER grouping="" name="banter" wn="banter%2:32:00"/>
-        <MEMBER grouping="" name="bargain" wn="bargain%2:32:00"/>
-        <MEMBER grouping="collaborate.01" name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-        <MEMBER grouping="collide.02" name="collide" wn=""/>
-        <MEMBER grouping="" name="commiserate" wn="commiserate%2:37:00"/>
-        <MEMBER grouping="communicate.01" name="communicate" wn="communicate%2:32:02"/>
-        <MEMBER grouping="compromise.01" name="compromise" wn=""/>
-        <MEMBER grouping="concur.01" name="concur" wn="concur%2:32:00"/>
-        <MEMBER grouping="" name="confer" wn=""/>
-        <MEMBER grouping="cooperate.01" name="cooperate" wn="cooperate%2:41:00"/>
-        <MEMBER grouping="correspond.02" name="correspond" wn="correspond%2:32:00"/>
-        <MEMBER grouping="" name="deliberate" wn=""/>
-        <MEMBER grouping="differ.02" name="differ" wn="differ%2:32:00"/>
-        <MEMBER grouping="disagree.01" name="disagree" wn="disagree%2:32:00"/>
-        <MEMBER grouping="" name="interact" wn=""/>
-        <MEMBER grouping="negotiate.01" name="negotiate" wn="negotiate%2:32:00"/>
-        <MEMBER grouping="plot.01" name="plot" wn="plot%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="banter" wn="banter%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="bargain" wn="bargain%2:32:00"/>
+        <MEMBER fnframe="" grouping="collaborate.01" name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+        <MEMBER fnframe="" grouping="collide.02" name="collide" wn=""/>
+        <MEMBER fnframe="" grouping="" name="commiserate" wn="commiserate%2:37:00"/>
+        <MEMBER fnframe="" grouping="communicate.01" name="communicate" wn="communicate%2:32:02"/>
+        <MEMBER fnframe="" grouping="compromise.01" name="compromise" wn=""/>
+        <MEMBER fnframe="" grouping="concur.01" name="concur" wn="concur%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="confer" wn=""/>
+        <MEMBER fnframe="" grouping="cooperate.01" name="cooperate" wn="cooperate%2:41:00"/>
+        <MEMBER fnframe="" grouping="correspond.02" name="correspond" wn="correspond%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="deliberate" wn=""/>
+        <MEMBER fnframe="" grouping="differ.02" name="differ" wn="differ%2:32:00"/>
+        <MEMBER fnframe="" grouping="disagree.01" name="disagree" wn="disagree%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="interact" wn=""/>
+        <MEMBER fnframe="" grouping="negotiate.01" name="negotiate" wn="negotiate%2:32:00"/>
+        <MEMBER fnframe="" grouping="plot.01" name="plot" wn="plot%2:31:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -557,7 +557,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="correspond-36.1.1-1">
             <MEMBERS>
-                <MEMBER grouping="agree.01 agree.02 agree.03" name="agree" wn="agree%2:32:00 agree%2:32:01 agree%2:42:00"/>
+                <MEMBER fnframe="" grouping="agree.01 agree.02 agree.03" name="agree" wn="agree%2:32:00 agree%2:32:01 agree%2:42:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -681,8 +681,8 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="correspond-36.1.1-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="debate.01" name="debate" wn="debate%2:32:01"/>
-                        <MEMBER grouping="argue.01" name="argue" wn="argue%2:32:00"/>
+                        <MEMBER fnframe="" grouping="debate.01" name="debate" wn="debate%2:32:01"/>
+                        <MEMBER fnframe="" grouping="argue.01" name="argue" wn="argue%2:32:00"/>
                     </MEMBERS>
                     <THEMROLES>
                     </THEMROLES>

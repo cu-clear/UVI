@@ -1,27 +1,27 @@
 <VNCLASS ID="light_emission-43.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="beam.02" name="beam" wn="beam%2:43:03"/>
-        <MEMBER grouping="" name="blaze" wn=""/>
-        <MEMBER grouping="blink.03" name="blink" wn="blink%2:39:00"/>
-        <MEMBER grouping="burn.02" name="burn" wn="burn%2:43:01"/>
-        <MEMBER grouping="flame.01" name="flame" wn="flame%2:43:00"/>
-        <MEMBER grouping="flare.01" name="flare" wn="flare%2:43:00 flare%2:43:01"/>
-        <MEMBER grouping="flash.01" name="flash" wn="flash%2:39:00 flash%2:30:04"/>
-        <MEMBER grouping="flicker.01" name="flicker" wn="flicker%2:38:00 flicker%2:43:00 flicker%2:39:00"/>
-        <MEMBER grouping="" name="fluoresce" wn=""/>
-        <MEMBER grouping="glare.02" name="glare" wn="glare%2:43:01 glare%2:39:01"/>
-        <MEMBER grouping="gleam.01" name="gleam" wn="gleam%2:39:01 gleam%2:39:00"/>
-        <MEMBER grouping="" name="glimmer" wn="glimmer%2:39:00"/>
-        <MEMBER grouping="" name="glint" wn="glint%2:39:00"/>
-        <MEMBER grouping="" name="glisten" wn="glisten%2:39:00"/>
-        <MEMBER grouping="" name="glitter" wn="glitter%2:39:00"/>
-        <MEMBER grouping="glow.01" name="glow" wn="glow%2:39:00 glow%2:43:00"/>
-        <MEMBER grouping="" name="incandesce" wn="incandesce%2:30:01 incandesce%2:30:00"/>
-        <MEMBER grouping="" name="scintillate" wn="scintillate%2:43:00"/>
-        <MEMBER grouping="" name="shimmer" wn="shimmer%2:43:00"/>
-        <MEMBER grouping="shine.01 shine.02" name="shine" wn="shine%2:43:01 shine%2:43:00 shine%2:39:01 shine%2:42:00"/>
-        <MEMBER grouping="" name="sparkle" wn="sparkle%2:43:00"/>
-        <MEMBER grouping="" name="twinkle" wn="twinkle%2:39:00 twinkle%2:43:00"/>
+        <MEMBER fnframe="" grouping="beam.02" name="beam" wn="beam%2:43:03"/>
+        <MEMBER fnframe="" grouping="" name="blaze" wn=""/>
+        <MEMBER fnframe="" grouping="blink.03" name="blink" wn="blink%2:39:00"/>
+        <MEMBER fnframe="" grouping="burn.02" name="burn" wn="burn%2:43:01"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="flame.01" name="flame" wn="flame%2:43:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="flare.01" name="flare" wn="flare%2:43:00 flare%2:43:01"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="flash.01" name="flash" wn="flash%2:39:00 flash%2:30:04"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="flicker.01" name="flicker" wn="flicker%2:38:00 flicker%2:43:00 flicker%2:39:00"/>
+        <MEMBER fnframe="" grouping="" name="fluoresce" wn=""/>
+        <MEMBER fnframe="" grouping="glare.02" name="glare" wn="glare%2:43:01 glare%2:39:01"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="gleam.01" name="gleam" wn="gleam%2:39:01 gleam%2:39:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="glimmer" wn="glimmer%2:39:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="glint" wn="glint%2:39:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="glisten" wn="glisten%2:39:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="glitter" wn="glitter%2:39:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="glow.01" name="glow" wn="glow%2:39:00 glow%2:43:00"/>
+        <MEMBER fnframe="" grouping="" name="incandesce" wn="incandesce%2:30:01 incandesce%2:30:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="scintillate" wn="scintillate%2:43:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="shimmer" wn="shimmer%2:43:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="shine.01 shine.02" name="shine" wn="shine%2:43:01 shine%2:43:00 shine%2:39:01 shine%2:42:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="sparkle" wn="sparkle%2:43:00"/>
+        <MEMBER fnframe="Light_movement Location_of_light" grouping="" name="twinkle" wn="twinkle%2:39:00 twinkle%2:43:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">

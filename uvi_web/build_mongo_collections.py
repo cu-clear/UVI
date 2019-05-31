@@ -188,9 +188,7 @@ def ref_to_db():
 					themroles_dict[tr['themrole']]['example'] = 'No examples found'
 				else:
 					themroles_dict[tr['themrole']]['description'] = themrole_defs[role_index]['description']
-					themroles_dict[tr['themrole']]['example'] = themrole_defs[role_index]['example'] 
-				print(tr['themrole'], themroles_dict[tr['themrole']]['description'])
-           
+					themroles_dict[tr['themrole']]['example'] = themrole_defs[role_index]['example']            
 			else:
 				themroles_dict[tr['themrole']]['count']+=1
 				themroles_dict[tr['themrole']]['vn_class_members'].add(themrole_list['class_id'])
@@ -322,6 +320,7 @@ def build_verbnet_collection():
 		bso=[]
 		name = member.get('name')
 		wn = member.get('wn').split(' ')
+		fn = [el for el in member.get('fnframe').split(' ') if el]
 		grouping = member.get('grouping').split(' ')
 		vs_features = member.get('features')
 		if vs_features != None:
@@ -336,7 +335,7 @@ def build_verbnet_collection():
 					bso.append(val[0])
 		if not bso:
 			bso=None
-		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features,'bso':bso}
+		return {'name': name, 'wn': wn, 'grouping': grouping, 'vs_features': vs_features,'bso':bso, 'fn': fn}
 			
 	def parse_themrole(themrole):
 		def parse_selrestr(selrestr):

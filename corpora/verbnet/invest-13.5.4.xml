@@ -1,7 +1,7 @@
 <VNCLASS ID="invest-13.5.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="buy.04" name="buy" wn=""/>
-        <MEMBER grouping="speculate.03" name="speculate" wn=""/>
+        <MEMBER fnframe="" grouping="buy.04" name="buy" wn=""/>
+        <MEMBER fnframe="" grouping="speculate.03" name="speculate" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -76,10 +76,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="invest-13.5.4-1">
             <MEMBERS>
-                <MEMBER grouping="invest.01" name="invest" wn=""/>
-                <MEMBER grouping="put.05" name="put" wn=""/>
-                <MEMBER grouping="" name="commit" wn=""/>
-                <MEMBER grouping="" name="allocate" wn=""/>
+                <MEMBER fnframe="" grouping="invest.01" name="invest" wn=""/>
+                <MEMBER fnframe="" grouping="put.05" name="put" wn=""/>
+                <MEMBER fnframe="" grouping="" name="commit" wn=""/>
+                <MEMBER fnframe="" grouping="" name="allocate" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -142,7 +142,7 @@
                     <EXAMPLES>
                         <EXAMPLE>
                             Lionsgate invested $21 million in stock
-                                                                                                                                                                                                                                                                                                                                                                                                for a 42% stake in Break.com
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                for a 42% stake in Break.com
                         </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>

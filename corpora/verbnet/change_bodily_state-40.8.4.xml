@@ -1,20 +1,20 @@
 <VNCLASS ID="change_bodily_state-40.8.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--verb add a manner predicate-->
-        <MEMBER grouping="" name="blanch" wn="blanch%2:29:00"/>
-        <MEMBER grouping="" name="blench" wn=""/>
-        <MEMBER grouping="" name="faint" wn="faint%2:29:00"/>
-        <MEMBER grouping="" name="pale" wn=""/>
-        <MEMBER grouping="sicken.01" name="sicken" wn="sicken%2:29:00"/>
-        <MEMBER grouping="" name="black_out" wn="black_out%2:29:00"/>
-        <MEMBER grouping="" name="swoon" wn="swoon%2:29:00"/>
-        <MEMBER grouping="" name="doze_off" wn="doze_off%2:29:00"/>
-        <MEMBER grouping="" name="drowse_off" wn="drowse_off%2:29:00"/>
-        <MEMBER grouping="" name="drift_off" wn="drift_off%2:29:00"/>
-        <MEMBER grouping="" name="konk_out" wn=""/>
-        <MEMBER grouping="" name="nod_off" wn="nod_off%2:29:00"/>
-        <MEMBER grouping="" name="pass_out" wn="pass_out%2:29:01"/>
-        <MEMBER grouping="" name="zonk_out" wn="zonk_out%2:29:01"/>
+        <MEMBER fnframe="" grouping="" name="blanch" wn="blanch%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="blench" wn=""/>
+        <MEMBER fnframe="" grouping="" name="faint" wn="faint%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="pale" wn=""/>
+        <MEMBER fnframe="Experiencer_obj" grouping="sicken.01" name="sicken" wn="sicken%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="black_out" wn="black_out%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="swoon" wn="swoon%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="doze_off" wn="doze_off%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="drowse_off" wn="drowse_off%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="drift_off" wn="drift_off%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="konk_out" wn=""/>
+        <MEMBER fnframe="" grouping="" name="nod_off" wn="nod_off%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="pass_out" wn="pass_out%2:29:01"/>
+        <MEMBER fnframe="" grouping="" name="zonk_out" wn="zonk_out%2:29:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -41,7 +41,7 @@
                 <VERB/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED bool = "!" value="has_state">
+                <PRED bool="!" value="has_state">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Experiencer"/>
@@ -98,7 +98,7 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED bool = "!" value="has_state">
+                <PRED bool="!" value="has_state">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Experiencer"/>

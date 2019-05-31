@@ -1,16 +1,16 @@
 <VNCLASS ID="performance-26.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="belt.01" name="belt" wn="belt%2:36:00"/>
-        <MEMBER grouping="chant.01" name="chant" wn="chant%2:32:00"/>
-        <MEMBER grouping="direct.01" name="direct" wn="direct%2:36:00 direct%2:36:02"/>
-        <MEMBER grouping="enact.02" name="enact" wn=""/>
-        <MEMBER grouping="heel.03" name="heel" wn="heel%2:36:00"/>
-        <MEMBER grouping="" name="improvise" wn=""/>
-        <MEMBER grouping="" name="intone" wn="intone%2:32:00"/>
-        <MEMBER grouping="model.03" name="model" wn="model%2:39:01"/>
-        <MEMBER grouping="perform.02" name="perform" wn="perform%2:36:01"/>
-        <MEMBER grouping="rap.03" name="rap" wn="rap%2:36:10"/>
-        <MEMBER grouping="vocalize.02" name="vocalize" wn="vocalize%2:36:00"/>
+        <MEMBER fnframe="" grouping="belt.01" name="belt" wn="belt%2:36:00"/>
+        <MEMBER fnframe="" grouping="chant.01" name="chant" wn="chant%2:32:00"/>
+        <MEMBER fnframe="" grouping="direct.01" name="direct" wn="direct%2:36:00 direct%2:36:02"/>
+        <MEMBER fnframe="" grouping="enact.02" name="enact" wn=""/>
+        <MEMBER fnframe="" grouping="heel.03" name="heel" wn="heel%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="improvise" wn=""/>
+        <MEMBER fnframe="" grouping="" name="intone" wn="intone%2:32:00"/>
+        <MEMBER fnframe="" grouping="model.03" name="model" wn="model%2:39:01"/>
+        <MEMBER fnframe="" grouping="perform.02" name="perform" wn="perform%2:36:01"/>
+        <MEMBER fnframe="" grouping="rap.03" name="rap" wn="rap%2:36:10"/>
+        <MEMBER fnframe="" grouping="vocalize.02" name="vocalize" wn="vocalize%2:36:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -119,14 +119,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="performance-26.7-1">
             <MEMBERS>
-                <MEMBER grouping="dance.01" name="dance" wn="dance%2:36:00"/>
-                <MEMBER grouping="hum.01" name="hum" wn="hum%2:32:00"/>
-                <MEMBER grouping="play.02 play.04" name="play" wn="play%2:36:12 play%2:36:02 play%2:36:00 play%2:36:01 play%2:36:11 play%2:36:05 play%2:36:10 play%2:36:04"/>
-                <MEMBER grouping="recite.01" name="recite" wn="recite%2:32:02 recite%2:32:00                 recite%2:36:00"/>
-                <MEMBER grouping="" name="replay" wn="replay%2:36:00"/>
-                <MEMBER grouping="stage.01                 stage.02 stage.03" name="stage" wn="stage%2:36:00"/>
-                <MEMBER grouping="sing.01" name="sing" wn="sing%2:36:01 sing%2:36:00"/>
-                <MEMBER grouping="whistle.01" name="whistle" wn="whistle%2:32:00"/>
+                <MEMBER fnframe="" grouping="dance.01" name="dance" wn="dance%2:36:00"/>
+                <MEMBER fnframe="" grouping="hum.01" name="hum" wn="hum%2:32:00"/>
+                <MEMBER fnframe="" grouping="play.02 play.04" name="play" wn="play%2:36:12 play%2:36:02 play%2:36:00 play%2:36:01 play%2:36:11 play%2:36:05 play%2:36:10 play%2:36:04"/>
+                <MEMBER fnframe="" grouping="recite.01" name="recite" wn="recite%2:32:02 recite%2:32:00 recite%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="replay" wn="replay%2:36:00"/>
+                <MEMBER fnframe="" grouping="stage.01 stage.02 stage.03" name="stage" wn="stage%2:36:00"/>
+                <MEMBER fnframe="" grouping="sing.01" name="sing" wn="sing%2:36:01 sing%2:36:00"/>
+                <MEMBER fnframe="" grouping="whistle.01" name="whistle" wn="whistle%2:32:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

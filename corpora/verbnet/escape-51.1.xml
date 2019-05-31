@@ -1,8 +1,8 @@
 <VNCLASS ID="escape-51.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="cut.04" name="cut" wn="cut%2:38:13 cut%2:38:12"/>
-        <MEMBER grouping="get.04" name="get" wn="get%2:38:00 get%2:38:15"/>
-        <MEMBER grouping="" name="make_it" wn=""/>
+        <MEMBER fnframe="" grouping="cut.04" name="cut" wn="cut%2:38:13 cut%2:38:12"/>
+        <MEMBER fnframe="" grouping="get.04" name="get" wn="get%2:38:00 get%2:38:15"/>
+        <MEMBER fnframe="" grouping="" name="make_it" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -58,7 +58,7 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/> 
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
@@ -73,10 +73,10 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-                        <ARG type="ThemRole" value="Theme"/>              
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
-                </PRED>                
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -110,7 +110,7 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/> 
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
@@ -125,10 +125,10 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-                        <ARG type="ThemRole" value="Theme"/>              
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
-                </PRED> 
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
@@ -170,7 +170,7 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/> 
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
@@ -185,46 +185,46 @@
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
-                        <ARG type="ThemRole" value="Theme"/>              
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
-                </PRED> 
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
         <VNSUBCLASS ID="escape-51.1-1">
             <MEMBERS>
-                <MEMBER grouping="advance.01" name="advance" wn="advance%2:38:00"/>
-                <MEMBER grouping="approach.01" name="approach" wn="approach%2:38:00"/>
-                <MEMBER grouping="come.01" name="come" wn="come%2:38:00 come%2:38:04"/>
-                <MEMBER grouping="continue.03" name="continue" wn="continue%2:38:00"/>
-                <MEMBER grouping="" name="decamp" wn="decamp%2:38:00                        decamp%2:38:01 decamp%2:38:02"/>
-                <MEMBER grouping="fall.01" name="fall" wn="fall%2:38:03 fall%2:38:15 fall%2:38:14"/>
-                <MEMBER grouping="file.03" name="file" wn="file%2:38:00"/>
-                <MEMBER grouping="go.01 go.02" name="go" wn="go%2:38:00 go%2:38:01"/>
-                <MEMBER grouping="plunge.01 plunge.02" name="plunge" wn="plunge%2:38:05 plunge%2:38:00"/>
-                <MEMBER grouping="" name="recede" wn="recede%2:38:01 recede%2:33:00 recede%2:30:00"/>
-                <MEMBER grouping="return.01" name="return" wn="return%2:38:00"/>
-                <MEMBER grouping="rise.01 rise.03" name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08 rise%2:38:08"/>
-                <MEMBER grouping="tumble.01 tumble.02" name="tumble" wn="tumble%2:38:00 tumble%2:38:04"/>
-                <MEMBER grouping="arrive.01" name="arrive" wn="arrive%2:38:00"/>
-                <MEMBER grouping="" name="set_off" wn="set_off%2:38:00"/>
-                <MEMBER grouping="" name="set_out" wn="set_out%2:38:00"/>
-                <MEMBER grouping="" name="bolt" wn="bolt%2:38:02 bolt%2:38:01"/>
-                <MEMBER grouping="" name="emerge" wn="emerge%2:30:00"/>
-                <MEMBER grouping="" name="emigrate" wn="emigrate%2:30:00"/>
-                <MEMBER grouping="" name="retreat" wn="retreat%2:38:00 retreat%2:38:02"/>
-                <MEMBER grouping="" name="skedaddle" wn="skedaddle%2:38:00"/>
-                <MEMBER grouping="" name="vamoose" wn=""/>
-                <MEMBER grouping="" name="withdraw" wn="withdraw%2:38:00"/>
+                <MEMBER fnframe="" grouping="advance.01" name="advance" wn="advance%2:38:00"/>
+                <MEMBER fnframe="" grouping="approach.01" name="approach" wn="approach%2:38:00"/>
+                <MEMBER fnframe="" grouping="come.01" name="come" wn="come%2:38:00 come%2:38:04"/>
+                <MEMBER fnframe="" grouping="continue.03" name="continue" wn="continue%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="decamp" wn="decamp%2:38:00 decamp%2:38:01 decamp%2:38:02"/>
+                <MEMBER fnframe="" grouping="fall.01" name="fall" wn="fall%2:38:03 fall%2:38:15 fall%2:38:14"/>
+                <MEMBER fnframe="" grouping="file.03" name="file" wn="file%2:38:00"/>
+                <MEMBER fnframe="" grouping="go.01 go.02" name="go" wn="go%2:38:00 go%2:38:01"/>
+                <MEMBER fnframe="" grouping="plunge.01 plunge.02" name="plunge" wn="plunge%2:38:05 plunge%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="recede" wn="recede%2:38:01 recede%2:33:00 recede%2:30:00"/>
+                <MEMBER fnframe="" grouping="return.01" name="return" wn="return%2:38:00"/>
+                <MEMBER fnframe="" grouping="rise.01 rise.03" name="rise" wn="rise%2:38:00 rise%2:38:05 rise%2:38:04 rise%2:29:08 rise%2:38:08"/>
+                <MEMBER fnframe="" grouping="tumble.01 tumble.02" name="tumble" wn="tumble%2:38:00 tumble%2:38:04"/>
+                <MEMBER fnframe="" grouping="arrive.01" name="arrive" wn="arrive%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="set_off" wn="set_off%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="set_out" wn="set_out%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="bolt" wn="bolt%2:38:02 bolt%2:38:01"/>
+                <MEMBER fnframe="" grouping="" name="emerge" wn="emerge%2:30:00"/>
+                <MEMBER fnframe="" grouping="" name="emigrate" wn="emigrate%2:30:00"/>
+                <MEMBER fnframe="" grouping="" name="retreat" wn="retreat%2:38:00 retreat%2:38:02"/>
+                <MEMBER fnframe="" grouping="" name="skedaddle" wn="skedaddle%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="vamoose" wn=""/>
+                <MEMBER fnframe="" grouping="" name="withdraw" wn="withdraw%2:38:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Basic Intransitive" xtag="0.1"/>
                     <!-- each verb specifies the Prep_Dir (and sometimes
-		        		        		        		        the Oblique) that is it's default-->
+		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        		        the Oblique) that is it's default-->
                     <EXAMPLES>
                         <EXAMPLE>
                             The prisoners advanced.
@@ -246,7 +246,7 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/> 
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Trajectory"/>
                             </ARGS>
@@ -264,7 +264,7 @@
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Destination"/>
                             </ARGS>
-                        </PRED> 
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
                 <FRAME>
@@ -298,7 +298,7 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/> 
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Trajectory"/>
                             </ARGS>
@@ -316,20 +316,20 @@
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Destination"/>
                             </ARGS>
-                        </PRED> 
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
                 <VNSUBCLASS ID="escape-51.1-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="depart.01" name="depart" wn="depart%2:38:04 depart%2:38:01"/>
-                        <MEMBER grouping="" name="disembark" wn="disembark%2:38:00"/>
-                        <MEMBER grouping="escape.01" name="escape" wn="escape%2:38:00"/>
-                        <MEMBER grouping="exit.01" name="exit" wn="exit%2:38:00"/>
-                        <MEMBER grouping="flee.01" name="flee" wn="flee%2:38:00"/>
-                        <MEMBER grouping="leave.01" name="leave" wn="leave%2:38:01 leave%2:38:00"/>
-                        <MEMBER grouping="vacate.01" name="vacate" wn="vacate%2:38:00"/>
+                        <MEMBER fnframe="" grouping="depart.01" name="depart" wn="depart%2:38:04 depart%2:38:01"/>
+                        <MEMBER fnframe="" grouping="" name="disembark" wn="disembark%2:38:00"/>
+                        <MEMBER fnframe="" grouping="escape.01" name="escape" wn="escape%2:38:00"/>
+                        <MEMBER fnframe="" grouping="exit.01" name="exit" wn="exit%2:38:00"/>
+                        <MEMBER fnframe="" grouping="flee.01" name="flee" wn="flee%2:38:00"/>
+                        <MEMBER fnframe="" grouping="leave.01" name="leave" wn="leave%2:38:01 leave%2:38:00"/>
+                        <MEMBER fnframe="" grouping="vacate.01" name="vacate" wn="vacate%2:38:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -359,7 +359,7 @@
                                 </PRED>
                                 <PRED value="motion">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/> 
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Trajectory"/>
                                     </ARGS>
@@ -377,7 +377,7 @@
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Destination"/>
                                     </ARGS>
-                                </PRED> 
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                     </FRAMES>
@@ -385,8 +385,8 @@
                 </VNSUBCLASS>
                 <VNSUBCLASS ID="escape-51.1-1-2">
                     <MEMBERS>
-                        <MEMBER grouping="enter.01" name="enter" wn="enter%2:38:00 enter%2:36:00"/>
-                        <MEMBER grouping="approach.01" name="approach" wn="approach%2:38:00"/>
+                        <MEMBER fnframe="" grouping="enter.01" name="enter" wn="enter%2:38:00 enter%2:36:00"/>
+                        <MEMBER fnframe="" grouping="approach.01" name="approach" wn="approach%2:38:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -416,7 +416,7 @@
                                 </PRED>
                                 <PRED value="motion">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/> 
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Trajectory"/>
                                     </ARGS>
@@ -434,7 +434,7 @@
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="Destination"/>
                                     </ARGS>
-                                </PRED> 
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                     </FRAMES>
@@ -442,11 +442,11 @@
                 </VNSUBCLASS>
                 <VNSUBCLASS ID="escape-51.1-1-3">
                     <MEMBERS>
-                        <MEMBER grouping="ascend.01 ascend.04 ascend.05" name="ascend" wn="ascend%2:38:02 ascend%2:38:04               ascend%2:38:01 ascend%2:38:03"/>
-                        <MEMBER grouping="climb.01" name="climb" wn="climb%2:38:00"/>
-                        <MEMBER grouping="cross.01" name="cross" wn="cross%2:38:00"/>
-                        <MEMBER grouping="descend.01" name="descend" wn="descend%2:38:00"/>
-                        <MEMBER grouping="pass.01" name="pass" wn="pass%2:38:00               pass%2:38:05 pass%2:38:01 pass%2:35:00"/>
+                        <MEMBER fnframe="" grouping="ascend.01 ascend.04 ascend.05" name="ascend" wn="ascend%2:38:02 ascend%2:38:04 ascend%2:38:01 ascend%2:38:03"/>
+                        <MEMBER fnframe="" grouping="climb.01" name="climb" wn="climb%2:38:00"/>
+                        <MEMBER fnframe="" grouping="cross.01" name="cross" wn="cross%2:38:00"/>
+                        <MEMBER fnframe="" grouping="descend.01" name="descend" wn="descend%2:38:00"/>
+                        <MEMBER fnframe="" grouping="pass.01" name="pass" wn="pass%2:38:00 pass%2:38:05 pass%2:38:01 pass%2:35:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -476,7 +476,7 @@
                                 </PRED>
                                 <PRED value="motion">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/> 
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="Trajectory"/>
                                     </ARGS>
@@ -494,7 +494,7 @@
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Destination"/>
                                     </ARGS>
-                                </PRED> 
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                     </FRAMES>

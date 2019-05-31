@@ -1,13 +1,13 @@
 <VNCLASS ID="sustain-55.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="hold.03" name="hold" wn=""/>
-        <MEMBER grouping="maintain.01" name="maintain" wn="maintain%2:34:00"/>
-        <MEMBER grouping="sustain.01" name="sustain" wn="sustain%2:34:00"/>
-        <MEMBER grouping="prolong.01" name="prolong" wn="prolong%2:42:00"/>
-        <MEMBER grouping="" name="protract" wn="protract%2:30:00"/>
-        <MEMBER grouping="" name="keep_up" wn="keep_up%2:42:00"/>
-        <MEMBER grouping="continue.02" name="continue" wn="continue%2:32:00"/>
-        <MEMBER grouping="" name="carry_on" wn="carry_on%2:32:00"/>
+        <MEMBER fnframe="" grouping="hold.03" name="hold" wn=""/>
+        <MEMBER fnframe="Activity_ongoing" grouping="maintain.01" name="maintain" wn="maintain%2:34:00"/>
+        <MEMBER fnframe="" grouping="sustain.01" name="sustain" wn="sustain%2:34:00"/>
+        <MEMBER fnframe="" grouping="prolong.01" name="prolong" wn="prolong%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="protract" wn="protract%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="keep_up" wn="keep_up%2:42:00"/>
+        <MEMBER fnframe="" grouping="continue.02" name="continue" wn="continue%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="carry_on" wn="carry_on%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -74,8 +74,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="sustain-55.6-1">
             <MEMBERS>
-                <MEMBER grouping="keep.06" name="keep" wn="keep%2:34:00"/>
-                <MEMBER grouping="leave.02" name="leave" wn=""/>
+                <MEMBER fnframe="" grouping="keep.06" name="keep" wn="keep%2:34:00"/>
+                <MEMBER fnframe="" grouping="leave.02" name="leave" wn=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Attribute">

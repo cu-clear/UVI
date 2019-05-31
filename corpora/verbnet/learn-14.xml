@@ -168,11 +168,11 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="learn-14-1">
             <MEMBERS>
-                <MEMBER grouping="cram.02" name="cram" wn="cram%2:31:00 cram%2:30:00"/>
-                <MEMBER grouping="read.01" name="read" wn="read%2:31:00 read%2:31:04"/>
-                <MEMBER grouping="" name="relearn" wn="relearn%2:31:00"/>
-                <MEMBER grouping="study.01 study.02" name="study" wn="study%2:31:02 study%2:31:00 study%2:31:01"/>
-                <MEMBER grouping="learn.01 learn.02" name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
+                <MEMBER fnframe="Education_teaching" grouping="cram.02" name="cram" wn="cram%2:31:00 cram%2:30:00"/>
+                <MEMBER fnframe="" grouping="read.01" name="read" wn="read%2:31:00 read%2:31:04"/>
+                <MEMBER fnframe="" grouping="" name="relearn" wn="relearn%2:31:00"/>
+                <MEMBER fnframe="Education_teaching" grouping="study.01 study.02" name="study" wn="study%2:31:02 study%2:31:00 study%2:31:01"/>
+                <MEMBER fnframe="" grouping="learn.01 learn.02" name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -225,10 +225,10 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="learn-14-2">
             <MEMBERS>
-                <MEMBER grouping="absorb.02" name="absorb" wn=""/>
-                <MEMBER grouping="assimilate.02" name="assimilate" wn="assimilate%2:31:00"/>
-                <MEMBER grouping="" name="glean" wn=""/>
-                <MEMBER grouping="" name="memorize" wn="memorize%2:31:00"/>
+                <MEMBER fnframe="" grouping="absorb.02" name="absorb" wn=""/>
+                <MEMBER fnframe="" grouping="assimilate.02" name="assimilate" wn="assimilate%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="glean" wn=""/>
+                <MEMBER fnframe="" grouping="" name="memorize" wn="memorize%2:31:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -444,8 +444,8 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="learn-14-2-1">
                     <MEMBERS>
-                        <MEMBER grouping="learn.01 learn.02" name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
-                        <MEMBER grouping="read.01" name="read" wn="read%2:31:00 read%2:31:04"/>
+                        <MEMBER fnframe="" grouping="learn.01 learn.02" name="learn" wn="learn%2:31:00 learn%2:31:01 learn%2:31:03"/>
+                        <MEMBER fnframe="Reading" grouping="read.01" name="read" wn="read%2:31:00 read%2:31:04"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

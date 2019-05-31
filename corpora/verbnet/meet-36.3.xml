@@ -16,13 +16,13 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="meet-36.3-1">
             <MEMBERS>
-                <MEMBER grouping="consult.01 consult.02" name="consult" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05"/>
-                <MEMBER grouping="" name="deliberate" wn=""/>
-                <MEMBER grouping="meet.01 meet.02" name="meet" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00"/>
-                <MEMBER grouping="play.01" name="play" wn="play%2:41:03 play%2:33:02"/>
-                <MEMBER grouping="remonstrate.01" name="remonstrate" wn=""/>
-                <MEMBER grouping="" name="reunite" wn=""/>
-                <MEMBER grouping="visit.01 visit.03" name="visit" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00"/>
+                <MEMBER fnframe="" grouping="consult.01 consult.02" name="consult" wn="consult%2:32:01 consult%2:32:02 consult%2:32:05"/>
+                <MEMBER fnframe="" grouping="" name="deliberate" wn=""/>
+                <MEMBER fnframe="Come_together Make_acquaintance" grouping="meet.01 meet.02" name="meet" wn="meet%2:38:01 meet%2:41:01 meet%2:41:03 meet%2:41:00"/>
+                <MEMBER fnframe="Competition" grouping="play.01" name="play" wn="play%2:41:03 play%2:33:02"/>
+                <MEMBER fnframe="Judgment_communication" grouping="remonstrate.01" name="remonstrate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="reunite" wn=""/>
+                <MEMBER fnframe="Arriving Visiting" grouping="visit.01 visit.03" name="visit" wn="visit%2:41:00 visit%2:38:01 visit%2:32:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -136,10 +136,10 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="meet-36.3-2">
             <MEMBERS>
-                <MEMBER grouping="battle.01" name="battle" wn="battle%2:33:00"/>
-                <MEMBER grouping="box.02" name="box" wn="box%2:35:01"/>
-                <MEMBER grouping="debate.01 debate.02" name="debate" wn="debate%2:31:00 debate%2:32:01"/>
-                <MEMBER grouping="fight.01" name="fight" wn="fight%2:33:00"/>
+                <MEMBER fnframe="Hostile_encounter" grouping="battle.01" name="battle" wn="battle%2:33:00"/>
+                <MEMBER fnframe="" grouping="box.02" name="box" wn="box%2:35:01"/>
+                <MEMBER fnframe="Discussion" grouping="debate.01 debate.02" name="debate" wn="debate%2:31:00 debate%2:32:01"/>
+                <MEMBER fnframe="Hostile_encounter Quarreling" grouping="fight.01" name="fight" wn="fight%2:33:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

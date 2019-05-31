@@ -1,13 +1,13 @@
 <VNCLASS ID="spend_time-104" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="kill" wn=""/>
-        <MEMBER grouping="lead.06" name="lead" wn=""/>
-        <MEMBER grouping="pass.03" name="pass" wn="pass%2:42:00"/>
-        <MEMBER grouping="serve.05" name="serve" wn="serve%2:42:00"/>
-        <MEMBER grouping="" name="misspend" wn="misspend%2:42:00"/>
-        <MEMBER grouping="spend.01" name="spend" wn="spend%2:42:00"/>
-        <MEMBER grouping="use.03" name="use" wn="use%2:34:00"/>
-        <MEMBER grouping="waste.01" name="waste" wn="waste%2:40:00 waste%2:34:05"/>
+        <MEMBER fnframe="" grouping="" name="kill" wn=""/>
+        <MEMBER fnframe="" grouping="lead.06" name="lead" wn=""/>
+        <MEMBER fnframe="Process_end" grouping="pass.03" name="pass" wn="pass%2:42:00"/>
+        <MEMBER fnframe="" grouping="serve.05" name="serve" wn="serve%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="misspend" wn="misspend%2:42:00"/>
+        <MEMBER fnframe="" grouping="spend.01" name="spend" wn="spend%2:42:00"/>
+        <MEMBER fnframe="" grouping="use.03" name="use" wn="use%2:34:00"/>
+        <MEMBER fnframe="" grouping="waste.01" name="waste" wn="waste%2:40:00 waste%2:34:05"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

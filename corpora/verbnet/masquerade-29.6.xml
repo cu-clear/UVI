@@ -1,12 +1,12 @@
 <VNCLASS ID="masquerade-29.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="behave.01" name="behave" wn="behave%2:29:00"/>
-        <MEMBER grouping="count.03" name="count" wn=""/>
-        <MEMBER grouping="function.01" name="function" wn="function%2:42:12"/>
-        <MEMBER grouping="" name="masquerade" wn="masquerade%2:32:00"/>
-        <MEMBER grouping="" name="officiate" wn="officiate%2:33:00"/>
-        <MEMBER grouping="qualify.01" name="qualify" wn="qualify%2:42:00"/>
-        <MEMBER grouping="rank.01" name="rank" wn="rank%2:31:13"/>
+        <MEMBER fnframe="" grouping="behave.01" name="behave" wn="behave%2:29:00"/>
+        <MEMBER fnframe="Being_in_category Categorization" grouping="count.03" name="count" wn=""/>
+        <MEMBER fnframe="" grouping="function.01" name="function" wn="function%2:42:12"/>
+        <MEMBER fnframe="" grouping="" name="masquerade" wn="masquerade%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="officiate" wn="officiate%2:33:00"/>
+        <MEMBER fnframe="" grouping="qualify.01" name="qualify" wn="qualify%2:42:00"/>
+        <MEMBER fnframe="Occupy_rank" grouping="rank.01" name="rank" wn="rank%2:31:13"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -50,8 +50,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="masquerade-29.6-1">
             <MEMBERS>
-                <MEMBER grouping="act.01 act.02" name="act" wn="act%2:29:00 act%2:33:00"/>
-                <MEMBER grouping="behave.01" name="behave" wn="behave%2:29:00"/>
+                <MEMBER fnframe="" grouping="act.01 act.02" name="act" wn="act%2:29:00 act%2:33:00"/>
+                <MEMBER fnframe="Conduct" grouping="behave.01" name="behave" wn="behave%2:29:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -87,8 +87,8 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="masquerade-29.6-2">
             <MEMBERS>
-                <MEMBER grouping="serve.01 serve.03" name="serve" wn="serve%2:42:03 serve%2:33:00"/>
-                <MEMBER grouping="pose.03" name="pose" wn="pose%2:32:13"/>
+                <MEMBER fnframe="Assistance" grouping="serve.01 serve.03" name="serve" wn="serve%2:42:03 serve%2:33:00"/>
+                <MEMBER fnframe="Posing_as" grouping="pose.03" name="pose" wn="pose%2:32:13"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

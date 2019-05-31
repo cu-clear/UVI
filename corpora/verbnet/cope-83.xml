@@ -1,6 +1,6 @@
 <VNCLASS ID="cope-83" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="deal.01" name="deal" wn="deal%2:41:09"/>
+        <MEMBER fnframe="Resolve_problem" grouping="deal.01" name="deal" wn="deal%2:41:09"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -49,7 +49,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="cope-83-1">
             <MEMBERS>
-                <MEMBER grouping="cope.01" name="cope" wn="cope%2:41:00"/>
+                <MEMBER fnframe="" grouping="cope.01" name="cope" wn="cope%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -80,10 +80,10 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="cope-83-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="manage.03" name="manage" wn="manage%2:41:03"/>
-                        <MEMBER grouping="" name="grapple" wn="grapple%2:41:00"/>
-                        <MEMBER grouping="" name="get_by" wn="get_by%2:41:00"/>
-                        <MEMBER grouping="get.11" name="get_through" wn="get_through%2:30:00 get_through%2:42:00 get_through%2:38:00"/>
+                        <MEMBER fnframe="Success_or_failure" grouping="manage.03" name="manage" wn="manage%2:41:03"/>
+                        <MEMBER fnframe="" grouping="" name="grapple" wn="grapple%2:41:00"/>
+                        <MEMBER fnframe="" grouping="" name="get_by" wn="get_by%2:41:00"/>
+                        <MEMBER fnframe="" grouping="get.11" name="get_through" wn="get_through%2:30:00 get_through%2:42:00 get_through%2:38:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

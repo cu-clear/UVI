@@ -18,7 +18,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="simple_dressing-41.3.1-1">
             <MEMBERS>
-                <MEMBER grouping="wear.01" name="wear" wn="wear%2:29:00 wear%2:29:04 wear%2:29:01"/>
+                <MEMBER fnframe="Wearing" grouping="wear.01" name="wear" wn="wear%2:29:00 wear%2:29:04 wear%2:29:01"/>
             </MEMBERS>
             <THEMROLES>
             </THEMROLES>
@@ -42,7 +42,7 @@
                     <SEMANTICS>
                         <PRED value="wear">
                             <ARGS>
-                                <ARG type="Event" value="ë"/>
+                                <ARG type="Event" value="ee"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
@@ -56,8 +56,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="simple_dressing-41.3.1-2">
             <MEMBERS>
-                <MEMBER grouping="" name="don" wn="don%2:29:00"/>
-                <MEMBER grouping="" name="doff" wn="doff%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="don" wn="don%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="doff" wn="doff%2:35:00"/>
             </MEMBERS>
             <THEMROLES>
             </THEMROLES>

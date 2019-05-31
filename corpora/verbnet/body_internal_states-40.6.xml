@@ -1,15 +1,15 @@
 <VNCLASS ID="body_internal_states-40.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a manner predicate-->
-        <MEMBER grouping="convulse.02" name="convulse" wn="convulse%2:38:00 convulse%2:35:00"/>
-        <MEMBER grouping="" name="cower" wn="cower%2:38:01"/>
-        <MEMBER grouping="" name="quake" wn="quake%2:38:01"/>
-        <MEMBER grouping="" name="quiver" wn="quiver%2:38:00"/>
-        <MEMBER grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:29:00"/>
-        <MEMBER grouping="shiver.01" name="shiver" wn="shiver%2:38:00 shiver%2:29:00"/>
-        <MEMBER grouping="" name="shudder" wn="shudder%2:29:00 shudder%2:38:00"/>
-        <MEMBER grouping="" name="tremble" wn="tremble%2:38:00"/>
-        <MEMBER grouping="" name="writhe" wn="writhe%2:38:00"/>
+        <MEMBER fnframe="" grouping="convulse.02" name="convulse" wn="convulse%2:38:00 convulse%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="cower" wn="cower%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="quake" wn="quake%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="quiver" wn="quiver%2:38:00"/>
+        <MEMBER fnframe="Body_movement Cause_to_move_in_place Moving_in_place" grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:29:00"/>
+        <MEMBER fnframe="Body_movement" grouping="shiver.01" name="shiver" wn="shiver%2:38:00 shiver%2:29:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="shudder" wn="shudder%2:29:00 shudder%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="tremble" wn="tremble%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="writhe" wn="writhe%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -38,13 +38,13 @@
             <SEMANTICS>
                 <PRED value="body_reflex">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="involuntary">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
@@ -75,19 +75,19 @@
             <SEMANTICS>
                 <PRED value="body_reflex">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="involuntary">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="in_reaction_to">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>

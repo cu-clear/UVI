@@ -74,22 +74,22 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="lecture-37.11-1">
             <MEMBERS>
-                <MEMBER grouping="gush.02" name="gush" wn="gush%2:32:00"/>
-                <MEMBER grouping="lecture.01" name="lecture" wn="lecture%2:32:01"/>
-                <MEMBER grouping="" name="moralize" wn="moralize%2:32:00"/>
-                <MEMBER grouping="preach.01 preach.02" name="preach" wn="preach%2:32:02 preach%2:32:00"/>
-                <MEMBER grouping="" name="rant" wn=""/>
-                <MEMBER grouping="rave.01" name="rave" wn="rave%2:32:00"/>
-                <MEMBER grouping="remark.01" name="remark" wn="remark%2:32:00 remark%2:32:01"/>
-                <MEMBER grouping="" name="rhapsodize" wn="rhapsodize%2:32:00"/>
-                <MEMBER grouping="speak.01" name="speak" wn="speak%2:32:00"/>
-                <MEMBER grouping="speak.05" name="speak_out" wn="speak_out%2:32:00"/>
-                <MEMBER grouping="speak.05" name="speak_up" wn="speak_up%2:32:00"/>
-                <MEMBER grouping="talk.03" name="talk" wn="talk%2:32:01"/>
-                <MEMBER grouping="testify.01 testify.02" name="testify" wn="testify%2:32:01 testify%2:32:02"/>
-                <MEMBER grouping="theorize.01 theorize.02" name="theorize" wn="theorize%2:31:02 theorize%2:31:01"/>
-                <MEMBER grouping="write.01" name="write" wn="write%2:36:00 write%2:32:00"/>
-                <MEMBER grouping="" name="pontificate" wn="pontificate%2:32:00"/>
+                <MEMBER fnframe="" grouping="gush.02" name="gush" wn="gush%2:32:00"/>
+                <MEMBER fnframe="Speak_on_topic" grouping="lecture.01" name="lecture" wn="lecture%2:32:01"/>
+                <MEMBER fnframe="" grouping="" name="moralize" wn="moralize%2:32:00"/>
+                <MEMBER fnframe="Speak_on_topic Statement" grouping="preach.01 preach.02" name="preach" wn="preach%2:32:02 preach%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="rant" wn=""/>
+                <MEMBER fnframe="" grouping="rave.01" name="rave" wn="rave%2:32:00"/>
+                <MEMBER fnframe="Statement" grouping="remark.01" name="remark" wn="remark%2:32:00 remark%2:32:01"/>
+                <MEMBER fnframe="" grouping="" name="rhapsodize" wn="rhapsodize%2:32:00"/>
+                <MEMBER fnframe="Chatting" grouping="speak.01" name="speak" wn="speak%2:32:00"/>
+                <MEMBER fnframe="" grouping="speak.05" name="speak_out" wn="speak_out%2:32:00"/>
+                <MEMBER fnframe="" grouping="speak.05" name="speak_up" wn="speak_up%2:32:00"/>
+                <MEMBER fnframe="" grouping="talk.03" name="talk" wn="talk%2:32:01"/>
+                <MEMBER fnframe="Evidence" grouping="testify.01 testify.02" name="testify" wn="testify%2:32:01 testify%2:32:02"/>
+                <MEMBER fnframe="" grouping="theorize.01 theorize.02" name="theorize" wn="theorize%2:31:02 theorize%2:31:01"/>
+                <MEMBER fnframe="Text_creation" grouping="write.01" name="write" wn="write%2:36:00 write%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="pontificate" wn="pontificate%2:32:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -251,8 +251,8 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="lecture-37.11-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="elaborate.01" name="elaborate" wn="elaborate%2:32:00"/>
-                        <MEMBER grouping="comment.01 comment.02 comment.03" name="comment" wn="comment%2:32:00 comment%2:32:10 comment%2:32:01"/>
+                        <MEMBER fnframe="" grouping="elaborate.01" name="elaborate" wn="elaborate%2:32:00"/>
+                        <MEMBER fnframe="Statement" grouping="comment.01 comment.02 comment.03" name="comment" wn="comment%2:32:00 comment%2:32:10 comment%2:32:01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -315,7 +315,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="lecture-37.11-2">
             <MEMBERS>
-                <MEMBER grouping="dwell.01" name="dwell" wn="dwell%2:31:00"/>
+                <MEMBER fnframe="Cogitation" grouping="dwell.01" name="dwell" wn="dwell%2:31:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

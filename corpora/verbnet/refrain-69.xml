@@ -1,9 +1,9 @@
 <VNCLASS ID="refrain-69" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="refrain.01" name="refrain" wn="refrain%2:42:00 refrain%2:34:00"/>
-        <MEMBER grouping="" name="abstain" wn="abstain%2:41:00 abstain%2:34:00"/>
-        <MEMBER grouping="" name="desist" wn="desist%2:34:00"/>
-        <MEMBER grouping="" name="forbear" wn="forbear%2:42:00"/>
+        <MEMBER fnframe="Avoiding" grouping="refrain.01" name="refrain" wn="refrain%2:42:00 refrain%2:34:00"/>
+        <MEMBER fnframe="" grouping="" name="abstain" wn="abstain%2:41:00 abstain%2:34:00"/>
+        <MEMBER fnframe="Avoiding Process_stop" grouping="" name="desist" wn="desist%2:34:00"/>
+        <MEMBER fnframe="" grouping="" name="forbear" wn="forbear%2:42:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

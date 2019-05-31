@@ -1,18 +1,18 @@
 <VNCLASS ID="conjecture-29.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="admit.01" name="admit" wn="admit%2:32:00"/>
-        <MEMBER grouping="affirm.01" name="affirm" wn="affirm%2:32:00"/>
-        <MEMBER grouping="assert.01" name="assert" wn="assert%2:32:00"/>
-        <MEMBER grouping="" name="conjecture" wn="conjecture%2:31:00"/>
-        <MEMBER grouping="deny.01 deny.03" name="deny" wn="?deny%2:32:04"/>
-        <MEMBER grouping="determine.02 determine.03" name="determine" wn="determine%2:32:00"/>
-        <MEMBER grouping="doubt.01" name="doubt" wn=""/>
-        <MEMBER grouping="hold.02 hold.05" name="hold" wn="hold%2:31:01 hold%2:32:11"/>
-        <MEMBER grouping="" name="prognosticate" wn="prognosticate%2:32:00"/>
-        <MEMBER grouping="" name="repute" wn="repute%2:31:00"/>
-        <MEMBER grouping="speculate.01" name="spectulate" wn="speculate%2:31:01 speculate%2:32:00"/>
-        <MEMBER grouping="" name="surmise" wn=""/>
-        <MEMBER grouping="swear.03" name="swear" wn=""/>
+        <MEMBER fnframe="" grouping="admit.01" name="admit" wn="admit%2:32:00"/>
+        <MEMBER fnframe="" grouping="affirm.01" name="affirm" wn="affirm%2:32:00"/>
+        <MEMBER fnframe="" grouping="assert.01" name="assert" wn="assert%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="conjecture" wn="conjecture%2:31:00"/>
+        <MEMBER fnframe="" grouping="deny.01 deny.03" name="deny" wn="?deny%2:32:04"/>
+        <MEMBER fnframe="" grouping="determine.02 determine.03" name="determine" wn="determine%2:32:00"/>
+        <MEMBER fnframe="" grouping="doubt.01" name="doubt" wn=""/>
+        <MEMBER fnframe="" grouping="hold.02 hold.05" name="hold" wn="hold%2:31:01 hold%2:32:11"/>
+        <MEMBER fnframe="" grouping="" name="prognosticate" wn="prognosticate%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="repute" wn="repute%2:31:00"/>
+        <MEMBER fnframe="" grouping="speculate.01" name="spectulate" wn="speculate%2:31:01 speculate%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="surmise" wn=""/>
+        <MEMBER fnframe="" grouping="swear.03" name="swear" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -94,18 +94,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="conjecture-29.5-1">
             <MEMBERS>
-                <MEMBER grouping="anticipate.01" name="anticipate" wn="anticipate%2:31:00"/>
-                <MEMBER grouping="believe.01" name="believe" wn="believe%2:31:04 believe%2:31:03"/>
-                <MEMBER grouping="expect.01" name="expect" wn="expect%2:31:00"/>
-                <MEMBER grouping="" name="foreknow" wn=""/>
-                <MEMBER grouping="foresee.01" name="foresee" wn="foresee%2:31:00"/>
-                <MEMBER grouping="foretell.01" name="foretell" wn="foretell%2:32:00"/>
-                <MEMBER grouping="guess.02" name="guess" wn="guess%2:31:01"/>
-                <MEMBER grouping="infer.01" name="infer" wn="infer%2:31:00 infer%2:32:00"/>
-                <MEMBER grouping="presume.01" name="presume" wn="presume%2:31:00"/>
-                <MEMBER grouping="" name="prophesy" wn=""/>
-                <MEMBER grouping="trust.01" name="trust" wn="trust%2:31:02"/>
-                <MEMBER grouping="" name="vaticinate" wn=""/>
+                <MEMBER fnframe="Expectation" grouping="anticipate.01" name="anticipate" wn="anticipate%2:31:00"/>
+                <MEMBER fnframe="" grouping="believe.01" name="believe" wn="believe%2:31:04 believe%2:31:03"/>
+                <MEMBER fnframe="Expectation Opinion" grouping="expect.01" name="expect" wn="expect%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="foreknow" wn=""/>
+                <MEMBER fnframe="Expectation" grouping="foresee.01" name="foresee" wn="foresee%2:31:00"/>
+                <MEMBER fnframe="Omen Predicting" grouping="foretell.01" name="foretell" wn="foretell%2:32:00"/>
+                <MEMBER fnframe="Coming_to_believe" grouping="guess.02" name="guess" wn="guess%2:31:01"/>
+                <MEMBER fnframe="Coming_to_believe" grouping="infer.01" name="infer" wn="infer%2:31:00 infer%2:32:00"/>
+                <MEMBER fnframe="Awareness" grouping="presume.01" name="presume" wn="presume%2:31:00"/>
+                <MEMBER fnframe="Predicting" grouping="" name="prophesy" wn=""/>
+                <MEMBER fnframe="Certainty Trust" grouping="trust.01" name="trust" wn="trust%2:31:02"/>
+                <MEMBER fnframe="Predicting" grouping="" name="vaticinate" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -143,7 +143,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="conjecture-29.5-2">
             <MEMBERS>
-                <MEMBER grouping="feel.03" name="feel" wn="feel%2:31:00"/>
+                <MEMBER fnframe="" grouping="feel.03" name="feel" wn="feel%2:31:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

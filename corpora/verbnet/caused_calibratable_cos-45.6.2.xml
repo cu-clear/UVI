@@ -1,8 +1,8 @@
 <VNCLASS ID="caused_calibratable_cos-45.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER features="+decrease" grouping="cut.02" name="cut" wn=""/>
-        <MEMBER features="+increase" grouping="" name="raise" wn=""/>
-        <MEMBER features="+decrease" grouping="" name="reduce" wn=""/>
+        <MEMBER features="+decrease" fnframe="" grouping="cut.02" name="cut" wn=""/>
+        <MEMBER features="+increase" fnframe="" grouping="" name="raise" wn=""/>
+        <MEMBER features="+decrease" fnframe="" grouping="" name="reduce" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Causer">
@@ -181,18 +181,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="caused_calibratable_cos-45.6.2-1">
             <MEMBERS>
-                <MEMBER features="+increase" grouping="" name="advance" wn=""/>
-                <MEMBER features="+increase" grouping="balloon.01 balloon.02" name="balloon" wn=""/>
-                <MEMBER features="+increase" grouping="" name="build-up" wn=""/>
-                <MEMBER features="+decrease" grouping="decrease.01" name="decrease" wn=""/>
-                <MEMBER features="+decrease" grouping="diminish.01" name="diminish" wn=""/>
-                <MEMBER features="+increase" grouping="increase.01" name="increase" wn=""/>
-                <MEMBER features="+direction_neutral_variation" grouping="" name="move" wn=""/>
-                <MEMBER features="+direction_neutral_variation" grouping="" name="shift" wn=""/>
-                <MEMBER features="+direction_neutral_variation" grouping="vary.01" name="vary" wn=""/>
-                <MEMBER features="+decrease" grouping="lower.02" name="lower" wn=""/>
+                <MEMBER features="+increase" fnframe="" grouping="" name="advance" wn=""/>
+                <MEMBER features="+increase" fnframe="" grouping="balloon.01 balloon.02" name="balloon" wn=""/>
+                <MEMBER features="+increase" fnframe="" grouping="" name="build-up" wn=""/>
+                <MEMBER features="+decrease" fnframe="" grouping="decrease.01" name="decrease" wn=""/>
+                <MEMBER features="+decrease" fnframe="" grouping="diminish.01" name="diminish" wn=""/>
+                <MEMBER features="+increase" fnframe="" grouping="increase.01" name="increase" wn=""/>
+                <MEMBER features="+direction_neutral_variation" fnframe="" grouping="" name="move" wn=""/>
+                <MEMBER features="+direction_neutral_variation" fnframe="" grouping="" name="shift" wn=""/>
+                <MEMBER features="+direction_neutral_variation" fnframe="" grouping="vary.01" name="vary" wn=""/>
+                <MEMBER features="+decrease" fnframe="" grouping="lower.02" name="lower" wn=""/>
             </MEMBERS>
-	    <THEMROLES/>
+            <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.patient" secondary="Basic Transitive; Causative" xtag="0.2"/>

@@ -1,14 +1,14 @@
 <VNCLASS ID="hunt-35.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="dig.01 dig.03" name="dig" wn="dig%2:35:00 dig%2:35:02"/>
-        <MEMBER grouping="feel.02" name="feel" wn="feel%2:39:10 feel%2:40:00"/>
-        <MEMBER grouping="fish.02" name="fish" wn="fish%2:33:00"/>
-        <MEMBER grouping="hunt.01 hunt.02 hunt.03" name="hunt" wn="hunt%2:33:00 hunt%2:38:00 hunt%2:35:03 hunt%2:33:02"/>
-        <MEMBER grouping="mine.01" name="mine" wn="mine%2:34:00"/>
-        <MEMBER grouping="" name="pan" wn=""/>
-        <MEMBER grouping="" name="poach" wn="poach%2:33:00"/>
-        <MEMBER grouping="" name="scrounge" wn="scrounge%2:40:00"/>
-        <MEMBER grouping="seek.01" name="seek" wn="seek%2:40:00 seek%2:32:00"/>
+        <MEMBER fnframe="" grouping="dig.01 dig.03" name="dig" wn="dig%2:35:00 dig%2:35:02"/>
+        <MEMBER fnframe="Perception_active Seeking" grouping="feel.02" name="feel" wn="feel%2:39:10 feel%2:40:00"/>
+        <MEMBER fnframe="" grouping="fish.02" name="fish" wn="fish%2:33:00"/>
+        <MEMBER fnframe="Seeking" grouping="hunt.01 hunt.02 hunt.03" name="hunt" wn="hunt%2:33:00 hunt%2:38:00 hunt%2:35:03 hunt%2:33:02"/>
+        <MEMBER fnframe="" grouping="mine.01" name="mine" wn="mine%2:34:00"/>
+        <MEMBER fnframe="" grouping="" name="pan" wn=""/>
+        <MEMBER fnframe="" grouping="" name="poach" wn="poach%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="scrounge" wn="scrounge%2:40:00"/>
+        <MEMBER fnframe="" grouping="seek.01" name="seek" wn="seek%2:40:00 seek%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

@@ -1,17 +1,17 @@
 <VNCLASS ID="deduce-97.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="reason.01" name="reason" wn="reason%2:31:01"/>
-        <MEMBER grouping="" name="reason_out" wn="reason_out%2:31:00"/>
-        <MEMBER grouping="conclude.03" name="conclude" wn="conclude%2:31:00"/>
-        <MEMBER grouping="derive.02" name="derive" wn="derive%2:31:00"/>
-        <MEMBER grouping="" name="disprove" wn="disprove%2:31:00"/>
-        <MEMBER grouping="infer.01" name="infer" wn="infer%2:31:00"/>
-        <MEMBER grouping="deduct.02" name="deduct" wn="deduct%2:31:00"/>
-        <MEMBER grouping="deduce.01" name="deduce" wn="deduce%2:31:00 deduce%2:32:00"/>
-        <MEMBER grouping="gather.04" name="gather" wn="gather%2:32:00"/>
-        <MEMBER grouping="conceive.01" name="conceive" wn="conceive%2:31:00"/>
-        <MEMBER grouping="prove.01" name="prove" wn="prove%2:31:00"/>
-        <MEMBER grouping="rationalize.01" name="rationalize" wn="rationalize%2:31:00"/>
+        <MEMBER fnframe="" grouping="reason.01" name="reason" wn="reason%2:31:01"/>
+        <MEMBER fnframe="" grouping="" name="reason_out" wn="reason_out%2:31:00"/>
+        <MEMBER fnframe="Coming_to_believe" grouping="conclude.03" name="conclude" wn="conclude%2:31:00"/>
+        <MEMBER fnframe="" grouping="derive.02" name="derive" wn="derive%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="disprove" wn="disprove%2:31:00"/>
+        <MEMBER fnframe="Coming_to_believe" grouping="infer.01" name="infer" wn="infer%2:31:00"/>
+        <MEMBER fnframe="" grouping="deduct.02" name="deduct" wn="deduct%2:31:00"/>
+        <MEMBER fnframe="Coming_to_believe" grouping="deduce.01" name="deduce" wn="deduce%2:31:00 deduce%2:32:00"/>
+        <MEMBER fnframe="" grouping="gather.04" name="gather" wn="gather%2:32:00"/>
+        <MEMBER fnframe="Awareness Categorization Coming_up_with" grouping="conceive.01" name="conceive" wn="conceive%2:31:00"/>
+        <MEMBER fnframe="" grouping="prove.01" name="prove" wn="prove%2:31:00"/>
+        <MEMBER fnframe="Justifying" grouping="rationalize.01" name="rationalize" wn="rationalize%2:31:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

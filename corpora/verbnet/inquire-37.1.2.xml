@@ -1,10 +1,10 @@
 <VNCLASS ID="inquire-37.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="ask.01" name="ask" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04"/>
-        <MEMBER grouping="enquire.01" name="enquire" wn="enquire%2:32:00"/>
-        <MEMBER grouping="inquire.01" name="inquire" wn="inquire%2:32:01 inquire%2:31:00"/>
-        <MEMBER grouping="consult.01 consult.02" name="consult" wn="consult%2:32:02 consult%2:32:01"/>
-        <MEMBER grouping="pry.02" name="pry" wn="pry%2:39:00"/>
+        <MEMBER fnframe="Questioning" grouping="ask.01" name="ask" wn="ask%2:32:00 ask%2:32:02 ask%2:32:04"/>
+        <MEMBER fnframe="Questioning" grouping="enquire.01" name="enquire" wn="enquire%2:32:00"/>
+        <MEMBER fnframe="Questioning" grouping="inquire.01" name="inquire" wn="inquire%2:32:01 inquire%2:31:00"/>
+        <MEMBER fnframe="" grouping="consult.01 consult.02" name="consult" wn="consult%2:32:02 consult%2:32:01"/>
+        <MEMBER fnframe="Perception_active" grouping="pry.02" name="pry" wn="pry%2:39:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

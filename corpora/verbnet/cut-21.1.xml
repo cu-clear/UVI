@@ -1137,21 +1137,21 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="cut-21.1-1">
             <MEMBERS>
-                <MEMBER grouping="chip.01" name="chip" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
-                <MEMBER grouping="chop.01" name="chop" wn="chop%2:35:01"/>
-                <MEMBER grouping="clip.01" name="clip" wn="clip%2:35:03 clip%2:35:04"/>
-                <MEMBER grouping="cut.01" name="cut" wn="cut%2:35:00 cut%2:35:12 cut%2:35:11 cut%2:35:14 cut%2:30:14"/>
-                <MEMBER grouping="hack.01" name="hack" wn="hack%2:35:02 hack%2:35:01"/>
-                <MEMBER grouping="" name="hew" wn="hew%2:35:00"/>
-                <MEMBER grouping="rip.01" name="rip" wn="rip%2:35:00"/>
-                <MEMBER grouping="saw.01" name="saw" wn="saw%2:35:00"/>
-                <MEMBER grouping="scarify.01" name="scarify" wn="scarify%2:35:00 scarify%2:35:02 scarify%2:35:01"/>
-                <MEMBER grouping="scrape.01" name="scrape" wn="scrape%2:35:00 scrape%2:35:02 scrape%2:35:01"/>
-                <MEMBER grouping="scratch.01" name="scratch" wn="scratch%2:35:00"/>
-                <MEMBER grouping="slash.01" name="slash" wn="slash%2:35:01 slash%2:35:00"/>
-                <MEMBER grouping="slice.01" name="slice" wn="slice%2:35:01"/>
-                <MEMBER grouping="snip.01" name="snip" wn="snip%2:35:07 snip%2:35:00"/>
-                <MEMBER grouping="" name="ream" wn="ream%2:30:01 ream%2:30:00"/>
+                <MEMBER fnframe="Cause_to_fragment Damaging" grouping="chip.01" name="chip" wn="chip%2:35:01 chip%2:35:03 chip%2:35:00"/>
+                <MEMBER fnframe="Cutting" grouping="chop.01" name="chop" wn="chop%2:35:01"/>
+                <MEMBER fnframe="" grouping="clip.01" name="clip" wn="clip%2:35:03 clip%2:35:04"/>
+                <MEMBER fnframe="Cause_harm Cutting Experience_bodily_harm" grouping="cut.01" name="cut" wn="cut%2:35:00 cut%2:35:12 cut%2:35:11 cut%2:35:14 cut%2:30:14"/>
+                <MEMBER fnframe="" grouping="hack.01" name="hack" wn="hack%2:35:02 hack%2:35:01"/>
+                <MEMBER fnframe="" grouping="" name="hew" wn="hew%2:35:00"/>
+                <MEMBER fnframe="Cause_to_fragment Damaging" grouping="rip.01" name="rip" wn="rip%2:35:00"/>
+                <MEMBER fnframe="" grouping="saw.01" name="saw" wn="saw%2:35:00"/>
+                <MEMBER fnframe="" grouping="scarify.01" name="scarify" wn="scarify%2:35:00 scarify%2:35:02 scarify%2:35:01"/>
+                <MEMBER fnframe="Frivtion Make_noise Removing" grouping="scrape.01" name="scrape" wn="scrape%2:35:00 scrape%2:35:02 scrape%2:35:01"/>
+                <MEMBER fnframe="Damaging" grouping="scratch.01" name="scratch" wn="scratch%2:35:00"/>
+                <MEMBER fnframe="" grouping="slash.01" name="slash" wn="slash%2:35:01 slash%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Cutting" grouping="slice.01" name="slice" wn="slice%2:35:01"/>
+                <MEMBER fnframe="" grouping="snip.01" name="snip" wn="snip%2:35:07 snip%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="ream" wn="ream%2:30:01 ream%2:30:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">

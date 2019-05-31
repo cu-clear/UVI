@@ -1,7 +1,7 @@
 <VNCLASS ID="spray-9.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--REMOVED "stuff" from this class, moved to subclass-->
-        <MEMBER grouping="overload.01" name="overload" wn="overload%2:35:00 overload%2:35:01"/>
+        <MEMBER fnframe="" grouping="overload.01" name="overload" wn="overload%2:35:00 overload%2:35:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -66,22 +66,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -131,22 +131,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -191,22 +191,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -251,22 +251,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -282,35 +282,35 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="spray-9.7-1">
             <MEMBERS>
-                <MEMBER grouping="baste.01" name="baste" wn="baste%2:30:00"/>
-                <MEMBER grouping="brush.02" name="brush" wn="brush%2:35:10"/>
-                <MEMBER grouping="" name="drizzle" wn="drizzle%2:35:00"/>
-                <MEMBER grouping="hang.01" name="hang" wn="hang%2:35:00 hang%2:36:00 hang%2:35:04"/>
-                <MEMBER grouping="" name="plaster" wn="plaster%2:35:11 plaster%2:35:10 plaster%2:35:02 plaster%2:35:01 plaster%2:35:00 plaster%2:29:00"/>
-                <MEMBER grouping="pump.02" name="pump" wn="pump%2:33:00 pump%2:40:00 pump%2:38:02"/>
-                <MEMBER grouping="rub.01" name="rub" wn="rub%2:35:00"/>
-                <MEMBER grouping="scatter.01" name="scatter" wn="scatter%2:35:00 scatter%2:35:01 scatter%2:38:02"/>
-                <MEMBER grouping="seed.03" name="seed" wn="seed%2:35:01"/>
-                <MEMBER grouping="sew.01" name="sew" wn="sew%2:35:00"/>
-                <MEMBER grouping="shower.01 shower.02" name="shower" wn="shower%2:40:00 shower%2:35:00 shower%2:34:12"/>
-                <MEMBER grouping="smear.01" name="smear" wn="smear%2:35:03 smear%2:35:01"/>
-                <MEMBER grouping="" name="smudge" wn="smudge%2:35:00"/>
-                <MEMBER grouping="sow.01" name="sow" wn="sow%2:35:00 sow%2:35:02"/>
-                <MEMBER grouping="" name="spatter" wn="spatter%2:35:00 spatter%2:35:01"/>
-                <MEMBER grouping="splash.01" name="splash" wn="splash%2:35:00 splash%2:35:04"/>
-                <MEMBER grouping="" name="splatter" wn="splatter%2:35:00 splatter%2:35:01"/>
-                <MEMBER grouping="spray.01" name="spray" wn="spray%2:35:01 spray%2:35:00 spray%2:35:03"/>
-                <MEMBER grouping="spread.02 spread.03" name="spread" wn="spread%2:42:00 spread%2:35:12 spread%2:35:13"/>
-                <MEMBER grouping="sprinkle.01" name="sprinkle" wn="sprinkle%2:35:01 sprinkle%2:30:00"/>
-                <MEMBER grouping="" name="spritz" wn="spritz%2:35:02 spritz%2:35:00"/>
-                <MEMBER grouping="squirt.01" name="squirt" wn="squirt%2:35:00 squirt%2:35:10"/>
-                <MEMBER grouping="stick.01 stick.02" name="stick" wn="?stick%2:35:02 stick%2:35:04 stick%2:35:03"/>
-                <MEMBER grouping="" name="strew" wn="strew%2:35:00 strew%2:35:04"/>
-                <MEMBER grouping="string.01" name="string" wn="string%2:35:02"/>
-                <MEMBER grouping="" name="swab" wn="swab%2:35:00 swab%2:35:01"/>
-                <MEMBER grouping="swash.02" name="swash" wn="swash%2:35:00"/>
-                <MEMBER grouping="" name="spurt" wn="spurt%2:38:01"/>
-                <MEMBER grouping="wrap.01 wrap.02" name="wrap" wn="wrap%2:35:00 wrap%2:35:02 wrap%2:35:01"/>
+                <MEMBER fnframe="" grouping="baste.01" name="baste" wn="baste%2:30:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="brush.02" name="brush" wn="brush%2:35:10"/>
+                <MEMBER fnframe="Filling Placing" grouping="" name="drizzle" wn="drizzle%2:35:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="hang.01" name="hang" wn="hang%2:35:00 hang%2:36:00 hang%2:35:04"/>
+                <MEMBER fnframe="Attaching Filling" grouping="" name="plaster" wn="plaster%2:35:11 plaster%2:35:10 plaster%2:35:02 plaster%2:35:01 plaster%2:35:00 plaster%2:29:00"/>
+                <MEMBER fnframe="Cause_fluidic_motion Filling" grouping="pump.02" name="pump" wn="pump%2:33:00 pump%2:40:00 pump%2:38:02"/>
+                <MEMBER fnframe="Manipulation Placing" grouping="rub.01" name="rub" wn="rub%2:35:00"/>
+                <MEMBER fnframe="Dispersal Filling" grouping="scatter.01" name="scatter" wn="scatter%2:35:00 scatter%2:35:01 scatter%2:38:02"/>
+                <MEMBER fnframe="" grouping="seed.03" name="seed" wn="seed%2:35:01"/>
+                <MEMBER fnframe="Attaching" grouping="sew.01" name="sew" wn="sew%2:35:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="shower.01 shower.02" name="shower" wn="shower%2:40:00 shower%2:35:00 shower%2:34:12"/>
+                <MEMBER fnframe="Filling Placing" grouping="smear.01" name="smear" wn="smear%2:35:03 smear%2:35:01"/>
+                <MEMBER fnframe="" grouping="" name="smudge" wn="smudge%2:35:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="sow.01" name="sow" wn="sow%2:35:00 sow%2:35:02"/>
+                <MEMBER fnframe="Filling" grouping="" name="spatter" wn="spatter%2:35:00 spatter%2:35:01"/>
+                <MEMBER fnframe="Cause_fluidic_motion Filling Fluidic_motion Motion_noise" grouping="splash.01" name="splash" wn="splash%2:35:00 splash%2:35:04"/>
+                <MEMBER fnframe="Filling" grouping="" name="splatter" wn="splatter%2:35:00 splatter%2:35:01"/>
+                <MEMBER fnframe="Cause_fluidic_motion Filling" grouping="spray.01" name="spray" wn="spray%2:35:01 spray%2:35:00 spray%2:35:03"/>
+                <MEMBER fnframe="Dispersal Filling" grouping="spread.02 spread.03" name="spread" wn="spread%2:42:00 spread%2:35:12 spread%2:35:13"/>
+                <MEMBER fnframe="Dispersal Filling" grouping="sprinkle.01" name="sprinkle" wn="sprinkle%2:35:01 sprinkle%2:30:00"/>
+                <MEMBER fnframe="" grouping="" name="spritz" wn="spritz%2:35:02 spritz%2:35:00"/>
+                <MEMBER fnframe="Cause_fluidic_motion Filling Fluidic_motion" grouping="squirt.01" name="squirt" wn="squirt%2:35:00 squirt%2:35:10"/>
+                <MEMBER fnframe="Attaching Being_attached Cause_motion Inchoative_attaching Placing" grouping="stick.01 stick.02" name="stick" wn="?stick%2:35:02 stick%2:35:04 stick%2:35:03"/>
+                <MEMBER fnframe="Filling" grouping="" name="strew" wn="strew%2:35:00 strew%2:35:04"/>
+                <MEMBER fnframe="" grouping="string.01" name="string" wn="string%2:35:02"/>
+                <MEMBER fnframe="" grouping="" name="swab" wn="swab%2:35:00 swab%2:35:01"/>
+                <MEMBER fnframe="" grouping="swash.02" name="swash" wn="swash%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="spurt" wn="spurt%2:38:01"/>
+                <MEMBER fnframe="Filling Placing" grouping="wrap.01 wrap.02" name="wrap" wn="wrap%2:35:00 wrap%2:35:02 wrap%2:35:01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Theme">
@@ -357,14 +357,14 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="PredSpecific" value="Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Initial_Location"/>
                             </ARGS>
@@ -414,22 +414,22 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="PredSpecific" value="Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Initial_Location"/>
                             </ARGS>
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                         <PRED value="has_location">
@@ -446,11 +446,11 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="spray-9.7-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="cram.01" name="cram" wn="cram%2:35:00 cram%2:35:10"/>
-                        <MEMBER grouping="crowd.01 crowd.02" name="crowd" wn="crowd%2:38:01 crowd%2:42:00"/>
-                        <MEMBER grouping="jam.01" name="jam" wn="jam%2:38:00 jam%2:35:00 jam%2:35:02"/>
-                        <MEMBER grouping="pack.01 pack.02" name="pack" wn="pack%2:35:00 pack%2:38:02 pack%2:35:02 pack%2:38:00"/>
-                        <MEMBER grouping="pile.01" name="pile" wn="pile%2:35:00"/>
+                        <MEMBER fnframe="Filling Placing" grouping="cram.01" name="cram" wn="cram%2:35:00 cram%2:35:10"/>
+                        <MEMBER fnframe="Filling Mass_motion" grouping="crowd.01 crowd.02" name="crowd" wn="crowd%2:38:01 crowd%2:42:00"/>
+                        <MEMBER fnframe="Filling Placing" grouping="jam.01" name="jam" wn="jam%2:38:00 jam%2:35:00 jam%2:35:02"/>
+                        <MEMBER fnframe="Filling Placing" grouping="pack.01 pack.02" name="pack" wn="pack%2:35:00 pack%2:38:02 pack%2:35:02 pack%2:38:00"/>
+                        <MEMBER fnframe="Filling Placing" grouping="pile.01" name="pile" wn="pile%2:35:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -488,19 +488,19 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="spray-9.7-2">
             <MEMBERS>
-                <MEMBER grouping="drape.01 drape.02" name="drape" wn="drape%2:35:00 drape%2:35:01 drape%2:35:10"/>
-                <MEMBER grouping="load.01 load.02" name="load" wn="load%2:35:01 load%2:35:10"/>
-                <MEMBER grouping="" name="dab" wn="dab%2:35:01"/>
-                <MEMBER grouping="" name="daub" wn="daub%2:35:01 daub%2:35:02 daub%2:35:00"/>
-                <MEMBER grouping="" name="mound" wn="mound%2:36:00"/>
-                <MEMBER grouping="dust.03" name="dust" wn="dust%2:35:03"/>
-                <MEMBER grouping="heap.01 heap.02" name="heap" wn="heap%2:35:00 heap%2:30:00"/>
-                <MEMBER grouping="plant.01 plant.02" name="plant" wn="plant%2:35:00 plant%2:35:01"/>
-                <MEMBER grouping="seed.06" name="seed" wn="seed%2:30:00"/>
-                <MEMBER grouping="" name="slather" wn="slather%2:35:00"/>
-                <MEMBER grouping="stack.01" name="stack" wn="stack%2:35:01 stack%2:35:00"/>
-                <MEMBER grouping="stock.01" name="stock" wn="stock%2:40:02"/>
-                <MEMBER grouping="stuff.01" name="stuff" wn="stuff%2:35:00 stuff%2:38:00 stuff%2:30:02 stuff%2:30:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="drape.01 drape.02" name="drape" wn="drape%2:35:00 drape%2:35:01 drape%2:35:10"/>
+                <MEMBER fnframe="Filling Placing" grouping="load.01 load.02" name="load" wn="load%2:35:01 load%2:35:10"/>
+                <MEMBER fnframe="Filling Placing" grouping="" name="dab" wn="dab%2:35:01"/>
+                <MEMBER fnframe="Filling Placing" grouping="" name="daub" wn="daub%2:35:01 daub%2:35:02 daub%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="mound" wn="mound%2:36:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="dust.03" name="dust" wn="dust%2:35:03"/>
+                <MEMBER fnframe="Filling Placing" grouping="heap.01 heap.02" name="heap" wn="heap%2:35:00 heap%2:30:00"/>
+                <MEMBER fnframe="Filling Placing" grouping="plant.01 plant.02" name="plant" wn="plant%2:35:00 plant%2:35:01"/>
+                <MEMBER fnframe="Filling" grouping="seed.06" name="seed" wn="seed%2:30:00"/>
+                <MEMBER fnframe="" grouping="" name="slather" wn="slather%2:35:00"/>
+                <MEMBER fnframe="" grouping="stack.01" name="stack" wn="stack%2:35:01 stack%2:35:00"/>
+                <MEMBER fnframe="" grouping="stock.01" name="stock" wn="stock%2:40:02"/>
+                <MEMBER fnframe="Filling Placing" grouping="stuff.01" name="stuff" wn="stuff%2:35:00 stuff%2:38:00 stuff%2:30:02 stuff%2:30:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Theme">

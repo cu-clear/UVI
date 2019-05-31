@@ -1,32 +1,32 @@
 <VNCLASS ID="poison-42.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each member adds a manner predicate-->
-        <MEMBER grouping="" name="asphyxiate" wn="asphyxiate%2:35:00"/>
-        <MEMBER grouping="" name="behead" wn=""/>
-        <MEMBER grouping="" name="bullet" wn=""/>
-        <MEMBER grouping="crucify.01" name="crucify" wn="crucify%2:41:00"/>
-        <MEMBER grouping="dart.04" name="dart" wn=""/>
-        <MEMBER grouping="" name="decapitate" wn=""/>
-        <MEMBER grouping="" name="disembowel" wn=""/>
-        <MEMBER grouping="drown.01" name="drown" wn="drown%2:30:01"/>
-        <MEMBER grouping="" name="electrocute" wn="electrocute%2:41:00"/>
-        <MEMBER grouping="" name="evicerate" wn=""/>
-        <MEMBER grouping="fry.03" name="fry" wn="fry%2:41:00"/>
-        <MEMBER grouping="" name="gas" wn="gas%2:33:00"/>
-        <MEMBER grouping="" name="garrotte" wn="garrotte%2:35:00"/>
-        <MEMBER grouping="hang.02" name="hang" wn="hang%2:41:00"/>
-        <MEMBER grouping="" name="impale" wn=""/>
-        <MEMBER grouping="" name="knife" wn="knife%2:35:00"/>
-        <MEMBER grouping="" name="pip" wn="pip%2:41:00 pip%2:33:01"/>
-        <MEMBER grouping="poison.01" name="poison" wn="poison%2:35:00"/>
-        <MEMBER grouping="shoot.01" name="shoot" wn="shoot%2:41:00"/>
-        <MEMBER grouping="smother.02" name="smother" wn="smother%2:35:00"/>
-        <MEMBER grouping="stab.01" name="stab" wn="stab%2:35:02"/>
-        <MEMBER grouping="" name="stone" wn=""/>
-        <MEMBER grouping="strangle.01" name="strangle" wn="strangle%2:35:00"/>
-        <MEMBER grouping="strangulate.01" name="strangulate" wn="strangulate%2:35:00"/>
-        <MEMBER grouping="" name="suffocate" wn="suffocate%2:35:00"/>
-        <MEMBER grouping="throttle.01" name="throttle" wn=""/>
+        <MEMBER fnframe="Killing" grouping="" name="asphyxiate" wn="asphyxiate%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="behead" wn=""/>
+        <MEMBER fnframe="" grouping="" name="bullet" wn=""/>
+        <MEMBER fnframe="Killing" grouping="crucify.01" name="crucify" wn="crucify%2:41:00"/>
+        <MEMBER fnframe="" grouping="dart.04" name="dart" wn=""/>
+        <MEMBER fnframe="" grouping="" name="decapitate" wn=""/>
+        <MEMBER fnframe="" grouping="" name="disembowel" wn=""/>
+        <MEMBER fnframe="Death Killing" grouping="drown.01" name="drown" wn="drown%2:30:01"/>
+        <MEMBER fnframe="Cause_harm" grouping="" name="electrocute" wn="electrocute%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="evicerate" wn=""/>
+        <MEMBER fnframe="" grouping="fry.03" name="fry" wn="fry%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="gas" wn="gas%2:33:00"/>
+        <MEMBER fnframe="Killing" grouping="" name="garrotte" wn="garrotte%2:35:00"/>
+        <MEMBER fnframe="Execution" grouping="hang.02" name="hang" wn="hang%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="impale" wn=""/>
+        <MEMBER fnframe="Cause_harm" grouping="" name="knife" wn="knife%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="pip" wn="pip%2:41:00 pip%2:33:01"/>
+        <MEMBER fnframe="" grouping="poison.01" name="poison" wn="poison%2:35:00"/>
+        <MEMBER fnframe="Hit_target Shoot_projectiles Use_firearm" grouping="shoot.01" name="shoot" wn="shoot%2:41:00"/>
+        <MEMBER fnframe="Killing" grouping="smother.02" name="smother" wn="smother%2:35:00"/>
+        <MEMBER fnframe="Cause_harm" grouping="stab.01" name="stab" wn="stab%2:35:02"/>
+        <MEMBER fnframe="Cause_harm" grouping="" name="stone" wn=""/>
+        <MEMBER fnframe="" grouping="strangle.01" name="strangle" wn="strangle%2:35:00"/>
+        <MEMBER fnframe="" grouping="strangulate.01" name="strangulate" wn="strangulate%2:35:00"/>
+        <MEMBER fnframe="Killing" grouping="" name="suffocate" wn="suffocate%2:35:00"/>
+        <MEMBER fnframe="" grouping="throttle.01" name="throttle" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -244,7 +244,7 @@
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Instrument"/>
                     </ARGS>
-                </PRED>                
+                </PRED>
                 <PRED value="harmed">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
@@ -264,7 +264,7 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-	    </SEMANTICS>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

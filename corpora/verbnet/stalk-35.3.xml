@@ -1,11 +1,11 @@
 <VNCLASS ID="stalk-35.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="scent.02" name="scent" wn="scent%2:39:01"/>
-        <MEMBER grouping="smell.01" name="smell" wn="smell%2:39:01"/>
-        <MEMBER grouping="stalk.01" name="stalk" wn="stalk%2:38:03"/>
-        <MEMBER grouping="taste.02" name="taste" wn="taste%2:34:00"/>
-        <MEMBER grouping="track.02" name="track" wn="track%2:38:00"/>
-        <MEMBER grouping="whiff.01" name="whiff" wn="whiff%2:39:00"/>
+        <MEMBER fnframe="" grouping="scent.02" name="scent" wn="scent%2:39:01"/>
+        <MEMBER fnframe="Perception_active Perception_experience" grouping="smell.01" name="smell" wn="smell%2:39:01"/>
+        <MEMBER fnframe="Cotheme" grouping="stalk.01" name="stalk" wn="stalk%2:38:03"/>
+        <MEMBER fnframe="Perception_active" grouping="taste.02" name="taste" wn="taste%2:34:00"/>
+        <MEMBER fnframe="" grouping="track.02" name="track" wn="track%2:38:00"/>
+        <MEMBER fnframe="" grouping="whiff.01" name="whiff" wn="whiff%2:39:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

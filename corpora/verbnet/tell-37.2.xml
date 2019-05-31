@@ -1,11 +1,11 @@
 <VNCLASS ID="tell-37.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="acquaint.02" name="acquaint" wn=""/>
-        <MEMBER grouping="" name="inform" wn=""/>
-        <MEMBER grouping="apprise.01" name="apprise" wn=""/>
-        <MEMBER grouping="" name="notify" wn=""/>
-        <MEMBER grouping="update.02" name="update" wn=""/>
-        <MEMBER grouping="" name="remind" wn=""/>
+        <MEMBER fnframe="" grouping="acquaint.02" name="acquaint" wn=""/>
+        <MEMBER fnframe="" grouping="" name="inform" wn=""/>
+        <MEMBER fnframe="Telling" grouping="apprise.01" name="apprise" wn=""/>
+        <MEMBER fnframe="" grouping="" name="notify" wn=""/>
+        <MEMBER fnframe="" grouping="update.02" name="update" wn=""/>
+        <MEMBER fnframe="" grouping="" name="remind" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

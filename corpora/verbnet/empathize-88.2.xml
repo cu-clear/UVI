@@ -1,10 +1,9 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="empathize-88.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="empathize-88.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="empathize" wn="empathize%2:31:00" grouping=""/>
-        <MEMBER name="sympathize" wn="sympathize%2:31:00 sympathize%2:37:00" grouping="sympathize.02"/>
-        <MEMBER name="identify" wn="identify%2:31:04" grouping="identify.02"/>
-        <MEMBER name="commiserate" wn="commiserate%2:37:00" grouping=""/>
+        <MEMBER fnframe="" grouping="" name="empathize" wn="empathize%2:31:00"/>
+        <MEMBER fnframe="Emotion_directed" grouping="sympathize.02" name="sympathize" wn="sympathize%2:31:00 sympathize%2:37:00"/>
+        <MEMBER fnframe="" grouping="identify.02" name="identify" wn="identify%2:31:04"/>
+        <MEMBER fnframe="" grouping="" name="commiserate" wn="commiserate%2:37:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -21,7 +20,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V" secondary="Intransitive" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>You really have to empathize.</EXAMPLE>
+                <EXAMPLE>
+                    You really have to empathize.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -41,26 +42,28 @@
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="?Stimulus"/>
                     </ARGS>
-                 </PRED>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus" secondary="PP; with-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>You really have to empathize with them.</EXAMPLE>
+                <EXAMPLE>
+                    You really have to empathize with them.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-		<PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                <PREP value="with">
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Stimulus">
                     <SYNRESTRS>
-			<SYNRESTR Value="-" type="sentential"/>
-		    </SYNRESTRS>
+                        <SYNRESTR Value="-" type="sentential"/>
+                    </SYNRESTRS>
                 </NP>
             </SYNTAX>
             <SEMANTICS>
@@ -75,13 +78,15 @@
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
-                 </PRED>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus S_ING" secondary="P-POSSING; with-P" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>You really have to empathize with their doing it.</EXAMPLE>
+                <EXAMPLE>
+                    You really have to empathize with their doing it.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -109,13 +114,15 @@
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
-                 </PRED>
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.stimulus what S" secondary="P-WHAT-TO-INF; with-P" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>You've really got to empathize with what they want.</EXAMPLE>
+                <EXAMPLE>
+                    You've really got to empathize with what they want.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Experiencer">
@@ -123,8 +130,8 @@
                 </NP>
                 <VERB/>
                 <PREP value="with">
-		    <SELRESTRS/>
-		</PREP>
+                    <SELRESTRS/>
+                </PREP>
                 <NP value="Stimulus">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_inf"/>
@@ -143,7 +150,7 @@
                         <ARG type="Event" value="E"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
-                 </PRED>
+                </PRED>
             </SEMANTICS>
         </FRAME>
     </FRAMES>

@@ -1,32 +1,32 @@
 <VNCLASS ID="battle-36.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="argue.01" name="argue" wn="argue%2:32:00"/>
-        <MEMBER grouping="" name="bargain" wn="bargain%2:32:00"/>
-        <MEMBER grouping="" name="bicker" wn="bicker%2:32:00"/>
-        <MEMBER grouping="" name="brawl" wn="brawl%2:32:00"/>
-        <MEMBER grouping="" name="clash" wn="clash%2:32:00"/>
-        <MEMBER grouping="collide.02" name="collide" wn="collide%2:42:00"/>
-        <MEMBER grouping="compete.01" name="compete" wn="compete%2:33:00"/>
-        <MEMBER grouping="contend.02" name="contend" wn="contend%2:32:01"/>
-        <MEMBER grouping="" name="dicker" wn="dicker%2:40:00"/>
-        <MEMBER grouping="dispute.02" name="dispute" wn="dispute%2:32:01"/>
-        <MEMBER grouping="fence.02" name="fence" wn="fence%2:32:00"/>
-        <MEMBER grouping="" name="feud" wn="feud%2:33:00"/>
-        <MEMBER grouping="" name="joust" wn="joust%2:33:00"/>
-        <MEMBER grouping="" name="quarrel" wn="quarrel%2:32:00"/>
-        <MEMBER grouping="" name="quibble" wn="quibble%2:32:00"/>
-        <MEMBER grouping="scrap.02" name="scrap" wn="scrap%2:32:00"/>
-        <MEMBER grouping="" name="scuffle" wn="scuffle%2:35:00"/>
-        <MEMBER grouping="" name="skirmish" wn="skirmish%2:33:00"/>
-        <MEMBER grouping="" name="spar" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00"/>
-        <MEMBER grouping="" name="spat" wn="spat%2:32:00"/>
-        <MEMBER grouping="" name="squabble" wn="squabble%2:32:00"/>
-        <MEMBER grouping="struggle.01" name="struggle" wn="struggle%2:41:00"/>
-        <MEMBER grouping="tilt.02" name="tilt" wn="tilt%2:33:00"/>
-        <MEMBER grouping="" name="tussle" wn="tussle%2:35:01"/>
-        <MEMBER grouping="" name="vie" wn="vie%2:33:00"/>
-        <MEMBER grouping="" name="war" wn="war%2:33:00"/>
-        <MEMBER grouping="" name="wrangle" wn="wrangle%2:32:00"/>
+        <MEMBER fnframe="" grouping="argue.01" name="argue" wn="argue%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="bargain" wn="bargain%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="bicker" wn="bicker%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="brawl" wn="brawl%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="clash" wn="clash%2:32:00"/>
+        <MEMBER fnframe="" grouping="collide.02" name="collide" wn="collide%2:42:00"/>
+        <MEMBER fnframe="" grouping="compete.01" name="compete" wn="compete%2:33:00"/>
+        <MEMBER fnframe="" grouping="contend.02" name="contend" wn="contend%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="dicker" wn="dicker%2:40:00"/>
+        <MEMBER fnframe="" grouping="dispute.02" name="dispute" wn="dispute%2:32:01"/>
+        <MEMBER fnframe="" grouping="fence.02" name="fence" wn="fence%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="feud" wn="feud%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="joust" wn="joust%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="quarrel" wn="quarrel%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="quibble" wn="quibble%2:32:00"/>
+        <MEMBER fnframe="" grouping="scrap.02" name="scrap" wn="scrap%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="scuffle" wn="scuffle%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="skirmish" wn="skirmish%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="spar" wn="spar%2:35:01 spar%2:35:00 spar%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="spat" wn="spat%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="squabble" wn="squabble%2:32:00"/>
+        <MEMBER fnframe="" grouping="struggle.01" name="struggle" wn="struggle%2:41:00"/>
+        <MEMBER fnframe="" grouping="tilt.02" name="tilt" wn="tilt%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="tussle" wn="tussle%2:35:01"/>
+        <MEMBER fnframe="" grouping="" name="vie" wn="vie%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="war" wn="war%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="wrangle" wn="wrangle%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -742,14 +742,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="battle-36.4-1">
             <MEMBERS>
-                <MEMBER grouping="battle.01" name="battle" wn="battle%2:33:00"/>
-                <MEMBER grouping="" name="box" wn="box%2:35:01"/>
-                <MEMBER grouping="combat.01" name="combat" wn="combat%2:33:00"/>
-                <MEMBER grouping="debate.02" name="debate" wn="debate%2:31:00"/>
-                <MEMBER grouping="" name="duel" wn="duel%2:33:00"/>
-                <MEMBER grouping="fight.02" name="fight" wn="fight%2:41:00"/>
-                <MEMBER grouping="" name="refight" wn=""/>
-                <MEMBER grouping="wrestle.01 wrestle.02" name="wrestle" wn="wrestle%2:35:00"/>
+                <MEMBER fnframe="Hostile_encounter" grouping="battle.01" name="battle" wn="battle%2:33:00"/>
+                <MEMBER fnframe="" grouping="" name="box" wn="box%2:35:01"/>
+                <MEMBER fnframe="" grouping="combat.01" name="combat" wn="combat%2:33:00"/>
+                <MEMBER fnframe="" grouping="debate.02" name="debate" wn="debate%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="duel" wn="duel%2:33:00"/>
+                <MEMBER fnframe="Hostile_encounter Quarreling" grouping="fight.02" name="fight" wn="fight%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="refight" wn=""/>
+                <MEMBER fnframe="" grouping="wrestle.01 wrestle.02" name="wrestle" wn="wrestle%2:35:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

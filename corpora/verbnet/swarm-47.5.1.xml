@@ -19,14 +19,14 @@
         <VNSUBCLASS ID="swarm-47.5.1-1">
             <MEMBERS>
                 <!--Each member adds a predicate for the motion of the Theme-->
-                <MEMBER grouping="" name="bustle" wn="bustle%2:38:00"/>
-                <MEMBER grouping="crawl.01 crawl.02" name="crawl" wn="crawl%2:38:00 crawl%2:42:00"/>
-                <MEMBER grouping="creep.01" name="creep" wn="creep%2:38:00"/>
-                <MEMBER grouping="hop.02" name="hop" wn="hop%2:38:04"/>
-                <MEMBER grouping="" name="swarm" wn="swarm%2:42:00 swarm%2:38:00"/>
-                <MEMBER grouping="swim.01" name="swim" wn="swim%2:38:00"/>
-                <MEMBER grouping="" name="teem" wn="teem%2:42:00"/>
-                <MEMBER grouping="" name="pullulate" wn="pullulate%2:42:00"/>
+                <MEMBER fnframe="Self_motion" grouping="" name="bustle" wn="bustle%2:38:00"/>
+                <MEMBER fnframe="Abounding_with Abundance Self_motion" grouping="crawl.01 crawl.02" name="crawl" wn="crawl%2:38:00 crawl%2:42:00"/>
+                <MEMBER fnframe="Self_motion" grouping="creep.01" name="creep" wn="creep%2:38:00"/>
+                <MEMBER fnframe="Self_motion" grouping="hop.02" name="hop" wn="hop%2:38:04"/>
+                <MEMBER fnframe="Abundance Mass_motion" grouping="" name="swarm" wn="swarm%2:42:00 swarm%2:38:00"/>
+                <MEMBER fnframe="Self_motion" grouping="swim.01" name="swim" wn="swim%2:38:00"/>
+                <MEMBER fnframe="Abundance Mass_motion" grouping="" name="teem" wn="teem%2:42:00"/>
+                <MEMBER fnframe="" grouping="" name="pullulate" wn="pullulate%2:42:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -210,7 +210,7 @@
         <VNSUBCLASS ID="swarm-47.5.1-2">
             <!--no motion-->
             <MEMBERS>
-                <MEMBER grouping="" name="throng" wn="throng%2:38:00"/>
+                <MEMBER fnframe="Abundance Mass_motion" grouping="" name="throng" wn="throng%2:38:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -295,7 +295,7 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="swarm-47.5.1-2-1">
                     <MEMBERS>
-                        <MEMBER grouping="abound.01" name="abound" wn="abound%2:42:00 abound%2:42:01"/>
+                        <MEMBER fnframe="" grouping="abound.01" name="abound" wn="abound%2:42:00 abound%2:42:01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

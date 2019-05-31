@@ -1,49 +1,49 @@
 <VNCLASS ID="modes_of_being_with_motion-47.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each member adds a manner predicate for how the Theme is moving-->
-        <MEMBER grouping="bob.01" name="bob" wn="bob%2:38:00"/>
-        <MEMBER grouping="bow.01" name="bow" wn=""/>
-        <MEMBER grouping="circulate.01" name="circulate" wn="circulate%2:38:03 circulate%2:38:04"/>
-        <MEMBER grouping="creep.01 creep.02" name="creep" wn="creep%2:38:06"/>
-        <MEMBER grouping="dance.02" name="dance" wn="dance%2:38:02"/>
-        <MEMBER grouping="drift.01 drift.02" name="drift" wn="drift%2:38:02 drift%2:38:06 drift%2:30:00"/>
-        <MEMBER grouping="" name="eddy" wn="eddy%2:38:00"/>
-        <MEMBER grouping="falter.01" name="falter" wn=""/>
-        <MEMBER grouping="flap.01" name="flap" wn="flap%2:38:01 flap%2:38:00"/>
-        <MEMBER grouping="float.01" name="float" wn="float%2:38:00 float%2:38:02"/>
-        <MEMBER grouping="flutter.01" name="flutter" wn="flutter%2:38:01 flutter%2:38:00 flutter%2:29:00"/>
-        <MEMBER grouping="hover.01" name="hover" wn="hover%2:38:00 hover%2:38:01"/>
-        <MEMBER grouping="" name="jiggle" wn="jiggle%2:38:00"/>
-        <MEMBER grouping="" name="joggle" wn="joggle%2:38:00"/>
-        <MEMBER grouping="" name="oscillate" wn="oscillate%2:38:00"/>
-        <MEMBER grouping="" name="pulsate" wn="pulsate%2:38:00"/>
-        <MEMBER grouping="pulse.01" name="pulse" wn="pulse%2:38:00"/>
-        <MEMBER grouping="" name="quake" wn="quake%2:38:01 quake%2:38:02"/>
-        <MEMBER grouping="" name="quiver" wn="quiver%2:38:00 quiver%2:38:04"/>
-        <MEMBER grouping="" name="recirculate" wn=""/>
-        <MEMBER grouping="revolve.01" name="revolve" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
-        <MEMBER grouping="rock.01" name="rock" wn="rock%2:38:00"/>
-        <MEMBER grouping="rotate.01" name="rotate" wn="rotate%2:38:01 rotate%2:38:00"/>
-        <MEMBER grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:29:00 shake%2:38:02"/>
-        <MEMBER grouping="stir.01" name="stir" wn="stir%2:38:01 stir%2:38:00 stir%2:38:04"/>
-        <MEMBER grouping="swag.03" name="swag" wn="swag%2:38:00"/>
-        <MEMBER grouping="sway.01" name="sway" wn="sway%2:38:00 sway%2:38:06"/>
-        <MEMBER grouping="" name="swirl" wn="swirl%2:38:01 swirl%2:38:00"/>
-        <MEMBER grouping="" name="teeter" wn="teeter%2:38:00"/>
-        <MEMBER grouping="throb.01" name="throb" wn="throb%2:39:00 throb%2:38:00"/>
-        <MEMBER grouping="" name="totter" wn="totter%2:38:02 totter%2:38:00"/>
-        <MEMBER grouping="" name="tremble" wn="tremble%2:38:00"/>
-        <MEMBER grouping="" name="undulate" wn="undulate%2:38:01 undulate%2:38:00"/>
-        <MEMBER grouping="" name="vacillate" wn=""/>
-        <MEMBER grouping="vibrate.01" name="vibrate" wn="vibrate%2:38:00 vibrate%2:38:01"/>
-        <MEMBER grouping="" name="waft" wn="waft%2:43:00"/>
-        <MEMBER grouping="wave.02" name="wave" wn="wave%2:35:00 wave%2:38:00"/>
-        <MEMBER grouping="waver.02" name="waver" wn="waver%2:38:01 waver%2:38:02 waver%2:38:00"/>
-        <MEMBER grouping="" name="wiggle" wn="wiggle%2:38:00"/>
-        <MEMBER grouping="" name="wobble" wn="wobble%2:38:00 wobble%2:38:01"/>
-        <MEMBER grouping="" name="worm" wn="worm%2:38:00"/>
-        <MEMBER grouping="" name="writhe" wn="writhe%2:38:00"/>
-        <MEMBER grouping="" name="roil" wn="roil%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="bob.01" name="bob" wn="bob%2:38:00"/>
+        <MEMBER fnframe="" grouping="bow.01" name="bow" wn=""/>
+        <MEMBER fnframe="" grouping="circulate.01" name="circulate" wn="circulate%2:38:03 circulate%2:38:04"/>
+        <MEMBER fnframe="Self_motion" grouping="creep.01 creep.02" name="creep" wn="creep%2:38:06"/>
+        <MEMBER fnframe="Self_motion" grouping="dance.02" name="dance" wn="dance%2:38:02"/>
+        <MEMBER fnframe="Motion" grouping="drift.01 drift.02" name="drift" wn="drift%2:38:02 drift%2:38:06 drift%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="eddy" wn="eddy%2:38:00"/>
+        <MEMBER fnframe="" grouping="falter.01" name="falter" wn=""/>
+        <MEMBER fnframe="Body_movement" grouping="flap.01" name="flap" wn="flap%2:38:01 flap%2:38:00"/>
+        <MEMBER fnframe="Motion" grouping="float.01" name="float" wn="float%2:38:00 float%2:38:02"/>
+        <MEMBER fnframe="Body_movement" grouping="flutter.01" name="flutter" wn="flutter%2:38:01 flutter%2:38:00 flutter%2:29:00"/>
+        <MEMBER fnframe="" grouping="hover.01" name="hover" wn="hover%2:38:00 hover%2:38:01"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="jiggle" wn="jiggle%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="joggle" wn="joggle%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="oscillate" wn="oscillate%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="pulsate" wn="pulsate%2:38:00"/>
+        <MEMBER fnframe="" grouping="pulse.01" name="pulse" wn="pulse%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="quake" wn="quake%2:38:01 quake%2:38:02"/>
+        <MEMBER fnframe="Moving_in_place" grouping="" name="quiver" wn="quiver%2:38:00 quiver%2:38:04"/>
+        <MEMBER fnframe="" grouping="" name="recirculate" wn=""/>
+        <MEMBER fnframe="" grouping="revolve.01" name="revolve" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
+        <MEMBER fnframe="Moving_in_place" grouping="rock.01" name="rock" wn="rock%2:38:00"/>
+        <MEMBER fnframe="Cause_to_move_in_place Moving_in_place" grouping="rotate.01" name="rotate" wn="rotate%2:38:01 rotate%2:38:00"/>
+        <MEMBER fnframe="Body_movement Cause_to_move_in_place Moving_in_place" grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:29:00 shake%2:38:02"/>
+        <MEMBER fnframe="" grouping="stir.01" name="stir" wn="stir%2:38:01 stir%2:38:00 stir%2:38:04"/>
+        <MEMBER fnframe="" grouping="swag.03" name="swag" wn="swag%2:38:00"/>
+        <MEMBER fnframe="" grouping="sway.01" name="sway" wn="sway%2:38:00 sway%2:38:06"/>
+        <MEMBER fnframe="" grouping="" name="swirl" wn="swirl%2:38:01 swirl%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="teeter" wn="teeter%2:38:00"/>
+        <MEMBER fnframe="" grouping="throb.01" name="throb" wn="throb%2:39:00 throb%2:38:00"/>
+        <MEMBER fnframe="Self_motion" grouping="" name="totter" wn="totter%2:38:02 totter%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="tremble" wn="tremble%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="undulate" wn="undulate%2:38:01 undulate%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="vacillate" wn=""/>
+        <MEMBER fnframe="Cause_to_move_in_place Moving_in_place" grouping="vibrate.01" name="vibrate" wn="vibrate%2:38:00 vibrate%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="waft" wn="waft%2:43:00"/>
+        <MEMBER fnframe="Body_movement Moving_in_place" grouping="wave.02" name="wave" wn="wave%2:35:00 wave%2:38:00"/>
+        <MEMBER fnframe="" grouping="waver.02" name="waver" wn="waver%2:38:01 waver%2:38:02 waver%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="wiggle" wn="wiggle%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="wobble" wn="wobble%2:38:00 wobble%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="worm" wn="worm%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="writhe" wn="writhe%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="roil" wn="roil%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

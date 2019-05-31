@@ -1,11 +1,10 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="cost-54.2" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="cost-54.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="carry" wn="?carry%2:42:13" grouping="carry.02"/>
-        <MEMBER name="cost" wn="cost%2:42:00" grouping="cost.01"/>
-        <MEMBER name="last" wn="last%2:42:00" grouping="last.01"/>
-        <MEMBER name="net" wn="net%2:40:01" grouping="net.01"/>
-        <MEMBER name="take" wn="take%2:40:06" grouping="take.03"/>
+        <MEMBER fnframe="Bringing" grouping="carry.02" name="carry" wn="?carry%2:42:13"/>
+        <MEMBER fnframe="Expensiveness" grouping="cost.01" name="cost" wn="cost%2:42:00"/>
+        <MEMBER fnframe="" grouping="last.01" name="last" wn="last%2:42:00"/>
+        <MEMBER fnframe="" grouping="net.01" name="net" wn="net%2:40:01"/>
+        <MEMBER fnframe="Have_as_requirement Taking_time" grouping="take.03" name="take" wn="take%2:40:06"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -27,7 +26,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.value" secondary="Transitive; Attribute Object" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>The book costs $10.</EXAMPLE>
+                <EXAMPLE>
+                    The book costs $10.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -51,7 +52,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="" primary="NP V NP NP" secondary="NP-NP" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>The bill will cost them 500 million dollars.</EXAMPLE>
+                <EXAMPLE>
+                    The bill will cost them 500 million dollars.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

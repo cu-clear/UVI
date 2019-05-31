@@ -1,6 +1,6 @@
 <VNCLASS ID="see-30.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="tell.02" name="tell" wn="tell%2:31:00 tell%2:31:01"/>
+        <MEMBER fnframe="" grouping="tell.02" name="tell" wn="tell%2:31:00 tell%2:31:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -51,8 +51,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="see-30.1-1">
             <MEMBERS>
-                <MEMBER grouping="smell.01" name="smell" wn="smell%2:39:01"/>
-                <MEMBER grouping="taste.01 taste.02" name="taste" wn="taste%2:34:00 taste%2:39:00 taste%2:39:01"/>
+                <MEMBER fnframe="" grouping="smell.01" name="smell" wn="smell%2:39:01"/>
+                <MEMBER fnframe="" grouping="taste.01 taste.02" name="taste" wn="taste%2:34:00 taste%2:39:00 taste%2:39:01"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -192,13 +192,13 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="see-30.1-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="detect.01" name="detect" wn="detect%2:39:00"/>
-                        <MEMBER grouping="" name="discern" wn="discern%2:39:00"/>
-                        <MEMBER grouping="feel.01 feel.02" name="feel" wn="feel%2:31:00 feel%2:39:00 feel%2:29:00 feel%2:35:00"/>
-                        <MEMBER grouping="sense.01 sense.03" name="sense" wn="sense%2:39:00"/>
-                        <MEMBER grouping="perceive.01" name="perceive" wn=""/>
-                        <MEMBER grouping="notice.01" name="notice" wn="notice%2:39:04 notice%2:39:00"/>
-                        <MEMBER grouping="see.01 see.03" name="see" wn="see%2:39:00 see%2:39:02 see%2:36:00 see%2:39:03 see%2:32:00 see%2:41:11 see%2:41:12 see%2:41:10 see%2:39:11 see%2:39:13"/>
+                        <MEMBER fnframe="" grouping="detect.01" name="detect" wn="detect%2:39:00"/>
+                        <MEMBER fnframe="" grouping="" name="discern" wn="discern%2:39:00"/>
+                        <MEMBER fnframe="" grouping="feel.01 feel.02" name="feel" wn="feel%2:31:00 feel%2:39:00 feel%2:29:00 feel%2:35:00"/>
+                        <MEMBER fnframe="" grouping="sense.01 sense.03" name="sense" wn="sense%2:39:00"/>
+                        <MEMBER fnframe="" grouping="perceive.01" name="perceive" wn=""/>
+                        <MEMBER fnframe="" grouping="notice.01" name="notice" wn="notice%2:39:04 notice%2:39:00"/>
+                        <MEMBER fnframe="" grouping="see.01 see.03" name="see" wn="see%2:39:00 see%2:39:02 see%2:36:00 see%2:39:03 see%2:32:00 see%2:41:11 see%2:41:12 see%2:41:10 see%2:39:11 see%2:39:13"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -308,7 +308,7 @@
                     <SUBCLASSES>
                         <VNSUBCLASS ID="see-30.1-1-1-1">
                             <MEMBERS>
-                                <MEMBER grouping="hear.01 hear.02" name="hear" wn="hear%2:39:00 hear%2:31:00 hear%2:39:01 hear%2:39:05"/>
+                                <MEMBER fnframe="" grouping="hear.01 hear.02" name="hear" wn="hear%2:39:00 hear%2:31:00 hear%2:39:01 hear%2:39:05"/>
                             </MEMBERS>
                             <THEMROLES/>
                             <FRAMES>

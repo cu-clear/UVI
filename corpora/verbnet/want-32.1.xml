@@ -1,11 +1,10 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="want-32.1" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="want-32.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="covet" wn="covet%2:37:00" grouping=""/>
-        <MEMBER name="crave" wn="crave%2:34:00" grouping="crave.01"/>
-        <MEMBER name="desire" wn="" grouping="desire.01 desire.02"/>
-        <MEMBER name="fancy" wn="fancy%2:37:00" grouping=""/>
-        <MEMBER name="love" wn="love%2:37:02" grouping="love.02"/>
+        <MEMBER fnframe="Desiring" grouping="" name="covet" wn="covet%2:37:00"/>
+        <MEMBER fnframe="Desiring" grouping="crave.01" name="crave" wn="crave%2:34:00"/>
+        <MEMBER fnframe="" grouping="desire.01 desire.02" name="desire" wn=""/>
+        <MEMBER fnframe="" grouping="" name="fancy" wn="fancy%2:37:00"/>
+        <MEMBER fnframe="" grouping="love.02" name="love" wn="love%2:37:02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Pivot">
@@ -21,7 +20,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.2" primary="NP V NP" secondary="Basic Transitive" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Dorothy needs new shoes.</EXAMPLE>
+                <EXAMPLE>
+                    Dorothy needs new shoes.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Pivot">
@@ -46,14 +47,16 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="want-32.1-1">
             <MEMBERS>
-                <MEMBER name="enjoy" wn="" grouping="enjoy.02"/>
+                <MEMBER fnframe="" grouping="enjoy.02" name="enjoy" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V for NP S_INF" secondary="FOR-TO-INF" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I need for her to be happy.</EXAMPLE>
+                        <EXAMPLE>
+                            I need for her to be happy.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -79,7 +82,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="ING-NP-OMIT" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I need exercising.</EXAMPLE>
+                        <EXAMPLE>
+                            I need exercising.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -105,7 +110,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-ADJP-PRED" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>She wanted the meat red.</EXAMPLE>
+                        <EXAMPLE>
+                            She wanted the meat red.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -130,7 +137,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADV" secondary="NP-ADVP-PRED" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I needed him here.</EXAMPLE>
+                        <EXAMPLE>
+                            I needed him here.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -154,7 +163,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="NP-ING" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I need him cooking.</EXAMPLE>
+                        <EXAMPLE>
+                            I need him cooking.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -180,7 +191,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP ADJ" secondary="NP-VEN-NP-OMIT" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I need the children found.</EXAMPLE>
+                        <EXAMPLE>
+                            I need the children found.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -206,7 +219,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="POSSING" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I needed his cooking.</EXAMPLE>
+                        <EXAMPLE>
+                            I needed his cooking.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -232,7 +247,9 @@
                 <FRAME>
                     <DESCRIPTION descriptionNumber="8.1" primary="NP V S_INF" secondary="TO-INF-SC" xtag="0.1"/>
                     <EXAMPLES>
-                        <EXAMPLE>I needed to come.</EXAMPLE>
+                        <EXAMPLE>
+                            I needed to come.
+                        </EXAMPLE>
                     </EXAMPLES>
                     <SYNTAX>
                         <NP value="Pivot">
@@ -259,18 +276,20 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="want-32.1-1-1">
                     <MEMBERS>
-                        <MEMBER name="want" wn="want%2:37:00 want%2:34:00 want%2:31:01 want%2:35:00 want%2:42:01" grouping="want.01 want.02"/>
-                        <MEMBER name="need" wn="need%2:34:00 need%2:34:01" grouping="need.01"/>
-                        <MEMBER name="like" wn="" grouping=""/>
-                        <MEMBER name="prefer" wn="" grouping=""/>
-                        <MEMBER name="desire" wn="desire%2:37:00 desire%2:37:01" grouping="desire.01 desire.02 desire.03"/>
+                        <MEMBER fnframe="Desiring Possession" grouping="want.01 want.02" name="want" wn="want%2:37:00 want%2:34:00 want%2:31:01 want%2:35:00 want%2:42:01"/>
+                        <MEMBER fnframe="" grouping="need.01" name="need" wn="need%2:34:00 need%2:34:01"/>
+                        <MEMBER fnframe="" grouping="" name="like" wn=""/>
+                        <MEMBER fnframe="Partiality Preference" grouping="" name="prefer" wn=""/>
+                        <MEMBER fnframe="Desiring" grouping="desire.01 desire.02 desire.03" name="desire" wn="desire%2:37:00 desire%2:37:01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
                         <FRAME>
                             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_INF" secondary="NP-TO-INF" xtag="0.1"/>
                             <EXAMPLES>
-                                <EXAMPLE>I needed him to go.</EXAMPLE>
+                                <EXAMPLE>
+                                    I needed him to go.
+                                </EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Pivot">
@@ -296,7 +315,9 @@
                         <FRAME>
                             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP to be ADJ" secondary="NP-TOBE" xtag="0.1"/>
                             <EXAMPLES>
-                                <EXAMPLE>I need him to be nice.</EXAMPLE>
+                                <EXAMPLE>
+                                    I need him to be nice.
+                                </EXAMPLE>
                             </EXAMPLES>
                             <SYNTAX>
                                 <NP value="Pivot">

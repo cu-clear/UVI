@@ -1,10 +1,10 @@
 <VNCLASS ID="say-37.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="be_like" wn=""/>
-        <MEMBER grouping="continue.02" name="continue" wn="continue%2:32:00"/>
-        <MEMBER grouping="go.06" name="go" wn=""/>
-        <MEMBER grouping="go.06" name="go_like" wn=""/>
-        <MEMBER grouping="" name="go_on" wn=""/>
+        <MEMBER fnframe="" grouping="" name="be_like" wn=""/>
+        <MEMBER fnframe="" grouping="continue.02" name="continue" wn="continue%2:32:00"/>
+        <MEMBER fnframe="" grouping="go.06" name="go" wn=""/>
+        <MEMBER fnframe="" grouping="go.06" name="go_like" wn=""/>
+        <MEMBER fnframe="" grouping="" name="go_on" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -45,7 +45,6 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                
                 <PRED value="has_information">
                     <ARGS>
                         <ARG type="Event" value="E"/>
@@ -80,25 +79,25 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="say-37.7-1">
             <MEMBERS>
-                <MEMBER grouping="" name="add" wn=""/>
-                <MEMBER grouping="" name="allege" wn=""/>
-                <MEMBER grouping="blabber.01" name="blabber" wn="blabber%2:32:00"/>
-                <MEMBER grouping="" name="disclose" wn=""/>
-                <MEMBER grouping="" name="divulge" wn=""/>
-                <MEMBER grouping="exclaim.01" name="exclaim" wn=""/>
-                <MEMBER grouping="insinuate.02" name="insinuate" wn=""/>
-                <MEMBER grouping="" name="insist" wn=""/>
-                <MEMBER grouping="" name="intimate" wn=""/>
-                <MEMBER grouping="" name="leak" wn=""/>
-                <MEMBER grouping="" name="reply" wn=""/>
-                <MEMBER grouping="" name="respond" wn=""/>
-                <MEMBER grouping="" name="retort" wn=""/>
-                <MEMBER grouping="" name="promulgate" wn=""/>
-                <MEMBER grouping="utter.01" name="utter" wn=""/>
-                <MEMBER grouping="" name="venture" wn=""/>
-                <MEMBER grouping="vocalize.01" name="vocalize" wn="vocalize%2:32:02 vocalize%2:32:04"/>
-                <MEMBER grouping="voice.01" name="voice" wn=""/>
-                <MEMBER grouping="" name="write" wn=""/>
+                <MEMBER fnframe="" grouping="" name="add" wn=""/>
+                <MEMBER fnframe="" grouping="" name="allege" wn=""/>
+                <MEMBER fnframe="" grouping="blabber.01" name="blabber" wn="blabber%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="disclose" wn=""/>
+                <MEMBER fnframe="" grouping="" name="divulge" wn=""/>
+                <MEMBER fnframe="" grouping="exclaim.01" name="exclaim" wn=""/>
+                <MEMBER fnframe="" grouping="insinuate.02" name="insinuate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="insist" wn=""/>
+                <MEMBER fnframe="" grouping="" name="intimate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="leak" wn=""/>
+                <MEMBER fnframe="" grouping="" name="reply" wn=""/>
+                <MEMBER fnframe="" grouping="" name="respond" wn=""/>
+                <MEMBER fnframe="" grouping="" name="retort" wn=""/>
+                <MEMBER fnframe="" grouping="" name="promulgate" wn=""/>
+                <MEMBER fnframe="" grouping="utter.01" name="utter" wn=""/>
+                <MEMBER fnframe="" grouping="" name="venture" wn=""/>
+                <MEMBER fnframe="" grouping="vocalize.01" name="vocalize" wn="vocalize%2:32:02 vocalize%2:32:04"/>
+                <MEMBER fnframe="" grouping="voice.01" name="voice" wn=""/>
+                <MEMBER fnframe="" grouping="" name="write" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -457,33 +456,33 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="say-37.7-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="advise.01 advise.02" name="advise" wn="advise%2:32:01"/>
-                        <MEMBER grouping="announce.01 announce.02" name="announce" wn="announce%2:32:00 announce%2:32:07"/>
-                        <MEMBER grouping="articulate.01" name="articulate" wn="articulate%2:32:02 articulate%2:32:01"/>
-                        <MEMBER grouping="" name="blab" wn="blab%2:32:00"/>
-                        <MEMBER grouping="" name="blurt" wn="blurt%2:32:00"/>
-                        <MEMBER grouping="claim.01" name="claim" wn="claim%2:32:00"/>
-                        <MEMBER grouping="confess.03" name="confess" wn="confess%2:32:01"/>
-                        <MEMBER grouping="" name="confide" wn="confide%2:32:00"/>
-                        <MEMBER grouping="convey.01" name="convey" wn="convey%2:32:00"/>
-                        <MEMBER grouping="declare.01" name="declare" wn="declare%2:32:00 declare%2:32:01"/>
-                        <MEMBER grouping="" name="interject" wn="interject%2:32:00"/>
-                        <MEMBER grouping="" name="interpose" wn="interpose%2:32:00"/>
-                        <MEMBER grouping="mention.01" name="mention" wn="mention%2:32:02 mention%2:32:00"/>
-                        <MEMBER grouping="observe.04" name="observe" wn="observe%2:32:00"/>
-                        <MEMBER grouping="proclaim.02" name="proclaim" wn="proclaim%2:32:00"/>
-                        <MEMBER grouping="propose.01" name="propose" wn="?propose%2:32:00"/>
-                        <MEMBER grouping="recount.01" name="recount" wn="recount%2:32:00"/>
-                        <MEMBER grouping="reiterate.01" name="reiterate" wn="reiterate%2:32:00"/>
-                        <MEMBER grouping="relate.04" name="relate" wn="relate%2:32:00"/>
-                        <MEMBER grouping="reveal.02" name="reveal" wn="reveal%2:32:00"/>
-                        <MEMBER grouping="say.01" name="say" wn="say%2:32:00 say%2:32:01 say%2:32:15 say%2:32:04"/>
-                        <MEMBER grouping="state.01" name="state" wn="state%2:32:00"/>
-                        <MEMBER grouping="" name="volunteer" wn="volunteer%2:32:00"/>
-                        <MEMBER grouping="repeat.01 repeat.02" name="repeat" wn="repeat%2:32:00 repeat%2:32:01"/>
-                        <MEMBER grouping="remark.01" name="remark" wn="remark%2:32:00 remark%2:32:01"/>
-                        <MEMBER grouping="note.02" name="note" wn="note%2:32:00"/>
-                        <MEMBER grouping="report.01" name="report" wn="report%2:32:00 report%2:32:04"/>
+                        <MEMBER fnframe="" grouping="advise.01 advise.02" name="advise" wn="advise%2:32:01"/>
+                        <MEMBER fnframe="" grouping="announce.01 announce.02" name="announce" wn="announce%2:32:00 announce%2:32:07"/>
+                        <MEMBER fnframe="" grouping="articulate.01" name="articulate" wn="articulate%2:32:02 articulate%2:32:01"/>
+                        <MEMBER fnframe="" grouping="" name="blab" wn="blab%2:32:00"/>
+                        <MEMBER fnframe="" grouping="" name="blurt" wn="blurt%2:32:00"/>
+                        <MEMBER fnframe="" grouping="claim.01" name="claim" wn="claim%2:32:00"/>
+                        <MEMBER fnframe="" grouping="confess.03" name="confess" wn="confess%2:32:01"/>
+                        <MEMBER fnframe="" grouping="" name="confide" wn="confide%2:32:00"/>
+                        <MEMBER fnframe="" grouping="convey.01" name="convey" wn="convey%2:32:00"/>
+                        <MEMBER fnframe="" grouping="declare.01" name="declare" wn="declare%2:32:00 declare%2:32:01"/>
+                        <MEMBER fnframe="" grouping="" name="interject" wn="interject%2:32:00"/>
+                        <MEMBER fnframe="" grouping="" name="interpose" wn="interpose%2:32:00"/>
+                        <MEMBER fnframe="" grouping="mention.01" name="mention" wn="mention%2:32:02 mention%2:32:00"/>
+                        <MEMBER fnframe="" grouping="observe.04" name="observe" wn="observe%2:32:00"/>
+                        <MEMBER fnframe="" grouping="proclaim.02" name="proclaim" wn="proclaim%2:32:00"/>
+                        <MEMBER fnframe="" grouping="propose.01" name="propose" wn="?propose%2:32:00"/>
+                        <MEMBER fnframe="" grouping="recount.01" name="recount" wn="recount%2:32:00"/>
+                        <MEMBER fnframe="" grouping="reiterate.01" name="reiterate" wn="reiterate%2:32:00"/>
+                        <MEMBER fnframe="" grouping="relate.04" name="relate" wn="relate%2:32:00"/>
+                        <MEMBER fnframe="" grouping="reveal.02" name="reveal" wn="reveal%2:32:00"/>
+                        <MEMBER fnframe="" grouping="say.01" name="say" wn="say%2:32:00 say%2:32:01 say%2:32:15 say%2:32:04"/>
+                        <MEMBER fnframe="" grouping="state.01" name="state" wn="state%2:32:00"/>
+                        <MEMBER fnframe="" grouping="" name="volunteer" wn="volunteer%2:32:00"/>
+                        <MEMBER fnframe="" grouping="repeat.01 repeat.02" name="repeat" wn="repeat%2:32:00 repeat%2:32:01"/>
+                        <MEMBER fnframe="" grouping="remark.01" name="remark" wn="remark%2:32:00 remark%2:32:01"/>
+                        <MEMBER fnframe="" grouping="note.02" name="note" wn="note%2:32:00"/>
+                        <MEMBER fnframe="" grouping="report.01" name="report" wn="report%2:32:00 report%2:32:04"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -590,9 +589,9 @@
                     <SUBCLASSES>
                         <VNSUBCLASS ID="say-37.7-1-1-1">
                             <MEMBERS>
-                                <MEMBER grouping="" name="purpose" wn=""/>
-                                <MEMBER grouping="suggest.01 suggest.02" name="suggest" wn="suggest%2:32:00 suggest%2:32:04"/>
-                                <MEMBER grouping="" name="recommend" wn=""/>
+                                <MEMBER fnframe="" grouping="" name="purpose" wn=""/>
+                                <MEMBER fnframe="" grouping="suggest.01 suggest.02" name="suggest" wn="suggest%2:32:00 suggest%2:32:04"/>
+                                <MEMBER fnframe="" grouping="" name="recommend" wn=""/>
                             </MEMBERS>
                             <THEMROLES/>
                             <FRAMES>
@@ -989,7 +988,7 @@
                 </VNSUBCLASS>
                 <VNSUBCLASS ID="say-37.7-1-2">
                     <MEMBERS>
-                        <MEMBER grouping="hint.01" name="hint" wn="hint%2:32:00"/>
+                        <MEMBER fnframe="" grouping="hint.01" name="hint" wn="hint%2:32:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

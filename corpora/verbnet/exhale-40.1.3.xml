@@ -14,14 +14,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="exhale-40.1.3-1">
             <MEMBERS>
-                <MEMBER grouping="" name="defecate" wn=""/>
-                <MEMBER grouping="" name="exhale" wn="exhale%2:29:00"/>
-                <MEMBER grouping="" name="hemorrhage" wn=""/>
-                <MEMBER grouping="" name="perspire" wn="perspire%2:29:00"/>
-                <MEMBER grouping="" name="expectorate" wn="expectorate%2:29:00"/>
-                <MEMBER grouping="" name="regurgitate" wn=""/>
-                <MEMBER grouping="" name="urinate" wn="urinate%2:29:01"/>
-                <MEMBER grouping="" name="whiff" wn="whiff%2:34:02"/>
+                <MEMBER fnframe="Excreting" grouping="" name="defecate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="exhale" wn="exhale%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="hemorrhage" wn=""/>
+                <MEMBER fnframe="" grouping="" name="perspire" wn="perspire%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="expectorate" wn="expectorate%2:29:00"/>
+                <MEMBER fnframe="Excreting" grouping="" name="regurgitate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="urinate" wn="urinate%2:29:01"/>
+                <MEMBER fnframe="" grouping="" name="whiff" wn="whiff%2:34:02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -41,14 +41,14 @@
                     <SEMANTICS>
                         <PRED value="emit">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="?Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="body_process">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
@@ -73,14 +73,14 @@
                     <SEMANTICS>
                         <PRED value="emit">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="body_process">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
@@ -91,7 +91,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="exhale-40.1.3-2">
             <MEMBERS>
-                <MEMBER grouping="inhale.01" name="inhale" wn="inhale%2:29:00"/>
+                <MEMBER fnframe="Breathing" grouping="inhale.01" name="inhale" wn="inhale%2:29:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -111,14 +111,14 @@
                     <SEMANTICS>
                         <PRED value="take_in">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="?Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="body_process">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
@@ -143,14 +143,14 @@
                     <SEMANTICS>
                         <PRED value="take_in">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="body_process">
                             <ARGS>
-                                <ARG type="Event" value="ë1"/>
+                                <ARG type="Event" value="ee1"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>

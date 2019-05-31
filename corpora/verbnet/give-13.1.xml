@@ -1,16 +1,16 @@
 <VNCLASS ID="give-13.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="deal.04" name="deal" wn="deal%2:40:01 deal%2:40:02 deal%2:40:07         deal%2:40:06"/>
-        <MEMBER grouping="give.01 give.02" name="give-back" wn=""/>
-        <MEMBER grouping="lend.02" name="lend" wn="lend%2:40:00"/>
-        <MEMBER grouping="" name="loan" wn="loan%2:40:00"/>
-        <MEMBER grouping="pass.04" name="pass" wn="pass%2:40:00 pass%2:40:01 pass%2:40:13 pass%2:38:04"/>
-        <MEMBER grouping="peddle.01" name="peddle" wn="peddle%2:40:00"/>
-        <MEMBER grouping="refund.01" name="refund" wn="refund%2:40:00"/>
-        <MEMBER grouping="render.02" name="render" wn="render%2:40:02 render%2:40:01 render%2:40:00 render%2:40:03"/>
         <!--removed "trade" from class because doesn't take "to-PP"-->
         <!--removed "volunteer "from class because doesn't fit dative or-->
         <!--PP recipient PP frames-->
+        <MEMBER fnframe="" grouping="deal.04" name="deal" wn="deal%2:40:01 deal%2:40:02 deal%2:40:07 deal%2:40:06"/>
+        <MEMBER fnframe="" grouping="give.01 give.02" name="give-back" wn=""/>
+        <MEMBER fnframe="" grouping="lend.02" name="lend" wn="lend%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="loan" wn="loan%2:40:00"/>
+        <MEMBER fnframe="Giving" grouping="pass.04" name="pass" wn="pass%2:40:00 pass%2:40:01 pass%2:40:13 pass%2:38:04"/>
+        <MEMBER fnframe="" grouping="peddle.01" name="peddle" wn="peddle%2:40:00"/>
+        <MEMBER fnframe="" grouping="refund.01" name="refund" wn="refund%2:40:00"/>
+        <MEMBER fnframe="" grouping="render.02" name="render" wn="render%2:40:02 render%2:40:01 render%2:40:00 render%2:40:03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -290,14 +290,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="give-13.1-1">
             <MEMBERS>
-                <MEMBER grouping="give.01 give.08" name="give" wn="give%2:40:03 give%2:40:00 give%2:40:01 give%2:40:02 give%2:40:06 give%2:40:13 give%2:34:00 give%2:40:12"/>
-                <MEMBER grouping="" name="hock" wn="hock%2:40:00"/>
-                <MEMBER grouping="hawk.01" name="hawk" wn="hawk%2:40:00"/>
-                <MEMBER grouping="let.02" name="let" wn="let%2:40:00"/>
-                <MEMBER grouping="rent.01" name="rent" wn="rent%2:41:01 rent%2:40:01"/>
-                <MEMBER grouping="sell.01 sell.02" name="sell" wn="sell%2:40:00 sell%2:40:01"/>
-                <MEMBER grouping="lease.02" name="lease" wn="lease%2:41:00 lease%2:40:01"/>
-                <MEMBER grouping="" name="pawn" wn="pawn%2:40:00"/>
+                <MEMBER fnframe="Giving" grouping="give.01 give.08" name="give" wn="give%2:40:03 give%2:40:00 give%2:40:01 give%2:40:02 give%2:40:06 give%2:40:13 give%2:34:00 give%2:40:12"/>
+                <MEMBER fnframe="" grouping="" name="hock" wn="hock%2:40:00"/>
+                <MEMBER fnframe="" grouping="hawk.01" name="hawk" wn="hawk%2:40:00"/>
+                <MEMBER fnframe="" grouping="let.02" name="let" wn="let%2:40:00"/>
+                <MEMBER fnframe="Commerce_buy Commerce_sell" grouping="rent.01" name="rent" wn="rent%2:41:01 rent%2:40:01"/>
+                <MEMBER fnframe="Commerce_sell" grouping="sell.01 sell.02" name="sell" wn="sell%2:40:00 sell%2:40:01"/>
+                <MEMBER fnframe="Commerce_buy Commerce_sell Renting_out" grouping="lease.02" name="lease" wn="lease%2:41:00 lease%2:40:01"/>
+                <MEMBER fnframe="" grouping="" name="pawn" wn="pawn%2:40:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Asset">

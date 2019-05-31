@@ -12,14 +12,14 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="hurt-40.8.3-1">
             <MEMBERS>
-                <MEMBER grouping="" name="hit" wn=""/>
-                <MEMBER grouping="" name="jam" wn=""/>
-                <MEMBER grouping="graze.02" name="graze" wn=""/>
-                <MEMBER grouping="chafe.01" name="chafe" wn="chafe%2:35:00"/>
-                <MEMBER grouping="" name="overstretch" wn=""/>
-                <MEMBER grouping="" name="rick" wn=""/>
-                <MEMBER grouping="sting.01" name="sting" wn=""/>
-                <MEMBER grouping="" name="stub" wn="stub%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="hit" wn=""/>
+                <MEMBER fnframe="" grouping="" name="jam" wn=""/>
+                <MEMBER fnframe="" grouping="graze.02" name="graze" wn=""/>
+                <MEMBER fnframe="" grouping="chafe.01" name="chafe" wn="chafe%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="overstretch" wn=""/>
+                <MEMBER fnframe="" grouping="" name="rick" wn=""/>
+                <MEMBER fnframe="" grouping="sting.01" name="sting" wn=""/>
+                <MEMBER fnframe="Experience_bodily_harm" grouping="" name="stub" wn="stub%2:29:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
@@ -77,17 +77,17 @@
                 <VNSUBCLASS ID="hurt-40.8.3-1-1">
                     <MEMBERS>
                         <!--verb adds manner predicate for how the Patient is hurt-->
-                        <MEMBER grouping="break.01 break.08" name="break" wn="break%2:35:13 break%2:35:09 break%2:30:15 break%2:29:04"/>
-                        <MEMBER grouping="chip.01" name="chip" wn="chip%2:35:00"/>
-                        <MEMBER grouping="fracture.02" name="fracture" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
-                        <MEMBER grouping="pull.05" name="pull" wn="pull%2:29:00"/>
-                        <MEMBER grouping="" name="rupture" wn="rupture%2:35:00"/>
-                        <MEMBER grouping="split.01" name="split" wn="split%2:35:00"/>
-                        <MEMBER grouping="splinter.01" name="splinter" wn="splinter%2:30:00"/>
-                        <MEMBER grouping="" name="sprain" wn="sprain%2:29:00"/>
-                        <MEMBER grouping="" name="tear" wn=""/>
-                        <MEMBER grouping="turn.10" name="turn" wn="turn%2:29:00"/>
-                        <MEMBER grouping="twist.03" name="twist" wn="twist%2:29:00"/>
+                        <MEMBER fnframe="Cause_harm Cause_to_fragment Experience_bodily_harm" grouping="break.01 break.08" name="break" wn="break%2:35:13 break%2:35:09 break%2:30:15 break%2:29:04"/>
+                        <MEMBER fnframe="Cause_to_fragment Damaging" grouping="chip.01" name="chip" wn="chip%2:35:00"/>
+                        <MEMBER fnframe="Cause_harm Cause_to_fragment" grouping="fracture.02" name="fracture" wn="fracture%2:29:02 fracture%2:29:01 fracture%2:29:00"/>
+                        <MEMBER fnframe="Experience_bodily_harm" grouping="pull.05" name="pull" wn="pull%2:29:00"/>
+                        <MEMBER fnframe="" grouping="" name="rupture" wn="rupture%2:35:00"/>
+                        <MEMBER fnframe="Cause_to_fragment" grouping="split.01" name="split" wn="split%2:35:00"/>
+                        <MEMBER fnframe="Cause_to_fragment" grouping="splinter.01" name="splinter" wn="splinter%2:30:00"/>
+                        <MEMBER fnframe="Experience_bodily_harm" grouping="" name="sprain" wn="sprain%2:29:00"/>
+                        <MEMBER fnframe="Cause_to_fragment Damaging Experience_bodily_harm" grouping="" name="tear" wn=""/>
+                        <MEMBER fnframe="" grouping="turn.10" name="turn" wn="turn%2:29:00"/>
+                        <MEMBER fnframe="Experience_bodily_harm" grouping="twist.03" name="twist" wn="twist%2:29:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -139,23 +139,23 @@
         <VNSUBCLASS ID="hurt-40.8.3-2">
             <MEMBERS>
                 <!--verb adds manner predicate for how the Patient is hurt-->
-                <MEMBER grouping="" name="bark" wn=""/>
-                <MEMBER grouping="bite.01" name="bite" wn="bite%2:35:00"/>
-                <MEMBER grouping="" name="bruise" wn="bruise%2:35:00"/>
-                <MEMBER grouping="bump.01" name="bump" wn="bump%2:35:00"/>
-                <MEMBER grouping="burn.01 burn.05" name="burn" wn="burn%2:30:02 burn%2:39:00"/>
-                <MEMBER grouping="" name="contuse" wn=""/>
-                <MEMBER grouping="cut.01" name="cut" wn="cut%2:35:14"/>
-                <MEMBER grouping="hurt.01" name="hurt" wn="hurt%2:29:01"/>
-                <MEMBER grouping="injure.01" name="injure" wn="injure%2:29:00"/>
-                <MEMBER grouping="" name="nick" wn="nick%2:35:01"/>
-                <MEMBER grouping="" name="prick" wn="prick%2:35:00 prick%2:35:03"/>
-                <MEMBER grouping="scald.01" name="scald" wn="scald%2:30:00"/>
-                <MEMBER grouping="scratch.01" name="scratch" wn="scratch%2:35:00 ?scratch%2:39:00"/>
-                <MEMBER grouping="" name="skin" wn="skin%2:35:02"/>
-                <MEMBER grouping="strain.01" name="strain" wn="strain%2:34:00"/>
-                <MEMBER grouping="" name="sunburn" wn=""/>
-                <MEMBER grouping="wrench.03" name="wrench" wn="wrench%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="bark" wn=""/>
+                <MEMBER fnframe="" grouping="bite.01" name="bite" wn="bite%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="bruise" wn="bruise%2:35:00"/>
+                <MEMBER fnframe="Impact" grouping="bump.01" name="bump" wn="bump%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Experience_bodily_harm" grouping="burn.01 burn.05" name="burn" wn="burn%2:30:02 burn%2:39:00"/>
+                <MEMBER fnframe="" grouping="" name="contuse" wn=""/>
+                <MEMBER fnframe="Cause_harm Cutting Experience_bodily_harm" grouping="cut.01" name="cut" wn="cut%2:35:14"/>
+                <MEMBER fnframe="Cause_harm Experience_bodily_harm Perception_body" grouping="hurt.01" name="hurt" wn="hurt%2:29:01"/>
+                <MEMBER fnframe="Experience_bodily_harm" grouping="injure.01" name="injure" wn="injure%2:29:00"/>
+                <MEMBER fnframe="Damaging" grouping="" name="nick" wn="nick%2:35:01"/>
+                <MEMBER fnframe="" grouping="" name="prick" wn="prick%2:35:00 prick%2:35:03"/>
+                <MEMBER fnframe="" grouping="scald.01" name="scald" wn="scald%2:30:00"/>
+                <MEMBER fnframe="Damaging" grouping="scratch.01" name="scratch" wn="scratch%2:35:00 ?scratch%2:39:00"/>
+                <MEMBER fnframe="" grouping="" name="skin" wn="skin%2:35:02"/>
+                <MEMBER fnframe="Experience_bodily_harm" grouping="strain.01" name="strain" wn="strain%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="sunburn" wn=""/>
+                <MEMBER fnframe="" grouping="wrench.03" name="wrench" wn="wrench%2:29:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

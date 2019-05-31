@@ -1,12 +1,12 @@
 <VNCLASS ID="keep-15.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="hoard" wn="hoard%2:40:01"/>
-        <MEMBER grouping="hold.03" name="hold" wn="hold%2:42:00 hold%2:40:02"/>
-        <MEMBER grouping="keep.03" name="keep" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
-        <MEMBER grouping="leave.02" name="leave" wn="leave%2:40:06 leave%2:31:02"/>
-        <MEMBER grouping="store.01" name="store" wn="store%2:40:00 store%2:40:02"/>
-        <MEMBER grouping="stock.01" name="stock" wn="stock%2:40:00"/>
-        <MEMBER grouping="" name="stockpile" wn="stockpile%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="hoard" wn="hoard%2:40:01"/>
+        <MEMBER fnframe="" grouping="hold.03" name="hold" wn="hold%2:42:00 hold%2:40:02"/>
+        <MEMBER fnframe="Avoiding Storing" grouping="keep.03" name="keep" wn="keep%2:40:13 keep%2:40:12 keep%2:40:10"/>
+        <MEMBER fnframe="" grouping="leave.02" name="leave" wn="leave%2:40:06 leave%2:31:02"/>
+        <MEMBER fnframe="Storing" grouping="store.01" name="store" wn="store%2:40:00 store%2:40:02"/>
+        <MEMBER fnframe="" grouping="stock.01" name="stock" wn="stock%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="stockpile" wn="stockpile%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

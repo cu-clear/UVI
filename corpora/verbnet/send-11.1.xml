@@ -1,21 +1,21 @@
 <VNCLASS ID="send-11.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="convey.02" name="convey" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00"/>
-        <MEMBER grouping="deliver.05" name="deliver" wn="deliver%2:35:00"/>
-        <MEMBER grouping="dispatch.01" name="dispatch" wn="dispatch%2:38:00"/>
-        <MEMBER grouping="drive.02" name="drive" wn="drive%2:38:02"/>
-        <MEMBER grouping="" name="handdeliver" wn=""/>
-        <MEMBER grouping="" name="pass_on" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00"/>
-        <MEMBER grouping="port.03" name="port" wn="port%2:35:07"/>
-        <MEMBER grouping="post.03" name="post" wn="post%2:32:02"/>
-        <MEMBER grouping="return.02 return.03" name="return" wn="return%2:40:08 return%2:35:01"/>
-        <MEMBER grouping="shift.01" name="shift" wn="shift%2:38:02"/>
-        <MEMBER grouping="" name="shunt" wn="shunt%2:38:00"/>
-        <MEMBER grouping="transfer.01 transfer.02" name="transfer" wn="transfer%2:40:01 transfer%2:35:00"/>
-        <MEMBER grouping="transport.01" name="transport" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01"/>
-        <MEMBER grouping="" name="export" wn="export%2:40:00"/>
-        <MEMBER grouping="" name="import" wn="import%2:40:00"/>
-        <MEMBER grouping="" name="transship" wn="transship%2:38:00"/>
+        <MEMBER fnframe="Bringing" grouping="convey.02" name="convey" wn="convey%2:40:10 convey%2:38:00 convey%2:35:00"/>
+        <MEMBER fnframe="Delivery" grouping="deliver.05" name="deliver" wn="deliver%2:35:00"/>
+        <MEMBER fnframe="Sending" grouping="dispatch.01" name="dispatch" wn="dispatch%2:38:00"/>
+        <MEMBER fnframe="" grouping="drive.02" name="drive" wn="drive%2:38:02"/>
+        <MEMBER fnframe="" grouping="" name="handdeliver" wn=""/>
+        <MEMBER fnframe="" grouping="" name="pass_on" wn="pass_on%2:40:01 pass_on%2:40:00 pass_on%2:38:00"/>
+        <MEMBER fnframe="" grouping="port.03" name="port" wn="port%2:35:07"/>
+        <MEMBER fnframe="Sending" grouping="post.03" name="post" wn="post%2:32:02"/>
+        <MEMBER fnframe="" grouping="return.02 return.03" name="return" wn="return%2:40:08 return%2:35:01"/>
+        <MEMBER fnframe="" grouping="shift.01" name="shift" wn="shift%2:38:02"/>
+        <MEMBER fnframe="" grouping="" name="shunt" wn="shunt%2:38:00"/>
+        <MEMBER fnframe="" grouping="transfer.01 transfer.02" name="transfer" wn="transfer%2:40:01 transfer%2:35:00"/>
+        <MEMBER fnframe="Bringing" grouping="transport.01" name="transport" wn="transport%2:38:00 transport%2:38:01 transport%2:35:01"/>
+        <MEMBER fnframe="" grouping="" name="export" wn="export%2:40:00"/>
+        <MEMBER fnframe="Import_export Importing" grouping="" name="import" wn="import%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="transship" wn="transship%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -77,14 +77,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="has_location">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -98,8 +98,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -144,20 +144,20 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="has_location">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
@@ -209,20 +209,20 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="has_location">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -282,20 +282,20 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="has_location">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
@@ -355,20 +355,20 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="has_location">
+                <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
@@ -386,21 +386,21 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="send-11.1-1">
             <MEMBERS>
-                <MEMBER grouping="" name="airmail" wn="airmail%2:32:00"/>
-                <MEMBER grouping="express.03" name="express" wn="express%2:32:09"/>
-                <MEMBER grouping="" name="FedEx" wn=""/>
-                <MEMBER grouping="" name="forward" wn="forward%2:38:00"/>
-                <MEMBER grouping="hand.01" name="hand" wn="hand%2:40:00"/>
-                <MEMBER grouping="mail.01" name="mail" wn="mail%2:35:00 mail%2:32:00"/>
-                <MEMBER grouping="pass.04 pass.08" name="pass" wn="pass%2:40:00 pass%2:32:01"/>
-                <MEMBER grouping="send.01 send.03" name="send" wn="send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02"/>
-                <MEMBER grouping="ship.01" name="ship" wn="ship%2:38:00"/>
-                <MEMBER grouping="slip.01" name="slip" wn="slip%2:40:10"/>
-                <MEMBER grouping="" name="smuggle" wn="smuggle%2:40:00"/>
-                <MEMBER grouping="sneak.02" name="sneak" wn="sneak%2:40:00 sneak%2:40:10"/>
-                <MEMBER grouping="transmit.01" name="transmit" wn="transmit%2:40:10 transmit%2:35:00"/>
-                <MEMBER grouping="" name="UPS" wn=""/>
-                <MEMBER grouping="wire.03" name="wire" wn="wire%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="airmail" wn="airmail%2:32:00"/>
+                <MEMBER fnframe="" grouping="express.03" name="express" wn="express%2:32:09"/>
+                <MEMBER fnframe="" grouping="" name="FedEx" wn=""/>
+                <MEMBER fnframe="Sending" grouping="" name="forward" wn="forward%2:38:00"/>
+                <MEMBER fnframe="Giving" grouping="hand.01" name="hand" wn="hand%2:40:00"/>
+                <MEMBER fnframe="Sending" grouping="mail.01" name="mail" wn="mail%2:35:00 mail%2:32:00"/>
+                <MEMBER fnframe="Giving" grouping="pass.04 pass.08" name="pass" wn="pass%2:40:00 pass%2:32:01"/>
+                <MEMBER fnframe="Sending" grouping="send.01 send.03" name="send" wn="send%2:38:01 send%2:35:00 send%2:32:00 send%2:38:00 send%2:32:02"/>
+                <MEMBER fnframe="Sending" grouping="ship.01" name="ship" wn="ship%2:38:00"/>
+                <MEMBER fnframe="" grouping="slip.01" name="slip" wn="slip%2:40:10"/>
+                <MEMBER fnframe="" grouping="" name="smuggle" wn="smuggle%2:40:00"/>
+                <MEMBER fnframe="" grouping="sneak.02" name="sneak" wn="sneak%2:40:00 sneak%2:40:10"/>
+                <MEMBER fnframe="" grouping="transmit.01" name="transmit" wn="transmit%2:40:10 transmit%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="UPS" wn=""/>
+                <MEMBER fnframe="Communication_means Sending" grouping="wire.03" name="wire" wn="wire%2:32:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Destination">
@@ -430,46 +430,46 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-		                <PRED value="has_location">
-		                    <ARGS>
-		                        <ARG type="Event" value="e1"/>
-		                        <ARG type="ThemRole" value="Theme"/>
-		                        <ARG type="ThemRole" value="?Initial_Location"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="do">
-		                    <ARGS>
-		                        <ARG type="Event" value="e2"/>
-		                        <ARG type="ThemRole" value="Agent"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="cause">
-		                    <ARGS>
-		                        <ARG type="Event" value="e2"/>
-		                        <ARG type="Event" value="ë3"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="motion">
-		                    <ARGS>
-		                        <ARG type="Event" value="ë3"/>
-		                        <ARG type="ThemRole" value="Theme"/>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="do">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="cause">
+                            <ARGS>
+                                <ARG type="Event" value="ee3"/>
+                                <ARG type="Event" value="e2"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="motion">
+                            <ARGS>
+                                <ARG type="Event" value="ee3"/>
+                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="PredSpecific" value="Trajectory"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED bool = "!" value="has_location">
-		                    <ARGS>
-		                        <ARG type="Event" value="ë3"/>
-		                        <ARG type="ThemRole" value="Theme"/>
-		                        <ARG type="ThemRole" value="?Initial_Location"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="has_location">
-		                    <ARGS>
-		                        <ARG type="Event" value="e4"/>
-		                        <ARG type="ThemRole" value="Theme"/>
-		                        <ARG type="ThemRole" value="?Destination"/>
-		                    </ARGS>
-		                </PRED>
+                            </ARGS>
+                        </PRED>
+                        <PRED bool="!" value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="ee3"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Initial_Location"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_location">
+                            <ARGS>
+                                <ARG type="Event" value="e4"/>
+                                <ARG type="ThemRole" value="Theme"/>
+                                <ARG type="ThemRole" value="?Destination"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>

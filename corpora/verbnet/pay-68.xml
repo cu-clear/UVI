@@ -1,9 +1,9 @@
 <VNCLASS ID="pay-68" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="spend.02" name="spend" wn="spend%2:40:00 spend%2:40:01"/>
-        <MEMBER grouping="" name="squander" wn="squander%2:40:01"/>
-        <MEMBER grouping="waste.01" name="waste" wn="waste%2:40:00"/>
-        <MEMBER grouping="" name="serve" wn=""/>
+        <MEMBER fnframe="" grouping="spend.02" name="spend" wn="spend%2:40:00 spend%2:40:01"/>
+        <MEMBER fnframe="" grouping="" name="squander" wn="squander%2:40:01"/>
+        <MEMBER fnframe="Frugality" grouping="waste.01" name="waste" wn="waste%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="serve" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -250,9 +250,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="pay-68-1">
             <MEMBERS>
-                <MEMBER grouping="pay.01" name="pay" wn="pay%2:40:00"/>
-                <MEMBER grouping="repay.01" name="repay" wn="repay%2:40:01"/>
-                <MEMBER grouping="" name="tithe" wn="tithe%2:40:03 tithe%2:40:02"/>
+                <MEMBER fnframe="Commerce_pay" grouping="pay.01" name="pay" wn="pay%2:40:00"/>
+                <MEMBER fnframe="" grouping="repay.01" name="repay" wn="repay%2:40:01"/>
+                <MEMBER fnframe="" grouping="" name="tithe" wn="tithe%2:40:03 tithe%2:40:02"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Recipient">

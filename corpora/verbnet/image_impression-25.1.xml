@@ -1,25 +1,25 @@
 <VNCLASS ID="image_impression-25.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="annotate" wn=""/>
-        <MEMBER grouping="" name="applique" wn="applique%2:36:00"/>
-        <MEMBER grouping="" name="emboss" wn="emboss%2:35:00"/>
-        <MEMBER grouping="" name="embroider" wn="embroider%2:36:00"/>
-        <MEMBER grouping="engrave.01" name="engrave" wn="engrave%2:35:00 engrave%2:36:00"/>
-        <MEMBER grouping="etch.01" name="etch" wn="etch%2:36:00"/>
-        <MEMBER grouping="" name="handpaint" wn=""/>
-        <MEMBER grouping="" name="imprint" wn="imprint%2:35:00"/>
-        <MEMBER grouping="" name="incise" wn="incise%2:35:00"/>
-        <MEMBER grouping="" name="ingrain" wn="ingrain%2:35:00"/>
-        <MEMBER grouping="inscribe.01" name="inscribe" wn="inscribe%2:35:00 inscribe%2:32:03"/>
-        <MEMBER grouping="mark.01 mark.02" name="mark" wn="mark%2:35:09 mark%2:35:01"/>
-        <MEMBER grouping="paint.01" name="paint" wn=""/>
-        <MEMBER grouping="" name="reinscribe" wn=""/>
-        <MEMBER grouping="" name="scar" wn=""/>
-        <MEMBER grouping="sign.01 sign.03" name="sign" wn="sign%2:32:02 sign%2:41:00"/>
-        <MEMBER grouping="stamp.03 stamp.04" name="stamp" wn="stamp%2:35:02"/>
-        <MEMBER grouping="stipple.01" name="stipple" wn="stipple%2:36:00"/>
-        <MEMBER grouping="" name="tattoo" wn="tattoo%2:36:00"/>
-        <MEMBER grouping="tool.04" name="tool" wn="tool%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="annotate" wn=""/>
+        <MEMBER fnframe="" grouping="" name="applique" wn="applique%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="emboss" wn="emboss%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="embroider" wn="embroider%2:36:00"/>
+        <MEMBER fnframe="" grouping="engrave.01" name="engrave" wn="engrave%2:35:00 engrave%2:36:00"/>
+        <MEMBER fnframe="Processing_materials" grouping="etch.01" name="etch" wn="etch%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="handpaint" wn=""/>
+        <MEMBER fnframe="" grouping="" name="imprint" wn="imprint%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="incise" wn="incise%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="ingrain" wn="ingrain%2:35:00"/>
+        <MEMBER fnframe="" grouping="inscribe.01" name="inscribe" wn="inscribe%2:35:00 inscribe%2:32:03"/>
+        <MEMBER fnframe="" grouping="mark.01 mark.02" name="mark" wn="mark%2:35:09 mark%2:35:01"/>
+        <MEMBER fnframe="Create_physical_artwork Create_representation" grouping="paint.01" name="paint" wn=""/>
+        <MEMBER fnframe="" grouping="" name="reinscribe" wn=""/>
+        <MEMBER fnframe="" grouping="" name="scar" wn=""/>
+        <MEMBER fnframe="" grouping="sign.01 sign.03" name="sign" wn="sign%2:32:02 sign%2:41:00"/>
+        <MEMBER fnframe="" grouping="stamp.03 stamp.04" name="stamp" wn="stamp%2:35:02"/>
+        <MEMBER fnframe="" grouping="stipple.01" name="stipple" wn="stipple%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="tattoo" wn="tattoo%2:36:00"/>
+        <MEMBER fnframe="" grouping="tool.04" name="tool" wn="tool%2:36:00"/>
     </MEMBERS>
     <THEMROLES>
         <!--In most predicates, such as location, Theme really means image_of(Theme)-->

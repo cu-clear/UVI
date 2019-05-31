@@ -11,9 +11,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="gobble-39.3-1">
             <MEMBERS>
-                <MEMBER grouping="bolt.03" name="bolt" wn="bolt%2:34:01 bolt%2:34:00"/>
-                <MEMBER grouping="" name="gobble" wn="gobble%2:34:00"/>
-                <MEMBER grouping="" name="wolf" wn="wolf%2:34:00"/>
+                <MEMBER fnframe="" grouping="bolt.03" name="bolt" wn="bolt%2:34:01 bolt%2:34:00"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="gobble" wn="gobble%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="wolf" wn="wolf%2:34:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
@@ -109,12 +109,12 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="gobble-39.3-2">
             <MEMBERS>
-                <MEMBER grouping="" name="gulp" wn="gulp%2:34:01"/>
-                <MEMBER grouping="" name="guzzle" wn="guzzle%2:34:00"/>
-                <MEMBER grouping="" name="quaff" wn="quaff%2:34:00"/>
-                <MEMBER grouping="" name="slug" wn=""/>
-                <MEMBER grouping="swallow.01" name="swallow" wn="swallow%2:34:00"/>
-                <MEMBER grouping="" name="swig" wn="swig%2:34:00"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="gulp" wn="gulp%2:34:01"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="guzzle" wn="guzzle%2:34:00"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="quaff" wn="quaff%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="slug" wn=""/>
+                <MEMBER fnframe="" grouping="swallow.01" name="swallow" wn="swallow%2:34:00"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="swig" wn="swig%2:34:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">

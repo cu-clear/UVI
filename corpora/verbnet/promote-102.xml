@@ -1,13 +1,13 @@
 <VNCLASS ID="promote-102" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="promote.01" name="promote" wn="promote%2:41:01 promote%2:32:00"/>
-        <MEMBER grouping="advance.03 advance.04" name="advance" wn="advance%2:41:01 advance%2:41:00"/>
-        <MEMBER grouping="boost.01" name="boost" wn="boost%2:41:00"/>
-        <MEMBER grouping="further.01" name="further" wn="further%2:41:00 further%2:41:01"/>
-        <MEMBER grouping="encourage.01" name="encourage" wn="encourage%2:41:00"/>
-        <MEMBER grouping="invite.01" name="invite" wn="invite%2:32:01"/>
-        <MEMBER grouping="emphasize.01" name="emphasize" wn="emphasize%2:32:00"/>
-        <MEMBER grouping="underscore.01" name="underscore" wn="underscore%2:32:00"/>
+        <MEMBER fnframe="" grouping="promote.01" name="promote" wn="promote%2:41:01 promote%2:32:00"/>
+        <MEMBER fnframe="" grouping="advance.03 advance.04" name="advance" wn="advance%2:41:01 advance%2:41:00"/>
+        <MEMBER fnframe="" grouping="boost.01" name="boost" wn="boost%2:41:00"/>
+        <MEMBER fnframe="" grouping="further.01" name="further" wn="further%2:41:00 further%2:41:01"/>
+        <MEMBER fnframe="Attempt_suasion" grouping="encourage.01" name="encourage" wn="encourage%2:41:00"/>
+        <MEMBER fnframe="Request" grouping="invite.01" name="invite" wn="invite%2:32:01"/>
+        <MEMBER fnframe="Convey_importance Place_weight_on" grouping="emphasize.01" name="emphasize" wn="emphasize%2:32:00"/>
+        <MEMBER fnframe="" grouping="underscore.01" name="underscore" wn="underscore%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

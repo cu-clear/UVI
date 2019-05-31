@@ -1,13 +1,13 @@
 <VNCLASS ID="ensure-99" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="ensure.01" name="ensure" wn="ensure%2:32:00"/>
-        <MEMBER grouping="assure.02" name="assure" wn="assure%2:32:03"/>
-        <MEMBER grouping="guarantee.02" name="guarantee" wn="guarantee%2:32:03"/>
-        <MEMBER grouping="insure.02" name="insure" wn="insure%2:32:04"/>
-        <MEMBER grouping="secure.01" name="secure" wn="secure%2:32:00"/>
-        <MEMBER grouping="ascertain.02" name="ascertain" wn="ascertain%2:31:00"/>
-        <MEMBER grouping="" name="reinsure" wn="reinsure%2:40:00 reinsure%2:32:00         reinsure%2:32:01"/>
-        <MEMBER grouping="provide.03" name="provide" wn="provide%2:32:00"/>
+        <MEMBER fnframe="" grouping="ensure.01" name="ensure" wn="ensure%2:32:00"/>
+        <MEMBER fnframe="" grouping="assure.02" name="assure" wn="assure%2:32:03"/>
+        <MEMBER fnframe="" grouping="guarantee.02" name="guarantee" wn="guarantee%2:32:03"/>
+        <MEMBER fnframe="" grouping="insure.02" name="insure" wn="insure%2:32:04"/>
+        <MEMBER fnframe="Getting" grouping="secure.01" name="secure" wn="secure%2:32:00"/>
+        <MEMBER fnframe="" grouping="ascertain.02" name="ascertain" wn="ascertain%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="reinsure" wn="reinsure%2:40:00 reinsure%2:32:00 reinsure%2:32:01"/>
+        <MEMBER fnframe="" grouping="provide.03" name="provide" wn="provide%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Precondition">
@@ -82,7 +82,7 @@
                         <ARG type="ThemRole" value="Beneficiary"/>
                     </ARGS>
                 </PRED>
-                </SEMANTICS>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP.beneficiary" secondary="NP-PP; for-PP" xtag="0.2"/>

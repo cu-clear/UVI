@@ -75,11 +75,11 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="consider-29.9-1">
             <MEMBERS>
-                <MEMBER grouping="" name="acknowledge" wn=""/>
-                <MEMBER grouping="deem.01" name="deem" wn="deem%2:31:00"/>
-                <MEMBER grouping="" name="esteem" wn="esteem%2:31:00"/>
-                <MEMBER grouping="rate.02 rate.03" name="rate" wn="rate%2:31:00"/>
-                <MEMBER grouping="reckon.01" name="reckon" wn="reckon%2:31:00"/>
+                <MEMBER fnframe="Statement" grouping="" name="acknowledge" wn=""/>
+                <MEMBER fnframe="" grouping="deem.01" name="deem" wn="deem%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="esteem" wn="esteem%2:31:00"/>
+                <MEMBER fnframe="Assessing" grouping="rate.02 rate.03" name="rate" wn="rate%2:31:00"/>
+                <MEMBER fnframe="Awareness" grouping="reckon.01" name="reckon" wn="reckon%2:31:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -181,7 +181,7 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="consider-29.9-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="report.01" name="report" wn="report%2:32:01"/>
+                        <MEMBER fnframe="" grouping="report.01" name="report" wn="report%2:32:01"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -313,7 +313,7 @@
                     <SUBCLASSES>
                         <VNSUBCLASS ID="consider-29.9-1-1-1">
                             <MEMBERS>
-                                <MEMBER grouping="consider.01 consider.02" name="consider" wn="consider%2:32:02"/>
+                                <MEMBER fnframe="Categorization Cogitation" grouping="consider.01 consider.02" name="consider" wn="consider%2:32:02"/>
                             </MEMBERS>
                             <THEMROLES/>
                             <FRAMES>
@@ -499,10 +499,10 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="consider-29.9-2">
             <MEMBERS>
-                <MEMBER grouping="suspect.01" name="suspect" wn=""/>
-                <MEMBER grouping="think.01" name="think" wn=""/>
-                <MEMBER grouping="suppose.02" name="suppose" wn=""/>
-                <MEMBER grouping="" name="posit" wn="postulate%2:31:00"/>
+                <MEMBER fnframe="Awareness" grouping="suspect.01" name="suspect" wn=""/>
+                <MEMBER fnframe="Opinion Regard" grouping="think.01" name="think" wn=""/>
+                <MEMBER fnframe="Opinion" grouping="suppose.02" name="suppose" wn=""/>
+                <MEMBER fnframe="" grouping="" name="posit" wn="postulate%2:31:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

@@ -15,12 +15,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="withdraw-82-1">
             <MEMBERS>
-                <MEMBER grouping="" name="back_out" wn="back_out%2:32:00"/>
-                <MEMBER grouping="" name="chicken_out" wn="chicken_out%2:41:00"/>
-                <MEMBER grouping="" name="get_out" wn="get_out%2:32:03"/>
-                <MEMBER grouping="" name="wriggle_out" wn=""/>
-                <MEMBER grouping="" name="bow_out" wn="bow_out%2:41:01 bow_out%2:41:00"/>
-                <MEMBER grouping="" name="pull_out" wn="pull_out%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="back_out" wn="back_out%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="chicken_out" wn="chicken_out%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="get_out" wn="get_out%2:32:03"/>
+                <MEMBER fnframe="" grouping="" name="wriggle_out" wn=""/>
+                <MEMBER fnframe="" grouping="" name="bow_out" wn="bow_out%2:41:01 bow_out%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="pull_out" wn="pull_out%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -112,9 +112,9 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="withdraw-82-2">
             <MEMBERS>
-                <MEMBER grouping="" name="get_away" wn="get_away%2:32:00"/>
-                <MEMBER grouping="" name="back_off" wn="back_off%2:41:00"/>
-                <MEMBER grouping="" name="back_down" wn=""/>
+                <MEMBER fnframe="" grouping="" name="get_away" wn="get_away%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="back_off" wn="back_off%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="back_down" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -207,10 +207,10 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="withdraw-82-3">
             <MEMBERS>
-                <MEMBER grouping="withdraw.01" name="withdraw" wn="withdraw%2:41:01 withdraw%2:32:00"/>
-                <MEMBER grouping="retreat.01 retreat.04" name="retreat" wn="retreat%2:32:00"/>
-                <MEMBER grouping="" name="pull_away" wn="pull_away%2:38:00"/>
-                <MEMBER grouping="retire.01" name="retire" wn="retire%2:41:02"/>
+                <MEMBER fnframe="" grouping="withdraw.01" name="withdraw" wn="withdraw%2:41:01 withdraw%2:32:00"/>
+                <MEMBER fnframe="Departing Quitting_a_place" grouping="retreat.01 retreat.04" name="retreat" wn="retreat%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="pull_away" wn="pull_away%2:38:00"/>
+                <MEMBER fnframe="Quitting" grouping="retire.01" name="retire" wn="retire%2:41:02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

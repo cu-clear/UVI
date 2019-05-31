@@ -1,13 +1,13 @@
 <VNCLASS ID="pour-9.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="dribble.01 dribble.02" name="dribble" wn="dribble%2:38:00 dribble%2:35:10"/>
-        <MEMBER grouping="drip.01" name="drip" wn="drip%2:38:00 drip%2:35:10"/>
-        <MEMBER grouping="pour.01 pour.02" name="pour" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
-        <MEMBER grouping="" name="slop" wn="slop%2:35:00"/>
-        <MEMBER grouping="" name="slosh" wn="slosh%2:35:00"/>
-        <MEMBER grouping="spew.01 spew.02" name="spew" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
-        <MEMBER grouping="spill.01" name="spill" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00"/>
-        <MEMBER grouping="" name="trickle" wn="trickle%2:38:00"/>
+        <MEMBER fnframe="Fluidic_motion" grouping="dribble.01 dribble.02" name="dribble" wn="dribble%2:38:00 dribble%2:35:10"/>
+        <MEMBER fnframe="Cause_fluidic_motion Fluidic_motion" grouping="drip.01" name="drip" wn="drip%2:38:00 drip%2:35:10"/>
+        <MEMBER fnframe="Mass_motion" grouping="pour.01 pour.02" name="pour" wn="pour%2:38:03 pour%2:38:04 pour%2:38:02"/>
+        <MEMBER fnframe="" grouping="" name="slop" wn="slop%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="slosh" wn="slosh%2:35:00"/>
+        <MEMBER fnframe="Excreting Fluidic_motion" grouping="spew.01 spew.02" name="spew" wn="spew%2:29:01 spew%2:29:02 spew%2:29:00"/>
+        <MEMBER fnframe="Fluidic_motion" grouping="spill.01" name="spill" wn="spill%2:35:04 spill%2:38:00 spill%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="trickle" wn="trickle%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as a deictic(?) locative adverb(?) (here, there)-->
@@ -73,7 +73,7 @@
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
-               <PRED value="do">
+                <PRED value="do">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Agent"/>
@@ -81,22 +81,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -138,7 +138,7 @@
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
-               <PRED value="do">
+                <PRED value="do">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Agent"/>
@@ -146,22 +146,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -203,7 +203,7 @@
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
-               <PRED value="do">
+                <PRED value="do">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="?Agent"/>
@@ -211,22 +211,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -278,7 +278,7 @@
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
-               <PRED value="do">
+                <PRED value="do">
                     <ARGS>
                         <ARG type="Event" value="e2"/>
                         <ARG type="ThemRole" value="Agent"/>
@@ -286,22 +286,22 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
@@ -352,14 +352,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>

@@ -1,11 +1,11 @@
 <VNCLASS ID="allow-64.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="approve.01 approve.02" name="approve" wn="approve%2:32:00 approve%2:31:00"/>
-        <MEMBER grouping="" name="authorize" wn=""/>
-        <MEMBER grouping="" name="endorse" wn=""/>
-        <MEMBER grouping="" name="okay" wn="okay%2:32:00"/>
-        <MEMBER grouping="sanction.01" name="sanction" wn="sanction%2:32:01 sanction%2:41:01"/>
-        <MEMBER grouping="tolerate.01" name="tolerate" wn="tolerate%2:32:01"/>
+        <MEMBER fnframe="" grouping="approve.01 approve.02" name="approve" wn="approve%2:32:00 approve%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="authorize" wn=""/>
+        <MEMBER fnframe="" grouping="" name="endorse" wn=""/>
+        <MEMBER fnframe="" grouping="" name="okay" wn="okay%2:32:00"/>
+        <MEMBER fnframe="" grouping="sanction.01" name="sanction" wn="sanction%2:32:01 sanction%2:41:01"/>
+        <MEMBER fnframe="" grouping="tolerate.01" name="tolerate" wn="tolerate%2:32:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -111,8 +111,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="allow-64.1-1">
             <MEMBERS>
-                <MEMBER grouping="allow.01" name="allow" wn="allow%2:32:00"/>
-                <MEMBER grouping="permit.01" name="permit" wn="permit%2:32:00"/>
+                <MEMBER fnframe="" grouping="allow.01" name="allow" wn="allow%2:32:00"/>
+                <MEMBER fnframe="" grouping="permit.01" name="permit" wn="permit%2:32:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

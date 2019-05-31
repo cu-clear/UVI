@@ -1,8 +1,8 @@
 <VNCLASS ID="resign-10.11" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="leave_office" wn="leave_office%2:41:00"/>
-        <MEMBER grouping="" name="step_down" wn="step_down%2:41:00"/>
-        <MEMBER grouping="" name="walk_out" wn="walk_out%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="leave_office" wn="leave_office%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="step_down" wn="step_down%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="walk_out" wn="walk_out%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -64,12 +64,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="resign-10.11-1">
             <MEMBERS>
-                <MEMBER grouping="resign.01" name="resign" wn="resign%2:41:00"/>
-                <MEMBER grouping="retire.01" name="retire" wn="retire%2:41:02"/>
-                <MEMBER grouping="walk.03" name="walk" wn=""/>
-                <MEMBER grouping="walk.03" name="walk_away" wn=""/>
-                <MEMBER grouping="walk.03" name="walk_out" wn="walk_out%2:38:00"/>
-                <MEMBER grouping="withdraw.01" name="withdraw" wn="withdraw%2:41:01"/>
+                <MEMBER fnframe="" grouping="resign.01" name="resign" wn="resign%2:41:00"/>
+                <MEMBER fnframe="" grouping="retire.01" name="retire" wn="retire%2:41:02"/>
+                <MEMBER fnframe="" grouping="walk.03" name="walk" wn=""/>
+                <MEMBER fnframe="" grouping="walk.03" name="walk_away" wn=""/>
+                <MEMBER fnframe="" grouping="walk.03" name="walk_out" wn="walk_out%2:38:00"/>
+                <MEMBER fnframe="" grouping="withdraw.01" name="withdraw" wn="withdraw%2:41:01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Attribute">
@@ -129,23 +129,23 @@
                         </PRED>
                     </SEMANTICS>
                 </FRAME>
-				<FRAME>
-					<DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive;as-Attribute" xtag="0.2" />
-					<EXAMPLES>
-						<EXAMPLE>
-							He resigned as head of the lab.
-						</EXAMPLE>
-					</EXAMPLES>
-					<SYNTAX>
-						<NP value="Agent">
-							<SYNRESTRS />
-						</NP>
-						<VERB />
-						<NP value="Attribute">
-							<SYNRESTRS />
-						</NP>
-					</SYNTAX>
-					<SEMANTICS>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive;as-Attribute" xtag="0.2"/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            He resigned as head of the lab.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Attribute">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
                         <PRED value="has_organization_role">
                             <ARGS>
                                 <ARG type="Event" value="e1"/>
@@ -174,22 +174,22 @@
                                 <ARG type="Event" value="e3"/>
                             </ARGS>
                         </PRED>
-					</SEMANTICS>
-				</FRAME>
+                    </SEMANTICS>
+                </FRAME>
             </FRAMES>
             <SUBCLASSES/>
         </VNSUBCLASS>
         <VNSUBCLASS ID="resign-10.11-2">
             <MEMBERS>
-                <MEMBER grouping="" name="abdicate" wn="abdicate%2:41:00"/>
-                <MEMBER grouping="depart.01" name="depart" wn="depart%2:41:00"/>
-                <MEMBER grouping="" name="give_up" wn="give_up%2:41:05"/>
-                <MEMBER grouping="leave.01" name="leave" wn="leave%2:41:00"/>
-                <MEMBER grouping="renounce.01" name="renounce" wn="renounce%2:41:00 renounce%2:41:01"/>
-                <MEMBER grouping="resign.01" name="resign" wn="resign%2:41:00"/>
-                <MEMBER grouping="quit.02" name="quit" wn="quit%2:41:00"/>
-                <MEMBER grouping="vacate.01" name="vacate" wn="vacate%2:41:00 resign%2:41:05"/>
-                <MEMBER grouping="" name="walk_off" wn=""/>
+                <MEMBER fnframe="" grouping="" name="abdicate" wn="abdicate%2:41:00"/>
+                <MEMBER fnframe="" grouping="depart.01" name="depart" wn="depart%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="give_up" wn="give_up%2:41:05"/>
+                <MEMBER fnframe="" grouping="leave.01" name="leave" wn="leave%2:41:00"/>
+                <MEMBER fnframe="" grouping="renounce.01" name="renounce" wn="renounce%2:41:00 renounce%2:41:01"/>
+                <MEMBER fnframe="" grouping="resign.01" name="resign" wn="resign%2:41:00"/>
+                <MEMBER fnframe="" grouping="quit.02" name="quit" wn="quit%2:41:00"/>
+                <MEMBER fnframe="" grouping="vacate.01" name="vacate" wn="vacate%2:41:00 resign%2:41:05"/>
+                <MEMBER fnframe="" grouping="" name="walk_off" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

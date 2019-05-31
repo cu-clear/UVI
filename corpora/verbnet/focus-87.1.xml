@@ -1,13 +1,13 @@
 <VNCLASS ID="focus-87.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="focus.02" name="focus" wn="focus%2:31:00"/>
-        <MEMBER grouping="focalize.01" name="focalize" wn="focalize%2:42:00 focalize%2:31:00 focalize%2:30:00"/>
-        <MEMBER grouping="center.02" name="center" wn="center%2:42:00 center%2:31:00"/>
-        <MEMBER grouping="concentrate.01" name="concentrate" wn="concentrate%2:31:01"/>
-        <MEMBER grouping="contemplate.01" name="contemplate" wn="contemplate%2:31:02         contemplate%2:31:00 contemplate%2:31:01"/>
-        <MEMBER grouping="converge.01" name="converge" wn=""/>
-        <MEMBER grouping="dwell.01" name="dwell" wn="dwell%2:31:00"/>
-        <MEMBER grouping="fixate.01" name="fixate" wn="fixate%2:41:00 fixate%2:39:00"/>
+        <MEMBER fnframe="Place_weight_on" grouping="focus.02" name="focus" wn="focus%2:31:00"/>
+        <MEMBER fnframe="" grouping="focalize.01" name="focalize" wn="focalize%2:42:00 focalize%2:31:00 focalize%2:30:00"/>
+        <MEMBER fnframe="" grouping="center.02" name="center" wn="center%2:42:00 center%2:31:00"/>
+        <MEMBER fnframe="" grouping="concentrate.01" name="concentrate" wn="concentrate%2:31:01"/>
+        <MEMBER fnframe="" grouping="contemplate.01" name="contemplate" wn="contemplate%2:31:02 contemplate%2:31:00 contemplate%2:31:01"/>
+        <MEMBER fnframe="" grouping="converge.01" name="converge" wn=""/>
+        <MEMBER fnframe="" grouping="dwell.01" name="dwell" wn="dwell%2:31:00"/>
+        <MEMBER fnframe="" grouping="fixate.01" name="fixate" wn="fixate%2:41:00 fixate%2:39:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -196,15 +196,15 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="focus-87.1-1">
             <MEMBERS>
-                <MEMBER grouping="" name="brood" wn="brood%2:31:00"/>
-                <MEMBER grouping="" name="deliberate" wn="deliberate%2:32:01"/>
-                <MEMBER grouping="" name="meditate" wn="meditate%2:31:00"/>
-                <MEMBER grouping="" name="muse" wn="muse%2:31:00"/>
-                <MEMBER grouping="ponder.01" name="ponder" wn="ponder%2:31:00"/>
-                <MEMBER grouping="reflect.03" name="reflect" wn="reflect%2:31:00"/>
-                <MEMBER grouping="" name="ruminate" wn="ruminate%2:31:00"/>
-                <MEMBER grouping="think.02" name="think" wn="think%2:31:13"/>
-                <MEMBER grouping="wonder.01" name="wonder" wn=""/>
+                <MEMBER fnframe="" grouping="" name="brood" wn="brood%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="deliberate" wn="deliberate%2:32:01"/>
+                <MEMBER fnframe="" grouping="" name="meditate" wn="meditate%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="muse" wn="muse%2:31:00"/>
+                <MEMBER fnframe="" grouping="ponder.01" name="ponder" wn="ponder%2:31:00"/>
+                <MEMBER fnframe="" grouping="reflect.03" name="reflect" wn="reflect%2:31:00"/>
+                <MEMBER fnframe="" grouping="" name="ruminate" wn="ruminate%2:31:00"/>
+                <MEMBER fnframe="" grouping="think.02" name="think" wn="think%2:31:13"/>
+                <MEMBER fnframe="" grouping="wonder.01" name="wonder" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

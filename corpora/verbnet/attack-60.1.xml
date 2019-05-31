@@ -1,16 +1,16 @@
 <VNCLASS ID="attack-60.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="ambush" wn="ambush%2:33:00"/>
-        <MEMBER grouping="assail.01" name="assail" wn="assail%2:33:00"/>
-        <MEMBER grouping="assault.01" name="assault" wn="assault%2:33:00"/>
-        <MEMBER grouping="bomb.01" name="bomb" wn="bomb%2:33:00"/>
-        <MEMBER grouping="bombard.01" name="bombard" wn="bomb%2:33:00"/>
-        <MEMBER grouping="charge.05" name="charge" wn="charge%2:33:00"/>
-        <MEMBER grouping="" name="fall_upon" wn=""/>
-        <MEMBER grouping="jump.04" name="jump" wn="jump%2:33:00"/>
-        <MEMBER grouping="lay.05" name="lay_into" wn="lay_into%2:35:00"/>
-        <MEMBER grouping="round.05" name="round_on" wn=""/>
-        <MEMBER grouping="set.09" name="set_upon" wn="set_upon%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="ambush" wn="ambush%2:33:00"/>
+        <MEMBER fnframe="" grouping="assail.01" name="assail" wn="assail%2:33:00"/>
+        <MEMBER fnframe="" grouping="assault.01" name="assault" wn="assault%2:33:00"/>
+        <MEMBER fnframe="" grouping="bomb.01" name="bomb" wn="bomb%2:33:00"/>
+        <MEMBER fnframe="" grouping="bombard.01" name="bombard" wn="bomb%2:33:00"/>
+        <MEMBER fnframe="" grouping="charge.05" name="charge" wn="charge%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="fall_upon" wn=""/>
+        <MEMBER fnframe="" grouping="jump.04" name="jump" wn="jump%2:33:00"/>
+        <MEMBER fnframe="" grouping="lay.05" name="lay_into" wn="lay_into%2:35:00"/>
+        <MEMBER fnframe="" grouping="round.05" name="round_on" wn=""/>
+        <MEMBER fnframe="" grouping="set.09" name="set_upon" wn="set_upon%2:33:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -76,10 +76,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="attack-60.1-1">
             <MEMBERS>
-                <MEMBER grouping="attack.01" name="attack" wn=""/>
-                <MEMBER grouping="" name="charge" wn=""/>
-                <MEMBER grouping="" name="raid" wn=""/>
-                <MEMBER grouping="" name="strike" wn=""/>
+                <MEMBER fnframe="" grouping="attack.01" name="attack" wn=""/>
+                <MEMBER fnframe="" grouping="" name="charge" wn=""/>
+                <MEMBER fnframe="" grouping="" name="raid" wn=""/>
+                <MEMBER fnframe="" grouping="" name="strike" wn=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Agent">

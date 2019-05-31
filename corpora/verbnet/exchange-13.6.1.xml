@@ -1,11 +1,11 @@
 <VNCLASS ID="exchange-13.6.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--This mirrors the Substitute class, but has ch_of_poss instead of ch_of_loc-->
     <MEMBERS>
-        <MEMBER grouping="" name="barter" wn="barter%2:40:00"/>
-        <MEMBER grouping="change.02" name="change" wn="change%2:30:05 change%2:30:04"/>
-        <MEMBER grouping="exchange.01 exchange.02" name="exchange" wn="exchange%2:30:00 exchange%2:41:00"/>
-        <MEMBER name="swap" wn="swap%2:40:00" grouping="swap.01"/>
-        <MEMBER grouping="trade.02" name="trade" wn="trade%2:40:00 trade%2:40:02"/>
+        <MEMBER fnframe="" grouping="" name="barter" wn="barter%2:40:00"/>
+        <MEMBER fnframe="" grouping="change.02" name="change" wn="change%2:30:05 change%2:30:04"/>
+        <MEMBER fnframe="" grouping="exchange.01 exchange.02" name="exchange" wn="exchange%2:30:00 exchange%2:41:00"/>
+        <MEMBER fnframe="" grouping="swap.01" name="swap" wn="swap%2:40:00"/>
+        <MEMBER fnframe="" grouping="trade.02" name="trade" wn="trade%2:40:00 trade%2:40:02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

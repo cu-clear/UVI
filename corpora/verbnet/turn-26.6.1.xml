@@ -1,13 +1,13 @@
 <VNCLASS ID="turn-26.6.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="alter.01" name="alter" wn="alter%2:30:01"/>
-        <MEMBER grouping="deform.02" name="deform" wn=""/>
-        <MEMBER grouping="" name="metamorphose" wn="metamorphose%2:30:00"/>
-        <MEMBER grouping="" name="morph" wn="morph%2:30:01 morph%2:30:00"/>
-        <MEMBER grouping="" name="mutate" wn=""/>
-        <MEMBER grouping="transform.01" name="transform" wn="transform%2:30:00 transform%2:30:03"/>
-        <MEMBER grouping="" name="translate" wn=""/>
-        <MEMBER grouping="" name="transmute" wn="transmute%2:30:01 transmute%2:30:00 transmute%2:30:02"/>
+        <MEMBER fnframe="" grouping="alter.01" name="alter" wn="alter%2:30:01"/>
+        <MEMBER fnframe="Reshaping" grouping="deform.02" name="deform" wn=""/>
+        <MEMBER fnframe="" grouping="" name="metamorphose" wn="metamorphose%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="morph" wn="morph%2:30:01 morph%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="mutate" wn=""/>
+        <MEMBER fnframe="" grouping="transform.01" name="transform" wn="transform%2:30:00 transform%2:30:03"/>
+        <MEMBER fnframe="Be_translation_equivalent Categorization Have_as_translation_equivalent Translating" grouping="" name="translate" wn=""/>
+        <MEMBER fnframe="" grouping="" name="transmute" wn="transmute%2:30:01 transmute%2:30:00 transmute%2:30:02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -328,9 +328,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="turn-26.6.1-1">
             <MEMBERS>
-                <MEMBER grouping="change.01" name="change" wn="change%2:30:00 change%2:30:01 change%2:30:08"/>
-                <MEMBER grouping="convert.01 convert.02" name="convert" wn="convert%2:30:03 convert%2:30:00 convert%2:30:01 convert%2:30:02 convert%2:30:07 convert%2:30:04"/>
-                <MEMBER grouping="turn.01 turn.03 turn.09" name="turn" wn="turn%2:42:00 turn%2:30:03 turn%2:30:09 turn%2:42:13"/>
+                <MEMBER fnframe="Cause_change Undergo_change" grouping="change.01" name="change" wn="change%2:30:00 change%2:30:01 change%2:30:08"/>
+                <MEMBER fnframe="Cause_change Exchange_currency" grouping="convert.01 convert.02" name="convert" wn="convert%2:30:03 convert%2:30:00 convert%2:30:01 convert%2:30:02 convert%2:30:07 convert%2:30:04"/>
+                <MEMBER fnframe="Cause_change Undergo_change" grouping="turn.01 turn.03 turn.09" name="turn" wn="turn%2:42:00 turn%2:30:03 turn%2:30:09 turn%2:42:13"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

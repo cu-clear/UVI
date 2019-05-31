@@ -1,24 +1,24 @@
 <VNCLASS ID="dress-41.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="bathe.01" name="bathe" wn="bathe%2:29:00 bathe%2:29:01"/>
-        <MEMBER grouping="change.02" name="change" wn="change%2:30:03 change%2:30:06"/>
-        <MEMBER grouping="clothe.01" name="clothe" wn=""/>
-        <MEMBER grouping="" name="disrobe" wn="disrobe%2:29:01"/>
-        <MEMBER grouping="dress.01" name="dress" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07"/>
-        <MEMBER grouping="exercise.02" name="exercise" wn="exercise%2:29:01 exercise%2:29:00"/>
-        <MEMBER grouping="" name="frock" wn="frock%2:29:00"/>
-        <MEMBER grouping="lave.02" name="lave" wn="lave%2:29:00 lave%2:29:02"/>
-        <MEMBER grouping="" name="moisturize" wn=""/>
-        <MEMBER grouping="" name="preen" wn="preen%2:29:00"/>
-        <MEMBER grouping="" name="primp" wn="primp%2:29:00"/>
-        <MEMBER grouping="shave.01" name="shave" wn="shave%2:29:00 shave%2:35:01"/>
-        <MEMBER grouping="shower.03" name="shower" wn="shower%2:29:00"/>
-        <MEMBER grouping="strip.01 strip.03" name="strip" wn="strip%2:40:03 strip%2:30:12"/>
-        <MEMBER grouping="" name="sunbathe" wn=""/>
-        <MEMBER grouping="" name="tan" wn=""/>
-        <MEMBER grouping="unclothe.02" name="unclothe" wn="unclothe%2:29:00"/>
-        <MEMBER grouping="" name="undress" wn="undress%2:29:00 undress%2:30:00"/>
-        <MEMBER grouping="wash.01" name="wash" wn="wash%2:29:00 wash%2:35:00"/>
+        <MEMBER fnframe="Grooming" grouping="bathe.01" name="bathe" wn="bathe%2:29:00 bathe%2:29:01"/>
+        <MEMBER fnframe="Exchange_currency Replacing" grouping="change.02" name="change" wn="change%2:30:03 change%2:30:06"/>
+        <MEMBER fnframe="" grouping="clothe.01" name="clothe" wn=""/>
+        <MEMBER fnframe="" grouping="" name="disrobe" wn="disrobe%2:29:01"/>
+        <MEMBER fnframe="Dressing" grouping="dress.01" name="dress" wn="dress%2:29:00 dress%2:29:01 dress%2:29:07"/>
+        <MEMBER fnframe="" grouping="exercise.02" name="exercise" wn="exercise%2:29:01 exercise%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="frock" wn="frock%2:29:00"/>
+        <MEMBER fnframe="Grooming" grouping="lave.02" name="lave" wn="lave%2:29:00 lave%2:29:02"/>
+        <MEMBER fnframe="" grouping="" name="moisturize" wn=""/>
+        <MEMBER fnframe="" grouping="" name="preen" wn="preen%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="primp" wn="primp%2:29:00"/>
+        <MEMBER fnframe="Grooming" grouping="shave.01" name="shave" wn="shave%2:29:00 shave%2:35:01"/>
+        <MEMBER fnframe="Grooming" grouping="shower.03" name="shower" wn="shower%2:29:00"/>
+        <MEMBER fnframe="Emptying Removing" grouping="strip.01 strip.03" name="strip" wn="strip%2:40:03 strip%2:30:12"/>
+        <MEMBER fnframe="" grouping="" name="sunbathe" wn=""/>
+        <MEMBER fnframe="" grouping="" name="tan" wn=""/>
+        <MEMBER fnframe="" grouping="unclothe.02" name="unclothe" wn="unclothe%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="undress" wn="undress%2:29:00 undress%2:30:00"/>
+        <MEMBER fnframe="Grooming" grouping="wash.01" name="wash" wn="wash%2:29:00 wash%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

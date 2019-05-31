@@ -1,19 +1,19 @@
 <VNCLASS ID="conspire-71" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="ally.01" name="ally" wn="ally%2:41:00"/>
-        <MEMBER grouping="collaborate.02" name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
-        <MEMBER grouping="" name="collude" wn="collude%2:31:00"/>
-        <MEMBER grouping="conspire.01" name="conspire" wn="conspire%2:31:00 conspire%2:31:01"/>
-        <MEMBER grouping="discriminate.01" name="discriminate" wn=""/>
-        <MEMBER grouping="" name="legislate" wn="legislate%2:41:00"/>
-        <MEMBER grouping="partner.01" name="partner" wn="partner%2:41:00"/>
-        <MEMBER grouping="protest.01" name="protest" wn="protest%2:32:00 protest%2:41:00"/>
-        <MEMBER grouping="" name="rebel" wn="rebel%2:41:00"/>
-        <MEMBER grouping="" name="retaliate" wn="retaliate%2:33:00"/>
-        <MEMBER grouping="" name="scheme" wn="scheme%2:31:00"/>
-        <MEMBER grouping="sin.01" name="sin" wn=""/>
-        <MEMBER grouping="" name="team_up" wn="team_up%2:33:00"/>
-        <MEMBER grouping="" name="befriend" wn="befriend%2:41:00"/>
+        <MEMBER fnframe="" grouping="ally.01" name="ally" wn="ally%2:41:00"/>
+        <MEMBER fnframe="" grouping="collaborate.02" name="collaborate" wn="collaborate%2:41:00 collaborate%2:41:01"/>
+        <MEMBER fnframe="Collaboration" grouping="" name="collude" wn="collude%2:31:00"/>
+        <MEMBER fnframe="Collaboration" grouping="conspire.01" name="conspire" wn="conspire%2:31:00 conspire%2:31:01"/>
+        <MEMBER fnframe="" grouping="discriminate.01" name="discriminate" wn=""/>
+        <MEMBER fnframe="" grouping="" name="legislate" wn="legislate%2:41:00"/>
+        <MEMBER fnframe="Collaboration" grouping="partner.01" name="partner" wn="partner%2:41:00"/>
+        <MEMBER fnframe="" grouping="protest.01" name="protest" wn="protest%2:32:00 protest%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="rebel" wn="rebel%2:41:00"/>
+        <MEMBER fnframe="Revenge" grouping="" name="retaliate" wn="retaliate%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="scheme" wn="scheme%2:31:00"/>
+        <MEMBER fnframe="Misdeed" grouping="sin.01" name="sin" wn=""/>
+        <MEMBER fnframe="Collaboration" grouping="" name="team_up" wn="team_up%2:33:00"/>
+        <MEMBER fnframe="" grouping="" name="befriend" wn="befriend%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

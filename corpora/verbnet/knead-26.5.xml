@@ -1,29 +1,29 @@
 <VNCLASS ID="knead-26.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="ball.01" name="ball" wn="ball%2:35:00"/>
-        <MEMBER grouping="beat.06" name="beat" wn="beat%2:36:00"/>
-        <MEMBER grouping="bend.02" name="bend" wn="bend%2:35:00"/>
-        <MEMBER grouping="coil.02" name="coil" wn="?coil%2:35:00"/>
-        <MEMBER grouping="collect.01" name="collect" wn="collect%2:35:00"/>
-        <MEMBER grouping="compress.01" name="compress" wn="compress%2:35:01 compress%2:35:00"/>
-        <MEMBER grouping="" name="contort" wn=""/>
-        <MEMBER grouping="curve.02" name="curve" wn=""/>
-        <MEMBER grouping="distort.01" name="distort" wn=""/>
-        <MEMBER grouping="fold.03" name="fold" wn="fold%2:35:00 fold%2:30:10"/>
-        <MEMBER grouping="flex.03" name="flex" wn="flex%2:35:02"/>
-        <MEMBER grouping="flux.02" name="flux" wn="flux%2:30:01"/>
-        <MEMBER grouping="" name="knead" wn="knead%2:35:00"/>
-        <MEMBER grouping="melt.01" name="melt" wn="melt%2:30:01 melt%2:30:00"/>
-        <MEMBER grouping="shake.01" name="shake" wn="shake%2:38:00"/>
-        <MEMBER grouping="" name="squash" wn="squash%2:35:00"/>
-        <MEMBER grouping="squeeze.01" name="squeeze" wn="squeeze%2:35:05"/>
-        <MEMBER grouping="" name="squish" wn=""/>
-        <MEMBER grouping="" name="twirl" wn="twirl%2:38:01"/>
-        <MEMBER grouping="twist.02" name="twist" wn="twist%2:35:02 twist%2:35:01"/>
-        <MEMBER grouping="" name="wad" wn="wad%2:35:01"/>
-        <MEMBER grouping="whip.01 whip.03" name="whip" wn="whip%2:35:01"/>
-        <MEMBER grouping="wind.02" name="wind" wn="wind%2:35:02"/>
-        <MEMBER grouping="work.03" name="work" wn="work%2:36:12 work%2:35:00"/>
+        <MEMBER fnframe="" grouping="ball.01" name="ball" wn="ball%2:35:00"/>
+        <MEMBER fnframe="" grouping="beat.06" name="beat" wn="beat%2:36:00"/>
+        <MEMBER fnframe="Reshaping" grouping="bend.02" name="bend" wn="bend%2:35:00"/>
+        <MEMBER fnframe="" grouping="coil.02" name="coil" wn="?coil%2:35:00"/>
+        <MEMBER fnframe="Gathering_up" grouping="collect.01" name="collect" wn="collect%2:35:00"/>
+        <MEMBER fnframe="" grouping="compress.01" name="compress" wn="compress%2:35:01 compress%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="contort" wn=""/>
+        <MEMBER fnframe="" grouping="curve.02" name="curve" wn=""/>
+        <MEMBER fnframe="" grouping="distort.01" name="distort" wn=""/>
+        <MEMBER fnframe="Reshaping" grouping="fold.03" name="fold" wn="fold%2:35:00 fold%2:30:10"/>
+        <MEMBER fnframe="" grouping="flex.03" name="flex" wn="flex%2:35:02"/>
+        <MEMBER fnframe="Cause_change_of_phase" grouping="flux.02" name="flux" wn="flux%2:30:01"/>
+        <MEMBER fnframe="Manipulation" grouping="" name="knead" wn="knead%2:35:00"/>
+        <MEMBER fnframe="Cause_change_of_phase Change_of_phase" grouping="melt.01" name="melt" wn="melt%2:30:01 melt%2:30:00"/>
+        <MEMBER fnframe="Body_movement Cause_to_move_in_place Moving_in_place" grouping="shake.01" name="shake" wn="shake%2:38:00"/>
+        <MEMBER fnframe="Reshaping" grouping="" name="squash" wn="squash%2:35:00"/>
+        <MEMBER fnframe="Manipulation" grouping="squeeze.01" name="squeeze" wn="squeeze%2:35:05"/>
+        <MEMBER fnframe="Reshaping" grouping="" name="squish" wn=""/>
+        <MEMBER fnframe="" grouping="" name="twirl" wn="twirl%2:38:01"/>
+        <MEMBER fnframe="" grouping="twist.02" name="twist" wn="twist%2:35:02 twist%2:35:01"/>
+        <MEMBER fnframe="" grouping="" name="wad" wn="wad%2:35:01"/>
+        <MEMBER fnframe="Cause_harm" grouping="whip.01 whip.03" name="whip" wn="whip%2:35:01"/>
+        <MEMBER fnframe="Motion" grouping="wind.02" name="wind" wn="wind%2:35:02"/>
+        <MEMBER fnframe="" grouping="work.03" name="work" wn="work%2:36:12 work%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

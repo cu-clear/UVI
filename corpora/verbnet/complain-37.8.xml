@@ -1,21 +1,21 @@
 <VNCLASS ID="complain-37.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--verbs add a manner predicate describing the tone of the communication-->
-        <MEMBER grouping="" name="bellyache" wn="bellyache%2:32:00"/>
-        <MEMBER grouping="" name="bitch" wn="bitch%2:32:01"/>
-        <MEMBER grouping="boast.01" name="boast" wn="boast%2:32:00"/>
-        <MEMBER grouping="" name="brag" wn="brag%2:32:00"/>
-        <MEMBER grouping="" name="caterwaul" wn="caterwaul%2:32:00"/>
-        <MEMBER grouping="complain.01" name="complain" wn="complain%2:32:00"/>
-        <MEMBER grouping="" name="crab" wn="crab%2:32:00"/>
-        <MEMBER grouping="" name="gripe" wn="gripe%2:32:00"/>
-        <MEMBER grouping="" name="grouch" wn="grouch%2:32:00"/>
-        <MEMBER grouping="" name="grouse" wn="grouse%2:33:00"/>
-        <MEMBER grouping="grumble.01" name="grumble" wn="grumble%2:32:01 grumble%2:32:00"/>
-        <MEMBER grouping="" name="kvetch" wn="kvetch%2:32:00"/>
-        <MEMBER grouping="" name="moan" wn=""/>
-        <MEMBER grouping="object.01" name="object" wn="object%2:32:00"/>
-        <MEMBER grouping="" name="whine" wn="whine%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="bellyache" wn="bellyache%2:32:00"/>
+        <MEMBER fnframe="Complaining" grouping="" name="bitch" wn="bitch%2:32:01"/>
+        <MEMBER fnframe="Bragging Statement" grouping="boast.01" name="boast" wn="boast%2:32:00"/>
+        <MEMBER fnframe="Statement" grouping="" name="brag" wn="brag%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="caterwaul" wn="caterwaul%2:32:00"/>
+        <MEMBER fnframe="Statement" grouping="complain.01" name="complain" wn="complain%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="crab" wn="crab%2:32:00"/>
+        <MEMBER fnframe="Statement" grouping="" name="gripe" wn="gripe%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="grouch" wn="grouch%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="grouse" wn="grouse%2:33:00"/>
+        <MEMBER fnframe="Complaining Statement" grouping="grumble.01" name="grumble" wn="grumble%2:32:01 grumble%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="kvetch" wn="kvetch%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="moan" wn=""/>
+        <MEMBER fnframe="" grouping="object.01" name="object" wn="object%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="whine" wn="whine%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

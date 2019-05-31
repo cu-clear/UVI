@@ -1,6 +1,6 @@
 <VNCLASS ID="intend-61.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="aim" wn=""/>
+        <MEMBER fnframe="" grouping="" name="aim" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -90,7 +90,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="intend-61.2-1">
             <MEMBERS>
-                <MEMBER grouping="mean.01" name="mean" wn=""/>
+                <MEMBER fnframe="" grouping="mean.01" name="mean" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -154,8 +154,8 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="intend-61.2-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="intend.01" name="intend" wn="intend%2:31:00"/>
-                        <MEMBER grouping="" name="plan" wn=""/>
+                        <MEMBER fnframe="" grouping="intend.01" name="intend" wn="intend%2:31:00"/>
+                        <MEMBER fnframe="" grouping="" name="plan" wn=""/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

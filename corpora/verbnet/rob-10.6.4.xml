@@ -1,11 +1,11 @@
 <VNCLASS ID="rob-10.6.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--Split from Cheat-10.6.1-1-1 and Steal-10.5-->
     <MEMBERS>
-        <MEMBER grouping="rob.01 rob.02" name="rob" wn="rob%2:40:00"/>
-        <MEMBER grouping="bleed.04" name="bleed" wn="bleed%2:40:09 bleed%2:30:00"/>
-        <MEMBER grouping="strip.01 strip.03 strip.04" name="strip" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
-        <MEMBER grouping="milk.01" name="milk" wn="milk%2:34:00"/>
-        <MEMBER grouping="" name="cull" wn="cull%2:40:00"/>
+        <MEMBER fnframe="" grouping="rob.01 rob.02" name="rob" wn="rob%2:40:00"/>
+        <MEMBER fnframe="" grouping="bleed.04" name="bleed" wn="bleed%2:40:09 bleed%2:30:00"/>
+        <MEMBER fnframe="" grouping="strip.01 strip.03 strip.04" name="strip" wn="strip%2:40:03 strip%2:30:06 strip%2:30:05 strip%2:40:00 strip%2:35:04 strip%2:30:12"/>
+        <MEMBER fnframe="" grouping="milk.01" name="milk" wn="milk%2:34:00"/>
+        <MEMBER fnframe="" grouping="" name="cull" wn="cull%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -228,7 +228,7 @@
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="Constant" value="Illegal"/>
                     </ARGS>
-                </PRED>        
+                </PRED>
                 <PRED value="has_possession">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
@@ -254,7 +254,7 @@
                         <ARG type="Event" value="e2"/>
                         <ARG type="Event" value="e3"/>
                     </ARGS>
-                </PRED>     
+                </PRED>
             </SEMANTICS>
         </FRAME>
         <FRAME>

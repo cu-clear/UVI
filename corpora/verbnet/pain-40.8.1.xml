@@ -1,13 +1,13 @@
 <VNCLASS ID="pain-40.8.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--moved "ache" to tingle-40.8.2 because it is only intransitive-->
-        <MEMBER grouping="" name="ail" wn=""/>
-        <MEMBER grouping="bother.02" name="bother" wn="bother%2:37:00"/>
-        <MEMBER grouping="" name="burn" wn=""/>
-        <MEMBER grouping="hurt.01" name="hurt" wn="hurt%2:39:00"/>
-        <MEMBER grouping="" name="itch" wn="itch%2:39:00"/>
-        <MEMBER grouping="kill.02" name="kill" wn="kill%2:39:00 kill%2:30:04"/>
-        <MEMBER grouping="" name="pain" wn="pain%2:29:00"/>
+        <MEMBER fnframe="Perception_body" grouping="" name="ail" wn=""/>
+        <MEMBER fnframe="" grouping="bother.02" name="bother" wn="bother%2:37:00"/>
+        <MEMBER fnframe="Perception_body" grouping="" name="burn" wn=""/>
+        <MEMBER fnframe="Cause_harm Experience_bodily_harm Perception_body" grouping="hurt.01" name="hurt" wn="hurt%2:39:00"/>
+        <MEMBER fnframe="Perception_body" grouping="" name="itch" wn="itch%2:39:00"/>
+        <MEMBER fnframe="" grouping="kill.02" name="kill" wn="kill%2:39:00 kill%2:30:04"/>
+        <MEMBER fnframe="" grouping="" name="pain" wn="pain%2:29:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -41,13 +41,13 @@
             <SEMANTICS>
                 <PRED value="experience">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
-                        <ARG type="ThemRole" value=""/>
+                        <ARG type="Event" value="ee"/>
+                        <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="discomfort">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -78,13 +78,13 @@
             <SEMANTICS>
                 <PRED value="experience">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="discomfort">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
@@ -118,19 +118,19 @@
             <SEMANTICS>
                 <PRED value="experience">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="?Experiencer"/>
                     </ARGS>
                 </PRED>
                 <PRED value="in_reaction_to">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Stimulus"/>
                     </ARGS>
                 </PRED>
                 <PRED value="discomfort">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>

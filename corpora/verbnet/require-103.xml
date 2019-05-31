@@ -1,6 +1,6 @@
 <VNCLASS ID="require-103" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="take.07" name="take" wn="take%2:42:00"/>
+        <MEMBER fnframe="Have_as_requirement Taking_time" grouping="take.07" name="take" wn="take%2:42:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Precondition">
@@ -100,10 +100,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="require-103-1">
             <MEMBERS>
-                <MEMBER grouping="" name="necessitate" wn="necessitate%2:42:00"/>
-                <MEMBER grouping="require.01" name="require" wn="require%2:34:00"/>
-                <MEMBER grouping="involve.02" name="involve" wn="involve%2:42:07"/>
-                <MEMBER grouping="demand.02" name="demand" wn="demand%2:42:00"/>
+                <MEMBER fnframe="" grouping="" name="necessitate" wn="necessitate%2:42:00"/>
+                <MEMBER fnframe="" grouping="require.01" name="require" wn="require%2:34:00"/>
+                <MEMBER fnframe="" grouping="involve.02" name="involve" wn="involve%2:42:07"/>
+                <MEMBER fnframe="" grouping="demand.02" name="demand" wn="demand%2:42:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Source">
@@ -207,7 +207,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="require-103-2">
             <MEMBERS>
-                <MEMBER grouping="need.01" name="need" wn="need%2:42:00"/>
+                <MEMBER fnframe="" grouping="need.01" name="need" wn="need%2:42:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

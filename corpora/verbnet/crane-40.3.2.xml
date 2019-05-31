@@ -1,52 +1,52 @@
 <VNCLASS ID="crane-40.3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="arch" wn="arch%2:38:00"/>
-        <MEMBER grouping="bare.01" name="bare" wn="bare%2:35:00"/>
-        <MEMBER grouping="bat.03" name="bat" wn="bat%2:29:00"/>
-        <MEMBER grouping="beat.02" name="beat" wn="beat%2:35:10"/>
-        <MEMBER grouping="blow.01" name="blow" wn="blow%2:29:01"/>
-        <MEMBER grouping="" name="clench" wn="clench%2:35:02"/>
-        <MEMBER grouping="click.02" name="click" wn="click%2:35:00"/>
-        <MEMBER grouping="close.01" name="close" wn="close%2:35:00"/>
-        <MEMBER grouping="cock.01" name="cock" wn="cock%2:38:01"/>
-        <MEMBER grouping="" name="crane" wn="crane%2:29:00"/>
-        <MEMBER grouping="" name="crook" wn="crook%2:38:00"/>
-        <MEMBER grouping="cross.04" name="cross" wn="cross%2:38:04"/>
-        <MEMBER grouping="drum.01" name="drum" wn=""/>
-        <MEMBER grouping="flap.01" name="flap" wn="flap%2:38:03"/>
-        <MEMBER grouping="flash.02" name="flash" wn="flash%2:39:02"/>
-        <MEMBER grouping="flex.01" name="flex" wn="flex%2:38:01"/>
-        <MEMBER grouping="flick.04" name="flick" wn="flick%2:35:02"/>
-        <MEMBER grouping="flutter.01" name="flutter" wn="flutter%2:29:00"/>
-        <MEMBER grouping="fold.02" name="fold" wn="fold%2:35:00"/>
-        <MEMBER grouping="" name="gnash" wn="gnash%2:29:00"/>
-        <MEMBER grouping="grind.01" name="grind" wn="grind%2:35:00"/>
-        <MEMBER grouping="hang.03" name="hang" wn="hang%2:38:03"/>
-        <MEMBER grouping="" name="hunch" wn="hunch%2:38:00"/>
-        <MEMBER grouping="kick.01" name="kick" wn="kick%2:38:00 kick%2:38:01"/>
-        <MEMBER grouping="knit.03" name="knit" wn="?knit%2:35:00"/>
-        <MEMBER grouping="open.01" name="open" wn="open%2:35:00"/>
-        <MEMBER grouping="" name="pucker" wn="pucker%2:35:00"/>
-        <MEMBER grouping="" name="purse" wn="purse%2:30:00 purse%2:35:00"/>
-        <MEMBER grouping="raise.02" name="raise" wn="raise%2:38:00 raise%2:38:02"/>
-        <MEMBER grouping="roll.01" name="roll" wn="roll%2:38:00"/>
-        <MEMBER grouping="rub.01" name="rub" wn=""/>
-        <MEMBER grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:30:01"/>
-        <MEMBER grouping="show.03" name="show" wn="?show%2:39:02"/>
-        <MEMBER grouping="shuffle.01" name="shuffle" wn="shuffle%2:38:00"/>
-        <MEMBER grouping="smack.04" name="smack" wn="smack%2:34:00"/>
-        <MEMBER grouping="snap.04" name="snap" wn="snap%2:35:02"/>
-        <MEMBER grouping="stamp.01" name="stamp" wn="?stamp%2:38:00"/>
-        <MEMBER grouping="stretch.02" name="stretch" wn="stretch%2:29:01"/>
-        <MEMBER grouping="toss.02" name="toss" wn=""/>
-        <MEMBER grouping="turn.08" name="turn" wn="turn%2:38:13"/>
-        <MEMBER grouping="" name="twiddle" wn="twiddle%2:35:00"/>
-        <MEMBER grouping="" name="twitch" wn="?twitch%2:38:01"/>
-        <MEMBER grouping="" name="wag" wn="wag%2:38:00"/>
-        <MEMBER grouping="" name="waggle" wn="waggle%2:38:00"/>
-        <MEMBER grouping="" name="wiggle" wn="wiggle%2:38:00"/>
-        <MEMBER grouping="wring.01" name="wring" wn="wring%2:35:00"/>
-        <MEMBER grouping="" name="wrinkle" wn="wrinkle%2:35:01 wrinkle%2:35:02"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="arch" wn="arch%2:38:00"/>
+        <MEMBER fnframe="Wearing" grouping="bare.01" name="bare" wn="bare%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="bat.03" name="bat" wn="bat%2:29:00"/>
+        <MEMBER fnframe="" grouping="beat.02" name="beat" wn="beat%2:35:10"/>
+        <MEMBER fnframe="Breathing" grouping="blow.01" name="blow" wn="blow%2:29:01"/>
+        <MEMBER fnframe="" grouping="" name="clench" wn="clench%2:35:02"/>
+        <MEMBER fnframe="Make_noise" grouping="click.02" name="click" wn="click%2:35:00"/>
+        <MEMBER fnframe="" grouping="close.01" name="close" wn="close%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="cock.01" name="cock" wn="cock%2:38:01"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="crane" wn="crane%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="crook" wn="crook%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="cross.04" name="cross" wn="cross%2:38:04"/>
+        <MEMBER fnframe="" grouping="drum.01" name="drum" wn=""/>
+        <MEMBER fnframe="Body_movement" grouping="flap.01" name="flap" wn="flap%2:38:03"/>
+        <MEMBER fnframe="" grouping="flash.02" name="flash" wn="flash%2:39:02"/>
+        <MEMBER fnframe="Body_movement" grouping="flex.01" name="flex" wn="flex%2:38:01"/>
+        <MEMBER fnframe="" grouping="flick.04" name="flick" wn="flick%2:35:02"/>
+        <MEMBER fnframe="Body_movement" grouping="flutter.01" name="flutter" wn="flutter%2:29:00"/>
+        <MEMBER fnframe="" grouping="fold.02" name="fold" wn="fold%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="gnash" wn="gnash%2:29:00"/>
+        <MEMBER fnframe="Body_movement" grouping="grind.01" name="grind" wn="grind%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="hang.03" name="hang" wn="hang%2:38:03"/>
+        <MEMBER fnframe="Posture" grouping="" name="hunch" wn="hunch%2:38:00"/>
+        <MEMBER fnframe="Cause_harm" grouping="kick.01" name="kick" wn="kick%2:38:00 kick%2:38:01"/>
+        <MEMBER fnframe="" grouping="knit.03" name="knit" wn="?knit%2:35:00"/>
+        <MEMBER fnframe="Closure" grouping="open.01" name="open" wn="open%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="pucker" wn="pucker%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="purse" wn="purse%2:30:00 purse%2:35:00"/>
+        <MEMBER fnframe="" grouping="raise.02" name="raise" wn="raise%2:38:00 raise%2:38:02"/>
+        <MEMBER fnframe="Body_movement Cause_motion Mass_motion Motion" grouping="roll.01" name="roll" wn="roll%2:38:00"/>
+        <MEMBER fnframe="Manipulation Placing" grouping="rub.01" name="rub" wn=""/>
+        <MEMBER fnframe="Body_movement Cause_to_move_in_place Moving_in_place" grouping="shake.01" name="shake" wn="shake%2:38:00 shake%2:30:01"/>
+        <MEMBER fnframe="" grouping="show.03" name="show" wn="?show%2:39:02"/>
+        <MEMBER fnframe="Body_movement" grouping="shuffle.01" name="shuffle" wn="shuffle%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="smack.04" name="smack" wn="smack%2:34:00"/>
+        <MEMBER fnframe="" grouping="snap.04" name="snap" wn="snap%2:35:02"/>
+        <MEMBER fnframe="Body_movement Self_motion" grouping="stamp.01" name="stamp" wn="?stamp%2:38:00"/>
+        <MEMBER fnframe="Body_movement Expansion" grouping="stretch.02" name="stretch" wn="stretch%2:29:01"/>
+        <MEMBER fnframe="Body_movement" grouping="toss.02" name="toss" wn=""/>
+        <MEMBER fnframe="Cause_to_move_in_place Change_direction Moving_in_place" grouping="turn.08" name="turn" wn="turn%2:38:13"/>
+        <MEMBER fnframe="" grouping="" name="twiddle" wn="twiddle%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="twitch" wn="?twitch%2:38:01"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="wag" wn="wag%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="waggle" wn="waggle%2:38:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="wiggle" wn="wiggle%2:38:00"/>
+        <MEMBER fnframe="Manipulation" grouping="wring.01" name="wring" wn="wring%2:35:00"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="wrinkle" wn="wrinkle%2:35:01 wrinkle%2:35:02"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -111,7 +111,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Topic"/>
                         <ARG type="ThemRole" value="?Recipient"/>
@@ -119,7 +119,7 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
@@ -139,7 +139,7 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
@@ -199,7 +199,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Topic"/>
                         <ARG type="ThemRole" value="Recipient"/>
@@ -207,7 +207,7 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
@@ -227,7 +227,7 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
@@ -293,7 +293,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Topic"/>
                         <ARG type="ThemRole" value="Recipient"/>
@@ -301,7 +301,7 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
@@ -321,7 +321,7 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>

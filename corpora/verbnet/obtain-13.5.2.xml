@@ -1,29 +1,29 @@
 <VNCLASS ID="obtain-13.5.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="accept.01" name="accept" wn="accept%2:40:00"/>
-        <MEMBER grouping="accrue.01" name="accrue" wn="accrue%2:30:00 accrue%2:40:10"/>
-        <MEMBER grouping="accumulate.01" name="accumulate" wn="?accumulate%2:40:00"/>
-        <MEMBER grouping="" name="appropriate" wn="appropriate%2:40:00"/>
-        <MEMBER grouping="borrow.01" name="borrow" wn="borrow%2:40:00"/>
-        <MEMBER grouping="" name="cadge" wn="cadge%2:40:00 cadge%2:40:01"/>
-        <MEMBER grouping="" name="commandeer" wn="commandeer%2:35:00"/>
-        <MEMBER grouping="collect.01 collect.02 collect.03" name="collect" wn="collect%2:40:00 collect%2:40:01 collect%2:35:00 collect%2:35:01 collect%2:40:03"/>
-        <MEMBER grouping="" name="exact" wn="exact%2:32:00"/>
-        <MEMBER grouping="grab.01 grab.02" name="grab" wn="grab%2:35:00 grab%2:40:00"/>
-        <MEMBER grouping="inherit.01 inherit.02 inherit.03" name="inherit" wn="inherit%2:40:00"/>
-        <MEMBER grouping="make.07" name="make" wn="make%2:40:01"/>
-        <MEMBER grouping="receive.01" name="receive" wn="receive%2:40:00"/>
-        <MEMBER grouping="recoup.01 recoup.02" name="recoup" wn="recoup%2:40:02 recoup%2:40:00"/>
-        <MEMBER grouping="recover.01" name="recover" wn="recover%2:40:00"/>
-        <MEMBER grouping="regain.01" name="regain" wn="regain%2:40:00 regain%2:40:01"/>
-        <MEMBER grouping="retrieve.01" name="retrieve" wn="retrieve%2:40:00 retrieve%2:35:00"/>
-        <MEMBER grouping="seize.01 seize.03" name="seize" wn="seize%2:35:00 seize%2:35:01 seize%2:40:01 seize%2:40:02"/>
-        <MEMBER grouping="select.01" name="select" wn="select%2:31:00"/>
-        <MEMBER grouping="snatch.01" name="snatch" wn="snatch%2:35:00"/>
-        <MEMBER grouping="" name="source" wn="source%2:40:00"/>
-        <MEMBER grouping="" name="subselect" wn=""/>
-        <MEMBER grouping="" name="arrogate" wn="arrogate%2:40:00"/>
-        <MEMBER grouping="hijack.01" name="hijack" wn="hijack%2:35:00 hijack%2:40:00"/>
+        <MEMBER fnframe="Receiving Respond_to_proposal" grouping="accept.01" name="accept" wn="accept%2:40:00"/>
+        <MEMBER fnframe="" grouping="accrue.01" name="accrue" wn="accrue%2:30:00 accrue%2:40:10"/>
+        <MEMBER fnframe="" grouping="accumulate.01" name="accumulate" wn="?accumulate%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="appropriate" wn="appropriate%2:40:00"/>
+        <MEMBER fnframe="" grouping="borrow.01" name="borrow" wn="borrow%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="cadge" wn="cadge%2:40:00 cadge%2:40:01"/>
+        <MEMBER fnframe="" grouping="" name="commandeer" wn="commandeer%2:35:00"/>
+        <MEMBER fnframe="Commerce_collect Gathering_up" grouping="collect.01 collect.02 collect.03" name="collect" wn="collect%2:40:00 collect%2:40:01 collect%2:35:00 collect%2:35:01 collect%2:40:03"/>
+        <MEMBER fnframe="" grouping="" name="exact" wn="exact%2:32:00"/>
+        <MEMBER fnframe="Manipulation Taking" grouping="grab.01 grab.02" name="grab" wn="grab%2:35:00 grab%2:40:00"/>
+        <MEMBER fnframe="" grouping="inherit.01 inherit.02 inherit.03" name="inherit" wn="inherit%2:40:00"/>
+        <MEMBER fnframe="" grouping="make.07" name="make" wn="make%2:40:01"/>
+        <MEMBER fnframe="Receiving" grouping="receive.01" name="receive" wn="receive%2:40:00"/>
+        <MEMBER fnframe="" grouping="recoup.01 recoup.02" name="recoup" wn="recoup%2:40:02 recoup%2:40:00"/>
+        <MEMBER fnframe="" grouping="recover.01" name="recover" wn="recover%2:40:00"/>
+        <MEMBER fnframe="" grouping="regain.01" name="regain" wn="regain%2:40:00 regain%2:40:01"/>
+        <MEMBER fnframe="" grouping="retrieve.01" name="retrieve" wn="retrieve%2:40:00 retrieve%2:35:00"/>
+        <MEMBER fnframe="Taking" grouping="seize.01 seize.03" name="seize" wn="seize%2:35:00 seize%2:35:01 seize%2:40:01 seize%2:40:02"/>
+        <MEMBER fnframe="Choosing" grouping="select.01" name="select" wn="select%2:31:00"/>
+        <MEMBER fnframe="Removing Theft" grouping="snatch.01" name="snatch" wn="snatch%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="source" wn="source%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="subselect" wn=""/>
+        <MEMBER fnframe="" grouping="" name="arrogate" wn="arrogate%2:40:00"/>
+        <MEMBER fnframe="" grouping="hijack.01" name="hijack" wn="hijack%2:35:00 hijack%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -174,9 +174,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="obtain-13.5.2-1">
             <MEMBERS>
-                <MEMBER grouping="acquire.03" name="acquire" wn="acquire%2:40:00"/>
-                <MEMBER grouping="obtain.01" name="obtain" wn="obtain%2:40:00"/>
-                <MEMBER grouping="purchase.01" name="purchase" wn="purchase%2:40:00"/>
+                <MEMBER fnframe="Getting" grouping="acquire.03" name="acquire" wn="acquire%2:40:00"/>
+                <MEMBER fnframe="Getting" grouping="obtain.01" name="obtain" wn="obtain%2:40:00"/>
+                <MEMBER fnframe="Commerce_buy" grouping="purchase.01" name="purchase" wn="purchase%2:40:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Asset">

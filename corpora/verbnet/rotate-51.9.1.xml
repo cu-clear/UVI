@@ -38,7 +38,7 @@
                 </PRED>
                 <PRED value="rotational_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                         <ARG type="ThemRole" value="?Extent"/>
@@ -80,7 +80,7 @@
                 </PRED>
                 <PRED value="rotational_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                         <ARG type="ThemRole" value="?Extent"/>
@@ -99,16 +99,16 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="rotate-51.9.1-1">
             <MEMBERS>
-                <MEMBER grouping="curl.01" name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
-                <MEMBER grouping="coil.01" name="coil" wn="coil%2:35:00 coil%2:38:00"/>
-                <MEMBER grouping="hook.01" name="hook" wn=""/>
-                <MEMBER grouping="rotate.01" name="rotate" wn="rotate%2:38:01"/>
-                <MEMBER grouping="spin.01" name="spin" wn="spin%2:38:02"/>
-                <MEMBER grouping="swing.01" name="swing" wn="swing%2:38:02"/>
-                <MEMBER grouping="turn.01" name="turn" wn=""/>
-                <MEMBER grouping="" name="twirl" wn="twirl%2:38:01"/>
-                <MEMBER grouping="twist.02" name="twist" wn="twist%2:35:01"/>
-                <MEMBER grouping="wind.02" name="wind" wn="wind%2:35:06"/>
+                <MEMBER fnframe="" grouping="curl.01" name="curl" wn="curl%2:38:00 curl%2:35:01 curl%2:35:00"/>
+                <MEMBER fnframe="" grouping="coil.01" name="coil" wn="coil%2:35:00 coil%2:38:00"/>
+                <MEMBER fnframe="" grouping="hook.01" name="hook" wn=""/>
+                <MEMBER fnframe="" grouping="rotate.01" name="rotate" wn="rotate%2:38:01"/>
+                <MEMBER fnframe="" grouping="spin.01" name="spin" wn="spin%2:38:02"/>
+                <MEMBER fnframe="" grouping="swing.01" name="swing" wn="swing%2:38:02"/>
+                <MEMBER fnframe="" grouping="turn.01" name="turn" wn=""/>
+                <MEMBER fnframe="" grouping="" name="twirl" wn="twirl%2:38:01"/>
+                <MEMBER fnframe="" grouping="twist.02" name="twist" wn="twist%2:35:01"/>
+                <MEMBER fnframe="" grouping="wind.02" name="wind" wn="wind%2:35:06"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Agent">
@@ -151,7 +151,7 @@
                         </PRED>
                         <PRED value="rotational_motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Trajectory"/>
                                 <ARG type="ThemRole" value="Extent"/>
@@ -166,8 +166,8 @@
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

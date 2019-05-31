@@ -1,19 +1,19 @@
 <VNCLASS ID="chit_chat-37.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="chat" wn="chat%2:32:00"/>
-        <MEMBER grouping="chatter.03" name="chatter" wn="chatter%2:32:01 chatter%2:32:00"/>
-        <MEMBER grouping="" name="chitchat" wn="chitchat%2:32:00"/>
-        <MEMBER grouping="confer.02" name="confer" wn="confer%2:32:00"/>
-        <MEMBER grouping="" name="converse" wn="converse%2:32:00"/>
-        <MEMBER grouping="" name="flirt" wn="flirt%2:32:00"/>
-        <MEMBER grouping="" name="gab" wn="gab%2:32:00"/>
-        <MEMBER grouping="" name="gossip" wn="gossip%2:32:00 gossip%2:32:01"/>
-        <MEMBER grouping="" name="jest" wn="jest%2:32:00"/>
-        <MEMBER grouping="joke.01" name="joke" wn="joke%2:32:00"/>
-        <MEMBER grouping="palaver.03" name="palaver" wn="palaver%2:32:00"/>
-        <MEMBER grouping="" name="rap" wn="rap%2:32:00"/>
-        <MEMBER grouping="" name="schmooze" wn="schmooze%2:32:00"/>
-        <MEMBER grouping="" name="yak" wn="yak%2:32:00"/>
+        <MEMBER fnframe="Chatting" grouping="" name="chat" wn="chat%2:32:00"/>
+        <MEMBER fnframe="Communication_manner" grouping="chatter.03" name="chatter" wn="chatter%2:32:01 chatter%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="chitchat" wn="chitchat%2:32:00"/>
+        <MEMBER fnframe="Discussion" grouping="confer.02" name="confer" wn="confer%2:32:00"/>
+        <MEMBER fnframe="Chatting" grouping="" name="converse" wn="converse%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="flirt" wn="flirt%2:32:00"/>
+        <MEMBER fnframe="Chatting" grouping="" name="gab" wn="gab%2:32:00"/>
+        <MEMBER fnframe="Chatting" grouping="" name="gossip" wn="gossip%2:32:00 gossip%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="jest" wn="jest%2:32:00"/>
+        <MEMBER fnframe="Chatting Prevarication" grouping="joke.01" name="joke" wn="joke%2:32:00"/>
+        <MEMBER fnframe="" grouping="palaver.03" name="palaver" wn="palaver%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="rap" wn="rap%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="schmooze" wn="schmooze%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="yak" wn="yak%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -645,9 +645,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="chit_chat-37.6-1">
             <MEMBERS>
-                <MEMBER grouping="argue.01" name="argue" wn="argue%2:32:00"/>
-                <MEMBER grouping="" name="debate" wn=""/>
-                <MEMBER grouping="" name="discuss" wn=""/>
+                <MEMBER fnframe="" grouping="argue.01" name="argue" wn="argue%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="debate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="discuss" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

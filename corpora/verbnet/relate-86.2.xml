@@ -14,11 +14,11 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="relate-86.2-1">
             <MEMBERS>
-                <MEMBER name="involve" wn="involve%2:42:00" grouping="involve.02"/>
-                <MEMBER name="concern" wn="concern%2:42:00" grouping="concern.01"/>
-                <MEMBER name="touch" wn="touch%2:42:00" grouping="touch.04"/>
-                <MEMBER name="bear_on" wn="bear_on%2:42:00" grouping=""/>
-                <MEMBER name="touch_on" wn="touch_on%2:42:00" grouping=""/>
+                <MEMBER fnframe="" name="involve" wn="involve%2:42:00" grouping="involve.02"/>
+                <MEMBER fnframe="Topic" name="concern" wn="concern%2:42:00" grouping="concern.01"/>
+                <MEMBER fnframe="" name="touch" wn="touch%2:42:00" grouping="touch.04"/>
+                <MEMBER fnframe="" name="bear_on" wn="bear_on%2:42:00" grouping=""/>
+                <MEMBER fnframe="" name="touch_on" wn="touch_on%2:42:00" grouping=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -51,9 +51,9 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="relate-86.2-2">
             <MEMBERS>
-                <MEMBER name="refer" wn="refer%2:42:00" grouping="refer.02"/>
-                <MEMBER name="pertain" wn="pertain%2:42:01" grouping="pertain.01"/>
-                <MEMBER name="relate" wn="relate%2:42:00" grouping="relate.02"/>
+                <MEMBER fnframe="Referring_by_name" name="refer" wn="refer%2:42:00" grouping="refer.02"/>
+                <MEMBER fnframe="" name="pertain" wn="pertain%2:42:01" grouping="pertain.01"/>
+                <MEMBER fnframe="" name="relate" wn="relate%2:42:00" grouping="relate.02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

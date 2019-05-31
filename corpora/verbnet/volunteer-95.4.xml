@@ -1,7 +1,7 @@
 <VNCLASS ID="volunteer-95.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="offer.03" name="offer" wn="offer%2:41:00"/>
-        <MEMBER grouping="" name="proffer" wn="proffer%2:40:00"/>
+        <MEMBER fnframe="" grouping="offer.03" name="offer" wn="offer%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="proffer" wn="proffer%2:40:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -139,9 +139,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="volunteer-95.4-1">
             <MEMBERS>
-                <MEMBER grouping="volunteer.03" name="volunteer" wn="volunteer%2:41:00"/>
-                <MEMBER grouping="enlist.01" name="enlist" wn="enlist%2:40:00"/>
-                <MEMBER grouping="" name="sign_up" wn="sign_up%2:33:00"/>
+                <MEMBER fnframe="" grouping="volunteer.03" name="volunteer" wn="volunteer%2:41:00"/>
+                <MEMBER fnframe="" grouping="enlist.01" name="enlist" wn="enlist%2:40:00"/>
+                <MEMBER fnframe="" grouping="" name="sign_up" wn="sign_up%2:33:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

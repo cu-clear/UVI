@@ -1,9 +1,9 @@
 <VNCLASS ID="begin-55.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="go_on" wn="go_on%2:38:00"/>
-        <MEMBER grouping="" name="pledge" wn=""/>
-        <MEMBER grouping="proceed.02" name="proceed" wn="proceed%2:38:00"/>
-        <MEMBER grouping="set.06" name="set_out" wn="set_out%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="go_on" wn="go_on%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="pledge" wn=""/>
+        <MEMBER fnframe="" grouping="proceed.02" name="proceed" wn="proceed%2:38:00"/>
+        <MEMBER fnframe="" grouping="set.06" name="set_out" wn="set_out%2:30:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -63,7 +63,7 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="begin-55.1-1">
             <MEMBERS>
-                <MEMBER grouping="set.06" name="set_about" wn=""/>
+                <MEMBER fnframe="" grouping="set.06" name="set_about" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -110,13 +110,13 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="begin-55.1-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="begin.01 begin.02 begin.04" name="begin" wn="begin%2:30:00 begin%2:42:00 begin%2:30:01 begin%2:42:04 begin%2:41:04 begin%2:41:00"/>
-                        <MEMBER grouping="start.02 start.03 start.04 start.05" name="start" wn="start%2:30:00 start%2:30:01 start%2:38:02 start%2:38:01 start%2:38:00 start%2:41:00 start%2:41:04"/>
-                        <MEMBER grouping="" name="start_off" wn=""/>
-                        <MEMBER grouping="commence.01" name="commence" wn="commence%2:30:00 commence%2:30:01"/>
-                        <MEMBER grouping="" name="recommence" wn="recommence%2:30:01 recommence%2:30:00"/>
-                        <MEMBER grouping="resume.01 resume.02" name="resume" wn="resume%2:30:00 resume%2:30:01"/>
-                        <MEMBER grouping="undertake.01" name="undertake" wn="undertake%2:36:00"/>
+                        <MEMBER fnframe="" grouping="begin.01 begin.02 begin.04" name="begin" wn="begin%2:30:00 begin%2:42:00 begin%2:30:01 begin%2:42:04 begin%2:41:04 begin%2:41:00"/>
+                        <MEMBER fnframe="" grouping="start.02 start.03 start.04 start.05" name="start" wn="start%2:30:00 start%2:30:01 start%2:38:02 start%2:38:01 start%2:38:00 start%2:41:00 start%2:41:04"/>
+                        <MEMBER fnframe="" grouping="" name="start_off" wn=""/>
+                        <MEMBER fnframe="" grouping="commence.01" name="commence" wn="commence%2:30:00 commence%2:30:01"/>
+                        <MEMBER fnframe="" grouping="" name="recommence" wn="recommence%2:30:01 recommence%2:30:00"/>
+                        <MEMBER fnframe="" grouping="resume.01 resume.02" name="resume" wn="resume%2:30:00 resume%2:30:01"/>
+                        <MEMBER fnframe="" grouping="undertake.01" name="undertake" wn="undertake%2:36:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

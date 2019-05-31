@@ -1,13 +1,13 @@
 <VNCLASS ID="curtsey-40.3.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a manner predicate indicating how the Agent expresses the greeting, something like manner(during(E),Gesture,Agent)-->
-        <MEMBER grouping="bob.04" name="bob" wn="bob%2:32:00"/>
-        <MEMBER grouping="bow.02" name="bow" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
-        <MEMBER grouping="" name="curtsey" wn="curtsey%2:38:00"/>
-        <MEMBER grouping="" name="genuflect" wn="genuflect%2:38:00 genuflect%2:38:01"/>
-        <MEMBER grouping="" name="kneel" wn="kneel%2:35:00"/>
-        <MEMBER grouping="" name="salaam" wn="salaam%2:32:00"/>
-        <MEMBER grouping="salute.02" name="salute" wn="salute%2:32:01"/>
+        <MEMBER fnframe="Body_movement" grouping="bob.04" name="bob" wn="bob%2:32:00"/>
+        <MEMBER fnframe="" grouping="bow.02" name="bow" wn="bow%2:32:00 bow%2:38:00 bow%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="curtsey" wn="curtsey%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="genuflect" wn="genuflect%2:38:00 genuflect%2:38:01"/>
+        <MEMBER fnframe="Body_movement" grouping="" name="kneel" wn="kneel%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="salaam" wn="salaam%2:32:00"/>
+        <MEMBER fnframe="" grouping="salute.02" name="salute" wn="salute%2:32:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -63,7 +63,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Topic"/>
                         <ARG type="ThemRole" value="?Recipient"/>
@@ -71,13 +71,13 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_position">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="PredSpecific" value="Agent"/>
                         <ARG type="VerbSpecific" value="V_Position"/>
                     </ARGS>
@@ -142,7 +142,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Topic"/>
                         <ARG type="ThemRole" value="Recipient"/>
@@ -150,13 +150,13 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_position">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="PredSpecific" value="Agent"/>
                         <ARG type="VerbSpecific" value="V_Position"/>
                     </ARGS>
@@ -216,7 +216,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Topic"/>
                         <ARG type="ThemRole" value="?Recipient"/>
@@ -224,13 +224,13 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_position">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="PredSpecific" value="Agent"/>
                         <ARG type="VerbSpecific" value="V_Position"/>
                     </ARGS>
@@ -296,7 +296,7 @@
                 </PRED>
                 <PRED value="transfer_info">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Topic"/>
                         <ARG type="ThemRole" value="Recipient"/>
@@ -304,13 +304,13 @@
                 </PRED>
                 <PRED value="body_motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_position">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="PredSpecific" value="Agent"/>
                         <ARG type="VerbSpecific" value="V_Position"/>
                     </ARGS>

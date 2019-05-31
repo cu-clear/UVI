@@ -1,17 +1,16 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="harmonize-22.6" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="harmonize-22.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="alternate" wn="" grouping=""/>
-        <MEMBER name="cohere" wn="" grouping=""/>
-        <MEMBER name="couple" wn="" grouping=""/>
-        <MEMBER name="dovetail" wn="" grouping=""/>
-        <MEMBER name="go" wn="" grouping="go.14"/>
-        <MEMBER name="pair" wn="" grouping=""/>
-        <MEMBER name="harmonize" wn="" grouping=""/>
-        <MEMBER name="jibe" wn="" grouping=""/>
-        <MEMBER name="match" wn="" grouping=""/>
-        <MEMBER name="rhyme" wn="" grouping=""/>
-        <MEMBER name="square" wn="" grouping=""/>
+        <MEMBER fnframe="" grouping="" name="alternate" wn=""/>
+        <MEMBER fnframe="" grouping="" name="cohere" wn=""/>
+        <MEMBER fnframe="" grouping="" name="couple" wn=""/>
+        <MEMBER fnframe="" grouping="" name="dovetail" wn=""/>
+        <MEMBER fnframe="" grouping="go.14" name="go" wn=""/>
+        <MEMBER fnframe="" grouping="" name="pair" wn=""/>
+        <MEMBER fnframe="" grouping="" name="harmonize" wn=""/>
+        <MEMBER fnframe="" grouping="" name="jibe" wn=""/>
+        <MEMBER fnframe="" grouping="" name="match" wn=""/>
+        <MEMBER fnframe="" grouping="" name="rhyme" wn=""/>
+        <MEMBER fnframe="" grouping="" name="square" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -25,7 +24,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Peaches and cream pair well (together).</EXAMPLE>
+                <EXAMPLE>
+                    Peaches and cream pair well (together).
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -49,14 +50,16 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V PP" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Peaches pair with cream.</EXAMPLE>
+                <EXAMPLE>
+                    Peaches pair with cream.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
                     <SYNRESTRS/>
                 </NP>
                 <VERB/>
-                <NP value="Co-Theme"> 
+                <NP value="Co-Theme">
                     <SYNRESTRS/>
                 </NP>
             </SYNTAX>
@@ -73,7 +76,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V ADV PP" secondary="" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Peaches pair well with cream.</EXAMPLE>
+                <EXAMPLE>
+                    Peaches pair well with cream.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">
@@ -98,7 +103,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V" secondary="Intransitive; Plural Subject" xtag=""/>
             <EXAMPLES>
-                <EXAMPLE>Blue and grey match.</EXAMPLE>
+                <EXAMPLE>
+                    Blue and grey match.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Theme">

@@ -1,52 +1,52 @@
 <VNCLASS ID="admire-31.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="admire.01" name="admire" wn="admire%2:37:00"/>
-        <MEMBER grouping="" name="adore" wn="adore%2:37:00"/>
-        <MEMBER grouping="appreciate.02" name="appreciate" wn="appreciate%2:37:00 appreciate%2:40:00"/>
-        <MEMBER grouping="" name="applaud" wn=""/>
-        <MEMBER grouping="bear.05" name="bear" wn=""/>
-        <MEMBER grouping="" name="bewail" wn=""/>
-        <MEMBER grouping="" name="cherish" wn="cherish%2:37:00"/>
-        <MEMBER grouping="" name="deify" wn=""/>
-        <MEMBER grouping="" name="detest" wn="detest%2:37:00"/>
-        <MEMBER grouping="" name="esteem" wn="esteem%2:31:01"/>
-        <MEMBER grouping="exalt.01" name="exalt" wn="exalt%2:32:00"/>
-        <MEMBER grouping="" name="fancy" wn="fancy%2:37:00"/>
-        <MEMBER grouping="favor.01 favor.02" name="favor" wn="favor%2:41:01 favor%2:41:03 favor%2:41:00"/>
-        <MEMBER grouping="" name="grudge" wn=""/>
-        <MEMBER grouping="" name="idolize" wn="idolize%2:37:00"/>
-        <MEMBER grouping="miss.04" name="miss" wn="miss%2:37:00"/>
-        <MEMBER grouping="" name="mistrust" wn="mistrust%2:31:00"/>
-        <MEMBER grouping="" name="prefer" wn=""/>
-        <MEMBER grouping="" name="affirm" wn=""/>
-        <MEMBER grouping="reaffirm.01" name="reaffirm" wn=""/>
-        <MEMBER grouping="prize.01" name="prize" wn="prize%2:40:00 prize%2:31:00"/>
-        <MEMBER grouping="respect.01" name="respect" wn="respect%2:31:00"/>
-        <MEMBER grouping="" name="relish" wn="relish%2:37:00"/>
-        <MEMBER grouping="" name="revere" wn="revere%2:37:01 revere%2:37:00"/>
-        <MEMBER grouping="savor.01" name="savor" wn="savor%2:37:00"/>
-        <MEMBER grouping="stand.04" name="stand" wn="stand%2:31:00"/>
-        <MEMBER grouping="support.01 support.02" name="support" wn="support%2:41:00 support%2:41:01 support%2:31:04"/>
-        <MEMBER grouping="tolerate.01" name="tolerate" wn="tolerate%2:31:00"/>
-        <MEMBER grouping="" name="treasure" wn="treasure%2:40:00 treasure%2:37:00"/>
-        <MEMBER grouping="trust.01" name="trust" wn="trust%2:31:00"/>
-        <MEMBER grouping="value.02" name="value" wn="value%2:40:00 value%2:31:01"/>
-        <MEMBER grouping="" name="venerate" wn="venerate%2:37:00"/>
-        <MEMBER grouping="worship.01" name="worship" wn="worship%2:37:00 worship%2:37:01"/>
-        <MEMBER grouping="" name="abhor" wn="abhor%2:37:00"/>
-        <MEMBER grouping="" name="deplore" wn="deplore%2:32:00 deplore%2:32:01"/>
-        <MEMBER grouping="" name="distrust" wn="distrust%2:31:00"/>
-        <MEMBER grouping="" name="dread" wn="dread%2:37:00"/>
-        <MEMBER grouping="" name="envy" wn="envy%2:37:01 envy%2:37:00"/>
-        <MEMBER grouping="" name="execrate" wn="execrate%2:37:00"/>
-        <MEMBER grouping="" name="lament" wn="lament%2:32:00"/>
-        <MEMBER grouping="" name="loathe" wn="loathe%2:37:00"/>
-        <MEMBER grouping="mourn.01" name="mourn" wn="mourn%2:37:00"/>
-        <MEMBER grouping="" name="pity" wn="pity%2:37:00"/>
-        <MEMBER grouping="resent.01" name="resent" wn="resent%2:37:01"/>
-        <MEMBER grouping="" name="rue" wn="rue%2:37:00"/>
-        <MEMBER grouping="believe.01" name="believe" wn="believe%2:31:04"/>
-        <MEMBER grouping="suffer.01" name="suffer" wn="suffer%2:37:00 suffer%2:29:00 suffer%2:29:03"/>
+        <MEMBER fnframe="Judgment Perception_active" grouping="admire.01" name="admire" wn="admire%2:37:00"/>
+        <MEMBER fnframe="" grouping="" name="adore" wn="adore%2:37:00"/>
+        <MEMBER fnframe="Judgment" grouping="appreciate.02" name="appreciate" wn="appreciate%2:37:00 appreciate%2:40:00"/>
+        <MEMBER fnframe="" grouping="" name="applaud" wn=""/>
+        <MEMBER fnframe="" grouping="bear.05" name="bear" wn=""/>
+        <MEMBER fnframe="" grouping="" name="bewail" wn=""/>
+        <MEMBER fnframe="" grouping="" name="cherish" wn="cherish%2:37:00"/>
+        <MEMBER fnframe="Judgment" grouping="" name="deify" wn=""/>
+        <MEMBER fnframe="" grouping="" name="detest" wn="detest%2:37:00"/>
+        <MEMBER fnframe="Judgment" grouping="" name="esteem" wn="esteem%2:31:01"/>
+        <MEMBER fnframe="Judgment" grouping="exalt.01" name="exalt" wn="exalt%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="fancy" wn="fancy%2:37:00"/>
+        <MEMBER fnframe="Partiality Preference" grouping="favor.01 favor.02" name="favor" wn="favor%2:41:01 favor%2:41:03 favor%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="grudge" wn=""/>
+        <MEMBER fnframe="" grouping="" name="idolize" wn="idolize%2:37:00"/>
+        <MEMBER fnframe="" grouping="miss.04" name="miss" wn="miss%2:37:00"/>
+        <MEMBER fnframe="" grouping="" name="mistrust" wn="mistrust%2:31:00"/>
+        <MEMBER fnframe="Partiality Preference" grouping="" name="prefer" wn=""/>
+        <MEMBER fnframe="Statement" grouping="" name="affirm" wn=""/>
+        <MEMBER fnframe="Statement" grouping="reaffirm.01" name="reaffirm" wn=""/>
+        <MEMBER fnframe="Judgment" grouping="prize.01" name="prize" wn="prize%2:40:00 prize%2:31:00"/>
+        <MEMBER fnframe="Judgment" grouping="respect.01" name="respect" wn="respect%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="relish" wn="relish%2:37:00"/>
+        <MEMBER fnframe="Judgment" grouping="" name="revere" wn="revere%2:37:01 revere%2:37:00"/>
+        <MEMBER fnframe="" grouping="savor.01" name="savor" wn="savor%2:37:00"/>
+        <MEMBER fnframe="" grouping="stand.04" name="stand" wn="stand%2:31:00"/>
+        <MEMBER fnframe="Taking_sides" grouping="support.01 support.02" name="support" wn="support%2:41:00 support%2:41:01 support%2:31:04"/>
+        <MEMBER fnframe="" grouping="tolerate.01" name="tolerate" wn="tolerate%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="treasure" wn="treasure%2:40:00 treasure%2:37:00"/>
+        <MEMBER fnframe="Certainty Trust" grouping="trust.01" name="trust" wn="trust%2:31:00"/>
+        <MEMBER fnframe="Judgment" grouping="value.02" name="value" wn="value%2:40:00 value%2:31:01"/>
+        <MEMBER fnframe="" grouping="" name="venerate" wn="venerate%2:37:00"/>
+        <MEMBER fnframe="" grouping="worship.01" name="worship" wn="worship%2:37:00 worship%2:37:01"/>
+        <MEMBER fnframe="" grouping="" name="abhor" wn="abhor%2:37:00"/>
+        <MEMBER fnframe="Judgment" grouping="" name="deplore" wn="deplore%2:32:00 deplore%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="distrust" wn="distrust%2:31:00"/>
+        <MEMBER fnframe="" grouping="" name="dread" wn="dread%2:37:00"/>
+        <MEMBER fnframe="" grouping="" name="envy" wn="envy%2:37:01 envy%2:37:00"/>
+        <MEMBER fnframe="Judgment_communication" grouping="" name="execrate" wn="execrate%2:37:00"/>
+        <MEMBER fnframe="" grouping="" name="lament" wn="lament%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="loathe" wn="loathe%2:37:00"/>
+        <MEMBER fnframe="Experiencer_focus" grouping="mourn.01" name="mourn" wn="mourn%2:37:00"/>
+        <MEMBER fnframe="" grouping="" name="pity" wn="pity%2:37:00"/>
+        <MEMBER fnframe="Experiencer_focus" grouping="resent.01" name="resent" wn="resent%2:37:01"/>
+        <MEMBER fnframe="" grouping="" name="rue" wn="rue%2:37:00"/>
+        <MEMBER fnframe="Awareness Certainty" grouping="believe.01" name="believe" wn="believe%2:31:04"/>
+        <MEMBER fnframe="Catastrophe" grouping="suffer.01" name="suffer" wn="suffer%2:37:00 suffer%2:29:00 suffer%2:29:03"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Stimulus">
@@ -271,15 +271,15 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="admire-31.2-1">
             <MEMBERS>
-                <MEMBER grouping="" name="despise" wn="despise%2:37:00"/>
-                <MEMBER grouping="" name="disdain" wn="disdain%2:37:00"/>
-                <MEMBER grouping="" name="dislike" wn="dislike%2:37:00"/>
-                <MEMBER grouping="regret.01 regret.02" name="regret" wn="regret%2:37:00 regret%2:37:01 regret%2:32:00 regret%2:32:02"/>
-                <MEMBER grouping="like.02" name="like" wn="like%2:37:05 like%2:37:04"/>
-                <MEMBER grouping="love.01" name="love" wn="love%2:37:00 love%2:37:02 love%2:37:01"/>
-                <MEMBER grouping="enjoy.01" name="enjoy" wn="enjoy%2:37:00 enjoy%2:37:01 enjoy%2:34:00"/>
-                <MEMBER grouping="fear.01 fear.02 fear.03" name="fear" wn="fear%2:37:00 fear%2:37:13 fear%2:37:01"/>
-                <MEMBER grouping="hate.01" name="hate" wn="hate%2:37:00"/>
+                <MEMBER fnframe="" grouping="" name="despise" wn="despise%2:37:00"/>
+                <MEMBER fnframe="Judgment" grouping="" name="disdain" wn="disdain%2:37:00"/>
+                <MEMBER fnframe="" grouping="" name="dislike" wn="dislike%2:37:00"/>
+                <MEMBER fnframe="Experiencer_focus" grouping="regret.01 regret.02" name="regret" wn="regret%2:37:00 regret%2:37:01 regret%2:32:00 regret%2:32:02"/>
+                <MEMBER fnframe="" grouping="like.02" name="like" wn="like%2:37:05 like%2:37:04"/>
+                <MEMBER fnframe="" grouping="love.01" name="love" wn="love%2:37:00 love%2:37:02 love%2:37:01"/>
+                <MEMBER fnframe="" grouping="enjoy.01" name="enjoy" wn="enjoy%2:37:00 enjoy%2:37:01 enjoy%2:34:00"/>
+                <MEMBER fnframe="Experiencer_focus" grouping="fear.01 fear.02 fear.03" name="fear" wn="fear%2:37:00 fear%2:37:13 fear%2:37:01"/>
+                <MEMBER fnframe="Experiencer_obj" grouping="hate.01" name="hate" wn="hate%2:37:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

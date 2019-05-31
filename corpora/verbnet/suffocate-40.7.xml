@@ -1,9 +1,9 @@
 <VNCLASS ID="suffocate-40.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="asphyxiate" wn="asphyxiate%2:35:00 asphyxiate%2:35:01"/>
-        <MEMBER grouping="choke.01 choke.02" name="choke" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01"/>
-        <MEMBER grouping="stifle.02" name="stifle" wn="stifle%2:35:00"/>
-        <MEMBER grouping="" name="suffocate" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01"/>
+        <MEMBER fnframe="Death" grouping="" name="asphyxiate" wn="asphyxiate%2:35:00 asphyxiate%2:35:01"/>
+        <MEMBER fnframe="" grouping="choke.01 choke.02" name="choke" wn="choke%2:29:00 choke%2:35:00 choke%2:35:02 choke%2:29:04 choke%2:29:03 choke%2:35:03 choke%2:29:01"/>
+        <MEMBER fnframe="" grouping="stifle.02" name="stifle" wn="stifle%2:35:00"/>
+        <MEMBER fnframe="Death Killing" grouping="" name="suffocate" wn="suffocate%2:35:00 suffocate%2:35:01 suffocate%2:30:02 suffocate%2:29:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

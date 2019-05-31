@@ -1,25 +1,25 @@
 <VNCLASS ID="instr_communication-37.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each verb adds a predicate specifying the instrument used to transfer the information-->
-        <MEMBER grouping="broadcast.01" name="broadcast" wn=""/>
-        <MEMBER grouping="" name="cable" wn="cable%2:32:00"/>
-        <MEMBER grouping="" name="e-mail" wn="e-mail%2:32:00"/>
-        <MEMBER grouping="" name="fax" wn="fax%2:32:00"/>
-        <MEMBER grouping="" name="modem" wn=""/>
-        <MEMBER grouping="" name="netmail" wn="netmail%2:32:00"/>
-        <MEMBER grouping="phone.01" name="phone" wn="phone%2:32:00"/>
-        <MEMBER grouping="" name="radio" wn="radio%2:32:00"/>
-        <MEMBER grouping="relay.01" name="relay" wn="relay%2:32:00"/>
-        <MEMBER grouping="" name="satellite" wn="satellite%2:32:00"/>
-        <MEMBER grouping="" name="semaphore" wn="semaphore%2:32:01 semaphore%2:32:00"/>
-        <MEMBER grouping="sign.02" name="sign" wn="sign%2:32:01 sign%2:32:04"/>
-        <MEMBER grouping="signal.01" name="signal" wn="signal%2:32:00"/>
-        <MEMBER grouping="" name="telecast" wn="telecast%2:32:00"/>
-        <MEMBER grouping="" name="telegraph" wn="telegraph%2:32:00"/>
-        <MEMBER grouping="" name="telephone" wn="telephone%2:32:00"/>
-        <MEMBER grouping="" name="telex" wn="telex%2:32:00"/>
-        <MEMBER grouping="wire.03" name="wire" wn="wire%2:32:00"/>
-        <MEMBER grouping="" name="wireless" wn=""/>
+        <MEMBER fnframe="" grouping="broadcast.01" name="broadcast" wn=""/>
+        <MEMBER fnframe="" grouping="" name="cable" wn="cable%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="e-mail" wn="e-mail%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="fax" wn="fax%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="modem" wn=""/>
+        <MEMBER fnframe="" grouping="" name="netmail" wn="netmail%2:32:00"/>
+        <MEMBER fnframe="" grouping="phone.01" name="phone" wn="phone%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="radio" wn="radio%2:32:00"/>
+        <MEMBER fnframe="" grouping="relay.01" name="relay" wn="relay%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="satellite" wn="satellite%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="semaphore" wn="semaphore%2:32:01 semaphore%2:32:00"/>
+        <MEMBER fnframe="" grouping="sign.02" name="sign" wn="sign%2:32:01 sign%2:32:04"/>
+        <MEMBER fnframe="" grouping="signal.01" name="signal" wn="signal%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="telecast" wn="telecast%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="telegraph" wn="telegraph%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="telephone" wn="telephone%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="telex" wn="telex%2:32:00"/>
+        <MEMBER fnframe="" grouping="wire.03" name="wire" wn="wire%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="wireless" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

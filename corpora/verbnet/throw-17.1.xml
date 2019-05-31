@@ -1,8 +1,8 @@
 <VNCLASS ID="throw-17.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="cast.01" name="cast" wn="cast%2:36:02 cast%2:35:00"/>
-        <MEMBER grouping="discard.01" name="discard" wn="discard%2:40:00"/>
-        <MEMBER grouping="drive.04" name="drive" wn="drive%2:35:01"/>
+        <MEMBER fnframe="Cause_motion" grouping="cast.01" name="cast" wn="cast%2:36:02 cast%2:35:00"/>
+        <MEMBER fnframe="Removing" grouping="discard.01" name="discard" wn="discard%2:40:00"/>
+        <MEMBER fnframe="" grouping="drive.04" name="drive" wn="drive%2:35:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -74,19 +74,19 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_location"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="contact">
+                <PRED bool="!" value="contact">
                     <ARGS>
                         <ARG type="Event" value="e4"/>
                         <ARG type="ThemRole" value="Agent"/>
@@ -102,19 +102,19 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e4"/>
                     </ARGS>
                 </PRED>
@@ -169,19 +169,19 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_location"/>
                     </ARGS>
                 </PRED>
-                <PRED bool = "!" value="contact">
+                <PRED bool="!" value="contact">
                     <ARGS>
                         <ARG type="Event" value="e4"/>
                         <ARG type="ThemRole" value="Agent"/>
@@ -197,19 +197,19 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e4"/>
                     </ARGS>
                 </PRED>
@@ -264,14 +264,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_location"/>
                     </ARGS>
@@ -292,19 +292,19 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e4"/>
                     </ARGS>
                 </PRED>
@@ -366,14 +366,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_location"/>
                     </ARGS>
@@ -394,19 +394,19 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e4"/>
                     </ARGS>
                 </PRED>
@@ -453,14 +453,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_location"/>
                     </ARGS>
@@ -481,19 +481,19 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
                 <PRED value="overlaps">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e4"/>
                     </ARGS>
                 </PRED>
@@ -503,31 +503,31 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="throw-17.1-1">
             <MEMBERS>
-                <MEMBER grouping="" name="bash" wn="bash%2:35:00"/>
-                <MEMBER grouping="bat.01" name="bat" wn="bat%2:35:01"/>
-                <MEMBER grouping="" name="bunt" wn="bunt%2:35:01"/>
-                <MEMBER grouping="chuck.01" name="chuck" wn="chuck%2:35:00"/>
-                <MEMBER grouping="fire.01" name="fire" wn="fire%2:33:01 fire%2:33:00"/>
-                <MEMBER grouping="flick.04" name="flick" wn="flick%2:35:03"/>
-                <MEMBER grouping="fling.01" name="fling" wn="fling%2:35:00"/>
-                <MEMBER grouping="flip.01" name="flip" wn="flip%2:38:00 flip%2:38:02 flip%2:35:05 flip%2:35:03"/>
-                <MEMBER grouping="hit.01" name="hit" wn="hit%2:35:03"/>
-                <MEMBER grouping="hurl.01" name="hurl" wn="hurl%2:35:00"/>
-                <MEMBER grouping="knock.01" name="knock" wn="knock%2:35:04"/>
-                <MEMBER grouping="" name="lob" wn="lob%2:35:00"/>
-                <MEMBER grouping="" name="loft" wn="loft%2:35:01"/>
-                <MEMBER grouping="" name="nudge" wn="nudge%2:35:00"/>
-                <MEMBER grouping="pass.04" name="pass" wn="pass%2:40:01"/>
-                <MEMBER grouping="pitch.01 pitch.02 pitch.07 pitch.08" name="pitch" wn="pitch%2:35:00 pitch%2:35:13"/>
-                <MEMBER grouping="punt.01" name="punt" wn="punt%2:35:01"/>
-                <MEMBER grouping="shoot.02" name="shoot" wn="shoot%2:35:01"/>
-                <MEMBER grouping="shove.02" name="shove" wn="shove%2:38:01"/>
-                <MEMBER grouping="slam.01" name="slam" wn="slam%2:35:02"/>
-                <MEMBER grouping="slap.04" name="slap" wn=""/>
-                <MEMBER grouping="sling.01" name="sling" wn="sling%2:35:00"/>
-                <MEMBER grouping="smash.01" name="smash" wn="smash%2:35:00"/>
-                <MEMBER grouping="" name="tap" wn=""/>
-                <MEMBER grouping="boot.02" name="boot" wn="boot%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="bash" wn="bash%2:35:00"/>
+                <MEMBER fnframe="" grouping="bat.01" name="bat" wn="bat%2:35:01"/>
+                <MEMBER fnframe="" grouping="" name="bunt" wn="bunt%2:35:01"/>
+                <MEMBER fnframe="Cause_motion" grouping="chuck.01" name="chuck" wn="chuck%2:35:00"/>
+                <MEMBER fnframe="Shoot_projectiles Use_firearm" grouping="fire.01" name="fire" wn="fire%2:33:01 fire%2:33:00"/>
+                <MEMBER fnframe="" grouping="flick.04" name="flick" wn="flick%2:35:03"/>
+                <MEMBER fnframe="Cause_motion" grouping="fling.01" name="fling" wn="fling%2:35:00"/>
+                <MEMBER fnframe="" grouping="flip.01" name="flip" wn="flip%2:38:00 flip%2:38:02 flip%2:35:05 flip%2:35:03"/>
+                <MEMBER fnframe="Cause_harm Cause_impact Experience_bodily_harm Hit_target Impact" grouping="hit.01" name="hit" wn="hit%2:35:03"/>
+                <MEMBER fnframe="Cause_motion" grouping="hurl.01" name="hurl" wn="hurl%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Cause_motion" grouping="knock.01" name="knock" wn="knock%2:35:04"/>
+                <MEMBER fnframe="" grouping="" name="lob" wn="lob%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="loft" wn="loft%2:35:01"/>
+                <MEMBER fnframe="Cause_motion" grouping="" name="nudge" wn="nudge%2:35:00"/>
+                <MEMBER fnframe="Giving" grouping="pass.04" name="pass" wn="pass%2:40:01"/>
+                <MEMBER fnframe="Cause_motion" grouping="pitch.01 pitch.02 pitch.07 pitch.08" name="pitch" wn="pitch%2:35:00 pitch%2:35:13"/>
+                <MEMBER fnframe="Cause_motion" grouping="punt.01" name="punt" wn="punt%2:35:01"/>
+                <MEMBER fnframe="Shoot_projectiles" grouping="shoot.02" name="shoot" wn="shoot%2:35:01"/>
+                <MEMBER fnframe="Cause_motion" grouping="shove.02" name="shove" wn="shove%2:38:01"/>
+                <MEMBER fnframe="Cause_impact Impact Judgment_communication" grouping="slam.01" name="slam" wn="slam%2:35:02"/>
+                <MEMBER fnframe="Cause_impact" grouping="slap.04" name="slap" wn=""/>
+                <MEMBER fnframe="" grouping="sling.01" name="sling" wn="sling%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Cause_to_fragment Impact" grouping="smash.01" name="smash" wn="smash%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="tap" wn=""/>
+                <MEMBER fnframe="" grouping="boot.02" name="boot" wn="boot%2:35:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Destination">
@@ -580,14 +580,14 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="PredSpecific" value="Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Initial_location"/>
                             </ARGS>
@@ -608,19 +608,19 @@
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                         <PRED value="overlaps">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                         <PRED value="overlaps">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e4"/>
                             </ARGS>
                         </PRED>
@@ -630,12 +630,12 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="throw-17.1-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="" name="catapult" wn="catapult%2:35:00 catapult%2:35:01"/>
-                        <MEMBER grouping="kick.01" name="kick" wn="kick%2:35:01"/>
-                        <MEMBER grouping="launch.01 launch.02" name="launch" wn="launch%2:35:00 launch%2:35:04"/>
-                        <MEMBER grouping="throw.01 throw.03" name="throw" wn="throw%2:35:00 throw%2:38:00 throw%2:35:02 throw%2:38:03"/>
-                        <MEMBER grouping="tip.01 tip.07" name="tip" wn=""/>
-                        <MEMBER grouping="toss.01 toss.04" name="toss" wn="toss%2:35:04 toss%2:38:00 toss%2:35:05"/>
+                        <MEMBER fnframe="Cause_motion" grouping="" name="catapult" wn="catapult%2:35:00 catapult%2:35:01"/>
+                        <MEMBER fnframe="Cause_harm" grouping="kick.01" name="kick" wn="kick%2:35:01"/>
+                        <MEMBER fnframe="Cause_motion Shoot_projectiles" grouping="launch.01 launch.02" name="launch" wn="launch%2:35:00 launch%2:35:04"/>
+                        <MEMBER fnframe="Body_movement Cause_motion Cause_to_amalgamate" grouping="throw.01 throw.03" name="throw" wn="throw%2:35:00 throw%2:38:00 throw%2:35:02 throw%2:38:03"/>
+                        <MEMBER fnframe="" grouping="tip.01 tip.07" name="tip" wn=""/>
+                        <MEMBER fnframe="Cause_motion" grouping="toss.01 toss.04" name="toss" wn="toss%2:35:04 toss%2:38:00 toss%2:35:05"/>
                     </MEMBERS>
                     <THEMROLES>
                         <THEMROLE type="Causer">

@@ -1,11 +1,11 @@
 <VNCLASS ID="initiate_communication-37.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="buzz.03" name="buzz" wn="buzz%2:32:00"/>
-        <MEMBER grouping="get.06" name="get" wn="get%2:32:03"/>
-        <MEMBER grouping="get.06" name="get_ahold_of" wn="get%2:32:03"/>
-        <MEMBER grouping="get.06" name="get_hold_of" wn="get%2:32:03"/>
-        <MEMBER grouping="ping.03" name="ping" wn="ping%2:32:01"/>
-        <MEMBER grouping="reach.02" name="reach" wn="reach%2:32:00"/>
+        <MEMBER fnframe="" grouping="buzz.03" name="buzz" wn="buzz%2:32:00"/>
+        <MEMBER fnframe="" grouping="get.06" name="get" wn="get%2:32:03"/>
+        <MEMBER fnframe="" grouping="get.06" name="get_ahold_of" wn="get%2:32:03"/>
+        <MEMBER fnframe="" grouping="get.06" name="get_hold_of" wn="get%2:32:03"/>
+        <MEMBER fnframe="" grouping="ping.03" name="ping" wn="ping%2:32:01"/>
+        <MEMBER fnframe="" grouping="reach.02" name="reach" wn="reach%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -73,10 +73,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="initiate_communication-37.4.2-1">
             <MEMBERS>
-                <MEMBER grouping="call.04" name="call" wn=""/>
-                <MEMBER grouping="" name="phone" wn=""/>
-                <MEMBER grouping="ring.04" name="ring" wn=""/>
-                <MEMBER grouping="" name="telephone" wn=""/>
+                <MEMBER fnframe="" grouping="call.04" name="call" wn=""/>
+                <MEMBER fnframe="" grouping="" name="phone" wn=""/>
+                <MEMBER fnframe="" grouping="ring.04" name="ring" wn=""/>
+                <MEMBER fnframe="" grouping="" name="telephone" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

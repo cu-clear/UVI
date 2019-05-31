@@ -1,14 +1,14 @@
 <VNCLASS ID="funnel-9.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Some members add a predicate specifying instrument-->
-        <MEMBER grouping="dip.01 dip.08" name="dip" wn="dip%2:35:00 dip%2:34:00"/>
-        <MEMBER grouping="dunk.01" name="dunk" wn="dunk%2:35:00 dunk%2:34:00"/>
-        <MEMBER grouping="" name="ladle" wn="ladle%2:35:01"/>
-        <MEMBER grouping="" name="hoe" wn="hoe%2:36:00"/>
-        <MEMBER grouping="scoop.01" name="scoop" wn="scoop%2:35:01"/>
-        <MEMBER grouping="siphon.01" name="siphon" wn="siphon%2:35:00"/>
-        <MEMBER grouping="sop.02 sop.04" name="sop" wn="sop%2:35:00"/>
-        <MEMBER grouping="" name="channelize" wn="channelize%2:38:03"/>
+        <MEMBER fnframe="" grouping="dip.01 dip.08" name="dip" wn="dip%2:35:00 dip%2:34:00"/>
+        <MEMBER fnframe="" grouping="dunk.01" name="dunk" wn="dunk%2:35:00 dunk%2:34:00"/>
+        <MEMBER fnframe="" grouping="" name="ladle" wn="ladle%2:35:01"/>
+        <MEMBER fnframe="" grouping="" name="hoe" wn="hoe%2:36:00"/>
+        <MEMBER fnframe="" grouping="scoop.01" name="scoop" wn="scoop%2:35:01"/>
+        <MEMBER fnframe="" grouping="siphon.01" name="siphon" wn="siphon%2:35:00"/>
+        <MEMBER fnframe="" grouping="sop.02 sop.04" name="sop" wn="sop%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="channelize" wn="channelize%2:38:03"/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as here, there-->
@@ -38,7 +38,7 @@
             <SELRESTRS>
                 <SELRESTR Value="+" type="location"/>
             </SELRESTRS>
-        </THEMROLE>    
+        </THEMROLE>
     </THEMROLES>
     <FRAMES>
         <FRAME>
@@ -81,29 +81,29 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="Event" value="ee3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e4"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
-                </PRED>                
+                </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -148,29 +148,29 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="Event" value="ee3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e4"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
-                </PRED>                
+                </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -213,29 +213,29 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="Event" value="ee3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e4"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
-                </PRED>                
+                </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -280,29 +280,29 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="Event" value="ee3"/>
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="has_location">
                     <ARGS>
                         <ARG type="Event" value="e4"/>
-                        <ARG type="ThemRole" value="Theme"/>                        
+                        <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Destination"/>
                     </ARGS>
-                </PRED>                
+                </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -311,17 +311,17 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="funnel-9.3-1">
             <MEMBERS>
-                <MEMBER grouping="channel.01" name="channel" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
-                <MEMBER grouping="fit.02" name="fit" wn="fit%2:42:02 fit%2:42:03"/>
-                <MEMBER grouping="rake.01" name="rake" wn="rake%2:35:00"/>
-                <MEMBER grouping="" name="scrape" wn=""/>
-                <MEMBER grouping="" name="shovel" wn="shovel%2:35:00"/>
-                <MEMBER grouping="" name="spoon" wn="spoon%2:35:00"/>
-                <MEMBER grouping="" name="squash" wn=""/>
-                <MEMBER grouping="" name="squish" wn="squish%2:35:00"/>
-                <MEMBER grouping="tuck.01" name="tuck" wn="tuck%2:35:00"/>
-                <MEMBER grouping="wipe.01" name="wipe" wn="?wipe%2:35:00"/>
-                <MEMBER grouping="wring.01" name="wring" wn="wring%2:35:02"/>
+                <MEMBER fnframe="" grouping="channel.01" name="channel" wn="channel%2:38:01 channel%2:38:00 channel%2:35:00"/>
+                <MEMBER fnframe="" grouping="fit.02" name="fit" wn="fit%2:42:02 fit%2:42:03"/>
+                <MEMBER fnframe="" grouping="rake.01" name="rake" wn="rake%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="scrape" wn=""/>
+                <MEMBER fnframe="" grouping="" name="shovel" wn="shovel%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="spoon" wn="spoon%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="squash" wn=""/>
+                <MEMBER fnframe="" grouping="" name="squish" wn="squish%2:35:00"/>
+                <MEMBER fnframe="Placing" grouping="tuck.01" name="tuck" wn="tuck%2:35:00"/>
+                <MEMBER fnframe="" grouping="wipe.01" name="wipe" wn="?wipe%2:35:00"/>
+                <MEMBER fnframe="Manipulation" grouping="wring.01" name="wring" wn="wring%2:35:02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -365,29 +365,29 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Trajectory"/>
                             </ARGS>
                         </PRED>
-                         <PRED bool="!" value="has_location">
+                        <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
-                                <ARG type="ThemRole" value="Theme"/>                        
+                                <ARG type="Event" value="ee3"/>
+                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Initial_Location"/>
                             </ARGS>
                         </PRED>
                         <PRED value="has_location">
                             <ARGS>
                                 <ARG type="Event" value="e4"/>
-                                <ARG type="ThemRole" value="Theme"/>                        
+                                <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Destination"/>
                             </ARGS>
-                        </PRED>                
+                        </PRED>
                         <PRED value="cause">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -396,17 +396,17 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="funnel-9.3-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="bang.01" name="bang" wn="bang%2:35:02"/>
-                        <MEMBER grouping="dump.02" name="dump" wn="dump%2:40:00"/>
-                        <MEMBER grouping="funnel.01" name="funnel" wn="funnel%2:35:00"/>
-                        <MEMBER grouping="hammer.01" name="hammer" wn="hammer%2:35:00 hammer%2:36:00"/>
-                        <MEMBER grouping="pound.01" name="pound" wn="pound%2:30:03"/>
-                        <MEMBER grouping="push.01" name="push" wn="push%2:38:00"/>
-                        <MEMBER grouping="ram.05" name="ram" wn="ram%2:35:03"/>
-                        <MEMBER grouping="shake.01" name="shake" wn="shake%2:30:01"/>
-                        <MEMBER grouping="squeeze.03" name="squeeze" wn="squeeze%2:35:03"/>
-                        <MEMBER grouping="sweep.02" name="sweep" wn="sweep%2:35:00"/>
-                        <MEMBER grouping="" name="wedge" wn="wedge%2:35:01 wedge%2:35:00"/>
+                        <MEMBER fnframe="Cause_impact Impact Motion_noise" grouping="bang.01" name="bang" wn="bang%2:35:02"/>
+                        <MEMBER fnframe="" grouping="dump.02" name="dump" wn="dump%2:40:00"/>
+                        <MEMBER fnframe="" grouping="funnel.01" name="funnel" wn="funnel%2:35:00"/>
+                        <MEMBER fnframe="Cause_harm" grouping="hammer.01" name="hammer" wn="hammer%2:35:00 hammer%2:36:00"/>
+                        <MEMBER fnframe="" grouping="pound.01" name="pound" wn="pound%2:30:03"/>
+                        <MEMBER fnframe="Cause_change_of_position_on_a_scale Cause_motion Manipulation" grouping="push.01" name="push" wn="push%2:38:00"/>
+                        <MEMBER fnframe="Cause_impact" grouping="ram.05" name="ram" wn="ram%2:35:03"/>
+                        <MEMBER fnframe="Body_movement Cause_to_move_in_place Moving_in_place" grouping="shake.01" name="shake" wn="shake%2:30:01"/>
+                        <MEMBER fnframe="" grouping="squeeze.03" name="squeeze" wn="squeeze%2:35:03"/>
+                        <MEMBER fnframe="" grouping="sweep.02" name="sweep" wn="sweep%2:35:00"/>
+                        <MEMBER fnframe="" grouping="" name="wedge" wn="wedge%2:35:01 wedge%2:35:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -439,14 +439,14 @@
                                 </PRED>
                                 <PRED value="motion">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Trajectory"/>
                                     </ARGS>
                                 </PRED>
-                                <PRED bool="!"  value="has_location">
+                                <PRED bool="!" value="has_location">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="?Initial_Location"/>
                                     </ARGS>

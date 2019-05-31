@@ -1,7 +1,7 @@
 <VNCLASS ID="rehearse-26.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="walk_through" wn="walk_through%2:36:00"/>
-        <MEMBER grouping="repeat.01" name="repeat" wn="repeat%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="walk_through" wn="walk_through%2:36:00"/>
+        <MEMBER fnframe="" grouping="repeat.01" name="repeat" wn="repeat%2:36:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -73,9 +73,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="rehearse-26.8-1">
             <MEMBERS>
-                <MEMBER grouping="exercise.01" name="exercise" wn="exercise%2:31:00"/>
-                <MEMBER grouping="practice.02" name="practice" wn="practice%2:36:00"/>
-                <MEMBER grouping="" name="rehearse" wn="rehearse%2:36:00"/>
+                <MEMBER fnframe="" grouping="exercise.01" name="exercise" wn="exercise%2:31:00"/>
+                <MEMBER fnframe="" grouping="practice.02" name="practice" wn="practice%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="rehearse" wn="rehearse%2:36:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

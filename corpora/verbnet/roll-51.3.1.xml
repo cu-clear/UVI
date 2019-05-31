@@ -1,29 +1,29 @@
 <VNCLASS ID="roll-51.3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Each member also adds a manner predicate such as manner(during(E),Theme,running)-->
-        <MEMBER grouping="bounce.01 bounce.06" name="bounce" wn="bounce%2:38:00 bounce%2:35:03 bounce%2:38:02"/>
-        <MEMBER grouping="drift.01 drift.02 drift.04" name="drift" wn="drift%2:38:02 drift%2:38:04 drift%2:38:06"/>
-        <MEMBER grouping="drop.01 drop.02" name="drop" wn="drop%2:38:01 drop%2:38:00"/>
-        <MEMBER grouping="float.01 float.03" name="float" wn="float%2:38:00 float%2:38:02 float%2:38:04"/>
-        <MEMBER grouping="glide.01" name="glide" wn="glide%2:38:00 glide%2:38:02"/>
-        <MEMBER grouping="move.01" name="move" wn="move%2:38:03 move%2:38:01 move%2:38:00"/>
-        <MEMBER grouping="nose.02" name="nose" wn="nose%2:38:00"/>
-        <MEMBER grouping="roll.01" name="roll" wn="roll%2:38:00 roll%2:29:06"/>
-        <MEMBER grouping="slide.01 slide.02" name="slide" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02"/>
-        <MEMBER grouping="swing.01" name="swing" wn="swing%2:38:02 swing%2:38:03 swing%2:35:00"/>
-        <MEMBER grouping="coil.01" name="coil" wn="coil%2:38:00"/>
-        <MEMBER grouping="revolve.01" name="revolve" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
-        <MEMBER grouping="rotate.01" name="rotate" wn="rotate%2:38:01 rotate%2:38:00"/>
-        <MEMBER grouping="spin.01" name="spin" wn="spin%2:38:01 spin%2:38:02"/>
-        <MEMBER grouping="turn.01 turn.03 turn.08" name="turn" wn="turn%2:38:02 turn%2:38:04 turn%2:38:01 turn%2:38:13"/>
-        <MEMBER grouping="" name="twirl" wn="twirl%2:38:00 twirl%2:38:01"/>
-        <MEMBER grouping="twist.01" name="twist" wn="twist%2:38:01 twist%2:38:02 twist%2:35:06"/>
-        <MEMBER grouping="" name="whirl" wn="whirl%2:38:01 whirl%2:38:02 whirl%2:38:00 whirl%2:38:04 whirl%2:38:03"/>
-        <MEMBER grouping="wind.01 wind.02" name="wind" wn="wind%2:38:00 wind%2:35:06"/>
-        <MEMBER grouping="snake.01" name="snake" wn=""/>
-        <MEMBER grouping="" name="soar" wn=""/>
-        <MEMBER grouping="" name="spiral" wn=""/>
-        <MEMBER grouping="" name="undulate" wn=""/>
+        <MEMBER fnframe="" grouping="bounce.01 bounce.06" name="bounce" wn="bounce%2:38:00 bounce%2:35:03 bounce%2:38:02"/>
+        <MEMBER fnframe="Motion" grouping="drift.01 drift.02 drift.04" name="drift" wn="drift%2:38:02 drift%2:38:04 drift%2:38:06"/>
+        <MEMBER fnframe="Body_movement Change_position_on_a_scale Change_posture Motion_directional Path_shape" grouping="drop.01 drop.02" name="drop" wn="drop%2:38:01 drop%2:38:00"/>
+        <MEMBER fnframe="Motion" grouping="float.01 float.03" name="float" wn="float%2:38:00 float%2:38:02 float%2:38:04"/>
+        <MEMBER fnframe="Motion" grouping="glide.01" name="glide" wn="glide%2:38:00 glide%2:38:02"/>
+        <MEMBER fnframe="Cause_change_of_position_on_a_scale Cause_motion Change_position_on_a_scale Motion" grouping="move.01" name="move" wn="move%2:38:03 move%2:38:01 move%2:38:00"/>
+        <MEMBER fnframe="" grouping="nose.02" name="nose" wn="nose%2:38:00"/>
+        <MEMBER fnframe="Body_movement Cause_motion Mass_motion Motion" grouping="roll.01" name="roll" wn="roll%2:38:00 roll%2:29:06"/>
+        <MEMBER fnframe="Cause_motion Motion" grouping="slide.01 slide.02" name="slide" wn="slide%2:38:01 slide%2:38:00 slide%2:38:02"/>
+        <MEMBER fnframe="Body_movement Cause_to_move_in_place Change_direction Motion Moving_in_place Path_shape Self_motion" grouping="swing.01" name="swing" wn="swing%2:38:02 swing%2:38:03 swing%2:35:00"/>
+        <MEMBER fnframe="" grouping="coil.01" name="coil" wn="coil%2:38:00"/>
+        <MEMBER fnframe="" grouping="revolve.01" name="revolve" wn="revolve%2:38:00 revolve%2:38:01 revolve%2:38:02"/>
+        <MEMBER fnframe="Cause_to_move_in_place Moving_in_place" grouping="rotate.01" name="rotate" wn="rotate%2:38:01 rotate%2:38:00"/>
+        <MEMBER fnframe="Cause_to_move_in_place Moving_in_place Perception_body" grouping="spin.01" name="spin" wn="spin%2:38:01 spin%2:38:02"/>
+        <MEMBER fnframe="Cause_to_move_in_place Change_direction Moving_in_place" grouping="turn.01 turn.03 turn.08" name="turn" wn="turn%2:38:02 turn%2:38:04 turn%2:38:01 turn%2:38:13"/>
+        <MEMBER fnframe="Cause_to_move_in_place Moving_in_place" grouping="" name="twirl" wn="twirl%2:38:00 twirl%2:38:01"/>
+        <MEMBER fnframe="" grouping="twist.01" name="twist" wn="twist%2:38:01 twist%2:38:02 twist%2:35:06"/>
+        <MEMBER fnframe="" grouping="" name="whirl" wn="whirl%2:38:01 whirl%2:38:02 whirl%2:38:00 whirl%2:38:04 whirl%2:38:03"/>
+        <MEMBER fnframe="Motion Path_shape" grouping="wind.01 wind.02" name="wind" wn="wind%2:38:00 wind%2:35:06"/>
+        <MEMBER fnframe="Motion" grouping="snake.01" name="snake" wn=""/>
+        <MEMBER fnframe="" grouping="" name="soar" wn=""/>
+        <MEMBER fnframe="Motion" grouping="" name="spiral" wn=""/>
+        <MEMBER fnframe="" grouping="" name="undulate" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -71,7 +71,7 @@
             <SEMANTICS>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
@@ -109,14 +109,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -162,14 +162,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -183,8 +183,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -229,14 +229,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -250,8 +250,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -282,14 +282,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -341,14 +341,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -404,14 +404,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -432,8 +432,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -478,14 +478,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -506,8 +506,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>

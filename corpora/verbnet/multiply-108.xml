@@ -1,9 +1,9 @@
 <VNCLASS ID="multiply-108" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="sum.02" name="sum" wn="sum%2:32:00"/>
-        <MEMBER grouping="add.02" name="add" wn="add%2:32:00 add%2:31:00"/>
-        <MEMBER grouping="tally.01" name="tally" wn="tally%2:32:00"/>
-        <MEMBER grouping="count.01 count.03" name="count" wn="count%2:32:00 count%2:31:00"/>
+        <MEMBER fnframe="" grouping="sum.02" name="sum" wn="sum%2:32:00"/>
+        <MEMBER fnframe="" grouping="add.02" name="add" wn="add%2:32:00 add%2:31:00"/>
+        <MEMBER fnframe="Adding_up" grouping="tally.01" name="tally" wn="tally%2:32:00"/>
+        <MEMBER fnframe="Being_in_category Categorization" grouping="count.01 count.03" name="count" wn="count%2:32:00 count%2:31:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -52,8 +52,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="multiply-108-1">
             <MEMBERS>
-                <MEMBER grouping="" name="multiply" wn=""/>
-                <MEMBER grouping="" name="divide" wn=""/>
+                <MEMBER fnframe="" grouping="" name="multiply" wn=""/>
+                <MEMBER fnframe="Separating" grouping="" name="divide" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -95,11 +95,11 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="multiply-108-2">
             <MEMBERS>
-                <MEMBER grouping="deduct.01" name="deduct" wn=""/>
-                <MEMBER grouping="" name="factor_out" wn=""/>
-                <MEMBER grouping="" name="interpolate" wn=""/>
-                <MEMBER grouping="extrapolate.01" name="extrapolate" wn=""/>
-                <MEMBER grouping="" name="subtract" wn=""/>
+                <MEMBER fnframe="" grouping="deduct.01" name="deduct" wn=""/>
+                <MEMBER fnframe="" grouping="" name="factor_out" wn=""/>
+                <MEMBER fnframe="" grouping="" name="interpolate" wn=""/>
+                <MEMBER fnframe="" grouping="extrapolate.01" name="extrapolate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="subtract" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -141,7 +141,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="multiply-108-3">
             <MEMBERS>
-                <MEMBER grouping="" name="average" wn=""/>
+                <MEMBER fnframe="" grouping="" name="average" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

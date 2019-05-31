@@ -1,9 +1,9 @@
 <VNCLASS ID="rear-26.2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="grow.02" name="grow" wn="grow%2:30:01 grow%2:36:00"/>
-        <MEMBER grouping="nurture.01" name="nurture" wn="nurture%2:32:00 nurture%2:41:00"/>
-        <MEMBER grouping="raise.05" name="raise" wn="raise%2:36:03 raise%2:41:00"/>
-        <MEMBER grouping="rear.01" name="rear" wn="rear%2:41:00"/>
+        <MEMBER fnframe="" grouping="grow.02" name="grow" wn="grow%2:30:01 grow%2:36:00"/>
+        <MEMBER fnframe="" grouping="nurture.01" name="nurture" wn="nurture%2:32:00 nurture%2:41:00"/>
+        <MEMBER fnframe="" grouping="raise.05" name="raise" wn="raise%2:36:03 raise%2:41:00"/>
+        <MEMBER fnframe="" grouping="rear.01" name="rear" wn="rear%2:41:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -56,8 +56,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="rear-26.2.2-1">
             <MEMBERS>
-                <MEMBER grouping="cultivate.02" name="cultivate" wn="cultivate%2:36:00"/>
-                <MEMBER grouping="farm.01" name="farm" wn="farm%2:41:00 farm%2:36:00"/>
+                <MEMBER fnframe="" grouping="cultivate.02" name="cultivate" wn="cultivate%2:36:00"/>
+                <MEMBER fnframe="" grouping="farm.01" name="farm" wn="farm%2:41:00 farm%2:36:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Material">

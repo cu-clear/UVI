@@ -1,13 +1,13 @@
 <VNCLASS ID="chase-51.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <!--Should include a predicate to distinguish this accompanied motion from others (waltz with a partner, carry).  It should include some notion of distance/contact between the Agent and Theme-->
     <MEMBERS>
-        <MEMBER grouping="chase.01 chase.02" name="chase" wn="chase%2:38:00 chase%2:41:00"/>
-        <MEMBER grouping="follow.01" name="follow" wn="follow%2:38:00 follow%2:38:13"/>
-        <MEMBER grouping="pursue.02" name="pursue" wn="pursue%2:38:00"/>
-        <MEMBER grouping="shadow.01" name="shadow" wn="shadow%2:38:00"/>
-        <MEMBER grouping="tail.01" name="tail" wn="tail%2:38:00"/>
-        <MEMBER grouping="track.02" name="track" wn="track%2:38:00"/>
-        <MEMBER grouping="trail.03" name="trail" wn="trail%2:38:00"/>
+        <MEMBER fnframe="Cotheme" grouping="chase.01 chase.02" name="chase" wn="chase%2:38:00 chase%2:41:00"/>
+        <MEMBER fnframe="Cotheme" grouping="follow.01" name="follow" wn="follow%2:38:00 follow%2:38:13"/>
+        <MEMBER fnframe="Cotheme" grouping="pursue.02" name="pursue" wn="pursue%2:38:00"/>
+        <MEMBER fnframe="Cotheme" grouping="shadow.01" name="shadow" wn="shadow%2:38:00"/>
+        <MEMBER fnframe="Cotheme" grouping="tail.01" name="tail" wn="tail%2:38:00"/>
+        <MEMBER fnframe="Cotheme" grouping="track.02" name="track" wn="track%2:38:00"/>
+        <MEMBER fnframe="Cotheme" grouping="trail.03" name="trail" wn="trail%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -58,28 +58,28 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ee4"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ee4"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë5"/>
+                        <ARG type="Event" value="ee5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë5"/>
+                        <ARG type="Event" value="ee5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
@@ -141,28 +141,28 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ee4"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ee4"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë5"/>
+                        <ARG type="Event" value="ee5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë5"/>
+                        <ARG type="Event" value="ee5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
@@ -219,28 +219,28 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ee4"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë4"/>
+                        <ARG type="Event" value="ee4"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë5"/>
+                        <ARG type="Event" value="ee5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë5"/>
+                        <ARG type="Event" value="ee5"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="PredSpecific" value="Initial_Location"/>
                     </ARGS>

@@ -1,17 +1,16 @@
-<!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
-<VNCLASS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="rely-70" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
+<VNCLASS ID="rely-70" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER name="rely" wn="rely%2:31:11" grouping="rely.01"/>
-        <MEMBER name="depend" wn="depend%2:31:00" grouping="depend.02"/>
-        <MEMBER name="bank" wn="bank%2:31:02" grouping="bank.04"/>
-        <MEMBER name="bargain" wn="" grouping=""/>
-        <MEMBER name="count" wn="count%2:31:02" grouping="count.04"/>
-        <MEMBER name="figure" wn="figure%2:31:01" grouping="figure.01"/>
-        <MEMBER name="reckon" wn="reckon%2:31:03" grouping="reckon.03"/>
-        <MEMBER name="bet" wn="bet%2:31:00" grouping="bet.02"/>
-        <MEMBER name="gamble" wn="gamble%2:41:00" grouping="gamble.01"/>
-        <MEMBER name="take_a_chance" wn="take_a_chance%2:41:00" grouping=""/>
-        <MEMBER name="wager" wn="" grouping=""/>
+        <MEMBER fnframe="Reliance" grouping="rely.01" name="rely" wn="rely%2:31:11"/>
+        <MEMBER fnframe="Reliance" grouping="depend.02" name="depend" wn="depend%2:31:00"/>
+        <MEMBER fnframe="Reliance_on_expectation" grouping="bank.04" name="bank" wn="bank%2:31:02"/>
+        <MEMBER fnframe="" grouping="" name="bargain" wn=""/>
+        <MEMBER fnframe="Reliance" grouping="count.04" name="count" wn="count%2:31:02"/>
+        <MEMBER fnframe="Opinion" grouping="figure.01" name="figure" wn="figure%2:31:01"/>
+        <MEMBER fnframe="" grouping="reckon.03" name="reckon" wn="reckon%2:31:03"/>
+        <MEMBER fnframe="" grouping="bet.02" name="bet" wn="bet%2:31:00"/>
+        <MEMBER fnframe="" grouping="gamble.01" name="gamble" wn="gamble%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="take_a_chance" wn="take_a_chance%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="wager" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -28,7 +27,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-ING-SC; on-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>She relies on coming back in time.</EXAMPLE>
+                <EXAMPLE>
+                    She relies on coming back in time.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -57,7 +58,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme NP S_ING" secondary="P-NP-ING; on-PP" xtag="0.2"/>
             <EXAMPLES>
-                <EXAMPLE>She relies on him coming back in time.</EXAMPLE>
+                <EXAMPLE>
+                    She relies on him coming back in time.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -86,7 +89,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_INF" secondary="P-NP-TO-INF; on-PP" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>She relies on him to help.</EXAMPLE>
+                <EXAMPLE>
+                    She relies on him to help.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -115,7 +120,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP.theme S_ING" secondary="P-POSSING; on-PP" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>She relies on his helping.</EXAMPLE>
+                <EXAMPLE>
+                    She relies on his helping.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">
@@ -144,7 +151,9 @@
         <FRAME>
             <DESCRIPTION descriptionNumber="0.1" primary="NP V PP.theme" secondary="PP; on-PP" xtag="0.1"/>
             <EXAMPLES>
-                <EXAMPLE>She relies on it.</EXAMPLE>
+                <EXAMPLE>
+                    She relies on it.
+                </EXAMPLE>
             </EXAMPLES>
             <SYNTAX>
                 <NP value="Agent">

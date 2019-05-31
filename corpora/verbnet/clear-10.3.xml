@@ -1,7 +1,7 @@
 <VNCLASS ID="clear-10.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="clean.01 clean.02 clean.04" name="clean" wn="clean%2:30:01 clean%2:42:00 clean%2:35:04       clean%2:35:02"/>
-        <MEMBER grouping="" name="hollow" wn="hollow%2:35:00"/>
+        <MEMBER fnframe="" grouping="clean.01 clean.02 clean.04" name="clean" wn="clean%2:30:01 clean%2:42:00 clean%2:35:04 clean%2:35:02"/>
+        <MEMBER fnframe="" grouping="" name="hollow" wn="hollow%2:35:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -65,14 +65,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="?Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
@@ -93,8 +93,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -146,14 +146,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
@@ -174,8 +174,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -225,14 +225,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
@@ -253,8 +253,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -263,9 +263,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="clear-10.3-1">
             <MEMBERS>
-                <MEMBER grouping="clear.01 clear.06" name="clear" wn="clear%2:30:02 clear%2:43:00 clear%2:30:01 clear%2:39:05 clear%2:30:11 clear%2:30:10 clear%2:30:08"/>
-                <MEMBER grouping="drain.01" name="drain" wn="drain%2:38:00 drain%2:30:01"/>
-                <MEMBER grouping="empty.01" name="empty" wn="empty%2:30:01 empty%2:30:00 empty%2:35:00"/>
+                <MEMBER fnframe="Emptying Removing" grouping="clear.01 clear.06" name="clear" wn="clear%2:30:02 clear%2:43:00 clear%2:30:01 clear%2:39:05 clear%2:30:11 clear%2:30:10 clear%2:30:08"/>
+                <MEMBER fnframe="Emptying Removing" grouping="drain.01" name="drain" wn="drain%2:38:00 drain%2:30:01"/>
+                <MEMBER fnframe="Emptying Removing" grouping="empty.01" name="empty" wn="empty%2:30:01 empty%2:30:00 empty%2:35:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -306,14 +306,14 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="?Theme"/>
                                 <ARG type="PredSpecific" value="Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="?Theme"/>
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>
@@ -334,8 +334,8 @@
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -385,14 +385,14 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="PredSpecific" value="Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="Source"/>
                             </ARGS>
@@ -413,8 +413,8 @@
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="Event" value="e2"/>
-                                <ARG type="Event" value="ë3"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>

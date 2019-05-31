@@ -1,14 +1,14 @@
 <VNCLASS ID="acquiesce-95.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="accede.01" name="accede" wn="accede%2:32:00 accede%2:32:01"/>
-        <MEMBER grouping="bow.03" name="bow" wn="bow%2:32:01"/>
-        <MEMBER grouping="" name="capitulate" wn="capitulate%2:33:00"/>
-        <MEMBER grouping="defer.02" name="defer" wn="defer%2:32:00"/>
-        <MEMBER grouping="fall.04" name="fall" wn="fall%2:40:05"/>
-        <MEMBER grouping="give.05" name="give_way" wn="give_way%2:38:01 give_way%2:30:01"/>
-        <MEMBER grouping="" name="give_in" wn="give_in%2:32:02 give_in%2:32:01"/>
-        <MEMBER grouping="" name="succumb" wn="succumb%2:32:00"/>
-        <MEMBER grouping="yield.02" name="yield" wn="yield%2:30:00 yield%2:40:01 yield%2:33:00 yield%2:32:00"/>
+        <MEMBER fnframe="" grouping="accede.01" name="accede" wn="accede%2:32:00 accede%2:32:01"/>
+        <MEMBER fnframe="" grouping="bow.03" name="bow" wn="bow%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="capitulate" wn="capitulate%2:33:00"/>
+        <MEMBER fnframe="" grouping="defer.02" name="defer" wn="defer%2:32:00"/>
+        <MEMBER fnframe="" grouping="fall.04" name="fall" wn="fall%2:40:05"/>
+        <MEMBER fnframe="" grouping="give.05" name="give_way" wn="give_way%2:38:01 give_way%2:30:01"/>
+        <MEMBER fnframe="" grouping="" name="give_in" wn="give_in%2:32:02 give_in%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="succumb" wn="succumb%2:32:00"/>
+        <MEMBER fnframe="" grouping="yield.02" name="yield" wn="yield%2:30:00 yield%2:40:01 yield%2:33:00 yield%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -90,9 +90,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="acquiesce-95.1-1">
             <MEMBERS>
-                <MEMBER grouping="" name="acquiesce" wn="acquiesce%2:32:00"/>
-                <MEMBER grouping="consent.01" name="consent" wn="consent%2:32:00"/>
-                <MEMBER grouping="submit.01" name="submit" wn="submit%2:33:00"/>
+                <MEMBER fnframe="" grouping="" name="acquiesce" wn="acquiesce%2:32:00"/>
+                <MEMBER fnframe="" grouping="consent.01" name="consent" wn="consent%2:32:00"/>
+                <MEMBER fnframe="" grouping="submit.01" name="submit" wn="submit%2:33:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

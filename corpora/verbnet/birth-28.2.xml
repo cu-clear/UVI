@@ -1,8 +1,8 @@
 <VNCLASS ID="birth-28.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="reproduce.01" name="reproduce" wn="reproduce%2:29:00"/>
-        <MEMBER grouping="multiply.02" name="multiply" wn="multiply%2:29:00"/>
-        <MEMBER grouping="" name="procreate" wn="procreate%2:29:00"/>
+        <MEMBER fnframe="" grouping="reproduce.01" name="reproduce" wn="reproduce%2:29:00"/>
+        <MEMBER fnframe="" grouping="multiply.02" name="multiply" wn="multiply%2:29:00"/>
+        <MEMBER fnframe="" grouping="" name="procreate" wn="procreate%2:29:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -61,18 +61,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="birth-28.2-1">
             <MEMBERS>
-                <MEMBER grouping="bear.02" name="bear" wn="bear%2:29:01 bear%2:42:14"/>
-                <MEMBER grouping="" name="beget" wn="beget%2:29:00"/>
-                <MEMBER grouping="" name="birth" wn="birth%2:29:00"/>
-                <MEMBER grouping="bring.02" name="bring_forth" wn="bring_forth%2:36:01"/>
-                <MEMBER grouping="deliver.05" name="deliver" wn="deliver%2:29:01"/>
-                <MEMBER grouping="" name="father" wn="father%2:29:00"/>
-                <MEMBER grouping="generate.01" name="generate" wn="generate%2:29:00"/>
-                <MEMBER grouping="get.10" name="get" wn="get%2:29:08"/>
-                <MEMBER grouping="have.09" name="have" wn="have%2:29:00"/>
-                <MEMBER grouping="" name="mother" wn="mother%2:29:00"/>
-                <MEMBER grouping="" name="sire" wn="sire%2:29:00"/>
-                <MEMBER grouping="spawn.02" name="spawn" wn="spawn%2:29:00"/>
+                <MEMBER fnframe="" grouping="bear.02" name="bear" wn="bear%2:29:01 bear%2:42:14"/>
+                <MEMBER fnframe="" grouping="" name="beget" wn="beget%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="birth" wn="birth%2:29:00"/>
+                <MEMBER fnframe="" grouping="bring.02" name="bring_forth" wn="bring_forth%2:36:01"/>
+                <MEMBER fnframe="" grouping="deliver.05" name="deliver" wn="deliver%2:29:01"/>
+                <MEMBER fnframe="" grouping="" name="father" wn="father%2:29:00"/>
+                <MEMBER fnframe="" grouping="generate.01" name="generate" wn="generate%2:29:00"/>
+                <MEMBER fnframe="" grouping="get.10" name="get" wn="get%2:29:08"/>
+                <MEMBER fnframe="" grouping="have.09" name="have" wn="have%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="mother" wn="mother%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="sire" wn="sire%2:29:00"/>
+                <MEMBER fnframe="" grouping="spawn.02" name="spawn" wn="spawn%2:29:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

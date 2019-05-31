@@ -1,25 +1,25 @@
 <VNCLASS ID="hit-18.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="bang.01 bang.04" name="bang" wn="bang%2:35:00 bang%2:35:01"/>
-        <MEMBER grouping="" name="bash" wn="bash%2:35:00"/>
-        <MEMBER grouping="" name="blast" wn=""/>
-        <MEMBER grouping="" name="bop" wn=""/>
-        <MEMBER grouping="click.02" name="click" wn="click%2:35:00"/>
-        <MEMBER grouping="dash.02" name="dash" wn="dash%2:35:02"/>
-        <MEMBER grouping="" name="knap" wn=""/>
-        <MEMBER grouping="pink.03" name="pink" wn=""/>
-        <MEMBER grouping="" name="squash" wn="squash%2:35:00"/>
-        <MEMBER grouping="squelch.01" name="squelch" wn=""/>
-        <MEMBER grouping="" name="tamp" wn="tamp%2:35:00"/>
-        <MEMBER grouping="" name="thump" wn="thump%2:35:00"/>
-        <MEMBER grouping="" name="thwack" wn="thwack%2:35:00"/>
-        <MEMBER grouping="" name="trounce" wn=""/>
-        <MEMBER grouping="whack.01" name="whack" wn="whack%2:35:00"/>
-        <MEMBER grouping="" name="wham" wn=""/>
-        <MEMBER grouping="" name="whang" wn=""/>
-        <MEMBER grouping="" name="whap" wn=""/>
-        <MEMBER grouping="" name="whop" wn=""/>
-        <MEMBER grouping="smite.01" name="smite" wn="smite%2:35:00 smite%2:30:00"/>
+        <MEMBER fnframe="Cause_impact Impact Motion_noise" grouping="bang.01 bang.04" name="bang" wn="bang%2:35:00 bang%2:35:01"/>
+        <MEMBER fnframe="Cause_harm" grouping="" name="bash" wn="bash%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="blast" wn=""/>
+        <MEMBER fnframe="" grouping="" name="bop" wn=""/>
+        <MEMBER fnframe="Cause_impact Impact Motion_noise" grouping="click.02" name="click" wn="click%2:35:00"/>
+        <MEMBER fnframe="" grouping="dash.02" name="dash" wn="dash%2:35:02"/>
+        <MEMBER fnframe="" grouping="" name="knap" wn=""/>
+        <MEMBER fnframe="" grouping="pink.03" name="pink" wn=""/>
+        <MEMBER fnframe="" grouping="" name="squash" wn="squash%2:35:00"/>
+        <MEMBER fnframe="" grouping="squelch.01" name="squelch" wn=""/>
+        <MEMBER fnframe="" grouping="" name="tamp" wn="tamp%2:35:00"/>
+        <MEMBER fnframe="Cause_impact Impact" grouping="" name="thump" wn="thump%2:35:00"/>
+        <MEMBER fnframe="Cause_harm" grouping="" name="thwack" wn="thwack%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="trounce" wn=""/>
+        <MEMBER fnframe="" grouping="whack.01" name="whack" wn="whack%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="wham" wn=""/>
+        <MEMBER fnframe="" grouping="" name="whang" wn=""/>
+        <MEMBER fnframe="" grouping="" name="whap" wn=""/>
+        <MEMBER fnframe="" grouping="" name="whop" wn=""/>
+        <MEMBER fnframe="" grouping="smite.01" name="smite" wn="smite%2:35:00 smite%2:30:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -896,26 +896,26 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="hit-18.1-1">
             <MEMBERS>
-                <MEMBER grouping="batter.01 batter.02" name="batter" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00"/>
-                <MEMBER grouping="beat.03 beat.11" name="beat" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12"/>
-                <MEMBER grouping="bump.01" name="bump" wn="bump%2:35:00"/>
-                <MEMBER grouping="butt.02" name="butt" wn="butt%2:35:00"/>
-                <MEMBER grouping="drum.01" name="drum" wn="drum%2:39:00"/>
-                <MEMBER grouping="hammer.01" name="hammer" wn="hammer%2:35:00"/>
-                <MEMBER grouping="hit.01 hit.02 hit.03" name="hit" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03"/>
-                <MEMBER grouping="" name="jab" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02"/>
-                <MEMBER grouping="kick.01" name="kick" wn="kick%2:35:00"/>
-                <MEMBER grouping="knock.01 knock.02" name="knock" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00"/>
-                <MEMBER grouping="lash.01" name="lash" wn="lash%2:35:01 lash%2:35:00"/>
-                <MEMBER grouping="pound.01 pound.03" name="pound" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03"/>
-                <MEMBER grouping="" name="rap" wn="rap%2:35:00 rap%2:39:00"/>
-                <MEMBER grouping="slap.01" name="slap" wn="slap%2:35:00"/>
-                <MEMBER grouping="smack.01" name="smack" wn="smack%2:35:02"/>
-                <MEMBER grouping="smash.01" name="smash" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10"/>
-                <MEMBER grouping="strike.01 strike.02" name="strike" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09"/>
-                <MEMBER grouping="" name="stomp" wn=""/>
-                <MEMBER grouping="whang.01" name="whang" wn="whang%2:35:01"/>
-                <MEMBER grouping="tap.02" name="tap" wn="tap%2:35:00 tap%2:39:01"/>
+                <MEMBER fnframe="Cause_harm" grouping="batter.01 batter.02" name="batter" wn="batter%2:35:01 batter%2:35:00 batter%2:30:00"/>
+                <MEMBER fnframe="Cause_harm" grouping="beat.03 beat.11" name="beat" wn="beat%2:35:01 beat%2:36:00 beat%2:35:03 beat%2:35:10 beat%2:35:12"/>
+                <MEMBER fnframe="Impact" grouping="bump.01" name="bump" wn="bump%2:35:00"/>
+                <MEMBER fnframe="Cause_harm" grouping="butt.02" name="butt" wn="butt%2:35:00"/>
+                <MEMBER fnframe="" grouping="drum.01" name="drum" wn="drum%2:39:00"/>
+                <MEMBER fnframe="Cause_harm" grouping="hammer.01" name="hammer" wn="hammer%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Cause_impact Experience_bodily_harm Hit_target Impact" grouping="hit.01 hit.02 hit.03" name="hit" wn="hit%2:35:01 hit%2:35:00 hit%2:33:01 hit%2:33:03"/>
+                <MEMBER fnframe="" grouping="" name="jab" wn="jab%2:35:00 jab%2:35:01 jab%2:35:02"/>
+                <MEMBER fnframe="Cause_harm" grouping="kick.01" name="kick" wn="kick%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Cause_motion" grouping="knock.01 knock.02" name="knock" wn="knock%2:35:01 knock%2:35:00 knock%2:39:00"/>
+                <MEMBER fnframe="Cause_harm" grouping="lash.01" name="lash" wn="lash%2:35:01 lash%2:35:00"/>
+                <MEMBER fnframe="" grouping="pound.01 pound.03" name="pound" wn="pound%2:35:00 pound%2:35:01 pound%2:30:03"/>
+                <MEMBER fnframe="Cause_impact Impact" grouping="" name="rap" wn="rap%2:35:00 rap%2:39:00"/>
+                <MEMBER fnframe="Cause_harm Cause_impact Impact" grouping="slap.01" name="slap" wn="slap%2:35:00"/>
+                <MEMBER fnframe="Cause_harm Cause_impact Experience_bodily_harm Impact" grouping="smack.01" name="smack" wn="smack%2:35:02"/>
+                <MEMBER fnframe="Cause_harm Cause_to_fragment Impact" grouping="smash.01" name="smash" wn="smash%2:35:00 smash%2:30:00 smash%2:38:02 smash%2:35:05 smash%2:30:10"/>
+                <MEMBER fnframe="Attack Cause_harm Cause_impact Impact" grouping="strike.01 strike.02" name="strike" wn="strike%2:35:01 strike%2:35:00 strike%2:35:09"/>
+                <MEMBER fnframe="" grouping="" name="stomp" wn=""/>
+                <MEMBER fnframe="" grouping="whang.01" name="whang" wn="whang%2:35:01"/>
+                <MEMBER fnframe="" grouping="tap.02" name="tap" wn="tap%2:35:00 tap%2:39:01"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Instrument">

@@ -1,6 +1,6 @@
 <VNCLASS ID="leave-51.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="abandon.01" name="abandon" wn="abandon%2:40:00 abandon%2:38:00"/>
+        <MEMBER fnframe="Departing" grouping="abandon.01" name="abandon" wn="abandon%2:40:00 abandon%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">
@@ -9,7 +9,8 @@
             </SELRESTRS>
         </THEMROLE>
         <THEMROLE type="Source">
-            <SELRESTRS>logic="or">
+            <SELRESTRS>
+                logic="or"&gt;
                 <SELRESTR Value="+" type="location"/>
                 <SELRESTR Value="+" type="animate"/>
             </SELRESTRS>
@@ -21,7 +22,7 @@
     </THEMROLES>
     <FRAMES>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location" secondary='Transitive; locatum cannot be realized in a PP' xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location" secondary="Transitive; locatum cannot be realized in a PP" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>
                     He deserted his post.
@@ -46,14 +47,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
@@ -68,7 +69,7 @@
             </SEMANTICS>
         </FRAME>
         <FRAME>
-            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location PP.destination" secondary='Transitive with PP-destination' xtag="0.2"/>
+            <DESCRIPTION descriptionNumber="0.2" primary="NP V NP.initial_location PP.destination" secondary="Transitive with PP-destination" xtag="0.2"/>
             <EXAMPLES>
                 <EXAMPLE>
                     She left her husband for another man.
@@ -101,14 +102,14 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="?Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë2"/>
+                        <ARG type="Event" value="ee2"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="ThemRole" value="Source"/>
                     </ARGS>
@@ -126,8 +127,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="leave-51.2-1">
             <MEMBERS>
-                <MEMBER grouping="desert.01" name="desert" wn="desert%2:31:00"/>
-                <MEMBER grouping="leave.01" name="leave" wn="leave%2:38:00"/>
+                <MEMBER fnframe="Departing" grouping="desert.01" name="desert" wn="desert%2:31:00"/>
+                <MEMBER fnframe="Departing" grouping="leave.01" name="leave" wn="leave%2:38:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -154,14 +155,14 @@
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Source"/>
                             </ARGS>

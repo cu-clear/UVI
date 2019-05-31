@@ -1,28 +1,28 @@
 <VNCLASS ID="reflexive_appearance-48.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="announce" wn=""/>
-        <MEMBER grouping="assert.02" name="assert" wn="assert%2:32:01"/>
-        <MEMBER grouping="declare.01" name="declare" wn="declare%2:32:01"/>
-        <MEMBER grouping="define.01" name="define" wn="define%2:42:00"/>
-        <MEMBER grouping="display.01" name="display" wn="display%2:39:00"/>
-        <MEMBER grouping="exhibit.01" name="exhibit" wn=""/>
-        <MEMBER grouping="expose.01 expose.02" name="expose" wn=""/>
-        <MEMBER grouping="express.01" name="express" wn="express%2:32:01"/>
-        <MEMBER grouping="" name="flaunt" wn=""/>
-        <MEMBER grouping="form.02" name="form" wn="form%2:42:02"/>
-        <MEMBER grouping="intrude.01 intrude.02" name="intrude" wn="intrude%2:32:00"/>
-        <MEMBER grouping="manifest.01" name="manifest" wn="manifest%2:32:00"/>
-        <MEMBER grouping="offer.01" name="offer" wn="offer%2:31:00"/>
-        <MEMBER grouping="pose.01" name="pose" wn="pose%2:42:00"/>
-        <MEMBER grouping="present.01 present.03" name="present" wn="present%2:32:00 present%2:42:00"/>
-        <MEMBER grouping="" name="proffer" wn="proffer%2:40:00"/>
-        <MEMBER grouping="" name="propose" wn=""/>
-        <MEMBER grouping="" name="reassert" wn="reassert%2:32:00"/>
-        <MEMBER grouping="recommend.01" name="recommend" wn="recommend%2:32:00"/>
-        <MEMBER grouping="" name="reveal" wn=""/>
-        <MEMBER grouping="shape.02" name="shape" wn="?shape%2:31:00"/>
-        <MEMBER grouping="show.01" name="show" wn="show%2:31:00 show%2:32:00 show%2:39:00 show%2:39:01"/>
-        <MEMBER grouping="suggest.01 suggest.02 suggest.03" name="suggest" wn="suggest%2:32:00 suggest%2:32:02 suggest%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="announce" wn=""/>
+        <MEMBER fnframe="Statement" grouping="assert.02" name="assert" wn="assert%2:32:01"/>
+        <MEMBER fnframe="Statement" grouping="declare.01" name="declare" wn="declare%2:32:01"/>
+        <MEMBER fnframe="Communicate_categorization" grouping="define.01" name="define" wn="define%2:42:00"/>
+        <MEMBER fnframe="" grouping="display.01" name="display" wn="display%2:39:00"/>
+        <MEMBER fnframe="" grouping="exhibit.01" name="exhibit" wn=""/>
+        <MEMBER fnframe="Reveal_secret" grouping="expose.01 expose.02" name="expose" wn=""/>
+        <MEMBER fnframe="Encoding Statement" grouping="express.01" name="express" wn="express%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="flaunt" wn=""/>
+        <MEMBER fnframe="Coming_to_be Reshaping" grouping="form.02" name="form" wn="form%2:42:02"/>
+        <MEMBER fnframe="" grouping="intrude.01 intrude.02" name="intrude" wn="intrude%2:32:00"/>
+        <MEMBER fnframe="" grouping="manifest.01" name="manifest" wn="manifest%2:32:00"/>
+        <MEMBER fnframe="" grouping="offer.01" name="offer" wn="offer%2:31:00"/>
+        <MEMBER fnframe="" grouping="pose.01" name="pose" wn="pose%2:42:00"/>
+        <MEMBER fnframe="" grouping="present.01 present.03" name="present" wn="present%2:32:00 present%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="proffer" wn="proffer%2:40:00"/>
+        <MEMBER fnframe="Statement" grouping="" name="propose" wn=""/>
+        <MEMBER fnframe="" grouping="" name="reassert" wn="reassert%2:32:00"/>
+        <MEMBER fnframe="" grouping="recommend.01" name="recommend" wn="recommend%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="reveal" wn=""/>
+        <MEMBER fnframe="" grouping="shape.02" name="shape" wn="?shape%2:31:00"/>
+        <MEMBER fnframe="Evidence Reasoning" grouping="show.01" name="show" wn="show%2:31:00 show%2:32:00 show%2:39:00 show%2:39:01"/>
+        <MEMBER fnframe="Statement" grouping="suggest.01 suggest.02 suggest.03" name="suggest" wn="suggest%2:32:00 suggest%2:32:02 suggest%2:32:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">

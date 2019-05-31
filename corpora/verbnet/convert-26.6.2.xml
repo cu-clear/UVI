@@ -1,18 +1,18 @@
 <VNCLASS ID="convert-26.6.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="advert" wn="advert%2:32:01"/>
-        <MEMBER grouping="" name="come_around" wn="come_around%2:31:00"/>
-        <MEMBER grouping="fall.02" name="fall" wn="fall%2:30:08"/>
-        <MEMBER grouping="get.02 get.03" name="get" wn="get%2:30:00"/>
-        <MEMBER grouping="" name="get_around" wn="get_around%2:38:00"/>
-        <MEMBER grouping="" name="get_down" wn="get_down%2:30:00"/>
-        <MEMBER grouping="" name="go_back" wn="go_back%2:30:00"/>
-        <MEMBER grouping="" name="resort" wn="resort%2:41:11"/>
-        <MEMBER grouping="return.01" name="return" wn="return%2:38:00"/>
-        <MEMBER grouping="revert.01" name="revert" wn="revert%2:30:00"/>
-        <MEMBER grouping="" name="settle_down" wn="settle_down%2:30:00"/>
-        <MEMBER grouping="take.06" name="take" wn="take%2:41:13"/>
-        <MEMBER grouping="turn.01" name="turn" wn="turn%2:38:14"/>
+        <MEMBER fnframe="" grouping="" name="advert" wn="advert%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="come_around" wn="come_around%2:31:00"/>
+        <MEMBER fnframe="" grouping="fall.02" name="fall" wn="fall%2:30:08"/>
+        <MEMBER fnframe="Becoming Getting" grouping="get.02 get.03" name="get" wn="get%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="get_around" wn="get_around%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="get_down" wn="get_down%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="go_back" wn="go_back%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="resort" wn="resort%2:41:11"/>
+        <MEMBER fnframe="Arriving Resurrection" grouping="return.01" name="return" wn="return%2:38:00"/>
+        <MEMBER fnframe="" grouping="revert.01" name="revert" wn="revert%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="settle_down" wn="settle_down%2:30:00"/>
+        <MEMBER fnframe="Ingest_substance" grouping="take.06" name="take" wn="take%2:41:13"/>
+        <MEMBER fnframe="Becoming Undergo_change" grouping="turn.01" name="turn" wn="turn%2:38:14"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Patient">
@@ -128,10 +128,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="convert-26.6.2-1">
             <MEMBERS>
-                <MEMBER grouping="return.06" name="return" wn="return%2:38:00 return%2:30:00"/>
-                <MEMBER grouping="revert.01" name="revert" wn="revert%2:30:00"/>
-                <MEMBER grouping="shift.02" name="shift" wn="shift%2:30:04 shift%2:30:03 shift%2:30:02"/>
-                <MEMBER grouping="turn.03" name="turn" wn="turn%2:38:00 turn%2:30:04"/>
+                <MEMBER fnframe="" grouping="return.06" name="return" wn="return%2:38:00 return%2:30:00"/>
+                <MEMBER fnframe="" grouping="revert.01" name="revert" wn="revert%2:30:00"/>
+                <MEMBER fnframe="" grouping="shift.02" name="shift" wn="shift%2:30:04 shift%2:30:03 shift%2:30:02"/>
+                <MEMBER fnframe="" grouping="turn.03" name="turn" wn="turn%2:38:00 turn%2:30:04"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -161,43 +161,43 @@
                         </NP>
                     </SYNTAX>
                     <SEMANTICS>
-		                <PRED value="has_state">
-		                    <ARGS>
-		                        <ARG type="Event" value="e1"/>
-		                        <ARG type="ThemRole" value="Patient"/>
-		                        <ARG type="ThemRole" value="Initial_State"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="convert">
-		                    <ARGS>
-		                        <ARG type="Event" value="e2"/>
-		                        <ARG type="ThemRole" value="Patient"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="has_state">
-		                    <ARGS>
-		                        <ARG type="Event" value="e3"/>
-		                        <ARG type="ThemRole" value="Patient"/>
-		                        <ARG type="ThemRole" value="Result"/>
-		                    </ARGS>
-		                </PRED>
-		                <PRED value="opposition">
-		                    <ARGS>
-		                        <ARG type="ThemRole" value="Initial_State"/>
-		                        <ARG type="ThemRole" value="Result"/>
-		                    </ARGS>
-		                </PRED>
+                        <PRED value="has_state">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Initial_State"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="convert">
+                            <ARGS>
+                                <ARG type="Event" value="e2"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="has_state">
+                            <ARGS>
+                                <ARG type="Event" value="e3"/>
+                                <ARG type="ThemRole" value="Patient"/>
+                                <ARG type="ThemRole" value="Result"/>
+                            </ARGS>
+                        </PRED>
+                        <PRED value="opposition">
+                            <ARGS>
+                                <ARG type="ThemRole" value="Initial_State"/>
+                                <ARG type="ThemRole" value="Result"/>
+                            </ARGS>
+                        </PRED>
                     </SEMANTICS>
                 </FRAME>
             </FRAMES>
             <SUBCLASSES>
                 <VNSUBCLASS ID="convert-26.6.2-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="" name="change_over" wn="change_over%2:30:02"/>
-                        <MEMBER grouping="convert.02" name="convert" wn="convert%2:30:07"/>
-                        <MEMBER grouping="" name="move_over" wn=""/>
-                        <MEMBER grouping="switch.01" name="switch" wn="switch%2:30:02 switch%2:30:00"/>
-                        <MEMBER grouping="" name="switch_over" wn="switch_over%2:30:00"/>
+                        <MEMBER fnframe="" grouping="" name="change_over" wn="change_over%2:30:02"/>
+                        <MEMBER fnframe="" grouping="convert.02" name="convert" wn="convert%2:30:07"/>
+                        <MEMBER fnframe="" grouping="" name="move_over" wn=""/>
+                        <MEMBER fnframe="" grouping="switch.01" name="switch" wn="switch%2:30:02 switch%2:30:00"/>
+                        <MEMBER fnframe="" grouping="" name="switch_over" wn="switch_over%2:30:00"/>
                     </MEMBERS>
                     <THEMROLES>
                         <THEMROLE type="Agent">
@@ -219,32 +219,32 @@
                                 <VERB/>
                             </SYNTAX>
                             <SEMANTICS>
-				                <PRED value="has_state">
-				                    <ARGS>
-				                        <ARG type="Event" value="e1"/>
-				                        <ARG type="ThemRole" value="Patient"/>
-				                        <ARG type="ThemRole" value="?Initial_State"/>
-				                    </ARGS>
-				                </PRED>
-				                <PRED value="convert">
-				                    <ARGS>
-				                        <ARG type="Event" value="e2"/>
-				                        <ARG type="ThemRole" value="Patient"/>
-				                    </ARGS>
-				                </PRED>
-				                <PRED value="has_state">
-				                    <ARGS>
-				                        <ARG type="Event" value="e3"/>
-				                        <ARG type="ThemRole" value="Patient"/>
-				                        <ARG type="ThemRole" value="?Result"/>
-				                    </ARGS>
-				                </PRED>
-				                <PRED value="opposition">
-				                    <ARGS>
-				                        <ARG type="ThemRole" value="?Initial_State"/>
-				                        <ARG type="ThemRole" value="?Result"/>
-				                    </ARGS>
-				                </PRED>
+                                <PRED value="has_state">
+                                    <ARGS>
+                                        <ARG type="Event" value="e1"/>
+                                        <ARG type="ThemRole" value="Patient"/>
+                                        <ARG type="ThemRole" value="?Initial_State"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="convert">
+                                    <ARGS>
+                                        <ARG type="Event" value="e2"/>
+                                        <ARG type="ThemRole" value="Patient"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="has_state">
+                                    <ARGS>
+                                        <ARG type="Event" value="e3"/>
+                                        <ARG type="ThemRole" value="Patient"/>
+                                        <ARG type="ThemRole" value="?Result"/>
+                                    </ARGS>
+                                </PRED>
+                                <PRED value="opposition">
+                                    <ARGS>
+                                        <ARG type="ThemRole" value="?Initial_State"/>
+                                        <ARG type="ThemRole" value="?Result"/>
+                                    </ARGS>
+                                </PRED>
                             </SEMANTICS>
                         </FRAME>
                         <FRAME>
@@ -267,7 +267,7 @@
                                 <PRED value="has_state">
                                     <ARGS>
                                         <ARG type="Event" value="e1"/>
-                                        <ARG type="ThemRole" value="Patient"/>                                        
+                                        <ARG type="ThemRole" value="Patient"/>
                                         <ARG type="ThemRole" value="?Initial_State"/>
                                     </ARGS>
                                 </PRED>
@@ -332,7 +332,7 @@
                                 <PRED value="has_state">
                                     <ARGS>
                                         <ARG type="Event" value="e1"/>
-                                        <ARG type="ThemRole" value="Patient"/>       
+                                        <ARG type="ThemRole" value="Patient"/>
                                         <ARG type="ThemRole" value="?Initial_State"/>
                                     </ARGS>
                                 </PRED>
@@ -351,7 +351,7 @@
                                 <PRED value="has_state">
                                     <ARGS>
                                         <ARG type="Event" value="e4"/>
-                                        <ARG type="ThemRole" value="Patient"/>         
+                                        <ARG type="ThemRole" value="Patient"/>
                                         <ARG type="ThemRole" value="Result"/>
                                     </ARGS>
                                 </PRED>
@@ -395,7 +395,7 @@
                                 <PRED value="has_state">
                                     <ARGS>
                                         <ARG type="Event" value="e1"/>
-                                        <ARG type="ThemRole" value="Patient"/>       
+                                        <ARG type="ThemRole" value="Patient"/>
                                         <ARG type="ThemRole" value="?Initial_State"/>
                                     </ARGS>
                                 </PRED>
@@ -414,7 +414,7 @@
                                 <PRED value="has_state">
                                     <ARGS>
                                         <ARG type="Event" value="e4"/>
-                                        <ARG type="ThemRole" value="Patient"/>         
+                                        <ARG type="ThemRole" value="Patient"/>
                                         <ARG type="ThemRole" value="Result"/>
                                     </ARGS>
                                 </PRED>

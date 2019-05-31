@@ -1,10 +1,10 @@
 <VNCLASS ID="snooze-40.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="catnap" wn="catnap%2:29:00"/>
-        <MEMBER grouping="" name="doze" wn="doze%2:29:00"/>
-        <MEMBER grouping="" name="drowse" wn="drowse%2:29:01"/>
-        <MEMBER grouping="" name="slumber" wn="slumber%2:29:00"/>
-        <MEMBER grouping="" name="snooze" wn="snooze%2:29:00"/>
+        <MEMBER fnframe="Sleep" grouping="" name="catnap" wn="catnap%2:29:00"/>
+        <MEMBER fnframe="Sleep" grouping="" name="doze" wn="doze%2:29:00"/>
+        <MEMBER fnframe="Sleep" grouping="" name="drowse" wn="drowse%2:29:01"/>
+        <MEMBER fnframe="Sleep" grouping="" name="slumber" wn="slumber%2:29:00"/>
+        <MEMBER fnframe="Sleep" grouping="" name="snooze" wn="snooze%2:29:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -30,13 +30,13 @@
             <SEMANTICS>
                 <PRED value="body_process">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
                 <PRED value="sleep">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
@@ -46,8 +46,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="snooze-40.4-1">
             <MEMBERS>
-                <MEMBER grouping="" name="nap" wn="nap%2:29:00"/>
-                <MEMBER grouping="sleep.01" name="sleep" wn="sleep%2:29:00"/>
+                <MEMBER fnframe="" grouping="" name="nap" wn="nap%2:29:00"/>
+                <MEMBER fnframe="" grouping="sleep.01" name="sleep" wn="sleep%2:29:00"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Theme">
@@ -74,19 +74,19 @@
                     <SEMANTICS>
                         <PRED value="sleep">
                             <ARGS>
-                                <ARG type="Event" value="ë"/>
+                                <ARG type="Event" value="ee"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED value="body_process">
                             <ARGS>
-                                <ARG type="Event" value="ë"/>
+                                <ARG type="Event" value="ee"/>
                                 <ARG type="ThemRole" value="Agent"/>
                             </ARGS>
                         </PRED>
                         <PRED value="manner">
                             <ARGS>
-                                <ARG type="Event" value="ë"/>
+                                <ARG type="Event" value="ee"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="Constant" value="Quality"/>
                             </ARGS>

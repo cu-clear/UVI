@@ -1,6 +1,6 @@
 <VNCLASS ID="urge-58.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="bring" wn=""/>
+        <MEMBER fnframe="" grouping="" name="bring" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -51,15 +51,15 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="urge-58.1-1">
             <MEMBERS>
-                <MEMBER grouping="call.01 call.07" name="call_on" wn="call%2:32:05 call%2:32:15"/>
-                <MEMBER grouping="dare.02" name="dare" wn="dare%2:32:00"/>
-                <MEMBER grouping="" name="egg_on" wn="egg_on%2:35:00"/>
-                <MEMBER grouping="force.01" name="force" wn="force%2:36:00 force%2:35:00"/>
-                <MEMBER grouping="invite.02 invite.03 invite.04" name="invite" wn="invite%2:37:00"/>
-                <MEMBER grouping="lean.05" name="lean_on" wn=""/>
-                <MEMBER grouping="push.01" name="push" wn="push%2:38:00 push%2:32:01"/>
-                <MEMBER grouping="summon.01 summon.02" name="summon" wn="summon%2:32:05           summon%2:35:02"/>
-                <MEMBER grouping="tempt.02" name="tempt" wn="tempt%2:32:04"/>
+                <MEMBER fnframe="" grouping="call.01 call.07" name="call_on" wn="call%2:32:05 call%2:32:15"/>
+                <MEMBER fnframe="" grouping="dare.02" name="dare" wn="dare%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="egg_on" wn="egg_on%2:35:00"/>
+                <MEMBER fnframe="" grouping="force.01" name="force" wn="force%2:36:00 force%2:35:00"/>
+                <MEMBER fnframe="" grouping="invite.02 invite.03 invite.04" name="invite" wn="invite%2:37:00"/>
+                <MEMBER fnframe="" grouping="lean.05" name="lean_on" wn=""/>
+                <MEMBER fnframe="" grouping="push.01" name="push" wn="push%2:38:00 push%2:32:01"/>
+                <MEMBER fnframe="" grouping="summon.01 summon.02" name="summon" wn="summon%2:32:05 summon%2:35:02"/>
+                <MEMBER fnframe="" grouping="tempt.02" name="tempt" wn="tempt%2:32:04"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -99,17 +99,17 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="urge-58.1-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="admonish.01" name="admonish" wn="admonish%2:32:02 admonish%2:32:01"/>
-                        <MEMBER grouping="ask.02" name="ask" wn="ask%2:32:01"/>
-                        <MEMBER grouping="encourage.02" name="encourage" wn="encourage%2:32:00"/>
-                        <MEMBER grouping="" name="exhort" wn="exhort%2:32:00"/>
-                        <MEMBER grouping="" name="entreat" wn="entreat%2:32:00"/>
-                        <MEMBER grouping="" name="implore" wn="implore%2:32:00"/>
-                        <MEMBER grouping="lobby.01" name="lobby" wn="lobby%2:41:00"/>
-                        <MEMBER grouping="press.03" name="press" wn="press%2:32:00 press%2:32:01"/>
-                        <MEMBER grouping="pressure.01" name="pressure" wn="pressure%2:41:00"/>
-                        <MEMBER grouping="prod.02" name="prod" wn="prod%2:35:00"/>
-                        <MEMBER grouping="urge.01 urge.02" name="urge" wn="urge%2:32:00 urge%2:32:03"/>
+                        <MEMBER fnframe="" grouping="admonish.01" name="admonish" wn="admonish%2:32:02 admonish%2:32:01"/>
+                        <MEMBER fnframe="" grouping="ask.02" name="ask" wn="ask%2:32:01"/>
+                        <MEMBER fnframe="" grouping="encourage.02" name="encourage" wn="encourage%2:32:00"/>
+                        <MEMBER fnframe="" grouping="" name="exhort" wn="exhort%2:32:00"/>
+                        <MEMBER fnframe="" grouping="" name="entreat" wn="entreat%2:32:00"/>
+                        <MEMBER fnframe="" grouping="" name="implore" wn="implore%2:32:00"/>
+                        <MEMBER fnframe="" grouping="lobby.01" name="lobby" wn="lobby%2:41:00"/>
+                        <MEMBER fnframe="" grouping="press.03" name="press" wn="press%2:32:00 press%2:32:01"/>
+                        <MEMBER fnframe="" grouping="pressure.01" name="pressure" wn="pressure%2:41:00"/>
+                        <MEMBER fnframe="" grouping="prod.02" name="prod" wn="prod%2:35:00"/>
+                        <MEMBER fnframe="" grouping="urge.01 urge.02" name="urge" wn="urge%2:32:00 urge%2:32:03"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

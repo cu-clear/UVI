@@ -1,9 +1,9 @@
 <VNCLASS ID="complete-55.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="accomplish.01" name="accomplish" wn="accomplish%2:36:00 accomplish%2:41:00"/>
-        <MEMBER grouping="achieve.01" name="achieve" wn="achieve%2:41:00"/>
-        <MEMBER grouping="bring.08" name="bring-off" wn=""/>
-        <MEMBER grouping="pull.04" name="pull-off" wn=""/>
+        <MEMBER fnframe="Accomplishment" grouping="accomplish.01" name="accomplish" wn="accomplish%2:36:00 accomplish%2:41:00"/>
+        <MEMBER fnframe="Accomplishment" grouping="achieve.01" name="achieve" wn="achieve%2:41:00"/>
+        <MEMBER fnframe="" grouping="bring.08" name="bring-off" wn=""/>
+        <MEMBER fnframe="" grouping="pull.04" name="pull-off" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -58,9 +58,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="complete-55.2-1">
             <MEMBERS>
-                <MEMBER grouping="complete.01 complete.02 complete.03" name="complete" wn="complete%2:30:02 complete%2:30:00 complete%2:41:00"/>
-                <MEMBER grouping="discontinue.01" name="discontinue" wn="discontinue%2:42:00"/>
-                <MEMBER grouping="quit.01" name="quit" wn="quit%2:42:04"/>
+                <MEMBER fnframe="" grouping="complete.01 complete.02 complete.03" name="complete" wn="complete%2:30:02 complete%2:30:00 complete%2:41:00"/>
+                <MEMBER fnframe="" grouping="discontinue.01" name="discontinue" wn="discontinue%2:42:00"/>
+                <MEMBER fnframe="" grouping="quit.01" name="quit" wn="quit%2:42:04"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

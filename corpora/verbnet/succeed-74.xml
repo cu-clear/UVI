@@ -15,8 +15,8 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="succeed-74-1">
             <MEMBERS>
-                <MEMBER grouping="succeed.01" name="succeed" wn="succeed%2:41:00"/>
-                <MEMBER grouping="" name="excel" wn="excel%2:42:00"/>
+                <MEMBER fnframe="Success_or_failure Successful_action" grouping="succeed.01" name="succeed" wn="succeed%2:41:00"/>
+                <MEMBER fnframe="" grouping="" name="excel" wn="excel%2:42:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -109,7 +109,7 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="succeed-74-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="manage.01" name="manage" wn="manage%2:41:09 manage%2:41:08"/>
+                        <MEMBER fnframe="Success_or_failure Successful_action" grouping="manage.01" name="manage" wn="manage%2:41:09 manage%2:41:08"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -148,7 +148,7 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="succeed-74-2">
             <MEMBERS>
-                <MEMBER grouping="win.01" name="win" wn="win%2:33:00 win%2:33:01 win%2:41:04"/>
+                <MEMBER fnframe="" grouping="win.01" name="win" wn="win%2:33:00 win%2:33:01 win%2:41:04"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -239,9 +239,9 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="succeed-74-3">
             <MEMBERS>
-                <MEMBER grouping="fall.04" name="fall" wn="fall%2:41:02"/>
-                <MEMBER grouping="fall.04" name="fall_off" wn="fall_off%2:30:00"/>
-                <MEMBER grouping="fall.04" name="fall_by_the_wayside" wn="fall_by_the_wayside%2:33:00"/>
+                <MEMBER fnframe="" grouping="fall.04" name="fall" wn="fall%2:41:02"/>
+                <MEMBER fnframe="" grouping="fall.04" name="fall_off" wn="fall_off%2:30:00"/>
+                <MEMBER fnframe="" grouping="fall.04" name="fall_by_the_wayside" wn="fall_by_the_wayside%2:33:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -272,8 +272,8 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="succeed-74-3-1">
                     <MEMBERS>
-                        <MEMBER grouping="lose.01" name="lose" wn="lose%2:33:00"/>
-                        <MEMBER grouping="" name="flub" wn="flub%2:41:00"/>
+                        <MEMBER fnframe="" grouping="lose.01" name="lose" wn="lose%2:33:00"/>
+                        <MEMBER fnframe="" grouping="" name="flub" wn="flub%2:41:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -340,7 +340,7 @@
                     <SUBCLASSES>
                         <VNSUBCLASS ID="succeed-74-3-1-1">
                             <MEMBERS>
-                                <MEMBER grouping="fail.01" name="fail" wn="fail%2:41:00"/>
+                                <MEMBER fnframe="" grouping="fail.01" name="fail" wn="fail%2:41:00"/>
                             </MEMBERS>
                             <THEMROLES/>
                             <FRAMES>

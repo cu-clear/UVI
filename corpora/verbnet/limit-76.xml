@@ -1,11 +1,11 @@
 <VNCLASS ID="limit-76" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="confine.01" name="confine" wn="confine%2:30:00"/>
-        <MEMBER grouping="limit.01" name="limit" wn="limit%2:30:01"/>
-        <MEMBER grouping="reduce.01 reduce.02" name="reduce" wn="reduce%2:30:00"/>
-        <MEMBER grouping="restrict.01" name="restrict" wn="restrict%2:30:00"/>
-        <MEMBER grouping="restrain.02" name="restrain" wn="restrain%2:30:00"/>
-        <MEMBER grouping="constrain.01" name="constrain" wn=""/>
+        <MEMBER fnframe="" grouping="confine.01" name="confine" wn="confine%2:30:00"/>
+        <MEMBER fnframe="Limiting Limiting" grouping="limit.01" name="limit" wn="limit%2:30:01"/>
+        <MEMBER fnframe="Cause_change_of_position_on_a_scale" grouping="reduce.01 reduce.02" name="reduce" wn="reduce%2:30:00"/>
+        <MEMBER fnframe="" grouping="restrict.01" name="restrict" wn="restrict%2:30:00"/>
+        <MEMBER fnframe="" grouping="restrain.02" name="restrain" wn="restrain%2:30:00"/>
+        <MEMBER fnframe="Hindering" grouping="constrain.01" name="constrain" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Causer">

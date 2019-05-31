@@ -1,13 +1,13 @@
 <VNCLASS ID="flinch-40.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="balk.01" name="balk" wn="?balk%2:41:00"/>
-        <MEMBER grouping="" name="cower" wn="cower%2:38:01"/>
-        <MEMBER grouping="" name="cringe" wn="cringe%2:38:01"/>
-        <MEMBER grouping="" name="flinch" wn="flinch%2:38:00"/>
-        <MEMBER grouping="" name="quail" wn=""/>
-        <MEMBER grouping="" name="recoil" wn="recoil%2:38:00"/>
-        <MEMBER grouping="shrink.02" name="shrink" wn="shrink%2:38:00"/>
-        <MEMBER grouping="" name="wince" wn="wince%2:38:00 wince%2:29:00"/>
+        <MEMBER fnframe="" grouping="balk.01" name="balk" wn="?balk%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="cower" wn="cower%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="cringe" wn="cringe%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="flinch" wn="flinch%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="quail" wn=""/>
+        <MEMBER fnframe="" grouping="" name="recoil" wn="recoil%2:38:00"/>
+        <MEMBER fnframe="" grouping="shrink.02" name="shrink" wn="shrink%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="wince" wn="wince%2:38:00 wince%2:29:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Experiencer">
@@ -34,7 +34,7 @@
                 <VERB/>
             </SYNTAX>
             <SEMANTICS>
-                <PRED bool = "!" value="has_position">
+                <PRED bool="!" value="has_position">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Experiencer"/>
@@ -94,7 +94,7 @@
                 </NP>
             </SYNTAX>
             <SEMANTICS>
-                <PRED bool = "!" value="has_position">
+                <PRED bool="!" value="has_position">
                     <ARGS>
                         <ARG type="Event" value="e1"/>
                         <ARG type="ThemRole" value="Experiencer"/>

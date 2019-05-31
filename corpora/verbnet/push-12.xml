@@ -1,6 +1,6 @@
 <VNCLASS ID="push-12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER features="+force_away_from_agent" grouping="heave.01" name="heave" wn="heave%2:35:01"/>
+        <MEMBER features="+force_away_from_agent" fnframe="" grouping="heave.01" name="heave" wn="heave%2:35:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -42,14 +42,14 @@
             <SEMANTICS>
                 <PRED value="exert_force">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
                 </PRED>
                 <PRED value="contact">
                     <ARGS>
-                        <ARG type="Event" value="ë"/>
+                        <ARG type="Event" value="ee"/>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Theme"/>
                     </ARGS>
@@ -60,10 +60,10 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="push-12-1">
             <MEMBERS>
-                <MEMBER features="+force_toward_agent" grouping="jerk.01" name="jerk" wn="jerk%2:35:01"/>
-                <MEMBER features="+force_toward_agent" grouping="pull.01" name="pull" wn="pull%2:35:00 pull%2:35:04 pull%2:35:10"/>
-                <MEMBER features="+force_toward_agent" grouping="" name="tug" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
-                <MEMBER features="+force_toward_agent" grouping="yank.01 yank.02 yank.03" name="yank" wn="yank%2:35:00"/>
+                <MEMBER features="+force_toward_agent" fnframe="Body_movement" grouping="jerk.01" name="jerk" wn="jerk%2:35:01"/>
+                <MEMBER features="+force_toward_agent" fnframe="Cause_motion Earnings_and_losses Manipulation" grouping="pull.01" name="pull" wn="pull%2:35:00 pull%2:35:04 pull%2:35:10"/>
+                <MEMBER features="+force_toward_agent" fnframe="Cause_motion Manipulation" grouping="" name="tug" wn="tug%2:35:00 tug%2:35:04 tug%2:35:03 tug%2:35:02 tug%2:35:01"/>
+                <MEMBER features="+force_toward_agent" fnframe="Cause_motion Manipulation" grouping="yank.01 yank.02 yank.03" name="yank" wn="yank%2:35:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -96,28 +96,28 @@
                         </PRED>
                         <PRED value="exert_force">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="contact">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
+                                <ARG type="Event" value="ee2"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="motion">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="ThemRole" value="?Trajectory"/>
                             </ARGS>
                         </PRED>
                         <PRED bool="!" value="has_location">
                             <ARGS>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
                                 <ARG type="ThemRole" value="Theme"/>
                                 <ARG type="PredSpecific" value="Initial_Location"/>
                             </ARGS>
@@ -138,14 +138,14 @@
                         </PRED>
                         <PRED value="cause">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
+                                <ARG type="Event" value="ee2"/>
                             </ARGS>
                         </PRED>
                         <PRED value="overlaps">
                             <ARGS>
-                                <ARG type="Event" value="ë2"/>
-                                <ARG type="Event" value="ë3"/>
+                                <ARG type="Event" value="ee3"/>
+                                <ARG type="Event" value="ee2"/>
                             </ARGS>
                         </PRED>
                     </SEMANTICS>
@@ -172,14 +172,14 @@
                     <SEMANTICS>
                         <PRED value="exert_force">
                             <ARGS>
-                                <ARG type="Event" value="ë"/>
+                                <ARG type="Event" value="ee"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
                         </PRED>
                         <PRED value="contact">
                             <ARGS>
-                                <ARG type="Event" value="ë"/>
+                                <ARG type="Event" value="ee"/>
                                 <ARG type="ThemRole" value="Agent"/>
                                 <ARG type="ThemRole" value="Theme"/>
                             </ARGS>
@@ -190,13 +190,13 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="push-12-1-1">
                     <MEMBERS>
-                        <MEMBER features="+force_away_from_agent" grouping="" name="jostle" wn="jostle%2:38:02 jostle%2:38:00"/>
-                        <MEMBER features="+force_away_from_agent" grouping="" name="nudge" wn="nudge%2:35:00"/>
-                        <MEMBER features="+compression_of_patient" grouping="press.01" name="press" wn="press%2:35:00 press%2:38:00"/>
-                        <MEMBER features="+force_away_from_agent" grouping="push.01" name="push" wn="push%2:38:00"/>
-                        <MEMBER features="+force_away_from_agent" grouping="shove.01" name="shove" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01"/>
-                        <MEMBER features="+compression_of_patient" grouping="squeeze.03" name="squeeze" wn="squeeze%2:35:03"/>
-                        <MEMBER features="+force_away_from_agent" grouping="thrust.01 thrust.03" name="thrust" wn="thrust%2:38:00 thrust%2:38:02"/>
+                        <MEMBER features="+force_away_from_agent" fnframe="" grouping="" name="jostle" wn="jostle%2:38:02 jostle%2:38:00"/>
+                        <MEMBER features="+force_away_from_agent" fnframe="" grouping="" name="nudge" wn="nudge%2:35:00"/>
+                        <MEMBER features="+compression_of_patient" fnframe="Cause_motion" grouping="press.01" name="press" wn="press%2:35:00 press%2:38:00"/>
+                        <MEMBER features="+force_away_from_agent" fnframe="Cause_change_of_position_on_a_scale Cause_motion Manipulation" grouping="push.01" name="push" wn="push%2:38:00"/>
+                        <MEMBER features="+force_away_from_agent" fnframe="" grouping="shove.01" name="shove" wn="shove%2:38:00 shove%2:35:00 shove%2:38:01"/>
+                        <MEMBER features="+compression_of_patient" fnframe="" grouping="squeeze.03" name="squeeze" wn="squeeze%2:35:03"/>
+                        <MEMBER features="+force_away_from_agent" fnframe="Cause_motion" grouping="thrust.01 thrust.03" name="thrust" wn="thrust%2:38:00 thrust%2:38:02"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>
@@ -228,28 +228,28 @@
                                 </PRED>
                                 <PRED value="exert_force">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Agent"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="contact">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Agent"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="motion">
                                     <ARGS>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="Trajectory"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED bool="!" value="has_location">
                                     <ARGS>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="PredSpecific" value="Initial_Location"/>
                                     </ARGS>
@@ -270,14 +270,14 @@
                                 </PRED>
                                 <PRED value="cause">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
+                                        <ARG type="Event" value="ee2"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="overlaps">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
+                                        <ARG type="Event" value="ee2"/>
                                     </ARGS>
                                 </PRED>
                             </SEMANTICS>
@@ -313,28 +313,28 @@
                                 </PRED>
                                 <PRED value="exert_force">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Agent"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="contact">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
+                                        <ARG type="Event" value="ee2"/>
                                         <ARG type="ThemRole" value="Agent"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="motion">
                                     <ARGS>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="ThemRole" value="Trajectory"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED bool="!" value="has_location">
                                     <ARGS>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
                                         <ARG type="ThemRole" value="Theme"/>
                                         <ARG type="PredSpecific" value="Initial_Location"/>
                                     </ARGS>
@@ -355,14 +355,14 @@
                                 </PRED>
                                 <PRED value="cause">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
+                                        <ARG type="Event" value="ee2"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="overlaps">
                                     <ARGS>
-                                        <ARG type="Event" value="ë2"/>
-                                        <ARG type="Event" value="ë3"/>
+                                        <ARG type="Event" value="ee3"/>
+                                        <ARG type="Event" value="ee2"/>
                                     </ARGS>
                                 </PRED>
                                 <PRED value="equals">

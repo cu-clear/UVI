@@ -1,8 +1,8 @@
 <VNCLASS ID="suspect-81" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="suspect.02" name="suspect" wn="suspect%2:32:02"/>
-        <MEMBER grouping="accuse.01" name="accuse" wn="accuse%2:32:00"/>
-        <MEMBER grouping="condemn.01 condemn.02" name="condemn" wn="condemn%2:41:00 condemn%2:32:01"/>
+        <MEMBER fnframe="Suspicion" grouping="suspect.02" name="suspect" wn="suspect%2:32:02"/>
+        <MEMBER fnframe="Judgment Judgment_communication Notification_of_charges" grouping="accuse.01" name="accuse" wn="accuse%2:32:00"/>
+        <MEMBER fnframe="Judgment_communication" grouping="condemn.01 condemn.02" name="condemn" wn="condemn%2:41:00 condemn%2:32:01"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

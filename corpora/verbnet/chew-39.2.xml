@@ -16,18 +16,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="chew-39.2-1">
             <MEMBERS>
-                <MEMBER grouping="chew.01" name="chew" wn="chew%2:34:00"/>
-                <MEMBER grouping="" name="chomp" wn="chomp%2:34:00"/>
-                <MEMBER grouping="crunch.02" name="crunch" wn="crunch%2:34:00"/>
-                <MEMBER grouping="" name="gnaw" wn="gnaw%2:35:00"/>
-                <MEMBER grouping="gum.02" name="gum" wn="gum%2:34:00"/>
-                <MEMBER grouping="" name="masticate" wn=""/>
-                <MEMBER grouping="" name="munch" wn="munch%2:34:00"/>
-                <MEMBER grouping="nibble.01" name="nibble" wn="nibble%2:35:00 nibble%2:35:02"/>
-                <MEMBER grouping="pick.03" name="pick" wn="pick%2:34:00"/>
-                <MEMBER grouping="" name="peck" wn="peck%2:34:01"/>
-                <MEMBER grouping="lick.01" name="lick" wn="lick%2:35:00"/>
-                <MEMBER grouping="" name="teethe" wn=""/>
+                <MEMBER fnframe="Grinding" grouping="chew.01" name="chew" wn="chew%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="chomp" wn="chomp%2:34:00"/>
+                <MEMBER fnframe="" grouping="crunch.02" name="crunch" wn="crunch%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="gnaw" wn="gnaw%2:35:00"/>
+                <MEMBER fnframe="" grouping="gum.02" name="gum" wn="gum%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="masticate" wn=""/>
+                <MEMBER fnframe="Ingestion" grouping="" name="munch" wn="munch%2:34:00"/>
+                <MEMBER fnframe="Ingestion" grouping="nibble.01" name="nibble" wn="nibble%2:35:00 nibble%2:35:02"/>
+                <MEMBER fnframe="" grouping="pick.03" name="pick" wn="pick%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="peck" wn="peck%2:34:01"/>
+                <MEMBER fnframe="Manipulation" grouping="lick.01" name="lick" wn="lick%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="teethe" wn=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">
@@ -150,10 +150,10 @@
         </VNSUBCLASS>
         <VNSUBCLASS ID="chew-39.2-2">
             <MEMBERS>
-                <MEMBER grouping="" name="lap" wn=""/>
-                <MEMBER grouping="" name="sip" wn="sip%2:34:00"/>
-                <MEMBER grouping="" name="slurp" wn="slurp%2:34:00"/>
-                <MEMBER grouping="suck.01" name="suck" wn="suck%2:34:04"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="lap" wn=""/>
+                <MEMBER fnframe="Ingestion" grouping="" name="sip" wn="sip%2:34:00"/>
+                <MEMBER fnframe="Ingestion" grouping="" name="slurp" wn="slurp%2:34:00"/>
+                <MEMBER fnframe="" grouping="suck.01" name="suck" wn="suck%2:34:04"/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">

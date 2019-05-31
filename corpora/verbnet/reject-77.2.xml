@@ -1,9 +1,9 @@
 <VNCLASS ID="reject-77.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="decline" wn=""/>
-        <MEMBER grouping="" name="rebuff" wn=""/>
-        <MEMBER grouping="" name="refuse" wn=""/>
-        <MEMBER grouping="" name="turn-down" wn=""/>
+        <MEMBER fnframe="" grouping="" name="decline" wn=""/>
+        <MEMBER fnframe="" grouping="" name="rebuff" wn=""/>
+        <MEMBER fnframe="" grouping="" name="refuse" wn=""/>
+        <MEMBER fnframe="" grouping="" name="turn-down" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -77,12 +77,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="reject-77.2-1">
             <MEMBERS>
-                <MEMBER grouping="discourage.02" name="discourage" wn="discourage%2:32:01 discourage%2:37:00"/>
-                <MEMBER grouping="" name="dismiss" wn=""/>
-                <MEMBER grouping="" name="disparage" wn=""/>
-                <MEMBER grouping="" name="disprefer" wn=""/>
-                <MEMBER grouping="" name="pooh_pooh" wn=""/>
-                <MEMBER grouping="" name="reject" wn=""/>
+                <MEMBER fnframe="" grouping="discourage.02" name="discourage" wn="discourage%2:32:01 discourage%2:37:00"/>
+                <MEMBER fnframe="" grouping="" name="dismiss" wn=""/>
+                <MEMBER fnframe="" grouping="" name="disparage" wn=""/>
+                <MEMBER fnframe="" grouping="" name="disprefer" wn=""/>
+                <MEMBER fnframe="" grouping="" name="pooh_pooh" wn=""/>
+                <MEMBER fnframe="" grouping="" name="reject" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

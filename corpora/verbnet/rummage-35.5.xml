@@ -1,16 +1,16 @@
 <VNCLASS ID="rummage-35.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="" name="bore" wn="bore%2:35:00"/>
-        <MEMBER grouping="" name="burrow" wn="burrow%2:38:00"/>
-        <MEMBER grouping="fumble.01" name="fumble" wn="fumble%2:35:00"/>
-        <MEMBER grouping="go.12" name="go" wn=""/>
-        <MEMBER grouping="leaf.01" name="leaf" wn="leaf%2:39:10"/>
-        <MEMBER grouping="listen.01" name="listen" wn="listen%2:39:01 listen%2:41:11"/>
-        <MEMBER grouping="look.01" name="look" wn="look%2:39:02"/>
-        <MEMBER grouping="" name="page" wn=""/>
-        <MEMBER grouping="poke.02" name="poke" wn="poke%2:39:00"/>
-        <MEMBER grouping="" name="scrabble" wn="scrabble%2:35:13"/>
-        <MEMBER grouping="scratch.05" name="scratch" wn=""/>
+        <MEMBER fnframe="" grouping="" name="bore" wn="bore%2:35:00"/>
+        <MEMBER fnframe="" grouping="" name="burrow" wn="burrow%2:38:00"/>
+        <MEMBER fnframe="Bungling Manipulation Seeking" grouping="fumble.01" name="fumble" wn="fumble%2:35:00"/>
+        <MEMBER fnframe="" grouping="go.12" name="go" wn=""/>
+        <MEMBER fnframe="" grouping="leaf.01" name="leaf" wn="leaf%2:39:10"/>
+        <MEMBER fnframe="Perception_active Seeking" grouping="listen.01" name="listen" wn="listen%2:39:01 listen%2:41:11"/>
+        <MEMBER fnframe="Scrutiny" grouping="look.01" name="look" wn="look%2:39:02"/>
+        <MEMBER fnframe="" grouping="" name="page" wn=""/>
+        <MEMBER fnframe="" grouping="poke.02" name="poke" wn="poke%2:39:00"/>
+        <MEMBER fnframe="" grouping="" name="scrabble" wn="scrabble%2:35:13"/>
+        <MEMBER fnframe="" grouping="scratch.05" name="scratch" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -98,16 +98,16 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="rummage-35.5-1">
             <MEMBERS>
-                <MEMBER grouping="" name="forage" wn="forage%2:40:00"/>
-                <MEMBER grouping="" name="grope" wn="grope%2:35:01"/>
-                <MEMBER grouping="" name="rifle" wn="rifle%2:35:13"/>
-                <MEMBER grouping="" name="rummage" wn="rummage%2:35:00"/>
-                <MEMBER grouping="" name="paw" wn="paw%2:35:00"/>
-                <MEMBER grouping="" name="delve" wn="delve%2:35:00"/>
-                <MEMBER grouping="root.03" name="root" wn="root%2:35:00"/>
-                <MEMBER grouping="" name="thumb" wn="thumb%2:39:10"/>
-                <MEMBER grouping="" name="snoop" wn="snoop%2:32:00"/>
-                <MEMBER grouping="" name="tunnel" wn="tunnel%2:38:00"/>
+                <MEMBER fnframe="Seeking" grouping="" name="forage" wn="forage%2:40:00"/>
+                <MEMBER fnframe="Seeking" grouping="" name="grope" wn="grope%2:35:01"/>
+                <MEMBER fnframe="" grouping="" name="rifle" wn="rifle%2:35:13"/>
+                <MEMBER fnframe="Scrutiny" grouping="" name="rummage" wn="rummage%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="paw" wn="paw%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="delve" wn="delve%2:35:00"/>
+                <MEMBER fnframe="" grouping="root.03" name="root" wn="root%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="thumb" wn="thumb%2:39:10"/>
+                <MEMBER fnframe="" grouping="" name="snoop" wn="snoop%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="tunnel" wn="tunnel%2:38:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

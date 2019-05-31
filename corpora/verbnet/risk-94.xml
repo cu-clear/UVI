@@ -1,10 +1,10 @@
 <VNCLASS ID="risk-94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="bet.01" name="bet" wn="bet%2:32:00"/>
-        <MEMBER grouping="gamble.01" name="gamble" wn="gamble%2:41:00"/>
-        <MEMBER grouping="punt.03" name="punt" wn="punt%2:33:00"/>
-        <MEMBER grouping="venture.01" name="venture" wn="venture%2:41:00"/>
-        <MEMBER grouping="" name="wager" wn="wager%2:33:00"/>
+        <MEMBER fnframe="" grouping="bet.01" name="bet" wn="bet%2:32:00"/>
+        <MEMBER fnframe="" grouping="gamble.01" name="gamble" wn="gamble%2:41:00"/>
+        <MEMBER fnframe="" grouping="punt.03" name="punt" wn="punt%2:33:00"/>
+        <MEMBER fnframe="Daring Self_motion Statement" grouping="venture.01" name="venture" wn="venture%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="wager" wn="wager%2:33:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -76,9 +76,9 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="risk-94-1">
             <MEMBERS>
-                <MEMBER grouping="chance.02" name="chance" wn="chance%2:41:00"/>
-                <MEMBER grouping="risk.01 risk.02" name="risk" wn="risk%2:41:00 risk%2:41:01"/>
-                <MEMBER grouping="" name="hazard" wn="hazard%2:41:00"/>
+                <MEMBER fnframe="Daring" grouping="chance.02" name="chance" wn="chance%2:41:00"/>
+                <MEMBER fnframe="Daring" grouping="risk.01 risk.02" name="risk" wn="risk%2:41:00 risk%2:41:01"/>
+                <MEMBER fnframe="Daring Statement" grouping="" name="hazard" wn="hazard%2:41:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

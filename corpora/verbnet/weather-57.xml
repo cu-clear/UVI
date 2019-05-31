@@ -1,34 +1,34 @@
 <VNCLASS ID="weather-57" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="blow.02" name="blow" wn="blow%2:43:00"/>
-        <MEMBER grouping="" name="bucket" wn=""/>
-        <MEMBER grouping="clear.01" name="clear" wn="clear%2:43:00"/>
-        <MEMBER grouping="" name="drizzle" wn="drizzle%2:43:00"/>
-        <MEMBER grouping="" name="fog" wn="fog%2:39:00"/>
-        <MEMBER grouping="frost.05" name="frost" wn=""/>
-        <MEMBER grouping="freeze.01" name="freeze" wn="freeze%2:43:10"/>
-        <MEMBER grouping="" name="gust" wn=""/>
-        <MEMBER grouping="hail.05" name="hail" wn="hail%2:43:00"/>
-        <MEMBER grouping="howl.01" name="howl" wn="howl%2:32:01"/>
-        <MEMBER grouping="" name="lightning" wn=""/>
-        <MEMBER grouping="mist.01" name="mist" wn="mist%2:30:00"/>
-        <MEMBER grouping="" name="mizzle" wn="mizzle%2:43:00"/>
-        <MEMBER grouping="" name="pelt" wn="pelt%2:43:00"/>
-        <MEMBER grouping="pour.04" name="pour" wn="pour%2:43:00"/>
-        <MEMBER grouping="precipitate.02" name="precipitate" wn="precipitate%2:43:00"/>
-        <MEMBER grouping="" name="rain" wn="rain%2:43:00"/>
-        <MEMBER grouping="roar.02" name="roar" wn="roar%2:32:01"/>
-        <MEMBER grouping="shower.04" name="shower" wn="shower%2:43:00"/>
-        <MEMBER grouping="" name="sleet" wn="sleet%2:43:00"/>
-        <MEMBER grouping="snow.01" name="snow" wn="snow%2:43:00"/>
-        <MEMBER grouping="spit.03" name="spit" wn="spit%2:43:00"/>
-        <MEMBER grouping="spot.02" name="spot" wn="spot%2:30:01"/>
-        <MEMBER grouping="sprinkle.02" name="sprinkle" wn="sprinkle%2:43:00"/>
-        <MEMBER grouping="storm.01" name="storm" wn="storm%2:43:01 storm%2:43:00"/>
-        <MEMBER grouping="" name="swelter" wn="swelter%2:29:01"/>
-        <MEMBER grouping="" name="teem" wn="teem%2:42:00"/>
-        <MEMBER grouping="" name="thaw" wn="?thaw%2:30:00"/>
-        <MEMBER grouping="" name="thunder" wn="thunder%2:43:00"/>
+        <MEMBER fnframe="Motion" grouping="blow.02" name="blow" wn="blow%2:43:00"/>
+        <MEMBER fnframe="" grouping="" name="bucket" wn=""/>
+        <MEMBER fnframe="Emptying Removing" grouping="clear.01" name="clear" wn="clear%2:43:00"/>
+        <MEMBER fnframe="Precipitation" grouping="" name="drizzle" wn="drizzle%2:43:00"/>
+        <MEMBER fnframe="" grouping="" name="fog" wn="fog%2:39:00"/>
+        <MEMBER fnframe="" grouping="frost.05" name="frost" wn=""/>
+        <MEMBER fnframe="Cause_change_of_phase Change_of_phase" grouping="freeze.01" name="freeze" wn="freeze%2:43:10"/>
+        <MEMBER fnframe="" grouping="" name="gust" wn=""/>
+        <MEMBER fnframe="Precipitation" grouping="hail.05" name="hail" wn="hail%2:43:00"/>
+        <MEMBER fnframe="Communication_noise Make_noise Motion_noise" grouping="howl.01" name="howl" wn="howl%2:32:01"/>
+        <MEMBER fnframe="" grouping="" name="lightning" wn=""/>
+        <MEMBER fnframe="" grouping="mist.01" name="mist" wn="mist%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="mizzle" wn="mizzle%2:43:00"/>
+        <MEMBER fnframe="" grouping="" name="pelt" wn="pelt%2:43:00"/>
+        <MEMBER fnframe="" grouping="pour.04" name="pour" wn="pour%2:43:00"/>
+        <MEMBER fnframe="" grouping="precipitate.02" name="precipitate" wn="precipitate%2:43:00"/>
+        <MEMBER fnframe="Precipitation" grouping="" name="rain" wn="rain%2:43:00"/>
+        <MEMBER fnframe="Cause_impact Make_noise Motion_noise" grouping="roar.02" name="roar" wn="roar%2:32:01"/>
+        <MEMBER fnframe="Mass_motion" grouping="shower.04" name="shower" wn="shower%2:43:00"/>
+        <MEMBER fnframe="Precipitation" grouping="" name="sleet" wn="sleet%2:43:00"/>
+        <MEMBER fnframe="Precipitation" grouping="snow.01" name="snow" wn="snow%2:43:00"/>
+        <MEMBER fnframe="" grouping="spit.03" name="spit" wn="spit%2:43:00"/>
+        <MEMBER fnframe="" grouping="spot.02" name="spot" wn="spot%2:30:01"/>
+        <MEMBER fnframe="Precipitation" grouping="sprinkle.02" name="sprinkle" wn="sprinkle%2:43:00"/>
+        <MEMBER fnframe="Weather" grouping="storm.01" name="storm" wn="storm%2:43:01 storm%2:43:00"/>
+        <MEMBER fnframe="" grouping="" name="swelter" wn="swelter%2:29:01"/>
+        <MEMBER fnframe="" grouping="" name="teem" wn="teem%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="thaw" wn="?thaw%2:30:00"/>
+        <MEMBER fnframe="Make_noise" grouping="" name="thunder" wn="thunder%2:43:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Theme">

@@ -1,20 +1,20 @@
 <VNCLASS ID="herd-47.5.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="accumulate.01 accumulate.02" name="accumulate" wn="accumulate%2:40:00 accumulate%2:30:00"/>
-        <MEMBER grouping="" name="aggregate" wn="aggregate%2:35:00"/>
-        <MEMBER grouping="amass.01" name="amass" wn="amass%2:30:00 amass%2:40:00"/>
-        <MEMBER grouping="assemble.02" name="assemble" wn="assemble%2:41:00 assemble%2:41:03"/>
-        <MEMBER grouping="cluster.01" name="cluster" wn="cluster%2:38:00 cluster%2:35:00"/>
-        <MEMBER grouping="collect.01" name="collect" wn="collect%2:40:00 collect%2:35:00 collect%2:35:01"/>
-        <MEMBER grouping="" name="congregate" wn="congregate%2:38:00"/>
-        <MEMBER grouping="convene.01" name="convene" wn="convene%2:38:00 convene%2:32:00"/>
-        <MEMBER grouping="flock.01" name="flock" wn="flock%2:38:01 flock%2:38:00"/>
-        <MEMBER grouping="gather.01 gather.02 gather.03" name="gather" wn="gather%2:35:00 gather%2:41:00 gather%2:30:00 gather%2:41:02"/>
-        <MEMBER grouping="group.01" name="group" wn="group%2:31:00 group%2:33:00"/>
-        <MEMBER grouping="herd.01" name="herd" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00"/>
-        <MEMBER grouping="" name="huddle" wn="huddle%2:38:01"/>
-        <MEMBER grouping="mass.01" name="mass" wn="mass%2:38:00"/>
-        <MEMBER grouping="" name="reconvene" wn="reconvene%2:38:00"/>
+        <MEMBER fnframe="Amassing" grouping="accumulate.01 accumulate.02" name="accumulate" wn="accumulate%2:40:00 accumulate%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="aggregate" wn="aggregate%2:35:00"/>
+        <MEMBER fnframe="Gathering_up" grouping="amass.01" name="amass" wn="amass%2:30:00 amass%2:40:00"/>
+        <MEMBER fnframe="Assemble Gathering_up" grouping="assemble.02" name="assemble" wn="assemble%2:41:00 assemble%2:41:03"/>
+        <MEMBER fnframe="" grouping="cluster.01" name="cluster" wn="cluster%2:38:00 cluster%2:35:00"/>
+        <MEMBER fnframe="Commerce_collect Gathering_up" grouping="collect.01" name="collect" wn="collect%2:40:00 collect%2:35:00 collect%2:35:01"/>
+        <MEMBER fnframe="" grouping="" name="congregate" wn="congregate%2:38:00"/>
+        <MEMBER fnframe="Assemble Gathering_up" grouping="convene.01" name="convene" wn="convene%2:38:00 convene%2:32:00"/>
+        <MEMBER fnframe="Mass_motion" grouping="flock.01" name="flock" wn="flock%2:38:01 flock%2:38:00"/>
+        <MEMBER fnframe="Come_together Gathering_up" grouping="gather.01 gather.02 gather.03" name="gather" wn="gather%2:35:00 gather%2:41:00 gather%2:30:00 gather%2:41:02"/>
+        <MEMBER fnframe="" grouping="group.01" name="group" wn="group%2:31:00 group%2:33:00"/>
+        <MEMBER fnframe="Gathering_up" grouping="herd.01" name="herd" wn="herd%2:38:01 herd%2:38:00 herd%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="huddle" wn="huddle%2:38:01"/>
+        <MEMBER fnframe="" grouping="mass.01" name="mass" wn="mass%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="reconvene" wn="reconvene%2:38:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

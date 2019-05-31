@@ -1,16 +1,16 @@
 <VNCLASS ID="scribble-25.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="copy.01" name="copy" wn="copy%2:36:05 copy%2:36:01"/>
-        <MEMBER grouping="forge.02" name="forge" wn="forge%2:36:01"/>
-        <MEMBER grouping="" name="jot" wn="jot%2:32:00"/>
-        <MEMBER grouping="" name="jot_down" wn="jot_down%2:32:00"/>
-        <MEMBER grouping="" name="misspell" wn=""/>
-        <MEMBER grouping="spell.01" name="spell" wn=""/>
-        <MEMBER grouping="take.12" name="take" wn=""/>
-        <MEMBER grouping="take.12" name="take_down" wn=""/>
-        <MEMBER grouping="trace.02" name="trace" wn="trace%2:35:00 trace%2:36:00"/>
-        <MEMBER grouping="" name="underscore" wn="underscore%2:32:03"/>
-        <MEMBER grouping="underline.02" name="underline" wn="underline%2:32:03"/>
+        <MEMBER fnframe="Duplication Imitating" grouping="copy.01" name="copy" wn="copy%2:36:05 copy%2:36:01"/>
+        <MEMBER fnframe="Forging" grouping="forge.02" name="forge" wn="forge%2:36:01"/>
+        <MEMBER fnframe="" grouping="" name="jot" wn="jot%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="jot_down" wn="jot_down%2:32:00"/>
+        <MEMBER fnframe="Spelling_and_pronouncing" grouping="" name="misspell" wn=""/>
+        <MEMBER fnframe="Spelling_and_pronouncing" grouping="spell.01" name="spell" wn=""/>
+        <MEMBER fnframe="" grouping="take.12" name="take" wn=""/>
+        <MEMBER fnframe="" grouping="take.12" name="take_down" wn=""/>
+        <MEMBER fnframe="" grouping="trace.02" name="trace" wn="trace%2:35:00 trace%2:36:00"/>
+        <MEMBER fnframe="" grouping="" name="underscore" wn="underscore%2:32:03"/>
+        <MEMBER fnframe="" grouping="underline.02" name="underline" wn="underline%2:32:03"/>
     </MEMBERS>
     <THEMROLES>
         <!--In most predicates, such as location, Theme really means image_of(Theme)-->
@@ -142,27 +142,27 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="scribble-25.2-1">
             <MEMBERS>
-                <MEMBER grouping="carve.01" name="carve" wn="carve%2:35:02"/>
-                <MEMBER grouping="" name="chalk" wn="chalk%2:36:00"/>
-                <MEMBER grouping="" name="charcoal" wn="charcoal%2:36:00"/>
-                <MEMBER grouping="" name="crayon" wn="crayon%2:36:00"/>
-                <MEMBER grouping="" name="doodle" wn="doodle%2:36:00"/>
-                <MEMBER grouping="draw.06 draw.07" name="draw" wn="draw%2:31:00 draw%2:36:00 draw%2:36:02"/>
-                <MEMBER grouping="ink.01" name="ink" wn="ink%2:32:00"/>
-                <MEMBER grouping="" name="pencil" wn="pencil%2:36:00"/>
-                <MEMBER grouping="plot.02" name="plot" wn="plot%2:36:00"/>
-                <MEMBER grouping="print.01 print.02 print.03" name="print" wn="print%2:36:03 print%2:36:00"/>
-                <MEMBER grouping="record.01" name="record" wn="record%2:32:00"/>
-                <MEMBER grouping="scratch.03" name="scratch" wn=""/>
-                <MEMBER grouping="" name="scrawl" wn="scrawl%2:36:00"/>
-                <MEMBER grouping="" name="scribble" wn="scribble%2:32:00 scribble%2:36:00"/>
-                <MEMBER grouping="" name="sketch" wn="sketch%2:36:00"/>
-                <MEMBER grouping="" name="spraypaint" wn=""/>
-                <MEMBER grouping="" name="stencil" wn="stencil%2:36:00"/>
-                <MEMBER grouping="type.01" name="type" wn="type%2:32:00"/>
-                <MEMBER grouping="write.02" name="write" wn="write%2:36:01"/>
-                <MEMBER grouping="" name="print_out" wn=""/>
-                <MEMBER grouping="" name="print_up" wn=""/>
+                <MEMBER fnframe="" grouping="carve.01" name="carve" wn="carve%2:35:02"/>
+                <MEMBER fnframe="" grouping="" name="chalk" wn="chalk%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="charcoal" wn="charcoal%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="crayon" wn="crayon%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="doodle" wn="doodle%2:36:00"/>
+                <MEMBER fnframe="" grouping="draw.06 draw.07" name="draw" wn="draw%2:31:00 draw%2:36:00 draw%2:36:02"/>
+                <MEMBER fnframe="" grouping="ink.01" name="ink" wn="ink%2:32:00"/>
+                <MEMBER fnframe="" grouping="" name="pencil" wn="pencil%2:36:00"/>
+                <MEMBER fnframe="" grouping="plot.02" name="plot" wn="plot%2:36:00"/>
+                <MEMBER fnframe="" grouping="print.01 print.02 print.03" name="print" wn="print%2:36:03 print%2:36:00"/>
+                <MEMBER fnframe="" grouping="record.01" name="record" wn="record%2:32:00"/>
+                <MEMBER fnframe="" grouping="scratch.03" name="scratch" wn=""/>
+                <MEMBER fnframe="" grouping="" name="scrawl" wn="scrawl%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="scribble" wn="scribble%2:32:00 scribble%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="sketch" wn="sketch%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="spraypaint" wn=""/>
+                <MEMBER fnframe="" grouping="" name="stencil" wn="stencil%2:36:00"/>
+                <MEMBER fnframe="" grouping="type.01" name="type" wn="type%2:32:00"/>
+                <MEMBER fnframe="" grouping="write.02" name="write" wn="write%2:36:01"/>
+                <MEMBER fnframe="" grouping="" name="print_out" wn=""/>
+                <MEMBER fnframe="" grouping="" name="print_up" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

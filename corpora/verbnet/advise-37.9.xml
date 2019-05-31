@@ -1,12 +1,12 @@
 <VNCLASS ID="advise-37.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--REMOVED "entice" misclassified-->
-        <MEMBER grouping="alert.01" name="alert" wn="alert%2:32:00"/>
-        <MEMBER grouping="assure.01" name="assure" wn=""/>
-        <MEMBER grouping="" name="brief" wn=""/>
-        <MEMBER grouping="educate.01" name="educate" wn=""/>
-        <MEMBER grouping="encourage.02" name="encourage" wn="encourage%2:37:00"/>
-        <MEMBER grouping="notify.01" name="notify" wn=""/>
+        <MEMBER fnframe="" grouping="alert.01" name="alert" wn="alert%2:32:00"/>
+        <MEMBER fnframe="Telling" grouping="assure.01" name="assure" wn=""/>
+        <MEMBER fnframe="" grouping="" name="brief" wn=""/>
+        <MEMBER fnframe="" grouping="educate.01" name="educate" wn=""/>
+        <MEMBER fnframe="" grouping="encourage.02" name="encourage" wn="encourage%2:37:00"/>
+        <MEMBER fnframe="Telling" grouping="notify.01" name="notify" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -341,12 +341,12 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="advise-37.9-1">
             <MEMBERS>
-                <MEMBER grouping="admonish.01 admonish.02" name="admonish" wn="admonish%2:32:02 admonish%2:32:01 admonish%2:32:00"/>
-                <MEMBER grouping="advise.01 advise.02" name="advise" wn="advise%2:32:00 advise%2:32:01"/>
-                <MEMBER grouping="caution.01 caution.02" name="caution" wn="caution%2:32:00"/>
-                <MEMBER grouping="counsel.01" name="counsel" wn="counsel%2:32:00"/>
-                <MEMBER grouping="instruct.01" name="instruct" wn="instruct%2:32:01"/>
-                <MEMBER grouping="warn.01" name="warn" wn="warn%2:32:00 warn%2:32:01 warn%2:32:03 warn%2:32:02"/>
+                <MEMBER fnframe="Attempt_suasion Judgment_direct_address" grouping="admonish.01 admonish.02" name="admonish" wn="admonish%2:32:02 admonish%2:32:01 admonish%2:32:00"/>
+                <MEMBER fnframe="Attempt_suasion Telling" grouping="advise.01 advise.02" name="advise" wn="advise%2:32:00 advise%2:32:01"/>
+                <MEMBER fnframe="Statement" grouping="caution.01 caution.02" name="caution" wn="caution%2:32:00"/>
+                <MEMBER fnframe="" grouping="counsel.01" name="counsel" wn="counsel%2:32:00"/>
+                <MEMBER fnframe="" grouping="instruct.01" name="instruct" wn="instruct%2:32:01"/>
+                <MEMBER fnframe="" grouping="warn.01" name="warn" wn="warn%2:32:00 warn%2:32:01 warn%2:32:03 warn%2:32:02"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

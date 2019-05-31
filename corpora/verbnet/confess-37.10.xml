@@ -1,11 +1,11 @@
 <VNCLASS ID="confess-37.10" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="confess.01 confess.02" name="confess" wn="confess%2:32:00 confess%2:32:01"/>
-        <MEMBER grouping="admit.01" name="admit" wn="admit%2:32:00"/>
-        <MEMBER grouping="acknowledge.01" name="acknowledge" wn="acknowledge%2:32:00"/>
-        <MEMBER grouping="" name="fess_up" wn=""/>
-        <MEMBER grouping="proclaim.02" name="proclaim" wn="proclaim%2:32:00"/>
-        <MEMBER grouping="reveal.02" name="reveal" wn="reveal%2:32:00"/>
+        <MEMBER fnframe="Reveal_secret" grouping="confess.01 confess.02" name="confess" wn="confess%2:32:00 confess%2:32:01"/>
+        <MEMBER fnframe="Reveal_secret Statement" grouping="admit.01" name="admit" wn="admit%2:32:00"/>
+        <MEMBER fnframe="Statement" grouping="acknowledge.01" name="acknowledge" wn="acknowledge%2:32:00"/>
+        <MEMBER fnframe="" grouping="" name="fess_up" wn=""/>
+        <MEMBER fnframe="Statement" grouping="proclaim.02" name="proclaim" wn="proclaim%2:32:00"/>
+        <MEMBER fnframe="" grouping="reveal.02" name="reveal" wn="reveal%2:32:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">

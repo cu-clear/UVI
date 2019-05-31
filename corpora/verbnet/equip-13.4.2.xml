@@ -1,8 +1,8 @@
 <VNCLASS ID="equip-13.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="charge.02" name="charge" wn="charge%2:41:00 charge%2:32:01"/>
-        <MEMBER grouping="invest.02 invest.03" name="invest" wn="invest%2:41:03 invest%2:41:02 invest%2:41:00"/>
-        <MEMBER grouping="" name="ply" wn="ply%2:34:00"/>
+        <MEMBER fnframe="Commerce_collect" grouping="charge.02" name="charge" wn="charge%2:41:00 charge%2:32:01"/>
+        <MEMBER fnframe="" grouping="invest.02 invest.03" name="invest" wn="invest%2:41:03 invest%2:41:02 invest%2:41:00"/>
+        <MEMBER fnframe="" grouping="" name="ply" wn="ply%2:34:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -93,18 +93,18 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="equip-13.4.2-1">
             <MEMBERS>
-                <MEMBER grouping="arm.01" name="arm" wn="arm%2:33:00 arm%2:40:00"/>
-                <MEMBER grouping="equip.01" name="equip" wn="equip%2:40:00"/>
-                <MEMBER grouping="" name="outfit" wn="outfit%2:40:00"/>
-                <MEMBER grouping="" name="rearm" wn="rearm%2:40:00 rearm%2:33:00"/>
-                <MEMBER grouping="" name="recompense" wn="recompense%2:40:01"/>
-                <MEMBER grouping="" name="redress" wn=""/>
-                <MEMBER grouping="" name="regale" wn="regale%2:34:00"/>
-                <MEMBER grouping="" name="remunerate" wn="remunerate%2:40:00"/>
-                <MEMBER grouping="" name="repay" wn="repay%2:40:02"/>
-                <MEMBER grouping="reward.01" name="reward" wn="reward%2:40:00"/>
-                <MEMBER grouping="" name="saddle" wn="saddle%2:35:10 saddle%2:32:00"/>
-                <MEMBER grouping="treat.02" name="treat" wn="treat%2:40:00 treat%2:34:00"/>
+                <MEMBER fnframe="" grouping="arm.01" name="arm" wn="arm%2:33:00 arm%2:40:00"/>
+                <MEMBER fnframe="Supply" grouping="equip.01" name="equip" wn="equip%2:40:00"/>
+                <MEMBER fnframe="" grouping="" name="outfit" wn="outfit%2:40:00"/>
+                <MEMBER fnframe="" grouping="" name="rearm" wn="rearm%2:40:00 rearm%2:33:00"/>
+                <MEMBER fnframe="" grouping="" name="recompense" wn="recompense%2:40:01"/>
+                <MEMBER fnframe="" grouping="" name="redress" wn=""/>
+                <MEMBER fnframe="" grouping="" name="regale" wn="regale%2:34:00"/>
+                <MEMBER fnframe="" grouping="" name="remunerate" wn="remunerate%2:40:00"/>
+                <MEMBER fnframe="" grouping="" name="repay" wn="repay%2:40:02"/>
+                <MEMBER fnframe="Rewards_and_punishments" grouping="reward.01" name="reward" wn="reward%2:40:00"/>
+                <MEMBER fnframe="" grouping="" name="saddle" wn="saddle%2:35:10 saddle%2:32:00"/>
+                <MEMBER fnframe="Giving" grouping="treat.02" name="treat" wn="treat%2:40:00 treat%2:34:00"/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>
@@ -173,13 +173,13 @@
             <SUBCLASSES>
                 <VNSUBCLASS ID="equip-13.4.2-1-1">
                     <MEMBERS>
-                        <MEMBER grouping="" name="armor" wn="armor%2:40:00"/>
-                        <MEMBER grouping="" name="encumber" wn=""/>
-                        <MEMBER grouping="fortify.03" name="fortify" wn="fortify%2:33:00"/>
-                        <MEMBER grouping="" name="overburden" wn="overburden%2:35:00"/>
-                        <MEMBER grouping="weight.01" name="weight" wn="weight%2:35:00"/>
-                        <MEMBER grouping="" name="burden" wn="burden%2:35:00 burden%2:32:00"/>
-                        <MEMBER grouping="compensate.01 compensate.02" name="compensate" wn="compensate%2:40:02 compensate%2:40:00"/>
+                        <MEMBER fnframe="" grouping="" name="armor" wn="armor%2:40:00"/>
+                        <MEMBER fnframe="" grouping="" name="encumber" wn=""/>
+                        <MEMBER fnframe="" grouping="fortify.03" name="fortify" wn="fortify%2:33:00"/>
+                        <MEMBER fnframe="" grouping="" name="overburden" wn="overburden%2:35:00"/>
+                        <MEMBER fnframe="" grouping="weight.01" name="weight" wn="weight%2:35:00"/>
+                        <MEMBER fnframe="" grouping="" name="burden" wn="burden%2:35:00 burden%2:32:00"/>
+                        <MEMBER fnframe="" grouping="compensate.01 compensate.02" name="compensate" wn="compensate%2:40:02 compensate%2:40:00"/>
                     </MEMBERS>
                     <THEMROLES/>
                     <FRAMES>

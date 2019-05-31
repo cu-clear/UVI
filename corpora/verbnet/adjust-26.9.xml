@@ -1,14 +1,14 @@
 <VNCLASS ID="adjust-26.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="adapt.01" name="adapt" wn="adapt%2:30:02"/>
-        <MEMBER grouping="accommodate.02" name="accommodate" wn="accommodate%2:30:00 accommodate%2:30:01"/>
-        <MEMBER grouping="conform.02" name="conform" wn="conform%2:30:01"/>
-        <MEMBER grouping="adjust.02" name="adjust" wn="adjust%2:30:01"/>
-        <MEMBER grouping="gear.01" name="gear" wn="gear%2:30:00"/>
-        <MEMBER grouping="fit.02" name="fit" wn="fit%2:30:02"/>
-        <MEMBER grouping="" name="readjust" wn="readjust%2:30:00"/>
-        <MEMBER grouping="" name="readapt" wn="readapt%2:30:03"/>
-        <MEMBER grouping="assimilate.01" name="assimilate" wn="assimilate%2:30:00"/>
+        <MEMBER fnframe="Adjusting" grouping="adapt.01" name="adapt" wn="adapt%2:30:02"/>
+        <MEMBER fnframe="" grouping="accommodate.02" name="accommodate" wn="accommodate%2:30:00 accommodate%2:30:01"/>
+        <MEMBER fnframe="Compliance" grouping="conform.02" name="conform" wn="conform%2:30:01"/>
+        <MEMBER fnframe="" grouping="adjust.02" name="adjust" wn="adjust%2:30:01"/>
+        <MEMBER fnframe="" grouping="gear.01" name="gear" wn="gear%2:30:00"/>
+        <MEMBER fnframe="" grouping="fit.02" name="fit" wn="fit%2:30:02"/>
+        <MEMBER fnframe="" grouping="" name="readjust" wn="readjust%2:30:00"/>
+        <MEMBER fnframe="" grouping="" name="readapt" wn="readapt%2:30:03"/>
+        <MEMBER fnframe="" grouping="assimilate.01" name="assimilate" wn="assimilate%2:30:00"/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Agent">
@@ -71,13 +71,13 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-				 <PRED value="equals">
+                <PRED value="equals">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
-				</SEMANTICS>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP PP" secondary="NP-PP; to-PP" xtag="0.2"/>
@@ -117,7 +117,6 @@
                         <ARG type="ThemRole" value="Agent"/>
                     </ARGS>
                 </PRED>
-
                 <PRED value="adjusted">
                     <ARGS>
                         <ARG type="Event" value="e3"/>
@@ -130,14 +129,14 @@
                         <ARG type="Event" value="e2"/>
                         <ARG type="Event" value="e3"/>
                     </ARGS>
-                </PRED>           
-				 <PRED value="equals">
+                </PRED>
+                <PRED value="equals">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
-				</SEMANTICS>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V NP S_ING" secondary="NP-P-ING-OC; to-PP" xtag="0.2"/>
@@ -190,13 +189,13 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-				<PRED value="equals">
+                <PRED value="equals">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="Patient"/>
                     </ARGS>
                 </PRED>
-				</SEMANTICS>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V S_ING" secondary="P-ING-SC; to-PP" xtag="0.2"/>
@@ -246,13 +245,13 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-				<PRED value="equals">
+                <PRED value="equals">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Patient"/>
                     </ARGS>
                 </PRED>
-				</SEMANTICS>
+            </SEMANTICS>
         </FRAME>
         <FRAME>
             <DESCRIPTION descriptionNumber="8.1" primary="NP V PP" secondary="PP" xtag="0.2"/>
@@ -300,13 +299,13 @@
                         <ARG type="Event" value="e3"/>
                     </ARGS>
                 </PRED>
-				 <PRED value="equals">
+                <PRED value="equals">
                     <ARGS>
                         <ARG type="ThemRole" value="Agent"/>
                         <ARG type="ThemRole" value="?Patient"/>
                     </ARGS>
                 </PRED>
-				</SEMANTICS>
+            </SEMANTICS>
         </FRAME>
     </FRAMES>
     <SUBCLASSES/>

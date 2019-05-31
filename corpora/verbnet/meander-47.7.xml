@@ -1,32 +1,32 @@
 <VNCLASS ID="meander-47.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
-        <MEMBER grouping="angle.01" name="angle" wn=""/>
-        <MEMBER grouping="cascade.01" name="cascade" wn="cascade%2:38:00"/>
-        <MEMBER grouping="crawl.01" name="crawl" wn=""/>
-        <MEMBER grouping="" name="crest" wn=""/>
-        <MEMBER grouping="" name="cross" wn=""/>
-        <MEMBER grouping="cut.04" name="cut" wn=""/>
-        <MEMBER grouping="" name="dive" wn=""/>
-        <MEMBER grouping="" name="edge" wn=""/>
-        <MEMBER grouping="" name="emerge" wn=""/>
-        <MEMBER grouping="fall.07" name="fall" wn="fall%2:38:11 fall%2:35:00"/>
-        <MEMBER grouping="go.10" name="go" wn="go%2:42:00"/>
-        <MEMBER grouping="" name="lance" wn="lance%2:38:00"/>
-        <MEMBER grouping="" name="mount" wn=""/>
-        <MEMBER grouping="pass.06" name="pass" wn="pass%2:42:08"/>
-        <MEMBER grouping="round.02" name="round" wn="round%2:38:00"/>
-        <MEMBER grouping="" name="skirt" wn=""/>
-        <MEMBER grouping="" name="straggle" wn="straggle%2:38:01"/>
-        <MEMBER grouping="stretch.01" name="stretch" wn="stretch%2:42:00"/>
-        <MEMBER grouping="sweep.05" name="sweep" wn="sweep%2:42:03"/>
-        <MEMBER grouping="" name="tumble" wn=""/>
-        <MEMBER grouping="wander.02" name="wander" wn="wander%2:38:01"/>
-        <MEMBER grouping="weave.03" name="weave" wn="weave%2:38:00"/>
-        <MEMBER grouping="wind.01" name="wind" wn="wind%2:38:00 wind%2:42:00"/>
-        <MEMBER grouping="" name="range" wn=""/>
-        <MEMBER grouping="" name="veer" wn=""/>
-        <MEMBER grouping="" name="zag" wn=""/>
-        <MEMBER grouping="" name="zig" wn=""/>
+        <MEMBER fnframe="Motion_directional" grouping="angle.01" name="angle" wn=""/>
+        <MEMBER fnframe="Fluidic_motion" grouping="cascade.01" name="cascade" wn="cascade%2:38:00"/>
+        <MEMBER fnframe="Self_motion" grouping="crawl.01" name="crawl" wn=""/>
+        <MEMBER fnframe="" grouping="" name="crest" wn=""/>
+        <MEMBER fnframe="Body_movement Path_shape Traversing" grouping="" name="cross" wn=""/>
+        <MEMBER fnframe="Change_direction Intentional_traversing" grouping="cut.04" name="cut" wn=""/>
+        <MEMBER fnframe="Path_shape" grouping="" name="dive" wn=""/>
+        <MEMBER fnframe="" grouping="" name="edge" wn=""/>
+        <MEMBER fnframe="" grouping="" name="emerge" wn=""/>
+        <MEMBER fnframe="" grouping="fall.07" name="fall" wn="fall%2:38:11 fall%2:35:00"/>
+        <MEMBER fnframe="Motion" grouping="go.10" name="go" wn="go%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="lance" wn="lance%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="mount" wn=""/>
+        <MEMBER fnframe="" grouping="pass.06" name="pass" wn="pass%2:42:08"/>
+        <MEMBER fnframe="" grouping="round.02" name="round" wn="round%2:38:00"/>
+        <MEMBER fnframe="" grouping="" name="skirt" wn=""/>
+        <MEMBER fnframe="Self_motion" grouping="" name="straggle" wn="straggle%2:38:01"/>
+        <MEMBER fnframe="Expansion" grouping="stretch.01" name="stretch" wn="stretch%2:42:00"/>
+        <MEMBER fnframe="" grouping="sweep.05" name="sweep" wn="sweep%2:42:03"/>
+        <MEMBER fnframe="" grouping="" name="tumble" wn=""/>
+        <MEMBER fnframe="Self_motion" grouping="wander.02" name="wander" wn="wander%2:38:01"/>
+        <MEMBER fnframe="Motion Path_shape" grouping="weave.03" name="weave" wn="weave%2:38:00"/>
+        <MEMBER fnframe="Path_shape" grouping="wind.01" name="wind" wn="wind%2:38:00 wind%2:42:00"/>
+        <MEMBER fnframe="" grouping="" name="range" wn=""/>
+        <MEMBER fnframe="Path_shape" grouping="" name="veer" wn=""/>
+        <MEMBER fnframe="" grouping="" name="zag" wn=""/>
+        <MEMBER fnframe="" grouping="" name="zig" wn=""/>
     </MEMBERS>
     <THEMROLES>
         <THEMROLE type="Location">
@@ -199,26 +199,26 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="meander-47.7-1">
             <MEMBERS>
-                <MEMBER grouping="" name="ascend" wn=""/>
-                <MEMBER grouping="" name="bend" wn=""/>
-                <MEMBER grouping="climb.02" name="climb" wn="climb%2:38:06"/>
-                <MEMBER grouping="converge.01" name="converge" wn="converge%2:42:00"/>
-                <MEMBER grouping="" name="crisscross" wn=""/>
-                <MEMBER grouping="" name="descend" wn=""/>
-                <MEMBER grouping="" name="dip" wn=""/>
-                <MEMBER grouping="drop.07" name="drop" wn=""/>
-                <MEMBER grouping="" name="meander" wn="meander%2:38:00"/>
-                <MEMBER grouping="" name="plummit" wn=""/>
-                <MEMBER grouping="" name="plunge" wn=""/>
-                <MEMBER grouping="" name="rise" wn=""/>
-                <MEMBER grouping="run.02" name="run" wn="run%2:42:00"/>
-                <MEMBER grouping="" name="slant" wn=""/>
-                <MEMBER grouping="snake.02" name="snake" wn=""/>
-                <MEMBER grouping="" name="turn" wn=""/>
-                <MEMBER grouping="twist.05" name="twist" wn=""/>
-                <MEMBER grouping="" name="undulate" wn=""/>
-                <MEMBER grouping="" name="swerve" wn=""/>
-                <MEMBER grouping="" name="zigzag" wn=""/>
+                <MEMBER fnframe="" grouping="" name="ascend" wn=""/>
+                <MEMBER fnframe="" grouping="" name="bend" wn=""/>
+                <MEMBER fnframe="" grouping="climb.02" name="climb" wn="climb%2:38:06"/>
+                <MEMBER fnframe="" grouping="converge.01" name="converge" wn="converge%2:42:00"/>
+                <MEMBER fnframe="" grouping="" name="crisscross" wn=""/>
+                <MEMBER fnframe="" grouping="" name="descend" wn=""/>
+                <MEMBER fnframe="" grouping="" name="dip" wn=""/>
+                <MEMBER fnframe="" grouping="drop.07" name="drop" wn=""/>
+                <MEMBER fnframe="" grouping="" name="meander" wn="meander%2:38:00"/>
+                <MEMBER fnframe="" grouping="" name="plummit" wn=""/>
+                <MEMBER fnframe="" grouping="" name="plunge" wn=""/>
+                <MEMBER fnframe="" grouping="" name="rise" wn=""/>
+                <MEMBER fnframe="" grouping="run.02" name="run" wn="run%2:42:00"/>
+                <MEMBER fnframe="" grouping="" name="slant" wn=""/>
+                <MEMBER fnframe="" grouping="snake.02" name="snake" wn=""/>
+                <MEMBER fnframe="" grouping="" name="turn" wn=""/>
+                <MEMBER fnframe="" grouping="twist.05" name="twist" wn=""/>
+                <MEMBER fnframe="" grouping="" name="undulate" wn=""/>
+                <MEMBER fnframe="" grouping="" name="swerve" wn=""/>
+                <MEMBER fnframe="" grouping="" name="zigzag" wn=""/>
             </MEMBERS>
             <THEMROLES/>
             <FRAMES>

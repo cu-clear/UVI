@@ -86,7 +86,7 @@ def contact_us():
 		message = request.form.get('message')
 		msg = Message(subject=subject, 
 						sender=app.config.get("MAIL_USERNAME"), 
-						recipients=["testing.uvi@gmail.com"],
+						recipients=["uvi.contact@gmail.com"],
 						body=message)
 		msg.add_recipient(reply_to)
 		mail.send(msg)

@@ -17,22 +17,22 @@
     <SUBCLASSES>
         <VNSUBCLASS ID="preparing-26.3-1">
             <MEMBERS>
-                <MEMBER grouping="bake.01" name="bake" wn="bake%2:30:00 bake%2:36:00"/>
-                <MEMBER grouping="blend.01" name="blend" wn="blend%2:35:00"/>
-                <MEMBER grouping="brew.01" name="brew" wn="brew%2:36:00"/>
-                <MEMBER grouping="clear.01" name="clear" wn="clear%2:30:09"/>
-                <MEMBER grouping="cook.01 cook.02" name="cook" wn="cook%2:36:00"/>
-                <MEMBER grouping="" name="cook_up" wn="cook_up%2:36:01"/>
-                <MEMBER grouping="fix.04" name="fix" wn="fix%2:36:00"/>
-                <MEMBER grouping="" name="kindle" wn="kindle%2:43:00"/>
-                <MEMBER grouping="light.02" name="light" wn="light%2:43:00"/>
-                <MEMBER grouping="mix.01" name="mix" wn="mix%2:30:00"/>
-                <MEMBER grouping="prepare.01" name="prepare" wn="prepare%2:36:01"/>
-                <MEMBER grouping="" name="ready" wn="ready%2:36:00 ready%2:30:00"/>
-                <MEMBER grouping="roll.02" name="roll" wn="roll%2:30:10"/>
-                <MEMBER grouping="run.03" name="run" wn="run%2:36:00"/>
-                <MEMBER grouping="toss.06" name="toss" wn="toss%2:35:00"/>
-                <MEMBER grouping="cultivate.02" name="cultivate" wn="cultivate%2:36:01"/>
+                <MEMBER fnframe="Cooking_creation" grouping="bake.01" name="bake" wn="bake%2:30:00 bake%2:36:00"/>
+                <MEMBER fnframe="Amalgamation Cause_to_amalgamate" grouping="blend.01" name="blend" wn="blend%2:35:00"/>
+                <MEMBER fnframe="" grouping="brew.01" name="brew" wn="brew%2:36:00"/>
+                <MEMBER fnframe="Emptying Removing" grouping="clear.01" name="clear" wn="clear%2:30:09"/>
+                <MEMBER fnframe="Absorb_heat Apply_heat Cooking_creation" grouping="cook.01 cook.02" name="cook" wn="cook%2:36:00"/>
+                <MEMBER fnframe="" grouping="" name="cook_up" wn="cook_up%2:36:01"/>
+                <MEMBER fnframe="Activity_prepare" grouping="fix.04" name="fix" wn="fix%2:36:00"/>
+                <MEMBER fnframe="Cause_to_start Setting_fire" grouping="" name="kindle" wn="kindle%2:43:00"/>
+                <MEMBER fnframe="Setting_fire" grouping="light.02" name="light" wn="light%2:43:00"/>
+                <MEMBER fnframe="" grouping="mix.01" name="mix" wn="mix%2:30:00"/>
+                <MEMBER fnframe="Activity_prepare Cooking_creation" grouping="prepare.01" name="prepare" wn="prepare%2:36:01"/>
+                <MEMBER fnframe="" grouping="" name="ready" wn="ready%2:36:00 ready%2:30:00"/>
+                <MEMBER fnframe="Reshaping" grouping="roll.02" name="roll" wn="roll%2:30:10"/>
+                <MEMBER fnframe="Leadership Operating_a_system" grouping="run.03" name="run" wn="run%2:36:00"/>
+                <MEMBER fnframe="" grouping="toss.06" name="toss" wn="toss%2:35:00"/>
+                <MEMBER fnframe="" grouping="cultivate.02" name="cultivate" wn="cultivate%2:36:01"/>
                 <!--'cultivate' does not take benefactive alternation!!! must divide.-->
             </MEMBERS>
             <THEMROLES>
@@ -309,26 +309,25 @@
         <VNSUBCLASS ID="preparing-26.3-2">
             <MEMBERS>
                 <!--Members specify the Endstate of the Patient-->
-                <MEMBER grouping="" name="barbeque" wn="barbeque%2:30:00"/>
-                <MEMBER grouping="" name="barbecue" wn="barbecue%2:30:00"/>
-                <MEMBER grouping="boil.02" name="boil" wn="boil%2:30:00"/>
-                <MEMBER grouping="broil.01" name="broil" wn="broil%2:30:00"/>
-                <MEMBER grouping="clean.04" name="clean" wn="clean%2:30:01"/>
-                <MEMBER grouping="fry.02" name="fry" wn="fry%2:30:00"/>
-                <MEMBER grouping="grill.01" name="grill" wn="grill%2:30:00"/>
-                <MEMBER grouping="" name="hardboil" wn=""/>
-                <MEMBER grouping="" name="iron" wn="iron%2:35:00"/>
-                <MEMBER grouping="" name="microwave" wn="microwave%2:30:00"/>
-                <MEMBER grouping="" name="overbake" wn=""/>
-                <MEMBER grouping="" name="poach" wn="poach%2:30:00"/>
-                <MEMBER grouping="pour.01 pour.02" name="pour" wn="pour%2:38:03"/>
-                <MEMBER grouping="roast.01" name="roast" wn="roast%2:30:00"/>
-                <MEMBER grouping="scramble.02" name="scramble" wn="scramble%2:35:02"/>
-                <MEMBER grouping="set.04" name="set" wn="set%2:30:12"/>
-                <MEMBER grouping="" name="softboil" wn=""/>
-                <MEMBER grouping="" name="toast" wn="toast%2:30:00"/>
-                <MEMBER grouping="wash.01" name="wash" wn="wash%2:35:02 wash%2:35:00"/>
-                <MEMBER grouping="" name="weld" wn=""/>
+                <MEMBER fnframe="" grouping="" name="barbeque" wn="barbeque%2:30:00"/>
+                <MEMBER fnframe="Absorb_heat Apply_heat Cause_harm" grouping="boil.02" name="boil" wn="boil%2:30:00"/>
+                <MEMBER fnframe="Apply_heat" grouping="broil.01" name="broil" wn="broil%2:30:00"/>
+                <MEMBER fnframe="" grouping="clean.04" name="clean" wn="clean%2:30:01"/>
+                <MEMBER fnframe="Apply_heat" grouping="fry.02" name="fry" wn="fry%2:30:00"/>
+                <MEMBER fnframe="Apply_heat" grouping="grill.01" name="grill" wn="grill%2:30:00"/>
+                <MEMBER fnframe="" grouping="" name="hardboil" wn=""/>
+                <MEMBER fnframe="" grouping="" name="iron" wn="iron%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="microwave" wn="microwave%2:30:00"/>
+                <MEMBER fnframe="" grouping="" name="overbake" wn=""/>
+                <MEMBER fnframe="" grouping="" name="poach" wn="poach%2:30:00"/>
+                <MEMBER fnframe="Mass_motion" grouping="pour.01 pour.02" name="pour" wn="pour%2:38:03"/>
+                <MEMBER fnframe="Apply_heat" grouping="roast.01" name="roast" wn="roast%2:30:00"/>
+                <MEMBER fnframe="" grouping="scramble.02" name="scramble" wn="scramble%2:35:02"/>
+                <MEMBER fnframe="Arranging Intentionally_create" grouping="set.04" name="set" wn="set%2:30:12"/>
+                <MEMBER fnframe="" grouping="" name="softboil" wn=""/>
+                <MEMBER fnframe="" grouping="" name="toast" wn="toast%2:30:00"/>
+                <MEMBER fnframe="Grooming" grouping="wash.01" name="wash" wn="wash%2:35:02 wash%2:35:00"/>
+                <MEMBER fnframe="" grouping="" name="weld" wn=""/>
             </MEMBERS>
             <THEMROLES>
                 <THEMROLE type="Patient">

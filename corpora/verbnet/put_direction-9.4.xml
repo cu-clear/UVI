@@ -1,19 +1,19 @@
 <VNCLASS ID="put_direction-9.4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
     <MEMBERS>
         <!--Direction for this class is "against gravity"-->
-        <MEMBER grouping="drop.01 drop.02         drop.04" name="drop" wn="drop%2:38:01"/>
-        <MEMBER grouping="drive.05" name="drive" wn="drive%2:35:06"/>
-        <MEMBER grouping="elevate.02 elevate.04" name="elevate" wn="elevate%2:38:00"/>
-        <MEMBER grouping="heel.01" name="heel" wn="heel%2:38:01"/>
-        <MEMBER grouping="" name="hoist" wn="hoist%2:35:00 hoist%2:35:10 hoist%2:35:01"/>
-        <MEMBER grouping="lift.01" name="lift" wn="lift%2:38:00 lift%2:35:00 lift%2:35:01"/>
-        <MEMBER grouping="lower.01" name="lower" wn="lower%2:38:00"/>
-        <MEMBER grouping="raise.02" name="raise" wn="raise%2:38:00"/>
-        <MEMBER grouping="" name="back" wn="back%2:38:01"/>
+        <MEMBER fnframe="Body_movement Change_position_on_a_scale Change_posture Motion_directional" grouping="drop.01 drop.02 drop.04" name="drop" wn="drop%2:38:01"/>
+        <MEMBER fnframe="" grouping="drive.05" name="drive" wn="drive%2:35:06"/>
+        <MEMBER fnframe="" grouping="elevate.02 elevate.04" name="elevate" wn="elevate%2:38:00"/>
+        <MEMBER fnframe="" grouping="heel.01" name="heel" wn="heel%2:38:01"/>
+        <MEMBER fnframe="" grouping="" name="hoist" wn="hoist%2:35:00 hoist%2:35:10 hoist%2:35:01"/>
+        <MEMBER fnframe="" grouping="lift.01" name="lift" wn="lift%2:38:00 lift%2:35:00 lift%2:35:01"/>
+        <MEMBER fnframe="" grouping="lower.01" name="lower" wn="lower%2:38:00"/>
+        <MEMBER fnframe="" grouping="raise.02" name="raise" wn="raise%2:38:00"/>
+        <MEMBER fnframe="Self_motion" grouping="" name="back" wn="back%2:38:01"/>
     </MEMBERS>
     <THEMROLES>
         <!--Destination can also be realized as a locative adverb ("here, there")
-                                Levin doesn't include Instrument or Instrument Subject Alternation ("the crane lifted the beam over the building")-->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Levin doesn't include Instrument or Instrument Subject Alternation ("the crane lifted the beam over the building")-->
         <THEMROLE type="Agent">
             <SELRESTRS>
                 <SELRESTR Value="+" type="animate"/>
@@ -71,21 +71,21 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="direction">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="VerbSpecific" value="V_Direction"/>
                         <ARG type="ThemRole" value="?Destination"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -99,8 +99,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -146,21 +146,21 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="direction">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="VerbSpecific" value="V_Direction"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -174,8 +174,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
@@ -219,21 +219,21 @@
                 </PRED>
                 <PRED value="motion">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme"/>
                         <ARG type="PredSpecific" value="Trajectory"/>
                     </ARGS>
                 </PRED>
                 <PRED value="direction">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="VerbSpecific" value="V_Direction"/>
                         <ARG type="ThemRole" value="Destination"/>
                     </ARGS>
                 </PRED>
                 <PRED bool="!" value="has_location">
                     <ARGS>
-                        <ARG type="Event" value="ë3"/>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="ThemRole" value="Theme "/>
                         <ARG type="ThemRole" value="?Initial_Location"/>
                     </ARGS>
@@ -247,8 +247,8 @@
                 </PRED>
                 <PRED value="cause">
                     <ARGS>
+                        <ARG type="Event" value="ee3"/>
                         <ARG type="Event" value="e2"/>
-                        <ARG type="Event" value="ë3"/>
                     </ARGS>
                 </PRED>
             </SEMANTICS>
