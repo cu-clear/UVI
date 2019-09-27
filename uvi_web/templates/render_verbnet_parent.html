@@ -42,7 +42,8 @@
                   {% else %}
                   {% for synset in wn %}
                   {% set wn_lemma = synset.split('%')[0] %}
-                  <a href="http://wordnetweb.princeton.edu/perl/webwn?s={{wn_lemma}}&o6=1" target="_blank">{{ synset }}</a> <br />
+                  {% set wn_lemma_modefied=wn_lemma.replace('_',' ')%}
+                  <a href="http://wordnetweb.princeton.edu/perl/webwn?s={{wn_lemma_modefied}}&o6=1" target="_blank">{{ synset }}</a> <br />
                   {% endfor %}
                   {% endif %}
 
