@@ -95,14 +95,22 @@ def contact_us():
 
 	return render_template('contact.html')
 
+def sort_key(predicate):
+	## Key will be returned with the assumption that there's only oneword per entry in the list
+	return str.lower(list(predicate.keys())[0])
+
 @app.route('/references_page', methods=['GET'])
 def references_page():
-    ## All Page details are returned by get_ref_page in a dictioanry format
-    return render_template('references.html', gen_themroles=list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), \
-        predicates=list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})),\
-        vs_features=list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), \
-        syn_res=list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), \
-        sel_res=list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
+	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
+	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
+	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
+	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
+	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
+	
+	## All Page details are returned by get_ref_page in a dictioanry format
+	return render_template('references.html',
+		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
+	)
 
 @app.route('/_process_query', methods=['GET','POST'])
 def process_query():
