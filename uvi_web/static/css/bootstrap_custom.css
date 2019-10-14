@@ -162,14 +162,6 @@
   width: 100vw;
   height: 100vh;
   max-width: 100%;
-  /*background-image: url('../images/3951327510_1c4a85cfaa_o.jpg');*/
-  background-image: url('../images/boulder-1120364_1280.jpg');
-  /*background-image: url('../images/1024px-Hellems_Sunrise_(20633928836).jpg');*/
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center top;
-  background-color: gray;
   padding-top: 20px;
 }
 
@@ -196,7 +188,7 @@
 }
 
 #navbar {
-  overflow: hidden;
+  overflow: visible;
   transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   width: 100%;
   position:fixed;

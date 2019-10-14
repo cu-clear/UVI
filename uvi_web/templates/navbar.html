@@ -4,9 +4,9 @@
   <div class="col-md-6">
     <div id='logo_uvi'>
       <a class="navbar-brand" href={{ url_for('index') }}>
-        <img src="/static/images/clear_orig.png" height="80px" id="logo">
-            <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
+        <img src="/static/images/clear_orig.png" height="150px" id="logo">
       </a>
+      <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
     </div>
   </div>
   <div class="col-md-6">
@@ -26,10 +26,16 @@
     </ul>
     <div id="nav-shortcut" style="display: none">
       <div class="col-md-3"></div>
-      <div class="col-md-3">
-        <a href="#" style="color: inherit" class="float-right">
+      <div class="col-md-3" style="cursor: pointer">
+        <div class="float-right" data-toggle="dropdown" aria-haspopup="true">
           <i class="fa fa-bars fa-3x"></i>
-        </a>
+        </div>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
+          <a class="dropdown-item" href={{ url_for('references_page') }}>Reference Pages</a>
+          <a class="dropdown-item" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
+          <a class="dropdown-item" href={{ url_for('applications') }}>NLP Applications</a>
+        </div>
       </div>
       <div class="col-md-3">
           <a href={{ url_for('index') }} style="color: inherit" class="float-right">
@@ -48,7 +54,8 @@
 
 <style type="text/css">
   #navbar {
-    overflow-y: unset;
+    height: 190px;
+    min-height: 100px;
     margin: 0
   }
   .nav-link-uvi a {
@@ -61,11 +68,13 @@
   window.onscroll = function() {scrollFunction()};
   
   function scrollFunction() {
-    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.height = "100px";
       document.getElementById("logo").style.height = "0px";
       document.getElementById("nav-list").style.display = "none"
       document.getElementById("nav-shortcut").style.display = "flex"
     } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
+      document.getElementById("navbar").style.height = "190px";
       document.getElementById("logo").style.height = "150px";
       document.getElementById("nav-list").style.display = "flex"
       document.getElementById("nav-shortcut").style.display = "none"
