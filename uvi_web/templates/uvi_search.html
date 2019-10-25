@@ -115,6 +115,7 @@ $(document).ready(function(){
                     <br />
                     <input type='radio' name='vn_attribute' value='themrole' checked />
                     <label for='vn_attribute'><div class="hoverWrapper">Thematic Role
+                        <i class="fa fa-question-circle"></i>
                         <div id="hoverGenThem">
                             {% for th_el in gen_themroles %}
                               <span>{% for themrole, them_val in th_el.items() %}
@@ -126,6 +127,7 @@ $(document).ready(function(){
                     </div></label><br />
                     <input type='radio' name='vn_attribute' value='predicate'/>
                     <label for='vn_attribute'><div class="hoverWrapper">Predicate
+                        <i class="fa fa-question-circle"></i>
                         <div id="hoverPred">
                             {% for pr_el in predicates %}
                               <span>{% for pred, pred_val in pr_el.items() %}
@@ -137,6 +139,7 @@ $(document).ready(function(){
                     </div></label><br />
                     <input type='radio' name="vn_attribute" value='vs_feature' />
                     <label for='vn_attribute'><div class="hoverWrapper">Verb-Specific Feature
+                        <i class="fa fa-question-circle"></i>
                         <div id="hoverVS">
                             {% for vs_el in vs_features %}
                               <span>{% for vs_feat, vs_val in vs_el.items() %}
@@ -148,6 +151,7 @@ $(document).ready(function(){
                     </div></label><br />
                     <input type='radio' name="vn_attribute" value='selrestr' />
                     <label for='vn_attribute'><div class="hoverWrapper">Selectional Restriction
+                        <i class="fa fa-question-circle"></i>
                         <div id="hoverSelRes">
                             {% for sr_el in sel_res %}
                               <span>{% for sr_feat, sr_val in sr_el.items() %}
@@ -159,6 +163,7 @@ $(document).ready(function(){
                     </div></label><br />
                     <input type='radio' name="vn_attribute" value='synrestr' />
                     <label for='vn_attribute'><div class="hoverWrapper">Syntactic Restriction
+                        <i class="fa fa-question-circle"></i>
                         <div id="hoverSynRes">
                             {% for syn_el in syn_res %}
                               <span>{% for synres_feat, synres_val in syn_el.items() %}
@@ -203,19 +208,17 @@ $(document).ready(function(){
      margin: 5px;
      border-radius: 25px;
      background-color: rgba(122, 157, 150, .9);
-     width: 650px;
+     width: 40vw;
      height: -webkit-fit-content;
      left: 105%;
      top: 0%;
-     padding: 40px 60px;
+     padding: 20px;
      text-align: justify;
      text-transform: capitalize;
-
     }
 .nav-link-uvi a{
-color:white
+color:white;
 font-size: 100px;
-
 }
 
 </style>
