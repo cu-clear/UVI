@@ -35,6 +35,10 @@ app.config.update(mail_settings)
 mongo = PyMongo(app)
 mail = Mail(app)
 
+def sort_key(predicate):
+	## Key will be returned with the assumption that there's only oneword per entry in the list
+	return str.lower(list(predicate.keys())[0])
+
 @app.context_processor
 def context_methods():
 	return dict(top_parent_id=top_parent_id, unique_id=unique_id, mongo_to_json=mongo_to_json, formatted_def=formatted_def, \
@@ -44,13 +48,17 @@ def context_methods():
 
 @app.route('/uvi_search')
 def uvi_search():
-	process_query()	
-	return render_template('uvi_search.html', gen_themroles=list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), \
-        predicates=list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})),\
-        vs_features=list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), \
-        syn_res=list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), \
-        sel_res=list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
-
+	process_query()
+	
+	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
+	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
+	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
+	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
+	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
+	
+	return render_template('uvi_search.html',
+		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
+	)
 
 @app.route('/download_json', methods=['GET', 'POST'])
 def download_json():
@@ -71,18 +79,23 @@ def download_json():
 
 @app.route('/', methods=['GET','POST'])
 def index():
-	return render_template('search.html', gen_themroles=list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), \
-        predicates=list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})),\
-        vs_features=list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), \
-        syn_res=list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), \
-        sel_res=list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
+	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
+	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
+	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
+	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
+	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
+	
+	return render_template('search.html',
+		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
+	)
 
 @app.route('/contact_us', methods=['GET', 'POST'])
 def contact_us():
 	## mail recipients 
 	recipients = configs['MAIL_SETUP']['recipients'].split(',')
 	if request.method=='POST':
-		reply_to_name = request.form.get('name')
+		## unused variable "reply_to_name"
+		#reply_to_name = request.form.get('name')
 		reply_to=request.form.get('email')
 		subject = request.form.get('subject')
 		message = request.form.get('message')
@@ -94,10 +107,6 @@ def contact_us():
 		mail.send(msg)
 
 	return render_template('contact.html')
-
-def sort_key(predicate):
-	## Key will be returned with the assumption that there's only oneword per entry in the list
-	return str.lower(list(predicate.keys())[0])
 
 @app.route('/references_page', methods=['GET'])
 def references_page():
