@@ -85,7 +85,7 @@ def index():
 	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
 	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
 	
-	return render_template('search.html',
+	return render_template('welcome_page.html',
 		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
 	)
 
