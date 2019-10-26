@@ -1,21 +1,6 @@
 {% extends 'bootstrap_base.html' %}
-{% block title %} UVI Search {% endblock %}
+{% block title %} Unified Verb Index {% endblock %}
 {% block body %}
-
-<script>
-//Example adapted from: https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
-    // document.getElementById("navbar").style.padding = "30px 10px";
-    document.getElementById("logo").style.height = "0px";
-  } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
-    // document.getElementById("navbar").style.padding = "80px 10px";
-    document.getElementById("logo").style.height = "150px";
-  }
-}
-</script>
 
 {% include 'navbar.html' %}
 

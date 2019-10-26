@@ -1,32 +1,83 @@
 <!--Begin Navbar-->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top row">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-<div id='logo_uvi'>
-  <a class="navbar-brand" href={{ url_for('index') }}>
-    <img src="/static/images/clear_orig.png" height="80px" id="logo">
-         <a class="nav-link-uvi" href={{ url_for('uvi_search') }} style="text-decoration: none;"> <font size=5 color=white>Unified Verb Index</font></a>  
-  </a>
-</div>
-  <ul class="navbar-nav" style="margin-left: 10px;font-size: 14px">
-      <li class="nav-item">
+  <div class="col-md-6">
+    <div id='logo_uvi'>
+      <a class="navbar-brand" href={{ url_for('index') }}>
+        <img src="/static/images/clear_orig.png" height="150px" id="logo">
+      </a>
+      <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <ul id="nav-list" class="navbar-nav row" style="margin-left: 10px;font-size: 14px;">
+      <li class="nav-item col-md-3">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col-md-3">
         <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col-md-3">
         <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item col-md-3">
         <a class="nav-link" href={{ url_for('applications') }}>NLP Applications</a>
       </li>
     </ul>
+    <div id="nav-shortcut" style="display: none">
+      <div class="col-md-3"></div>
+      <div class="col-md-3" style="cursor: pointer">
+        <div class="float-right" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fa fa-bars fa-3x"></i>
+        </div>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
+          <a class="dropdown-item" href={{ url_for('references_page') }}>Reference Pages</a>
+          <a class="dropdown-item" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
+          <a class="dropdown-item" href={{ url_for('applications') }}>NLP Applications</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+          <a href={{ url_for('index') }} style="color: inherit" class="float-right">
+          <i class="fa fa-home fa-3x"></i>
+        </a>
+      </div>
+      <div class="col-md-3">
+          <a href={{ url_for('uvi_search') }} style="color: inherit" class="float-right">
+          <i class="fa fa-search fa-3x"></i>
+        </a>
+      </div>
+    </div>
+  </div>
 </nav>
 <!--End Navbar-->
 
 <style type="text/css">
+  #navbar {
+    height: 190px;
+    min-height: 100px;
+    margin: 0;
+  }
   .nav-link-uvi a{
     color:white;
     font-size: 80px;
-}
+  }
 </style>
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 80) {
+      document.getElementById("navbar").style.height = "100px";
+      document.getElementById("logo").style.height = "0px";
+      document.getElementById("nav-list").style.display = "none"
+      document.getElementById("nav-shortcut").style.display = "flex"
+    } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
+      document.getElementById("navbar").style.height = "190px";
+      document.getElementById("logo").style.height = "150px";
+      document.getElementById("nav-list").style.display = "flex"
+      document.getElementById("nav-shortcut").style.display = "none"
+    }
+  }
+</script>

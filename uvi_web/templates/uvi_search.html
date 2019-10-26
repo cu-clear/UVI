@@ -3,22 +3,6 @@
 {% block body %}
 
 <script>
-//Example adapted from: https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
-    // document.getElementById("navbar").style.padding = "30px 10px";
-    document.getElementById("logo").style.height = "0px";
-  } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
-    // document.getElementById("navbar").style.padding = "80px 10px";
-    document.getElementById("logo").style.height = "150px";
-  }
-}
-</script>
-
-
-<script>
 $(document).ready(function(){
     $("#query_form").submit(function(){
 	$("#show_div").hide();        
@@ -183,12 +167,10 @@ $(document).ready(function(){
         </div>
 
     </div>
-<div id='results_pane_div' style="display:none; position: absolute; margin-top: 80px">
+    <div id='results_pane_div' style="display:none; position: absolute; margin-top: 80px">
         <button type="button" id='close_button'>&times;</button>
-        <iframe class='frame' frameborder="0" name="results_pane" id="results_pane">
-        </iframe>
+        <iframe class='frame' frameborder="0" name="results_pane" id="results_pane"></iframe>
     </div>
-
 
 </div>
 <script type="text/javascript">
@@ -209,7 +191,6 @@ $(document).ready(function(){
      border-radius: 25px;
      background-color: rgba(122, 157, 150, .9);
      width: 40vw;
-     height: -webkit-fit-content;
      left: 105%;
      top: 0%;
      padding: 20px;
