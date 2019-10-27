@@ -7,10 +7,11 @@
 
 /**
  * 
- * @param {object} ctx 
- * @param {string} className 
+ * @param {object} ctx icon element that has been clicked
+ * @param {string} className verbnet class whose link need to be stored; can be a sub-class as well
  * 
- * Function to copy path of the verbnet class/subclass.
+ * Function to copy path of the verbnet class/sub-class.
+ * Extends the redirection ability of "Class Hierarchy" which is limited to class only (and not sub-classes)
  * Usage in: files with name render_verbnet(_*).html
  */
 function copyToClipboard(ctx, className) {
@@ -29,6 +30,8 @@ function copyToClipboard(ctx, className) {
     var successful = document.execCommand('copy');
     var msg = successful ? 'Copied!' : 'Whoops, not copied!';
     $(ctx).find('i').attr('data-original-title', msg).tooltip('show');
+    // Reset the tooltip content but no need to show
+    $(ctx).find('i').attr('data-original-title', 'Click to copy link');
     // Remove temporary element
     document.body.removeChild(el);
 }
