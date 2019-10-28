@@ -2,9 +2,7 @@
 {% block title %} Class Hierarchy {% endblock %}
 {% block body %}
 
-
 {% include 'navbar.html' %}
-
 
 <div id='home_span' style="margin-top:190px;">
   <br>
@@ -29,7 +27,6 @@
             {% endfor %}
           </section>
           {% endfor %}
-          
         </article>
       </div>
       <div role="tabpanel" class="tab-pane" id="tab_name">
@@ -52,7 +49,6 @@
             {% endfor %}
           </section>
           {% endfor %}
-          
         </article>
     </div>
   </div>
@@ -62,101 +58,90 @@
 
 <style type="text/css">
 
-#ButtonsPage {
-  background: rgba(122, 157, 150, .9);
-  margin:auto;
-}
+  #ButtonsPage {
+    background: rgba(122, 157, 150, .9);
+    margin:auto;
+  }
 
-#hierPage{
-  background: rgba(122, 157, 150, .9);
-  overflow-y:auto;
-  overflow-x: hidden;
-  margin: auto;
-  height:72vh;
-  
+  #hierPage{
+    background: rgba(122, 157, 150, .9);
+    overflow-y:auto;
+    overflow-x: hidden;
+    margin: auto;
+    height:72vh;
+  }
 
-}
+  .button {
+    background-color: rgba(220, 174, 29, .9); /* Green */
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+    color: black;
+    text-transform: uppercase;
+  }
 
-.button {
-  background-color: rgba(220, 174, 29, .9); /* Green */
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
+  a:hover {
+    color: #202a0a; /*Shade of olive*/
+  }
+
+  .no-underline{
+    text-decoration: none;
+  }
+
+
+  #bothButtons {
+    justify-content: center;
+  }
+
+  .wordStyle {
+    text-decoration: none; 
+    color: black;
+    /*font-weight: bold;*/
+    font-size: 16px;
+    /*margin-left: 6px;*/
+  }
+
+  /* https://speckyboy.com/snippets-masonry-grid-layouts/ - for the masonry layout*/
+  @import "compass/css3";
+  *, *:before, *:after {
+    box-sizing:  border-box !important;
+  }
+
+  article {
+  -moz-column-width: 20em;
+  -webkit-column-width: 20em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em; 
+  width: 100%;
+  }
+
+  section {
   display: inline-block;
-  font-size: 14px;
-  margin: 10px;
-  color: black;
-  text-transform: uppercase;
-}
+  margin:  0.25rem;
+  padding:  1rem;
+  width:  100%; 
+  background:  rgba(255, 255, 210, 0.9); /* Very pale yellow color*/
+  float: left;
+  border-radius: 8px;
+  }
 
-a:hover {
-  color: ##202a0a; /*Shade of olive*/
-}
+  p {
+  margin:  1rem 0; 
+  }
 
-.no-underline{
-  text-decoration: none;
-}
-
-
-#bothButtons {
-  justify-content: center;
-}
-
-.wordStyle {
-  text-decoration: none; 
-  color: black;
-  /*font-weight: bold;*/
-  font-size: 16px;
-  /*margin-left: 6px;*/
-}
-
-/* https://speckyboy.com/snippets-masonry-grid-layouts/ - for the masonry layout*/
-@import "compass/css3";
-
-*, *:before, *:after {box-sizing:  border-box !important;}
-
-
-article {
- -moz-column-width: 20em;
- -webkit-column-width: 20em;
- -moz-column-gap: 1em;
- -webkit-column-gap: 1em; 
- width: 100%;
-
-}
-
-section {
- display: inline-block;
- margin:  0.25rem;
- padding:  1rem;
- width:  100%; 
- background:  rgba(255, 255, 210, 0.9); /* Very pale yellow color*/
- float: left;
- border-radius: 8px;
-}
-
-
-p {
- margin:  1rem 0; 
-}
-
-
-
-
-/*  styles for background color, etc; not necessary for this thing to work  */
-
-
-p {
- text-align:  left;
-}
+  /*  styles for background color, etc; not necessary for this thing to work  */
+  p {
+  text-align:  left;
+  }
 
 </style>
-
 
 {% endblock %}
 
 {% block scripts %}
-
 
 {% endblock %}

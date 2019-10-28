@@ -20,6 +20,11 @@ to function improperly), making a separate top-level template necessary. Any rec
           {% endif %}
           <h5>{{ vn_class_json['class_id'] }}</h5>
           </button>
+          {% set verb_class = url_for('render_vn_class', vn_class_id=vn_class_json['class_id']) %}
+          <span style="cursor: pointer" onclick="copyToClipboard(this, '{{ verb_class }}')">
+            <i class="fa fa-clipboard" style="font-size: 20px"
+              tool-tip-toggle="tooltip-clipboard" data-original-title="Click to copy link">
+            </i>
         </h5>
       </div>
       <div id="collapse_{{id}}" class="collapse show" data-parent="#{{accordion_id}}">
@@ -201,4 +206,11 @@ to function improperly), making a separate top-level template necessary. Any rec
     {% endfor %}
   </div>
 </body>
+<script>
+  $(document).ready(function(){
+    $('[tool-tip-toggle="tooltip-clipboard"]').tooltip({
+      placement : 'bottom'
+    });
+  });
+</script>
 {% endblock %}
