@@ -29,8 +29,14 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#selRes" role="tab" aria-controls="selRes">Selectional Restrictions</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#FD" role="tab" aria-controls="FD">Force Dynamics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#SemLink" role="tab" aria-controls="SemLink">SemLink</a>
+      </li>
       </ul>
-
+    
     <div class="col-9 tab-content" id="pageInfo">
       <div class="tab-pane active" id="refPageInfo" role="tabpanel">
           <h2>Reference Page Info </h2>
@@ -206,13 +212,23 @@
               {% endfor %}
             </div>
             {% endfor %}
-            {% endfor %}
+            {% endfor %} 
           </h5>
       </div>
+      <div class="tab-pane" id="FD" role="tabpanel">
+              <h2>Force Dynamics </h2>
+              <p style="font-size:16px;">
+                <br>Force dynamics is a generalization of the theory of causal relations based on transmission of force; Talmy's extended theory of causation (Talmy 1988/2000; Croft 2012). In the force dynamic model, event structure is defined in terms of the interactions between the participants in the event. An argument structure construction is the configuration of subject, object and oblique phrases which a verb occurs with. <a href="https://aclweb.org/anthology/W18-4302" target="_blank">(Croft et al., 2018)</a><br/>
+                
+                <br>The force-dynamic decomposition of events presented in VerbNet make use of three-dimensional representations, with the three dimensions being: the qualitative dimension, the time dimension, and the causal chain. The qualitative, or q-dimension, is the dimension that represents the construal of the qualitative states that an event passes through as it unfolds over time. This dimension corresponds roughly to the verbal root. The time dimension, or t-dimension, represents the time course of the event, corresponding to the temporal profile of a process, as the latter is defined in Cognitive Grammar (Langacker 1997, 2008). The third dimension is the causal chain, the sequence of participants linked by the force-dynamic (transmission of force) relationships that hold among them. The causal chain, generally construed as being asymmetrical and nonbranching, represents the meanings of the argument structure construction (ASC). Argument structure constructions are defined as the verb plus a construction, a combination of subject, object and/or oblique phrases dependent on a single predicate. The ASC may be polysemous, as specialized meanings emerge when ASCs are combined with different classes of verbs.<br/>
 
-
-    </div>
-
+                <br>Verb classes in VerbNet are linked to Force Dynamics relations where available.<br/>
+              </p>
+        </div>
+        <div class="tab-pane" id="SemLink" role="tabpanel">
+              <h2>SemLink </h2>
+              <p style="font-size:16px;">
+              <br>The Unified Verb Index is a system which merges links and web pages from four different natural language processing projects: VerbNet, PropBank, FrameNet, WordNet and OntoNotes. SemLink is a project whose aim is to link together these lexical resources via sets of mappings. These mappings have made it possible to combine the information provided by these different lexical resources for tasks such as inference. The project can be found at http://verbs.colorado.edu/semlink/. <br/>
     </div>
 </div>
 
@@ -224,24 +240,19 @@
     margin:10px;
     padding:20px;
 }
-
 #optionsBox {
     background:rgba(220, 174, 29, .9);
     font-size: 16px;
 }
-
 #pageInfo {
     background: rgba(122, 157, 150, .9);
     overflow-y:auto;
 }
-
 #wrapper {
     height: 100%;
     margin-left: 20px;
     margin-top: 20px;
 }
-
-
 </style>
 
 {% endblock %}
