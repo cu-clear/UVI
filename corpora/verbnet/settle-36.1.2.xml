@@ -78,7 +78,7 @@
                 <PREP value="on">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Topic">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="+" type="what_inf"/>
                     </SYNRESTRS>
@@ -115,7 +115,7 @@
                 <PREP value="on">
                     <SELRESTRS/>
                 </PREP>
-                <NP value="Topic">
+                <NP value="Goal">
                     <SYNRESTRS>
                         <SYNRESTR Value="-" type="sentential"/>
                     </SYNRESTRS>
@@ -134,4 +134,102 @@
         </FRAME>
     </FRAMES>
     <SUBCLASSES>
-       
+        <VNSUBCLASS ID="settle-36.1.2-1">
+            <MEMBERS>
+                <MEMBER fnframe="" grouping="" name="resolve" wn=""/>
+                <MEMBER fnframe="" grouping="" name="agree" wn=""/>
+                <MEMBER fnframe="" grouping="argue.01 argue.02" name="argue" wn="argue%2:32:00 argue%2:32:02"/>
+                <MEMBER fnframe="" grouping="debate.01" name="debate" wn="debate%2:32:01"/>
+                <MEMBER fnframe="" grouping="" name="decide" wn=""/>
+            </MEMBERS>
+            <THEMROLES/>
+            <FRAMES>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V that S" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            They agreed that they should go.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Goal">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="agree">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Co-Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V PP that S" secondary="" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            They agreed with him that we should go.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Co-Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <NP value="Goal">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="agree">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="Co-Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+                <FRAME>
+                    <DESCRIPTION descriptionNumber="" primary="NP V S" secondary="TO-INF-AC" xtag=""/>
+                    <EXAMPLES>
+                        <EXAMPLE>
+                            They agreed to go.
+                        </EXAMPLE>
+                    </EXAMPLES>
+                    <SYNTAX>
+                        <NP value="Agent">
+                            <SYNRESTRS/>
+                        </NP>
+                        <VERB/>
+                        <NP value="Goal">
+                            <SYNRESTRS/>
+                        </NP>
+                    </SYNTAX>
+                    <SEMANTICS>
+                        <PRED value="agree">
+                            <ARGS>
+                                <ARG type="Event" value="e1"/>
+                                <ARG type="ThemRole" value="Agent"/>
+                                <ARG type="ThemRole" value="?Co-Agent"/>
+                                <ARG type="ThemRole" value="Topic"/>
+                            </ARGS>
+                        </PRED>
+                    </SEMANTICS>
+                </FRAME>
+            </FRAMES>
+            <SUBCLASSES/>
+        </VNSUBCLASS>
+    </SUBCLASSES>
+</VNCLASS>
