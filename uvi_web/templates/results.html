@@ -127,12 +127,10 @@ No Results Found
             <br />{{ matched_ids['OntoNotes'] | length }} result(s) matching query <br />
 
             {% for on_element in on_elements %}
-            <form action='/_display_element' id='pb_filtered_elements' method='post' target='filtered_results_pane'>
-                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
-                <input name="resource_key" type="hidden" value="OntoNotes">
-                <input name="on_lemma" type="hidden" value={{on_element}}>
-                <input class='results_tab_element' type='submit' value={{on_element}}>
-            </form>
+            <a class='results_tab_element' href="http://verbs.colorado.edu/html_groupings/{{on_element}}.html" target='_blank'>
+                {{on_element}}
+            </a>
+            <br />
             {% endfor %}
             {% endif %}
         </div>
