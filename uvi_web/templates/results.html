@@ -88,12 +88,10 @@ No Results Found
             <br />{{ matched_ids['FrameNet'] | length }} result(s) matching query <br />
             
             {% for fn_element in fn_elements %}
-            <form action='/_display_element' id='fn_filtered_elements' method='post' target='filtered_results_pane'>
-                <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
-                <input name="resource_key" type="hidden" value="FrameNet">
-                <input name="fn_name" type="hidden" value={{fn_element}}>
-                <input class='results_tab_element' type='submit' value={{fn_element}}>
-            </form>
+            <a class='results_tab_element' href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{fn_element}}" target='_blank'>
+                {{fn_element}}
+            </a>
+            <br />
             {% endfor %}
 
             {% endif %}
