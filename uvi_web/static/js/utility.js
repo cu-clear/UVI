@@ -34,5 +34,4 @@ function copyToClipboard(ctx, className) {
     $(ctx).find('i').attr('data-original-title', 'Click to copy link');
     // Remove temporary element
     document.body.removeChild(el);
-    console.log("deployement test")
 }
