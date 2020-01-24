@@ -7,12 +7,14 @@ from lxml import etree
 import re
 from bs4 import BeautifulSoup
 from nltk import word_tokenize as tokenizer
+import urllib3
+
 
 path_framenet = '../corpora/framenet/'
 path_propbank = '../corpora/propbank/frames/'
 path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
-path_ontonotes = '../corpora/ontonotes/sense-inventories/'
+path_ontonotes = 'http://verbs.colorado.edu/html_groupings/'
 path_bso='../corpora/BSO/VNBSOMapping_withMembers.csv'
 path_dep = 'static/images/Dep_Parses/'
 
@@ -135,11 +137,29 @@ def on_to_mongo(file, path_ontonotes):
 	
 def add_onto_to_db():
 	print('Building ON collection... ')
-	onto_xml = [f for f in os.listdir(path_ontonotes) if f.endswith('.xml')]
-	ontonotes_mongo = [on_to_mongo(f, path_ontonotes) for f in onto_xml]    
+
+	def gen_onto_resource(collection, data):
+		soup = BeautifulSoup(data, 'lxml')
+
+		for item in soup.select('a'):
+			text = item.text.strip()
+			if re.match(r".*\-.\.html", text) is not None:
+				key = re.search(r"((.*)\-.)\.html", text, re.IGNORECASE)
+				if key:
+					predicate = key.group(2).lower()
+					lemma = key.group(1).lower()
+
+					collection.insert_one({'predicate': predicate, 'lemma': lemma})
+
+	manager = urllib3.PoolManager()
+
+	request = manager.request("GET", path_ontonotes)
+	content = request.data.decode("utf8")
+
 	db.drop_collection('ontonotes')
 	on_collection = db['ontonotes']
-	on_collection.insert_many(ontonotes_mongo)
+
+	gen_onto_resource(on_collection, content)
 	print("ON Done")
 
 def add_predicate_defs(predicate_definition_file, mongo_collection):
