@@ -38,6 +38,9 @@
       <li class="nav-item">
       <a class="nav-link" data-toggle="tab" href="#ThematicRoleHierarchy" role="tab" aria-controls="Thematic Role Hierarchy">Thematic Role Hierarchy</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Preposition" role="tab" aria-controls="Preposition">Preposition Class Hierarchy</a>
+      </li>
       </ul>
     
     <div class="col-9 tab-content" id="pageInfo">
@@ -241,6 +244,86 @@
               <br> <br/>
             </p>
     </div>
+    <div class="tab-pane" id="Preposition" role="tabpanel">
+      <h2>Preposition Class Hierarchy </h2>
+      <p style="font-size:16px;">
+
+        <br>% Visual Preposition Class Hierarchy
+        <br>% --------------------------------------------------------
+        <br>% spatial
+        <br>% &nbsp |-------> loc
+        <br>% &nbsp |-------> path
+        <br>% &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dir
+        <br>% &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> src
+        <br>% &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dest
+        <br>%&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dest_conf
+        <br>%&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dest_dir
+        <table cellspacing="2"  border = "1" style="border-collapse:collapse;">
+          <tr>
+            <td>% dynamic spatial prep</td>
+            <td>% src</td>
+            <td>% dest_conf</td>
+            <td>% dest_dir</td>
+            <td>% dir</td>
+            <td>% loc</td>
+          </tr>
+          <tr>
+            <td>isa(src,path) 
+              <br>isa(dir,path)
+              <br>isa(dest,path)
+            <br>isa(dest_conf,dest)
+          <br>isa(dest_dir,dest)
+          <br>isa(path,spatial)
+        <br>isa(loc,spatial)</td>
+        <td>isa(from,src)
+          <br>isa(out,src)
+          <br>isa(out_of,src)
+          <br>isa(off,src)
+          <br>isa(off_of,src)</td>
+          <td>isa(into,dest_conf)
+            <br>isa(onto,dest_conf)
+          </td>
+          <td>isa(for,dest_dir)
+            <br>(%only for intrans?)
+            <br>
+            <br>isa(at,dest_dir)
+            <br>isa(to,dest_dir)
+            <br>isa(towards,dest_dir)
+          </td>
+          <td>isa(across,dir)
+            <br>isa(along,dir)
+            <br>isa(around,dir)
+            <br>isa(down,dir)
+            <br>isa(over,dir)
+            <br>isa(past,dir)
+            <br>isa(round,dir)
+            <br>isa(through,dir)
+            <br>isa(towards,dir)
+            <br>isa(up,dir)
+          </td>
+          <td>isa(about,loc)     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp isa(above,loc)  
+            <br>isa(against,loc)   &nbsp &nbsp &nbsp &nbsp &nbsp isa(along,loc)
+            <br>isa(alongside,loc) &nbsp &nbsp &nbsp isa(amid,loc)
+            <br>isa(among,loc)   &nbsp &nbsp &nbsp &nbsp &nbsp isa(amongst,loc)
+            <br>isa(around,loc) &nbsp &nbsp &nbsp &nbsp &nbsp isa(astride,loc)
+            <br>isa(at,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp isa(athwart,loc)
+            <br>isa(before,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp isa(behind,loc)
+            <br>isa(below,loc) &nbsp  &nbsp &nbsp &nbsp &nbsp isa(beneath,loc)
+            <br>isa(beside,loc) &nbsp &nbsp &nbsp &nbsp &nbsp isa(between,loc)
+            <br>isa(beyond,loc) &nbsp &nbsp &nbsp &nbsp isa(by,loc)
+            <br>(?)isa(from,loc) &nbsp &nbsp &nbsp &nbsp isa(in,loc)
+            <br>isa(in_front_of,loc) &nbsp isa(inside,loc)
+            <br>isa(near,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp isa(next_to,loc)
+            <br>isa(off,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp isa(on,loc)
+            <br>isa(opposite,loc) &nbsp &nbsp &nbsp isa(out_of,loc) 
+            <br>isa(outside,loc)  &nbsp &nbsp &nbsp &nbsp isa(over,loc)
+            <br>isa(round,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp isa(throughout,loc)
+            <br>isa(under,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp isa(underneath,loc)
+            <br>isa(upon,loc)  &nbsp &nbsp &nbsp &nbsp &nbsp isa(within,loc)
+          </td>
+          </tr>
+        </table>
+      </p>
 </div>
 
 
