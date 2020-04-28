@@ -1,6 +1,6 @@
 <!DOCTYPE VNCLASS SYSTEM "vn_class-3.dtd">
 <VNCLASS ID="comprise-107.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vn_schema-3.xsd">
-  <MEMBERS/>
+ <MEMBERS/>
  <THEMROLES>
   <THEMROLE type="Pivot">
    <SELRESTRS/>
@@ -11,51 +11,52 @@
  </THEMROLES>
  <FRAMES/>
  <SUBCLASSES>
-  <VNSUBCLASS ID="comprise-107.2-1"><MEMBERS>
-  <MEMBER fnframe="" grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
-  <MEMBER fnframe="" grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
-  <MEMBER fnframe="" grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
-  <MEMBER fnframe="" grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
-  <MEMBER fnframe="" grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
-  <MEMBER fnframe="" grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
- </MEMBERS>
- <THEMROLES/>
- <FRAMES>
-  <FRAME>
-   <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
-   <EXAMPLES>
-    <EXAMPLE>
-     Textiles make up the majority of exports.
-    </EXAMPLE>
-   </EXAMPLES>
-   <SYNTAX>
-    <NP value="Theme">
-     <SYNRESTRS/>
-    </NP>
-    <VERB/>
-    <NP value="Pivot">
-     <SYNRESTRS/>
-    </NP>
-   </SYNTAX>
-   <SEMANTICS>
-    <PRED value="has_set_member">
-     <ARGS>
-      <ARG type="Event" value="E"/>
-      <ARG type="ThemRole" value="Pivot"/>
-      <ARG type="ThemRole" value="Theme"/>
-     </ARGS>
-    </PRED>
-   </SEMANTICS>
-  </FRAME>
- </FRAMES>
-  <SUBCLASSES/>
+  <VNSUBCLASS ID="comprise-107.2-1">
+   <MEMBERS>
+    <MEMBER fn_mapping="None" grouping="comprise.02" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:03"/>
+    <MEMBER fn_mapping="None" grouping="compose.02" name="compose" verbnet_key="compose#1" wn="compose%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="make.06" name="make" verbnet_key="make#3" wn="make%2:36:05"/>
+    <MEMBER fn_mapping="None" grouping="make.06" name="make_up" verbnet_key="make_up#1" wn="make_up%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="constitute.01" name="constitute" verbnet_key="constitute#1" wn="constitute%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="" name="form" verbnet_key="form#2" wn="form%2:42:00"/>
+   </MEMBERS>
+   <THEMROLES/>
+   <FRAMES>
+    <FRAME>
+     <DESCRIPTION descriptionNumber="8.1" primary="NP V NP" secondary="Transitive" xtag=""/>
+     <EXAMPLES>
+      <EXAMPLE>
+       Textiles make up the majority of exports.
+      </EXAMPLE>
+     </EXAMPLES>
+     <SYNTAX>
+      <NP value="Theme">
+       <SYNRESTRS/>
+      </NP>
+      <VERB/>
+      <NP value="Pivot">
+       <SYNRESTRS/>
+      </NP>
+     </SYNTAX>
+     <SEMANTICS>
+      <PRED value="has_set_member">
+       <ARGS>
+        <ARG type="Event" value="E"/>
+        <ARG type="ThemRole" value="Pivot"/>
+        <ARG type="ThemRole" value="Theme"/>
+       </ARGS>
+      </PRED>
+     </SEMANTICS>
+    </FRAME>
+   </FRAMES>
+   <SUBCLASSES/>
   </VNSUBCLASS>
   <VNSUBCLASS ID="comprise-107.2-2">
    <MEMBERS>
-    <MEMBER fnframe="" grouping="comprise.01" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:01"/>
-    <MEMBER fnframe="" grouping="consist.02" name="consist_of" verbnet_key="consist_of#1" wn="consist%2:42:01"/>
-    <MEMBER fnframe="" grouping="" name="encompass" verbnet_key="encompass#1" wn="encompass%2:42:00"/>
-    <MEMBER fnframe="" grouping="contain.01" name="contain" verbnet_key="contain#1" wn="contain%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="comprise.01" name="comprise" verbnet_key="comprise#1" wn="comprise%2:42:01"/>
+    <MEMBER fn_mapping="None" grouping="consist.02" name="consist_of" verbnet_key="consist_of#1" wn="consist%2:42:01"/>
+    <MEMBER fn_mapping="None" grouping="" name="encompass" verbnet_key="encompass#1" wn="encompass%2:42:00"/>
+    <MEMBER fn_mapping="None" grouping="contain.01" name="contain" verbnet_key="contain#1" wn="contain%2:42:00"/>
    </MEMBERS>
    <THEMROLES>
    </THEMROLES>
@@ -88,7 +89,7 @@
      </SEMANTICS>
     </FRAME>
    </FRAMES>
-  <SUBCLASSES/>
+   <SUBCLASSES/>
   </VNSUBCLASS>
  </SUBCLASSES>
 </VNCLASS>
