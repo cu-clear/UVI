@@ -338,9 +338,13 @@ def build_verbnet_collection():
 
 	def parse_member(member,class_id):
 		bso=[]
+		fn = []
 		name = member.get('name')
 		wn = member.get('wn').split(' ')
-		fn = [el for el in member.get('fnframe').split(' ') if el]
+		if member.get('fnframe'):
+			fn = [el for el in member.get('fnframe').split(' ') if el]
+		elif member.get('fn_mapping'):
+			fn = [el for el in member.get('fn_mapping').split(' ') if el]
 		grouping = member.get('grouping').split(' ')
 		vs_features = member.get('features')
 		if vs_features != None:
