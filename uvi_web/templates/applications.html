@@ -9,10 +9,10 @@
       <!-- Start left navbar -->
       <ul class="col-2 nav nav-tabs flex-column" id="optionsBox" role="tablist">
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#resources" role="tab">Resources</a>
+        <a class="nav-link active" data-toggle="tab" href="#resources" role="tab">Resources</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#tutorial" role="tab" aria-controls="tutorial">Using the UVI</a>
+        <a class="nav-link" data-toggle="tab" href="#tutorial" role="tab" aria-controls="tutorial">Using the UVI</a>
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#publications" role="tab">Publications</a>
@@ -24,13 +24,13 @@
       <!-- End left navbar -->
 
       <div class="col-9 tab-content" id="pageInfo">
-      	<div class="tab-pane active" id="tutorial" role="tabpanel">
+      	<div class="tab-pane" id="tutorial" role="tabpanel">
 		<p style="font-size:25px">Please click on the following button to go to the UVI Tutorial Video:</p>
 		<a href="https://drive.google.com/file/d/1ua1U3oLxX9HaXjwNXpRSnsf-orvg8aEq/view" target="_blank"><button type = "button">UVI Tutorial Video</button></a>
       	</div>
 
       	<!-- Resources tab -->
-      	<div class="tab-pane " id="resources" role="tabpanel">
+      	<div class="tab-pane active" id="resources" role="tabpanel">
       		{% include 'resources.html'%}
       	</div>
 
