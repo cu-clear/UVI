@@ -5,6 +5,7 @@ Pipfile
 uvi_web/monitor_script_*
 uvi_web/configs.ini
 nohup.out
+corpora/vn_repo
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -91,6 +92,7 @@ celerybeat-schedule
 
 # Environments
 bin
+include
 pyvenv.cfg
 .env
 .venv
