@@ -30,7 +30,6 @@ app = Flask(__name__)
 
 #generate SECRET_KEY randomly on startup
 app.config['SECRET_KEY'] = os.urandom(16)
-app.config["MONGO_URI"] = "mongodb://localhost:27017/new_corpora"
 app.config['MONGO_DBNAME'] = 'new_corpora'
 app.config.update(mail_settings)
 mongo = PyMongo(app)
