@@ -12,7 +12,7 @@ import urllib3
 
 path_framenet = '../corpora/framenet/'
 path_propbank = '../corpora/propbank/frames/'
-path_verbnet = '../corpora/vn_repo/verbnet3.4/'
+path_verbnet = '../corpora/verbnet/'
 path_wordnet = '../corpora/wordnet/'
 path_ontonotes = 'http://verbs.colorado.edu/html_groupings/'
 path_bso='../corpora/BSO/VNBSOMapping_withMembers.csv'
