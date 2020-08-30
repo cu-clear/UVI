@@ -10,6 +10,8 @@ Repo for the Unified Verbs Index Project
 ### Project Set-Up
 
 * git clone git@github.com:cu-clear/UVI.git
+* cd UVI
+* git submodule init
 * git submodule update --remote --merge
 * (Optional) If virtual environment needs to be created:
     * cd uvi_web
