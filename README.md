@@ -31,4 +31,4 @@ To update the projects:
 * UVI: git pull
 * VerbNet Repo: git submodule update --init --recursive
 
-#### Note: No changes should be made in vn_repo folder in corpora. It is a sub module for UVI and the changes should be made in the respective github repo only [here](https://github.com/cu-clear/verbnet).
+#### Note: No changes should be made in vn_repo folder in corpora. It is a sub module for UVI and the changes should be made in the respective github repo only ([here](https://github.com/cu-clear/verbnet)).
