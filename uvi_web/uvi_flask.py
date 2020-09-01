@@ -50,11 +50,11 @@ def context_methods():
 def uvi_search():
 	process_query()
 	
-	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
-	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
-	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
-	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
-	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
+	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})))
+	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})))
+	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})))
+	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})))
+	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
 	
 	return render_template('uvi_search.html',
 		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
@@ -79,11 +79,11 @@ def download_json():
 
 @app.route('/', methods=['GET','POST'])
 def index():
-	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
-	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
-	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
-	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
-	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
+	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})))
+	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})))
+	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})))
+	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})))
+	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
 	
 	return render_template('welcome_page.html',
 		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
@@ -110,11 +110,11 @@ def contact_us():
 
 @app.route('/references_page', methods=['GET'])
 def references_page():
-	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
-	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
-	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
-	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
-	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
+	gen_themroles=sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})))
+	predicates=sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})))
+	vs_features=sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})))
+	syn_res=sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})))
+	sel_res=sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})))
 	
 	## All Page details are returned by get_ref_page in a dictioanry format
 	return render_template('references.html',
