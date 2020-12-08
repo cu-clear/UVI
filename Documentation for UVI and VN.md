@@ -18,7 +18,7 @@ About UVI (https://uvi.colorado.edu/):
      source activate uvi_web
 (4)	With the conda environment active, update pip:
 
-    Pip install –upgrade pip
+    pip install –upgrade pip
 (5)	Install project dependencies from requirements.txt (unfortunately, conda doesn't have all the packages we need so instead of using two package managers we will use the active conda environment's copy of pip to manage our Python packages):
 
     pip install -r requirements.txt
@@ -75,8 +75,8 @@ About VerbNet Website (https://verbs.colorado.edu/verbnet/):
 	
 3.	To deploy codes to the remote server: First contact the Office of Information Technology (oithelp@colorado.edu)  to ask for the permission of verbs.colorado.edu server.
 
-       ssh username@verbs.colorado.edu
-       sudo su - verbnet-service
-       cd /usr/local/apache/htdocs/verbs/verbnet/
+        ssh username@verbs.colorado.edu
+        sudo su - verbnet-service
+        cd /usr/local/apache/htdocs/verbs/verbnet/
 
 (Because rewritting the folder requires additional permission, please contact Kevin Stowe to ask for it.)
