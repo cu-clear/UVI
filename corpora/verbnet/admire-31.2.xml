@@ -18,7 +18,7 @@
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="detest" verbnet_key="detest#1" wn="detest%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="dread" verbnet_key="dread#1" wn="dread%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="enjoy.01" name="enjoy" verbnet_key="enjoy#1" wn="enjoy%2:37:00 enjoy%2:37:01 enjoy%2:34:00" />
-  <MEMBER features="" fn_mapping="None" grouping="" name="envy" verbnet_key="envy#1" wn="envy%2:37:01 envy%2:37:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="" name="envy" verbnet_key="envy#1" wn="envy%2:37:01 envy%2:37:00" />
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="esteem" verbnet_key="esteem#1" wn="esteem%2:31:01" />
   <MEMBER features="+pos_feeling" fn_mapping="Judgment" grouping="exalt.01" name="exalt" verbnet_key="exalt#1" wn="exalt%2:32:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="execrate" verbnet_key="execrate#1" wn="execrate%2:37:00" />
@@ -28,7 +28,7 @@
   <MEMBER features="+pos_feeling" fn_mapping="None" grouping="" name="idolize" verbnet_key="idolize#1" wn="idolize%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="lament" verbnet_key="lament#1" wn="lament%2:32:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="loathe" verbnet_key="loathe#1" wn="loathe%2:37:00" />
-  <MEMBER features="" fn_mapping="None" grouping="miss.04" name="miss" verbnet_key="miss#1" wn="miss%2:37:00" />
+  <MEMBER features="None" fn_mapping="None" grouping="miss.04" name="miss" verbnet_key="miss#1" wn="miss%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="mistrust" verbnet_key="mistrust#1" wn="mistrust%2:31:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="mourn.01" name="mourn" verbnet_key="mourn#1" wn="mourn%2:37:00" />
   <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="pity" verbnet_key="pity#1" wn="pity%2:37:00" />
@@ -293,15 +293,15 @@
   </FRAME>
  </FRAMES>
  <SUBCLASSES>
-  <VNSUBCLASS ID="admire-31.2-1" features="+neg_feeling+neg_feeling+neg_feeling+neg_feeling+neg_feeling+pos_feeling+pos_feeling+pos_feeling+pos_feeling+neg_feeling+neg_feeling+neg_feeling+neg_feeling">
+  <VNSUBCLASS ID="admire-31.2-1">
    <MEMBERS>
-    <MEMBER fn_mapping="None" grouping="" name="disdain" verbnet_key="disdain#1" wn="disdain%2:37:00" />
-    <MEMBER fn_mapping="None" grouping="" name="dislike" verbnet_key="dislike#1" wn="dislike%2:37:00" />
-    <MEMBER fn_mapping="None" grouping="fear.01 fear.02 fear.03" name="fear" verbnet_key="fear#1" wn="fear%2:37:00 fear%2:37:13 fear%2:37:01" />
-    <MEMBER fn_mapping="None" grouping="hate.01" name="hate" verbnet_key="hate#1" wn="hate%2:37:00" />
-    <MEMBER fn_mapping="None" grouping="like.02" name="like" verbnet_key="like#1" wn="like%2:37:05 like%2:37:04" />
-    <MEMBER fn_mapping="None" grouping="love.01" name="love" verbnet_key="love#1" wn="love%2:37:00 love%2:37:02 love%2:37:01" />
-    <MEMBER fn_mapping="Experiencer_focus" grouping="regret.01 regret.02" name="regret" verbnet_key="regret#1" wn="regret%2:37:00 regret%2:37:01 regret%2:32:00 regret%2:32:02" />
+    <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="disdain" verbnet_key="disdain#1" wn="disdain%2:37:00" />
+    <MEMBER features="+neg_feeling" fn_mapping="None" grouping="" name="dislike" verbnet_key="dislike#1" wn="dislike%2:37:00" />
+    <MEMBER features="+neg_feeling" fn_mapping="None" grouping="fear.01 fear.02 fear.03" name="fear" verbnet_key="fear#1" wn="fear%2:37:00 fear%2:37:13 fear%2:37:01" />
+    <MEMBER features="+neg_feeling" fn_mapping="None" grouping="hate.01" name="hate" verbnet_key="hate#1" wn="hate%2:37:00" />
+    <MEMBER features="+pos_feeling" fn_mapping="None" grouping="like.02" name="like" verbnet_key="like#1" wn="like%2:37:05 like%2:37:04" />
+    <MEMBER features="+pos_feeling" fn_mapping="None" grouping="love.01" name="love" verbnet_key="love#1" wn="love%2:37:00 love%2:37:02 love%2:37:01" />
+    <MEMBER features="+neg_feeling" fn_mapping="Experiencer_focus" grouping="regret.01 regret.02" name="regret" verbnet_key="regret#1" wn="regret%2:37:00 regret%2:37:01 regret%2:32:00 regret%2:32:02" />
    </MEMBERS>
    <THEMROLES />
    <FRAMES>
