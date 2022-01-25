@@ -232,7 +232,7 @@ def ref_to_db():
 				if pr['predicate'] not in predicates_dict:
 					predicates_dict[pr['predicate']] = {'count':1, 'vn_class_members':set([doc['class_id']])}
 					predicates_dict[pr['predicate']]['description'] = 'No description found'
-					description = vn_pred_collection.find_one({'name': pr['predicate']}, {'$exists': 'true', 'def': 1, '_id': 0})
+					description = vn_pred_collection.find_one({'name': pr['predicate']}, {'def': 1, '_id': 0})
 					if description is not None:
 						predicates_dict[pr['predicate']]['description'] = description['def']
 				else:
@@ -642,7 +642,7 @@ def build_verbnet_collection():
 		#Get the list of parent class id's (up to & including current class_id) from which this class would inherit semantic restrictions (if any)
 		parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
 		for parent_class_id in parents:
-			selrestr_fields = db['verbnet'].find_one({ 'class_id': parent_class_id, 'themroles.themrole':themrole_name_stripped}, {'themroles.themrole.$':1})
+			selrestr_fields = db['verbnet'].find_one({ 'class_id': parent_class_id, 'themroles.themrole':themrole_name_stripped}, {'themroles.$':1})
 			if selrestr_fields:
 				selrestr_list = selrestr_fields['themroles'][0]['selrestrs']['selrestrs_list']
 				selrestr_logic = selrestr_fields['themroles'][0]['selrestrs']['selrestr_logic']
