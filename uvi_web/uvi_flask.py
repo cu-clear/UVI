@@ -128,7 +128,7 @@ def process_query():
 		print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
 		query_string = request.form['lemma_query_string']
 
-		lemmas = query_string.split(' ')
+		lemmas = [x.lower() for x in query_string.split(' ')]
 
 		logic = request.form['logic']
 		sort_behavior = request.form['sort_behavior']
