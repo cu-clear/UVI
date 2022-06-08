@@ -1,11 +1,9 @@
 #!/bin/bash
 export FLASK_APP=uvi_flask.py
 export FLASK_DEBUG=0
-./env_uvi/Scripts/activate
+source /data/verbnet-service/UVI_deployable/uvi_web/env_uvi/bin/activate && echo "Virtual Environment Activated"
 
-sudo service gunicorn_uvi stop
-nohup python -u monitor_corpora.py &
-echo $! >> "monitor_script_PID"
+#nohup python -u monitor_corpora.py &
+#echo $! >> "monitor_script_PID"
 
-#exec gunicorn -w 4 -b 127.0.0.1:4000 uvi_flask:app
-sudo service gunicorn_uvi start
+exec gunicorn -w 4 -b 127.0.0.1:4000 uvi_flask:app
