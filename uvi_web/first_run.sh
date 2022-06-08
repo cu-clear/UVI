@@ -14,6 +14,5 @@ echo "Virtual Environment Activated"
 
 echo "************UVI************"
 echo "Installing UVI requirements"
-cd ../..
 python3 -m pip install -r requirements.txt
 echo "UVI requirements installed"
