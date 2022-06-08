@@ -15,7 +15,5 @@ echo "Virtual Environment Activated"
 echo "************UVI************"
 echo "Installing UVI requirements"
 cd ../..
-sudo apt-get install libxml2-dev libxslt-dev python-dev
 python3 -m pip install -r requirements.txt
-pip3 install lxml
 echo "UVI requirements installed"
