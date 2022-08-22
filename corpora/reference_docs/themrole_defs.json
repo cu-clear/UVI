@@ -1,1 +1,192 @@
-[{"name":"Affector","description":"No description found","example":"No examples found"},{"name":"Location","description":"Place that is concrete.","example":"Herbicides persist IN THE SOIL."},{"name":"Patient","description":"An Undergoer in an event that is usually structurally changed, for instance by experiencing a change of state or condition; is often acted upon by an agent; is causally involved or directly affected by other participants; and exists independently of the event.","example":"Brutus murdered JULIUS CAESAR."},{"name":"Reflexive","description":"No description found","example":"No examples found"},{"name":"Pivot","description":"Theme that participates in an event with another theme unequally. Pivot is much more central to the event (thereby distinguishing it from Co-Theme).","example":"THE RANCHER owns twelve oxen."},{"name":"Agent","description":"Actor in an event who initiates and carries out the event intentionally or consciously, and who exists independently of the event.","example":"THEY decided to go."},{"name":"Source","description":"The starting point (possibly metaphoric) of an action; it exists independently of the event.","example":"I gleaned FROM THE EVIDENCE how she did it."},{"name":"Theme","description":"Undergoer that is central to an event or state that does not have control over the way the event occurs, is not structurally changed by the event, and/or is characterized as being in a certain position or condition throughout the state.","example":"THE BALL rolled down the hill."},{"name":"Trajectory","description":"Trajectory refers to the path or the 'region' the motion traverses when the motion event expresses a change of location.","example":"He came THROUGH THE DOOR."},{"name":"Experiencer","description":"Patient that is aware of the event undergone, which often involves an emotional or psychological response elicited by a Stimulus (specific to events of perception).","example":"THE CHILDREN tasted the pea soup."},{"name":"Causer","description":"An Actor in an event that initiates and effects the event and that exists independently of the event.","example":"No examples found"},{"name":"Axis","description":"The point or object around which the Theme travels in elliptical motion","example":"No examples found"},{"name":"Time","description":"Participant that indicates an instant or an interval of time during which a state exists or an event took place.","example":"The party begins AT 6 PM."},{"name":"Goal","description":"The end point (possibly metaphoric) of the action, which exists independently of the event.","example":"No examples found"},{"name":"Destination","description":"Goal that is a concrete, physical location.","example":"Tamara poured water INTO THE BOWL."},{"name":"Manner","description":"Way or style of performing an action, or the degree/strength of a cognitive or emotional state.","example":"We lived ON $10 PER DAY."},{"name":"Recipient","description":"An animate end point of the action (i.e., a subtype of Destination).","example":"They lent a bicycle TO ME."},{"name":"Extent","description":"Value indicating the amount of measurable change to a participant over the course of the event.","example":"No examples found"},{"name":"Beneficiary","description":"Undergoer in a state or an event that is (potentially) advantaged or disadvantaged by the event or state.","example":"Martha carved a toy FOR THE BABY."},{"name":"Product","description":"A concrete object that is the end point of the action and comes into existence through the action (i.e., a subtype of Result).","example":"AN OAK TREE will grow from that acorn."},{"name":"Material","description":"Patient that exists at the starting point of action (inheritance from Source), which is transformed through the event into a new entity; concrete or abstract.","example":"An oak tree will grow FROM THAT ACORN."},{"name":"Context","description":"No description found","example":"No examples found"},{"name":"Value","description":"Place along a formal scale.","example":"He put the probability AT 0.9."},{"name":"Co-Theme","description":"An Undergoer, with equal status to the Theme, that is central to an event or state, does not have control over the way the event occurs, is not structurally changed by the event, and/or is characterized as being in a certain position or condition throughout the state.","example":"No examples found"},{"name":"Attribute","description":"Circumstance that is a property of an entity or entities, as opposed to the entity itself.","example":"Oil increased IN PRICE."},{"name":"Co-Agent","description":"An Actor in an event who initiates and carries out the event intentionally or consciously, with equal responsibility to the Agent, and who exists independently of the event.","example":"No examples found"},{"name":"Co-Patient","description":"An Undergoer in an event, with equal status to the Patient, that is usually structurally changed, for instance by experiencing a change of state or condition; is often acted upon by an agent, is causally involved or directly affected by other participants; and exists independently of the event.","example":"No examples found"},{"name":"Final_Time","description":"Time that indicates when an event ends or a state becomes false (i.e. the ending point of the state).","example":"The party continued UNTIL 8 PM."},{"name":"Stimulus","description":"Cause in an event that elicits an emotional or psychological response (specific to events of perception).","example":"THE PEA SOUP tasted delicious."},{"name":"Instrument","description":"Undergoer in an event that is manipulated by an agent, and with which an intentional act is performed; it exists independently of the event. For all roles containing symmetrical participants, we assume that the ordering is non-arbitrary and may be pragmatically determined and/or related to figure-ground considerations; however, the usefulness of this distinction may be application-specific.","example":"Jennifer baked the potatoes IN THE OVEN."},{"name":"Initial_State","description":"Source that indicates the state in which an entity begins.","example":"Need an example"},{"name":"Initial_Location","description":"Source that indicates the concrete, physical location where an event begins or a state becomes true.","example":"Amanda drove the package FROM HOME."},{"name":"Predicate","description":"An event or state (expressed with any part of speech) that is secondary to the main event, represented by the matrix verb.","example":"No examples found"},{"name":"Path","description":"Path is the ‘region’ the motion traverses; the connecting region between the source and goal (both concrete and abstract) locations.","example":"She reached her hand OUT."},{"name":"Asset","description":"A Theme considered valuable to one or more participants in the event, especially money.","example":"No examples found"},{"name":"Result","description":"Goal that comes into existence through the event.","example":"He strangled his victims TO DEATH."},{"name":"Duration","description":"Length or extent of time.","example":"The party continued FOR TWO HOURS."},{"name":"Precondition","description":"An event or state of affairs that precedes or partially precedes another event or state and is necessary for that other event or state to occur.","example":"No examples found"},{"name":"Topic","description":"Theme characterized by information content.","example":"Susan chitchatted with Rachel ABOUT THE PROBLEM."}]
+[
+  {
+    "name": "Affector",
+    "description": "Generic parent role that groups the proto-Agent roles of  Agent, Causer, Stimulus, and Precondition. The role serves to illustrate the commonalities of its sub-roles rather than being used itself as role in VN classes. It corresponds closely to Van Valin's Actor role.",
+    "example": "JOHN/THE STORM killed the power."
+  },
+  {
+    "name": "Agent",
+    "description": "Actor in an event who initiates and carries out the event intentionally or consciously, and who exists independently of the event.",
+    "example": "TONY broke the window."
+  },
+  {
+    "name": "Asset",
+    "description": "A Theme considered valuable to one or more participants in the event, especially money.",
+    "example": "The auction raised MILLIONS OF DOLLARS."
+  },
+  {
+    "name": "Attribute",
+    "description": "A property of an entity or entities, as opposed to the entity itself.",
+    "example": "He characterized him AS SMART."
+  },
+  {
+    "name": "Axis",
+    "description": "The point or object around which the Theme travels in elliptical motion",
+    "example": "The Earth revolved aroung THE SUN."
+  },
+  {
+    "name": "Beneficiary",
+    "description": "Undergoer in a state or an event that is (potentially) advantaged by the event or state.",
+    "example": "Martha carved a toy FOR THE BABY."
+  },
+  {
+    "name": "Causer",
+    "description": "An Actor in an event that initiates and effects the event and that exists independently of the event.",
+    "example": "THE PROPOSAL threw the committee's plan into chaos."
+  },
+  {
+    "name": "Property",
+    "description": "Generic parent role that groups together the property-focused roles of Attribute, Manner, Value and Extent. The role serves to illustrate the commonalities of its sub-roles rather than being used itself as a role in VerbNet classes.",
+    "example": ""
+  },
+  {
+    "name": "Co-Agent",
+    "description": "An Actor in an event who initiates and carries out the event intentionally or consciously, with equal responsibility to the Agent, and who exists independently of the event.",
+    "example": "Susan talked WITH RACHEL."
+  },
+  {
+    "name": "Co-Patient",
+    "description": "An Undergoer in an event, with equal status to the Patient, that is usually structurally changed, for instance by experiencing a change of state or condition; is often acted upon by an agent, is causally involved or directly affected by other participants; and exists independently of the event.",
+    "example": "Herman mixed the eggs WITH THE CREAM."
+  },
+  {
+    "name": "Co-Theme",
+    "description": "An Undergoer, with equal status to the Theme, that is central to an event or state, does not have control over the way the event occurs, is not structurally changed by the event, and/or is characterized as being in a certain position or condition throughout the state.",
+    "example": "Gwen exchanged the dress FOR A SHIRT."
+  },
+  {
+    "name": "Destination",
+    "description": "Goal that is a concrete, physical location.",
+    "example": "The king deported the general TO THE ISLE."
+  },
+  {
+    "name": "Duration",
+    "description": "Length or extent of time.",
+    "example": "She spent FIVE YEARS waiting tables."
+  },
+  {
+    "name": "Eventuality",
+    "description": "An event or state whose properties (esp. temporal or modal) are referenced or affected by an event.",
+    "example": "They started/forbade/delayed THE PARTY."
+  },
+  {
+    "name": "Experiencer",
+    "description": "Patient that is aware of the event undergone, which often involves an emotional or psychological response elicited by a Stimulus (specific to events of perception).",
+    "example": "THE TOURISTS admired the paintings."
+  },
+  {
+    "name": "Extent",
+    "description": "Value indicating the amount of measurable change to a participant over the course of the event.",
+    "example": "The camera rotated 90 DEGREES."
+  },
+  {
+    "name": "Goal",
+    "description": "The end point (possibly metaphoric) of the action, which exists independently of the event.",
+    "example": "He adapted himself TO WAKING UP EARLY."
+  },
+  {
+    "name": "Initial_Location",
+    "description": "Source that indicates the concrete, physical location where an event begins or a state becomes true.",
+    "example": "Steve tossed the ball FROM THE CORNER."
+  },
+  {
+    "name": "Initial_State",
+    "description": "Source that indicates the state in which an entity begins.",
+    "example": "He converted FROM CHRISTIANITY to Buddhism."
+  },
+  {
+    "name": "Instrument",
+    "description": "Undergoer in an event that is manipulated by an agent, and with which an intentional act is performed; it exists independently of the event. For all roles containing symmetrical participants, we assume that the ordering is non-arbitrary and may be pragmatically determined and/or related to figure-ground considerations; however, the usefulness of this distinction may be application-specific.",
+    "example": "Carol crushed the ice with A HAMMER."
+  },
+  {
+    "name": "Location",
+    "description": "Place that is concrete.",
+    "example": "I hunted THE WOODS for game."
+  },
+  {
+    "name": "Maleficiary",
+    "description": "Undergoer in a state or an event that is (potentially) disadvantaged by the event or state.",
+    "example": "The company discriminated against AN EMPLOYEE WITH BIPOLAR DISORDER."
+  },
+  {
+    "name": "Manner",
+    "description": "Way or style of performing an action, or the degree/strength of a cognitive or emotional state.",
+    "example": "We lived ON $10 A DAY."
+  },
+  {
+    "name": "Material",
+    "description": "Patient that exists at the starting point of action (inheritance from Source), which is transformed through the event into a new entity; concrete or abstract.",
+    "example": "Martha carved a toy OUT OF A PIECE OF WOOD."
+  },
+  {
+    "name": "Patient",
+    "description": "An Undergoer in an event that is usually structurally changed, for instance by experiencing a change of state or condition; is often acted upon by an agent; is causally involved or directly affected by other participants; and exists independently of the event.",
+    "example": "Tony bent THE ROD."
+  },
+  {
+    "name": "Place",
+    "description": "Generic parent role that groups together literal and metaphoric locations and destinations. The role serves to illustrate the commonalities of its sub-roles rather than being used itself as a role in VerbNet classes.",
+    "example": ""
+  },
+  {
+    "name": "Precondition",
+    "description": "An event or state of affairs that precedes or partially precedes another event or state and is necessary for that other event or state to occur.",
+    "example": "RACIAL INEQUALITY engendered conflict."
+  },
+  {
+    "name": "Product",
+    "description": "A concrete object that is the end point of the action and comes into existence through the action (i.e., a subtype of Result).",
+    "example": "Martha carved A TOY."
+  },
+  {
+    "name": "Recipient",
+    "description": "An animate end point of the action (i.e., a subtype of Destination).",
+    "example": "They lent ME a bicycle."
+  },
+  {
+    "name": "Result",
+    "description": "Goal that comes into existence through the event.",
+    "example": "He converted TO BUDDHISM."
+  },
+  {
+    "name": "Source",
+    "description": "The starting point (possibly metaphoric) of an action; it exists independently of the event.",
+    "example": "Sympathetic fans clipped copies of Ms. Shere's recipes from MAGAZINES."
+  },
+  {
+    "name": "Stimulus",
+    "description": "Cause in an event that elicits an emotional or psychological response (specific to events of perception).",
+    "example": "The tourists admired THE PAINTINGS."
+  },
+  {
+    "name": "Subeventuality",
+    "description": "An eventuality whose time span is wholly subsumed within a larger Eventuality in the representation.",
+    "example": "I began the party with A SPEECH."
+  },
+  {
+    "name": "Theme",
+    "description": "Undergoer that is central to an event or state that does not have control over the way the event occurs, is not structurally changed by the event, and/or is characterized as being in a certain position or condition throughout the state.",
+    "example": "The cotton absorbed THE WATER."
+  },
+  {
+    "name": "Topic",
+    "description": "Theme characterized by information content.",
+    "example": "Ellen complained about THE SITUATION."
+  },
+  {
+    "name": "Trajectory",
+    "description": "Trajectory refers to the path or the 'region' the motion traverses when the motion event expresses a change of location.",
+    "example": "I funneled the mixture THROUGH THE PIPE."
+  },
+  {
+    "name": "Undergoer",
+    "description": "Generic parent role that groups together proto-Patient roles. The role serves to illustrate the commonalities of its sub-roles rather than being used itself as a role in VerbNet classes. It corresponds closely to Van Valin's Undergoer role.",
+    "example": ""
+  },
+  {
+    "name": "Value",
+    "description": "Measure on a formal scale that quantifies a property of an entity.",
+    "example": "The book cost TEN DOLLARS."
+  }
+]
