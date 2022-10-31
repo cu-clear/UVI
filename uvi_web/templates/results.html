@@ -12,7 +12,7 @@ No Results Found
 
 <!-- <div class='container' id='results_tab_pane'> -->
 <div class='row' id='results_tab_pane'>
-    <div class='col-3'>
+    <div class='col-4'>
         <ul class='nav nav-tabs' id='resultTab' role='tablist'>
           {% for key in matched_ids.keys() if key !='vnByClass' %}
           <!--Matched Elements is a dictionary with keys 'VerbNet', 'FrameNet', 'PropBank'...
@@ -141,7 +141,7 @@ No Results Found
         </div>
     </div>
 
-    <div class='col-9' id='filtered_results'>
+    <div class='col-8' id='filtered_results'>
         <iframe class='frame' frameborder="0" name="filtered_results_pane" id="filtered_results_pane"></iframe>
     </div>
 </div>
