@@ -331,7 +331,7 @@ def build_verbnet_collection():
 	#VERBNET
 	import spacy
 	from spacy import displacy
-	spacy_nlp = spacy.load('en_core_web_sm')
+	spacy_nlp = spacy.load('en')
 
 	with open(path_fd) as rf:
 		fd_list =  json.load(rf)
