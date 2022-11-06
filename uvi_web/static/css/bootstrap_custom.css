@@ -69,7 +69,10 @@
   line-height: 2;
   background-color: transparent;
   border: 0;
-  -webkit-appearance: none;
+  cursor: pointer;
+}
+.results_tab_element:hover {
+  cursor: pointer;
 }
 
 #close_button {
@@ -87,7 +90,6 @@
   opacity: .5;
   background-color: transparent;
   border: 0;
-  -webkit-appearance: none;
 }
 
 #fade_welcome_div {
@@ -149,6 +151,7 @@
   font-size: 16px;
   height: 100vh;
 }
+
 
 #welcome {
   margin-left: 15px;
