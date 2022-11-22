@@ -101,6 +101,7 @@
   margin: auto;
   border-radius: 5px;
   padding: 15px;
+  /* margin-top: 56px; */
 }
 
 #show_div {
@@ -164,9 +165,10 @@
 #home_span {
   display: block;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   max-width: 100%;
   padding-top: 20px;
+
 }
 
 #search_box {
