@@ -1,7 +1,7 @@
 <!--Begin Navbar-->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top row">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-  <div class="col-md-6">
+  <div class="col-md-4">
     <div id='logo_uvi'>
       <a class="navbar-brand" href={{ url_for('index') }}>
         <img src="/static/images/clear_orig.png" height="80px" id="logo">
@@ -9,18 +9,30 @@
       <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
     </div>
   </div>
-  <div class="col-md-6">
+  <div class="col-md-8">
     <ul id="nav-list" class="navbar-nav row" style="margin-left: 10px;font-size: 14px;">
-      <li class="nav-item col-md-3">
+      <li class="nav-item col-md-4">
+        <!-- <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a> -->
+        <div class="topnavSearch">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Work in Progress..." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </li>
+      
+      <li class="nav-item col-md-2">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
       </li>
-      <li class="nav-item col-md-3">
+      <li class="nav-item col-md-2">
         <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
       </li>
-      <li class="nav-item col-md-3">
+      <li class="nav-item col-md-2">
         <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
       </li>
-      <li class="nav-item col-md-3">
+      <li class="nav-item col-md-2">
         <a class="nav-link" href={{ url_for('applications') }}>NLP Applications</a>
       </li>
     </ul>
@@ -62,13 +74,56 @@
     color:white;
     font-size: 80px;
   }
+  /* for search bar  */
+
+  @media screen and (max-width: 600px) {
+  .topnavSearch .search-container {
+    float: none;
+  }
+  .topnavSearch a, .topnav input[type=text], .topnavSearch .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnavSearch input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.topnavSearch .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  /* margin-right: 16px; */
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnavSearch .search-container button:hover {
+  background: #ccc;
+}
+
+.topnavSearch .search-container {
+  float: right;
+}
+
+.topnavSearch input[type=text] {
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  height :37px;
+}
+
 </style>
 
 <!-- Uncomment for flexable search icon -->
 
 <!-- <script>
   window.onscroll = function() {scrollFunction()};
-  
   function scrollFunction() {
     if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 80) {
       document.getElementById("navbar").style.height = "100px";
