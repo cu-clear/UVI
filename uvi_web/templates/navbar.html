@@ -15,14 +15,15 @@
         <!-- <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a> -->
         <div class="topnavSearch">
           <div class="search-container">
-            <form action="/action_page.php">
-              <input type="text" placeholder="Work in Progress..." name="search">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
+              <form action="">
+                <input type="text" placeholder="Work in Progress..." name="search">
+                <button type="submit"> <a href={{ url_for('uvi_search') }}>Search</a></button>
+              </form>
+            </a>
           </div>
         </div>
       </li>
-      
+      <!-- <i class="fa fa-search"></i> -->
       <li class="nav-item col-md-2">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
       </li>
