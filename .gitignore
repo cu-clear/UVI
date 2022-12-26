@@ -5,7 +5,7 @@ Pipfile
 uvi_web/monitor_script_*
 uvi_web/configs.ini
 nohup.out
-uvi_web/static/images/Dep_Parses/*
+uvi_web/static/images/Dep_Parses
 temp.py
 .DS_Store
 .vscode
@@ -114,3 +114,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#static files
+/static/images
+/uvi_web/static/images/Dep_Parses
