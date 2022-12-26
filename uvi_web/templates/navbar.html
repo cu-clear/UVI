@@ -15,9 +15,9 @@
         <!-- <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a> -->
         <div class="topnavSearch">
           <div class="search-container">
-              <form action="">
-                <input type="text" placeholder="Click search to navigate..." name="search">
-                <button type="submit"> <a href={{ url_for('uvi_search') }}>Search</a></button>
+              <form action="/uvi_search_anywhere" method='post' id="query_form2"  >
+                <input id = "search_box-search" type="text" placeholder="Click search to navigate..." name="common_query_string">
+                <button type="submit" value='Submit'> <a >Search</a></button>
               </form>
             </a>
           </div>
@@ -124,18 +124,20 @@
 <!-- Uncomment for flexable search icon -->
 
 <!-- <script>
-  window.onscroll = function() {scrollFunction()};
-  function scrollFunction() {
-    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 80) {
-      document.getElementById("navbar").style.height = "100px";
-      document.getElementById("logo").style.height = "0px";
-      document.getElementById("nav-list").style.display = "none"
-      document.getElementById("nav-shortcut").style.display = "flex"
-    } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
-      document.getElementById("navbar").style.height = "190px";
-      document.getElementById("logo").style.height = "150px";
-      document.getElementById("nav-list").style.display = "flex"
-      document.getElementById("nav-shortcut").style.display = "none"
-    }
-  }
+  // window.onscroll = function() {scrollFunction()};
+  // function scrollFunction() {
+  //   if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 80) {
+  //     document.getElementById("navbar").style.height = "100px";
+  //     document.getElementById("logo").style.height = "0px";
+  //     document.getElementById("nav-list").style.display = "none"
+  //     document.getElementById("nav-shortcut").style.display = "flex"
+  //   } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
+  //     document.getElementById("navbar").style.height = "190px";
+  //     document.getElementById("logo").style.height = "150px";
+  //     document.getElementById("nav-list").style.display = "flex"
+  //     document.getElementById("nav-shortcut").style.display = "none"
+  //   }
+  // }
+
+  
 </script> -->

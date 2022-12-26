@@ -170,7 +170,7 @@ $(document).ready(function(){
 
     </div>
     <div id='results_pane_div' style="display:none; position: absolute; ">
-        <button type="button" id='close_button'>&times;</button>
+        <button type="primary" class="button button2"  id='close_button'>Back to search</button>
         <iframe class='frame' frameborder="0" name="results_pane" id="results_pane"></iframe>
     </div>
 
@@ -206,6 +206,36 @@ font-size: 100px;
 .hoverWrapper:hover{
     cursor: pointer;
 }
+.results_pane_div{
+    cursor: pointer;
+
+}
+.close_button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.25rem 1.75rem;
+  color: inherit;
+  float: right;
+  font-size: 2.125rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  border: 0;
+}
+
+.button2 {background-color: #00303f;} /* Blue */
 
 </style>
 
