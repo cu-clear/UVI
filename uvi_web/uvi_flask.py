@@ -123,26 +123,36 @@ def references_page():
 	)
 
 @app.route('/_process_query', methods=['GET','POST'])
-def process_query():
-	if request.form.get('lemma_query_string'):
-		print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
-		query_string = request.form['lemma_query_string']
+def process_query(common_query_string = None):
+	if request.form.get('lemma_query_string') or common_query_string:
+		if(common_query_string):
+			print('entered common if loop')
+			query_string = common_query_string
+			lemmas = [x.lower() for x in query_string.split(' ')]
+			logic = "and"
+			sort_behavior = "alpha"
+			incl_vn = True
+			incl_fn = True
+			incl_pb = True
+			incl_wn = True
+			matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
+			print('done common if loop')
+			return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
 
-		lemmas = [x.lower() for x in query_string.split(' ')]
-
-		logic = request.form['logic']
-		sort_behavior = request.form['sort_behavior']
-
-		form_keys = list(request.form.keys())
-
-		incl_vn = True if 'incl_vn' in form_keys else False
-		incl_fn = True if 'incl_fn' in form_keys else False
-		incl_pb = True if 'incl_pb' in form_keys else False
-		incl_wn = True if 'incl_wn' in form_keys else False
-		
-		matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
-
-		return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
+		else:
+			print('entered common if loop')
+			query_string = request.form['lemma_query_string']
+			# print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
+			lemmas = [x.lower() for x in query_string.split(' ')]
+			logic = request.form['logic']
+			sort_behavior = request.form['sort_behavior']
+			form_keys = list(request.form.keys())
+			incl_vn = True if 'incl_vn' in form_keys else False
+			incl_fn = True if 'incl_fn' in form_keys else False
+			incl_pb = True if 'incl_pb' in form_keys else False
+			incl_wn = True if 'incl_wn' in form_keys else False
+			matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
+			return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
 
 	elif request.form.get('vn_attribute'):
 		query_string = request.form['attribute_query_string']
@@ -291,3 +301,30 @@ def class_hierarchy():
 @app.route('/nlp_applications')
 def applications():
 	return render_template('applications.html')
+
+@app.route('/uvi_search_anywhere', methods=['GET','POST'])
+def uvi_search_anywhere():
+	if request.form.get('common_query_string'):
+		print("entered search anywhere")
+		uvi_search()
+		print("completed uvi_search fn call")
+		print(request.form.get('common_query_string'))
+		print("above is query string common")
+		# gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
+		# predicates = sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
+		# vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
+		# syn_res = sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
+		# sel_res = sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key) 
+		query_string = request.form.get('common_query_string')
+		lemmas = [x.lower() for x in query_string.split(' ')]
+		logic = "and"
+		sort_behavior = "alpha"
+		incl_vn = True
+		incl_fn = True
+		incl_pb = True
+		incl_wn = True
+		matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
+	# return render_template('uvi_search.html',
+	# 	gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res
+	# ), render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
+	return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
