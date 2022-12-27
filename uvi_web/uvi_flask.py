@@ -305,11 +305,7 @@ def applications():
 @app.route('/uvi_search_anywhere', methods=['GET','POST'])
 def uvi_search_anywhere():
 	if request.form.get('common_query_string'):
-		print("entered search anywhere")
 		uvi_search()
-		print("completed uvi_search fn call")
-		print(request.form.get('common_query_string'))
-		print("above is query string common")
 		# gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
 		# predicates = sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
 		# vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
