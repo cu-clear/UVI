@@ -306,11 +306,6 @@ def applications():
 def uvi_search_anywhere():
 	if request.form.get('common_query_string'):
 		uvi_search()
-		# gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
-		# predicates = sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
-		# vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
-		# syn_res = sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
-		# sel_res = sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key) 
 		query_string = request.form.get('common_query_string')
 		lemmas = [x.lower() for x in query_string.split(' ')]
 		logic = "and"
