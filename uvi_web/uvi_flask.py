@@ -1,5 +1,4 @@
 import os
-
 from flask import Flask, Response
 from flask import render_template, redirect, url_for, request, jsonify, g
 from flask_pymongo import PyMongo
@@ -315,5 +314,5 @@ def uvi_search_anywhere():
 		incl_pb = True
 		incl_wn = True
 		matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
-		
+
 	return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
