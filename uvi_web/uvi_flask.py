@@ -1,5 +1,4 @@
 import os
-
 from flask import Flask, Response
 from flask import render_template, redirect, url_for, request, jsonify, g
 from flask_pymongo import PyMongo
