@@ -120,7 +120,18 @@
           </h5>
       </div>
       <div class="tab-pane" id="vsFeats" role="tabpanel">
+        <div class="col-12">
+          <div class="col-4" style = "display: inline-block;" >
           <h2>Verb Specific Features </h2>
+          </div>
+          <div class="col-6" style = "display: inline-block; top : 14px">
+              <ul class="nav" role="tablist" id='bothButtons'>
+                <li role="button"  class="active" ><a href="#tab_num" id="button_num"role="tab" class="button no-underline" data-toggle="tab" >Sort by Class ID</a></li>
+                <li role="button"  ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
+              </ul>
+              <br>
+            </div>
+          </div>
           <br>
           <h5>
             {% for vs_el in vs_features %}
@@ -345,6 +356,21 @@
     margin-left: 20px;
     margin-top: 20px;
 }
+#bothButtons {
+    justify-content: center;
+  }
+#ButtonsPage {
+  background: rgba(122, 157, 150, .9);
+  margin:auto;
+}
+.button {
+    background-color: rgba(220, 174, 29, .9); /* Green */
+    padding: 15px 32px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+    text-transform: uppercase;
+  }
 </style>
 
 {% endblock %}
