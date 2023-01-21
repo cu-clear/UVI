@@ -106,13 +106,13 @@
   
   width: 95vw;
   margin: auto;
-  left: 2.5%;
+  left: 4%;
 }
 
 #query_form_div {
   color: black;
   background-color: rgba(220, 174, 29, .9);
-  border-radius: 5px 5px 200px 5px;
+  border-radius: 5px 5px 5px 5px;
   padding: 25px;
   font-size: 16px;
   /*margin: 5px; */
@@ -121,10 +121,10 @@
 #attribute_query_form_div {
   color: black;
   background-color: rgba(122, 157, 150, .9);
-  border-radius: 200px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
   padding: 25px;
-  padding-top:60px;
-  padding-left: 80px;
+  /* padding-top:60px; */
+  /* padding-left: 80px; */
   margin-left: 20px;
   font-size: 16px;
   /*margin: 5px; */
