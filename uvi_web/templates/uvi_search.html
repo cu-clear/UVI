@@ -31,15 +31,14 @@ $(document).ready(function(){
 
 {% include 'navbar.html' %}
 
-<div id='home_span' style="margin-top:130px;">
+<div id='home_span' style="margin-top:110px;">
 
-    
     <!-- <div class='container' id='show_div' style="display:none"> -->
     <div id='show_div' style="margin-top:80px; position:absolute;">
 
         <div class='row'>
             <!--BEGIN SIDE COLUMN LEFT-->
-            <div class='col-3'>
+            <div class='col-3.5'>
                 <div class='row' id="query_form_div">
                 <!--BEGIN FORM:
                     On Submit, this form posts to route "_process_query" (see "uvi_flask.py"), which
@@ -48,48 +47,58 @@ $(document).ready(function(){
                 <form action='/_process_query' id="query_form" method='post' target='results_pane'>
                     <label for="search_box"><b><h4>Search by Verb Lemmas or Classes(*)</h4></b></label>
                     <input id='search_box' type="text" name="lemma_query_string"  placeholder="e.g. run go go_on"><br />
-                    <p> Above field is required, please enter text and click on submit.</p>
+                    <p> Above field is required, Please enter text.</p>
                     <input class='btn btn-primary btn-dark'  type="submit"  value='Submit'>
 
                     <!-- <input class='btn btn-primary btn-dark' disabled = "lemma_query_string ? false : true" type="submit"  value='Submit'> -->
                     <br /><br />
 
                     <span><b>Logical Behavior:</b></span>
-                    <br />
-                    <input type="radio" id="logical_and_radio" name='logic' value='and' checked />
-                    <label for="logical_and_radio">AND (Default)</label>
-                    <br />
-                    <input type="radio" id="logical_or_radio" name='logic' value='or'/>
-                    <label for="logical_or_radio">OR</label>
-
-                    <br />
+                    <div class=" row col-12">
+                        <div class="col-6">
+                            <input type="radio" id="logical_and_radio" name='logic' value='and' checked />
+                            <label for="logical_and_radio">AND (Default)</label>
+                        </div>
+                        <div class="col-6">
+                            <input type="radio" id="logical_or_radio" name='logic' value='or'/>
+                            <label for="logical_or_radio">OR</label>
+                        </div>
+                    </div>
 
                     <span><b>Sorting Behavior:</b></span>
-                    <br />
-                    <input type="radio" id="sort_alpha" name='sort_behavior' value='alpha' checked />
-                    <label for="sort_alpha">Alphabetical</label>
-                    <br />
-                    <input type="radio" id="sort_num" name='sort_behavior' value='num'/>
-                    <label for="sort_num">Numerical</label>
-
-                    <br />
-
+                 <div class = "row col-12"> 
+                    <div class="col-6"> 
+                        <input type="radio" id="sort_alpha" name='sort_behavior' value='alpha' checked />
+                        <label for="sort_alpha">Alphabetical</label>
+                    </div>
+                    <div class="col-6">
+                        <input type="radio" id="sort_num" name='sort_behavior' value='num'/>
+                        <label for="sort_num">Numerical</label>
+                    </div>
+                 </div>
                     <span><b>Include Resources:</b></span>
                     <br />
-                    <input type='checkbox' name='incl_vn' checked>
-                    <label for='incl_vn'>VerbNet</label><br />
-                    <input type='checkbox' name='incl_fn' checked>
-                    <label for='incl_vn'>FrameNet</label><br />
-                    <input type='checkbox' name="incl_pb" checked>
-                    <label for='incl_vn'>PropBank</label><br />
-                    <input type='checkbox' name="incl_wn" checked>
-                    <label for='incl_vn'>OntoNotes</label><br />
+                    <div class="row col-12">
+                        <div class = "col-6">
+                            <input type='checkbox' name='incl_vn' checked>
+                            <label for='incl_vn'>VerbNet</label><br />
+                            <input type='checkbox' name='incl_fn' checked>
+                            <label for='incl_vn'>FrameNet</label><br />
+                        </div>
+                        <div class = "col-6">
+                            <input type='checkbox' name="incl_pb" checked>
+                            <label for='incl_vn'>PropBank</label><br />
+                            <input type='checkbox' name="incl_wn" checked>
+                            <label for='incl_vn'>OntoNotes</label><br />
+                        </div>
+                 </div>
+                   
                 </form>
                 </div>
                 <!--END FORM-->
             </div>
 
-            <div class='col-4'>
+            <div class='col-3'>
                 <div class='row' id="attribute_query_form_div">
                 <form action='/_process_query' id="attribute_query_form" method='post' target='results_pane'>
                     <label for="search_box"><b><h4>Search by VerbNet Attribute</h4></b></label>
