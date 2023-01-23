@@ -1,16 +1,14 @@
 import os
 from flask import Flask, Response
-from flask import render_template, redirect, url_for, request, jsonify, g
+from flask import render_template,request
 from flask_pymongo import PyMongo
-
+from flask_mail import Mail, Message
 from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined
 from methods import sort_by_char, sort_by_id
 
 import json
 
 from bson import json_util
-
-from flask_mail import Mail, Message
 import configparser
 
 configs = configparser.ConfigParser()
@@ -104,6 +102,7 @@ def contact_us():
 						recipients=recipients,
 						body=message)
 		msg.add_recipient(reply_to)
+		print(msg);
 		mail.send(msg)
 
 	return render_template('contact.html')
@@ -324,4 +323,12 @@ def uvi_search_anywhere():
 		sel_res = sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
 		return render_template('uvi_search.html',gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res)
 
+@app.route('/sort_by_frequency')
+def sort_by_frequency():
+	print('Sorting by frequency')
+	vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
+	vs_features = sorted(vs_features, key=lambda x: x[0]['count'], reverse= True)
+	print(vs_features)
+	# newlist = sorted(vs_features, key=lambda x: x.count, reverse=True)
+	return ("nothing")
 
