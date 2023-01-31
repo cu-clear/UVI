@@ -325,7 +325,7 @@ def uvi_search_anywhere():
 
 @app.route('/sort_by_frequency')
 def sort_by_frequency():
-	print('Sorting by frequency')
+	print('Entered sort_by_frequency')
 	vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
 	vs_features = sorted(vs_features, key=lambda x: x[0]['count'], reverse= True)
 	print(vs_features)
