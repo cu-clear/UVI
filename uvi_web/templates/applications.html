@@ -20,6 +20,9 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="tab" href="#download" role="tab">Download</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#agreement" role="tab">Licence Agreement</a>
+      </li>
     </ul>
     <!-- End left navbar -->
 
@@ -46,6 +49,11 @@
         <p style='font-size: 16px; font-weight: 500;'>UVI stores lexical resources as well as mappings between the
           resources. For access to lexical resources used in this project; select the projects/ resources you are
           interested in and click the Download button. Data is downloaded in JSON Format.</p>
+
+        <h2>Licence Agreement </h2>
+        <p style='font-size: 16px; font-weight: 500;'>Please find the licence agreement link for the Verbnet resouces <a href="https://verbs.colorado.edu/verbnet/" class ="licence-link">here</a></p>
+          <p style='font-size: 16px; font-weight: 500;'> The description of the Licence Agreement can be found on the licence agreement tab on the left. Please check that if you need more details.</p>
+
         <form action='/download_json' id="download_form" method='post' target='_blank'>
           <span style="font-size: 18px; font-weight: 500;">Include Resources: </span>
           <br />
@@ -100,7 +108,56 @@
           </div>
         </div>
       </div>
+      <div class="tab-pane active" id="agreement" role="tabpanel">
+       <pre class="licence-text">
+        
+        VerbNet 3.0 License <a href="../static/resources/licence.txt" target="_blank" class ="licence-link">download text</a>. Also applies to VerbNet 3.X versions
 
+            This software and database is being provided to you, the LICENSEE, by
+            the University of Colorado under the following license.  By obtaining, using
+            and/or copying this software and database, you agree that you have
+            read, understood, and will comply with these terms and conditions.:
+
+            Permission to use, copy, modify and distribute this software and
+            database and its documentation for any purpose and without fee or
+            royalty is hereby granted, provided that you agree to comply with
+            the following copyright notice and statements, including the disclaimer,
+            and that the same appear on ALL copies of the software, database and
+            documentation, including modifications that you make for internal
+            use or for distribution.
+
+            VerbNet 3.0 (or 3.X) Copyright 2009 by University of Colorado.  All rights reserved.
+
+            THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND THE UNIVERSITY 
+            OF COLORADO  MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR
+            IMPLIED.  BY WAY OF EXAMPLE, BUT NOT LIMITATION, UNIVERSITY 
+            OF COLORADO MAKES NO REPRESENTATIONS OR WARRANTIES OF MERCHANT-
+            ABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE
+            OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT
+            INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR
+            OTHER RIGHTS.
+
+            The name of University of Colorado or CU may not be used in
+            advertising or publicity pertaining to distribution of the software
+            and/or database.  Title to copyright in this software, database and
+            any associated documentation shall at all times remain with
+            University of Colorado and LICENSEE agrees to preserve same. 
+
+
+            Please reference the following document(s) in any description of 
+            applications based on VerbNet 3.0 (or 3.X): 
+
+            Karin Kipper, Anna Korhonen, Neville Ryant, Martha Palmer, 
+            A Large-scale Classification of English Verbs, 
+            Language Resources and Evaluation Journal, 42(1), pp. 21-40, 
+            Springer Netherland, 2008.
+
+            and/or
+
+            Karin Kipper Schuler, Anna Korhonen, Susan W. Brown, 
+            VerbNet overview, extensions, mappings and apps, Tutorial, NAACL-HLT 2009, Boulder, Colorado.
+       </pre>
+      </div>
     </div>
   </div>
   <div>
@@ -143,6 +200,12 @@
 
       .fa:hover {
         color: #0645AD;
+      }
+      .licence-link{
+        color: aliceblue;
+      }
+      .licence-text{
+        font-size: initial;
       }
     </style>
 
