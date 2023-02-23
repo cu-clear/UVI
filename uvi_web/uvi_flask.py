@@ -110,7 +110,9 @@ def contact_us():
 @app.route('/references_page', methods=['GET'])
 def references_page():
 	gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
+	gen_themroles_freq = sorted(gen_themroles,key=lambda x: list(x.values())[0]["count"], reverse=True)
 	predicates = sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
+	predicates_freq = sorted(predicates,key=lambda x: list(x.values())[0]["count"], reverse=True)
 	vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
 	vs_features_freq = sorted(vs_features,key=lambda x: list(x.values())[0]["count"], reverse=True)
 	syn_res = sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
@@ -118,7 +120,7 @@ def references_page():
 
 	## All Page details are returned by get_ref_page in a dictioanry format
 	return render_template('references.html',
-		gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, vs_features_freq = vs_features_freq, syn_res=syn_res, sel_res=sel_res
+		gen_themroles=gen_themroles, gen_themroles_freq = gen_themroles_freq, predicates=predicates, vs_features=vs_features, vs_features_freq = vs_features_freq, predicates_freq = predicates_freq, syn_res=syn_res, sel_res=sel_res
 	)
 
 @app.route('/_process_query', methods=['GET','POST'])
