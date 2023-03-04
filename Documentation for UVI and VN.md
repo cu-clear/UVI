@@ -32,8 +32,7 @@ About UVI (https://uvi.colorado.edu/):
     [MAIL_SETUP]
     mail_username = uvi.contact@gmail.com
     mail_password = VerbsAccount
-    recipients = uvi.contact@gmail.com, martha.palmer@colorado.edu, brownsw@colorado.edu, kevincstowe@gmail.com, lan.sang@colorado.edu
-(Or inject username and password from configs.ini file. NEVER, NEVER commit or upload this file anywhere.)
+    recipients = uvi.contact@gmail.com, martha.palmer@colorado.edu, brownsw@colorado.edu
 
 3.	Now the website has been set on your own local machine. You can run the server with commands below:
 

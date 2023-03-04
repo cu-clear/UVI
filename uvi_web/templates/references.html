@@ -60,42 +60,82 @@
               <h2 id="scroll2">General Thematic Roles</h2>
             </div>
             <div class="col-6" style = "display: inline-block; top : 14px">
+              <div  id="ButtonsPage">
                 <ul class="nav" role="tablist" id='bothButtons'>
-                  <li role="button" id="button_num"   class="active" ><a href="#tab_num" id="button_num" role="tab" class="button no-underline" >Sort by Frequency</a></li>
-                  <li role="button"  ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" >Sort by name</a></li>
+                  <li role="button"  class="active" ><a href="#tab_num_gen" id="button_num_gen" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
+                  <li role="button"  ><a href="#tab_name_gen" id = "button_name_gen" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
                 </ul>
                 <br>
               </div>
+              </div>
             </div>
           <br>
-          <h5>
-            {% for th_el in gen_themroles %}
-              {% for themrole, them_val in th_el.items() %}
-                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
-                  <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
-                </button>
-                <div class="collapse" id="{{themrole}}">
-                  <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
-                    <div class="card-header">
-                      <p>
-                        {{themrole}}<br><br>
-                        Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
-                      </p>
-                    </div>
-                    <div class="card card-body">
-                      <h5>
-                        {% for vn_mem in them_val['vn_class_members'] %}
-                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
-                          <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
-                        </button>
-                        {% endfor %}
-                      </h5>
+          <!-- starts for frequency -->
+          <div class="col-11" id="refPage">
+            <div class="tab-content row" >
+          <div role="tabpanel" class="tab-pane" id="tab_num_gen">
+            <h5>
+              {% for th_el in gen_themroles_freq %}
+                {% for themrole, them_val in th_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+                  </button>
+                  <div class="collapse" id="{{themrole}}">
+                    <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+                      <div class="card-header">
+                        <p>
+                          {{themrole}}<br><br>
+                          Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
+                        </p>
+                      </div>
+                      <div class="card card-body">
+                        <h5>
+                          {% for vn_mem in them_val['vn_class_members'] %}
+                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                            <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                          </button>
+                          {% endfor %}
+                        </h5>
+                      </div>
                     </div>
                   </div>
-                </div>
+                {% endfor %}
               {% endfor %}
-            {% endfor %}
-          </h5>
+            </h5>
+          </div>
+           <!-- ends for frequency -->
+           <div role="tabpanel" class="tab-pane active" id="tab_name_gen">
+            <h5>
+              {% for th_el in gen_themroles %}
+                {% for themrole, them_val in th_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+                  </button>
+                  <div class="collapse" id="{{themrole}}">
+                    <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+                      <div class="card-header">
+                        <p>
+                          {{themrole}}<br><br>
+                          Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
+                        </p>
+                      </div>
+                      <div class="card card-body">
+                        <h5>
+                          {% for vn_mem in them_val['vn_class_members'] %}
+                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                            <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                          </button>
+                          {% endfor %}
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+              {% endfor %}
+            </h5>
+          </div>
+      </div>
+      </div>
       </div>
       <div class="tab-pane" id="pred" role="tabpanel">
           <div class="col-12">
@@ -103,15 +143,52 @@
               <h2>Predicates</h2>
             </div>
             <div class="col-6" style = "display: inline-block; top : 14px">
+              <div  id="ButtonsPage">
                 <ul class="nav" role="tablist" id='bothButtons'>
-                  <li role="button" id="button_num"   class="active" ><a href="#tab_num" id="button_num" role="tab" class="button no-underline" >Sort by Frequency</a></li>
-                  <li role="button"  ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" >Sort by name</a></li>
+                  <li role="button"  class="active" ><a href="#tab_num_pre" id="button_num_pre" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
+                  <li role="button"  ><a href="#tab_name_pre" id = "button_name_pre" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
                 </ul>
                 <br>
               </div>
+              </div>
             </div>
-      
           <br>
+          <!-- below freq starts -->
+          <div class="col-11" id="hierPage">
+            <div class="tab-content row" >
+          <div role="tabpanel" class="tab-pane" id="tab_num_pre">
+            <h5>
+              {% for el in predicates_freq %}
+                {% for pred, pred_val in el.items()%}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#pr-{{pred}}" aria-expanded="false" aria-controls="#pr-{{pred}}">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ pred+' ('+pred_val['count']|string+')' }}</span>
+                </button>
+                <div class="collapse" id="pr-{{pred}}">
+                  <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
+                    <div class="card-header">
+                      <p>
+                        {{pred}}<br><br>
+                        Description: {{ pred_val['description'] }}<br><br>
+                        Classes containing <span style="text-transform: uppercase;">{{pred}}: </span>{{ pred_val['vn_class_members']|length }}<br>
+                      </p>
+                    </div>
+                    <div class="card card-body">
+                      <h5>
+                      {% for vn_mem in pred_val['vn_class_members']|sort %}
+                      <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                        <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
+                      </button>
+                      {% endfor %}
+                    </h5>
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              {% endfor %}
+            </h5>
+            </div>
+            <!-- Above is the freq -->
+          <div role="tabpanel" class="tab-pane active" id="tab_name_pre">
           <h5>
             {% for el in predicates %}
               {% for pred, pred_val in el.items()%}
@@ -141,7 +218,10 @@
               {% endfor %}
             {% endfor %}
           </h5>
+        </div>
       </div>
+    </div>
+  </div>
       <div class="tab-pane" id="vsFeats" role="tabpanel">
         <div class="col-12">
           <div class="col-4" style = "display: inline-block;" >
@@ -150,8 +230,8 @@
           <div class="col-6" style = "display: inline-block; top : 14px">
             <div  id="ButtonsPage">
               <ul class="nav" role="tablist" id='bothButtons'>
-                <li role="button"  class="active" ><a href="#tab_num" id="button_num" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                <li role="button"  ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
+                <li role="button"  class="active" ><a href="#tab_num_vs" id="button_num_vs" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
+                <li role="button"  ><a href="#tab_name_vs" id = "button_name_vs" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
               </ul>
               <br>
             </div>
@@ -161,7 +241,7 @@
           <!-- Sorted frequency start -->
           <div class="col-11" id="hierPage">
             <div class="tab-content row" >
-              <div role="tabpanel" class="tab-pane " id="tab_num">
+              <div role="tabpanel" class="tab-pane " id="tab_num_vs">
                   <h5>
                     {% for vs_el in vs_features_freq %}
                       {% for vs_feat, vs_val in vs_el.items() %}
@@ -189,10 +269,9 @@
                       {% endfor %}
                     {% endfor %}
                   </h5>
-          </div>
+            </div>
           <!-- Sorted frequency manner-->
-          <div role="tabpanel" class="tab-pane active" id="tab_name">
-
+          <div role="tabpanel" class="tab-pane active" id="tab_name_vs">
             <h5>
               {% for vs_el in vs_features %}
                 {% for vs_feat, vs_val in vs_el.items() %}
