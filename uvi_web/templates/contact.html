@@ -8,10 +8,11 @@
 <div id="contact-view">
 	<div class='row'>
 		<div class="col-xl-8 offset-xl-2 py-5">
+			<marquee class="css1">Note: Our contact form is down over the years, Its working now. Please contact us again.</marquee>
 			<h2>Contact form</h2>
             <form action='/contact_us' id="contact_form" method='POST'>
 
-			    <div class="controls">
+			    <div class="controls mb-2">
 
 			        <div class="row">
 			            <div class="col-md-12">
@@ -57,11 +58,17 @@
 		width:70%;
 		margin-left:15%;
 	}
+	.css1{
+		 background-color:rgb(159, 233, 243); 
+		font-size:17px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-style:italic;
+		font-weight:bold;
+		color:purple;
+		/* text-shadow: 2px 2px 8px #FF0000; */
+	}
 </style>
 
 {% endblock %}
-
 {% block scripts %}
-
-
 {% endblock %}
