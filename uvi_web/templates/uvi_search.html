@@ -52,17 +52,18 @@ $(document).ready(function(){
 
                     <!-- <input class='btn btn-primary btn-dark' disabled = "lemma_query_string ? false : true" type="submit"  value='Submit'> -->
                     <br /><br />
-
-                    <span><b>Logical Behavior:</b></span>
+                   
+                    <span><b>Multiple word search/ Logical Behavior:</b></span>
                     <div class=" row col-12">
                         <div class="col-6">
-                            <input type="radio" id="logical_and_radio" name='logic' value='and' checked />
-                            <label for="logical_and_radio">AND (Default)</label>
+                            <input type="radio" id="logical_or_radio" name='logic' value='or' checked/>
+                            <label for="logical_or_radio">OR(Default)</label>
                         </div>
                         <div class="col-6">
-                            <input type="radio" id="logical_or_radio" name='logic' value='or'/>
-                            <label for="logical_or_radio">OR</label>
+                            <input type="radio" id="logical_and_radio" name='logic' value='and'  />
+                            <label for="logical_and_radio">AND </label>
                         </div>
+                        
                     </div>
 
                     <span><b>Sorting Behavior:</b></span>

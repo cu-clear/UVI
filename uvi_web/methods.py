@@ -356,7 +356,6 @@ def get_themrole_fields(class_id, frame_desc_primary, frame_desc_secondary, them
 
 # 	selrestr_list = None
 # 	selrestr_logic = None
-	
 # 	#Get the list of parent class id's from which this class would inherit semantic restrictions (if any)
 # 	parents = [('-').join(class_id.split('-')[:x]) for x in range(2, len(class_id.split('-'))+1)]
 # 	for parent_class_id in parents:
