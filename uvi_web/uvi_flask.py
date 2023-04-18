@@ -130,7 +130,7 @@ def process_query(common_query_string = None):
 			print('entered common if loop')
 			query_string = common_query_string
 			lemmas = [x.lower() for x in query_string.split(' ')]
-			logic = "and"
+			logic = "or"
 			sort_behavior = "alpha"
 			incl_vn = True
 			incl_fn = True
@@ -309,7 +309,7 @@ def uvi_search_anywhere():
 		uvi_search()
 		query_string = request.form.get('common_query_string')
 		lemmas = [x.lower() for x in query_string.split(' ')]
-		logic = "and"
+		logic = "or"
 		sort_behavior = "alpha"
 		incl_vn = True
 		incl_fn = True
