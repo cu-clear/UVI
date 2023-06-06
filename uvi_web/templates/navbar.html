@@ -2,11 +2,16 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top row">
   <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
   <div class="col-md-4">
-    <div id='logo_uvi'>
-      <a class="navbar-brand" href={{ url_for('index') }}>
-        <img src="/static/images/NLP/Clear-new.png" height="80px" id="logo">
-      </a>
-      <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
+    <div class="col-md-12 row" id='logo_uvi'>
+      <div class="col-md-3">
+        <a class="navbar-brand" href={{ url_for('index') }}>
+          <img src="/static/images/NLP/Clear-new.png" height="80px" id="logo">
+        </a>
+      </div>
+      <div class="col-md-9">
+        <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
+        <p style="color:black">Computational Language and Educational Research</p>
+      </div>
     </div>
   </div>
   <div class="col-md-8">
@@ -17,7 +22,7 @@
           <div class="search-container">
               <form action="/uvi_search_anywhere" method='post' id="query_form2"  >
                 <input id = "search_box-search" type="text" placeholder="Click search to navigate..." name="common_query_string">
-                <button type="submit" value='Submit'> <a >Search</a></button>
+                <button type="submit" value='Submit'> <a>Search</a></button>
               </form>
             </a>
           </div>
