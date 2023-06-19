@@ -54,6 +54,8 @@
       <div class="tab-pane" id="themRoleImg" role="tabpanel">
         <h2>Image for thematic roles needs to go here</h2>
       </div>
+
+       <!-- Start of General thematic roles -->
       <div class="tab-pane" id="themRoles" role="tabpanel">
           <div class="col-12">
             <div class="col-4" style = "display: inline-block;" >
@@ -73,18 +75,18 @@
           <!-- starts for frequency -->
           <div class="col-11" id="refPage">
             <div class="tab-content row" >
-          <div role="tabpanel" class="tab-pane" id="tab_num_gen">
+          <div role="tabpanel" class="tab-pane active" id="tab_num_gen">
             <h5>
               {% for th_el in gen_themroles_freq %}
-                {% for themrole, them_val in th_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
-                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+                {% for themrole_freq, them_val in th_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole_freq}}" aria-expanded="false" aria-controls="#{{themrole_freq}}">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole_freq+' ('+them_val['count']|string+')' }}</span>
                   </button>
-                  <div class="collapse" id="{{themrole}}">
+                  <div class="collapse" id="{{themrole_freq}}">
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
-                          {{themrole}}<br><br>
+                          {{themrole_freq}}<br><br>
                           Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
                         </p>
                       </div>
@@ -104,18 +106,19 @@
             </h5>
           </div>
            <!-- ends for frequency -->
-           <div role="tabpanel" class="tab-pane active" id="tab_name_gen">
+            <!-- starts for classname -->
+           <div role="tabpanel" class="tab-pane " id="tab_name_gen">
             <h5>
               {% for th_el in gen_themroles %}
-                {% for themrole, them_val in th_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
-                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+                {% for themrole_name, them_val in th_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#th-{{themrole_name}}" aria-expanded="false" aria-controls="#th-{{themrole_name}}">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole_name+' ('+them_val['count']|string+')' }}</span>
                   </button>
-                  <div class="collapse" id="{{themrole}}">
+                  <div class="collapse" id="th-{{themrole_name}}">
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
-                          {{themrole}}<br><br>
+                          {{themrole_name}}<br><br>
                           Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
                         </p>
                       </div>
@@ -134,9 +137,14 @@
               {% endfor %}
             </h5>
           </div>
+           <!-- ends for classname -->
       </div>
       </div>
       </div>
+
+
+
+       <!-- Start of Predicates -->
       <div class="tab-pane" id="pred" role="tabpanel">
           <div class="col-12">
             <div class="col-4" style = "display: inline-block;" >
