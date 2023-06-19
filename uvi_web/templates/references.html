@@ -161,23 +161,23 @@
               </div>
             </div>
           <br>
-          <!-- below freq starts -->
+          <!-- Start of pred with freq  -->
           <div class="col-11" id="hierPage">
             <div class="tab-content row" >
-          <div role="tabpanel" class="tab-pane" id="tab_num_pre">
+          <div role="tabpanel" class="tab-pane active" id="tab_num_pre">
             <h5>
               {% for el in predicates_freq %}
-                {% for pred, pred_val in el.items()%}
-                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#pr-{{pred}}" aria-expanded="false" aria-controls="#pr-{{pred}}">
-                  <span style="font-weight:bold; text-transform:uppercase;">{{ pred+' ('+pred_val['count']|string+')' }}</span>
+                {% for pred_freq, pred_val in el.items()%}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#prf-{{pred_freq}}" aria-expanded="false" aria-controls="#prf-{{pred_freq}}">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ pred_freq+' ('+pred_val['count']|string+')' }}</span>
                 </button>
-                <div class="collapse" id="pr-{{pred}}">
+                <div class="collapse" id="prf-{{pred_freq}}">
                   <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                     <div class="card-header">
                       <p>
-                        {{pred}}<br><br>
+                        {{pred_freq}}<br><br>
                         Description: {{ pred_val['description'] }}<br><br>
-                        Classes containing <span style="text-transform: uppercase;">{{pred}}: </span>{{ pred_val['vn_class_members']|length }}<br>
+                        Classes containing <span style="text-transform: uppercase;">{{pred_freq}}: </span>{{ pred_val['vn_class_members']|length }}<br>
                       </p>
                     </div>
                     <div class="card card-body">
@@ -195,21 +195,23 @@
               {% endfor %}
             </h5>
             </div>
-            <!-- Above is the freq -->
-          <div role="tabpanel" class="tab-pane active" id="tab_name_pre">
+            <!-- end of the freq -->
+
+             <!-- start of the pred-name -->
+          <div role="tabpanel" class="tab-pane " id="tab_name_pre">
           <h5>
             {% for el in predicates %}
-              {% for pred, pred_val in el.items()%}
-              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#pr-{{pred}}" aria-expanded="false" aria-controls="#pr-{{pred}}">
-                <span style="font-weight:bold; text-transform:uppercase;">{{ pred+' ('+pred_val['count']|string+')' }}</span>
+              {% for predname, pred_val in el.items()%}
+              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#prn-{{predname}}" aria-expanded="false" aria-controls="#prn-{{predname}}">
+                <span style="font-weight:bold; text-transform:uppercase;">{{ predname+' ('+pred_val['count']|string+')' }}</span>
               </button>
-              <div class="collapse" id="pr-{{pred}}">
+              <div class="collapse" id="prn-{{predname}}">
                 <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                   <div class="card-header">
                     <p>
-                      {{pred}}<br><br>
+                      {{predname}}<br><br>
                       Description: {{ pred_val['description'] }}<br><br>
-                      Classes containing <span style="text-transform: uppercase;">{{pred}}: </span>{{ pred_val['vn_class_members']|length }}<br>
+                      Classes containing <span style="text-transform: uppercase;">{{predname}}: </span>{{ pred_val['vn_class_members']|length }}<br>
                     </p>
                   </div>
                   <div class="card card-body">
@@ -227,6 +229,7 @@
             {% endfor %}
           </h5>
         </div>
+        <!-- end of the pred-name -->
       </div>
     </div>
   </div>
