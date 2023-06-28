@@ -29,6 +29,14 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- <script>
+    $(document).ready(function(){
+        $("#close_button").click(function(){
+            $("#results_pane_div").hide();
+        $("#show_div").show();
+        });
+    });
+    </script> -->
 {% include 'navbar.html' %}
 
 <div id='home_span' style="margin-top:110px;">
@@ -53,7 +61,7 @@ $(document).ready(function(){
                     <!-- <input class='btn btn-primary btn-dark' disabled = "lemma_query_string ? false : true" type="submit"  value='Submit'> -->
                     <br /><br />
                    
-                    <span><b>Multiple word search/ Logical Behavior:</b></span>
+                    <span><b>Multiple word search/ Behavior:</b></span>
                     <div class=" row col-12">
                         <div class="col-6">
                             <input type="radio" id="logical_or_radio" name='logic' value='or' checked/>
@@ -109,22 +117,24 @@ $(document).ready(function(){
 
                     <span><b>Attribute Type:</b></span>
                     <br />
-                    <input type='radio' name='vn_attribute' value='themrole' checked />
+                    <input type='radio' name='vn_attribute' id="themrole" value='themrole' checked />
                     <label for='vn_attribute'><div class="hoverWrapper">Thematic Role
                         <i class="fa fa-question-circle"></i>
-                        <div id="hoverGenThem">
-                            {% for th_el in gen_themroles %}
-                              <span>{% for themrole, them_val in th_el.items() %}
-                               <b>{{themrole}}</b>
-                              {%endfor %}</span>
-                              <span>{{ ", " if not loop.last }}</span>
-                            {% endfor %}
-                        </div>
+                            <div id="hoverGenThem">
+                                {% for th_el in gen_themroles %}
+                                  <span>{% for themrole, them_val in th_el.items() %}
+                                   <b>{{themrole}}</b>
+                                  {%endfor %}</span>
+                                  <span>{{ ", " if not loop.last }}</span>
+                                {% endfor %}
+                            </div>
+                       
                     </div></label><br />
                     <input type='radio' name='vn_attribute' value='predicate'/>
                     <label for='vn_attribute'><div class="hoverWrapper">Predicate
                         <i class="fa fa-question-circle"></i>
-                        <div id="hoverPred">
+                        <!-- {% if vn_attribute == predicate %}  -->
+                        <div  id="hoverPred" >
                             {% for pr_el in predicates %}
                               <span>{% for pred, pred_val in pr_el.items() %}
                                <b>{{pred}}</b>
@@ -132,10 +142,12 @@ $(document).ready(function(){
                               <span>{{ ", " if not loop.last }}</span>
                             {% endfor %}
                         </div>
+                        <!-- {% endif %} -->
                     </div></label><br />
                     <input type='radio' name="vn_attribute" value='vs_feature' />
                     <label for='vn_attribute'><div class="hoverWrapper">Verb-Specific Feature
                         <i class="fa fa-question-circle"></i>
+                        <!-- {% if vn_attribute == vs_feature %}  -->
                         <div id="hoverVS">
                             {% for vs_el in vs_features %}
                               <span>{% for vs_feat, vs_val in vs_el.items() %}
@@ -144,10 +156,12 @@ $(document).ready(function(){
                               <span>{{ ", " if not loop.last }}</span>
                             {% endfor %}
                         </div>
+                        <!-- {% endif %} -->
                     </div></label><br />
                     <input type='radio' name="vn_attribute" value='selrestr' />
                     <label for='vn_attribute'><div class="hoverWrapper">Selectional Restriction
                         <i class="fa fa-question-circle"></i>
+                        <!-- {% if vn_attribute == selrestr %}  -->
                         <div id="hoverSelRes">
                             {% for sr_el in sel_res %}
                               <span>{% for sr_feat, sr_val in sr_el.items() %}
@@ -156,10 +170,12 @@ $(document).ready(function(){
                               <span>{{ ", " if not loop.last }}</span>
                             {% endfor %}
                         </div>
+                        <!-- {% endif %} -->
                     </div></label><br />
                     <input type='radio' name="vn_attribute" value='synrestr' />
                     <label for='vn_attribute'><div class="hoverWrapper">Syntactic Restriction
                         <i class="fa fa-question-circle"></i>
+                       
                         <div id="hoverSynRes">
                             {% for syn_el in syn_res %}
                               <span>{% for synres_feat, synres_val in syn_el.items() %}
@@ -190,14 +206,14 @@ $(document).ready(function(){
 </script>
 
 <style type="text/css">
-    .hoverWrapper:hover #hoverGenThem {display: block;}
-    .hoverWrapper:hover #hoverPred { display: block;}
-    .hoverWrapper:hover #hoverVS { display: block;}
-    .hoverWrapper:hover #hoverSelRes { display: block;}
-    .hoverWrapper:hover #hoverSynRes { display: block;}
+    .hoverWrapper #hoverGenThem {display: block;}
+    .hoverWrapper #hoverPred { display: block;}
+    .hoverWrapper #hoverVS { display: block;}
+    .hoverWrapper #hoverSelRes { display: block;}
+    .hoverWrapper #hoverSynRes { display: block;}
 
     #hoverGenThem, #hoverPred, #hoverVS, #hoverSelRes, #hoverSynRes  {
-     display: none;
+     display: inline-block;
      position: absolute;
      margin: 5px;
      border-radius: 25px;
