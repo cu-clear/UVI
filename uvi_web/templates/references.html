@@ -54,6 +54,8 @@
       <div class="tab-pane" id="themRoleImg" role="tabpanel">
         <h2>Image for thematic roles needs to go here</h2>
       </div>
+
+       <!-- Start of General thematic roles -->
       <div class="tab-pane" id="themRoles" role="tabpanel">
           <div class="col-12">
             <div class="col-4" style = "display: inline-block;" >
@@ -73,18 +75,18 @@
           <!-- starts for frequency -->
           <div class="col-11" id="refPage">
             <div class="tab-content row" >
-          <div role="tabpanel" class="tab-pane" id="tab_num_gen">
+          <div role="tabpanel" class="tab-pane active" id="tab_num_gen">
             <h5>
               {% for th_el in gen_themroles_freq %}
-                {% for themrole, them_val in th_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
-                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+                {% for themrole_freq, them_val in th_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole_freq}}" aria-expanded="false" aria-controls="#{{themrole_freq}}">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole_freq+' ('+them_val['count']|string+')' }}</span>
                   </button>
-                  <div class="collapse" id="{{themrole}}">
+                  <div class="collapse" id="{{themrole_freq}}">
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
-                          {{themrole}}<br><br>
+                          {{themrole_freq}}<br><br>
                           Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
                         </p>
                       </div>
@@ -104,18 +106,19 @@
             </h5>
           </div>
            <!-- ends for frequency -->
-           <div role="tabpanel" class="tab-pane active" id="tab_name_gen">
+            <!-- starts for classname -->
+           <div role="tabpanel" class="tab-pane " id="tab_name_gen">
             <h5>
               {% for th_el in gen_themroles %}
-                {% for themrole, them_val in th_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole}}" aria-expanded="false" aria-controls="#{tab_id}">
-                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole+' ('+them_val['count']|string+')' }}</span>
+                {% for themrole_name, them_val in th_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#th-{{themrole_name}}" aria-expanded="false" aria-controls="#th-{{themrole_name}}">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ themrole_name+' ('+them_val['count']|string+')' }}</span>
                   </button>
-                  <div class="collapse" id="{{themrole}}">
+                  <div class="collapse" id="th-{{themrole_name}}">
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
-                          {{themrole}}<br><br>
+                          {{themrole_name}}<br><br>
                           Description: {{them_val['description']}}<br><br>Example: {{them_val['example']}}<br>
                         </p>
                       </div>
@@ -134,9 +137,14 @@
               {% endfor %}
             </h5>
           </div>
+           <!-- ends for classname -->
       </div>
       </div>
       </div>
+
+
+
+       <!-- Start of Predicates -->
       <div class="tab-pane" id="pred" role="tabpanel">
           <div class="col-12">
             <div class="col-4" style = "display: inline-block;" >
@@ -153,23 +161,23 @@
               </div>
             </div>
           <br>
-          <!-- below freq starts -->
+          <!-- Start of pred with freq  -->
           <div class="col-11" id="hierPage">
             <div class="tab-content row" >
-          <div role="tabpanel" class="tab-pane" id="tab_num_pre">
+          <div role="tabpanel" class="tab-pane active" id="tab_num_pre">
             <h5>
               {% for el in predicates_freq %}
-                {% for pred, pred_val in el.items()%}
-                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#pr-{{pred}}" aria-expanded="false" aria-controls="#pr-{{pred}}">
-                  <span style="font-weight:bold; text-transform:uppercase;">{{ pred+' ('+pred_val['count']|string+')' }}</span>
+                {% for pred_freq, pred_val in el.items()%}
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#prf-{{pred_freq}}" aria-expanded="false" aria-controls="#prf-{{pred_freq}}">
+                  <span style="font-weight:bold; text-transform:uppercase;">{{ pred_freq+' ('+pred_val['count']|string+')' }}</span>
                 </button>
-                <div class="collapse" id="pr-{{pred}}">
+                <div class="collapse" id="prf-{{pred_freq}}">
                   <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                     <div class="card-header">
                       <p>
-                        {{pred}}<br><br>
+                        {{pred_freq}}<br><br>
                         Description: {{ pred_val['description'] }}<br><br>
-                        Classes containing <span style="text-transform: uppercase;">{{pred}}: </span>{{ pred_val['vn_class_members']|length }}<br>
+                        Classes containing <span style="text-transform: uppercase;">{{pred_freq}}: </span>{{ pred_val['vn_class_members']|length }}<br>
                       </p>
                     </div>
                     <div class="card card-body">
@@ -187,21 +195,23 @@
               {% endfor %}
             </h5>
             </div>
-            <!-- Above is the freq -->
-          <div role="tabpanel" class="tab-pane active" id="tab_name_pre">
+            <!-- end of the freq -->
+
+             <!-- start of the pred-name -->
+          <div role="tabpanel" class="tab-pane " id="tab_name_pre">
           <h5>
             {% for el in predicates %}
-              {% for pred, pred_val in el.items()%}
-              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#pr-{{pred}}" aria-expanded="false" aria-controls="#pr-{{pred}}">
-                <span style="font-weight:bold; text-transform:uppercase;">{{ pred+' ('+pred_val['count']|string+')' }}</span>
+              {% for predname, pred_val in el.items()%}
+              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#prn-{{predname}}" aria-expanded="false" aria-controls="#prn-{{predname}}">
+                <span style="font-weight:bold; text-transform:uppercase;">{{ predname+' ('+pred_val['count']|string+')' }}</span>
               </button>
-              <div class="collapse" id="pr-{{pred}}">
+              <div class="collapse" id="prn-{{predname}}">
                 <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                   <div class="card-header">
                     <p>
-                      {{pred}}<br><br>
+                      {{predname}}<br><br>
                       Description: {{ pred_val['description'] }}<br><br>
-                      Classes containing <span style="text-transform: uppercase;">{{pred}}: </span>{{ pred_val['vn_class_members']|length }}<br>
+                      Classes containing <span style="text-transform: uppercase;">{{predname}}: </span>{{ pred_val['vn_class_members']|length }}<br>
                     </p>
                   </div>
                   <div class="card card-body">
@@ -219,6 +229,7 @@
             {% endfor %}
           </h5>
         </div>
+        <!-- end of the pred-name -->
       </div>
     </div>
   </div>
@@ -238,21 +249,21 @@
             </div>
             </div>
           <br>
-          <!-- Sorted frequency start -->
+          <!-- start of  VS frequency -->
           <div class="col-11" id="hierPage">
             <div class="tab-content row" >
-              <div role="tabpanel" class="tab-pane " id="tab_num_vs">
+              <div role="tabpanel" class="tab-pane active" id="tab_num_vs">
                   <h5>
                     {% for vs_el in vs_features_freq %}
-                      {% for vs_feat, vs_val in vs_el.items() %}
-                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vs-{{vs_feat[1:]}}" aria-expanded="false" aria-controls="#vs-{{vs_feat[1:]}}">
-                          <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat+' ('+vs_val['count']|string+')' }}</span>
+                      {% for vs_feat_freq, vs_val in vs_el.items() %}
+                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsf-{{vs_feat_freq[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                          <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat_freq +' ('+vs_val['count']|string+')' }}</span>
                         </button>
-                        <div class="collapse" id="vs-{{vs_feat[1:]}}">
+                        <div class="collapse" id="vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
                           <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                             <div class="card-header">
                               <p>
-                                Frames containing <span style="text-transform: uppercase;">{{vs_feat}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
+                                Frames containing <span style="text-transform: uppercase;">{{vs_feat_freq}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
                               </p>
                             </div>
                             <div class="card card-body">
@@ -270,19 +281,20 @@
                     {% endfor %}
                   </h5>
             </div>
-          <!-- Sorted frequency manner-->
+            <!-- end of  VS frequency -->
+          <!-- Start of VS name-->
           <div role="tabpanel" class="tab-pane active" id="tab_name_vs">
             <h5>
               {% for vs_el in vs_features %}
-                {% for vs_feat, vs_val in vs_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vs-{{vs_feat[1:]}}" aria-expanded="false" aria-controls="#vs-{{vs_feat[1:]}}">
-                    <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat+' ('+vs_val['count']|string+')' }}</span>
+                {% for vs_feat_name, vs_val in vs_el.items() %}
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                    <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat_name+' ('+vs_val['count']|string+')' }}</span>
                   </button>
-                  <div class="collapse" id="vs-{{vs_feat[1:]}}">
+                  <div class="collapse" id="vsn-{{ vs_feat_name[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
-                          Frames containing <span style="text-transform: uppercase;">{{vs_feat}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
+                          Frames containing <span style="text-transform: uppercase;">{{vs_feat_name}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
                         </p>
                       </div>
                       <div class="card card-body">
@@ -299,8 +311,8 @@
                 {% endfor %}
               {% endfor %}
             </h5>
-
           </div>
+          <!-- end of  VS name -->
           </div>
           </div>
 
