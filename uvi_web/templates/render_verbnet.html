@@ -37,7 +37,7 @@
               </div>
               <div class="col-8">
                 <div class="card-body">
-                  <h7 class="card-title">Member Verb Lemmas:</h7>
+                  <h7 class="card-title">Member Verb Lemmas:-parent</h7>
                     <h5 class="card-text">
                       {% for member in vn_class_json['members'] %}
                       {% set popover_id = id~member['name'] %}
@@ -180,6 +180,7 @@
                   </button>
                   {% endfor %}
                 </h5>
+                {% include 'parent_themroles.html' %}
             </div>
           {% endif %}
 
@@ -191,6 +192,7 @@
           {% set vn_elements = vn_class_json['subclasses'] %}
           Subclasses:
           {% include 'render_verbnet.html' %}
+
           {% endif %}
         </div>
       </div>
