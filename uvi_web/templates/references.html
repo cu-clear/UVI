@@ -65,7 +65,7 @@
               <div  id="ButtonsPage">
                 <ul class="nav" role="tablist" id='bothButtons'>
                   <li role="button"  class="active" ><a href="#tab_num_gen" id="button_num_gen" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                  <li role="button"  ><a href="#tab_name_gen" id = "button_name_gen" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
+                  <li role="button"  ><a href="#tab_name_gen" id = "button_name_gen" class="button no-underline" role="tab" data-toggle="tab" >Sort by feature name</a></li>
                 </ul>
                 <br>
               </div>
@@ -154,7 +154,7 @@
               <div  id="ButtonsPage">
                 <ul class="nav" role="tablist" id='bothButtons'>
                   <li role="button"  class="active" ><a href="#tab_num_pre" id="button_num_pre" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                  <li role="button"  ><a href="#tab_name_pre" id = "button_name_pre" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
+                  <li role="button"  ><a href="#tab_name_pre" id = "button_name_pre" class="button no-underline" role="tab" data-toggle="tab" >Sort by feature name</a></li>
                 </ul>
                 <br>
               </div>
@@ -242,7 +242,7 @@
             <div  id="ButtonsPage">
               <ul class="nav" role="tablist" id='bothButtons'>
                 <li role="button"  class="active" ><a href="#tab_num_vs" id="button_num_vs" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                <li role="button"  ><a href="#tab_name_vs" id = "button_name_vs" class="button no-underline" role="tab" data-toggle="tab" >Sort by class name</a></li>
+                <li role="button"  ><a href="#tab_name_vs" id = "button_name_vs" class="button no-underline" role="tab" data-toggle="tab" >Sort by feature name</a></li>
               </ul>
               <br>
             </div>
@@ -263,7 +263,7 @@
                           <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                             <div class="card-header">
                               <p>
-                                Frames containing <span style="text-transform: uppercase;">{{vs_feat_freq}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
+                                Classes containing <span style="text-transform: uppercase;">{{vs_feat_freq}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
                               </p>
                             </div>
                             <div class="card card-body">
@@ -294,7 +294,7 @@
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
-                          Frames containing <span style="text-transform: uppercase;">{{vs_feat_name}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
+                          Classes containing <span style="text-transform: uppercase;">{{vs_feat_name}}: </span>{{ vs_val['vn_class_mem']|length }}<br>
                         </p>
                       </div>
                       <div class="card card-body">
@@ -331,7 +331,7 @@
               <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                 <div class="card-header">
                   <p>
-                    Frames containing <span style="text-transform: uppercase;">{{pol}}{{syn_res_name }}: </span><br>
+                    Classes containing <span style="text-transform: uppercase;">{{pol}}{{syn_res_name }}: </span><br>
                     Count: {{ val['count'] }} <br>
                   </p>
                 </div>

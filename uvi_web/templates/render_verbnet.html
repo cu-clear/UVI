@@ -180,6 +180,7 @@
                   </button>
                   {% endfor %}
                 </h5>
+                {% include 'parent_themroles.html' %}
             </div>
           {% endif %}
 
@@ -191,6 +192,7 @@
           {% set vn_elements = vn_class_json['subclasses'] %}
           Subclasses:
           {% include 'render_verbnet.html' %}
+
           {% endif %}
         </div>
       </div>
