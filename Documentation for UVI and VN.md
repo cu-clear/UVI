@@ -26,7 +26,7 @@ About UVI (https://uvi.colorado.edu/):
     python -m spacy download en
 
          python
-                              nltk.download('punkt')
+         nltk.download('punkt')
 (7)	Set environment variables for mail server:
 
     [MAIL_SETUP]
