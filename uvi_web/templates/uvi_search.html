@@ -1,256 +1,358 @@
-{% extends 'bootstrap_base.html' %}
-{% block title %} UVI Search {% endblock %}
+{% extends 'bootstrap_base.html' %} {% block title %} UVI Search {% endblock %}
 {% block body %}
 
 <script>
-$(document).ready(function(){
-    $("#query_form").submit(function(){
-	$("#show_div").hide();
-	$("#results_pane_div").show();
+  $(document).ready(function () {
+    $("#query_form").submit(function () {
+      $("#show_div").hide();
+      $("#results_pane_div").show();
     });
-});
+  });
 </script>
 
 <script>
-$(document).ready(function(){
-    $("#attribute_query_form").submit(function(){
-	$("#show_div").hide();
-        $("#results_pane_div").show();
+  $(document).ready(function () {
+    $("#attribute_query_form").submit(function () {
+      $("#show_div").hide();
+      $("#results_pane_div").show();
     });
-});
+  });
 </script>
 
 <script>
-$(document).ready(function(){
-    $("#close_button").click(function(){
-        $("#results_pane_div").hide();
-	$("#show_div").show();
+  $(document).ready(function () {
+    $("#close_button").click(function () {
+      $("#results_pane_div").hide();
+      $("#show_div").show();
     });
-});
+  });
 </script>
 
 {% include 'navbar.html' %}
 
-<div id='home_span' style="margin-top:110px;">
-
-    <!-- <div class='container' id='show_div' style="display:none"> -->
-    <div id='show_div' style="margin-top:80px; position:absolute;">
-
-        <div class='row'>
-            <!--BEGIN SIDE COLUMN LEFT-->
-            <div class='col-3.5'>
-                <div class='row' id="query_form_div">
-                <!--BEGIN FORM:
+<div id="home_span" style="margin-top: 110px">
+  <!-- <div class='container' id='show_div' style="display:none"> -->
+  <div id="show_div" style="margin-top: 80px; position: absolute">
+    <div class="row">
+      <!--BEGIN SIDE COLUMN LEFT-->
+      <div class="col-3.5">
+        <div class="row" id="query_form_div">
+          <!--BEGIN FORM:
                     On Submit, this form posts to route "_process_query" (see "uvi_flask.py"), which
                     calls "find_matching_elements()" (see "methods.py") on the user's query and renders
                     "results.html" in target <iframe id="results_panel"> -->
-                <form action='/_process_query' id="query_form" method='post' target='results_pane'>
-                    <label for="search_box"><b><h4>Search by Verb Lemmas or Classes(*)</h4></b></label>
-                    <input id='search_box' type="text" name="lemma_query_string"  placeholder="e.g. run go go_on"><br />
-                    <p> Above field is required, Please enter text.</p>
-                    <input class='btn btn-primary btn-dark'  type="submit"  value='Submit'>
+          <form
+            action="/_process_query"
+            id="query_form"
+            method="post"
+            target="results_pane"
+          >
+            <label for="search_box"
+              ><b><h4>Search by Verb Lemmas or Classes(*)</h4></b></label
+            >
+            <input
+              id="search_box"
+              type="text"
+              name="lemma_query_string"
+              placeholder="e.g. run go go_on"
+            /><br />
+            <p>Above field is required, Please enter text.</p>
+            <input
+              class="btn btn-primary btn-dark"
+              type="submit"
+              value="Submit"
+            />
 
-                    <!-- <input class='btn btn-primary btn-dark' disabled = "lemma_query_string ? false : true" type="submit"  value='Submit'> -->
-                    <br /><br />
-                   
-                    <span><b>Multiple word search/ Logical Behavior:</b></span>
-                    <div class=" row col-12">
-                        <div class="col-6">
-                            <input type="radio" id="logical_or_radio" name='logic' value='or' checked/>
-                            <label for="logical_or_radio">OR(Default)</label>
-                        </div>
-                        <div class="col-6">
-                            <input type="radio" id="logical_and_radio" name='logic' value='and'  />
-                            <label for="logical_and_radio">AND </label>
-                        </div>
-                        
-                    </div>
+            <!-- <input class='btn btn-primary btn-dark' disabled = "lemma_query_string ? false : true" type="submit"  value='Submit'> -->
+            <br /><br />
 
-                    <span><b>Sorting Behavior:</b></span>
-                 <div class = "row col-12"> 
-                    <div class="col-6"> 
-                        <input type="radio" id="sort_alpha" name='sort_behavior' value='alpha' checked />
-                        <label for="sort_alpha">Alphabetical</label>
-                    </div>
-                    <div class="col-6">
-                        <input type="radio" id="sort_num" name='sort_behavior' value='num'/>
-                        <label for="sort_num">Numerical</label>
-                    </div>
-                 </div>
-                    <span><b>Include Resources:</b></span>
-                    <br />
-                    <div class="row col-12">
-                        <div class = "col-6">
-                            <input type='checkbox' name='incl_vn' checked>
-                            <label for='incl_vn'>VerbNet</label><br />
-                            <input type='checkbox' name='incl_fn' checked>
-                            <label for='incl_vn'>FrameNet</label><br />
-                        </div>
-                        <div class = "col-6">
-                            <input type='checkbox' name="incl_pb" checked>
-                            <label for='incl_vn'>PropBank</label><br />
-                            <input type='checkbox' name="incl_wn" checked>
-                            <label for='incl_vn'>OntoNotes</label><br />
-                        </div>
-                 </div>
-                   
-                </form>
-                </div>
-                <!--END FORM-->
+            <span><b>Multiple word search/ Logical Behavior:</b></span>
+            <div class="row col-12">
+              <div class="col-6">
+                <input
+                  type="radio"
+                  id="logical_or_radio"
+                  name="logic"
+                  value="or"
+                  checked
+                />
+                <label for="logical_or_radio">OR(Default)</label>
+              </div>
+              <div class="col-6">
+                <input
+                  type="radio"
+                  id="logical_and_radio"
+                  name="logic"
+                  value="and"
+                />
+                <label for="logical_and_radio">AND </label>
+              </div>
             </div>
 
-            <div class='col-3'>
-                <div class='row' id="attribute_query_form_div">
-                <form action='/_process_query' id="attribute_query_form" method='post' target='results_pane'>
-                    <label for="search_box"><b><h4>Search by VerbNet Attribute</h4></b></label>
-                    <input id='search_box' type="text" name="attribute_query_string"><br />
-                    <input class='btn btn-primary btn-dark' type="submit" value='Submit'>
-                    <br /><br />
-
-                    <span><b>Attribute Type:</b></span>
-                    <br />
-                    <input type='radio' name='vn_attribute' value='themrole' checked />
-                    <label for='vn_attribute'><div class="hoverWrapper">Thematic Role
-                        <i class="fa fa-question-circle"></i>
-                        <div id="hoverGenThem">
-                            {% for th_el in gen_themroles %}
-                              <span>{% for themrole, them_val in th_el.items() %}
-                               <b>{{themrole}}</b>
-                              {%endfor %}</span>
-                              <span>{{ ", " if not loop.last }}</span>
-                            {% endfor %}
-                        </div>
-                    </div></label><br />
-                    <input type='radio' name='vn_attribute' value='predicate'/>
-                    <label for='vn_attribute'><div class="hoverWrapper">Predicate
-                        <i class="fa fa-question-circle"></i>
-                        <div id="hoverPred">
-                            {% for pr_el in predicates %}
-                              <span>{% for pred, pred_val in pr_el.items() %}
-                               <b>{{pred}}</b>
-                              {%endfor %}</span>
-                              <span>{{ ", " if not loop.last }}</span>
-                            {% endfor %}
-                        </div>
-                    </div></label><br />
-                    <input type='radio' name="vn_attribute" value='vs_feature' />
-                    <label for='vn_attribute'><div class="hoverWrapper">Verb-Specific Feature
-                        <i class="fa fa-question-circle"></i>
-                        <div id="hoverVS">
-                            {% for vs_el in vs_features %}
-                              <span>{% for vs_feat, vs_val in vs_el.items() %}
-                               <b>{{vs_feat}}</b>
-                              {%endfor %}</span>
-                              <span>{{ ", " if not loop.last }}</span>
-                            {% endfor %}
-                        </div>
-                    </div></label><br />
-                    <input type='radio' name="vn_attribute" value='selrestr' />
-                    <label for='vn_attribute'><div class="hoverWrapper">Selectional Restriction
-                        <i class="fa fa-question-circle"></i>
-                        <div id="hoverSelRes">
-                            {% for sr_el in sel_res %}
-                              <span>{% for sr_feat, sr_val in sr_el.items() %}
-                               <b>{{sr_feat}}</b>
-                              {%endfor %}</span>
-                              <span>{{ ", " if not loop.last }}</span>
-                            {% endfor %}
-                        </div>
-                    </div></label><br />
-                    <input type='radio' name="vn_attribute" value='synrestr' />
-                    <label for='vn_attribute'><div class="hoverWrapper">Syntactic Restriction
-                        <i class="fa fa-question-circle"></i>
-                        <div id="hoverSynRes">
-                            {% for syn_el in syn_res %}
-                              <span>{% for synres_feat, synres_val in syn_el.items() %}
-                               <b>{{synres_feat}}</b>
-                              {%endfor %}</span>
-                              <span>{{ ", " if not loop.last }}</span>
-                            {% endfor %}
-                        </div>
-                    </div></label><br />
-                </form>
-                </div>
-                <!--END FORM-->
+            <span><b>Sorting Behavior:</b></span>
+            <div class="row col-12">
+              <div class="col-6">
+                <input
+                  type="radio"
+                  id="sort_alpha"
+                  name="sort_behavior"
+                  value="alpha"
+                  checked
+                />
+                <label for="sort_alpha">Alphabetical</label>
+              </div>
+              <div class="col-6">
+                <input
+                  type="radio"
+                  id="sort_num"
+                  name="sort_behavior"
+                  value="num"
+                />
+                <label for="sort_num">Numerical</label>
+              </div>
             </div>
-
-            <hr>
-            <!--END SIDE COLUMN LEFT-->
+            <span><b>Include Resources:</b></span>
+            <br />
+            <div class="row col-12">
+              <div class="col-6">
+                <input type="checkbox" name="incl_vn" checked />
+                <label for="incl_vn">VerbNet</label><br />
+                <input type="checkbox" name="incl_fn" checked />
+                <label for="incl_vn">FrameNet</label><br />
+              </div>
+              <div class="col-6">
+                <input type="checkbox" name="incl_pb" checked />
+                <label for="incl_vn">PropBank</label><br />
+                <input type="checkbox" name="incl_wn" checked />
+                <label for="incl_vn">OntoNotes</label><br />
+              </div>
+            </div>
+          </form>
         </div>
+        <!--END FORM-->
+      </div>
 
-    </div>
-    <div id='results_pane_div' style="display:none; position: absolute; ">
-        <button type="primary" class="button button2"  id='close_button'>Back to search</button>
-        <iframe class='frame' frameborder="0" name="results_pane" id="results_pane"></iframe>
-    </div>
+      <div class="col-3">
+        <div class="row" id="attribute_query_form_div">
+          <form
+            action="/_process_query"
+            id="attribute_query_form"
+            method="post"
+            target="results_pane"
+          >
+            <label for="search_box"
+              ><b><h4>Search by VerbNet Attribute</h4></b></label
+            >
+            <input
+              id="search_box"
+              type="text"
+              name="attribute_query_string"
+            /><br />
+            <input
+              class="btn btn-primary btn-dark"
+              type="submit"
+              value="Submit"
+            />
+            <br /><br />
 
+            <span><b>Attribute Type:</b></span>
+            <br />
+            <input type="radio" name="vn_attribute" value="themrole" checked />
+            <label for="vn_attribute"
+              ><div class="hoverWrapper">
+                Thematic Role
+                <i class="fa fa-question-circle"></i>
+                <div id="hoverthemrole" style="display: block">
+                  {% for th_el in gen_themroles %}
+                  <span
+                    >{% for themrole, them_val in th_el.items() %}
+                    <b>{{themrole}}</b>
+                    {%endfor %}</span
+                  >
+                  <span>{{ ", " if not loop.last }}</span>
+                  {% endfor %}
+                </div>
+              </div></label
+            ><br />
+            <input type="radio" name="vn_attribute" value="predicate" />
+            <label for="vn_attribute"
+              ><div class="hoverWrapper">
+                Predicate
+                <i class="fa fa-question-circle"></i>
+                <div id="hoverpredicate" style="display: none">
+                  {% for pr_el in predicates %}
+                  <span
+                    >{% for pred, pred_val in pr_el.items() %}
+                    <b>{{pred}}</b>
+                    {%endfor %}</span
+                  >
+                  <span>{{ ", " if not loop.last }}</span>
+                  {% endfor %}
+                </div>
+              </div></label
+            ><br />
+            <input type="radio" name="vn_attribute" value="vs_feature" />
+            <label for="vn_attribute"
+              ><div class="hoverWrapper">
+                Verb-Specific Feature
+                <i class="fa fa-question-circle"></i>
+                <div id="hovervs_feature" style="display: none">
+                  {% for vs_el in vs_features %}
+                  <span
+                    >{% for vs_feat, vs_val in vs_el.items() %}
+                    <b>{{vs_feat}}</b>
+                    {%endfor %}</span
+                  >
+                  <span>{{ ", " if not loop.last }}</span>
+                  {% endfor %}
+                </div>
+              </div></label
+            ><br />
+            <input type="radio" name="vn_attribute" value="selrestr" />
+            <label for="vn_attribute"
+              ><div class="hoverWrapper">
+                Selectional Restriction
+                <i class="fa fa-question-circle"></i>
+                <div id="hoverselrestr" style="display: none">
+                  {% for sr_el in sel_res %}
+                  <span
+                    >{% for sr_feat, sr_val in sr_el.items() %}
+                    <b>{{sr_feat}}</b>
+                    {%endfor %}</span
+                  >
+                  <span>{{ ", " if not loop.last }}</span>
+                  {% endfor %}
+                </div>
+              </div></label
+            ><br />
+            <input type="radio" name="vn_attribute" value="synrestr" />
+            <label for="vn_attribute"
+              ><div class="hoverWrapper">
+                Syntactic Restriction
+                <i class="fa fa-question-circle"></i>
+                <div id="hoversynrestr" style="display: none">
+                  {% for syn_el in syn_res %}
+                  <span
+                    >{% for synres_feat, synres_val in syn_el.items() %}
+                    <b>{{synres_feat}}</b>
+                    {%endfor %}</span
+                  >
+                  <span>{{ ", " if not loop.last }}</span>
+                  {% endfor %}
+                </div>
+              </div></label
+            ><br />
+          </form>
+        </div>
+        <!--END FORM-->
+      </div>
+
+      <hr />
+      <!--END SIDE COLUMN LEFT-->
+    </div>
+  </div>
+  <div id="results_pane_div" style="display: none; position: absolute">
+    <button type="primary" class="button button2" id="close_button">
+      Back to search
+    </button>
+    <iframe
+      class="frame"
+      frameborder="0"
+      name="results_pane"
+      id="results_pane"
+    ></iframe>
+  </div>
 </div>
 <script type="text/javascript">
+  const checkboxes = document.querySelectorAll('input[name="vn_attribute"]');
 
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener("change", (event) => {
+      const selectedValue = event.target.value;
+      const correspondingDivId = `hover${selectedValue}`;
+      const correspondingDiv = document.getElementById(correspondingDivId);
+
+      checkboxes.forEach((otherCheckbox) => {
+        if (otherCheckbox !== event.target) {
+          if (correspondingDiv) {
+            // If the corresponding div exists, show/hide it
+            correspondingDiv.style.display = "none";
+          }
+          otherCheckbox.checked = false; // Uncheck other boxes
+          const otherCheckboxDivId = `hover${otherCheckbox.value}`;
+          const otherCheckboxDiv = document.getElementById(otherCheckboxDivId);
+          otherCheckboxDiv.style.display = "none";
+        }
+      });
+
+      if (correspondingDiv) {
+        // If the corresponding div exists, show/hide it
+        correspondingDiv.style.display = event.target.checked
+          ? "block"
+          : "none";
+      } else {
+        // Handle cases where the corresponding div might not exist
+        console.warn(`Div with ID ${correspondingDivId} not found`);
+      }
+    });
+  });
 </script>
 
 <style type="text/css">
-    .hoverWrapper:hover #hoverGenThem {display: block;}
-    .hoverWrapper:hover #hoverPred { display: block;}
-    .hoverWrapper:hover #hoverVS { display: block;}
-    .hoverWrapper:hover #hoverSelRes { display: block;}
-    .hoverWrapper:hover #hoverSynRes { display: block;}
-
-    #hoverGenThem, #hoverPred, #hoverVS, #hoverSelRes, #hoverSynRes  {
-     display: none;
-     position: absolute;
-     margin: 5px;
-     border-radius: 25px;
-     background-color: rgba(122, 157, 150, .9);
-     width: 40vw;
-     left: 105%;
-     top: 0%;
-     padding: 20px;
-     text-align: justify;
-     text-transform: capitalize;
-    }
-.nav-link-uvi a{
-color:white;
-font-size: 100px;
-}
-.hoverWrapper:hover{
+  #hoverthemrole,
+  #hoverpredicate,
+  #hovervs_feature,
+  #hoverselrestr,
+  #hoversynrestr {
+    position: absolute;
+    margin: 5px;
+    border-radius: 25px;
+    background-color: rgba(122, 157, 150, 0.9);
+    width: 40vw;
+    left: 105%;
+    top: 0%;
+    padding: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+  }
+  .nav-link-uvi a {
+    color: white;
+    font-size: 100px;
+  }
+  .hoverWrapper:hover {
     cursor: pointer;
-}
-.results_pane_div{
+  }
+  .results_pane_div {
     cursor: pointer;
+  }
+  .close_button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.25rem 1.75rem;
+    color: inherit;
+    float: right;
+    font-size: 2.125rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    border: 0;
+  }
 
-}
-.close_button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0.25rem 1.75rem;
-  color: inherit;
-  float: right;
-  font-size: 2.125rem;
-  font-weight: 300;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: .5;
-  border: 0;
-}
-
-.button2 {background-color: #00303f;} /* Blue */
-
+  .button2 {
+    background-color: #00303f;
+  } /* Blue */
 </style>
 
-{% endblock %}
-
-{% block scripts %}
-
-{% endblock %}
+{% endblock %} {% block scripts %} {% endblock %}
