@@ -1,74 +1,102 @@
-{% extends 'bootstrap_base.html' %}
-{% block title %} Contact Us {% endblock %}
-{% block body %}
-
-
-{% include 'navbar.html' %}
+{% extends 'bootstrap_base.html' %} {% block title %} Contact Us {% endblock %}
+{% block body %} {% include 'navbar.html' %}
 
 <div id="contact-view">
-	<div class='row'>
-		<div class="col-xl-8 offset-xl-2 py-5">
-			<marquee class="css1">Note: Our contact form is down over the years, Its working now. Please contact us again.</marquee>
-			<h2>Contact form</h2>
-            <form action='/contact_us' id="contact_form" method='POST'>
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 py-5">
+      <marquee class="css1"
+        >Important: Our contact form is down over the years, Its working now.
+        Please contact us again.</marquee
+      >
+      <h2>Contact form</h2>
+      <form action="/contact_us" id="contact_form" method="POST">
+        <div class="controls mb-2">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="form_name">Name</label>
+                <input
+                  id="form_name"
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  required="required"
+                  data-error="Name is required."
+                />
+                <div class="help-block with-errors"></div>
+              </div>
 
-			    <div class="controls mb-2">
+              <div class="form-group">
+                <label for="form_email">Email</label>
+                <input
+                  id="form_email"
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  required="required"
+                  data-error="Valid email is required."
+                />
+                <div class="help-block with-errors"></div>
+              </div>
 
-			        <div class="row">
-			            <div class="col-md-12">
-			                <div class="form-group">
-			                    <label for="form_name">Name</label>
-			                    <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Name is required.">
-			                    <div class="help-block with-errors"></div>
-			                </div>
+              <div class="form-group">
+                <label for="form_subject">Subject</label>
+                <input
+                  id="form_subject"
+                  type="subject"
+                  name="subject"
+                  class="form-control"
+                  required="required"
+                  data-error="Subject required"
+                />
+                <div class="help-block with-errors"></div>
+              </div>
 
-			                <div class="form-group">
-			                    <label for="form_email">Email</label>
-			                    <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
-			                    <div class="help-block with-errors"></div>
-			                </div>
-
-			                <div class="form-group">
-			                    <label for="form_subject">Subject</label>
-			                    <input id="form_subject" type="subject" name="subject" class="form-control" required="required" data-error="Subject required">
-			                    <div class="help-block with-errors"></div>
-			                </div>
-
-			                <div class="form-group">
-			                    <label for="form_message">Message</label>
-			                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-			                    <div class="help-block with-errors"></div>
-			                </div>
-			            </div>
-			            <div class="col-md-12">
-			                <input type="submit" style="float: right;" class="btn btn-success btn-send" value="Send message">
-			            </div>
-			        </div>
-			    </div>
-			</form>
-		</div>
-	</div>
+              <div class="form-group">
+                <label for="form_message">Message</label>
+                <textarea
+                  id="form_message"
+                  name="message"
+                  class="form-control"
+                  rows="4"
+                  required="required"
+                  data-error="Please, leave us a message."
+                ></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <input
+                type="submit"
+                style="float: right"
+                class="btn btn-success btn-send"
+                value="Send message"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 <style>
-	#contact-view{
-		margin-top: 175px;
-		background-color: white;
-		padding-bottom: 1rem;
-		width:70%;
-		margin-left:15%;
-	}
-	.css1{
-		 background-color:rgb(159, 233, 243); 
-		font-size:17px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-style:italic;
-		font-weight:bold;
-		color:purple;
-		/* text-shadow: 2px 2px 8px #FF0000; */
-	}
+  #contact-view {
+    margin-top: 175px;
+    background-color: white;
+    padding-bottom: 1rem;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .css1 {
+    background-color: rgb(159, 233, 243);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: purple;
+    /* text-shadow: 2px 2px 8px #FF0000; */
+  }
 </style>
 
-{% endblock %}
-{% block scripts %}
-{% endblock %}
+{% endblock %} {% block scripts %} {% endblock %}
