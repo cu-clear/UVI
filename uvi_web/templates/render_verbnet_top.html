@@ -113,7 +113,10 @@ to function improperly), making a separate top-level template necessary. Any rec
                           {% endif %}
 
                           <b>All Classes : </b><br />
-                          <a href={{url_for('process_query',themrole = member['name'])}} target='_blank'>{{member['name']}}</a>
+                          {% for class_id in member_classes[ member['name']] %}
+                          <a href={{url_for('display_element',class_id = class_id)}} target='_blank'>{{class_id}}</a>
+                          <br>  
+                          {% endfor %}
                         </div>
                       </div>
                       <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
@@ -182,7 +185,10 @@ to function improperly), making a separate top-level template necessary. Any rec
                       {% endif %}
 
                       <b>All Classes : </b><br />
-                      <a href={{url_for('process_query',common_query_string = member['name'])}} target='_blank'>{{member['name']}}</a>
+                      {% for class_id in member_classes[ member['name']] %}
+                      <a href={{url_for('display_element',class_id = class_id)}} target='_blank'>{{class_id}}</a>
+                      <br>
+                      {% endfor %}
                      
                       
                     </div>

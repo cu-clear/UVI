@@ -28,6 +28,19 @@
   });
 </script>
 
+{% if query_string %}
+<script>
+  $(document).ready(function () {
+    var query = '{{ query_string }}';
+    var url = "/_process_query" + '?lemma_query_string=' + query;
+    var iframe_content = document.getElementById('results_pane');
+    iframe_content.src = url;
+    $("#show_div").hide();
+    $("#results_pane_div").show();
+  });
+</script>
+{% endif %}
+
 {% include 'navbar.html' %}
 
 <div id="home_span" style="margin-top: 110px">
