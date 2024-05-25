@@ -45,8 +45,7 @@ def context_methods():
 		colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined)
 
 @app.route('/uvi_search')
-def uvi_search():
-	process_query()
+def uvi_search(common_query_string=None):
 	
 	gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
 	predicates = sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
@@ -139,10 +138,10 @@ def process_query(common_query_string = None):
 			matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
 			print('done common if loop')
 			return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
-
 		else:
 			print('entered common if loop')
 			query_string = request.form['lemma_query_string']
+			print(request.form['lemma_query_string'])
 			# print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
 			lemmas = [x.lower() for x in query_string.split(' ')]
 			logic = request.form['logic']
@@ -199,6 +198,20 @@ def process_query(common_query_string = None):
 			matched_ids = {'VerbNet':sorted(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))}
 			return render_template('synrestr_search.html', synrestr = synrestr_val.upper()+synrestr_type.upper(), matched_ids=matched_ids, sort_behavior=sort_behavior)
 
+	elif request.args.get('lemma_query_string'):
+		print('entered get if loop')
+		query_string = request.args.get('lemma_query_string')
+		lemmas = [x.lower() for x in query_string.split(' ')]
+		logic = "or"
+		sort_behavior = "alpha"
+		incl_vn = True
+		incl_fn = True
+		incl_pb = True
+		incl_wn = True
+		matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
+		print('done get if loop')
+		return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
+	
 	elif request.args.get('themrole'):
 		themrole = request.args.get('themrole')
 		query_string = ''
@@ -259,16 +272,27 @@ def process_query(common_query_string = None):
 		frame_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_synrestrs_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
 		matched_ids = {'VerbNet':sorted(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))}
 		return render_template('synrestr_search.html', synrestr = synrestr_val.upper()+synrestr_type.upper(), matched_ids=matched_ids, sort_behavior=sort_behavior)
+	
 	return ''
 
 
 #POST request: <form id='vn_filtered_elements'> in "results.html"
 @app.route('/_display_element', methods=['GET','POST'])
 def display_element():
-	if request.form.get('resource_key') == 'VerbNet':
-		vn_class_id = request.form['vn_class_id']
-		matched_elements = mongo.db.verbnet.find({'class_id': vn_class_id})
-		return render_template('render_verbnet_top.html', vn_elements = matched_elements, first_level = True)
+	if request.form.get('resource_key') == 'VerbNet' or request.args.get('class_id'):
+		vn_class_id =  request.args.get('class_id') if request.args.get('class_id') else request.form['vn_class_id']
+		matched_elements1 = mongo.db.verbnet.find({'class_id': vn_class_id})
+		matched_elements2 = mongo.db.verbnet.find({'class_id': vn_class_id})
+		all_classes={}
+		for element in matched_elements2:
+			for member in element['members']:
+				member_name = member['name']
+				class_ids = mongo.db.verbnet.find(
+                    {'members.name': member_name},
+                    {'class_id': 1, '_id': 0}
+                )
+				all_classes[member_name] = sorted([doc['class_id'] for doc in class_ids])
+		return render_template('render_verbnet_top.html', vn_elements = matched_elements1, first_level = True,member_classes=all_classes)
 
 	elif request.form.get('resource_key') == 'FrameNet':
 		fn_name = request.form['fn_name']
@@ -306,23 +330,14 @@ def applications():
 @app.route('/uvi_search_anywhere', methods=['GET','POST'])
 def uvi_search_anywhere():
 	if request.form.get('common_query_string'):
-		uvi_search()
 		query_string = request.form.get('common_query_string')
-		lemmas = [x.lower() for x in query_string.split(' ')]
-		logic = "or"
-		sort_behavior = "alpha"
-		incl_vn = True
-		incl_fn = True
-		incl_pb = True
-		incl_wn = True
-		matched_ids = find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_wn, logic, sort_behavior)
-		return render_template('results.html', matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
-	else:
-		process_query()
 		gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
 		predicates = sorted(list(mongo.db.verbnet.references.predicates.find({}, {'_id':0})), key=sort_key)
 		vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
 		syn_res = sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
 		sel_res = sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
-		return render_template('uvi_search.html',gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res)
-
+		return render_template('uvi_search.html',
+			gen_themroles=gen_themroles, predicates=predicates, vs_features=vs_features, syn_res=syn_res, sel_res=sel_res,query_string = query_string
+		)
+	else:
+		return uvi_search()
