@@ -4,7 +4,11 @@
 <h7 class='card-title'>ROLES:</h7>
 <h5 class="card-text">
   {% if vn_parent_json is defined %}
-  {% for them_role in vn_parent_json['themroles'] %}
+  {% set class_json = vn_parent_json%}
+  {% else%}
+  {% set class_json = vn_class_json%}
+  {% endif %}
+  {% for them_role in class_json['themroles'] %}
   {% if get_themrole_fields_undefined(them_role['themrole']) is not none %} 
   {% set themrole_fields = get_themrole_fields_undefined(them_role['themrole'])%}
 
@@ -42,5 +46,4 @@
     {% endif %}
     <br>
   {% endfor %}
-  {% endif %}
 </h5>
