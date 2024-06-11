@@ -16,9 +16,13 @@ def top_parent_id(class_id):
 	return ('-').join(class_id.split('-')[:2])
 
 def get_subclass_ids(parent_class_id):
-	subclasses_list = db['verbnet'].find_one({'class_id': parent_class_id})['subclasses']
-	if subclasses_list:
-		return [subclass['class_id'] for subclass in subclasses_list]
+	parent_class = db['verbnet'].find_one({'class_id': parent_class_id})
+	if parent_class:
+		subclasses_list = parent_class['subclasses']
+		if subclasses_list:
+			return [subclass['class_id'] for subclass in subclasses_list]
+		else:
+			return None
 	else:
 		return None
 
