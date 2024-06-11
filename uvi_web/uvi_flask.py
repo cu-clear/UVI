@@ -312,7 +312,17 @@ def display_element():
 @app.route('/verbnet/<vn_class_id>')
 def render_vn_class(vn_class_id):
 	matched_elements = mongo.db.verbnet.find({'class_id':vn_class_id})
-	return render_template('render_verbnet_top.html', vn_elements=matched_elements, first_level=True)
+	matched_elements2 = mongo.db.verbnet.find({'class_id': vn_class_id})
+	all_classes={}
+	for element in matched_elements2:
+		for member in element['members']:
+			member_name = member['name']
+			class_ids = mongo.db.verbnet.find(
+                {'members.name': member_name},
+                {'class_id': 1, '_id': 0}
+            )
+			all_classes[member_name] = sorted([doc['class_id'] for doc in class_ids])
+	return render_template('render_verbnet_top.html', vn_elements=matched_elements, first_level=True,member_classes=all_classes)
 
 @app.route('/welcome_frame')
 def welcome_frame():
