@@ -91,8 +91,7 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_on, multiword_beha
 			vbc_elements_numsort = sorted([(class_id, float('.'.join((class_id.split('-')[1]).split('.')[:2]))) for class_id in matched_ids['vnByClass']], key=itemgetter(1))
 			matched_ids['vnByClass'] = [class_id for class_id, numerical_id in vbc_elements_numsort]
 		return matched_ids
-
-
+	
 	matched_ids = {}
 	matched_ids['vnByClass'] = []
 	## Get VerbNet class_ids for search by class.
@@ -102,10 +101,15 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_on, multiword_beha
 		else:
 			lemma_exp = re.compile("^"+class_name+'-')
 			matched_ids['vnByClass'].extend([vn_class['class_id'] for vn_class in list(db['verbnet'].find({'class_id':{'$regex':lemma_exp}},{'class_id':1, '_id':0}))])
-
+	
 	if multiword_behavior == 'and':
+		print(multiword_behavior,lemmas)
+		regex_list = [re.compile(lemma, re.IGNORECASE) for lemma in lemmas]
+		query = {
+			'$and': [{'members.name': {'$regex': regex}} for regex in regex_list]
+		}
 		if incl_vn:
-			matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find({'members.name': {'$all': lemmas}}, {'class_id':1})]
+			matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find(query, {'class_id':1})]
 		if incl_fn:
 			matched_ids['FrameNet'] = [frame['name'] for frame in db.framenet.find({'lexical_units.lu_name': {'$all': [lemma+'.v' for lemma in lemmas]}}, {'name':1})]
 		if incl_pb:
@@ -115,8 +119,15 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_on, multiword_beha
 		return sort_matched_ids(matched_ids)
 
 	elif multiword_behavior == 'or':
+		regex_list = [
+					re.compile(f"^{lemma}$", re.IGNORECASE) for lemma in lemmas
+						] + [
+							re.compile(f"^{lemma}_.+", re.IGNORECASE) for lemma in lemmas
+						] + [
+							re.compile(f".+_{lemma}$", re.IGNORECASE) for lemma in lemmas
+						]
 		if incl_vn:
-			matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find({'members.name': {'$in': lemmas}}, {'class_id':1})]
+			matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find({'members.name': {'$in': regex_list}}, {'class_id':1})]
 		if incl_fn:
 			matched_ids['FrameNet'] = [frame['name'] for frame in db.framenet.find({'lexical_units.lu_name': {'$in': [lemma+'.v' for lemma in lemmas]}}, {'name':1})]
 		if incl_pb:
