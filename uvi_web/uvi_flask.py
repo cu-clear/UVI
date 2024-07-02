@@ -292,6 +292,9 @@ def display_element():
                     {'class_id': 1, '_id': 0}
                 )
 				all_classes[member_name] = sorted([doc['class_id'] for doc in class_ids])
+		for classes in matched_elements1:
+			for frame in classes['frames']:
+				print(frame['examples'])
 		return render_template('render_verbnet_top.html', vn_elements = matched_elements1, first_level = True,member_classes=all_classes)
 
 	elif request.form.get('resource_key') == 'FrameNet':
