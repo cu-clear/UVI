@@ -52,6 +52,9 @@ No Results Found
                 <input name="sort_behavior" type="hidden" value={{sort_behavior}}>
                 <input name="resource_key" type="hidden" value="VerbNet">
                 <input name="vn_class_id" type="hidden" value={{vn_element}}>
+                {% if vs_feature %}
+                <input name="vs_feature" type="hidden" value={{vs_feature}}>
+                {% endif %}
                 <input class='results_tab_element' type='submit' value={{vn_element}}>
             </form>
             <!--END FORM-->

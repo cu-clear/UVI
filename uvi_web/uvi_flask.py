@@ -281,17 +281,22 @@ def process_query(common_query_string = None):
 def display_element():
 	if request.form.get('resource_key') == 'VerbNet' or request.args.get('class_id'):
 		vn_class_id =  request.args.get('class_id') if request.args.get('class_id') else request.form['vn_class_id']
-		matched_elements1 = mongo.db.verbnet.find({'class_id': vn_class_id})
-		matched_elements2 = mongo.db.verbnet.find({'class_id': vn_class_id})
+		matched_elements1 = list(mongo.db.verbnet.find({'class_id': vn_class_id}))
+		print(request.form.get('vs_feature'))
 		all_classes={}
-		for element in matched_elements2:
+		for element in matched_elements1:
+			filtered_members = []
 			for member in element['members']:
+				if request.form.get('vs_feature') and 'vs_features' in member and request.form.get('vs_feature').lower() in member['vs_features']:
+					filtered_members.append(member)
 				member_name = member['name']
 				class_ids = mongo.db.verbnet.find(
-                    {'members.name': member_name},
-                    {'class_id': 1, '_id': 0}
-                )
+						{'members.name': member_name},
+						{'class_id': 1, '_id': 0}
+					)
 				all_classes[member_name] = sorted([doc['class_id'] for doc in class_ids])
+			if request.form.get('vs_feature'):
+				element['members'] = filtered_members
 		return render_template('render_verbnet_top.html', vn_elements = matched_elements1, first_level = True,member_classes=all_classes)
 
 	elif request.form.get('resource_key') == 'FrameNet':
@@ -311,10 +316,9 @@ def display_element():
 
 @app.route('/verbnet/<vn_class_id>')
 def render_vn_class(vn_class_id):
-	matched_elements = mongo.db.verbnet.find({'class_id':vn_class_id})
-	matched_elements2 = mongo.db.verbnet.find({'class_id': vn_class_id})
+	matched_elements = list(mongo.db.verbnet.find({'class_id':vn_class_id}))
 	all_classes={}
-	for element in matched_elements2:
+	for element in matched_elements:
 		for member in element['members']:
 			member_name = member['name']
 			class_ids = mongo.db.verbnet.find(

@@ -109,7 +109,10 @@ def find_matching_ids(lemmas, incl_vn, incl_fn, incl_pb, incl_on, multiword_beha
 			'$and': [{'members.name': {'$regex': regex}} for regex in regex_list]
 		}
 		if incl_vn:
-			matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find(query, {'class_id':1})]
+			if len(lemmas)>1:
+				matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find(query, {'class_id':1})]
+			else:
+				matched_ids['VerbNet'] = [vn_class['class_id'] for vn_class in db.verbnet.find({'members.name': {'$all': lemmas}}, {'class_id':1})]
 		if incl_fn:
 			matched_ids['FrameNet'] = [frame['name'] for frame in db.framenet.find({'lexical_units.lu_name': {'$all': [lemma+'.v' for lemma in lemmas]}}, {'name':1})]
 		if incl_pb:
