@@ -282,7 +282,6 @@ def display_element():
 	if request.form.get('resource_key') == 'VerbNet' or request.args.get('class_id'):
 		vn_class_id =  request.args.get('class_id') if request.args.get('class_id') else request.form['vn_class_id']
 		matched_elements1 = list(mongo.db.verbnet.find({'class_id': vn_class_id}))
-		print(request.form.get('vs_feature'))
 		all_classes={}
 		for element in matched_elements1:
 			filtered_members = []

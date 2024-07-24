@@ -1,13 +1,15 @@
-{% set example_text = frame['examples'][0]['example_text'] %}
-{% set example_svg = frame['examples'][0]['svg'] %}
 {% set syntax = frame['syntax'] %}
 {% set semantics = frame['semantics'] %}
-{% set frame_id = loop.index0 ~ id %}
+{% set ns = namespace(count=0) %}
 {% set frame_dynamics = frame['examples'][0]['fd'] %}
 
 <h6>EXAMPLE:</h6>
+{% for example in frame['examples'] %}
+{% set example_text = example['example_text'] %}
+{% set example_svg = example['svg'] %}
+{% set frame_id = ns.count ~ id %}
 <span style="font-size:18px">
-{{example_text}}
+{{ example_text }}
 <br />
 <button type="button" class="btn btn-outline-dark btn-sm" data-toggle="modal" data-target="#{{frame_id}}_svg_modal">Show Dependency Parse Tree</button>
 
@@ -25,6 +27,8 @@
 </span>
 <br />
 <br />
+{% set ns.count = ns.count + 1 %}
+{% endfor %}
 
 {% set frame_desc_primary = frame['description']['primary'] %}
 {% set frame_desc_secondary = frame['description']['secondary'] %}
