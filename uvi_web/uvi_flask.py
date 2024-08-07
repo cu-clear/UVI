@@ -175,28 +175,78 @@ def process_query(common_query_string = None):
 			return render_template('predicate_search.html', predicate=predicate.upper(), matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
 
 		elif attribute_type == 'vs_feature':
-			vs_feature = query_string
-			matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': vs_feature})])}
-			return render_template('vs_feature_search.html', vs_feature=vs_feature.upper(), matched_ids=matched_ids)
+			if query_string[0] in ['+', '-']:
+				vs_features = [query_string]
+			else:
+				vs_features = ['+'+query_string, '-'+query_string, query_string]
+			matched_ids={}
+			matched_ids['VerbNet'] = []
+			for vs_feature in vs_features:
+				c=len(matched_ids['VerbNet'])
+				matched_ids['VerbNet'].extend([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': vs_feature})])
+				if c==len(matched_ids['VerbNet']):
+					#print('removing', vs_feature)
+					vs_features.remove(vs_feature)
+			#matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': vs_feature})])}
+			matched_ids['VerbNet'] = list(set(matched_ids['VerbNet']))
+			matched_ids['VerbNet'].sort()
+			vs_f=''
+			for vs_feature in vs_features:
+				vs_f += vs_feature.upper()+' , ' 
+			return render_template('vs_feature_search.html', vs_feature=vs_f[:-3], matched_ids=matched_ids)
 
 		elif attribute_type == 'selrestr':
-			selrestr_type = query_string[1:]
-			selrestr_val = query_string[0]
+			if query_string[0] == '+' or query_string[0] == '-' :
+				selrestr_type = query_string[1:]
+				selrestr_vals = [query_string[0]]
+			else:
+				selrestr_type = query_string
+				selrestr_vals = ['+', '-']
 			sort_behavior = 'alpha'
-			class_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.selrestr_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
-			matched_ids = {'VerbNet':sorted(list(class_level_selrestr_ids))}
-			frame_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_selrestrs_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
-			matched_ids['VerbNet'].extend(sorted(list(frame_level_selrestr_ids)))
-			return render_template('selrestr_search.html', selrestr = selrestr_val.upper()+selrestr_type.upper(), matched_ids=matched_ids, sort_behavior=sort_behavior, level=None)
+			matched_ids={}
+			matched_ids['VerbNet'] = []
+			for selrestr_val in selrestr_vals:
+				c=len(matched_ids['VerbNet'])
+				class_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.selrestr_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
+				matched_ids['VerbNet'].extend(list(class_level_selrestr_ids))
+				frame_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_selrestrs_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
+				matched_ids['VerbNet'].extend(list(frame_level_selrestr_ids))
+				if c==len(matched_ids['VerbNet']):
+					#print('removing', selrestr_val)
+					selrestr_vals.remove(selrestr_val)
+			matched_ids['VerbNet'] = list(set(matched_ids['VerbNet']))
+			matched_ids['VerbNet'].sort()
+			#print('synrestr_vals', selrestr_vals)
+			selrestr=''
+			for selrestr_val in selrestr_vals:
+				selrestr += selrestr_val.upper()+selrestr_type.upper()+' , ' 
+			return render_template('selrestr_search.html', selrestr = selrestr[:-3], matched_ids=matched_ids, sort_behavior=sort_behavior, level=None)
 
 		elif attribute_type == 'synrestr':
-			synrestr_type = query_string[1:]
-			synrestr_val = query_string[0]
+			if query_string[0] == '+' or query_string[0] == '-' :
+				synrestr_type = query_string[1:]
+				synrestr_vals = [query_string[0]]
+			else:
+				synrestr_type = query_string
+				synrestr_vals = ['+', '-']
+			matched_ids={}
+			matched_ids['VerbNet'] = []
 			sort_behavior = 'alpha'
-			class_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.synrestr_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
-			frame_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_synrestrs_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
-			matched_ids = {'VerbNet':sorted(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))}
-			return render_template('synrestr_search.html', synrestr = synrestr_val.upper()+synrestr_type.upper(), matched_ids=matched_ids, sort_behavior=sort_behavior)
+			for synrestr_val in synrestr_vals:
+				c=len(matched_ids['VerbNet'])
+				class_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.synrestr_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
+				frame_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_synrestrs_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
+				matched_ids['VerbNet'].extend(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))
+				if c==len(matched_ids['VerbNet']):
+					#print('removing', synrestr_val)
+					synrestr_vals.remove(synrestr_val)
+			matched_ids['VerbNet'] = list(set(matched_ids['VerbNet']))
+			matched_ids['VerbNet'].sort()
+			#print('synrestr_vals', synrestr_vals)
+			synrestr=''
+			for synrestr_val in synrestr_vals:
+				synrestr += synrestr_val.upper()+synrestr_type.upper()+' , ' 
+			return render_template('synrestr_search.html', synrestr = synrestr[:-3], matched_ids=matched_ids, sort_behavior=sort_behavior)
 
 	elif request.args.get('lemma_query_string'):
 		print('entered get if loop')
