@@ -142,7 +142,7 @@ def process_query(common_query_string = None):
 			print('entered common if loop')
 			query_string = request.form['lemma_query_string']
 			print(request.form['lemma_query_string'])
-			# print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
+			print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
 			lemmas = [x.lower() for x in query_string.split(' ')]
 			logic = request.form['logic']
 			sort_behavior = request.form['sort_behavior']
