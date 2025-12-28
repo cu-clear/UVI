@@ -91,7 +91,9 @@ No Results Found
             <br />{{ matched_ids['FrameNet'] | length }} result(s) matching query <br />
             
             {% for fn_element in fn_elements %}
-            <a class='results_tab_element' href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{fn_element}}" target='_blank'>
+            <a class='results_tab_element'
+   href="https://framenet.info/frames/{{fn_element}}"
+   target='_blank'>
                 {{fn_element}}
             </a>
             <br />

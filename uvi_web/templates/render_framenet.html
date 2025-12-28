@@ -18,7 +18,9 @@
     <div class="card">
       <div class="card-header" id="heading_{{id}}">
           <h3>{{ frame_json['name'] }} 
-            <a class='btn btn-outline-primary' href="https://framenet2.icsi.berkeley.edu/fnReports/data/frameIndex.xml?frame={{frame_json['name']}}" target='_blank'>
+            <a class='btn btn-outline-primary'
+   href="https://framenet.info/frames/{{ frame_json['name'] }}"
+   target='_blank'>
             Open Full Frame on FrameNet<span class="glyphicon glyphicon-new-window"></span>
             </a></h3>
       </div>
