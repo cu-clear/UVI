@@ -60,6 +60,7 @@
                           {% else %}
                           {% for synset in wn %}
                           {% set wn_lemma = synset.split('%')[0] %}
+                          {% set wn_lemma = wn_lemma.lstrip('?') %}
                           {% set wn_lemma_modefied=wn_lemma.replace('_',' ')%}
                           <a href="https://en-word.net/lemma/{{ wn_lemma_modefied }}" target="_blank">
   {{ synset }}
@@ -139,6 +140,7 @@
                       {% else %}
                       {% for synset in wn %}
                       {% set wn_lemma = synset.split('%')[0] %}
+                      {% set wn_lemma = wn_lemma.lstrip('?') %}
                       {% set wn_lemma_modefied=wn_lemma.replace('_',' ')%}
                       <a href="https://en-word.net/lemma/{{ wn_lemma_modefied }}" target="_blank">
   {{ synset }}
