@@ -81,7 +81,7 @@
 
                           <b>FrameNet:</b><br />
                           {% set fn = member['fn'] %}
-                          {% if fn|length == 0 %}
+                          {% if fn|length == 0 or (fn|length == 1 and fn[0] == 'None') %}
                           None <br />
                           {% else %}
                           {% for fn_frame in fn %}
@@ -161,7 +161,7 @@
 
                       <b>FrameNet:</b><br />
                       {% set fn = member['fn'] %}
-                      {% if fn|length == 0 %}
+                      {% if fn|length == 0 or (fn|length == 1 and fn[0] == 'None') %}
                       None <br />
                       {% else %}
                       {% for fn_frame in fn %}
