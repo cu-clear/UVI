@@ -1,163 +1,116 @@
 <!--Begin Navbar-->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark justify-content-center navbar-fixed-top row">
-  <!-- <img src="/static/images/clear-logo.png" height="80px" alt=""> -->
-  <div class="row">
-    <div class="col-md-12">
-      <marquee class="css1"
-      >Important: This website is optimized for laptop and tablet views. For the best experience, please view it on these devices.</marquee>
+
+<!-- Notice bar (separate from nav so it doesn't break Bootstrap's flex layout) -->
+<div class="uvi-notice-bar">
+  Important: This website is optimized for laptop and tablet views. For the best experience, please view it on these devices.
+</div>
+
+<!-- Main navbar using standard Bootstrap 4 structure -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+
+  <!-- Brand / Logo -->
+  <a class="navbar-brand d-flex align-items-center" href={{ url_for('index') }}>
+    <img src="/static/images/NLP/Clear-new.png" height="48px" id="logo" class="mr-2">
+    <div class="d-none d-sm-block">
+      <div style="font-size:1rem; font-weight:600; color:white; line-height:1.2;">Unified Verb Index</div>
+      <div style="font-size:0.65rem; color:#cde; line-height:1.2;">Computational Language and Educational Research</div>
     </div>
-  <div class="col-md-4">
-    <div class="col-md-12 row" id='logo_uvi'>
-      <div class="col-md-3">
-        <a class="navbar-brand" href={{ url_for('index') }}>
-          <img src="/static/images/NLP/Clear-new.png" height="80px" id="logo">
-        </a>
-      </div>
-      <div class="col-md-9">
-        <span class="nav-link-uvi"  class="float-right" style="text-decoration: none;"> <font size=6 color=white>Unified Verb Index</font></span>
-        <p style="color:black">Computational Language and Educational Research</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-8">
-    <ul id="nav-list" class="navbar-nav row" style="margin-left: 10px;font-size: 14px;">
-      <li class="nav-item col-md-4">
-        <!-- <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a> -->
-        <div class="topnavSearch">
-          <div class="search-container">
-              <form action="/uvi_search_anywhere" method='post' id="query_form2"  >
-                <input id = "search_box-search" type="text" placeholder="Click search to navigate..." name="common_query_string">
-                <button type="submit" value='Submit'> <a>Search</a></button>
-              </form>
-            </a>
-          </div>
-        </div>
+  </a>
+
+  <!-- Mobile toggler -->
+  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto align-items-lg-center">
+
+      <!-- Search form -->
+      <li class="nav-item mr-lg-2">
+        <form action="/uvi_search_anywhere" method="post" class="d-flex my-2 my-lg-0">
+          <input id="search_box-search" type="text" class="form-control form-control-sm"
+                 placeholder="Search the UVI..." name="common_query_string"
+                 style="width:160px; border:none;">
+          <button type="submit" class="btn btn-outline-light btn-sm ml-1">Search</button>
+        </form>
       </li>
-      <!-- <i class="fa fa-search"></i> -->
-      <li class="nav-item col-md-2">
+
+      <li class="nav-item">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
       </li>
-      <li class="nav-item col-md-2">
+      <li class="nav-item">
         <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
       </li>
-      <li class="nav-item col-md-2">
+      <li class="nav-item">
         <a class="nav-link" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
       </li>
-      <li class="nav-item col-md-2">
+      <li class="nav-item">
         <a class="nav-link" href={{ url_for('applications') }}>NLP Applications</a>
       </li>
     </ul>
-    <div id="nav-shortcut" style="display: none">
-      <div class="col-md-3"></div>
-      <div class="col-md-3" style="cursor: pointer">
-        <div class="float-right" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fa fa-bars fa-3x"></i>
-        </div>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
-          <a class="dropdown-item" href={{ url_for('references_page') }}>Reference Pages</a>
-          <a class="dropdown-item" href={{ url_for('class_hierarchy') }}>Class Hierarchy</a>
-          <a class="dropdown-item" href={{ url_for('applications') }}>NLP Applications</a>
-        </div>
-      </div>
-      <div class="col-md-3">
-          <a href={{ url_for('index') }} style="color: inherit" class="float-right">
-          <i class="fa fa-home fa-3x"></i>
-        </a>
-      </div>
-      <div class="col-md-3">
-          <a href={{ url_for('uvi_search') }} style="color: inherit" class="float-right">
-          <i class="fa fa-search fa-3x"></i>
-        </a>
-      </div>
-    </div>
   </div>
-</div>
+
 </nav>
 <!--End Navbar-->
 
-<style type="text/css">
-  #navbar {
-    height: 130px;
-    min-height: 100px;
-    margin: 0;  
-  }
-  .nav-link-uvi a{
-    color:white;
-    font-size: 80px;
-  }
-  /* for search bar  */
-
-  @media screen and (max-width: 600px) {
-  .topnavSearch .search-container {
-    float: none;
-  }
-  .topnavSearch a, .topnav input[type=text], .topnavSearch .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
+<style>
+  .uvi-notice-bar {
     width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnavSearch input[type=text] {
-    border: 1px solid #ccc;  
-  }
-}
-.topnavSearch .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  /* margin-right: 16px; */
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.topnavSearch .search-container button:hover {
-  background: #ccc;
-}
-
-.topnavSearch .search-container {
-  float: right;
-}
-
-.topnavSearch input[type=text] {
-  margin-top: 8px;
-  font-size: 17px;
-  border: none;
-  height :37px;
-}
-
-.css1 {
-    /*background-color: rgb(159, 233, 243);*/
-    font-size: 17px;
+    text-align: center;
+    padding: 5px 12px;
+    font-size: 0.82rem;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-weight: bold;
     color: yellow;
-    /* text-shadow: 2px 2px 8px #FF0000; */
+    background-color: rgba(50, 90, 130, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-sizing: border-box;
+  }
+
+  #navbar {
+    background-color: steelblue;
+    position: sticky;
+    top: 28px; /* height of notice bar */
+    z-index: 99;
+    width: 100%;
+    padding: 0.4rem 1rem;
+  }
+
+  #logo {
+    border-radius: 8px;
+  }
+
+  /* Tighten nav link spacing so all 4 links + search fit on one row */
+  #navbar .nav-link {
+    font-size: 0.82rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    white-space: nowrap;
+  }
+
+  /* Mobile: collapse menu */
+  @media (max-width: 991px) {
+    #navbar .nav-link {
+      font-size: 0.95rem;
+      padding: 0.4rem 0;
+    }
+    #navbar {
+      top: 28px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .uvi-notice-bar {
+      font-size: 0.72rem;
+    }
+    #logo {
+      height: 38px !important;
+    }
   }
 </style>
-
-<!-- Uncomment for flexable search icon -->
-
-<!-- <script>
-  // window.onscroll = function() {scrollFunction()};
-  // function scrollFunction() {
-  //   if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 80) {
-  //     document.getElementById("navbar").style.height = "100px";
-  //     document.getElementById("logo").style.height = "0px";
-  //     document.getElementById("nav-list").style.display = "none"
-  //     document.getElementById("nav-shortcut").style.display = "flex"
-  //   } else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20){
-  //     document.getElementById("navbar").style.height = "190px";
-  //     document.getElementById("logo").style.height = "150px";
-  //     document.getElementById("nav-list").style.display = "flex"
-  //     document.getElementById("nav-shortcut").style.display = "none"
-  //   }
-  // }
-
-  
-</script> -->

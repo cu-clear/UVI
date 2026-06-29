@@ -88,21 +88,113 @@
 
 #fade_welcome_div {
   color: white;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.82);
   display: block;
-  width: 80vw;
-  max-width: 80%;
-  margin: auto;
-  border-radius: 5px;
-  padding: 15px;
-  /* margin-top: 56px; */
+  width: 90%;
+  max-width: 860px;
+  margin: 20px auto 40px;
+  border-radius: 10px;
+  padding: 32px 40px;
+}
+
+.welcome-heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.welcome-subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.welcome-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cta-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.welcome-cub-logo {
+  width: 8rem;
+  background-color: aliceblue;
+  border-radius: 6px;
+}
+
+.resource-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 1rem 0;
+}
+
+.welcome-frame-logo {
+  width: 8rem;
+  max-width: 100%;
+  display: block;
+}
+
+.welcome-stats {
+  font-size: 0.95rem;
+  margin: 1rem 0 1.5rem;
+  line-height: 1.8;
+}
+
+.acknowledgment-box {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 16px 20px;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  #fade_welcome_div {
+    width: 95%;
+    padding: 24px 20px;
+  }
+  .welcome-heading {
+    font-size: 1.5rem;
+  }
+  .welcome-frame-logo {
+    width: 6rem;
+  }
+  .welcome-cub-logo {
+    width: 6.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #fade_welcome_div {
+    width: 98%;
+    padding: 18px 14px;
+    border-radius: 8px;
+  }
+  .welcome-heading {
+    font-size: 1.3rem;
+  }
+  .welcome-frame-logo {
+    width: 5rem;
+  }
+  .welcome-stats {
+    font-size: 0.85rem;
+  }
+  .acknowledgment-box {
+    font-size: 0.8rem;
+    padding: 12px 14px;
+  }
 }
 
 #show_div {
-  
-  width: 95vw;
+  width: 100%;
   margin: auto;
-  left: 4%;
 }
 
 #query_form_div {
@@ -131,7 +223,8 @@
   margin-top: 30px;
   width: 95%;
   height: 90vh;
-  left: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #results_pane {
@@ -158,11 +251,10 @@
 
 #home_span {
   display: block;
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  max-width: 100%;
   padding-top: 20px;
-
+  box-sizing: border-box;
 }
 
 #search_box {
@@ -189,12 +281,10 @@
 
 #navbar {
   overflow: visible;
-  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
   width: 100%;
-  position:fixed;
-  top: 0;  /*At the top */
-  z-index: 99; 
-
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 #logo {
