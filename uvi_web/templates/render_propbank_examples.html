@@ -2,19 +2,19 @@
 {% set examples = roleset['examples'] %}
 
 <div class='row'>
-  <div class='col-4'>
+  <div class='col-12 col-md-4'>
     <div class='list-group' id='list-tab{{fn_listgroup_id}}' role='tablist'>
       {% for example in examples %}
       {% if loop.first %}
-      <a class='list-group-item list-group-item-action active' id='list-{{loop.index0}}-list{{fn_listgroup_id}}' data-toggle='list' href='#list-{{loop.index0}}{{fn_listgroup_id}}' role='tab'>{{ example['example_name'] }}</a>
+      <a class='list-group-item list-group-item-action active' id='list-{{loop.index0}}-list{{fn_listgroup_id}}' data-bs-toggle='list' href='#list-{{loop.index0}}{{fn_listgroup_id}}' role='tab'>{{ example['example_name'] }}</a>
       {% else %}
-      <a class='list-group-item list-group-item-action' id='list-{{loop.index0}}-list{{fn_listgroup_id}}' data-toggle='list' href='#list-{{loop.index0}}{{fn_listgroup_id}}' role='tab'>{{ example['example_name'] }}</a>
+      <a class='list-group-item list-group-item-action' id='list-{{loop.index0}}-list{{fn_listgroup_id}}' data-bs-toggle='list' href='#list-{{loop.index0}}{{fn_listgroup_id}}' role='tab'>{{ example['example_name'] }}</a>
       {% endif %}
       {% endfor %}
       <br />
     </div>
   </div>
-  <div class='col-8'>
+  <div class='col-12 col-md-8'>
     <div class='tab-content' id='nav-tabContent{{fn_listgroup_id}}'>
       {% for example in examples %}
       {% set example = colored_pb_example(example) %}

@@ -1,5 +1,5 @@
 import os
-from flask import Flask, Response
+from flask import Flask, Response, redirect
 from flask import render_template,request
 from flask_pymongo import PyMongo
 from flask_mail import Mail, Message
@@ -30,8 +30,18 @@ app.config['SECRET_KEY'] = os.urandom(16)
 app.config['MONGO_DBNAME'] = 'new_corpora'
 app.config["MONGO_URI"] = "mongodb://localhost:27017/" + app.config['MONGO_DBNAME']
 app.config.update(mail_settings)
+app.config.update(
+	SESSION_COOKIE_SECURE=True,
+	SESSION_COOKIE_HTTPONLY=True,
+	SESSION_COOKIE_SAMESITE='Lax',
+)
 mongo = PyMongo(app)
 mail = Mail(app)
+
+@app.before_request
+def redirect_to_https():
+	if not request.is_secure and not app.debug:
+		return redirect(request.url.replace("http://", "https://", 1), code=301)
 
 def sort_key(predicate):
 	## Key will be returned with the assumption that there's only oneword per entry in the list
@@ -128,7 +138,7 @@ def process_query(common_query_string = None):
 		if(common_query_string):
 			print('entered common if loop')
 			query_string = common_query_string
-			lemmas = [x.lower() for x in query_string.split(' ')]
+			lemmas = [x.lower() for x in query_string.split()]
 			logic = "or"
 			sort_behavior = "alpha"
 			incl_vn = True
@@ -143,7 +153,7 @@ def process_query(common_query_string = None):
 			query_string = request.form['lemma_query_string']
 			print(request.form['lemma_query_string'])
 			print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
-			lemmas = [x.lower() for x in query_string.split(' ')]
+			lemmas = [x.lower() for x in query_string.split()]
 			logic = request.form['logic']
 			sort_behavior = request.form['sort_behavior']
 			form_keys = list(request.form.keys())
@@ -251,7 +261,7 @@ def process_query(common_query_string = None):
 	elif request.args.get('lemma_query_string'):
 		print('entered get if loop')
 		query_string = request.args.get('lemma_query_string')
-		lemmas = [x.lower() for x in query_string.split(' ')]
+		lemmas = [x.lower() for x in query_string.split()]
 		logic = "or"
 		sort_behavior = "alpha"
 		incl_vn = True

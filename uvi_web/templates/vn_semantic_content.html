@@ -17,7 +17,7 @@
 ¬
 {% endif %}
 <a href={{url_for('process_query',pred=pred['predicate'])}} target='_blank'>
-<span style="color:#bf616a; text-transform:uppercase" data-toggle="popover" data-popover-content="#{{pred_popover_id}}" data-placement='bottom'>{{ pred['predicate'] }}(</span>
+<span style="color:#bf616a; text-transform:uppercase" data-bs-toggle="popover" data-popover-content="#{{pred_popover_id}}" data-bs-placement='bottom'>{{ pred['predicate'] }}(</span>
 </a>
 {% set semantic_arg_id = unique_id() %}
 
@@ -99,13 +99,13 @@
 	</div>
 	{% if arg['arg_type'] == 'ThemRole' %}
 	  <a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'>
-	  <span style="color:#5e81ac;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>
+	  <span style="color:#5e81ac;" data-bs-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-bs-placement='bottom'>
 	  {{ arg['value'] }}
 	  </span>
 	  </a>
 	{% elif arg['arg_type'] == 'PredSpecific' %}
 	  <a href={{url_for('process_query',themrole=arg['value'])}} target='_blank'>
-	  <span style="color:#9d5ec4;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>
+	  <span style="color:#9d5ec4;" data-bs-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-bs-placement='bottom'>
 	  {{ arg['value'] }}
 	  </span>
 	  </a>
@@ -128,7 +128,7 @@
 		</div>
 	</div>
 	<a href={{url_for('process_query',const=arg['value'])}} target='_blank'>
-	<span style="color:#a3be8c; text-transform:capitalize" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>{{ arg['value'] }}</span>
+	<span style="color:#a3be8c; text-transform:capitalize" data-bs-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-bs-placement='bottom'>{{ arg['value'] }}</span>
 	</a>
 
 	{% elif arg['arg_type'] == 'VerbSpecific' %}
@@ -143,7 +143,7 @@
 		</div>
 	</div>
 	<a href={{url_for('process_query',verb_specific_arg=arg['value'])}} target='_blank'>
-	<span style="color:#b48ead; text-transform:capitalize;" data-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-placement='bottom'>{{ arg['value'] }}</span>
+	<span style="color:#b48ead; text-transform:capitalize;" data-bs-toggle="popover" data-popover-content="#{{arg_popover_id}}" data-bs-placement='bottom'>{{ arg['value'] }}</span>
 	</a>
 
 	{% else %}

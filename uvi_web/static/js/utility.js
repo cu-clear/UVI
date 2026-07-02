@@ -29,9 +29,12 @@ function copyToClipboard(ctx, className) {
     // Copy text to clipboard
     var successful = document.execCommand('copy');
     var msg = successful ? 'Copied!' : 'Whoops, not copied!';
-    $(ctx).find('i').attr('data-original-title', msg).tooltip('show');
+    var icon = ctx.querySelector('i');
+    var tooltip = bootstrap.Tooltip.getInstance(icon);
+    tooltip.setContent({ '.tooltip-inner': msg });
+    tooltip.show();
     // Reset the tooltip content but no need to show
-    $(ctx).find('i').attr('data-original-title', 'Click to copy link');
+    tooltip.setContent({ '.tooltip-inner': 'Click to copy link' });
     // Remove temporary element
     document.body.removeChild(el);
 }

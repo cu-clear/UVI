@@ -4,45 +4,45 @@
 
 {% include 'navbar.html' %}
 
-<div id='home_span' style="margin-top:150px;">
+<div id='home_span' style="margin-top:20px;">
     <br>
     <div class="row" id='wrapper'>
-      <ul class="col-2 nav nav-tabs flex-column" id="optionsBox" role="tablist">
+      <ul class="col-12 col-md-3 nav nav-tabs flex-column" id="optionsBox" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#refPageInfo" role="tab" aria-controls="refPageInfo">Reference Page Info</a>
+        <a class="nav-link active" data-bs-toggle="tab" href="#refPageInfo" role="tab" aria-controls="refPageInfo">Reference Page Info</a>
       </li>
       <!-- <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#themRoleImg" role="tab" aria-controls="themRoleImg">Thematic Roles Visualization</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#themRoleImg" role="tab" aria-controls="themRoleImg">Thematic Roles Visualization</a>
       </li> -->
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#FD" role="tab" aria-controls="FD">Force Dynamics</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#FD" role="tab" aria-controls="FD">Force Dynamics</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#themRoles" role="tab" aria-controls="themRoles">General Thematic Roles</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#themRoles" role="tab" aria-controls="themRoles">General Thematic Roles</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#pred" role="tab" aria-controls="pred">Predicates</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#pred" role="tab" aria-controls="pred">Predicates</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#Preposition" role="tab" aria-controls="Preposition">Preposition Class Hierarchy</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#Preposition" role="tab" aria-controls="Preposition">Preposition Class Hierarchy</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#selRes" role="tab" aria-controls="selRes">Selectional Restrictions</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#selRes" role="tab" aria-controls="selRes">Selectional Restrictions</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#SemLink" role="tab" aria-controls="SemLink">SemLink</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#SemLink" role="tab" aria-controls="SemLink">SemLink</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#synRes" role="tab" aria-controls="synRes">Syntactic Restrictions</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#synRes" role="tab" aria-controls="synRes">Syntactic Restrictions</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#ThematicRoleHierarchy" role="tab" aria-controls="Thematic Role Hierarchy">Thematic Role Hierarchy</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#ThematicRoleHierarchy" role="tab" aria-controls="Thematic Role Hierarchy">Thematic Role Hierarchy</a>
         </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#vsFeats" role="tab" aria-controls="vsFeats">Verb-Specific Features</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#vsFeats" role="tab" aria-controls="vsFeats">Verb-Specific Features</a>
       </li>
       </ul>
-    <div class="col-9 tab-content" id="pageInfo">
+    <div class="col-12 col-md-8 tab-content" id="pageInfo">
       <div class="tab-pane active" id="refPageInfo" role="tabpanel">
           <h2>Reference Page Info </h2>
           <br>
@@ -58,14 +58,14 @@
        <!-- Start of General thematic roles -->
       <div class="tab-pane" id="themRoles" role="tabpanel">
           <div class="col-12">
-            <div class="col-4" style = "display: inline-block;" >
+            <div class="col-12 col-md-4" style="display: inline-block;">
               <h2 id="scroll2">General Thematic Roles</h2>
             </div>
-            <div class="col-6" style = "display: inline-block; top : 14px">
+            <div class="col-12 col-md-8" style="display: inline-block; top: 14px;">
               <div  id="ButtonsPage">
                 <ul class="nav" role="tablist" id='bothButtons'>
-                  <li role="button"  class="active" ><a href="#tab_num_gen" id="button_num_gen" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                  <li role="button"  ><a href="#tab_name_gen" id = "button_name_gen" class="button no-underline" role="tab" data-toggle="tab" >Sort by feature name</a></li>
+                  <li role="button"  class="active" ><a href="#tab_num_gen" id="button_num_gen" role="tab" class="button no-underline" data-bs-toggle="tab" >Sort by frequency</a></li>
+                  <li role="button"  ><a href="#tab_name_gen" id = "button_name_gen" class="button no-underline" role="tab" data-bs-toggle="tab" >Sort by feature name</a></li>
                 </ul>
                 <br>
               </div>
@@ -79,7 +79,7 @@
             <h5>
               {% for th_el in gen_themroles_freq %}
                 {% for themrole_freq, them_val in th_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#{{themrole_freq}}" aria-expanded="false" aria-controls="#{{themrole_freq}}">
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#{{themrole_freq}}" aria-expanded="false" aria-controls="#{{themrole_freq}}">
                     <span style="font-weight:bold; text-transform:uppercase;">{{ themrole_freq+' ('+them_val['count']|string+')' }}</span>
                   </button>
                   <div class="collapse" id="{{themrole_freq}}">
@@ -93,7 +93,7 @@
                       <div class="card card-body">
                         <h5>
                           {% for vn_mem in them_val['vn_class_members'] %}
-                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                             <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                           </button>
                           {% endfor %}
@@ -111,7 +111,7 @@
             <h5>
               {% for th_el in gen_themroles %}
                 {% for themrole_name, them_val in th_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#th-{{themrole_name}}" aria-expanded="false" aria-controls="#th-{{themrole_name}}">
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#th-{{themrole_name}}" aria-expanded="false" aria-controls="#th-{{themrole_name}}">
                     <span style="font-weight:bold; text-transform:uppercase;">{{ themrole_name+' ('+them_val['count']|string+')' }}</span>
                   </button>
                   <div class="collapse" id="th-{{themrole_name}}">
@@ -125,7 +125,7 @@
                       <div class="card card-body">
                         <h5>
                           {% for vn_mem in them_val['vn_class_members'] %}
-                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                             <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                           </button>
                           {% endfor %}
@@ -147,14 +147,14 @@
        <!-- Start of Predicates -->
       <div class="tab-pane" id="pred" role="tabpanel">
           <div class="col-12">
-            <div class="col-4" style = "display: inline-block;" >
+            <div class="col-12 col-md-4" style="display: inline-block;">
               <h2>Predicates</h2>
             </div>
-            <div class="col-6" style = "display: inline-block; top : 14px">
+            <div class="col-12 col-md-8" style="display: inline-block; top: 14px;">
               <div  id="ButtonsPage">
                 <ul class="nav" role="tablist" id='bothButtons'>
-                  <li role="button"  class="active" ><a href="#tab_num_pre" id="button_num_pre" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                  <li role="button"  ><a href="#tab_name_pre" id = "button_name_pre" class="button no-underline" role="tab" data-toggle="tab" >Sort by feature name</a></li>
+                  <li role="button"  class="active" ><a href="#tab_num_pre" id="button_num_pre" role="tab" class="button no-underline" data-bs-toggle="tab" >Sort by frequency</a></li>
+                  <li role="button"  ><a href="#tab_name_pre" id = "button_name_pre" class="button no-underline" role="tab" data-bs-toggle="tab" >Sort by feature name</a></li>
                 </ul>
                 <br>
               </div>
@@ -168,7 +168,7 @@
             <h5>
               {% for el in predicates_freq %}
                 {% for pred_freq, pred_val in el.items()%}
-                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#prf-{{pred_freq}}" aria-expanded="false" aria-controls="#prf-{{pred_freq}}">
+                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#prf-{{pred_freq}}" aria-expanded="false" aria-controls="#prf-{{pred_freq}}">
                   <span style="font-weight:bold; text-transform:uppercase;">{{ pred_freq+' ('+pred_val['count']|string+')' }}</span>
                 </button>
                 <div class="collapse" id="prf-{{pred_freq}}">
@@ -183,7 +183,7 @@
                     <div class="card card-body">
                       <h5>
                       {% for vn_mem in pred_val['vn_class_members']|sort %}
-                      <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                      <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                         <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                       </button>
                       {% endfor %}
@@ -202,7 +202,7 @@
           <h5>
             {% for el in predicates %}
               {% for predname, pred_val in el.items()%}
-              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#prn-{{predname}}" aria-expanded="false" aria-controls="#prn-{{predname}}">
+              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#prn-{{predname}}" aria-expanded="false" aria-controls="#prn-{{predname}}">
                 <span style="font-weight:bold; text-transform:uppercase;">{{ predname+' ('+pred_val['count']|string+')' }}</span>
               </button>
               <div class="collapse" id="prn-{{predname}}">
@@ -217,7 +217,7 @@
                   <div class="card card-body">
                     <h5>
                     {% for vn_mem in pred_val['vn_class_members']|sort %}
-                    <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                    <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                       <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                     </button>
                     {% endfor %}
@@ -235,14 +235,14 @@
   </div>
       <div class="tab-pane" id="vsFeats" role="tabpanel">
         <div class="col-12">
-          <div class="col-4" style = "display: inline-block;" >
+          <div class="col-12 col-md-4" style="display: inline-block;">
           <h2>Verb Specific Features </h2>
           </div>
-          <div class="col-6" style = "display: inline-block; top : 14px">
+          <div class="col-12 col-md-8" style="display: inline-block; top: 14px;">
             <div  id="ButtonsPage">
               <ul class="nav" role="tablist" id='bothButtons'>
-                <li role="button"  class="active" ><a href="#tab_num_vs" id="button_num_vs" role="tab" class="button no-underline" data-toggle="tab" >Sort by frequency</a></li>
-                <li role="button"  ><a href="#tab_name_vs" id = "button_name_vs" class="button no-underline" role="tab" data-toggle="tab" >Sort by feature name</a></li>
+                <li role="button"  class="active" ><a href="#tab_num_vs" id="button_num_vs" role="tab" class="button no-underline" data-bs-toggle="tab" >Sort by frequency</a></li>
+                <li role="button"  ><a href="#tab_name_vs" id = "button_name_vs" class="button no-underline" role="tab" data-bs-toggle="tab" >Sort by feature name</a></li>
               </ul>
               <br>
             </div>
@@ -256,7 +256,7 @@
                   <h5>
                     {% for vs_el in vs_features_freq %}
                       {% for vs_feat_freq, vs_val in vs_el.items() %}
-                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsf-{{vs_feat_freq[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsf-{{vs_feat_freq[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
                           <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat_freq +' ('+vs_val['count']|string+')' }}</span>
                         </button>
                         <div class="collapse" id="vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
@@ -269,7 +269,7 @@
                             <div class="card card-body">
                               <h5>
                                 {% for vn_mem in vs_val['vn_class_mem'] %}
-                                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                                <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                                   <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                                 </button>
                                 {% endfor %}
@@ -287,7 +287,7 @@
             <h5>
               {% for vs_el in vs_features %}
                 {% for vs_feat_name, vs_val in vs_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
                     <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat_name+' ('+vs_val['count']|string+')' }}</span>
                   </button>
                   <div class="collapse" id="vsn-{{ vs_feat_name[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
@@ -300,7 +300,7 @@
                       <div class="card card-body">
                         <h5>
                           {% for vn_mem in vs_val['vn_class_mem'] %}
-                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                          <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                             <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                           </button>
                           {% endfor %}
@@ -323,7 +323,7 @@
           <h5>
             {% for syn_res_el in syn_res %}
             {% for syn_res_name, syn_res_val in syn_res_el.items() %}
-            <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#syn-{{syn_res_name}}" aria-expanded="false" aria-controls="#syn-{{syn_res_name}}">
+            <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#syn-{{syn_res_name}}" aria-expanded="false" aria-controls="#syn-{{syn_res_name}}">
               <span style="font-weight:bold; text-transform:uppercase;">{{ syn_res_name }}</span>
             </button>
             <div class="collapse" id="syn-{{syn_res_name}}">
@@ -338,7 +338,7 @@
                 <div class="card card-body">
                   <h5>
                   {% for vn_mem in val['vn_mem'] %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                     <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                   </button>
                   {% endfor %}
@@ -357,7 +357,7 @@
           <h5>
             {% for sr_el in sel_res %}
             {% for sr_feat, sr_val in sr_el.items() %}
-            <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="collapse" data-target="#sr-{{sr_feat}}" aria-expanded="false" aria-controls="#sr-{{sr_feat}}">
+            <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#sr-{{sr_feat}}" aria-expanded="false" aria-controls="#sr-{{sr_feat}}">
               <span style="font-weight:bold; text-transform:uppercase;">{{ sr_feat }}</span>
             </button>
             <div class="collapse" id="sr-{{sr_feat}}">
@@ -373,7 +373,7 @@
                   <div class="card card-body">
                     <h5>
                     {% for vn_mem in val['vn_mem'] %}
-                    <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
+                    <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
                       <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
                     </button>
                     {% endfor %}
@@ -497,7 +497,7 @@
 #optionsBox, #pageInfo {
     border-radius: 25px;
     height:75%;
-    margin:10px;
+    margin: 10px 15px;
     padding:20px;
 }
 #optionsBox {
@@ -509,23 +509,32 @@
     overflow-y:auto;
 }
 #wrapper {
-    margin-left: 20px;
     margin-top: 20px;
+    padding: 0 20px;
 }
 #bothButtons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
     justify-content: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
   }
 #ButtonsPage {
   background: rgba(122, 157, 150, .9);
   margin:auto;
 }
 .button {
+    display: inline-block;
+    position: static;
     background-color: rgba(220, 174, 29, .9); /* Green */
     padding: 15px 32px;
     text-align: center;
     margin: 10px;
     color: black;
     text-transform: uppercase;
+    white-space: nowrap;
   }
   .no-underline{
     text-decoration: none;

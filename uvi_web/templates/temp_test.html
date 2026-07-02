@@ -14,10 +14,10 @@ No Results Found
     {% for key in matched_elements.keys() %}
     {% if loop.first %}
     <li class='nav-item'>
-        <a class='nav-link active' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab' aria-controls={{key}}_tab_pane aria-selected='true'>{{ key }}</a></li>
+        <a class='nav-link active' id='{{key}}-tab' data-bs-toggle='tab' href='#{{key}}_tab_pane' role='tab' aria-controls={{key}}_tab_pane aria-selected='true'>{{ key }}</a></li>
     {% else %}
     <li class='nav-item'>
-        <a class='nav-link' id='{{key}}-tab' data-toggle='tab' href='#{{key}}_tab_pane' role='tab' aria-controls={{key}}_tab_pane aria-selected='false'>{{ key }}</a></li>
+        <a class='nav-link' id='{{key}}-tab' data-bs-toggle='tab' href='#{{key}}_tab_pane' role='tab' aria-controls={{key}}_tab_pane aria-selected='false'>{{ key }}</a></li>
     {% endif %}
     {% endfor %}
   </ul>

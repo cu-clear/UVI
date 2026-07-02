@@ -5,13 +5,13 @@
   <div class="card">
     <div class="card-header" id="heading_{{id}}">
       <h5 class="mb-0">
-        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse_{{id}}">
+        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapse_{{id}}">
           <h5>Roleset ID: {{ roleset['roleset_id'] }}</h5>
         </button>
       </h5>
     </div>
     {% if  roleset['roleset_id'] == predicate['lemma']+".01" %}
-    <div id="collapse_{{id}}" class="collapse show" data-parent="#{{accordion_id_rolesets}}">
+    <div id="collapse_{{id}}" class="collapse show" data-bs-parent="#{{accordion_id_rolesets}}">
         <div class="card-body">
             <h5>Role Description:</h5>
             {{ roleset['roleset_name'] }} <br /><br />
@@ -32,9 +32,9 @@
                 <div class='popover-body'><strong>POS:</strong> <span style="text-transform:uppercase">{{alias['pos']}}</span><br /><strong>VN:</strong> {{alias_vn}} <br /><strong>FN: </strong>{{alias_fn}} </div>
                 }
               </div>
-              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+              <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="popover" 
                 data-popover-content="#{{popover_id}}"
-                data-trigger='hover focus'>
+                data-bs-trigger='hover focus'>
                 <span style="font-weight:bold; text-transform:uppercase;">{{ alias['alias_name'] }}</span>
               </button>
             {% endfor %}
@@ -64,7 +64,7 @@
         </div>
       </div>
     {% endif %}
-    <div id="collapse_{{id}}" class="collapse" data-parent="#{{accordion_id_rolesets}}">
+    <div id="collapse_{{id}}" class="collapse" data-bs-parent="#{{accordion_id_rolesets}}">
       <div class="card-body">
           <h5>Role Description:</h5>
           {{ roleset['roleset_name'] }} <br /><br />
@@ -85,9 +85,9 @@
           		<div class='popover-body'><strong>POS:</strong> <span style="text-transform:uppercase">{{alias['pos']}}</span><br /><strong>VN:</strong> {{alias_vn}} <br /><strong>FN: </strong>{{alias_fn}} </div>
               }
           	</div>
-          	<button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+          	<button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="popover" 
           	  data-popover-content="#{{popover_id}}"
-          	  data-trigger='hover focus'>
+          	  data-bs-trigger='hover focus'>
           	  <span style="font-weight:bold; text-transform:uppercase;">{{ alias['alias_name'] }}</span>
           	</button>
           {% endfor %}

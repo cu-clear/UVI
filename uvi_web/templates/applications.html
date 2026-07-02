@@ -4,29 +4,29 @@
 
 {% include 'navbar.html' %}
 
-<div id='home_span' style="margin-top:150px;">
+<div id='home_span' style="margin-top:20px;">
   <div class="row" id='wrapper'>
     <!-- Start left navbar -->
-    <ul class="col-2 nav nav-tabs flex-column" id="optionsBox" role="tablist">
+    <ul class="col-12 col-md-3 nav nav-tabs flex-column" id="optionsBox" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#resources" role="tab">Resources</a>
+        <a class="nav-link active" data-bs-toggle="tab" href="#resources" role="tab">Resources</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#tutorial" role="tab" aria-controls="tutorial">Using the UVI</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#tutorial" role="tab" aria-controls="tutorial">Using the UVI</a>
       </li>
       <!-- <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#publications" role="tab">Publications</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#publications" role="tab">Publications</a>
       </li> -->
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#download" role="tab">Download</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#download" role="tab">Download</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#agreement" role="tab">Licence Agreement</a>
+        <a class="nav-link" data-bs-toggle="tab" href="#agreement" role="tab">Licence Agreement</a>
       </li>
     </ul>
     <!-- End left navbar -->
 
-    <div class="col-9 tab-content" id="pageInfo">
+    <div class="col-12 col-md-8 tab-content" id="pageInfo">
       <div class="tab-pane" id="tutorial" role="tabpanel">
         <p style="font-size:25px">Please click on the following button to go to the UVI Tutorial Video:</p>
         <a href="https://drive.google.com/file/d/1ua1U3oLxX9HaXjwNXpRSnsf-orvg8aEq/view" target="_blank"><button
@@ -165,15 +165,15 @@
     <style type="text/css">
       #wrapper {
         height: 100%;
-        margin-left: 20px;
         margin-top: 20px;
+        padding: 0 20px;
       }
 
       #optionsBox,
       #pageInfo {
         border-radius: 25px;
         height: 75%;
-        margin: 10px;
+        margin: 10px 15px;
         padding: 20px;
       }
 

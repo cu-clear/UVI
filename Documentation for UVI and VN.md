@@ -38,7 +38,7 @@ About UVI (https://uvi.colorado.edu/):
 
        cd ./UVI/uvi_web
        source activate uvi_web
-       ./run_local.sh
+       ~./run_local.sh~
    
    Copy and paste the localhost address to the browser. 
 (This is also the way to test the website. Make sure it runs well before you push changes to https://github.com/cu-clear/UVI .)

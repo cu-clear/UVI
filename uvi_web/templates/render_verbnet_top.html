@@ -14,20 +14,20 @@ to function improperly), making a separate top-level template necessary. Any rec
       <div class="card-header" id="heading_{{id}}">
         <h5 class="m-auto p-0">
           {% if subclasses == true %}
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_{{id}}">
+          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapse_{{id}}">
           {% else %}
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapse_{{id}}">
+          <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapse_{{id}}">
           {% endif %}
           <h5>{{ vn_class_json['class_id'] }}</h5>
           </button>
           {% set verb_class = url_for('render_vn_class', vn_class_id=vn_class_json['class_id']) %}
           <span style="cursor: pointer" onclick="copyToClipboard(this, '{{ verb_class }}')">
             <i class="fa fa-clipboard" style="font-size: 20px"
-              tool-tip-toggle="tooltip-clipboard" data-original-title="Click to copy link">
+              tool-tip-toggle="tooltip-clipboard" data-bs-title="Click to copy link">
             </i>
         </h5>
       </div>
-      <div id="collapse_{{id}}" class="collapse show" data-parent="#{{accordion_id}}">
+      <div id="collapse_{{id}}" class="collapse show" data-bs-parent="#{{accordion_id}}">
         <div class="card-body">
           {% set vn_parent_elements = vn_sanitized_class(vn_class_json['class_id']) %}
           {% if vn_parent_elements %}
@@ -40,7 +40,7 @@ to function improperly), making a separate top-level template necessary. Any rec
           {% endif %}
           {% if first_level %}
             <div class='row'>
-              <div class='col-4'>
+              <div class='col-12 col-md-4'>
               <div class='card'>
                 <div class='card-header'>
                 {% set top_parent_id = top_parent_id(vn_class_json['class_id']) %}
@@ -51,7 +51,7 @@ to function improperly), making a separate top-level template necessary. Any rec
                 </div>
               </div>
               </div>
-              <div class="col-8">
+              <div class="col-12 col-md-8">
                 <div class="card-body">
                   <h7 class="card-title">Member Verb Lemmas:-topfile</h7>
                     <h5 class="card-text">
@@ -124,9 +124,9 @@ to function improperly), making a separate top-level template necessary. Any rec
                           {% endfor %}
                         </div>
                       </div>
-                      <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+                      <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="popover" 
                         data-popover-content="#{{popover_id}}"
-                        data-trigger='click hover focus'>
+                        data-bs-trigger='click hover focus'>
                         <span style="font-weight:bold; text-transform:uppercase;">{{ member['name'] }}</span>
                       </button>
                       {% endfor %}
@@ -202,9 +202,9 @@ to function improperly), making a separate top-level template necessary. Any rec
                       
                     </div>
                   </div>
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-toggle="popover" 
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="popover" 
                     data-popover-content="#{{popover_id}}"
-                    data-trigger='click hover focus'>
+                    data-bs-trigger='click hover focus'>
                     <span style="font-weight:bold; text-transform:uppercase;">{{ member['name'] }}</span>
                   </button>
                   {% endfor %}
@@ -230,9 +230,9 @@ to function improperly), making a separate top-level template necessary. Any rec
   </div>
 </body>
 <script>
-  $(document).ready(function(){
-    $('[tool-tip-toggle="tooltip-clipboard"]').tooltip({
-      placement : 'bottom'
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[tool-tip-toggle="tooltip-clipboard"]').forEach(function (el) {
+      new bootstrap.Tooltip(el, { placement: 'bottom' });
     });
   });
 </script>

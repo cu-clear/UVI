@@ -43,13 +43,13 @@
 
 {% include 'navbar.html' %}
 
-<div id="home_span" style="margin-top: 110px">
+<div id="home_span" style="margin-top: 20px">
   <!-- <div class='container' id='show_div' style="display:none"> -->
-  <div id="show_div" style="margin-top: 80px; position: absolute">
-    <div class="row">
+  <div id="show_div" class="container-fluid">
+    <div class="row justify-content-center">
       <!--BEGIN SIDE COLUMN LEFT-->
-      <div class="col-3.5">
-        <div class="row" id="query_form_div">
+      <div class="col-lg-5 col-md-6 col-12 mb-3">
+        <div id="query_form_div">
           <!--BEGIN FORM:
                     On Submit, this form posts to route "_process_query" (see "uvi_flask.py"), which
                     calls "find_matching_elements()" (see "methods.py") on the user's query and renders
@@ -80,7 +80,7 @@
             <br /><br />
 
             <span><b>Multiple word search/ Logical Behavior:</b></span>
-            <div class="row col-12">
+            <div class="row">
               <div class="col-6">
                 <input
                   type="radio"
@@ -103,7 +103,7 @@
             </div>
 
             <span><b>Sorting Behavior:</b></span>
-            <div class="row col-12">
+            <div class="row">
               <div class="col-6">
                 <input
                   type="radio"
@@ -126,7 +126,7 @@
             </div>
             <span><b>Include Resources:</b></span>
             <br />
-            <div class="row col-12">
+            <div class="row">
               <div class="col-6">
                 <input type="checkbox" name="incl_vn" checked />
                 <label for="incl_vn">VerbNet</label><br />
@@ -145,8 +145,8 @@
         <!--END FORM-->
       </div>
 
-      <div class="col-3">
-        <div class="row" id="attribute_query_form_div">
+      <div class="col-lg-5 col-md-6 col-12 mb-3">
+        <div id="attribute_query_form_div">
           <form
             action="/_process_query"
             id="attribute_query_form"
@@ -170,91 +170,91 @@
 
             <span><b>Attribute Type:</b></span>
             <br />
-            <input type="radio" name="vn_attribute" value="themrole" checked />
-            <label for="vn_attribute"
-              ><div class="hoverWrapper">
+            <div class="attr-option">
+              <input type="radio" id="attr_themrole" name="vn_attribute" value="themrole" checked />
+              <label for="attr_themrole" class="hoverWrapper">
                 Thematic Role
                 <i class="fa fa-question-circle"></i>
-                <div id="hoverthemrole" style="display: block">
-                  {% for th_el in gen_themroles %}
-                  <span
-                    >{% for themrole, them_val in th_el.items() %}
-                    <b>{{themrole}}</b>
-                    {%endfor %}</span
-                  >
-                  <span>{{ ", " if not loop.last }}</span>
-                  {% endfor %}
-                </div>
-              </div></label
-            ><br />
-            <input type="radio" name="vn_attribute" value="predicate" />
-            <label for="vn_attribute"
-              ><div class="hoverWrapper">
+              </label>
+              <div id="hoverthemrole" class="attr-definitions" style="display: block">
+                {% for th_el in gen_themroles %}
+                <span
+                  >{% for themrole, them_val in th_el.items() %}
+                  <b>{{themrole}}</b>
+                  {%endfor %}</span
+                >
+                <span>{{ ", " if not loop.last }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="attr-option">
+              <input type="radio" id="attr_predicate" name="vn_attribute" value="predicate" />
+              <label for="attr_predicate" class="hoverWrapper">
                 Predicate
                 <i class="fa fa-question-circle"></i>
-                <div id="hoverpredicate" style="display: none">
-                  {% for pr_el in predicates %}
-                  <span
-                    >{% for pred, pred_val in pr_el.items() %}
-                    <b>{{pred}}</b>
-                    {%endfor %}</span
-                  >
-                  <span>{{ ", " if not loop.last }}</span>
-                  {% endfor %}
-                </div>
-              </div></label
-            ><br />
-            <input type="radio" name="vn_attribute" value="vs_feature" />
-            <label for="vn_attribute"
-              ><div class="hoverWrapper">
+              </label>
+              <div id="hoverpredicate" class="attr-definitions" style="display: none">
+                {% for pr_el in predicates %}
+                <span
+                  >{% for pred, pred_val in pr_el.items() %}
+                  <b>{{pred}}</b>
+                  {%endfor %}</span
+                >
+                <span>{{ ", " if not loop.last }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="attr-option">
+              <input type="radio" id="attr_vs_feature" name="vn_attribute" value="vs_feature" />
+              <label for="attr_vs_feature" class="hoverWrapper">
                 Verb-Specific Feature
                 <i class="fa fa-question-circle"></i>
-                <div id="hovervs_feature" style="display: none">
-                  {% for vs_el in vs_features %}
-                  <span
-                    >{% for vs_feat, vs_val in vs_el.items() %}
-                    <b>{{vs_feat}}</b>
-                    {%endfor %}</span
-                  >
-                  <span>{{ ", " if not loop.last }}</span>
-                  {% endfor %}
-                </div>
-              </div></label
-            ><br />
-            <input type="radio" name="vn_attribute" value="selrestr" />
-            <label for="vn_attribute"
-              ><div class="hoverWrapper">
+              </label>
+              <div id="hovervs_feature" class="attr-definitions" style="display: none">
+                {% for vs_el in vs_features %}
+                <span
+                  >{% for vs_feat, vs_val in vs_el.items() %}
+                  <b>{{vs_feat}}</b>
+                  {%endfor %}</span
+                >
+                <span>{{ ", " if not loop.last }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="attr-option">
+              <input type="radio" id="attr_selrestr" name="vn_attribute" value="selrestr" />
+              <label for="attr_selrestr" class="hoverWrapper">
                 Selectional Restriction
                 <i class="fa fa-question-circle"></i>
-                <div id="hoverselrestr" style="display: none">
-                  {% for sr_el in sel_res %}
-                  <span
-                    >{% for sr_feat, sr_val in sr_el.items() %}
-                    <b>{{sr_feat}}</b>
-                    {%endfor %}</span
-                  >
-                  <span>{{ ", " if not loop.last }}</span>
-                  {% endfor %}
-                </div>
-              </div></label
-            ><br />
-            <input type="radio" name="vn_attribute" value="synrestr" />
-            <label for="vn_attribute"
-              ><div class="hoverWrapper">
+              </label>
+              <div id="hoverselrestr" class="attr-definitions" style="display: none">
+                {% for sr_el in sel_res %}
+                <span
+                  >{% for sr_feat, sr_val in sr_el.items() %}
+                  <b>{{sr_feat}}</b>
+                  {%endfor %}</span
+                >
+                <span>{{ ", " if not loop.last }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="attr-option">
+              <input type="radio" id="attr_synrestr" name="vn_attribute" value="synrestr" />
+              <label for="attr_synrestr" class="hoverWrapper">
                 Syntactic Restriction
                 <i class="fa fa-question-circle"></i>
-                <div id="hoversynrestr" style="display: none">
-                  {% for syn_el in syn_res %}
-                  <span
-                    >{% for synres_feat, synres_val in syn_el.items() %}
-                    <b>{{synres_feat}}</b>
-                    {%endfor %}</span
-                  >
-                  <span>{{ ", " if not loop.last }}</span>
-                  {% endfor %}
-                </div>
-              </div></label
-            ><br />
+              </label>
+              <div id="hoversynrestr" class="attr-definitions" style="display: none">
+                {% for syn_el in syn_res %}
+                <span
+                  >{% for synres_feat, synres_val in syn_el.items() %}
+                  <b>{{synres_feat}}</b>
+                  {%endfor %}</span
+                >
+                <span>{{ ", " if not loop.last }}</span>
+                {% endfor %}
+              </div>
+            </div>
           </form>
         </div>
         <!--END FORM-->
@@ -264,7 +264,7 @@
       <!--END SIDE COLUMN LEFT-->
     </div>
   </div>
-  <div id="results_pane_div" style="display: none; position: absolute">
+  <div id="results_pane_div" style="display: none">
     <button type="primary" class="button button2" id="close_button">
       Back to search
     </button>
@@ -312,19 +312,21 @@
 </script>
 
 <style type="text/css">
-  #hoverthemrole,
-  #hoverpredicate,
-  #hovervs_feature,
-  #hoverselrestr,
-  #hoversynrestr {
-    position: absolute;
-    margin: 5px;
-    border-radius: 25px;
+  .attr-option {
+    margin-bottom: 10px;
+  }
+  .hoverWrapper {
+    display: inline-block;
+  }
+  .attr-definitions {
+    margin: 8px 0 0;
+    border-radius: 12px;
     background-color: rgba(122, 157, 150, 0.9);
-    width: 40vw;
-    left: 105%;
-    top: 0%;
-    padding: 20px;
+    width: 100%;
+    max-width: 420px;
+    max-height: 160px;
+    overflow-y: auto;
+    padding: 14px 18px;
     text-align: justify;
     text-transform: capitalize;
   }
