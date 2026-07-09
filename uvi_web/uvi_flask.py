@@ -1,5 +1,5 @@
 import os
-from flask import Flask, Response, redirect
+from flask import Flask, Response
 from flask import render_template,request
 from flask_pymongo import PyMongo
 from flask_mail import Mail, Message
@@ -37,11 +37,6 @@ app.config.update(
 )
 mongo = PyMongo(app)
 mail = Mail(app)
-
-@app.before_request
-def redirect_to_https():
-	if not request.is_secure and not app.debug:
-		return redirect(request.url.replace("http://", "https://", 1), code=301)
 
 def sort_key(predicate):
 	## Key will be returned with the assumption that there's only oneword per entry in the list
