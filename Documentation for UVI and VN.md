@@ -1,61 +1,111 @@
 This file contains instructions for setting up and maintaining the UVI and VN. If you find anything that is missed, please add them to this file.
 
+Last verified: July 2026, against the verbs2 server (verbs.colorado.edu).
+
 About UVI (https://uvi.colorado.edu/):
 
-1.	All codes for UVI website are stored at: https://github.com/cu-clear/UVI . Make sure you are a member of the group. 
+1.	All codes for UVI website are stored at: https://github.com/cu-clear/UVI . Make sure you are a member of the group.
 
 2.	To set the website on your local machine:
 
-(1)	Go to http: https://github.com/cu-clear/UVI.
-
-(2)	Clone and cd into the deployable version of the UVI web app from the appropriate remote repository:
+(1)	Clone and cd into the UVI web app repository:
 
     git clone https://github.com/cu-clear/UVI
     cd UVI
-(3)	Create a new conda environment for the UVI project, then activate the environment.
-	
-     conda create -n uvi_web python=3.6
-     source activate uvi_web
-(4)	With the conda environment active, update pip:
 
-    pip install –upgrade pip
-(5)	Install project dependencies from requirements.txt (unfortunately, conda doesn't have all the packages we need so instead of using two package managers we will use the active conda environment's copy of pip to manage our Python packages):
+(2)	Create a new conda environment for the UVI project, then activate the environment (production runs Python 3.9, so prefer that over the older 3.6 instructions):
+
+    conda create -n uvi_web python=3.9
+    conda activate uvi_web
+
+(3)	With the conda environment active, update pip:
+
+    pip install --upgrade pip
+
+(4)	Install project dependencies from requirements.txt (unfortunately, conda doesn't have all the packages we need so instead of using two package managers we will use the active conda environment's copy of pip to manage our Python packages):
 
     pip install -r requirements.txt
-(6)	Download Spacy English language model (necessary to generate dependency parse trees on VerbNet)
-    python -m spacy download en
 
-         python
-         nltk.download('punkt')
-(7)	Set environment variables for mail server:
+(5)	Download the Spacy English language model (necessary to generate dependency parse trees on VerbNet) and the NLTK punkt tokenizer:
+
+    python -m spacy download en
+    python -c "import nltk; nltk.download('punkt')"
+
+(6)	Set environment variables for mail server:
 
     [MAIL_SETUP]
     mail_username = uvi.contact@gmail.com
-    mail_password = VerbsAccount
+    mail_password = <ask a maintainer — do not write it in this file>
     recipients = uvi.contact@gmail.com, martha.palmer@colorado.edu, brownsw@colorado.edu
-(Or inject username and password from configs.ini file. NEVER, NEVER commit or upload this file anywhere.)
-3.	Now the website has been set on your own local machine. You can run the server with commands below:
 
-       cd ./UVI/uvi_web
-       source activate uvi_web
-       ~./run_local.sh~
-   
-   Copy and paste the localhost address to the browser. 
+(Or inject username and password from configs.ini file. NEVER, NEVER commit or upload this file anywhere.)
+
+3.	Now the website has been set on your own local machine. You can run the server with the commands below:
+
+    cd ./UVI/uvi_web
+    conda activate uvi_web
+    ./run_local.sh
+
+Copy and paste the localhost address to the browser.
 (This is also the way to test the website. Make sure it runs well before you push changes to https://github.com/cu-clear/UVI .)
 
-4.	To deploy codes to the remote server: First please contact the Office of Information Technology (oithelp@colorado.edu)  to ask for the permission of verbs.colorado.edu server.
+4.	To deploy code to the production server (verbs.colorado.edu, currently the host "verbs2"):
 
-        ssh username@verbs.colorado.edu
-        sudo su - verbnet-service
-        cd UVI_deployable
-        source activate uvi_web
-        git remote -v (check whether the git upstream is https://github.com/cu-clear/UVI.git )
-        git pull
-        sudo service gunicorn_uvi reload
-	
-Now go to https://uvi.colorado.edu/, the changes should be reflected on the website.
+Prerequisites (one-time): you need an account on verbs.colorado.edu with sudo rights to switch to the verbnet-service user. Contact the Office of Information Technology (oithelp@colorado.edu) to request access.
 
-More commands about remote server can be found at: https://docs.google.com/document/d/1p3nc_o7q4VfAD2RFu7OM8Xc9x8zvCPzIHoVur5ojkcM/edit?ts=5f861e3d
+(1)	First, commit and push your tested changes to GitHub from your local machine:
+
+    cd UVI
+    git add <changed files>
+    git commit -m "describe your change"
+    git push origin master
+
+(2)	SSH to the server and switch to the service account (note: it is `sudo -i -u`, not `sudo -`):
+
+    ssh <your-identikey>@verbs.colorado.edu
+    sudo -i -u verbnet-service
+
+(3)	Go to the deployed checkout. IMPORTANT: the code does NOT live in the service account's home directory — it lives under /data:
+
+    cd /data/verbnet-service/UVI_deployable
+
+(4)	Pull the latest code:
+
+    git remote -v    # confirm the remote is https://github.com/cu-clear/UVI.git
+    git status       # confirm there are no local server-side edits that would block the pull
+    git pull
+
+(5)	Reload gunicorn so the new code is served. IMPORTANT: the old instruction `sudo service gunicorn_uvi reload` no longer works — that systemd/init unit exists but is inactive (dead). Gunicorn is started manually on this server, so reload it by sending SIGHUP to the gunicorn master process:
+
+    kill -HUP $(pgrep -of 'gunicorn.*uvi_flask')
+
+(`pgrep -of` picks the oldest matching process, which is the gunicorn master; on HUP it gracefully restarts its 4 workers with the new code.)
+
+(6)	Verify the reload worked:
+
+    ps aux | grep -i gunicorn | grep -v grep
+
+The worker processes should show fresh start times, and the master should still be running. Then go to https://uvi.colorado.edu/ and confirm your changes are live.
+
+For reference, the production setup on verbs2 is:
+
+    App checkout:    /data/verbnet-service/UVI_deployable
+    Virtualenv:      /data/verbnet-service/UVI_deployable/uvi_web/env_uvi (Python 3.9)
+    App server:      gunicorn, 4 workers, bound to 127.0.0.1:4000, app module uvi_flask:app
+    Started:         manually (NOT via systemd; the gunicorn_uvi unit is dead)
+
+Troubleshooting:
+
+- `cd: UVI_deployable: No such file or directory` — you are in the home directory; the checkout is at /data/verbnet-service/UVI_deployable (see step 3).
+- `sudo: -: command not found` — you typed `sudo - verbnet-service`; use `sudo -i -u verbnet-service` (or `sudo su - verbnet-service`).
+- If gunicorn is not running at all (no processes in `ps aux | grep gunicorn`), start it manually as verbnet-service:
+
+    cd /data/verbnet-service/UVI_deployable/uvi_web
+    nohup env_uvi/bin/gunicorn -w 4 -b 127.0.0.1:4000 uvi_flask:app &
+
+- To find the gunicorn master PID explicitly: `pgrep -af 'gunicorn.*uvi_flask'` — the master is the oldest one (state `Ss` in `ps aux`).
+
+More commands about the remote server can be found at: https://docs.google.com/document/d/1p3nc_o7q4VfAD2RFu7OM8Xc9x8zvCPzIHoVur5ojkcM/edit?ts=5f861e3d
 It also includes how to see if the database value has been uploaded.
 
 5.	If you have any questions that are not mentioned in this documentation, please contact Lan Sang: lan.sang@colorado.edu
@@ -69,9 +119,9 @@ About VerbNet Website (https://verbs.colorado.edu/verbnet/):
 
         cd verbnet_webpages_raw
         python -m http.server
-	
+
 	Copy and paste the localhost address to the browser and you can now test the website.
-	
+
 3.	To deploy codes to the remote server: First contact the Office of Information Technology (oithelp@colorado.edu)  to ask for the permission of verbs.colorado.edu server.
 
         ssh username@verbs.colorado.edu
