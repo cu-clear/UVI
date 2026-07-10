@@ -85,7 +85,27 @@ Prerequisites (one-time): you need an account on verbs.colorado.edu with sudo ri
 
     ps aux | grep -i gunicorn | grep -v grep
 
-The worker processes should show fresh start times, and the master should still be running. Then go to https://uvi.colorado.edu/ and confirm your changes are live.
+The worker processes should show fresh start times, and the master should still be running.
+
+(7)	Test that the site is actually serving. From any machine (your laptop is fine), run:
+
+    curl -sI https://uvi.colorado.edu/ | head -3
+
+You want `HTTP/1.1 200 OK`. A 301/302 to an unexpected host (e.g. https://localhost:4000/) or a 500/502 means the deploy broke the app — see Troubleshooting.
+
+Then smoke-test the main routes (note: the search page is `/uvi_search`, there is NO `/search` route):
+
+    for p in "" uvi_search class_hierarchy references_page verbnet/run-51.3.2 "_process_query?lemma_query_string=run"; do
+        curl -s -o /dev/null -w "/$p -> %{http_code}\n" "https://uvi.colorado.edu/$p"
+    done
+
+All should print 200. To confirm search returns real results (not an empty page):
+
+    curl -s 'https://uvi.colorado.edu/_process_query?lemma_query_string=run' | grep -c 'run-51'
+
+A nonzero count means search is working. Finally, click through the site in a browser with a hard refresh (Cmd+Shift+R) so you see the newly deployed CSS/JS instead of cached copies.
+
+Main routes for reference (defined in uvi_web/uvi_flask.py): `/` (welcome), `/uvi_search` (search page), `/uvi_search_anywhere`, `/_process_query` (search backend), `/class_hierarchy`, `/references_page`, `/nlp_applications`, `/contact_us`, `/verbnet/<vn_class_id>` (e.g. /verbnet/run-51.3.2), `/download_json`.
 
 For reference, the production setup on verbs2 is:
 
@@ -96,6 +116,7 @@ For reference, the production setup on verbs2 is:
 
 Troubleshooting:
 
+- Every page 301-redirects to https://localhost:4000/... — some code in the app is generating absolute redirects (e.g. a Flask-level HTTPS-enforcement `before_request`). TLS terminates at the front-end proxy, so gunicorn only ever sees plain HTTP on localhost:4000 and `request.is_secure` is always False; any such redirect fires on every request and rebuilds the URL with the wrong host. Do NOT add HTTPS redirects in Flask — the proxy already enforces HTTPS and HSTS. (This took the site down in July 2026; fixed by removing the handler from uvi_flask.py.) Note this class of bug is invisible in local testing because run_local.sh runs in debug mode.
 - `cd: UVI_deployable: No such file or directory` — you are in the home directory; the checkout is at /data/verbnet-service/UVI_deployable (see step 3).
 - `sudo: -: command not found` — you typed `sudo - verbnet-service`; use `sudo -i -u verbnet-service` (or `sudo su - verbnet-service`).
 - If gunicorn is not running at all (no processes in `ps aux | grep gunicorn`), start it manually as verbnet-service:
