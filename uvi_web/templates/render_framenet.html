@@ -75,11 +75,12 @@
               html: true,
               content: function () {
                   var content = el.getAttribute('data-popover-content');
-                  return document.querySelector(content).querySelector('.popover-body').innerHTML;
+                  return document.getElementById(content.slice(1)).querySelector('.popover-body').innerHTML;
               },
               title: function () {
                   var title = el.getAttribute('data-popover-content');
-                  return document.querySelector(title).querySelector('.popover-heading').innerHTML;
+                  var heading = document.getElementById(title.slice(1)).querySelector('.popover-heading');
+                  return heading ? heading.innerHTML : '';
               }
           });
       });

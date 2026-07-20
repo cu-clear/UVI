@@ -150,3 +150,6 @@ About VerbNet Website (https://verbs.colorado.edu/verbnet/):
         cd /usr/local/apache/htdocs/verbs/verbnet/
 
 (Because rewritting the folder requires additional permission, please contact Kevin Stowe to ask for it.)
+
+
+it should show a small popup list of "fn_mapping" list when hovered over "Member Verb Lemmas:-topfile" 

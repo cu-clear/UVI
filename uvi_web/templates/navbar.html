@@ -1,10 +1,5 @@
 <!--Begin Navbar-->
 
-<!-- Notice bar (separate from nav so it doesn't break Bootstrap's flex layout) -->
-<div class="uvi-notice-bar">
-  Important: This website is optimized for laptop and tablet views. For the best experience, please view it on these devices.
-</div>
-
 <!-- Main navbar using standard Bootstrap 4 structure -->
 <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
 
@@ -57,26 +52,10 @@
 <!--End Navbar-->
 
 <style>
-  .uvi-notice-bar {
-    width: 100%;
-    text-align: center;
-    padding: 5px 12px;
-    font-size: 0.82rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    color: yellow;
-    background-color: rgba(50, 90, 130, 0.95);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-sizing: border-box;
-  }
-
   #navbar {
     background-color: steelblue;
     position: sticky;
-    top: 28px; /* height of notice bar */
+    top: 0;
     z-index: 99;
     width: 100%;
     padding: 0.4rem 1rem;
@@ -100,15 +79,9 @@
       font-size: 0.95rem;
       padding: 0.4rem 0;
     }
-    #navbar {
-      top: 28px;
-    }
   }
 
   @media (max-width: 575px) {
-    .uvi-notice-bar {
-      font-size: 0.72rem;
-    }
     #logo {
       height: 38px !important;
     }
