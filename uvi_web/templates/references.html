@@ -424,6 +424,7 @@
         <br>% &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dest
         <br>%&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dest_conf
         <br>%&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp|-------> dest_dir
+        <div style="width:100%; overflow-x:auto;">
         <table cellspacing="2"  border = "1" style="border-collapse:collapse;">
           <tr>
             <td>% dynamic spatial prep</td>
@@ -489,6 +490,7 @@
           </td>
           </tr>
         </table>
+        </div>
       </p>
 </div>
 
@@ -514,7 +516,7 @@
 }
 #bothButtons {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     list-style: none;
@@ -538,6 +540,21 @@
   }
   .no-underline{
     text-decoration: none;
+  }
+
+  @media (max-width: 767px) {
+    #wrapper {
+      padding: 0 8px;
+    }
+    #optionsBox, #pageInfo {
+      margin: 10px 0;
+      padding: 12px;
+    }
+    .button {
+      padding: 10px 18px;
+      margin: 6px;
+      font-size: 0.85rem;
+    }
   }
 
 </style>

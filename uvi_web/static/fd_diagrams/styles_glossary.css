@@ -3,7 +3,6 @@ body {
     position: relative;
     text-align: left;
     max-width: 100%;
-    min-width: 480px;
     margin: 0 auto;
     font-family: 'Crimson Text', sans-serif;
 }
@@ -127,6 +126,16 @@ ul.nav-pills {
     }
     .col-sm-4 {
         max-width: 0px;
+    }
+    ul.nav-pills {
+        position: static;
+    }
+    .nav {
+        padding-top: 20px;
+        margin-right: 0;
+    }
+    #section1, #section2, #section3 {
+        margin-left: 0;
     }
   }
 

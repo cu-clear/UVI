@@ -28,7 +28,7 @@
         <form action="/uvi_search_anywhere" method="post" class="d-flex my-2 my-lg-0">
           <input id="search_box-search" type="text" class="form-control form-control-sm"
                  placeholder="Search the UVI..." name="common_query_string"
-                 style="width:160px; border:none;">
+                 style="border:none;">
           <button type="submit" class="btn btn-outline-light btn-sm ml-1">Search</button>
         </form>
       </li>
@@ -73,11 +73,29 @@
     white-space: nowrap;
   }
 
+  #search_box-search {
+    width: 160px;
+  }
+
   /* Mobile: collapse menu */
   @media (max-width: 991px) {
     #navbar .nav-link {
       font-size: 0.95rem;
       padding: 0.4rem 0;
+    }
+
+    #navbar .navbar-collapse {
+      margin-top: 0.5rem;
+    }
+
+    /* Search box takes the full width of the collapsed menu on mobile */
+    #navbar form.d-flex {
+      width: 100%;
+    }
+
+    #search_box-search {
+      width: 100%;
+      flex: 1 1 auto;
     }
   }
 

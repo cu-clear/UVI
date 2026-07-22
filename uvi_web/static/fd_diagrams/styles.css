@@ -1,10 +1,21 @@
 body {
-    padding: 50;
+    padding: 50px;
     text-align: center;
     max-width: 900px;
-    min-width: 480px;
     margin: 0 auto;
     font-family: 'Crimson Text', sans-serif;
+}
+
+@media (max-width: 575px) {
+    body {
+        padding: 20px 12px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .row {
+        flex-direction: column;
+    }
 }
 
 h2{
