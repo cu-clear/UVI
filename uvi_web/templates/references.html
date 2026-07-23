@@ -509,6 +509,14 @@
 #pageInfo {
     background: rgba(122, 157, 150, .9);
     overflow-y:auto;
+    overflow-x: hidden;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+#pageInfo img {
+    max-width: 100%;
+    height: auto;
 }
 #wrapper {
     margin-top: 20px;
@@ -554,6 +562,11 @@
       padding: 10px 18px;
       margin: 6px;
       font-size: 0.85rem;
+    }
+    #pageInfo .card-header,
+    #pageInfo .card-body {
+      padding: 0.75rem;
+      font-size: 0.9rem;
     }
   }
 

@@ -185,6 +185,15 @@
       #pageInfo {
         background: rgba(122, 157, 150, .9);
         overflow-y: auto;
+        overflow-x: hidden;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        max-width: 100%;
+      }
+
+      #pageInfo img {
+        max-width: 100%;
+        height: auto;
       }
 
       video {
@@ -206,6 +215,9 @@
       }
       .licence-text{
         font-size: initial;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
       }
 
       @media (max-width: 767px) {
@@ -215,6 +227,9 @@
         #optionsBox, #pageInfo {
           margin: 10px 0;
           padding: 12px;
+        }
+        .licence-text {
+          font-size: 0.85rem;
         }
       }
     </style>

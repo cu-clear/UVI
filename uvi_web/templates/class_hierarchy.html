@@ -69,6 +69,9 @@
     overflow-x: hidden;
     margin: auto;
     height:72vh;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   .button {
@@ -104,11 +107,13 @@
   }
 
   .wordStyle {
-    text-decoration: none; 
+    text-decoration: none;
     color: black;
     /*font-weight: bold;*/
     font-size: 16px;
     /*margin-left: 6px;*/
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 
   /* https://speckyboy.com/snippets-masonry-grid-layouts/ - for the masonry layout*/
@@ -120,9 +125,12 @@
   article {
   -moz-column-width: 20em;
   -webkit-column-width: 20em;
+  column-width: 20em;
   -moz-column-gap: 1em;
-  -webkit-column-gap: 1em; 
+  -webkit-column-gap: 1em;
+  column-gap: 1em;
   width: 100%;
+  max-width: 100%;
   }
 
   section {
@@ -130,9 +138,13 @@
   margin:  0.25rem;
   padding:  1rem;
   width:  100%;
+  max-width: 100%;
   background:  rgba(255, 255, 210, 0.9); /* Very pale yellow color*/
   float: left;
   border-radius: 8px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
   }
 
   @media (max-width: 575px) {
@@ -142,6 +154,10 @@
     }
     #hierPage {
       height: 65vh;
+    }
+    article {
+      column-count: 1;
+      column-width: auto;
     }
   }
 
