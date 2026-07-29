@@ -57,21 +57,30 @@
                         return heading ? heading.innerHTML : '';
                     }
                 });
-                el.addEventListener('mouseenter', function () {
-                    popover.show();
-                    document.querySelectorAll('.popover').forEach(function (p) {
-                        p.addEventListener('mouseleave', function () {
-                            popover.hide();
-                        });
-                    });
-                });
-                el.addEventListener('mouseleave', function () {
-                    setTimeout(function () {
-                        if (!document.querySelector('.popover:hover')) {
+                // Grace period before hiding, so the user has time to move
+                // the mouse from the trigger into the popover (and click links).
+                var HIDE_DELAY_MS = 400;
+                var hideTimer = null;
+                function cancelHide() {
+                    clearTimeout(hideTimer);
+                }
+                function scheduleHide() {
+                    clearTimeout(hideTimer);
+                    hideTimer = setTimeout(function () {
+                        if (!el.matches(':hover') && !document.querySelector('.popover:hover')) {
                             popover.hide();
                         }
+                    }, HIDE_DELAY_MS);
+                }
+                el.addEventListener('mouseenter', function () {
+                    cancelHide();
+                    popover.show();
+                    document.querySelectorAll('.popover').forEach(function (p) {
+                        p.addEventListener('mouseenter', cancelHide);
+                        p.addEventListener('mouseleave', scheduleHide);
                     });
                 });
+                el.addEventListener('mouseleave', scheduleHide);
             });
         });
         </script>
