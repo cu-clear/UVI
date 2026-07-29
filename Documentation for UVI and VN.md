@@ -40,7 +40,25 @@ About UVI (https://uvi.colorado.edu/):
 
 (Or inject username and password from configs.ini file. NEVER, NEVER commit or upload this file anywhere.)
 
-3.	Now the website has been set on your own local machine. You can run the server with the commands below:
+(7)	The app needs a local MongoDB instance (it connects to `mongodb://localhost:27017/new_corpora`, see uvi_web/uvi_flask.py). On macOS, install and run it via Homebrew:
+
+    brew tap mongodb/brew
+    brew install mongodb-community
+    brew services start mongodb-community
+
+This registers MongoDB as a background service (via a LaunchAgent), so it stays running across reboots/logins — you only need to run `brew services start mongodb-community` once. Useful commands:
+
+    brew services info mongodb-community   # check if it's running, show PID
+    brew services stop mongodb-community   # stop it
+    brew services restart mongodb-community
+
+To verify it's actually reachable:
+
+    mongosh --eval "db.runCommand({ ping: 1 })" --quiet
+
+This should print `{ ok: 1 }`. If `mongosh` isn't installed, `brew install mongosh`.
+
+3.	Now the website has been set on your own local machine. Make sure MongoDB is running first (`brew services info mongodb-community` — start it with `brew services start mongodb-community` if not), then run the server with the commands below:
 
     cd ./UVI/uvi_web
     conda activate uvi_web

@@ -3,7 +3,7 @@ from flask import Flask, Response
 from flask import render_template,request
 from flask_pymongo import PyMongo
 from flask_mail import Mail, Message
-from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined
+from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined, oewn_url
 from methods import sort_by_char, sort_by_id
 
 import json
@@ -47,7 +47,8 @@ def context_methods():
 	return dict(top_parent_id=top_parent_id, unique_id=unique_id, mongo_to_json=mongo_to_json, formatted_def=formatted_def, \
 		full_class_hierarchy_tree=full_class_hierarchy_tree, get_themrole_fields=get_themrole_fields, get_pred_fields=get_pred_fields, \
 		get_constant_fields=get_constant_fields, get_verb_specific_fields=get_verb_specific_fields, remove_object_ids=remove_object_ids, \
-		colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined)
+		colored_pb_example=colored_pb_example, vn_sanitized_class=vn_sanitized_class, get_themrole_fields_undefined=get_themrole_fields_undefined, \
+		oewn_url=oewn_url)
 
 @app.route('/uvi_search')
 def uvi_search(common_query_string=None):

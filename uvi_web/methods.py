@@ -1,5 +1,6 @@
 #uvi_web/methods.py
 
+import os
 import random
 # import json
 from bson.json_util import dumps
@@ -604,3 +605,40 @@ def get_themrole_fields(class_id, frame_desc_primary, frame_desc_secondary, them
 #       elif arg_type == 'ADJ':
 #           output_html += arg_type + ' '
 #   return output_html
+
+# Mapping from OEWN lemma + sense ID to synset ID, used to build direct
+# synset links to en-word.net. Built from the OEWN XML (table provided by
+# Jan Hajic); regenerate from the current OEWN XML if OEWN is updated.
+OEWN_MAPPING_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'oewn_sense_synset_mapping.tsv')
+
+def load_oewn_synset_mapping():
+	mapping = {}
+	try:
+		with open(OEWN_MAPPING_FILE, encoding='utf-8') as mapping_file:
+			for line in mapping_file:
+				fields = line.rstrip('\n').split('\t')
+				if len(fields) < 5:
+					continue
+				aggregate_key, synset_id = fields[2], fields[4]
+				if synset_id.startswith('oewn-'):
+					synset_id = synset_id[len('oewn-'):]
+				mapping[aggregate_key] = synset_id
+	except OSError as error:
+		print('Warning: could not load OEWN synset mapping (%s); WordNet links will fall back to lemma search' % error)
+	return mapping
+
+oewn_synset_mapping = load_oewn_synset_mapping()
+
+def oewn_url(wn_sense):
+	# wn_sense is a VerbNet WordNet sense string such as 'check%2:31:02'
+	# (possibly prefixed with '?' for uncertain mappings). Returns a direct
+	# synset URL when the sense is in the mapping, otherwise the lemma
+	# search URL as before.
+	sense = wn_sense.lstrip('?')
+	lemma, _, sense_id = sense.partition('%')
+	if sense_id:
+		aggregate_key = 'oewn-' + lemma.lower() + '__' + sense_id.replace(':', '.') + '..'
+		synset_id = oewn_synset_mapping.get(aggregate_key)
+		if synset_id:
+			return 'https://en-word.net/view/synset/' + synset_id
+	return 'https://en-word.net/lemma/' + lemma.replace('_', ' ')
