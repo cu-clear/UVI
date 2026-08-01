@@ -33,9 +33,6 @@
         <a class="nav-link" data-bs-toggle="tab" href="#SemLink" role="tab" aria-controls="SemLink">SemLink</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="tab" href="#synRes" role="tab" aria-controls="synRes">Syntactic Restrictions</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" data-bs-toggle="tab" href="#ThematicRoleHierarchy" role="tab" aria-controls="Thematic Role Hierarchy">Thematic Role Hierarchy</a>
         </li>
       <li class="nav-item">
@@ -316,40 +313,6 @@
           </div>
           </div>
 
-      </div>
-      <div class="tab-pane" id="synRes" role="tabpanel">
-          <h2>Syntactic Restrictions </h2>
-          <br>
-          <h5>
-            {% for syn_res_el in syn_res %}
-            {% for syn_res_name, syn_res_val in syn_res_el.items() %}
-            <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#syn-{{syn_res_name}}" aria-expanded="false" aria-controls="#syn-{{syn_res_name}}">
-              <span style="font-weight:bold; text-transform:uppercase;">{{ syn_res_name }}</span>
-            </button>
-            <div class="collapse" id="syn-{{syn_res_name}}">
-              {% for pol, val in syn_res_val.items()%}
-              <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
-                <div class="card-header">
-                  <p>
-                    Classes containing <span style="text-transform: uppercase;">{{pol}}{{syn_res_name }}: </span><br>
-                    Count: {{ val['count'] }} <br>
-                  </p>
-                </div>
-                <div class="card card-body">
-                  <h5>
-                  {% for vn_mem in val['vn_mem'] %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="button" onclick="window.location.href='{{ url_for( 'render_vn_class', vn_class_id=vn_mem) }}';">
-                    <span style="font-weight:bold; text-transform:uppercase;">{{ vn_mem }}</span>
-                  </button>
-                  {% endfor %}
-                  </h5>
-                </div>
-              </div>
-              {% endfor %}
-            </div>
-            {% endfor %}
-            {% endfor %}
-          </h5>
       </div>
       <div class="tab-pane" id="selRes" role="tabpanel">
           <h2>Selectional Restrictions </h2>

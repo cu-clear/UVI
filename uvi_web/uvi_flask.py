@@ -1,6 +1,6 @@
 import os
 from flask import Flask, Response
-from flask import render_template,request
+from flask import render_template,request,flash,redirect,url_for
 from flask_pymongo import PyMongo
 from flask_mail import Mail, Message
 from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined, oewn_url
@@ -97,18 +97,22 @@ def contact_us():
 	## mail recipients 
 	recipients = configs['MAIL_SETUP']['recipients'].split(',')
 	if request.method=='POST':
-		## unused variable "reply_to_name"
-		#reply_to_name = request.form.get('name')
-		reply_to=request.form.get('email')
-		subject = request.form.get('subject')
-		message = request.form.get('message')
-		msg = Message(subject=subject, 
-						sender=app.config.get("MAIL_USERNAME"), 
+		reply_to = request.form.get('email', '')
+		## strip newlines to prevent mail header injection via the subject field
+		subject = request.form.get('subject', '').replace('\r', ' ').replace('\n', ' ')
+		message = request.form.get('message', '')
+		msg = Message(subject=subject,
+						sender=app.config.get("MAIL_USERNAME"),
 						recipients=recipients,
+						reply_to=reply_to,
 						body=message)
-		msg.add_recipient(reply_to)
-		print(msg);
-		mail.send(msg)
+		try:
+			mail.send(msg)
+			flash('Your message has been sent. Thank you!', 'success')
+		except Exception:
+			app.logger.exception('Contact form mail send failed')
+			flash('Sorry, your message could not be sent. Please email us directly instead.', 'danger')
+		return redirect(url_for('contact_us'))
 
 	return render_template('contact.html')
 
@@ -120,12 +124,11 @@ def references_page():
 	predicates_freq = sorted(predicates,key=lambda x: list(x.values())[0]["count"], reverse=True)
 	vs_features = sorted(list(mongo.db.verbnet.references.vs_features.find({}, {'_id':0})), key=sort_key)
 	vs_features_freq = sorted(vs_features,key=lambda x: list(x.values())[0]["count"], reverse=True)
-	syn_res = sorted(list(mongo.db.verbnet.references.syn_restrs.find({}, {'_id':0})), key=sort_key)
 	sel_res = sorted(list(mongo.db.verbnet.references.sel_restrs.find({}, {'_id':0})), key=sort_key)
 
 	## All Page details are returned by get_ref_page in a dictioanry format
 	return render_template('references.html',
-		gen_themroles=gen_themroles, gen_themroles_freq = gen_themroles_freq, predicates=predicates, vs_features=vs_features, vs_features_freq = vs_features_freq, predicates_freq = predicates_freq, syn_res=syn_res, sel_res=sel_res
+		gen_themroles=gen_themroles, gen_themroles_freq = gen_themroles_freq, predicates=predicates, vs_features=vs_features, vs_features_freq = vs_features_freq, predicates_freq = predicates_freq, sel_res=sel_res
 	)
 
 @app.route('/_process_query', methods=['GET','POST'])

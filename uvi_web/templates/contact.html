@@ -4,10 +4,11 @@
 <div id="contact-view">
   <div class="row">
     <div class="col-xl-8 offset-xl-2 py-5">
-      <marquee class="css1"
-        >Important: Our contact form is down over the years, Its working now.
-        Please contact us again. You will hear back from uvi@gmail.com</marquee
-      >
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}" role="alert">{{ message }}</div>
+        {% endfor %}
+      {% endwith %}
       <h2>Contact form</h2>
       <form action="/contact_us" id="contact_form" method="POST">
         <div class="controls mb-2">
@@ -43,7 +44,7 @@
                 <label for="form_subject">Subject</label>
                 <input
                   id="form_subject"
-                  type="subject"
+                  type="text"
                   name="subject"
                   class="form-control"
                   required="required"
@@ -95,15 +96,6 @@
     #contact-view {
       width: 100%;
     }
-  }
-  .css1 {
-    background-color: rgb(159, 233, 243);
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: bold;
-    color: purple;
-    /* text-shadow: 2px 2px 8px #FF0000; */
   }
 </style>
 
