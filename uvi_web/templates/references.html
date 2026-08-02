@@ -252,11 +252,12 @@
               <div role="tabpanel" class="tab-pane active" id="tab_num_vs">
                   <h5>
                     {% for vs_el in vs_features_freq %}
+                      {% set vs_el_num = loop.index %}
                       {% for vs_feat_freq, vs_val in vs_el.items() %}
-                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsf-{{vs_feat_freq[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                        <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#vsf-{{vs_el_num}}-end" aria-expanded="false" aria-controls="#vsf-{{vs_el_num}}-end">
                           <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat_freq +' ('+vs_val['count']|string+')' }}</span>
                         </button>
-                        <div class="collapse" id="vsf-{{vs_feat_freq[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                        <div class="collapse" id="vsf-{{vs_el_num}}-end">
                           <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                             <div class="card-header">
                               <p>
@@ -283,11 +284,12 @@
           <div role="tabpanel" class="tab-pane active" id="tab_name_vs">
             <h5>
               {% for vs_el in vs_features %}
+                {% set vs_el_num = loop.index %}
                 {% for vs_feat_name, vs_val in vs_el.items() %}
-                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end" aria-expanded="false" aria-controls="#vsn-{{vs_feat_name[1:]|replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                  <button tabindex='0' role="button" type="button" class="btn btn-outline-dark m-1" data-bs-toggle="collapse" data-bs-target="#vsn-{{vs_el_num}}-end" aria-expanded="false" aria-controls="#vsn-{{vs_el_num}}-end">
                     <span style="font-weight:bold; text-transform:uppercase;">{{ vs_feat_name+' ('+vs_val['count']|string+')' }}</span>
                   </button>
-                  <div class="collapse" id="vsn-{{ vs_feat_name[1:] | replace(':', 'colon') | replace(';', 'semi-colon') | replace(',', 'comma')}}-end">
+                  <div class="collapse" id="vsn-{{vs_el_num}}-end">
                     <div class="card border border-dark" style="max-height: 500px; overflow-y: scroll; padding: 1rem">
                       <div class="card-header">
                         <p>
@@ -538,6 +540,15 @@
 {% endblock %}
 
 {% block scripts %}
-
-
+<script>
+  // Allow deep-linking to a tab, e.g. /references_page#pred from the search page help icons
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.hash) {
+      var tabLink = document.querySelector('a[data-bs-toggle="tab"][href="' + window.location.hash + '"]');
+      if (tabLink) {
+        new bootstrap.Tab(tabLink).show();
+      }
+    }
+  });
+</script>
 {% endblock %}

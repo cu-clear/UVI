@@ -7,6 +7,7 @@ from methods import top_parent_id, find_matching_ids, find_matching_elements, un
 from methods import sort_by_char, sort_by_id
 
 import json
+import re
 
 from bson import json_util
 import configparser
@@ -37,6 +38,19 @@ app.config.update(
 )
 mongo = PyMongo(app)
 mail = Mail(app)
+
+def vs_feature_regex(query):
+	'''Case-insensitive matcher for verb-specific feature tokens. Matches a stored
+	token ("+fast", "Aperture", "property_changed: intensity") when the query equals
+	the whole token, the key, or one of the values; an explicit +/- prefix in the
+	query is respected, otherwise any polarity matches.'''
+	query = query.strip()
+	sign = ''
+	if query and query[0] in '+-':
+		sign, query = query[0], query[1:].strip()
+	q = re.escape(query)
+	sign_pat = re.escape(sign) if sign else r'[+-]?'
+	return re.compile(r'(^' + sign_pat + q + r'$)|(^' + q + r'\s*:)|(:\s*' + sign_pat + q + r'$)', re.IGNORECASE)
 
 def sort_key(predicate):
 	## Key will be returned with the assumption that there's only oneword per entry in the list
@@ -150,8 +164,6 @@ def process_query(common_query_string = None):
 		else:
 			print('entered common if loop')
 			query_string = request.form['lemma_query_string']
-			print(request.form['lemma_query_string'])
-			print(request.form.get('lemma_query_string')+' POOOOOPPP!!')
 			lemmas = [x.lower() for x in query_string.split()]
 			logic = request.form['logic']
 			sort_behavior = request.form['sort_behavior']
@@ -167,44 +179,40 @@ def process_query(common_query_string = None):
 		query_string = request.form['attribute_query_string']
 		#if query string is empty, return all possible instances of this attribute
 		#e.g. all predicates, themroles, etc.
-		if query_string == '':
+		if query_string.strip() == '':
 			return ''
 
 		attribute_type = request.form['vn_attribute']
 		if attribute_type == 'themrole':
-			themrole = query_string[0].upper() + query_string[1:].lower()
+			themrole = query_string.strip()
+			themrole_pattern = re.compile(r'^' + re.escape(themrole) + r'$', re.IGNORECASE)
 			sort_behavior = 'alpha'
-			matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'frames.semantics.args': {'arg_type':'ThemRole', 'value':themrole}})])}
+			matched_ids = {'VerbNet':sorted(set([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'frames.semantics.args': {'$elemMatch': {'arg_type':'ThemRole', 'value':themrole_pattern}}})]))}
 			return render_template('themrole_search.html', themrole=themrole.upper(), matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
 
 		elif attribute_type == 'predicate':
-			predicate = query_string.lower()
+			predicate = query_string.strip().lower()
+			predicate_pattern = re.compile(r'^' + re.escape(predicate) + r'$', re.IGNORECASE)
 			sort_behavior = 'alpha'
-			matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'frames.semantics.predicate':predicate})])}
+			matched_ids = {'VerbNet':sorted(set([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'frames.semantics.predicate':predicate_pattern})]))}
 			return render_template('predicate_search.html', predicate=predicate.upper(), matched_ids=matched_ids, query_string=query_string, sort_behavior=sort_behavior)
 
 		elif attribute_type == 'vs_feature':
-			if query_string[0] in ['+', '-']:
-				vs_features = [query_string]
-			else:
-				vs_features = ['+'+query_string, '-'+query_string, query_string]
-			matched_ids={}
-			matched_ids['VerbNet'] = []
-			for vs_feature in vs_features:
-				c=len(matched_ids['VerbNet'])
-				matched_ids['VerbNet'].extend([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': vs_feature})])
-				if c==len(matched_ids['VerbNet']):
-					#print('removing', vs_feature)
-					vs_features.remove(vs_feature)
-			#matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': vs_feature})])}
-			matched_ids['VerbNet'] = list(set(matched_ids['VerbNet']))
-			matched_ids['VerbNet'].sort()
-			vs_f=''
-			for vs_feature in vs_features:
-				vs_f += vs_feature.upper()+' , ' 
-			return render_template('vs_feature_search.html', vs_feature=vs_f[:-3], matched_ids=matched_ids)
+			feature_pattern = vs_feature_regex(query_string)
+			matched_ids = {'VerbNet': []}
+			matched_features = set()
+			for vn_class in mongo.db.verbnet.find({'members.vs_features': feature_pattern}):
+				matched_ids['VerbNet'].append(vn_class['class_id'])
+				for member in vn_class['members']:
+					for feat in member.get('vs_features') or []:
+						if feature_pattern.search(feat):
+							matched_features.add(feat)
+			matched_ids['VerbNet'] = sorted(set(matched_ids['VerbNet']))
+			vs_f = ' , '.join(sorted(matched_features, key=str.lower))
+			return render_template('vs_feature_search.html', vs_feature=vs_f.upper(), matched_ids=matched_ids, vs_query=query_string)
 
 		elif attribute_type == 'selrestr':
+			query_string = query_string.strip().lower()
 			if query_string[0] == '+' or query_string[0] == '-' :
 				selrestr_type = query_string[1:]
 				selrestr_vals = [query_string[0]]
@@ -232,6 +240,7 @@ def process_query(common_query_string = None):
 			return render_template('selrestr_search.html', selrestr = selrestr[:-3], matched_ids=matched_ids, sort_behavior=sort_behavior, level=None)
 
 		elif attribute_type == 'synrestr':
+			query_string = query_string.strip().lower()
 			if query_string[0] == '+' or query_string[0] == '-' :
 				synrestr_type = query_string[1:]
 				synrestr_vals = [query_string[0]]
@@ -303,8 +312,9 @@ def process_query(common_query_string = None):
 
 	elif request.args.get('verb_specific_feature'):
 		vs_feature = request.args.get('verb_specific_feature')
-		matched_ids = {'VerbNet':sorted([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': vs_feature})])}
-		return render_template('vs_feature_search.html', vs_feature=vs_feature.upper(), matched_ids=matched_ids)
+		feature_pattern = vs_feature_regex(vs_feature)
+		matched_ids = {'VerbNet':sorted(set([vn_class['class_id'] for vn_class in mongo.db.verbnet.find({'members.vs_features': feature_pattern})]))}
+		return render_template('vs_feature_search.html', vs_feature=vs_feature.upper(), matched_ids=matched_ids, vs_query=vs_feature)
 
 
 	elif request.args.get('selrestr'):
@@ -342,10 +352,11 @@ def display_element():
 		vn_class_id =  request.args.get('class_id') if request.args.get('class_id') else request.form['vn_class_id']
 		matched_elements1 = list(mongo.db.verbnet.find({'class_id': vn_class_id}))
 		all_classes={}
+		vs_feature_filter = vs_feature_regex(request.form['vs_feature']) if request.form.get('vs_feature') else None
 		for element in matched_elements1:
 			filtered_members = []
 			for member in element['members']:
-				if request.form.get('vs_feature') and 'vs_features' in member and request.form.get('vs_feature').lower() in member['vs_features']:
+				if vs_feature_filter and any(vs_feature_filter.search(feat) for feat in member.get('vs_features') or []):
 					filtered_members.append(member)
 				member_name = member['name']
 				class_ids = mongo.db.verbnet.find(

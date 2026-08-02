@@ -174,8 +174,11 @@
               <input type="radio" id="attr_themrole" name="vn_attribute" value="themrole" checked />
               <label for="attr_themrole" class="hoverWrapper">
                 Thematic Role
-                <i class="fa fa-question-circle"></i>
               </label>
+              <a class="attr-help" href="/references_page#themRoles" target="_blank"
+                 title="A thematic role is the semantic role an argument plays with respect to the verb (e.g. Agent, Theme, Patient). Click for the full list with definitions and examples.">
+                <i class="fa fa-question-circle"></i>
+              </a>
               <div id="hoverthemrole" class="attr-definitions" style="display: block">
                 {% for th_el in gen_themroles %}
                 <span
@@ -191,8 +194,11 @@
               <input type="radio" id="attr_predicate" name="vn_attribute" value="predicate" />
               <label for="attr_predicate" class="hoverWrapper">
                 Predicate
-                <i class="fa fa-question-circle"></i>
               </label>
+              <a class="attr-help" href="/references_page#pred" target="_blank"
+                 title="Predicates are the basic semantic building blocks used in the semantic representation of each frame (e.g. motion, cause, has_state). Click for the full list with definitions.">
+                <i class="fa fa-question-circle"></i>
+              </a>
               <div id="hoverpredicate" class="attr-definitions" style="display: none">
                 {% for pr_el in predicates %}
                 <span
@@ -208,8 +214,11 @@
               <input type="radio" id="attr_vs_feature" name="vn_attribute" value="vs_feature" />
               <label for="attr_vs_feature" class="hoverWrapper">
                 Verb-Specific Feature
-                <i class="fa fa-question-circle"></i>
               </label>
+              <a class="attr-help" href="/references_page#vsFeats" target="_blank"
+                 title="Verb-specific features add finer-grained semantics to individual member verbs of a class (e.g. +manner_of_motion, property_changed: intensity). Click for the full list.">
+                <i class="fa fa-question-circle"></i>
+              </a>
               <div id="hovervs_feature" class="attr-definitions" style="display: none">
                 {% for vs_el in vs_features %}
                 <span
@@ -225,8 +234,11 @@
               <input type="radio" id="attr_selrestr" name="vn_attribute" value="selrestr" />
               <label for="attr_selrestr" class="hoverWrapper">
                 Selectional Restriction
-                <i class="fa fa-question-circle"></i>
               </label>
+              <a class="attr-help" href="/references_page#selRes" target="_blank"
+                 title="Selectional restrictions constrain the semantic type of the arguments that can fill a thematic role (e.g. animate, concrete). Click for the full list.">
+                <i class="fa fa-question-circle"></i>
+              </a>
               <div id="hoverselrestr" class="attr-definitions" style="display: none">
                 {% for sr_el in sel_res %}
                 <span
@@ -242,8 +254,11 @@
               <input type="radio" id="attr_synrestr" name="vn_attribute" value="synrestr" />
               <label for="attr_synrestr" class="hoverWrapper">
                 Syntactic Restriction
-                <i class="fa fa-question-circle"></i>
               </label>
+              <span class="attr-help"
+                 title="Syntactic restrictions constrain the syntactic form a role may take in a frame (e.g. genitive, plural, that_comp).">
+                <i class="fa fa-question-circle"></i>
+              </span>
               <div id="hoversynrestr" class="attr-definitions" style="display: none">
                 {% for syn_el in syn_res %}
                 <span
@@ -317,6 +332,10 @@
   }
   .hoverWrapper {
     display: inline-block;
+  }
+  .attr-help {
+    color: inherit;
+    cursor: help;
   }
   .attr-definitions {
     margin: 8px 0 0;

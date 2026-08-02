@@ -107,7 +107,8 @@ The worker processes should show fresh start times, and the master should still 
 
 (7)	Test that the site is actually serving. From any machine (your laptop is fine), run:
 
-    curl -sI https://uvi.colorado.edu/ | head -3
+    
+    
 
 You want `HTTP/1.1 200 OK`. A 301/302 to an unexpected host (e.g. https://localhost:4000/) or a 500/502 means the deploy broke the app — see Troubleshooting.
 

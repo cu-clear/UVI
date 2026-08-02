@@ -25,6 +25,48 @@ from pymongo import MongoClient
 
 mongo_client = MongoClient()
 db = mongo_client['new_corpora']
+def parse_vs_features(features_string):
+	'''Parse a member's "features" attribute into a list of atomic feature tokens.
+	VN 3.4 uses a structured syntax: semicolon-separated groups, where a group is
+	either a bare feature ("+manner_of_motion") or a key with comma-separated
+	values ("property_changed: intensity, price"). Values may be multi-word
+	("covering_entity_type: Drugs and Medicines") and a +/- prefixed item inside
+	a value list is a standalone feature ("activity: Acquire, +force_involved").'''
+	if features_string is None:
+		return None
+	features_string = features_string.strip()
+	if features_string in ('', 'None'):
+		return None
+	features = []
+	for group in features_string.split(';'):
+		group = group.strip()
+		if not group:
+			continue
+		if ':' in group:
+			key, _, values = group.partition(':')
+			key = key.strip()
+			for value in values.split(','):
+				value = value.strip()
+				if not value:
+					continue
+				if value[0] in '+-':
+					features.append(value)
+				else:
+					features.append(key + ': ' + value)
+		else:
+			for item in group.split(','):
+				item = item.strip()
+				if not item:
+					continue
+				subtokens = item.split()
+				## legacy format: space-separated +/- features ("+act_laughing +loud");
+				## multi-word phrase names ("Cause Negative Behavior") stay as one token
+				if len(subtokens) > 1 and all(s[0] in '+-' for s in subtokens):
+					features.extend(subtokens)
+				else:
+					features.append(item)
+	return features if features else None
+
 bso_mongo={}
 #BSO
 with open(path_bso) as csv_file:
@@ -346,9 +388,7 @@ def build_verbnet_collection():
 		elif member.get('fn_mapping'):
 			fn = [el for el in member.get('fn_mapping').split(' ') if el]
 		grouping = member.get('grouping').split(' ')
-		vs_features = member.get('features')
-		if vs_features != None:
-			vs_features = vs_features.split(' ')
+		vs_features = parse_vs_features(member.get('features'))
 		if wn[0] == '':
 			wn = None
 		if grouping[0] == '':
