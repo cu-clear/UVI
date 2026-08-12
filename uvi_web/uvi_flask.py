@@ -222,15 +222,16 @@ def process_query(common_query_string = None):
 			sort_behavior = 'alpha'
 			matched_ids={}
 			matched_ids['VerbNet'] = []
+			matched_selrestr_vals = []
 			for selrestr_val in selrestr_vals:
 				c=len(matched_ids['VerbNet'])
 				class_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.selrestr_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
 				matched_ids['VerbNet'].extend(list(class_level_selrestr_ids))
 				frame_level_selrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_selrestrs_list': {'$elemMatch': {'value':selrestr_val, 'type':selrestr_type}}})])
 				matched_ids['VerbNet'].extend(list(frame_level_selrestr_ids))
-				if c==len(matched_ids['VerbNet']):
-					#print('removing', selrestr_val)
-					selrestr_vals.remove(selrestr_val)
+				if c!=len(matched_ids['VerbNet']):
+					matched_selrestr_vals.append(selrestr_val)
+			selrestr_vals = matched_selrestr_vals
 			matched_ids['VerbNet'] = list(set(matched_ids['VerbNet']))
 			matched_ids['VerbNet'].sort()
 			#print('synrestr_vals', selrestr_vals)
@@ -250,14 +251,14 @@ def process_query(common_query_string = None):
 			matched_ids={}
 			matched_ids['VerbNet'] = []
 			sort_behavior = 'alpha'
+			matched_synrestr_vals = []
 			for synrestr_val in synrestr_vals:
 				c=len(matched_ids['VerbNet'])
 				class_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.synrestr_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
-				frame_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_synrestrs_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
-				matched_ids['VerbNet'].extend(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))
-				if c==len(matched_ids['VerbNet']):
-					#print('removing', synrestr_val)
-					synrestr_vals.remove(synrestr_val)
+				matched_ids['VerbNet'].extend(list(class_level_synrestr_ids))
+				if c!=len(matched_ids['VerbNet']):
+					matched_synrestr_vals.append(synrestr_val)
+			synrestr_vals = matched_synrestr_vals
 			matched_ids['VerbNet'] = list(set(matched_ids['VerbNet']))
 			matched_ids['VerbNet'].sort()
 			#print('synrestr_vals', synrestr_vals)
@@ -338,8 +339,7 @@ def process_query(common_query_string = None):
 		synrestr_val = request.args.get('synrestr_val')
 		sort_behavior = 'alpha'
 		class_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.synrestr_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
-		frame_level_synrestr_ids = set([doc['class_id'] for doc in mongo.db.vn_themrole_fields.find({'themrole_fields.frame_level_synrestrs_list': {'$elemMatch': {'value':synrestr_val, 'type':synrestr_type}}})])
-		matched_ids = {'VerbNet':sorted(list(class_level_synrestr_ids.union(frame_level_synrestr_ids)))}
+		matched_ids = {'VerbNet':sorted(list(class_level_synrestr_ids))}
 		return render_template('synrestr_search.html', synrestr = synrestr_val.upper()+synrestr_type.upper(), matched_ids=matched_ids, sort_behavior=sort_behavior)
 	
 	return ''
