@@ -80,7 +80,7 @@ Prerequisites (one-time): you need an account on verbs.colorado.edu with sudo ri
 
 (2)	SSH to the server and switch to the service account (note: it is `sudo -i -u`, not `sudo -`):
 
-    ssh <your-identikey>@verbs.colorado.edu
+    ssh <your-identikey>@verbs2.colorado.edu
     sudo -i -u verbnet-service
 
 (3)	Go to the deployed checkout. IMPORTANT: the code does NOT live in the service account's home directory — it lives under /data:
@@ -107,8 +107,7 @@ The worker processes should show fresh start times, and the master should still 
 
 (7)	Test that the site is actually serving. From any machine (your laptop is fine), run:
 
-    
-    
+    curl -sI https://uvi.colorado.edu/ | head -3
 
 You want `HTTP/1.1 200 OK`. A 301/302 to an unexpected host (e.g. https://localhost:4000/) or a 500/502 means the deploy broke the app — see Troubleshooting.
 
