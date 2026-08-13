@@ -122,7 +122,7 @@ def contact_us():
 						body=message)
 		try:
 			mail.send(msg)
-			flash('Your message has been sent. Thank you!', 'success')
+			flash('Your message has been sent. Thank you! 🎉', 'success')
 		except Exception:
 			app.logger.exception('Contact form mail send failed')
 			flash('Sorry, your message could not be sent. Please email us directly instead.', 'danger')
