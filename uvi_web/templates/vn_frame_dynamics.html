@@ -1,8 +1,9 @@
 {% set fd_num = frame_dynamics['num'] %}
 {% set fd_val = frame_dynamics['fd_val'] %}
 
-{% for fd in fd_val.split(' ') %}
-	<a href="https://verbs.colorado.edu/verb-index/vn-fd/fd_diagrams/glossary.html#{{fd.lower()}}" target="_blank" style="color:#5e81ac;">{{fd}}</a>
+{# 'Dynamic Texture' is a single glossary term; keep it together so its anchor resolves #}
+{% for fd in fd_val.replace('Dynamic Texture', 'Dynamic&nbsp;Texture').split(' ') %}
+	<a href="https://verbs.colorado.edu/verb-index/vn-fd/fd_diagrams/glossary.html#{{fd.lower().replace('&nbsp;','')}}" target="_blank" style="color:#5e81ac;">{{fd.replace('&nbsp;',' ')}}</a>
 {% endfor %}
 <a href="https://verbs.colorado.edu/verb-index/vn-fd/fd_diagrams/index.html?id={{fd_num}}" target="_blank" style="color:#bf616a;">FD representation</a>
 

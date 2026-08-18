@@ -367,6 +367,14 @@ def ref_to_db():
 ################################################################################################################################################################
 
 
+def normalize_fd_example_text(example_text):
+	'''Normalize an example sentence for matching VN examples against the Force
+	Dynamics annotations. Only letters and digits are kept, so differences in
+	trailing punctuation, stray quotes and the optional parentheses used in the
+	FD file ("from (the) milk") do not block an otherwise exact match.'''
+	return re.sub(r'[^a-z0-9]', '', example_text.lower())
+
+
 #VERBNET
 def build_verbnet_collection():
 	print('Building VN Collection...')
@@ -377,6 +385,8 @@ def build_verbnet_collection():
 
 	with open(path_fd) as rf:
 		fd_list =  json.load(rf)
+
+	fd_by_example = {normalize_fd_example_text(feats[0]): (key, feats) for key, feats in fd_list.items()}
 
 	def parse_member(member,class_id):
 		bso=[]
@@ -538,15 +548,13 @@ def build_verbnet_collection():
 			args = [parse_arg(arg) for arg in predicate.find('ARGS')]
 			return {'predicate': pred_value, 'args': args, 'bool': boolean}
 		
-		def parse_fd(fd_list, example_text):
+		def parse_fd(example_text):
 			"Parse Force Dynamics representations"
-			for key,list_of_feats in fd_list.items():
-				vn_text = example_text.strip().lower()[:-1]
-				vn_text = vn_text.replace("\t", "").replace(" ", "")
-				fd_text = list_of_feats[0].lower().replace("\t", "").replace(" ", "")
-				if fd_text == vn_text:
-					return {'num':key, 'fd_val':list_of_feats[4]}
-			return None
+			match = fd_by_example.get(normalize_fd_example_text(example_text))
+			if match is None:
+				return None
+			key, list_of_feats = match
+			return {'num':key, 'fd_val':list_of_feats[4]}
 
 
 		def dependency_tree_svg(example_text, ex_num):
@@ -559,7 +567,7 @@ def build_verbnet_collection():
 
 		
 		description = parse_description(frame.find('DESCRIPTION'))
-		examples = [{'example_text':example.text.replace('\n','').strip(), 'fd': parse_fd(fd_list, example.text), 'svg': dependency_tree_svg(example.text.strip(), ex_n)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
+		examples = [{'example_text':example.text.replace('\n','').strip(), 'fd': parse_fd(example.text), 'svg': dependency_tree_svg(example.text.strip(), ex_n)} for ex_n, example in enumerate(frame.find('EXAMPLES'))]
 		syntax = [parse_syntax_arg(arg) for arg in frame.find('SYNTAX')]
 		semantics = [parse_pred(pred) for pred in frame.find('SEMANTICS')]
 		return {'description': description, 'examples': examples, 'syntax': syntax, 'semantics': semantics}
