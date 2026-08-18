@@ -1,7 +1,7 @@
 <!--Begin Navbar-->
 
 <!-- Main navbar using standard Bootstrap 4 structure -->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+<nav id="navbar" class="navbar navbar-expand-xl navbar-dark">
 
   <!-- Brand / Logo -->
   <a class="navbar-brand d-flex align-items-center" href={{ url_for('index') }}>
@@ -21,11 +21,11 @@
 
   <!-- Collapsible content -->
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto align-items-lg-center">
+    <ul class="navbar-nav ml-auto align-items-xl-center">
 
       <!-- Search form -->
-      <li class="nav-item mr-lg-2">
-        <form action="/uvi_search_anywhere" method="post" class="d-flex my-2 my-lg-0">
+      <li class="nav-item mr-xl-2">
+        <form action="/uvi_search_anywhere" method="post" class="d-flex my-2 my-xl-0">
           <input id="search_box-search" type="text" class="form-control form-control-sm"
                  placeholder="Search the UVI..." name="common_query_string"
                  style="border:none;">
@@ -35,6 +35,9 @@
 
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('contact_us') }} target="_blank">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href={{ url_for('publications_page') }}>Publications</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href={{ url_for('references_page') }}>Reference Pages</a>
@@ -77,8 +80,8 @@
     width: 160px;
   }
 
-  /* Mobile: collapse menu */
-  @media (max-width: 991px) {
+  /* Below xl: collapsed hamburger menu */
+  @media (max-width: 1199px) {
     #navbar .nav-link {
       font-size: 0.95rem;
       padding: 0.4rem 0;

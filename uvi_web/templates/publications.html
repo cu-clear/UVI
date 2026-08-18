@@ -1,0 +1,374 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} Publications {% endblock %}
+{% block body %}
+
+{% include 'navbar.html' %}
+
+<div id='home_span' style="margin-top:20px;">
+  <div class="row" id='wrapper'>
+
+    <!-- Start left navbar -->
+    <ul class="col-12 col-md-3 nav nav-tabs flex-column" id="optionsBox" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-bs-toggle="tab" href="#recentWork" role="tab" aria-controls="recentWork">Recent Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#background" role="tab" aria-controls="background">Background Publications</a>
+      </li>
+    </ul>
+    <!-- End left navbar -->
+
+    <div class="col-12 col-md-8 tab-content" id="pageInfo">
+
+      <!-- Recent Work tab -->
+      <div class="tab-pane active" id="recentWork" role="tabpanel">
+        <h2 id="top-recentWork">Recent Work</h2>
+        <p class="pub-intro">Recent publications describing the development, semantic representations and applications of VerbNet.
+          Titles link to the publisher or to an open-access copy where one is available.</p>
+
+        <ul class="pub-list">
+          <li class="pub-item">
+            <span class="pub-year">2018</span>
+            <div class="pub-body">
+              <div class="pub-authors">Brown, Susan W.; Pustejovsky, James; Zaenen, Annie; Palmer, Martha.</div>
+              <a class="pub-title" href="http://www.lrec-conf.org/proceedings/lrec2018/pdf/1056.pdf" target="_blank" rel="noopener noreferrer">
+                Integrating Generative Lexicon Event Structures into VerbNet
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">In <em>Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018)</em>. Miyazaki, Japan.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2017</span>
+            <div class="pub-body">
+              <div class="pub-authors">Palmer, Martha; Gung, James; Bonial, Claire; Choi, Jinho; Hargraves, Orin; Palmer, Derek; Stowe, Kevin.</div>
+              <a class="pub-title" href="https://scholar.google.com/scholar?q=%22The+Pitfalls+of+Shortcuts%3A+Tales+from+the+word+sense+tagging+trenches%22" target="_blank" rel="noopener noreferrer">
+                The Pitfalls of Shortcuts: Tales from the word sense tagging trenches
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue"><em>Essays in Lexical Semantics and Computational Lexicography &ndash; In Honor of Adam Kilgarriff</em>.
+                M. Diab, A. Villavicencio, M. Apidianaki, V. Kordoni, A. Korhonen, P. Nakov, M. Stevenson (editors).
+                Springer series Text, Speech and Language Technology. Springer.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2017</span>
+            <div class="pub-body">
+              <div class="pub-authors">Palmer, Martha; Bonial, Claire; Hwang, Jena D.</div>
+              <a class="pub-title" href="https://academic.oup.com/edited-volume/34641/chapter/295177378" target="_blank" rel="noopener noreferrer">
+                VerbNet: Capturing English verb behavior, meaning and usage
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue"><em>The Oxford Handbook of Cognitive Science</em>, ed. Susan Chipman. Oxford University Press.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2017</span>
+            <div class="pub-body">
+              <div class="pub-authors">Green, Meredith; Hargraves, Orin; Bonial, Claire; Chen, Jinying; Clark, Lyndsie; Palmer, Martha.</div>
+              <a class="pub-title" href="https://link.springer.com/chapter/10.1007/978-94-024-0881-2_26" target="_blank" rel="noopener noreferrer">
+                VerbNet/OntoNotes-based sense annotation
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">In <em>The Handbook of Linguistic Annotations</em>, ed. James Pustejovsky and Nancy Ide. Springer.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2016</span>
+            <div class="pub-body">
+              <div class="pub-authors">Pustejovsky, James; Palmer, Martha; Zaenen, Annie; Brown, Susan W.</div>
+              <a class="pub-title" href="https://scholarworks.brandeis.edu/esploro/outputs/conferencePaper/Verb-Meaning-in-Context-Integrating-VerbNet/9924147742001921" target="_blank" rel="noopener noreferrer">
+                Integrating VerbNet and GL Predicative Structures
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue"><em>Interoperability for Semantic Annotation (ISA-12) with LREC-2016</em>. Portoro&#382;, Slovenia.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2013</span>
+            <div class="pub-body">
+              <div class="pub-authors">Bonial, Claire; Hargraves, Orin; Palmer, Martha.</div>
+              <a class="pub-title" href="https://aclanthology.org/W13-5407/" target="_blank" rel="noopener noreferrer">
+                Expanding VerbNet with Sketch Engine
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">In <em>Proceedings of the Generative Lexicon Conference (GenLex-13)</em>. Pisa, Italy.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2012</span>
+            <div class="pub-body">
+              <div class="pub-authors">Feeley, Weston; Bonial, Claire; Palmer, Martha.</div>
+              <a class="pub-title" href="https://sigsem.uvt.nl/isa8/isa8_submission_6-1.pdf" target="_blank" rel="noopener noreferrer">
+                Evaluating the coverage of VerbNet
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">In <em>Proceedings of ISA-8: Eighth Joint ACL-ISO Workshop on Interoperable Semantic Annotation</em>. Pisa, Italy.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2011</span>
+            <div class="pub-body">
+              <div class="pub-authors">Bonial, Claire; Brown, Susan W.; Corvey, William; Palmer, Martha; Petukhova, Volha; Bunt, Harry.</div>
+              <a class="pub-title" href="https://let.uvt.nl/general/people/bunt/docs/bonial-final.pdf" target="_blank" rel="noopener noreferrer">
+                An Exploratory Comparison of Thematic Roles in VerbNet and LIRICS
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">In <em>Proceedings of the Sixth Joint ISO-ACL SIGSEM Workshop on Interoperable Semantic Annotation (ISA-6)</em>, pp. 39&ndash;44.</div>
+            </div>
+          </li>
+        </ul>
+
+        <a class="back-to-top" href="#top-recentWork"><i class="fa fa-arrow-up" aria-hidden="true"></i> Return to top</a>
+      </div>
+
+      <!-- Background Publications tab -->
+      <div class="tab-pane" id="background" role="tabpanel">
+        <h2 id="top-background">VerbNet Background Publications</h2>
+        <p class="pub-intro">Foundational work behind VerbNet, including the Levin verb classes on which the resource is built.</p>
+
+        <ul class="pub-list">
+          <li class="pub-item">
+            <span class="pub-year">2008</span>
+            <div class="pub-body">
+              <div class="pub-authors">Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.</div>
+              <a class="pub-title" href="https://link.springer.com/article/10.1007/s10579-007-9048-2" target="_blank" rel="noopener noreferrer">
+                A Large-scale Classification of English Verbs
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue"><em>Language Resources and Evaluation Journal</em> 42(1). Springer Netherland. pp. 21&ndash;40.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2006</span>
+            <div class="pub-body">
+              <div class="pub-authors">Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.</div>
+              <a class="pub-title" href="http://www.lrec-conf.org/proceedings/lrec2006/pdf/468_pdf.pdf" target="_blank" rel="noopener noreferrer">
+                Extending VerbNet with Novel Verb Classes
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue"><em>Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC)</em>. Genoa, Italy.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2005</span>
+            <div class="pub-body">
+              <div class="pub-authors">Schuler, Karin Kipper.</div>
+              <a class="pub-title" href="https://www.proquest.com/openview/7ca4b1b9093522a7d8089ff2e987e74e/1?pq-origsite=gscholar&amp;cbl=18750&amp;diss=y" target="_blank" rel="noopener noreferrer">
+                VerbNet: A Broad-Coverage, Comprehensive Verb Lexicon
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">PhD Dissertation. University of Pennsylvania.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">2004</span>
+            <div class="pub-body">
+              <div class="pub-authors">Korhonen, Anna; Briscoe, Ted.</div>
+              <a class="pub-title" href="https://aclanthology.org/W04-2606/" target="_blank" rel="noopener noreferrer">
+                Extended Lexical-Semantic Classification of English Verbs
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">In <em>Proceedings of the HLT/NAACL Workshop on Computational Lexical Semantics</em>. Boston, MA.</div>
+            </div>
+          </li>
+
+          <li class="pub-item">
+            <span class="pub-year">1993</span>
+            <div class="pub-body">
+              <div class="pub-authors">Levin, Beth.</div>
+              <a class="pub-title" href="https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684144.html" target="_blank" rel="noopener noreferrer">
+                English Verb Classes and Alternations: A Preliminary Investigation
+                <i class="fa fa-external-link" aria-hidden="true"></i>
+              </a>
+              <div class="pub-venue">University of Chicago Press.</div>
+            </div>
+          </li>
+        </ul>
+
+        <a class="back-to-top" href="#top-background"><i class="fa fa-arrow-up" aria-hidden="true"></i> Return to top</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+  #wrapper {
+    height: 100%;
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+
+  #optionsBox,
+  #pageInfo {
+    border-radius: 25px;
+    margin: 10px 15px;
+    padding: 20px;
+  }
+
+  #optionsBox {
+    background: rgba(220, 174, 29, .9);
+    font-size: 16px;
+    height: fit-content;
+  }
+
+  #pageInfo {
+    background: rgba(122, 157, 150, .9);
+    overflow-y: auto;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+  }
+
+  .pub-intro {
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 60ch;
+  }
+
+  .pub-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0 1rem;
+  }
+
+  .pub-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+    padding: 0.85rem 0.6rem;
+    border-top: 1px solid rgba(255, 255, 255, .35);
+    border-radius: 10px;
+    transition: background-color .15s ease-in-out;
+  }
+
+  .pub-item:hover {
+    background-color: rgba(255, 255, 255, .16);
+  }
+
+  .pub-item:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, .35);
+  }
+
+  .pub-year {
+    flex: 0 0 auto;
+    min-width: 3.6rem;
+    text-align: center;
+    background: rgba(220, 174, 29, .95);
+    color: #2b2205;
+    font-weight: 700;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    margin-top: 0.15rem;
+  }
+
+  .pub-body {
+    min-width: 0;
+  }
+
+  .pub-authors {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1b2b28;
+  }
+
+  .pub-title {
+    display: inline-block;
+    font-size: 1.03rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: #10314f;
+    text-decoration: none;
+    margin: 0.15rem 0;
+  }
+
+  .pub-title:hover,
+  .pub-title:focus {
+    color: #06203a;
+    text-decoration: underline;
+  }
+
+  .pub-title .fa {
+    font-size: 0.78rem;
+    opacity: 0.7;
+    margin-left: 0.25rem;
+  }
+
+  .pub-venue {
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, .72);
+  }
+
+  .back-to-top {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #10314f;
+    text-decoration: none;
+  }
+
+  .back-to-top:hover {
+    color: #06203a;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 767px) {
+    #wrapper {
+      padding: 0 8px;
+    }
+
+    #optionsBox,
+    #pageInfo {
+      margin: 10px 0;
+      padding: 12px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    .pub-item {
+      flex-direction: column;
+      gap: 0.35rem;
+      padding: 0.75rem 0.35rem;
+    }
+
+    .pub-year {
+      min-width: 0;
+      align-self: flex-start;
+    }
+
+    .pub-title {
+      font-size: 1rem;
+    }
+  }
+</style>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+  // Allow deep-linking to a tab, e.g. /publications#background
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.hash) {
+      var tabLink = document.querySelector('a[data-bs-toggle="tab"][href="' + window.location.hash + '"]');
+      if (tabLink) {
+        new bootstrap.Tab(tabLink).show();
+      }
+    }
+  });
+</script>
+{% endblock %}

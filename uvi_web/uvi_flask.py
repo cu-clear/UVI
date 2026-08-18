@@ -130,6 +130,10 @@ def contact_us():
 
 	return render_template('contact.html')
 
+@app.route('/publications', methods=['GET'])
+def publications_page():
+	return render_template('publications.html')
+
 @app.route('/references_page', methods=['GET'])
 def references_page():
 	gen_themroles = sorted(list(mongo.db.verbnet.references.gen_themroles.find({}, {'_id':0})), key=sort_key)
