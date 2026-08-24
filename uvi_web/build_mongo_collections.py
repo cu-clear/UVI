@@ -897,4 +897,128 @@ def build_propbank_collection():
 	print("Finished building PropBank Collections.")
 ################################################################################################################################################################
 ################################################################################################################################################################
+
+def build_publications_collection():
+	'''One-time seed of the `publications` collection from the publications that used to be
+	hardcoded in templates/publications.html. Safe to re-run: it only seeds if the collection
+	is empty, so it won't clobber edits made later through the admin UI.'''
+
+	def authors_list(raw):
+		return [a.strip().rstrip('.') for a in raw.split(';') if a.strip()]
+
+	def citation_of(authors, title, venue):
+		return '{}. {}. {}'.format('; '.join(authors), title, venue)
+
+	seed_publications = [
+		# Recent Work
+		{
+			'section': 'Recent Work', 'year': 2018,
+			'authors': authors_list('Brown, Susan W.; Pustejovsky, James; Zaenen, Annie; Palmer, Martha.'),
+			'title': 'Integrating Generative Lexicon Event Structures into VerbNet',
+			'hyperlink': 'http://www.lrec-conf.org/proceedings/lrec2018/pdf/1056.pdf',
+			'venue': 'In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018). Miyazaki, Japan.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2017,
+			'authors': authors_list('Palmer, Martha; Gung, James; Bonial, Claire; Choi, Jinho; Hargraves, Orin; Palmer, Derek; Stowe, Kevin.'),
+			'title': 'The Pitfalls of Shortcuts: Tales from the word sense tagging trenches',
+			'hyperlink': 'https://scholar.google.com/scholar?q=%22The+Pitfalls+of+Shortcuts%3A+Tales+from+the+word+sense+tagging+trenches%22',
+			'venue': 'Essays in Lexical Semantics and Computational Lexicography – In Honor of Adam Kilgarriff. M. Diab, A. Villavicencio, M. Apidianaki, V. Kordoni, A. Korhonen, P. Nakov, M. Stevenson (editors). Springer series Text, Speech and Language Technology. Springer.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2017,
+			'authors': authors_list('Palmer, Martha; Bonial, Claire; Hwang, Jena D.'),
+			'title': 'VerbNet: Capturing English verb behavior, meaning and usage',
+			'hyperlink': 'https://academic.oup.com/edited-volume/34641/chapter/295177378',
+			'venue': 'The Oxford Handbook of Cognitive Science, ed. Susan Chipman. Oxford University Press.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2017,
+			'authors': authors_list('Green, Meredith; Hargraves, Orin; Bonial, Claire; Chen, Jinying; Clark, Lyndsie; Palmer, Martha.'),
+			'title': 'VerbNet/OntoNotes-based sense annotation',
+			'hyperlink': 'https://link.springer.com/chapter/10.1007/978-94-024-0881-2_26',
+			'venue': 'In The Handbook of Linguistic Annotations, ed. James Pustejovsky and Nancy Ide. Springer.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2016,
+			'authors': authors_list('Pustejovsky, James; Palmer, Martha; Zaenen, Annie; Brown, Susan W.'),
+			'title': 'Integrating VerbNet and GL Predicative Structures',
+			'hyperlink': 'https://scholarworks.brandeis.edu/esploro/outputs/conferencePaper/Verb-Meaning-in-Context-Integrating-VerbNet/9924147742001921',
+			'venue': 'Interoperability for Semantic Annotation (ISA-12) with LREC-2016. Portorož, Slovenia.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2013,
+			'authors': authors_list('Bonial, Claire; Hargraves, Orin; Palmer, Martha.'),
+			'title': 'Expanding VerbNet with Sketch Engine',
+			'hyperlink': 'https://aclanthology.org/W13-5407/',
+			'venue': 'In Proceedings of the Generative Lexicon Conference (GenLex-13). Pisa, Italy.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2012,
+			'authors': authors_list('Feeley, Weston; Bonial, Claire; Palmer, Martha.'),
+			'title': 'Evaluating the coverage of VerbNet',
+			'hyperlink': 'https://sigsem.uvt.nl/isa8/isa8_submission_6-1.pdf',
+			'venue': 'In Proceedings of ISA-8: Eighth Joint ACL-ISO Workshop on Interoperable Semantic Annotation. Pisa, Italy.',
+		},
+		{
+			'section': 'Recent Work', 'year': 2011,
+			'authors': authors_list('Bonial, Claire; Brown, Susan W.; Corvey, William; Palmer, Martha; Petukhova, Volha; Bunt, Harry.'),
+			'title': 'An Exploratory Comparison of Thematic Roles in VerbNet and LIRICS',
+			'hyperlink': 'https://let.uvt.nl/general/people/bunt/docs/bonial-final.pdf',
+			'venue': 'In Proceedings of the Sixth Joint ISO-ACL SIGSEM Workshop on Interoperable Semantic Annotation (ISA-6), pp. 39–44.',
+		},
+		# Background Publications
+		{
+			'section': 'Background Publications', 'year': 2008,
+			'authors': authors_list('Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.'),
+			'title': 'A Large-scale Classification of English Verbs',
+			'hyperlink': 'https://link.springer.com/article/10.1007/s10579-007-9048-2',
+			'venue': 'Language Resources and Evaluation Journal 42(1). Springer Netherland. pp. 21–40.',
+		},
+		{
+			'section': 'Background Publications', 'year': 2006,
+			'authors': authors_list('Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.'),
+			'title': 'Extending VerbNet with Novel Verb Classes',
+			'hyperlink': 'http://www.lrec-conf.org/proceedings/lrec2006/pdf/468_pdf.pdf',
+			'venue': 'Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC). Genoa, Italy.',
+		},
+		{
+			'section': 'Background Publications', 'year': 2005,
+			'authors': authors_list('Schuler, Karin Kipper.'),
+			'title': 'VerbNet: A Broad-Coverage, Comprehensive Verb Lexicon',
+			'hyperlink': 'https://www.proquest.com/openview/7ca4b1b9093522a7d8089ff2e987e74e/1?pq-origsite=gscholar&cbl=18750&diss=y',
+			'venue': 'PhD Dissertation. University of Pennsylvania.',
+		},
+		{
+			'section': 'Background Publications', 'year': 2004,
+			'authors': authors_list('Korhonen, Anna; Briscoe, Ted.'),
+			'title': 'Extended Lexical-Semantic Classification of English Verbs',
+			'hyperlink': 'https://aclanthology.org/W04-2606/',
+			'venue': 'In Proceedings of the HLT/NAACL Workshop on Computational Lexical Semantics. Boston, MA.',
+		},
+		{
+			'section': 'Background Publications', 'year': 1993,
+			'authors': authors_list('Levin, Beth.'),
+			'title': 'English Verb Classes and Alternations: A Preliminary Investigation',
+			'hyperlink': 'https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684144.html',
+			'venue': 'University of Chicago Press.',
+		},
+	]
+
+	for order, pub in enumerate(seed_publications):
+		pub['order'] = order
+		pub['subject'] = ''
+		pub['description'] = ''
+		pub['citation'] = citation_of(pub['authors'], pub['title'], pub['venue'])
+
+	publications_collection = db['publications']
+	if publications_collection.count_documents({}) == 0:
+		publications_collection.insert_many(seed_publications)
+		print("Seeded {} publications.".format(len(seed_publications)))
+	else:
+		print("`publications` collection already has documents; skipped seeding.")
+
+	print("Finished building Publications Collection.")
+################################################################################################################################################################
+################################################################################################################################################################
 ################################################################################################################################################################

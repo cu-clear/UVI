@@ -1,19 +1,27 @@
 import os
+from functools import wraps
+from datetime import datetime, timezone
 from flask import Flask, Response
-from flask import render_template,request,flash,redirect,url_for
+from flask import render_template,request,flash,redirect,url_for,session
 from flask_pymongo import PyMongo
 from flask_mail import Mail, Message
+from werkzeug.security import check_password_hash
 from methods import top_parent_id, find_matching_ids, find_matching_elements, unique_id, mongo_to_json, formatted_def, get_themrole_fields, full_class_hierarchy_tree, get_pred_fields, get_constant_fields, get_verb_specific_fields, remove_object_ids, colored_pb_example, vn_sanitized_class, get_themrole_fields_undefined, oewn_url
 from methods import sort_by_char, sort_by_id
 
 import json
 import re
+import secrets
 
 from bson import json_util
+from bson.objectid import ObjectId, InvalidId
 import configparser
 
 configs = configparser.ConfigParser()
 configs.read('configs.ini')
+
+ADMIN_USERNAME = configs['ADMIN_SETUP']['ADMIN_USERNAME']
+ADMIN_PASSWORD_HASH = configs['ADMIN_SETUP']['ADMIN_PASSWORD_HASH']
 
 mail_settings = {
 	"MAIL_SERVER": "smtp.gmail.com",
@@ -38,6 +46,25 @@ app.config.update(
 )
 mongo = PyMongo(app)
 mail = Mail(app)
+
+def login_required(view):
+	@wraps(view)
+	def wrapped(*args, **kwargs):
+		if not session.get('admin_logged_in'):
+			return redirect(url_for('admin_login', next=request.path))
+		return view(*args, **kwargs)
+	return wrapped
+
+def get_csrf_token():
+	if 'csrf_token' not in session:
+		session['csrf_token'] = secrets.token_hex(32)
+	return session['csrf_token']
+
+def csrf_valid():
+	token = session.get('csrf_token')
+	return bool(token) and secrets.compare_digest(token, request.form.get('csrf_token', ''))
+
+app.jinja_env.globals['get_csrf_token'] = get_csrf_token
 
 def vs_feature_regex(query):
 	'''Case-insensitive matcher for verb-specific feature tokens. Matches a stored
@@ -130,9 +157,121 @@ def contact_us():
 
 	return render_template('contact.html')
 
+SECTION_ORDER = ['Recent Work', 'Background Publications']
+
+def grouped_publications():
+	'''Fetch all publications from Mongo, grouped by section (newest year first within
+	each section). Known sections come first in SECTION_ORDER; any section an admin
+	creates later is appended in the order it's first seen, so new tabs "just work".'''
+	pubs = list(mongo.db.publications.find())
+	sections = {}
+	for pub in pubs:
+		sections.setdefault(pub.get('section', 'Publications'), []).append(pub)
+	for pub_list in sections.values():
+		pub_list.sort(key=lambda p: (-(p.get('year') or 0), p.get('order', 0)))
+	ordered_sections = [s for s in SECTION_ORDER if s in sections]
+	ordered_sections += [s for s in sections if s not in ordered_sections]
+	return [{'name': s, 'slug': re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-'), 'pubs': sections[s]} for s in ordered_sections]
+
 @app.route('/publications', methods=['GET'])
 def publications_page():
-	return render_template('publications.html')
+	return render_template('publications.html', sections=grouped_publications())
+
+def publication_from_form(form):
+	authors = [a.strip() for a in form.get('authors', '').splitlines() if a.strip()]
+	title = form.get('title', '').strip()
+	venue = form.get('venue', '').strip()
+	citation = form.get('citation', '').strip() or '{}. {}. {}'.format('; '.join(authors), title, venue)
+	year_raw = form.get('year', '').strip()
+	return {
+		'section': form.get('section', '').strip() or 'Publications',
+		'year': int(year_raw) if year_raw.isdigit() else None,
+		'authors': authors,
+		'title': title,
+		'hyperlink': form.get('hyperlink', '').strip(),
+		'venue': venue,
+		'subject': form.get('subject', '').strip(),
+		'description': form.get('description', '').strip(),
+		'citation': citation,
+	}
+
+@app.route('/admin/login', methods=['GET', 'POST'])
+def admin_login():
+	if request.method == 'POST':
+		username = request.form.get('username', '')
+		password = request.form.get('password', '')
+		if username == ADMIN_USERNAME and check_password_hash(ADMIN_PASSWORD_HASH, password):
+			session.clear()
+			session['admin_logged_in'] = True
+			return redirect(request.args.get('next') or url_for('admin_publications'))
+		flash('Invalid username or password.', 'danger')
+	return render_template('admin_login.html')
+
+@app.route('/admin/logout')
+def admin_logout():
+	session.clear()
+	return redirect(url_for('admin_login'))
+
+@app.route('/admin/publications', methods=['GET'])
+@login_required
+def admin_publications():
+	return render_template('admin_publications.html', sections=grouped_publications())
+
+@app.route('/admin/publications/new', methods=['GET', 'POST'])
+@login_required
+def admin_publications_new():
+	existing_sections = sorted({sec['name'] for sec in grouped_publications()})
+	if request.method == 'POST':
+		if not csrf_valid():
+			flash('Your session expired, please try again.', 'danger')
+			return redirect(url_for('admin_publications_new'))
+		pub = publication_from_form(request.form)
+		pub['order'] = mongo.db.publications.count_documents({'section': pub['section']})
+		pub['created_at'] = datetime.now(timezone.utc)
+		pub['updated_at'] = pub['created_at']
+		mongo.db.publications.insert_one(pub)
+		flash('Publication added.', 'success')
+		return redirect(url_for('admin_publications'))
+	return render_template('admin_publication_form.html', pub=None, existing_sections=existing_sections)
+
+@app.route('/admin/publications/<pub_id>/edit', methods=['GET', 'POST'])
+@login_required
+def admin_publications_edit(pub_id):
+	try:
+		object_id = ObjectId(pub_id)
+	except InvalidId:
+		flash('Publication not found.', 'danger')
+		return redirect(url_for('admin_publications'))
+	pub = mongo.db.publications.find_one({'_id': object_id})
+	if not pub:
+		flash('Publication not found.', 'danger')
+		return redirect(url_for('admin_publications'))
+	existing_sections = sorted({sec['name'] for sec in grouped_publications()})
+	if request.method == 'POST':
+		if not csrf_valid():
+			flash('Your session expired, please try again.', 'danger')
+			return redirect(url_for('admin_publications_edit', pub_id=pub_id))
+		updated = publication_from_form(request.form)
+		updated['order'] = pub.get('order', 0)
+		updated['updated_at'] = datetime.now(timezone.utc)
+		mongo.db.publications.update_one({'_id': object_id}, {'$set': updated})
+		flash('Publication updated.', 'success')
+		return redirect(url_for('admin_publications'))
+	return render_template('admin_publication_form.html', pub=pub, existing_sections=existing_sections)
+
+@app.route('/admin/publications/<pub_id>/delete', methods=['POST'])
+@login_required
+def admin_publications_delete(pub_id):
+	if not csrf_valid():
+		flash('Your session expired, please try again.', 'danger')
+		return redirect(url_for('admin_publications'))
+	try:
+		object_id = ObjectId(pub_id)
+	except InvalidId:
+		return redirect(url_for('admin_publications'))
+	mongo.db.publications.delete_one({'_id': object_id})
+	flash('Publication deleted.', 'success')
+	return redirect(url_for('admin_publications'))
 
 @app.route('/references_page', methods=['GET'])
 def references_page():

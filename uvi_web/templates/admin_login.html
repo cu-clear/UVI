@@ -1,0 +1,42 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} Admin Login {% endblock %}
+{% block body %}
+{% include 'navbar.html' %}
+
+<div id="admin-login-view">
+  <div class="row">
+    <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 py-5">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}" role="alert">{{ message }}</div>
+        {% endfor %}
+      {% endwith %}
+      <h2>Admin Login</h2>
+      <form method="POST">
+        <div class="form-group mb-3">
+          <label for="username">Username</label>
+          <input id="username" type="text" name="username" class="form-control" required autofocus>
+        </div>
+        <div class="form-group mb-3">
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" class="form-control" required>
+        </div>
+        <input type="submit" class="btn btn-success" value="Log in">
+      </form>
+    </div>
+  </div>
+</div>
+
+<style>
+  #admin-login-view {
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 1rem;
+    width: 92%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+</style>
+{% endblock %}

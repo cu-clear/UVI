@@ -1,0 +1,86 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} {{ 'Edit' if pub else 'Add' }} Publication {% endblock %}
+{% block body %}
+{% include 'navbar.html' %}
+
+<div id="admin-pub-form-view">
+  <div class="row">
+    <div class="col-xl-8 offset-xl-2 py-4">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}" role="alert">{{ message }}</div>
+        {% endfor %}
+      {% endwith %}
+
+      <h2>{{ 'Edit' if pub else 'Add' }} Publication</h2>
+      <form method="POST">
+        <input type="hidden" name="csrf_token" value="{{ get_csrf_token() }}">
+
+        <div class="form-group mb-3">
+          <label for="section">Section</label>
+          <input id="section" type="text" name="section" class="form-control" list="section-options"
+                 value="{{ pub.section if pub else '' }}" required>
+          <datalist id="section-options">
+            {% for s in existing_sections %}<option value="{{ s }}">{% endfor %}
+          </datalist>
+          <small class="form-text text-muted">Pick an existing section, or type a new one to create a new tab on the public page.</small>
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="title">Title</label>
+          <input id="title" type="text" name="title" class="form-control" value="{{ pub.title if pub else '' }}" required>
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="authors">Authors (one per line)</label>
+          <textarea id="authors" name="authors" class="form-control" rows="4">{{ pub.authors|join('\n') if pub else '' }}</textarea>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 form-group mb-3">
+            <label for="year">Year</label>
+            <input id="year" type="number" name="year" class="form-control" value="{{ pub.year if pub else '' }}">
+          </div>
+          <div class="col-md-9 form-group mb-3">
+            <label for="hyperlink">Hyperlink</label>
+            <input id="hyperlink" type="url" name="hyperlink" class="form-control" value="{{ pub.hyperlink if pub else '' }}">
+          </div>
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="venue">Venue / publication details</label>
+          <input id="venue" type="text" name="venue" class="form-control" value="{{ pub.venue if pub else '' }}">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" name="subject" class="form-control" value="{{ pub.subject if pub else '' }}">
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="description">Description</label>
+          <textarea id="description" name="description" class="form-control" rows="3">{{ pub.description if pub else '' }}</textarea>
+        </div>
+
+        <div class="form-group mb-3">
+          <label for="citation">Citation</label>
+          <textarea id="citation" name="citation" class="form-control" rows="2">{{ pub.citation if pub else '' }}</textarea>
+          <small class="form-text text-muted">Leave blank to auto-generate from authors, title and venue.</small>
+        </div>
+
+        <input type="submit" class="btn btn-success" value="{{ 'Save changes' if pub else 'Add publication' }}">
+        <a class="btn btn-outline-secondary" href="{{ url_for('admin_publications') }}">Cancel</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<style>
+  #admin-pub-form-view {
+    margin-top: 20px;
+    background-color: white;
+    padding: 1rem 1.5rem 2rem;
+    border-radius: 10px;
+  }
+</style>
+{% endblock %}

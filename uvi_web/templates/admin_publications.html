@@ -1,0 +1,71 @@
+{% extends 'bootstrap_base.html' %}
+{% block title %} Manage Publications {% endblock %}
+{% block body %}
+{% include 'navbar.html' %}
+
+<div id="admin-pubs-view">
+  <div class="row">
+    <div class="col-xl-10 offset-xl-1 py-4">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for category, message in messages %}
+          <div class="alert alert-{{ category }}" role="alert">{{ message }}</div>
+        {% endfor %}
+      {% endwith %}
+
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="mb-0">Manage Publications</h2>
+        <div>
+          <a class="btn btn-success" href="{{ url_for('admin_publications_new') }}">+ Add Publication</a>
+          <a class="btn btn-outline-secondary" href="{{ url_for('admin_logout') }}">Log out</a>
+        </div>
+      </div>
+      <p class="text-muted">Changes here appear immediately on the public <a href="{{ url_for('publications_page') }}" target="_blank">Publications page</a>.</p>
+
+      {% for section in sections %}
+      <h4 class="mt-4">{{ section.name }}</h4>
+      <div class="table-responsive">
+        <table class="table table-sm table-bordered bg-white align-middle">
+          <thead>
+            <tr>
+              <th style="width:5%">Year</th>
+              <th style="width:35%">Title</th>
+              <th style="width:30%">Authors</th>
+              <th style="width:15%">Link</th>
+              <th style="width:15%">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for pub in section.pubs %}
+            <tr>
+              <td>{{ pub.year or '' }}</td>
+              <td>{{ pub.title }}</td>
+              <td>{{ pub.authors|join('; ') }}</td>
+              <td>{% if pub.hyperlink %}<a href="{{ pub.hyperlink }}" target="_blank" rel="noopener noreferrer">link</a>{% endif %}</td>
+              <td>
+                <a class="btn btn-sm btn-outline-primary" href="{{ url_for('admin_publications_edit', pub_id=pub._id) }}">Edit</a>
+                <form action="{{ url_for('admin_publications_delete', pub_id=pub._id) }}" method="POST" style="display:inline" onsubmit="return confirm('Delete this publication?');">
+                  <input type="hidden" name="csrf_token" value="{{ get_csrf_token() }}">
+                  <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                </form>
+              </td>
+            </tr>
+            {% else %}
+            <tr><td colspan="5">No publications in this section yet.</td></tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+  #admin-pubs-view {
+    margin-top: 20px;
+    background-color: white;
+    padding: 1rem 1.5rem 2rem;
+    border-radius: 10px;
+  }
+</style>
+{% endblock %}
