@@ -899,9 +899,10 @@ def build_propbank_collection():
 ################################################################################################################################################################
 
 def build_publications_collection():
-	'''One-time seed of the `publications` collection from the publications that used to be
-	hardcoded in templates/publications.html. Safe to re-run: it only seeds if the collection
-	is empty, so it won't clobber edits made later through the admin UI.'''
+	'''Seed of the `publications` collection from the publications that used to be
+	hardcoded in templates/publications.html. Safe to re-run on any environment: each seed
+	entry is upserted by (section, title), so it restores/updates just those canonical
+	entries without touching unrelated publications added later through the admin UI.'''
 
 	def authors_list(raw):
 		return [a.strip().rstrip('.') for a in raw.split(';') if a.strip()]
@@ -1012,11 +1013,18 @@ def build_publications_collection():
 		pub['citation'] = citation_of(pub['authors'], pub['title'], pub['venue'])
 
 	publications_collection = db['publications']
-	if publications_collection.count_documents({}) == 0:
-		publications_collection.insert_many(seed_publications)
-		print("Seeded {} publications.".format(len(seed_publications)))
-	else:
-		print("`publications` collection already has documents; skipped seeding.")
+	upserted, matched = 0, 0
+	for pub in seed_publications:
+		result = publications_collection.update_one(
+			{'section': pub['section'], 'title': pub['title']},
+			{'$set': pub},
+			upsert=True,
+		)
+		if result.upserted_id is not None:
+			upserted += 1
+		else:
+			matched += 1
+	print("Seeded publications: {} inserted, {} updated.".format(upserted, matched))
 
 	print("Finished building Publications Collection.")
 ################################################################################################################################################################
