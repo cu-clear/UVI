@@ -8,8 +8,8 @@
   <br>
   <div class="col-11" id="ButtonsPage">
     <ul class="nav" role="tablist" id='bothButtons'>
-      <li role="button"  class="active" ><a href="#tab_num" id="button_num" role="tab" class="button no-underline" data-bs-toggle="tab" >Sort by Class ID</a></li>
-      <li role="button"  ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" data-bs-toggle="tab" >Sort by class name</a></li>
+      <li role="button"  class="active" ><a href="#tab_num" id="button_num" role="tab" class="button no-underline" >Sort by Class ID</a></li>
+      <li role="button"  ><a href="#tab_name" id = "button_name" class="button no-underline" role="tab" >Sort by class name</a></li>
     </ul>
     <br>
   </div>
@@ -61,6 +61,10 @@
   #ButtonsPage {
     background: rgba(122, 157, 150, .9);
     margin:auto;
+  }
+
+  .tab-pane {
+    width: 100%;
   }
 
   #hierPage{
@@ -116,31 +120,23 @@
     overflow-wrap: break-word;
   }
 
-  /* https://speckyboy.com/snippets-masonry-grid-layouts/ - for the masonry layout*/
-  @import "compass/css3";
   *, *:before, *:after {
     box-sizing:  border-box !important;
   }
 
   article {
-  -moz-column-width: 20em;
-  -webkit-column-width: 20em;
-  column-width: 20em;
-  -moz-column-gap: 1em;
-  -webkit-column-gap: 1em;
-  column-gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  align-items: start;
+  gap: 1em;
   width: 100%;
   max-width: 100%;
   }
 
   section {
-  display: inline-block;
-  margin:  0.25rem;
+  margin: 0;
   padding:  1rem;
-  width:  100%;
-  max-width: 100%;
   background:  rgba(255, 255, 210, 0.9); /* Very pale yellow color*/
-  float: left;
   border-radius: 8px;
   box-sizing: border-box;
   word-wrap: break-word;
@@ -156,8 +152,7 @@
       height: 65vh;
     }
     article {
-      column-count: 1;
-      column-width: auto;
+      grid-template-columns: 1fr;
     }
   }
 
@@ -175,5 +170,18 @@
 {% endblock %}
 
 {% block scripts %}
+
+<script>
+  $(document).ready(function () {
+    $("#button_num, #button_name").on("click", function (e) {
+      e.preventDefault();
+      var target = $(this).attr("href");
+      $("#bothButtons > li").removeClass("active");
+      $(this).parent("li").addClass("active");
+      $(".tab-pane").removeClass("active show");
+      $(target).addClass("active show");
+    });
+  });
+</script>
 
 {% endblock %}
