@@ -127,6 +127,7 @@
   article {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  grid-auto-rows: 8px;
   align-items: start;
   gap: 1em;
   width: 100%;
@@ -175,7 +176,39 @@
 {% block scripts %}
 
 <script>
+  function packMasonryGrid(article) {
+    if (!article) { return; }
+    var styles = window.getComputedStyle(article);
+    var rowHeight = parseFloat(styles.getPropertyValue("grid-auto-rows")) || 8;
+    var rowGap = parseFloat(styles.getPropertyValue("row-gap")) || 0;
+    var sections = article.querySelectorAll(":scope > section");
+    sections.forEach(function (section) {
+      section.style.gridRowEnd = "span 1";
+    });
+    sections.forEach(function (section) {
+      var contentHeight = section.getBoundingClientRect().height;
+      var span = Math.ceil((contentHeight + rowGap) / (rowHeight + rowGap));
+      section.style.gridRowEnd = "span " + span;
+    });
+  }
+
+  function packAllMasonryGrids() {
+    packMasonryGrid(document.querySelector("#tab_num > article"));
+    packMasonryGrid(document.querySelector("#tab_name > article"));
+  }
+
+  function debounce(fn, delay) {
+    var timer = null;
+    return function () {
+      clearTimeout(timer);
+      timer = setTimeout(fn, delay);
+    };
+  }
+
   $(document).ready(function () {
+    packAllMasonryGrids();
+    $(window).on("resize", debounce(packAllMasonryGrids, 150));
+
     $("#button_num, #button_name").on("click", function (e) {
       e.preventDefault();
       var target = $(this).attr("href");
@@ -183,6 +216,7 @@
       $(this).parent("li").addClass("active");
       $(".tab-pane").removeClass("active show");
       $(target).addClass("active show");
+      packMasonryGrid(document.querySelector(target + " > article"));
     });
   });
 </script>
