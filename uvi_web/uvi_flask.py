@@ -157,7 +157,23 @@ def contact_us():
 
 	return render_template('contact.html')
 
-SECTION_ORDER = ['Recent Work', 'Background Publications']
+SECTION_ORDER = [
+	'Understanding the Current VerbNet',
+	'Foundational Books and Papers',
+	'Evaluation and Evolution of VerbNet and Related Resources (Semlink, VerbNet Parser)',
+	'Uses of VerbNet',
+	'Linguistically Diverse VerbNets',
+]
+
+SECTION_INTROS = {
+	'Understanding the Current VerbNet': (
+		"The first two resources provide comprehensive explanations of VerbNet's structure, "
+		"components, and use, most of which applies to the current version of VerbNet. However, "
+		"VerbNet's semantic representations and, to a lesser extent, its thematic roles have "
+		"undergone significant revision. See the third resource (Brown et al., 2022) for a "
+		"description of those revisions."
+	),
+}
 
 def grouped_publications():
 	'''Fetch all publications from Mongo, grouped by section (newest year first within
@@ -171,7 +187,7 @@ def grouped_publications():
 		pub_list.sort(key=lambda p: (-(p.get('year') or 0), p.get('order', 0)))
 	ordered_sections = [s for s in SECTION_ORDER if s in sections]
 	ordered_sections += [s for s in sections if s not in ordered_sections]
-	return [{'name': s, 'slug': re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-'), 'pubs': sections[s]} for s in ordered_sections]
+	return [{'name': s, 'slug': re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-'), 'intro': SECTION_INTROS.get(s), 'pubs': sections[s]} for s in ordered_sections]
 
 @app.route('/publications', methods=['GET'])
 def publications_page():

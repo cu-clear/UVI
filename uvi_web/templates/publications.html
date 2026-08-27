@@ -22,6 +22,7 @@
       {% for section in sections %}
       <div class="tab-pane{% if loop.first %} active{% endif %}" id="{{ section.slug }}" role="tabpanel">
         <h2>{{ section.name }}</h2>
+        {% if section.intro %}<p class="pub-intro">{{ section.intro }}</p>{% endif %}
         <p class="pub-intro">Titles link to the publisher or to an open-access copy where one is available.</p>
 
         <ul class="pub-list">

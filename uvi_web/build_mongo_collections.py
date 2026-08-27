@@ -899,10 +899,13 @@ def build_propbank_collection():
 ################################################################################################################################################################
 
 def build_publications_collection():
-	'''Seed of the `publications` collection from the publications that used to be
-	hardcoded in templates/publications.html. Safe to re-run on any environment: each seed
-	entry is upserted by (section, title), so it restores/updates just those canonical
-	entries without touching unrelated publications added later through the admin UI.'''
+	'''Seed of the `publications` collection, grouped into 5 sections: Understanding the
+	Current VerbNet, Foundational Books and Papers, Evaluation and Evolution of VerbNet and
+	Related Resources (Semlink, VerbNet Parser), Uses of VerbNet, and Linguistically Diverse
+	VerbNets. Safe to re-run on any environment: each seed entry is upserted by (section,
+	title), so it restores/updates just those canonical entries without touching unrelated
+	publications added later through the admin UI. Also retires any leftover documents from
+	the older 'Recent Work' / 'Background Publications' section names (see below).'''
 
 	def authors_list(raw):
 		return [a.strip().rstrip('.') for a in raw.split(';') if a.strip()]
@@ -910,99 +913,437 @@ def build_publications_collection():
 	def citation_of(authors, title, venue):
 		return '{}. {}. {}'.format('; '.join(authors), title, venue)
 
+	SEC_UNDERSTANDING = 'Understanding the Current VerbNet'
+	SEC_FOUNDATIONAL = 'Foundational Books and Papers'
+	SEC_EVALUATION = 'Evaluation and Evolution of VerbNet and Related Resources (Semlink, VerbNet Parser)'
+	SEC_USES = 'Uses of VerbNet'
+	SEC_DIVERSE = 'Linguistically Diverse VerbNets'
+
 	seed_publications = [
-		# Recent Work
+		# Understanding the Current VerbNet
 		{
-			'section': 'Recent Work', 'year': 2018,
-			'authors': authors_list('Brown, Susan W.; Pustejovsky, James; Zaenen, Annie; Palmer, Martha.'),
-			'title': 'Integrating Generative Lexicon Event Structures into VerbNet',
-			'hyperlink': 'http://www.lrec-conf.org/proceedings/lrec2018/pdf/1056.pdf',
-			'venue': 'In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018). Miyazaki, Japan.',
+			'section': SEC_UNDERSTANDING, 'year': 2022,
+			'authors': authors_list('Brown, Susan Windisch; Bonn, Julia; Kazeminejad, Ghazaleh; Zaenen, Annie; Pustejovsky, James; Palmer, Martha.'),
+			'title': 'Semantic representations for nlp using verbnet and the generative lexicon',
+			'hyperlink': '',
+			'venue': 'Frontiers in artificial intelligence 5: 821697.',
 		},
 		{
-			'section': 'Recent Work', 'year': 2017,
-			'authors': authors_list('Palmer, Martha; Gung, James; Bonial, Claire; Choi, Jinho; Hargraves, Orin; Palmer, Derek; Stowe, Kevin.'),
-			'title': 'The Pitfalls of Shortcuts: Tales from the word sense tagging trenches',
-			'hyperlink': 'https://scholar.google.com/scholar?q=%22The+Pitfalls+of+Shortcuts%3A+Tales+from+the+word+sense+tagging+trenches%22',
-			'venue': 'Essays in Lexical Semantics and Computational Lexicography – In Honor of Adam Kilgarriff. M. Diab, A. Villavicencio, M. Apidianaki, V. Kordoni, A. Korhonen, P. Nakov, M. Stevenson (editors). Springer series Text, Speech and Language Technology. Springer.',
-		},
-		{
-			'section': 'Recent Work', 'year': 2017,
+			'section': SEC_UNDERSTANDING, 'year': 2017,
 			'authors': authors_list('Palmer, Martha; Bonial, Claire; Hwang, Jena D.'),
 			'title': 'VerbNet: Capturing English verb behavior, meaning and usage',
 			'hyperlink': 'https://academic.oup.com/edited-volume/34641/chapter/295177378',
 			'venue': 'The Oxford Handbook of Cognitive Science, ed. Susan Chipman. Oxford University Press.',
 		},
 		{
-			'section': 'Recent Work', 'year': 2017,
-			'authors': authors_list('Green, Meredith; Hargraves, Orin; Bonial, Claire; Chen, Jinying; Clark, Lyndsie; Palmer, Martha.'),
-			'title': 'VerbNet/OntoNotes-based sense annotation',
-			'hyperlink': 'https://link.springer.com/chapter/10.1007/978-94-024-0881-2_26',
-			'venue': 'In The Handbook of Linguistic Annotations, ed. James Pustejovsky and Nancy Ide. Springer.',
+			'section': SEC_UNDERSTANDING, 'year': None,
+			'authors': [],
+			'title': 'VerbNet Guidelines',
+			'hyperlink': 'http://verbs.colorado.edu/verb-index/VerbNet_Guidelines.pdf',
+			'venue': '',
 		},
+		# Foundational Books and Papers
 		{
-			'section': 'Recent Work', 'year': 2016,
-			'authors': authors_list('Pustejovsky, James; Palmer, Martha; Zaenen, Annie; Brown, Susan W.'),
-			'title': 'Integrating VerbNet and GL Predicative Structures',
-			'hyperlink': 'https://scholarworks.brandeis.edu/esploro/outputs/conferencePaper/Verb-Meaning-in-Context-Integrating-VerbNet/9924147742001921',
-			'venue': 'Interoperability for Semantic Annotation (ISA-12) with LREC-2016. Portorož, Slovenia.',
-		},
-		{
-			'section': 'Recent Work', 'year': 2013,
-			'authors': authors_list('Bonial, Claire; Hargraves, Orin; Palmer, Martha.'),
-			'title': 'Expanding VerbNet with Sketch Engine',
-			'hyperlink': 'https://aclanthology.org/W13-5407/',
-			'venue': 'In Proceedings of the Generative Lexicon Conference (GenLex-13). Pisa, Italy.',
-		},
-		{
-			'section': 'Recent Work', 'year': 2012,
-			'authors': authors_list('Feeley, Weston; Bonial, Claire; Palmer, Martha.'),
-			'title': 'Evaluating the coverage of VerbNet',
-			'hyperlink': 'https://sigsem.uvt.nl/isa8/isa8_submission_6-1.pdf',
-			'venue': 'In Proceedings of ISA-8: Eighth Joint ACL-ISO Workshop on Interoperable Semantic Annotation. Pisa, Italy.',
-		},
-		{
-			'section': 'Recent Work', 'year': 2011,
-			'authors': authors_list('Bonial, Claire; Brown, Susan W.; Corvey, William; Palmer, Martha; Petukhova, Volha; Bunt, Harry.'),
-			'title': 'An Exploratory Comparison of Thematic Roles in VerbNet and LIRICS',
-			'hyperlink': 'https://let.uvt.nl/general/people/bunt/docs/bonial-final.pdf',
-			'venue': 'In Proceedings of the Sixth Joint ISO-ACL SIGSEM Workshop on Interoperable Semantic Annotation (ISA-6), pp. 39–44.',
-		},
-		# Background Publications
-		{
-			'section': 'Background Publications', 'year': 2008,
+			'section': SEC_FOUNDATIONAL, 'year': 2008,
 			'authors': authors_list('Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.'),
 			'title': 'A Large-scale Classification of English Verbs',
 			'hyperlink': 'https://link.springer.com/article/10.1007/s10579-007-9048-2',
 			'venue': 'Language Resources and Evaluation Journal 42(1). Springer Netherland. pp. 21–40.',
 		},
 		{
-			'section': 'Background Publications', 'year': 2006,
-			'authors': authors_list('Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.'),
-			'title': 'Extending VerbNet with Novel Verb Classes',
-			'hyperlink': 'http://www.lrec-conf.org/proceedings/lrec2006/pdf/468_pdf.pdf',
-			'venue': 'Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC). Genoa, Italy.',
-		},
-		{
-			'section': 'Background Publications', 'year': 2005,
+			'section': SEC_FOUNDATIONAL, 'year': 2005,
 			'authors': authors_list('Schuler, Karin Kipper.'),
 			'title': 'VerbNet: A Broad-Coverage, Comprehensive Verb Lexicon',
 			'hyperlink': 'https://www.proquest.com/openview/7ca4b1b9093522a7d8089ff2e987e74e/1?pq-origsite=gscholar&cbl=18750&diss=y',
 			'venue': 'PhD Dissertation. University of Pennsylvania.',
 		},
 		{
-			'section': 'Background Publications', 'year': 2004,
+			'section': SEC_FOUNDATIONAL, 'year': 1993,
+			'authors': authors_list('Levin, Beth.'),
+			'title': 'English Verb Classes and Alternations: A Preliminary Investigation',
+			'hyperlink': 'https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684144.html',
+			'venue': 'University of Chicago Press.',
+		},
+		# Evaluation and Evolution of VerbNet and Related Resources (Semlink, VerbNet Parser)
+		{
+			'section': SEC_EVALUATION, 'year': 2024,
+			'authors': authors_list('Brown, Susan W.'),
+			'title': "Extending VerbNet's verb-specific features to enhance selectional preferences of semantic roles",
+			'hyperlink': '',
+			'venue': 'In Proceedings of the Fifth International Workshop on Designing Meaning Representations @ LREC-COLING 2024, pp. 124–130.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2024,
+			'authors': authors_list('Tu, Jingxuan; Obiso, Tim; Ye, Bingyang; Rim, Kyeongmin; Xu, Keer; Yue, Liulu; Brown, Susan W.; Palmer, Martha; Pustejovsky, James.'),
+			'title': 'GLAMR: augmenting AMR with GL-VerbNet event structure',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), pp. 7746–7759.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2023,
+			'authors': authors_list('Kazeminejad, Ghazaleh; Palmer, Martha.'),
+			'title': 'Event semantic knowledge in procedural text understanding',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023), pp. 388–398.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2022,
+			'authors': authors_list('Kazeminejad, Ghazaleh; Palmer, Martha; Brown, Susan W.; Pustejovsky, James.'),
+			'title': 'Componential analysis of English verbs',
+			'hyperlink': '',
+			'venue': 'Frontiers in artificial intelligence, 5, 780385.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2021,
+			'authors': authors_list('Majewska, Olga; Collins, Charlotte; Baker, Simon; Björne, Jari; Brown, Susan W.; Korhonen, Anna; Palmer, Martha.'),
+			'title': 'BioVerbNet: A large semantic-syntactic classification of verbs in biomedicine',
+			'hyperlink': '',
+			'venue': 'Journal of Biomedical Semantics, 12(1), p.12.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2021,
+			'authors': authors_list('Gung, James; Palmer, Martha.'),
+			'title': 'Predicate representations and polysemy in VerbNet semantic parsing',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 14th International Conference on Computational Semantics (IWCS), pp. 51–62.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2020,
+			'authors': authors_list('Peterson, Daniel; Brown, Susan W.; Palmer, Martha.'),
+			'title': 'Verb class induction with partial supervision',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 34, No. 05, pp. 8616–8623).',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2020,
+			'authors': authors_list('Croft, William; Vigus, Meagan.'),
+			'title': 'Event causation and force dynamics in argument structure constructions',
+			'hyperlink': '',
+			'venue': 'In Perspectives on Causation: Selected Papers from the Jerusalem 2017 Workshop, pp. 151–183. Cham: Springer International Publishing.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2019,
+			'authors': authors_list('Huminski, Aleksandra; Liausvia, Fiona; Goel, Amitash.'),
+			'title': 'Semantic roles in Verbnet and Framenet: Statistical analysis and evaluation',
+			'hyperlink': '',
+			'venue': 'In International Conference on Computational Linguistics and Intelligent Text Processing, pp. 135–147. Cham: Springer Nature Switzerland.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2019,
+			'authors': authors_list('Brown, Susan W.; Bonn, Julia; Gung, James; Zaenen, Annie; Pustejovsky, James; Palmer, Martha.'),
+			'title': 'VerbNet representations: Subevent semantics for transfer verbs',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the First International Workshop on Designing Meaning Representations, pp. 154–163.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2018,
+			'authors': authors_list('Brown, Susan W.; Pustejovsky, James; Zaenen, Annie; Palmer, Martha.'),
+			'title': 'Integrating Generative Lexicon Event Structures into VerbNet',
+			'hyperlink': 'http://www.lrec-conf.org/proceedings/lrec2018/pdf/1056.pdf',
+			'venue': 'In Proceedings of the Eleventh International Conference on Language Resources and Evaluation (LREC 2018). Miyazaki, Japan.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2018,
+			'authors': authors_list('Peterson, Daniel; Palmer, Martha.'),
+			'title': 'Bayesian verb sense clustering',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 32, No. 1).',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2017,
+			'authors': authors_list('Palmer, Martha; Bonial, Claire; Choi, Jinho; Hargraves, Orin; Palmer, Derek; Stowe, Kevin.'),
+			'title': 'The Pitfalls of Shortcuts: Tales from the word sense tagging trenches',
+			'hyperlink': 'https://scholar.google.com/scholar?q=%22The+Pitfalls+of+Shortcuts%3A+Tales+from+the+word+sense+tagging+trenches%22',
+			'venue': 'Essays in Lexical Semantics and Computational Lexicography - In Honor of Adam Kilgarriff. M. Diab, A. Villavicencio, M. Apidianaki, V. Kordoni, A. Korhonen, P. Nakov, M. Stevenson (editors). Springer series Text, Speech and Language Technology. Springer.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2017,
+			'authors': authors_list('Green, Meredith; Hargraves, Orin; Bonial, Claire; Chen, Jinying; Clark, Lyndsie; Palmer, Martha.'),
+			'title': 'VerbNet/OntoNotes-based sense annotation',
+			'hyperlink': 'https://link.springer.com/chapter/10.1007/978-94-024-0881-2_26',
+			'venue': 'In The Handbook of Linguistic Annotations, ed. James Pustejovsky and Nancy Ide. Springer.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2016,
+			'authors': authors_list('Pustejovsky, James; Palmer, Martha; Zaenen, Annie; Brown, Susan W.'),
+			'title': 'Integrating VerbNet and GL Predicative Structures',
+			'hyperlink': 'https://scholarworks.brandeis.edu/esploro/outputs/conferencePaper/Verb-Meaning-in-Context-Integrating-VerbNet/9924147742001921',
+			'venue': 'Interoperability for Semantic Annotation (ISA-12) with LREC-2016. Portorož, Slovenia.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2013,
+			'authors': authors_list('Bonial, Claire; Hargraves, Orin; Palmer, Martha.'),
+			'title': 'Expanding VerbNet with Sketch Engine',
+			'hyperlink': 'https://aclanthology.org/W13-5407/',
+			'venue': 'In Proceedings of the Generative Lexicon Conference (GenLex-13). Pisa, Italy.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2012,
+			'authors': authors_list('Feeley, Weston; Bonial, Claire; Palmer, Martha.'),
+			'title': 'Evaluating the coverage of VerbNet',
+			'hyperlink': 'https://sigsem.uvt.nl/isa8/isa8_submission_6-1.pdf',
+			'venue': 'In Proceedings of ISA-8: Eighth Joint ACL-ISO Workshop on Interoperable Semantic Annotation. Pisa, Italy.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2011,
+			'authors': authors_list('Bonial, Claire; Brown, Susan W.; Corvey, William; Palmer, Martha; Petukhova, Volha; Bunt, Harry.'),
+			'title': 'An Exploratory Comparison of Thematic Roles in VerbNet and LIRICS',
+			'hyperlink': 'https://let.uvt.nl/general/people/bunt/docs/bonial-final.pdf',
+			'venue': 'In Proceedings of the Sixth Joint ISO-ACL SIGSEM Workshop on Interoperable Semantic Annotation (ISA-6), pp. 39–44.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2006,
+			'authors': authors_list('Kipper, Karin; Korhonen, Anna; Ryant, Neville; Palmer, Martha.'),
+			'title': 'Extending VerbNet with Novel Verb Classes',
+			'hyperlink': 'http://www.lrec-conf.org/proceedings/lrec2006/pdf/468_pdf.pdf',
+			'venue': 'Proceedings of the Fifth International Conference on Language Resources and Evaluation (LREC). Genoa, Italy.',
+		},
+		{
+			'section': SEC_EVALUATION, 'year': 2004,
 			'authors': authors_list('Korhonen, Anna; Briscoe, Ted.'),
 			'title': 'Extended Lexical-Semantic Classification of English Verbs',
 			'hyperlink': 'https://aclanthology.org/W04-2606/',
 			'venue': 'In Proceedings of the HLT/NAACL Workshop on Computational Lexical Semantics. Boston, MA.',
 		},
+		# Uses of VerbNet
 		{
-			'section': 'Background Publications', 'year': 1993,
-			'authors': authors_list('Levin, Beth.'),
-			'title': 'English Verb Classes and Alternations: A Preliminary Investigation',
-			'hyperlink': 'https://press.uchicago.edu/ucp/books/book/chicago/E/bo3684144.html',
-			'venue': 'University of Chicago Press.',
+			'section': SEC_USES, 'year': 2026,
+			'authors': authors_list('Rim, Kyeongmin; Pustejovsky, James.'),
+			'title': 'Subevent structure as a predictor of entity identity change in procedural text',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the Workshop on Structured Linguistic Data and Evaluation (SLiDE).',
+		},
+		{
+			'section': SEC_USES, 'year': 2026,
+			'authors': authors_list('Ahmed, Wafaa; Ivy, Bassey P. U.; Mapari, Suraj; Mahmoud, Ahmed; El-Batrawy, Hend.'),
+			'title': 'Exploring machine learning approaches to predicting semantic roles from syntactic frames',
+			'hyperlink': '',
+			'venue': 'In 2026 International Conference on Electronics and Renewable Systems (ICEARS), pp. 1807–1813. IEEE.',
+		},
+		{
+			'section': SEC_USES, 'year': 2026,
+			'authors': authors_list('Singh, Diksha P.; Gusain, Divyansh; Bulgarelli, Federica; Hendricks, Anna E.; Beavers, John; Beers, Nathan M.; Nwogu, Ifeoma.'),
+			'title': 'A scalable tool for measuring manner and result verbs in developmental language research',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 1st Workshop on Computational Developmental Linguistics (CDL), pp. 117–128.',
+		},
+		{
+			'section': SEC_USES, 'year': 2026,
+			'authors': authors_list('Farina, Alessia; Passarotti, Marco; Mambrini, Francesco; Pellegrini, Matteo; Moretti, Giovanni; Litta, Eleonora.'),
+			'title': 'PREMOVE In LiLa: Integrating Latin preverbed motion verbs with WordNet and VerbNet',
+			'hyperlink': '',
+			'venue': 'In The Fifteenth Language Resources and Evaluation Conference (LREC 2026), pp. 3672–3683. European Language Resources Association (ELRA).',
+		},
+		{
+			'section': SEC_USES, 'year': 2023,
+			'authors': authors_list('Li, Tao; Kazeminejad, Ghazaleh; Brown, Susan W.; Srikumar, Vivek; Palmer, Martha.'),
+			'title': 'Learning semantic role labeling from compatible label sequences',
+			'hyperlink': '',
+			'venue': 'In Findings of the Association for Computational Linguistics: EMNLP 2023, pp. 15561–15572.',
+		},
+		{
+			'section': SEC_USES, 'year': 2023,
+			'authors': authors_list('Grasso, Francesco; Rulfi, Valentina L.; Caro, Luigi Di.'),
+			'title': 'Verbalignet: Unlocking multilingual exploration of verbal arguments',
+			'hyperlink': '',
+			'venue': 'In Research Conference on Metadata and Semantics Research, pp. 3–17. Cham: Springer Nature Switzerland.',
+		},
+		{
+			'section': SEC_USES, 'year': 2023,
+			'authors': authors_list('Sowański, Maciej; Janicki, Artur.'),
+			'title': 'Optimizing machine translation for virtual assistants: Multi-variant generation with VerbNet and conditional beam search',
+			'hyperlink': '',
+			'venue': 'In 2023 18th Conference on Computer Science and Intelligence Systems (FedCSIS), pp. 1149–1154. IEEE.',
+		},
+		{
+			'section': SEC_USES, 'year': 2022,
+			'authors': authors_list('Strelnikoff, Sonya; Jammalamadaka, Aditya; Lu, Tsai-Ching.'),
+			'title': 'Semantic causal abstraction for event prediction',
+			'hyperlink': '',
+			'venue': 'In International Cross-Domain Conference for Machine Learning and Knowledge Extraction, pp. 188–200. Cham: Springer International Publishing.',
+		},
+		{
+			'section': SEC_USES, 'year': 2021,
+			'authors': authors_list('Kazeminejad, Ghazaleh; Palmer, Martha; Li, Tao; Srikumar, Vivek.'),
+			'title': 'Automatic entity state annotation using the VerbNet semantic parser',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the Joint 15th Linguistic Annotation Workshop (LAW) and 3rd Designing Meaning Representations (DMR) Workshop, pp. 123–132.',
+		},
+		{
+			'section': SEC_USES, 'year': 2021,
+			'authors': authors_list('Basu, Kinjal; Varanasi, Sarat Chandra; Shakerin, Farhad; Arias, Joaquín; Gupta, Gopal.'),
+			'title': 'Knowledge-driven natural language understanding of English text and its applications',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 14, pp. 12554–12563).',
+		},
+		{
+			'section': SEC_USES, 'year': 2020,
+			'authors': authors_list('Diwanji, Prakhar; Guo, Hongkai; Singh, Munindar P.; Kalia, Anup.'),
+			'title': 'Lin: Unsupervised extraction of tasks from textual communication',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 28th International Conference on Computational Linguistics, pp. 1815–1819.',
+		},
+		{
+			'section': SEC_USES, 'year': 2020,
+			'authors': authors_list('Amjad, Zainab; Ihsan, Iqra.'),
+			'title': 'VerbNet-based citation sentiment class assignment using machine learning',
+			'hyperlink': '',
+			'venue': 'International Journal of Advanced Computer Science and Applications, 11(9).',
+		},
+		{
+			'section': SEC_USES, 'year': 2019,
+			'authors': authors_list('Scicluna, Simon; Strapparava, Carlo.'),
+			'title': 'The visual representation of abstract verbs: merging verb classification with iconicity in sign language',
+			'hyperlink': '',
+			'venue': 'In 2019 IEEE International Conference on Cognitive Computing (ICCC), pp. 73–80. IEEE.',
+		},
+		{
+			'section': SEC_USES, 'year': 2017,
+			'authors': authors_list('Wali, Wafa; Gargouri, Bilel; Hamadou, Abdelmajid Ben.'),
+			'title': 'Sentence similarity computation based on WordNet and VerbNet',
+			'hyperlink': '',
+			'venue': 'Computación y Sistemas, 21(4), pp. 627–635.',
+		},
+		{
+			'section': SEC_USES, 'year': 2016,
+			'authors': authors_list('Gerz, Daniela; Vulić, Ivan; Hill, Felix; Reichart, Roi; Korhonen, Anna.'),
+			'title': 'Simverb-3500: A large-scale evaluation set of verb similarity',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp. 2173–2182.',
+		},
+		# Linguistically Diverse VerbNets
+		{
+			'section': SEC_DIVERSE, 'year': 2024,
+			'authors': authors_list('Chungnoi, Kanthika; Kongkachandra, Rattapoom; Gulyanon, Signal.'),
+			'title': 'The computational method for supporting Thai VerbNet construction',
+			'hyperlink': '',
+			'venue': 'ACM Transactions on Asian and Low-Resource Language Information Processing, 23(2), pp. 1–15.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2024,
+			'authors': authors_list('Akram, Sana; Tahir, Muhammad Sarmad.'),
+			'title': 'Mapping of English and Punjabi verb classes; a corpus based study',
+			'hyperlink': '',
+			'venue': 'Journal of Arts and Linguistics Studies, 2(2), pp. 727–751.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2023,
+			'authors': authors_list('Vetulani, Zygmunt; Vetulani, Grażyna.'),
+			'title': 'Towards lexicon-grammar VerbNets through lexical ontologies',
+			'hyperlink': '',
+			'venue': 'Neophilologica, 35, pp. 1–32.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2023,
+			'authors': authors_list('Liu, Mei-chun.'),
+			'title': 'Semantic Annotation and Mandarin VerbNet',
+			'hyperlink': '',
+			'venue': 'In Chinese Language Resources: Data Collection, Linguistic Analysis, Annotation and Language Processing, pp. 187–210. Cham: Springer International Publishing.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2020,
+			'authors': authors_list('Liu, Mei-chun.'),
+			'title': 'The construction and annotation of a semantically enriched database: the Mandarin VerbNet and its NLP applications',
+			'hyperlink': '',
+			'venue': 'From minimal contrast to meaning construct: Corpus-based, near synonym driven approaches to Chinese lexical semantics, pp. 257–272.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2020,
+			'authors': authors_list('Estarrona, Aitziber; Aldezabal, Izaskun; Díaz de Ilarraza, Arantza.'),
+			'title': 'How the corpus-based Basque Verb Index lexicon was built',
+			'hyperlink': '',
+			'venue': 'Language Resources and Evaluation, 54(1), pp. 73–95.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2020,
+			'authors': authors_list('Linh, Ha Manh; Huyen, Nguyen Thi Minh.'),
+			'title': 'Construction of a VerbNet style lexicon for Vietnamese',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 34th Pacific Asia Conference on Language, Information and Computation, pp. 84–91.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2017,
+			'authors': authors_list('Bick, Eckhard.'),
+			'title': 'From treebank to Propbank: A semantic-role and VerbNet corpus for Danish',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 21st Nordic Conference on Computational Linguistics, pp. 202–210.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2016,
+			'authors': authors_list('Danlos, Laurence; Pradet, Quentin; Barque, Lucie; Nakamura, Takuya; Constant, Matthieu.'),
+			'title': 'Un Verbenet du français [A Verbnet for French]',
+			'hyperlink': '',
+			'venue': 'Traitement automatique des langues, 57(1), pp. 33–58.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2016,
+			'authors': authors_list('Busso, Lucia; Lenci, Alessandro.'),
+			'title': 'Italian VerbNet: a construction-based approach to Italian verb classification',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016), pp. 2633–2642. ELRA.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2016,
+			'authors': authors_list('Hautli-Janisz, Annette.'),
+			'title': 'See the forest and the trees: visual verb class identification in Urdu/Hindi VerbNet',
+			'hyperlink': '',
+			'venue': 'VisLR II: Visualization as Added Value in the Development, Use and Evaluation of Language Resources, p. 16.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2015,
+			'authors': authors_list('Hautli, Annette; King, Tracy Holloway; Ramchand, Gillian.'),
+			'title': 'Encoding event structure in urdu/hindi verbnet',
+			'hyperlink': '',
+			'venue': 'In Proceedings of the 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation, pp. 25–33.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2014,
+			'authors': authors_list('Pradet, Quentin; Danlos, Laurence; De Chalendar, Gaël.'),
+			'title': 'Adapting VerbNet to French using existing resources',
+			'hyperlink': '',
+			'venue': "In LREC'14 - Ninth International Conference on Language Resources and Evaluation.",
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2014,
+			'authors': authors_list('Scarton, Carolina; Duran, Magali Sanches; Aluísio, Sandra M.'),
+			'title': 'Using cross-linguistic knowledge to build VerbNet-style lexicons: Results for a (Brazilian) Portuguese VerbNet',
+			'hyperlink': '',
+			'venue': 'In Computational Processing of the Portuguese Language: 11th International Conference, PROPOR 2014, pp. 149–160. Springer International Publishing.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2012,
+			'authors': authors_list('Scarton, Carolina; Aluísio, Sandra.'),
+			'title': 'Towards a cross-linguistic VerbNet-style lexicon for Brazilian Portuguese',
+			'hyperlink': '',
+			'venue': 'In Workshop on Creating Cross-language Resources for Disconnected Languages and Styles Workshop Programme, p. 11.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2011,
+			'authors': authors_list('Mousser, Jaouad.'),
+			'title': 'Classifying arabic verbs using sibling classes',
+			'hyperlink': '',
+			'venue': 'In the Proceedings of the International Workshop on Computational Semantics, Oxford, UK.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2010,
+			'authors': authors_list('Sun, Lin; Korhonen, Anna; Poibeau, Thierry; Messiant, Cédric.'),
+			'title': 'Investigating the cross-linguistic potential of VerbNet-style classification',
+			'hyperlink': '',
+			'venue': 'In CoLing 2010, p. 94.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2010,
+			'authors': authors_list('Mousser, Jaouad.'),
+			'title': 'A Large Coverage Verb Taxonomy for Arabic',
+			'hyperlink': '',
+			'venue': 'In LREC.',
+		},
+		{
+			'section': SEC_DIVERSE, 'year': 2008,
+			'authors': authors_list('Liu, Mei-chun; Chiang, Ting-yi.'),
+			'title': 'The construction of Mandarin VerbNet: A frame-based study of statement verbs',
+			'hyperlink': '',
+			'venue': 'Language and Linguistics 9, no. 2: 239–270.',
 		},
 	]
 
@@ -1013,6 +1354,13 @@ def build_publications_collection():
 		pub['citation'] = citation_of(pub['authors'], pub['title'], pub['venue'])
 
 	publications_collection = db['publications']
+	# The old 'Recent Work' / 'Background Publications' sections were retired in favor of
+	# the 5 sections above; every title that lived there has been re-seeded under its new
+	# section name, so the old-named documents are now orphaned duplicates. Remove them.
+	retired = publications_collection.delete_many({'section': {'$in': ['Recent Work', 'Background Publications']}})
+	if retired.deleted_count:
+		print("Removed {} publication(s) under retired section names.".format(retired.deleted_count))
+
 	upserted, matched = 0, 0
 	for pub in seed_publications:
 		result = publications_collection.update_one(
